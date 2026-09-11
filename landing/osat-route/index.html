@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Khung cơ chế vận hành cho đóng gói và kiểm thử bán dẫn: lot, test data, truy xuất và cost close.">
+  <title>OSAT | Kết nối dữ liệu vận hành</title>
+  <style>
+    :root{--ink:#10233f;--muted:#52647a;--blue:#1769e0;--cyan:#2dd4bf;--line:#dbe5f0;--paper:#f5f8fc;--white:#fff;--shadow:0 18px 50px rgba(19,47,82,.12)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--paper);line-height:1.55}a{color:inherit}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+    .hero{position:relative;overflow:hidden;background:linear-gradient(120deg,#0c1e38 0%,#123f72 58%,#087b91 100%);color:var(--white);padding:24px 0 84px}.hero:after{content:"";position:absolute;inset:auto -10% -180px 45%;height:360px;border:1px solid rgba(255,255,255,.18);border-radius:50%;transform:rotate(-12deg)}.nav{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:1}.brand{font-size:1.05rem;font-weight:800;letter-spacing:.04em}.eyebrow{color:#90f4df;text-transform:uppercase;font-size:.76rem;letter-spacing:.16em;font-weight:800;margin:72px 0 14px}.hero h1{font-size:clamp(2.25rem,5vw,4.7rem);line-height:1.04;max-width:760px;margin:0 0 22px;letter-spacing:-.045em}.hero .lead{font-size:clamp(1.05rem,2vw,1.3rem);max-width:650px;color:#d9e8f7;margin:0 0 34px}.button{display:inline-flex;align-items:center;gap:10px;background:var(--cyan);color:#062c3c;text-decoration:none;font-weight:800;padding:13px 19px;border-radius:999px;box-shadow:0 10px 25px rgba(45,212,191,.2);transition:transform .2s ease,box-shadow .2s ease}.button:hover,.button:focus-visible{transform:translateY(-2px);box-shadow:0 14px 30px rgba(45,212,191,.32)}
+    section{padding:80px 0}.section-label{color:var(--blue);font-weight:800;font-size:.78rem;text-transform:uppercase;letter-spacing:.14em}.intro{display:grid;grid-template-columns:1fr 1.2fr;gap:64px;align-items:start}.intro h2{font-size:clamp(1.9rem,4vw,3.1rem);line-height:1.12;margin:12px 0}.intro p{color:var(--muted);font-size:1.08rem}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:35px}.card{background:var(--white);border:1px solid var(--line);border-radius:18px;padding:25px;box-shadow:var(--shadow)}.card .num{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:50%;background:#e3f6f3;color:#087b78;font-weight:800}.card h3{font-size:1.2rem;margin:18px 0 8px}.card p{color:var(--muted);margin:0}.flow{background:#eaf2fb}.flow h2,.cta h2{font-size:clamp(1.9rem,4vw,3rem);line-height:1.12;margin:12px 0 20px}.flow-intro{max-width:650px;color:var(--muted)}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:38px}.step{position:relative;padding:0 22px 0 0}.step:not(:last-child):after{content:"→";position:absolute;right:12px;top:18px;color:var(--blue);font-size:1.7rem}.step strong{display:block;margin:13px 0 5px}.step p{color:var(--muted);font-size:.95rem;margin:0}.step .dot{width:40px;height:40px;border-radius:12px;background:var(--blue);color:white;display:grid;place-items:center;font-weight:800}.cta{padding:76px 0;background:linear-gradient(120deg,#e4fbf7,#f3f8ff)}.cta-box{display:flex;justify-content:space-between;gap:30px;align-items:center;background:var(--white);border:1px solid #cde7e5;border-radius:24px;padding:38px 42px;box-shadow:var(--shadow)}.cta p{color:var(--muted);max-width:620px;margin:0}.cta .button{flex:none;background:var(--blue);color:#fff;box-shadow:0 10px 25px rgba(23,105,224,.2)}footer{padding:25px 0;color:#6b7d91;font-size:.85rem;border-top:1px solid var(--line)}
+    @media(max-width:800px){.wrap{width:min(100% - 30px,640px)}.hero{padding-bottom:66px}.eyebrow{margin-top:55px}.intro{grid-template-columns:1fr;gap:8px}.grid{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr;gap:30px}.step:not(:last-child):after{display:none}.cta-box{display:block;padding:28px 25px}.cta .button{margin-top:24px}.nav{font-size:.92rem}}
+    @media(max-width:460px){.steps{grid-template-columns:1fr}.hero h1{font-size:2.35rem}section{padding:60px 0}}
+  </style>
+</head>
+<body>
+  <header class="hero" id="hero" data-track-section="hero">
+    <div class="wrap">
+      <nav class="nav" aria-label="Điều hướng"><div class="brand">DIGIWIN / SEMICONDUCTOR</div><span>OSAT route · bản nháp</span></nav>
+      <div class="eyebrow">Đóng gói &amp; kiểm thử bán dẫn</div>
+      <h1>Khi dữ liệu theo lot không đứng cùng một dòng.</h1>
+      <p class="lead">Một khung cơ chế để nối bối cảnh 4M1E, kết quả test, truy xuất, WIP và cost close — giúp đội vận hành nhìn cùng một luồng thông tin khi cần phản ứng.</p>
+      <a class="button" href="#mechanism" data-osat-cta="hero">Xem khung cơ chế <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section id="mechanism" data-track-section="mechanism">
+      <div class="wrap intro"><div><div class="section-label">Điểm cần nối</div><h2>Không chỉ là thêm một màn hình.</h2></div><p>Trong môi trường OSAT, một câu hỏi về chất lượng có thể cần đi qua lot, máy, người, vật tư, công đoạn và dữ liệu test. Khung dưới đây bắt đầu từ mối liên kết của dữ liệu để đội ngũ tự đối chiếu với quy trình hiện tại.</p></div>
+      <div class="wrap grid"><article class="card"><span class="num">01</span><h3>Lot &amp; WIP</h3><p>Giữ được mối liên hệ giữa trạng thái WIP, split/merge và các bước xử lý tiếp theo.</p></article><article class="card"><span class="num">02</span><h3>Test &amp; traceability</h3><p>Đặt dữ liệu test và ngữ cảnh 4M1E cạnh nhau để lần theo một điểm bất thường.</p></article><article class="card"><span class="num">03</span><h3>Quality &amp; cost</h3><p>Đưa thông tin chất lượng và dữ liệu vận hành vào cuộc đối soát cost close có căn cứ.</p></article></div>
+    </section>
+
+    <section class="flow" id="operating-view" data-track-section="operating_view">
+      <div class="wrap"><div class="section-label">Một luồng xem xét</div><h2>Từ tín hiệu tại xưởng đến quyết định.</h2><p class="flow-intro">Các bước là khung thảo luận cơ chế, không phải cam kết về một sản phẩm, thời gian hay kết quả cụ thể.</p><div class="steps"><div class="step"><div class="dot">1</div><strong>Ghi nhận</strong><p>Lot, công đoạn và bối cảnh 4M1E.</p></div><div class="step"><div class="dot">2</div><strong>Đối chiếu</strong><p>Kết quả test và dấu vết liên quan.</p></div><div class="step"><div class="dot">3</div><strong>Truy nguyên</strong><p>Khoanh vùng WIP và điểm cần kiểm tra.</p></div><div class="step"><div class="dot">4</div><strong>Đối soát</strong><p>Thông tin đủ rõ cho quality và cost close.</p></div></div></div>
+    </section>
+
+    <section class="cta" id="route-note" data-track-section="route_note"><div class="wrap cta-box"><div><div class="section-label">Bước tiếp theo</div><h2>Bạn đang vướng ở điểm nối nào?</h2><p>Chọn một pain point trong quy trình OSAT để bắt đầu cuộc trao đổi vận hành. Không cần gửi dữ liệu sản xuất qua trang này.</p></div><a class="button" href="#mechanism" data-osat-cta="route_note">Đối chiếu pain point <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer><div class="wrap">Bản nháp nội bộ · Nội dung cơ chế, chưa bao gồm case hoặc số liệu đã xác minh.</div></footer>
+
+  <script>
+    (function () {
+      'use strict';
+      window.dataLayer = window.dataLayer || [];
+      function pushCandidate(eventName, payload) { window.dataLayer.push(Object.assign({ event: eventName }, payload || {})); }
+      var sections = document.querySelectorAll('[data-track-section]');
+      var active = Object.create(null);
+      var enteredAt = Object.create(null);
+      var seen = Object.create(null);
+      function enter(section) { var name = section.getAttribute('data-track-section'); active[name] = true; enteredAt[name] = Date.now(); if (!seen[name]) { seen[name] = true; pushCandidate('section_view', { section_name: name }); } }
+      function leave(section) { var name = section.getAttribute('data-track-section'); if (!active[name]) return; var seconds = Math.round((Date.now() - enteredAt[name]) / 1000); active[name] = false; if (seconds > 0 && seconds <= 3600) pushCandidate('section_engagement_time', { section_name: name, engagement_seconds: seconds }); }
+      if ('IntersectionObserver' in window) { var observer = new IntersectionObserver(function (entries) { entries.forEach(function (entry) { if (entry.isIntersecting) enter(entry.target); else leave(entry.target); }); }, { threshold: 0.5 }); Array.prototype.forEach.call(sections, function (section) { observer.observe(section); }); }
+      Array.prototype.forEach.call(document.querySelectorAll('[data-osat-cta]'), function (link) { link.addEventListener('click', function () { pushCandidate('osat_cta_click', { cta_location: link.getAttribute('data-osat-cta') }); }); });
+      window.addEventListener('pagehide', function () { Array.prototype.forEach.call(sections, leave); });
+    }());
+  </script>
+</body>
+</html>
