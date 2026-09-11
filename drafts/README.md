@@ -2,7 +2,7 @@
 
 **Status:** draft only / no live validation  
 **Owner:** Executor in this batch  
-**Workspace:** public Git canonical `D:\Digiwin_Semiconducter_Workspace`  
+**Workspace:** public Git canonical `D:\Digiwin_Semiconducter_Workspace`
 **Date:** 2026-09-11 (Asia/Ho_Chi_Minh)
 
 ## Source boundary
