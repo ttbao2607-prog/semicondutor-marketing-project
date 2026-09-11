@@ -6,6 +6,8 @@ Marketing operations workspace for planning and governing paid semiconductor act
 
 Canonical execution active; authenticated validation and draft/paused remote preparation may proceed under plan gates. Publication is action-time gated; enable/spend are not authorized.
 
+Sanitized validation status: Google Campaigns, Ad groups, Settings and Keyword Planner are functional; the orange objective-update banner is informational/non-blocking. Keyword Planner currently returns supplied seed rows without displayed metrics, so demand remains unvalidated. LinkedIn account/audience validation remains pending.
+
 ## Source hierarchy
 
 Current instruction from Bảo > `Semiconductor_Work_Kickoff.md` v2.0 > `Semiconductor - Website & Ads.md` > `AGENTS.md`.
@@ -17,6 +19,11 @@ Current instruction from Bảo > `Semiconductor_Work_Kickoff.md` v2.0 > `Semicon
 - `Semiconductor - Website & Ads.md` — source brief and website context.
 - `drafts/` — S01–S04 research and planning drafts.
 - `operations/Pre_Ad_Readiness_Plan.md` — canonical pre-ad execution plan and launch gates.
+- `operations/Public_Source_Register.md` — public source and sanitized UI-status register.
+- `tracking/Semiconductor_Tracking_Contract.md` — candidate event/UTM contract and QA matrix.
+- `ads/` — offline Google and LinkedIn build packs.
+- `landing/` — final offline route candidates; publication remains gated.
+- `assets/linkedin/` and `output/pdf/` — offline creative deliverables.
 
 ## Public boundary
 

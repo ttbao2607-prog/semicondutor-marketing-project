@@ -1,6 +1,6 @@
 # S03 — LinkedIn audience research
 
-**Status:** draft only; no LinkedIn account access and no audience uploaded  
+**Status:** draft only; latest direct LinkedIn route redirected to Campaign Manager sign-in; no audience uploaded
 **Owner:** Executor in this batch  
 **Objective:** define a public-source account-universe methodology and role hypotheses while separating candidate identity from verified Campaign Manager delivery evidence.
 
@@ -17,6 +17,10 @@
 **Proposal:** construct a company universe from public sources, then validate exact LinkedIn Page identity and layer role/function/seniority only in authorized UI.
 
 **Unknown:** business manager/account identity, permissions, company-page matches, reachable size, geography/language, expansion settings, exclusions, consent/eligibility and actual delivery.
+
+**Current UI note:** no credentials were entered; account/page/audience validation remains pending and no current account or delivery claim is made.
+
+Production handoff: `../ads/linkedin/LinkedIn_Build_Pack.md`.
 
 ## Candidate account-universe methodology
 

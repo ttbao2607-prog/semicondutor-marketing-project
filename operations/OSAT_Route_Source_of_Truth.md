@@ -1,7 +1,7 @@
 # OSAT route — canonical-source candidate
 
 **Status:** draft candidate for review; no live-account or publication authority.
-**Owner:** paid executor, reporting to the coordinator. **Revision date:** 2026-09-11 (Asia/Ho_Chi_Minh).
+**Owner:** paid executor, reporting to the coordinator. **Revision date:** 2026-09-13 (Asia/Ho_Chi_Minh).
 
 ## Evidence classes
 
@@ -10,11 +10,11 @@
 3. **Technical evidence (read-only):** the supplied GTM/GA4 notes describe existing event naming and section-tracking patterns. They do not authorize changes to tags, containers, destinations or accounts.
 4. **Observed authenticated UI evidence:** the LadiPage HTML-to-LadiPage GUI accepted `osat-route-draft.html` in **Basic** mode, created the clearly named draft, and opened the editor preview. The platform rejected the filename `index.html`, so the byte-identical source was renamed. This evidence covers draft creation/preview only, not publication.
 
-## Known account/UI facts (aggregate, non-sensitive)
+## Sanitized account/UI observations (not public-source evidence)
 
-- Google Ads discovery observed **15 campaigns** in the account context, with **VND / GMT+7** settings observed.
+- Google Ads Campaigns, Ad groups, Settings and Keyword Planner were accessible and functional in sanitized read-only evidence. Existing Search activity has ERP/MES/manufacturing adjacency; no direct OSAT campaign or direct OSAT demand evidence was observed.
 - Active Search inventory and search-term availability were observed.
-- Some settings were blocked by an ad-blocker; exact settings and account identity remain unverified here.
+- Google Campaigns, Ad groups, Settings and Keyword Planner were accessible and functional in sanitized read-only evidence. The orange “Xem xét mục tiêu của chiến dịch...” banner is informational and non-blocking. Keyword Planner returned the six supplied English OSAT seed rows under Vietnam/Vietnamese/Google/last 12 months but displayed no search/competition/bid metrics: `OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION`; this is not a blocker or validated demand. Accessibility/DOM text alone is insufficient for blocker status; future claims require a visibly rendered dialog confirmed by `isVisible()`, reviewed screenshot and actual interaction test.
 - No account IDs, private URLs, credentials, cookies, lead records or audience data are recorded in this source.
 
 ## Unverified items
@@ -23,15 +23,17 @@
 - Account permissions, publication route, domain/URL, form/CRM handoff, consent, tag/container inventory and any proof-use rights.
 - All customer names, case outcomes, percentages, savings, delivery/yield figures and capability counts.
 
-## Approved draft route
+## Route artifacts (distinct revisions)
 
-**OSAT/factory mechanism-only:** connect lot genealogy, 4M1E context, test data, traceability, WIP visibility and cost-close review into a coherent operating view. The page deliberately uses no named customer, case, number, percentage, outcome or unverified capability claim, and has no live lead form. Its CTA is a non-form request to discuss an operating problem; it is not a lead-success or booking claim.
+- **Previously imported LadiPage draft:** `osat-route-draft.html` was imported in Basic mode and previewed. This older draft has no contact-copy UI; the observation proves draft/preview only, not publication.
+- **Current final offline candidate:** `landing/osat-route/osat-lot-test-traceability.html` is the newer mechanism-only candidate. It contains a contact-copy UI and a candidate `copied_contact` event emitted only after copy success with the approved non-PII parameters. This local candidate has not been imported or published.
+- The final candidate connects lot genealogy, 4M1E context, test data, traceability, WIP visibility and cost-close review. It uses no named customer, case, number, percentage, outcome or unverified capability claim, and has no live lead form. Its CTA is a non-form request to discuss an operating problem; it is not a lead-success or booking claim.
 
 ## Tracking boundary
 
-- The HTML contains no hard-coded GTM, GA4, pixel, Ads or other tag ID; it makes no network request, sets no cookie, collects no query parameter and has no form field.
-- Candidate events are dataLayer-only pushes: `section_view`, `section_engagement_time`, and `osat_cta_click`. They require actual container inventory and QA before any downstream tag is considered.
-- No copied-text or PII payload is sent. There is no contact-copy UI in this draft, therefore no `copied_contact` behavior is present.
+- The older imported draft and current offline candidate have no hard-coded GTM, GA4, pixel, Ads or other tag ID, make no analytics network request, set no cookie, collect no query parameter and have no form field.
+- The current offline candidate contains dataLayer-only candidate events: `section_view`, `section_engagement_time`, `osat_cta_click`, and `copied_contact` after successful contact copy. They require actual container inventory and QA before any downstream tag is considered.
+- The copied contact value is never part of the event payload. The older imported draft has no contact-copy UI; do not use that older-draft observation to describe the newer offline candidate.
 - Do not add tags, containers, IDs or URL parameters as part of this draft or import workflow.
 
 ## Sanitized import evidence (2026-09-11)

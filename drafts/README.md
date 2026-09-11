@@ -1,6 +1,6 @@
 # Semiconductor Paid — Research & Draft batch
 
-**Status:** research drafts retained; canonical execution plan is active, launch not authorized
+**Status:** canonical execution active; Google Campaigns/Ad groups/Settings/Keyword Planner functional with no displayed Keyword Planner metrics, LinkedIn sign-in validation pending; launch not authorized
 **Owner:** Executor in this batch  
 **Workspace:** public Git canonical `D:\Digiwin_Semiconducter_Workspace`
 **Date:** 2026-09-11 (Asia/Ho_Chi_Minh)
@@ -20,6 +20,8 @@ Canonical plan: `../operations/Pre_Ad_Readiness_Plan.md` — **PLAN APPROVED / E
 | S03 | `S03_LinkedIn_Audience_Research.md` | DRAFT ONLY | S01 message map; public company-source leads | S08-L; S05 creative |
 | S04 | `S04_Measurement_and_Budget.md` | DRAFT ONLY | S00 inventory; S02/S03 validation later | S07/S08/S09; Bảo decision pack |
 | OSAT route | `../operations/OSAT_Route_Source_of_Truth.md` + `../landing/osat-route/osat-route-draft.html` | DRAFT ONLY | User-authorized route; import/preview validated, publication/proof pending | Coordinator audit; LadiPage route review |
+
+Production pack: `../operations/Public_Source_Register.md`, `../tracking/Semiconductor_Tracking_Contract.md`, `../ads/google/Google_Search_Build_Sheet.md`, `../ads/linkedin/LinkedIn_Build_Pack.md`, `../operations/Pre_Ad_Readiness_Plan.md` and final offline assets/routes are execution inputs under the same gates.
 
 Runbook: `../operations/LadiPage_Draft_Runbook.md` (import/preview evidence recorded; unpublished).
 

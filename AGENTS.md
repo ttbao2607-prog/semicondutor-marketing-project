@@ -26,6 +26,8 @@ HTML landing do agentic workflows sản xuất. Không giả định Ladipage im
 
 Các slice song song phải ghi owner, input/revision, dependency, output, acceptance, quyền đọc/ghi và stop condition. Một browser session chỉ có một controller; shared resource chỉ có một writer. Không tự tạo framework, scheduler, API integration hoặc kích hoạt slice khi chưa có mandate.
 
+Google Ads evidence rule: banner cam “Xem xét mục tiêu của chiến dịch...” là informational/non-blocking. DOM/accessibility text một mình không đủ kết luận blocker; phải kiểm tra screenshot hiển thị và actual interaction, rồi escalate Coordinator/Auditor nếu còn nghi ngờ. Trạng thái sanitized ngày 2026-09-11: Campaigns, Ad groups, Settings và Keyword Planner functional; Keyword Planner có thể trả `OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION` khi không hiển thị metrics.
+
 ## Quy tắc public Git
 
 Chỉ đưa nội dung marketing đã được sanitize lên public repository. `main` là canonical; baseline ban đầu là ngoại lệ duy nhất được ghi trực tiếp vào `main`. Các thay đổi sau đó dùng worktree và branch sở hữu theo dạng `slice/<slice>-<short-name>`; không tạo xung đột trực tiếp trên shared file. Coordinator audit diff và merge thay đổi đã được duyệt. Không commit secret, credential, token, cookie, browser/session state, PII, raw account/lead/audience data, private URL hoặc proof chưa xác minh.

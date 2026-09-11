@@ -1,9 +1,10 @@
 # Pre-Ad Readiness Execution Plan
 
 **Status:** PLAN APPROVED / EXECUTION ACTIVE / LAUNCH NOT AUTHORIZED
-**Revision:** 2026-09-11 · Asia/Ho_Chi_Minh
+**Revision:** 2026-09-13 · Asia/Ho_Chi_Minh
+**Revision note:** Corrected the canonical-branch statement; no operational approval gates changed.
 **Owner:** Executor leaf, reporting to Coordinator/Auditor
-**Canonical branch:** `slice/pre-ad-readiness-plan`
+**Canonical branch:** `main` once merged. Current working branch: `slice/pre-ad-production-pack` (not yet merged).
 
 ## 1. Scope and phase end state
 

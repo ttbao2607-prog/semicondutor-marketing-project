@@ -1,6 +1,6 @@
 # S02 — Google Search research
 
-**Status:** draft only; no Google Ads account access and no campaign created  
+**Status:** draft only; Google Campaigns, Ad groups, Settings and Keyword Planner accessible/functional in sanitized read-only evidence; no campaign created
 **Owner:** Executor in this batch  
 **Objective:** define VN/EN query clusters, intent hypotheses, negatives and validation steps without claiming volume, CPC, competition, overlap or campaign results.
 
@@ -17,6 +17,10 @@
 **Proposal:** begin with tightly themed exact/phrase hypotheses and a mechanism-led landing mapping; validate Vietnamese and English separately.
 
 **Unknown:** account/campaign overlap, location/language settings, actual search volume/CPC/competition, query terms, existing negatives, conversion goals and final landing URL.
+
+**Current UI note:** `GOOGLE_ADS_GOAL_UPDATE_BANNER / INFORMATIONAL / NON_BLOCKING` is the orange objective/budget mechanism-update banner. Campaigns, Ad groups, Settings and Keyword Planner are functional. The six supplied English OSAT seeds returned no displayed metrics: `OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION`; this is not a blocker or validated demand. Never call Google blocked from accessibility/DOM text alone; a blocker requires a visibly rendered dialog confirmed by `isVisible()`, reviewed screenshot and actual interaction.
+
+Production handoff: `../ads/google/Google_Search_Build_Sheet.md`.
 
 ## Query clusters
 
