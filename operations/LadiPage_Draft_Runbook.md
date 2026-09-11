@@ -1,6 +1,6 @@
 # LadiPage OSAT draft runbook
 
-**Status:** import/preview **PENDING**; this file does not assert that a cloud page exists.  
+**Status:** import/preview **PENDING**; this file does not assert that a cloud page exists.
 **Owner:** paid executor; report to coordinator. **Scope:** one draft HTML upload only.
 
 ## Preconditions and boundary
@@ -33,4 +33,3 @@
 | Final create button label and enabled state | PENDING |
 | Publish/form/tag/container actions | Not performed |
 | Reviewer and evidence location | PENDING; no private URL or PII |
-

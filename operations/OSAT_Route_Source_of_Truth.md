@@ -1,6 +1,6 @@
 # OSAT route — canonical-source candidate
 
-**Status:** draft candidate for review; no live-account or publication authority.  
+**Status:** draft candidate for review; no live-account or publication authority.
 **Owner:** paid executor, reporting to the coordinator. **Revision date:** 2026-09-11 (Asia/Ho_Chi_Minh).
 
 ## Evidence classes
@@ -33,4 +33,3 @@
 - Candidate events are dataLayer-only pushes: `section_view`, `section_engagement_time`, and `osat_cta_click`. They require actual container inventory and QA before any downstream tag is considered.
 - No copied-text or PII payload is sent. There is no contact-copy UI in this draft, therefore no `copied_contact` behavior is present.
 - Do not add tags, containers, IDs or URL parameters as part of this draft or import workflow.
-

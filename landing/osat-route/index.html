@@ -50,8 +50,9 @@
       var seen = Object.create(null);
       function enter(section) { var name = section.getAttribute('data-track-section'); active[name] = true; enteredAt[name] = Date.now(); if (!seen[name]) { seen[name] = true; pushCandidate('section_view', { section_name: name }); } }
       function leave(section) { var name = section.getAttribute('data-track-section'); if (!active[name]) return; var seconds = Math.round((Date.now() - enteredAt[name]) / 1000); active[name] = false; if (seconds > 0 && seconds <= 3600) pushCandidate('section_engagement_time', { section_name: name, engagement_seconds: seconds }); }
-      if ('IntersectionObserver' in window) { var observer = new IntersectionObserver(function (entries) { entries.forEach(function (entry) { if (entry.isIntersecting) enter(entry.target); else leave(entry.target); }); }, { threshold: 0.5 }); Array.prototype.forEach.call(sections, function (section) { observer.observe(section); }); }
+      if ('IntersectionObserver' in window) { var observer = new IntersectionObserver(function (entries) { entries.forEach(function (entry) { if (entry.isIntersecting) enter(entry.target); else leave(entry.target); }); }, { root: null, rootMargin: '-45% 0px -45% 0px', threshold: 0 }); Array.prototype.forEach.call(sections, function (section) { observer.observe(section); }); }
       Array.prototype.forEach.call(document.querySelectorAll('[data-osat-cta]'), function (link) { link.addEventListener('click', function () { pushCandidate('osat_cta_click', { cta_location: link.getAttribute('data-osat-cta') }); }); });
+      document.addEventListener('visibilitychange', function () { if (document.hidden) { Array.prototype.forEach.call(sections, leave); } else if (observer) { Array.prototype.forEach.call(sections, function (section) { observer.unobserve(section); observer.observe(section); }); } });
       window.addEventListener('pagehide', function () { Array.prototype.forEach.call(sections, leave); });
     }());
   </script>
