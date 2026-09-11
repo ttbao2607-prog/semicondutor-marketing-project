@@ -1,0 +1,38 @@
+# Credentials and secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secret*
+*token*
+
+# Browser and local session state
+.cookies/
+cookies/
+browser/
+profiles/
+sessions/
+*cookie*
+*session*
+
+# Private/local workspace data
+private/
+local/
+tmp/
+temp/
+*.local
+
+# Raw lead, audience and contact exports
+raw-leads/
+raw-audience/
+*lead*export*
+*audience*export*
+*contact*export*
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,28 @@
+# Digiwin Vietnam Semiconductor Paid
+
+Marketing operations workspace for planning and governing paid semiconductor activity. This is not an application or software project.
+
+## Status
+
+Research and planning drafts only; no live campaign validation, account mutation, publication, spend or automatic campaign execution.
+
+## Source hierarchy
+
+Current instruction from Bảo > `Semiconductor_Work_Kickoff.md` v2.0 > `Semiconductor - Website & Ads.md` > `AGENTS.md`.
+
+## File map
+
+- `AGENTS.md` — workspace rules and trust boundaries.
+- `Semiconductor_Work_Kickoff.md` — paid operating plan and slice contracts.
+- `Semiconductor - Website & Ads.md` — source brief and website context.
+- `drafts/` — S01–S04 research and planning drafts.
+
+## Public boundary
+
+Only sanitized marketing material belongs in this repository. Do not commit credentials, tokens, cookies, browser/session state, PII, raw lead/audience/contact exports, private account data, or unverified proof presented as fact. Public-source observations remain distinct from authenticated account evidence.
+
+## Collaboration model
+
+`main` is canonical. The initial baseline is the sole direct-main exception. Future executor work uses an isolated worktree and an owned `slice/<slice>-<short-name>` branch. One writer owns each shared file; avoid direct shared-file conflicts. The Coordinator audits diffs and merges approved work.
+
+This repository has no CI, application code, product architecture, issue bureaucracy, or automatic campaign execution.
