@@ -2,12 +2,12 @@
 
 **Status:** draft only / no live validation  
 **Owner:** Executor in this batch  
-**Workspace:** `D:\Digiwin_Semiconducter_Workspace` (non-Git)  
+**Workspace:** public Git canonical `D:\Digiwin_Semiconducter_Workspace`  
 **Date:** 2026-09-11 (Asia/Ho_Chi_Minh)
 
 ## Source boundary
 
-Priority: current instruction from Bảo > `Semiconductor_Work_Kickoff.md` v2.0 > `Semiconductor - Website & Ads.md` > `AGENTS.md`. Public web sources are read-only evidence and are separated from local brief evidence. No Google Ads, LinkedIn, Ladipage, GA4, GTM or CRM account evidence was available or accessed.
+Priority: current instruction from Bảo > `Semiconductor_Work_Kickoff.md` v2.0 > `Semiconductor - Website & Ads.md` > `AGENTS.md`. Public web sources are read-only evidence and are separated from local brief evidence. The initial research batch did not access Google Ads, LinkedIn, LadiPage, GA4, GTM or CRM. A later, narrowly authorised LadiPage OSAT draft import/preview was completed; sanitized evidence is recorded in `operations/OSAT_Route_Source_of_Truth.md` and `operations/LadiPage_Draft_Runbook.md`.
 
 ## Draft integration
 
@@ -23,4 +23,4 @@ Runbook: `../operations/LadiPage_Draft_Runbook.md` (import/preview evidence reco
 
 ## Shared stop conditions
 
-No login, account/UI access, remote campaign staging/build, publish, enable, pause, spend, form submission, audience upload, message/invitation, credential/PII/cookie collection, external write, API/framework/scheduler setup, or live claim use. Claims, counts, account identity, volume/CPC, audience size, tracking capability and budget amount remain unverified unless explicitly evidenced in a later authorized inventory.
+Absent an explicit Bảo mandate, do not log in or access account UI, stage/build remote campaigns, publish, enable, pause, spend, submit forms, upload audiences, send messages/invitations, collect credentials/PII/cookies, make external writes, set up APIs/frameworks/schedulers, or use live claims. Claims, counts, account identity, volume/CPC, audience size, tracking capability and budget amount remain unverified unless explicitly evidenced in a later authorized inventory.
