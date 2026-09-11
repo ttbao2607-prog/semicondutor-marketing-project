@@ -8,7 +8,7 @@
 1. **User direction / current mandate:** build one OSAT/factory route around 4M1E, lot, test data, traceability, audit, WIP and cost-close mechanisms. The route is mechanism-only until proof, permissions and account inventory are verified.
 2. **Local strategy sources:** `Semiconductor_Work_Kickoff.md` v2.0 and `Semiconductor - Website & Ads.md`, plus drafts `S01`–`S04`. These provide message hypotheses and pain vocabulary; named cases, counts and performance claims remain leads pending verification.
 3. **Technical evidence (read-only):** the supplied GTM/GA4 notes describe existing event naming and section-tracking patterns. They do not authorize changes to tags, containers, destinations or accounts.
-4. **User-provided authenticated UI evidence:** the LadiPage HTML-to-LadiPage GUI and its **Basic** mode have been reported by the user as available. This is evidence of a visible workflow only; import, cloud creation, preview and publication remain separate state transitions.
+4. **Observed authenticated UI evidence:** the LadiPage HTML-to-LadiPage GUI accepted `osat-route-draft.html` in **Basic** mode, created the clearly named draft, and opened the editor preview. The platform rejected the filename `index.html`, so the byte-identical source was renamed. This evidence covers draft creation/preview only, not publication.
 
 ## Known account/UI facts (aggregate, non-sensitive)
 
@@ -19,7 +19,7 @@
 
 ## Unverified items
 
-- LadiPage import compatibility, upload size/encoding limits, rendered fidelity and cloud draft identity.
+- LadiPage publication compatibility, upload size/encoding limits beyond this successful import, and cloud draft identity.
 - Account permissions, publication route, domain/URL, form/CRM handoff, consent, tag/container inventory and any proof-use rights.
 - All customer names, case outcomes, percentages, savings, delivery/yield figures and capability counts.
 
@@ -33,3 +33,11 @@
 - Candidate events are dataLayer-only pushes: `section_view`, `section_engagement_time`, and `osat_cta_click`. They require actual container inventory and QA before any downstream tag is considered.
 - No copied-text or PII payload is sent. There is no contact-copy UI in this draft, therefore no `copied_contact` behavior is present.
 - Do not add tags, containers, IDs or URL parameters as part of this draft or import workflow.
+
+## Sanitized import evidence (2026-09-11)
+
+- Source accepted after platform filename constraint: `osat-route-draft.html`; `index.html` was rejected.
+- Mode: **Basic**. Draft title: **DRAFT — OSAT vận hành — mechanism review**.
+- Draft creation and editor preview succeeded; the draft remained unpublished.
+- Desktop and mobile editor views visibly contained the hero, mechanism cards, operating-view steps, and non-form CTA anchors (`#mechanism`).
+- Candidate tracking remains unverified/deployed nowhere: only the source HTML dataLayer helper was inspected; no GTM/GA4/tag/container change was made.

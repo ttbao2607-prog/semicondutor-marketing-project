@@ -20,6 +20,8 @@ Inventory hiện tại gồm các file marketing đã được kiểm tra trong 
 
 Không bịa số liệu, budget, capability hoặc kết quả. Tên case và claim chỉ là lead pending verification; live asset không được chứa placeholder hoặc claim chưa đủ scope/quyền dùng.
 
+Với route đã được Bảo phê duyệt và có source docs, executor được phép import/tạo một draft HTML-to-LadiPage đặt tên rõ ràng, preview và ghi evidence đã sanitize mà không cần xin lại. Phạm vi chỉ là draft/preview; không public publish, domain, form/lead receiver, tracking/tag/container, campaign, credential hoặc PII.
+
 HTML landing do agentic workflows sản xuất. Không giả định Ladipage import/publish được HTML tùy ý; phải chứng minh route thực trước. Reuse event/tag sau inventory, tránh duplicate; UTM/source phải kiểm tra xuyên route; không đưa PII vào URL, analytics parameter hoặc evidence; dùng dữ liệu giả có đánh dấu khi test.
 
 Các slice song song phải ghi owner, input/revision, dependency, output, acceptance, quyền đọc/ghi và stop condition. Một browser session chỉ có một controller; shared resource chỉ có một writer. Không tự tạo framework, scheduler, API integration hoặc kích hoạt slice khi chưa có mandate.

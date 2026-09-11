@@ -17,9 +17,9 @@ Priority: current instruction from Bảo > `Semiconductor_Work_Kickoff.md` v2.0 
 | S02 | `S02_Google_Search_Research.md` | DRAFT ONLY | S01 message map; account validation later | S08-G; S06 landing mapping |
 | S03 | `S03_LinkedIn_Audience_Research.md` | DRAFT ONLY | S01 message map; public company-source leads | S08-L; S05 creative |
 | S04 | `S04_Measurement_and_Budget.md` | DRAFT ONLY | S00 inventory; S02/S03 validation later | S07/S08/S09; Bảo decision pack |
-| OSAT route | `../operations/OSAT_Route_Source_of_Truth.md` + `../landing/osat-route/index.html` | DRAFT ONLY | User-authorized local fallback; account/proof/import validation pending | Coordinator audit; LadiPage route review |
+| OSAT route | `../operations/OSAT_Route_Source_of_Truth.md` + `../landing/osat-route/osat-route-draft.html` | DRAFT ONLY | User-authorized route; import/preview validated, publication/proof pending | Coordinator audit; LadiPage route review |
 
-Runbook: `../operations/LadiPage_Draft_Runbook.md` (import/preview remains **PENDING** until evidenced).
+Runbook: `../operations/LadiPage_Draft_Runbook.md` (import/preview evidence recorded; unpublished).
 
 ## Shared stop conditions
 
