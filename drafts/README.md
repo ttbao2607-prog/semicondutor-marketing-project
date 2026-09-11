@@ -1,6 +1,6 @@
 # Semiconductor Paid — Research & Draft batch
 
-**Status:** draft only / no live validation  
+**Status:** research drafts retained; canonical execution plan is active, launch not authorized
 **Owner:** Executor in this batch  
 **Workspace:** public Git canonical `D:\Digiwin_Semiconducter_Workspace`
 **Date:** 2026-09-11 (Asia/Ho_Chi_Minh)
@@ -10,6 +10,8 @@
 Priority: current instruction from Bảo > `Semiconductor_Work_Kickoff.md` v2.0 > `Semiconductor - Website & Ads.md` > `AGENTS.md`. Public web sources are read-only evidence and are separated from local brief evidence. The initial research batch did not access Google Ads, LinkedIn, LadiPage, GA4, GTM or CRM. A later, narrowly authorised LadiPage OSAT draft import/preview was completed; sanitized evidence is recorded in `operations/OSAT_Route_Source_of_Truth.md` and `operations/LadiPage_Draft_Runbook.md`.
 
 ## Draft integration
+
+Canonical plan: `../operations/Pre_Ad_Readiness_Plan.md` — **PLAN APPROVED / EXECUTION ACTIVE / LAUNCH NOT AUTHORIZED**.
 
 | Slice | File | Status | Dependency | Downstream consumer |
 |---|---|---|---|---|

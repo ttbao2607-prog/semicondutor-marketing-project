@@ -4,7 +4,7 @@ Marketing operations workspace for planning and governing paid semiconductor act
 
 ## Status
 
-Research and planning drafts only; no live campaign validation, account mutation, publication, spend or automatic campaign execution.
+Canonical execution active; authenticated validation and draft/paused remote preparation may proceed under plan gates. Publication is action-time gated; enable/spend are not authorized.
 
 ## Source hierarchy
 
@@ -16,6 +16,7 @@ Current instruction from Bảo > `Semiconductor_Work_Kickoff.md` v2.0 > `Semicon
 - `Semiconductor_Work_Kickoff.md` — paid operating plan and slice contracts.
 - `Semiconductor - Website & Ads.md` — source brief and website context.
 - `drafts/` — S01–S04 research and planning drafts.
+- `operations/Pre_Ad_Readiness_Plan.md` — canonical pre-ad execution plan and launch gates.
 
 ## Public boundary
 
