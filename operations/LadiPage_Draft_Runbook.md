@@ -71,3 +71,17 @@ The authenticated HTML-to-LadiPage screen was opened directly and Basic mode sel
 ## UX redesign candidate update (2026-09-13)
 
 The three offline route files have since been redesigned on `slice/landing-ux-redesign`: OSAT lot trace rail, Fabless outsourced-WIP handoff, and Partner ERP–MES–OT layer map. Each route retains exactly two consultation buttons and no embedded form. This is a local candidate change only; the prior file-transfer limitation still applies, no route was imported or previewed, and `OpenformWF2` remains unconfigured. Do not import or publish without the separate approval/mandate and a supported transfer route.
+
+## Authorized UX redesign draft-preview attempt (2026-09-13)
+
+**Branch/base:** `slice/ladipage-redesign-preview` at `6ffe18a671719e87138dab2b404d96c76beeb143` (`origin/main`). Before upload, all three D-drive canonical files were checked against that commit: Git-normalized blob IDs matched and EOL-insensitive comparisons were identical.
+
+The browser connector check failed before a page or authenticated browser session was available, with the visible error **“Could not connect to Chrome.”** The direct LadiPage URL was not opened and no upload was attempted. Per the task stop condition, no other browser surface or workaround was used.
+
+| Route | Intended draft name | Creation outcome | Editor/preview outcome |
+|---|---|---|---|
+| OSAT | `Digiwin Semiconductor - OSAT - UXPM Draft` | Not attempted; no draft created | Not opened; no visual result |
+| Fabless | `Digiwin Semiconductor - Fabless - UXPM Draft` | Not attempted; no draft created | Not opened; no visual result |
+| ERP–MES–OT partner | `Digiwin Semiconductor - ERP MES OT - UXPM Draft` | Not attempted; no draft created | Not opened; no visual result |
+
+This records a browser-tool availability blocker, not a LadiPage upload rejection. No publication, domain assignment, form/popup setup or submission, `OpenformWF2` configuration, tracking/tag change, campaign, spend, or audience action occurred. All three draft previews remain pending a working authorized browser connection.

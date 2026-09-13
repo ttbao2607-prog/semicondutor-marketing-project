@@ -55,3 +55,16 @@ Local HTML behavior is validated for the tested viewports. LadiPage import compa
 - **CTA and tracking contract:** each route has exactly two primary consultation buttons, hero and terminal. The external `OpenformWF2` trigger is looked up and clicked once per CTA when present; a missing trigger is non-fatal and marked `missing`. OSAT emits its existing intent event at both locations; Fabless and Partner emit no CTA event. No route contains an embedded form or emits `accepted_form`; section timing and privacy-safe copy-success events remain in place.
 - **Local automated checks:** the deterministic Node.js VM suite passes 24/24, including both CTA locations with and without the external trigger, route-specific CTA event boundaries, static route diagrams, basic responsive/accessibility structure, timing, and copy success/failure behavior. `git diff --check` passes.
 - **Visual and platform status:** no real browser viewport was used for this redesigned revision. The previously encountered local-file navigation policy block remains the boundary; no alternate browser surface or workaround was attempted. LadiPage import/editor preview was not performed, and no live account, form, domain, tag, campaign or publication action occurred. Current browser/device acceptance and LadiPage compatibility remain pending supported access and separate approval.
+
+## Authorized UX redesign draft-preview attempt (2026-09-13)
+
+- **Integrity/base:** on `slice/ladipage-redesign-preview` at `6ffe18a671719e87138dab2b404d96c76beeb143` (`origin/main`), each specified D-drive candidate matched the commit's Git-normalized blob; EOL-insensitive comparisons also matched.
+- **Browser blocker:** the browser connector returned **“Could not connect to Chrome”** before any page or authenticated session was available. The LadiPage entrypoint was not opened and no upload was attempted. Work stopped there; no alternate control surface or workaround was used.
+
+| Route | Requested draft name | Draft created? | Desktop/mobile editor preview |
+|---|---|---|---|
+| OSAT | `Digiwin Semiconductor - OSAT - UXPM Draft` | No — not attempted | Not opened; no visual outcome |
+| Fabless | `Digiwin Semiconductor - Fabless - UXPM Draft` | No — not attempted | Not opened; no visual outcome |
+| ERP–MES–OT partner | `Digiwin Semiconductor - ERP MES OT - UXPM Draft` | No — not attempted | Not opened; no visual outcome |
+
+This is a browser-tool availability blocker, not an observed LadiPage rejection. No draft creation or publication occurred. No domain, form, popup, `OpenformWF2`, tracking/tag, campaign, spend, or audience action was taken. `OpenformWF2` remains intentionally unconfigured; creation and desktop/mobile preview validation remain pending browser availability.
