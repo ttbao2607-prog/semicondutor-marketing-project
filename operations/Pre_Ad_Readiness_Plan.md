@@ -2,9 +2,9 @@
 
 **Status:** PLAN APPROVED / EXECUTION ACTIVE / LAUNCH NOT AUTHORIZED
 **Revision:** 2026-09-13 · Asia/Ho_Chi_Minh
-**Revision note:** Corrected the canonical-branch statement; no operational approval gates changed.
+**Revision note:** Recorded fresh Coordinator-reported Google Ads Overview modal evidence and corrected branch provenance; no operational approval gates or budget changed.
 **Owner:** Executor leaf, reporting to Coordinator/Auditor
-**Canonical branch:** `main` once merged. Current working branch: `slice/pre-ad-production-pack` (not yet merged).
+**Canonical branch:** `main` at baseline `393caa365b5a183c72c90e3e2a571e18ca3ebdb2`. **Evidence review slice:** `slice/google-ads-blocker-evidence`, branched from that exact baseline; this branch is not canonical and is not merged.
 
 ## 1. Scope and phase end state
 
@@ -143,6 +143,8 @@ Prepare one **OSAT document ad with six pages**: pain, operating consequence, da
 ### Research and creative requirements
 
 Use Keyword Planner and account search-term/overlap evidence when authorized. Retain 8–15 validated keywords per ad group and maintain the negative taxonomy from S02. No volume, CPC, competition, overlap or result claim is valid without observed evidence.
+
+**Current readiness evidence (2026-09-13, Coordinator-reported):** the authenticated Google Ads Overview displayed a “Turn off ad blockers” modal. The Coordinator stopped without dismissing or interacting with it; no Keyword Planner query was made. This is distinct from the orange Vietnamese mechanism-update banner, which remains informational/non-blocking. Fresh Vietnam OSAT, Fabless and ERP–MES–OT/partner research remains pending; the modal's downstream effect is unknown. The six-English-seed no-metrics result remains historical only. No campaign, save, enable or spend action occurred.
 
 Each ad group gets one VN-first RSA with 10–12 headlines and 4 descriptions. Add an English RSA only when English demand evidence exists. Prepare 4 callouts and 3 sitelinks. Final copy must map to the correct segment/pain/route and omit unverified proof.
 

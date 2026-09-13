@@ -21,11 +21,11 @@ Clipboard checks used an invalid synthetic test value and a browser-local stub. 
 ## Platform route limits and result
 
 - **LadiPage:** Basic mode was visibly selected. The browser upload bridge rejected the OSAT file path before transfer because the verified worktree is outside its configured upload roots. The two other final files were not attempted. No draft was created from these final files; no workaround, alternate copy, or page-script injection was used. This is a tool-path limitation, not a demonstrated LadiPage platform failure. Import/editor preview remains pending a supported transfer route.
-- **Google Ads / Keyword Planner:** no Ads tab was present in the available browser inventory; the isolated browser bridge was unavailable. No navigation or query was made. Existing six-English-seed no-metrics evidence in S02/build sheet is historical and does not cover fresh OSAT Vietnamese, Fabless, or ERP–MES–OT/partner research.
+- **Google Ads / Keyword Planner — historical executor check:** no Ads tab was present in that earlier browser inventory and its isolated browser bridge was unavailable; no account navigation or query was made in that check. This historical limitation is superseded as a description of the latest account-access evidence by the Coordinator-reported observation below. The six-English-seed no-metrics result remains historical and does not cover fresh OSAT Vietnamese, Fabless, or ERP–MES–OT/partner research.
 
 ## Gate
 
-Local HTML behavior is validated for the tested viewports. LadiPage import compatibility and preview are not validated for these three final routes. Fresh Keyword Planner research remains pending access to the already-authorized read-only surface. Publication remains unauthorized here and requires its separate action-time confirmation after draft/editor QA.
+Local HTML behavior is validated for the tested viewports. LadiPage import compatibility and preview are not validated for these three final routes. Fresh Keyword Planner research remains pending: the latest Coordinator-reported session reached Overview but stopped at a visibly rendered modal before interaction or Planner navigation. The six-English-seed no-metrics result remains historical. Publication remains unauthorized here and requires its separate action-time confirmation after draft/editor QA.
 
 ## Repository verification
 
@@ -55,6 +55,16 @@ Local HTML behavior is validated for the tested viewports. LadiPage import compa
 - **CTA and tracking contract:** each route has exactly two primary consultation buttons, hero and terminal. The external `OpenformWF2` trigger is looked up and clicked once per CTA when present; a missing trigger is non-fatal and marked `missing`. OSAT emits its existing intent event at both locations; Fabless and Partner emit no CTA event. No route contains an embedded form or emits `accepted_form`; section timing and privacy-safe copy-success events remain in place.
 - **Local automated checks:** the deterministic Node.js VM suite passes 24/24, including both CTA locations with and without the external trigger, route-specific CTA event boundaries, static route diagrams, basic responsive/accessibility structure, timing, and copy success/failure behavior. `git diff --check` passes.
 - **Visual and platform status:** no real browser viewport or editor preview has been completed for this redesigned revision. In the later Coordinator-reported attempt, the authenticated LadiPage account opened, Basic mode was selected, but the OSAT file chooser returned `Not allowed` before transfer; Fabless and Partner were not attempted. The tab remains at the Basic upload screen. The required Chrome extension file-URL permission has not been changed. No live form, domain, tag, campaign, spend or publication action occurred.
+
+## Google Ads UI evidence — Coordinator-reported (2026-09-13, Asia/Ho_Chi_Minh)
+
+**Evidence class:** authenticated Coordinator observation, supplied to this executor; not independently observed in this worktree session.
+
+The Coordinator opened the authenticated Google Ads account in Bảo's authorized Chrome profile, selected the Digiwin account, and reached Overview. A visibly rendered modal showed heading **“Turn off ad blockers”** and body **“Google Ads can't work when you're using an ad blocker. To use Google Ads, please turn off any ad blockers for now.”** The Coordinator stopped with the modal open and did not dismiss or interact with it. This establishes a visible modal at Overview; its effect beyond that screen was not tested. No Keyword Planner navigation or query was made.
+
+This modal is distinct from the orange Vietnamese **“Xem xét mục tiêu của chiến dịch...”** mechanism-update banner, which remains informational/non-blocking. The earlier six supplied English OSAT seeds with no displayed metrics are historical evidence only. Fresh Keyword Planner research for Vietnam OSAT, Fabless and ERP–MES–OT/partner clusters remains pending; no fresh metric or planner-availability result is claimed.
+
+No settings, campaign, save, enable, spend, lead, audience or other external mutation occurred. No account identifiers, private URLs, login identity, screenshots, cookies or session details are retained.
 
 ## Authorized UX redesign draft-preview attempt (2026-09-13)
 

@@ -1,6 +1,6 @@
 # S02 — Google Search research
 
-**Status:** draft only; prior sanitized read-only evidence covers six English OSAT seeds with no displayed metrics; no fresh Keyword Planner run in this validation slice; no campaign created
+**Status:** draft only; six English OSAT seeds with no displayed metrics are historical evidence; fresh VN/Fabless/Partner Keyword Planner research remains pending after a Coordinator-reported modal at Google Ads Overview; no campaign created
 **Owner:** Executor in this batch  
 **Objective:** define VN/EN query clusters, intent hypotheses, negatives and validation steps without claiming volume, CPC, competition, overlap or campaign results.
 
@@ -18,9 +18,11 @@
 
 **Unknown:** account/campaign overlap, location/language settings, actual search volume/CPC/competition, query terms, existing negatives, conversion goals and final landing URL.
 
-**Current UI note:** `GOOGLE_ADS_GOAL_UPDATE_BANNER / INFORMATIONAL / NON_BLOCKING` is the orange objective/budget mechanism-update banner. Campaigns, Ad groups, Settings and Keyword Planner are functional. The six supplied English OSAT seeds returned no displayed metrics: `OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION`; this is not a blocker or validated demand. Never call Google blocked from accessibility/DOM text alone; a blocker requires a visibly rendered dialog confirmed by `isVisible()`, reviewed screenshot and actual interaction.
+**Historical UI evidence (2026-09-11):** Campaigns, Ad groups, Settings and Keyword Planner were observed functional in that earlier sanitized session. The orange `GOOGLE_ADS_GOAL_UPDATE_BANNER / INFORMATIONAL / NON_BLOCKING` is the objective/budget mechanism-update banner. The six supplied English OSAT seeds returned no displayed metrics: `OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION`; this is not validated demand and is not a fresh result.
 
-**2026-09-13 validation boundary:** no Google Ads/Keyword Planner tab was present in the available browser inventory, and the isolated browser bridge was unavailable. No account navigation, settings change, or new seed submission was made. The six-seed no-metrics observation above is prior evidence only; it is not a result for the three requested current clusters or a fresh configuration check.
+**Coordinator-reported authenticated UI observation (2026-09-13, Asia/Ho_Chi_Minh):** the Coordinator selected the Digiwin account and reached Overview, where a visibly rendered modal showed heading **“Turn off ad blockers”** and body **“Google Ads can't work when you're using an ad blocker. To use Google Ads, please turn off any ad blockers for now.”** The Coordinator stopped with it open and did not dismiss or interact. This is evidence of a modal at Overview, not a tested account-wide or Keyword Planner failure. No Keyword Planner navigation/query or external mutation occurred. It is distinct from the orange Vietnamese mechanism-update banner, which remains informational/non-blocking.
+
+**Unknown / pending:** fresh Keyword Planner research and metrics for Vietnam OSAT, Fabless and ERP–MES–OT/partner clusters; the modal's downstream effect because no interaction was performed; current campaign/search-term overlap and live settings. The earlier executor check that found no Ads tab is historical and is superseded as the latest access description by the Coordinator observation above. Never infer demand or a permanent platform blocker from the six-seed no-metrics result or modal text alone; retain the visible-evidence and interaction requirements in `AGENTS.md`.
 
 Production handoff: `../ads/google/Google_Search_Build_Sheet.md`.
 
