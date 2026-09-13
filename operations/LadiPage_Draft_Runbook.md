@@ -72,16 +72,18 @@ The authenticated HTML-to-LadiPage screen was opened directly and Basic mode sel
 
 The three offline route files have since been redesigned on `slice/landing-ux-redesign`: OSAT lot trace rail, Fabless outsourced-WIP handoff, and Partner ERP–MES–OT layer map. Each route retains exactly two consultation buttons and no embedded form. This is a local candidate change only; the prior file-transfer limitation still applies, no route was imported or previewed, and `OpenformWF2` remains unconfigured. Do not import or publish without the separate approval/mandate and a supported transfer route.
 
-## Authorized UX redesign draft-preview attempt (2026-09-13)
+## Authorized UX redesign draft-preview attempt and Coordinator follow-up (2026-09-13)
 
 **Branch/base:** `slice/ladipage-redesign-preview` at `6ffe18a671719e87138dab2b404d96c76beeb143` (`origin/main`). Before upload, all three D-drive canonical files were checked against that commit: Git-normalized blob IDs matched and EOL-insensitive comparisons were identical.
 
-The browser connector check failed before a page or authenticated browser session was available, with the visible error **“Could not connect to Chrome.”** The direct LadiPage URL was not opened and no upload was attempted. Per the task stop condition, no other browser surface or workaround was used.
+An initial browser-connector check returned **“Could not connect to Chrome.”** The Coordinator later reported successfully opening the authenticated LadiPage account through its direct HTTPS entrypoint, navigating to **Landing Pages > Create > HTML To LadiPage**, and visibly selecting **Basic** mode. The OSAT file chooser was triggered for the verified D-drive file, but `fileChooser.setFiles` returned the visible result **“Not allowed”** before any transfer. No file was selected or uploaded, and no OSAT draft was created. Fabless and Partner were not attempted. The browser tab is preserved at the HTML-to-LadiPage Basic upload screen for user handoff.
+
+Authorized Chrome troubleshooting guidance identifies the required file-transfer permission as **“Allow access to file URLs”** for the specific Chrome profile and extension instance. This permission was not changed in this slice. The result is a browser file-access permission blocker, not a LadiPage content-validation rejection.
 
 | Route | Intended draft name | Creation outcome | Editor/preview outcome |
 |---|---|---|---|
-| OSAT | `Digiwin Semiconductor - OSAT - UXPM Draft` | Not attempted; no draft created | Not opened; no visual result |
-| Fabless | `Digiwin Semiconductor - Fabless - UXPM Draft` | Not attempted; no draft created | Not opened; no visual result |
-| ERP–MES–OT partner | `Digiwin Semiconductor - ERP MES OT - UXPM Draft` | Not attempted; no draft created | Not opened; no visual result |
+| OSAT | `Digiwin Semiconductor - OSAT - UXPM Draft` | Chooser attempted; `Not allowed` before transfer; no draft created | Not opened; no visual result |
+| Fabless | `Digiwin Semiconductor - Fabless - UXPM Draft` | Not attempted | Not opened; no visual result |
+| ERP–MES–OT partner | `Digiwin Semiconductor - ERP MES OT - UXPM Draft` | Not attempted | Not opened; no visual result |
 
-This records a browser-tool availability blocker, not a LadiPage upload rejection. No publication, domain assignment, form/popup setup or submission, `OpenformWF2` configuration, tracking/tag change, campaign, spend, or audience action occurred. All three draft previews remain pending a working authorized browser connection.
+No draft was created and no editor preview occurred. No publication, domain assignment, form/popup setup or submission, `OpenformWF2` configuration, tracking/tag change, campaign, spend, or audience action occurred. Continue only after the user provides the required extension permission/file-transfer route and the approved upload can resume from the preserved tab.
