@@ -69,11 +69,11 @@ Prepare the three static concepts, OSAT document ad, LinkedIn audience hypothese
 
 ### C — Freeze DOM and run tracking QA
 
-Freeze page structure and candidate event semantics before QA. Validate event meaning, duplicate prevention, UTM handling, consent behavior and non-PII payloads using marked test data only.
+Freeze page structure and candidate event semantics before QA. Validate event meaning, duplicate prevention, UTM handling, consent behavior and non-PII payloads using marked test data only. Treat the local GTM/GA4 technical-document inventory dated 2026-07-09/10 as historical documentation, not live configuration evidence.
 
-**Acceptance:** route-specific QA record; no CTA duplicate; no copied contact value in telemetry; micro-events remain reporting-only.
+**Acceptance:** route-specific QA record; no CTA duplicate; no copied contact value in telemetry; micro-events remain reporting-only. Before publication, verify live collisions against any all-pages `text_copy`/`contact_info_copy` listener, actual LadiPage/form success integrations and event naming, consent behavior, global `page_view` ownership, and duplicate `section_view`/`section_engagement_time` tracking. `copied_contact` and OSAT `osat_cta_click` remain local candidates until directly verified; do not import the separate eight-industry `industry_*` taxonomy or `industry` parameter.
 
-**Stop:** unknown container ownership, route mismatch, duplicate event, PII exposure or failed source reconciliation blocks downstream creation.
+**Stop:** unknown container ownership, consent/form receiver scope, legacy listener collision, page/section duplication, route mismatch, duplicate event, PII exposure or failed source reconciliation blocks production/publication. Never alias or rename the privacy-incompatible legacy copy event or infer form acceptance from CTA intent.
 
 ### D — Publish final routes
 
@@ -173,6 +173,8 @@ Tracking rules:
 - Reuse shared GTM/GA4; do not create a container/property.
 - Keep global `page_view`.
 - Reuse `section_view` and `section_engagement_time` after inventory.
+- Treat the dated technical-document inventory as historical only; verify live GTM/GA4 and LadiPage/editor wiring before production. The candidate `copied_contact` is success-only with exactly `contact_type`, `placement`, `segment`, carries no copied value, and is not claimed as deployed in the current GTM configuration. Do not alias it to legacy `text_copy`/`contact_info_copy` or reuse the eight-industry `industry_*` taxonomy/`industry` parameter.
+- Current pages emit no `Ladi_form_success`, `generate lead` (space), or `accepted_form`. `OpenformWF2` activation records intent only. Preserve the actual successful-submit event determined from current LadiPage/editor and live GTM/GA4 inventory; do not synthesize or rename it.
 - Each of the two consultation buttons invokes `OpenformWF2` no more than once per click. OSAT records its existing hero/terminal intent location; Fabless and Partner emit no CTA event pending inventory.
 - Treat micro-events as reporting-only, never primary Google Ads conversions.
 - Google UTM: `utm_source=google`, `utm_medium=cpc`, `utm_campaign=vn_semiconductor_search_p1`, `utm_content=<segment>_rsa_<variant>`, `utm_term={keyword}`.
