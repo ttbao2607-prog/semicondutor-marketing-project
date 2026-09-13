@@ -34,7 +34,7 @@
 ## Tracking boundary
 
 - The older imported draft and current offline candidate have no hard-coded GTM, GA4, pixel, Ads or other tag ID, make no analytics network request, set no cookie, collect no query parameter and have no form field.
-- The current offline candidates contain dataLayer-only candidate events: `section_view`, `section_engagement_time`, `consultation_cta_click` (CTA intent only), and `copied_contact` after successful contact copy. They require actual container inventory and QA before any downstream tag is considered.
+- The current offline candidates contain dataLayer-only candidate events: `section_view`, `section_engagement_time`, OSAT's existing `osat_cta_click` with `cta_location`, and `copied_contact` after successful contact copy. Fabless and Partner emit no CTA event pending inventory. These candidates require actual container inventory and QA before any downstream tag is considered.
 - The copied contact value is never part of the event payload. The older imported draft has no contact-copy UI; do not use that older-draft observation to describe the newer offline candidate.
 - Do not add tags, containers, IDs or URL parameters as part of this draft or import workflow.
 

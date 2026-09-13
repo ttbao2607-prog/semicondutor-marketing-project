@@ -75,7 +75,6 @@
   window.addEventListener('pagehide',finish);
   document.querySelectorAll('[data-consultation-cta]').forEach(function(btn){
     btn.addEventListener('click',function(){
-      push({event:'consultation_cta_click',segment:btn.getAttribute('data-segment'),placement:btn.getAttribute('data-placement')});
       var trigger=document.getElementById('OpenformWF2');
       if(trigger&&typeof trigger.click==='function'){
         try{trigger.click();btn.setAttribute('data-popup-trigger-status','clicked');}

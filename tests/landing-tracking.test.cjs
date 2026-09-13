@@ -42,8 +42,7 @@ function harness(routePath, options = {}) {
     'data-segment': routePath.includes('osat-route') ? 'osat' : routePath.includes('fabless-route') ? 'fabless' : 'partner',
   });
   const cta = new Element({
-    'data-segment': routePath.includes('osat-route') ? 'osat' : routePath.includes('fabless-route') ? 'fabless' : 'partner',
-    'data-placement': 'hero',
+    'data-osat-cta': routePath.includes('osat-route') ? 'hero' : null,
     'data-popup-trigger-status': 'pending',
   });
   let popupClickCalls = 0;
@@ -200,21 +199,27 @@ for (const [name, routePath] of routes) {
     assert.deepEqual(h.popupLookupIds, ['OpenformWF2']);
     assert.equal(h.popupClickCalls, 1);
     assert.equal(h.cta.getAttribute('data-popup-trigger-status'), 'clicked');
-    assert.deepEqual({ ...h.dataLayer.find(e => e.event === 'consultation_cta_click') }, {
-      event: 'consultation_cta_click',
-      segment: routePath.includes('osat-route') ? 'osat' : routePath.includes('fabless-route') ? 'fabless' : 'partner',
-      placement: 'hero',
-    });
+    const ctaEvents = h.dataLayer.filter(e => /cta_click$/.test(e.event));
+    if (routePath.includes('osat-route')) {
+      assert.deepEqual(ctaEvents.map(e => ({ ...e })), [{ event: 'osat_cta_click', cta_location: 'hero' }]);
+    } else {
+      assert.deepEqual(ctaEvents, []);
+    }
     assert.equal(h.dataLayer.some(e => e.event === 'accepted_form'), false);
   });
 
-  test(`${name}: absent popup trigger fails safely and records CTA intent only`, () => {
+  test(`${name}: absent popup trigger fails safely`, () => {
     const h = harness(routePath, { popupPresent: false });
     assert.doesNotThrow(() => h.clickCta());
     assert.deepEqual(h.popupLookupIds, ['OpenformWF2']);
     assert.equal(h.popupClickCalls, 0);
     assert.equal(h.cta.getAttribute('data-popup-trigger-status'), 'missing');
-    assert.equal(h.dataLayer.filter(e => e.event === 'consultation_cta_click').length, 1);
+    const ctaEvents = h.dataLayer.filter(e => /cta_click$/.test(e.event));
+    if (routePath.includes('osat-route')) {
+      assert.deepEqual(ctaEvents.map(e => ({ ...e })), [{ event: 'osat_cta_click', cta_location: 'hero' }]);
+    } else {
+      assert.deepEqual(ctaEvents, []);
+    }
     assert.equal(h.dataLayer.some(e => e.event === 'accepted_form'), false);
   });
 }

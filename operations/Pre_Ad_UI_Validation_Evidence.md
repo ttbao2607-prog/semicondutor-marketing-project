@@ -35,8 +35,8 @@ Local HTML behavior is validated for the tested viewports. LadiPage import compa
 
 ## Locked popup CTA correction (2026-09-13)
 
-- All three hero consultation links were changed to buttons that emit only `consultation_cta_click` intent and look up/click the LadiPage-owned `OpenformWF2` trigger. Missing trigger state is marked `missing` without navigation or an exception; the route markup contains no form.
-- Tracking tests after this change: 21/21 passed, including one-click stub, absent-trigger fallback, segment/placement payload, no `accepted_form`, and no form markup per route.
+- All three hero consultation links were changed to buttons that look up/click the LadiPage-owned `OpenformWF2` trigger. OSAT retains its existing `osat_cta_click`/`cta_location` intent candidate; Fabless and Partner emit no CTA analytics event pending inventory. Missing trigger state is marked `missing` without navigation or an exception; the route markup contains no form.
+- Tracking tests after this change: 21/21 passed, including one-click stub, absent-trigger fallback, OSAT-only CTA payload, no Fabless/Partner CTA event, no `accepted_form`, and no form markup per route.
 - A fresh visual/browser run at 1280×900 and 390×844 could not be completed after the edit: the available browser denied local `file:` navigation by policy. No alternate browser surface, raw CDP, or workaround was used. Prior viewport screenshots predate this CTA correction and are not claimed as current verification.
 - Therefore current responsive browser acceptance remains pending. The local integration logic is covered by Node tests only; LadiPage configuration/preview is also pending and was not performed.
 - Existing `accepted_form` behavior was not modified. Popup/form fields, storage, and acceptance tracking remain LadiPage-owned.

@@ -15,8 +15,10 @@
 
 ## Route-specific semantics
 
-- Every route's primary consultation CTA emits one candidate `consultation_cta_click` micro-event with exactly `segment` and `placement`. This records click/open intent only; it is not a popup-open confirmation, form submission, lead, or conversion.
+- OSAT may retain the existing candidate `osat_cta_click` with exactly `cta_location`, recording CTA intent only. Do not rename its event or parameter.
+- Fabless and Partner emit no CTA analytics event until actual GTM/container inventory authorizes reuse of an existing event. Do not create a shared CTA taxonomy for these routes.
 - The CTA handler looks up the LadiPage-owned `OpenformWF2` trigger through `document.getElementById('OpenformWF2')` and calls its `click()` method when available. The trigger is configured outside the imported HTML. If absent, the CTA must not throw or navigate; it records the local `data-popup-trigger-status="missing"` state.
+- A trigger click records no popup-open confirmation, form submission, lead, or conversion.
 - Imported HTML contains no visible or hidden form and never emits `accepted_form`. Preserve any existing accepted-form event name and acceptance condition; only the existing verified form-acceptance flow may emit it. Do not infer acceptance from a CTA click or popup trigger click.
 - `copied_contact` fires only after a successful copy and has exactly `contact_type`, `placement`, `segment`.
 - The landing page itself has no form; a LadiPage-configured popup may display its own form only after the consultation CTA is activated.
@@ -45,13 +47,13 @@ The visible block uses verified company-controlled public contact values. Copy s
 | Pagehide | REQUIRED/PENDING | REQUIRED/PENDING | At most one bounded engagement event per viewed section |
 | Contact copy success | REQUIRED/PENDING | REQUIRED/PENDING | `copied_contact` only after success, with three allowed params |
 | Contact copy failure | REQUIRED/PENDING | REQUIRED/PENDING | No success event; accessible failure feedback |
-| Consultation CTA with stub `OpenformWF2` | REQUIRED/PENDING | REQUIRED/PENDING | One trigger click; one CTA-intent micro-event; no embedded form or accepted-form event |
-| Consultation CTA without `OpenformWF2` | REQUIRED/PENDING | REQUIRED/PENDING | No exception/navigation; status `missing`; CTA intent only |
+| Consultation CTA with stub `OpenformWF2` | REQUIRED/PENDING | REQUIRED/PENDING | One trigger click; OSAT preserves its existing intent event; Fabless/Partner emit no CTA event; no embedded form |
+| Consultation CTA without `OpenformWF2` | REQUIRED/PENDING | REQUIRED/PENDING | No exception/navigation; status `missing`; same route-specific event boundary |
 | Refresh/back-forward | REQUIRED/PENDING | REQUIRED/PENDING | No duplicate initialization or false success |
 
 **Runtime status:** desktop/mobile browser acceptance is REQUIRED/PENDING. No browser, GTM or GA4 runtime validation has been executed.
 
-**Executed locally:** deterministic Node.js VM tests exercise the page scripts with stubbed DOM, IntersectionObserver, visibility/focus, clipboard and LadiPage trigger APIs. These verify enter/exit accumulation, pause/resume, terminal one-time flush and 3600-second cap, one-time section views, copy success/failure payloads, popup-trigger present/missing behavior, CTA intent semantics, no embedded form, no inline `page_view`, and one valid script/IIFE per route. Browser/device QA remains separate; no tag-container validation is implied.
+**Executed locally:** deterministic Node.js VM tests exercise the page scripts with stubbed DOM, IntersectionObserver, visibility/focus, clipboard and LadiPage trigger APIs. These verify enter/exit accumulation, pause/resume, terminal one-time flush and 3600-second cap, one-time section views, copy success/failure payloads, popup-trigger present/missing behavior, OSAT's existing CTA intent event, no Fabless/Partner CTA event, no embedded form, no inline `page_view`, and one valid script/IIFE per route. Browser/device QA remains separate; no tag-container validation is implied.
 
 ## Stop conditions
 

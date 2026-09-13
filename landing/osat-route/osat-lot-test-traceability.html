@@ -22,7 +22,7 @@
       <p class="eyebrow">SEMICONDUCTOR OPERATIONS · OSAT</p>
       <h1>Nối dữ liệu theo lot để nhìn rõ câu hỏi vận hành</h1>
       <p>Khung cơ chế cho lot, test data, 4M1E, quality, WIP và cost close trong cùng một mạch đối chiếu.</p>
-      <p class="cta"><button class="button alt" type="button" data-consultation-cta data-segment="osat" data-placement="hero" data-popup-trigger-status="pending">Đối chiếu một pain point OSAT</button></p>
+      <p class="cta"><button class="button alt" type="button" data-consultation-cta data-osat-cta="hero" data-popup-trigger-status="pending">Đối chiếu một pain point OSAT</button></p>
     </div>
   </header>
   <main class="wrap">
@@ -104,7 +104,8 @@
   window.addEventListener('pagehide',finish);
   document.querySelectorAll('[data-consultation-cta]').forEach(function(btn){
     btn.addEventListener('click',function(){
-      push({event:'consultation_cta_click',segment:btn.getAttribute('data-segment'),placement:btn.getAttribute('data-placement')});
+      var ctaLocation=btn.getAttribute('data-osat-cta');
+      if(ctaLocation!==null)push({event:'osat_cta_click',cta_location:ctaLocation});
       var trigger=document.getElementById('OpenformWF2');
       if(trigger&&typeof trigger.click==='function'){
         try{trigger.click();btn.setAttribute('data-popup-trigger-status','clicked');}
