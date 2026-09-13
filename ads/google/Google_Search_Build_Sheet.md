@@ -1,6 +1,6 @@
 # Google Search Build Sheet
 
-**Status:** offline production draft; no remote campaign creation. Campaign target state is paused. Google Campaigns, Ad groups, Settings and Keyword Planner are accessible/functional. The orange goal-update banner is informational and non-blocking. Keyword Planner result: `OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION` (six supplied seed rows, no displayed metrics); this is not a blocker or validated demand.
+**Status:** offline production draft; no remote campaign creation. Campaign target state is paused. Prior sanitized evidence recorded six supplied English OSAT seed rows with no displayed metrics (`OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION`); that historical result is not a new result for this validation slice, nor evidence of demand or a blocker. No fresh Keyword Planner run was possible because no Google Ads tab was present in the available browser inventory.
 
 ## Campaign structure
 

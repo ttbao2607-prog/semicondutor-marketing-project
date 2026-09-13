@@ -33,3 +33,13 @@
 | Final create button label and enabled state | Creation completed; no publish action |
 | Publish/form/tag/container actions | Not performed |
 | Reviewer and evidence location | Coordinator review; sanitized evidence only |
+
+## Current final-route import attempt (2026-09-13)
+
+The earlier OSAT draft evidence above concerns `osat-route-draft.html` only. It does not establish import or preview compatibility for the three current final offline candidates.
+
+- Basic mode was visibly selected in the HTML-to-LadiPage workflow.
+- Upload of `landing/osat-route/osat-lot-test-traceability.html` was rejected by the browser bridge before file selection because the worktree path is outside its configured upload roots. No file reached LadiPage and no new draft was created.
+- The Fabless and partner route uploads were not attempted after this first-route tooling boundary was confirmed.
+- This is a local browser-tool path restriction, not an observed LadiPage validation/authentication error. No alternate copy location, page-script injection, credential flow, or workaround was used.
+- Result: all three final candidates remain local-only and unimported in this validation slice. Import/editor preview is pending a supported, approved file-transfer route. No publication, domain, form, tracking, or campaign action occurred.

@@ -27,6 +27,7 @@
 
 - **Previously imported LadiPage draft:** `osat-route-draft.html` was imported in Basic mode and previewed. This older draft has no contact-copy UI; the observation proves draft/preview only, not publication.
 - **Current final offline candidate:** `landing/osat-route/osat-lot-test-traceability.html` is the newer mechanism-only candidate. It contains a contact-copy UI and a candidate `copied_contact` event emitted only after copy success with the approved non-PII parameters. This local candidate has not been imported or published.
+- **2026-09-13 import attempt:** Basic mode was selected, but the browser upload bridge rejected the verified worktree path before file transfer because it is outside configured upload roots. No new LadiPage draft was created. This does not change the older draft evidence above. See `LadiPage_Draft_Runbook.md` for scope and stop condition.
 - The final candidate connects lot genealogy, 4M1E context, test data, traceability, WIP visibility and cost-close review. It uses no named customer, case, number, percentage, outcome or unverified capability claim, and has no live lead form. Its CTA is a non-form request to discuss an operating problem; it is not a lead-success or booking claim.
 
 ## Tracking boundary
