@@ -1,8 +1,10 @@
 # Pre-ad UI validation evidence
 
-**Date:** 2026-09-13 (Asia/Ho_Chi_Minh)  
-**Branch/base:** `slice/pre-ad-ui-validation` from canonical baseline `ad76af69be773ba3be8ca2804e92786f31fcdaa7`  
+**Date:** 2026-09-13 (Asia/Ho_Chi_Minh)
+**Branch/base:** `slice/pre-ad-ui-validation` from canonical baseline `ad76af69be773ba3be8ca2804e92786f31fcdaa7`
 **Scope:** local HTML browser QA; attempted LadiPage draft import; read-only planner availability check. No publish, campaign, spend, lead, or audience action.
+
+The first local-route results below record the page revision before the locked LadiPage popup CTA correction. Its former anchor/OSAT-specific CTA observations are historical and are superseded by the correction result at the end of this file.
 
 ## Local route checks
 
@@ -30,3 +32,11 @@ Local HTML behavior is validated for the tested viewports. LadiPage import compa
 - Tracking suite: 16/16 tests passed.
 - Structural checks passed on all three final HTML files: doctype, title, description, canonical, `noindex,follow`, exactly one script block, and no form.
 - `git diff --check` passed. Privacy-pattern review found no account identifiers, credentials, contact addresses, or private platform routes in the new evidence; the runbook retains its pre-existing generic public LadiPage entrypoint.
+
+## Locked popup CTA correction (2026-09-13)
+
+- All three hero consultation links were changed to buttons that emit only `consultation_cta_click` intent and look up/click the LadiPage-owned `OpenformWF2` trigger. Missing trigger state is marked `missing` without navigation or an exception; the route markup contains no form.
+- Tracking tests after this change: 21/21 passed, including one-click stub, absent-trigger fallback, segment/placement payload, no `accepted_form`, and no form markup per route.
+- A fresh visual/browser run at 1280×900 and 390×844 could not be completed after the edit: the available browser denied local `file:` navigation by policy. No alternate browser surface, raw CDP, or workaround was used. Prior viewport screenshots predate this CTA correction and are not claimed as current verification.
+- Therefore current responsive browser acceptance remains pending. The local integration logic is covered by Node tests only; LadiPage configuration/preview is also pending and was not performed.
+- Existing `accepted_form` behavior was not modified. Popup/form fields, storage, and acceptance tracking remain LadiPage-owned.

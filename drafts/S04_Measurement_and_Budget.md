@@ -39,8 +39,8 @@ Production handoff: `../tracking/Semiconductor_Tracking_Contract.md` and `../ope
 |---|---|---|
 | `landing_view/session` | Correct paid destination loads; page view not duplicated | Route, tags, consent, duplicate check |
 | `content/proof_interaction` | Defined opening/view/interaction on a proof asset | DOM/asset behavior and scope |
-| `cta_click` | Click on typed CTA with action label | Correct destination and UTM persistence |
-| `accepted_form` | Receiver accepts and stores a marked test record | Success/error/refresh behavior and owner |
+| `consultation_cta_click` | User activates the landing CTA; route handler invokes the LadiPage-owned `OpenformWF2` trigger if present | One trigger click; intent only; no form/lead inference |
+| `accepted_form` | LadiPage-owned popup/receiver accepts and stores a submission under its existing acceptance condition | Existing success/error/refresh behavior and owner; do not alter semantics from the CTA handler |
 | `booking_confirmed` | External/native confirmation exists | Source of truth and attribution join |
 
 These are candidate semantics, not an instruction to create events. Reuse existing names after inventory; do not create a new taxonomy solely for naming convenience.

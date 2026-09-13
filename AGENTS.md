@@ -24,6 +24,8 @@ Với route đã được Bảo phê duyệt và có source docs, executor đư�
 
 HTML landing do agentic workflows sản xuất. Không giả định Ladipage import/publish được HTML tùy ý; phải chứng minh route thực trước. Reuse event/tag sau inventory, tránh duplicate; UTM/source phải kiểm tra xuyên route; không đưa PII vào URL, analytics parameter hoặc evidence; dùng dữ liệu giả có đánh dấu khi test.
 
+Ba route semiconductor giữ nguyên UI HTML đã khóa: HTML sở hữu giao diện và nút CTA, không chứa form nhìn thấy/ẩn. CTA chỉ gọi `document.getElementById('OpenformWF2').click()` khi trigger tồn tại; click là micro-event intent, không phải submit/lead. LadiPage sở hữu cấu hình popup/form bên ngoài HTML, field và nơi lưu dữ liệu, cùng hành vi/tracking của lần submit thành công. Không tự tạo API/form hoặc thay đổi nghĩa `accepted_form`; checklist binding/regression nằm trong `tracking/Semiconductor_Tracking_Contract.md` và `operations/LadiPage_Draft_Runbook.md`.
+
 Các slice song song phải ghi owner, input/revision, dependency, output, acceptance, quyền đọc/ghi và stop condition. Một browser session chỉ có một controller; shared resource chỉ có một writer. Không tự tạo framework, scheduler, API integration hoặc kích hoạt slice khi chưa có mandate.
 
 Google Ads evidence rule: banner cam “Xem xét mục tiêu của chiến dịch...” là informational/non-blocking. DOM/accessibility text một mình không đủ kết luận blocker; phải kiểm tra screenshot hiển thị và actual interaction, rồi escalate Coordinator/Auditor nếu còn nghi ngờ. Trạng thái sanitized ngày 2026-09-11: Campaigns, Ad groups, Settings và Keyword Planner functional; Keyword Planner có thể trả `OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION` khi không hiển thị metrics.

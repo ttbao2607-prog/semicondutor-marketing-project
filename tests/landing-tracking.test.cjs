@@ -41,7 +41,14 @@ function harness(routePath, options = {}) {
     'data-placement': 'contact',
     'data-segment': routePath.includes('osat-route') ? 'osat' : routePath.includes('fabless-route') ? 'fabless' : 'partner',
   });
-  const osatCta = new Element({ 'data-osat-cta': 'hero' });
+  const cta = new Element({
+    'data-segment': routePath.includes('osat-route') ? 'osat' : routePath.includes('fabless-route') ? 'fabless' : 'partner',
+    'data-placement': 'hero',
+    'data-popup-trigger-status': 'pending',
+  });
+  let popupClickCalls = 0;
+  const popupLookupIds = [];
+  const popupTrigger = options.popupPresent === false ? null : { click() { popupClickCalls++; } };
   const documentListeners = {};
   const windowListeners = {};
   let hidden = false;
@@ -59,9 +66,10 @@ function harness(routePath, options = {}) {
     querySelectorAll(selector) {
       if (selector === '[data-section]') return [section];
       if (selector === '[data-copy]') return [copy];
-      if (selector === '[data-osat-cta]') return routePath.includes('osat-route') ? [osatCta] : [];
+      if (selector === '[data-consultation-cta]') return [cta];
       return [];
     },
+    getElementById(id) { popupLookupIds.push(id); return id === 'OpenformWF2' ? popupTrigger : null; },
     querySelector(selector) { return selector === '[data-feedback]' ? feedback : null; },
     addEventListener(name, fn) { (documentListeners[name] ||= []).push(fn); },
     createElement() { return new Element(); },
@@ -88,8 +96,9 @@ function harness(routePath, options = {}) {
   vm.runInContext(script, context, { filename: routePath });
 
   return {
-    html, script, dataLayer, section, copy, osatCta, feedback,
+    html, script, dataLayer, section, copy, cta, feedback, popupLookupIds,
     get copyCalls() { return copyCalls; },
+    get popupClickCalls() { return popupClickCalls; },
     get observerCount() { return observerCount; },
     get observedRootMargin() { return observedRootMargin; },
     rerun() { vm.runInContext(script, context, { filename: routePath }); },
@@ -106,7 +115,7 @@ function harness(routePath, options = {}) {
       await Promise.resolve();
       await Promise.resolve();
     },
-    clickOsatCta() { osatCta.fire('click'); },
+    clickCta() { cta.fire('click'); },
   };
 }
 
@@ -180,14 +189,32 @@ for (const [name, routePath] of routes) {
     assert.equal(h.dataLayer.filter(e => e.event === 'copied_contact').length, 0);
     assert.match(h.feedback.textContent, /Không copy được/);
   });
-}
 
-test('OSAT CTA event is route-specific', () => {
-  const osat = harness(routes[0][1]);
-  osat.clickOsatCta();
-  assert.deepEqual({ ...osat.dataLayer.find(e => e.event === 'osat_cta_click') }, { event: 'osat_cta_click', cta_location: 'hero' });
-  for (const [, routePath] of routes.slice(1)) {
+  test(`${name}: consultation CTA opens the LadiPage-owned popup trigger once`, () => {
     const h = harness(routePath);
-    assert.doesNotMatch(h.script, /osat_cta_click/);
-  }
-});
+    assert.match(h.html, /<button[^>]*data-consultation-cta[^>]*data-popup-trigger-status="pending"/i);
+    assert.equal((h.html.match(/<button[^>]*data-consultation-cta/gi) || []).length, 1);
+    assert.doesNotMatch(h.html, /<form\b/i);
+    assert.doesNotMatch(h.script, /accepted_form/i);
+    h.clickCta();
+    assert.deepEqual(h.popupLookupIds, ['OpenformWF2']);
+    assert.equal(h.popupClickCalls, 1);
+    assert.equal(h.cta.getAttribute('data-popup-trigger-status'), 'clicked');
+    assert.deepEqual({ ...h.dataLayer.find(e => e.event === 'consultation_cta_click') }, {
+      event: 'consultation_cta_click',
+      segment: routePath.includes('osat-route') ? 'osat' : routePath.includes('fabless-route') ? 'fabless' : 'partner',
+      placement: 'hero',
+    });
+    assert.equal(h.dataLayer.some(e => e.event === 'accepted_form'), false);
+  });
+
+  test(`${name}: absent popup trigger fails safely and records CTA intent only`, () => {
+    const h = harness(routePath, { popupPresent: false });
+    assert.doesNotThrow(() => h.clickCta());
+    assert.deepEqual(h.popupLookupIds, ['OpenformWF2']);
+    assert.equal(h.popupClickCalls, 0);
+    assert.equal(h.cta.getAttribute('data-popup-trigger-status'), 'missing');
+    assert.equal(h.dataLayer.filter(e => e.event === 'consultation_cta_click').length, 1);
+    assert.equal(h.dataLayer.some(e => e.event === 'accepted_form'), false);
+  });
+}

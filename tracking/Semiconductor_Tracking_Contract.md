@@ -15,11 +15,20 @@
 
 ## Route-specific semantics
 
-- OSAT may retain candidate `osat_cta_click` with `cta_location`.
-- Fabless and Partner must not invent a shared general CTA event.
+- Every route's primary consultation CTA emits one candidate `consultation_cta_click` micro-event with exactly `segment` and `placement`. This records click/open intent only; it is not a popup-open confirmation, form submission, lead, or conversion.
+- The CTA handler looks up the LadiPage-owned `OpenformWF2` trigger through `document.getElementById('OpenformWF2')` and calls its `click()` method when available. The trigger is configured outside the imported HTML. If absent, the CTA must not throw or navigate; it records the local `data-popup-trigger-status="missing"` state.
+- Imported HTML contains no visible or hidden form and never emits `accepted_form`. Preserve any existing accepted-form event name and acceptance condition; only the existing verified form-acceptance flow may emit it. Do not infer acceptance from a CTA click or popup trigger click.
 - `copied_contact` fires only after a successful copy and has exactly `contact_type`, `placement`, `segment`.
-- There is no form; a CTA is not a lead or booking.
+- The landing page itself has no form; a LadiPage-configured popup may display its own form only after the consultation CTA is activated.
 - `section_view` and `section_engagement_time` are reused candidates, not implementation authorization.
+
+## LadiPage popup binding boundary
+
+- After importing a route, configure the approved LadiPage-native popup separately and bind its existing opener/trigger element to the exact DOM ID `OpenformWF2` using the supported LadiPage UI.
+- Do not add a form, hidden trigger, fake form target, API, or platform-specific code to the imported page. Do not rewrite the URL or add UTM parameters as part of this trigger pattern.
+- If LadiPage cannot expose a document-level trigger with this ID through supported configuration, stop and escalate; do not invent a substitute integration.
+- In editor preview, verify the page has no embedded form, the external trigger is present, one CTA click invokes that trigger once, and the popup behavior is visually correct. A missing trigger must leave the page in place with status `missing` and no exception.
+- The runtime status `clicked` means only that the configured DOM trigger's `click()` method was invoked. It does not assert that the popup appeared or that a form was accepted.
 
 ## Contact-copy behavior
 
@@ -36,11 +45,13 @@ The visible block uses verified company-controlled public contact values. Copy s
 | Pagehide | REQUIRED/PENDING | REQUIRED/PENDING | At most one bounded engagement event per viewed section |
 | Contact copy success | REQUIRED/PENDING | REQUIRED/PENDING | `copied_contact` only after success, with three allowed params |
 | Contact copy failure | REQUIRED/PENDING | REQUIRED/PENDING | No success event; accessible failure feedback |
+| Consultation CTA with stub `OpenformWF2` | REQUIRED/PENDING | REQUIRED/PENDING | One trigger click; one CTA-intent micro-event; no embedded form or accepted-form event |
+| Consultation CTA without `OpenformWF2` | REQUIRED/PENDING | REQUIRED/PENDING | No exception/navigation; status `missing`; CTA intent only |
 | Refresh/back-forward | REQUIRED/PENDING | REQUIRED/PENDING | No duplicate initialization or false success |
 
 **Runtime status:** desktop/mobile browser acceptance is REQUIRED/PENDING. No browser, GTM or GA4 runtime validation has been executed.
 
-**Executed locally:** deterministic Node.js VM tests exercise the page scripts with stubbed DOM, IntersectionObserver, visibility/focus and clipboard APIs. These verify enter/exit accumulation, pause/resume, terminal one-time flush and 3600-second cap, one-time section views, copy success/failure payloads, no inline `page_view`, and one valid script/IIFE per route. These are script-level tests, not browser/device or tag-container validation.
+**Executed locally:** deterministic Node.js VM tests exercise the page scripts with stubbed DOM, IntersectionObserver, visibility/focus, clipboard and LadiPage trigger APIs. These verify enter/exit accumulation, pause/resume, terminal one-time flush and 3600-second cap, one-time section views, copy success/failure payloads, popup-trigger present/missing behavior, CTA intent semantics, no embedded form, no inline `page_view`, and one valid script/IIFE per route. Browser/device QA remains separate; no tag-container validation is implied.
 
 ## Stop conditions
 
