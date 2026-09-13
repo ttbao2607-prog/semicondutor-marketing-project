@@ -158,6 +158,8 @@ Final route candidates:
 
 Apply the existing OSAT design direction consistently. Each page must have final Vietnamese-first copy, necessary English technical terms, official Digiwin branding, a contact-copy block, no form, no unverified claims, no draft/internal label, and no live placeholder.
 
+The current offline redesign follows `design-system/MASTER.md` and each route override. Each route has its own static explanatory diagram (OSAT lot trace rail; Fabless outsourced-WIP handoff with ownership to confirm; Partner ERP–MES–OT layer map marked architecture hypothesis) and exactly two primary consultation buttons, in the hero and terminal contact band. OSAT retains only its existing `osat_cta_click` intent candidate with `cta_location=hero|terminal`; Fabless and Partner have no CTA event pending inventory. This is a local design candidate, not import, publication or tracking authorization.
+
 Required metadata and QA: meta title/description, OG metadata, favicon, responsive desktop/mobile behavior, noindex/follow, route integrity and Lighthouse readiness. Publication route and custom HTML compatibility remain subject to direct UI evidence; the existing draft import/preview is not publication proof.
 
 ## 7. Contact CTA and tracking contract
@@ -169,7 +171,7 @@ Tracking rules:
 - Reuse shared GTM/GA4; do not create a container/property.
 - Keep global `page_view`.
 - Reuse `section_view` and `section_engagement_time` after inventory.
-- Prevent CTA duplicate firing.
+- Each of the two consultation buttons invokes `OpenformWF2` no more than once per click. OSAT records its existing hero/terminal intent location; Fabless and Partner emit no CTA event pending inventory.
 - Treat micro-events as reporting-only, never primary Google Ads conversions.
 - Google UTM: `utm_source=google`, `utm_medium=cpc`, `utm_campaign=vn_semiconductor_search_p1`, `utm_content=<segment>_rsa_<variant>`, `utm_term={keyword}`.
 - Preserve auto-tagging and `gclid`.

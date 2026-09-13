@@ -1,106 +1,65 @@
 <!doctype html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ERP, MES và OT integration | Digiwin</title><meta name="description" content="Khung cơ chế làm rõ data handoff, ownership, quality và traceability giữa ERP, MES và OT.">
-  <link rel="canonical" href="https://solutions.digiwin.com.vn/semiconductor-erp-mes-ot"><meta property="og:title" content="ERP, MES và OT integration | Digiwin"><meta property="og:description" content="Làm rõ điểm giao nhận dữ liệu giữa ERP, MES và OT."><meta property="og:image" content="https://www.digiwin.com.vn/wp-content/themes/dgw/images/logo.webp"><meta name="robots" content="noindex,follow"><link rel="icon" href="https://www.digiwin.com.vn/wp-content/uploads/2025/01/cropped-D-512-x-512-1-32x32.png">
-  <style>:root{--navy:#07162f;--ink:#10233d;--teal:#13b8a6;--line:#dbe7ed;--muted:#5d6e7f}*{box-sizing:border-box}body{margin:0;color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.55;background:#f5f9fb}a{color:inherit}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}.hero{background:linear-gradient(135deg,#071d34,#0d4a50);color:#fff;padding:26px 0 82px}.nav{display:flex;justify-content:space-between}.logo{width:180px;background:#fff;padding:8px 12px;border-radius:6px}.eyebrow{margin:78px 0 14px;color:#7be4d8;font-weight:700;letter-spacing:2px;font-size:13px}.hero h1{font-size:clamp(40px,6vw,72px);line-height:1.05;max-width:820px;margin:0 0 20px}.hero p{font-size:21px;max-width:720px;color:#d7e7ed}.button{display:inline-flex;border:0;border-radius:999px;padding:13px 21px;background:var(--teal);color:#06213a;font-weight:700;text-decoration:none;cursor:pointer}.button.alt{background:#fff;color:var(--navy)}main{padding:62px 0}.section{margin-bottom:58px}.section h2{font-size:34px;line-height:1.15;margin:0 0 14px}.lead{font-size:19px;color:var(--muted);max-width:780px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:0 10px 30px rgba(9,34,57,.05)}.card h3{margin:0 0 10px}.card p{margin:0;color:var(--muted)}.flow{display:flex;gap:12px;flex-wrap:wrap}.step{flex:1 1 180px;background:var(--navy);color:#fff;border-radius:16px;padding:20px}.step strong{display:block;color:#7be4d8;font-size:13px;letter-spacing:1px;margin-bottom:8px}.contact{background:var(--navy);color:#fff;border-radius:24px;padding:34px}.contact-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:28px}.contact h2{margin-top:0}.contact-list{display:grid;gap:10px;margin:18px 0}.contact-item{display:flex;gap:12px;align-items:flex-start}.contact-item b{color:#7be4d8;min-width:92px}.actions{display:flex;gap:10px;flex-wrap:wrap}.feedback{min-height:24px;margin-top:12px;color:#bff7eb;font-size:14px}footer{padding:30px 0 50px;color:var(--muted);font-size:14px}footer a{font-weight:700}@media(max-width:760px){.wrap{width:min(100% - 28px,1120px)}.hero{padding-bottom:54px}.eyebrow{margin-top:52px}.hero p{font-size:18px}.grid,.contact-grid{grid-template-columns:1fr}.logo{width:150px}}</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ERP, MES và OT integration | Digiwin</title>
+  <meta name="description" content="Khung cơ chế làm rõ data handoff, ownership, quality và traceability giữa ERP, MES và OT.">
+  <link rel="canonical" href="https://solutions.digiwin.com.vn/semiconductor-erp-mes-ot">
+  <meta property="og:title" content="ERP, MES và OT integration | Digiwin">
+  <meta property="og:description" content="Làm rõ điểm giao nhận dữ liệu giữa ERP, MES và OT.">
+  <meta property="og:image" content="https://www.digiwin.com.vn/wp-content/themes/dgw/images/logo.webp">
+  <meta name="robots" content="noindex,follow">
+  <link rel="icon" href="https://www.digiwin.com.vn/wp-content/uploads/2025/01/cropped-D-512-x-512-1-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#F8FAFC;--ink:#1E293B;--muted:#475569;--line:#E2E8F0;--blue:#2563EB;--cta:#EA580C;--accent:#0F766E;--paper:#fff;--dark:#143332;--max:1200px;--gutter:clamp(20px,5vw,64px)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.6 "Work Sans",Arial,sans-serif}a{color:inherit}button{font:inherit}:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
+    .skip-link{position:absolute;top:8px;left:8px;z-index:2;transform:translateY(-160%);background:#fff;padding:12px 16px;border:2px solid var(--blue);border-radius:6px}.skip-link:focus{transform:translateY(0)}.wrap{width:min(var(--max),calc(100% - 2*var(--gutter)));margin-inline:auto}
+    .topbar{padding:22px 0;border-bottom:1px solid var(--line)}.topbar-inner{display:flex;align-items:center;justify-content:space-between;gap:24px}.logo{display:block;width:180px;height:48px;object-fit:contain;background:#fff}.top-label,.eyebrow,.kicker{font-size:12px;line-height:1.4;letter-spacing:.12em;font-weight:700;text-transform:uppercase}.top-label{color:var(--muted);text-align:right}
+    .hero{padding:clamp(56px,8vw,104px) 0 72px}.hero-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,.65fr);align-items:end;gap:clamp(32px,7vw,96px)}.eyebrow{color:var(--accent);margin:0 0 20px}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:Outfit,"Work Sans",Arial,sans-serif;letter-spacing:-.025em}h1{max-width:820px;margin-bottom:24px;font-size:clamp(42px,6.6vw,78px);line-height:.99;font-weight:600}.hero-copy{max-width:700px;color:var(--muted);font-size:clamp(18px,2vw,21px);line-height:1.55;margin-bottom:30px}
+    .actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center}.button{display:inline-flex;min-height:48px;align-items:center;justify-content:center;padding:12px 20px;border:1px solid transparent;border-radius:4px;background:var(--cta);color:#000;font-weight:700;text-align:center;text-decoration:none;cursor:pointer;transition:background-color .16s ease,border-color .16s ease}.button:hover{background:#F97316}.button.secondary{border-color:#CBD5E1;background:#fff;color:var(--ink)}.button.secondary:hover{background:#F1F5F9;border-color:#94A3B8}.hero-note{border-left:3px solid var(--accent);padding:6px 0 6px 22px}.hero-note .kicker{margin-bottom:12px;color:var(--accent)}.hero-note p{margin:0;color:var(--muted)}
+    main{padding-bottom:clamp(70px,10vw,128px)}.section{padding:clamp(48px,7vw,88px) 0;border-top:1px solid var(--line)}.section-heading{display:grid;grid-template-columns:minmax(0,.8fr) minmax(260px,1.2fr);gap:32px;align-items:end;margin-bottom:34px}.section-heading h2,.review h2{font-size:clamp(30px,4.2vw,48px);line-height:1.08;margin:0;max-width:580px}.section-heading p,.review p{max-width:650px;color:var(--muted);margin:0;font-size:18px}
+    .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{min-width:0;padding:24px;border:1px solid var(--line);background:var(--paper)}.card .kicker{display:block;color:var(--accent);margin-bottom:22px}.card h3{font-size:23px;line-height:1.15;margin-bottom:10px}.card p{color:var(--muted);margin:0}
+    .mechanism{background:#fff;border:1px solid var(--line);padding:clamp(22px,4vw,42px)}.mechanism figcaption{display:flex;justify-content:space-between;gap:20px;align-items:baseline;margin-bottom:30px}.mechanism figcaption strong{font:600 clamp(20px,2.6vw,28px)/1.2 Outfit,"Work Sans",Arial,sans-serif}.mechanism figcaption span{font-size:13px;color:var(--muted)}
+    .layer-map{list-style:none;counter-reset:layer;display:grid;gap:0;padding:0;margin:0 auto;max-width:820px}.layer-map li{counter-increment:layer;position:relative;display:grid;grid-template-columns:150px minmax(0,1fr);gap:0;min-width:0;border:1px solid var(--line);background:var(--bg)}.layer-map li+li{margin-top:16px}.layer-map li:before{content:"0" counter(layer) " / LAYER";display:flex;align-items:center;justify-content:center;padding:18px 12px;background:#E6F4F2;color:var(--accent);font-size:11px;font-weight:700;letter-spacing:.08em}.layer-content{min-width:0;padding:19px 22px;border-left:3px solid var(--accent)}.layer-content h3{margin:0 0 5px;font-size:21px}.layer-content p{margin:0;color:var(--muted)}.layer-map li:not(:last-child):after{content:"↓";position:absolute;bottom:-24px;left:50%;z-index:2;transform:translateX(-50%);color:var(--accent);font-size:18px;font-weight:700}.layer-footnote{max-width:820px;margin:26px auto 0;padding:15px 18px;border-left:3px solid var(--accent);background:#E6F4F2;color:#1E293B;font-size:14px}
+    .review{display:grid;grid-template-columns:minmax(0,.8fr) minmax(260px,1.2fr);gap:32px;align-items:start}.review .boundary{border-left:3px solid var(--accent);padding:5px 0 5px 22px}
+    .contact{padding:clamp(28px,5vw,56px);background:var(--dark);color:#fff}.contact-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.8fr);gap:48px;align-items:start}.contact h2{max-width:600px;font-size:clamp(32px,4.5vw,52px);line-height:1.05;margin-bottom:18px}.contact-intro{max-width:540px;color:#D7E0EA;margin-bottom:26px}.contact .button{margin-top:4px}.contact-list{display:grid;gap:0;margin:0 0 18px}.contact-item{display:grid;grid-template-columns:90px minmax(0,1fr);gap:14px;padding:11px 0;border-bottom:1px solid #405167}.contact-item dt{color:#CBD5E1;font-weight:600}.contact-item dd{margin:0;overflow-wrap:anywhere}.contact .button.secondary{background:transparent;border-color:#8291A3;color:#fff}.contact .button.secondary:hover{background:#263B53}.feedback{min-height:24px;margin:12px 0 0;color:#D7E0EA;font-size:14px}footer{padding:26px 0 40px;color:var(--muted);font-size:14px}footer a{color:var(--ink);font-weight:600}
+    @media(max-width:900px){.hero-grid,.section-heading,.review{grid-template-columns:1fr;gap:24px}.hero-note{max-width:600px}.contact-grid{grid-template-columns:1fr;gap:30px}}
+    @media(max-width:640px){:root{--gutter:20px}.topbar{padding:16px 0}.logo{width:150px;height:42px}.top-label{font-size:10px;max-width:130px}.hero{padding-top:52px;padding-bottom:54px}h1{font-size:clamp(40px,12vw,56px)}.actions{align-items:stretch}.actions .button{width:100%}.cards{grid-template-columns:1fr}.card{padding:21px}.mechanism figcaption{display:block}.mechanism figcaption span{display:block;margin-top:8px}.layer-map li{grid-template-columns:78px minmax(0,1fr)}.layer-map li:before{padding:12px 5px;font-size:9px;letter-spacing:0}.layer-content{padding:15px}.layer-content h3{font-size:19px}.contact{padding:26px 20px}.contact-item{grid-template-columns:75px minmax(0,1fr);gap:10px}.contact .actions .button{width:auto;flex:1 1 130px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+  </style>
 </head>
-<body><header class="hero" data-section="hero"><div class="wrap"><nav class="nav"><img class="logo" src="https://www.digiwin.com.vn/wp-content/themes/dgw/images/logo.webp" alt="Digiwin"></nav><p class="eyebrow">SEMICONDUCTOR OPERATIONS · SUPPLIER / PARTNER</p><h1>Nối ERP, MES và OT</h1><p>Khung cơ chế làm rõ data handoff, ownership, quality và traceability giữa hệ thống doanh nghiệp, shopfloor và thiết bị.</p><p><button class="button alt" type="button" data-consultation-cta data-segment="partner" data-placement="hero" data-popup-trigger-status="pending">Trao đổi bài toán tích hợp</button></p></div></header><main class="wrap"><section class="section" data-section="mechanism"><h2>Bắt đầu từ điểm giao nhận dữ liệu</h2><p class="lead">Một điểm tích hợp rõ cần biết nguồn dữ liệu, người sở hữu, điều kiện chuyển giao và quyết định vận hành phía sau.</p><div class="grid"><article class="card"><h3>Data source</h3><p>Xác định dữ liệu bắt đầu từ ERP, MES hay OT.</p></article><article class="card"><h3>Ownership</h3><p>Làm rõ ai chịu trách nhiệm cho quality và traceability.</p></article><article class="card"><h3>Handoff</h3><p>Đối chiếu điểm giao nhận và hành động cần rút ngắn.</p></article></div></section><section class="section" data-section="flow"><h2>Một khung handoff dễ review</h2><div class="flow"><div class="step"><strong>01 · SOURCE</strong>ERP data</div><div class="step"><strong>02 · HANDOFF</strong>MES context</div><div class="step"><strong>03 · ACTION</strong>OT và quality</div></div></section><section class="section" data-section="review"><h2>Architecture hypothesis only</h2><p class="lead">Chọn một điểm nối đang vướng trong vận hành nhà máy; phạm vi tích hợp cần được discovery thực tế trước khi quyết định.</p></section><section id="contact" class="contact" data-section="contact"><div class="contact-grid"><div><h2>Trao đổi một điểm tích hợp</h2><p>Không gửi dữ liệu nhà máy, hồ sơ khách hàng hoặc thông tin nhạy cảm qua trang.</p></div><div><div class="contact-list"><div class="contact-item"><b>Email</b><span>info_vn@digiwin.com</span></div><div class="contact-item"><b>Hotline</b><span>+84 28 7307 0788</span></div><div class="contact-item"><b>Địa chỉ</b><span>Tầng 12A, Tòa nhà GOLDEN KING, 15 Nguyễn Lương Bằng, Phường Tân Mỹ, TP.HCM.</span></div></div><div class="actions"><button class="button" type="button" data-copy="info_vn@digiwin.com" data-contact-type="email" data-placement="contact" data-segment="partner">Copy email</button><button class="button alt" type="button" data-copy="+84 28 7307 0788" data-contact-type="hotline" data-placement="contact" data-segment="partner">Copy hotline</button></div><div class="feedback" aria-live="polite" data-feedback></div></div></div></section></main><footer class="wrap">Thông tin công ty: <a href="https://www.digiwin.com.vn/contact-vn/">Digiwin Vietnam contact</a>.</footer>
-<script>
+<body>
+  <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+  <header data-section="hero"><div class="topbar"><div class="wrap topbar-inner"><img class="logo" src="https://www.digiwin.com.vn/wp-content/themes/dgw/images/logo.webp" width="180" height="48" alt="Digiwin"><span class="top-label">Semiconductor operations · Supplier / partner</span></div></div>
+  <div class="hero"><div class="wrap hero-grid"><div><p class="eyebrow">ERP context · MES execution · OT signals</p><h1>Làm rõ điểm giao nhận giữa ERP, MES và OT</h1><p class="hero-copy">Khung cơ chế để đặt đúng câu hỏi về data handoff, ownership, quality và traceability giữa hệ thống doanh nghiệp, shopfloor và thiết bị.</p><div class="actions"><button class="button" type="button" data-consultation-cta data-popup-trigger-status="pending">Trao đổi bài toán tích hợp</button></div></div><aside class="hero-note"><p class="kicker">Architecture hypothesis</p><p>Đây là lớp khung để discovery và kiểm chứng; không khẳng định hệ thống, luồng dữ liệu hay tích hợp cụ thể đang tồn tại.</p></aside></div></div>
+  </header>
+  <main id="main" class="wrap">
+    <section class="section" data-section="mechanism" aria-labelledby="mechanism-title"><div class="section-heading"><h2 id="mechanism-title">Bắt đầu từ nguồn và người sở hữu</h2><p>Một điểm tích hợp cần làm rõ dữ liệu bắt đầu ở đâu, ai chịu trách nhiệm, điều kiện chuyển giao là gì và hành động vận hành nào phụ thuộc vào đó.</p></div><div class="cards"><article class="card"><span class="kicker">01 / Source</span><h3>Data context</h3><p>Xác định dữ liệu thuộc ngữ cảnh ERP, MES hay OT và phạm vi cần xem xét.</p></article><article class="card"><span class="kicker">02 / Ownership</span><h3>Responsibility</h3><p>Làm rõ owner, chất lượng dữ liệu và cách xử lý khi cần đối chiếu.</p></article><article class="card"><span class="kicker">03 / Handoff</span><h3>Operational use</h3><p>Đặt điểm giao nhận cạnh quyết định vận hành và nhu cầu traceability.</p></article></div></section>
+    <section class="section" data-section="flow" aria-labelledby="flow-title"><div class="section-heading"><h2 id="flow-title">Một layer map để kiểm chứng</h2><p>Sơ đồ khái niệm giúp đặt câu hỏi theo từng lớp và điểm handoff. Phạm vi, ownership và giao thức cần được xác minh thực tế.</p></div><figure class="mechanism"><figcaption><strong>ERP–MES–OT layer map</strong><span>Architecture hypothesis · discovery required</span></figcaption><ol class="layer-map"><li><div class="layer-content"><h3>ERP context</h3><p>Ngữ cảnh doanh nghiệp và dữ liệu cần làm rõ.</p></div></li><li><div class="layer-content"><h3>MES execution</h3><p>Ngữ cảnh thực thi và điểm bàn giao cần kiểm chứng.</p></div></li><li><div class="layer-content"><h3>OT signals</h3><p>Tín hiệu thiết bị và điều kiện sử dụng cần xác nhận.</p></div></li></ol><p class="layer-footnote"><strong>Handoff to confirm:</strong> nguồn dữ liệu · owner · điều kiện chuyển giao · quality · traceability · hành động phía sau.</p></figure></section>
+    <section class="section review" data-section="review" aria-labelledby="review-title"><h2 id="review-title">Discovery trước khi chọn kiến trúc</h2><p class="boundary">Chọn một điểm nối đang vướng trong vận hành, rồi xác nhận hệ thống liên quan, quyền sở hữu, dữ liệu và giới hạn triển khai trước khi quyết định bước tiếp theo.</p></section>
+    <section class="section" id="contact" data-section="contact" aria-labelledby="contact-title"><div class="contact"><div class="contact-grid"><div><p class="kicker">Bước tiếp theo</p><h2 id="contact-title">Trao đổi một điểm tích hợp</h2><p class="contact-intro">Liên hệ qua thông tin công khai của Digiwin. Không gửi dữ liệu nhà máy, hồ sơ khách hàng hoặc thông tin nhạy cảm qua trang.</p><button class="button" type="button" data-consultation-cta data-popup-trigger-status="pending">Trao đổi bài toán tích hợp</button></div><div><dl class="contact-list"><div class="contact-item"><dt>Email</dt><dd>info_vn@digiwin.com</dd></div><div class="contact-item"><dt>Hotline</dt><dd>+84 28 7307 0788</dd></div><div class="contact-item"><dt>Địa chỉ</dt><dd>Tầng 12A, Tòa nhà GOLDEN KING, 15 Nguyễn Lương Bằng, Phường Tân Mỹ, TP.HCM.</dd></div></dl><div class="actions"><button class="button secondary" type="button" data-copy="info_vn@digiwin.com" data-contact-type="email" data-placement="contact" data-segment="partner">Copy email</button><button class="button secondary" type="button" data-copy="+84 28 7307 0788" data-contact-type="hotline" data-placement="contact" data-segment="partner">Copy hotline</button></div><p class="feedback" aria-live="polite" data-feedback></p></div></div></div></section>
+  </main>
+  <footer class="wrap">Thông tin công ty: <a href="https://www.digiwin.com.vn/contact-vn/">Digiwin Vietnam contact</a>.</footer>
+  <script>
 (function(){
-  'use strict';
-  var guard='__dgwSectionTrackingInitialized';
-  if(window[guard])return;
-  window[guard]=true;
-  window.dataLayer=window.dataLayer||[];
-  var focused=typeof document.hasFocus==='function'?document.hasFocus():true;
-  var visible=!document.hidden&&focused;
-  var terminal=false;
-  var states=new Map();
-  var viewSeen=new WeakSet();
-  function getState(el){
-    if(!states.has(el))states.set(el,{intersecting:false,startedAt:null,totalMs:0,emitted:false});
-    return states.get(el);
-  }
-  function push(event){window.dataLayer.push(event);}
-  function start(el){
-    var s=getState(el);
-    if(terminal||!visible||!s.intersecting||s.startedAt!==null||s.emitted)return;
-    s.startedAt=Date.now();
-  }
-  function stop(el){
-    var s=getState(el);
-    if(s.startedAt===null)return;
-    s.totalMs+=Math.max(0,Date.now()-s.startedAt);
-    s.startedAt=null;
-  }
-  function pause(){
-    visible=false;
-    states.forEach(function(s,el){stop(el);});
-  }
-  function resume(){
-    visible=!document.hidden&&focused;
-    if(visible)states.forEach(function(s,el){if(s.intersecting)start(el);});
-  }
-  function finish(){
-    if(terminal)return;
-    terminal=true;
-    states.forEach(function(s,el){
-      stop(el);
-      if(!viewSeen.has(el)||s.emitted)return;
-      var seconds=Math.min(3600,Math.max(0,Math.round(s.totalMs/1000)));
-      if(seconds>0)push({event:'section_engagement_time',section_name:el.getAttribute('data-section'),engagement_seconds:seconds});
-      s.emitted=true;
-    });
-  }
-  var observer=new IntersectionObserver(function(entries){
-    if(terminal)return;
-    entries.forEach(function(entry){
-      var el=entry.target,s=getState(el);
-      s.intersecting=entry.isIntersecting;
-      if(entry.isIntersecting){
-        if(!viewSeen.has(el)){
-          viewSeen.add(el);
-          push({event:'section_view',section_name:el.getAttribute('data-section')});
-        }
-        start(el);
-      }else stop(el);
-    });
-  },{rootMargin:'-45% 0px -45% 0px'});
-  document.querySelectorAll('[data-section]').forEach(function(el){getState(el);observer.observe(el);});
-  document.addEventListener('visibilitychange',function(){if(document.hidden)pause();else resume();});
-  window.addEventListener('blur',function(){focused=false;pause();});
-  window.addEventListener('focus',function(){focused=true;resume();});
-  window.addEventListener('pagehide',finish);
-  document.querySelectorAll('[data-consultation-cta]').forEach(function(btn){
-    btn.addEventListener('click',function(){
-      var trigger=document.getElementById('OpenformWF2');
-      if(trigger&&typeof trigger.click==='function'){
-        try{trigger.click();btn.setAttribute('data-popup-trigger-status','clicked');}
-        catch(e){btn.setAttribute('data-popup-trigger-status','failed');}
-      }else btn.setAttribute('data-popup-trigger-status','missing');
-    });
-  });
-  document.querySelectorAll('[data-copy]').forEach(function(btn){
-    btn.addEventListener('click',function(){
-      var value=btn.getAttribute('data-copy'),feedback=document.querySelector('[data-feedback]');
-      function success(){
-        feedback.textContent='Đã copy thông tin. Bạn có thể dán vào ứng dụng liên hệ của mình.';
-        push({event:'copied_contact',contact_type:btn.getAttribute('data-contact-type'),placement:btn.getAttribute('data-placement'),segment:btn.getAttribute('data-segment')});
-      }
-      function failure(){feedback.textContent='Không copy được tự động. Bạn có thể chọn và copy thông tin hiển thị phía trên.';}
-      if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(value).then(success).catch(failure);
-      else{
-        var area=document.createElement('textarea');
-        area.value=value;area.setAttribute('readonly','');area.style.position='fixed';area.style.opacity='0';
-        document.body.appendChild(area);area.select();
-        var ok=false;
-        try{ok=document.execCommand('copy');}catch(e){}
-        document.body.removeChild(area);
-        if(ok)success();else failure();
-      }
-    });
-  });
+  'use strict';var guard='__dgwSectionTrackingInitialized';if(window[guard])return;window[guard]=true;window.dataLayer=window.dataLayer||[];
+  var focused=typeof document.hasFocus==='function'?document.hasFocus():true,visible=!document.hidden&&focused,terminal=false,states=new Map(),viewSeen=new WeakSet();
+  function getState(el){if(!states.has(el))states.set(el,{intersecting:false,startedAt:null,totalMs:0,emitted:false});return states.get(el)}
+  function push(event){window.dataLayer.push(event)}
+  function start(el){var s=getState(el);if(terminal||!visible||!s.intersecting||s.startedAt!==null||s.emitted)return;s.startedAt=Date.now()}
+  function stop(el){var s=getState(el);if(s.startedAt===null)return;s.totalMs+=Math.max(0,Date.now()-s.startedAt);s.startedAt=null}
+  function pause(){visible=false;states.forEach(function(s,el){stop(el)})}
+  function resume(){visible=!document.hidden&&focused;if(visible)states.forEach(function(s,el){if(s.intersecting)start(el)})}
+  function finish(){if(terminal)return;terminal=true;states.forEach(function(s,el){stop(el);if(!viewSeen.has(el)||s.emitted)return;var seconds=Math.min(3600,Math.max(0,Math.round(s.totalMs/1000)));if(seconds>0)push({event:'section_engagement_time',section_name:el.getAttribute('data-section'),engagement_seconds:seconds});s.emitted=true})}
+  var observer=new IntersectionObserver(function(entries){if(terminal)return;entries.forEach(function(entry){var el=entry.target,s=getState(el);s.intersecting=entry.isIntersecting;if(entry.isIntersecting){if(!viewSeen.has(el)){viewSeen.add(el);push({event:'section_view',section_name:el.getAttribute('data-section')})}start(el)}else stop(el)})},{rootMargin:'-45% 0px -45% 0px'});
+  document.querySelectorAll('[data-section]').forEach(function(el){getState(el);observer.observe(el)});document.addEventListener('visibilitychange',function(){if(document.hidden)pause();else resume()});window.addEventListener('blur',function(){focused=false;pause()});window.addEventListener('focus',function(){focused=true;resume()});window.addEventListener('pagehide',finish);
+  document.querySelectorAll('[data-consultation-cta]').forEach(function(btn){btn.addEventListener('click',function(){var trigger=document.getElementById('OpenformWF2');if(trigger&&typeof trigger.click==='function'){try{trigger.click();btn.setAttribute('data-popup-trigger-status','clicked')}catch(e){btn.setAttribute('data-popup-trigger-status','failed')}}else btn.setAttribute('data-popup-trigger-status','missing')})});
+  document.querySelectorAll('[data-copy]').forEach(function(btn){btn.addEventListener('click',function(){var value=btn.getAttribute('data-copy'),feedback=document.querySelector('[data-feedback]');function success(){feedback.textContent='Đã copy thông tin. Bạn có thể dán vào ứng dụng liên hệ của mình.';push({event:'copied_contact',contact_type:btn.getAttribute('data-contact-type'),placement:btn.getAttribute('data-placement'),segment:btn.getAttribute('data-segment')})}function failure(){feedback.textContent='Không copy được tự động. Bạn có thể chọn và copy thông tin hiển thị phía trên.'}if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(value).then(success).catch(failure);else{var area=document.createElement('textarea');area.value=value;area.setAttribute('readonly','');area.style.position='fixed';area.style.opacity='0';document.body.appendChild(area);area.select();var ok=false;try{ok=document.execCommand('copy')}catch(e){}document.body.removeChild(area);if(ok)success();else failure()}})});
 })();
-</script></body></html>
+  </script>
+</body>
+</html>

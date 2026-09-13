@@ -67,3 +67,7 @@ The earlier OSAT draft evidence above concerns `osat-route-draft.html` only. It 
 | ERP–MES–OT partner | `27185e516950efd8a11f27d21252aaf43a7a873d` | `27185e516950efd8a11f27d21252aaf43a7a873d` | Match; EOL-only raw SHA difference resolved | No file selected; no draft created/name assigned |
 
 The authenticated HTML-to-LadiPage screen was opened directly and Basic mode selected. The file chooser was not completed: no file was selected or transferred, and no draft was created or previewed. No actual LadiPage draft names exist for this slice. Before any import, the Product Owner then directed a UX-UI-Promax redesign of all landing pages; this is the current stop condition. No publication, domain assignment, popup configuration, campaign action, or other live-account change occurred. `OpenformWF2` remains intentionally unconfigured. Resume only after the redesign is approved and a new import mandate is issued.
+
+## UX redesign candidate update (2026-09-13)
+
+The three offline route files have since been redesigned on `slice/landing-ux-redesign`: OSAT lot trace rail, Fabless outsourced-WIP handoff, and Partner ERP–MES–OT layer map. Each route retains exactly two consultation buttons and no embedded form. This is a local candidate change only; the prior file-transfer limitation still applies, no route was imported or previewed, and `OpenformWF2` remains unconfigured. Do not import or publish without the separate approval/mandate and a supported transfer route.
