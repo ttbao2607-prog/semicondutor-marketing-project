@@ -28,7 +28,20 @@ No company/contact upload is allowed. Account-list targeting must remain separat
 
 ## Creative pack
 
-Three static concepts are provided under `assets/linkedin/source/` and rendered under `assets/linkedin/final/`, one per segment. The six-page OSAT document follows: cover; operating questions; mechanism map; traceability lens; operating review; contact-copy CTA. Copy is Vietnamese-first, mechanism-only, with no customer logo, number, case, outcome or unverified claim.
+Three static concepts are provided under `assets/linkedin/source/` and rendered under `assets/linkedin/final/`, one per segment. The six-page OSAT document follows: cover; operating questions; mechanism map; traceability lens; operating review; contact-copy CTA. The static concepts use customer-facing route copy and contain no customer name, number, case, outcome or unverified claim. Offline creative revision and PNG visual QA are recorded below; account/Page/placement/audience UI and live-object readiness remain pending.
+
+### Offline static-creative revision
+
+- Replaced internal production notes in all three footers with the approved customer-facing copy and updated each SVG description for accessibility.
+- Rendered the three source SVGs to 1200x1200 PNGs using local headless Chrome; inspected each full-resolution image against its SVG text for legibility, clipping, overlap and logo/aspect integrity. The OSAT caption was moved below its diagram connector for clear separation.
+
+| Creative | PNG dimensions | Bytes | SHA-256 |
+|---|---:|---:|---|
+| OSAT | 1200x1200 | 83760 | `5a3a3d7cc49396bab74ec72b94817cd4def74967170195127cb43665408c82c9` |
+| Fabless | 1200x1200 | 89954 | `f3597683064bd343e63137ad95f8a4e4836b4681bb3ef14f881b635d41bac05a` |
+| Partner | 1200x1200 | 85464 | `f15ceaa34bcdf8ab936dcf2dc21e6ba3309d29d74c22fc8913db323dddfc3680` |
+
+- This verifies offline creative assets only. It does not verify LinkedIn account/Page permissions, placements, audience availability, or any remote ad object; those remain pending the explicitly authorized UI review.
 
 ## Current blocker and validation plan
 
