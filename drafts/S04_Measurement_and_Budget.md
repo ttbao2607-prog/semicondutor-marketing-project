@@ -29,7 +29,7 @@ Production handoff: `../tracking/Semiconductor_Tracking_Contract.md` and `../ope
 | Search relevance | Relevant-query clicks / observed-query clicks | Google search-terms export | Explicit query sample and rubric | Unknown | Provisional | Review after sufficient query sample | Visible query set is not all demand |
 | Attention | Paid landing sessions, engaged sessions, engagement rate | Existing analytics if verified | Same source/route/filter; engagement rate = engaged sessions / sessions per tool definition | Unknown | Provisional | Check tracking first, then 5–7 days | Behavioral proxy, not awareness lift or qualified audience |
 | Expertise interest | Proof interaction rate | Analytics/asset telemetry if existing and verified | Defined proof interaction sessions / paid landing sessions | Unknown | Provisional | Review by route/pain | Must define interaction; cannot imply comprehension |
-| Progression | CTA click, accepted form, booking confirmed | Analytics + receiver/native system | Each step separately | Unknown | Provisional | Reconcile weekly | Click is not accepted form; form is not booking |
+| Progression | CTA intent, successful form submission (event name pending), booking confirmed | Analytics + receiver/native system | Each step separately | Unknown | Provisional | Verify live owner/name; any receiver test requires authorization | CTA intent is not form success; form success is not booking |
 | Cost | Spend, CPM, CPC, cost per engaged session | Native platform + reconciled spend | Same platform/tactic/period; cost per engaged session uses matching source and denominator | Unknown | No numeric target yet | Pacing weekly | Attribution and consent limitations |
 | Commercial optional | End-user/partner lead and follow-up status | Lead receiver/owner | Only accepted records and stated qualification fields | Unknown | Not mandatory | Review if implemented | Do not infer role or quality from reading behavior |
 
@@ -40,10 +40,12 @@ Production handoff: `../tracking/Semiconductor_Tracking_Contract.md` and `../ope
 | `landing_view/session` | Correct paid destination loads; page view not duplicated | Route, tags, consent, duplicate check |
 | `content/proof_interaction` | Defined opening/view/interaction on a proof asset | DOM/asset behavior and scope |
 | `cta_click` | Click on typed CTA with action label | Correct destination and UTM persistence |
-| `accepted_form` | Receiver accepts and stores a marked test record | Success/error/refresh behavior and owner |
+| Successful form submission (event name pending; semantic KPI only) | Receiver accepts and stores a marked test record, only after authorization and live event-owner/name verification | Confirm actual LadiPage/editor + GTM/GA4 source/name, receiver acceptance/storage, and success/error/refresh behavior; do not assume or synthesize `accepted_form` |
 | `booking_confirmed` | External/native confirmation exists | Source of truth and attribution join |
 
 These are candidate semantics, not an instruction to create events. Reuse existing names after inventory; do not create a new taxonomy solely for naming convenience.
+
+The reviewed local technical-document inventory does not substantiate an `accepted_form` event. The successful-submit KPI has no assigned event name here. Do not test receiver acceptance/storage until specifically authorized and the live LadiPage/editor and GTM/GA4 event owner/name have been verified.
 
 ## UTM, source and reconciliation policy
 
