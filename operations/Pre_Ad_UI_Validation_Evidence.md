@@ -40,3 +40,11 @@ Local HTML behavior is validated for the tested viewports. LadiPage import compa
 - A fresh visual/browser run at 1280×900 and 390×844 could not be completed after the edit: the available browser denied local `file:` navigation by policy. No alternate browser surface, raw CDP, or workaround was used. Prior viewport screenshots predate this CTA correction and are not claimed as current verification.
 - Therefore current responsive browser acceptance remains pending. The local integration logic is covered by Node tests only; LadiPage configuration/preview is also pending and was not performed.
 - Existing `accepted_form` behavior was not modified. Popup/form fields, storage, and acceptance tracking remain LadiPage-owned.
+
+## LadiPage final-draft import slice (2026-09-13)
+
+- Fresh branch `slice/ladipage-final-draft-import` was created from the required canonical base `3cf7e6b82187e5c6b070a32dc28614428ff8562f`.
+- Before upload, SHA-256 was checked for each requested D-drive canonical file against the corresponding file at that commit. All three comparisons failed; exact hashes and outcomes are recorded in `LadiPage_Draft_Runbook.md`.
+- Integrity gate result: **blocked before upload**. No file was uploaded, no LadiPage draft was created, and no editor/preview was opened. Consequently there are no actual draft names or preview results to report.
+- No workaround or alternate source file was substituted. No publish, domain, form submission, OpenformWF2 configuration, tag/tracking, campaign, spend, or audience action occurred.
+- Resume requirement: reconcile the three D-drive canonical files with the specified commit, verify exact matching hashes, then perform only the authorized Basic-mode unpublished draft imports. The popup/form remains LadiPage-owned and intentionally unconfigured in this slice.

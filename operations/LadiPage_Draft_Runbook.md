@@ -55,3 +55,15 @@ The earlier OSAT draft evidence above concerns `osat-route-draft.html` only. It 
 - The Fabless and partner route uploads were not attempted after this first-route tooling boundary was confirmed.
 - This is a local browser-tool path restriction, not an observed LadiPage validation/authentication error. No alternate copy location, page-script injection, credential flow, or workaround was used.
 - Result: all three final candidates remain local-only and unimported in this validation slice. Import/editor preview is pending a supported, approved file-transfer route. No publication, domain, form, tracking, or campaign action occurred.
+
+## Final-route import gate check (2026-09-13)
+
+**Slice branch:** `slice/ladipage-final-draft-import` at base `3cf7e6b82187e5c6b070a32dc28614428ff8562f`. **Outcome:** stopped before opening the upload flow because all three requested D-drive sources failed the required SHA-256 comparison against that commit's worktree files.
+
+| Route | SHA-256 at branch base | SHA-256 at requested D-drive path | Result / draft name |
+|---|---|---|---|
+| OSAT | `2C57D5B17096B4B30B3C660D3485AB0F2948A0E21F77E8F36E326F8F1D54C58E` | `7E84FC55325B2E78F6A060D04D6B2A39C63011022B1DFD895FD1360E45EC675D` | Mismatch; upload not attempted; no draft name assigned |
+| Fabless | `CA6A9453E620F19C62826BCA56B20CEA3D2CEF637BE7845B8F079CD830A9CBAA` | `B0F87BFDBCFF6A554CAE9B5E100CD4A76A4E71866A805BBC8FFDAFA6928C0988` | Mismatch; upload not attempted; no draft name assigned |
+| ERP–MES–OT partner | `178A45866AF92F050DF021CE04260496510EC425DE1554FDBE4A47D92AF7D2C7` | `383EAE7F9FA97AE84E47395D9EFBC083C75F706CD6BA0F51500DECD5ACEE2546` | Mismatch; upload not attempted; no draft name assigned |
+
+No LadiPage upload, draft creation, editor preview, publication, domain assignment, popup configuration, or campaign action occurred in this slice. The existing `OpenformWF2` requirement remains pending and intentionally unconfigured. Resume only after the canonical D-drive files are reconciled to the approved commit and all three hashes match; then rerun the pre-upload gate.
