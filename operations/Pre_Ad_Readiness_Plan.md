@@ -4,7 +4,7 @@
 **Revision:** 2026-09-13 · Asia/Ho_Chi_Minh
 **Revision note:** Recorded fresh Coordinator-reported Google Ads Overview modal evidence and corrected branch provenance; no operational approval gates or budget changed.
 **Owner:** Executor leaf, reporting to Coordinator/Auditor
-**Canonical branch:** `main` at baseline `393caa365b5a183c72c90e3e2a571e18ca3ebdb2`. **Evidence review slice:** `slice/google-ads-blocker-evidence`, branched from that exact baseline; this branch is not canonical and is not merged.
+**Canonical branch:** `main`. **Evidence review slice provenance:** `slice/google-ads-blocker-evidence` was branched from baseline commit `393caa365b5a183c72c90e3e2a571e18ca3ebdb2`.
 
 ## 1. Scope and phase end state
 
