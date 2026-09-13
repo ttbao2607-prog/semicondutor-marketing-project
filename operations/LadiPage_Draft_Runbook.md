@@ -58,12 +58,12 @@ The earlier OSAT draft evidence above concerns `osat-route-draft.html` only. It 
 
 ## Final-route import gate check (2026-09-13)
 
-**Slice branch:** `slice/ladipage-final-draft-import` at base `3cf7e6b82187e5c6b070a32dc28614428ff8562f`. **Outcome:** stopped before opening the upload flow because all three requested D-drive sources failed the required SHA-256 comparison against that commit's worktree files.
+**Slice branch:** `slice/ladipage-final-draft-import` at base `3cf7e6b82187e5c6b070a32dc28614428ff8562f`. Raw SHA-256 values differ because the D-drive copy uses different line endings. The integrity check was resolved by Git-normalized blob identity and empty EOL-insensitive diffs for all three pairs; the sources are content-equivalent to the required commit.
 
-| Route | SHA-256 at branch base | SHA-256 at requested D-drive path | Result / draft name |
+| Route | Git blob at required base | Normalized D-drive Git blob | Integrity result | Import/draft name |
 |---|---|---|---|
-| OSAT | `2C57D5B17096B4B30B3C660D3485AB0F2948A0E21F77E8F36E326F8F1D54C58E` | `7E84FC55325B2E78F6A060D04D6B2A39C63011022B1DFD895FD1360E45EC675D` | Mismatch; upload not attempted; no draft name assigned |
-| Fabless | `CA6A9453E620F19C62826BCA56B20CEA3D2CEF637BE7845B8F079CD830A9CBAA` | `B0F87BFDBCFF6A554CAE9B5E100CD4A76A4E71866A805BBC8FFDAFA6928C0988` | Mismatch; upload not attempted; no draft name assigned |
-| ERP–MES–OT partner | `178A45866AF92F050DF021CE04260496510EC425DE1554FDBE4A47D92AF7D2C7` | `383EAE7F9FA97AE84E47395D9EFBC083C75F706CD6BA0F51500DECD5ACEE2546` | Mismatch; upload not attempted; no draft name assigned |
+| OSAT | `552cc7df2443d8911fc7d2b0cdf6e91f43482b18` | `552cc7df2443d8911fc7d2b0cdf6e91f43482b18` | Match; EOL-only raw SHA difference resolved | No file selected; no draft created/name assigned |
+| Fabless | `c769c3407c9341c522a425dc6a42794204f647d1` | `c769c3407c9341c522a425dc6a42794204f647d1` | Match; EOL-only raw SHA difference resolved | No file selected; no draft created/name assigned |
+| ERP–MES–OT partner | `27185e516950efd8a11f27d21252aaf43a7a873d` | `27185e516950efd8a11f27d21252aaf43a7a873d` | Match; EOL-only raw SHA difference resolved | No file selected; no draft created/name assigned |
 
-No LadiPage upload, draft creation, editor preview, publication, domain assignment, popup configuration, or campaign action occurred in this slice. The existing `OpenformWF2` requirement remains pending and intentionally unconfigured. Resume only after the canonical D-drive files are reconciled to the approved commit and all three hashes match; then rerun the pre-upload gate.
+The authenticated HTML-to-LadiPage screen was opened directly and Basic mode selected. The file chooser was not completed: no file was selected or transferred, and no draft was created or previewed. No actual LadiPage draft names exist for this slice. Before any import, the Product Owner then directed a UX-UI-Promax redesign of all landing pages; this is the current stop condition. No publication, domain assignment, popup configuration, campaign action, or other live-account change occurred. `OpenformWF2` remains intentionally unconfigured. Resume only after the redesign is approved and a new import mandate is issued.

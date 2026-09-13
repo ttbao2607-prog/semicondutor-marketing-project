@@ -44,7 +44,7 @@ Local HTML behavior is validated for the tested viewports. LadiPage import compa
 ## LadiPage final-draft import slice (2026-09-13)
 
 - Fresh branch `slice/ladipage-final-draft-import` was created from the required canonical base `3cf7e6b82187e5c6b070a32dc28614428ff8562f`.
-- Before upload, SHA-256 was checked for each requested D-drive canonical file against the corresponding file at that commit. All three comparisons failed; exact hashes and outcomes are recorded in `LadiPage_Draft_Runbook.md`.
-- Integrity gate result: **blocked before upload**. No file was uploaded, no LadiPage draft was created, and no editor/preview was opened. Consequently there are no actual draft names or preview results to report.
-- No workaround or alternate source file was substituted. No publish, domain, form submission, OpenformWF2 configuration, tag/tracking, campaign, spend, or audience action occurred.
-- Resume requirement: reconcile the three D-drive canonical files with the specified commit, verify exact matching hashes, then perform only the authorized Basic-mode unpublished draft imports. The popup/form remains LadiPage-owned and intentionally unconfigured in this slice.
+- Raw SHA-256 initially differed due to line-ending normalization. Git blob hashes for all three D-drive files match the specified commit, and EOL-insensitive diffs are empty; the source integrity gate is **passed**. Exact blob IDs are recorded in `LadiPage_Draft_Runbook.md`.
+- The authenticated HTML-to-LadiPage screen was opened and Basic mode selected. No file was selected or transferred; no draft was created and no editor/preview was opened. Thus no actual draft names or preview results exist for this slice.
+- The Product Owner then directed that all landing pages receive a UX-UI-Promax redesign before any import. Work stopped at the pre-upload screen. No publish, domain, form submission/configuration, OpenformWF2 setup, tag/tracking, campaign, spend, or audience action occurred.
+- Current resume gate: complete and approve the required redesign, then obtain a fresh import mandate. The popup/form remains LadiPage-owned and intentionally unconfigured.
