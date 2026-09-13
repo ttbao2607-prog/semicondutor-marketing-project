@@ -250,6 +250,8 @@ for (const [name, routePath] of routes) {
     assert.match(html, /min-height:\s*48px/i);
     assert.match(html, /prefers-reduced-motion:\s*reduce/i);
     assert.match(html, /@media\s*\(max-width:\s*640px\)/i);
+    assert.match(styles, /\.wrap\s*\{[^}]*width:\s*min\(var\(--max\),calc\(100%\s*-\s*var\(--gutter\)\s*-\s*var\(--gutter\)\)\)/i);
+    assert.doesNotMatch(styles, /2\s*\*\s*var\(--gutter\)/i);
     assert.doesNotMatch(styles, /position\s*:\s*(?:fixed|sticky)/i);
     assert.doesNotMatch(html, /<form\b/i);
     assert.doesNotMatch(html, /accepted_form/i);
