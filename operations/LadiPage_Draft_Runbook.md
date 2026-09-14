@@ -1,6 +1,6 @@
 # LadiPage OSAT draft runbook
 
-**Status:** draft created and preview-validated; unpublished.
+**Status:** historical prototype draft created and preview-validated; unpublished. Current redesigned candidates remain unimported pending a supported file-transfer route.
 **Owner:** paid executor; report to coordinator. **Scope:** one draft HTML upload only.
 
 ## Preconditions and boundary
@@ -87,3 +87,12 @@ Authorized Chrome troubleshooting guidance identifies the required file-transfer
 | ERP–MES–OT partner | `Digiwin Semiconductor - ERP MES OT - UXPM Draft` | Not attempted | Not opened; no visual result |
 
 No draft was created and no editor preview occurred. No publication, domain assignment, form/popup setup or submission, `OpenformWF2` configuration, tracking/tag change, campaign, spend, or audience action occurred. Continue only after the user provides the required extension permission/file-transfer route and the approved upload can resume from the preserved tab.
+
+## OSAT-only import retry (2026-09-14)
+
+- **Source/base:** `slice/ladipage-osat-draft-import-retry`, based on canonical `main` at `304e1dc266bafc01365b9d399952434ec5d0b43d`. The exact checked-in `landing/osat-route/osat-lot-test-traceability.html` was verified unchanged from that commit before the attempt.
+- **Observed workflow:** opened the direct authorized `https://app.ladipage.com/` entrypoint in the existing Chrome profile, navigated through Landing Pages to HTML To LadiPage, and selected **Basic**. The dedicated browser connector reported that it could not connect to Chrome; the existing Chrome session remained controllable through the available UI surface.
+- **File-transfer result:** clicked the HTML file-selection control once. The visible page remained at the Basic import screen; no file chooser or permission result was exposed, and no filename or transfer appeared. This attempt did **not** reproduce the earlier `Not allowed` response and does not establish LadiPage file validation or import compatibility. No file reached LadiPage.
+- **Draft/preview:** no draft was created, so the requested title `Digiwin Semiconductor - OSAT - UXPM Draft` was not assigned and desktop/mobile editor preview was not available.
+- **Boundary:** no permission/settings change, alternate copy/browser, script injection, publication, domain, popup/form/receiver, `OpenformWF2`, tracking/tag, campaign, spend, audience, credential, or form-submission action occurred. No raw screenshot, account identity, private URL, or session data is retained.
+- **Stop condition:** supported file transfer remains unresolved. The prior browser-level `Not allowed` observation remains a separate historical result; this retry's exact result is that the chooser did not become visibly available through the connected UI surface.

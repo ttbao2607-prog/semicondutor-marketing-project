@@ -78,3 +78,11 @@ No settings, campaign, save, enable, spend, lead, audience or other external mut
 | ERP–MES–OT partner | `Digiwin Semiconductor - ERP MES OT - UXPM Draft` | No — not attempted | Not opened; no visual outcome |
 
 Authorized Chrome troubleshooting guidance says upload requires **“Allow access to file URLs”** for the specific Chrome profile and extension instance. This permission was not changed. The tab is preserved at the HTML-to-LadiPage Basic upload screen for user handoff. No draft creation or publication occurred. No domain, form, popup, `OpenformWF2`, tracking/tag, campaign, spend, or audience action was taken. Desktop/mobile preview validation remains pending resolution of the file-access permission and successful draft creation.
+
+## OSAT-only import retry (2026-09-14)
+
+- **Lineage:** new owned branch `slice/ladipage-osat-draft-import-retry`, from canonical `main` at `304e1dc266bafc01365b9d399952434ec5d0b43d`. The requested OSAT source `landing/osat-route/osat-lot-test-traceability.html` matched the checked-in content exactly before use.
+- **Observed:** the direct authorized LadiPage entrypoint and HTML To LadiPage workflow opened in the existing Chrome profile. Basic mode was visibly selected. The dedicated browser connector could not connect; the existing session was controlled via the available browser UI surface.
+- **Transfer:** the file-selection control was clicked once, but the visible screen remained unchanged and exposed no file chooser or permission message. No file was selected or transferred. This is a UI/tool-access limitation; it is not an observed LadiPage validation result and is distinct from the prior `Not allowed` attempt.
+- **Outcome:** no draft exists; the requested draft title was not assigned; editor desktop/mobile preview was not reached. No publish, domain, popup/form/receiver, `OpenformWF2`, form submit, tag/tracking, campaign, spend, audience, credential, browser permission, alternate browser/path, or script action occurred. No raw screenshot or account/session identity is retained.
+- **Truth boundary:** an OSAT CTA trigger click is not a form submission or lead success. This retry generated no CTA or form evidence.
