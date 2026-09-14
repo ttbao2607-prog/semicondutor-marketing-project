@@ -1,8 +1,8 @@
 # Pre-Ad Readiness Execution Plan
 
 **Status:** PLAN APPROVED / EXECUTION ACTIVE / LAUNCH NOT AUTHORIZED
-**Revision:** 2026-09-13 · Asia/Ho_Chi_Minh
-**Revision note:** Recorded fresh Coordinator-reported Google Ads Overview modal evidence and corrected branch provenance; no operational approval gates or budget changed.
+**Revision:** 2026-09-14 · Asia/Ho_Chi_Minh
+**Revision note:** Screenshot-backed Planner interaction supersedes the prior modal-blocker assumption. One OSAT query showed no metrics and automatically created a Planner draft entry; remaining clusters are pending. No operational approval gates or budget changed.
 **Owner:** Executor leaf, reporting to Coordinator/Auditor
 **Canonical branch:** `main`. **Evidence review slice provenance:** `slice/google-ads-blocker-evidence` was branched from baseline commit `393caa365b5a183c72c90e3e2a571e18ca3ebdb2`.
 
@@ -144,7 +144,7 @@ Prepare one **OSAT document ad with six pages**: pain, operating consequence, da
 
 Use Keyword Planner and account search-term/overlap evidence when authorized. Retain 8–15 validated keywords per ad group and maintain the negative taxonomy from S02. No volume, CPC, competition, overlap or result claim is valid without observed evidence.
 
-**Current readiness evidence (2026-09-13, Coordinator-reported):** the authenticated Google Ads Overview displayed a “Turn off ad blockers” modal. The Coordinator stopped without dismissing or interacting with it; no Keyword Planner query was made. This is distinct from the orange Vietnamese mechanism-update banner, which remains informational/non-blocking. Fresh Vietnam OSAT, Fabless and ERP–MES–OT/partner research remains pending; the modal's downstream effect is unknown. The six-English-seed no-metrics result remains historical only. No campaign, save, enable or spend action occurred.
+**Current readiness evidence (2026-09-14):** screenshot showed no ad-blocker dialog. “Turn off ad blockers” remained only in the accessibility/DOM text while direct Keyword Planner navigation and opening the query form worked. Classify this as `OBSERVED_DOM_FALSE_SIGNAL_NON_BLOCKING`. The orange Vietnamese campaign-objective/budget update banner was informational. One OSAT Vietnamese-first query for Vietnam (Google network; Sep 2025–Aug 2026; adult ideas excluded) displayed no metrics and no related ideas: `OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION`, not zero demand. The query automatically created a draft entry in the Planner list without an explicit save click. No further clusters were queried to avoid more draft entries under the no-save mandate. Campaigns remain uncreated, disabled and unspent; no settings were changed. Fresh Fabless and ERP–MES–OT/partner evidence remains pending. No budget or approval status changed.
 
 Each ad group gets one VN-first RSA with 10–12 headlines and 4 descriptions. Add an English RSA only when English demand evidence exists. Prepare 4 callouts and 3 sitelinks. Final copy must map to the correct segment/pain/route and omit unverified proof.
 

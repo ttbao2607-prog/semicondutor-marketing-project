@@ -25,7 +25,7 @@ Clipboard checks used an invalid synthetic test value and a browser-local stub. 
 
 ## Gate
 
-Local HTML behavior is validated for the tested viewports. LadiPage import compatibility and preview are not validated for these three final routes. Fresh Keyword Planner research remains pending: the latest Coordinator-reported session reached Overview but stopped at a visibly rendered modal before interaction or Planner navigation. The six-English-seed no-metrics result remains historical. Publication remains unauthorized here and requires its separate action-time confirmation after draft/editor QA.
+Local HTML behavior is validated for the tested viewports. LadiPage import compatibility and preview are not validated for these three final routes. On 2026-09-14, direct Keyword Planner navigation and its query form worked despite stale ad-blocker text in the accessibility/DOM tree; the screenshot showed no such dialog. One OSAT query returned no displayed metrics and created a Planner draft entry automatically, so the remaining cluster queries were stopped. Fresh Fabless and ERP–MES–OT/partner research remains pending. Publication remains unauthorized here and requires its separate action-time confirmation after draft/editor QA.
 
 ## Repository verification
 
@@ -62,9 +62,20 @@ Local HTML behavior is validated for the tested viewports. LadiPage import compa
 
 The Coordinator opened the authenticated Google Ads account in Bảo's authorized Chrome profile, selected the Digiwin account, and reached Overview. A visibly rendered modal showed heading **“Turn off ad blockers”** and body **“Google Ads can't work when you're using an ad blocker. To use Google Ads, please turn off any ad blockers for now.”** The Coordinator stopped with the modal open and did not dismiss or interact with it. This establishes a visible modal at Overview; its effect beyond that screen was not tested. No Keyword Planner navigation or query was made.
 
-This modal is distinct from the orange Vietnamese **“Xem xét mục tiêu của chiến dịch...”** mechanism-update banner, which remains informational/non-blocking. The earlier six supplied English OSAT seeds with no displayed metrics are historical evidence only. Fresh Keyword Planner research for Vietnam OSAT, Fabless and ERP–MES–OT/partner clusters remains pending; no fresh metric or planner-availability result is claimed.
+This historical report is limited to the 2026-09-13 Overview observation. It is superseded for current Keyword Planner availability by the screenshot-backed interaction recorded below. The orange Vietnamese **“Xem xét mục tiêu của chiến dịch...”** mechanism-update banner remains informational/non-blocking.
 
-No settings, campaign, save, enable, spend, lead, audience or other external mutation occurred. No account identifiers, private URLs, login identity, screenshots, cookies or session details are retained.
+No settings, campaign, enablement, spend, lead, audience or other external mutation was reported in that 2026-09-13 session. No account identifiers, private URLs, login identity, screenshots, cookies or session details are retained.
+
+## Google Ads Keyword Planner verification (2026-09-14, Asia/Ho_Chi_Minh)
+
+**Evidence class:** direct executor observation in the authorized browser session. Screenshots were reviewed in-session and are not retained in the repository.
+
+- Direct navigation to Keyword Planner reached an account chooser, the Digiwin account was selected, and the Planner page loaded. A screenshot showed no “Turn off ad blockers” dialog. The string remained in the accessibility/DOM tree, but the Planner navigation and query form worked. Classify it as `OBSERVED_DOM_FALSE_SIGNAL_NON_BLOCKING`, not a visible or functional blocker.
+- The orange Vietnamese “Xem xét mục tiêu của chiến dịch...” banner was visibly rendered at the top and remained informational. It did not prevent Planner interaction.
+- Planner query configuration: Vietnam, Vietnamese, Google network, historical window Sep 2025–Aug 2026; adult ideas excluded. One Vietnamese-first seed set was entered for the OSAT lot/test/traceability cluster. No raw search terms, account identifiers, private URLs or screenshots are retained here.
+- Results showed six supplied seed rows with dashes for average monthly searches, three-month/year-over-year changes, competition, impression share and low/high top-of-page bid. The chart showed no data and the related-idea panel showed no results. Record `OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION`; do not infer demand=0.
+- **Unexpected Planner side effect:** clicking “Nhận kết quả” caused the UI to show a newly created draft plan entry in the plans list, although no explicit save action was clicked. This is not a campaign. No attempt was made to delete or modify it. Further cluster queries stopped to avoid creating additional plan entries under the no-save mandate.
+- Fabless and ERP–MES–OT/partner clusters were not queried. Their metrics remain unknown. No campaign was created or modified; no settings changed; no campaign was enabled; no spend, export, upload, form submission or audience action occurred.
 
 ## Authorized UX redesign draft-preview attempt (2026-09-13)
 

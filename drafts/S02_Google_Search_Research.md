@@ -1,6 +1,6 @@
 # S02 — Google Search research
 
-**Status:** draft only; six English OSAT seeds with no displayed metrics are historical evidence; fresh VN/Fabless/Partner Keyword Planner research remains pending after a Coordinator-reported modal at Google Ads Overview; no campaign created
+**Status:** draft only; fresh OSAT Vietnamese-first Keyword Planner query completed with no displayed metrics; Fabless and ERP–MES–OT/partner research remains pending; no campaign created, enabled or spend incurred
 **Owner:** Executor in this batch  
 **Objective:** define VN/EN query clusters, intent hypotheses, negatives and validation steps without claiming volume, CPC, competition, overlap or campaign results.
 
@@ -16,13 +16,15 @@
 
 **Proposal:** begin with tightly themed exact/phrase hypotheses and a mechanism-led landing mapping; validate Vietnamese and English separately.
 
-**Unknown:** account/campaign overlap, location/language settings, actual search volume/CPC/competition, query terms, existing negatives, conversion goals and final landing URL.
+**Unknown:** account/campaign overlap, live campaign location/language settings, actual demand, CPC/competition, account search terms, existing negatives, conversion goals and final landing URL.
 
 **Historical UI evidence (2026-09-11):** Campaigns, Ad groups, Settings and Keyword Planner were observed functional in that earlier sanitized session. The orange `GOOGLE_ADS_GOAL_UPDATE_BANNER / INFORMATIONAL / NON_BLOCKING` is the objective/budget mechanism-update banner. The six supplied English OSAT seeds returned no displayed metrics: `OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION`; this is not validated demand and is not a fresh result.
 
-**Coordinator-reported authenticated UI observation (2026-09-13, Asia/Ho_Chi_Minh):** the Coordinator selected the Digiwin account and reached Overview, where a visibly rendered modal showed heading **“Turn off ad blockers”** and body **“Google Ads can't work when you're using an ad blocker. To use Google Ads, please turn off any ad blockers for now.”** The Coordinator stopped with it open and did not dismiss or interact. This is evidence of a modal at Overview, not a tested account-wide or Keyword Planner failure. No Keyword Planner navigation/query or external mutation occurred. It is distinct from the orange Vietnamese mechanism-update banner, which remains informational/non-blocking.
+**Historical Coordinator-reported observation (2026-09-13, Asia/Ho_Chi_Minh):** the Coordinator reported a visible “Turn off ad blockers” modal at Overview and stopped. This is retained as that session’s evidence only and is superseded for current Planner availability by the direct, screenshot-backed interaction below.
 
-**Unknown / pending:** fresh Keyword Planner research and metrics for Vietnam OSAT, Fabless and ERP–MES–OT/partner clusters; the modal's downstream effect because no interaction was performed; current campaign/search-term overlap and live settings. The earlier executor check that found no Ads tab is historical and is superseded as the latest access description by the Coordinator observation above. Never infer demand or a permanent platform blocker from the six-seed no-metrics result or modal text alone; retain the visible-evidence and interaction requirements in `AGENTS.md`.
+**Current Planner evidence (2026-09-14, Asia/Ho_Chi_Minh):** direct navigation to Keyword Planner and opening the Vietnamese-first query form both worked. The accessibility tree retained the text “Turn off ad blockers,” but the screenshots showed no such dialog; the orange “Xem xét mục tiêu của chiến dịch...” banner was visible and informational. Classify the stale modal text as `OBSERVED_DOM_FALSE_SIGNAL_NON_BLOCKING`. One OSAT query returned no displayed metrics: the seed rows showed em dashes for monthly searches, changes, competition, impression share and bid ranges; the related-idea panel and chart showed no data. Configuration: Vietnam, Vietnamese, Google, Sep 2025–Aug 2026, adult ideas excluded. This is `OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION`, not demand=0. The “Get results” interaction also created one draft plan entry in the account’s Planner list without an explicit save action. No further cluster query was run, to avoid generating more saved/draft plan entries under the no-save mandate. No campaign, settings, enablement, spend, export or upload action occurred.
+
+**Pending:** fresh Vietnam research for Fabless and ERP–MES–OT/partner; account/campaign/search-term overlap and live campaign settings. Do not infer demand from the no-data result. Before further Keyword Planner queries, resolve whether the UI’s automatic draft-plan creation is within the allowed scope. Preserve the screenshot/interaction evidence rule in `AGENTS.md`.
 
 Production handoff: `../ads/google/Google_Search_Build_Sheet.md`.
 
