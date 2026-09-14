@@ -56,13 +56,9 @@ Local HTML behavior is validated for the tested viewports. LadiPage import compa
 - **Local automated checks:** the deterministic Node.js VM suite passes 24/24, including both CTA locations with and without the external trigger, route-specific CTA event boundaries, static route diagrams, basic responsive/accessibility structure, timing, and copy success/failure behavior. `git diff --check` passes.
 - **Visual and platform status:** no real browser viewport or editor preview has been completed for this redesigned revision. In the later Coordinator-reported attempt, the authenticated LadiPage account opened, Basic mode was selected, but the OSAT file chooser returned `Not allowed` before transfer; Fabless and Partner were not attempted. The tab remains at the Basic upload screen. The required Chrome extension file-URL permission has not been changed. No live form, domain, tag, campaign, spend or publication action occurred.
 
-## Google Ads UI evidence — Coordinator-reported (2026-09-13, Asia/Ho_Chi_Minh)
+## Google Ads UI evidence — corrected classification (2026-09-14, Asia/Ho_Chi_Minh)
 
-**Evidence class:** authenticated Coordinator observation, supplied to this executor; not independently observed in this worktree session.
-
-The Coordinator opened the authenticated Google Ads account in Bảo's authorized Chrome profile, selected the Digiwin account, and reached Overview. A visibly rendered modal showed heading **“Turn off ad blockers”** and body **“Google Ads can't work when you're using an ad blocker. To use Google Ads, please turn off any ad blockers for now.”** The Coordinator stopped with the modal open and did not dismiss or interact with it. This establishes a visible modal at Overview; its effect beyond that screen was not tested. No Keyword Planner navigation or query was made.
-
-This historical report is limited to the 2026-09-13 Overview observation. It is superseded for current Keyword Planner availability by the screenshot-backed interaction recorded below. The orange Vietnamese **“Xem xét mục tiêu của chiến dịch...”** mechanism-update banner remains informational/non-blocking.
+**Evidence correction from Bảo (2026-09-14):** withdraw the prior characterization of this signal as a visibly rendered modal. “Turn off ad blockers” was a DOM/accessibility-only false signal, not a historically visible dialog. Classify it as `OBSERVED_DOM_FALSE_SIGNAL_NON_BLOCKING`; the earlier report is not evidence of a rendered modal or blocker. The screenshot-backed Planner observation below shows no dialog, and Planner interaction worked. The orange Vietnamese **“Xem xét mục tiêu của chiến dịch...”** mechanism-update banner remains informational/non-blocking.
 
 No settings, campaign, enablement, spend, lead, audience or other external mutation was reported in that 2026-09-13 session. No account identifiers, private URLs, login identity, screenshots, cookies or session details are retained.
 
@@ -75,7 +71,7 @@ No settings, campaign, enablement, spend, lead, audience or other external mutat
 - Planner query configuration: Vietnam, Vietnamese, Google network, historical window Sep 2025–Aug 2026; adult ideas excluded. One Vietnamese-first seed set was entered for the OSAT lot/test/traceability cluster. No raw search terms, account identifiers, private URLs or screenshots are retained here.
 - Results showed six supplied seed rows with dashes for average monthly searches, three-month/year-over-year changes, competition, impression share and low/high top-of-page bid. The chart showed no data and the related-idea panel showed no results. Record `OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION`; do not infer demand=0.
 - **Unexpected Planner side effect:** clicking “Nhận kết quả” caused the UI to show a newly created draft plan entry in the plans list, although no explicit save action was clicked. This is not a campaign. No attempt was made to delete or modify it. Further cluster queries stopped to avoid creating additional plan entries under the no-save mandate.
-- Fabless and ERP–MES–OT/partner clusters were not queried. Their metrics remain unknown. No campaign was created or modified; no settings changed; no campaign was enabled; no spend, export, upload, form submission or audience action occurred.
+- Fabless and ERP–MES–OT/partner clusters were not queried. Their metrics remain unknown. Further queries await an explicit decision/mandate on accepting additional automatically created Planner draft entries; this is a scope/side-effect gate, not an ad-blocker or platform failure. No campaign was created or modified; no settings changed; no campaign was enabled; no spend, export, upload, form submission or audience action occurred.
 
 ## Authorized UX redesign draft-preview attempt (2026-09-13)
 
