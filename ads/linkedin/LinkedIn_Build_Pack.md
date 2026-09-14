@@ -1,6 +1,6 @@
 # LinkedIn Build Pack
 
-**Status:** offline production draft; latest direct route redirected to Campaign Manager sign-in. No credentials were entered; account/page/audience verification and remote object creation remain pending.
+**Status:** offline creative revision complete; latest direct route redirected to Campaign Manager sign-in. No credentials were entered; account/Page, placement, audience, permissions and live-object verification remain pending.
 
 ## Format and delivery specifications
 
@@ -42,6 +42,13 @@ Three static concepts are provided under `assets/linkedin/source/` and rendered 
 | Partner | 1200x1200 | 85464 | `f15ceaa34bcdf8ab936dcf2dc21e6ba3309d29d74c22fc8913db323dddfc3680` |
 
 - This verifies offline creative assets only. It does not verify LinkedIn account/Page permissions, placements, audience availability, or any remote ad object; those remain pending the explicitly authorized UI review.
+
+### Offline OSAT document-ad revision
+
+- Rebuilt the six-page A4 OSAT document with customer-facing copy and the verified public Digiwin contact block. The page-by-page copy source is `assets/linkedin/source/osat-document-ad-6p-copy.md`.
+- QA: six A4 portrait pages; all six pages rendered with bundled Poppler at 120 dpi and visually reviewed for legibility, margins, tables, diagram, page sequence, clipping and overlap. Extracted page text was checked against the copy source, and the extracted copy contains none of the prohibited internal/governance terms.
+- PDF: `output/pdf/digiwin-osat-document-ad-6p.pdf` | 6 pages | A4 portrait | 98,953 bytes | SHA-256 `64defd157bbded2cdc245df22346f5b96c0d8702f53b470ec530c84d7c5881fa`.
+- This is an offline creative artifact only. LinkedIn account/Page permissions, placements, audience availability and live-ad-object readiness remain pending; no account or campaign action was taken.
 
 ## Current blocker and validation plan
 
