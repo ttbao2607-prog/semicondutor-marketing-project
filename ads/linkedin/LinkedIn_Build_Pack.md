@@ -1,6 +1,6 @@
 # LinkedIn Build Pack
 
-**Status:** offline creative revision complete; latest direct route redirected to Campaign Manager sign-in. No credentials were entered; account/Page, placement, audience, permissions and live-object verification remain pending.
+**Status:** offline creative revision complete; authorized external read-only validation was completed on 2026-09-14. The public record retains only sanitized findings. No audience upload, creative attachment, campaign delivery or spend occurred.
 
 ## Format and delivery specifications
 
@@ -16,9 +16,9 @@
 
 | Sanitized ad set | Include hypotheses | Exclude hypotheses | Status |
 |---|---|---|---|
-| LI-P1-OSAT-OPS | Vietnam; OSAT/factory; operations, manufacturing, quality, process engineering, supply chain, IT/MES; manager/head/director/VP where available | Students, recruitment, unrelated consumer electronics, broad policy-only roles | UI size/availability/login verification pending |
-| LI-P1-FABLESS-WIP | Vietnam; fabless/commercialization; operations, planning, supply chain, R&D/program, finance; manager/director/VP | Pure academic/recruitment, unrelated chip hobby/consumer roles | UI size/availability/login verification pending |
-| LI-P1-PARTNER-INTEGRATION | Vietnam; supplier/SI/automation/materials-equipment; ERP/MES/OT, solution engineering, partner/channel, quality; manager/director | End-user-only exclusions where partner objective is selected; unrelated sales roles | UI size/availability/login verification pending |
+| LI-P1-OSAT-OPS | Vietnam; OSAT/factory; operations, manufacturing, quality, process engineering, supply chain, IT/MES; manager/head/director/VP where available | Students, recruitment, unrelated consumer electronics, broad policy-only roles | Sanitized external validation completed; no delivery evidence. Production mapping and eligibility remain gated. |
+| LI-P1-FABLESS-WIP | Vietnam; fabless/commercialization; operations, planning, supply chain, R&D/program, finance; manager/director/VP | Pure academic/recruitment, unrelated chip hobby/consumer roles | Sanitized external validation completed; no delivery evidence. Production mapping and eligibility remain gated. |
+| LI-P1-PARTNER-INTEGRATION | Vietnam; supplier/SI/automation/materials-equipment; ERP/MES/OT, solution engineering, partner/channel, quality; manager/director | End-user-only exclusions where partner objective is selected; unrelated sales roles | Sanitized external validation completed; no delivery evidence. Production mapping and eligibility remain gated. |
 
 No company/contact upload is allowed. Account-list targeting must remain separate from role-delivery evidence. No PII, personal names, emails or raw lists are included.
 
@@ -50,6 +50,8 @@ Three static concepts are provided under `assets/linkedin/source/` and rendered 
 - PDF: `output/pdf/digiwin-osat-document-ad-6p.pdf` | 6 pages | A4 portrait | 98,953 bytes | SHA-256 `64defd157bbded2cdc245df22346f5b96c0d8702f53b470ec530c84d7c5881fa`.
 - This is an offline creative artifact only. LinkedIn account/Page permissions, placements, audience availability and live-ad-object readiness remain pending; no account or campaign action was taken.
 
-## Current blocker and validation plan
+## Production gate and validation plan
 
-The authenticated LinkedIn route redirected to sign-in in the discovery attempt; current account, Page, permissions, audience size, objective availability and delivery are therefore unverified. Before any future draft/paused object creation: confirm business/account identity, validate role facets and sizes, confirm Company Page destination if needed, retain Expansion/LAN OFF, and keep all objects non-delivering.
+External validation was completed as non-delivering draft/off work on 2026-09-14. Raw account, audience, list and screenshot evidence is not committed to this public repository. The validation did not create or upload an audience, attach creative, publish an ad, generate delivery or incur spend.
+
+Before any future draft/paused object creation: obtain human sign-off for unresolved entity mappings; reconfirm the current business/account, placement, objective, audience eligibility and settings in the authorized UI; retain Expansion/LAN OFF; and keep all objects non-delivering. Treat any historical estimate or configuration observation as a bounded input, never as delivery, awareness or commercial performance evidence.

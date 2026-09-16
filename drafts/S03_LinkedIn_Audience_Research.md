@@ -1,24 +1,24 @@
 # S03 — LinkedIn audience research
 
-**Status:** draft only; latest direct LinkedIn route redirected to Campaign Manager sign-in; no audience uploaded
+**Status:** authorized external validation completed on 2026-09-14; this public-repository record is sanitized. No audience was uploaded, no ad was added, no campaign delivered, and no spend occurred.
 **Owner:** Executor in this batch  
-**Objective:** define a public-source account-universe methodology and role hypotheses while separating candidate identity from verified Campaign Manager delivery evidence.
+**Objective:** define a public-source account-universe methodology and role hypotheses while separating candidate identity, externally observed configuration evidence, and verified Campaign Manager delivery evidence.
 
 ## Source boundary
 
 - Local: kickoff §§4, 7, 8; source brief “Thực tế VN”, “Thông điệp theo nhóm đối tượng” and “Digital Ads — Bảo”.
 - Public official: LinkedIn Matched Audiences overview, https://www.linkedin.com/help/linkedin/answer/a420552/matched-audiences (accessed 2026-09-11); LinkedIn match-rate guidance, https://www.linkedin.com/help/linkedin/answer/a420595/matched-audiences-match-rates (accessed 2026-09-11); company/contact targeting overview, https://www.linkedin.com/help/linkedin/answer/a424397/linkedin-account-and-contact-targeting-overview (accessed 2026-09-11).
-- Public official guidance indicates company/contact targeting and member-provided profile layers exist, and audience size/match rate are account/UI outputs. No project account, permission, match rate, audience size or delivery evidence was observed.
+- Public official guidance indicates company/contact targeting and member-provided profile layers exist, and audience size/match rate are account/UI outputs. An authorized external read-only validation was completed on 2026-09-14. Raw account, audience, list and screenshot evidence is intentionally retained outside this public repository.
 
 ## Fact / proposal / unknown
 
-**Facts:** LinkedIn awareness is planned; OSAT/factory is priority; role/account targeting must be evidenced rather than inferred from aggregate reach.
+**Facts:** LinkedIn awareness is planned; OSAT/factory is priority; role/account targeting must be evidenced rather than inferred from aggregate reach. The external validation observed that Company Names, geography and role facets can be configured; it did not establish delivery or commercial outcomes.
 
-**Proposal:** construct a company universe from public sources, then validate exact LinkedIn Page identity and layer role/function/seniority only in authorized UI.
+**Proposal:** retain a quality-first company universe and use the observed configuration as a production hypothesis only after human review of unresolved entity mappings. Keep Company Names and Job Functions in separate AND groups; do not treat aggregate estimates as account-role delivery proof.
 
-**Unknown:** business manager/account identity, permissions, company-page matches, reachable size, geography/language, expansion settings, exclusions, consent/eligibility and actual delivery.
+**Unknown:** approval of unresolved parent-level entity mappings, final production audience definition, consent/eligibility, account-reporting granularity, and actual delivery.
 
-**Current UI note:** no credentials were entered; account/page/audience validation remains pending and no current account or delivery claim is made.
+**Current UI note:** external validation was limited to non-delivering draft/off configuration. The public record does not retain raw account or audience data. No upload, creative attachment, launch or spend is claimed.
 
 Production handoff: `../ads/linkedin/LinkedIn_Build_Pack.md`.
 
@@ -48,14 +48,14 @@ No personal names, emails, scraped contacts or PII are included.
 
 ## UI validation plan
 
-1. Confirm the correct business, ad account and permissions in authorized UI without changing state.
-2. Resolve candidate companies to exact LinkedIn Pages; record identity evidence, not just name similarity.
-3. Test role/function/seniority availability and exclusions; record reach/match/size only when shown in UI/export.
-4. Keep company-list targeting evidence separate from member role-delivery evidence; do not infer account × role intersection from marginal reports.
-5. Record objective, format, placement, expansion and consent/eligibility constraints as observed or unknown.
+1. Obtain human sign-off for the remaining parent-level or otherwise unresolved entity mappings before any production audience decision.
+2. Keep Company Names and Job Functions in separate AND groups. Do not use an OR grouping to infer account-role targeting.
+3. Keep the audience uncreated and exclude any company-list upload unless a separate mandate and the applicable platform eligibility conditions are met.
+4. Re-check audience estimate, delivery eligibility and expansion settings at the moment a production draft is explicitly authorized; external validation is not delivery evidence.
+5. Record objective, format, placement, consent/eligibility and reporting constraints as observed or unknown. Do not infer account × role intersection from marginal reports.
 
 ## Acceptance, dependencies and stop
 
-**Acceptance:** provenance-bearing public candidate methodology; no PII; role hypotheses and exclusions; objective/format hypotheses; explicit UI validation plan.  
-**Dependencies:** S01 message map; S00 identity/permission/UI evidence; S04 measurement and mandate.  
-**Stop:** no upload, no audience creation, no campaign build, no message/invitation, no claim of match rate/size/reach/delivery without account evidence.
+**Acceptance:** provenance-bearing public candidate methodology; no PII; role hypotheses and exclusions; sanitized external-validation boundary; explicit production gate.
+**Dependencies:** S01 message map; human sign-off on unresolved entity mappings; S04 measurement and a separate operational mandate.
+**Stop:** no upload, no audience creation, no campaign build, no message/invitation, no public commit of raw account/audience data, and no claim of match rate/size/reach/delivery beyond the retained evidence scope.
