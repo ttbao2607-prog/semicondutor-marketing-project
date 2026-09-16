@@ -13,6 +13,10 @@
 | Official ERP/workflow solution | https://www.digiwin.com.vn/solutions/workflow-erp/ | Public solution context; not a case result or performance claim |
 | Official logo | https://www.digiwin.com.vn/wp-content/themes/dgw/images/logo.webp | Approved logo source for offline creative/landing rendering |
 | Official favicon | https://www.digiwin.com.vn/wp-content/uploads/2025/01/cropped-D-512-x-512-1-32x32.png | Approved favicon source |
+| Taiwan semiconductor proof candidate | https://www.digiwin.com.tw/dsc/solution/semiconductor/index | Official Taiwan semiconductor solution context and customer-name lead. Customer names/logos, counts and results still require paid-media usage-right approval. Accessed 2026-09-16. |
+| China semiconductor proof candidate | https://www.digiwin.com/solution/Semiconductor/index | Official China semiconductor solution context. Counts, results and Vietnam applicability require separate scope review. Accessed 2026-09-16. |
+| Vietnam localization proof candidate | https://www.digiwin.com.vn/about-vn/ | Official Digiwin Vietnam company context and office-location source. Do not infer local team size or semiconductor deployment outcomes. Accessed 2026-09-16. |
+| Vietnam local-engagement proof candidate | https://www.digiwin.com.vn/active/digiwin-vimf-binh-duong-2026/ | Official Digiwin Vietnam event page supporting local manufacturing consultation context. Not a semiconductor case or a customer endorsement. Accessed 2026-09-16. |
 
 Verified public contact for displayed contact blocks only:
 
