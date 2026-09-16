@@ -1,8 +1,8 @@
 # S04A — Đề xuất ngân sách và giả thuyết đo lường để trình quản lý
 
-**Trạng thái:** đề xuất nội bộ; **DRAFT / MANAGEMENT APPROVAL PENDING**  
-**Ngày:** 2026-09-16 · Asia/Ho_Chi_Minh  
-**Chủ sở hữu vận hành:** Bảo — Paid Product Owner  
+**Trạng thái:** đề xuất nội bộ; **DRAFT / MANAGEMENT APPROVAL PENDING**
+**Ngày:** 2026-09-16 · Asia/Ho_Chi_Minh
+**Chủ sở hữu vận hành:** Bảo — Paid Product Owner
 **Phạm vi:** media paid. Tài liệu này không cấp quyền tạo/sửa account, tag, form, audience hay campaign; không cho phép publish, enable, spend hoặc submit form.
 
 ## 1. Đề nghị quyết định
