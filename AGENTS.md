@@ -30,6 +30,8 @@ Các slice song song phải ghi owner, input/revision, dependency, output, accep
 
 Google Ads evidence rule: banner cam “Xem xét mục tiêu của chiến dịch...” là informational/non-blocking. DOM/accessibility text một mình không đủ kết luận blocker; phải kiểm tra screenshot hiển thị và actual interaction. Nếu chuỗi “Turn off ad blockers” chỉ xuất hiện trong DOM/accessibility, ảnh không có dialog và Planner vẫn điều hướng/thao tác được, phân loại `OBSERVED_DOM_FALSE_SIGNAL_NON_BLOCKING`, không gọi là blocker. Trạng thái sanitized ngày 2026-09-14: ảnh Planner không có dialog; điều hướng tới Planner và mở truy vấn hoạt động. Một truy vấn tiếng Việt cho cụm OSAT ở Việt Nam hiển thị dấu gạch ngang ở mọi metric và `OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION` (cấu hình: Việt Nam, Tiếng Việt, Google, 12 tháng 09/2025–08/2026, loại trừ ý tưởng người lớn). Bấm “Nhận kết quả” đồng thời tạo một mục kế hoạch nháp trong danh sách Planner dù không bấm lưu; dừng truy vấn các cụm còn lại để không tạo thêm mục. Không suy ra nhu cầu bằng 0. Không tạo/sửa campaign, đổi setting, enable, spend, export hoặc upload.
 
+**Reconciliation note (2026-09-18):** đoạn Planner ở trên là snapshot OSAT ban đầu. Current main records that all three planned OSAT, Fabless and Partner queries were completed with the accepted draft-plan side effect; OSAT/Fabless had no displayed metrics and Partner had one limited historical estimate. Không suy ra demand từ các kết quả này.
+
 ## Quy tắc public Git
 
 Chỉ đưa nội dung marketing đã được sanitize lên public repository. `main` là canonical; baseline ban đầu là ngoại lệ duy nhất được ghi trực tiếp vào `main`. Các thay đổi sau đó dùng worktree và branch sở hữu theo dạng `slice/<slice>-<short-name>`; không tạo xung đột trực tiếp trên shared file. Coordinator audit diff và merge thay đổi đã được duyệt. Không commit secret, credential, token, cookie, browser/session state, PII, raw account/lead/audience data, private URL hoặc proof chưa xác minh.
@@ -37,3 +39,9 @@ Chỉ đưa nội dung marketing đã được sanitize lên public repository. 
 ## Quyền quyết định và kết thúc
 
 Executor tự xử lý L0 trong phạm vi đã giao. Khi có trade-off material hoặc thiếu quyết định về budget envelope, đổi nền tảng, publication/permission hay business scope, dừng và gửi decision pack cho Bảo (L2); không đưa superior vào approval chain mặc định. Báo cáo phải tách fact, observed evidence, proposal và unknown; terminal token phải phản ánh đúng trạng thái.
+
+## Documentation synchronization gate
+
+Implementation/asset hoàn thành không đủ để PASS. Trước PASS, commit hoặc handoff: đọc DOCS_IMPACT_MAP.md, xác định CANONICAL docs bị ảnh hưởng, review chúng theo state thực tế, update statement stale và kiểm tra contradiction với implementation/artifact. Không rewrite HISTORY / LOG chỉ để khớp hiện tại, không bịa business decision khi evidence mơ hồ. Nếu không cần sửa canonical doc, báo rõ: **Docs impact reviewed: no canonical update required.**
+
+Khi bắt đầu/resume substantial work, đọc CURRENT_STATE.md, DOCS_IMPACT_MAP.md và canonical docs liên quan; không cần đọc toàn bộ marketing docs. PASS không hợp lệ nếu implementation/artifact và canonical marketing truth còn materially disagree.

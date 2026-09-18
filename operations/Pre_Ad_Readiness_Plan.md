@@ -2,7 +2,7 @@
 
 **Status:** PLAN APPROVED / EXECUTION ACTIVE / LAUNCH NOT AUTHORIZED
 **Revision:** 2026-09-14 · Asia/Ho_Chi_Minh
-**Revision note (2026-09-14):** Corrected the prior ad-blocker classification: the string was DOM/accessibility-only, with no visible dialog, and did not prevent Planner interaction. One OSAT query showed no metrics and automatically created a Planner draft entry. Further research awaits an explicit decision/mandate on accepting additional automatically created Planner draft entries; this is a scope/side-effect gate, not an ad-blocker/platform failure. No operational approval gates or budget changed.
+**Revision note (2026-09-14):** Corrected the prior ad-blocker classification: the string was DOM/accessibility-only, with no visible dialog, and did not prevent Planner interaction. The three planned OSAT, Fabless and Partner queries were completed with accepted automatic Planner-draft side effects; results remain limited historical UI evidence, not demand validation. No operational approval gates or budget changed.
 **Owner:** Executor leaf, reporting to Coordinator/Auditor
 **Canonical branch:** `main`. **Evidence review slice provenance:** `slice/google-ads-blocker-evidence` was branched from baseline commit `393caa365b5a183c72c90e3e2a571e18ca3ebdb2`.
 
@@ -156,6 +156,8 @@ Each card carries a recorded source, owner, geography, date/scope, claim wording
 Use Keyword Planner and account search-term/overlap evidence when authorized. Retain 8–15 validated keywords per ad group and maintain the negative taxonomy from S02. No volume, CPC, competition, overlap or result claim is valid without observed evidence.
 
 **Current readiness evidence (2026-09-14):** screenshot showed no ad-blocker dialog. “Turn off ad blockers” appeared only in accessibility/DOM text and was a false signal; direct Keyword Planner navigation and opening the query form worked. Classify this as `OBSERVED_DOM_FALSE_SIGNAL_NON_BLOCKING`, not a visible modal, blocker, or platform failure. The orange Vietnamese campaign-objective/budget update banner was informational. One OSAT Vietnamese-first query for Vietnam (Google network; Sep 2025–Aug 2026; adult ideas excluded) displayed no metrics and no related ideas: `OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION`, not zero demand. The query automatically created a draft entry in the Planner list without an explicit save click. Further clusters await an explicit decision/mandate on accepting additional automatically created Planner draft entries; this is a scope/side-effect gate, not an ad-blocker failure. Campaigns remain uncreated, disabled and unspent; no settings were changed. Fresh Fabless and ERP–MES–OT/partner evidence remains pending. No budget or approval status changed.
+
+**Reconciliation note (2026-09-18):** the preceding readiness narrative is superseded where it says further clusters await a mandate or Fabless/Partner evidence is pending. Main records all three planned clusters as completed; OSAT and Fabless had no displayed metrics, while Partner had one limited historical estimate and seven dash rows. See drafts/S02_Google_Search_Research.md for evidence scope.
 
 Each ad group gets one VN-first RSA with 10–12 headlines and 4 descriptions. Add an English RSA only when English demand evidence exists. Prepare 4 callouts and 3 sitelinks. Final copy must map to the correct segment/pain/route and omit unverified proof.
 

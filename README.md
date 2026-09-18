@@ -6,7 +6,7 @@ Marketing operations workspace for planning and governing paid semiconductor act
 
 Canonical execution active; authenticated validation and draft/paused remote preparation may proceed under plan gates. Publication is action-time gated; enable/spend are not authorized.
 
-Sanitized validation status: Google Campaigns, Ad groups, Settings and Keyword Planner are functional; the orange objective-update banner is informational/non-blocking. Keyword Planner currently returns supplied seed rows without displayed metrics, so demand remains unvalidated. LinkedIn Research Phase 1 (sanitized external read-only validation) completed on 2026-09-14; production account/audience/object readiness remains pending.
+Sanitized validation status: Google Campaigns, Ad groups, Settings and Keyword Planner are functional; the orange objective-update banner is informational/non-blocking. Keyword Planner research completed for OSAT, Fabless and Partner: OSAT/Fabless had no displayed metrics and Partner had one limited historical estimate; demand remains unvalidated. LinkedIn Research Phase 1 (sanitized external read-only validation) completed on 2026-09-14; production account/audience/object readiness remains pending.
 
 ## Source hierarchy
 
