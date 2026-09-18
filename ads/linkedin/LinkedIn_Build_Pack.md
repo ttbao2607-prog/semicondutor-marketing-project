@@ -1,6 +1,6 @@
 # LinkedIn Build Pack
 
-**Status:** offline creative revision complete; authorized external read-only validation was completed on 2026-09-14. The public record retains only sanitized findings. No audience upload, creative attachment, campaign delivery or spend occurred.
+**Status:** offline creative revision and Bảo-approved proof-carousel v1 complete; authorized external read-only validation was completed on 2026-09-14. The public record retains only sanitized findings. No audience upload, creative attachment, campaign delivery or spend occurred.
 
 ## Format and delivery specifications
 
@@ -29,6 +29,17 @@ No company/contact upload is allowed. Account-list targeting must remain separat
 ## Creative pack
 
 Three static concepts are provided under `assets/linkedin/source/` and rendered under `assets/linkedin/final/`, one per segment. The six-page OSAT document follows: cover; operating questions; mechanism map; traceability lens; operating review; contact-copy CTA. The static concepts use customer-facing route copy and contain no customer name, number, case, outcome or unverified claim. Offline creative revision and PNG visual QA are recorded below; account/Page/placement/audience UI and live-object readiness remain pending.
+
+### Offline proof-carousel v1
+
+Bảo approved the four-card awareness carousel for offline use on 2026-09-18. The canonical files are:
+
+- `assets/linkedin/final/carousel-car-01-taiwan-v1.png`
+- `assets/linkedin/final/carousel-car-02-china-v1.png`
+- `assets/linkedin/final/carousel-car-03-proof-abstract-v1.png`
+- `assets/linkedin/final/carousel-car-04-vietnam-v1.png`
+
+The generated working size is `1254×1254` for each card; final export dimensions remain subject to the active LinkedIn account specification. CAR-03 intentionally uses abstract proof-safe copy with no customer name or logo. This is an offline creative artifact only; no carousel upload, object creation, launch or spend is authorized by this section. See `operations/LinkedIn_Carousel_Governance_Record.md` for the approval and source/rights boundary.
 
 ### Offline static-creative revision
 

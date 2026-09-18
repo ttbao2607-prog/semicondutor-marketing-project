@@ -1,12 +1,12 @@
 # Digiwin Semiconductor — LinkedIn proof-carousel pre-generation brief
 
-**Status:** pre-generation only. No carousel image, LinkedIn object, audience, campaign, upload, delivery or spend is created by this brief.
+**Status:** pre-generation brief completed for canonical offline v1. Four carousel PNGs are now recorded under `assets/linkedin/final/`; no LinkedIn object, audience, campaign, upload, delivery or spend is created by this brief.
 
-**Owner:** Bảo — proof/usage-right decision; creative executor — only after each card passes the gate below.
+**Owner:** Bảo — proof/usage-right decision; creative executor — offline generation/QA only after the gate below. The approval is recorded in `operations/LinkedIn_Carousel_Governance_Record.md`.
 
 **Input revision:** `operations/Pre_Ad_Readiness_Plan.md` carousel requirement added in `db0f9ed`.
 
-**Purpose:** prepare four additional 1:1 LinkedIn awareness carousel cards that establish Digiwin's relevant semiconductor credibility. They sit alongside the approved OSAT, Fabless and Partner static concepts; they do not replace them unless Bảo makes that format decision.
+**Purpose:** define and govern four additional 1:1 LinkedIn awareness carousel cards that establish Digiwin's relevant semiconductor credibility. Bảo approved them as offline v1; they sit alongside the approved OSAT, Fabless and Partner static concepts and do not replace them.
 
 ## Non-negotiable boundary
 
@@ -20,7 +20,7 @@
 
 | Field | Requirement |
 |---|---|
-| Format | Four square 1:1 carousel cards; final LinkedIn size to be confirmed from the active account specification before export. |
+| Format | Four square 1:1 carousel cards; generated working size `1254×1254`; final LinkedIn size to be confirmed from the active account specification before export. |
 | Visual system | Digiwin navy, ocean blue, cyan/teal accents, clean enterprise-semiconductor art direction, readable sans-serif typography and generous safe margins. |
 | Narrative sequence | Regional semiconductor depth → China operating scope → customer proof gate → local Vietnam presence. |
 | CTA | None on these proof cards. The awareness carousel should not add a lead form or a new tracking event. |
@@ -40,7 +40,7 @@
 >
 > Built in Taiwan across wafer materials, fabrication, packaging and test.
 
-**Optional metric:** `200+ semiconductor companies` may be used only after the owner confirms that the current Taiwan-page count, geography and wording are approved for Vietnam paid media.
+**Offline v1 metric:** Bảo approved `200+ semiconductor companies` for the exact offline v1 copy. Retain the source excerpt, count definition, geography and date before any live paid use.
 
 **Visual direction:** an abstract wafer-to-package flow or a four-stage supply-chain diagram. Do not use a Taiwan flag as a quality proxy or imply a customer deployment in Vietnam.
 
@@ -60,7 +60,7 @@
 >
 > From IC design to wafer fabrication, packaging and test.
 
-**Optional metric:** the China page's `700+ IC customer` wording is not approved copy until its exact definition, current date, territory and paid-media usage are cleared.
+**Offline v1 metric:** Bảo approved `700+ IC customers` for the exact offline v1 copy. Retain the source excerpt, count definition, territory and date before any live paid use.
 
 **Visual direction:** a restrained operating-thread diagram connecting `IC DESIGN`, `WAFER`, `PACKAGE & TEST`, and `COST & QUALITY`. No China map, flag or customer logo is necessary.
 
@@ -74,11 +74,13 @@
 
 **Candidate evidence:** Digiwin Taiwan's official semiconductor page names companies including King Yuan Electronics, Chunghwa Precision Test Tech, GlobalWafers and OmniVision. The page is evidence that Digiwin publicly presents these names in its semiconductor material; it is not a blanket paid-media usage licence.
 
-**Working English copy before clearance:**
+**Offline v1 replacement copy (no named customer proof):**
 
 > SEMICONDUCTOR CUSTOMER PROOF
 >
-> Named examples appear only after scope and usage rights are cleared.
+> TRUST IS BUILT ON CLEAR SCOPE.
+>
+> Evidence-led relationships, not assumptions.
 
 **Production copy after clearance:** select no more than three approved customer names/logos and state only the relationship wording explicitly approved by each source/rights owner. No result, duration, market ranking or endorsement language unless separately evidenced and cleared.
 
@@ -86,7 +88,7 @@
 
 **Source:** Digiwin Taiwan, *Semiconductor Smart Manufacturing Solution*, official page, accessed 2026-09-16: https://www.digiwin.com.tw/dsc/solution/semiconductor/index
 
-**Stop condition:** do not generate a named-customer or logo card until Bảo records the source excerpt, entity, relationship wording, territory, date and paid-media usage approval.
+**Stop condition:** do not replace the abstract v1 card with a named-customer or logo card until Bảo records the source excerpt, entity, relationship wording, territory, date and paid-media usage approval.
 
 ### CAR-04 — Vietnam localization
 
@@ -100,7 +102,7 @@
 >
 > Digiwin offices in Ho Chi Minh City and Bac Ninh.
 
-**Optional support line:** `Talk through manufacturing operating questions with Digiwin Vietnam.` Use only if Bảo confirms the live campaign's language and destination.
+**Offline v1 support line:** `Talk through manufacturing operating questions with Digiwin Vietnam.` Bảo approved the wording for offline v1; live campaign language and destination remain action-time checks.
 
 **Visual direction:** a minimal Vietnam map with two non-sensitive office-location markers or a human-free local-support motif. Do not show staff portraits without documented image consent. Do not state team headcount, response times or Vietnam semiconductor-project outcomes without source approval.
 
@@ -109,11 +111,11 @@
 - Digiwin Vietnam, *About us – VN*, official page, accessed 2026-09-16: https://www.digiwin.com.vn/about-vn/
 - Digiwin Vietnam, *VIMF Bình Dương 2026*, official page, accessed 2026-09-16: https://www.digiwin.com.vn/active/digiwin-vimf-binh-duong-2026/
 
-**Gate:** office locations and final wording are rechecked immediately before production; no people, team size or customer-visit claim without specific approval.
+**Gate:** office locations and final wording were approved for offline v1 and must be rechecked immediately before live use; no people, team size or customer-visit claim without specific approval.
 
 ## Source and rights checklist
 
-Before a card moves from pre-generation to image generation, Bảo records all fields below for that individual card:
+For canonical offline v1, the governance record below is retained for each selected card; before live paid use, recheck all fields against the active source and account:
 
 | Field | Required decision |
 |---|---|
@@ -127,10 +129,10 @@ Before a card moves from pre-generation to image generation, Bảo records all f
 
 ## Acceptance and handoff
 
-**Output:** four evidence-ready card briefs, not images.
+**Output:** four evidence-ready card briefs plus four canonical offline v1 PNGs.
 
-**Acceptance:** every selected card has a complete checklist above; its copy is English, proof-safe and linked to the Digiwin semiconductor awareness narrative; no customer or outcome claim escapes its documented scope.
+**Acceptance:** every selected card has a recorded governance decision; its copy is English, proof-safe and linked to the Digiwin semiconductor awareness narrative; no customer or outcome claim escapes its documented scope. CAR-03 remains abstract and contains no customer name or logo.
 
-**Dependency:** Bảo confirms carousel as the production format and selects the cleared evidence set. LinkedIn account/object, audience, placement, launch and spend gates remain separate.
+**Dependency:** Bảo's carousel-format and offline v1 evidence-set approval is recorded. LinkedIn account/object, audience, placement, final export size, launch and spend gates remain separate.
 
 **Stop:** pause the affected card for unverified proof, unclear territory, missing customer/logo rights, missing image consent, unsupported statistic or a proposal to imply Vietnam deployment from foreign-market evidence.
