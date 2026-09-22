@@ -20,6 +20,7 @@
 - UTM/gclid remain in the URL. No redirect or handoff exists in these offline pages.
 - No arbitrary analytics payload, copied contact value, phone, email or address is transmitted.
 - Each route has exactly two primary consultation buttons: one in the hero and one in the terminal contact band. Both invoke the external `OpenformWF2` trigger when present; neither implies popup display or form acceptance.
+- A route-specific supporting demo control may invoke the same external trigger when explicitly marked, but it is not a primary CTA and emits no route event.
 
 ## Route-specific semantics
 
@@ -29,7 +30,7 @@
 - The CTA handler looks up the LadiPage-owned `OpenformWF2` trigger through `document.getElementById('OpenformWF2')` and calls its `click()` method when available. The trigger is configured outside the imported HTML. If absent, the CTA must not throw or navigate; it records the local `data-popup-trigger-status="missing"` state.
 - A trigger click records no popup-open confirmation, form submission, lead, or conversion.
 - Imported HTML contains no visible or hidden form and emits none of `Ladi_form_success`, `generate lead` (space), or `accepted_form`. The reviewed legacy docs describe `Ladi_form_success` as an internal LadiPage event and report a GA4 event named `generate lead`; its proposed direct-LadiPage source was historically inferred, not verified in this inventory. The sources do not substantiate `accepted_form`. Determine the actual successful-submit event and owner through current LadiPage/editor and live GTM/GA4 inventory; do not rename or synthesize it. A CTA/`OpenformWF2` click is only popup intent, not popup-open, submission, lead, or conversion.
-- The route HTML's `copied_contact` is a local success-only candidate with exactly `contact_type`, `placement`, and `segment`; the copied value is never included. It is not verified as wired in GTM/GA4. The legacy docs separately describe an all-pages copy listener emitting `text_copy` with `copied_text`, followed by `contact_info_copy` carrying copied content. That legacy behavior is privacy-incompatible with this route contract: do not rename, alias, or treat these events as equivalent. Verify live listener/tag/trigger collisions and deduplication before production.
+- A prior OSAT route revision used `copied_contact` as a local success-only candidate with exactly `contact_type`, `placement`, and `segment`; the copied value was never included. The visually approved OSAT LDP candidate canonicalized on 2026-09-22 contains no contact-copy control and emits no `copied_contact`. The legacy docs separately describe an all-pages copy listener emitting `text_copy` with `copied_text`, followed by `contact_info_copy` carrying copied content. That legacy behavior is privacy-incompatible with this route contract: do not rename, alias, or treat these events as equivalent. Verify live listener/tag/trigger collisions and deduplication before production.
 - The landing page itself has no form; a LadiPage-configured popup may display its own form only after the consultation CTA is activated.
 - `section_view` and `section_engagement_time` are reused candidates, not implementation authorization.
 
@@ -43,7 +44,7 @@
 
 ## Contact-copy behavior
 
-The visible block uses verified company-controlled public contact values. Copy success is announced accessibly and then emits only the allowed event parameters. Copy failure announces a safe retry path without emitting success.
+If a future route revision contains the governed visible contact block, it must use verified company-controlled public contact values. Copy success is announced accessibly and then emits only the allowed event parameters. Copy failure announces a safe retry path without emitting success. The current visually approved Fabless and OSAT LDP candidates contain no contact-copy control.
 
 ## QA matrix
 

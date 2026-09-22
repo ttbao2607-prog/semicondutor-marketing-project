@@ -28,6 +28,8 @@ The copied contact value must never be sent to analytics, ad platforms, URLs or 
 
 Fabless visual approval note (2026-09-22): Bảo confirmed that the customer marks/logos included in the visually approved Fabless LDP candidate are approved for this design revision. This approval records visual/logo authorization for the candidate; it does not authorize LadiPage import or publication, and it does not replace live form/receiver, tracking, or claim-scope verification.
 
+OSAT visual approval note (2026-09-22): Bảo confirmed that the customer marks/logos included in the visually approved OSAT LDP candidate are approved for this design revision. This approval records visual/logo authorization for the candidate; it does not authorize LadiPage import or publication, and it does not replace live form/receiver, tracking, or claim-scope verification.
+
 ## LinkedIn public specifications
 
 | Purpose | Source |
