@@ -2,6 +2,8 @@
 
 **Status:** contract draft; dataLayer semantics are candidates until direct GTM/GA4 inventory and QA. No new container/property/event is authorized by this file.
 
+The future awareness-oriented inventory, PopupX `modal_openform` handoff, implementation sequence and independent audit are specified in `Semiconductor_Awareness_Tracking_Execution_Plan.md`. That plan is a proposal, not evidence of deployment. Bảo selected PopupX for all three routes on 2026-09-23. Each final route must be a flat, provider-free canonical source; after tracking mutation, `$canonical-form-bridge` must generate and validate the exact prepared artifact/receipt consumed by `$ladipage-operator`.
+
 ## Local technical-document inventory boundary
 
 - Read-only review of `digiwin_master_tracking_system.md`, `digiwin_gtm_governance_standard.md`, `digiwin_industry_landing_tracking.md`, and `digiwin_legacy_ldp_funnel_tracking.md` found dated documentation from 2026-07-09/10. This is documentary/historical evidence, not live GTM, GA4, LadiPage, consent, tag, trigger, or publication verification.
@@ -19,28 +21,27 @@
 - Initializer and listeners must be idempotent; one-time section view and duplicate prevention are required.
 - UTM/gclid remain in the URL. No redirect or handoff exists in these offline pages.
 - No arbitrary analytics payload, copied contact value, phone, email or address is transmitted.
-- Each route has exactly two primary consultation buttons: one in the hero and one in the terminal contact band. Both invoke the external `OpenformWF2` trigger when present; neither implies popup display or form acceptance.
+- Each current OSAT/Fabless visual has exactly two primary consultation buttons: one in the header and one in the terminal contact band. The final flat artifacts expose two stable CTA IDs declared in the PopupX bridge manifest. The live operator adds the official PopupX SDK and narrow modal adapter outside the market artifact. A request does not imply popup display or form acceptance.
 - A route-specific supporting demo control may invoke the same external trigger when explicitly marked, but it is not a primary CTA and emits no route event.
 
 ## Route-specific semantics
 
-- OSAT may retain the existing candidate `osat_cta_click` with exactly `cta_location`, recording CTA intent only. The hero button sends `hero`; the terminal button sends `terminal`. Do not rename its event or parameter.
+- OSAT may retain the existing candidate `osat_cta_click` with exactly `cta_location`, recording CTA intent only. The first primary button is physically in the page header but carries the existing `hero` intent label; the terminal button sends `terminal`. Do not rename its event or parameter.
 - `osat_cta_click` is a local OSAT candidate only; the reviewed technical-document inventory does not substantiate it or show that it is wired in GTM/GA4.
 - Fabless and Partner emit no CTA analytics event until actual GTM/container inventory authorizes reuse of an existing event. Do not create a shared CTA taxonomy for these routes.
-- The CTA handler looks up the LadiPage-owned `OpenformWF2` trigger through `document.getElementById('OpenformWF2')` and calls its `click()` method when available. The trigger is configured outside the imported HTML. If absent, the CTA must not throw or navigate; it records the local `data-popup-trigger-status="missing"` state.
-- A trigger click records no popup-open confirmation, form submission, lead, or conversion.
-- Imported HTML contains no visible or hidden form and emits none of `Ladi_form_success`, `generate lead` (space), or `accepted_form`. The reviewed legacy docs describe `Ladi_form_success` as an internal LadiPage event and report a GA4 event named `generate lead`; its proposed direct-LadiPage source was historically inferred, not verified in this inventory. The sources do not substantiate `accepted_form`. Determine the actual successful-submit event and owner through current LadiPage/editor and live GTM/GA4 inventory; do not rename or synthesize it. A CTA/`OpenformWF2` click is only popup intent, not popup-open, submission, lead, or conversion.
+- The offline prepared artifact contains only the bridge-marked CTA selectors/attributes and render anchors. It contains no PopupX SDK, popup URL, provider identifier, physical form reference or form configuration. The live operator resolves the environment provider at runtime and attaches only the official SDK plus narrow adapter.
+- A CTA adapter request records no popup-open confirmation, form submission, lead, or conversion.
+- Imported HTML contains no visible or hidden form and emits none of `Ladi_form_success`, `generate lead` (space), or `accepted_form`. The reviewed legacy docs describe `Ladi_form_success` as an internal LadiPage event and report a GA4 event named `generate lead`; its proposed direct-LadiPage source was historically inferred, not verified in this inventory. The sources do not substantiate `accepted_form`. Determine the actual successful-submit event and owner through the authorized PopupX/LadiPage runtime and live GTM/GA4 inventory; do not rename or synthesize it. A CTA adapter request is popup intent only.
 - A prior OSAT route revision used `copied_contact` as a local success-only candidate with exactly `contact_type`, `placement`, and `segment`; the copied value was never included. The visually approved OSAT LDP candidate canonicalized on 2026-09-22 contains no contact-copy control and emits no `copied_contact`. The legacy docs separately describe an all-pages copy listener emitting `text_copy` with `copied_text`, followed by `contact_info_copy` carrying copied content. That legacy behavior is privacy-incompatible with this route contract: do not rename, alias, or treat these events as equivalent. Verify live listener/tag/trigger collisions and deduplication before production.
 - The landing page itself has no form; a LadiPage-configured popup may display its own form only after the consultation CTA is activated.
 - `section_view` and `section_engagement_time` are reused candidates, not implementation authorization.
 
-## LadiPage popup binding boundary
+## PopupX modal handoff boundary
 
-- After importing a route, configure the approved LadiPage-native popup separately and bind its existing opener/trigger element to the exact DOM ID `OpenformWF2` using the supported LadiPage UI.
-- Do not add a form, hidden trigger, fake form target, API, or platform-specific code to the imported page. Do not rewrite the URL or add UTM parameters as part of this trigger pattern.
-- If LadiPage cannot expose a document-level trigger with this ID through supported configuration, stop and escalate; do not invent a substitute integration.
-- In editor preview, verify the page has no embedded form, the external trigger is present, one CTA click invokes that trigger once, and the popup behavior is visually correct. A missing trigger must leave the page in place with status `missing` and no exception.
-- The runtime status `clicked` means only that the configured DOM trigger's `click()` method was invoked. It does not assert that the popup appeared or that a form was accepted.
+- Use `$canonical-form-bridge` with an explicit `modal_openform` manifest. It pins the tracked flat source commit/tree/SHA-256, two CTA ID selectors, render anchors and non-overwriting output. Shadow DOM, embedded forms, provider bundles/references, ambiguous selectors or source drift fail closed.
+- Tracking mutation occurs on the canonical flat source. Because mutation changes the hash, prepare and validate the bridge package again afterward. Hand `$ladipage-operator` only the final passed receipt and exact prepared artifact; never edit that artifact after validation.
+- The live route is Basic HTML-to-LadiPage. Bảo alone selects the pinned file and creates the page. Under exact target/lifecycle authority, the operator verifies the existing four-field PopupX profile (`name`, `email`, `phone`, `industry`, Data Leads enabled), exact industry label and runtime provider resolver, then adds only the official SDK and narrow adapter.
+- Verify save/reopen, desktop/mobile fidelity and that each declared CTA opens the existing modal once. A CTA request/open is not form acceptance. One synthetic submission requires separate action-time confirmation and a thank-you + Data Leads + Bảo-supplied Lark pool witness; do not retry an uncertain submission.
 
 ## Contact-copy behavior
 
@@ -55,18 +56,18 @@ If a future route revision contains the governed visible contact block, it must 
 | Tab hidden / window blurred | REQUIRED/PENDING | REQUIRED/PENDING | Timer pauses and accumulates |
 | Window focused / document visible | REQUIRED/PENDING | REQUIRED/PENDING | Resume only currently intersecting sections |
 | Pagehide | REQUIRED/PENDING | REQUIRED/PENDING | At most one bounded engagement event per viewed section |
-| Contact copy success | REQUIRED/PENDING | REQUIRED/PENDING | `copied_contact` only after success, with three allowed params |
-| Contact copy failure | REQUIRED/PENDING | REQUIRED/PENDING | No success event; accessible failure feedback |
+| Contact copy success, only if a future route has a governed copy control | NOT APPLICABLE TO CURRENT OSAT/FABLESS | NOT APPLICABLE TO CURRENT OSAT/FABLESS | `copied_contact` only after success, with three allowed params |
+| Contact copy failure, only if a future route has a governed copy control | NOT APPLICABLE TO CURRENT OSAT/FABLESS | NOT APPLICABLE TO CURRENT OSAT/FABLESS | No success event; accessible failure feedback |
 | Live copy-event collision and duplicate check | REQUIRED/PENDING | REQUIRED/PENDING | Inspect all-pages legacy `text_copy`/`contact_info_copy` listeners and current route handling; no copied value leaves the page; `copied_contact` wiring remains unclaimed until verified |
 | Form-success source/name collision | REQUIRED/PENDING | REQUIRED/PENDING | Inspect current LadiPage/editor plus GTM/GA4; preserve actual verified success event; route HTML emits none of the legacy/synthetic success names |
 | Consent and page/section duplicate inventory | REQUIRED/PENDING | REQUIRED/PENDING | Verify consent behavior, one global `page_view` owner, and no duplicate `section_view`/`section_engagement_time` path before publication |
-| Each of the two consultation CTAs with stub `OpenformWF2` | REQUIRED/PENDING | REQUIRED/PENDING | Each click invokes the trigger once; OSAT sends its matching `hero` or `terminal` intent location; Fabless/Partner emit no CTA event; no embedded form |
-| Each consultation CTA without `OpenformWF2` | REQUIRED/PENDING | REQUIRED/PENDING | No exception/navigation; each status becomes `missing`; same route-specific event boundary |
+| Each of the two declared PopupX CTA IDs before live binding | REQUIRED/PENDING | REQUIRED/PENDING | Final bridge manifest resolves each selector exactly once; prepared artifact has trigger marker and no embedded form/provider reference |
+| Each declared PopupX CTA after operator binding | REQUIRED/PENDING | REQUIRED/PENDING | Each activation opens the existing four-field modal once; OSAT emits intent only if separately admitted; Fabless/Partner emit no CTA analytics event |
 | Refresh/back-forward | REQUIRED/PENDING | REQUIRED/PENDING | No duplicate initialization or false success |
 
 **Runtime status:** desktop/mobile browser acceptance is REQUIRED/PENDING. No browser, GTM or GA4 runtime validation has been executed.
 
-**Executed locally:** deterministic Node.js VM tests exercise the page scripts with stubbed DOM, IntersectionObserver, visibility/focus, clipboard and LadiPage trigger APIs. These verify enter/exit accumulation, pause/resume, terminal one-time flush and 3600-second cap, one-time section views, copy success/failure payloads, both popup-trigger present/missing behaviors, OSAT's hero/terminal CTA intent locations, no Fabless/Partner CTA event, route-specific static diagrams, no embedded form, no inline `page_view`, and one valid script/IIFE per route. This is source-level behavior only; the dated technical-document inventory is not live tag verification. Browser/device and GTM/GA4 QA remain separate; no tag-container validation is implied.
+**Current local test status (2026-09-23):** `node --test tests/landing-tracking.test.cjs` returned 8 pass / 16 fail. The old harness expects inline tracking and prior structure in the replaced OSAT/Fabless visuals; those two current files emit no `dataLayer` event. The passing Partner tests concern its current candidate only, not the unfinished Supplier final route. Earlier source-level pass claims applied to earlier source revisions and must not be carried forward. Revise the tests against frozen final flat PopupX artifacts during the awareness build. Browser/device and GTM/GA4 QA remain pending; no tag-container validation is implied.
 
 ## Stop conditions
 

@@ -3,6 +3,12 @@
 **Status:** historical prototype draft created and preview-validated; unpublished. Current redesigned candidates remain unimported pending a supported file-transfer route.
 **Owner:** paid executor; report to coordinator. **Scope:** one draft HTML upload only.
 
+## Current PopupX route decision — supersedes the legacy `OpenformWF2` instructions below
+
+On 2026-09-23 Bảo selected PopupX `modal_openform` for OSAT, Fabless and Supplier/Partner. The `OpenformWF2` sections retained later in this file are historical records and must not be used for the new final routes.
+
+For each final route, follow the five phases in `../tracking/Semiconductor_Awareness_Tracking_Execution_Plan.md`: produce/qualify a flat, provider-free source and run `$canonical-form-bridge` compatibility preflight; mutate tracking only in the canonical flat source and regenerate the final hash-pinned bridge artifact/receipt; use `$ladipage-operator` under exact target/lifecycle authority; debug tracking and, only after action-time confirmation, submit one synthetic form; then obtain an independent audit. Bảo alone performs the visible Basic file selection/create. The operator verifies the existing PopupX four-field profile and adds only the official SDK plus narrow modal adapter, then save/reopen/publishes within the authorized lifecycle. Any edit after final bridge validation invalidates the receipt; an uncertain form result must not be retried.
+
 ## Preconditions and boundary
 
 - Use only the already authenticated Chrome route `https://app.ladipage.com/`; do not enter credentials or follow an auth prompt.
@@ -17,7 +23,7 @@
 3. Verify the file name and draft-only title.
 4. After creation, inspect the draft editor in desktop and mobile modes and record only sanitized visual evidence. Do not publish.
 
-## Required popup binding after import — all three final routes
+## Historical popup binding pattern — not for the current final PopupX routes
 
 This is a post-import configuration requirement, not part of the HTML payload. The route design remains canonical and contains no visible or hidden form. Ownership is split: HTML owns the locked page UI and consultation CTA; LadiPage owns the external popup/form configuration, field definitions and receiver/storage. The actual successful-submit source and event name remain unknown until observed in the live LadiPage/editor and GTM/GA4 inventory; preserve the verified live behavior/name once established. Do not assume or synthesize `accepted_form`, and do not move form-success tracking into the imported HTML.
 

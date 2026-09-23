@@ -20,6 +20,8 @@
 
 Production handoff: `../tracking/Semiconductor_Tracking_Contract.md` and `../operations/Pre_Ad_Readiness_Plan.md`.
 
+Awareness measurement execution and independent audit are specified as a **draft plan, not a deployment record**, in `../tracking/Semiconductor_Awareness_Tracking_Execution_Plan.md`. Its historical GTM/GA4 source inventory still requires live verification before any event reuse or account change.
+
 ## KPI register
 
 | Layer | Metric | Source | Scope / denominator | Baseline | Target status | Action / review | Limitation |
