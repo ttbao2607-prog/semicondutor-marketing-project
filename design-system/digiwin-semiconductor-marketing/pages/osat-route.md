@@ -32,7 +32,7 @@
 
 - Use a static, responsive lot-trace rail instead of a generic feature grid: `LOT > TEST > QUALITY/4M1E > WIP > COST REVIEW`.
 - The diagram is explanatory, not a product screenshot or performance claim. It must be understandable without animation and must stack vertically on mobile.
-- Use two consultation CTAs, one in the hero and one after the mechanism/proof-safe section. Both call `OpenformWF2`; OSAT preserves `osat_cta_click` with `cta_location=hero|terminal`.
+- Use two consultation CTAs, one in the hero and one after the mechanism/proof-safe section. The frozen HTML CTAs are inert/provider-free and use stable IDs. Any future PopupX behavior belongs to an authorized operator handoff. `osat_cta_click` with `cta_location=hero|terminal` remains a candidate only; do not emit it before the live inventory and Phase 2 authorization.
 
 ---
 

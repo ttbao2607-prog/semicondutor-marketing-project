@@ -32,7 +32,7 @@
 
 - Use a responsive outsourced-WIP handoff flow: `FORECAST > OUTSOURCE > LOT/DATECODE/BIN > COST REVIEW`.
 - Make ownership boundaries visually explicit with labels and connecting lines; do not imitate a live dashboard.
-- Use two consultation CTAs, one in the hero and one after the final route explanation. Both call `OpenformWF2`; neither emits a new CTA analytics event before GTM inventory.
+- Use two consultation CTAs, one in the hero and one after the final route explanation. The frozen HTML CTAs are inert/provider-free and use stable IDs. Any future PopupX behavior belongs to an authorized operator handoff. Do not emit a CTA analytics event until live GTM inventory authorizes reuse.
 
 ---
 

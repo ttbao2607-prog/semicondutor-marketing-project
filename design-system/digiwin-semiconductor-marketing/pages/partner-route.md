@@ -32,7 +32,7 @@
 
 - Use a three-layer integration map: `ERP context > MES execution > OT signals`, with ownership and handoff notes alongside it.
 - Present the map as an architecture hypothesis for discovery, never as a verified integration or live product screen.
-- Use two consultation CTAs, one in the hero and one after the architecture/handoff section. Both call `OpenformWF2`; neither emits a new CTA analytics event before GTM inventory.
+- Use two consultation CTAs, one in the hero and one after the architecture/handoff section. The eventual approved source must keep the CTA markup provider-free and inert; any future PopupX behavior belongs to an authorized operator handoff. Do not emit a CTA analytics event until live GTM inventory authorizes reuse.
 
 ---
 
