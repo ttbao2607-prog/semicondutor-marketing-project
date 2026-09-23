@@ -11,6 +11,10 @@ The future awareness-oriented inventory, PopupX `modal_openform` handoff, implem
 - `page_view` remains externally/global-tag owned; route HTML must not emit an inline `page_view`.
 - The documented `industry_*` event family and its `industry` parameter belong to a separate eight-industry system. Do not automatically apply that taxonomy or parameter to the OSAT, Fabless, or Partner routes.
 
+## Phase 1 live-inventory update (2026-09-23)
+
+The sanitized read-only inventory is recorded in `operations/evidence/phase1/2026-09-23-inventory-and-route-ledger.md`. The correct paid-LadiPage GA4 property was observed, including the `ladipage ERP` stream, current event/custom-dimension catalogue, Enhanced Measurement and consent settings. Existing `section_view`, `section_engagement_time`, `contact_info_copy`, `form_start`, `generate lead` and `LeadConversionSuccess` names are visible in the GA4 catalogue, but their producers, tags and success semantics remain unverified. The UI reported no individual consent signals despite a positive summary status. GTM ownership, LadiPage route/receiver ownership, Ads goals and LinkedIn reporting remain unknown/blocked. OSAT, Fabless and Supplier have named Phase-1 route-freeze blockers; no source has passed bridge preflight. These observations do not authorize new events or tracking changes.
+
 ## Global rules
 
 - Global `page_view` remains owned by the existing global tag; no inline `page_view`.
@@ -65,7 +69,7 @@ If a future route revision contains the governed visible contact block, it must 
 | Each declared PopupX CTA after operator binding | REQUIRED/PENDING | REQUIRED/PENDING | Each activation opens the existing four-field modal once; OSAT emits intent only if separately admitted; Fabless/Partner emit no CTA analytics event |
 | Refresh/back-forward | REQUIRED/PENDING | REQUIRED/PENDING | No duplicate initialization or false success |
 
-**Runtime status:** desktop/mobile browser acceptance is REQUIRED/PENDING. No browser, GTM or GA4 runtime validation has been executed.
+**Runtime status:** desktop/mobile browser acceptance is REQUIRED/PENDING. The Phase-1 read-only GA4 settings/catalogue inventory was performed on 2026-09-23; it is not browser event QA. GTM preview, GA4 DebugView, route behavior and tag-owner validation have not been executed.
 
 **Current local test status (2026-09-23):** `node --test tests/landing-tracking.test.cjs` returned 8 pass / 16 fail. The old harness expects inline tracking and prior structure in the replaced OSAT/Fabless visuals; those two current files emit no `dataLayer` event. The passing Partner tests concern its current candidate only, not the unfinished Supplier final route. Earlier source-level pass claims applied to earlier source revisions and must not be carried forward. Revise the tests against frozen final flat PopupX artifacts during the awareness build. Browser/device and GTM/GA4 QA remain pending; no tag-container validation is implied.
 

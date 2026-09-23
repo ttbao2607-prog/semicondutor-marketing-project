@@ -90,6 +90,10 @@ Execute the phases in order. The A–H slice codes remain the traceability IDs u
 
 **Gate:** issue `P1_PASS_<ROUTE>` only when inventory scope is sufficient to choose event ownership and the flat source passes bridge preflight. Missing account access blocks only the account-dependent reuse decision; Shadow DOM, ambiguous CTA selectors, provider residue, uncleared content, unknown route identity or unfinished Supplier content blocks the route. No live mutation is allowed in Phase 1.
 
+### Phase 1 execution record (2026-09-23)
+
+The sanitized live inventory, collision graph and route ledger are in `operations/evidence/phase1/2026-09-23-inventory-and-route-ledger.md`. The correct paid-LadiPage GA4 property was inspected read-only; a separate website-property inspection was excluded after Coordinator surface correction and is not evidence. Runtime junction/contracts/CLI smoke and `quick_validate` passed. GTM workspace remained loading; LadiPage route/receiver identity was not established; Ads goals failed to load; LinkedIn reporting was permission-blocked. GA4 exposed existing relevant events and custom dimensions; their owners remain unknown, and its consent view showed no individual consent signals alongside a positive summary status. OSAT is blocked by Shadow DOM and uncleared proof scope; Fabless by legacy popup adapter/provider-marker residue and uncleared proof scope; Supplier by missing final approval. No route was eligible for bridge prepare/validate; all receive named blockers, not `P1_PASS`. No Phase 2 mutation was made.
+
 ### 4.2 Phase 2 — Local tracking build and final PopupX handoff (Slices C–D)
 
 **Goal:** add the exact awareness instrumentation to the canonical flat source and produce the immutable package consumed by LadiPage.
