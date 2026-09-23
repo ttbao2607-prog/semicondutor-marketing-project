@@ -1,0 +1,44 @@
+{
+  "anchors": [
+    "top",
+    "main-content",
+    "osat-footer"
+  ],
+  "checks": {
+    "anchor_coverage": {
+      "main-content": true,
+      "osat-footer": true,
+      "top": true
+    },
+    "cta_coverage": {
+      "button#osat-cta-header": true,
+      "button#osat-cta-terminal": true
+    },
+    "render_model": "flat_document",
+    "signals": {
+      "html_form": false,
+      "inline_provider_bundle": false,
+      "physical_reference": false,
+      "shadow_dom": false
+    }
+  },
+  "contract_version": "ladipage-operator/modal-openform-handoff-receipt/v1",
+  "cta_selectors": [
+    "button#osat-cta-header",
+    "button#osat-cta-terminal"
+  ],
+  "output": {
+    "path_ref": "operations/evidence/phase1/bridge/osat/osat-prepared.html",
+    "sha256": "3b9d3f7e5713131bcd059434061aa6decd537589c32620412614bfe4d92d8120"
+  },
+  "render_model": "flat_document",
+  "route": "html_to_ladipage_basic",
+  "schema": "ladipage-operator/modal-openform-handoff-receipt/v1",
+  "source": {
+    "git_commit": "3189b5aff672804b45ca9ae61e08716c849d6cbd",
+    "git_tree": "d0437164ec84c2c81b0ad9d145e2894772c1ace3",
+    "path_ref": "landing/osat-route/osat-lot-test-traceability.html",
+    "sha256": "bfff2e75f24e20ded64e84dc0e230ad90e47af84a904fe2fd699343d3fd21523"
+  },
+  "status": "PASS"
+}
