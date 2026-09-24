@@ -3929,7 +3929,7 @@ Keep the host full width, height auto and free of parent clipping. Verify the ac
   var ids = ['top', 'operations-questions', 'lot-map', 'management-layers', 'cas-ic-case', 'industry-delivery', 'resources'];
   var states = new Map();
   var visible = !document.hidden;
-  var focused = typeof document.hasFocus !== 'function' || document.hasFocus();
+  var focused = typeof document.hasFocus === 'function' && document.hasFocus();
   var ended = false;
   var now = function () { return Date.now(); };
   function emit(name, payload) {

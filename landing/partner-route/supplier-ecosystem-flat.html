@@ -4187,7 +4187,7 @@ No analytics dispatch, forms, CRM, API calls, or customer logos; displayed proof
   var ids = ['top', 'audience-context', 'ecosystem-architecture', 'operations-questions', 'product-evidence', 'supply-chain', 'local-delivery', 'resources'];
   var states = new Map();
   var visible = !document.hidden;
-  var focused = typeof document.hasFocus !== 'function' || document.hasFocus();
+  var focused = typeof document.hasFocus === 'function' && document.hasFocus();
   var ended = false;
   var now = function () { return Date.now(); };
   function emit(name, payload) {

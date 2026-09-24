@@ -2521,7 +2521,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
   var ids = ['top', 'operations-questions', 'fabless-map', 'management-layers', 'relationship-proof', 'bright-power-case', 'industry-delivery', 'resources'];
   var states = new Map();
   var visible = !document.hidden;
-  var focused = typeof document.hasFocus !== 'function' || document.hasFocus();
+  var focused = typeof document.hasFocus === 'function' && document.hasFocus();
   var ended = false;
   var now = function () { return Date.now(); };
   function emit(name, payload) {
