@@ -1,13 +1,17 @@
 # LadiPage OSAT draft runbook
 
-**Status:** historical prototype draft created and preview-validated; unpublished. Current redesigned candidates remain unimported pending a supported file-transfer route.
-**Owner:** paid executor; report to coordinator. **Scope:** one draft HTML upload only.
+**Status:** the older prototype draft was created and preview-validated; the three current redesigned targets were imported through Basic HTML-to-LadiPage and remain unpublished. PopupX binding is blocked pending profile-field, receiver-association, and runtime-resolver evidence.
+**Owner:** paid executor; report to coordinator. **Scope:** three named unpublished Basic imports; PopupX binding remains gated.
 
 ## Current PopupX route decision — supersedes the legacy `OpenformWF2` instructions below
 
 On 2026-09-23 Bảo selected PopupX `modal_openform` for OSAT, Fabless and Supplier/Partner. The `OpenformWF2` sections retained later in this file are historical records and must not be used for the new final routes.
 
-For each final route, follow the five phases in `../tracking/Semiconductor_Awareness_Tracking_Execution_Plan.md`: produce/qualify a flat, provider-free source and run `$canonical-form-bridge` compatibility preflight; mutate tracking only in the canonical flat source and regenerate the final hash-pinned bridge artifact/receipt; use `$ladipage-operator` under exact target/lifecycle authority; debug tracking and, only after action-time confirmation, submit one synthetic form; then obtain an independent audit. Bảo alone performs the visible Basic file selection/create. The operator verifies the existing PopupX four-field profile and adds only the official SDK plus narrow modal adapter, then save/reopen/publishes within the authorized lifecycle. Any edit after final bridge validation invalidates the receipt; an uncertain form result must not be retried.
+For each final route, follow the five phases in `../tracking/Semiconductor_Awareness_Tracking_Execution_Plan.md`: produce/qualify a flat, provider-free source and run `$canonical-form-bridge` compatibility preflight; mutate tracking only in the canonical flat source and regenerate the final hash-pinned bridge artifact/receipt; use `$ladipage-operator` under exact target/lifecycle authority; debug tracking and, only after action-time confirmation, submit one synthetic form; then obtain an independent audit. Basic imports for the three named targets are complete, but do not bind until the exact PopupX profile field contract, intended receiver association, and environment-owned runtime resolver are proven. The currently visible canvas has four fields while accessibility/config exposes additional department and position controls, so the exact-four-field gate has not passed. No route has been bound or saved/reopened; all remain unpublished. Any edit after final bridge validation invalidates the receipt; an uncertain form result must not be retried.
+
+## Historical prototype draft instructions
+
+The following upload filename, title, and preview evidence describe only the older `osat-route-draft.html` prototype. They are not the import instructions or current status for the three Phase 3 targets.
 
 ## Preconditions and boundary
 
@@ -33,7 +37,7 @@ This is a post-import configuration requirement, not part of the HTML payload. T
 4. In draft/editor preview, verify that the page itself shows no form; verify the `OpenformWF2` trigger exists; click the primary consultation CTA once and confirm the LadiPage popup opens once. OSAT may retain only its existing `osat_cta_click` / `cta_location` candidate; Fabless/Partner emit no CTA analytics event until inventory authorizes reuse. In all routes, a trigger click is not form submission/lead. Any successful-submit reporting remains unknown until the live owner and event name are verified.
 5. If the trigger is absent, verify there is no exception or navigation and the CTA reports `data-popup-trigger-status="missing"`. A `clicked` status means only that the trigger's `click()` method was invoked, not that a form was accepted.
 
-No final-route import or popup setup is authorized by this runbook update. Do not import yet, publish, assign domains, submit test forms, change campaign state, spend, or upload audiences.
+The 2026-09-24 import checkpoint is recorded in `evidence/phase3/2026-09-24-phase3-import-and-blocker-ledger.md`. It supersedes earlier statements that these three current candidates were not imported; those dated attempts remain historical. Do not bind, publish, assign domains, submit test forms, change campaign state, spend, or upload audiences while the Phase 3 profile/receiver/resolver gates remain unresolved.
 
 ## Audit fields to fill after an authorized import
 
