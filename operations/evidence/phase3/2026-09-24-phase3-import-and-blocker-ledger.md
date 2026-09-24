@@ -1,35 +1,48 @@
 # Phase 3 import and binding-blocker ledger
 
 **Checkpoint:** 2026-09-24, Asia/Ho_Chi_Minh
-**Scope:** Phase 3 import identity and read-only PopupX readiness gate only.
-**Lifecycle:** imported, unpublished drafts; no binding save/reopen occurred; publication was not authorized.
+**Scope:** exact-profile witness, PopupX runtime resolution, and saved-preview transfer attempt.
+**Lifecycle:** three imported drafts; binding remains blocked; drafts remain unpublished; no lead submission or publication was authorized.
 
 ## Route status
 
-| Route | Exact target | Import checkpoint | Phase 3 binding terminal | Verified baseline / route fact |
+| Route | Exact target | Import checkpoint | Phase 3 terminal | Verified route facts |
 |---|---|---|---|---|
-| OSAT | `Digiwin Semiconductor - OSAT - UXPM Draft` | `IMPORT_VERIFIED_UNPUBLISHED` | `P3_BLOCKED_OSAT_RUNTIME_RESOLVER_UNPROVEN` | Basic HTML-to-LadiPage import and builder identity verified; desktop baseline verified. Mobile evidence is incomplete. Two declared OSAT CTAs remain provider-free in the imported source. |
-| Fabless | `Digiwin Semiconductor - Fabless - UXPM Draft` | `IMPORT_VERIFIED_UNPUBLISHED` | `P3_BLOCKED_FABLESS_RUNTIME_RESOLVER_UNPROVEN` | Basic HTML-to-LadiPage import and builder identity verified; desktop baseline verified. Mobile evidence is incomplete. Two declared Fabless CTAs remain provider-free in the imported source. |
-| Supplier/Partner | `Digiwin Semiconductor - ERP MES OT - UXPM Draft` | `IMPORT_VERIFIED_UNPUBLISHED` | `P3_BLOCKED_SUPPLIER_RUNTIME_RESOLVER_UNPROVEN` | Basic HTML-to-LadiPage import and builder identity verified; desktop baseline verified. The sole CTA is `partner-cta-header`, labeled `Tư Vấn`. |
+| OSAT | `Digiwin Semiconductor - OSAT - UXPM Draft` | `IMPORT_VERIFIED_UNPUBLISHED` | `P3_BLOCKED_OSAT_PRE_POST_CAPTURE_REJECTION` | Basic import and builder identity were previously verified. Desktop and mobile pre-bind baselines were checked. Two declared CTAs remain provider-free. The earlier settings attempt was undone and the page reloaded unchanged; the final transfer attempt did not touch this draft. |
+| Fabless | `Digiwin Semiconductor - Fabless - UXPM Draft` | `IMPORT_VERIFIED_UNPUBLISHED` | `P3_BLOCKED_FABLESS_SHARED_CAPTURE_GATE` | Basic import and builder identity were previously verified; desktop baseline is verified and mobile evidence remains incomplete. Two declared CTAs remain provider-free. Route binding did not start after the shared capture gate failed. |
+| Supplier/Partner | `Digiwin Semiconductor - ERP MES OT - UXPM Draft` | `IMPORT_VERIFIED_UNPUBLISHED` | `P3_BLOCKED_SUPPLIER_SHARED_CAPTURE_GATE` | Basic import and builder identity were previously verified; desktop baseline is verified and mobile evidence remains incomplete. Its only CTA is `partner-cta-header`, labeled `Tư Vấn`. Route binding did not start after the shared capture gate failed. |
 
-All three drafts are unpublished. The desktop baseline was checked before any mutation. The checkpoint does not claim a saved/reopened page or a working modal; the Supplier mobile state is not upgraded to a separate PASS by this record. Supplier continues to use business route `partner`.
+All three drafts remain unchanged, unpublished, and unbound. No route completed a binding save/reopen, CTA modal check, or post-bind desktop/mobile check. No PopupX lead form was submitted. Supplier continues to use business route `partner`.
 
-## PopupX profile and receiver gate
+## PopupX profile and receiver witness
 
-**Product Owner resolution (2026-09-24):** Bảo states that `Bộ phận` and `Chức danh` are hidden controls not visible to customers, and accepts the existing `Bảo` PopupX dogfood as the profile/receiver basis for this saved-preview binding goal. The four customer-visible fields are name, email, phone, and industry. This resolves the prior field and receiver-basis ambiguity for this goal; no profile, form configuration, or display rule was changed. No lead values were inspected or retained.
+**Product Owner resolution (2026-09-24):** Bảo states that `Bộ phận` and `Chức danh` are hidden controls not visible to customers, and accepts the existing `Bảo` PopupX dogfood as the profile/receiver basis for this saved-preview goal. The four customer-visible fields are name, email, phone, and industry.
 
-**Runtime resolver check (2026-09-24):** the authenticated LadiPage domain inventory showed `solutions.digiwin.com.vn` verified with SSL enabled. Bảo clarified that the absence of PopupX on the current root homepage is context only, not a blocker for unpublished drafts that will receive the SDK. Read-only inspection of the authenticated PopupX manager/editor and the existing published profile found no visible official embed snippet or unambiguous runtime trigger for this exact profile. The profile action menu exposed no embed-code action; the editor exposed page-level JavaScript/CSS and display-configuration entries, but no usable integration snippet through the accessible UI. The published view's observed external `<script src>` entries were standard LadiPage CDN bundles; no PopupX-named SDK was found among them. The inspected DOM had no native trigger attribute or bridge-event literal, and its accessible render was blank. The existing dogfood evidence remains accepted by Bảo as the profile/receiver basis, but does not itself provide the exact runtime SDK/trigger. Therefore the environment-owned provider reference still cannot be derived unambiguously without guessing. No profile, form, or display configuration was changed. No physical provider/page references or private URLs are retained.
+**Fresh profile witness:** the exact existing profile was saved and reopened through its normal route. The visible name, email, phone, and industry controls were present; Department and Position remained hidden; Data Leads was enabled; the applicable Industry labels remained intact. No profile, form, receiver, or display-rule change was made. The later snippet retrieval reopened the existing PopupX display/embed surface without clicking `Xuất bản lại`; no republish occurred in this session. No lead values were inspected or retained.
 
-**Stop condition:** the profile/receiver basis is accepted by the Product Owner for this saved-preview goal, but do not add the PopupX SDK or adapter, save/reopen, or test a CTA until the authenticated profile/editor surface yields an official integration snippet or runtime trigger unambiguously bound to the exact published profile. That resolver was not exposed on this attempt; all three routes remain blocked at that shared gate. Revalidate each exact target and its final Phase 2 package immediately before resuming.
+## Runtime and editor evidence
+
+The exact profile's own publish/embed surface exposed one official SDK script and a distinct popup reference. The values were handled transiently. The installed operator helper validated the snippet. One target-specific save/reopen observation found that page HEAD content persisted while BODY content was discarded. This observation is recorded in the local operator repository at `docs/g7-head-combined-fallback-evaluation-20260924.md`; it does not establish general LadiPage behavior or prove that a combined payload persists, executes, or opens PopupX. The audited `head_combined` mode is opt-in and places the SDK before the adapter in one HEAD payload. No combined payload was saved to a LadiPage draft.
+
+The operator helper and its unit-test coverage are in local-only commits in the separate operator repository: runtime binding `0035e84`, opt-in head-combined fallback `a70bf9c`, one-shot capture `63c8962`, and sanitized error handling `e6b1f4f`. The operator repository's `main` was clean at `e6b1f4f`, four commits ahead of its cached `origin/main`; the fallback branch was local-only. Relevant coverage is in `tests/test_popupx_runtime_binding.py` and `tests/test_popupx_snippet_transfer.py`, including combined-head placement/cleanup and one-shot request validation. These are code-level tests, not live-capture evidence; this capture produced no success receipt or output payload.
+
+## Transfer attempts and stop condition
+
+Earlier file/clipboard transfer approaches failed: the browser denied the temporary file URL, and the browser virtual clipboard could not receive generated output from the system clipboard. A subsequent loopback-helper attempt timed out before the local form was opened. The final authorized attempt staged the exact profile snippet before starting the helper on a free loopback port with the maximum supported timeout. In the same Chrome session, the visible textarea was cleared and verified empty, the snippet was pasted once, and the textarea value matched the source byte-for-byte with one SDK marker and one inline popup marker. The visible `Validate and prepare` control was activated once.
+
+The local form then showed a rejection on its randomized submit route while the helper remained listening. Under the helper's audited lifecycle, a request consumed by the POST handler terminates that one-shot run; the still-active listener therefore indicates rejection before the POST handler. The HTTP method was not directly observed. A method mismatch is plausible but unconfirmed; record the blocker as **pre-POST method/path rejection, exact cause unresolved**. No capture payload or receipt was generated. The verified helper process was stopped, the listener was confirmed absent, the empty temporary directory was removed, virtual clipboards were cleared, and the local capture tab was closed. No raw snippet, provider reference, private URL, screenshot, or PII was retained.
+
+**Current terminal:** `BLOCKED` — Phase 3 live binding is blocked on pre-POST method/path rejection. Do not label any route `P3_PREVIEW_ONLY` or PASS. Do not repeat the current capture route without a diagnosed, tested, and approved transfer flow.
 
 ## Boundaries and evidence limits
 
-- No page binding or builder edit; no SDK/adapter; no save/reopen; no CTA/modal test; no form submission; no profile/configuration edit; no publication; no GTM/GA4 change.
-- All three drafts remain unpublished. This is not `P3_PREVIEW_ONLY` and does not satisfy any `P3_PASS_<ROUTE>` terminal.
-- Desktop baseline verification is established for all routes. Mobile evidence is incomplete for OSAT and Fabless; this ledger makes no mobile PASS claim for those routes.
-- Future public paths reserved by the Product Owner are `solutions.digiwin.com.vn/semiconductor-osat`, `solutions.digiwin.com.vn/semiconductor-fabless`, and `solutions.digiwin.com.vn/semiconductor-supplierecosystem`. They are future targets only, not published routes or publication authorization.
-- This sanitized record contains no physical page/profile IDs, private URLs, account/session data, lead values, screenshots, credentials, cookies, or tokens.
+- No route SDK/adapter was saved; no binding save/reopen or CTA/modal test occurred.
+- No PopupX lead form was submitted; no landing draft was published; no domain, GTM/GA4, profile, receiver, or form configuration changed.
+- All three drafts remain `IMPORT_VERIFIED_UNPUBLISHED`; no route passes Phase 3.
+- Desktop pre-bind baselines are established for all routes. Mobile evidence is incomplete for Fabless and Supplier/Partner; OSAT's mobile pre-bind baseline was checked.
+- Future public paths reserved by the Product Owner are not published routes or publication authorization.
+- The record contains no physical page/profile IDs, private URLs, account/session data, lead values, screenshots, credentials, cookies, or tokens.
 
 ## Resume condition
 
-Resume Phase 3 only after an official integration snippet or runtime trigger for the exact published profile is unambiguously available from the authenticated PopupX environment; the Product Owner's existing dogfood profile/receiver basis remains accepted for this saved-preview goal, and root-homepage PopupX absence alone is not a blocker. Then revalidate the route-specific final bridge receipt/artifact and exact imported target. Preserve the saved-preview-only lifecycle. Publication remains outside this checkpoint.
+Resume only after the pre-POST rejection is diagnosed and a supported visible-UI transfer flow is tested to complete the helper's one-shot POST without using another browser surface, DOM injection, direct file access, or other workaround. Then revalidate each exact target and its final Phase 2 receipt/artifact. Continue sequentially OSAT, Fabless, Supplier/Partner under the existing saved-preview authority; stop on the first failure. Publication, domain changes, GTM changes, and lead submission remain outside this checkpoint.
