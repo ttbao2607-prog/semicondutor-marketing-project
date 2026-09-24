@@ -168,7 +168,7 @@ The sanitized live inventory, collision graph and route ledger are in `operation
 **Ordered procedure:**
 
 1. Reconstruct Git state with `$git-state-recovery`; distinguish working files, local commits, remote-tracking references and actual pushed state. Verify every recorded commit/tree/hash and identify local-only artifacts.
-2. Re-run bridge receipt/artifact validation and local tracking tests from the pinned revision. Compare the deployed identity to the final handoff; inspect two CTA selectors, anchors and provider-free source constraints.
+2. Re-run bridge receipt/artifact validation and local tracking tests from the pinned revision. Compare the deployed identity to the final handoff; inspect the route-specific selectors (two for OSAT/Fabless; one Supplier/Partner header selector), anchors and provider-free source constraints.
 3. Reperform a sampled desktop/mobile render, PopupX open, consent, section, attention, content-click, duplicate and conversion-goal check. Review form evidence without exposing raw lead data.
 4. Confirm rollback references, one-writer ownership and every authority boundary. Verify LinkedIn, Google Ads and GA4 scopes remain separate and reporting language does not claim brand lift or cross-platform unique reach.
 5. Read `DOCS_IMPACT_MAP.md`; update affected canonical state/contract/runbook statements to the observed implementation. Do not rewrite history logs to mimic current truth. If nothing changes, record **Docs impact reviewed: no canonical update required.**
