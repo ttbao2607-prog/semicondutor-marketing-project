@@ -7,7 +7,7 @@ const root = path.resolve(__dirname, '..');
 const routes = [
   { name: 'OSAT', file: 'landing/osat-route/osat-lot-test-traceability.html', sections: ['top','operations-questions','lot-map','management-layers','cas-ic-case','industry-delivery','resources'], ctas: ['osat-cta-header','osat-cta-terminal'] },
   { name: 'Fabless', file: 'landing/fabless-route/fabless-outsourced-popupx-basic-flat.html', sections: ['top','operations-questions','fabless-map','management-layers','relationship-proof','bright-power-case','industry-delivery','resources'], ctas: ['fabless-cta-header','fabless-cta-terminal'] },
-  { name: 'Supplier/Partner', file: 'landing/partner-route/supplier-ecosystem-flat.html', sections: ['top','audience-context','ecosystem-architecture','operations-questions','product-evidence','supply-chain','local-delivery','resources'], ctas: ['partner-cta-hero','partner-cta-architecture'] },
+  { name: 'Supplier/Partner', file: 'landing/partner-route/supplier-ecosystem-flat.html', sections: ['top','audience-context','ecosystem-architecture','operations-questions','product-evidence','supply-chain','local-delivery','resources'], ctas: ['partner-cta-header'] },
 ];
 function setup(route) {
   const html = fs.readFileSync(path.join(root, route.file), 'utf8');

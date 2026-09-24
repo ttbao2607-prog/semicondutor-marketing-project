@@ -32,7 +32,7 @@
 
 - Use a three-layer integration map: `ERP context > MES execution > OT signals`, with ownership and handoff notes alongside it.
 - Present the map as an architecture hypothesis for discovery, never as a verified integration or live product screen.
-- Use two consultation CTAs, one in the hero and one after the architecture/handoff section. The frozen source keeps both CTA controls provider-free and inert; do not add PopupX behavior until an authorized operator handoff. Do not emit a CTA analytics event until live GTM inventory authorizes reuse. Frozen IDs: `partner-cta-hero` and `partner-cta-architecture`.
+- **Product-owner exception (2026-09-24):** Supplier/Partner has one consultation CTA only. Reuse the fixed top-header control, relabel it exactly `Tư Vấn`, and freeze it as the inert/provider-free button `partner-cta-header`. Remove the added orange hero and architecture controls. The original hero navigation actions remain. Do not attach PopupX/provider behavior in HTML; the bridge marks this one selector for the later authorized operator handoff. Do not emit CTA analytics.
 
 ---
 
