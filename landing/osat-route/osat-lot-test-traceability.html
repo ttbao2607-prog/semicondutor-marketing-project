@@ -3920,5 +3920,82 @@ Keep the host full width, height auto and free of parent clipping. Verify the ac
 })();
 </script>
 <!-- END LADIPAGE EMBED -->
+<script>
+/* Phase 2 section awareness: sole route producer; Version 49 remains downstream dispatcher. */
+(function () {
+  'use strict';
+  if (window.__dgwAwarenessSectionInitV1) return;
+  window.__dgwAwarenessSectionInitV1 = true;
+  var ids = ['top', 'operations-questions', 'lot-map', 'management-layers', 'cas-ic-case', 'industry-delivery', 'resources'];
+  var states = new Map();
+  var visible = !document.hidden;
+  var focused = typeof document.hasFocus !== 'function' || document.hasFocus();
+  var ended = false;
+  var now = function () { return Date.now(); };
+  function emit(name, payload) {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push(Object.assign({ event: name }, payload));
+  }
+  function stop(state, at) {
+    if (state.startedAt !== null) {
+      state.elapsed += Math.max(0, at - state.startedAt);
+      state.startedAt = null;
+    }
+  }
+  function sync(state, at) {
+    var active = state.intersecting && visible && focused && !ended;
+    if (active && !state.viewed) {
+      state.viewed = true;
+      emit('section_view', { section_name: state.id });
+    }
+    if (active && state.viewed && state.startedAt === null) state.startedAt = at;
+    if (!active) stop(state, at);
+  }
+  ids.forEach(function (id) {
+    var element = document.getElementById(id);
+    if (!element) return;
+    var state = { id: id, element: element, intersecting: false, viewed: false, startedAt: null, elapsed: 0, flushed: false };
+    states.set(id, state);
+  });
+  var observer = new IntersectionObserver(function (entries) {
+    var at = now();
+    entries.forEach(function (entry) {
+      var state = Array.from(states.values()).find(function (item) { return item.element === entry.target; });
+      if (!state) return;
+      state.intersecting = entry.isIntersecting;
+      sync(state, at);
+    });
+  }, { threshold: 0, rootMargin: '-45% 0px -45% 0px' });
+  states.forEach(function (state) { observer.observe(state.element); });
+  document.addEventListener('visibilitychange', function () {
+    visible = !document.hidden;
+    var at = now();
+    states.forEach(function (state) { sync(state, at); });
+  });
+  window.addEventListener('blur', function () {
+    focused = false;
+    var at = now();
+    states.forEach(function (state) { sync(state, at); });
+  });
+  window.addEventListener('focus', function () {
+    focused = true;
+    var at = now();
+    states.forEach(function (state) { sync(state, at); });
+  });
+  window.addEventListener('pagehide', function () {
+    if (ended) return;
+    ended = true;
+    var at = now();
+    states.forEach(function (state) {
+      stop(state, at);
+      if (state.viewed && !state.flushed) {
+        state.flushed = true;
+        var seconds = Math.min(3600, Math.floor(state.elapsed / 1000));
+        if (seconds >= 1) emit('section_engagement_time', { section_name: state.id, engagement_seconds: seconds });
+      }
+    });
+  });
+})();
+</script>
 </body>
 </html>

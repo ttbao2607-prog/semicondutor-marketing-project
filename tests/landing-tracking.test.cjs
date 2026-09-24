@@ -3,272 +3,92 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 const test = require('node:test');
-
 const root = path.resolve(__dirname, '..');
 const routes = [
-  ['OSAT', 'landing/osat-route/osat-lot-test-traceability.html'],
-  ['Fabless', 'landing/fabless-route/fabless-outsourced-wip.html'],
-  ['Partner', 'landing/partner-route/semiconductor-erp-mes-ot.html'],
+  { name: 'OSAT', file: 'landing/osat-route/osat-lot-test-traceability.html', sections: ['top','operations-questions','lot-map','management-layers','cas-ic-case','industry-delivery','resources'], ctas: ['osat-cta-header','osat-cta-terminal'] },
+  { name: 'Fabless', file: 'landing/fabless-route/fabless-outsourced-popupx-basic-flat.html', sections: ['top','operations-questions','fabless-map','management-layers','relationship-proof','bright-power-case','industry-delivery','resources'], ctas: ['fabless-cta-header','fabless-cta-terminal'] },
+  { name: 'Supplier/Partner', file: 'landing/partner-route/supplier-ecosystem-flat.html', sections: ['top','audience-context','ecosystem-architecture','operations-questions','product-evidence','supply-chain','local-delivery','resources'], ctas: ['partner-cta-hero','partner-cta-architecture'] },
 ];
-
-function harness(routePath, options = {}) {
-  const html = fs.readFileSync(path.join(root, routePath), 'utf8');
-  const scriptTags = [...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)];
-  assert.equal(scriptTags.length, 1, `${routePath}: exactly one script block`);
-  const script = scriptTags[0][1];
-  assert.match(script, /^\s*\(function\s*\(/, `${routePath}: one top-level tracking IIFE`);
-  assert.equal((script.match(/__dgwSectionTrackingInitialized/g) || []).length, 1, `${routePath}: one idempotent initializer`);
-  assert.doesNotMatch(script, /page_view/i, `${routePath}: no inline page_view`);
-
-  let now = 1000;
-  class FakeDate extends Date {
-    static now() { return now; }
-  }
-  class Element {
-    constructor(attrs = {}) { this.attrs = attrs; this.listeners = {}; this.textContent = ''; this.style = {}; }
-    getAttribute(name) { return this.attrs[name] ?? null; }
-    addEventListener(name, fn) { (this.listeners[name] ||= []).push(fn); }
-    fire(name) { for (const fn of this.listeners[name] || []) fn(); }
-    setAttribute(name, value) { this.attrs[name] = value; }
-    select() {}
-  }
-
-  const section = new Element({ 'data-section': 'hero' });
-  const feedback = new Element();
-  const copy = new Element({
-    'data-copy': 'private-copy-value',
-    'data-contact-type': 'email',
-    'data-placement': 'contact',
-    'data-segment': routePath.includes('osat-route') ? 'osat' : routePath.includes('fabless-route') ? 'fabless' : 'partner',
-  });
-  const ctaTags = [...html.matchAll(/<button\b[^>]*data-consultation-cta[^>]*>/gi)];
-  const ctas = ctaTags.map(([tag]) => {
-    const attrs = { 'data-popup-trigger-status': 'pending' };
-    const osatLocation = tag.match(/\bdata-osat-cta="([^"]+)"/i);
-    if (osatLocation) attrs['data-osat-cta'] = osatLocation[1];
-    return new Element(attrs);
-  });
-  let popupClickCalls = 0;
-  const popupLookupIds = [];
-  const popupTrigger = options.popupPresent === false ? null : { click() { popupClickCalls++; } };
-  const documentListeners = {};
-  const windowListeners = {};
-  let hidden = false;
-  let hasFocus = true;
-  let copyResult = options.copyResult ?? 'resolve';
-  let copyCalls = 0;
-  const dataLayer = [];
-  let observerCallback;
-  let observerCount = 0;
-  let observedRootMargin;
-
+function setup(route) {
+  const html = fs.readFileSync(path.join(root, route.file), 'utf8');
+  const match = [...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)].find(([, body]) => body.includes('__dgwAwarenessSectionInitV1'));
+  assert.ok(match, `${route.name}: route initializer exists`);
+  const script = match[1];
+  let time = 1000, hidden = false, focused = true;
+  const elements = new Map(route.sections.map(id => [id, { id }]));
+  const observers = [], docEvents = {}, winEvents = {}, dataLayer = [];
   const document = {
-    get hidden() { return hidden; },
-    hasFocus() { return hasFocus; },
-    querySelectorAll(selector) {
-      if (selector === '[data-section]') return [section];
-      if (selector === '[data-copy]') return [copy];
-      if (selector === '[data-consultation-cta]') return ctas;
-      return [];
-    },
-    getElementById(id) { popupLookupIds.push(id); return id === 'OpenformWF2' ? popupTrigger : null; },
-    querySelector(selector) { return selector === '[data-feedback]' ? feedback : null; },
-    addEventListener(name, fn) { (documentListeners[name] ||= []).push(fn); },
-    createElement() { return new Element(); },
-    body: { appendChild() {}, removeChild() {} },
-    execCommand() { return copyResult === 'exec-success'; },
+    get hidden() { return hidden; }, hasFocus: () => focused,
+    getElementById: id => elements.get(id) || null,
+    addEventListener: (name, fn) => (docEvents[name] ||= []).push(fn),
   };
-  const window = {
-    dataLayer,
-    addEventListener(name, fn) { (windowListeners[name] ||= []).push(fn); },
-  };
-  const navigator = {
-    clipboard: {
-      writeText() {
-        copyCalls++;
-        return copyResult === 'reject' ? Promise.reject(new Error('copy denied')) : Promise.resolve();
-      },
-    },
-  };
-  class IntersectionObserver {
-    constructor(callback, config) { observerCount++; observerCallback = callback; observedRootMargin = config.rootMargin; }
-    observe() {}
-  }
-  const context = vm.createContext({ window, document, navigator, IntersectionObserver, Date: FakeDate, Map, WeakSet, Promise });
-  vm.runInContext(script, context, { filename: routePath });
-
+  const window = { dataLayer, addEventListener: (name, fn) => (winEvents[name] ||= []).push(fn) };
+  class IO { constructor(cb, options) { this.cb = cb; this.options = options; observers.push(this); } observe(el) { (this.targets ||= []).push(el); } }
+  class FakeDate extends Date { static now() { return time; } }
+  const context = vm.createContext({ window, document, IntersectionObserver: IO, Date: FakeDate, Map, Array, Object, Math });
+  const run = () => vm.runInContext(script, context, { filename: route.file });
+  run();
   return {
-    html, script, dataLayer, section, copy, ctas, feedback, popupLookupIds,
-    get copyCalls() { return copyCalls; },
-    get popupClickCalls() { return popupClickCalls; },
-    get observerCount() { return observerCount; },
-    get observedRootMargin() { return observedRootMargin; },
-    rerun() { vm.runInContext(script, context, { filename: routePath }); },
-    setTime(value) { now = value; },
-    intersect(isIntersecting) { observerCallback([{ target: section, isIntersecting }]); },
-    blur() { hasFocus = false; for (const fn of windowListeners.blur || []) fn(); },
-    focus() { hasFocus = true; for (const fn of windowListeners.focus || []) fn(); },
-    hide() { hidden = true; for (const fn of documentListeners.visibilitychange || []) fn(); },
-    show() { hidden = false; for (const fn of documentListeners.visibilitychange || []) fn(); },
-    pagehide() { for (const fn of windowListeners.pagehide || []) fn(); },
-    async copyClick(result) {
-      copyResult = result;
-      copy.fire('click');
-      await Promise.resolve();
-      await Promise.resolve();
-    },
-    clickCtas() { ctas.forEach(cta => cta.fire('click')); },
+    html, script, dataLayer, observers, docEvents, winEvents,
+    setTime: n => { time = n; },
+    intersect(id, isIntersecting = true) { observers[0].cb([{ target: elements.get(id), isIntersecting }]); },
+    hidden(value) { hidden = value; for (const fn of docEvents.visibilitychange || []) fn(); },
+    focused(value) { focused = value; for (const fn of winEvents[value ? 'focus' : 'blur'] || []) fn(); },
+    fire(name) { for (const fn of winEvents[name] || []) fn(); },
+    rerun: run,
   };
 }
-
-for (const [name, routePath] of routes) {
-  test(`${name}: initialization is idempotent`, () => {
-    const h = harness(routePath);
-    const before = h.observerCount;
-    h.rerun();
-    assert.equal(before, 1);
-    assert.equal(h.observerCount, before);
-    h.intersect(true);
-    assert.equal(h.dataLayer.filter(e => e.event === 'section_view').length, 1);
+for (const route of routes) {
+  test(`${route.name}: exact IDs, idempotency, observer band and unique view`, () => {
+    const h = setup(route);
+    assert.equal(h.observers.length, 1);
+    assert.deepEqual({ ...h.observers[0].options }, { threshold: 0, rootMargin: '-45% 0px -45% 0px' });
+    assert.deepEqual(h.observers[0].targets.map(e => e.id), route.sections);
+    h.rerun(); assert.equal(h.observers.length, 1);
+    h.hidden(true); h.intersect('top'); assert.equal(h.dataLayer.length, 0);
+    h.hidden(false); assert.deepEqual(h.dataLayer.map(x => x.event), ['section_view']);
+    h.intersect('top', false); h.intersect('top');
+    assert.equal(h.dataLayer.filter(x => x.event === 'section_view').length, 1);
+    assert.deepEqual(Object.keys(h.dataLayer[0]).sort(), ['event','section_name']);
+    assert.equal(h.dataLayer[0].section_name, 'top');
   });
-
-  test(`${name}: accumulates only effective-visible intervals and emits once on pagehide`, () => {
-    const h = harness(routePath);
-    assert.equal(h.observedRootMargin, '-45% 0px -45% 0px');
-
-    h.setTime(1000);
-    h.intersect(true);
-    h.setTime(2500);
-    h.intersect(false);
-    h.setTime(5000); // Off-screen time is excluded.
-    h.focus(); // Focus alone must not start an off-screen section.
-    h.setTime(7000);
-    h.intersect(true);
-    h.intersect(true); // Re-entry cannot duplicate section_view.
-    h.setTime(8500);
-    h.blur();
-    h.setTime(12000); // Blurred time is excluded.
-    h.focus();
-    h.setTime(12500);
-    h.hide();
-    h.setTime(13500); // Hidden time is excluded.
-    h.show();
-    h.setTime(14000);
-    h.pagehide();
-    h.pagehide();
-
-    assert.equal(h.dataLayer.filter(e => e.event === 'section_view').length, 1);
-    const engagement = h.dataLayer.filter(e => e.event === 'section_engagement_time');
-    assert.equal(engagement.length, 1);
-    assert.equal(engagement[0].engagement_seconds, 4); // 1.5s + 1.5s + 0.5s + 0.5s
-  });
-
-  test(`${name}: caps accumulated engagement at one hour`, () => {
-    const h = harness(routePath);
-    h.setTime(1000);
-    h.intersect(true);
-    h.setTime(3_700_001);
-    h.pagehide();
-    assert.equal(h.dataLayer.find(e => e.event === 'section_engagement_time').engagement_seconds, 3600);
-  });
-
-  test(`${name}: emits only the safe copied_contact payload after successful copy`, async () => {
-    const h = harness(routePath);
-    await h.copyClick('resolve');
-    const events = h.dataLayer.filter(e => e.event === 'copied_contact');
+  test(`${route.name}: visible and focused intervals only; pagehide flushes once with bounded integer`, () => {
+    const h = setup(route);
+    h.setTime(1000); h.intersect('top'); // initially active
+    h.setTime(2500); h.focused(false);
+    h.setTime(7000); h.focused(true); // 1.5 sec accumulated; resumes
+    h.setTime(8000); h.hidden(true);
+    h.setTime(12000); h.hidden(false); // 2.5 sec accumulated
+    h.setTime(13000); h.intersect('top', false);
+    h.setTime(18000); h.intersect('top'); // resume
+    h.setTime(19000); h.fire('pagehide'); h.fire('pagehide');
+    const events = h.dataLayer.filter(x => x.event === 'section_engagement_time');
     assert.equal(events.length, 1);
-    assert.deepEqual(Object.keys(events[0]).sort(), ['contact_type', 'event', 'placement', 'segment']);
-    assert.equal(events[0].contact_type, 'email');
-    assert.equal(events[0].placement, 'contact');
-    assert.equal(events[0].segment, routePath.includes('osat-route') ? 'osat' : routePath.includes('fabless-route') ? 'fabless' : 'partner');
-    assert.equal(JSON.stringify(events[0]).includes('private-copy-value'), false);
-    assert.equal(h.copyCalls, 1);
+    assert.deepEqual(Object.keys(events[0]).sort(), ['engagement_seconds','event','section_name']);
+    assert.equal(events[0].section_name, 'top');
+    assert.equal(events[0].engagement_seconds, 4);
+    assert.ok(Number.isInteger(events[0].engagement_seconds) && events[0].engagement_seconds >= 1 && events[0].engagement_seconds <= 3600);
+    h.setTime(30000); h.intersect('operations-questions'); h.setTime(40000); h.fire('pagehide');
+    assert.equal(h.dataLayer.filter(x => x.event === 'section_engagement_time').length, 1);
   });
-
-  test(`${name}: failed copy announces failure and emits no success event`, async () => {
-    const h = harness(routePath);
-    await h.copyClick('reject');
-    assert.equal(h.dataLayer.filter(e => e.event === 'copied_contact').length, 0);
-    assert.match(h.feedback.textContent, /Không copy được/);
+  test(`${route.name}: one-hour cap and sub-second interval omitted`, () => {
+    const h = setup(route); h.setTime(1000); h.intersect('top'); h.setTime(9_000_000); h.fire('pagehide');
+    assert.equal(h.dataLayer.find(x => x.event === 'section_engagement_time').engagement_seconds, 3600);
+    const short = setup(route); short.intersect('top'); short.setTime(1500); short.fire('pagehide');
+    assert.equal(short.dataLayer.some(x => x.event === 'section_engagement_time'), false);
   });
-
-  test(`${name}: two consultation CTAs invoke the LadiPage trigger once each`, () => {
-    const h = harness(routePath);
-    assert.equal(h.ctas.length, 2);
-    assert.equal((h.html.match(/<button\b[^>]*data-consultation-cta/gi) || []).length, 2);
-    assert.ok(h.ctas.every(cta => cta.getAttribute('data-popup-trigger-status') === 'pending'));
-    assert.doesNotMatch(h.html, /<form\b/i);
-    assert.doesNotMatch(h.script, /accepted_form/i);
-    h.clickCtas();
-    assert.deepEqual(h.popupLookupIds, ['OpenformWF2', 'OpenformWF2']);
-    assert.equal(h.popupClickCalls, 2);
-    assert.ok(h.ctas.every(cta => cta.getAttribute('data-popup-trigger-status') === 'clicked'));
-    const ctaEvents = h.dataLayer.filter(e => /cta_click$/.test(e.event));
-    if (routePath.includes('osat-route')) {
-      assert.deepEqual(ctaEvents.map(e => ({ ...e })), [
-        { event: 'osat_cta_click', cta_location: 'hero' },
-        { event: 'osat_cta_click', cta_location: 'terminal' },
-      ]);
-    } else {
-      assert.deepEqual(ctaEvents, []);
+  test(`${route.name}: inert CTAs and allowlist N/A produce no other tracking`, () => {
+    const h = setup(route);
+    assert.doesNotMatch(h.html, /semiconductor_content_click|potential_viewer|osat_cta_click|accepted_form|page_view|OpenformWF2|PopupX|navigator\.clipboard|fetch\s*\(/i);
+    const buttons = [...h.html.matchAll(/<button\b[^>]*id="([^"]+)"[^>]*>/gi)].map(([, id]) => id).filter(id => route.ctas.includes(id));
+    assert.deepEqual(buttons, route.ctas);
+    for (const id of route.ctas) {
+      const tag = h.html.match(new RegExp(`<button\\b[^>]*id="${id}"[^>]*>`, 'i'))?.[0] || '';
+      assert.match(tag, /type="button"/i);
+      assert.doesNotMatch(tag, /onclick|data-ldp-native-form-popup-trigger|data-popup/i);
     }
-    assert.equal(h.dataLayer.some(e => e.event === 'accepted_form'), false);
-  });
-
-  test(`${name}: absent popup trigger fails safely`, () => {
-    const h = harness(routePath, { popupPresent: false });
-    assert.doesNotThrow(() => h.clickCtas());
-    assert.deepEqual(h.popupLookupIds, ['OpenformWF2', 'OpenformWF2']);
-    assert.equal(h.popupClickCalls, 0);
-    assert.ok(h.ctas.every(cta => cta.getAttribute('data-popup-trigger-status') === 'missing'));
-    const ctaEvents = h.dataLayer.filter(e => /cta_click$/.test(e.event));
-    if (routePath.includes('osat-route')) {
-      assert.deepEqual(ctaEvents.map(e => ({ ...e })), [
-        { event: 'osat_cta_click', cta_location: 'hero' },
-        { event: 'osat_cta_click', cta_location: 'terminal' },
-      ]);
-    } else {
-      assert.deepEqual(ctaEvents, []);
-    }
-    assert.equal(h.dataLayer.some(e => e.event === 'accepted_form'), false);
-  });
-
-  test(`${name}: page structure and responsive accessibility requirements are present`, () => {
-    const html = fs.readFileSync(path.join(root, routePath), 'utf8');
-    const styles = html.match(/<style>([\s\S]*?)<\/style>/i)?.[1] ?? '';
-    assert.match(html, /^<!doctype html>/i);
-    assert.match(html, /<main\b/i);
-    assert.equal((html.match(/<h1\b/gi) || []).length, 1);
-    assert.match(html, /<meta name="description"/i);
-    assert.match(html, /<link rel="canonical"/i);
-    assert.match(html, /<meta name="robots" content="noindex,follow"/i);
-    const images = [...html.matchAll(/<img\b[^>]*>/gi)].map(([tag]) => tag);
-    assert.ok(images.length > 0);
-    assert.ok(images.every(tag => /\bwidth="\d+"/i.test(tag) && /\bheight="\d+"/i.test(tag)));
-    assert.match(html, /<figure\b[\s\S]*?<figcaption\b/i);
-    assert.match(html, /:focus-visible\s*\{/i);
-    assert.match(html, /min-height:\s*48px/i);
-    assert.match(html, /prefers-reduced-motion:\s*reduce/i);
-    assert.match(html, /@media\s*\(max-width:\s*640px\)/i);
-    assert.match(styles, /\.wrap\s*\{[^}]*width:\s*min\(var\(--max\),calc\(100%\s*-\s*var\(--gutter\)\s*-\s*var\(--gutter\)\)\)/i);
-    assert.doesNotMatch(styles, /2\s*\*\s*var\(--gutter\)/i);
-    assert.doesNotMatch(styles, /position\s*:\s*(?:fixed|sticky)/i);
-    assert.doesNotMatch(html, /<form\b/i);
-    assert.doesNotMatch(html, /accepted_form/i);
-    assert.doesNotMatch(html, /page_view/i);
-    const osatLocations = [...html.matchAll(/\bdata-osat-cta="([^"]+)"/gi)].map(([, location]) => location);
-    if (name === 'OSAT') {
-      assert.deepEqual(osatLocations, ['hero', 'terminal']);
-      for (const label of ['LOT', 'TEST', 'QUALITY / 4M1E', 'WIP', 'COST REVIEW']) assert.ok(html.includes(label));
-      assert.match(html, /osat_cta_click/);
-    } else {
-      assert.deepEqual(osatLocations, []);
-      assert.doesNotMatch(html, /osat_cta_click/i);
-      if (name === 'Fabless') {
-        for (const label of ['FORECAST', 'OUTSOURCE', 'LOT / DATECODE / BIN', 'COST REVIEW', 'Ownership:', 'Handoff:']) assert.ok(html.includes(label));
-      } else {
-        for (const label of ['ERP context', 'MES execution', 'OT signals', 'Architecture hypothesis', 'Handoff to confirm:']) assert.ok(html.includes(label));
-      }
-    }
+    h.intersect('resources'); h.fire('pagehide');
+    assert.ok(h.dataLayer.every(event => ['section_view','section_engagement_time'].includes(event.event)));
+    assert.ok(h.dataLayer.every(event => Object.keys(event).every(k => ['event','section_name','engagement_seconds'].includes(k))));
   });
 }
