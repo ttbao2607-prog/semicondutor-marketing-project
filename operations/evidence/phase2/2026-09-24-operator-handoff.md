@@ -2,7 +2,7 @@
 
 Phase 2 local source/test/bridge package is complete for OSAT, Fabless, and Supplier/Partner. This handoff is only for the later Phase 3 operator review. It is not authorization to import, bind, publish, preview a live LadiPage route, submit a form, or modify GTM/GA4.
 
-Use the route register and exact hashes in `2026-09-24-phase2-route-ledger.md`. OSAT/Fabless source pins use commit `6fb6483429430f0909e7c94c4e20eef7a376651e`, tree `60a372ab07e7e2636baae3b4c30c8b0a05cc06e4`. Supplier/Partner uses the corrected one-CTA source at commit `53c5c68325f7ad72c7dbea65944dcb1135ac8e48`, tree `9fbc994da5a50cc57b11a6ff68d8ed6f096d97eb`. The older Supplier two-selector package is superseded and must not be consumed.
+Use the route register and exact hashes in `2026-09-24-phase2-route-ledger.md`. OSAT/Fabless source pins use commit `6fb6483429430f0909e7c94c4e20eef7a376651e`, tree `60a372ab07e7e2636baae3b4c30c8b0a05cc06e4`. Supplier/Partner uses the corrected one-CTA source at commit `53c5c68325f7ad72c7dbea65944dcb1135ac8e48`, tree `9fbc994da5a50cc57b11a6ff68d8ed6f096d97eb`. The superseded Supplier two-selector package has been removed; consume only the `r2` package listed below.
 
 Final prepared artifacts and receipts:
 
