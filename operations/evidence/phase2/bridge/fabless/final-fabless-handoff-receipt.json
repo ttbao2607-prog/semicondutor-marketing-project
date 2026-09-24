@@ -1,0 +1,56 @@
+{
+  "anchors": [
+    "main-content",
+    "top",
+    "operations-questions",
+    "fabless-map",
+    "management-layers",
+    "relationship-proof",
+    "bright-power-case",
+    "industry-delivery",
+    "resources"
+  ],
+  "checks": {
+    "anchor_coverage": {
+      "bright-power-case": true,
+      "fabless-map": true,
+      "industry-delivery": true,
+      "main-content": true,
+      "management-layers": true,
+      "operations-questions": true,
+      "relationship-proof": true,
+      "resources": true,
+      "top": true
+    },
+    "cta_coverage": {
+      "button#fabless-cta-header": true,
+      "button#fabless-cta-terminal": true
+    },
+    "render_model": "flat_document",
+    "signals": {
+      "html_form": false,
+      "inline_provider_bundle": false,
+      "physical_reference": false,
+      "shadow_dom": false
+    }
+  },
+  "contract_version": "ladipage-operator/modal-openform-handoff-receipt/v1",
+  "cta_selectors": [
+    "button#fabless-cta-header",
+    "button#fabless-cta-terminal"
+  ],
+  "output": {
+    "path_ref": "operations/evidence/phase2/bridge/fabless/final-fabless-prepared.html",
+    "sha256": "25271fdf6289dc4f819ee79e0d4c33c684754beb337de4f30b5d24f953abaab8"
+  },
+  "render_model": "flat_document",
+  "route": "html_to_ladipage_basic",
+  "schema": "ladipage-operator/modal-openform-handoff-receipt/v1",
+  "source": {
+    "git_commit": "6fb6483429430f0909e7c94c4e20eef7a376651e",
+    "git_tree": "60a372ab07e7e2636baae3b4c30c8b0a05cc06e4",
+    "path_ref": "landing/fabless-route/fabless-outsourced-popupx-basic-flat.html",
+    "sha256": "6841e58dc3793c515740a7761874d7707a80ed3f858b8d895c356669c6153426"
+  },
+  "status": "PASS"
+}

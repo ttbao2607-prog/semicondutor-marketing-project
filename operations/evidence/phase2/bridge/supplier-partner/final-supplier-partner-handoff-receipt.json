@@ -1,0 +1,56 @@
+{
+  "anchors": [
+    "main-content",
+    "top",
+    "audience-context",
+    "ecosystem-architecture",
+    "operations-questions",
+    "product-evidence",
+    "supply-chain",
+    "local-delivery",
+    "resources"
+  ],
+  "checks": {
+    "anchor_coverage": {
+      "audience-context": true,
+      "ecosystem-architecture": true,
+      "local-delivery": true,
+      "main-content": true,
+      "operations-questions": true,
+      "product-evidence": true,
+      "resources": true,
+      "supply-chain": true,
+      "top": true
+    },
+    "cta_coverage": {
+      "button#partner-cta-architecture": true,
+      "button#partner-cta-hero": true
+    },
+    "render_model": "flat_document",
+    "signals": {
+      "html_form": false,
+      "inline_provider_bundle": false,
+      "physical_reference": false,
+      "shadow_dom": false
+    }
+  },
+  "contract_version": "ladipage-operator/modal-openform-handoff-receipt/v1",
+  "cta_selectors": [
+    "button#partner-cta-hero",
+    "button#partner-cta-architecture"
+  ],
+  "output": {
+    "path_ref": "operations/evidence/phase2/bridge/supplier-partner/final-supplier-partner-prepared.html",
+    "sha256": "3f2079ac8341bd80c51a79a78f7414cc7eae7ac1502057ed152605ba1cab9f03"
+  },
+  "render_model": "flat_document",
+  "route": "html_to_ladipage_basic",
+  "schema": "ladipage-operator/modal-openform-handoff-receipt/v1",
+  "source": {
+    "git_commit": "6fb6483429430f0909e7c94c4e20eef7a376651e",
+    "git_tree": "60a372ab07e7e2636baae3b4c30c8b0a05cc06e4",
+    "path_ref": "landing/partner-route/supplier-ecosystem-flat.html",
+    "sha256": "9804a33c0cb6e7eaba145f0498252ba7b20dbab4e1a03896ba88b6f57ae766a0"
+  },
+  "status": "PASS"
+}

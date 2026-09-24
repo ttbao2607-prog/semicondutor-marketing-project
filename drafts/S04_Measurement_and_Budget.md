@@ -20,7 +20,7 @@
 
 Production handoff: `../tracking/Semiconductor_Tracking_Contract.md` and `../operations/Pre_Ad_Readiness_Plan.md`.
 
-Awareness measurement execution and independent audit are specified as a **draft plan, not a deployment record**, in `../tracking/Semiconductor_Awareness_Tracking_Execution_Plan.md`. Its historical GTM/GA4 source inventory still requires live verification before any event reuse or account change.
+As of 2026-09-24, Phase 2 local source instrumentation is implemented on OSAT, Fabless and Supplier/Partner. Each emits only section-view and bounded section-engagement events; Supplier has one inert header CTA by Product Owner exception, and no route emits CTA or content-click events. Source tests and offline bridge compatibility pass. This does not prove live browser dispatch, consent behavior, accepted forms, brand recall, or campaign performance. The Phase 1 live GTM/GA4 inventory still requires refresh before any account change.
 
 ## KPI register
 

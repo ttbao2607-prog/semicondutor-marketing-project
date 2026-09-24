@@ -1,0 +1,31 @@
+{
+  "schema": "ladipage-operator/modal-openform-handoff/v1",
+  "market_ref": "semiconductor-osat",
+  "source": {
+    "path_ref": "landing/osat-route/osat-lot-test-traceability.html",
+    "sha256": "3006f1650db608a17f5da91fd84fc5811ac38e0e1167dcd3bdf17deb93970192",
+    "git_commit": "6fb6483429430f0909e7c94c4e20eef7a376651e",
+    "git_tree": "60a372ab07e7e2636baae3b4c30c8b0a05cc06e4"
+  },
+  "route": "html_to_ladipage_basic",
+  "render_model": "flat_document",
+  "cta_selectors": [
+    "button#osat-cta-header",
+    "button#osat-cta-terminal"
+  ],
+  "anchors": [
+    "main-content",
+    "top",
+    "operations-questions",
+    "lot-map",
+    "management-layers",
+    "cas-ic-case",
+    "industry-delivery",
+    "resources",
+    "osat-footer"
+  ],
+  "output": {
+    "path_ref": "operations/evidence/phase2/bridge/osat/final-osat-prepared.html",
+    "must_not_overwrite_input": true
+  }
+}

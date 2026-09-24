@@ -82,6 +82,10 @@ for (const route of routes) {
     assert.doesNotMatch(h.html, /semiconductor_content_click|potential_viewer|osat_cta_click|accepted_form|page_view|OpenformWF2|PopupX|navigator\.clipboard|fetch\s*\(/i);
     const buttons = [...h.html.matchAll(/<button\b[^>]*id="([^"]+)"[^>]*>/gi)].map(([, id]) => id).filter(id => route.ctas.includes(id));
     assert.deepEqual(buttons, route.ctas);
+    if (route.name === 'Supplier/Partner') {
+      assert.match(h.html, /<button\b[^>]*id="partner-cta-header"[^>]*>Tư Vấn<\/button>/i);
+      assert.doesNotMatch(h.html, /id="partner-cta-(?:hero|architecture)"/i);
+    }
     for (const id of route.ctas) {
       const tag = h.html.match(new RegExp(`<button\\b[^>]*id="${id}"[^>]*>`, 'i'))?.[0] || '';
       assert.match(tag, /type="button"/i);

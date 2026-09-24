@@ -1,0 +1,56 @@
+{
+  "anchors": [
+    "main-content",
+    "top",
+    "operations-questions",
+    "lot-map",
+    "management-layers",
+    "cas-ic-case",
+    "industry-delivery",
+    "resources",
+    "osat-footer"
+  ],
+  "checks": {
+    "anchor_coverage": {
+      "cas-ic-case": true,
+      "industry-delivery": true,
+      "lot-map": true,
+      "main-content": true,
+      "management-layers": true,
+      "operations-questions": true,
+      "osat-footer": true,
+      "resources": true,
+      "top": true
+    },
+    "cta_coverage": {
+      "button#osat-cta-header": true,
+      "button#osat-cta-terminal": true
+    },
+    "render_model": "flat_document",
+    "signals": {
+      "html_form": false,
+      "inline_provider_bundle": false,
+      "physical_reference": false,
+      "shadow_dom": false
+    }
+  },
+  "contract_version": "ladipage-operator/modal-openform-handoff-receipt/v1",
+  "cta_selectors": [
+    "button#osat-cta-header",
+    "button#osat-cta-terminal"
+  ],
+  "output": {
+    "path_ref": "operations/evidence/phase2/bridge/osat/final-osat-prepared.html",
+    "sha256": "c4554c2d9a28a0d9d56d6cb410a56622575b926f3127b7d4eb76f26702e8fc0c"
+  },
+  "render_model": "flat_document",
+  "route": "html_to_ladipage_basic",
+  "schema": "ladipage-operator/modal-openform-handoff-receipt/v1",
+  "source": {
+    "git_commit": "6fb6483429430f0909e7c94c4e20eef7a376651e",
+    "git_tree": "60a372ab07e7e2636baae3b4c30c8b0a05cc06e4",
+    "path_ref": "landing/osat-route/osat-lot-test-traceability.html",
+    "sha256": "3006f1650db608a17f5da91fd84fc5811ac38e0e1167dcd3bdf17deb93970192"
+  },
+  "status": "PASS"
+}

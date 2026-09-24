@@ -1,0 +1,30 @@
+{
+  "schema": "ladipage-operator/modal-openform-handoff/v1",
+  "market_ref": "semiconductor-supplier-partner",
+  "source": {
+    "path_ref": "landing/partner-route/supplier-ecosystem-flat.html",
+    "sha256": "c0f2c0b6a3e9bc1f11e69b36856a97b10ce0256730103d9aa1b42bde32a2d022",
+    "git_commit": "53c5c68325f7ad72c7dbea65944dcb1135ac8e48",
+    "git_tree": "9fbc994da5a50cc57b11a6ff68d8ed6f096d97eb"
+  },
+  "route": "html_to_ladipage_basic",
+  "render_model": "flat_document",
+  "cta_selectors": [
+    "button#partner-cta-header"
+  ],
+  "anchors": [
+    "main-content",
+    "top",
+    "audience-context",
+    "ecosystem-architecture",
+    "operations-questions",
+    "product-evidence",
+    "supply-chain",
+    "local-delivery",
+    "resources"
+  ],
+  "output": {
+    "path_ref": "operations/evidence/phase2/bridge/supplier-partner/final-supplier-partner-r2-prepared.html",
+    "must_not_overwrite_input": true
+  }
+}

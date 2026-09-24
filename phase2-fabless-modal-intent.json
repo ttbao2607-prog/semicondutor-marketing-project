@@ -1,0 +1,31 @@
+{
+  "schema": "ladipage-operator/modal-openform-handoff/v1",
+  "market_ref": "semiconductor-fabless",
+  "source": {
+    "path_ref": "landing/fabless-route/fabless-outsourced-popupx-basic-flat.html",
+    "sha256": "6841e58dc3793c515740a7761874d7707a80ed3f858b8d895c356669c6153426",
+    "git_commit": "6fb6483429430f0909e7c94c4e20eef7a376651e",
+    "git_tree": "60a372ab07e7e2636baae3b4c30c8b0a05cc06e4"
+  },
+  "route": "html_to_ladipage_basic",
+  "render_model": "flat_document",
+  "cta_selectors": [
+    "button#fabless-cta-header",
+    "button#fabless-cta-terminal"
+  ],
+  "anchors": [
+    "main-content",
+    "top",
+    "operations-questions",
+    "fabless-map",
+    "management-layers",
+    "relationship-proof",
+    "bright-power-case",
+    "industry-delivery",
+    "resources"
+  ],
+  "output": {
+    "path_ref": "operations/evidence/phase2/bridge/fabless/final-fabless-prepared.html",
+    "must_not_overwrite_input": true
+  }
+}
