@@ -2179,6 +2179,79 @@ Keep the host full width, height auto and free of parent clipping. Verify the ac
   color: #79dfff;
 }
 
+/* Mobile reading path: keep every source and interaction available while reducing repeated visual weight. */
+#dw-osat-landing .mobile-inspector-toggle,#dw-osat-landing .mobile-map-toggle,#dw-osat-landing .mobile-lot-rail{display:none}
+@media(max-width:700px){
+  #dw-osat-landing .section{padding-block:42px}
+  #dw-osat-landing .hero{padding-top:30px}
+  #dw-osat-landing .hero-grid{gap:20px;padding-bottom:20px}
+  #dw-osat-landing .hero h1{font-size:clamp(34px,8.2vw,46px);margin:15px 0 16px}
+  #dw-osat-landing .hero-copy .lead{line-height:1.6;margin-bottom:16px}
+  #dw-osat-landing .hero-context{margin-top:12px}
+  #dw-osat-landing .hero-glass-panel{padding:14px}
+  #dw-osat-landing .glass-panel-header{margin-bottom:10px;padding-bottom:9px}
+  #dw-osat-landing .glass-panel-title{font-size:17px}
+  #dw-osat-landing .glass-cards-stack{gap:8px}
+  #dw-osat-landing .glass-card{padding:9px 10px;gap:10px;border-radius:10px}
+  #dw-osat-landing .card-thumb-wrap{width:48px;height:48px;border-radius:7px}
+  #dw-osat-landing .card-meta-top{gap:3px}
+  #dw-osat-landing .card-brief{line-height:1.35;margin:4px 0}
+  #dw-osat-landing .card-action-row{margin-top:3px}
+  #dw-osat-landing .hero-metrics-bar{padding:12px 16px;gap:3px}
+  #dw-osat-landing .metric-block{display:grid;grid-template-columns:70px 1fr;align-items:center;gap:0 8px;padding:4px 0}
+  #dw-osat-landing .metric-num{grid-row:span 2;font-size:24px}
+  #dw-osat-landing .metric-unit{font-size:9px}
+  #dw-osat-landing .metric-desc{font-size:10px;line-height:1.35}
+  #dw-osat-landing .hero-marquee-section,#dw-osat-landing .hero-rail{display:none}
+  #dw-osat-landing .nav-form-btn,#dw-osat-landing .motion-toggle,#dw-osat-landing .menu-toggle{min-height:44px}
+  #dw-osat-landing .motion-toggle,#dw-osat-landing .menu-toggle{min-width:44px}
+  #dw-osat-landing .section-head,#dw-osat-landing .map-section .section-head,#dw-osat-landing .resources .section-head{gap:12px;margin-bottom:20px}
+  #dw-osat-landing .section-head h2{margin-top:10px}
+  #dw-osat-landing .section-head .lead{line-height:1.6}
+  #dw-osat-landing .pain-grid{gap:9px}
+  #dw-osat-landing .pain-card{padding:15px 16px}
+  #dw-osat-landing .pain-grid .pain-stage,#dw-osat-landing .osat-layer-grid .pain-stage{display:none}
+  #dw-osat-landing .pain-card h3{margin-top:10px}
+  #dw-osat-landing .pain-card p{line-height:1.55}
+  #dw-osat-landing .card-action{padding-top:8px}
+  #dw-osat-landing .problem-bottom{margin-top:13px}
+  #dw-osat-landing .cockpit-console{padding:13px}
+  #dw-osat-landing .mobile-lot-rail{display:grid;gap:7px;list-style:none;padding:0;margin:0 0 15px;counter-reset:lot-step}
+  #dw-osat-landing .mobile-lot-rail li{counter-increment:lot-step;display:flex;align-items:center;gap:12px;min-height:44px;padding:8px 12px;background:#142a31;border:1px solid #3b626d;border-radius:8px;color:#eef8fa;font-size:13px;line-height:1.35}
+  #dw-osat-landing .mobile-lot-rail li::before{content:counter(lot-step,decimal-leading-zero);color:#77dbf2;font:700 11px Consolas,monospace}
+  #dw-osat-landing.mobile-compact-ready .mobile-map-toggle{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:48px;padding:10px 13px;margin-bottom:12px;background:#12303d;border:1px solid #4c8293;border-radius:8px;color:#eef8fa;font-weight:700;text-align:left;cursor:pointer}
+  #dw-osat-landing .mobile-map-toggle::after{content:'+';font-size:22px;line-height:1}
+  #dw-osat-landing .mobile-map-toggle[aria-expanded="true"]::after{content:'−'}
+  #dw-osat-landing .mobile-map-toggle:focus-visible{outline:2px solid #ea580c;outline-offset:3px}
+  #dw-osat-landing.mobile-compact-ready .cockpit-console:not(.mobile-expanded){display:none}
+  #dw-osat-landing .cockpit-stage-viewport{padding:12px}
+  #dw-osat-landing .cockpit-bento{gap:10px}
+  #dw-osat-landing .cockpit-tabs-bar{gap:5px}
+  #dw-osat-landing .cockpit-tab-btn{min-height:48px}
+  #dw-osat-landing .pipeline-station{min-height:0;padding:10px 12px}
+  #dw-osat-landing .station-icon{display:none}
+  #dw-osat-landing .station-dispatch-panel{margin-top:10px}
+  #dw-osat-landing .mobile-inspector-toggle{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:48px;padding:10px 12px;background:#12303d;border:1px solid #4c8293;border-radius:8px;color:#eef8fa;font-weight:700;text-align:left;cursor:pointer}
+  #dw-osat-landing .mobile-inspector-toggle::after{content:'+';font-size:22px;line-height:1}
+  #dw-osat-landing .mobile-inspector-toggle[aria-expanded="true"]::after{content:'−'}
+  #dw-osat-landing .mobile-inspector-toggle:focus-visible{outline:2px solid #ea580c;outline-offset:3px}
+  #dw-osat-landing.mobile-compact-ready .cockpit-inspector:not(.mobile-expanded){display:none}
+  #dw-osat-landing .osat-layer-grid{gap:12px}
+  #dw-osat-landing .osat-central-hub{display:none}
+  #dw-osat-landing .ecosystem-cards-grid{gap:10px}
+  #dw-osat-landing .ecosystem-card{padding:15px}
+  #dw-osat-landing .ecosystem-card-header{gap:6px}
+  #dw-osat-landing .ecosystem-card h3{margin:10px 0 5px}
+  #dw-osat-landing .ecosystem-card p{line-height:1.5}
+  #dw-osat-landing .ecosystem-meta-row{gap:5px}
+  #dw-osat-landing .local-delivery-block{gap:20px;margin-top:30px;padding-top:30px}
+  #dw-osat-landing .local-delivery-card{padding:17px}
+  #dw-osat-landing .resources{padding-block:42px}
+  #dw-osat-landing .resource-card{padding:15px}
+  #dw-osat-landing .resource-card h3{margin-top:8px}
+  #dw-osat-landing .resource-card p{margin-bottom:8px;line-height:1.45}
+  #dw-osat-landing .closing-actions{margin-top:20px;padding-top:20px}
+}
 </style>
 <div class="page" data-page>
 <a class="skip" href="#main-content">Chuyển đến nội dung chính</a>
@@ -2392,8 +2465,16 @@ Keep the host full width, height auto and free of parent clipping. Verify the ac
     </div>
   </div>
 
+  <ol class="mobile-lot-rail" aria-label="Tóm tắt hành trình dữ liệu lot">
+    <li>Lot — nhận diện lô và bước xử lý</li>
+    <li>Test — gắn kết quả kiểm tra với lô</li>
+    <li>Quality / 4M1E — đối chiếu chất lượng và bối cảnh</li>
+    <li>WIP — xem trạng thái và điểm cần xử lý</li>
+    <li>Cost review — đối chiếu thông tin lên điều hành</li>
+  </ol>
+  <button class="mobile-map-toggle" id="osat-mobile-map-toggle" type="button" aria-controls="osat-mobile-map-detail" aria-expanded="false">Xem bản đồ mô phỏng chi tiết</button>
   <!-- Cockpit Console Frame (Glassmorphism v2 + Digiwin UI) -->
-  <div class="cockpit-console" data-reveal>
+  <div class="cockpit-console" id="osat-mobile-map-detail" data-reveal>
     <!-- 1. Top Status Banner -->
     <div class="cockpit-header">
       <div class="cockpit-status-badge">
@@ -3006,7 +3087,8 @@ Keep the host full width, height auto and free of parent clipping. Verify the ac
       </div>
 
       <!-- Right Telemetry Inspector Panel -->
-      <aside class="cockpit-inspector">
+      <button class="mobile-inspector-toggle" id="osat-mobile-inspector-toggle" type="button" aria-controls="osat-mobile-inspector" aria-expanded="false">Xem chi tiết trạm và dữ liệu mô phỏng</button>
+      <aside class="cockpit-inspector" id="osat-mobile-inspector">
         <div class="inspector-top">
           <div class="inspector-badge"><span class="dot-green"></span> TELEMETRY LIVE</div>
           <h4 class="inspector-title" id="inspector-heading">Trạm 03: Wire Bonding</h4>
@@ -3994,6 +4076,33 @@ Keep the host full width, height auto and free of parent clipping. Verify the ac
         if (seconds >= 1) emit('section_engagement_time', { section_name: state.id, engagement_seconds: seconds });
       }
     });
+  });
+})();
+</script>
+<script>
+(function(){
+  var root=document.getElementById('dw-osat-landing');
+  if(!root)return;
+  var toggle=root.querySelector('#osat-mobile-inspector-toggle');
+  var inspector=root.querySelector('#osat-mobile-inspector');
+  var mapToggle=root.querySelector('#osat-mobile-map-toggle');
+  var mapDetail=root.querySelector('#osat-mobile-map-detail');
+  if(!toggle||!inspector||!mapToggle||!mapDetail)return;
+  root.classList.add('mobile-compact-ready');
+  function expandMap(expanded){
+    mapToggle.setAttribute('aria-expanded',String(expanded));
+    mapDetail.classList.toggle('mobile-expanded',expanded);
+  }
+  mapToggle.addEventListener('click',function(){
+    expandMap(mapToggle.getAttribute('aria-expanded')!=='true');
+  });
+  root.querySelectorAll('[data-open-mode]').forEach(function(link){
+    link.addEventListener('click',function(){expandMap(true)},true);
+  });
+  toggle.addEventListener('click',function(){
+    var expanded=toggle.getAttribute('aria-expanded')==='true';
+    toggle.setAttribute('aria-expanded',String(!expanded));
+    inspector.classList.toggle('mobile-expanded',!expanded);
   });
 })();
 </script>
