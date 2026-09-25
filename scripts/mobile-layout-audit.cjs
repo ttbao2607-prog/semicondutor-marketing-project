@@ -61,6 +61,13 @@ async function main() {
     await sleep(100);
   }
   await sleep(1500);
+  const initialHeight = await send('Runtime.evaluate', { expression: 'document.documentElement.scrollHeight', returnByValue: true });
+  for (let y = 0; y < initialHeight.result.value; y += Math.max(300, Math.floor(height * 0.8))) {
+    await send('Runtime.evaluate', { expression: `window.scrollTo(0, ${y})` });
+    await sleep(35);
+  }
+  await send('Runtime.evaluate', { expression: 'window.scrollTo(0, 0)' });
+  await sleep(800);
   const result = await send('Runtime.evaluate', {
     returnByValue: true,
     expression: `(() => {
@@ -99,12 +106,26 @@ async function main() {
         button.click();
         const opened = { expanded: button.getAttribute('aria-expanded'), visible: visible() };
         button.click();
-        document.querySelector('[data-open-mode]')?.click();
+        document.querySelector('[data-open-mode], [data-audience]')?.click();
         const deepLink = { expanded: button.getAttribute('aria-expanded'), visible: visible() };
         return { before, opened, deepLink };
       })()`,
     });
     interactions = check.result?.value ?? null;
+    if (interactions) {
+      await send('Page.bringToFront');
+      await send('Runtime.evaluate', { expression: "document.querySelector('#osat-mobile-map-toggle, #fabless-mobile-map-toggle, #partner-mobile-map-toggle').focus()" });
+      const focused = await send('Runtime.evaluate', { returnByValue: true, expression: 'document.activeElement?.id' });
+      await send('Input.dispatchKeyEvent', { type: 'rawKeyDown', key: 'Enter', code: 'Enter', windowsVirtualKeyCode: 13, nativeVirtualKeyCode: 13 });
+      const afterDown = await send('Runtime.evaluate', { returnByValue: true, expression: "document.querySelector('#osat-mobile-map-toggle, #fabless-mobile-map-toggle, #partner-mobile-map-toggle').getAttribute('aria-expanded')" });
+      await send('Input.dispatchKeyEvent', { type: 'char', text: '\r', key: 'Enter', code: 'Enter', windowsVirtualKeyCode: 13, nativeVirtualKeyCode: 13 });
+      await send('Input.dispatchKeyEvent', { type: 'keyUp', key: 'Enter', code: 'Enter', windowsVirtualKeyCode: 13, nativeVirtualKeyCode: 13 });
+      const keyboard = await send('Runtime.evaluate', {
+        returnByValue: true,
+        expression: "document.querySelector('#osat-mobile-map-toggle, #fabless-mobile-map-toggle, #partner-mobile-map-toggle').getAttribute('aria-expanded')",
+      });
+      interactions.keyboardEnter = { focused: focused.result?.value ?? null, afterDown: afterDown.result?.value ?? null, afterUp: keyboard.result?.value ?? null };
+    }
   }
   console.log(JSON.stringify({ file: path.join(outputDir, `${label}.png`), ...data, interactions }));
   ws.close();
