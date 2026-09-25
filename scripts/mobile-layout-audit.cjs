@@ -91,8 +91,8 @@ async function main() {
     const check = await send('Runtime.evaluate', {
       returnByValue: true,
       expression: `(() => {
-        const button = document.querySelector('#osat-mobile-map-toggle');
-        const panel = document.querySelector('#osat-mobile-map-detail');
+        const button = document.querySelector('#osat-mobile-map-toggle, #fabless-mobile-map-toggle, #partner-mobile-map-toggle');
+        const panel = document.querySelector('#osat-mobile-map-detail, #fabless-mobile-map-detail, #partner-mobile-map-detail');
         if (!button || !panel) return null;
         const visible = () => getComputedStyle(panel).display !== 'none';
         const before = { expanded: button.getAttribute('aria-expanded'), visible: visible() };
