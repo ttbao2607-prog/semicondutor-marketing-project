@@ -4,7 +4,7 @@ Marketing operations workspace for planning and governing paid semiconductor act
 
 ## Status
 
-Canonical execution active. The three semiconductor landing routes were published under the completed Phase 3 mandate; further publication changes remain action-time gated. Campaign enablement and spend are not authorized.
+Canonical execution active. The three semiconductor landing routes were published under the completed Phase 3 mandate and republished on 2026-09-25 with the approved shared GTM container. The route-scoped copy-listener exclusion was Preview-verified and Bảo published it as GTM Version 51, now shown as `Live, Latest`. Phase 4 tracking/lead validation is closed for all three routes; campaign enablement and spend are not authorized.
 
 Sanitized validation status: Google Campaigns, Ad groups, Settings and Keyword Planner are functional; the orange objective-update banner is informational/non-blocking. Keyword Planner research completed for OSAT, Fabless and Partner: OSAT/Fabless had no displayed metrics and Partner had one limited historical estimate; demand remains unvalidated. LinkedIn Research Phase 1 (sanitized external read-only validation) completed on 2026-09-14; production account/audience/object readiness remains pending.
 
