@@ -16,7 +16,7 @@
 
 **Proposal:** use a layered scorecard and one reconciliation table, with targets provisional until account, traffic, audience and budget baselines exist.
 
-**Unknown:** domain/landing route, current tags, event names, duplicate firing, consent behavior, attribution windows, form receiver, account timezone/goals, delivery dates, tax/fee basis and final management approval of the planning envelope.
+**Known deployment boundary (2026-09-25):** the three approved landing routes are published and their PopupX modal-opening checks pass. **Unknown:** live section/tag dispatch, event duplication, consent behavior, attribution windows, form receiver acceptance, account timezone/goals, delivery dates, tax/fee basis and final management approval of the planning envelope.
 
 Production handoff: `../tracking/Semiconductor_Tracking_Contract.md` and `../operations/Pre_Ad_Readiness_Plan.md`.
 

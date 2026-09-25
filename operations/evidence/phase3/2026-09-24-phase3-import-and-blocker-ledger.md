@@ -1,18 +1,18 @@
 # Phase 3 import and binding-blocker ledger
 
 **Checkpoint:** updated 2026-09-25, Asia/Ho_Chi_Minh
-**Scope:** exact-profile witness, PopupX transfer resolution, structural binding, save/reopen audit, and runtime boundary.
-**Lifecycle:** three imported drafts with saved structural binding; drafts remain unpublished; no lead submission or publication was authorized.
+**Scope:** exact-profile witness, PopupX transfer resolution, structural binding, configured-domain publication, and runtime audit.
+**Lifecycle:** three imported Basic targets published under Bảo's Phase 3 action-time confirmation; no lead submission, GTM/GA4 change or campaign activation was authorized.
 
 ## Route status
 
 | Route | Exact target | Import checkpoint | Phase 3 terminal | Verified route facts |
 |---|---|---|---|---|
-| OSAT | `Digiwin Semiconductor - OSAT - UXPM Draft` | `BIND_SAVED_UNPUBLISHED` | `P3_BIND_SAVED_UNPUBLISHED_RUNTIME_CHECK_PENDING_OSAT` | Save/reopen audit: one SDK and one adapter in HEAD; none in BODY. Two declared CTAs remain present. Internal Builder Preview did not show the popup and cannot satisfy the configured-domain gate. |
-| Fabless | `Digiwin Semiconductor - Fabless - UXPM Draft` | `BIND_SAVED_UNPUBLISHED` | `P3_BIND_SAVED_UNPUBLISHED_RUNTIME_CHECK_PENDING_FABLESS` | Save/reopen audit: one SDK and one adapter in HEAD; none in BODY. Two declared CTAs remain present. Runtime check is pending on a configured-domain surface. |
-| Supplier/Partner | `Digiwin Semiconductor - ERP MES OT - UXPM Draft` | `BIND_SAVED_UNPUBLISHED` | `P3_BIND_SAVED_UNPUBLISHED_RUNTIME_CHECK_PENDING_SUPPLIER` | Save/reopen audit: one SDK and one adapter in HEAD; none in BODY. Its only CTA reopened as `partner-cta-header`, labeled `Tư Vấn`. Runtime check is pending on a configured-domain surface. |
+| OSAT | `Digiwin Semiconductor - OSAT - UXPM Draft` | `PUBLISHED_CONFIGURED_DOMAIN` | `P3_PASS_OSAT` | Public path `/semiconductor-osat`; one bridge, one SDK and one adapter; two declared CTAs remain present. Header CTA opened the existing modal. |
+| Fabless | `Digiwin Semiconductor - Fabless - UXPM Draft` | `PUBLISHED_CONFIGURED_DOMAIN` | `P3_PASS_FABLESS` | Public path `/fabless`; one bridge, one SDK and one adapter; two declared CTAs remain present. Header CTA opened the existing modal. |
+| Supplier/Partner | `Digiwin Semiconductor - ERP MES OT - UXPM Draft` | `PUBLISHED_CONFIGURED_DOMAIN` | `P3_PASS_SUPPLIER` | Public path `/supplierecosystem`; one bridge, one SDK and one adapter. Its sole `partner-cta-header` CTA is labeled `Tư Vấn` and opened the existing modal. |
 
-All three drafts remain unpublished and now contain the saved runtime binding outside the canonical source artifact. Structural persistence passed; popup display did not. No PopupX lead form was submitted. Supplier continues to use business route `partner`.
+All three public routes contain the runtime binding outside the canonical source artifact. The modal showed name, email, phone and industry; Department and Position remained hidden. No PopupX lead form was submitted. Supplier continues to use business route `partner`.
 
 ## PopupX profile and receiver witness
 
@@ -38,7 +38,7 @@ The failure was reproduced outside LadiPage with a synthetic valid snippet in th
 
 The post-fix same-Chrome/CUA synthetic smoke test returned `TRANSFER_COMPLETE`, produced a v2 combined-head payload and sanitized receipt, and completed hash-checked cleanup. Focused tests passed 35/35; the operator full suite passed 373 tests plus 270 subtests; source and installed skill validation passed. The operator local `main` and installed skill were synchronized at `f8d4954`; no push occurred. This proves the capture transport compatibility boundary, not a real LadiPage binding.
 
-**Current terminals:** `P3_BIND_SAVED_UNPUBLISHED_RUNTIME_CHECK_PENDING_OSAT`, `P3_BIND_SAVED_UNPUBLISHED_RUNTIME_CHECK_PENDING_FABLESS`, and `P3_BIND_SAVED_UNPUBLISHED_RUNTIME_CHECK_PENDING_SUPPLIER`. Do not label any route `P3_PREVIEW_ONLY` or PASS until an authorized configured-domain surface proves every declared CTA opens the existing modal once.
+**Current terminals:** `P3_PASS_OSAT`, `P3_PASS_FABLESS`, and `P3_PASS_SUPPLIER`.
 
 ### Structural binding result and runtime boundary
 
@@ -46,15 +46,21 @@ The repaired visible capture flow accepted the real exact-profile snippet, retur
 
 OSAT's CTA was exercised only in LadiPage Builder Preview. No popup appeared. The preview document is hosted at `app.ladipage.com/about:srcdoc`, while the PopupX profile is scoped to root domain `digiwin.com.vn`; this host mismatch means the internal preview is insufficient provider proof. It is recorded as a runtime validation boundary, not a structural binding failure. Fabless and Supplier were not repeatedly clicked under the same known-invalid preview condition.
 
+### Configured-domain resolution
+
+Bảo authorized publication for Phase 3. The three exact targets were published at `https://solutions.digiwin.com.vn/semiconductor-osat`, `https://solutions.digiwin.com.vn/fabless`, and `https://solutions.digiwin.com.vn/supplierecosystem`. The first configured-domain test proved that the canonical bridge and adapter were present but the modal action did not render. Read-only SDK inspection showed the current `actionPopupX` contract requires the profile reference as its second argument and the configured popup action target as its third argument. The frozen helper passed `null` for that target.
+
+Operator commit `95a4047` now resolves the `show_popupx` action target from the loaded configuration belonging to the exact profile, then calls the SDK with both references. It does not persist or report either physical reference. Focused tests passed 38/38 and the full suite passed 374 tests plus 271 subtests. The corrected combined HEAD and canonical bridge were saved and republished sequentially on all three targets. Public audits found one bridge, one adapter, the expected CTA marker count, and no fallback BODY runtime. Fresh configured-domain checks opened one PopupX iframe with the four visible customer fields from both OSAT CTAs, both Fabless CTAs and Supplier's sole CTA. No values were entered or submitted during this resolution.
+
 ## Boundaries and evidence limits
 
-- Each route has one saved SDK and one saved adapter in HEAD, with no duplicate in BODY.
-- No PopupX lead form was submitted; no landing draft was published; no domain, GTM/GA4, profile, receiver, or form configuration changed.
-- All three drafts remain unpublished; no route passes Phase 3 because configured-domain popup behavior is unverified.
+- Each route has one canonical bridge, one SDK and one adapter, with no fallback runtime in BODY.
+- No PopupX lead form was submitted; no domain, GTM/GA4, profile, receiver or form configuration changed.
+- All three configured-domain routes pass Phase 3 popup-opening behavior. This does not prove lead acceptance or Phase 4 measurement.
 - Desktop pre-bind baselines are established for all routes. Mobile evidence is incomplete for Fabless and Supplier/Partner; OSAT's mobile pre-bind baseline was checked.
-- Future public paths reserved by the Product Owner are not published routes or publication authorization.
+- The three listed public paths are the Phase 3 routes authorized and published in this checkpoint; this does not authorize later route/domain changes.
 - The record contains no physical page/profile IDs, private URLs, account/session data, lead values, screenshots, credentials, cookies, or tokens.
 
 ## Resume condition
 
-Use an authorized configured-domain route to verify that every declared CTA opens the existing PopupX modal once, without submitting a lead. If that requires publication or domain mutation, obtain the separate authorization at the action-time gate. Publication, domain changes, GTM changes, and lead submission remain outside this checkpoint.
+Proceed to Phase 4 only under its separate tracking-debug mandate. A synthetic lead submission still requires action-time confirmation and must not be inferred from the Phase 3 modal-opening evidence.

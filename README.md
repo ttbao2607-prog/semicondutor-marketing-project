@@ -4,7 +4,7 @@ Marketing operations workspace for planning and governing paid semiconductor act
 
 ## Status
 
-Canonical execution active; authenticated validation and draft/paused remote preparation may proceed under plan gates. Publication is action-time gated; enable/spend are not authorized.
+Canonical execution active. The three semiconductor landing routes were published under the completed Phase 3 mandate; further publication changes remain action-time gated. Campaign enablement and spend are not authorized.
 
 Sanitized validation status: Google Campaigns, Ad groups, Settings and Keyword Planner are functional; the orange objective-update banner is informational/non-blocking. Keyword Planner research completed for OSAT, Fabless and Partner: OSAT/Fabless had no displayed metrics and Partner had one limited historical estimate; demand remains unvalidated. LinkedIn Research Phase 1 (sanitized external read-only validation) completed on 2026-09-14; production account/audience/object readiness remains pending.
 
@@ -22,7 +22,7 @@ Current instruction from Bảo > `Semiconductor_Work_Kickoff.md` v2.0 > `Semicon
 - `operations/Public_Source_Register.md` — public source and sanitized UI-status register.
 - `tracking/Semiconductor_Tracking_Contract.md` — candidate event/UTM contract and QA matrix.
 - `ads/` — offline Google and LinkedIn build packs.
-- `landing/` — final offline route candidates; publication remains gated.
+- `landing/` — canonical local route sources; the three current Phase 3 LadiPage routes are published, while later publication changes remain gated.
 - `assets/linkedin/` and `output/pdf/` — offline creative deliverables.
 
 ## Public boundary
