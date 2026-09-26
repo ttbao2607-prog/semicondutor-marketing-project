@@ -1,6 +1,6 @@
 # Phase 5 Closeout Plan
 
-**Status:** AUDIT COMPLETE — `BLOCKED` (`LIVE_RUNTIME_MATRIX_INCOMPLETE`). Bảo explicitly authorized the independent audit on 2026-09-25 after the plan checkpoint. On 2026-09-26 Bảo confirmed that the current paid-ad landing flow has no cookie-accept mechanism and excluded consent-behavior verification from Phase 5; he also clarified LinkedIn will use native/in-platform ads. These are scope decisions, not evidence that consent behavior works or that ads have delivered. The bounded audit and later decisions are recorded in `operations/evidence/phase5/2026-09-25-phase5-closeout-ledger.md`; only the remaining live runtime matrix blocks closeout. **Owner:** Coordinator/closeout owner. **Product Owner:** Bảo. **Branch baseline:** `slice/awareness-tracking-plan` at `c243673b404409bfbae7250d4e79473a6b01d2f0` (`Close Phase 4 tracking validation`). **Prepared:** 2026-09-25; scope addendum: 2026-09-26.
+**Status:** CLOSEOUT COMPLETE — `PASS WITH SCOPE EXCLUSION` for all three routes on the local branch. Bảo authorized the independent audit on 2026-09-25 after the plan checkpoint. On 2026-09-26 he excluded consent-behavior verification from Phase 5 after confirming there is no cookie-accept mechanism in the current paid-ad landing flow, and clarified that LinkedIn will use native/in-platform ads. These scope decisions do not verify consent behavior or ad delivery. The bounded audit, authenticated GTM Preview and final Chrome-controlled desktop/mobile focus, visibility, section and real-pagehide evidence are recorded in `operations/evidence/phase5/2026-09-25-phase5-closeout-ledger.md`. **Owner:** Coordinator/closeout owner. **Product Owner:** Bảo. **Branch baseline:** `slice/awareness-tracking-plan` at `c243673b404409bfbae7250d4e79473a6b01d2f0` (`Close Phase 4 tracking validation`). **Prepared:** 2026-09-25; closeout continuation: 2026-09-26.
 
 ## 1. Objective
 
@@ -46,18 +46,18 @@ Read `DOCS_IMPACT_MAP.md` and compare every affected canonical statement with th
 
 ### Gate 4 — Handoff and Product Owner review
 
-Record the route-by-route terminal, evidence, exclusions, residual unknowns, release/reporting eligibility, rollback references, next authorized owner/action and stop condition. Consent behavior is excluded from Phase 5 by Bảo's explicit scope decision; do not claim allowed/denied behavior or treat the exclusion as a consent/compliance determination. Native LinkedIn delivery reporting belongs in Campaign Manager after a campaign has delivered; it is not a Phase 5 pre-delivery gate and does not require a website Insight Tag. The current terminal remains `BLOCKED — LIVE_RUNTIME_MATRIX_INCOMPLETE` until the full per-route live focus/visibility/attention matrix is evidenced. Do not start a fresh login: if no already-authenticated read-only Tag Assistant Preview session is available, ask Bảo to make one available without sharing credentials. Commit locally as Bảo directed; do not push.
+Record the route-by-route terminal, evidence, exclusions, residual unknowns, release/reporting eligibility, rollback references, next authorized owner/action and stop condition. Consent behavior is excluded from Phase 5 by Bảo's explicit scope decision; do not claim allowed/denied behavior or treat the exclusion as a consent/compliance determination. Native LinkedIn delivery reporting belongs in Campaign Manager after a campaign has delivered; it is not a Phase 5 pre-delivery gate and does not require a website Insight Tag. Chrome-controlled tests completed the per-route desktop/mobile focus, visibility, section and real-pagehide matrix without Bảo's manual switch. The current terminal is `PASS WITH SCOPE EXCLUSION` for each route. Commit locally as Bảo directed; do not push.
 
 ## 5. Acceptance
 
 - The plan was committed before closeout work.
 - One sanitized Phase 5 audit ledger covers all three routes, records tests and current observations, and cites the prior phase evidence.
 - Each conclusion is classified as documented fact, observed evidence, exclusion or unknown.
-- The terminal reflects the approved scope and evidence. Current terminal is `BLOCKED` with substatus `LIVE_RUNTIME_MATRIX_INCOMPLETE`; consent behavior is explicitly excluded by Bảo and no allowed/denied behavior is claimed. The full per-route live runtime matrix is not complete.
+- The terminal reflects the approved scope and evidence. Current terminal is `PASS WITH SCOPE EXCLUSION` for all three routes: Bảo excluded consent behavior and no allowed/denied behavior is claimed; the in-scope per-route desktop/mobile runtime matrix is complete.
 - No route-specific implementation failure or excluded route was observed; `PASS WITH ROUTE EXCLUSION` is therefore not used.
 - Campaign enablement, launch, spend and audience upload remain separate decisions and are not authorized by this closeout.
 - Documentation impact is reviewed and no material contradiction remains.
 
 ## 6. Stop conditions
 
-Stop before changing consent, tracking, publication, receiver, campaign, goal, budget, or audience state. Do not infer consent behavior, a PASS, measurement readiness, or campaign authority from the Phase 1–4 terminals. The only current closeout dependency is an already-authenticated, read-only Tag Assistant Preview path to complete the live runtime matrix; no credentials should be shared in chat.
+Stop before changing consent, tracking, publication, receiver, campaign, goal, budget, or audience state. Do not infer consent behavior, campaign measurement readiness, or campaign authority from this scoped Phase 5 terminal. The in-scope runtime matrix is complete; future delivery reporting and any site consent decision belong to separate mandates. No credentials should be shared in chat.
