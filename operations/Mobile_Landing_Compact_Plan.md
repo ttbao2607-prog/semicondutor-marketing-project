@@ -1,6 +1,6 @@
 # Plan rút gọn giao diện mobile cho ba landing page Semiconductor
 
-**Trạng thái:** PLAN_ONLY — chưa sửa HTML, chưa tạo candidate mới, chưa import hoặc publish.
+**Trạng thái (2026-09-26):** ba local mobile candidates đã được triển khai và kiểm tra; chờ Bảo duyệt hình ảnh trước mọi handoff triển khai. Chưa import hoặc publish bản candidate.
 **Baseline Git:** `c243673b404409bfbae7250d4e79473a6b01d2f0` (`Close Phase 4 tracking validation`, 2026-09-25).
 **Worktree/branch:** `C:/Users/ASUS/.codex/worktrees/semiconductor-mobile-compact` / `slice/mobile-landing-compact-plan`.
 **Owner quyết định:** Bảo. **Phạm vi đề xuất:** source responsive của OSAT, Fabless, Supplier/Partner; desktop đã được duyệt là visual baseline.
@@ -10,7 +10,7 @@
 - Phase 4 ghi nhận ba route public có loader, đúng số CTA 2/2/1 và không tràn ngang trong smoke ở 390×844. Kết quả này không đo chiều dài trang hoặc mức dễ đọc trên mobile.
 - Source tại baseline có 7 section cấp trang ở OSAT, 8 ở Fabless, 8 ở Partner. Ở breakpoint hẹp, các grid chuyển thành cột đơn; nhiều khối card/diagram tiếp tục xếp dọc. Đây là **ứng viên gây scroll dài**, chưa phải kết luận về chiều cao render hoặc hành vi người dùng.
 - `21st review --json` trên ba source trả 0 errors, 0 warnings, 0 suggestions. Review tự động không đánh giá độ dài nội dung và nhịp đọc thực tế.
-- Chưa có screenshot chiều dài toàn trang, số viewport đến CTA cuối, heatmap hoặc dữ liệu scroll depth đáng tin cậy trong worktree này. Cần baseline local rendered trước khi chốt danh sách cắt.
+- Đã có baseline render local ở 390×844 và 1440×900, screenshot candidate ở 375/390/768/1024/1440, cùng phép đo chiều cao/section. Chưa có heatmap, scroll depth thực tế hoặc số liệu chuyển đổi của bản candidate.
 
 ## 2. Mục tiêu và ranh giới
 
@@ -18,7 +18,7 @@
 
 **Không đổi trong slice mobile:** số và ID CTA tư vấn (`osat-cta-header`, `osat-cta-terminal`, `fabless-cta-header`, `fabless-cta-terminal`, `partner-cta-header`), label `Tư Vấn` của Partner, bridge anchors, form/PopupX ownership, GTM/GA4 event names, proof scope và destination public. Không thêm CTA nổi hoặc form trong HTML. HTML canonical vẫn provider-free; binding live là trách nhiệm operator theo mandate riêng.
 
-## 3. Hướng rút gọn theo route — đề xuất để kiểm chứng bằng preview
+## 3. Hướng rút gọn theo route — đã áp dụng cho local candidates
 
 | Route | Giữ trong đường đọc chính trên mobile | Ứng viên thu gọn/đưa vào mở rộng | Điều kiện bảo vệ |
 |---|---|---|---|
@@ -48,6 +48,12 @@ M1–M3 có thể chạy song song **sau M0** vì ghi ba file HTML khác nhau. M
 4. CTA 2/2/1, ID, nhãn Partner, provider-free canonical source, PopupX bridge selectors và tracking keys giữ đúng contract. Không diễn giải click CTA là lead hoặc form success.
 5. `DOCS_IMPACT_MAP.md` được review trước handoff: khi candidate thực sự đổi landing/CTA/tracking, cập nhật canonical docs có statement stale; không chỉnh history để hợp thức hóa state mới. Local candidate không tự trở thành bản live.
 
-**Terminal hiện tại:** `MOBILE_PLAN_READY`; M0–M4 chưa thực thi, chưa có `MOBILE_CANDIDATE_PASS` hoặc quyền publish.
+## 6. Kết quả local và bước kế tiếp
 
-**Docs impact reviewed: no canonical update required.** Tài liệu này chỉ là plan; source, CTA, tracking và trạng thái deployment chưa đổi.
+- M0: đã đo baseline render 390×844 và 1440×900; baseline ở các viewport khác chưa đo. M1–M3: source của từng route đã có bản mobile compact, desktop 1440 giữ nguyên hình học section.
+- M4: QA local ở 375/390/768/1024/1440 không thấy tràn ngang; 12/12 tracking tests pass; ba bridge compatibility checks trả `MODAL_OPENFORM_HANDOFF_READY`. Disclosure, deep link và Enter đã được kiểm tra bằng trình duyệt local. Bản 390×844 lần lượt còn khoảng 10.2k/10.0k/9.3k px cho OSAT/Fabless/Partner, giảm khoảng 39%/32%/35% so với baseline.
+- Chờ Bảo duyệt trực quan ba candidate. Sau đó nếu Bảo chọn đưa lên LadiPage, cần chạy lại bridge trên đúng source pin và đi theo mandate/operator route; local QA không xác nhận render hay telemetry của bản live.
+
+**Terminal hiện tại:** `MOBILE_CANDIDATES_READY_FOR_BAO_REVIEW`; chưa có quyền import/publish hoặc `MOBILE_CANDIDATE_PASS` cho live route.
+
+**Docs impact:** đã review `DOCS_IMPACT_MAP.md`; cập nhật `CURRENT_STATE.md`, route overrides và OSAT route truth theo trạng thái local candidate. `Pre_Ad_Readiness_Plan.md` và tracking contract không cần sửa vì trạng thái live, CTA và event contract chưa đổi.
