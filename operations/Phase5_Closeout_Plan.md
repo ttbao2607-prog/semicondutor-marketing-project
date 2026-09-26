@@ -1,19 +1,19 @@
 # Phase 5 Closeout Plan
 
-**Status:** PLAN CHECKPOINT — closeout work may proceed against recorded Phase 1–4 evidence. The completed audit is reported by the Product Owner, but its durable receipt has not yet been located in this checkout. Do not repeat that audit. **Owner:** Coordinator/closeout owner. **Product Owner:** Bảo. **Branch baseline:** `slice/awareness-tracking-plan` at `c243673b404409bfbae7250d4e79473a6b01d2f0` (`Close Phase 4 tracking validation`). **Prepared:** 2026-09-25.
+**Status:** AUDIT COMPLETE — `BLOCKED` (`LIVE_RUNTIME_MATRIX_INCOMPLETE`). Bảo explicitly authorized the independent audit on 2026-09-25 after the plan checkpoint. On 2026-09-26 Bảo confirmed that the current paid-ad landing flow has no cookie-accept mechanism and excluded consent-behavior verification from Phase 5; he also clarified LinkedIn will use native/in-platform ads. These are scope decisions, not evidence that consent behavior works or that ads have delivered. The bounded audit and later decisions are recorded in `operations/evidence/phase5/2026-09-25-phase5-closeout-ledger.md`; only the remaining live runtime matrix blocks closeout. **Owner:** Coordinator/closeout owner. **Product Owner:** Bảo. **Branch baseline:** `slice/awareness-tracking-plan` at `c243673b404409bfbae7250d4e79473a6b01d2f0` (`Close Phase 4 tracking validation`). **Prepared:** 2026-09-25; scope addendum: 2026-09-26.
 
 ## 1. Objective
 
-Complete Phase 5 operational handoff for OSAT, Fabless and Supplier/Partner by consolidating the already completed audit and the existing Phase 1–4 evidence into one sanitized closeout record, reconciling current canonical documentation, and stating the next owner/action for each route.
+Independently audit the OSAT, Fabless and Supplier/Partner Phase 1–4 handoff, reperform critical local and live evidence within the authorized read-only scope, reconcile current canonical documentation, and state one operational terminal and next owner/action for each route.
 
-The Product Owner has stated that the audit is already complete. This work consumes that existing audit; it does not repeat technical, browser, account, route, event or lead validation. A Phase 5 terminal still requires the auditor's durable signed result and evidence references under `tracking/Semiconductor_Awareness_Tracking_Execution_Plan.md` §4.5. A verbal report alone is not an auditable receipt.
+The plan checkpoint preserved scope before closeout work. Bảo's explicit 2026-09-25 instruction then authorized the independent audit. The auditor records the actual result—not an inferred PASS—in the Phase 5 ledger with route scope, method, evidence, exclusions, residual unknowns, terminal, and next owner/action under `tracking/Semiconductor_Awareness_Tracking_Execution_Plan.md` §4.5.
 
 ## 2. Boundaries and authority
 
 - Work only on the current owned branch `slice/awareness-tracking-plan`; preserve the Phase 4 baseline commit above.
-- Prepare and reconcile internal sanitized documentation only. Do not perform browser login, live-account inspection, publish, form submission, campaign mutation, audience action, enablement or spend.
-- Do not rerun Phase 4 checks or add new technical claims. Cite the accepted existing phase ledgers and the existing independent audit receipt.
-- Do not commit or push the Phase 5 closeout before Product Owner review of the resulting handoff. The Phase 4 commit remains local-only.
+- Use only the already-authenticated browser profile for bounded read-only inspection and a marked Tag Assistant Preview sample; do not perform a fresh login, publish, submit a form, mutate campaigns/goals/receiver/consent, upload an audience, enable or spend.
+- Re-run the prescribed bridge validators and local tests, and sample current route/runtime behavior without replacing or overstating the accepted Phase 1–4 evidence.
+- Bảo has reviewed the consent/LinkedIn scope decisions and explicitly directed a local commit on this branch on 2026-09-26. This does not authorize a push; the Phase 4 and Phase 5 commits remain local-only unless separately directed.
 - Keep facts, observed evidence, owner-reported information, exclusions and unknowns distinct. Never upgrade a terminal from a verbal statement.
 
 ## 3. Inputs
@@ -23,7 +23,7 @@ The Product Owner has stated that the audit is already complete. This work consu
 3. `operations/evidence/phase2/2026-09-24-phase2-route-ledger.md` and the three final route bridge receipts/artifacts it names.
 4. `operations/evidence/phase3/2026-09-24-phase3-import-and-blocker-ledger.md`.
 5. `operations/evidence/phase4/2026-09-25-phase4-gtm-preview-ledger.md`.
-6. The pre-existing independent audit receipt: auditor/role, timestamp, scope, signed terminal, evidence paths, exclusions, residual unknowns and next owner/action. Its location is not recorded in the current branch and must be supplied or identified by Bảo before a final Phase 5 terminal is recorded.
+6. Bảo's explicit authorization in the active conversation on 2026-09-25 and the durable Phase 5 audit ledger: auditor/role, timestamp, scope, terminal, evidence paths, exclusions, residual unknowns and next owner/action.
 7. Canonical documentation identified by `DOCS_IMPACT_MAP.md`, including `CURRENT_STATE.md`, `README.md`, the awareness execution plan, tracking contract and `operations/Pre_Ad_Readiness_Plan.md`.
 
 ## 4. Work sequence
@@ -32,15 +32,13 @@ The Product Owner has stated that the audit is already complete. This work consu
 
 Save this plan on `slice/awareness-tracking-plan` and create a local commit before preparing the closeout packet. Record that SHA in the closeout ledger. This checkpoint preserves scope and prevents the plan from being conflated with closeout conclusions.
 
-### Gate 1 — Bind the completed audit
+### Gate 1 — Confirm authority and scope
 
-Locate the existing audit receipt without repeating its checks. Record its exact file/commit reference and confirm it identifies the independent auditor, timestamp, three route scopes, evidence, exclusions and terminal. If the record is outside this repository, Bảo supplies its precise reference or places a sanitized copy in the approved workspace. Do not request another audit.
+Confirm that the plan checkpoint precedes this work and that Bảo authorized an independent audit. Keep the auditor separate from landing/GTM/GA4/Ads/LadiPage writers; treat the active user instruction as the PO mandate. No external configuration change is authorized by that mandate.
 
-### Gate 2 — Assemble the closeout ledger
+### Gate 2 — Reperform and record the audit
 
-Create `operations/evidence/phase5/2026-09-25-phase5-closeout-ledger.md`. Summarize each route's recorded P1–P4 terminal, cite its evidence paths, and carry forward only the audit's existing findings. Record limitations already stated in Phase 4: inactive consent signals, no DebugView device witness, optional/unconfirmed Lark notification, reporting-only micro-events, and no campaign enable/spend authority. Include the Phase 4 baseline and local-only Git status.
-
-If Gate 1 is still open, write the evidence inventory and mark the ledger `P5_PENDING_AUDIT_RECEIPT`; do not claim PASS, sign on behalf of the auditor, or treat that state as final closeout.
+Re-run all three bridge validations and the local tracking suite; sample the configured routes, PopupX opening, mobile behavior, a Tag Assistant Preview route and current GTM/GA4/Google Ads evidence. Do not submit a form or change product configuration. Capture exact gaps as unknowns. The completed ledger is `operations/evidence/phase5/2026-09-25-phase5-closeout-ledger.md`.
 
 ### Gate 3 — Reconcile canonical documentation
 
@@ -48,18 +46,18 @@ Read `DOCS_IMPACT_MAP.md` and compare every affected canonical statement with th
 
 ### Gate 4 — Handoff and Product Owner review
 
-Record the route-by-route terminal, exclusions, residual unknowns, release/reporting eligibility, rollback references, next authorized owner/action and stop condition. Present the completed ledger and documentation diff to Bảo for review. Keep the branch local until that review is complete; any commit/push after closeout review requires its own explicit direction.
+Record the route-by-route terminal, evidence, exclusions, residual unknowns, release/reporting eligibility, rollback references, next authorized owner/action and stop condition. Consent behavior is excluded from Phase 5 by Bảo's explicit scope decision; do not claim allowed/denied behavior or treat the exclusion as a consent/compliance determination. Native LinkedIn delivery reporting belongs in Campaign Manager after a campaign has delivered; it is not a Phase 5 pre-delivery gate and does not require a website Insight Tag. The current terminal remains `BLOCKED — LIVE_RUNTIME_MATRIX_INCOMPLETE` until the full per-route live focus/visibility/attention matrix is evidenced. Do not start a fresh login: if no already-authenticated read-only Tag Assistant Preview session is available, ask Bảo to make one available without sharing credentials. Commit locally as Bảo directed; do not push.
 
 ## 5. Acceptance
 
 - The plan was committed before closeout work.
-- One sanitized Phase 5 ledger covers all three routes and cites existing evidence without rerunning technical validation.
-- Each conclusion is classified as documented fact, observed evidence, owner-reported audit reference, exclusion or unknown.
-- A final `PASS` or `PASS WITH ROUTE EXCLUSION` is used only when the auditor's durable signed receipt is linked and canonical documentation agrees.
-- If the receipt cannot be located, the accurate terminal is `P5_PENDING_AUDIT_RECEIPT` / `BLOCKED`; the handoff is prepared for Bảo to provide the reference.
+- One sanitized Phase 5 audit ledger covers all three routes, records tests and current observations, and cites the prior phase evidence.
+- Each conclusion is classified as documented fact, observed evidence, exclusion or unknown.
+- The terminal reflects the approved scope and evidence. Current terminal is `BLOCKED` with substatus `LIVE_RUNTIME_MATRIX_INCOMPLETE`; consent behavior is explicitly excluded by Bảo and no allowed/denied behavior is claimed. The full per-route live runtime matrix is not complete.
+- No route-specific implementation failure or excluded route was observed; `PASS WITH ROUTE EXCLUSION` is therefore not used.
 - Campaign enablement, launch, spend and audience upload remain separate decisions and are not authorized by this closeout.
 - Documentation impact is reviewed and no material contradiction remains.
 
 ## 6. Stop conditions
 
-Stop at the first decision that requires Bảo: the missing audit receipt/reference; ambiguity in the auditor's terminal or route exclusion; a canonical business statement that cannot be grounded in evidence; or Product Owner review of the final handoff. Do not fill those gaps by re-auditing, inventing a result, or extending operational authority.
+Stop before changing consent, tracking, publication, receiver, campaign, goal, budget, or audience state. Do not infer consent behavior, a PASS, measurement readiness, or campaign authority from the Phase 1–4 terminals. The only current closeout dependency is an already-authenticated, read-only Tag Assistant Preview path to complete the live runtime matrix; no credentials should be shared in chat.

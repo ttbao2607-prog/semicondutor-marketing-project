@@ -9,6 +9,7 @@
 - Objective: **Brand Awareness**.
 - No LinkedIn Lead Gen Form.
 - Destination: native/in-platform; official LinkedIn Company Page only if a destination is required.
+- Measurement: native delivery and engagement metrics are reported in Campaign Manager; these in-platform metrics do not require a Digiwin website Insight Tag. Website conversion tracking or visitor retargeting would be a separate, explicitly approved scope.
 - Audience Expansion: **OFF** baseline.
 - LinkedIn Audience Network: **OFF** baseline.
 
