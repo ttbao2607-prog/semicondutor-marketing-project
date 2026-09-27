@@ -33,6 +33,7 @@
 - Use a responsive outsourced-WIP handoff flow: `FORECAST > OUTSOURCE > LOT/DATECODE/BIN > COST REVIEW`.
 - Make ownership boundaries visually explicit with labels and connecting lines; do not imitate a live dashboard.
 - Use two consultation CTAs, one in the hero and one after the final route explanation. The frozen HTML CTAs are inert/provider-free and use stable IDs. Any future PopupX behavior belongs to an authorized operator handoff. Do not emit a CTA analytics event until live GTM inventory authorizes reuse.
+- For the local mobile compact candidate below 701px, show the four-step outsourced flow in the main reading path and allow the detailed operations map to open on demand. A pain card must reveal the map before selecting its matching view. Keep proof/source links, section IDs, both CTA IDs and the approved desktop composition; this rule does not authorize a live publish.
 
 ---
 

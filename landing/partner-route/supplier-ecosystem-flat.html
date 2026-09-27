@@ -2354,6 +2354,67 @@ No analytics dispatch, forms, CRM, API calls, or customer logos; displayed proof
   .sec3-visual-frame{max-height:320px;aspect-ratio:4/3}
   .sec3-live-badge{font-size:10px;padding:7px 12px;gap:7px}
 }
+/* Compact mobile reading path; the full architecture remains available on demand. */
+#dw-supplier-landing .mobile-partner-rail,#dw-supplier-landing .mobile-partner-map-toggle{display:none}
+@media(min-width:701px) and (max-width:960px){#dw-supplier-landing #partner-cta-header,#dw-supplier-landing .motion-toggle,#dw-supplier-landing .menu-toggle{min-height:44px}#dw-supplier-landing .motion-toggle,#dw-supplier-landing .menu-toggle{min-width:44px}}
+@media(max-width:700px){
+  #dw-supplier-landing .section{padding-block:42px}
+  #dw-supplier-landing .hero{padding-top:30px}
+  #dw-supplier-landing .hero-grid{gap:20px;padding-bottom:20px}
+  #dw-supplier-landing .hero h1{font-size:clamp(34px,8.2vw,46px);line-height:1.15;margin:15px 0 16px}
+  #dw-supplier-landing .hero-copy .lead{line-height:1.6;margin-bottom:16px}
+  #dw-supplier-landing .hero-context{margin-top:12px}
+  #dw-supplier-landing .hero-glass-panel{padding:14px}
+  #dw-supplier-landing .glass-panel-header{margin-bottom:8px;padding-bottom:8px}
+  #dw-supplier-landing .glass-panel-title{font-size:17px}
+  #dw-supplier-landing .glass-cards-stack{gap:8px}
+  #dw-supplier-landing .glass-card{padding:8px 12px;gap:8px;border-radius:8px}
+  #dw-supplier-landing .card-thumb-wrap{width:48px;height:48px;border-radius:7px}
+  #dw-supplier-landing .card-brief{line-height:1.35;margin:4px 0}
+  #dw-supplier-landing .card-action-row{margin-top:3px}
+  #dw-supplier-landing .hero-metrics-bar{padding:12px 16px;gap:3px}
+  #dw-supplier-landing .metric-block{display:grid;grid-template-columns:70px 1fr;align-items:center;gap:0 8px;padding:4px 0}
+  #dw-supplier-landing .metric-num{grid-row:span 2;font-size:24px}
+  #dw-supplier-landing .metric-unit{font-size:12px;letter-spacing:.04em}
+  #dw-supplier-landing .metric-desc{font-size:12px;line-height:1.45}
+  #dw-supplier-landing .hero-marquee-section,#dw-supplier-landing .hero-rail{display:none}
+  #dw-supplier-landing #partner-cta-header,#dw-supplier-landing .motion-toggle,#dw-supplier-landing .menu-toggle{min-height:44px}
+  #dw-supplier-landing .motion-toggle,#dw-supplier-landing .menu-toggle{min-width:44px}
+  #dw-supplier-landing .section-head,#dw-supplier-landing .map-section .section-head,#dw-supplier-landing .resources .section-head{gap:12px;margin-bottom:20px}
+  #dw-supplier-landing .section-head h2{margin-top:10px}
+  #dw-supplier-landing .section-head .lead{line-height:1.6}
+  #dw-supplier-landing .audience-grid{gap:8px}
+  #dw-supplier-landing .audience-card{padding:16px}
+  #dw-supplier-landing .audience-card .pain-stage{display:none}
+  #dw-supplier-landing .audience-card h3{font-size:19px;margin:8px 0}
+  #dw-supplier-landing .audience-card p{font-size:14px;line-height:1.55;margin:0}
+  #dw-supplier-landing .mobile-partner-rail{display:grid;gap:8px;list-style:none;padding:0;margin:0 0 16px;counter-reset:partner-step}
+  #dw-supplier-landing .mobile-partner-rail li{counter-increment:partner-step;display:flex;align-items:center;gap:12px;min-height:44px;padding:8px 12px;background:#142a31;border:1px solid #3b626d;border-radius:8px;color:#eef8fa;font-size:14px;line-height:1.45}
+  #dw-supplier-landing .mobile-partner-rail li::before{content:counter(partner-step,decimal-leading-zero);color:#7be0cb;font:700 11px Consolas,monospace}
+  #dw-supplier-landing.mobile-compact-ready .mobile-partner-map-toggle{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:48px;padding:10px 13px;margin-bottom:12px;background:#18352f;border:1px solid #4c8e80;border-radius:8px;color:#f0fbf7;font-weight:700;text-align:left;cursor:pointer}
+  #dw-supplier-landing .mobile-partner-map-toggle::after{content:'+';font-size:22px;line-height:1}
+  #dw-supplier-landing .mobile-partner-map-toggle[aria-expanded="true"]::after{content:'−'}
+  #dw-supplier-landing .mobile-partner-map-toggle:focus-visible{outline:2px solid #ea580c;outline-offset:3px}
+  #dw-supplier-landing.mobile-compact-ready .architecture-console:not(.mobile-expanded){display:none}
+  #dw-supplier-landing .sec3-editorial-grid{gap:16px}
+  #dw-supplier-landing .sec3-visual-wrap{display:none}
+  #dw-supplier-landing .sec3-bullet-item{padding:10px 0}
+  #dw-supplier-landing .sec4-visual{display:none}
+  #dw-supplier-landing .sec4-story{gap:12px}
+  #dw-supplier-landing .sec5-visual{display:none}
+  #dw-supplier-landing .sec5-case{gap:12px;min-height:0}
+  #dw-supplier-landing .sec5-content{padding:20px 17px}
+  #dw-supplier-landing .sec5-flow{margin:16px 0}
+  #dw-supplier-landing .sec5-authority{margin-top:16px}
+  #dw-supplier-landing .sec5-flow li,#dw-supplier-landing .sec5-metric{opacity:1;transform:none;transition:none}
+  #dw-supplier-landing .local-delivery-block{gap:20px;margin-top:30px;padding-top:30px}
+  #dw-supplier-landing .local-delivery-card{padding:16px}
+  #dw-supplier-landing .resources{padding-block:42px}
+  #dw-supplier-landing .resource-card{padding:16px}
+  #dw-supplier-landing .resource-card h3{margin-top:8px}
+  #dw-supplier-landing .resource-card p{margin-bottom:8px;line-height:1.45}
+  #dw-supplier-landing .closing-actions{margin-top:20px;padding-top:20px}
+}
 </style>
 <div class="page" data-page>
 <div class="page-backdrop" aria-hidden="true">
@@ -2626,7 +2687,13 @@ No analytics dispatch, forms, CRM, API calls, or customer logos; displayed proof
       <div><div class="eyebrow"><span class="index">02</span> KIẾN TRÚC VẬN HÀNH CHO NHÀ CUNG ỨNG &amp; THIẾT BỊ</div><h2 id="architecture-heading" class="metal-heading">Nhìn rõ ranh giới từng lớp<br>trước khi nói về kết nối chuỗi.</h2></div>
       <p class="lead">Hệ sinh thái Digiwin ERP ↔ DigiHua iMES ↔ Chuẩn kết nối SECS/GEM: Chuẩn hóa luồng dữ liệu 2 chiều từ quản trị kinh doanh đến từng cảm biến &amp; lệnh Recipe của máy móc.</p>
     </div>
-    <div class="cockpit-console architecture-console" data-claim-id="SP-E01 SP-E02" data-reveal>
+    <ol class="mobile-partner-rail" aria-label="Tóm tắt ba lớp dữ liệu vận hành">
+      <li>ERP — đơn hàng, vật tư, kế hoạch và chi phí</li>
+      <li>MES — thực thi, WIP và chất lượng</li>
+      <li>OT — trạng thái thiết bị và tín hiệu máy</li>
+    </ol>
+    <button class="mobile-partner-map-toggle" id="partner-mobile-map-toggle" type="button" aria-controls="partner-mobile-map-detail" aria-expanded="false">Xem kiến trúc vận hành chi tiết</button>
+    <div class="cockpit-console architecture-console" id="partner-mobile-map-detail" data-claim-id="SP-E01 SP-E02" data-reveal>
 
       <!-- Live Integration Telemetry Header -->
       <div class="cockpit-header">
@@ -4250,6 +4317,24 @@ No analytics dispatch, forms, CRM, API calls, or customer logos; displayed proof
         if (seconds >= 1) emit('section_engagement_time', { section_name: state.id, engagement_seconds: seconds });
       }
     });
+  });
+})();
+</script>
+<script>
+(function(){
+  var root=document.getElementById('dw-supplier-landing');
+  if(!root)return;
+  var toggle=root.querySelector('#partner-mobile-map-toggle');
+  var detail=root.querySelector('#partner-mobile-map-detail');
+  if(!toggle||!detail)return;
+  root.classList.add('mobile-compact-ready');
+  function expand(expanded){
+    toggle.setAttribute('aria-expanded',String(expanded));
+    detail.classList.toggle('mobile-expanded',expanded);
+  }
+  toggle.addEventListener('click',function(){expand(toggle.getAttribute('aria-expanded')!=='true')});
+  root.querySelectorAll('[data-audience]').forEach(function(card){
+    card.addEventListener('click',function(){expand(true)},true);
   });
 })();
 </script>

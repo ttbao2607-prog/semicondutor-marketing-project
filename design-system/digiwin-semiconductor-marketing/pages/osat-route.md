@@ -33,6 +33,7 @@
 - Use a static, responsive lot-trace rail instead of a generic feature grid: `LOT > TEST > QUALITY/4M1E > WIP > COST REVIEW`.
 - The diagram is explanatory, not a product screenshot or performance claim. It must be understandable without animation and must stack vertically on mobile.
 - Use two consultation CTAs, one in the hero and one after the mechanism/proof-safe section. The frozen HTML CTAs are inert/provider-free and use stable IDs. Any future PopupX behavior belongs to an authorized operator handoff. `osat_cta_click` with `cta_location=hero|terminal` remains a candidate only; do not emit it before the live inventory and Phase 2 authorization.
+- For the local mobile compact candidate below 701px, show the five-step lot rail in the main reading path and allow the full simulation and inspector to open on demand. A pain-card link to a simulation tab must reveal that tab's container before navigation. Preserve the section IDs/observer boundary, both consultation CTA IDs and the approved desktop layout; this rule does not authorize a live publish.
 
 ---
 
