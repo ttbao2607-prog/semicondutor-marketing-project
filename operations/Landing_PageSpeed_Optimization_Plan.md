@@ -1,6 +1,6 @@
 # Kế hoạch khảo sát và tối ưu hiệu năng PageSpeed cho 3 Landing Page Semiconductor
 
-**Trạng thái (2026-09-29):** Bản thảo kế hoạch (Draft Plan) được lập trên branch `slice/landing-pagespeed-optimization` theo chỉ đạo của Product Owner (Bảo).  
+**Trạng thái (2026-09-29):** P0–P3 đã có trên branch local `slice/landing-pagespeed-optimization`. Sau khi sửa lỗi anchor OSAT tồn tại sẵn, P4 offline đạt `P4_OFFLINE_PASS`: 6/6 điểm Lighthouse local >=80, 12/12 tracking tests và bridge source compatibility cho ba route; xem `operations/evidence/performance/2026-09-29-p4-offline-audit.md`. Candidate đã được publish lên cả ba URL LadiPage hiện có. Lighthouse 13.5.0 đo URL live đạt Desktop OSAT/Fabless/Partner 82/82/85 nhưng Mobile chỉ 50/62/64; TBT mobile lần lượt 1.23/2.93/3.69 giây. **P4 live chưa PASS**, chưa closeout receipts. Điểm Lighthouse CLI là phép đo lab trên URL live, chưa phải kết quả PSI độc lập.
 **Tiêu chuẩn đánh giá:** [Google PageSpeed Insights](https://pagespeed.web.dev/) (chuẩn canonical được công nhận tại Digiwin).  
 **Mục tiêu định lượng:** Điểm hiệu năng (Performance Score) đạt **tối thiểu 80+** trên cả **Desktop** và **Mobile** cho 3 route:
 1. OSAT: `https://solutions.digiwin.com.vn/semiconductor-osat`
@@ -96,7 +96,7 @@ flowchart TD
 
 ---
 
-## 5. Kế hoạch bước tiếp theo ngay lập tức
+## 5. Bước tiếp theo
 
-1. **Khởi động Slice P0:** Tiến hành đo lường và lập báo cáo Baseline thực tế của 3 landing page hiện tại qua Google PageSpeed Insights.
-2. Trích xuất bảng điểm hiện trạng (Điểm tổng, LCP, TBT, CLS) làm căn cứ kỹ thuật để bắt đầu triển khai các gói tối ưu hóa trong Slice P1 & P2.
+1. Giữ ba receipt ở trạng thái mở và dùng `operations/evidence/performance/2026-09-29-p4-live-gate-decision.md` làm handoff: hai lượt Mobile live đều dưới 80 dù Desktop đã đạt.
+2. Nếu Bảo duyệt slice tối ưu mới, audit JS/render thuộc trang ở local, giữ GTM/PopupX/form hiện có, rồi lập semantic delta và preflight riêng cho từng trang trước lần republish. Nếu Bảo quyết định đổi ngưỡng, ghi quyết định và phạm vi ngoại lệ trước khi đánh giá closeout; chưa có ngoại lệ như vậy.

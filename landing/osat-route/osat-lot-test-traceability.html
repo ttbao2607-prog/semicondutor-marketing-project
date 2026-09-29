@@ -3482,8 +3482,9 @@ Keep the host full width, height auto and free of parent clipping. Verify the ac
     if(media.addEventListener)media.addEventListener('change',updateMotion);else if(media.addListener)media.addListener(updateMotion);
     function setMenu(open){nav.classList.toggle('is-open',open);menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Đóng menu':'Mở menu')}
     menu.addEventListener('click',function(){setMenu(menu.getAttribute('aria-expanded')!=='true')});
-    function go(id){var target=root.getElementById(id);if(!target)return;setMenu(false);target.style.scrollMarginTop='calc(var(--header) + 16px)';target.scrollIntoView({behavior:reduce()?'instant':'smooth',block:'start'});}
-    root.addEventListener('click',function(event){var el=event.target instanceof Element?event.target:null;var anchor=el&&el.closest('a[href^="#"]');if(!anchor)return;var id=anchor.getAttribute('href').slice(1);if(root.getElementById(id)){event.preventDefault();if(anchor.dataset.openMode)selectMode(anchor.dataset.openMode);go(id)}});
+    function byId(id){var target=document.getElementById(id);return target&&root.contains(target)?target:null}
+    function go(id){var target=byId(id);if(!target)return;setMenu(false);target.style.scrollMarginTop='calc(var(--header) + 16px)';target.scrollIntoView({behavior:reduce()?'instant':'smooth',block:'start'});}
+    root.addEventListener('click',function(event){var el=event.target instanceof Element?event.target:null;var anchor=el&&el.closest('a[href^="#"]');if(!anchor)return;var id=anchor.getAttribute('href').slice(1);if(byId(id)){event.preventDefault();if(anchor.dataset.openMode)selectMode(anchor.dataset.openMode);go(id)}});
     root.addEventListener('keydown',function(e){if(e.key==='Escape'&&menu.getAttribute('aria-expanded')==='true'){setMenu(false);menu.focus({preventScroll:true})}});
     var views={
       wip:{
