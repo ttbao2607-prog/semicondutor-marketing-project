@@ -3704,8 +3704,7 @@ Keep the host full width, height auto and free of parent clipping. Verify the ac
       var panel = $('#station-dispatch-box');
       if(panel){
         panel.style.animation = 'none';
-        panel.offsetHeight;
-        panel.style.animation = 'dispatchFadeIn .25s ease-out';
+        requestAnimationFrame(function(){ panel.style.animation = 'dispatchFadeIn .25s ease-out'; });
       }
     }
 
@@ -3857,8 +3856,7 @@ Keep the host full width, height auto and free of parent clipping. Verify the ac
 
       if(panel){
         panel.style.animation = 'none';
-        panel.offsetHeight;
-        panel.style.animation = 'dispatchFadeIn .22s ease-out';
+        requestAnimationFrame(function(){ panel.style.animation = 'dispatchFadeIn .22s ease-out'; });
       }
     }
 
@@ -4001,9 +3999,9 @@ Keep the host full width, height auto and free of parent clipping. Verify the ac
     $('[data-top]').addEventListener('click',function(){go('top')});
     if('IntersectionObserver' in window){var reveal=new IntersectionObserver(function(entries){entries.forEach(function(entry){if(!entry.isIntersecting)return;reveal.unobserve(entry.target);if(!reduce()&&entry.target.animate)entry.target.animate([{opacity:.4},{opacity:1}],{duration:350,easing:'ease-out'})})},{threshold:.08});$$('[data-reveal]').forEach(function(el){reveal.observe(el)});var sections=new IntersectionObserver(function(entries){entries.forEach(function(entry){if(!entry.isIntersecting)return;$$('[data-nav]').forEach(function(link){if(link.dataset.nav===entry.target.id)link.setAttribute('aria-current','location');else link.removeAttribute('aria-current')})})},{rootMargin:'-80px 0px -65% 0px'});$$('[data-observe]').forEach(function(el){sections.observe(el)})}
     function updateScroll(){var max=Math.max(1,document.documentElement.scrollHeight-window.innerHeight);var meter=$('.scroll-meter');if(meter)meter.style.transform='scaleX('+Math.min(1,window.scrollY/max)+')'}
-    window.addEventListener('scroll',updateScroll,{passive:true});updateScroll();
+    window.addEventListener('scroll',updateScroll,{passive:true});requestAnimationFrame(updateScroll);
     function sendHeight(){host.dispatchEvent(new CustomEvent('dw:resize',{detail:{height:Math.ceil(host.getBoundingClientRect().height)},bubbles:true,composed:true}))}
-    if('ResizeObserver' in window)new ResizeObserver(sendHeight).observe(page);sendHeight();
+    if('ResizeObserver' in window)new ResizeObserver(sendHeight).observe(page);requestAnimationFrame(sendHeight);
   });
 })();
 </script>

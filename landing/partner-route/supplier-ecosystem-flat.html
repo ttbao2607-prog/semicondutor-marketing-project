@@ -4228,7 +4228,7 @@ No analytics dispatch, forms, CRM, API calls, or customer logos; displayed proof
       host.dispatchEvent(new CustomEvent('dw:resize', { detail: { page: 'ldp_03', height: Math.ceil(host.getBoundingClientRect().height) }, bubbles: true, composed: true }));
     }
     if ('ResizeObserver' in window) new ResizeObserver(sendHeight).observe(page);
-    sendHeight();
+    requestAnimationFrame(sendHeight);
     try {
       if ('scrollRestoration' in history) history.scrollRestoration = 'auto';
     } catch (e) {}
