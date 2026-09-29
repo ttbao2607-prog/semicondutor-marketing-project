@@ -1,6 +1,8 @@
 # OSAT route — canonical-source candidate
 
 **Status:** the approved OSAT route is live. A later PageSpeed source revision passed offline P4 audit and was published on 2026-09-29 to the existing `/semiconductor-osat` LadiPage URL under separate exact-target authority. Its source remains local Git work; live mobile Lighthouse scored 50 and P4 performance closeout remains open. This document does not grant future publication authority.
+
+**Later retry, same day:** Bảo reauthorized the bounded local optimization. The existing OSAT page was revised and republished at the same URL with exact Save/reopen retention and public performance markers. Two new Mobile Lighthouse runs scored 53 and 54; Desktop scored 87. The live Mobile >=80 gate remains failed and the retry receipt remains open. See `operations/evidence/performance/2026-09-29-p4-optimization-live-retry.md`.
 **Owner:** paid executor, reporting to the coordinator. **Revision date:** 2026-09-13 (Asia/Ho_Chi_Minh).
 
 ## Evidence classes
