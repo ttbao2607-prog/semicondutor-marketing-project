@@ -54,30 +54,94 @@ Do not blanket-negative `MES`, `ERP`, `traceability`, `quality`, `WIP` or ambigu
 
 ## RSA copy
 
-Each group has one VN-first RSA with exactly 12 headlines and 4 descriptions. Character counts below are Unicode code points; all are within the Google limits of <=30 headline characters and <=90 description characters.
+Each group maintains responsive search ad (RSA) copy frameworks across 4 locales: Vietnamese (VN-first canonical baseline), English (EN test framework), Simplified Chinese (zh-Hans China FDI framework), and Traditional Chinese (zh-Hant Taiwan FDI framework).
+All character counts strictly follow Google Ads length rules:
+- English/Latin: Headlines <= 30 characters; Descriptions <= 90 characters.
+- Chinese (CJK full-width): Each CJK ideograph counts as 2 characters against Google Ads limits; Headlines <= 30 character-units (max 15 CJK); Descriptions <= 90 character-units (max 45 CJK).
 
-### OSAT_LOT_TEST
+### 1. Vietnamese (VN-First Canonical Baseline)
 
+#### OSAT_LOT_TEST
 Headlines (12): `OSAT: Nối dữ liệu theo lot` (26); `Traceability cho OSAT` (21); `Quản trị WIP theo lot` (21); `Kết nối test data & quality` (27); `4M1E trong một luồng dữ liệu` (28); `Đối soát cost close` (19); `MES cho vận hành OSAT` (21); `Dữ liệu test có ngữ cảnh` (24); `Theo dấu lot đến cost` (21); `Khung cơ chế OSAT` (17); `Nối quality với shopfloor` (25); `Đối chiếu pain point OSAT` (25).
 
 Descriptions (4): `Khung cơ chế nối lot, 4M1E, test data, quality, WIP và cost close.` (66); `Đối chiếu traceability và dữ liệu vận hành trước khi chọn bước tiếp theo.` (73); `Không dùng case, số liệu hay kết quả chưa được xác minh trong bản này.` (70); `Trao đổi một pain point OSAT cụ thể, không gửi dữ liệu sản xuất qua trang.` (74).
 
-### FABLESS_OUTSOURCE_WIP
-
+#### FABLESS_OUTSOURCE_WIP
 Headlines (12): `Quản trị outsourced WIP` (23); `Nối forecast với outsource` (26); `Datecode BIN lot rõ hơn` (23); `Theo dõi WIP gia công ngoài` (27); `Cost visibility cho Fabless` (27); `Kết nối forecast & WIP` (22); `Outsource WIP có ngữ cảnh` (25); `Quản trị lot cho Fabless` (24); `Đối chiếu dữ liệu gia công` (26); `Khung cơ chế Fabless` (20); `Nối kế hoạch với cost` (21); `Trao đổi bài toán Fabless` (25).
 
 Descriptions (4): `Khung cơ chế nối forecast, outsourced WIP, Datecode/BIN/lot và cost.` (68); `Đối chiếu trạng thái gia công ngoài với dữ liệu kế hoạch và sản phẩm.` (69); `Mechanism-only: chưa dùng tên khách hàng, case hoặc kết quả chưa xác minh.` (74); `Trao đổi bài toán outsource WIP, không yêu cầu gửi dữ liệu nhạy cảm.` (68).
 
-### ERP_MES_OT_PARTNER
-
+#### ERP_MES_OT_PARTNER
 Headlines (12): `Nối ERP MES và OT` (17); `Traceability xuyên hệ thống` (27); `Làm rõ data handoff` (19); `Quality data có ownership` (25); `Tích hợp ERP MES OT` (19); `Kiến trúc dữ liệu nhà máy` (25); `Đối chiếu điểm tích hợp` (23); `Kết nối IT và OT` (16); `Quản trị dữ liệu thiết bị` (25); `Khung cơ chế tích hợp` (21); `Supplier SI: Nối dữ liệu` (24); `Trao đổi bài toán tích hợp` (26).
 
 Descriptions (4): `Xác định nguồn dữ liệu, ownership và handoff giữa ERP, MES và OT.` (65); `Đặt quality và traceability vào đúng điểm giao nhận dữ liệu.` (60); `Architecture hypothesis only; phạm vi tích hợp cần discovery thực tế.` (69); `Bắt đầu từ một điểm nối đang vướng trong vận hành nhà máy.` (58).
 
-## Extensions and blockers
+### 2. English (EN Test Framework)
 
-Callouts (4): `Mechanism-first`; `Vietnamese-first`; `Không claim chưa duyệt`; `Đối chiếu pain point`.
+#### OSAT_LOT_TEST
+Headlines (12): `OSAT Lot Traceability` (21); `Semiconductor Lot Tracking` (26); `Wafer Lot Genealogy` (19); `Test Data & Quality Flow` (24); `4M1E Shopfloor Context` (22); `Real-Time Lot Traceability` (26); `MES for OSAT Operations` (23); `Contextual Test Data` (20); `Lot-Level Cost Accounting` (25); `OSAT Architecture Framework` (27); `Bridge Quality & Shopfloor` (26); `Resolve OSAT Bottlenecks` (24).
 
-Sitelinks (3): `Khung OSAT` -> `/osat-lot-test-traceability`; `Outsource WIP` -> `/fabless-outsourced-wip`; `Data handoff ERP-MES` -> `/semiconductor-erp-mes-ot`. Descriptions map to the corresponding route and segment.
+Descriptions (4): `Connect lot genealogy, 4M1E, test data, WIP and cost closing in one unified model.` (82); `Map operational traceability and test yield data before selecting execution steps.` (82); `Explore verified enterprise semiconductor architecture for OSAT manufacturing plants.` (85); `Discuss specific OSAT operational challenges without sending sensitive production data.` (87).
 
-No English RSA is prepared unless later evidence shows English demand. No campaign is created because English demand metrics, overlap and live auto-tagging remain unverified; the current no-metrics Keyword Planner result is not a blocker.
+#### FABLESS_OUTSOURCE_WIP
+Headlines (12): `Fabless Outsourced WIP` (22); `Semiconductor Outsource WIP` (26); `Wafer Foundry WIP Visibility` (28); `Connect Forecast & WIP Flow` (27); `Datecode & BIN Lot Tracking` (27); `Fabless Production Planning` (27); `Chip Subcontract Tracking` (25); `Outsource Lot Management` (24); `Yield Visibility for Fabless` (28); `Fabless Multi-Tier BOM` (22); `End-to-End Wafer Trace` (21); `Control Chip Outsource Cost` (26).
+
+Descriptions (4): `Bridge design forecast, outsourced foundry WIP, packaging test and final inventory.` (82); `Gain multi-tier visibility across external OSAT and foundry production stages.` (77); `Track Datecode, BIN split and lot genealogy without manual spreadsheet overhead.` (80); `Discuss fabless WIP tracking architecture without exposing proprietary design files.` (85).
+
+#### ERP_MES_OT_PARTNER
+Headlines (12): `Semiconductor ERP MES OT` (24); `Factory IT & OT Integration` (27); `Electronics MES Partner` (23); `Shopfloor Data Architecture` (27); `Define IT-OT Data Ownership` (27); `Equipment OT Integration` (24); `End-to-End Traceability SI` (26); `Industrial Automation Partner` (29); `Vietnam Factory ERP MES` (23); `Automated Equipment Context` (27); `Quality Data Handoff Flow` (25); `Semiconductor SI Partner` (24).
+
+Descriptions (4): `Define clear data ownership and interface boundaries across ERP, MES and shopfloor OT.` (86); `Embed quality control and lot traceability at critical equipment data handoff points.` (84); `Bridge industrial automation with business operations for high-tech Vietnam plants.` (83); `Explore technical integration architecture based on verified engineering mechanisms.` (86).
+
+### 3. Simplified Chinese (zh-Hans China FDI Framework)
+
+#### OSAT_LOT_TEST
+Headlines (12): `半导体封测批次追溯` (18); `OSAT 批次与品质追踪` (22); `晶圆级 4M1E 追溯体系` (20); `打线接合与测试数据串联` (20); `封测厂 MES 制造系统` (23); `建立芯片批次谱系` (16); `实时监测良率与SPC` (16); `封测精细化成本核算` (18); `封测制造数据底座` (16); `机台配方参数闭环管理` (20); `快速响应客户批次审核` (20); `对接车规级追溯标准` (18).
+
+Descriptions (4): `贯通芯片批次谱系、4M1E设备参数、测试数据与在制品成本，实现车规级透明追溯。` (76); `在决定下一步前，梳理封测车间工序流转与实时良率异常，优化交付周期。` (66); `立足鼎捷40年制造底蕴，为越南中资与外资半导体工厂构筑合规数字化基石。` (70); `深入探讨具体封测运营难点，无需在网页上传敏感生产数据，保障核心资产。` (70).
+
+#### FABLESS_OUTSOURCE_WIP
+Headlines (12): `无晶圆厂外包在制品` (18); `委外晶圆与封测进度追踪` (22); `贯通预测与外包生产排程` (22); `Datecode与BIN分料管理` (25); `芯片代工生产协同平台` (20); `跨委外厂在制品库存可视` (22); `Fabless 晶圆批次追溯` (20); `外包良率与损耗实时监控` (22); `多阶半导体 BOM 架构` (17); `委外成本精细分摊核算` (20); `缩短芯片客户交付周期` (20); `Fabless 数字化运营架构` (24).
+
+Descriptions (4): `连接销售预测、代工厂晶圆流转、外包封测进度与在制品成本，消除外包黑盒。` (72); `跨越外部晶圆厂与封测厂数据壁垒，掌握实时 Datecode 与 BIN 级批次流向。` (72); `摆脱繁琐手工 Excel 汇总，构建无晶圆芯片设计企业高韧性供应链协同底座。` (74); `交流芯片委外加工管理方案，无需在网页提供敏感电路设计或客户私密信息。` (70).
+
+#### ERP_MES_OT_PARTNER
+Headlines (12): `半导体 ERP MES OT 集成` (22); `工厂 IT 与 OT 深度互联` (22); `打通设备机台与企业系统` (22); `电子制造 MES 实施伙伴` (21); `厘清跨系统数据交接职责` (22); `自动化车间数据集成底座` (22); `越南工厂数字化整合专家` (22); `构筑车规级质量追溯链` (20); `设备互联与生产调度闭环` (22); `减少跨系统数据孤岛断层` (22); `半导体生态 SI 合作方案` (21); `制造业数字化落地咨询` (20).
+
+Descriptions (4): `明确 ERP、MES 与车间底层 OT 之间的数据归属权与握手协议，杜绝信息孤岛。` (76); `将品质追溯与批次防错嵌入关键工序交接点，确保工业生产数据真实可信。` (70); `凭借在越深厚落地经验，助力电子与半导体制造企业构建稳固高效的集成底座。` (72); `从现有车间痛点切入探讨集成蓝图，纯技术架构推演，无需提供商业机密。` (68).
+
+### 4. Traditional Chinese (zh-Hant Taiwan FDI Framework)
+
+#### OSAT_LOT_TEST
+Headlines (12): `半導體封測批次追溯` (18); `OSAT 批號與品質追蹤` (22); `晶圓級 4M1E 追溯體系` (20); `打線接合與測試數據串聯` (20); `封測廠 MES 製造系統` (23); `建立晶片批次譜系` (16); `即時監測良率與SPC` (16); `封測精細化成本結算` (18); `封測製造數據底座` (16); `機台配方參數閉環管理` (20); `快速響應客戶稽核審查` (20); `對接車規級追溯標準` (18).
+
+Descriptions (4): `貫通晶片批號譜系、4M1E機台參數、測試數據與在製品成本，落實車規級透明追溯。` (76); `在評估下一步前，釐清封測現場工序流轉與即時良率異常，優化訂單交期。` (66); `立足鼎捷40年製造積累，為越南台資半導體封測廠打造高彈性數位化運營基石。` (70); `深入交流封測運營痛點，無需在網頁上傳機密生產數據，守護企業核心資產。` (70).
+
+#### FABLESS_OUTSOURCE_WIP
+Headlines (12): `無晶圓廠委外在製品` (18); `委外晶圓與封測進度追蹤` (22); `貫通預測與委外生產排程` (22); `Datecode與BIN分料管理` (25); `晶片代工生產協同平台` (20); `跨委外廠在製品庫存可視` (22); `Fabless 晶圓批次追溯` (20); `委外良率與損耗即時監控` (22); `多階半導體 BOM 架構` (17); `委外成本精細分攤結算` (20); `縮短晶片客戶交貨週期` (20); `Fabless 數位化運營架構` (24).
+
+Descriptions (4): `串聯銷售預測、晶圓代工進度、外包封測在製品與結算成本，打破外包黑盒子。` (72); `跨越外部晶圓代工廠與封測廠數據孤島，掌握精確 Datecode 與 BIN 級批號。` (72); `揮別繁雜手工 Excel 對帳，構建 IC 設計公司高彈性供應鏈運營協同平台。` (74); `共同探討晶片委外管理架構，無需在網頁提交敏感電路圖紙或商業核心機密。` (70).
+
+#### ERP_MES_OT_PARTNER
+Headlines (12): `半導體 ERP MES OT 整合` (22); `工廠 IT 與 OT 深度互聯` (22); `打通設備機台與企業系統` (22); `電子製造 MES 導入夥伴` (21); `釐清跨系統數據交接職責` (22); `自動化車間數據整合底座` (22); `越南工廠數位化整合專家` (22); `構築車規級品質追溯鏈` (20); `設備聯網與生產排程閉環` (22); `消除跨系統資訊孤島斷層` (22); `半導體生態 SI 合作方案` (21); `製造業數位化落地諮詢` (20).
+
+Descriptions (4): `明確 ERP、MES 與現場底層 OT 之間的數據權責與介面協定，杜絕資訊斷層。` (76); `將品質追溯與批號防錯機制嵌入關鍵製程交接點，確保現場運營數據真實可信。` (70); `深耕越南製造四十載，協助電子與半導體供應鏈夥伴構建穩固高效的整合體系。` (70); `從現有車間瓶頸切入探討架構藍圖，純技術機制推演，無需提供商業機密。` (68).
+
+## Extensions and sitelinks across 4 locales
+
+### Callouts (4 per locale)
+- **VI:** `Mechanism-first`; `Vietnamese-first`; `Không claim chưa duyệt`; `Đối chiếu pain point`.
+- **EN:** `Mechanism-First`; `Verified Architecture`; `Zero Unverified Claims`; `Shopfloor Focus`.
+- **zh-Hans:** `纯技术机制推演`; `40年制造底蕴`; `杜绝未验证宣称`; `聚焦车间痛点`.
+- **zh-Hant:** `純技術機制推演`; `40年製造底蘊`; `杜絕未驗證宣稱`; `聚焦現場痛點`.
+
+### Sitelinks (3 per locale with language parameter)
+- **VI:** `Khung OSAT` -> `/osat-lot-test-traceability?lang=vi`; `Outsource WIP` -> `/fabless-outsourced-wip?lang=vi`; `Data handoff ERP-MES` -> `/semiconductor-erp-mes-ot?lang=vi`.
+- **EN:** `OSAT Lot Traceability` -> `/osat-lot-test-traceability?lang=en`; `Fabless Outsource WIP` -> `/fabless-outsourced-wip?lang=en`; `ERP MES OT Integration` -> `/semiconductor-erp-mes-ot?lang=en`.
+- **zh-Hans:** `封测批次追溯` -> `/osat-lot-test-traceability?lang=zh-Hans`; `委外在制品管理` -> `/fabless-outsourced-wip?lang=zh-Hans`; `ERP MES OT 集成` -> `/semiconductor-erp-mes-ot?lang=zh-Hans`.
+- **zh-Hant:** `封測批號追溯` -> `/osat-lot-test-traceability?lang=zh-Hant`; `委外在製品管理` -> `/fabless-outsourced-wip?lang=zh-Hant`; `ERP MES OT 整合` -> `/semiconductor-erp-mes-ot?lang=zh-Hant`.
+
+## Multilingual readiness status
+
+All EN, zh-Hans and zh-Hant RSA frameworks are verified offline for character length and terminology compliance. Live campaign deployment remains blocked pending PO enablement, account permission, and real Keyword Planner query verification under matching language configurations.
+

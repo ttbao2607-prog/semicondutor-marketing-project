@@ -1,7 +1,7 @@
 # S03 — LinkedIn audience research
 
-**Status:** authorized external validation completed on 2026-09-14; this public-repository record is sanitized. No audience was uploaded, no ad was added, no campaign delivered, and no spend occurred.
-**Phase status:** Research Phase 1 is complete and canonicalized by commit `dbb5ff1` (`Record sanitized LinkedIn validation handoff`). Phase 2 production mapping/eligibility and live-object readiness remain separate and are not delivery evidence.
+**Status:** authorized external validation completed on 2026-09-14; this public-repository record is sanitized. No audience was uploaded, no ad was added, no campaign delivered, and no spend occurred in that validation.
+**Phase status:** Research Phase 1 is complete and canonicalized by commit `dbb5ff1` (`Record sanitized LinkedIn validation handoff`). Phase 2 production mapping/eligibility and live-object readiness remain separate and are not delivery evidence. A separate 2026-09-30 mandate from Bảo covers one sanitized 424-row Company List discovery upload; the template-compatible copy passed pre-submit validation, but no submission has occurred because the final control accepts LinkedIn’s Ads Agreement and awaits action-time confirmation. This does not authorize production audience creation, campaign use, or delivery.
 **Owner:** Executor in this batch  
 **Objective:** define a public-source account-universe methodology and role hypotheses while separating candidate identity, externally observed configuration evidence, and verified Campaign Manager delivery evidence.
 
@@ -51,7 +51,7 @@ No personal names, emails, scraped contacts or PII are included.
 
 1. Obtain human sign-off for the remaining parent-level or otherwise unresolved entity mappings before any production audience decision.
 2. Keep Company Names and Job Functions in separate AND groups. Do not use an OR grouping to infer account-role targeting.
-3. Keep the audience uncreated and exclude any company-list upload unless a separate mandate and the applicable platform eligibility conditions are met.
+3. Keep production audiences uncreated. The only current exception is the separate 2026-09-30 sanitized Company List discovery mandate described above; it remains unsubmitted pending action-time confirmation and applicable platform validation.
 4. Re-check audience estimate, delivery eligibility and expansion settings at the moment a production draft is explicitly authorized; external validation is not delivery evidence.
 5. Record objective, format, placement, consent/eligibility and reporting constraints as observed or unknown. Do not infer account × role intersection from marginal reports.
 
@@ -59,4 +59,4 @@ No personal names, emails, scraped contacts or PII are included.
 
 **Acceptance:** provenance-bearing public candidate methodology; no PII; role hypotheses and exclusions; sanitized external-validation boundary; explicit production gate.
 **Dependencies:** S01 message map; human sign-off on unresolved entity mappings; S04 measurement and a separate operational mandate.
-**Stop:** no upload, no audience creation, no campaign build, no message/invitation, no public commit of raw account/audience data, and no claim of match rate/size/reach/delivery beyond the retained evidence scope.
+**Stop:** no upload beyond that one separately authorized discovery list, no production audience creation, no campaign build, no message/invitation, no public commit of raw account/audience data, and no claim of match rate/size/reach/delivery beyond retained evidence. The test list has not yet been submitted.

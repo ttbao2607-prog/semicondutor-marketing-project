@@ -26,7 +26,7 @@
 
 **Completed for this research slice:** the three planned seed clusters were queried, and automatic Planner draft creation was accepted. **Still unknown:** account/campaign/search-term overlap, live campaign settings, actual demand beyond the displayed estimates, CPC/competition where not displayed, final landing eligibility and conversion setup. Do not infer demand from dashes or treat the single Partner historical estimate as a forecast or delivery result. Preserve the screenshot/interaction evidence rule in `AGENTS.md`.
 
-Production handoff: `../ads/google/Google_Search_Build_Sheet.md`.
+Production handoff: `../ads/google/Google_Search_Build_Sheet.md` (includes full 4-locale RSA copy suites: VI, EN, zh-Hans, zh-Hant).
 
 ## Query clusters
 

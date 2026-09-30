@@ -23,10 +23,11 @@ Kiểm chứng thực nghiệm trên LinkedIn Campaign Manager xem danh sách **
 3. **Tài nguyên đầu vào duy nhất cho Codex:**
    - File CSV trung tính cấp pháp nhân được sinh ra bởi script [`scripts/sanitize_linkedin_company_list.py`](file:///D:/Digiwin_Semiconductor_Audit_Worktree/scripts/sanitize_linkedin_company_list.py):
      `D:\Digiwin_Semiconductor_Audit_Worktree\private\linkedin_company_list_sanitized.csv`
-   - Cấu trúc chỉ gồm 3 cột chuẩn LinkedIn Company List Template:
+   - Đây là schema nguồn đã sanitize gồm 3 cột; không đồng nhất schema này với template CSV upload hiện hành của LinkedIn:
      * `companyname`: Tên đăng ký kinh doanh chính thức của doanh nghiệp tại Việt Nam.
      * `country`: `Vietnam`
      * `city`: Tỉnh / Thành phố đặt nhà máy hoặc văn phòng (TP.HCM, Hà Nội, Bắc Ninh, Đồng Nai, Hải Phòng...).
+   - Template Company List hiện hành có 10 header theo đúng thứ tự: `companyname,companywebsite,companyemaildomain,linkedincompanypageurl,stocksymbol,industry,city,state,companycountry,zipcode`. Giữ file nguồn nguyên trạng; chỉ tạo bản upload tương thích khi Campaign Manager yêu cầu header template chính xác.
 
 ---
 
@@ -42,7 +43,7 @@ Codex agent thực hiện tuần tự theo 6 bước có kiểm soát sau trên 
 │ Bước 2: Điều hướng vào Plan (Kế hoạch) ──> Audiences (Đối tượng)                       │
 │ Bước 3: Click 'Create audience' ──> Chọn 'Company / Account' ──> 'Upload a list'       │
 │ Bước 4: Đặt tên tệp: TEST-AUD-COMPANY-LIST-DISCOVERY-202610                            │
-│ Bước 5: Upload file: private/linkedin_company_list_sanitized.csv (424 companies)       │
+│ Bước 5: Upload bản template-compatible, giữ nguyên 424 dòng từ file nguồn              │
 │ Bước 6: Quan sát trạng thái xử lý và ghi nhận bằng chứng đo lường                      │
 └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -58,9 +59,11 @@ Codex agent thực hiện tuần tự theo 6 bước có kiểm soát sau trên 
   - Audience Name (Tên đối tượng): Nhập chính xác chuỗi:
     `TEST-AUD-COMPANY-LIST-DISCOVERY-202610`
 * **Bước 5 — Tải lên danh sách:**
-  - Chọn tệp nguồn: `D:\Digiwin_Semiconductor_Audit_Worktree\private\linkedin_company_list_sanitized.csv`.
-  - Kiểm tra xem giao diện có yêu cầu map cột không (thông thường LinkedIn tự động nhận diện `companyname`, `country`, `city`).
+  - File nguồn: `D:\Digiwin_Semiconductor_Audit_Worktree\private\linkedin_company_list_sanitized.csv`. Nếu UI từ chối header, dùng bản dẫn xuất riêng tư `D:\Digiwin_Semiconductor_Audit_Worktree\private\linkedin_company_list_sanitized_linkedin_template.csv`; bản này giữ nguyên 424 dòng và các giá trị tên/thành phố, ánh xạ `country=Vietnam` sang `companycountry=VN`, để trống các trường không có trong nguồn. Không bổ sung website/domain hoặc company rows.
+  - Preflight trực tiếp ngày 2026-09-30 xác nhận file nguồn 3 cột bị UI từ chối vì header không trùng template; bản 10 cột nêu trên được UI chấp nhận ở trạng thái `Processing complete. Company list ready for upload.` Không suy ra audience đã được tạo từ trạng thái tiền upload này.
+  - UI hiện hiển thị hướng dẫn `Upload between 10,000 - 300,000 companies`; [LinkedIn Help](https://www.linkedin.com/help/lms/answer/a423102) nêu tối thiểu 300 dòng và khuyến nghị 1.000+ công ty. Với 424 dòng, ngưỡng tối thiểu trong Help được đáp ứng nhưng còn khác biệt với dòng hướng dẫn trên UI; ghi nhận đúng nếu server từ chối.
   - Nhấp **Agree & Upload** (Đồng ý & Tải lên).
+  - Campaign Manager ghi rõ thao tác này đồng ý với **Ads Agreement**. Chỉ thực hiện sau xác nhận action-time riêng của Bảo.
 * **Bước 6 — Đọc dữ liệu và lưu bằng chứng:**
   - Sau khi upload, tệp sẽ xuất hiện trong danh sách Audiences với trạng thái ban đầu là `Building` hoặc `Ready`.
   - Đọc và trích xuất các chỉ số hiển thị trên giao diện:

@@ -39,7 +39,7 @@ Phương án đề xuất tái cấu trúc tài khoản dựa trên gợi ý c�
 | **Thiết lập phân phối (Delivery Controls)** | Audience Expansion: **OFF**; LinkedIn Audience Network: **OFF** | Audience Expansion: **OFF**; LinkedIn Audience Network: **OFF** |
 | **Tài nguyên sáng tạo (Creative Assets)** | OSAT, Fabless, Partner B2B Static Cards & OSAT 6-Page PDF Document Ad (EN, zh-Hans, zh-Hant) | Domestic B2B Static Cards & Document Ads chuyên sâu (VI) |
 
-No company/contact upload is allowed. Account-list targeting must remain separate from role-delivery evidence. No PII, personal names, emails or raw lists are included.
+No company/contact upload is allowed under this production build-pack scope. A separate 2026-09-30 mandate from Bảo covers one sanitized 424-row Company List discovery audience only; its template-compatible file passed Campaign Manager’s pre-submit validation, but no audience was submitted because the final control accepts LinkedIn’s Ads Agreement and is pending action-time confirmation. Account-list targeting remains separate from role-delivery evidence. No PII, personal names, emails or raw lists are included in this public pack.
 
 ### 3. Thông điệp & Ad Copy tiếng Việt chuyên sâu cho Phân khúc Nội địa (Domestic Copy & Headlines)
 
@@ -62,7 +62,7 @@ Phân khúc Nội địa nhắm vào các doanh nghiệp công nghiệp phụ tr
 
 ## Retargeting definition
 
-`LI-AUD-P1-ENGAGED-30D`: single-image/document engagement, status **Building**, launchable only when reachable audience is `>=300` and UI evidence confirms eligibility. No audience is created in this milestone.
+`LI-AUD-P1-ENGAGED-30D`: single-image/document engagement, status **Building**, launchable only when reachable audience is `>=300` and UI evidence confirms eligibility. The separately authorized discovery Company List is not this retargeting audience and does not authorize attaching an audience to an ad set.
 
 ## Creative pack
 

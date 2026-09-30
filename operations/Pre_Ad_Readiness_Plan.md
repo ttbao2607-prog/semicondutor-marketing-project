@@ -22,7 +22,7 @@ The phase end state is:
 - tracking contract and QA evidence ready;
 - safe remote draft/paused/building object preparation after readiness and applicable UI confirmation.
 
-This plan authorizes preparation of the approved assets/routes and progression to the publication action-time gate. Publication requires the separate action-time confirmation required by Computer Use policy. Campaign enable, launch, spend, lead submission, audience upload and live optimization remain **NOT AUTHORIZED**.
+This plan authorizes preparation of the approved assets/routes and progression to the publication action-time gate. Publication requires the separate action-time confirmation required by Computer Use policy. Campaign enable, launch, spend, lead submission, production audience upload and live optimization remain **NOT AUTHORIZED**. A separate 2026-09-30 mandate from Bảo covers only one sanitized 424-row Company List discovery audience; its template-compatible file is prepared in the private directory, but submission is pending Bảo’s action-time confirmation because LinkedIn says the final control accepts its Ads Agreement.
 
 ## 2. Decision register
 
@@ -67,7 +67,7 @@ Prepare the three static concepts, OSAT document ad, LinkedIn audience hypothese
 
 **Acceptance:** every asset maps to one segment, pain, mechanism, CTA and route; claims are verified or explicitly omitted; final copy contains no “draft/internal” language and no live placeholder.
 
-**Stop:** do not enable, launch, spend, submit a form or transmit audience/contact data; publication remains behind its separate action-time confirmation gate.
+**Stop:** do not enable, launch, spend, submit a form or transmit audience/contact data outside the one separately authorized Company List discovery upload described above. The final upload control still requires its own action-time confirmation; publication remains behind its separate action-time confirmation gate.
 
 ### C — Freeze DOM and run tracking QA
 
