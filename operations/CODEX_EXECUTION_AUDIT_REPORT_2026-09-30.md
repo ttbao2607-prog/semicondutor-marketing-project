@@ -75,3 +75,6 @@
    - Điều này tái khẳng định nhận định chiến lược của Bảo: **Nhu cầu tìm kiếm từ khóa bán dẫn chuyên sâu trên Google Search công cộng tại Việt Nam là cực kỳ hạn chế (Low Volume)**.
    - Quy tắc **`Underspend Protection`** và hạn mức **250k/ngày** là hoàn toàn cần thiết để bảo vệ ngân sách.
    - Mũi nhọn tiếp cận các nhà máy FDI (Trung Quốc/Đài Loan) sẽ dựa chủ lực vào **LinkedIn Matched Audience** (tệp 424 doanh nghiệp đã làm sạch) thay vì phụ thuộc vào Google Search tự nhiên.
+
+## Reconciliation correction (2026-09-30; supersedes business interpretation in section 4)
+The original Low Volume interpretation is withdrawn: 21/21 seeds returned no displayed metrics in the recorded configuration. Dashes do not establish low or zero demand, CPC, eligibility or effectiveness. The 250k/day Search bucket and 600k/150k split are planning proposals, not conclusions derived from Planner. Underspend Protection is operating discipline: keep unspent funds unspent and require PO approval for reallocation; no automatic rule is evidenced. The 424-row test audience is Building, with match/reach unknown; it is not delivery-ready proof. Historical technical PASS does not approve business allocation or launch.

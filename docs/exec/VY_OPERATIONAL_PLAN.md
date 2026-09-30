@@ -7,6 +7,8 @@
 **Tình trạng tài liệu:** Hồ sơ Đề xuất Kỹ thuật & Thực thi (Operational Proposal — Pending Review & Sign-off)  
 **Tài liệu tham chiếu:** Email chỉ đạo ngày 2026-09-29 của Sếp Vy & Báo cáo kỹ thuật dự án  
 
+> **Proposal boundary (30/09):** 35M là planning ceiling; lịch paid/phase và phân bổ 600k/250k/150k chưa duyệt. LI-CMP-* là mã kế hoạch. Điều kiện sàn, cấu trúc ngôn ngữ và targeting LinkedIn cần account-specific validation; các giá trị USD/sàn trong sơ đồ là giả định kế hoạch, không chứng minh eligibility. Chiến dịch chưa được cấp quyền chạy/spend.
+
 ---
 
 ## 1. Ma Trận Tiếp Thu & Đối Soát Chỉ Đạo Từ Email Ngày 2026-09-29
@@ -17,7 +19,7 @@ Kính gửi Sếp Vy, toàn bộ các định hướng chiến lược và lưu 
 |:---:|---|---|:---:|
 | **1** | **Ngân sách kênh:** Đề xuất LinkedIn ~600k/ngày, Google Search ~250k/ngày. | Khóa cứng khung đề xuất: LinkedIn 600.000 VNĐ/ngày, Google Search 250.000 VNĐ/ngày, Quỹ dự phòng kỹ thuật (Reserve) 150.000 VNĐ/ngày trong tổng hạn mức 1.000.000 VNĐ/ngày. | Đã hoàn thiện phương án |
 | **2** | **Cấu trúc LinkedIn:** Tách biệt 2 nhóm đối tượng (FDI theo danh sách công ty vs Nội địa theo chức danh), tránh chia nhỏ quá nhiều nhóm gây vi phạm ngân sách sàn. | Tái cấu trúc thành **đúng 2 Campaign song song** (`LI-CMP-FDI-SEGMENT` và `LI-CMP-DOMESTIC-SEGMENT`), mỗi campaign nhận đúng 300.000 VNĐ/ngày (~11.5 USD/ngày), vượt ngưỡng sàn tối thiểu (~$10/ngày) của LinkedIn. | Đã hoàn thiện phương án |
-| **3** | **Thông điệp Nội địa:** Nhấn mạnh thông điệp *"Đủ chuẩn tham gia vào chuỗi cung ứng bán dẫn"*, tập trung vào bài toán vượt qua kỳ audit của tập đoàn. | Soạn thảo 2 biến thể Headline chính thức cho copy tiếng Việt: *"Đủ chuẩn tham gia chuỗi cung ứng bán dẫn"* và *"Chuẩn hóa vận hành để tham gia chuỗi cung ứng bán dẫn"*, làm nổi bật 4 bài toán: Truy xuất lot, Yield/SPC, Recipe, Audit report. | Đã sẵn sàng nội dung |
+| **3** | **Thông điệp Nội địa:** Nhấn mạnh thông điệp *"Đủ chuẩn tham gia vào chuỗi cung ứng bán dẫn"*, tập trung vào bài toán vượt qua kỳ audit của tập đoàn. | Soạn thảo 2 biến thể Headline đề xuất cho copy tiếng Việt: *"Đủ chuẩn tham gia chuỗi cung ứng bán dẫn"* và *"Chuẩn hóa vận hành để tham gia chuỗi cung ứng bán dẫn"*, làm nổi bật 4 bài toán: Truy xuất lot, Yield/SPC, Recipe, Audit report. | Đã sẵn sàng nội dung |
 | **4** | **Lộ trình 4 Phase (7/21/28 ngày):** Khớp nối với trần 35 triệu VNĐ của dự án. | Xây dựng bảng ánh xạ 8 tuần dương lịch (56 ngày lịch): Phân bổ đúng 35 ngày paid (7d Phase 1 + 14d Phase 2 + 14d Phase 3) xen kẽ 21 ngày nghỉ đối soát, hoàn thành trước Tết. | Đã lập bảng lịch trình |
 | **5** | **Đánh giá Search Terms:** Không vội vã đưa ra kết luận khi mẫu còn quá nhỏ (ví dụ 7/10 clicks ban đầu); cần đánh giá trên toàn bộ kỳ. | Áp dụng ngưỡng đề xuất **20 observed classified clicks** theo S04 để đánh giá tỷ lệ relevance trước khi xem xét phân bổ ngân sách; giữ đúng trạng thái proposal, không coi là điều kiện bắt buộc chặn mọi tối ưu từ khóa thông thường. | Đã đưa vào phương án đề xuất |
 | **6** | **Tính trung thực số liệu Search:** Báo cáo đúng thực tế volume từ khóa, không ép số ảo. | Ghi nhận trung thực: Đa số từ khóa OSAT/Fabless tại Việt Nam hiển thị dấu gạch ngang (chưa có dữ liệu); 1 từ hiển thị 10 searches; áp dụng quy tắc Underspend Protection để bảo vệ ngân sách. | Đã đối soát minh bạch |
@@ -33,7 +35,7 @@ Kính gửi Sếp Vy, toàn bộ các định hướng chiến lược và lưu 
 │               TỔNG NGÂN SÁCH LINKEDIN ADS ĐỀ XUẤT: 600.000 VNĐ/NGÀY                    │
 ├──────────────────────────────────────────┬─────────────────────────────────────────────┤
 │ CAMPAIGN 1: PHÂN KHÚC FDI                 │ CAMPAIGN 2: PHÂN KHÚC NỘI ĐỊA               │
-│ ID: `LI-CMP-FDI-SEGMENT`                 │ ID: `LI-CMP-DOMESTIC-SEGMENT`               │
+│ Mã kế hoạch: `LI-CMP-FDI-SEGMENT`                 │ Mã kế hoạch: `LI-CMP-DOMESTIC-SEGMENT`               │
 ├──────────────────────────────────────────┼─────────────────────────────────────────────┤
 │ • Ngân sách ngày: 300.000 VNĐ (~11.5 USD)│ • Ngân sách ngày: 300.000 VNĐ (~11.5 USD)   │
 │ • Điều kiện sàn LinkedIn: Đạt (>= $10)   │ • Điều kiện sàn LinkedIn: Đạt (>= $10)      │
@@ -55,7 +57,7 @@ Kính gửi Sếp Vy, toàn bộ các định hướng chiến lược và lưu 
 
 Dành riêng cho phân khúc Doanh nghiệp Phụ trợ Nội địa, nội dung quảng cáo được xây dựng bám sát nỗi đau vận hành khi tham gia chuỗi cung ứng toàn cầu:
 
-### 3.1. Hai Biến Thể Headline Trọng Tâm (Official Headline Variants)
+### 3.1. Hai Biến Thể Headline Trọng Tâm (Proposed Headline Variants)
 * **Headline Biến thể 1 (Trực diện chuẩn vendor):**
   > **"Đủ chuẩn tham gia chuỗi cung ứng bán dẫn"**
 * **Headline Biến thể 2 (Chuẩn hóa quy trình vượt qua kỳ audit):**
@@ -66,7 +68,7 @@ Mỗi bài quảng cáo và tài liệu giới thiệu đều tập trung giải
 1. **Truy xuất Lot thời gian thực (Lot Traceability):** Số hóa phả hệ lot, liên kết nguyên vật liệu và thông số 4M1E qua từng công đoạn gia công, hỗ trợ tra cứu nguồn gốc hai chiều tức thì.
 2. **Kiểm soát Yield & Chất lượng:** Quản lý dữ liệu đo kiểm theo thời gian thực, áp dụng biểu đồ kiểm soát SPC để phát hiện sớm biến động lỗi và tối ưu tỷ lệ thành phẩm.
 3. **Quản lý Recipe chuẩn xác:** Khóa và phân phối tham số thiết bị tự động, giảm thiểu tối đa rủi ro do thao tác nạp công thức thủ công.
-4. **Sẵn sàng báo cáo Audit:** Trích xuất báo cáo minh bạch lịch sử sản xuất chỉ trong vài phút, đáp ứng các đợt kiểm tra đánh giá từ đối tác tập đoàn.
+4. **Sẵn sàng báo cáo Audit:** Hỗ trợ tổng hợp lịch sử sản xuất để chuẩn bị báo cáo cho các đợt đánh giá của đối tác; thời gian thực hiện phụ thuộc phạm vi và dữ liệu.
 
 ---
 
@@ -105,9 +107,9 @@ Mỗi bài quảng cáo và tài liệu giới thiệu đều tập trung giải
 ## 6. Trạng Thái Kỹ Thuật (Landing Page & Tracking Invariants)
 
 Hồ sơ tài nguyên phục vụ chiến dịch đã được chuẩn bị trên môi trường nội bộ và vượt qua kiểm toán tự động:
-1. **Ba Trang Đích Canonical Đa Ngôn Ngữ (Trạng thái Candidate Offline):**
+1. **Ba Trang Đích Canonical Đa Ngôn Ngữ (Checkpoint deployment 30/09):**
    - Đã tích hợp hoàn chỉnh bộ chọn 4 ngôn ngữ (`vi`, `en`, `zh-Hans`, `zh-Hant`) trên cả 3 route: OSAT, Fabless và Partner dưới dạng **candidate offline** trong repository.
-   - *Phân định ranh giới hiện trạng:* Các public routes hiện tại **chưa thực hiện locale deployment**. Tính chuẩn xác của thuật ngữ đối với người bản xứ (native terminology) và kiểm thử hồi quy live (live regression) vẫn cần tiếp tục thẩm định kỹ lưỡng trước khi public publish.
+   - *Phân định ranh giới hiện trạng:* Checkpoint `operations/evidence/locale/2026-09-30-four-locale-production-deployment.md` ghi nhận 4 locale đã publish và public verified ở ba URL cũ. Slice này không kiểm live lại; native terminology, ad-entry QA và readiness chạy quảng cáo vẫn cần xác nhận riêng.
    - Tên riêng các đối tác phụ trợ nội địa được giữ nguyên tiếng Việt (`Khang Đạt`, `Nhật Tân`, `Phẩm Thuyên`, `Pinquan`) nhằm đảm bảo tính pháp lý và nhận diện thương hiệu thực tế.
 2. **Tuân Thủ Bất Biến Tracking & Không Chứa Form Rác:**
    - Các trang đích được thiết kế độc lập, không gắn form thu thập dữ liệu thô chưa kiểm soát.

@@ -17,7 +17,7 @@
   2. *Khối Công nghiệp Phụ trợ Nội địa:* Các doanh nghiệp cơ khí chính xác, mạch in (PCB), chất nền (Substrate) và vật liệu đóng gói tại Việt Nam đang nỗ lực chuyển đổi vận hành để đạt chuẩn trở thành nhà cung ứng cấp 1, cấp 2 (Tier-1, Tier-2) cho các tập đoàn toàn cầu.
 * **Lợi thế cạnh tranh & Năng lực sẵn có của Digiwin:**
   - Digiwin sở hữu bề dày hơn 40 năm kinh nghiệm triển khai MES/ERP cho ngành điện tử và bán dẫn tại Đài Loan và Trung Quốc đại lục.
-  - Tại Việt Nam, Digiwin đã có minh chứng triển khai thực tế giải pháp eMES cho doanh nghiệp gia công cơ khí chính xác phụ trợ bán dẫn (khách hàng tiêu biểu: Pinquan / Phẩm Thuyên tại Bắc Ninh).
+  - Tài liệu nguồn nêu case eMES cơ khí chính xác Pinquan / Phẩm Thuyên tại Bắc Ninh. Định danh pháp nhân, bằng chứng triển khai và vai trò trong chuỗi cung ứng bán dẫn cần đối chiếu riêng trước khi dùng case làm semiconductor proof; lượt sửa này không xác nhận thêm các claim đó.
 * **Mục tiêu của Chiến dịch Thử nghiệm (Pilot Campaign):**
   - Không phải một đợt chi tiêu ồ ạt; đây là chiến dịch thử nghiệm có kiểm soát nhằm **xác lập sự hiện diện thương hiệu (Brand Positioning)** của Digiwin trong cộng đồng doanh nghiệp bán dẫn tại Việt Nam.
   - Đo lường mức độ phản hồi của thị trường (Market Demand Signals) trước khi xây dựng kế hoạch ngân sách mở rộng cho giai đoạn 2026–2027.
@@ -61,12 +61,12 @@ Khung thời gian 56 ngày lịch được phân định tách bạch với số
 │ • Số ngày nghỉ: 7 ngày        │ • Số ngày nghỉ: 7 ngày        │ • Số ngày nghỉ: 7 ngày │
 │ • Trọng tâm:                  │ • Trọng tâm:                  │ • Trọng tâm:           │
 │   - Kích hoạt tracking        │   - Đánh giá mẫu search term  │   - Tối ưu chi phí     │
-│   - Đo lường baseline nhận    │     (đủ tối thiểu 20 clicks)  │   - Đánh giá chất lượng│
+│   - Đo lường baseline nhận    │     (mốc đề xuất 20 clicks)  │   - Đánh giá chất lượng│
 │     thức ban đầu              │   - Sàng lọc tương tác sâu    │     lead và hiệu quả   │
 │   - Rà soát an toàn kỹ thuật  │   - Kiểm tra tỷ lệ lead hợp lệ│   - Báo cáo tổng kết   │
 └───────────────────────────────┴───────────────────────────────┴────────────────────────┘
 ```
-*Ghi chú:* Các ngày nghỉ quảng cáo (pause days) được thiết kế có chủ đích nhằm đối soát chất lượng dữ liệu, tránh tình trạng chi tiêu liên tục khi chưa phân tích xong tín hiệu phản hồi.
+*Ghi chú:* Mốc 20 observed classified clicks là đề xuất S04 trước khi dùng relevance để phân bổ ngân sách; 7/10 chỉ mô tả, không phải đủ mẫu quyết định. Không áp dụng mốc này thành hard gate cho mọi tối ưu từ khóa. Lịch paid và phân bổ phase vẫn chờ Bảo duyệt. Các ngày nghỉ quảng cáo (pause days) được thiết kế có chủ đích nhằm đối soát chất lượng dữ liệu, tránh tình trạng chi tiêu liên tục khi chưa phân tích xong tín hiệu phản hồi.
 
 ---
 

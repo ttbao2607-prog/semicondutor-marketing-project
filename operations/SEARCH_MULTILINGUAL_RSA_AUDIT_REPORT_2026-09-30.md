@@ -149,3 +149,6 @@ Bản copy suite đã thể hiện sự am hiểu sâu sắc về thói quen hà
 2. **Khuyến nghị Vận hành (Operational Recommendations):**
    - Bộ RSA Copy Suite tại `ads/google/Google_Search_Build_Sheet.md` đã sẵn sàng về mặt nội dung kỹ thuật, độ dài ký tự và thuật ngữ bán dẫn.
    - Giữ nguyên trạng thái chiến dịch **paused / offline draft** theo quy định tại `AGENTS.md` cho đến khi có mandate cấp phép và xác thực trực tiếp trên Google Keyword Planner với tài khoản live.
+
+## Reconciliation correction (2026-09-30; historical observations above retained)
+The earlier endorsement of Vietnam-specific 40-year wording and governance callouts is superseded. Revised source removes that geography drift and internal governance text from customer-facing slots. All 192 printed RSA length labels are recalculated using the repository test algorithm; historical range tables do not describe the revised copy. Length PASS does not verify claims, native terminology, URLs or readiness. Historical Search destination aliases remain unverified; import requires route and locale/attribution QA.
