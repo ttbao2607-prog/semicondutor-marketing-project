@@ -1,5 +1,7 @@
 # Pre-Ad Readiness Execution Plan
 
+**Fabless interaction addendum (2026-09-30):** production `/fabless` still has the audited Lot/Cost tab and pain-card navigation defect caused by omission of the original map runtime during flat-source creation. Bảo authorized committing and integrating the local repair from `slice/fabless-interaction-fix` into local main; deployment preparation stops before live actions while another Codex process deploys the previous main. local desktop/mobile interaction checks and tracking regression 12/12 pass. Earlier render, tracking and performance records do not establish working map navigation. No live repair, publication or performance remeasurement occurred. Evidence: `evidence/2026-09-30-fabless-local-interaction-repair.md`.
+
 **Status:** PLAN APPROVED / EXECUTION ACTIVE / LAUNCH NOT AUTHORIZED
 **Revision:** 2026-09-14 · Asia/Ho_Chi_Minh
 **Revision note (2026-09-14):** Corrected the prior ad-blocker classification: the string was DOM/accessibility-only, with no visible dialog, and did not prevent Planner interaction. The three planned OSAT, Fabless and Partner queries were completed with accepted automatic Planner-draft side effects; results remain limited historical UI evidence, not demand validation. No operational approval gates or budget changed.

@@ -30,6 +30,8 @@
 
 ### Component Overrides
 
+- Operations-map tabs must update the selected tab, its associated diagram and inspector together. Each pain card selects its matching progress/lot/cost view and scrolls to `fabless-map`; expand the mobile detail before scrolling. Preserve arrow/Home/End tab navigation and Enter/Space card activation. Dynamic map text follows the selected locale. The 2026-09-30 local repair is a candidate only; production still needs a separately authorized existing-page revision.
+
 - Use a responsive outsourced-WIP handoff flow: `FORECAST > OUTSOURCE > LOT/DATECODE/BIN > COST REVIEW`.
 - Make ownership boundaries visually explicit with labels and connecting lines; do not imitate a live dashboard.
 - Use two consultation CTAs, one in the hero and one after the final route explanation. The frozen HTML CTAs are inert/provider-free and use stable IDs. Any future PopupX behavior belongs to an authorized operator handoff. Do not emit a CTA analytics event until live GTM inventory authorizes reuse.

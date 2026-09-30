@@ -2594,6 +2594,421 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
 
 <!-- END LADIPAGE EMBED -->
 <script>
+/* Local map interactions restored from the original Fabless source; no provider or analytics calls. */
+(function () {
+  'use strict';
+  var root = document.getElementById('dw-fabless-landing');
+  if (!root || root.__dwFablessMapReady) return;
+  var $ = function (selector) { return root.querySelector(selector); };
+  var $$ = function (selector) { return Array.from(root.querySelectorAll(selector)); };
+  var operations = $('[data-operations]');
+  var demoSelect = $('#demo-select');
+  if (!operations || !demoSelect) return;
+  root.__dwFablessMapReady = true;
+  var media = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var currentMode = 'progress';
+  var selected = { progress: 0, lot: 0, cost: 0 };
+  var pulseTimers = new WeakMap();
+  function reduceMotion() {
+    var control = $('[data-motion]');
+    return media.matches || (control && control.getAttribute('aria-pressed') === 'true');
+  }
+  function revealMap() {
+    var detail = $('#fabless-mobile-map-detail');
+    var toggle = $('#fabless-mobile-map-toggle');
+    if (detail) detail.classList.add('mobile-expanded');
+    if (toggle) toggle.setAttribute('aria-expanded', 'true');
+  }
+  function scrollToSection(id) {
+    var target = $('#' + id);
+    if (!target) return;
+    target.style.scrollMarginTop = 'calc(var(--header) + 16px)';
+    target.scrollIntoView({ behavior: reduceMotion() ? 'instant' : 'smooth', block: 'start' });
+  }
+    var demoData = {
+      progress: {
+        title: 'WIP ở đâu, tiến độ ra sao?',
+        intro: 'Bản đồ 4 trạm gia công tuần tự từ chế tạo phiến Wafer đến kiểm thử xuất xưởng.',
+        selectLabel: 'Chọn trạm công đoạn',
+        labels: ['Công đoạn & Đối tác', 'Sản lượng & Yield', 'Tiến độ vs Cam kết khách', 'Hành động Digiwin ERP'],
+        options: [
+          'Trạm 01: Foundry (Wafer Fab)',
+          'Trạm 02: CP Test (Wafer Probe)',
+          'Trạm 03: OSAT (Packaging)',
+          'Trạm 04: FT Test & Ship'
+        ],
+        values: [
+          ['TSMC / SMIC (Wafer Fab)', '25 Wafers (100%) • Yield 98.5%', '🟢 Dự kiến ra lò: 18/10 (+6 ngày)', 'Tự động đồng bộ PO gia công phôi & khấu hao Mask NRE'],
+          ['KYEC / Amkor (Wafer Probe)', '24,625 Good Dies • Yield 96.8%', '🟢 Dự kiến hoàn tất CP: 21/10 (+5 ngày)', 'Tải Wafer Map điện tử, bóc tách Good/Bad dies lên hệ thống'],
+          ['ASE / JCET (Đóng gói vỏ BGA)', '23,830 ICs • Yield 99.2%', '🟢 Dự kiến đóng gói: 25/10 (+4 ngày)', 'Tự động tách lô Assembly, cấp Datecode laser-mark'],
+          ['Kho HUB (Final Test & Pack)', '23,640 ICs • Yield 99.1%', '🟢 Cam kết giao hàng: 28/10 (Đúng hẹn)', 'Hạch toán phân loại BIN 1/2, cấp chứng chỉ xuất kho COA']
+        ],
+        foot: 'Digiwin ERP kết nối EDI/API hai chiều với Foundry & OSAT, loại bỏ hoàn toàn việc gọi điện hoặc gửi file Excel theo dõi thủ công.'
+      },
+      lot: {
+        title: 'Phả hệ lô & ma trận phân loại',
+        intro: 'Mối liên kết liền mạch từ phiến wafer gốc đến từng lô đóng gói và cấp bậc chip BIN.',
+        selectLabel: 'Chọn mắt xích phả hệ',
+        labels: ['Cấp độ phả hệ', 'Định danh đối tác & Lot', 'Quy tắc mã hóa / Phân loại', 'Khả năng truy xuất Digiwin ERP'],
+        options: [
+          'WF-2410-A (Wafer Lot Gốc)',
+          'ASM-01 (Lô OSAT #1 • BGA-256)',
+          'ASM-02 (Lô OSAT #2 • QFN-64)',
+          'DW-2410A / BIN 1 (Grade A)',
+          '⚡ Sự cố RMA (Cô lập hạt lỗi)'
+        ],
+        values: [
+          ['Gốc phôi Wafer (Root Lot)', 'Lô WF-2410-A (25 phiến • Fab 12)', 'Khắc laser ID từng phiến • Grid dies', 'Lưu trữ toàn bộ Wafer Map, lịch sử lò luyện và yield phôi 98.5%'],
+          ['Tách lô đóng gói (Split Lot #1)', 'ASM-01 (Xưởng OSAT Khang Đạt)', '15,000 chips (60%) • Vỏ FC-BGA-256', 'Kế thừa 100% phả hệ từ 15 phiến wafer của lô WF-2410-A'],
+          ['Tách lô đóng gói (Split Lot #2)', 'ASM-02 (Xưởng OSAT Nhật Tân)', '10,000 chips (40%) • Vỏ QFN-64', 'Theo dõi độc lập định mức keo, khung Cu leadframe và yield vỏ'],
+          ['Khắc laser Datecode & BIN', 'Datecode DW-2410A • BIN 1 (Grade A)', '85% xung nhịp cao (High Frequency)', 'Liên kết PO bán hàng với chính xác Datecode khắc nắp chip & BIN'],
+          ['Cô lập rủi ro RMA Recall', 'Phiến #14 • Tọa độ [X:12, Y:45]', 'Vết nứt vi mô biên phiến wafer', '⚠️ CÔ LẬP CHÍNH XÁC: Chỉ thu hồi 450 chip cụm lỗi, cứu 24,550 chip!']
+        ],
+        foot: 'Hệ thống phả hệ kép (Forward & Backward) giúp bảo vệ uy tín thương hiệu và tiết kiệm hàng triệu USD chi phí thu hồi linh kiện.'
+      },
+      cost: {
+        title: 'Hạch toán giá vốn & lợi nhuận',
+        intro: 'Bóc tách giá thành 4 tầng và đối chiếu trực tiếp với hợp đồng kinh doanh.',
+        selectLabel: 'Chọn dự án đối chiếu',
+        labels: ['Dự án & Dòng sản phẩm', 'Cơ cấu giá vốn 4 tầng', 'Giá vốn vs Giá bán cam kết', 'Biên lợi nhuận gộp'],
+        options: [
+          'PRJ-AI-01: Chip AI High-Performance (5nm)',
+          'PRJ-MCU-02: Chip IoT Smart Meter (28nm)'
+        ],
+        values: [
+          ['Chip xử lý AI (FC-BGA 5nm)', 'Wafer & Mask: $4.20 | OSAT: $2.10 | Test: $1.20 | Quản lý: $0.90', 'Giá vốn: $8.40 • Giá bán: $12.50', '🟢 32.8% (Đạt mục tiêu ban điều hành > 30%)'],
+          ['Chip Vi điều khiển IoT (QFN 28nm)', 'Wafer: $0.65 | OSAT: $0.35 | Test: $0.12 | Quản lý: $0.08', 'Giá vốn: $1.20 • Giá bán: $1.85', '🟢 35.1% (Biên an toàn cao nhờ tối ưu chi phí phôi)']
+        ],
+        foot: 'Digiwin ERP tự động hấp thụ chi phí phế phẩm (Scrap absorption) vào giá thành chip đạt chuẩn, đảm bảo số liệu kế toán chuẩn xác từng xu.'
+      }
+    };
+
+    var govData = {
+      progress: {
+        badge: 'Đúng hạn cam kết (+6 ngày)',
+        sla: '28/10/2026',
+        eta: '22/10/2026',
+        yield: '94.8%'
+      },
+      lot: {
+        badge: 'Khép kín 100% phả hệ lô',
+        sla: 'WF-2410-A (25 phiến)',
+        eta: '2 Lô OSAT • 2 Datecodes',
+        yield: 'Cô lập 1.8% (Cứu 98.2%)'
+      },
+      cost: {
+        badge: 'Hạch toán đa tầng tự động',
+        sla: 'Giá bán: $12.50',
+        eta: 'Giá vốn: $8.40',
+        yield: 'Biên gộp: 32.8%'
+      }
+    };
+
+    var costScenarios = {
+      ai: {
+        costs: ['$4.20 / chip <small>(50.0%)</small>', '$2.10 / chip <small>(25.0%)</small>', '$1.20 / chip <small>(14.3%)</small>', '$0.90 / chip <small>(10.7%)</small>'],
+        widths: ['50%', '25%', '14.3%', '10.7%'],
+        cogs: '$8.40',
+        cogsPct: 'Chiếm 67.2% giá bán',
+        margin: '+$4.10 <small>(32.8%)</small>',
+        price: '$12.50',
+        stackCost: '67.2%',
+        stackMargin: '32.8%',
+        status: '🟢 Đạt mục tiêu ban giám đốc (>30%)'
+      },
+      mcu: {
+        costs: ['$0.65 / chip <small>(54.2%)</small>', '$0.35 / chip <small>(29.2%)</small>', '$0.12 / chip <small>(10.0%)</small>', '$0.08 / chip <small>(6.6%)</small>'],
+        widths: ['54.2%', '29.2%', '10%', '6.6%'],
+        cogs: '$1.20',
+        cogsPct: 'Chiếm 64.9% giá bán',
+        margin: '+$0.65 <small>(35.1%)</small>',
+        price: '$1.85',
+        stackCost: '64.9%',
+        stackMargin: '35.1%',
+        status: '🟢 Biên an toàn cao nhờ tối ưu chi phí phôi'
+      }
+    };
+
+
+    function pulse(element) {
+      if (!element) return;
+      clearTimeout(pulseTimers.get(element));
+      element.classList.remove('pulse');
+      if (reduceMotion() || document.hidden) return;
+      requestAnimationFrame(function () { if (!reduceMotion() && !document.hidden) element.classList.add('pulse'); });
+      pulseTimers.set(element, setTimeout(function () { element.classList.remove('pulse'); }, 2000));
+    }
+    function setTabs(group, mode) {
+      $$('[data-tab-group="' + group + '"] [role="tab"]').forEach(function (tab) {
+        var active = tab.dataset.mode === mode;
+        tab.setAttribute('aria-selected', String(active));
+        tab.tabIndex = active ? 0 : -1;
+      });
+      var panel = $('#' + group + '-panel');
+      if (panel) panel.setAttribute('aria-labelledby', group + '-tab-' + mode);
+    }
+    function updateCostScenario(key) {
+      var sc = costScenarios[key] || costScenarios.ai;
+      var btnAi = $('#btn-cost-ai');
+      var btnMcu = $('#btn-cost-mcu');
+      if (btnAi) btnAi.classList.toggle('is-active', key === 'ai');
+      if (btnMcu) btnMcu.classList.toggle('is-active', key === 'mcu');
+      sc.costs.forEach(function (c, idx) {
+        var el = $('#tier-cost-' + (idx + 1));
+        if (el) el.innerHTML = c;
+        var bar = $('#tier-bar-' + (idx + 1));
+        if (bar) bar.style.width = sc.widths[idx];
+      });
+      var cogsEl = $('#ledger-cogs');
+      if (cogsEl) cogsEl.textContent = sc.cogs;
+      var cogsPctEl = $('#ledger-cogs-pct');
+      if (cogsPctEl) cogsPctEl.textContent = sc.cogsPct;
+      var marginEl = $('#ledger-margin');
+      if (marginEl) marginEl.innerHTML = sc.margin;
+      var priceEl = $('#ledger-price');
+      if (priceEl) priceEl.textContent = sc.price;
+      var stackCost = $('#stack-cost-bar');
+      if (stackCost) {
+        stackCost.style.width = sc.stackCost;
+        stackCost.title = 'Giá vốn ' + sc.stackCost;
+        stackCost.innerHTML = '<span>Giá vốn ' + sc.cogs + '</span>';
+      }
+      var stackMargin = $('#stack-margin-bar');
+      if (stackMargin) {
+        stackMargin.style.width = sc.stackMargin;
+        stackMargin.title = 'Biên lợi nhuận ' + sc.stackMargin;
+        stackMargin.innerHTML = '<span>Lợi nhuận gộp ' + sc.stackMargin + '</span>';
+      }
+      var statusEl = $('#ledger-status');
+      if (statusEl) statusEl.textContent = sc.status;
+    }
+
+    function renderMap(mode, index, animate) {
+      if (!Object.prototype.hasOwnProperty.call(demoData, mode)) return;
+      var data = demoData[mode];
+      index = Number.isInteger(index) && index >= 0 && index < data.options.length ? index : 0;
+      var changedMode = currentMode !== mode;
+      currentMode = mode;
+      selected[mode] = index;
+      operations.dataset.mode = mode;
+
+      setTabs('map', mode);
+
+      // Activate dedicated diagram panel
+      $$('[data-diagram-mode]').forEach(function (panel) {
+        panel.classList.toggle('is-active', panel.dataset.diagramMode === mode);
+      });
+
+      // Update ERP Hub
+      var gov = govData[mode];
+      if (gov) {
+        var badgeText = $('#gov-badge-text');
+        if (badgeText) badgeText.textContent = gov.badge;
+        var valSla = $('#gov-val-sla');
+        if (valSla) valSla.textContent = gov.sla;
+        var valEta = $('#gov-val-eta');
+        if (valEta) valEta.textContent = gov.eta;
+        var valYield = $('#gov-val-yield');
+        if (valYield) valYield.textContent = gov.yield;
+      }
+
+      // Mode-specific visual states
+      if (mode === 'progress') {
+        $$('.stage-card').forEach(function (card, sIdx) {
+          var active = sIdx === index;
+          card.classList.toggle('is-active', active);
+          card.setAttribute('aria-pressed', String(active));
+        });
+      } else if (mode === 'lot') {
+        var isRma = index === 4;
+        var tree = $('#genealogy-tree');
+        if (tree) tree.classList.toggle('is-rma-mode', isRma);
+        var btnFwd = $('#btn-trace-forward');
+        if (btnFwd) {
+          btnFwd.classList.toggle('is-active', !isRma);
+          btnFwd.setAttribute('aria-pressed', String(!isRma));
+        }
+        var btnRma = $('#btn-trace-rma');
+        if (btnRma) {
+          btnRma.classList.toggle('is-active', isRma);
+          btnRma.setAttribute('aria-pressed', String(isRma));
+        }
+        var nodeWf = $('#node-wf-root');
+        var nodeAsm1 = $('#node-asm-01');
+        var nodeAsm2 = $('#node-asm-02');
+        var nodeDate = $('#node-datecode');
+        var nodeBin1 = $('#node-bin-1');
+        var nodeBin2 = $('#node-bin-2');
+        var nodeBin7 = $('#node-bin-7');
+        if (nodeWf) nodeWf.classList.toggle('is-selected', index === 0);
+        if (nodeAsm1) nodeAsm1.classList.toggle('is-selected', index === 1);
+        if (nodeAsm2) nodeAsm2.classList.toggle('is-selected', index === 2);
+        if (nodeDate) nodeDate.classList.toggle('is-selected', index === 3);
+        if (nodeBin1) nodeBin1.classList.toggle('is-selected', index === 3);
+        if (nodeBin7) nodeBin7.classList.toggle('is-selected', index === 4);
+      } else if (mode === 'cost') {
+        updateCostScenario(index === 1 ? 'mcu' : 'ai');
+      }
+
+      // Inspector updates
+      $('#inspector-title').textContent = data.title;
+      $('[data-inspector-intro]').textContent = data.intro;
+      $('[data-select-label]').textContent = data.selectLabel;
+      var footEl = $('[data-inspector-foot]');
+      if (footEl && data.foot) footEl.textContent = data.foot;
+      var bleedEl = $('#inspector-bleed-text');
+      if (bleedEl) {
+        bleedEl.textContent = mode === 'progress' ? 'WIP' : (mode === 'lot' ? 'LOT' : 'COST');
+      }
+
+      if (changedMode || demoSelect.options.length !== data.options.length) {
+        demoSelect.replaceChildren();
+        data.options.forEach(function (label, optionIndex) {
+          var option = document.createElement('option');
+          option.value = String(optionIndex);
+          option.textContent = label;
+          demoSelect.appendChild(option);
+        });
+      }
+      demoSelect.value = String(index);
+
+      data.labels.forEach(function (label, fieldIndex) {
+        var lEl = $('[data-field-label="' + fieldIndex + '"]');
+        if (lEl) lEl.textContent = label;
+        var vEl = $('[data-field-value="' + fieldIndex + '"]');
+        if (vEl) vEl.textContent = data.values[index][fieldIndex];
+      });
+
+      if (root.__dwFablessApplyLocale) root.__dwFablessApplyLocale();
+      if (animate) pulse(operations);
+    }
+    $$('[data-tab-group]').forEach(function (group) {
+      var buttons = Array.from(group.querySelectorAll('[role="tab"]'));
+      function activate(button) {
+        renderMap(button.dataset.mode, selected[button.dataset.mode], true);
+      }
+      buttons.forEach(function (button, index) {
+        button.addEventListener('click', function () { activate(button); });
+        button.addEventListener('keydown', function (event) {
+          var next = index;
+          if (event.key === 'ArrowRight') next = (index + 1) % buttons.length;
+          else if (event.key === 'ArrowLeft') next = (index - 1 + buttons.length) % buttons.length;
+          else if (event.key === 'Home') next = 0;
+          else if (event.key === 'End') next = buttons.length - 1;
+          else return;
+          event.preventDefault();
+          activate(buttons[next]);
+          buttons[next].focus({ preventScroll: true });
+        });
+      });
+    });
+    demoSelect.addEventListener('change', function () {
+      renderMap(currentMode, Number(demoSelect.value), true);
+    });
+    $$('.stage-card').forEach(function (card) {
+      card.addEventListener('click', function () {
+        renderMap('progress', Number(card.dataset.stage), true);
+      });
+    });
+    var btnFwd = $('#btn-trace-forward');
+    if (btnFwd) {
+      btnFwd.addEventListener('click', function () {
+        renderMap('lot', 0, true);
+      });
+    }
+    var btnRma = $('#btn-trace-rma');
+    if (btnRma) {
+      btnRma.addEventListener('click', function () {
+        renderMap('lot', 4, true);
+      });
+    }
+    var nodeScrap = $('#node-bin-7');
+    if (nodeScrap) {
+      nodeScrap.style.cursor = 'pointer';
+      nodeScrap.addEventListener('click', function () {
+        renderMap('lot', 4, true);
+      });
+    }
+    var nodeRoot = $('#node-wf-root');
+    if (nodeRoot) {
+      nodeRoot.addEventListener('click', function () {
+        renderMap('lot', 0, true);
+      });
+    }
+    var nodeAsm1 = $('#node-asm-01');
+    if (nodeAsm1) {
+      nodeAsm1.addEventListener('click', function () {
+        renderMap('lot', 1, true);
+      });
+    }
+    var nodeAsm2 = $('#node-asm-02');
+    if (nodeAsm2) {
+      nodeAsm2.addEventListener('click', function () {
+        renderMap('lot', 2, true);
+      });
+    }
+    var nodeDate = $('#node-datecode');
+    if (nodeDate) {
+      nodeDate.addEventListener('click', function () {
+        renderMap('lot', 3, true);
+      });
+    }
+    var nodeBin1 = $('#node-bin-1');
+    if (nodeBin1) {
+      nodeBin1.addEventListener('click', function () {
+        renderMap('lot', 3, true);
+      });
+    }
+    var nodeBin2 = $('#node-bin-2');
+    if (nodeBin2) {
+      nodeBin2.addEventListener('click', function () {
+        renderMap('lot', 3, true);
+      });
+    }
+    $$('.genealogy-tree [role="button"]').forEach(function (el) {
+      el.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          el.click();
+        }
+      });
+    });
+    var btnCostAi = $('#btn-cost-ai');
+    if (btnCostAi) {
+      btnCostAi.addEventListener('click', function () {
+        renderMap('cost', 0, true);
+      });
+    }
+    var btnCostMcu = $('#btn-cost-mcu');
+    if (btnCostMcu) {
+      btnCostMcu.addEventListener('click', function () {
+        renderMap('cost', 1, true);
+      });
+    }
+    $$('[data-open-mode]').forEach(function (card) {
+      function triggerOpen() {
+        var mode = card.dataset.openMode;
+        if (!mode) return;
+        revealMap();
+        renderMap(mode, selected[mode], true);
+        scrollToSection('fabless-map', false);
+        var tab = $('#map-tab-' + mode);
+        if (tab) tab.focus({ preventScroll: true });
+      }
+      card.addEventListener('click', function () {
+        triggerOpen();
+      });
+      card.addEventListener('keydown', function (event) {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          triggerOpen();
+        }
+      });
+    });
+  renderMap('progress', 0, false);
+})();
+</script>
+<script>
 /* Phase 2 section awareness: sole route producer; Version 49 remains downstream dispatcher. */
 (function () {
   'use strict';
@@ -3194,6 +3609,78 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
     '🟢 REAL-TIME · ZERO MANUAL LAG':['🟢 REAL-TIME · ZERO MANUAL LAG','🟢 实时 · 无人工延迟','🟢 即時 · 無人工延遲'],
     'STAR MARKET (科创板)':['STAR MARKET (科创板)','科创板','科創板']
   });
+  // Existing source demo text newly reachable through the restored map runtime.
+  Object.assign(copy,{
+    "🟢 Dự kiến hoàn tất CP: 21/10 (+5 ngày)":["🟢 CP completion estimate: 21/10 (+5 days)", "🟢 CP预计完成：21/10（+5天）", "🟢 CP預計完成：21/10（+5天）"],
+    "Tải Wafer Map điện tử, bóc tách Good/Bad dies lên hệ thống":["Upload electronic Wafer Maps and separate good/bad dies in the system", "上传电子晶圆图，在系统中区分良品/不良裸片", "上傳電子晶圓圖，在系統中區分良品/不良裸晶"],
+    "ASE / JCET (Đóng gói vỏ BGA)":["ASE / JCET (BGA packaging)", "ASE / JCET（BGA封装）", "ASE / JCET（BGA封裝）"],
+    "🟢 Dự kiến đóng gói: 25/10 (+4 ngày)":["🟢 Packaging estimate: 25/10 (+4 days)", "🟢 预计封装：25/10（+4天）", "🟢 預計封裝：25/10（+4天）"],
+    "Tự động tách lô Assembly, cấp Datecode laser-mark":["Automatically split assembly lots and assign laser-mark Datecodes", "自动拆分组装批次并分配激光标记日期码", "自動拆分組裝批次並分配雷射標記日期碼"],
+    "🟢 Cam kết giao hàng: 28/10 (Đúng hẹn)":["🟢 Committed delivery: 28/10 (On time)", "🟢 承诺交付：28/10（按时）", "🟢 承諾交付：28/10（準時）"],
+    "Hạch toán phân loại BIN 1/2, cấp chứng chỉ xuất kho COA":["Account for BIN 1/2 classification and issue shipment COAs", "核算BIN 1/2分级并签发出货COA", "核算BIN 1/2分級並簽發出貨COA"],
+    "Phả hệ lô & ma trận phân loại":["Lot genealogy & classification matrix", "批次谱系与分级矩阵", "批次譜系與分級矩陣"],
+    "Mối liên kết liền mạch từ phiến wafer gốc đến từng lô đóng gói và cấp bậc chip BIN.":["Continuous links from the original wafer to each packaging lot and chip BIN grade.", "从原始晶圆到各封装批次及芯片BIN等级的连续关联。", "從原始晶圓到各封裝批次及晶片BIN等級的連續關聯。"],
+    "Chọn mắt xích phả hệ":["Select a genealogy link", "选择谱系节点", "選擇譜系節點"],
+    "Cấp độ phả hệ":["Genealogy level", "谱系层级", "譜系層級"],
+    "Định danh đối tác & Lot":["Partner & Lot identity", "合作伙伴与批次标识", "合作夥伴與批次識別"],
+    "Quy tắc mã hóa / Phân loại":["Coding / Classification rules", "编码／分级规则", "編碼／分級規則"],
+    "Khả năng truy xuất Digiwin ERP":["Digiwin ERP traceability", "Digiwin ERP追溯能力", "Digiwin ERP追溯能力"],
+    "WF-2410-A (Wafer Lot Gốc)":["WF-2410-A (Root Wafer Lot)", "WF-2410-A（原始晶圆批次）", "WF-2410-A（原始晶圓批次）"],
+    "ASM-01 (Lô OSAT #1 • BGA-256)":["ASM-01 (OSAT Lot #1 • BGA-256)", "ASM-01（OSAT批次#1 • BGA-256）", "ASM-01（OSAT批次#1 • BGA-256）"],
+    "ASM-02 (Lô OSAT #2 • QFN-64)":["ASM-02 (OSAT Lot #2 • QFN-64)", "ASM-02（OSAT批次#2 • QFN-64）", "ASM-02（OSAT批次#2 • QFN-64）"],
+    "⚡ Sự cố RMA (Cô lập hạt lỗi)":["⚡ RMA incident (Isolate defective dies)", "⚡ RMA事件（隔离不良裸片）", "⚡ RMA事件（隔離不良裸晶）"],
+    "Gốc phôi Wafer (Root Lot)":["Root Wafer Lot", "原始晶圆批次", "原始晶圓批次"],
+    "Lô WF-2410-A (25 phiến • Fab 12)":["Lot WF-2410-A (25 wafers • Fab 12)", "批次WF-2410-A（25片晶圆 • Fab 12）", "批次WF-2410-A（25片晶圓 • Fab 12）"],
+    "Khắc laser ID từng phiến • Grid dies":["Laser-mark each wafer ID • Die grid", "各晶圆激光标记ID • 裸片网格", "各晶圓雷射標記ID • 裸晶網格"],
+    "Lưu trữ toàn bộ Wafer Map, lịch sử lò luyện và yield phôi 98.5%":["Store complete Wafer Maps, furnace history and 98.5% wafer yield", "保存完整晶圆图、炉次历史及98.5%晶圆良率", "保存完整晶圓圖、爐次歷史及98.5%晶圓良率"],
+    "Tách lô đóng gói (Split Lot #1)":["Packaging split (Split Lot #1)", "封装拆批（拆分批次#1）", "封裝拆批（拆分批次#1）"],
+    "ASM-01 (Xưởng OSAT Khang Đạt)":["ASM-01 (Khang Đạt OSAT)", "ASM-01（Khang Đạt OSAT）", "ASM-01（Khang Đạt OSAT）"],
+    "15,000 chips (60%) • Vỏ FC-BGA-256":["15,000 chips (60%) • FC-BGA-256 package", "15,000颗芯片（60%）• FC-BGA-256封装", "15,000顆晶片（60%）• FC-BGA-256封裝"],
+    "Kế thừa 100% phả hệ từ 15 phiến wafer của lô WF-2410-A":["Inherit 100% genealogy from 15 wafers in lot WF-2410-A", "继承批次WF-2410-A中15片晶圆的100%谱系", "繼承批次WF-2410-A中15片晶圓的100%譜系"],
+    "Tách lô đóng gói (Split Lot #2)":["Packaging split (Split Lot #2)", "封装拆批（拆分批次#2）", "封裝拆批（拆分批次#2）"],
+    "ASM-02 (Xưởng OSAT Nhật Tân)":["ASM-02 (Nhật Tân OSAT)", "ASM-02（Nhật Tân OSAT）", "ASM-02（Nhật Tân OSAT）"],
+    "10,000 chips (40%) • Vỏ QFN-64":["10,000 chips (40%) • QFN-64 package", "10,000颗芯片（40%）• QFN-64封装", "10,000顆晶片（40%）• QFN-64封裝"],
+    "Theo dõi độc lập định mức keo, khung Cu leadframe và yield vỏ":["Track adhesive standards, Cu leadframes and packaging yield independently", "独立跟踪胶材定额、铜引线框架及封装良率", "獨立追蹤膠材定額、銅導線架及封裝良率"],
+    "Khắc laser Datecode & BIN":["Laser-mark Datecode & BIN", "激光标记日期码与BIN", "雷射標記日期碼與BIN"],
+    "85% xung nhịp cao (High Frequency)":["85% high frequency", "85%高频", "85%高頻"],
+    "Liên kết PO bán hàng với chính xác Datecode khắc nắp chip & BIN":["Link sales POs to the exact chip-marked Datecode & BIN", "将销售PO关联至芯片上准确标记的日期码与BIN", "將銷售PO關聯至晶片上準確標記的日期碼與BIN"],
+    "Cô lập rủi ro RMA Recall":["Isolate RMA recall risk", "隔离RMA召回风险", "隔離RMA召回風險"],
+    "Phiến #14 • Tọa độ [X:12, Y:45]":["Wafer #14 • Coordinates [X:12, Y:45]", "晶圆#14 • 坐标[X:12, Y:45]", "晶圓#14 • 座標[X:12, Y:45]"],
+    "Vết nứt vi mô biên phiến wafer":["Microcracks at the wafer edge", "晶圆边缘微裂纹", "晶圓邊緣微裂紋"],
+    "⚠️ CÔ LẬP CHÍNH XÁC: Chỉ thu hồi 450 chip cụm lỗi, cứu 24,550 chip!":["⚠️ PRECISE ISOLATION: Recall only 450 chips in the defective cluster, preserve 24,550 chips!", "⚠️ 精准隔离：仅召回不良群组中的450颗芯片，保留24,550颗芯片！", "⚠️ 精準隔離：僅召回不良群組中的450顆晶片，保留24,550顆晶片！"],
+    "Hệ thống phả hệ kép (Forward & Backward) giúp bảo vệ uy tín thương hiệu và tiết kiệm hàng triệu USD chi phí thu hồi linh kiện.":["Dual genealogy (Forward & Backward) helps protect brand reputation and save millions of USD in component recall costs.", "双向谱系（正向与反向）有助于保护品牌声誉并节省数百万美元的元件召回成本。", "雙向譜系（正向與反向）有助於保護品牌聲譽並節省數百萬美元的元件召回成本。"],
+    "Hạch toán giá vốn & lợi nhuận":["Cost & profit accounting", "成本与利润核算", "成本與利潤核算"],
+    "Bóc tách giá thành 4 tầng và đối chiếu trực tiếp với hợp đồng kinh doanh.":["Break down four cost layers and compare directly with sales contracts.", "分解四层成本并直接对照销售合同。", "分解四層成本並直接對照銷售合約。"],
+    "Chọn dự án đối chiếu":["Select a project to compare", "选择对照项目", "選擇對照專案"],
+    "Dự án & Dòng sản phẩm":["Project & Product line", "项目与产品线", "專案與產品線"],
+    "Cơ cấu giá vốn 4 tầng":["Four-layer cost structure", "四层成本结构", "四層成本結構"],
+    "Giá vốn vs Giá bán cam kết":["Cost vs Committed sales price", "成本与承诺售价", "成本與承諾售價"],
+    "Biên lợi nhuận gộp":["Gross margin", "毛利率", "毛利率"],
+    "Chip xử lý AI (FC-BGA 5nm)":["AI processor chip (FC-BGA 5nm)", "AI处理芯片（FC-BGA 5nm）", "AI處理晶片（FC-BGA 5nm）"],
+    "Giá vốn: $8.40 • Giá bán: $12.50":["Cost: $8.40 • Sales price: $12.50", "成本：$8.40 • 售价：$12.50", "成本：$8.40 • 售價：$12.50"],
+    "🟢 32.8% (Đạt mục tiêu ban điều hành > 30%)":["🟢 32.8% (Meets management target > 30%)", "🟢 32.8%（达到管理层目标>30%）", "🟢 32.8%（達到管理層目標>30%）"],
+    "Chip Vi điều khiển IoT (QFN 28nm)":["IoT microcontroller chip (QFN 28nm)", "IoT微控制器芯片（QFN 28nm）", "IoT微控制器晶片（QFN 28nm）"],
+    "Giá vốn: $1.20 • Giá bán: $1.85":["Cost: $1.20 • Sales price: $1.85", "成本：$1.20 • 售价：$1.85", "成本：$1.20 • 售價：$1.85"],
+    "🟢 35.1% (Biên an toàn cao nhờ tối ưu chi phí phôi)":["🟢 35.1% (Strong buffer through optimized wafer costs)", "🟢 35.1%（优化晶圆成本带来较高安全空间）", "🟢 35.1%（最佳化晶圓成本帶來較高安全空間）"],
+    "Digiwin ERP tự động hấp thụ chi phí phế phẩm (Scrap absorption) vào giá thành chip đạt chuẩn, đảm bảo số liệu kế toán chuẩn xác từng xu.":["Digiwin ERP automatically absorbs scrap costs into the cost of good chips, ensuring accounting accuracy down to each cent.", "Digiwin ERP自动将报废成本吸收至合格芯片成本，确保会计数据精确到每一分。", "Digiwin ERP自動將報廢成本吸收至合格晶片成本，確保會計資料精確到每一分。"],
+    "Khép kín 100% phả hệ lô":["100% complete lot genealogy", "100%完整批次谱系", "100%完整批次譜系"],
+    "WF-2410-A (25 phiến)":["WF-2410-A (25 wafers)", "WF-2410-A（25片晶圆）", "WF-2410-A（25片晶圓）"],
+    "2 Lô OSAT • 2 Datecodes":["2 OSAT Lots • 2 Datecodes", "2个OSAT批次 • 2个日期码", "2個OSAT批次 • 2個日期碼"],
+    "Cô lập 1.8% (Cứu 98.2%)":["Isolate 1.8% (Preserve 98.2%)", "隔离1.8%（保留98.2%）", "隔離1.8%（保留98.2%）"],
+    "Hạch toán đa tầng tự động":["Automatic multilayer accounting", "自动多层核算", "自動多層核算"],
+    "Giá bán: $12.50":["Sales price: $12.50", "售价：$12.50", "售價：$12.50"],
+    "Giá vốn: $8.40":["Cost: $8.40", "成本：$8.40", "成本：$8.40"],
+    "Biên gộp: 32.8%":["Gross margin: 32.8%", "毛利率：32.8%", "毛利率：32.8%"],
+    "Chiếm 64.9% giá bán":["64.9% of sales price", "占售价的64.9%", "占售價的64.9%"],
+    "🟢 Biên an toàn cao nhờ tối ưu chi phí phôi":["🟢 Strong buffer through optimized wafer costs", "🟢 优化晶圆成本带来较高安全空间", "🟢 最佳化晶圓成本帶來較高安全空間"],
+    "Giá vốn $8.40":["Cost $8.40", "成本$8.40", "成本$8.40"],
+    "Giá vốn $1.20":["Cost $1.20", "成本$1.20", "成本$1.20"],
+    "Lợi nhuận gộp 32.8%":["Gross margin 32.8%", "毛利率32.8%", "毛利率32.8%"],
+    "Lợi nhuận gộp 35.1%":["Gross margin 35.1%", "毛利率35.1%", "毛利率35.1%"],
+    "Lợi nhuận gộp":["Gross profit", "毛利", "毛利"],
+    "Wafer & Mask: $4.20 | OSAT: $2.10 | Test: $1.20 | Quản lý: $0.90":["Wafer & Mask: $4.20 | OSAT: $2.10 | Test: $1.20 | Management: $0.90", "晶圆与光罩：$4.20 | OSAT：$2.10 | 测试：$1.20 | 管理：$0.90", "晶圓與光罩：$4.20 | OSAT：$2.10 | 測試：$1.20 | 管理：$0.90"],
+    "Wafer: $0.65 | OSAT: $0.35 | Test: $0.12 | Quản lý: $0.08":["Wafer: $0.65 | OSAT: $0.35 | Test: $0.12 | Management: $0.08", "晶圆：$0.65 | OSAT：$0.35 | 测试：$0.12 | 管理：$0.08", "晶圓：$0.65 | OSAT：$0.35 | 測試：$0.12 | 管理：$0.08"]
+  });
   var titles={
     en:['Digiwin | IC Design / Fabless Operations','Explore an outsourced-operations review framework for IC Design and Fabless teams.'],
     'zh-Hans':['Digiwin | IC 设计 / Fabless 运营','了解面向 IC 设计与 Fabless 团队的委外运营核对框架。'],
@@ -3212,7 +3699,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
     var walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,null);
     var node;
     while((node=walker.nextNode())){
-      if(node.parentElement&&node.parentElement.closest('script,style,option'))continue;
+      if(node.parentElement&&node.parentElement.closest('script,style,#fabless-locale-select option'))continue;
       if(!originals.has(node))originals.set(node,node.nodeValue);
       var source=originals.get(node),trimmed=source.trim();
       if(!trimmed)continue;
@@ -3231,6 +3718,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
     document.title=locale==='vi'?sourceTitle:titles[locale][0];
     if(description)description.setAttribute('content',locale==='vi'?sourceDescription:titles[locale][1]);
   }
+  root.__dwFablessApplyLocale=function(){apply(root.getAttribute('lang')||'vi')};
   var params=new URLSearchParams(window.location.search);
   var initial=params.get('lang');
   var locale=locales.indexOf(initial)>=0?initial:'vi';
