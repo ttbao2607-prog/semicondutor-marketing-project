@@ -41,7 +41,32 @@ These cells are **research hypotheses**, not six approved audiences. FDI/domesti
 | Public ecosystem or company-controlled source to be collected | No account-specific source entered in this S1 draft | `candidate` source class; individual accounts remain `unknown` | Add a research record only with URL/title, publisher, observation date, exact legal entity, Vietnam footprint, semiconductor activity, route rationale and FDI/domestic evidence; verify independently before targeting or public claim. |
 | Vy email propositions and Bảo's direct session observation | Revision plan records D1 questions. Bảo observed that the Lark pipeline appears mostly other industries with very limited semiconductor presence; dataset access and account evidence are unavailable here. | `candidate` proposal; observation provenance confirmed, underlying dataset and D1 decision `unknown` | Ask Bảo to settle D1; do not derive a customer list, exclusion, ownership fact or quantitative share from the observation. |
 
-**D1 decision gates.** Bảo needs to approve the semiconductor supply-chain inclusion boundary, whether adjacent sectors qualify, the evidence and treatment for FDI/domestic/mixed ownership, primary-route assignment for multi-activity entities, and the rule for conglomerates using shared systems. Until then this framework is draft only; no named account universe, audience upload, production targeting, customer proof or new claim follows from it. For any later account record, keep `verified` (source and entity/activity checked), `candidate` (plausible but incomplete), and `unknown` (unresolved) distinct, and record the source and reviewer rather than silently upgrading status.
+**D1 decision status (Approved Closeout Specification, 2026-09-30).** Phê duyệt chính thức D1 từ Quản lý sản phẩm (Bảo) và định hướng từ Sếp Vy đã khóa cứng các quy tắc định hình ICP, danh sách loại trừ và thông điệp nội địa:
+
+### Phê duyệt chính thức D1 — Khóa quyết định loại trừ tập đoàn lớn & Phân khúc nội địa
+
+1. **Quyết định loại trừ tập đoàn lớn (Excluded Companies):**
+   - **Danh sách loại trừ bắt buộc (Excluded Companies):** `Intel`, `Samsung Electronics`, `Hana Micron`, `Amkor Technology`.
+   - **Lý do loại trừ:** Các đại tập đoàn FDI Tier-1 này vận hành trên hệ thống quản trị sản xuất toàn cầu (global proprietary ERP/MES) được chuẩn hóa từ tập đoàn mẹ, không có thẩm quyền quyết định độc lập tại Việt Nam cho hệ thống cốt lõi và không thuộc tệp khách hàng tiềm năng khả thi cho chiến dịch Digital Ads cục bộ.
+   - **Cơ chế áp dụng:** Khóa cứng cấu hình `Excluded Companies: Intel, Samsung Electronics, Hana Micron, Amkor Technology` trên tất cả chiến dịch và nhóm quảng cáo (LinkedIn Campaign / Ad sets).
+
+2. **Định vị tập trung 100% vào Chuỗi cung ứng & Công nghiệp phụ trợ bán dẫn (Supporting Industries & Supply Chain):**
+   - Trọng tâm tiếp cận chuyển hướng toàn diện vào các doanh nghiệp nằm trong chuỗi giá trị và công nghiệp phụ trợ bán dẫn tại Việt Nam:
+     + Sản xuất mạch in (PCB) và đế bán dẫn (Substrate).
+     + Vật liệu bán dẫn & đóng gói (Packaging materials, khuôn dập, hóa chất).
+     + Linh kiện điện tử & cụm lắp ráp chuyên dụng.
+     + Gia công cơ khí chính xác cho thiết bị và linh kiện bán dẫn (Precision machining / tooling).
+
+3. **Thông điệp chiến lược cho Phân khúc Nội địa (Domestic Segment Messaging):**
+   - **Thông điệp cốt lõi:** *"Đủ chuẩn tham gia vào chuỗi cung ứng bán dẫn"* — giải quyết trực tiếp rào cản lớn nhất của các nhà máy sản xuất linh kiện, phụ trợ Việt Nam khi muốn trở thành vendor/supplier cho các tập đoàn bán dẫn toàn cầu.
+   - **Hai biến thể Headline chính thức (Official Headline Variants):**
+     * **Biến thể 1:** *"Đủ chuẩn tham gia chuỗi cung ứng bán dẫn"* — Trực diện, khẳng định năng lực đáp ứng chuẩn vendor quốc tế.
+     * **Biến thể 2:** *"Chuẩn hóa vận hành để tham gia chuỗi cung ứng bán dẫn"* — Nhấn mạnh vào giải pháp chuẩn hóa quy trình sản xuất, số hóa quản trị để vượt qua các kỳ audit khắt khe.
+   - **Yêu cầu audit từ khách hàng tập đoàn (Corporate Customer Audit Requirements):**
+     * **Truy xuất lot (Lot Traceability):** Số hóa phả hệ lot (genealogy), phân tách/gộp lot (lot split/merge), liên kết chặt chẽ nguyên vật liệu, thiết bị, thông số 4M1E xuyên suốt quy trình sản xuất.
+     * **Kiểm soát yield & chất lượng (Yield & Quality Control):** Quản lý dữ liệu kiểm thử (test data) thời gian thực, giám sát SPC liên tục, cảnh báo biến động yield và chặn lỗi ngay tại nguồn.
+     * **Quản lý recipe (Recipe Management):** Khóa tham số công thức sản xuất, ngăn chặn rủi ro sai sót thao tác thủ công từ công nhân, đảm bảo tính nhất quán tuyệt đối giữa các mẻ hàng.
+     * **Đáp ứng audit tiêu chuẩn & khách hàng tập đoàn (Standard & Tier-1 Audit Compliance):** Minh bạch hồ sơ điện tử, trích xuất báo cáo audit nhanh chóng trong vài phút, chứng minh độ tin cậy vận hành chuẩn mực khi đón đoàn chuyên gia đánh giá từ các tập đoàn toàn cầu.
 
 ## Claims register
 
@@ -61,6 +86,7 @@ These cells are **research hypotheses**, not six approved audiences. FDI/domesti
 | OSAT / factories | Split/merge lot, test data, 4M1E, traceability, audit and cost close are disconnected | Join lot–test–quality–WIP–cost records so an operating question can be traced to responsible data and action | Mechanism-only; no customer result | Review an operating pain / discuss a specific traceability or cost-close problem |
 | Fabless commercialization | Outsource WIP, Datecode/BIN/lot, forecast and cost are disconnected | Link outsourced WIP and product/lot data to planning and cost visibility | Mechanism-only; named cases remain leads | Discuss outsourced-WIP visibility |
 | Supplier / SI / automation / materials-equipment | ERP–MES–OT, quality, traceability and partner boundaries are unclear | Define integration ownership and data handoffs across ERP/MES/OT | Architecture hypothesis only | Partner/integration discussion |
+| Phân khúc Nội địa (Domestic Supporting Industries - PCB, Substrate, Vật liệu, Cơ khí chính xác) | Không đáp ứng được các tiêu chuẩn audit khắt khe của khách hàng tập đoàn toàn cầu (truy xuất lot, recipe, yield, chất lượng) để tham gia chuỗi cung ứng | Chuẩn hóa quy trình vận hành và dữ liệu sản xuất (truy xuất lot, SPC yield, quản lý recipe) giúp nhà máy nội địa đủ chuẩn tham gia chuỗi cung ứng bán dẫn | Cơ chế vận hành & chuẩn hóa dữ liệu audit (Mechanism-only; không cam kết khống kết quả) | Headline: *"Đủ chuẩn tham gia chuỗi cung ứng bán dẫn"* / *"Chuẩn hóa vận hành để tham gia chuỗi cung ứng bán dẫn"*. CTA: Khảo sát hiện trạng vận hành / Đánh giá mức độ sẵn sàng audit chuỗi cung ứng |
 
 ## Review checklist and handoff
 

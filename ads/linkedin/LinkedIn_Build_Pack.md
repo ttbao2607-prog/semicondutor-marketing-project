@@ -13,15 +13,52 @@
 - Audience Expansion: **OFF** baseline.
 - LinkedIn Audience Network: **OFF** baseline.
 
-## Prospecting hypotheses
+## Cấu trúc Chiến dịch LinkedIn Ads (2 Parallel Campaigns Architecture)
 
-| Sanitized ad set | Include hypotheses | Exclude hypotheses | Status |
-|---|---|---|---|
-| LI-P1-OSAT-OPS | Vietnam; OSAT/factory; operations, manufacturing, quality, process engineering, supply chain, IT/MES; manager/head/director/VP where available | Students, recruitment, unrelated consumer electronics, broad policy-only roles | Sanitized external validation completed; no delivery evidence. Production mapping and eligibility remain gated. |
-| LI-P1-FABLESS-WIP | Vietnam; fabless/commercialization; operations, planning, supply chain, R&D/program, finance; manager/director/VP | Pure academic/recruitment, unrelated chip hobby/consumer roles | Sanitized external validation completed; no delivery evidence. Production mapping and eligibility remain gated. |
-| LI-P1-PARTNER-INTEGRATION | Vietnam; supplier/SI/automation/materials-equipment; ERP/MES/OT, solution engineering, partner/channel, quality; manager/director | End-user-only exclusions where partner objective is selected; unrelated sales roles | Sanitized external validation completed; no delivery evidence. Production mapping and eligibility remain gated. |
+Căn cứ quyết định tái cấu trúc tài khoản để đảm bảo tuân thủ trần ngân sách 600.000 VNĐ/ngày (~23 USD/ngày) và điều kiện ngân sách tối thiểu của LinkedIn (~$10/ngày/campaign), toàn bộ cấu trúc prospecting được tổ chức thành **ĐÚNG 2 CAMPAIGN SONG SONG**:
+
+### 1. Bảng phân bổ ngân sách ngày (Daily Budget Allocation)
+
+| Campaign ID | Phân khúc trọng tâm | Ngôn ngữ | Ngân sách/ngày (VNĐ) | Ngân sách/ngày (USD tham chiếu) | Tuân thủ sàn LinkedIn (~$10/ngày) |
+|---|---|---|---:|---:|---|
+| **Campaign 1:** `LI-CMP-FDI-SEGMENT` | Chuỗi cung ứng FDI (OSAT, Fabless, Subcontractors) | EN, zh-Hans, zh-Hant | 300.000 VNĐ | ~$11.5 USD | ĐẠT (>= $10/ngày) |
+| **Campaign 2:** `LI-CMP-DOMESTIC-SEGMENT` | Công nghiệp phụ trợ nội địa (PCB, Substrate, Cơ khí chính xác, Vật liệu) | VI | 300.000 VNĐ | ~$11.5 USD | ĐẠT (>= $10/ngày) |
+| **TỔNG CỘNG** | **Toàn tài khoản LinkedIn Ads** | **VI, EN, zh-Hans, zh-Hant** | **600.000 VNĐ** | **~$23.0 USD** | **Khớp chính xác trần 600.000 VNĐ/ngày** |
+
+### 2. Thiết lập mục tiêu & Targeting chi tiết của 2 Campaign
+
+| Thông số thiết lập | Campaign 1: Phân khúc FDI (`LI-CMP-FDI-SEGMENT`) | Campaign 2: Phân khúc Nội địa (`LI-CMP-DOMESTIC-SEGMENT`) |
+|---|---|---|
+| **Mục tiêu chiến dịch (Objective)** | Brand Awareness | Brand Awareness |
+| **Ngân sách ngày (Daily Budget)** | 300.000 VNĐ/ngày (~11.5 USD/ngày) | 300.000 VNĐ/ngày (~11.5 USD/ngày) |
+| **Ngôn ngữ (Campaign Language)** | English, Chinese (Simplified), Chinese (Traditional) | Vietnamese |
+| **Vị trí địa lý (Location)** | Vietnam (Khu công nghiệp trọng điểm Bắc Bộ & Nam Bộ) | Vietnam (Toàn quốc, tập trung các cụm công nghiệp phụ trợ) |
+| **Nhắm mục tiêu (Targeting)** | Matched Audience (Danh sách 100–300 công ty FDI tiềm năng) kết hợp Chức năng công việc & Cấp bậc: Kỹ thuật, Vận hành, Sản xuất, Chuỗi cung ứng, IT/MES (Manager, Head, Director, VP) | Ngành công nghiệp phụ trợ điện tử, cơ khí chính xác, mạch in, vật liệu bán dẫn (PCB, Substrate, Tooling, Packaging Materials) kết hợp Chức danh: Giám đốc nhà máy, Quản lý QA/QC, Trưởng phòng Vận hành/Sản xuất, IT Trưởng |
+| **Doanh nghiệp loại trừ (Excluded Companies)** | `Excluded Companies: Intel, Samsung Electronics, Hana Micron, Amkor Technology` | `Excluded Companies: Intel, Samsung Electronics, Hana Micron, Amkor Technology` |
+| **Đối tượng loại trừ khác (Demographic Exclusions)** | Sinh viên, thực tập sinh, người tìm việc, nhân sự tuyển dụng | Sinh viên, thực tập sinh, người tìm việc, các ngành tiêu dùng không liên quan |
+| **Thiết lập phân phối (Delivery Controls)** | Audience Expansion: **OFF**; LinkedIn Audience Network: **OFF** | Audience Expansion: **OFF**; LinkedIn Audience Network: **OFF** |
+| **Tài nguyên sáng tạo (Creative Assets)** | OSAT, Fabless, Partner B2B Static Cards & OSAT 6-Page PDF Document Ad (EN, zh-Hans, zh-Hant) | Domestic B2B Static Cards & Document Ads chuyên sâu (VI) |
 
 No company/contact upload is allowed. Account-list targeting must remain separate from role-delivery evidence. No PII, personal names, emails or raw lists are included.
+
+### 3. Thông điệp & Ad Copy tiếng Việt chuyên sâu cho Phân khúc Nội địa (Domestic Copy & Headlines)
+
+Phân khúc Nội địa nhắm vào các doanh nghiệp công nghiệp phụ trợ đang tìm cách trở thành nhà cung ứng cấp 1, cấp 2 cho các tập đoàn bán dẫn. Trọng tâm thông điệp là vượt qua các bài toán kiểm toán (audit) nghiêm ngặt.
+
+#### Hai biến thể Headline chính thức (Official Headline Variants):
+- **Headline Biến thể 1:** *"Đủ chuẩn tham gia chuỗi cung ứng bán dẫn"*
+- **Headline Biến thể 2:** *"Chuẩn hóa vận hành để tham gia chuỗi cung ứng bán dẫn"*
+
+#### Bản thiết kế nội dung quảng cáo (Ad Copy Specifications):
+
+| Thành phần quảng cáo | Biến thể A (Trực diện chuẩn vendor) | Biến thể B (Chuẩn hóa quy trình vượt audit) |
+|---|---|---|
+| **Headline chính thức** | **Đủ chuẩn tham gia chuỗi cung ứng bán dẫn** | **Chuẩn hóa vận hành để tham gia chuỗi cung ứng bán dẫn** |
+| **Mô tả ngắn (Short Headline)** | Chuẩn hóa quản trị sản xuất đáp ứng audit bán dẫn | Vượt qua audit chuỗi cung ứng bán dẫn toàn cầu |
+| **Nội dung chính (Primary Text)** | Rào cản lớn nhất để nhà máy phụ trợ Việt Nam bước vào chuỗi cung ứng bán dẫn toàn cầu là gì? Đó chính là năng lực vượt qua các kỳ đánh giá audit khắt khe từ khách hàng tập đoàn.<br><br>Hệ thống quản trị Digiwin giúp chuẩn hóa toàn diện vận hành:<br>• **Truy xuất lot (Lot Traceability):** Số hóa phả hệ lot, liên kết nguyên vật liệu, 4M1E qua từng công đoạn.<br>• **Kiểm soát yield & chất lượng:** Quản lý test data theo thời gian thực, giám sát SPC, phát hiện sớm biến động lỗi.<br>• **Quản lý recipe:** Khóa tham số thiết bị tự động, loại bỏ sai sót thao tác thủ công.<br>• **Đáp ứng audit tiêu chuẩn:** Trích xuất báo cáo minh bạch chỉ trong vài phút, khẳng định uy tín nhà máy. | Muốn gia nhập chuỗi cung ứng bán dẫn toàn cầu, nhà máy của bạn cần đáp ứng những tiêu chuẩn audit khắt khe nhất về chất lượng và truy xuất nguồn gốc.<br><br>Giải pháp quản trị sản xuất Digiwin đồng hành cùng doanh nghiệp phụ trợ Việt Nam chuẩn hóa vận hành:<br>1. **Truy xuất lot thời gian thực:** Quản lý chặt chẽ tách/gộp lot và truy nguyên vật tư.<br>2. **Kiểm soát yield & chất lượng:** Giám sát SPC liên tục, tối ưu tỷ lệ thành phẩm.<br>3. **Quản lý recipe chuẩn xác:** Đồng bộ công thức sản xuất, ngăn ngừa rủi ro vận hành.<br>4. **Sẵn sàng cho mọi kỳ audit:** Minh bạch dữ liệu theo chuẩn nhà sản xuất bán dẫn Tier-1/Tier-2. |
+| **Yêu cầu audit làm nổi bật** | Truy xuất lot, kiểm soát yield & chất lượng, quản lý recipe, đáp ứng audit khách hàng tập đoàn. | Truy xuất lot, kiểm soát yield & chất lượng, quản lý recipe, đáp ứng audit tiêu chuẩn quốc tế. |
+| **Nút kêu gọi (CTA Button)** | Tìm hiểu thêm (Learn More) | Tìm hiểu thêm (Learn More) |
+
 
 ## Retargeting definition
 
