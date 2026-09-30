@@ -1,6 +1,6 @@
 # LinkedIn Build Pack
 
-**Status:** offline creative revision and Bảo-approved proof-carousel v1 complete; authorized external read-only validation was completed on 2026-09-14. The public record retains only sanitized findings. No audience upload, creative attachment, campaign delivery or spend occurred.
+**Status:** offline creative revision and Bảo-approved proof-carousel v1 complete; authorized external read-only validation was completed on 2026-09-14. The public record retains only sanitized findings. A separately authorized 2026-09-30 Company List discovery audience was created and remains `Building`; no creative was attached, no campaign delivered, and no spend occurred.
 
 ## Format and delivery specifications
 
@@ -39,7 +39,7 @@ Phương án đề xuất tái cấu trúc tài khoản dựa trên gợi ý c�
 | **Thiết lập phân phối (Delivery Controls)** | Audience Expansion: **OFF**; LinkedIn Audience Network: **OFF** | Audience Expansion: **OFF**; LinkedIn Audience Network: **OFF** |
 | **Tài nguyên sáng tạo (Creative Assets)** | OSAT, Fabless, Partner B2B Static Cards & OSAT 6-Page PDF Document Ad (EN, zh-Hans, zh-Hant) | Domestic B2B Static Cards & Document Ads chuyên sâu (VI) |
 
-No company/contact upload is allowed under this production build-pack scope. A separate 2026-09-30 mandate from Bảo covers one sanitized 424-row Company List discovery audience only; its template-compatible file passed Campaign Manager’s pre-submit validation, but no audience was submitted because the final control accepts LinkedIn’s Ads Agreement and is pending action-time confirmation. Account-list targeting remains separate from role-delivery evidence. No PII, personal names, emails or raw lists are included in this public pack.
+No company/contact upload is authorized for production targeting under this build-pack scope. The one separately authorized, sanitized 424-row Company List discovery audience was created on 2026-09-30 and is still `Building`; Match rate and Audience count display `-`. It is not a production target, is not attached to an ad set, and does not establish delivery eligibility. Account-list targeting remains separate from role-delivery evidence. No PII, personal names, emails or raw lists are included in this public pack.
 
 ### 3. Thông điệp & Ad Copy tiếng Việt chuyên sâu cho Phân khúc Nội địa (Domestic Copy & Headlines)
 

@@ -22,7 +22,7 @@ The phase end state is:
 - tracking contract and QA evidence ready;
 - safe remote draft/paused/building object preparation after readiness and applicable UI confirmation.
 
-This plan authorizes preparation of the approved assets/routes and progression to the publication action-time gate. Publication requires the separate action-time confirmation required by Computer Use policy. Campaign enable, launch, spend, lead submission, production audience upload and live optimization remain **NOT AUTHORIZED**. A separate 2026-09-30 mandate from Bảo covers only one sanitized 424-row Company List discovery audience; its template-compatible file is prepared in the private directory, but submission is pending Bảo’s action-time confirmation because LinkedIn says the final control accepts its Ads Agreement.
+This plan authorizes preparation of the approved assets/routes and progression to the publication action-time gate. Publication requires the separate action-time confirmation required by Computer Use policy. Campaign enable, launch, spend, lead submission, production audience upload and live optimization remain **NOT AUTHORIZED**. Under a separate 2026-09-30 mandate, one sanitized 424-row Company List discovery audience was created after action-time confirmation; Campaign Manager shows `Building`, with no metrics yet. It remains unattached and does not authorize production use.
 
 ## 2. Decision register
 
@@ -67,7 +67,7 @@ Prepare the three static concepts, OSAT document ad, LinkedIn audience hypothese
 
 **Acceptance:** every asset maps to one segment, pain, mechanism, CTA and route; claims are verified or explicitly omitted; final copy contains no “draft/internal” language and no live placeholder.
 
-**Stop:** do not enable, launch, spend, submit a form or transmit audience/contact data outside the one separately authorized Company List discovery upload described above. The final upload control still requires its own action-time confirmation; publication remains behind its separate action-time confirmation gate.
+**Stop:** do not enable, launch, spend, submit a form or transmit audience/contact data beyond the one separately authorized Company List discovery upload, which is already complete. Keep its test audience unattached while `Building`; do not use it for production. Publication remains behind its separate action-time confirmation gate.
 
 ### C — Freeze DOM and run tracking QA
 
@@ -163,6 +163,8 @@ Use Keyword Planner and account search-term/overlap evidence when authorized. Re
 **Current readiness evidence (2026-09-14):** screenshot showed no ad-blocker dialog. “Turn off ad blockers” appeared only in accessibility/DOM text and was a false signal; direct Keyword Planner navigation and opening the query form worked. Classify this as `OBSERVED_DOM_FALSE_SIGNAL_NON_BLOCKING`, not a visible modal, blocker, or platform failure. The orange Vietnamese campaign-objective/budget update banner was informational. One OSAT Vietnamese-first query for Vietnam (Google network; Sep 2025–Aug 2026; adult ideas excluded) displayed no metrics and no related ideas: `OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION`, not zero demand. The query automatically created a draft entry in the Planner list without an explicit save click. Further clusters await an explicit decision/mandate on accepting additional automatically created Planner draft entries; this is a scope/side-effect gate, not an ad-blocker failure. Campaigns remain uncreated, disabled and unspent; no settings were changed. Fresh Fabless and ERP–MES–OT/partner evidence remains pending. No budget or approval status changed.
 
 **Reconciliation note (2026-09-18):** the preceding readiness narrative is superseded where it says further clusters await a mandate or Fabless/Partner evidence is pending. Main records all three planned clusters as completed; OSAT and Fabless had no displayed metrics, while Partner had one limited historical estimate and seven dash rows. See drafts/S02_Google_Search_Research.md for evidence scope.
+
+**Google Keyword Planner update (2026-09-30):** under the explicit Chrome research mandate, Codex queried 7 EN, 7 zh-Hans and 7 zh-Hant seeds for Vietnam using Google, Sep 2025–Aug 2026, with adult ideas excluded. All 21 rows had dashes across the displayed metrics; this is not demand=0 evidence. The zh-Hant results page contained an invisible “Turn off ad blockers” DOM heading, while the screenshot had no modal and the query completed. No campaign, ad group, keyword, budget or setting was changed; no enablement, spend, export or upload occurred. When the Planner home list was checked, it still showed only two existing Jul 20 drafts and no new list row was visible. Full receipt and screenshots: operations/CODEX_GOOGLE_PLANNER_DISCOVERY_RECEIPT.md and outputs/evidence/.
 
 Each ad group gets one VN-first RSA with 10–12 headlines and 4 descriptions. Add an English RSA only when English demand evidence exists. Prepare 4 callouts and 3 sitelinks. Final copy must map to the correct segment/pain/route and omit unverified proof.
 

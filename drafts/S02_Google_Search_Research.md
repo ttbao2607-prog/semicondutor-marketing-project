@@ -1,6 +1,6 @@
 # S02 — Google Search research
 
-**Status:** draft only; Vietnamese-first Keyword Planner seed research for OSAT, Fabless and ERP–MES–OT/partner completed on 2026-09-14 under one shared configuration. OSAT and Fabless had no displayed metrics; Partner had one row with limited historical estimates and seven rows with dashes. This does not establish demand or performance. No campaign created, enabled or spend incurred
+**Status:** draft only; the Vietnam-first Vietnamese queries for OSAT, Fabless and ERP–MES–OT/partner completed on 2026-09-14; separate EN, zh-Hans and zh-Hant batches (7 seeds each) were queried on 2026-09-30. All 21 new rows showed no displayed metrics under their matched language configurations. Neither historical nor new dashes establish demand or performance. No campaign was created, enabled or spent on.
 **Owner:** Executor in this batch  
 **Objective:** define VN/EN query clusters, intent hypotheses, negatives and validation steps without claiming volume, CPC, competition, overlap or campaign results.
 
@@ -26,6 +26,8 @@
 
 **Completed for this research slice:** the three planned seed clusters were queried, and automatic Planner draft creation was accepted. **Still unknown:** account/campaign/search-term overlap, live campaign settings, actual demand beyond the displayed estimates, CPC/competition where not displayed, final landing eligibility and conversion setup. Do not infer demand from dashes or treat the single Partner historical estimate as a forecast or delivery result. Preserve the screenshot/interaction evidence rule in `AGENTS.md`.
 
+**Multilingual Planner evidence (2026-09-30, Asia/Ho_Chi_Minh):** the receipt at operations/CODEX_GOOGLE_PLANNER_DISCOVERY_RECEIPT.md records 7 EN, 7 zh-Hans and 7 zh-Hant seeds with per-term observations and screenshots. Configuration was Vietnam, Google, Sep 2025–Aug 2026, adult ideas excluded; every new row showed dashes in all displayed metric fields, not zero demand. In zh-Hant the DOM contained a “Turn off ad blockers” heading that was not visible; results were returned successfully and the signal was treated as non-blocking. After returning home the Planner list still showed only two Jul 20 drafts; no new row was visible in that check. No campaign or setting was changed, no seeds were imported, and no enablement, spend, export or upload occurred.
+
 Production handoff: `../ads/google/Google_Search_Build_Sheet.md` (includes full 4-locale RSA copy suites: VI, EN, zh-Hans, zh-Hant).
 
 ## Query clusters
@@ -43,38 +45,38 @@ These are hypotheses, not observed query volume or buyer language.
 
 ## S3 candidate keyword register — offline expansion, 2026-09-29
 
-This register is a copy/relevance hypothesis, not a new Planner result or an approved keyword upload. S1's FDI/domestic criteria are provisional pending D1; ownership origin alone does not determine a query or route. Bảo chose one HTML with a top language switch at each existing route URL (D3); the ad-to-language entry behavior is still design work. Bảo selected Simplified Chinese for China FDI and Traditional Chinese separately for Taiwan FDI (D2): three languages with four locale variants, VI/EN/zh-Hans/zh-Hant. All Chinese keyword wording below remains an unreviewed translation/query hypothesis, not evidence of Taiwan or China buyer language. Therefore EN/ZH entries cannot be marked landing-ready. Exact/phrase below is a **test hypothesis**, not an observed match-type result. For every row, average monthly searches, competition and bid ranges are `unknown / not queried for this candidate` unless a separate dated observation is named.
+This register is a copy/relevance hypothesis, not a new Planner result or an approved keyword upload. S1's FDI/domestic criteria are provisional pending D1; ownership origin alone does not determine a query or route. Bảo chose one HTML with a top language switch at each existing route URL (D3); the ad-to-language entry behavior is still design work. Bảo selected Simplified Chinese for China FDI and Traditional Chinese separately for Taiwan FDI (D2): three languages with four locale variants, VI/EN/zh-Hans/zh-Hant. All Chinese keyword wording below remains an unreviewed translation hypothesis, not evidence of Taiwan or China buyer language. Therefore EN/ZH entries cannot be marked landing-ready. Exact/phrase below is a **test hypothesis**, not an observed match-type result. For every row, average monthly searches, competition and bid ranges are `unknown / not queried for this candidate` unless a separate dated observation is named.
 
 | ID | Candidate search wording | Language | Intent hypothesis | Business route | Match hypothesis | Displayed volume / source status |
 |---|---|---|---|---|---|---|
 | O-V1 | `phần mềm MES đóng gói kiểm thử bán dẫn` | VI | Solution | OSAT | Phrase | Unknown; candidate not separately queried |
 | O-V2 | `truy xuất lot kiểm thử bán dẫn` | VI | Problem/solution | OSAT | Exact | Unknown; candidate not separately queried |
-| O-E1 | `OSAT lot traceability software` | EN | Solution | OSAT | Phrase | Unknown; candidate not separately queried |
-| O-E2 | `semiconductor test data management` | EN | Solution | OSAT | Exact | Unknown; candidate not separately queried |
-| O-Z1 | `半导体封装测试 MES` | ZH-Hans provisional | Solution | OSAT | Phrase | Unknown; candidate not queried; terminology review pending |
-| O-Z2 | `半导体批次追溯` | ZH-Hans provisional | Problem/solution | OSAT | Exact | Unknown; candidate not queried; terminology review pending |
-| O-T1 | `半導體封裝測試 MES` | ZH-Hant Taiwan provisional | Solution | OSAT | Phrase | Unknown; not queried or terminology-reviewed |
-| O-T2 | `半導體批次追溯` | ZH-Hant Taiwan provisional | Problem/solution | OSAT | Exact | Unknown; not queried or terminology-reviewed |
+| O-E1 | `OSAT lot traceability software` | EN | Solution | OSAT | Phrase | No metrics displayed on 2026-09-30; see receipt; not zero |
+| O-E2 | `semiconductor test data management` | EN | Solution | OSAT | Exact | No metrics displayed on 2026-09-30; see receipt; not zero |
+| O-Z1 | `半导体封装测试 MES` | ZH-Hans provisional | Solution | OSAT | Phrase | No metrics displayed on 2026-09-30; see receipt; not zero |
+| O-Z2 | `半导体批次追溯` | ZH-Hans provisional | Problem/solution | OSAT | Exact | No metrics displayed on 2026-09-30; see receipt; not zero |
+| O-T1 | `半導體封裝測試 MES` | ZH-Hant Taiwan provisional | Solution | OSAT | Phrase | No metrics displayed on 2026-09-30; see receipt; not zero |
+| O-T2 | `半導體批次追溯` | ZH-Hant Taiwan provisional | Problem/solution | OSAT | Exact | No metrics displayed on 2026-09-30; see receipt; not zero |
 | F-V1 | `quản lý WIP gia công chip ngoài` | VI | Problem/solution | Fabless | Phrase | Unknown; candidate not separately queried |
 | F-V2 | `theo dõi gia công ngoài bán dẫn` | VI | Problem | Fabless | Exact | Unknown; candidate not separately queried |
-| F-E1 | `fabless outsourced WIP tracking` | EN | Solution | Fabless | Phrase | Unknown; candidate not separately queried |
-| F-E2 | `semiconductor subcontract production tracking` | EN | Solution | Fabless | Exact | Unknown; candidate not separately queried |
-| F-Z1 | `无晶圆厂外包生产在制品管理` | ZH-Hans provisional | Solution | Fabless | Phrase | Unknown; candidate not queried; terminology review pending |
-| F-Z2 | `芯片委外生产追踪` | ZH-Hans provisional | Problem/solution | Fabless | Exact | Unknown; candidate not queried; terminology review pending |
-| F-T1 | `無晶圓廠委外生產在製品管理` | ZH-Hant Taiwan provisional | Solution | Fabless | Phrase | Unknown; not queried or terminology-reviewed |
-| F-T2 | `晶片委外生產追蹤` | ZH-Hant Taiwan provisional | Problem/solution | Fabless | Exact | Unknown; not queried or terminology-reviewed |
+| F-E1 | `fabless outsourced WIP tracking` | EN | Solution | Fabless | Phrase | No metrics displayed on 2026-09-30; see receipt; not zero |
+| F-E2 | `semiconductor subcontract production tracking` | EN | Solution | Fabless | Exact | No metrics displayed on 2026-09-30; see receipt; not zero |
+| F-Z1 | `无晶圆厂外包生产在制品管理` | ZH-Hans provisional | Solution | Fabless | Phrase | No metrics displayed on 2026-09-30; see receipt; not zero |
+| F-Z2 | `芯片委外生产追踪` | ZH-Hans provisional | Problem/solution | Fabless | Exact | No metrics displayed on 2026-09-30; see receipt; not zero |
+| F-T1 | `無晶圓廠委外生產在製品管理` | ZH-Hant Taiwan provisional | Solution | Fabless | Phrase | No metrics displayed on 2026-09-30; see receipt; not zero |
+| F-T2 | `晶片委外生產追蹤` | ZH-Hant Taiwan provisional | Problem/solution | Fabless | Exact | No metrics displayed on 2026-09-30; see receipt; not zero |
 | P-V1 | `tích hợp ERP MES nhà máy bán dẫn` | VI | Solution | Supplier/Partner | Phrase | Unknown; candidate not separately queried |
 | P-V2 | `đối tác triển khai MES bán dẫn` | VI | Partner/solution | Supplier/Partner | Exact | Unknown; candidate not separately queried |
-| P-E1 | `semiconductor ERP MES integration` | EN | Solution | Supplier/Partner | Phrase | Unknown; candidate not separately queried |
-| P-E2 | `MES integration partner Vietnam` | EN | Partner/solution | Supplier/Partner | Exact | Unknown; candidate not separately queried |
-| P-Z1 | `半导体工厂 ERP MES 集成` | ZH-Hans provisional | Solution | Supplier/Partner | Phrase | Unknown; candidate not queried; terminology review pending |
-| P-Z2 | `越南半导体 MES 集成合作伙伴` | ZH-Hans provisional | Partner/solution | Supplier/Partner | Exact | Unknown; candidate not queried; terminology review pending |
-| P-T1 | `半導體工廠 ERP MES 整合` | ZH-Hant Taiwan provisional | Solution | Supplier/Partner | Phrase | Unknown; not queried or terminology-reviewed |
-| P-T2 | `越南半導體 MES 系統整合夥伴` | ZH-Hant Taiwan provisional | Partner/solution | Supplier/Partner | Exact | Unknown; not queried or terminology-reviewed |
+| P-E1 | `semiconductor ERP MES integration` | EN | Solution | Supplier/Partner | Phrase | No metrics displayed on 2026-09-30; see receipt; not zero |
+| P-E2 | `MES integration partner Vietnam` | EN | Partner/solution | Supplier/Partner | Exact | No metrics displayed on 2026-09-30; see receipt; not zero |
+| P-Z1 | `半导体工厂 ERP MES 集成` | ZH-Hans provisional | Solution | Supplier/Partner | Phrase | No metrics displayed on 2026-09-30; see receipt; not zero |
+| P-Z2 | `越南半导体 MES 集成合作伙伴` | ZH-Hans provisional | Partner/solution | Supplier/Partner | Exact | No metrics displayed on 2026-09-30; see receipt; not zero |
+| P-T1 | `半導體工廠 ERP MES 整合` | ZH-Hant Taiwan provisional | Solution | Supplier/Partner | Phrase | No metrics displayed on 2026-09-30; see receipt; not zero |
+| P-T2 | `越南半導體 MES 系統整合夥伴` | ZH-Hant Taiwan provisional | Partner/solution | Supplier/Partner | Exact | No metrics displayed on 2026-09-30; see receipt; not zero |
 | B-V1 | `Digiwin Việt Nam bán dẫn` | VI | Brand/navigation | Brand candidate; route unresolved | Exact | Unknown; not queried; brand baseline pending |
-| B-E1 | `Digiwin semiconductor Vietnam` | EN | Brand/navigation | Brand candidate; route unresolved | Exact | Unknown; not queried; brand baseline pending |
-| B-Z1 | `鼎捷 越南 半导体` | ZH-Hans provisional | Brand/navigation | Brand candidate; route unresolved | Exact | Unknown; not queried; brand name/term review pending |
-| B-T1 | `鼎捷 越南 半導體` | ZH-Hant Taiwan provisional | Brand/navigation | Brand candidate; route unresolved | Exact | Unknown; not queried or brand-name/terminology-reviewed |
+| B-E1 | `Digiwin semiconductor Vietnam` | EN | Brand/navigation | Brand candidate; route unresolved | Exact | No metrics displayed on 2026-09-30; see receipt; not zero |
+| B-Z1 | `鼎捷 越南 半导体` | ZH-Hans provisional | Brand/navigation | Brand candidate; route unresolved | Exact | No metrics displayed on 2026-09-30; see receipt; not zero |
+| B-T1 | `鼎捷 越南 半導體` | ZH-Hant Taiwan provisional | Brand/navigation | Brand candidate; route unresolved | Exact | No metrics displayed on 2026-09-30; see receipt; not zero |
 
 The prior Vietnamese Planner cluster observations remain as recorded above: OSAT and Fabless showed dashes, and the Partner cluster showed only one limited historical estimate for `electronics manufacturing ERP` (10 average monthly searches, 0% three-month change, -100% year-over-year change, other fields dashed). That wording is **not** one of the new entries above, and its estimate cannot be transferred to another term, language, match type or time window. A dash means no displayed data in that configuration, not zero demand. Candidate selection still needs search-term overlap, relevance, route-language fit and account evidence under a separate mandate.
 
