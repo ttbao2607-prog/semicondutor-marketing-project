@@ -7,7 +7,7 @@
 
 ## 1. Đề nghị quyết định
 
-Đề nghị quản lý phê duyệt **envelope media trung bình 1.000.000 VNĐ cho mỗi ngày delivery đủ điều kiện**, sau khi chốt ngày chạy và cách tính thuế/phí. Đây là mốc pacing và trần lập kế hoạch, không phải platform daily cap tự động hay quyền chi tiêu.
+**Quyết định phạm vi của Bảo ngày 2026-09-29:** dùng trần lập kế hoạch **35.000.000 VNĐ đến hết Scale 1** trong **8 tuần lịch / 56 ngày lịch**. Nếu dùng đủ mức 1.000.000 VNĐ mỗi ngày delivery hợp lệ thì tối đa 35 ngày paid trong cửa sổ đó; 56 ngày lịch không phải 56 ngày paid. Lịch ngày chạy theo giai đoạn, reserve, thuế/phí và quyền chi vẫn phải được chốt riêng. Mức 1.000.000 VNĐ/ngày là mốc pacing đề xuất, không phải platform daily cap tự động hay ủy quyền chi tiêu.
 
 Trong envelope được duyệt, Bảo tự giữ, test hoặc tái phân bổ phần linh hoạt theo evidence. Scale cấp 2 đề nghị nâng envelope lên **tối đa 1.250.000 VNĐ/ngày delivery đủ điều kiện**; vì tăng tổng ngân sách nên chỉ làm khi quản lý phê duyệt lại.
 
@@ -49,6 +49,8 @@ Campaign không tuyên bố đo trực tiếp việc người xem đã coi Digiw
 
 ## 4. Data floor và nhịp review
 
+**Định nghĩa KPI:** bảng ở `S04_Measurement_and_Budget.md` ghi numerator/denominator, nguồn, baseline `unknown`, mẫu tối thiểu, cadence và giới hạn cho LinkedIn distribution/reach/frequency, Search observed-query relevance/impression share, paid landing engagement, proof interaction, progression và cost. S04A dùng các ngưỡng bên dưới làm **đề xuất vận hành**, chưa được duyệt và không thay thế định nghĩa đó. Kiểm tra kỹ thuật 7 ngày xác nhận route, URL, measurement và đúng cấu hình; search-term relevance chỉ là tỷ lệ trên tập query hiển thị, nêu cỡ mẫu và tỷ lệ quan sát được. `7/10` không đủ làm kết luận phân bổ.
+
 Review đầu sau khoảng **7 ngày delivery hợp lệ**. Thời gian trôi qua không tự làm kết quả đủ mẫu; chưa đạt floor thì giữ observation.
 
 | Lớp | Floor tạm thời cho so sánh đầu | Ý nghĩa |
@@ -70,10 +72,20 @@ Giai đoạn tính theo **ngày delivery hợp lệ**, không phải ngày lịc
 | G0 — readiness | Business, route, tracking, audience/query, operation checks pass cho phần launch; chỉ go/no-go, chưa có performance conclusion | **0 VNĐ** |
 | P1 — test | ~7 ngày đầu để tạo delivery evidence và baseline sạch cho route OSAT-led + tactic đã ready; ra minimum, observation hoặc test question | Tối đa **5.950.000 VNĐ active** (`850.000 × 7`) + **1.050.000 VNĐ reserve giữ**; total ceiling **7.000.000 VNĐ** |
 | P2 — validate | ~14 ngày tiếp để lặp cùng-scope comparison, đạt floor và test một diagnosis/lần; ra observation/minimum hoặc Scale 1 | Tối đa **11.900.000 VNĐ active** (`850.000 × 14`) + **2.100.000 VNĐ reserve capacity**; total ceiling **14.000.000 VNĐ** |
-| P3 — Scale 1 | Có winner đạt toàn bộ quality gate; reallocation control 7 ngày trong envelope hiện hữu | Tối đa **7.000.000 VNĐ** tại **1.000.000 VNĐ/ngày** |
+| P3 — Scale 1 | Có winner đạt quality gate; workbook cũ tham chiếu hai chu kỳ review 7 ngày, nhưng ngày chạy cụ thể trong cửa sổ 8 tuần chưa được duyệt | Tối đa **14.000.000 VNĐ** cho hai chu kỳ tham chiếu tại **1.000.000 VNĐ/ngày**, trong trần chung 35 triệu; không buộc phải chi đủ |
 | P4 — Scale 2 | Scale-1 result lặp lại hai review window và được duyệt envelope lớn hơn; mở rộng có rollback check 7 ngày | Tối đa **8.750.000 VNĐ** tại **1.250.000 VNĐ/ngày** |
 
 Nếu một tactic không eligible, phần tiền đó được giữ lại, không âm thầm chuyển đi. P2 còn inconclusive thì quay về observation với một test giới hạn, không bị gắn fail/close.
+
+### Đối chiếu lịch và trần tiền theo email Vy (2026-09-29)
+
+| Phương án nguồn | Phép tính nếu tất cả ngày đều là delivery hợp lệ | Trạng thái |
+|---|---:|---|
+| Main S04A/S04B trước đây | `7 + 14 + 7 = 28` ngày hợp lệ × 1.000.000 VNĐ/ngày = **28.000.000 VNĐ**; thêm P4 7×1,25 triệu = **36.750.000 VNĐ** nếu duyệt riêng | Phương án một chu kỳ Scale 1 cũ; giữ làm provenance, không là trần hiện được Bảo chọn. |
+| Workbook local-only `ff493a7` | `01_Thiet_lap` D13=7, D14=14, D15=7, D16=2. `02_Lo_trinh` G1+G2+G3.1+G3.2 = **35 ngày hợp lệ / 35.000.000 VNĐ**; G4 7×1,25 triệu = **8.750.000 VNĐ** riêng | Đây là nguồn đã kiểm tra của con số **43.750.000 VNĐ** được nhắc trong email Vy; workbook không cấp quyền chi. |
+| Quyết định Bảo 2026-09-29 | **35.000.000 VNĐ** trần đến hết Scale 1, phân bố trong **8 tuần lịch / 56 ngày lịch**; nếu chạy đủ 1 triệu/ngày thì tối đa 35 ngày paid | Ngày chạy/giai đoạn chưa được duyệt. 56 ngày lịch không nhân thành 56 triệu. Scale 2 8,75 triệu cần phê duyệt riêng. |
+
+Bảo đã chọn trần 35 triệu và cửa sổ 8 tuần lịch, chưa chọn lịch ngày chạy theo phase, reserve active/held hay tax/fee basis; chưa có quyền chi. Search không hấp thụ vì thiếu query đúng intent thì giữ phần chưa chi, không mở keyword sai nhu cầu; đề xuất chuyển phần dư sang LinkedIn chỉ sau review evidence và quyết định allocation trong envelope được duyệt.
 
 ## 6. Bốn trạng thái quyết định
 
@@ -105,7 +117,7 @@ Nếu một tactic không eligible, phần tiền đó được giữ lại, kh�
 | Search | 600.000 VNĐ | 350.000 VNĐ | 0 VNĐ | 50.000 VNĐ | 1.000.000 VNĐ |
 | Retargeting, chỉ khi eligible | 600.000 VNĐ | 250.000 VNĐ | 100.000 VNĐ | 50.000 VNĐ | 1.000.000 VNĐ |
 
-Scale-1 maximum 7 ngày là **7.000.000 VNĐ**. Bucket chưa ready/không hấp thụ được allocation không chi; không đổi targeting/bid chỉ để chạm spend.
+Mỗi cửa sổ Scale-1 tham chiếu 7 ngày có trần **7.000.000 VNĐ**; hai cửa sổ tham chiếu có tổng trần **14.000.000 VNĐ** trong 35 triệu, nhưng lịch thực tế còn chờ duyệt. Bucket chưa ready/không hấp thụ được allocation không chi; không đổi targeting/bid chỉ để chạm spend.
 
 ### D. Success level 2 — expansion có phê duyệt lên 1.250.000 VNĐ/ngày
 

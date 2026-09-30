@@ -29,6 +29,32 @@ No company/contact upload is allowed. Account-list targeting must remain separat
 
 ## Creative pack
 
+### Vy four-locale offline source-copy coverage (2026-09-29)
+
+`assets/linkedin/source/vy-four-locale-copy-register.md` is the S5 copy and QA register. It proposes **three languages/four locale variants**: Vietnamese `vi`, English `en`, Simplified Chinese `zh-Hans` for China FDI and Traditional Chinese `zh-Hant` for Taiwan FDI. Bảo decided the scripts/markets and confirmed on 2026-09-29 that case/claim content already present in Vietnamese source has management approval for use and full translation. Localized terminology, exact claim scope, layout and platform readiness still require QA; new or broader claims require their own evidence. S1's FDI/domestic account framework is a research hypothesis, not an audience list or proof of platform delivery.
+
+| Asset family | Coverage in source-copy register | Existing canonical asset | Remaining production gate |
+|---|---|---|---|
+| OSAT, Fabless and Supplier/Partner static concepts | 3 × 4 complete editable-SVG node copy; EN/Hans/Hant square SVG/PNG and VI/Hans/Hant b2b-v2 candidates rendered | Three original source SVGs; six original square/b2b-v2 PNG derivatives | Stage A square renders inspected at 1200²; Stage B b2b-v2 raster edits inspected at 1254². Native wording, placement crop/mobile preview, alt text and platform format review remain open. |
+| OSAT six-page document | Six-page × four-variant source-line ledger; EN/Hans/Hant PDF rendered | Vietnamese six-page copy MD and original PDF | Stage A 3×6 A4 pages rendered and text/visual checked; native wording and active-account format review open. |
+| CAR-01 Taiwan, CAR-02 China, CAR-03 abstract, CAR-04 Vietnam | Four × four metric-free message candidates; 12 EN/Hans/Hant candidate PNGs rendered | Four approved English offline-v1 PNGs | VI metric-free cards remain copy-only. Native terminology, placement/crop and platform review remain open. CAR-03 stays abstract; English-only 200+/700+ metrics were removed from localized candidates and their translation remains a separate claim decision. |
+
+Bảo also chose the paid-entry design: preserve each existing route URL (`/semiconductor-osat`, `/fabless`, `/supplierecosystem`) and use a non-PII `lang` query parameter (`vi`, `en`, `zh-Hans`, `zh-Hant`) to select the initial locale; the top language switch remains user-controlled. Route behavior still needs per-route runtime and ad-entry QA before use. An ad-to-landing matrix must check the exact route plus parameter, existing UTM and `gclid`, initial locale, switch override, fallback and persistence. Do not launch an EN/Chinese ad to a Vietnamese-only runtime. Stage A produced localized offline square PNGs and OSAT PDFs; Stage B produced b2b-v2 and metric-free carousel raster candidates. No account object or campaign was created.
+
+**2026-09-29 Stage A render checkpoint:** added `assets/linkedin/source/{osat,fabless,partner}-square-{en,zh-Hans,zh-Hant}.svg`, corresponding `assets/linkedin/final/*.png` at 1200×1200, and `output/pdf/digiwin-osat-document-ad-6p-{en,zh-Hans,zh-Hant}.pdf` (six A4 pages each). All 39 SVG `<title>/<desc>/<text>` nodes per locale family map to the copy register; rendered images were inspected for glyphs, logo, line wrap and clipping. All 18 PDF pages were rendered to temporary QA images and visually scanned. Extracted text matched each displayed localized source-line row, including unchanged page-six contact values; page-5 `Table headers` is a ledger-only structure absent from the source card design. Font/HTML-print PDF passes that failed glyph or artwork QA were rejected. Final PDFs retain the original vector art through text-only replacement, with light-background contrast corrected on pages 2 and 5. Original assets below retain their historical evidence and hashes.
+
+**2026-09-29 Stage B raster candidate checkpoint:** Imagegen edits of the flattened source PNGs produced the following local-only matrix. The original PNGs remain untouched. Every candidate was opened and visually checked at 1254×1254 for text, accents/glyphs, logo/art, connectors, margin and claim scope. The first OSAT VI pass was rejected because its rail/nodes retained descriptive English; its saved candidate was replaced with a fully Vietnamese inspected pass. Imagegen outputs remain raster candidates without editable text layers or deterministic typography. Native terminology review, alt text, placement crop/mobile preview, platform export specifications and account rights remain open.
+
+| Raster family | VI | EN | zh-Hans | zh-Hant |
+|---|---|---|---|---|
+| OSAT b2b-v2 | `osat-linkedin-b2b-v2-vi-candidate.png` | original `osat-linkedin-b2b-v2.png` | `osat-linkedin-b2b-v2-zh-Hans-candidate.png` | `osat-linkedin-b2b-v2-zh-Hant-candidate.png` |
+| Fabless b2b-v2 | `fabless-linkedin-b2b-v2-vi-candidate.png` | original `fabless-linkedin-b2b-v2.png` | `fabless-linkedin-b2b-v2-zh-Hans-candidate.png` | `fabless-linkedin-b2b-v2-zh-Hant-candidate.png` |
+| Supplier/Partner b2b-v2 | `partner-linkedin-b2b-v2-vi-candidate.png` | original `partner-linkedin-b2b-v2.png` | `partner-linkedin-b2b-v2-zh-Hans-candidate.png` | `partner-linkedin-b2b-v2-zh-Hant-prototype.png` |
+| CAR-01 Taiwan, CAR-02 China, CAR-03 abstract, CAR-04 Vietnam | VI source copy only; image not rendered | four `carousel-car-0*-en-candidate.png` | four `carousel-car-0*-zh-Hans-candidate.png` | CAR-01/02/04 `-zh-Hant-candidate.png`; CAR-03 `-zh-Hant-prototype.png` |
+
+CAR-01/02 candidates remove the original English-only `200+`/`700+` metric panels while preserving Taiwan/China scope. CAR-03 has no customer name, mark, metric or result; CAR-04 retains the Bac Ninh and Ho Chi Minh City map pins. No image is cleared for live LinkedIn use by this offline render gate.
+
+
 Three static concepts are provided under `assets/linkedin/source/` and rendered under `assets/linkedin/final/`, one per segment. The six-page OSAT document follows: cover; operating questions; mechanism map; traceability lens; operating review; contact-copy CTA. The static concepts use customer-facing route copy and contain no customer name, number, case, outcome or unverified claim. Offline creative revision and PNG visual QA are recorded below; account/Page/placement/audience UI and live-object readiness remain pending.
 
 ### Offline proof-carousel v1

@@ -24,6 +24,19 @@ Every set remains an **unvalidated build hypothesis**; the Planner observations 
 
 Validate language, geography, match type, search volume, competition, CPC, search terms and overlap in Keyword Planner/account UI. **Historical UI evidence (2026-09-11):** Campaigns, Ad groups, Settings and Keyword Planner were observed functional; the orange `GOOGLE_ADS_GOAL_UPDATE_BANNER / INFORMATIONAL / NON_BLOCKING` was informational; the six supplied English OSAT seeds returned no displayed metrics (`OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION`). These are historical observations, not current validation or demand evidence.
 
+### Offline S3 candidate mapping (not build-ready)
+
+The per-term VI/EN/zh-Hans/zh-Hant wording, intent, route, exact/phrase hypothesis and `unknown` volume status are in `../../drafts/S02_Google_Search_Research.md` § S3 candidate keyword register. It supplements the historical English theme list above; neither list is an approved import. The earlier Planner dashes and the single `electronics manufacturing ERP` historical estimate cannot be assigned to any new candidate. D1 ICP and FDI/domestic classification remain provisional and do not create separate campaigns or targeting facts.
+
+| Candidate group | VI core IDs | EN test IDs | zh-Hans China test IDs | zh-Hant Taiwan test IDs | Landing and build gate |
+|---|---|---|---|---|---|
+| `OSAT_LOT_TEST` | O-V1, O-V2 | O-E1, O-E2 | O-Z1, O-Z2 | O-T1, O-T2 | Existing OSAT route; verify selected locale on arrival, relevant copy and term/negative overlap. |
+| `FABLESS_OUTSOURCE_WIP` | F-V1, F-V2 | F-E1, F-E2 | F-Z1, F-Z2 | F-T1, F-T2 | Existing Fabless route; verify outsourced-WIP promise and selected locale on arrival. |
+| `ERP_MES_OT_PARTNER` | P-V1, P-V2 | P-E1, P-E2 | P-Z1, P-Z2 | P-T1, P-T2 | Existing Supplier/Partner route; distinguish partner intent from generic electronics ERP. |
+| Brand group **candidate only** | B-V1 | B-E1 | B-Z1 | B-T1 | Route unresolved; confirm objective, baseline, existing brand overlap and locale destination before group design. |
+
+Bảo selected one HTML with a top language switch at each existing URL (D3). How an ad opens the intended VI/EN/zh-Hans/zh-Hant view, preserves UTM and `gclid`, and avoids redirect/source loss still needs design and QA; a switch existing in HTML does not prove the entry behavior. D2 selects Simplified Chinese for China FDI and Traditional Chinese separately for Taiwan FDI; all candidate Chinese wording is unqueried and unreviewed. Do not create EN/Chinese RSAs, upload terms or mark a group ready until the matching landing copy, locale-specific translation review and account observations exist. Vietnamese-first remains the current offline structure, not a demand conclusion. Brand terms must be reported separately from non-brand semiconductor intent.
+
 **Current Planner evidence (2026-09-14, Asia/Ho_Chi_Minh):** screenshots showed no ad-blocker dialog. The string remained in the accessibility/DOM tree as a false signal; direct navigation and the Keyword Planner query form worked. Classify `OBSERVED_DOM_FALSE_SIGNAL_NON_BLOCKING`, not a visible modal or blocker. The orange Vietnamese goal/budget mechanism-update banner was visible and informational. Shared query configuration for all three seed clusters: Vietnam, Vietnamese, Google, Sep 2025–Aug 2026, adult ideas excluded. OSAT: all displayed metric fields were dashes and the chart/related-idea panel showed no data; classify `OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION`, not zero demand. Fabless: all eight seed rows showed dashes in every displayed metric field; classify `OBSERVED_NO_DISPLAYED_DATA_IN_CURRENT_CONFIGURATION`, not zero demand. Partner: eight seed rows; only `electronics manufacturing ERP` displayed average monthly searches 10, three-month change 0%, and year-over-year change -100%; its other displayed metrics were dashes. Each of the other seven rows showed dashes in all displayed metric fields. This is limited historical UI evidence, not a demand, bid, competition, eligibility or performance conclusion. “Get results” automatically created a draft plan entry after each of the three queries, without an explicit save click; these are not campaigns. This query work was authorized with acceptance of that side effect. No campaign was created or modified, no settings changed, and no enablement, spend, export or upload occurred. This is not a validated account-wide failure. Campaign geography, language, network and auto-tagging remain unverified.
 
 ## Negative taxonomy and overlap
@@ -33,6 +46,8 @@ Validate language, geography, match type, search volume, competition, CPC, searc
 - Consumer/unrelated: `phone`, `gpu`, `arduino`, `repair`, unrelated chip design tools.
 - Free/download/crack: `free`, `open source`, `download`, `crack`, `license key`.
 - News/policy/investment: `news`, `stock`, `investment`, unless a later route explicitly supports it.
+- Stock/investment Vietnamese review set: `cổ phiếu`, `đầu tư`; assess factory-investment context before any negative is applied.
+- Employment/education Vietnamese review set: `việc làm`, `khóa học`, `là gì`; assess query context before applying.
 - Competitor terms: excluded by default pending Bảo decision; do not bid on competitor names.
 
 Do not blanket-negative `MES`, `ERP`, `traceability`, `quality`, `WIP` or ambiguous technical terms before observing intent. Deduplicate cross-group overlap and map each retained term to one segment/route.

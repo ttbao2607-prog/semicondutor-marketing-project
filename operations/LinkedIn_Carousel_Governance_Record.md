@@ -28,6 +28,10 @@
 | CAR-03 proof-safe abstract | `assets/linkedin/final/carousel-car-03-proof-abstract-v1.png` | 1254×1254 | `78a7ee4869ca1406a983958215544e96552729d4c02920bf5c950659da19f7f3` | Abstract evidence/network visual; no customer name, logo, result, ranking or endorsement. |
 | CAR-04 Vietnam | `assets/linkedin/final/carousel-car-04-vietnam-v1.png` | 1254×1254 | `8948f6cbf229ec87d65722104f56f42f38a5dde86ccb6786ffa1baeb0a634d2c` | Ho Chi Minh City and Bac Ninh office-presence copy; no team-size or deployment-outcome claim. |
 
+## Localized carousel candidate batch (2026-09-29)
+
+A separate offline batch has 12/12 candidate cards at 1254×1254 (four cards in each of `en`, `zh-Hans` and `zh-Hant`), with local visual QA. The localized CAR-01 and CAR-02 variants omit the `200+ semiconductor companies` and `700+ IC customers` figures; this does not alter the approved Vietnamese v1 files, claims, hashes or source boundaries above. These candidates are not the canonical v1 assets and have not been uploaded, approved as live LinkedIn objects or delivered. Nine planned B2B v2 variants (`vi`/`zh-Hans`/`zh-Hant` across OSAT, Fabless and Supplier/Partner) are rendered offline in the separate creative slice; no new EN B2B image or live approval is claimed.
+
 ## Source and live-use boundary
 
 - Source URLs, access dates, claim scope and territory are defined in `assets/linkedin/source/carousel-proof-pre-generation-brief.md` and `operations/Public_Source_Register.md`.

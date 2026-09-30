@@ -3,6 +3,8 @@
 **Status:** PLAN APPROVED / EXECUTION ACTIVE / LAUNCH NOT AUTHORIZED
 **Revision:** 2026-09-14 · Asia/Ho_Chi_Minh
 **Revision note (2026-09-14):** Corrected the prior ad-blocker classification: the string was DOM/accessibility-only, with no visible dialog, and did not prevent Planner interaction. The three planned OSAT, Fabless and Partner queries were completed with accepted automatic Planner-draft side effects; results remain limited historical UI evidence, not demand validation. No operational approval gates or budget changed.
+
+**Current decision note (2026-09-29):** The dated build/Phase records below remain historical. Bảo chose `vi/en/zh-Hans/zh-Hant` across the three existing landing paths, each with one HTML, a top language switch and a non-PII `lang` query value for initial selection when an ad links to that route. This does not change the native LinkedIn delivery decision or assert that a website destination is required for a LinkedIn format. OSAT, Fabless and Supplier/Partner each have a complete offline four-locale HTML/copy candidate with local QA; OSAT locale runtime is now layered onto the local PageSpeed source as an offline combined candidate; tracking and 320px/desktop four-locale runtime checks pass. LinkedIn has four-locale source copy; Stage A rendered and visually checked nine localized static SVG/PNG assets and three localized six-page PDFs offline. The localized carousel candidate batch has 12/12 offline 1254×1254 cards with QA; localized CAR-01/02 omit the `200+`/`700+` metrics, and nine planned B2B v2 variants (`vi`/`zh-Hans`/`zh-Hant` across OSAT, Fabless and Supplier/Partner) are rendered offline; no new EN B2B image is claimed. The public pages remain Vietnamese after a separate 2026-09-29 PageSpeed same-URL revision; its scope closed as `P4_P5_CLOSED_PARTIAL_ACCEPTANCE_FROZEN` with live Mobile below 80 and formal revision receipts PENDING. Locale runtime is not live-verified. The PageSpeed production closeout below remains unchanged by these offline locale candidates. Bảo approved full use/translation of case/claim already present in Vietnamese source, with exact metric/entity/geography/date/source/scope retained; native terminology and visual QA remain, and new or broader claims require separate proof. CAR-03 still uses abstract customer-safe copy. No localization draft is a publication, account-object or spend authorization.
 **Owner:** Executor leaf, reporting to Coordinator/Auditor
 **Canonical branch:** `main`. **Evidence review slice provenance:** `slice/google-ads-blocker-evidence` was branched from baseline commit `393caa365b5a183c72c90e3e2a571e18ca3ebdb2`.
 
@@ -26,14 +28,14 @@ This plan authorizes preparation of the approved assets/routes and progression t
 
 ### Approved decisions
 
-- Use Vietnamese-first messaging while retaining necessary English technical terms.
+- Use Vietnamese-first messaging on the currently published pages. Future localized source candidates use `vi/en/zh-Hans/zh-Hant` under the 2026-09-29 decision, with market-specific copy and necessary technical terms.
 - Use official/company-controlled Digiwin brand assets only.
 - LinkedIn is native/in-platform. Do not use LadiPage as LinkedIn’s primary destination; use the official LinkedIn Company Page only if a destination is required.
 - Google Search may use the three specified LadiPage routes, subject to final route and publication QA.
-- Keep proof mechanism-only unless claims, named cases, numbers, scope and usage rights are independently verified.
+- Keep proof mechanism-only unless claims, named cases, numbers, scope and usage rights are independently verified. As of 2026-09-29, Bảo has approved use/translation of case/claim already present in Vietnamese source within its exact recorded scope; this does not clear new or expanded proof.
 - Use shared GTM/GA4 if it exists; do not create a new container or property.
 
-### Assumptions to validate
+### Historical assumptions at initial plan creation
 
 - The current OSAT HTML draft is a reusable design/content starting point, not a final published route.
 - The existing LadiPage Basic import/preview evidence is sufficient to continue draft preparation, but does not prove publication compatibility.
@@ -42,12 +44,12 @@ This plan authorizes preparation of the approved assets/routes and progression t
 
 ### Deferred mandatory manager decisions (L2 before launch)
 
-- Approved actual budget envelope, including tax/fee basis.
+- Spend authority, tax/fee basis and the paid-day/phase schedule within Bảo's 35m Scale 1 ceiling; separate approval for Scale 2.
 - Campaign date window and timezone/currency confirmation for live delivery.
 
 Publication is an approved scope item that remains gated by action-time confirmation. Other evidence/platform blockers, proof-use issues and material business-scope changes remain stop conditions.
 
-The working `1,000,000 VND/day` figure below is labeled **DRAFT / MANAGEMENT APPROVAL PENDING** and is not an approved budget.
+The working `1,000,000 VND/day` rate and channel split below were proposals; the later 35m Scale 1 ceiling is recorded in §8 and is not spend authority.
 
 ## 3. Workstreams and acceptance
 
@@ -147,7 +149,7 @@ Each card carries a recorded source, owner, geography, date/scope, claim wording
 - Ad groups: `OSAT_LOT_TEST`, `FABLESS_OUTSOURCE_WIP`, `ERP_MES_OT_PARTNER`.
 - Match types: exact and phrase only.
 - Geography: Vietnam presence-only.
-- Languages: Vietnamese and English; Vietnamese-first.
+- Landing content preselection for the approved localization design: `lang=vi|en|zh-Hans|zh-Hant` (three languages/four locale variants); the current live routes remain Vietnamese-first until a separate publication and QA gate. These URL values select page copy and do not approve Google Search campaign language targeting. Search language settings remain proposed and require account/Planner configuration review before any build or launch.
 - Network: Search Network only.
 - Display: **OFF**.
 - Search Partners: **OFF**.
@@ -168,13 +170,15 @@ Each ad group gets one VN-first RSA with 10–12 headlines and 4 descriptions. A
 
 ## 6. Google-only LadiPage routes
 
+**Current route addendum (2026-09-29):** The existing published paths are `/semiconductor-osat`, `/fabless` and `/supplierecosystem`; URLs printed immediately below record older proposed paths and are not alternate language routes or current public page identities. Each current route keeps one HTML with a top locale switch and `lang=vi|en|zh-Hans|zh-Hant` as the approved non-PII initial-language signal for ads that use a website destination. Validate fallback, user-choice precedence, query/UTM/gclid preservation and PopupX handoff before any live sync. The live route content remains Vietnamese.
+
 Final route candidates:
 
 - https://solutions.digiwin.com.vn/osat-lot-test-traceability
 - https://solutions.digiwin.com.vn/fabless-outsourced-wip
 - https://solutions.digiwin.com.vn/semiconductor-erp-mes-ot
 
-Apply the existing route design direction consistently. A final public page must have final Vietnamese-first copy, necessary English technical terms, official Digiwin branding, and a source-safe contact/consultation block, with no form, unverified public claim, draft/internal label or live placeholder. The current visually approved Fabless and OSAT candidates use LadiPage-owned consultation CTAs rather than embedded contact-copy controls; the OSAT prototype's source-linked proof/reference content and illustrative values remain pending claim-scope verification under its simulation notice.
+Apply the existing route design direction consistently. Any future localized public revision must carry final reviewed copy for its four variants, necessary technical terms, official Digiwin branding, and a source-safe consultation block, with no embedded form, unsupported public claim, draft/internal label or live placeholder. The current visually approved Fabless and OSAT candidates use LadiPage-owned consultation CTAs rather than embedded contact-copy controls. Bảo's 2026-09-29 decision permits full translation/use of case/claim already present in Vietnamese source within its recorded scope; illustrative values or broader claims outside that content still require separate verification.
 
 The current redesign follows `design-system/digiwin-semiconductor-marketing/MASTER.md` and each route override. Each route has its own static explanatory diagram and route-specific provider-free canonical consultation controls: OSAT/Fabless have two each; by Bảo's 2026-09-24 exception Supplier/Partner has one header button labeled `Tư Vấn` (`partner-cta-header`). Bảo selected PopupX `modal_openform` for all three routes on 2026-09-23. The Phase 1 sources are flat/provider-free and passed compatibility preflight; Phase 2 tracking sources and final import artifacts/receipts were generated and validated locally. All three exact named Basic HTML-to-LadiPage targets are published at the approved paths and now load the approved shared GTM container. Each public route has one canonical bridge, one SDK and one adapter with no BODY fallback; configured-domain PopupX opening passed on all three. One marked OSAT synthetic lead was submitted once under action-time authority and matched provider thank-you plus Data Leads; no domain, profile, receiver or form configuration change occurred. The route-scoped copy-listener exception is live in GTM Version 51. OSAT retains only its candidate `osat_cta_click` with `cta_location=hero|terminal`; Fabless and Partner have no CTA analytics event. The canonical market HTML remains free of lead forms and provider references; the runtime binding exists only in LadiPage. The 2026-09-27 compact mobile revision was published on the same three URLs after exact Save/reopen, public responsive and protected tracking/PopupX smoke checks; see `operations/evidence/mobile/2026-09-27-mobile-live-deployment.md`. The Phase 5 focus/pagehide matrix was not rerun for this visual change.
 
@@ -201,7 +205,9 @@ Tracking rules:
 
 ## 8. Budget and schedule gate
 
-**DRAFT / MANAGEMENT APPROVAL PENDING**
+**Current Bảo decision (2026-09-29):** The ceiling **through Scale 1 is 35,000,000 VND across eight calendar weeks (56 calendar days)**. At the historical 1,000,000 VND/eligible paid day planning rate, full use permits at most 35 paid days; 56 calendar days are not 56 paid days. The phase-by-phase paid-day schedule, reserve allocation and tax/fee basis remain to design/approve. Scale 2's 8,750,000 VND remains separately gated. This ceiling is a planning limit, not approval to enable or spend. The daily channel split below is an older proposal; the previous 28m + 8.75m main scenario and local-only workbook 35m + 8.75m scenario are historical alternatives, not additive authority.
+
+**Historical daily split proposal — channel allocation and spend authority pending**
 
 - Working envelope: `1,000,000 VND/day`.
 - LinkedIn: `600,000 VND/day`.
@@ -210,7 +216,7 @@ Tracking rules:
 - Dates: `SCHEDULE_PENDING`.
 - Auto-start/spend: **OFF**.
 
-This is a management planning note, not an approved spend authorization. No actual budget may be inferred until Bảo confirms the envelope, dates and tax/fee basis.
+The current 35m ceiling is stated above; the proposed daily channel allocation below it and exact delivery days remain unapproved. No campaign spend is authorized by this plan.
 
 ## 9. Dependencies and stop conditions
 

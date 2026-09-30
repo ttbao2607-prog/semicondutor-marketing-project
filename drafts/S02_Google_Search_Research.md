@@ -41,6 +41,45 @@ Production handoff: `../ads/google/Google_Search_Build_Sheet.md`.
 
 These are hypotheses, not observed query volume or buyer language.
 
+## S3 candidate keyword register — offline expansion, 2026-09-29
+
+This register is a copy/relevance hypothesis, not a new Planner result or an approved keyword upload. S1's FDI/domestic criteria are provisional pending D1; ownership origin alone does not determine a query or route. Bảo chose one HTML with a top language switch at each existing route URL (D3); the ad-to-language entry behavior is still design work. Bảo selected Simplified Chinese for China FDI and Traditional Chinese separately for Taiwan FDI (D2): three languages with four locale variants, VI/EN/zh-Hans/zh-Hant. All Chinese keyword wording below remains an unreviewed translation/query hypothesis, not evidence of Taiwan or China buyer language. Therefore EN/ZH entries cannot be marked landing-ready. Exact/phrase below is a **test hypothesis**, not an observed match-type result. For every row, average monthly searches, competition and bid ranges are `unknown / not queried for this candidate` unless a separate dated observation is named.
+
+| ID | Candidate search wording | Language | Intent hypothesis | Business route | Match hypothesis | Displayed volume / source status |
+|---|---|---|---|---|---|---|
+| O-V1 | `phần mềm MES đóng gói kiểm thử bán dẫn` | VI | Solution | OSAT | Phrase | Unknown; candidate not separately queried |
+| O-V2 | `truy xuất lot kiểm thử bán dẫn` | VI | Problem/solution | OSAT | Exact | Unknown; candidate not separately queried |
+| O-E1 | `OSAT lot traceability software` | EN | Solution | OSAT | Phrase | Unknown; candidate not separately queried |
+| O-E2 | `semiconductor test data management` | EN | Solution | OSAT | Exact | Unknown; candidate not separately queried |
+| O-Z1 | `半导体封装测试 MES` | ZH-Hans provisional | Solution | OSAT | Phrase | Unknown; candidate not queried; terminology review pending |
+| O-Z2 | `半导体批次追溯` | ZH-Hans provisional | Problem/solution | OSAT | Exact | Unknown; candidate not queried; terminology review pending |
+| O-T1 | `半導體封裝測試 MES` | ZH-Hant Taiwan provisional | Solution | OSAT | Phrase | Unknown; not queried or terminology-reviewed |
+| O-T2 | `半導體批次追溯` | ZH-Hant Taiwan provisional | Problem/solution | OSAT | Exact | Unknown; not queried or terminology-reviewed |
+| F-V1 | `quản lý WIP gia công chip ngoài` | VI | Problem/solution | Fabless | Phrase | Unknown; candidate not separately queried |
+| F-V2 | `theo dõi gia công ngoài bán dẫn` | VI | Problem | Fabless | Exact | Unknown; candidate not separately queried |
+| F-E1 | `fabless outsourced WIP tracking` | EN | Solution | Fabless | Phrase | Unknown; candidate not separately queried |
+| F-E2 | `semiconductor subcontract production tracking` | EN | Solution | Fabless | Exact | Unknown; candidate not separately queried |
+| F-Z1 | `无晶圆厂外包生产在制品管理` | ZH-Hans provisional | Solution | Fabless | Phrase | Unknown; candidate not queried; terminology review pending |
+| F-Z2 | `芯片委外生产追踪` | ZH-Hans provisional | Problem/solution | Fabless | Exact | Unknown; candidate not queried; terminology review pending |
+| F-T1 | `無晶圓廠委外生產在製品管理` | ZH-Hant Taiwan provisional | Solution | Fabless | Phrase | Unknown; not queried or terminology-reviewed |
+| F-T2 | `晶片委外生產追蹤` | ZH-Hant Taiwan provisional | Problem/solution | Fabless | Exact | Unknown; not queried or terminology-reviewed |
+| P-V1 | `tích hợp ERP MES nhà máy bán dẫn` | VI | Solution | Supplier/Partner | Phrase | Unknown; candidate not separately queried |
+| P-V2 | `đối tác triển khai MES bán dẫn` | VI | Partner/solution | Supplier/Partner | Exact | Unknown; candidate not separately queried |
+| P-E1 | `semiconductor ERP MES integration` | EN | Solution | Supplier/Partner | Phrase | Unknown; candidate not separately queried |
+| P-E2 | `MES integration partner Vietnam` | EN | Partner/solution | Supplier/Partner | Exact | Unknown; candidate not separately queried |
+| P-Z1 | `半导体工厂 ERP MES 集成` | ZH-Hans provisional | Solution | Supplier/Partner | Phrase | Unknown; candidate not queried; terminology review pending |
+| P-Z2 | `越南半导体 MES 集成合作伙伴` | ZH-Hans provisional | Partner/solution | Supplier/Partner | Exact | Unknown; candidate not queried; terminology review pending |
+| P-T1 | `半導體工廠 ERP MES 整合` | ZH-Hant Taiwan provisional | Solution | Supplier/Partner | Phrase | Unknown; not queried or terminology-reviewed |
+| P-T2 | `越南半導體 MES 系統整合夥伴` | ZH-Hant Taiwan provisional | Partner/solution | Supplier/Partner | Exact | Unknown; not queried or terminology-reviewed |
+| B-V1 | `Digiwin Việt Nam bán dẫn` | VI | Brand/navigation | Brand candidate; route unresolved | Exact | Unknown; not queried; brand baseline pending |
+| B-E1 | `Digiwin semiconductor Vietnam` | EN | Brand/navigation | Brand candidate; route unresolved | Exact | Unknown; not queried; brand baseline pending |
+| B-Z1 | `鼎捷 越南 半导体` | ZH-Hans provisional | Brand/navigation | Brand candidate; route unresolved | Exact | Unknown; not queried; brand name/term review pending |
+| B-T1 | `鼎捷 越南 半導體` | ZH-Hant Taiwan provisional | Brand/navigation | Brand candidate; route unresolved | Exact | Unknown; not queried or brand-name/terminology-reviewed |
+
+The prior Vietnamese Planner cluster observations remain as recorded above: OSAT and Fabless showed dashes, and the Partner cluster showed only one limited historical estimate for `electronics manufacturing ERP` (10 average monthly searches, 0% three-month change, -100% year-over-year change, other fields dashed). That wording is **not** one of the new entries above, and its estimate cannot be transferred to another term, language, match type or time window. A dash means no displayed data in that configuration, not zero demand. Candidate selection still needs search-term overlap, relevance, route-language fit and account evidence under a separate mandate.
+
+**Negative taxonomy for review, not application:** investment/stock (`stock`, `investment`, `cổ phiếu`, `đầu tư`); employment (`job`, `career`, `tuyển dụng`, `việc làm`); education (`course`, `khóa học`, `tutorial`, `là gì`). Review query context before adding a negative: `đầu tư` could appear in a factory-investment procurement query, and `training`, `quality`, `MES`, `ERP`, `WIP`, `traceability`, `lot` or `test` can occur in relevant operations searches. Do not negative an entire language, brand, or broad technical category. A distinct brand group is only a candidate after Bảo confirms objective, brand baseline, route and existing campaign overlap; do not use it to inflate the semiconductor-intent cohort.
+
 ## Negative keyword taxonomy
 
 Validate against search terms before activation; do not apply remotely in this batch.

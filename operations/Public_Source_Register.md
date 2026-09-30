@@ -28,6 +28,8 @@ The copied contact value must never be sent to analytics, ad platforms, URLs or 
 
 Fabless visual approval note (2026-09-22): Bảo confirmed that the customer marks/logos included in the visually approved Fabless LDP candidate are approved for this design revision. This approval records visual/logo authorization for the candidate; it does not authorize LadiPage import or publication, and it does not replace live form/receiver, tracking, or claim-scope verification.
 
+Case/claim translation decision (2026-09-29): Bảo confirmed that all case/claim content already recorded in Vietnamese source assets, including landing and creative source copy, has management approval for use and full EN/zh-Hans/zh-Hant translation. Preserve each existing number, entity, geography, date, relationship, scope and source link; native terminology and visual/runtime QA remain required. This approval applies only to that existing Vietnamese-source content within its recorded scope. New or broader claims, the separate English-only 200+/700+ carousel metric translations, and named customer/logo proof on abstract CAR-03 remain outside it. It does not authorize live publication or paid delivery.
+
 OSAT visual approval note (2026-09-22): Bảo confirmed that the customer marks/logos included in the visually approved OSAT LDP candidate are approved for this design revision. This approval records visual/logo authorization for the candidate; it does not authorize LadiPage import or publication, and it does not replace live form/receiver, tracking, or claim-scope verification.
 
 ## LinkedIn public specifications
@@ -56,4 +58,4 @@ Production assumptions from the supplied brief: square static 1200x1200, JPG/PNG
 
 ## Safe-use rule
 
-Public source presence does not verify customer identity, case permission, metrics, baseline, capability count, account state or campaign performance. Named cases and claims remain unverified unless separately evidenced and approved.
+Public source presence alone does not verify customer identity, case permission, metrics, baseline, capability count, account state or campaign performance. The dated Bảo approval above applies to case/claim already recorded in Vietnamese source assets within each asset's exact source and claim scope, including landing and creative copy. New or broader named cases or claims, including translation of the English-only carousel 200+/700+ metrics, still require separate evidence and approval.

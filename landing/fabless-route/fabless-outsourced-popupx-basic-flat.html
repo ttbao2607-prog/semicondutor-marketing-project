@@ -1118,9 +1118,26 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
   #dw-fabless-landing .closing-actions{margin-top:20px;padding-top:20px}
 }
 </style>
+<style>
+/* Local language candidate: the utility row stays visible above the route header. */
+#dw-fabless-landing .locale-bar{min-height:48px;display:flex;align-items:center;justify-content:flex-end;gap:10px;padding:4px max(20px,calc((100vw - 1200px)/2));background:#142024;border-bottom:1px solid #4b6261;color:#edf2f1}
+#dw-fabless-landing .locale-bar label{font-size:13px;font-weight:600}
+#dw-fabless-landing .locale-bar select{min-height:44px;max-width:min(100%,190px);padding:8px 12px;background:#101619;color:#fff;border:1px solid #8ba6a7;border-radius:4px;font:inherit;font-size:13px}
+#dw-fabless-landing .locale-bar select:focus-visible{outline:2px solid #7ee5d9;outline-offset:2px}
+@media(max-width:700px){#dw-fabless-landing .locale-bar{display:grid;grid-template-columns:auto minmax(0,190px);justify-content:space-between;width:100%;max-width:100vw;min-width:0;padding-inline:20px}#dw-fabless-landing .locale-bar select{display:block;width:100%;min-width:0}#dw-fabless-landing .nav-links{top:114px}}
+</style>
 <div class="page" data-page>
 <a class="skip" href="#main-content">Chuyển đến nội dung chính</a>
 <header class="site-header" data-ladipage-render-anchor="hero">
+  <div class="locale-bar" role="group" aria-label="Ngôn ngữ trang">
+    <label for="fabless-locale-select">Ngôn ngữ</label>
+    <select id="fabless-locale-select" aria-label="Chọn ngôn ngữ trang">
+      <option value="vi">Tiếng Việt</option>
+      <option value="en">English</option>
+      <option value="zh-Hans">简体中文</option>
+      <option value="zh-Hant">繁體中文</option>
+    </select>
+  </div>
   <div class="wrap nav-inner">
     <a href="#top" class="brand-unit" aria-label="Digiwin — đầu trang"><img class="brand-logo" src="https://www.digiwin.com.vn/wp-content/themes/dgw/images/logo-white-Digiwin.png" alt="Digiwin" width="132" height="32" loading="eager" decoding="async"><span class="brand-sub">SEMICONDUCTOR<br>IC DESIGN / FABLESS</span></a>
     <nav class="nav-links" id="primary-nav" aria-label="Điều hướng chính">
@@ -2669,6 +2686,560 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
   root.querySelectorAll('[data-open-mode]').forEach(function(card){
     card.addEventListener('click',function(){expand(true)},true);
     card.addEventListener('keydown',function(event){if(event.key==='Enter'||event.key===' '){expand(true)}},true);
+  });
+})();
+</script>
+<script>
+/* Offline locale candidate. Source copy is retained as the Vietnamese fallback. */
+(function(){
+  'use strict';
+  var root=document.getElementById('dw-fabless-landing');
+  var select=document.getElementById('fabless-locale-select');
+  if(!root||!select)return;
+  var locales=['vi','en','zh-Hans','zh-Hant'];
+  var copy={
+    'Ngôn ngữ trang':['Page language','页面语言','頁面語言'],
+    'Ngôn ngữ':['Language','语言','語言'],
+    'Chọn ngôn ngữ trang':['Choose page language','选择页面语言','選擇頁面語言'],
+    'Chuyển đến nội dung chính':['Skip to main content','跳至主要内容','跳至主要內容'],
+    'Digiwin — đầu trang':['Digiwin — page top','Digiwin — 返回页面顶部','Digiwin — 返回頁面頂端'],
+    'Digiwin — về đầu trang':['Digiwin — back to top','Digiwin — 返回页面顶部','Digiwin — 返回頁面頂端'],
+    'Điều hướng chính':['Main navigation','主导航','主導覽'],
+    'Bài toán vận hành':['Operating questions','运营问题','營運問題'],
+    'Luồng Fabless':['Fabless flow','Fabless 流程','Fabless 流程'],
+    'Bằng chứng':['Evidence','依据','依據'],
+    'Tài liệu tham khảo':['References','参考资料','參考資料'],
+    'Đăng ký tư vấn':['Request a consultation','申请咨询','預約諮詢'],
+    'Giảm chuyển động':['Reduce motion','减少动态效果','減少動態效果'],
+    'Mở menu':['Open menu','打开菜单','開啟選單'],
+    'Đóng menu':['Close menu','关闭菜单','關閉選單'],
+    'NỀN TẢNG VẬN HÀNH BÁN DẪN & FABLESS':['SEMICONDUCTOR & FABLESS OPERATIONS','半导体与 Fabless 运营','半導體與 Fabless 營運'],
+    'Kiểm Soát Toàn Diện':['Review the','梳理','梳理'],
+    'Chuỗi Cung Ứng':['Supply Chain','供应链','供應鏈'],
+    'IC Design & Fabless.':['for IC Design & Fabless.','IC 设计与 Fabless。','IC 設計與 Fabless。'],
+    'Khám Phá Giải Pháp':['Explore the approach','了解方法','了解方法'],
+    'Xem Case Study Bright Power':['View the Bright Power case','查看 Bright Power 案例','查看 Bright Power 案例'],
+    'Hồ Sơ Năng Lực Thực Tế':['Published evidence','公开资料依据','公開資料依據'],
+    'Hàng chưa về kho.':['Goods are not yet in stock.','货物尚未入库。','貨物尚未入庫。'],
+    'Quyết định vẫn cần':['Decisions still need','决策仍需','決策仍需'],
+    'được đưa ra.':['to be made.','推进。','推進。'],
+    'WIP đang ở đâu?':['Where is the WIP?','在制品在哪里？','在製品在哪裡？'],
+    'Dữ liệu lô có liền mạch?':['Do lot records connect?','批次数据能否衔接？','批次資料能否銜接？'],
+    'Chi phí được nối ra sao?':['How does cost connect?','成本数据如何衔接？','成本資料如何銜接？'],
+    'Bản đồ vận hành phân tán':['Distributed operations map','分布式运营示意图','分散式營運示意圖'],
+    'Một chuỗi đối tác.':['One partner chain.','一条合作链。','一條合作鏈。'],
+    'Nhiều lớp thông tin cần nối.':['Many data layers to connect.','多层信息需要衔接。','多層資訊需要銜接。'],
+    'Xem bản đồ vận hành chi tiết':['View detailed operations map','查看详细运营图','查看詳細營運圖'],
+    'Tóm tắt luồng thông tin Fabless':['Fabless information flow summary','Fabless 信息流程摘要','Fabless 資訊流程摘要'],
+    'Góc nhìn vận hành':['Operations view','运营视角','營運視角'],
+    'Phát lại luồng':['Replay flow','重播流程','重播流程'],
+    'Chọn trạm công đoạn':['Select a process station','选择工序站点','選擇製程站點'],
+    'WIP ở đâu, tiến độ ra sao?':['Where is WIP and how is it progressing?','在制品在哪里，进度如何？','在製品在哪裡，進度如何？'],
+    'Từ WIP ở đối tác':['From partner WIP','從合作夥伴在製品','從合作夥伴在製品'],
+    'đến thông tin phục vụ':['to information for','到支援','到支援'],
+    'quyết định.':['decisions.','决策的信息。','決策的資訊。'],
+    'Gia công & Tiến độ WIP':['Outsourcing & WIP progress','委外加工与在制品进度','委外加工與在製品進度'],
+    'Lot, Datecode & Phân cấp BIN':['Lot, datecode & BIN grades','批次、日期码与 BIN 分级','批次、日期碼與 BIN 分級'],
+    'Forecast & Bóc tách Chi phí':['Forecast & cost breakdown','预测与成本拆分','預測與成本拆分'],
+    'Đọc nhanh các thuật ngữ trên trang':['Review terms on this page','查看页面术语','查看頁面術語'],
+    'Đóng slide WIP':['Close WIP panel','关闭在制品面板','關閉在製品面板'],
+    'Đóng slide Phả hệ Lô':['Close lot genealogy panel','关闭批次追溯面板','關閉批次追溯面板'],
+    'Đóng slide Chi phí':['Close cost panel','关闭成本面板','關閉成本面板'],
+    'Bằng chứng từ hồ sơ':['Evidence from','来自企业','來自企業'],
+    'của doanh nghiệp.':['company records.','公开资料的依据。','公開資料的依據。'],
+    'Một danh mục ngành,':['One industry portfolio,','一个行业组合，','一個產業組合，'],
+    'nhiều doanh nghiệp IC Design.':['many IC design companies.','涵盖多家 IC 设计企业。','涵蓋多家 IC 設計企業。'],
+    'Hiện diện và triển khai địa phương':['Local presence and delivery','本地布局与交付','在地布局與交付'],
+    'Kinh nghiệm ngành ở nước ngoài.':['Industry experience overseas.','海外行业经验。','海外產業經驗。'],
+    'Năng lực triển khai tại Việt Nam.':['Delivery capability in Vietnam.','越南本地交付能力。','越南在地交付能力。'],
+    'Nguồn tham khảo':['References','参考资料','參考資料'],
+    'Từ câu hỏi vận hành':['From operating questions','从运营问题','從營運問題'],
+    'đến bằng chứng':['to evidence','到可核对的','到可核對的'],
+    'có thể đối chiếu.':['that can be reviewed.','依据。','依據。'],
+    'Đọc trang ngành':['Read industry page','阅读行业页面','閱讀產業頁面'],
+    'Mở hồ sơ PDF':['Open source PDF','打开原始 PDF','開啟原始 PDF'],
+    'Đọc tuyển tập case':['Read case collection','阅读案例汇编','閱讀案例彙編'],
+    'Đọc case Việt Nam':['Read Vietnam case','阅读越南案例','閱讀越南案例'],
+    'Xem case Bright Power':['View Bright Power case','查看 Bright Power 案例','查看 Bright Power 案例'],
+    'Khám phá lại luồng Fabless':['Review Fabless flow','重看 Fabless 流程','重看 Fabless 流程'],
+    'Về đầu trang':['Back to top','返回顶部','返回頂端']
+  };
+  Object.assign(copy,{
+    'Đồng bộ 100% dữ liệu WIP đúc wafer & đóng gói test từ đối tác Foundry / OSAT, truy vết Lot phả hệ 2 chiều trong 15 giây và chuẩn hóa giá thành thực tế từng wafer.':[
+      'Synchronize 100% of wafer-fabrication and package-test WIP data from Foundry / OSAT partners, trace lot genealogy in both directions within 15 seconds, and standardize actual cost by wafer.',
+      '同步来自 Foundry / OSAT 合作方的 100% 晶圆制造与封装测试在制品数据，在 15 秒内双向追溯批次谱系，并按晶圆规范实际成本。',
+      '同步來自 Foundry / OSAT 合作夥伴的 100% 晶圓製造與封裝測試在製品資料，在 15 秒內雙向追溯批次譜系，並按晶圓規範實際成本。'
+    ],
+    'Đo lường chu kỳ đơn hàng giảm từ 48h xuống 02h':['Measured order cycle reduced from 48h to 02h','订单周期测量值由 48 小时降至 02 小时','訂單週期量測值由 48 小時降至 02 小時'],
+    'Rút ngắn chu kỳ phản hồi':['Shorter response cycle','缩短响应周期','縮短回應週期'],
+    'từ 48 giờ xuống 02 giờ.':['from 48 hours to 02 hours.','从 48 小时降至 02 小时。','從 48 小時降至 02 小時。'],
+    'Thời gian phản hồi đơn hàng: 48 giờ xuống 02 giờ, đo lường thực tế tại Shanghai Bright Power':['Order response time: 48 hours to 02 hours, measured at Shanghai Bright Power','订单响应时间：由 48 小时降至 02 小时，数据来自 Shanghai Bright Power 的实际测量','訂單回應時間：由 48 小時降至 02 小時，資料來自 Shanghai Bright Power 的實際量測'],
+    'Khám phá chi tiết case study Shanghai Bright Power':['Explore the Shanghai Bright Power case study','查看 Shanghai Bright Power 案例详情','查看 Shanghai Bright Power 案例詳情'],
+    'Xem toàn văn hồ sơ niêm yết gốc (PDF, 1.8MB)':['Read the original listing document (PDF, 1.8MB)','阅读原始上市文件全文（PDF，1.8MB）','閱讀原始上市文件全文（PDF，1.8MB）'],
+    'Hồ sơ công bố thông tin Sở Giao dịch Chứng khoán Thượng Hải SSE 688368':['Shanghai Stock Exchange SSE 688368 disclosure document','上海证券交易所 SSE 688368 信息披露文件','上海證券交易所 SSE 688368 資訊揭露文件'],
+    'Bạch thư niêm yết Shanghai Bright Power Semiconductor SSE 688368':['Shanghai Bright Power Semiconductor SSE 688368 listing document','Shanghai Bright Power Semiconductor SSE 688368 上市文件','Shanghai Bright Power Semiconductor SSE 688368 上市文件'],
+    'Trung tâm kỹ thuật Digiwin tại TP.HCM và Bắc Ninh':['Digiwin technical centers in Ho Chi Minh City and Bac Ninh','Digiwin 位于胡志明市和北宁的技术中心','Digiwin 位於胡志明市和北寧的技術中心'],
+    'Digiwin Vietnam vận hành với hai văn phòng tại TP.HCM và Bắc Ninh, quy tụ đội ngũ chuyên gia tư vấn và kỹ sư am hiểu quy trình sản xuất, sẵn sàng hỗ trợ triển khai thực tế cho các doanh nghiệp tại Việt Nam.':[
+      'Digiwin Vietnam operates two offices in Ho Chi Minh City and Bac Ninh, with consultants and engineers experienced in manufacturing processes to support implementation for businesses in Vietnam.',
+      'Digiwin Vietnam 在胡志明市和北宁设有两处办公室，汇集熟悉制造流程的顾问与工程师，为越南企业的实施提供支持。',
+      'Digiwin Vietnam 在胡志明市與北寧設有兩處辦公室，匯集熟悉製造流程的顧問與工程師，為越南企業的導入提供支援。'
+    ],
+    'Dự án triển khai thực tế của Digiwin Vietnam tại doanh nghiệp sản xuất linh kiện điện tử chính xác.':[
+      'A Digiwin Vietnam implementation project at a precision electronic-components manufacturer.',
+      'Digiwin Vietnam 在一家精密电子零部件制造企业的实际实施项目。',
+      'Digiwin Vietnam 在一家精密電子零組件製造企業的實際導入專案。'
+    ],
+    'Bản cáo bạch niêm yết trên sàn chứng khoán xác nhận Shanghai Bright Power vận hành bằng Digiwin ERP.':[
+      'The stock-exchange prospectus states that Shanghai Bright Power used Digiwin ERP.',
+      '交易所上市招股文件载明 Shanghai Bright Power 使用 Digiwin ERP。',
+      '交易所上市公開說明書載明 Shanghai Bright Power 使用 Digiwin ERP。'
+    ],
+    'Đội ngũ chuyên gia Digiwin đồng hành khảo sát, tư vấn nghiệp vụ và chuyển giao quy trình tại chỗ cho doanh nghiệp.':[
+      'Digiwin specialists support assessment, process consultation and on-site process handoff.',
+      'Digiwin 专家参与调研、业务咨询与现场流程移交。',
+      'Digiwin 專家參與調查、業務諮詢與現場流程移交。'
+    ],
+    'Xem tiến độ WIP trên bản đồ vận hành':['View WIP progress on the operations map','在运营图上查看在制品进度','在營運圖上查看在製品進度'],
+    'Khám phá thông tin lô trên bản đồ vận hành':['Explore lot information on the operations map','在运营图上查看批次信息','在營運圖上查看批次資訊'],
+    'Mở góc nhìn chi phí trên bản đồ vận hành':['Open the cost view on the operations map','在运营图上打开成本视图','在營運圖上開啟成本檢視'],
+    'Sơ đồ điều phối chuỗi sản xuất ủy thác và lớp quản trị doanh nghiệp Digiwin ERP':['Diagram of outsourced production coordination and Digiwin ERP management context','委外生产协调与 Digiwin ERP 企业管理层示意图','委外生產協調與 Digiwin ERP 企業管理層示意圖'],
+    'Chọn công đoạn 1: Foundry Wafer Fab':['Select stage 1: Foundry Wafer Fab','选择工序 1：Foundry Wafer Fab','選擇製程 1：Foundry Wafer Fab'],
+    'Chọn công đoạn 2: CP Wafer Probe':['Select stage 2: CP Wafer Probe','选择工序 2：CP Wafer Probe','選擇製程 2：CP Wafer Probe'],
+    'Chọn công đoạn 3: OSAT Packaging':['Select stage 3: OSAT Packaging','选择工序 3：OSAT Packaging','選擇製程 3：OSAT Packaging'],
+    'Chọn công đoạn 4: Final Test & Pack':['Select stage 4: Final Test & Pack','选择工序 4：Final Test & Pack','選擇製程 4：Final Test & Pack'],
+    'Chế độ theo dõi phả hệ lô':['Lot genealogy tracing mode','批次谱系追溯模式','批次譜系追溯模式'],
+    'Wafer Lot Gốc WF-2410-A':['Original wafer lot WF-2410-A','原始晶圆批次 WF-2410-A','原始晶圓批次 WF-2410-A'],
+    'Tách lô đóng gói ASM-01 FC-BGA':['Package lot split ASM-01 FC-BGA','封装批次拆分 ASM-01 FC-BGA','封裝批次拆分 ASM-01 FC-BGA'],
+    'Tách lô đóng gói ASM-02 QFN-64':['Package lot split ASM-02 QFN-64','封装批次拆分 ASM-02 QFN-64','封裝批次拆分 ASM-02 QFN-64'],
+    'Khắc laser Datecode DW-2410A':['Laser-marked datecode DW-2410A','激光刻印日期码 DW-2410A','雷射刻印日期碼 DW-2410A'],
+    'Khay BIN 1 Grade A':['BIN 1 tray, Grade A','BIN 1 托盘，A级','BIN 1 托盤，A 級'],
+    'Khay BIN 2 Grade B':['BIN 2 tray, Grade B','BIN 2 托盘，B级','BIN 2 托盤，B 級'],
+    'Khay BIN 7 Phế phẩm phát hiện lỗi RMA':['BIN 7 tray, scrap flagged for RMA','BIN 7 托盘，标记为 RMA 的报废品','BIN 7 托盤，標記為 RMA 的報廢品'],
+    'Xem cơ chế logic ra quyết định Tiến độ WIP':['View WIP progress decision logic','查看在制品进度决策逻辑','查看在製品進度決策邏輯'],
+    'Xem cơ chế logic ra quyết định Phả hệ Lot & RMA':['View lot genealogy and RMA decision logic','查看批次谱系与 RMA 决策逻辑','查看批次譜系與 RMA 決策邏輯'],
+    'Xem cơ chế logic ra quyết định Hấp thụ Giá thành':['View cost absorption decision logic','查看成本吸收决策逻辑','查看成本吸收決策邏輯'],
+    'Các doanh nghiệp IC Design và công nghệ bán dẫn tiêu biểu tin dùng Digiwin ERP':['Representative IC design and semiconductor companies using Digiwin ERP','使用 Digiwin ERP 的代表性 IC 设计与半导体企业','使用 Digiwin ERP 的代表性 IC 設計與半導體企業'],
+    'Doanh nghiệp IC Design và bán dẫn tin dùng Digiwin':['IC design and semiconductor companies using Digiwin','使用 Digiwin 的 IC 设计与半导体企业','使用 Digiwin 的 IC 設計與半導體企業'],
+    'Sơ đồ tiến độ 4 trạm WIP: Foundry Wafer, OSAT Assembly, Test Testing, In Transit Shipping':['Four-stage WIP progress diagram: Foundry Wafer, OSAT Assembly, Test Testing, In Transit Shipping','四站在制品进度图：Foundry Wafer、OSAT Assembly、Test Testing、In Transit Shipping','四站在製品進度圖：Foundry Wafer、OSAT Assembly、Test Testing、In Transit Shipping'],
+    'Sơ đồ dữ liệu lô liền mạch: Lot A3F728, Datecode 2410A, BIN B1, Test Pass, OSAT OSAT-02':['Linked lot-data diagram: Lot A3F728, Datecode 2410A, BIN B1, Test Pass, OSAT OSAT-02','批次数据关联图：Lot A3F728、Datecode 2410A、BIN B1、Test Pass、OSAT OSAT-02','批次資料關聯圖：Lot A3F728、Datecode 2410A、BIN B1、Test Pass、OSAT OSAT-02'],
+    'Sơ đồ 4 khay chi phí: Gia công Foundry/OSAT, Sản phẩm Material/Test, Dự án/Đơn hàng Project/Order, Cost/Lot':['Four cost buckets: Foundry/OSAT processing, Material/Test product, Project/Order, Cost/Lot','四个成本区：Foundry/OSAT 加工、Material/Test 产品、Project/Order、Cost/Lot','四個成本區：Foundry/OSAT 加工、Material/Test 產品、Project/Order、Cost/Lot'],
+    'Giá vốn 67.2%':['Cost of goods sold 67.2%','销售成本 67.2%','銷貨成本 67.2%'],
+    'Biên lợi nhuận 32.8%':['Gross margin 32.8%','毛利率 32.8%','毛利率 32.8%'],
+    'ĐỒNG HÀNH CÙNG HƠN 50.000 DOANH NGHIỆP SẢN XUẤT CÔNG NGHỆ CAO':['WORKING WITH MORE THAN 50,000 HIGH-TECH MANUFACTURING BUSINESSES','服务超过 50,000 家高科技制造企业','服務超過 50,000 家高科技製造企業'],
+    'Bạch thư IPO STAR Market ghi nhận Digiwin ERP là xương sống quản trị chuỗi đúc wafer.':['The STAR Market IPO prospectus describes Digiwin ERP as the management backbone of the wafer-fabrication chain.','科创板 IPO 招股文件将 Digiwin ERP 描述为晶圆制造链的管理骨干。','科創板 IPO 公開說明書將 Digiwin ERP 描述為晶圓製造鏈的管理骨幹。'],
+    'Bạch thư IPO chính thức':['Official IPO prospectus','官方 IPO 招股文件','官方 IPO 公開說明書'],
+    'Vận Tốc Đơn Hàng':['Order response speed','订单响应速度','訂單回應速度'],
+    'GẤP 24 LẦN (-95.8%)':['24× FASTER (-95.8%)','快 24 倍（-95.8%）','快 24 倍（-95.8%）'],
+    'Rút ngắn chu kỳ phản hồi từ 48 giờ xuống 02 giờ giữa Fabless và xưởng Foundry/OSAT.':['Order response between Fabless and Foundry/OSAT plants shortened from 48 hours to 02 hours.','Fabless 与 Foundry/OSAT 工厂之间的订单响应周期由 48 小时缩短至 02 小时。','Fabless 與 Foundry/OSAT 工廠之間的訂單回應週期由 48 小時縮短至 02 小時。'],
+    'Dữ liệu đo lường định lượng':['Quantitative measurement','量化测量数据','量化量測資料'],
+    '02 VĂN PHÒNG':['02 OFFICES','02 处办公室','02 處辦公室'],
+    'Văn phòng TP.HCM & Bắc Ninh đồng hành hỗ trợ kỹ thuật và quy trình sản xuất trực tiếp tại chỗ.':['Offices in Ho Chi Minh City and Bac Ninh support technical and production-process work on site.','胡志明市与北宁办公室提供现场技术与生产流程支持。','胡志明市與北寧辦公室提供現場技術與生產流程支援。'],
+    'Chuyên gia Onsite thường trực':['Resident on-site specialists','常驻现场专家','常駐現場專家'],
+    'NĂM':['YEARS','年','年'],
+    'Kinh nghiệm chuyên sâu ERP sản xuất chế tạo':['Specialized manufacturing ERP experience','制造业 ERP 专业经验','製造業 ERP 專業經驗'],
+    'DOANH NGHIỆP':['BUSINESSES','企业','企業'],
+    'Nhà máy & doanh nghiệp sản xuất tin dùng':['Trusted by factories and manufacturing businesses','获工厂及制造企业采用','獲工廠及製造企業採用'],
+    'THỊ PHẦN':['MARKET SHARE','市场份额','市場占有率'],
+    'Giải pháp ERP ngành Bán dẫn / Fabless châu Á':['Semiconductor / Fabless ERP solutions in Asia','亚洲半导体 / Fabless ERP 解决方案','亞洲半導體 / Fabless ERP 解決方案'],
+    'VĂN PHÒNG VN':['VIETNAM OFFICES','越南办公室','越南辦公室'],
+    'TP.HCM & Bắc Ninh hỗ trợ thực địa tại chỗ':['On-site support in Ho Chi Minh City and Bac Ninh','胡志明市与北宁现场支持','胡志明市與北寧現場支援'],
+    'ĐƯỢC TIN CẬY BỞI CÁC DOANH NGHIỆP THIẾT KẾ VI MẠCH & BÁN DẪN NIÊM YẾT':['TRUSTED BY LISTED IC DESIGN & SEMICONDUCTOR COMPANIES','获上市 IC 设计与半导体企业信赖','獲上市 IC 設計與半導體企業信賴'],
+    'Nhận diện':['Identify','识别','辨識'],
+    'bài toán vận hành':['operating questions','运营问题','營運問題'],
+    'Khám phá':['Explore','了解','了解'],
+    'cơ chế quản trị':['management mechanisms','管理机制','管理機制'],
+    'Đối chiếu':['Review','核对','核對'],
+    'bằng chứng có nguồn':['sourced evidence','有来源的证据','有來源的證據'],
+    'Những câu hỏi vượt ranh giới doanh nghiệp':['Questions across company boundaries','跨企业边界的问题','跨企業邊界的問題'],
+    'Với mô hình sản xuất thuê ngoài, theo dõi hàng hóa không chỉ là nhìn tồn kho tại doanh nghiệp. Thông tin từ các đối tác còn cần phục vụ kế hoạch, đơn hàng và chi phí.':['With outsourced production, tracking goods means more than viewing in-house inventory. Partner information also informs planning, orders and cost.','在委外生产模式下，跟踪货物不只是查看企业库存。合作方信息还需支持计划、订单与成本管理。','在委外生產模式下，追蹤貨物不只是查看企業庫存。合作夥伴資訊還需支援規劃、訂單與成本管理。'],
+    'TIẾN ĐỘ':['PROGRESS','进度','進度'],
+    'LÔ HÀNG':['LOT','批次','批次'],
+    'CHI PHÍ':['COST','成本','成本'],
+    'WIP đang ở đối tác nào, bước nào và trạng thái như thế nào?':['Which partner holds the WIP, at what stage, and in what state?','在制品在哪个合作方、哪个工序、处于什么状态？','在製品在哪個合作夥伴、哪個製程、處於什麼狀態？'],
+    'Theo dõi tiến độ':['Track progress','跟踪进度','追蹤進度'],
+    'Thông tin lot, datecode và BIN có được giữ trong cùng bối cảnh quản trị?':['Are lot, datecode and BIN kept in the same management context?','批次、日期码和 BIN 是否在同一管理脉络中？','批次、日期碼和 BIN 是否在同一管理脈絡中？'],
+    'Khám phá thông tin lô':['Explore lot information','查看批次信息','查看批次資訊'],
+    'Chi phí gia công, sản phẩm và dự án được tập hợp để đối chiếu ra sao?':['How are processing, product and project costs brought together for review?','加工、产品与项目成本如何汇总核对？','加工、產品與專案成本如何彙整核對？'],
+    'Mở góc nhìn chi phí':['Open cost view','打开成本视图','開啟成本檢視'],
+    'TỪ DỮ LIỆU RỜI RẠC ĐẾN QUYẾT ĐỊNH ĐÚNG THỜI ĐIỂM':['FROM FRAGMENTED DATA TO TIMELY DECISIONS','从分散数据到及时决策','從分散資料到及時決策'],
+    'Luồng gia công ở một lớp. Thông tin quản trị ở một lớp khác. Chọn một góc nhìn để thấy cách thông tin từ các đối tác trở về bối cảnh kinh doanh.':['Production flow sits in one layer, management context in another. Select a view to see how partner information connects back to the business context.','加工流程与管理信息分处不同层面。选择视角，查看合作方信息如何回到企业经营脉络。','加工流程與管理資訊分處不同層面。選擇視角，查看合作夥伴資訊如何回到企業經營脈絡。'],
+    'Forecast — tín hiệu kế hoạch và nhu cầu':['Forecast — planning and demand signals','预测——计划与需求信号','預測——規劃與需求訊號'],
+    'Outsource — bàn giao và theo dõi đối tác':['Outsource — partner handoff and tracking','委外——合作方交接与跟踪','委外——合作夥伴交接與追蹤'],
+    'Lot / Datecode / BIN — đối chiếu lô và chất lượng':['Lot / Datecode / BIN — review lot and quality','Lot / Datecode / BIN——核对批次与质量','Lot / Datecode / BIN——核對批次與品質'],
+    'Cost review — nối chi phí với quyết định':['Cost review — connect cost with decisions','成本复核——将成本与决策关联','成本檢視——將成本與決策連結'],
+    'Theo tiến độ':['By progress','按进度','依進度'],
+    'Theo lô':['By lot','按批次','依批次'],
+    'Theo chi phí':['By cost','按成本','依成本'],
+    'Giá vốn & Lợi nhuận':['Cost & profit','成本与利润','成本與利潤']
+  });
+  Object.assign(copy,{
+    'Digiwin Việt Nam':['Digiwin Vietnam','Digiwin Vietnam','Digiwin Vietnam'],
+    'Quy trình 4 trạm: Trạm 1 Foundry Wafer, Trạm 2 OSAT Assembly, Trạm 3 Test Testing, Trạm 4 In Transit Shipping (chưa rõ trạng thái).':['Four-stage process: 1 Foundry Wafer, 2 OSAT Assembly, 3 Test Testing, 4 In Transit Shipping (status unclear).','四站流程：1 Foundry Wafer、2 OSAT Assembly、3 Test Testing、4 In Transit Shipping（状态未明）。','四站流程：1 Foundry Wafer、2 OSAT Assembly、3 Test Testing、4 In Transit Shipping（狀態未明）。'],
+    'Dữ liệu lô liên kết chip: Lot A3F728, Datecode 2410A, BIN B1, Test PASS, Trạm gia công OSAT-02.':['Linked chip-lot data: Lot A3F728, Datecode 2410A, BIN B1, Test PASS, processing station OSAT-02.','关联芯片批次数据：Lot A3F728、Datecode 2410A、BIN B1、Test PASS、加工站 OSAT-02。','關聯晶片批次資料：Lot A3F728、Datecode 2410A、BIN B1、Test PASS、加工站 OSAT-02。'],
+    'Phân bổ chi phí theo 4 tầng dữ liệu: Tầng 1 Gia công (Foundry / OSAT), Tầng 2 Sản phẩm (Material / Test), Tầng 3 Dự án / Đơn hàng (Project / Order), Tầng tổng hợp Cost / Lot.':['Four cost layers: 1 Processing (Foundry / OSAT), 2 Product (Material / Test), 3 Project / Order, and aggregate Cost / Lot.','四层成本数据：1 加工（Foundry / OSAT）、2 产品（Material / Test）、3 项目 / 订单（Project / Order）、汇总层 Cost / Lot。','四層成本資料：1 加工（Foundry / OSAT）、2 產品（Material / Test）、3 專案 / 訂單（Project / Order）、彙總層 Cost / Lot。'],
+    'Pipeline 4 trạm WIP':['Four-stage WIP pipeline','四站在制品流程','四站在製品流程'],
+    'Phả hệ Lot & BIN':['Lot & BIN genealogy','批次与 BIN 谱系','批次與 BIN 譜系'],
+    'Trung tâm điều phối chuỗi cung ứng ủy thác':['Outsourced supply-chain coordination center','委外供应链协调中心','委外供應鏈協調中心'],
+    'Đúng hạn cam kết (+6 ngày)':['On-time commitment (+6 days)','按承诺日期交付（+6 天）','依承諾日期交付（+6 天）'],
+    'Hạn giao cam kết khách:':['Customer committed delivery:','客户承诺交期：','客戶承諾交期：'],
+    'Dự kiến hoàn tất (ETA):':['Estimated completion (ETA):','预计完成时间（ETA）：','預計完成時間（ETA）：'],
+    'Yield toàn chuỗi:':['End-to-end yield:','全流程良率：','全流程良率：'],
+    'LUỒNG GIA CÔNG THỰC TẾ':['ACTUAL PROCESSING FLOW','实际加工流程','實際加工流程'],
+    '4 công đoạn tuần tự từ Wafer đến Final Test':['Four sequential stages from wafer to final test','从晶圆到最终测试的四个连续工序','從晶圓到最終測試的四個連續製程'],
+    'Telemetry trực tuyến':['Online telemetry','在线遥测','線上遙測'],
+    'CÔNG ĐOẠN 01':['STAGE 01','工序 01','製程 01'],
+    'CÔNG ĐOẠN 02':['STAGE 02','工序 02','製程 02'],
+    'CÔNG ĐOẠN 03':['STAGE 03','工序 03','製程 03'],
+    'CÔNG ĐOẠN 04':['STAGE 04','工序 04','製程 04'],
+    'Đang xử lý':['In process','处理中','處理中'],
+    'Tách Good / Bad Dies':['Sort good / bad dies','区分良品 / 不良晶粒','區分良品 / 不良晶粒'],
+    'Xếp lịch':['Scheduled','已排程','已排程'],
+    'Chờ phôi':['Awaiting wafers','等待晶圆','等待晶圓'],
+    'Tape & Reel / Xuất bán':['Tape & Reel / shipping','编带卷盘 / 出货','編帶捲盤 / 出貨'],
+    'Dự kiến 28/10':['Expected 28/10','预计 28/10','預計 28/10'],
+    'PO Phôi 01/10':['Wafer PO 01/10','晶圆采购单 01/10','晶圓採購單 01/10'],
+    'Đóng gói 25/10':['Packaging 25/10','封装 25/10','封裝 25/10'],
+    'Hạn giao khách 28/10':['Customer due date 28/10','客户交期 28/10','客戶交期 28/10'],
+    'PHẢ HỆ LÔ & MA TRẬN PHÂN LOẠI':['LOT GENEALOGY & CLASSIFICATION MATRIX','批次谱系与分级矩阵','批次譜系與分級矩陣'],
+    'Liên kết không đứt gãy từ Wafer đến Datecode & BIN':['Continuous linkage from wafer to datecode and BIN','从晶圆到日期码与 BIN 的连续关联','從晶圓到日期碼與 BIN 的連續關聯'],
+    'Luồng sản xuất (Wafer ➔ Chip)':['Production flow (Wafer ➔ Chip)','生产流程（晶圆 ➔ 芯片）','生產流程（晶圓 ➔ 晶片）'],
+    'Truy vết sự cố RMA':['Trace an RMA issue','追溯 RMA 问题','追溯 RMA 問題'],
+    'TẦNG 1: WAFER LOT GỐC (CHẾ TẠO PHÔI SILICON)':['LAYER 1: ORIGINAL WAFER LOT (SILICON WAFER FABRICATION)','第 1 层：原始晶圆批次（硅晶圆制造）','第 1 層：原始晶圓批次（矽晶圓製造）'],
+    '25 Phiến Wafer • 25,000 Gross Dies • Yield phôi đạt 98.5%':['25 wafers • 25,000 gross dies • wafer yield 98.5%','25 片晶圆 • 25,000 颗总晶粒 • 晶圆良率 98.5%','25 片晶圓 • 25,000 顆總晶粒 • 晶圓良率 98.5%'],
+    '📍 Tọa độ lỗi cô lập: Phiến Wafer #14 (X:12, Y:45)':['📍 Isolated defect coordinates: Wafer #14 (X:12, Y:45)','📍 已隔离缺陷坐标：晶圆 #14（X:12，Y:45）','📍 已隔離缺陷座標：晶圓 #14（X:12，Y:45）'],
+    'TẦNG 2A: TÁCH LÔ OSAT #1':['LAYER 2A: OSAT LOT SPLIT #1','第 2A 层：OSAT 批次拆分 #1','第 2A 層：OSAT 批次拆分 #1'],
+    'TẦNG 2B: TÁCH LÔ OSAT #2':['LAYER 2B: OSAT LOT SPLIT #2','第 2B 层：OSAT 批次拆分 #2','第 2B 層：OSAT 批次拆分 #2'],
+    'Tỷ lệ: 60%':['Share: 60%','占比：60%','占比：60%'],
+    'Tỷ lệ: 40%':['Share: 40%','占比：40%','占比：40%'],
+    'Substrate 4 lớp':['Four-layer substrate','四层封装基板','四層封裝基板'],
+    'TẦNG 3: KHẮC LASER DATECODE BỀ MẶT IC':['LAYER 3: LASER DATECODE MARKING ON IC','第 3 层：IC 表面激光刻印日期码','第 3 層：IC 表面雷射刻印日期碼'],
+    'Mã hóa: Digiwin (DW) • Năm 2024 (24) • Tuần 10 (10) • Mẻ A (A)':['Code: Digiwin (DW) • Year 2024 (24) • Week 10 (10) • Batch A (A)','编码：Digiwin (DW) • 2024 年 (24) • 第 10 周 (10) • A 批次 (A)','編碼：Digiwin (DW) • 2024 年 (24) • 第 10 週 (10) • A 批次 (A)'],
+    'Grade A • Xung Nhịp Cao':['Grade A • high clock speed','A 级 • 高时钟频率','A 級 • 高時脈頻率'],
+    'Grade B • Tiêu Chuẩn':['Grade B • standard','B 级 • 标准','B 級 • 標準'],
+    'Đóng gói Tape & Reel xuất khách Tier-1':['Tape & Reel packaging for Tier-1 customer shipment','编带卷盘包装并出货给 Tier-1 客户','編帶捲盤包裝並出貨給 Tier-1 客戶'],
+    'Tần số danh định • Dành cho thị trường IoT':['Nominal frequency • for the IoT market','标称频率 • 面向 IoT 市场','標稱頻率 • 面向 IoT 市場'],
+    'Scrap • Vết Nứt Biên':['Scrap • edge crack','报废 • 边缘裂纹','報廢 • 邊緣裂紋'],
+    '⚠️ Điểm phát hiện rò điện kích hoạt RMA':['⚠️ Electrical leakage finding triggers RMA','⚠️ 电流泄漏发现触发 RMA','⚠️ 電流洩漏發現觸發 RMA'],
+    'KHOANH VÙNG CÔ LẬP SỰ CỐ RMA THÀNH CÔNG':['RMA ISSUE ISOLATION COMPLETED','RMA 问题隔离完成','RMA 問題隔離完成'],
+    'CÔ LẬP CHÍNH XÁC':['PRECISE ISOLATION','精准隔离','精準隔離'],
+    'BẢO TOÀN NGUYÊN VẸN':['INTEGRITY PRESERVED','完整保全','完整保全'],
+    'TIẾT KIỆM RỦI RO':['RISK REDUCTION','风险降低','風險降低']
+  });
+  Object.assign(copy,{
+    'và lô đóng gói':['and package lot','及封装批次','及封裝批次'],
+    'về tận':['back to','追溯至','追溯至'],
+    'Phiến Wafer #14 (Tọa độ X:12, Y:45)':['Wafer #14 (coordinates X:12, Y:45)','晶圆 #14（坐标 X:12，Y:45）','晶圓 #14（座標 X:12，Y:45）'],
+    'HẠCH TOÁN GIÁ THÀNH ĐA TẦNG & LỢI NHUẬN':['MULTI-LAYER COST ACCOUNTING & PROFIT','多层成本核算与利润','多層成本核算與利潤'],
+    'Bóc tách giá vốn thực tế và đối chiếu hợp đồng mua bán':['Break down actual cost and review purchase/sales contracts','拆解实际成本并核对买卖合同','拆解實際成本並核對買賣合約'],
+    'Phôi Wafer & Khấu hao Mask NRE':['Wafer fabrication & mask NRE amortization','晶圆制造与光罩 NRE 摊销','晶圓製造與光罩 NRE 攤銷'],
+    'Chi phí đúc phiến tại Foundry + phân bổ NRE theo sản lượng':['Foundry wafer-fabrication cost + output-based NRE allocation','Foundry 晶圆制造成本 + 按产量分摊 NRE','Foundry 晶圓製造成本 + 依產量分攤 NRE'],
+    'Gia công đóng gói OSAT':['OSAT packaging','OSAT 封装加工','OSAT 封裝加工'],
+    'Substrate mạch nhiều lớp, keo dẫn nhiệt, wire bonding vàng':['Multilayer substrate, thermal adhesive, gold wire bonding','多层基板、导热胶、金线键合','多層基板、導熱膠、金線接合'],
+    'Kiểm thử & Hấp thụ phế phẩm Scrap':['Testing & scrap absorption','测试与报废成本吸收','測試與報廢成本吸收'],
+    'Giờ máy ATE tester + tự động hấp thụ chi phí die hỏng vào die tốt':['ATE tester hours + automatic allocation of failed-die cost to good dies','ATE 测试机时数 + 自动将不良晶粒成本分配至良品晶粒','ATE 測試機時數 + 自動將不良晶粒成本分配至良品晶粒'],
+    'Quản lý ủy thác & Logistics HUB':['Outsourcing management & logistics hub','委外管理与物流中心','委外管理與物流中心'],
+    'Chi phí thông quan, kho bãi ngoại quan và bảo hiểm vận chuyển':['Customs clearance, bonded warehousing and transport-insurance costs','清关、保税仓储与运输保险成本','通關、保稅倉儲與運輸保險成本'],
+    'ĐỐI CHIẾU BIÊN LỢI NHUẬN GỘP (GROSS MARGIN BALANCE)':['GROSS MARGIN REVIEW','毛利率核对','毛利率核對'],
+    'Giá vốn xuất xưởng (COGS)':['Factory cost of goods sold (COGS)','出厂销售成本（COGS）','出廠銷貨成本（COGS）'],
+    'Chiếm 67.2% giá bán':['67.2% of selling price','占售价的 67.2%','占售價的 67.2%'],
+    'Biên lợi nhuận gộp (Margin)':['Gross margin','毛利率','毛利率'],
+    'Lợi nhuận ròng trên mỗi chip':['Net profit per chip','每颗芯片净利润','每顆晶片淨利潤'],
+    'Giá bán hợp đồng (Price)':['Contract selling price','合同售价','合約售價'],
+    'Đơn hàng PO-2410-CUST':['Order PO-2410-CUST','订单 PO-2410-CUST','訂單 PO-2410-CUST'],
+    'Giá vốn $8.40':['COGS $8.40','销售成本 $8.40','銷貨成本 $8.40'],
+    'Lợi nhuận gộp 32.8%':['Gross margin 32.8%','毛利率 32.8%','毛利率 32.8%'],
+    'THÔNG TIN ĐANG XEM':['CURRENT VIEW','当前视图','目前檢視'],
+    'Bản đồ 4 trạm gia công tuần tự từ chế tạo phiến Wafer đến kiểm thử xuất xưởng.':['Four-stage processing map from wafer fabrication to final shipment test.','从晶圆制造到出厂测试的四站加工图。','從晶圓製造到出廠測試的四站加工圖。'],
+    'Trạm 01: Foundry (Wafer Fab)':['Station 01: Foundry (Wafer Fab)','站点 01：Foundry (Wafer Fab)','站點 01：Foundry (Wafer Fab)'],
+    'Trạm 02: CP Test (Wafer Probe)':['Station 02: CP Test (Wafer Probe)','站点 02：CP Test (Wafer Probe)','站點 02：CP Test (Wafer Probe)'],
+    'Trạm 03: OSAT (Packaging)':['Station 03: OSAT (Packaging)','站点 03：OSAT (Packaging)','站點 03：OSAT (Packaging)'],
+    'Trạm 04: FT Test & Ship':['Station 04: FT Test & Ship','站点 04：FT Test & Ship','站點 04：FT Test & Ship'],
+    'Công đoạn & Đối tác':['Stage & partner','工序与合作方','製程與合作夥伴'],
+    'Sản lượng & Yield':['Output & yield','产量与良率','產量與良率'],
+    'Tiến độ vs Cam kết khách':['Progress vs customer commitment','进度与客户承诺对比','進度與客戶承諾比較'],
+    '🟢 Dự kiến ra lò: 18/10 (+6 ngày)':['🟢 Expected completion: 18/10 (+6 days)','🟢 预计完成：18/10（+6 天）','🟢 預計完成：18/10（+6 天）'],
+    'Hành động Digiwin ERP':['Digiwin ERP action','Digiwin ERP 操作','Digiwin ERP 動作'],
+    'Tự động đồng bộ PO gia công phôi & khấu hao Mask NRE':['Automatically sync wafer-processing PO and mask NRE amortization','自动同步晶圆加工采购单与光罩 NRE 摊销','自動同步晶圓加工採購單與光罩 NRE 攤銷'],
+    'Digiwin ERP kết nối EDI/API hai chiều với Foundry & OSAT, loại bỏ hoàn toàn việc gọi điện hoặc gửi file Excel theo dõi thủ công.':['Digiwin ERP connects bidirectionally with Foundry and OSAT via EDI/API, eliminating manual status calls and Excel-file exchanges.','Digiwin ERP 通过双向 EDI/API 连接 Foundry 与 OSAT，完全免除手动电话跟进或传送 Excel 文件。','Digiwin ERP 透過雙向 EDI/API 連接 Foundry 與 OSAT，完全免除手動電話追蹤或傳送 Excel 檔案。'],
+    'Luồng chuyển tiếp vật lý':['Physical handoff flow','实体交接流程','實體交接流程'],
+    'Đồng bộ EDI/API Digiwin ERP':['Digiwin ERP EDI/API sync','Digiwin ERP EDI/API 同步','Digiwin ERP EDI/API 同步'],
+    'Chỉ số Yield & Giám sát SLA':['Yield metrics & SLA monitoring','良率指标与 SLA 监控','良率指標與 SLA 監控'],
+    'Digiwin ERP tối ưu hóa quản trị kinh doanh vi mạch:':['Digiwin ERP streamlines IC business management:','Digiwin ERP 优化 IC 业务管理：','Digiwin ERP 優化 IC 業務管理：'],
+    'Điều phối chuỗi cung ứng thuê ngoài, kiểm soát WIP và chuẩn hóa dữ liệu chi phí cho doanh nghiệp IC Design.':['Coordinate the outsourced supply chain, monitor WIP and standardize cost data for IC design businesses.','为 IC 设计企业协调委外供应链、管控在制品并规范成本数据。','為 IC 設計企業協調委外供應鏈、管控在製品並規範成本資料。'],
+    'Ba nhóm thông tin quản trị':['Three management information groups','三类管理信息','三類管理資訊'],
+    'Đặt tiến độ, thông tin lô và chi phí vào cùng bối cảnh vận hành của doanh nghiệp IC Design.':['Place progress, lot information and cost in the same IC design operating context.','将进度、批次信息与成本置于同一 IC 设计运营脉络。','將進度、批次資訊與成本置於同一 IC 設計營運脈絡。']
+  });
+  Object.assign(copy,{
+    '15,000 ICs • OSAT Khang Đạt':['15,000 ICs • OSAT Khang Đạt','15,000 颗 IC • OSAT Khang Đạt','15,000 顆 IC • OSAT Khang Đạt'],
+    '10,000 ICs • OSAT Nhật Tân':['10,000 ICs • OSAT Nhật Tân','10,000 颗 IC • OSAT Nhật Tân','10,000 顆 IC • OSAT Nhật Tân'],
+    'Nhờ cây phả hệ số Digiwin ERP, lỗi vết nứt vi mô được truy ngược chính xác từ':['Using the Digiwin ERP digital genealogy tree, the microcrack is traced precisely from','借助 Digiwin ERP 数字谱系树，微裂纹缺陷得以精确反向追溯，从','透過 Digiwin ERP 數位譜系樹，微裂紋缺陷得以精確反向追溯，從'],
+    'Logic ra quyết định':['Decision logic','决策逻辑','決策邏輯'],
+    'Mô phỏng 3D quản trị tiến độ WIP và cổng kết nối EDI/API thời gian thực với xưởng gia công.':['3D simulation of WIP progress management and a real-time EDI/API gateway to processing plants.','在制品进度管理及与加工厂实时 EDI/API 网关的 3D 模拟。','在製品進度管理及與加工廠即時 EDI/API 閘道的 3D 模擬。'],
+    'Theo dõi đơn gia công và WIP trong mô hình sản xuất thuê ngoài; đặt tiến độ trong bối cảnh đơn hàng và kế hoạch.':['Track processing orders and WIP in outsourced production; review progress alongside orders and plans.','在委外生产中跟踪加工订单与在制品，并将进度置于订单和计划脉络中。','在委外生產中追蹤加工訂單與在製品，並將進度置於訂單和規劃脈絡中。'],
+    'Mô phỏng 3D phả hệ Lot, Datecode, phân cấp BIN và cơ chế cô lập rủi ro RMA chính xác.':['3D simulation of lot genealogy, datecode, BIN grading and precise RMA risk isolation.','批次谱系、日期码、BIN 分级及精确 RMA 风险隔离机制的 3D 模拟。','批次譜系、日期碼、BIN 分級及精確 RMA 風險隔離機制的 3D 模擬。'],
+    'Giữ các mã và phân loại liên quan đến lô trong cấu trúc thông tin quản trị ngành IC Design.':['Keep lot-related identifiers and grades within the IC design management information structure.','在 IC 设计管理信息架构中保留批次相关编码与分级。','在 IC 設計管理資訊架構中保留批次相關編碼與分級。'],
+    'Mô phỏng 3D bóc tách chi phí nhiều tầng wafer, gia công OSAT, kiểm thử và hấp thụ yield loss vào giá thành.':['3D simulation of multilayer wafer, OSAT processing and test costs, including yield-loss absorption.','晶圆、OSAT 加工和测试多层成本及良率损失成本吸收的 3D 模拟。','晶圓、OSAT 加工和測試多層成本及良率損失成本吸收的 3D 模擬。'],
+    'Kết nối thông tin nhu cầu, đơn hàng, chi phí theo lô và chi phí dự án đồng bộ trên toàn chuỗi cung ứng.':['Connect demand, orders, lot cost and project cost information across the supply chain.','贯通供应链中的需求、订单、批次成本与项目成本信息。','貫通供應鏈中的需求、訂單、批次成本與專案成本資訊。'],
+    'Khám phá kiến trúc chuyên sâu tại':['Explore the detailed architecture at','查看更深入的架构：','查看更深入的架構：'],
+    'trang giải pháp IC Design / Semiconductor của Digiwin':['Digiwin IC Design / Semiconductor solution page','Digiwin IC 设计 / 半导体解决方案页面','Digiwin IC 設計 / 半導體解決方案頁面'],
+    'Hàng đang trong quá trình xử lý/sản xuất (Work In Progress) tại các xưởng gia công.':['Goods undergoing processing or production (work in progress) at partner plants.','在加工厂处于处理或生产中的货物（在制品）。','在加工廠處於處理或生產中的貨物（在製品）。'],
+    'Lô phôi wafer hoặc lô chip thành phẩm được định danh và theo dõi xuyên suốt vòng đời.':['Identified wafer or finished-chip lots tracked through their life cycle.','对晶圆批次或成品芯片批次进行标识并贯穿生命周期跟踪。','對晶圓批次或成品晶片批次進行標識並貫穿生命週期追蹤。'],
+    'Các mã thời gian sản xuất và phân loại phẩm cấp kiểm thử được quản trị trong bối cảnh sản phẩm.':['Production-date codes and tested grade classifications are managed in product context.','在产品脉络中管理生产日期码与测试等级分类。','在產品脈絡中管理生產日期碼與測試等級分類。'],
+    'Góc nhìn tập hợp chi phí toàn diện theo từng lô chip hoặc toàn bộ dự án thiết kế.':['A consolidated cost view by chip lot or complete design project.','按芯片批次或完整设计项目汇总的成本视图。','按晶片批次或完整設計專案彙總的成本檢視。'],
+    '[ 01/03 ] EXECUTIVE BRIEFING · TIẾN ĐỘ WIP & KHÓA LỊCH GIAO HÀNG (ATP)':['[ 01/03 ] EXECUTIVE BRIEFING · WIP PROGRESS & DELIVERY COMMITMENT (ATP)','[ 01/03 ] 管理简报 · 在制品进度与交期承诺（ATP）','[ 01/03 ] 管理簡報 · 在製品進度與交期承諾（ATP）'],
+    'Từ dữ liệu tiến độ phân tán ➔ Khóa cam kết giao hàng (ATP) chuẩn xác':['From fragmented progress data ➔ Set a precise available-to-promise (ATP) delivery commitment','从分散的进度数据 ➔ 准确确定可承诺交期（ATP）','從分散的進度資料 ➔ 準確確認可承諾交期（ATP）'],
+    'Hợp nhất dòng tiến độ từ Foundry, CP Sort, OSAT và FT về một trục điều hành duy nhất.':['Bring progress from Foundry, CP Sort, OSAT and FT into one management timeline.','将 Foundry、CP Sort、OSAT 与 FT 的进度整合到同一管理时间轴。','將 Foundry、CP Sort、OSAT 與 FT 的進度整合到同一管理時間軸。'],
+    'BƯỚC 01 · HIỆN TRẠNG':['STEP 01 · CURRENT STATE','步骤 01 · 现状','步驟 01 · 現況'],
+    'ĐỐI TÁC NGOÀI · THÔNG TIN TRỄ HẠN':['EXTERNAL PARTNERS · DELAYED INFORMATION','外部合作方 · 信息滞后','外部合作夥伴 · 資訊滯後'],
+    'Tiến độ ngắt quãng & Bị động':['Fragmented progress & reactive response','进度断点与被动应对','進度斷點與被動應對'],
+    'Mã lô ngắt quãng:':['Disconnected lot codes:','批次编码断点：','批次編碼斷點：'],
+    'Báo cáo thủ công bằng file Excel, email rời rạc.':['Manual reporting in separate Excel files and emails.','依靠分散的 Excel 文件与邮件手工报告。','依靠分散的 Excel 檔案與郵件手動報告。'],
+    'Mù mờ điểm nghẽn:':['Unclear bottlenecks:','瓶颈不明：','瓶頸不明：'],
+    'Không rõ từng mẻ chip đang kẹt ở trạm nào.':['No clear view of which station holds each chip batch.','无法明确每批芯片卡在哪个站点。','無法明確每批晶片卡在哪個站點。'],
+    'Thụ động bị phạt:':['Reactive penalties:','被动承受违约处罚：','被動承受違約處罰：'],
+    'Chỉ phát hiện chậm trễ khi đã quá hạn giao khách.':['Delay is discovered only after the customer due date.','只有超过客户交期后才发现延误。','只有超過客戶交期後才發現延誤。'],
+    'BƯỚC 02 · ĐỐI SOÁT DIGIWIN':['STEP 02 · DIGIWIN REVIEW','步骤 02 · DIGIWIN 核对','步驟 02 · DIGIWIN 核對'],
+    'Chuẩn hóa tự động & Cảnh báo sớm':['Automated normalization & early alerts','自动标准化与预警','自動標準化與預警'],
+    'Chuẩn hóa đa nguồn:':['Normalize multiple sources:','多来源标准化：','多來源標準化：'],
+    'Tự động gom dòng EDI/API về một trục thời gian thực.':['Automatically combine EDI/API feeds on one real-time timeline.','自动将 EDI/API 数据流汇入同一实时轴。','自動將 EDI/API 資料流匯入同一即時軸。'],
+    'So sánh SLA tức thì:':['Immediate SLA comparison:','即时 SLA 对比：','即時 SLA 比較：'],
+    'Đo lường liên tục tiến độ thực tế so với hợp đồng.':['Continuously compare actual progress with the contract.','持续将实际进度与合同进行比较。','持續將實際進度與合約進行比較。'],
+    'Cảnh báo sớm đón đầu:':['Proactive early alert:','主动预警：','主動預警：'],
+    'Nhận diện trước điểm nghẽn và nguy cơ vi phạm SLA giao hàng.':['Identify bottlenecks and delivery-SLA risk in advance.','提前识别瓶颈及违反交付 SLA 的风险。','提前辨識瓶頸及違反交付 SLA 的風險。'],
+    'BƯỚC 03 · RA QUYẾT ĐỊNH':['STEP 03 · DECISION','步骤 03 · 决策','步驟 03 · 決策'],
+    'HÀNH ĐỘNG DỨT KHOÁT':['DECISIVE ACTION','明确行动','明確行動'],
+    'Quyết định của Ban Lãnh đạo':['Leadership decisions','管理层决策','管理層決策'],
+    'HÀNH ĐỘNG 1 · ƯU TIÊN SẢN XUẤT':['ACTION 1 · PRODUCTION PRIORITY','行动 1 · 生产优先级','行動 1 · 生產優先順序'],
+    'Fast-track đơn gấp:':['Fast-track urgent orders:','加速紧急订单：','加速緊急訂單：'],
+    'Tách lô ưu tiên trạm kiểm thử nhằm giải phóng nhanh đơn hàng VIP.':['Prioritize a split lot at the test station to release a VIP order sooner.','拆分批次并优先安排测试站，以尽快放行 VIP 订单。','拆分批次並優先安排測試站，以儘快放行 VIP 訂單。'],
+    'HÀNH ĐỘNG 2 · ĐIỀU PHỐI TẢI':['ACTION 2 · LOAD BALANCING','行动 2 · 负载调配','行動 2 · 負載調配'],
+    'San tải linh hoạt:':['Flexible load balancing:','灵活调配负载：','靈活調配負載：'],
+    'Chuyển mẻ phôi sang xưởng phụ ngay khi xưởng chính quá tải.':['Move wafer batches to a secondary plant when the primary plant is overloaded.','主厂超负荷时将晶圆批次转至备用厂。','主廠超負荷時將晶圓批次轉至備援廠。'],
+    'HÀNH ĐỘNG 3 · CAM KẾT THƯƠNG MẠI':['ACTION 3 · COMMERCIAL COMMITMENT','行动 3 · 商业承诺','行動 3 · 商業承諾'],
+    'Chốt cam kết ATP:':['Set ATP commitment:','确定 ATP 承诺：','確認 ATP 承諾：'],
+    'Tự tin khóa ngày xuất xưởng chuẩn xác với khách hàng vi mạch.':['Set an accurate shipment date with the IC customer.','与 IC 客户确定准确的出厂日期。','與 IC 客戶確認準確的出廠日期。'],
+    'GIÁ TRỊ ĐIỀU HÀNH:':['MANAGEMENT VALUE:','管理价值：','管理價值：'],
+    'Chuyển từ "bị động giải trình sự cố" sang chủ động điều phối ngay khi phát sinh lệch chuẩn.':['Move from reactive incident explanations to coordination as soon as a deviation arises.','从被动解释事故转为偏差出现时主动协调。','從被動解釋事故轉為偏差出現時主動協調。'],
+    'Cam kết ATP: Chuẩn xác':['ATP commitment: precise','ATP 承诺：准确','ATP 承諾：準確'],
+    'Điều phối: Chủ động đón đầu':['Coordination: proactive','协调：主动预判','協調：主動預判'],
+    'Hệ thống thông tin quản trị thiết kế chuyên biệt cho mô hình sản xuất vi mạch thuê ngoài (Fabless / OSAT Outsourcing Model).':['Management information system designed for outsourced IC production (Fabless / OSAT outsourcing model).','专为委外 IC 生产模式设计的管理信息系统（Fabless / OSAT 委外模式）。','專為委外 IC 生產模式設計的管理資訊系統（Fabless / OSAT 委外模式）。']
+  });
+  Object.assign(copy,{
+    '[ 02/03 ] EXECUTIVE BRIEFING · PHẢ HỆ LOT, DATECODE & KHOANH VÙNG RỦI RO':['[ 02/03 ] EXECUTIVE BRIEFING · LOT/DATECODE GENEALOGY & RISK ISOLATION','[ 02/03 ] 管理简报 · 批次/日期码谱系与风险隔离','[ 02/03 ] 管理簡報 · 批次/日期碼譜系與風險隔離'],
+    'Từ mã mẻ Wafer, Datecode & BIN ➔ Khoanh vùng chính xác & Bảo vệ toàn vẹn tài sản lô':['From wafer lot, datecode and BIN ➔ precise isolation and protection of unaffected lots','从晶圆批次、日期码与 BIN ➔ 精确隔离并保护未受影响批次','從晶圓批次、日期碼與 BIN ➔ 精確隔離並保護未受影響批次'],
+    'Mỗi phiến Silicon qua đóng gói bị chia tách thành nhiều Sub-lot, khắc nhiều Datecode laser và cấp BIN.':['Each silicon wafer may split into multiple package sub-lots with laser datecodes and BIN grades.','每片硅晶圆经过封装可拆分为多个子批次，并带有激光日期码和 BIN 等级。','每片矽晶圓經過封裝可拆分為多個子批次，並帶有雷射日期碼和 BIN 等級。'],
+    'NGUY CƠ THU HỒI TRÀN LAN':['RISK OF BROAD RECALL','扩大召回风险','擴大召回風險'],
+    'Thông tin đứt đoạn & Mất dấu vết':['Broken information & lost traceability','信息断点与追溯丢失','資訊斷點與追溯遺失'],
+    'Mất dấu vết gốc:':['Original trace lost:','原始追溯中断：','原始追溯中斷：'],
+    'Mất nhiều tuần liên hệ các bên để dò lại lịch sử mẻ chip.':['Weeks spent contacting parties to reconstruct chip-batch history.','需要数周联系各方重建芯片批次历史。','需要數週聯繫各方重建晶片批次歷史。'],
+    'Đứt gãy phả hệ:':['Genealogy break:','谱系断裂：','譜系斷裂：'],
+    'Datecode laser trên vỏ chip không tra ngược được buồng máy ép.':['Laser datecode on the chip package cannot be traced back to the molding chamber.','芯片封装上的激光日期码无法反查模压设备腔室。','晶片封裝上的雷射日期碼無法反查模壓設備腔室。'],
+    'Thiệt hại lan rộng:':['Wider impact:','影响扩大：','影響擴大：'],
+    'Buộc phải thu hồi toàn bộ lô hàng, đền bù hàng trăm ngàn USD.':['The whole lot must be recalled, with compensation in the hundreds of thousands of USD.','不得不召回整个批次，赔偿金额达数十万美元。','不得不召回整個批次，賠償金額達數十萬美元。'],
+    'Phả hệ số hóa & Truy vết 2 chiều':['Digital genealogy & two-way tracing','数字谱系与双向追溯','數位譜系與雙向追溯'],
+    'Phả hệ liền mạch:':['Connected genealogy:','连续谱系：','連續譜系：'],
+    'Nối liền Wafer gốc ➔ Sub-lot OSAT ➔ Datecode ➔ Cấp BIN.':['Connect original wafer ➔ OSAT sub-lot ➔ datecode ➔ BIN grade.','关联原始晶圆 ➔ OSAT 子批次 ➔ 日期码 ➔ BIN 等级。','關聯原始晶圓 ➔ OSAT 子批次 ➔ 日期碼 ➔ BIN 等級。'],
+    'Truy ngược nguồn gốc:':['Trace backward:','反向追溯：','反向追溯：'],
+    'Từ chip lỗi trên thị trường, định vị chính xác mẻ phôi và buồng máy ép.':['From a failed chip in the market, locate its wafer batch and molding chamber.','从市场上的故障芯片精确定位晶圆批次与模压设备腔室。','從市場上的故障晶片精確定位晶圓批次與模壓設備腔室。'],
+    'Quét xuôi tức thì:':['Trace forward immediately:','即时正向追溯：','即時正向追溯：'],
+    'Nhận diện ngay toàn bộ chip thành phẩm dùng chung mẻ wafer.':['Identify all finished chips from the same wafer batch.','立即识别使用同一晶圆批次的所有成品芯片。','立即辨識使用同一晶圓批次的所有成品晶片。'],
+    'HÀNH ĐỘNG 1 · KHOANH VÙNG CÁCH LY':['ACTION 1 · ISOLATE AFFECTED SCOPE','行动 1 · 隔离受影响范围','行動 1 · 隔離受影響範圍'],
+    'Khóa cách ly cục bộ:':['Local isolation:','局部隔离：','局部隔離：'],
+    'Chỉ chặn duy nhất phân nhóm chip thuộc buồng máy sự cố.':['Hold only the chip subgroup from the affected chamber.','仅拦截来自故障腔室的芯片子组。','僅攔截來自故障腔室的晶片子群。'],
+    'HÀNH ĐỘNG 2 · GIẢI PHÓNG HÀNG HÓA':['ACTION 2 · RELEASE UNAFFECTED GOODS','行动 2 · 放行未受影响货物','行動 2 · 放行未受影響貨物'],
+    'Giải phóng lô an toàn:':['Release safe lots:','放行安全批次：','放行安全批次：'],
+    'Cho phép toàn bộ chip đạt chuẩn tiếp tục lưu thông thương mại.':['Allow all conforming chips to continue through commerce.','让所有合格芯片继续流通。','讓所有合格晶片繼續流通。'],
+    'HÀNH ĐỘNG 3 · BẢO VỆ THƯƠNG HIỆU':['ACTION 3 · PROTECT THE BRAND','行动 3 · 保护品牌','行動 3 · 保護品牌'],
+    'Minh bạch truy xuất:':['Transparent tracing:','透明追溯：','透明追溯：'],
+    'Cung cấp báo cáo phả hệ chính xác, dập tắt khủng hoảng RMA.':['Provide an accurate genealogy report to contain an RMA crisis.','提供准确的谱系报告，遏制 RMA 危机。','提供準確的譜系報告，遏制 RMA 危機。'],
+    'Truy vết nguyên nhân tức thì — Bảo vệ toàn bộ lô hàng đạt chuẩn khỏi nguy cơ thu hồi oan.':['Trace the cause immediately — protect conforming lots from unnecessary recall.','即时追溯原因——避免合格批次被无谓召回。','即時追溯原因——避免合格批次被無謂召回。'],
+    'Truy vết: Thời gian thực':['Traceability: real time','追溯：实时','追溯：即時'],
+    'Bảo vệ lô: Tối đa tài sản':['Lot protection: maximum asset preservation','批次保护：最大化资产保全','批次保護：最大化資產保全'],
+    '[ 03/03 ] EXECUTIVE BRIEFING · BÓC TÁCH GIÁ THÀNH ĐA TẦNG & SÀN GIÁ CHÀO THẦU':['[ 03/03 ] EXECUTIVE BRIEFING · MULTILAYER COST & BID PRICE FLOOR','[ 03/03 ] 管理简报 · 多层成本拆解与投标价格底线','[ 03/03 ] 管理簡報 · 多層成本拆解與投標價格底線'],
+    'Từ biến động Yield & NRE động ➔ Khóa sàn giá chào thầu & Bảo vệ Margin':['From yield variation and dynamic NRE ➔ set a bid-price floor and protect margin','从良率波动与动态 NRE ➔ 确定投标价格底线并保护利润率','從良率波動與動態 NRE ➔ 確定投標價格底線並保護利潤率'],
+    'Chi phí chip biến động liên tục theo tỷ lệ phế phẩm (Yield loss) tại xưởng đóng gói và khấu hao khuôn (NRE).':['Chip cost varies with package-plant yield loss and mask/tooling amortization (NRE).','芯片成本随封装厂良率损失和模具摊销（NRE）而变化。','晶片成本隨封裝廠良率損失和模具攤銷（NRE）而變化。'],
+    'BÁO GIÁ CẢM TÍNH · RỦI RO BÁN LỖ':['INTUITIVE PRICING · RISK OF SELLING AT A LOSS','凭感觉报价 · 亏损销售风险','憑感覺報價 · 虧損銷售風險'],
+    'Bẫy giá thành ngầm & Xói mòn Margin':['Hidden cost traps & margin erosion','隐性成本陷阱与利润率侵蚀','隱性成本陷阱與利潤率侵蝕'],
+    'Bỏ quên chip hỏng:':['Failed chips omitted:','遗漏不良芯片：','遺漏不良晶片：'],
+    'Báo giá chỉ tính phôi thô, bỏ sót chi phí die hỏng rơi rụng khi test.':['Quote includes only raw wafers, missing die losses during testing.','报价只计入原始晶圆，遗漏测试中的不良晶粒损失。','報價只計入原始晶圓，遺漏測試中的不良晶粒損失。'],
+    'NRE phân bổ cứng:':['Fixed NRE allocation:','固定 NRE 分摊：','固定 NRE 分攤：'],
+    'Khi sản lượng thực tế sụt giảm, chi phí khuôn đội giá vốn lên cao.':['When actual volume falls, tooling cost raises unit cost.','实际产量下降时，模具成本推高单位成本。','實際產量下降時，模具成本推高單位成本。'],
+    'Bán dưới giá vốn:':['Selling below cost:','低于成本销售：','低於成本銷售：'],
+    'Ký hợp đồng lớn nhưng đến kỳ quyết toán mới phát hiện lỗ ròng.':['A large contract is signed, but a net loss is found only at settlement.','签订大额合同后，直到结算才发现净亏损。','簽訂大額合約後，直到結算才發現淨虧損。']
+  });
+  Object.assign(copy,{
+    'Hấp thụ đa tầng & Phân bổ NRE động':['Multilayer absorption & dynamic NRE allocation','多层成本吸收与动态 NRE 分摊','多層成本吸收與動態 NRE 分攤'],
+    'Tích lũy 4 tầng chi phí:':['Accumulate four cost layers:','汇集四层成本：','彙集四層成本：'],
+    'Tự động cộng dồn Phôi Wafer + Phí đóng gói OSAT + Giờ máy test.':['Automatically add wafer fabrication + OSAT packaging fees + tester hours.','自动累计晶圆制造 + OSAT 封装费 + 测试机时数。','自動累計晶圓製造 + OSAT 封裝費 + 測試機時數。'],
+    'Tự động hấp thụ Yield loss:':['Automatically absorb yield loss:','自动吸收良率损失：','自動吸收良率損失：'],
+    'Hấp thụ trọn vẹn giá trị hao hụt phế phẩm vào giá thành chip đạt chuẩn.':['Allocate the full value of scrap loss to conforming chips.','将报废损失的全部价值计入合格芯片成本。','將報廢損失的全部價值計入合格晶片成本。'],
+    'Khấu hao NRE động:':['Dynamic NRE amortization:','动态 NRE 摊销：','動態 NRE 攤銷：'],
+    'Tự điều chỉnh suất phân bổ chi phí khuôn theo quy mô đơn hàng thực tế.':['Adjust tooling-cost allocation to actual order volume.','根据实际订单规模调整模具成本分摊率。','根據實際訂單規模調整模具成本分攤率。'],
+    'HÀNH ĐỘNG 1 · KHÓA SÀN BÁO GIÁ':['ACTION 1 · SET A QUOTE FLOOR','行动 1 · 设定报价底线','行動 1 · 設定報價底線'],
+    'Khóa sàn giá chào thầu:':['Set a bid-price floor:','设定投标价格底线：','設定投標價格底線：'],
+    'Tự động chặn các báo giá vi phạm ngưỡng an toàn giá vốn.':['Automatically block quotes below the safe cost threshold.','自动拦截低于安全成本阈值的报价。','自動攔截低於安全成本門檻的報價。'],
+    'HÀNH ĐỘNG 2 · PHÊ DUYỆT MARGIN':['ACTION 2 · APPROVE MARGIN','行动 2 · 审批利润率','行動 2 · 審批利潤率'],
+    'Phê duyệt biên lợi nhuận:':['Approve the margin:','审批利润率：','審批利潤率：'],
+    'Chỉ cho phép chốt đơn khi bảo đảm tỷ suất lãi ròng mục tiêu.':['Approve orders only when the target net-margin rate is met.','仅在达到目标净利润率时允许确认订单。','僅在達到目標淨利率時允許確認訂單。'],
+    'HÀNH ĐỘNG 3 · ĐÀM PHÁN DỰA TRÊN DATA':['ACTION 3 · DATA-BASED NEGOTIATION','行动 3 · 基于数据谈判','行動 3 · 根據資料談判'],
+    'Thế mạnh đàm phán:':['Negotiating position:','谈判优势：','談判優勢：'],
+    'Tự tin thương lượng đơn giá wafer và phí đóng gói tối ưu nhất.':['Negotiate wafer unit prices and packaging fees with greater confidence.','更有信心地谈判晶圆单价与封装费用。','更有信心地談判晶圓單價與封裝費用。'],
+    'Triệt tiêu rủi ro bán dưới giá thành — Đảm bảo mọi hợp đồng thương mại đều giữ vững biên lợi nhuận an toàn.':['Eliminate below-cost selling risk — keep every commercial contract above a safe margin.','消除低于成本销售的风险——确保每份商业合同维持安全利润率。','消除低於成本銷售的風險——確保每份商業合約維持安全利潤率。'],
+    'Bảo vệ Margin: Khóa sàn tự động':['Protect margin: automatic floor','保护利润率：自动底线','保護利潤率：自動底線'],
+    'Kiểm soát giá: Thời gian thực':['Price control: real time','价格管控：实时','價格管控：即時'],
+    'Bằng chứng quan hệ hệ thống':['Evidence of system relationship','系统关系依据','系統關係依據'],
+    'SỞ GIAO DỊCH CHỨNG KHOÁN THƯỢNG HẢI (SSE)':['SHANGHAI STOCK EXCHANGE (SSE)','上海证券交易所（SSE）','上海證券交易所（SSE）'],
+    'LƯU CHIỂU 2019':['FILED 2019','2019 年备案','2019 年申報'],
+    'MÃ CHỨNG KHOÁN':['STOCK CODE','证券代码','股票代碼'],
+    'THỊ TRƯỜNG NIÊM YẾT':['LISTING MARKET','上市市场','上市市場'],
+    'HỆ THỐNG CÔNG NGHỆ VẬN HÀNH ĐƯỢC XÁC NHẬN TRONG HỒ SƠ NIÊM YẾT:':['OPERATING SYSTEMS IDENTIFIED IN THE LISTING DOCUMENT:','上市文件确认的运营系统：','上市文件確認的營運系統：'],
+    'Hệ thống hoạch định cốt lõi chuỗi cung ứng thuê ngoài, kiểm soát WIP & hạch toán giá thành chip.':['Core planning system for outsourced supply chains, WIP control and chip cost accounting.','委外供应链、在制品管控与芯片成本核算的核心规划系统。','委外供應鏈、在製品管控與晶片成本核算的核心規劃系統。'],
+    'Hệ thống Quản lý Kênh Đại lý (分销商管理系统)':['Distributor Channel Management System (分销商管理系统)','经销商渠道管理系统（分销商管理系统）','經銷商通路管理系統（分销商管理系统）'],
+    'Nền tảng quản trị mạng lưới phân phối và thanh toán đối tác bán lẻ.':['Platform for distribution-network management and retail-partner settlement.','经销网络管理与零售合作方结算平台。','經銷網路管理與零售合作夥伴結算平台。'],
+    'ĐÃ ĐỐI CHIẾU':['REVIEWED','已核对','已核對'],
+    'Bằng chứng pháp lý từ hồ sơ niêm yết · 2019':['Listing-document evidence · 2019','上市文件依据 · 2019','上市文件依據 · 2019'],
+    '上海晶丰明源 · IC Design / Fabless · Trung Quốc (SSE: 688368)':['上海晶丰明源 · IC Design / Fabless · China (SSE: 688368)','上海晶丰明源 · IC Design / Fabless · 中国（SSE: 688368）','上海晶丰明源 · IC Design / Fabless · 中國（SSE: 688368）'],
+    'Hồ sơ công bố năm 2019 của Shanghai Bright Power trên Sở Giao dịch Chứng khoán Thượng Hải (STAR Market) chính thức ghi nhận doanh nghiệp vận hành bằng Digiwin ERP và hệ thống quản lý đại lý.':['Shanghai Bright Power’s 2019 STAR Market disclosure at the Shanghai Stock Exchange identifies its use of Digiwin ERP and a distributor-management system.','Shanghai Bright Power 2019 年在上海证券交易所科创板的披露文件载明其使用 Digiwin ERP 和经销商管理系统。','Shanghai Bright Power 2019 年在上海證券交易所科創板的揭露文件載明其使用 Digiwin ERP 和經銷商管理系統。'],
+    'Giá trị pháp lý:':['Documentary status:','文件性质：','文件性質：'],
+    'Thông tin được trích xuất trực tiếp từ bản cáo bạch niêm yết chịu trách nhiệm công bố thông tin trước Ủy ban Giám sát Chứng khoán (CSRC) và Sở GDCK Thượng Hải.':['Information is taken directly from the listing prospectus filed under disclosure obligations with the CSRC and Shanghai Stock Exchange.','信息直接摘自向中国证监会（CSRC）及上海证券交易所承担披露责任的上市招股文件。','資訊直接摘自向中國證監會（CSRC）及上海證券交易所承擔揭露責任的上市公開說明書。'],
+    'Nguồn: Bản cáo bạch niêm yết Shanghai Bright Power / SSE, 2019.':['Source: Shanghai Bright Power / SSE listing prospectus, 2019.','来源：Shanghai Bright Power / SSE 上市招股文件，2019 年。','來源：Shanghai Bright Power / SSE 上市公開說明書，2019 年。']
+  });
+  Object.assign(copy,{
+    'MÃ LƯU TRỮ SSE: 000074_20190626_VFP3':['SSE ARCHIVE CODE: 000074_20190626_VFP3','SSE 档案编号：000074_20190626_VFP3','SSE 檔案編號：000074_20190626_VFP3'],
+    'Kết quả đo lường thực tế · Case study tiêu biểu':['Measured results · Featured case study','实测结果 · 典型案例','實測結果 · 代表案例'],
+    'Tại Shanghai Bright Power, giải pháp Digiwin ERP mang lại bước nhảy vọt về tốc độ phản hồi kỹ thuật, đối soát đơn hàng và điều phối gia công thuê ngoài.':['At Shanghai Bright Power, Digiwin ERP improved the speed of technical response, order reconciliation and outsourced production coordination.','在 Shanghai Bright Power，Digiwin ERP 提升了技术响应、订单核对及委外生产协调的速度。','在 Shanghai Bright Power，Digiwin ERP 提升了技術回應、訂單核對及委外生產協調的速度。'],
+    'THỜI GIAN PHẢN HỒI ĐƠN HÀNG (ORDER CYCLE VELOCITY)':['ORDER RESPONSE TIME (ORDER CYCLE VELOCITY)','订单响应时间（ORDER CYCLE VELOCITY）','訂單回應時間（ORDER CYCLE VELOCITY）'],
+    'GẤP 24 LẦN (-95.8% THỜI GIAN)':['24× FASTER (-95.8% TIME)','速度提升 24 倍（时间缩短 95.8%）','速度提升 24 倍（時間縮短 95.8%）'],
+    'QUY TRÌNH THỦ CÔNG CŨ':['PREVIOUS MANUAL PROCESS','原有人工流程','原有人工流程'],
+    'GIỜ':['HOURS','小时','小時'],
+    'Email, file Excel & điện thoại đối soát với từng xưởng gia công':['Email, Excel files and phone calls to reconcile with each subcontractor','通过邮件、Excel 文件及电话与各委外工厂核对','透過電子郵件、Excel 檔案及電話與各委外工廠核對'],
+    '🔴 ĐỘ TRỄ CAO · NGUY CƠ SAI LỆCH':['🔴 HIGH DELAY · DISCREPANCY RISK','🔴 延迟较高 · 差异风险','🔴 延遲較高 · 差異風險'],
+    'VẬN HÀNH DIGIWIN ERP':['DIGIWIN ERP OPERATIONS','DIGIWIN ERP 运营','DIGIWIN ERP 營運'],
+    'Tự động hóa EDI/API hai chiều, đối soát WIP & phản hồi tức thì':['Automated two-way EDI/API, WIP reconciliation and immediate response','双向 EDI/API 自动化、在制品核对与即时响应','雙向 EDI/API 自動化、在製品核對與即時回應'],
+    'Tiến độ WIP xưởng: Tự động hóa 100%':['Factory WIP progress: 100% automated','工厂在制品进度：100% 自动化','工廠在製品進度：100% 自動化'],
+    'Liên thông PO gia công đến nghiệm thu lô':['Connect subcontracting POs through lot acceptance','打通委外采购订单至批次验收','串接委外採購訂單至批次驗收'],
+    'Dữ liệu đo lường thực tế từ dự án triển khai Digiwin ERP tại Shanghai Bright Power Semiconductor.':['Measured data from the Digiwin ERP implementation at Shanghai Bright Power Semiconductor.','数据来自 Shanghai Bright Power Semiconductor 的 Digiwin ERP 实施项目实测。','資料來自 Shanghai Bright Power Semiconductor 的 Digiwin ERP 導入專案實測。'],
+    'Các doanh nghiệp tiêu biểu trong':['Representative companies in','代表性企业，来自','代表性企業，來自'],
+    'hệ sinh thái giải pháp bán dẫn của Digiwin':['Digiwin semiconductor solutions ecosystem','Digiwin 半导体解决方案生态','Digiwin 半導體解決方案生態'],
+    'Bắc Ninh':['Bắc Ninh','北宁','北寧'],
+    'Đội ngũ chuyên gia':['A team of specialists','专家团队','專家團隊'],
+    'trực tiếp tư vấn quy trình và đồng hành chuyển giao tại nhà máy.':['consults directly on processes and supports handover at the factory.','直接提供流程咨询，并在工厂协助交接。','直接提供流程諮詢，並在工廠協助移交。'],
+    'TRƯỜNG HỢP TRIỂN KHAI':['IMPLEMENTATION CASE','实施案例','導入案例'],
+    'SẢN XUẤT TẠI VIỆT NAM':['MANUFACTURING IN VIETNAM','越南制造','越南製造'],
+    'Xem case triển khai tại Việt Nam':['View Vietnam implementation case','查看越南实施案例','查看越南導入案例'],
+    'Khám phá tài liệu chuyên ngành, báo cáo niêm yết độc lập và các hồ sơ triển khai thực tế từ Digiwin cùng đối tác.':['Explore industry resources, independent listing documents and implementation case materials from Digiwin and partners.','查阅 Digiwin 及合作伙伴的行业资料、独立上市文件和实际实施案例。','查閱 Digiwin 及合作夥伴的產業資料、獨立上市文件和實際導入案例。'],
+    'CƠ CHẾ GIẢI PHÁP':['SOLUTION APPROACH','解决方案机制','解決方案機制'],
+    'Kiến trúc giải pháp và quy chuẩn vận hành ERP cho ngành Bán dẫn & IC Design.':['Solution architecture and ERP operating standards for semiconductors and IC design.','半导体与 IC 设计行业的解决方案架构及 ERP 运营规范。','半導體與 IC 設計產業的解決方案架構及 ERP 營運規範。'],
+    'HỒ SƠ KHÁCH HÀNG':['CUSTOMER FILE','客户资料','客戶資料'],
+    'Hồ sơ SSE, 2019':['SSE filing, 2019','SSE 文件，2019 年','SSE 文件，2019 年'],
+    'CASE NGÀNH':['INDUSTRY CASES','行业案例','產業案例'],
+    'Tuyển tập case':['Case collection','案例汇编','案例彙編'],
+    'bán dẫn':['semiconductor','半导体','半導體'],
+    'Tổng hợp bài toán thực tế và kết quả đo lường vận hành tại các doanh nghiệp bán dẫn hàng đầu.':['A collection of operational challenges and measured results at leading semiconductor companies.','汇集领先半导体企业的实际运营课题与实测结果。','彙集領先半導體企業的實際營運課題與實測結果。'],
+    'TRIỂN KHAI NỘI ĐỊA':['LOCAL IMPLEMENTATION','本地实施','在地導入'],
+    'Triển khai hệ thống Workflow ERP quản trị sản xuất thực tế tại Việt Nam.':['Workflow ERP implementation for actual manufacturing management in Vietnam.','在越南实际制造管理中实施 Workflow ERP 系统。','在越南實際製造管理中導入 Workflow ERP 系統。'],
+    'Khám phá trực tiếp giải pháp không rào cản.':['Explore the solution directly.','直接了解解决方案。','直接瞭解解決方案。'],
+    'Chuẩn mực vận hành bán dẫn từ chuyên gia Digiwin Vietnam.':['Semiconductor operating practices from Digiwin Vietnam specialists.','由 Digiwin Vietnam 专家介绍半导体运营实践。','由 Digiwin Vietnam 專家介紹半導體營運實務。']
+  });
+  Object.assign(copy,{
+    'Bảng chứng thực năng lực thực tế':['Evidence of operational capability','实际运营能力证明','實際營運能力證明'],
+    'Đo lường tối ưu chu kỳ đơn hàng bán dẫn':['Measure semiconductor order-cycle improvement','衡量半导体订单周期改善','衡量半導體訂單週期改善'],
+    'Trung tâm kỹ thuật Digiwin onsite Việt Nam':['Digiwin onsite technical team in Vietnam','Digiwin 越南现场技术团队','Digiwin 越南現場技術團隊'],
+    'Mô phỏng 3D quản trị tiến độ WIP qua cổng EDI/API':['3D simulation of WIP progress management through EDI/API gateway','通过 EDI/API 网关管理在制品进度的 3D 模拟','透過 EDI/API 閘道管理在製品進度的 3D 模擬'],
+    'Mô phỏng 3D phả hệ Lot, Datecode, phân cấp BIN và cô lập RMA':['3D simulation of lot/datecode genealogy, BIN grading and RMA isolation','批次/日期码谱系、BIN 分级与 RMA 隔离的 3D 模拟','批次/日期碼譜系、BIN 分級與 RMA 隔離的 3D 模擬'],
+    'Mô phỏng 3D bóc tách chi phí nhiều tầng và hấp thụ phế phẩm':['3D simulation of multilayer cost breakdown and scrap absorption','多层成本拆解与报废成本吸收的 3D 模拟','多層成本拆解與報廢成本吸收的 3D 模擬'],
+    'Khay BIN 7':['BIN 7 tray','BIN 7 托盘','BIN 7 托盤'],
+    'qua':['through','经由','經由'],
+    'Kho HUB':['HUB warehouse','HUB 仓库','HUB 倉庫'],
+    'SEMICONDUCTOR':['SEMICONDUCTOR','半导体','半導體'],
+    'IC DESIGN / FABLESS':['IC DESIGN / FABLESS','IC 设计 / Fabless','IC 設計 / Fabless'],
+    'DIGIWIN IC SUITE':['DIGIWIN IC SUITE','DIGIWIN IC 方案','DIGIWIN IC 方案'],
+    'AUDITED PROOF':['AUDITED PROOF','已审阅证明','已審閱證明'],
+    'POWER & ANALOG IC':['POWER & ANALOG IC','电源与模拟 IC','電源與類比 IC'],
+    'MCU & SOC CHIP':['MCU & SOC CHIP','MCU 与 SoC 芯片','MCU 與 SoC 晶片'],
+    'MEMORY NOR/NAND':['MEMORY NOR/NAND','NOR/NAND 存储器','NOR/NAND 記憶體'],
+    'AUTO & ANALOG IC':['AUTO & ANALOG IC','汽车与模拟 IC','車用與類比 IC'],
+    'AIOT & AUDIO SOC':['AIOT & AUDIO SOC','AIoT 与音频 SoC','AIoT 與音訊 SoC'],
+    'VIETNAM FACTORY':['VIETNAM FACTORY','越南工厂','越南工廠'],
+    'PRECISION ERP':['PRECISION ERP','精密制造 ERP','精密製造 ERP'],
+    'FOR A MORE RESILIENT SEMICONDUCTOR SUPPLY CHAIN':['FOR A MORE RESILIENT SEMICONDUCTOR SUPPLY CHAIN','构建更具韧性的半导体供应链','打造更具韌性的半導體供應鏈'],
+    'Photolithography / Etch':['Photolithography / Etch','光刻 / 蚀刻','微影 / 蝕刻'],
+    'Wire Bonding / Molding':['Wire Bonding / Molding','引线键合 / 塑封','打線接合 / 模封'],
+    'REAL-TIME SLA ENGINE':['REAL-TIME SLA ENGINE','实时 SLA 引擎','即時 SLA 引擎'],
+    'DIRECTED GENEALOGY GRAPH':['DIRECTED GENEALOGY GRAPH','定向批次谱系图','定向批次譜系圖'],
+    'MULTI-TIER COST ENGINE':['MULTI-TIER COST ENGINE','多层成本引擎','多層成本引擎'],
+    'SEMICONDUCTOR OPERATIONS':['SEMICONDUCTOR OPERATIONS','半导体运营','半導體營運'],
+    'TOP 1':['TOP 1','首位','首位'],
+    'Foundry (Wafer Fab)':['Foundry (Wafer Fab)','晶圆代工（晶圆制造）','晶圓代工（晶圓製造）'],
+    'CP Test (Probe)':['CP Test (Probe)','晶圆探针测试（CP）','晶圓探針測試（CP）'],
+    'OSAT (Packaging)':['OSAT (Packaging)','OSAT（封装）','OSAT（封裝）'],
+    'FT Test & Ship':['FT Test & Ship','成品测试与出货','成品測試與出貨'],
+    'Yield 98.5%':['Yield 98.5%','良率 98.5%','良率 98.5%'],
+    'Yield 96.8%':['Yield 96.8%','良率 96.8%','良率 96.8%'],
+    'Yield 99.2%':['Yield 99.2%','良率 99.2%','良率 99.2%'],
+    'Yield 99.1%':['Yield 99.1%','良率 99.1%','良率 99.1%'],
+    'Wafer-out 18/10':['Wafer-out 18/10','晶圆出厂 18/10','晶圓出廠 18/10'],
+    'CP Probe 21/10':['CP Probe 21/10','CP 探针测试 21/10','CP 探針測試 21/10'],
+    'REAL-TIME':['REAL-TIME','实时','即時'],
+    'OUTSOURCE · WIP':['OUTSOURCE · WIP','委外 · 在制品','委外 · 在製品'],
+    'ACTIVE TRACE':['ACTIVE TRACE','主动追溯','主動追溯'],
+    'RECONCILED':['RECONCILED','已核对','已核對'],
+    'COST ACCOUNTING':['COST ACCOUNTING','成本核算','成本核算'],
+    'LOT · DATECODE · BIN':['LOT · DATECODE · BIN','批次 · 日期码 · BIN','批次 · 日期碼 · BIN'],
+    'LOT & PROJECT COST':['LOT & PROJECT COST','批次与项目成本','批次與專案成本'],
+    'Lot':['Lot','批次','批次'],
+    'Datecode / BIN':['Datecode / BIN','日期码 / BIN','日期碼 / BIN'],
+    'Lot / project cost':['Lot / project cost','批次 / 项目成本','批次 / 專案成本'],
+    '🟢 REAL-TIME · ZERO MANUAL LAG':['🟢 REAL-TIME · ZERO MANUAL LAG','🟢 实时 · 无人工延迟','🟢 即時 · 無人工延遲'],
+    'STAR MARKET (科创板)':['STAR MARKET (科创板)','科创板','科創板']
+  });
+  var titles={
+    en:['Digiwin | IC Design / Fabless Operations','Explore an outsourced-operations review framework for IC Design and Fabless teams.'],
+    'zh-Hans':['Digiwin | IC 设计 / Fabless 运营','了解面向 IC 设计与 Fabless 团队的委外运营核对框架。'],
+    'zh-Hant':['Digiwin | IC 設計 / Fabless 營運','了解面向 IC 設計與 Fabless 團隊的委外營運檢視框架。']
+  };
+  var originals=new WeakMap();
+  var attrs=new WeakMap();
+  var sourceTitle=document.title;
+  var description=document.querySelector('meta[name="description"]');
+  var sourceDescription=description?description.getAttribute('content'):'';
+  function localized(source,locale){var row=copy[source];return row&&locale!=='vi'?row[locales.indexOf(locale)-1]:source;}
+  function apply(locale){
+    root.setAttribute('lang',locale);
+    document.documentElement.setAttribute('lang',locale);
+    select.value=locale;
+    var walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,null);
+    var node;
+    while((node=walker.nextNode())){
+      if(node.parentElement&&node.parentElement.closest('script,style,option'))continue;
+      if(!originals.has(node))originals.set(node,node.nodeValue);
+      var source=originals.get(node),trimmed=source.trim();
+      if(!trimmed)continue;
+      var replacement=localized(trimmed,locale);
+      node.nodeValue=source.replace(trimmed,replacement);
+    }
+    root.querySelectorAll('[aria-label],[alt],[title],[placeholder]').forEach(function(element){
+      if(!attrs.has(element)){
+        var sourceAttrs={};
+        ['aria-label','alt','title','placeholder'].forEach(function(name){if(element.hasAttribute(name))sourceAttrs[name]=element.getAttribute(name)});
+        attrs.set(element,sourceAttrs);
+      }
+      var saved=attrs.get(element);
+      Object.keys(saved).forEach(function(name){element.setAttribute(name,localized(saved[name],locale))});
+    });
+    document.title=locale==='vi'?sourceTitle:titles[locale][0];
+    if(description)description.setAttribute('content',locale==='vi'?sourceDescription:titles[locale][1]);
+  }
+  var params=new URLSearchParams(window.location.search);
+  var initial=params.get('lang');
+  var locale=locales.indexOf(initial)>=0?initial:'vi';
+  apply(locale);
+  select.addEventListener('change',function(){
+    var next=locales.indexOf(select.value)>=0?select.value:'vi';
+    var url=new URL(window.location.href);
+    url.searchParams.set('lang',next);
+    window.history.replaceState(window.history.state,'',url.pathname+url.search+url.hash);
+    apply(next);
   });
 })();
 </script>

@@ -12,7 +12,7 @@
 
 ## Fact / proposal / unknown
 
-**Facts:** kickoff requires separate reach, attention, progression, cost and optional commercial signals. The current planning envelope is `1,000,000 VND/day`, marked **DRAFT / MANAGEMENT APPROVAL PENDING**, with LinkedIn `600,000 VND/day`, Google `250,000 VND/day`, and reserve/retargeting `150,000 VND/day`. This is not spend authorization. Dates and tax/fee basis remain pending. Existing tags/events must be inventoried before reuse or change.
+**Facts:** kickoff requires separate reach, attention, progression, cost and optional commercial signals. The earlier working-rate and channel-split proposal was `1,000,000 VND/eligible paid day`, with LinkedIn `600,000 VND/day`, Google `250,000 VND/day`, and reserve/retargeting `150,000 VND/day`; this split remains unapproved. Bảo's dated 35m Scale-1 ceiling over 56 calendar days, with at most 35 eligible paid days at that historical rate, is reconciled below. This is not spend authorization. Paid-day dates and tax/fee basis remain pending. Existing tags/events must be inventoried before reuse or change.
 
 **Proposal:** use a layered scorecard and one reconciliation table, with targets provisional until account, traffic, audience and budget baselines exist.
 
@@ -37,6 +37,25 @@ As of 2026-09-24, Phase 2 local source instrumentation is implemented on OSAT, F
 
 ## Candidate tracking semantic contract
 
+### Proposed decision KPI dictionary (2026-09-29)
+
+The first seven *eligible delivery* days are a technical and destination check, not a statistical claim about demand or audience fit. Record calendar dates and actual eligible days separately. All baselines below are `unknown` until real, same-scope campaign delivery exists. Floors and decision thresholds in S04A are proposals pending Bảo's approval; missing or hidden data means `insufficient evidence`.
+
+| KPI | Numerator / denominator and scope | Source; baseline | Proposed sufficiency and cadence | Limitation / decision use |
+|---|---|---|---|---|
+| Technical integrity | Count of unresolved critical route, claim, duplicate, privacy, URL or receiver defects; no rate | Route QA, GTM/GA4 and receiver evidence as authorized; current campaign baseline unknown | Check before delivery and during first 7 eligible days; proposed zero-open-critical gate | Synthetic route tests establish technical behavior only, not paid performance. |
+| LinkedIn target distribution | Delivered impressions in reported target company/function/seniority cells / all impressions with the same available breakdown; report unclassified share | Campaign Manager; unknown | Compare weekly on unchanged audience configuration; proposal requires two comparable weekly snapshots | Reported cells may be hidden; no claim of person-level identity or total account coverage. |
+| LinkedIn reach/frequency | Native unique reach; impressions / native reach, same campaign and period | Campaign Manager; unknown | Weekly after actual delivery | Do not add unique reach across platforms or equate impressions with people. |
+| Search observed-query relevance | Clicks on visible search terms classified relevant by a prewritten rubric / clicks on all visible classified terms; also report visible-term clicks / total Search clicks when available | Google Ads search-terms and campaign click reports; unknown | Inspect during first 7 eligible days; **proposed** 20 observed classified clicks before using relevance rate for allocation, with sample and coverage disclosed | Hidden terms prevent an all-query claim; 7 relevant of 10 clicks is descriptive only, not a sufficient decision sample. |
+| Core Search impression share | Eligible impressions received / estimated eligible impressions for the explicitly scoped core term set | Google Ads Search impression-share report, if exposed; unknown | Weekly once core terms and eligibility are stable | Missing estimate is unknown, not zero demand; compare like settings only. |
+| Paid landing engagement | Engaged paid sessions / paid landing sessions, same source, route, language/variant, timezone and period | Verified GA4 paid-session report; unknown | Proposed 100 sessions per route/variant for first comparison; weekly | Behavioral attention proxy, not audience qualification or awareness lift; zero sessions makes rate undefined. |
+| Cost per engaged session | Reconciled media spend attributable to the same paid slice / engaged paid sessions for that slice | Platform spend plus verified GA4 attribution; unknown | Weekly only when matching attribution and nonzero denominator are available | Platform and GA4 windows can disagree; disclose unmatched spend/sessions. |
+| Proof interaction | Paid sessions with one defined proof/content action / paid landing sessions in the same slice | Verified existing event or asset telemetry; unknown | Define action first; proposed 100 sessions per compared slice; weekly | Interaction does not prove comprehension or permission to use the claim. |
+| CTA / accepted lead / booking | Three separate counts or rates: CTA intents / paid sessions; receiver-accepted records / attributable paid sessions; confirmed bookings / accepted records | Governed route event (OSAT only where verified), provider/receiver, booking source; all baselines unknown | Weekly only for individually verified sources; no minimum decision floor yet | CTA intent is not PopupX opening, form acceptance or booked meeting. No synthetic/test record enters campaign result. |
+| Pacing and reserve | Actual media spend / approved period ceiling; remaining ceiling = approved ceiling − actual media spend | Reconciled native platform bills; no approved baseline/envelope yet | Weekly and before any proposed allocation change | Draft ceiling is not authority; tax/fee inclusion and eligible days must be fixed first. |
+
+Source, numerator, denominator, route/segment/language, date window, currency, timezone, attribution window, reporting latency and missing/hidden share travel with each reported KPI. A zero denominator yields `not calculable`. No provisional threshold is a live bidding goal or approval to create an event.
+
 | Semantic | Candidate condition | Required validation |
 |---|---|---|
 | `landing_view/session` | Correct paid destination loads; page view not duplicated | Route, tags, consent, duplicate check |
@@ -59,7 +78,17 @@ The reviewed local technical-document inventory does not substantiate an `accept
 
 ## Budget and pacing options
 
-Planning envelope: `1,000,000 VND/day` (**DRAFT / MANAGEMENT APPROVAL PENDING**), split LinkedIn `600,000 VND/day`, Google Search `250,000 VND/day`, and reserve/retargeting `150,000 VND/day`. Dates and tax/fee basis are pending. This planning envelope is not approval to spend or change any live budget.
+### Calendar and ceiling reconciliation (options, no selected envelope)
+
+| Source shape | Eligible days and arithmetic at the stated daily reference | Interpretation |
+|---|---|---|
+| Earlier main S04A/S04B phase proposal | 7 + 14 + one Scale-1 cycle of 7 = 28 eligible days at up to 1,000,000 VNĐ/day = **28,000,000 VNĐ**; separate first 7 Scale-2 days at up to 1,250,000 VNĐ/day = **8,750,000 VNĐ** after new approval | **36,750,000 VNĐ** combined former proposal; the one-cycle scope is superseded for the current ceiling decision, not historical evidence of spend. |
+| Older local-only workbook `ff493a7` under `docs/plans/` | `01_Thiet_lap` D13=7, D14=14, D15=7, D16=2; `02_Lo_trinh` G1+G2+G3.1+G3.2 = `7+14+7+7=35` eligible days × 1m = **35,000,000 VNĐ**. G4 separately `7×1.25m=8,750,000 VNĐ`. | Workbook is the verified source of the **35,000,000 + 8,750,000 = 43,750,000 VNĐ** reference also repeated in Vy's email; it is local-only and never itself spend authority. |
+| Bảo's 2026-09-29 ceiling decision | **35,000,000 VNĐ through Scale 1 across eight calendar weeks (56 calendar days)**; at 1m/day, full use permits at most 35 eligible paid days. First Scale-2 7 days/8.75m stays a separate approval. | Exact eligible-day dates and phase placement remain to design/approve. Eight calendar weeks are not 56 paid days. Reserve inside the daily ceiling is capacity, not required spend. |
+
+The earlier 28m proposal and workbook 35m model had different Scale-1 cycle counts; Bảo has now selected the 35m **planning ceiling** over eight calendar weeks. The 56-day email schedule is interpreted as calendar duration under that decision, not 56 eligible delivery days or a 56m budget. Bảo still must approve the phase/day schedule, reserve treatment, tax/fee basis and any operational spend mandate; Scale 2 remains separately gated. Proposed Search underspend rule: if relevant query volume cannot absorb its bucket, keep unspent funds unspent and record the variance; transfer to LinkedIn only with an evidence-backed allocation decision within an approved envelope. Do not widen keywords merely to spend.
+
+Earlier daily working-rate proposal: `1,000,000 VND/eligible paid day`, split LinkedIn `600,000 VND/day`, Google Search `250,000 VND/day`, and reserve/retargeting `150,000 VND/day` (**channel allocation unapproved**). The current decision is the dated 35m Scale-1 planning ceiling across 56 calendar days with at most 35 eligible paid days, as reconciled above; exact paid-day dates and tax/fee basis remain pending. Neither the ceiling nor the proposed split is approval to spend or change any live budget.
 
 | Option | Planning shape | Use when | Risk / decision needed |
 |---|---|---|---|
