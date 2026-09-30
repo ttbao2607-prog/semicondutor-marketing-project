@@ -233,3 +233,5 @@ Stop and send an L2 decision pack for: budget envelope or pacing change, platfor
 Public-repository boundary: no account IDs, private URLs, credentials, cookies, PII, raw audience/lead exports or unverified proof presented as fact.
 
 Responsible roles: Bảo — Product Owner; Coordinator/Auditor — coordination and independent audit; Executor — leaf implementation within mandate, no delegation.
+
+**Four-locale production update (2026-09-30):** the approved locale revision is now published and publicly verified on OSAT, Fabless and Supplier/Partner at their existing URLs. The 2026-09-29 notes above describe the pre-deployment state and are superseded only for locale publication status. Per-route hashes, readback, public checks and completed receipts are recorded in [the deployment checkpoint](evidence/locale/2026-09-30-four-locale-production-deployment.md). The deployment did not change tracking, CTA or form behavior; it does not authorize campaigns, spend or further page revisions.
