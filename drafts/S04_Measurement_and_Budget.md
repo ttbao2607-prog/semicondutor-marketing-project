@@ -88,30 +88,30 @@ The reviewed local technical-document inventory does not substantiate an `accept
 
 The earlier 28m proposal and workbook 35m model had different Scale-1 cycle counts; Bảo has now selected the 35m **planning ceiling** over eight calendar weeks. The 56-day email schedule is interpreted as calendar duration under that decision, not 56 eligible delivery days or a 56m budget. Bảo still must approve the phase/day schedule, reserve treatment, tax/fee basis and any operational spend mandate; Scale 2 remains separately gated. Proposed Search underspend rule: if relevant query volume cannot absorb its bucket, keep unspent funds unspent and record the variance; transfer to LinkedIn only with an evidence-backed allocation decision within an approved envelope. Do not widen keywords merely to spend.
 
-### Bảng ánh xạ tuần lịch dương thực tế (Tháng 10 - Tháng 12) — Trần 35 ngày paid / 56 ngày lịch
+### Bảng đề xuất ánh xạ tuần lịch dương (Tháng 10 - Tháng 12) — Phương án dự thảo chờ Bảo duyệt
 
-Nhằm khớp nối chặt chẽ lộ trình triển khai theo chỉ đạo của Sếp Vy với trần phê duyệt 35.000.000 VNĐ / 35 ngày paid trong 56 ngày lịch của Bảo, bảng ánh xạ tuần lịch dương dưới đây thiết lập tiến độ phân bổ chi tiết cho 8 tuần thực tế (kết thúc an toàn trước Tết Nguyên Đán):
+Bảng ánh xạ tuần lịch dương dưới đây là **phương án đề xuất kỹ thuật (draft proposal)** nhằm minh họa cách khớp nối lộ trình của Sếp Vy với trần kế hoạch 35.000.000 VNĐ / tối đa 35 ngày paid trong 56 ngày lịch mà Bảo đã định hướng. Mọi chi tiết về ngày paid cụ thể, các ngày nghỉ kỹ thuật (cooling-off) và việc điều chuyển ngân sách giữa các kênh đều **chưa phải quyết định cuối cùng và cần Bảo phê duyệt chính thức**:
 
-| Tuần lịch | Khung ngày dương lịch (Mẫu Q4: Tháng 10 - Tháng 12) | Giai đoạn (Phase) | Số ngày lịch | Số ngày paid hợp lệ | Ngày nghỉ đối soát (Non-paid) | Ngân sách giai đoạn (VNĐ) | Trọng tâm kiểm soát & Điều kiện nghiệm thu (Gate Criteria) |
+| Tuần lịch | Khung ngày dương lịch (Mẫu đề xuất: Tháng 10 - Tháng 12) | Giai đoạn đề xuất (Phase) | Số ngày lịch | Số ngày paid dự kiến | Ngày đối soát đề xuất (Non-paid) | Ngân sách dự kiến (VNĐ) | Trọng tâm kiểm soát đề xuất (Chờ Bảo duyệt) |
 |---|---|---|---:|---:|---:|---:|---|
-| **Tuần 1** | 05/10 – 11/10 | **Giai đoạn 1: Kỹ thuật** (Tuần 1/2) | 7 ngày | 4 ngày paid | 3 ngày | 4.000.000 VNĐ | Kiểm tra kỹ thuật: kích hoạt tracking route, kiểm tra UTM, PopupX modal, kiểm tra zero-critical bug. |
-| **Tuần 2** | 12/10 – 18/10 | **Giai đoạn 1: Kỹ thuật** (Tuần 2/2) | 7 ngày | 3 ngày paid | 4 ngày | 3.000.000 VNĐ | Hoàn tất **7 ngày paid kỹ thuật**. Họp rà soát kỹ thuật; nếu đạt 0 lỗi blocker thì đóng Gate 1 để chuyển sang Gate 2. |
+| **Tuần 1** | 05/10 – 11/10 | **Giai đoạn 1: Kỹ thuật** (Tuần 1/2) | 7 ngày | 4 ngày paid | 3 ngày | 4.000.000 VNĐ | Đề xuất kiểm tra kỹ thuật: kích hoạt tracking route, kiểm tra UTM, PopupX modal, kiểm tra zero-critical bug. |
+| **Tuần 2** | 12/10 – 18/10 | **Giai đoạn 1: Kỹ thuật** (Tuần 2/2) | 7 ngày | 3 ngày paid | 4 ngày | 3.000.000 VNĐ | Dự kiến hoàn tất **7 ngày paid kỹ thuật**. Họp rà soát kỹ thuật; nếu đạt 0 lỗi blocker thì trình Bảo duyệt đóng Gate 1 để chuyển sang Gate 2. |
 | **Tuần 3** | 19/10 – 25/10 | **Giai đoạn 2: Xác nhận** (Tuần 1/3) | 7 ngày | 5 ngày paid | 2 ngày | 5.000.000 VNĐ | Xác nhận tệp đối tượng: Kiểm tra hiển thị Matched Audience FDI và tệp Phụ trợ nội địa trên LinkedIn; đo lường search query relevance trên Google Search. |
 | **Tuần 4** | 26/10 – 01/11 | **Giai đoạn 2: Xác nhận** (Tuần 2/3) | 7 ngày | 5 ngày paid | 2 ngày | 5.000.000 VNĐ | Theo dõi tỷ lệ tương tác (engagement rate) trên từng route; đánh giá CTR và bounce rate theo từng ngôn ngữ (VI, EN, zh-Hans, zh-Hant). |
-| **Tuần 5** | 02/11 – 08/11 | **Giai đoạn 2: Xác nhận** (Tuần 3/3) | 7 ngày | 4 ngày paid | 3 ngày | 4.000.000 VNĐ | Hoàn tất **14 ngày paid xác nhận**. Đánh giá tính ổn định và lặp lại của tín hiệu tương tác; rà soát query negatives. |
-| **Tuần 6** | 09/11 – 15/11 | **Giai đoạn 3: Tối ưu** (Chu kỳ 3.1 - Tuần 1/2) | 7 ngày | 5 ngày paid | 2 ngày | 5.000.000 VNĐ | Bắt đầu chu kỳ Tối ưu 3.1 (7 ngày paid đầu): Tập trung ngân sách vào các góc thông điệp có tín hiệu tốt nhất (đặc biệt thông điệp "Đủ chuẩn tham gia chuỗi cung ứng bán dẫn"). |
-| **Tuần 7** | 16/11 – 22/11 | **Giai đoạn 3: Tối ưu** (Chu kỳ 3.1 kết thúc & Chu kỳ 3.2 bắt đầu) | 7 ngày | 5 ngày paid | 2 ngày | 5.000.000 VNĐ | Hoàn tất chu kỳ 3.1 (2 ngày) và kích hoạt chu kỳ 3.2 (3 ngày): Điều chỉnh ngân sách dự phòng 150k/ngày giữa LinkedIn và Google dựa trên dữ liệu chuyển đổi thực tế. |
-| **Tuần 8** | 23/11 – 29/11 | **Giai đoạn 3: Tối ưu** (Chu kỳ 3.2 - Tuần 2/2) | 7 ngày | 4 ngày paid | 3 ngày | 4.000.000 VNĐ | Hoàn tất chu kỳ 3.2 (**14 ngày paid tối ưu tổng cộng**). Đóng toàn bộ chiến dịch paid trước mùa nghỉ lễ/Tết; trích xuất báo cáo tổng kết Scale-1. |
-| **TỔNG** | **8 Tuần (Tháng 10 – Tháng 11)** | **3 Giai đoạn: Kỹ thuật + Xác nhận + Tối ưu** | **56 ngày lịch** | **35 ngày paid** | **21 ngày nghỉ** | **35.000.000 VNĐ** | **Khớp chính xác trần 35.000.000 VNĐ; tuân thủ nghiêm ngặt 35 ngày paid / 56 ngày lịch; kết thúc an toàn trước Tết Nguyên Đán.** |
+| **Tuần 5** | 02/11 – 08/11 | **Giai đoạn 2: Xác nhận** (Tuần 3/3) | 7 ngày | 4 ngày paid | 3 ngày | 4.000.000 VNĐ | Dự kiến hoàn tất **14 ngày paid xác nhận**. Đánh giá tính ổn định và lặp lại của tín hiệu tương tác; rà soát query negatives. |
+| **Tuần 6** | 09/11 – 15/11 | **Giai đoạn 3: Tối ưu** (Chu kỳ 3.1 - Tuần 1/2) | 7 ngày | 5 ngày paid | 2 ngày | 5.000.000 VNĐ | Đề xuất chu kỳ Tối ưu 3.1 (7 ngày paid đầu): Tập trung ngân sách vào các góc thông điệp có tín hiệu tốt nhất (đặc biệt thông điệp "Đủ chuẩn tham gia chuỗi cung ứng bán dẫn"). |
+| **Tuần 7** | 16/11 – 22/11 | **Giai đoạn 3: Tối ưu** (Chu kỳ 3.1 kết thúc & Chu kỳ 3.2 bắt đầu) | 7 ngày | 5 ngày paid | 2 ngày | 5.000.000 VNĐ | Dự kiến chu kỳ 3.1 (2 ngày) và chu kỳ 3.2 (3 ngày): Xem xét điều chỉnh ngân sách dự phòng giữa LinkedIn và Google dựa trên dữ liệu chuyển đổi thực tế (chỉ khi có phê duyệt). |
+| **Tuần 8** | 23/11 – 29/11 | **Giai đoạn 3: Tối ưu** (Chu kỳ 3.2 - Tuần 2/2) | 7 ngày | 4 ngày paid | 3 ngày | 4.000.000 VNĐ | Dự kiến hoàn tất chu kỳ 3.2 (**14 ngày paid tối ưu tổng cộng**). Đóng toàn bộ chiến dịch paid trước mùa nghỉ lễ/Tết; trích xuất báo cáo tổng kết Scale-1. |
+| **TỔNG** | **8 Tuần (Tháng 10 – Tháng 11)** | **3 Giai đoạn: Kỹ thuật + Xác nhận + Tối ưu** | **56 ngày lịch** | **35 ngày paid** | **21 ngày nghỉ** | **35.000.000 VNĐ** | **Khung tham chiếu trần 35.000.000 VNĐ; 35 ngày paid / 56 ngày lịch; kết thúc an toàn trước Tết Nguyên Đán (Đang ở dạng đề xuất chờ duyệt).** |
 
-**Quy tắc vận hành lịch dương & ngày paid:**
-1. **Phân bổ 3 giai đoạn chuẩn:**
-   - **Giai đoạn 1 (Tuần 1 - Tuần 2):** Kỹ thuật đúng **7 ngày paid** (nằm trong 14 ngày lịch).
-   - **Giai đoạn 2 (Tuần 3 - Tuần 5):** Xác nhận đúng **14 ngày paid** (nằm trong 21 ngày lịch).
-   - **Giai đoạn 3 (Tuần 6 - Tuần 8):** Tối ưu đúng **14 ngày paid** (gồm chu kỳ 3.1: 7 ngày và chu kỳ 3.2: 7 ngày, nằm trong 21 ngày lịch).
-   - **Tổng cộng:** `7 + 14 + 14 = 35 ngày paid`, tổng chi ngân sách = `35 × 1.000.000 VNĐ = 35.000.000 VNĐ`.
-2. **21 ngày nghỉ lịch (Cooling-off / Analysis days):** Khoảng đệm 21 ngày không chạy quảng cáo xen kẽ giữa các tuần là thời gian bắt buộc để đội ngũ phân tích báo cáo tuần, đối soát số liệu GTM/GA4/LinkedIn, sửa đổi creative và negatives mà không gây lãng phí ngân sách.
-3. **Mốc thời gian kết thúc trước Tết:** Toàn bộ chu kỳ 56 ngày lịch được bố trí trong Tháng 10 - Tháng 12 để kết thúc muộn nhất vào cuối Tháng 12 hoặc trước đợt nghỉ Tết Nguyên Đán, tránh phân phối quảng cáo B2B vào giai đoạn nhà máy và doanh nghiệp dừng hoạt động.
+**Nguyên tắc vận hành đề xuất (Pending Operational Mandate):**
+1. **Phân bổ 3 giai đoạn đề xuất:**
+   - **Giai đoạn 1 (Tuần 1 - Tuần 2):** Đề xuất kỹ thuật **7 ngày paid** (nằm trong 14 ngày lịch).
+   - **Giai đoạn 2 (Tuần 3 - Tuần 5):** Đề xuất xác nhận **14 ngày paid** (nằm trong 21 ngày lịch).
+   - **Giai đoạn 3 (Tuần 6 - Tuần 8):** Đề xuất tối ưu **14 ngày paid** (gồm chu kỳ 3.1: 7 ngày và chu kỳ 3.2: 7 ngày, nằm trong 21 ngày lịch).
+   - **Tổng cộng:** `7 + 14 + 14 = 35 ngày paid`, tổng chi ngân sách theo trần = `35 × 1.000.000 VNĐ = 35.000.000 VNĐ`.
+2. **Khoảng đệm 21 ngày nghỉ đối soát đề xuất (Non-paid / Analysis buffer):** Là phương án đề xuất để đội ngũ phân tích báo cáo tuần, đối soát số liệu GTM/GA4/LinkedIn, sửa đổi creative và negatives mà không kích hoạt ngân sách quảng cáo.
+3. **Mốc thời gian dự kiến kết thúc trước Tết:** Dự kiến triển khai Tháng 10 - Tháng 12 để kết thúc trước đợt nghỉ Tết Nguyên Đán, tránh phân phối quảng cáo B2B vào giai đoạn nhà máy và doanh nghiệp dừng hoạt động.
 
 Earlier daily working-rate proposal: `1,000,000 VND/eligible paid day`, split LinkedIn `600,000 VND/day`, Google Search `250,000 VND/day`, and reserve/retargeting `150,000 VND/day` (**channel allocation unapproved**). The current decision is the dated 35m Scale-1 planning ceiling across 56 calendar days with at most 35 eligible paid days, as reconciled above; exact paid-day dates and tax/fee basis remain pending. Neither the ceiling nor the proposed split is approval to spend or change any live budget.
 

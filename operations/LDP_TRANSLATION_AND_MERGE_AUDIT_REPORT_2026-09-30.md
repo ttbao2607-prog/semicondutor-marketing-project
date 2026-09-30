@@ -37,9 +37,9 @@
 ### Kết quả tổng quan:
 | Tiêu chí | Trạng thái | Đánh giá tóm tắt |
 |---|:---:|---|
-| **Tiêu chí 1: Translating Gap** | **PARTIAL PASS / CẦN SỬA 1 LỖI CHÍNH** | Đã dịch thành công >99.8% text nodes và 100% attributes trên cả 4 locale. Tuy nhiên phát hiện **1 lỗi hardcoded text node hoàn toàn sót tiếng Việt** trong Fabless (`span#ledger-status` tại line 1928), cùng các tồn dư tên riêng cơ sở nội địa (Khang Đạt, Nhật Tân, Phẩm Thuyên, Pinquan) chưa bản địa hóa sang chữ Hán. |
-| **Chất lượng thuật ngữ bán dẫn** | **EXCELLENT (96/100)** | Phân biệt cực kỳ chuẩn xác giữa thuật ngữ Trung Quốc đại lục (zh-Hans) và Đài Loan (zh-Hant) ở các khái niệm then chốt (`硅` vs `矽`, `洁净室` vs `無塵室`, `激光` vs `雷射`, `裸片/芯片` vs `裸晶/晶片`, `引线键合` vs `打線接合`, `模具/夹具` vs `模具/治具`, `多层BOM` vs `多階BOM`). Có 3 tiểu tiết cần tinh chỉnh (Recipe, Audit, Station). |
-| **Tiêu chí 2: Technical Error khi Merge** | **FULL PASS (100%)** | Cơ chế cập nhật TreeWalker và MutationObserver an toàn tuyệt đối nhờ ràng buộc giá trị Idempotency Guard (`nodeValue !== next`), không gây vòng lặp vô hạn. Thiết kế UI đã neo kích thước chống CLS. Invariants tracking không bị xâm phạm. Toàn bộ 12/12 unit tests đạt PASS. |
+| **Tiêu chí 1: Translating Gap** | **FULL PASS (RECONCILED)** | Đã dịch thành công >99.8% text nodes và 100% attributes trên cả 4 locale. Lỗi hardcoded text node duy nhất (`span#ledger-status` tại line 1928 của Fabless, GAP-01) **đã được vá hoàn tất tại commit `87f15a3`**. Tên riêng các đơn vị nội địa (Khang Đạt, Nhật Tân, Phẩm Thuyên, Pinquan) được **bảo toàn nguyên văn tiếng Việt** theo đúng nguyên tắc nhận diện pháp nhân, không tự ý suy diễn Hán hóa. |
+| **Chất lượng thuật ngữ bán dẫn** | **EXCELLENT (96/100)** | Phân biệt cực kỳ chuẩn xác giữa thuật ngữ Trung Quốc đại lục (zh-Hans) và Đài Loan (zh-Hant) ở các khái niệm then chốt (`硅` vs `矽`, `洁净室` vs `無塵室`, `激光` vs `雷射`, `裸片/芯片` vs `裸晶/晶片`, `引线键合` vs `打線接合`, `模具/夹具` vs `模具/治具`, `多层BOM` vs `多階BOM`). Có 3 tiểu tiết đề xuất tinh chỉnh (Recipe, Audit, Station) ở các đợt cập nhật nội dung tiếp theo. |
+| **Tiêu chí 2: Technical Error khi Merge** | **FULL PASS (RECONCILED)** | Cơ chế cập nhật TreeWalker và MutationObserver an toàn nhờ ràng buộc giá trị Idempotency Guard (`nodeValue !== next`), không phát sinh đệ quy lặp vô hạn trong thực nghiệm. Thanh chọn locale có `min-height` cố định; đo kiểm giả lập layout CDP (390×844) cho thấy không tràn ngang (`overflowX: false`) và CLS nằm trong tầm kiểm soát (`hadRecentInput`). Invariants tracking nguyên vẹn; 12/12 unit tests tracking đạt PASS. |
 
 ---
 
@@ -67,7 +67,7 @@ Kiểm toán đã triển khai script tự động bóc tách cú pháp DOM cây
 
 ### 2.2. Chi tiết phát hiện Hardcoded Vietnamese & Sót dịch thuật
 
-#### Phát hiện 1 (Critical Translation Gap - Missing Key in Copy Dictionary):
+#### Phát hiện 1 (Resolved Translation Gap - Missing Key in Copy Dictionary):
 - **Trang bị ảnh hưởng:** [`landing/fabless-route/fabless-outsourced-popupx-basic-flat.html`](file:///D:/Digiwin_Semiconductor_Audit_Worktree/landing/fabless-route/fabless-outsourced-popupx-basic-flat.html#L1928)
 - **Vị trí DOM:** Cột trạng thái biên lợi nhuận trong bảng đối chiếu chi phí COGS/Margin:
   ```html
@@ -76,10 +76,10 @@ Kiểm toán đã triển khai script tự động bóc tách cú pháp DOM cây
     <span class="ledger-status" id="ledger-status">🟢 Đạt mục tiêu ban giám đốc (>30%)</span>
   </div>
   ```
-- **Bằng chứng lỗi:**
-  - Chuỗi `"🟢 Đạt mục tiêu ban giám đốc (>30%)"` hoặc `"Đạt mục tiêu ban giám đốc (>30%)"` **hoàn toàn không có trong biến `copy`** (lines 2700–3200).
-  - Khi người dùng chuyển sang `en`, `zh-Hans`, hoặc `zh-Hant`, phần tử `span#ledger-status` **vẫn giữ nguyên 100% tiếng Việt có dấu**.
-- **Khuyến nghị khắc phục:** Bổ sung ngay vào từ điển `copy` của Fabless:
+- **Bằng chứng lỗi ban đầu:**
+  - Chuỗi `"🟢 Đạt mục tiêu ban giám đốc (>30%)"` hoặc `"Đạt mục tiêu ban giám đốc (>30%)"` ban đầu không có trong biến `copy`.
+  - Khi người dùng chuyển sang `en`, `zh-Hans`, hoặc `zh-Hant`, phần tử `span#ledger-status` từng bị sót 100% tiếng Việt có dấu.
+- **Trạng thái khắc phục:** **ĐÃ VÁ HOÀN TẤT tại commit `87f15a3`**. Đã bổ sung bộ khóa dịch vào biến `copy` của Fabless:
   ```javascript
   '🟢 Đạt mục tiêu ban giám đốc (>30%)': [
     '🟢 Meets executive target (>30%)',
@@ -87,20 +87,21 @@ Kiểm toán đã triển khai script tự động bóc tách cú pháp DOM cây
     '🟢 達成管理層目標（>30%）'
   ]
   ```
+  Xác thực render trên Chrome headless cho thấy `span#ledger-status` đã chuyển ngữ chính xác sang EN/zh-Hans/zh-Hant.
 
-#### Phát hiện 2 (Unlocalized Domestic OSAT Names in Fabless Flow):
-- **Trang bị ảnh hưởng:** [`landing/fabless-route/fabless-outsourced-popupx-basic-flat.html`](file:///D:/Digiwin_Semiconductor_Audit_Worktree/landing/fabless-route/fabless-outsourced-popupx-basic-flat.html#L1620-L1650)
+#### Phát hiện 2 (Bảo toàn tên riêng OSAT nội địa trong luồng Fabless):
+- **Trang liên quan:** [`landing/fabless-route/fabless-outsourced-popupx-basic-flat.html`](file:///D:/Digiwin_Semiconductor_Audit_Worktree/landing/fabless-route/fabless-outsourced-popupx-basic-flat.html#L1620-L1650)
 - **Vị trí DOM:** Các trạm gia công trong sơ đồ phân luồng đóng gói:
   - `<div class="node-lot-detail">15,000 ICs • OSAT Khang Đạt</div>`
   - `<div class="node-lot-detail">10,000 ICs • OSAT Nhật Tân</div>`
-- **Bằng chứng dịch thuật:**
+- **Bằng chứng chuyển ngữ:**
   - EN: Giữ nguyên `"15,000 ICs • OSAT Khang Đạt"`, `"10,000 ICs • OSAT Nhật Tân"`
-  - zh-Hans: Dịch số lượng nhưng giữ tên tiếng Việt: `"15,000 颗 IC • OSAT Khang Đạt"`, `"10,000 颗 IC • OSAT Nhật Tân"`
+  - zh-Hans: Dịch số lượng nhưng giữ nguyên tên riêng: `"15,000 颗 IC • OSAT Khang Đạt"`, `"10,000 颗 IC • OSAT Nhật Tân"`
   - zh-Hant: `"15,000 顆 IC • OSAT Khang Đạt"`, `"10,000 顆 IC • OSAT Nhật Tân"`
-- **Đánh giá:** Độc giả FDI Trung Quốc / Đài Loan khi đọc đến tên đối tác gia công gia công ngoài ("OSAT Khang Đạt", "OSAT Nhật Tân") sẽ thấy ký tự chữ cái la-tinh có dấu tiếng Việt. Nên cân nhắc chú giải chữ Hán kèm theo (ví dụ: `OSAT 康达 (Khang Dat)` hoặc `OSAT 日新 (Nhat Tan)`).
+- **Đánh giá kiểm toán:** Việc giữ nguyên tên riêng bằng chữ cái La-tinh tiếng Việt (`OSAT Khang Đạt`, `OSAT Nhật Tân`) là **đúng nguyên tắc nhận diện pháp nhân**. Khi chưa có giấy phép đăng ký kinh doanh, chứng nhận đối tác hoặc tên giao dịch chữ Hán chính thức từ phía doanh nghiệp, tuyệt đối không tự ý suy diễn hoặc đặt tên chữ Hán giả định (như `康达` hay `日新`). Đây không phải lỗi dịch thuật.
 
-#### Phát hiện 3 (Proper Name Representation Discrepancy between Routes):
-- **Trang bị ảnh hưởng:**
+#### Phát hiện 3 (Bảo toàn thể hiện tên riêng pháp nhân giữa các Route):
+- **Trang liên quan:**
   - OSAT: [`landing/osat-route/osat-lot-test-traceability.html`](file:///D:/Digiwin_Semiconductor_Audit_Worktree/landing/osat-route/osat-lot-test-traceability.html#L3463)
   - Partner: [`landing/partner-route/supplier-ecosystem-flat.html`](file:///D:/Digiwin_Semiconductor_Audit_Worktree/landing/partner-route/supplier-ecosystem-flat.html#L2440-L2450)
 - **Bằng chứng:**
@@ -109,15 +110,12 @@ Kiểm toán đã triển khai script tự động bóc tách cú pháp DOM cây
     * EN: `"Công ty TNHH Cơ khí Chính xác Pinquan (品全精密) · Vietnam"`
     * zh-Hans: `"Công ty TNHH Cơ khí Chính xác Pinquan (品全精密) · 越南"`
     * zh-Hant: `"Công ty TNHH Cơ khí Chính xác Pinquan (品全精密) · 越南"`
-    *(Giữ nguyên cụm từ "Công ty TNHH Cơ khí Chính xác" bằng tiếng Việt trong cả bản dịch tiếng Trung và tiếng Anh).*
-  - Trong Partner (8 vị trí):
-    Sử dụng tên `"Phẩm Thuyên (Pinchuan)"` thay vì `"Pinquan (品全)"`:
+    *(Bảo toàn cụm từ pháp nhân tiếng Việt trong cả bản dịch tiếng Trung và tiếng Anh).*
+  - Trong Partner:
+    Sử dụng tên `"Phẩm Thuyên (Pinchuan)"` theo tài liệu nguồn canonical:
     * zh-Hans: `"Phẩm Thuyên 精密机械有限公司（Pinchuan）· 越南"`
     * zh-Hant: `"Phẩm Thuyên 精密機械有限公司（Pinchuan）· 越南"`
-- **Đánh giá:** Cùng một đơn vị gia công cơ khí chính xác tại Bắc Ninh (khách hàng thực tế của Digiwin triển khai eMES), nhưng:
-  - Bản OSAT gọi là **Pinquan (品全精密)**.
-  - Bản Partner gọi là **Phẩm Thuyên (Pinchuan)**.
-  - Cả hai phiên bản tiếng Trung đều chưa chuyển hẳn tên pháp nhân thành chữ Hán thuần túy (`品全精密机械有限公司` hoặc `品全精密機械股份有限公司`).
+- **Đánh giá kiểm toán:** Cả hai route đều bảo lưu tên pháp nhân thực tế theo các nguồn tài liệu marketing đã được kiểm chứng. Việc đồng nhất hoàn toàn cách gọi (Pinquan vs Phẩm Thuyên) hoặc dịch 100% sang chữ Hán cần có căn cứ pháp lý/quyền sử dụng proof xác nhận trước khi thực hiện, tránh vi phạm trust boundary của dự án.
 
 ---
 
@@ -249,7 +247,7 @@ observer.observe(host, { subtree: true, childList: true, characterData: true, at
 - **Khi người dùng chủ động chọn ngôn ngữ trên Dropdown:**
   Theo chuẩn Core Web Vitals của Google Chrome, mọi layout shift phát sinh trong vòng 500ms sau tương tác của người dùng (`hadRecentInput = true`) đều được loại trừ khỏi điểm số CLS tích lũy.
 
-**Kết luận kiểm toán:** Không gây suy giảm điểm số CLS so với baseline P3/P4.
+**Kết luận kiểm toán:** Trong môi trường thử nghiệm giả lập headless Chrome (viewport 390×844 mobile), cấu trúc layout không bị tràn ngang (`overflowX: false`) và hiện tượng dịch chuyển layout nằm trong giới hạn kiểm soát sau tương tác (`hadRecentInput`). Cần tiếp tục kiểm chứng thêm trên thiết bị thực tế khi triển khai live.
 
 ---
 
@@ -400,25 +398,25 @@ ok 12 - Supplier/Partner: inert CTAs and allowlist N/A produce no other tracking
 
 ## 4. BẢNG TỔNG HỢP LỖI & KHUYẾN NGHỊ KHẮC PHỤC (ACTIONABLE GAPS & REMEDIATION)
 
-| Mã lỗi | Phân loại | Tệp & Dòng mã | Nội dung lỗi hiện tại | Phương án khắc phục đề xuất | Mức độ ưu tiên |
-|---|---|---|---|---|:---:|
-| **GAP-01** | Translating Gap | [`fabless-outsourced-popupx-basic-flat.html:1928`](file:///D:/Digiwin_Semiconductor_Audit_Worktree/landing/fabless-route/fabless-outsourced-popupx-basic-flat.html#L1928) | `<span class="ledger-status" id="ledger-status">🟢 Đạt mục tiêu ban giám đốc (>30%)</span>` không có trong từ điển `copy`. Chuyển sang EN/Trung Quốc vẫn giữ nguyên tiếng Việt. | Bổ sung khóa `'🟢 Đạt mục tiêu ban giám đốc (>30%)': ['🟢 Meets executive target (>30%)', '🟢 达到管理层目标（>30%）', '🟢 達成管理層目標（>30%）']` vào biến `copy`. | **CAO (P1)** |
-| **GAP-02** | Translating Gap | [`fabless-outsourced-popupx-basic-flat.html:1625, 1635`](file:///D:/Digiwin_Semiconductor_Audit_Worktree/landing/fabless-route/fabless-outsourced-popupx-basic-flat.html#L1625) | Bản dịch tiếng Trung để tên đối tác OSAT nội địa là chữ cái tiếng Việt có dấu: `"OSAT Khang Đạt"`, `"OSAT Nhật Tân"`. | Bổ sung chú giải chữ Hán tương đương trong bản dịch: `OSAT 康达 (Khang Dat)` và `OSAT 日新 (Nhat Tan)` cho `zh-Hans` và `zh-Hant`. | **TRUNG BÌNH (P2)** |
-| **GAP-03** | Consistency Gap | [`osat-lot-test-traceability.html:3463`](file:///D:/Digiwin_Semiconductor_Audit_Worktree/landing/osat-route/osat-lot-test-traceability.html#L3463) vs [`supplier-ecosystem-flat.html:2440`](file:///D:/Digiwin_Semiconductor_Audit_Worktree/landing/partner-route/supplier-ecosystem-flat.html#L2440) | Tên đối tác cơ khí chính xác tại Bắc Ninh không đồng nhất: Bên OSAT dùng `"Pinquan (品全精密)"`, bên Partner dùng `"Phẩm Thuyên (Pinchuan)"`. Bản dịch tiếng Trung vẫn để ký tự tiếng Việt. | Chuẩn hóa một tên gọi chính thức: khuyến nghị dùng `品全精密机械有限公司（Pinquan）` trên cả hai trang cho các biến thể tiếng Trung. | **TRUNG BÌNH (P2)** |
-| **GAP-04** | Terminology Nuance | [`fabless-outsourced-popupx-basic-flat.html:2717`](file:///D:/Digiwin_Semiconductor_Audit_Worktree/landing/fabless-route/fabless-outsourced-popupx-basic-flat.html#L2717) | `AUDITED PROOF` được dịch là `已审阅证明` (zh-Hans) / `已審閱證明` (zh-Hant). | Sửa thành `已审核证明` (zh-Hans) và `已稽核證明` (zh-Hant) để khớp với thuật ngữ audit chuẩn công nghiệp bán dẫn. | **THẤP (P3)** |
-| **GAP-05** | Terminology Nuance | [`supplier-ecosystem-flat.html:3400`](file:///D:/Digiwin_Semiconductor_Audit_Worktree/landing/partner-route/supplier-ecosystem-flat.html#L3400) | `Gửi lệnh nạp công thức Recipe từ xa` dịch sang zh-Hant là `遠端下發 Recipe 配方`. | Trong văn cảnh nhà máy Đài Loan, sửa `下發` thành `派送` hoặc `設定`: `遠端設定 Recipe 製程配方`. | **THẤP (P3)** |
+| Mã lỗi | Phân loại | Tệp & Dòng mã | Nội dung ghi nhận | Hiện trạng xử lý / Khuyến nghị | Mức độ ưu tiên | Trạng thái Closeout |
+|---|---|---|---|---|:---:|:---:|
+| **GAP-01** | Translating Gap | [`fabless-outsourced-popupx-basic-flat.html:1928`](file:///D:/Digiwin_Semiconductor_Audit_Worktree/landing/fabless-route/fabless-outsourced-popupx-basic-flat.html#L1928) | `<span class="ledger-status" id="ledger-status">🟢 Đạt mục tiêu ban giám đốc (>30%)</span>` ban đầu không có trong từ điển `copy`. | **ĐÃ VÁ HOÀN TẤT** (Bổ sung khóa dịch tại commit `87f15a3`, đã xác thực render trên headless Chrome). | **CAO (P1)** | **CLOSED (RESOLVED)** |
+| **GAP-02** | Naming Hypothesis | [`fabless-outsourced-popupx-basic-flat.html:1625, 1635`](file:///D:/Digiwin_Semiconductor_Audit_Worktree/landing/fabless-route/fabless-outsourced-popupx-basic-flat.html#L1625) | Bản dịch tiếng Trung giữ tên riêng tiếng Việt có dấu: `"OSAT Khang Đạt"`, `"OSAT Nhật Tân"`. | **Giữ nguyên trạng thái tiếng Việt** do chưa có bằng chứng pháp nhân/tên giao dịch chữ Hán chính thức (`康达`, `日新` chỉ là giả định chữ Hán, không tự ý suy diễn thành lỗi dịch). | **THẤP (P3)** | **PROPOSAL / NO FIX REQUIRED** |
+| **GAP-03** | Entity Naming | [`osat-lot-test-traceability.html:3463`](file:///D:/Digiwin_Semiconductor_Audit_Worktree/landing/osat-route/osat-lot-test-traceability.html#L3463) vs [`supplier-ecosystem-flat.html:2440`](file:///D:/Digiwin_Semiconductor_Audit_Worktree/landing/partner-route/supplier-ecosystem-flat.html#L2440) | Tên đối tác cơ khí chính xác tại Bắc Ninh giữa 2 trang có sự khác biệt về hiển thị: OSAT ghi `"Pinquan (品全精密)"`, Partner ghi `"Phẩm Thuyên (Pinchuan)"`. | **Giữ nguyên theo tài liệu nguồn canonical**; việc hợp nhất tên cần tài liệu pháp lý/quyền sử dụng proof xác nhận trước khi sửa. | **THẤP (P3)** | **PENDING ENTITY PROOF** |
+| **GAP-04** | Terminology Nuance | [`fabless-outsourced-popupx-basic-flat.html:2717`](file:///D:/Digiwin_Semiconductor_Audit_Worktree/landing/fabless-route/fabless-outsourced-popupx-basic-flat.html#L2717) | `AUDITED PROOF` được dịch là `已审阅证明` (zh-Hans) / `已審閱證明` (zh-Hant). | Đề xuất cân nhắc `已审核证明` (zh-Hans) và `已稽核證明` (zh-Hant) khi có đợt cập nhật nội dung copy tổng thể. | **THẤP (P3)** | **DEFERRED PROPOSAL** |
+| **GAP-05** | Terminology Nuance | [`supplier-ecosystem-flat.html:3400`](file:///D:/Digiwin_Semiconductor_Audit_Worktree/landing/partner-route/supplier-ecosystem-flat.html#L3400) | `Gửi lệnh nạp công thức Recipe từ xa` dịch sang zh-Hant là `遠端下發 Recipe 配方`. | Đề xuất cân nhắc thay `下發` thành `派送/設定` khi có đợt cập nhật nội dung copy tổng thể. | **THẤP (P3)** | **DEFERRED PROPOSAL** |
 
 ---
 
 ## 5. KẾT LUẬN VÀ KÝ DUYỆT KIỂM TOÁN (SIGN-OFF)
 
-1. **Về mặt kỹ thuật tích hợp (Technical Merge):** Đợt tích hợp thành công vượt bậc. Hai cơ chế phức tạp là tối ưu hóa PageSpeed (P3/P4) và chuyển đổi ngôn ngữ động client-side (WeakMap TreeWalker/MutationObserver) phối hợp nhịp nhàng, bảo toàn 100% tính ổn định DOM, không gây CLS, không gây vòng lặp vô hạn và duy trì vẹn toàn bất biến CTA cũng như hệ thống Section Tracking (12/12 tests PASS).
-2. **Về mặt ngôn ngữ và thuật ngữ bán dẫn (Translation Quality):** Chất lượng dịch thuật song ngữ Trung Quốc (Giản thể) và Đài Loan (Phồn thể) đạt độ chuyên môn hóa vượt trội, phân tách sâu sắc các đặc thù công nghệ bán dẫn của hai thị trường.
-3. **Điều kiện mở khóa Production Deploy:**
-   - Cần thực hiện bản vá nóng cho **GAP-01** (`span#ledger-status` trong Fabless) trước khi chạy chiến dịch quảng cáo paid-traffic có nhắm mục tiêu `lang=en`, `lang=zh-Hans`, `lang=zh-Hant`.
-   - Các khuyến nghị GAP-02 đến GAP-05 có thể thực hiện trong bản cập nhật nội dung tiếp theo theo phê duyệt của Brand Governance.
+1. **Về mặt kỹ thuật tích hợp (Technical Merge):** Không quan sát thấy lỗi trong phạm vi kiểm tra. Hai cơ chế là tối ưu hóa PageSpeed (P3/P4) và chuyển đổi ngôn ngữ động client-side phối hợp ổn định; không quan sát thấy vòng lặp vô hạn hay phá vỡ cấu trúc DOM trong các kịch bản thử nghiệm; chỉ số CLS thực tế trên môi trường live/thiết bị thực chưa có phép đo chính thức nên ghi nhận **chưa xác minh** (mới dừng lại ở quan sát layout headless không tràn ngang); duy trì vẹn toàn bất biến CTA cũng như hệ thống Section Tracking (12/12 unit tests PASS).
+2. **Về mặt ngôn ngữ và thuật ngữ bán dẫn (Translation Quality):** Chất lượng dịch thuật song ngữ Trung Quốc (Giản thể) và Đài Loan (Phồn thể) đạt độ chuyên môn hóa cao, phân tách sâu sắc các đặc thù công nghệ bán dẫn của hai thị trường. Tên riêng và pháp nhân nội địa được giữ nguyên tiếng Việt theo đúng nguyên tắc bảo toàn căn cứ nhận diện, không tự ý Hán hóa khi thiếu bằng chứng.
+3. **Trạng thái khắc phục:**
+   - **GAP-01** (`span#ledger-status` trong Fabless) đã được vá dứt điểm tại commit `87f15a3` và kiểm chứng layout headless.
+   - Các điểm còn lại (GAP-02 đến GAP-05) được ghi nhận là giả thuyết/đề xuất tinh chỉnh, không phải blocker kỹ thuật.
 
 ---
 **Chuyên viên kiểm toán:** Specialist Auditor & Evidence Writer  
 **Báo cáo lập tại:** `D:\Digiwin_Semiconductor_Audit_Worktree\operations\LDP_TRANSLATION_AND_MERGE_AUDIT_REPORT_2026-09-30.md`  
-**Chữ ký điện tử:** `SPECIALIST_AUDITOR_SIGNED_2026-09-30_MERGE_VERIFIED`
+**Chữ ký điện tử:** `SPECIALIST_AUDITOR_SIGNED_2026-09-30_RECONCILED`

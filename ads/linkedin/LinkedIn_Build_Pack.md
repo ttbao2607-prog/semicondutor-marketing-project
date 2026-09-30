@@ -13,17 +13,17 @@
 - Audience Expansion: **OFF** baseline.
 - LinkedIn Audience Network: **OFF** baseline.
 
-## Cấu trúc Chiến dịch LinkedIn Ads (2 Parallel Campaigns Architecture)
+## Cấu trúc Chiến dịch LinkedIn Ads (Proposed 2 Parallel Campaigns Architecture — Chờ Bảo duyệt)
 
-Căn cứ quyết định tái cấu trúc tài khoản để đảm bảo tuân thủ trần ngân sách 600.000 VNĐ/ngày (~23 USD/ngày) và điều kiện ngân sách tối thiểu của LinkedIn (~$10/ngày/campaign), toàn bộ cấu trúc prospecting được tổ chức thành **ĐÚNG 2 CAMPAIGN SONG SONG**:
+Phương án đề xuất tái cấu trúc tài khoản dựa trên gợi ý của Sếp Vy nhằm cân đối với mức ngân sách thử nghiệm 600.000 VNĐ/ngày (~23 USD/ngày) và điều kiện ngân sách tối thiểu của LinkedIn (~$10/ngày/campaign). Cấu trúc dưới đây là **phương án dự thảo (draft proposal)** chờ Bảo phê duyệt chính thức trước khi triển khai:
 
-### 1. Bảng phân bổ ngân sách ngày (Daily Budget Allocation)
+### 1. Bảng phân bổ ngân sách ngày đề xuất (Proposed Daily Budget Allocation)
 
-| Campaign ID | Phân khúc trọng tâm | Ngôn ngữ | Ngân sách/ngày (VNĐ) | Ngân sách/ngày (USD tham chiếu) | Tuân thủ sàn LinkedIn (~$10/ngày) |
-|---|---|---|---:|---:|---|
-| **Campaign 1:** `LI-CMP-FDI-SEGMENT` | Chuỗi cung ứng FDI (OSAT, Fabless, Subcontractors) | EN, zh-Hans, zh-Hant | 300.000 VNĐ | ~$11.5 USD | ĐẠT (>= $10/ngày) |
-| **Campaign 2:** `LI-CMP-DOMESTIC-SEGMENT` | Công nghiệp phụ trợ nội địa (PCB, Substrate, Cơ khí chính xác, Vật liệu) | VI | 300.000 VNĐ | ~$11.5 USD | ĐẠT (>= $10/ngày) |
-| **TỔNG CỘNG** | **Toàn tài khoản LinkedIn Ads** | **VI, EN, zh-Hans, zh-Hant** | **600.000 VNĐ** | **~$23.0 USD** | **Khớp chính xác trần 600.000 VNĐ/ngày** |
+| Campaign ID | Phân khúc trọng tâm | Ngôn ngữ | Ngân sách/ngày đề xuất (VNĐ) | Ngân sách/ngày (USD tham chiếu) | Điều kiện sàn LinkedIn (~$10/ngày) | Trạng thái phê duyệt |
+|---|---|---|---:|---:|---|:---:|
+| **Campaign 1 (Đề xuất):** `LI-CMP-FDI-SEGMENT` | Chuỗi cung ứng FDI (OSAT, Fabless, Subcontractors) | EN, zh-Hans, zh-Hant | 300.000 VNĐ | ~$11.5 USD | Đạt điều kiện sàn (>= $10) | Chờ Bảo duyệt |
+| **Campaign 2 (Đề xuất):** `LI-CMP-DOMESTIC-SEGMENT` | Công nghiệp phụ trợ nội địa (PCB, Substrate, Cơ khí chính xác, Vật liệu) | VI | 300.000 VNĐ | ~$11.5 USD | Đạt điều kiện sàn (>= $10) | Chờ Bảo duyệt |
+| **TỔNG CỘNG ĐỀ XUẤT** | **Toàn tài khoản LinkedIn Ads** | **VI, EN, zh-Hans, zh-Hant** | **600.000 VNĐ** | **~$23.0 USD** | **Khớp mức 600.000 VNĐ/ngày trong đề xuất của Vy** | **Proposal** |
 
 ### 2. Thiết lập mục tiêu & Targeting chi tiết của 2 Campaign
 

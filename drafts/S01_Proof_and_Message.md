@@ -41,23 +41,23 @@ These cells are **research hypotheses**, not six approved audiences. FDI/domesti
 | Public ecosystem or company-controlled source to be collected | No account-specific source entered in this S1 draft | `candidate` source class; individual accounts remain `unknown` | Add a research record only with URL/title, publisher, observation date, exact legal entity, Vietnam footprint, semiconductor activity, route rationale and FDI/domestic evidence; verify independently before targeting or public claim. |
 | Vy email propositions and Bảo's direct session observation | Revision plan records D1 questions. Bảo observed that the Lark pipeline appears mostly other industries with very limited semiconductor presence; dataset access and account evidence are unavailable here. | `candidate` proposal; observation provenance confirmed, underlying dataset and D1 decision `unknown` | Ask Bảo to settle D1; do not derive a customer list, exclusion, ownership fact or quantitative share from the observation. |
 
-**D1 decision status (Approved Closeout Specification, 2026-09-30).** Phê duyệt chính thức D1 từ Quản lý sản phẩm (Bảo) và định hướng từ Sếp Vy đã khóa cứng các quy tắc định hình ICP, danh sách loại trừ và thông điệp nội địa:
+**D1 decision status (Proposal pending Bảo's explicit sign-off).** Dựa trên định hướng của Sếp Vy, nhóm chiến lược đề xuất phương án (proposal) về ICP, danh sách loại trừ và thông điệp nội địa như sau để Bảo xem xét và phê duyệt:
 
-### Phê duyệt chính thức D1 — Khóa quyết định loại trừ tập đoàn lớn & Phân khúc nội địa
+### Đề xuất phương án D1 — Quy tắc loại trừ tập đoàn lớn & Phân khúc nội địa (Chờ Bảo duyệt)
 
-1. **Quyết định loại trừ tập đoàn lớn (Excluded Companies):**
-   - **Danh sách loại trừ bắt buộc (Excluded Companies):** `Intel`, `Samsung Electronics`, `Hana Micron`, `Amkor Technology`.
-   - **Lý do loại trừ:** Các đại tập đoàn FDI Tier-1 này vận hành trên hệ thống quản trị sản xuất toàn cầu (global proprietary ERP/MES) được chuẩn hóa từ tập đoàn mẹ, không có thẩm quyền quyết định độc lập tại Việt Nam cho hệ thống cốt lõi và không thuộc tệp khách hàng tiềm năng khả thi cho chiến dịch Digital Ads cục bộ.
-   - **Cơ chế áp dụng:** Khóa cứng cấu hình `Excluded Companies: Intel, Samsung Electronics, Hana Micron, Amkor Technology` trên tất cả chiến dịch và nhóm quảng cáo (LinkedIn Campaign / Ad sets).
+1. **Đề xuất loại trừ tập đoàn lớn (Proposed Excluded Companies):**
+   - **Danh sách đề xuất loại trừ:** `Intel`, `Samsung Electronics`, `Hana Micron`, `Amkor Technology`.
+   - **Căn cứ đề xuất:** Các tập đoàn FDI Tier-1 này thường vận hành trên hệ thống ERP/MES toàn cầu của tập đoàn mẹ, khó là khách hàng khả thi cho Digiwin tại Việt Nam.
+   - **Trạng thái:** `proposal / unconfirmed`. Cần quyết định chính thức từ Bảo trước khi cấu hình cứng vào tài khoản live hoặc loại trừ khỏi audience.
 
-2. **Định vị tập trung 100% vào Chuỗi cung ứng & Công nghiệp phụ trợ bán dẫn (Supporting Industries & Supply Chain):**
-   - Trọng tâm tiếp cận chuyển hướng toàn diện vào các doanh nghiệp nằm trong chuỗi giá trị và công nghiệp phụ trợ bán dẫn tại Việt Nam:
+2. **Đề xuất định vị tập trung vào Chuỗi cung ứng & Công nghiệp phụ trợ bán dẫn:**
+   - Trọng tâm tiếp cận đề xuất:
      + Sản xuất mạch in (PCB) và đế bán dẫn (Substrate).
      + Vật liệu bán dẫn & đóng gói (Packaging materials, khuôn dập, hóa chất).
      + Linh kiện điện tử & cụm lắp ráp chuyên dụng.
      + Gia công cơ khí chính xác cho thiết bị và linh kiện bán dẫn (Precision machining / tooling).
 
-3. **Thông điệp chiến lược cho Phân khúc Nội địa (Domestic Segment Messaging):**
+3. **Đề xuất thông điệp cho Phân khúc Nội địa (Domestic Segment Messaging Proposal):**
    - **Thông điệp cốt lõi:** *"Đủ chuẩn tham gia vào chuỗi cung ứng bán dẫn"* — giải quyết trực tiếp rào cản lớn nhất của các nhà máy sản xuất linh kiện, phụ trợ Việt Nam khi muốn trở thành vendor/supplier cho các tập đoàn bán dẫn toàn cầu.
    - **Hai biến thể Headline chính thức (Official Headline Variants):**
      * **Biến thể 1:** *"Đủ chuẩn tham gia chuỗi cung ứng bán dẫn"* — Trực diện, khẳng định năng lực đáp ứng chuẩn vendor quốc tế.
