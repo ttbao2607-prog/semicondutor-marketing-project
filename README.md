@@ -38,3 +38,7 @@ Only sanitized marketing material belongs in this repository. Do not commit cred
 `main` is canonical. The initial baseline is the sole direct-main exception. Future executor work uses an isolated worktree and an owned `slice/<slice>-<short-name>` branch. One writer owns each shared file; avoid direct shared-file conflicts. The Coordinator audits diffs and merges approved work.
 
 This repository has no CI, application code, product architecture, issue bureaucracy, or automatic campaign execution.
+
+## Four-locale production deployment (2026-09-30)
+
+The `vi`, `en`, `zh-Hans` and `zh-Hant` revisions are published and publicly verified on the existing OSAT, Fabless and Supplier/Partner URLs. This supersedes the 2026-09-29 planning note above where it says the routes remain Vietnamese and locale behavior is not live; that note records the pre-deployment snapshot. The separate PageSpeed partial-acceptance result is unchanged. See [the route-by-route deployment checkpoint](operations/evidence/locale/2026-09-30-four-locale-production-deployment.md) for readback hashes, receipts and responsive evidence. No campaign or spend authority is implied.
