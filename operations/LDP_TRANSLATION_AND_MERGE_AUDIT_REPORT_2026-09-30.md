@@ -39,7 +39,7 @@
 |---|:---:|---|
 | **Tiêu chí 1: Translating Gap** | **FULL PASS (RECONCILED)** | Đã dịch thành công >99.8% text nodes và 100% attributes trên cả 4 locale. Lỗi hardcoded text node duy nhất (`span#ledger-status` tại line 1928 của Fabless, GAP-01) **đã được vá hoàn tất tại commit `87f15a3`**. Tên riêng các đơn vị nội địa (Khang Đạt, Nhật Tân, Phẩm Thuyên, Pinquan) được **bảo toàn nguyên văn tiếng Việt** theo đúng nguyên tắc nhận diện pháp nhân, không tự ý suy diễn Hán hóa. |
 | **Chất lượng thuật ngữ bán dẫn** | **EXCELLENT (96/100)** | Phân biệt cực kỳ chuẩn xác giữa thuật ngữ Trung Quốc đại lục (zh-Hans) và Đài Loan (zh-Hant) ở các khái niệm then chốt (`硅` vs `矽`, `洁净室` vs `無塵室`, `激光` vs `雷射`, `裸片/芯片` vs `裸晶/晶片`, `引线键合` vs `打線接合`, `模具/夹具` vs `模具/治具`, `多层BOM` vs `多階BOM`). Có 3 tiểu tiết đề xuất tinh chỉnh (Recipe, Audit, Station) ở các đợt cập nhật nội dung tiếp theo. |
-| **Tiêu chí 2: Technical Error khi Merge** | **FULL PASS (RECONCILED)** | Cơ chế cập nhật TreeWalker và MutationObserver an toàn nhờ ràng buộc giá trị Idempotency Guard (`nodeValue !== next`), không phát sinh đệ quy lặp vô hạn trong thực nghiệm. Thanh chọn locale có `min-height` cố định; đo kiểm giả lập layout CDP (390×844) cho thấy không tràn ngang (`overflowX: false`) và CLS nằm trong tầm kiểm soát (`hadRecentInput`). Invariants tracking nguyên vẹn; 12/12 unit tests tracking đạt PASS. |
+| **Tiêu chí 2: Technical Error khi Merge** | **FULL PASS (RECONCILED)** | Cơ chế cập nhật TreeWalker và MutationObserver an toàn nhờ ràng buộc giá trị Idempotency Guard (`nodeValue !== next`), không phát sinh đệ quy lặp vô hạn trong thực nghiệm. Thanh chọn locale có `min-height` cố định; đo kiểm giả lập layout CDP (390×844) cho thấy không tràn ngang (`overflowX: false`); điểm số CLS thực tế trên môi trường live/thiết bị thực ghi nhận **chưa xác minh**. Invariants tracking nguyên vẹn; 12/12 unit tests tracking đạt PASS. |
 
 ---
 
@@ -243,11 +243,11 @@ observer.observe(host, { subtree: true, childList: true, characterData: true, at
   Việc ấn định `min-height: 44px` và `max-width: 112px` với `flex: none` đảm bảo kích thước phần tử điều khiển hoàn toàn tĩnh, không bị co giãn khi nạp nhãn hiển thị.
 
 #### 2. Tác động của việc thay đổi độ dài chuỗi ký tự khi dịch:
-- **Khi tải trang có sẵn tham số URL (`?lang=zh-Hans`):** Đoạn mã dịch thuật nằm ở cuối thẻ `<body>`, thực thi ngay lập tức trước khi trình duyệt thực hiện lượt quét sơn nội dung đầu tiên (First Contentful Paint - FCP). Toàn bộ nội dung chữ được cập nhật đồng bộ trước khi khung hình hiển thị, không phát sinh CLS từ việc hoán đổi chữ.
+- **Khi tải trang có sẵn tham số URL (`?lang=zh-Hans`):** Đoạn mã dịch thuật nằm ở cuối thẻ `<body>`, quét và cập nhật cây text node đồng bộ khi khởi tạo. Tuy nhiên, việc hoán đổi chuỗi văn bản khác độ dài có thể tạo dịch chuyển vi mô (micro-shifts) tùy thuộc vào kích thước hộp chứa CSS; điểm số CLS thực tế trên môi trường live/thiết bị thực **chưa được đo lường chính thức và ghi nhận là chưa xác minh**.
 - **Khi người dùng chủ động chọn ngôn ngữ trên Dropdown:**
-  Theo chuẩn Core Web Vitals của Google Chrome, mọi layout shift phát sinh trong vòng 500ms sau tương tác của người dùng (`hadRecentInput = true`) đều được loại trừ khỏi điểm số CLS tích lũy.
+  Theo chuẩn Core Web Vitals của Google Chrome, các dịch chuyển bố cục phát sinh trong vòng 500ms sau tương tác trực tiếp của người dùng (`hadRecentInput = true`) thường được loại trừ khỏi điểm số CLS tích lũy, nhưng vẫn cần kiểm chứng định lượng trên môi trường thực tế.
 
-**Kết luận kiểm toán:** Trong môi trường thử nghiệm giả lập headless Chrome (viewport 390×844 mobile), cấu trúc layout không bị tràn ngang (`overflowX: false`) và hiện tượng dịch chuyển layout nằm trong giới hạn kiểm soát sau tương tác (`hadRecentInput`). Cần tiếp tục kiểm chứng thêm trên thiết bị thực tế khi triển khai live.
+**Kết luận kiểm toán:** Trong môi trường thử nghiệm giả lập headless Chrome (viewport 390×844 mobile), cấu trúc layout không bị tràn ngang (`overflowX: false`). Tác động thực tế đến điểm số CLS trên các thiết bị và trình duyệt thực tế ghi nhận **chưa xác minh**, cần thực hiện đo lường định lượng khi có môi trường staging/live.
 
 ---
 

@@ -55,13 +55,14 @@ Mục tiêu của kế hoạch này là **chuyển hóa toàn bộ khối dữ l
 * **Phần 3: Pilot Roadmap & Phasing (Khung thời gian 8 tuần):**
   - 8 tuần lịch dương (Tháng 10 - Tháng 12/2026), kết thúc nghiệm thu và đóng chiến dịch trước Tết Nguyên Đán.
   - Phân bổ thông minh: Tối đa 35 ngày chạy quảng cáo (paid days) xen kẽ các ngày nghỉ đối soát kỹ thuật (pause days) để phân tích chất lượng dữ liệu.
-* **Phần 4: High-Level Success Metrics (KPI Đo lường giá trị thực):**
+* **Phần 4: High-Level Success Metrics (Khung đo lường Canonical theo S04 & Từ điển KPI):**
   - Không cam kết và không đánh giá trên số lượng form thô (Raw Leads) để tránh rác.
-  - Đánh giá dựa trên: Tỷ lệ thâm nhập tệp tài khoản mục tiêu (Target Account Reach >= 60%), Tỷ lệ tương tác sâu trên Landing Page (Engaged Sessions >= 50%), và Tỷ lệ chuyển đổi nhu cầu thực tế (Effective Lead Rate).
-* **Phần 5: Decision Request (Điểm xin phê duyệt của CMO):**
-  1. Phê duyệt hạn mức ngân sách thử nghiệm Giai đoạn 1: **35.000.000 VNĐ**.
-  2. Phê duyệt nguyên tắc định vị: Tập trung vào phân khúc Nhà máy FDI và Doanh nghiệp phụ trợ nội địa; loại trừ 4 đại tập đoàn có hệ thống toàn cầu đóng kín (Intel, Samsung, Hana Micron, Amkor).
-  3. Phê duyệt triển khai bộ tài nguyên đa ngôn ngữ (Landing Page & Creative 4 locales).
+  - Đánh giá dựa trên: Tỷ lệ thâm nhập tệp tài khoản mục tiêu (Target Account Reach), Tỷ lệ phiên tương tác chất lượng cao theo chuẩn chính thức của GA4 (Engaged Sessions: kéo dài hơn 10 giây, HOẶC có từ 2 lượt xem trang/màn hình trở lên, HOẶC có từ 1 key event trở lên), và Tỷ lệ chuyển đổi nhu cầu thực tế (Effective Lead Rate).
+* **Phần 5: Strategic Alignment Requests (Tham vấn ý kiến chiến lược của CMO):**
+  1. Đồng thuận hạn mức ngân sách thử nghiệm Giai đoạn 1: **35.000.000 VNĐ** (kèm quy tắc Underspend Protection).
+  2. Đồng thuận đề xuất định vị: Tập trung vào phân khúc Nhà máy FDI và Doanh nghiệp phụ trợ nội địa; đề xuất loại trừ 4 đại tập đoàn (D1) để tối ưu nguồn lực.
+  3. Đồng thuận triển khai bộ tài nguyên đa ngôn ngữ (Landing Page & Creative 4 locales).
+  *(Lưu ý: Ý kiến đồng thuận chiến lược của CMO là cơ sở định hướng; quyền phê duyệt vận hành và kích hoạt quảng cáo thuộc thẩm quyền của Product Owner Bảo khi có operational mandate chính thức).*
 
 ---
 
@@ -85,7 +86,7 @@ Mục tiêu của kế hoạch này là **chuyển hóa toàn bộ khối dữ l
 * **Phần 5: Lịch Trình Đối Soát 8 Tuần Lịch (56 Ngày Lịch / 35 Ngày Paid):**
   - Lập bảng ánh xạ chi tiết theo từng tuần từ Tuần 1 (Tháng 10) đến Tuần 8 (Tháng 12):
     * *Phase 1 (Tuần 1–2):* 7 ngày paid (trong 14 ngày lịch) — Khởi động kỹ thuật & rà soát dữ liệu.
-    * *Phase 2 (Tuần 3–5):* 14 ngày paid (trong 21 ngày lịch) — Xác nhận mức độ tương tác & thu thập tối thiểu 20 clicks search terms phân loại.
+    * *Phase 2 (Tuần 3–5):* 14 ngày paid (trong 21 ngày lịch) — Xác nhận mức độ tương tác & theo dõi tiến độ thu thập mẫu clicks search terms phân loại (hướng tới ngưỡng đề xuất 20 observed classified clicks theo S04 để đánh giá tỷ lệ relevance trước khi xem xét phân bổ).
     * *Phase 3 (Tuần 6–8):* 14 ngày paid (trong 21 ngày lịch) — Tối ưu hóa chuyển đổi, tổng kết trước Tết.
   - Tổng số ngày paid = 35 ngày (khớp trần 35M); số ngày nghỉ đối soát = 21 ngày.
 * **Phần 6: Sẵn Sàng Kỹ Thuật (Landing Page & Tracking):**
