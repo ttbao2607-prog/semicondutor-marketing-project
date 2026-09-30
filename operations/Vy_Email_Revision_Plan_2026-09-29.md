@@ -4,8 +4,8 @@
 
 **Nguồn Git:** checkpoint gốc lập từ local `main` tại `bf6038d` (lúc đó chưa push); lần cập nhật này ở worktree `slice/vy-email-strategy-plan` tại base `a71acbc`. Đây là trạng thái file local, không phải xác nhận remote/GitHub.
 
-**Trạng thái:** checkpoint kế hoạch sau các quyết định của Bảo. Các slice offline được làm trong worktree riêng; tài liệu này không xác nhận bản live, publish, account action hoặc spend. Tính đến audit offline 2026-09-29, cả ba route có candidate HTML/copy bốn locale và QA local; Cả ba HTML đã được kết hợp với source PageSpeed trong local integration commit `6fa842e`, với tracking regression và runtime bốn locale ở 320px/desktop đạt QA offline. LinkedIn đã có source-copy register, 9 static SVG/PNG và 3 PDF sáu trang được render/QA, cùng 12 carousel PNG candidate/prototype 1254×1254. B2B v2 có 9/9 biến thể offline `vi`/`zh-Hans`/`zh-Hant` trên OSAT/Fabless/Supplier; không suy có bản EN B2B mới. Workbook local có 11 sheet (7 sheet nguồn + 4 sheet thêm) và ghi rõ 56 ngày lịch/tối đa 35 ngày paid/trần 35 triệu. Các output này đã nằm trong local commit `6fa842e`; chưa có bằng chứng push GitHub hoặc đưa locale lên live, và original workspace đã ở local `main` tại `6fa842e`; dùng `git worktree list` để kiểm trạng thái worktree hiện tại.
-**Đối chiếu public PageSpeed (2026-09-29):** Ba URL live vẫn là bản tiếng Việt sau revision PageSpeed riêng. Bảo đã đóng scope đó ở `P4_P5_CLOSED_PARTIAL_ACCEPTANCE_FROZEN` dù Mobile live vẫn dưới 80; ba receipt revision còn PENDING. Locale và creative offline của plan này chưa sync live. Local integration `6fa842e` đã dùng semantic patch để giữ các đoạn PageSpeed publish/retry/closeout mới hơn; coordinator đã fast-forward local `main` tới `6fa842e`; các bước closeout Git tiếp theo ghi trong `operations/Git_Consolidation_2026-09-30.md`.
+**Trạng thái:** checkpoint kế hoạch sau các quyết định của Bảo. Các slice offline được làm trong worktree riêng; tài liệu này không xác nhận bản live, publish, account action hoặc spend. Tính đến audit offline 2026-09-29, cả ba route có candidate HTML/copy bốn locale và QA local; Cả ba HTML đã được kết hợp với source PageSpeed trong local integration commit `6fa842e`, với tracking regression và runtime bốn locale ở 320px/desktop đạt QA offline. LinkedIn đã có source-copy register, 9 static SVG/PNG và 3 PDF sáu trang được render/QA, cùng 12 carousel PNG candidate/prototype 1254×1254. B2B v2 có 9/9 biến thể offline `vi`/`zh-Hans`/`zh-Hant` trên OSAT/Fabless/Supplier; không suy có bản EN B2B mới. Workbook local có 11 sheet (7 sheet nguồn + 4 sheet thêm) và ghi rõ 56 ngày lịch/tối đa 35 ngày paid/trần 35 triệu. Các output này đã nằm trong local commit `6fa842e`; chưa có bằng chứng push GitHub hoặc đưa locale lên live, và original workspace local `main` đã tới docs commit `2099d9e` sau integration `6fa842e`; dùng `git worktree list` để kiểm trạng thái worktree hiện tại.
+**Đối chiếu public PageSpeed (2026-09-29):** Ba URL live vẫn là bản tiếng Việt sau revision PageSpeed riêng. Bảo đã đóng scope đó ở `P4_P5_CLOSED_PARTIAL_ACCEPTANCE_FROZEN` dù Mobile live vẫn dưới 80; ba receipt revision còn PENDING. Locale và creative offline của plan này chưa sync live. Local integration `6fa842e` đã dùng semantic patch để giữ các đoạn PageSpeed publish/retry/closeout mới hơn; coordinator đã fast-forward local `main` tới `2099d9e` qua `6fa842e`; các bước closeout Git tiếp theo ghi trong `operations/Git_Consolidation_2026-09-30.md`.
 **Ưu tiên nguồn:** chỉ đạo mới của Bảo > kickoff v2.0 > source brief. Email của Vy là đề xuất cần chuyển thành quyết định rõ, không tự coi là phê duyệt launch/budget.
 
 ## 1. Execution contract
@@ -47,11 +47,11 @@
 
 ### A. Chuẩn bị và khóa nguồn
 
-- [ ] Bắt đầu từng slice từ đúng local `main` SHA đã ghi; kiểm tra worktree/branch và ownership trước khi sửa.
-- [ ] Đọc `CURRENT_STATE.md`, `DOCS_IMPACT_MAP.md` và canonical docs liên quan; ghi current truth và unknown.
-- [ ] Ghi D2/D3 đã chốt; D5 có trần 35 triệu/8 tuần lịch nhưng paid-day schedule còn mở. D1/D4/D6 và D7 xử lý theo dependency thực tế, không suy quyết định thành live mandate.
-- [ ] Đối chiếu danh mục asset LinkedIn theo bốn locale, gồm source copy, export và format placement; coverage matrix 4 × asset phải tách copy khỏi file đã render/QA.
-- [ ] Giữ nghiên cứu Lark/Matched/Predictive Audience ngoài scope này; target-account sheet chỉ là schema/metadata cho tới khi có nguồn và quyền rõ.
+- [ ] Preflight lặp lại cho slice tương lai: dùng `git-state-recovery`, ghi đúng local `main` SHA, worktree/branch và ownership trước khi sửa. Các slice Vy cũ đã được bảo toàn và tích hợp.
+- [ ] Preflight lặp lại cho slice tương lai: đọc `CURRENT_STATE.md`, `DOCS_IMPACT_MAP.md` và canonical docs liên quan; ghi current truth và unknown. Docs consolidation 2026-09-30 đã đối chiếu.
+- [x] Ghi D2/D3 đã chốt; D5 có trần 35 triệu/8 tuần lịch nhưng paid-day schedule còn mở. D1/D4/D6 và D7 xử lý theo dependency thực tế, không suy quyết định thành live mandate.
+- [x] Đối chiếu danh mục asset LinkedIn theo bốn locale, gồm source copy, export và format placement; coverage matrix 4 × asset phải tách copy khỏi file đã render/QA.
+- [x] Giữ nghiên cứu Lark/Matched/Predictive Audience ngoài scope này; target-account sheet chỉ là schema/metadata cho tới khi có nguồn và quyền rõ.
 
 ### B. Strategy, kênh và từ khóa
 
@@ -94,9 +94,10 @@
 
 ### F. Gate cuối
 
-- [ ] Review `DOCS_IMPACT_MAP.md`; cập nhật chỉ canonical docs có current truth đổi, giữ HISTORY/LOG nguyên nghĩa lịch sử.
-- [ ] Audit ma trận route × 4 locale và asset × 4 locale, phép tính ngân sách, lịch paid days, link/UTM, tracking, proof/scope, workbook và contradictions.
-- [ ] Ghi riêng fact, observed evidence, proposal, unknown và terminal status; chỉ PASS khi implementation/artifact và canonical truth khớp.
+- [x] Review `DOCS_IMPACT_MAP.md`; cập nhật chỉ canonical docs có current truth đổi, giữ HISTORY/LOG nguyên nghĩa lịch sử.
+- [x] Offline integration: ma trận route × 4 locale, asset inventory, tracking 12/12, workbook/source preservation và docs contradictions được audit.
+- [ ] Live/native/operational: lịch paid days, account format, claim wording, exact ad links/UTM, PopupX và public runtime còn gate riêng.
+- [x] Ghi riêng fact, observed evidence, proposal, unknown và terminal status; chỉ PASS khi implementation/artifact và canonical truth khớp.
 - [ ] Trước commit, merge, push hoặc hành động live, báo diff/evidence và xin đúng authorization còn thiếu từ Bảo.
 
 ## 5. Tài liệu chịu tác động dự kiến
