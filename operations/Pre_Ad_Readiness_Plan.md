@@ -1,5 +1,7 @@
 # Pre-Ad Readiness Execution Plan
 
+**Fabless integration checkpoint (2026-09-30):** local main contains interaction repair `2e52bf1`. The pinned existing-page process is `deploy/fabless-interaction-2026-09-30/PROCESS.md`; its four-step delta reproduces the committed source, but live request admission remains pending exact-target authority and reconciliation after the other Codex process finishes deploying the previous main. This handoff stops before all live actions and does not establish production repair or a GitHub push.
+
 **Fabless interaction addendum (2026-09-30):** production `/fabless` still has the audited Lot/Cost tab and pain-card navigation defect caused by omission of the original map runtime during flat-source creation. Bảo authorized committing and integrating the local repair from `slice/fabless-interaction-fix` into local main; deployment preparation stops before live actions while another Codex process deploys the previous main. local desktop/mobile interaction checks and tracking regression 12/12 pass. Earlier render, tracking and performance records do not establish working map navigation. No live repair, publication or performance remeasurement occurred. Evidence: `evidence/2026-09-30-fabless-local-interaction-repair.md`.
 
 **Status:** PLAN APPROVED / EXECUTION ACTIVE / LAUNCH NOT AUTHORIZED

@@ -1,0 +1,27 @@
+{
+  "status": "PREPARED_STOP_BEFORE_DEPLOY",
+  "baseline_commit": "0dcbb939224e495111cead99f1c8ed38c6e0c9ed",
+  "candidate_commit": "2e52bf1346d1214a2823b69f10aed7c735f3daef",
+  "canonical_path": "landing/fabless-route/fabless-outsourced-popupx-basic-flat.html",
+  "baseline_git_blob_sha256": "4a48d52c7a5a862f4740f34f7878ba1979191fde6a65f932c7a2ca9abef26e11",
+  "candidate_git_blob_sha256": "5db304b5fad545ed81847453d1d3eb4db06b81b943e75f848d118d0fcb0f15b1",
+  "candidate_checkout_sha256": "d504986e74ca5f8c36d635087a6b278a1285c7e3610f097f9591f327952d1b0d",
+  "candidate_git_blob_sha1": "f6aac838dcd0b9ab76d493c0aedf9091a6abb8f9",
+  "candidate_git_tree": "08a3c831b29ea7899a0b67467c64ccdcc7d13175",
+  "semantic_delta_sha256": "0bc01b821901824afc22b0f0ae411ec65d2d6edf618e7c8c628de7727008b711",
+  "operation_count": 4,
+  "offline_delta_result": "PASS_EXACT_COMMITTED_CANDIDATE",
+  "preflight_result": {
+    "valid": false,
+    "code": "EXISTING_PAGE_REVISION_REJECTED",
+    "errors": [
+      "explicit_named_scope_authority_required",
+      "production_scope_not_authorized"
+    ]
+  },
+  "authorization_for_live_actions": false,
+  "prior_deploy_state": "RUNNING_AS_REPORTED_BY_BAO_NOT_INDEPENDENTLY_OBSERVED",
+  "baseline_after_prior_deploy": "UNVERIFIED_MUST_RECONCILE_BEFORE_REQUEST_ADMISSION",
+  "protect_previous_receipts": true,
+  "source_encoding_note": "Git object bytes are LF; checkout bytes may be CRLF. Materialize baseline/candidate using git show via binary subprocess output before byte validation."
+}
