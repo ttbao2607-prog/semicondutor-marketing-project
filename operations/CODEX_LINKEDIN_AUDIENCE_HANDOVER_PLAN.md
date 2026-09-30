@@ -72,6 +72,7 @@ Codex agent thực hiện tuần tự theo 6 bước có kiểm soát sau trên 
     3. Tỷ lệ khớp ước tính (Match Rate %)
     4. Quy mô thành viên hoạt động (Target Audience Size / Active Members)
   - Chụp ảnh màn hình làm bằng chứng (Mask/che mờ tên tài khoản cá nhân hoặc thẻ tín dụng nếu xuất hiện).
+  - **Kết quả kiểm tra sau upload (2026-09-30 14:16 UTC+7):** Campaign Manager hiển thị toast `Your audience has been successfully created.` và dòng `TEST-AUD-COMPANY-LIST-DISCOVERY-202610` với `Status=Building`, `Source=Company List`, `Match rate=-`, `Active ad sets=-`, `Ownership=Owned`, `Last audience count=-`. Gán `AUD_STATUS_PROCESSING_LATENCY`; chưa có số liệu match/size để kết luận. Dòng này không được chọn và nút `Add to ad set` đang disabled. Không có campaign/ad set nào được tạo hoặc sửa, không có spend. Xem receipt tại `operations/CODEX_LINKEDIN_AUDIENCE_DISCOVERY_RECEIPT.md`.
 
 ---
 
@@ -148,7 +149,7 @@ Sau khi Codex thực thi xong, Codex phải tạo file báo cáo nghiệm thu t�
 # BIÊN BẢN NGHIỆM THU KHÁM PHÁ LINKEDIN MATCHED AUDIENCE
 
 - **Thời điểm kiểm tra (Timestamp):** [YYYY-MM-DD HH:MM UTC+7]
-- **Tài khoản Campaign Manager ID:** [Đã che 4 số cuối]
+- **Tài khoản Campaign Manager:** [Tên account hoặc `không ghi nhận`; không ghi ID]
 - **Tên tệp đối tượng kiểm chứng:** `TEST-AUD-COMPANY-LIST-DISCOVERY-202610`
 - **Mã Trạng Thái Kết Luận (Deterministic Status):** `[CHỌN 1 TRONG 5 MÃ Ở MỤC 3]`
 
@@ -160,7 +161,7 @@ Sau khi Codex thực thi xong, Codex phải tạo file báo cáo nghiệm thu t�
 - Trạng thái hiển thị (Displayed Status): [Ready / Building / Error]
 
 ### Bằng Chứng Đo Lường (Evidence):
-- File ảnh chụp màn hình lưu tại: `outputs/evidence/linkedin_audience_discovery_[timestamp].png`
+- File ảnh chụp màn hình lưu tại: `outputs/evidence/linkedin_audience_discovery_[timestamp].jpg` (nếu được lưu; nếu không, nêu rõ bằng chứng quan sát và hạn chế)
 - Ghi chú kỹ thuật: [Mô tả trung thực những gì quan sát thấy trên màn hình]
 ```
 
