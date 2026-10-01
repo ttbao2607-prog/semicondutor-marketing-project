@@ -1,5 +1,7 @@
 # Plan tối ưu LinkedIn awareness theo target role và POV
 
+**Progress và next pair (2026-10-01):** Local checkpoint `681a237fabcf9635f9a867b76fb5939604a5155a` lưu Quality O1/O4-Q full offline R2 A/B5card theo Bảo acceptance bảo toàn checkpoint, không fullcontent/buyer/live approval hoặc canonical promotion. Anchor `PO_ACCEPTED_TESTING_NON_CANONICAL`; receipts/manifests lịch sử giữ nguyên. V1 SVG→PNG và V2 genuineImageGen đều carousel, không clean2×2 do copy evolution. Library10baseIDs O1–O4/F1–F3/P1–P3,11role treatments do O4-Q/O4-O;2Qualitytreatments produced, còn8baseIDs+O4-O=9treatments lựa chọn, không mandatoryproduction. Operations O2/O4-O plan-only: `operations/LinkedIn_Awareness_Operations_Next_Pair_Plan.md`, awaitingPOexecution; VI/noC proposed, chưa copy/ImageGen/account/spend. Current notes supersede prior wave/pair/production pending statements; dated history remains evidence. Parent đã fetch và tạo/chuyển sang branch local `slice/linkedin-awareness-operations-plan` từ681a237 trong cùng worktree. Bảo đã yêu cầu commit local plan và progress docs trong checkpoint chứa cập nhật này; commit không phải push. Checkpoint nền681a237 và branch này chưa merge main/push GitHub.
+
 **Quality carousel production selection (2026-10-01):** Bảo duyệt Quality/Process, O1/O4-Q, test cách kể cùng vấn đề, VI-first review, không baseline C. E3 sản xuất hai bản copy/storyboard 5 card theo cùng pain test bất thường, association ERP semiconductor, proof/brand/destination; O1 kể tình huống, O4-Q tổ chức câu hỏi. Source records và storyboard ở operations/linkedin-awareness-execution/. Chỉ release offline draft, chưa final images/account/upload/spend. Scope này supersedes các dòng “cohort/pair/test type/locale/C pending” trước đó; VI là locale review được chọn, chưa xác nhận ngôn ngữ targeting trong account.
 
 **Carousel awareness decision (2026-10-01):** Bảo chọn carousel images + introductory copy, kể chuyện theo card để định vị Digiwin là ERP có chuyên môn và kinh nghiệm ngành semiconductor. Anchor audit/spec/artifact: [LinkedIn_Carousel_Constraints_and_Awareness_Anchor.md](LinkedIn_Carousel_Constraints_and_Awareness_Anchor.md). Điều này supersede static mặc định và format-open trong wave tối ưu awareness, cùng Company-Page-only destination baseline cho carousel này: mỗi ad chọn một trong ba LDP đúng route để đọc thêm; URL vẫn required nhưng mục tiêu native awareness không click-driven. Đây là positioning intent, không tự xác nhận claim kinh nghiệm/capability hoặc brand lift. Cohort/POV pair/locale/C, budget và live authority chưa chốt; chưa sản xuất hoặc upload. Format/anchor docs đã được checkpoint local tại 67067c4; chưa merge main hoặc push GitHub.
@@ -62,7 +64,7 @@ Các hook là minh họa proposal, không phải kết quả khách hàng hay m�
 | P3 — Chuẩn bị bằng chứng audit | Domestic QA/Plant: “Khi khách hàng hỏi một lot, các bằng chứng liên quan đang nằm ở đâu?” | Liên kết yêu cầu của khách hàng cụ thể với dữ liệu và người phụ trách; không hứa đạt chứng nhận | Gắn Digiwin với chuẩn bị dữ liệu vận hành; yêu cầu audit minh họa, không coi là tiêu chuẩn phổ quát | Static/document; xem cách chuẩn bị dữ liệu |
 | B1 — Chuyên môn có phạm vi | Senior leaders: “Chuyên môn vận hành bán dẫn cần được nhìn qua phạm vi nào?” | Chọn đúng scope Đài Loan/Trung Quốc đã ghi nhận; nối với một operating question và hiện diện Việt Nam | Regional proof đã được phê duyệt trong scope; đối chiếu source/date/rights trước live; không suy ra case VN | Carousel credibility; đọc phạm vi chuyên môn |
 
-Library có 11 narrative, không phải 11 paid cells cần chạy cùng lúc. Khác ngôn ngữ, resize hoặc thay từ không tạo thành POV mới. P3 hướng end-user nội địa khác mục tiêu hợp tác của P1/P2; không gộp thành một audience chỉ vì cùng route Supplier.
+Library có10POV gốc/11role-adapted treatments, không phải 11 paid cells cần chạy cùng lúc. Khác ngôn ngữ, resize hoặc thay từ không tạo thành POV mới. P3 hướng end-user nội địa khác mục tiêu hợp tác của P1/P2; không gộp thành một audience chỉ vì cùng route Supplier.
 
 ## 5. Shortlist đề xuất và trình tự test
 
@@ -81,7 +83,7 @@ Library có 11 narrative, không phải 11 paid cells cần chạy cùng lúc. K
 
 **Phép thử 3 — Độ sâu/format:** cùng luận điểm, so static với document/carousel nếu account hỗ trợ. Chọn metric chung; các interaction riêng format báo tách. Không đổi role/locale đồng thời.
 
-**Phép thử 4 — Locale/market:** adapt bản đã shortlist cho VI/EN/Hans/Hant theo cohort đã chọn; review bản địa. Khác cohort/market không phải phép thử thuần ngôn ngữ. Không nhân 11 POV × 4 locale × mọi format trước khi có kết quả.
+**Phép thử 4 — Locale/market:** adapt bản đã shortlist cho VI/EN/Hans/Hant theo cohort đã chọn; review bản địa. Khác cohort/market không phải phép thử thuần ngôn ngữ. Không nhân10POV gốc/11role-adapted treatments × 4 locale × mọi format trước khi có kết quả.
 
 Live test design phải được account validation và Bảo duyệt sau: random split nếu nền tảng/quy mô cho phép; nếu phân phối thuật toán không cân bằng, báo descriptive evidence; nếu chạy tuần tự, ghi confound thời gian/competition/audience. Không hứa equal delivery hay statistical significance. Native in-platform là baseline; Company Page chỉ khi destination bắt buộc. Không đưa website/lead KPI thành denominator của test native.
 
@@ -152,7 +154,7 @@ Kế hoạch không kích hoạt slice song song hoặc delegate. Nếu sau này
 
 - [x] Worktree đúng tên, branch sở hữu riêng và baseline SHA rõ.
 - [x] Plan diễn tả mục tiêu brand association và giới hạn đo nhận thức.
-- [x] Library có 4 OSAT, 3 Fabless, 3 Supplier/domestic và 1 credibility POV, với role, story, hook, proof boundary và CTA.
+- [x] Library có10base IDs (4OSAT,3Fabless,3Supplier/domestic),11role-adapted treatments qua O4-Q/O4-O, với role, story, hook, proof boundary và CTA. Credibility là brand/proof association, không phải POV ID bổ sung.
 - [x] Shortlist và phép thử tách POV, hook, format, locale; có kiểm soát confounds và giới hạn ngân sách.
 - [x] Production package, ownership, acceptance và stop rõ; tài liệu không tự cấp quyền live.
 - [x] V1.1 thêm O4 theo role, hai loại phép thử, pin baseline tùy chọn, category/buying cue hypotheses, brand-attribution acceptance và decision boundary cho expanded delivery test.
