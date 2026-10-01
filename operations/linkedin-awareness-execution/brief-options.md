@@ -1,5 +1,7 @@
 # OSAT carousel option briefs for Bảo
 
+**PO selection addendum (2026-10-01):** Quality O1/O4-Q selected, same-problem storytelling test, VI-first review, no C. Operations remains library only. Historical options text below is the E1/E2 checkpoint; this addendum supersedes pending decisions. E3 selected copy/storyboard uses this Q brief with 5 cards and same controls; visual/live validation remains future scope.
+
 Revision 1; 2026-10-01; inputs baseline `67067c4`, evidence-register revision 1. Status READY_FOR_DECISION. These are brief/story options, not final caption, card text or production assets. Evidence IDs refer to evidence-register; A IDs refer to candidate CSV.
 
 ## Decision register
