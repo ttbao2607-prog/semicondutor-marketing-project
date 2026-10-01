@@ -1,0 +1,10 @@
+# Fixture handoff
+2026-10-01. Execution PARTIAL / READY_FOR_RENDER_REVIEW: self-contained offline artifact saved; actual browser/render/interaction not observed by Writer. Parent owns server/browser audit, no Writer tests or browser launched. No pixel-perfect/platform/account eligibility claim.
+
+index.html embeds frozen nativePNG/logo bytes as dataURIs and verbatim revised10card JSON; source-map records everyoriginalpath/SHA256/bytes, B5reuseA5. A/B together/focus,640desktop580post/mobile390scroll780,85%cardpeek,prevnext/dots/pointer-swipes/keyboardarrow controls implemented. Caption136/130 aboveimage, nativeheadline2linepresentation below, inert destinationhost. CosmeticPromoted/Digiwinheader,disabledFollow/socialrow, no profiles/names/metrics/nativeCTA/liveexternalnavigation. Desktop surroundings neutral; no nativecaptionURL appended. No assetcompression/transformation or sourcecopyrevision.
+
+Outsidead source notes disclose historicalA1/A3 illustrationlabels/A1headerrepeat/A3ticks/A5longdash versus latestsnapshot. No hidden reinterpretation of frozen pixels. Current visualfreeze retained; story/authority/storyboard and feed312/font/logoidentity remain unfinished. Parent should verify mobileinitialfold header+caption+cover, both5cardnavigation, lastcardposition/nooverflow, offlineassets and glyphs. No PASS asserted for those until rendered.
+
+Docsimpact reviewed: boundeddiscoverabilitylatestnotes CURRENT_STATE/README/LinkedIn_Build_Pack/LinkedIn_Awareness_Execution_Plan only. No strategy/claims/statuspromotion. OfficialHelp read; tipsURL inaccessibletool, partialnextcard usermandate honored and geometry labelledsimulation. SourceSHA/manifest unchanged. ContractAC1-AC6/HTML/source-map/manifest are audit target; outputs uncommittedlocal at42ec8ce, noGitmutation.
+
+Supported parent render finding: mobile390 fixedpost width overflowed innerwidth after verticalscrollbar. Changed mobilepost to100percent innerwidth; notes collapseddefault for immediateadview. Parent reload/render check pending; sourcebytes unchanged.

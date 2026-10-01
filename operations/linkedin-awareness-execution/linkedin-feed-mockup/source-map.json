@@ -1,0 +1,101 @@
+{
+  "baseline": "42ec8ce32c37022ec0775987ea93630cea8ab207",
+  "status": "OFFLINE_SIMULATION_RENDER_PENDING",
+  "sources": [
+    {
+      "id": "revised-copy-json",
+      "original_path": "operations/linkedin-awareness-execution/production-imagegen-v2/revised-copy-vi-v2.json",
+      "sha256": "634db62f615f294d125a8355aac2862e2faebc12d3910ab2c3876d6ce625304b",
+      "bytes": 13073
+    },
+    {
+      "id": "A1",
+      "original_path": "operations/linkedin-awareness-execution/production-imagegen-v2/a1-pilot/A1-v1-native.png",
+      "sha256": "78e7611bbccd68424c2280b62785cea898a9727d293cf6c6e79b93571edecc38",
+      "bytes": 1620329,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "A2",
+      "original_path": "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+      "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+      "bytes": 1678280,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "A3",
+      "original_path": "operations/linkedin-awareness-execution/production-imagegen-v2/critical-pilot/A3-v1-native.png",
+      "sha256": "2aa118e3ac15a3a535299f8d60a2b0a18facb7f458274ddf93498051af8f1f26",
+      "bytes": 1683205,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "A4",
+      "original_path": "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A4-v2-native.png",
+      "sha256": "c4a43e871d202aa8c8d264eb0e578b03a0e152c3845cad54094af2391e1eba63",
+      "bytes": 1577073,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "A5",
+      "original_path": "operations/linkedin-awareness-execution/production-imagegen-v2/critical-pilot/A5-v1-native.png",
+      "sha256": "d54ea38914d52b710299b52715cc379f3af688dae26962b6b599e4dc6714d4ab",
+      "bytes": 1712047,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "B1",
+      "original_path": "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/B1-v2-native.png",
+      "sha256": "f064264d3f3a6b7e5985728f718f38287043e55899dcd5f305744b2061170608",
+      "bytes": 1635456,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "B2",
+      "original_path": "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/B2-v2-native.png",
+      "sha256": "18f10926d26b2416ad269f5f7b2c51c6e96ec1b31cfb24da3d019eaa2155d334",
+      "bytes": 1645303,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "B3",
+      "original_path": "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/B3-v2-native.png",
+      "sha256": "5246fc7d477aac72b4d78451c6888f4ed7c74ee757c4c02b8ec262985d8a9376",
+      "bytes": 1705836,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "B4",
+      "original_path": "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/B4-v2-native.png",
+      "sha256": "d62876f9df8007afcb45759f14b4e1c8bc345dd2e08a261045e69670c15bdd9e",
+      "bytes": 1671603,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "B5",
+      "original_path": "operations/linkedin-awareness-execution/production-imagegen-v2/critical-pilot/A5-v1-native.png",
+      "sha256": "d54ea38914d52b710299b52715cc379f3af688dae26962b6b599e4dc6714d4ab",
+      "bytes": 1712047,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "official-logo",
+      "original_path": "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "bytes": 3170,
+      "embedded_without_transform": true
+    }
+  ],
+  "historical_differences": [
+    "A1/A3 PNG retain illustration label omitted in revised copy.",
+    "A1 PNG retains duplicate DIGIWIN header.",
+    "A3 PNG retains generic check marks.",
+    "A5/B5 PNG retains original em dash; revised copy uses period."
+  ],
+  "source_constraints": {
+    "help": "https://www.linkedin.com/help/linkedin/answer/a423087",
+    "tips": "https://business.linkedin.com/advertise/ads/sponsored-content/carousel-ads/tips?product=sales",
+    "help_observed": "150 recommended introductory characters,255max,headline2lines",
+    "tips_retrieval": "tool unavailable; partial-next-card treatment supplied in parent mandate, not newly verified"
+  }
+}

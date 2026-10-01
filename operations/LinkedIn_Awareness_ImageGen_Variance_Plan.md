@@ -4,6 +4,10 @@
 
 2026-10-01. Current status **PARTIAL / READY_FOR_PO_REVIEW**, not PLAN_ONLY and not wholepack PASS. PO released remaining A2,A4,B1-B4 after critical pilots, with latest visible-copy rules below. Actual built-in ImageGen:9 initial generations plus1 targeted A2 edit, total10; reserve exhausted. No additional call, oldpilot regeneration, account/live/Git action authorized.
 
+## Mandatory demo and human review after ImageGen artifacts
+
+After each artifact creation/update, immediately assemble a current revision-pinned demo before human review/handoff, using `LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md`. Routine versioned demo assembly/rebuild is included in the authorized content task. Before E7 require demo/source-map/manifest/desktop-mobile observations and explicit revision-bound human receipt; changes invalidate old acceptance. Existing pipelineQA/manifests remain immutable history, not rewritten. Current ad content is not approved by workflow adoption.
+
 ## Operative scope and controls
 
 Local checkpoint e27be1496d66cd003b7081efa3cac2c6f6c30cc9, not merged main/pushed. VectorV1 retained TESTING_OFFLINE_DRAFT; logic TESTING_NON_CANONICAL. Latest V2 authority is production-imagegen-v2/revised-copy-vi-v2.md and JSON, with pipeline-qa-and-prompt-anchor.md. These supersede original plan's exactR3/furniture/visibleillustration-label requirements for current V2 work. FrozenR3/vector/oldpilots remain history and unchanged.

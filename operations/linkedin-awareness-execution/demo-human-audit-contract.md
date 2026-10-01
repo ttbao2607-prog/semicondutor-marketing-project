@@ -1,0 +1,12 @@
+# Demo and human audit process contract
+2026-10-01. PO adopts existing feed demo for future Awareness human content audit and invokes execution-contract. Goal: canonical scoped carousel process requires current demo and revision-bound human decision before offline content release, without granting ad/live approval.
+Baseline42ec8ce32c37022ec0775987ea93630cea8ab207 plus existing uncommitted auditedmockup/docs. Sole nativeCLI leaf Writer, parent gate sol6.1/low. AUDIT_MODE INDEPENDENT: parent final process audit, existing structural/visual fixture evidence reused only within observed scope.
+Allowed: new runbook, external humanreceipt template/POworkflow receipt, operative ExecutionPlan E4/E5/E7/artifact/gates, buildpack/readiness/currentstate/README/docsimpact. Protect all auditedmockup/source/image/copy/manifests. No browser/server/builder execution/HTML edits/images/story edits/tests/Git/account/delegation/framework.
+Plan: anchor contract; inspect retained builder; define mandatory revision-bound loop and status boundaries; template/actualworkflowreceipt; integrate operative docs; inspect diff/protected hashes.
+AC1 CONTRACT: currentcarousel workflow only, otherformats separate mandate; artifact→pins→immediatedemo→identity/render→humanreview→decision→changedrevision invalidation/rebuild; no auto account/live.
+AC2 STRUCTURAL/CONTRACT: actual build_fixture.py/template route hardcodedinputs identified, adapt new revision mapping in sibling fixture under release, not genericautoframework; partial/mismatch fullacceptance hold.
+AC3 CONTRACT: humancriteria initialfeedtrigger, rolepain, everytransition, authorityERP/MES/region/source, brand/dash/weaklabel/readability; exact accept/edit/hold revision/evidence.
+AC4 STRUCTURAL: minimal receiptfields AC/card/severity/actionowner/observations/date/revisionhash/decision, unknown unobserved; execution/audit/POstatuses distinct.
+AC5 CONTRACT: E4roughpreview/everyrevision and E5→E7 mandatory currentdemo/source-map/manifest/desktopmobileobs/humanreceipt; canonicalgates integrated.
+AC6 STRUCTURAL/CONTRACT: actualworkflowacceptance not adacceptance; docsimpact consistency and protectedHTML/manifests unchanged.
+SUCCESS allprocesscriteria saved/consistent, separate parentAUDIT_PASS/FAIL/INSUFFICIENT_EVIDENCE. PARTIAL remainingcriteria; FAILURE attempted unmet; BLOCKED observed externaldependency. Audit runbook/template/receipt/operative docs and protectedhashes, not future buyer comprehension.
