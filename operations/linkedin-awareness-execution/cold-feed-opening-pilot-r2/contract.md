@@ -1,0 +1,10 @@
+# First-touch r2 execution contract
+2026-10-01, baseline3a0928c392303e8d8a9ab51ca50bfed88f919bd6 plus existing uncommitted r1/docs. Native CLI soleleaf sol6.1/low goal override, parent editorial preflight/auditor; no delegation. PO requested first-touch redo, not oldcorrectionreserve reset. Anchor first-touch-anchor.md saved before this contract; TESTING_NON_CANONICAL.
+Outcome: exact r2 commoncaption/cover/native/alt and continuity, one actual built-in ImageGen sharedcover, immediate4recordtwo-card demo, pinnedprovenance/humanreceipt. Parent preflight is pilotimplementation acceptance only, not PO content approval. AUDIT_MODE INDEPENDENT structural + parent visual/context.
+Allowed: new r2folder/anchor and latest canonical statusnotes. Protect r1/R3/V2/frozenPNG/demo/manifests. No Git/live/browser/tests/framework/delegation/overlay/SVG/API/CLI/programmaticimageedit. Parent browser. No fullbatch or oldimage edit.
+AC1 CONTRACT: four first-touch questions, bounded Digiwin ERP consulting/category identity, explicit QualityOSAT reader and circumstance; no experience/case/years/outcome claim.
+AC2 STRUCTURAL: final exact caption/headline/body/native/alt/counts; A2/B2 exactreuse,4renderrecords not full5card; preserve ERP-MES/geography bounds later.
+AC3 CONTRACT: one built-in fullraster newcover with inspectedlogo/style refs, frozenwhiteblue/material/hierarchy; professional review table/tray/blankrecords, no realpeople/customer/UI/data/ticks/extra text.
+AC4 STRUCTURAL/CONTRACT: actual native square dimensions/bytes/hash and glyph/clipping/identity observation; no size guarantee or silentlytransformed image. If criticalissue stop/report, no unapproved extra calls.
+AC5 STRUCTURAL: immediatecurrentdemo/manifest/source-map/README/anchor/refhashes/toolreceipt/humanREADY; parentdesktopmobile/navigation review. Image/copy unchanged oldbytes.
+AC6 CONTRACT: latest docs r1needschanges/r2awaitshuman, no wholepack/buyer/account claim; freeze stablecandidate for independentaudit. SUCCESS outputcriteria met, PARTIAL criticalreviewgaps, FAILURE attemptedunmet, BLOCKED observedexternal; audit verdict and POreview separate.

@@ -1,0 +1,68 @@
+{
+  "baseline": "3a0928c392303e8d8a9ab51ca50bfed88f919bd6",
+  "status": "OFFLINE_SIMULATION_PARENT_RENDER_OBSERVED_HUMAN_PENDING",
+  "sources": [
+    {
+      "id": "revised-copy-json",
+      "original_path": "operations/linkedin-awareness-execution/cold-feed-opening-pilot-r2/rendered-copy.json",
+      "sha256": "0b3d2d39690e6bd32311cbf98dab0552e5b4de95cee4c5e1925f0c285bfcc9dc",
+      "bytes": 5819
+    },
+    {
+      "id": "A1",
+      "original_path": "operations/linkedin-awareness-execution/cold-feed-opening-pilot-r2/shared-cover-native.png",
+      "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "bytes": 1676618,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "A2",
+      "original_path": "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+      "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+      "bytes": 1678280,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "B1",
+      "original_path": "operations/linkedin-awareness-execution/cold-feed-opening-pilot-r2/shared-cover-native.png",
+      "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "bytes": 1676618,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "B2",
+      "original_path": "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/B2-v2-native.png",
+      "sha256": "18f10926d26b2416ad269f5f7b2c51c6e96ec1b31cfb24da3d019eaa2155d334",
+      "bytes": 1645303,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "official-logo",
+      "original_path": "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "bytes": 3170,
+      "embedded_without_transform": true
+    }
+  ],
+  "historical_differences": [
+    "Partial opening pilot only2/5rendered; no cards3-5pixels.",
+    "Commonnewcover; exactunchangedA2v3/B2v2 pixels andfields."
+  ],
+  "source_constraints": {
+    "help": "https://www.linkedin.com/help/linkedin/answer/a423087",
+    "tips": "https://business.linkedin.com/advertise/ads/sponsored-content/carousel-ads/tips?product=sales",
+    "help_observed": "150 recommended introductory characters,255max,headline2lines",
+    "tips_retrieval": "tool unavailable; partial-next-card treatment supplied in parent mandate, not newly verified"
+  },
+  "parent_observation": "Parent đã quan sát desktop/mobile390: caption149, cover/native và điều hướng A/B tới2/2, next disabled, artwork2/5; không thấy clipping. Đọc body ở kích thước nhỏ và hiểu biết buyer chưa được chứng minh. Reset observed1/2; body dense ở mobile nhỏ, readability human pending.",
+  "screenshots": [
+    "../first-touch-r2-desktop-observation.png",
+    "../first-touch-r2-mobile-observation.png",
+    "../first-touch-r2-transition-observation.png"
+  ],
+  "first_touch_anchor": {
+    "path": "../first-touch-anchor.md",
+    "sha256": "1d8dd5137bfa527c61a99229381e8599552a1f5b23c076c803cb41208b1b46f7",
+    "status": "TESTING_NON_CANONICAL"
+  }
+}

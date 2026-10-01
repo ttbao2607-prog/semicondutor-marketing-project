@@ -1,0 +1,44 @@
+{
+  "revision": "r2-critical-pilot-actual",
+  "base_calls": 2,
+  "correction_calls": 0,
+  "prompt_file": "imagegen-prompts.md",
+  "prompt_sha256": "8f4189308e9190bf1f1e023ad71e1d662e76f8e513fa66606af7f9007706253f",
+  "references": [
+    {
+      "path": "../production-r3/dependencies/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "role": "official logo"
+    },
+    {
+      "path": "../cold-feed-opening-pilot-r2/shared-cover-native.png",
+      "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "role": "inspected frozen style"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "A3-native.png",
+      "sha256": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+      "bytes": 1681861,
+      "width": 1254,
+      "height": 1254,
+      "returned_native_path": "C:/Users/ASUS/.codex/generated_images/01a0f581-4c97-7441-990c-8a991f0e345c/exec-54d710de-2fc1-4c0e-abd8-80e5f26486e3.png",
+      "mode": "builtin image_gen full raster generation",
+      "unchanged_native_copy": true
+    },
+    {
+      "file": "A5-shared-native.png",
+      "sha256": "dfb6da025ab358cfdc4b731283e27ed5d877ab0f67ea81ebafa15680d53773e5",
+      "bytes": 1662292,
+      "width": 1254,
+      "height": 1254,
+      "returned_native_path": "C:/Users/ASUS/.codex/generated_images/01a0f581-4c97-7441-990c-8a991f0e345c/exec-52ab7a74-eb09-4c23-b8ec-fb6d1a13f2d6.png",
+      "mode": "builtin image_gen full raster generation",
+      "unchanged_native_copy": true
+    }
+  ],
+  "provenance": "AI-created fictional editorial illustration; no facility/customer/project evidence",
+  "A5_unplanned_visual_variation": "Taiwan skyline background, editorial geographic motif, not new style approval or facility evidence",
+  "parent_native_scope": "A3/A5 exact permitted copy/labels/logo/category/sequence, no clipping/dash/fake data observed; mobile proof readability OPEN, not VISUAL_PASS"
+}

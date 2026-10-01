@@ -1,0 +1,18 @@
+{
+  "mode": "builtin_image_gen_generate",
+  "slice_initial_calls": 1,
+  "slice_correction_calls": 0,
+  "slice_remaining_critical_corrections": 1,
+  "old_slice_calls": "9initial+1correction, exhausted and unchanged",
+  "actual_prompt": "imagegen-prompts.md: Actual final call 1 prompt after technical-scope preflight",
+  "references": [
+    {"role":"official logo supporting brand input","path":"../production-r3/dependencies/digiwin-logo.webp","sha256":"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f"},
+    {"role":"B1 visual style only, already viewed","path":"../production-imagegen-v2/remaining-pilot/B1-v2-native.png","sha256":"f064264d3f3a6b7e5985728f718f38287043e55899dcd5f305744b2061170608"}
+  ],
+  "original_output": "C:/Users/ASUS/.codex/generated_images/01a0f581-4c97-7441-990c-8a991f0e345c/exec-3baabaa1-079b-4eac-a582-2ad0a42d2127.png",
+  "project_output": "shared-cover-native.png",
+  "operation": "copied unchanged; no overlay/resize/compression/API/CLI/SVG",
+  "transparent_background": false,
+  "size_seed_parameters": "not exposed",
+  "provenance": "AI fictional OSAT illustration, not real customer/facility proof"
+}

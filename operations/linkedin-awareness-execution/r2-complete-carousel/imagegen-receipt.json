@@ -1,0 +1,75 @@
+{
+  "tool": "builtin image_gen",
+  "base_calls": 3,
+  "targeted_A5_edit_calls": 1,
+  "critical_corrections": 0,
+  "call_order": [
+    "A5edit",
+    "A4",
+    "B3",
+    "B4"
+  ],
+  "outputs": [
+    {
+      "file": "A5-shared-native.png",
+      "mode": "edit",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+      "bytes": 1544835,
+      "native_returned_path": "C:/Users/ASUS/.codex/generated_images/01a0f581-4c97-7441-990c-8a991f0e345c/exec-16f3b2b9-9ad4-427b-882c-a58af43f38ac.png",
+      "native_copied_without_transform": true
+    },
+    {
+      "file": "A4-native.png",
+      "mode": "base",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "320c08cc1d5c8ad4286ea53215d130d846793c9383acae6b827d5808897865e7",
+      "bytes": 1633630,
+      "native_returned_path": "C:/Users/ASUS/.codex/generated_images/01a0f581-4c97-7441-990c-8a991f0e345c/exec-f3d97b11-c297-407b-bbc0-f3f624f106da.png",
+      "native_copied_without_transform": true
+    },
+    {
+      "file": "B3-native.png",
+      "mode": "base",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5d6edb42ffc9d68b064726bf294ae4226be4cfdffe38d07e59c68499ea17356b",
+      "bytes": 1609188,
+      "native_returned_path": "C:/Users/ASUS/.codex/generated_images/01a0f581-4c97-7441-990c-8a991f0e345c/exec-c99681c3-eef0-44f9-8a5c-ac2f616d2a0a.png",
+      "native_copied_without_transform": true
+    },
+    {
+      "file": "B4-native.png",
+      "mode": "base",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4fe9bc9d6c14a7c88a1b2a26917b7040da0b34ce2af167222f01d2d57aae1cd3",
+      "bytes": 1739565,
+      "native_returned_path": "C:/Users/ASUS/.codex/generated_images/01a0f581-4c97-7441-990c-8a991f0e345c/exec-96ae6f42-90a6-4c47-943b-adef141caeb9.png",
+      "native_copied_without_transform": true
+    }
+  ],
+  "refs": [
+    {
+      "path": "production-r3\\dependencies\\digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "inspected_before_call": true
+    },
+    {
+      "path": "cold-feed-opening-pilot-r2\\shared-cover-native.png",
+      "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "inspected_before_call": true
+    },
+    {
+      "path": "r2-critical-pilot\\A5-shared-native.png",
+      "sha256": "dfb6da025ab358cfdc4b731283e27ed5d877ab0f67ea81ebafa15680d53773e5",
+      "inspected_before_call": true
+    }
+  ],
+  "prompts_sha256": "6868c514975e539de40bd57a4c62a59b2ee1daec3569637d16ffc20e4c14ace9",
+  "provenance": "AI-created fictional editorial imagery; not facility/customer/project proof",
+  "A5_layout_delta": "Fullwidthlargeproofpanel, source comparablebody size, photo/tray removed, skyline onlywithinproofpanel; source/main/invitation exact. Readability fix approved scope, not newstyle approval.",
+  "native_QA": "Writer actual images inspected, exact VI/labels/logo/category/sequence and no clipping/dash/data/ticks observed; parent actualnative observations scoped, human understanding unknown."
+}

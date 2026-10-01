@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-01",
+  "status": "PO_ACCEPTED_TESTING_NON_CANONICAL",
+  "quote": "Đúng ý Bảo rồi, chốt anchor này vào status là Bảo acceptance, vẫn chưa canonical do chưa test thật. Sau đó chạy pilot tiếp theo trên R2 nhé.",
+  "scope": "first-touch anchor and r2 opening direction only",
+  "not_evidenced": [
+    "buyer validation",
+    "full-chain approval",
+    "live/account release"
+  ],
+  "anchor_preacceptance_sha256": "1d8dd5137bfa527c61a99229381e8599552a1f5b23c076c803cb41208b1b46f7",
+  "anchor_current_sha256": "ddcea15869fdd5ee0a2e4e9d5e4ca34e0ece139db969c036b73131d3362be18b",
+  "r2_historical_pins": {
+    "manifest.csv": "539738d24d016e1baaa7fce7d534b84bd9fa1f43e5c378330009e0b013835788",
+    "index.html": "705a672d0d85335032ee553236bb3f19726a9361544cc16827519e0836dcec86",
+    "shared-cover-native.png": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+    "copy-vi.json": "e4b9cb5531a462f9c1a202e971925319d293e3d3006e281562a0f63702516f76",
+    "source-map.json": "8586d56b1af6c14107ee660bc2290a52f2e5b1416e4ffbc057a20a50c061bcbe"
+  },
+  "historical_manifest_note": "r2 manifest external anchor hash pins preacceptance snapshot; manifest/source-map immutable, not silently current"
+}

@@ -1,0 +1,124 @@
+{
+  "baseline": "3a0928c392303e8d8a9ab51ca50bfed88f919bd6",
+  "status": "SCOPED_PARENT_RENDER_OBSERVED_HUMAN_PENDING",
+  "sources": [
+    {
+      "id": "revised-copy-json",
+      "original_path": "operations/linkedin-awareness-execution/r2-critical-pilot/rendered-copy.json",
+      "sha256": "71ff2fceec57bed4007a0064a9825912872274715c72e85b794931e781b1b1b4",
+      "bytes": 10929
+    },
+    {
+      "id": "A1",
+      "original_path": "operations/linkedin-awareness-execution/cold-feed-opening-pilot-r2/shared-cover-native.png",
+      "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "bytes": 1676618,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "A2",
+      "original_path": "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+      "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+      "bytes": 1678280,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "A3",
+      "original_path": "operations/linkedin-awareness-execution/r2-critical-pilot/A3-native.png",
+      "sha256": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+      "bytes": 1681861,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "A5",
+      "original_path": "operations/linkedin-awareness-execution/r2-critical-pilot/A5-shared-native.png",
+      "sha256": "dfb6da025ab358cfdc4b731283e27ed5d877ab0f67ea81ebafa15680d53773e5",
+      "bytes": 1662292,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "B1",
+      "original_path": "operations/linkedin-awareness-execution/cold-feed-opening-pilot-r2/shared-cover-native.png",
+      "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "bytes": 1676618,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "B2",
+      "original_path": "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/B2-v2-native.png",
+      "sha256": "18f10926d26b2416ad269f5f7b2c51c6e96ec1b31cfb24da3d019eaa2155d334",
+      "bytes": 1645303,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "B5",
+      "original_path": "operations/linkedin-awareness-execution/r2-critical-pilot/A5-shared-native.png",
+      "sha256": "dfb6da025ab358cfdc4b731283e27ed5d877ab0f67ea81ebafa15680d53773e5",
+      "bytes": 1662292,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "official-logo",
+      "original_path": "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "bytes": 3170,
+      "embedded_without_transform": true
+    }
+  ],
+  "historical_differences": [
+    "Selected A1/2/3/5 and B1/2/5; missing A4/B3/B4, not full continuity validated.",
+    "Commonnewcover; exactunchangedA2v3/B2v2 pixels andfields."
+  ],
+  "source_constraints": {
+    "help": "https://www.linkedin.com/help/linkedin/answer/a423087",
+    "tips": "https://business.linkedin.com/advertise/ads/sponsored-content/carousel-ads/tips?product=sales",
+    "help_observed": "150 recommended introductory characters,255max,headline2lines",
+    "tips_retrieval": "first-full/second-peek follows parent-provided official tips; exact85% fixture geometry is simulation, not live pixel guarantee"
+  },
+  "reference_pins": [
+    {
+      "id": "accepted-first-touch-anchor",
+      "path": "../first-touch-anchor.md",
+      "sha256": "ddcea15869fdd5ee0a2e4e9d5e4ca34e0ece139db969c036b73131d3362be18b",
+      "status": "PO_ACCEPTED_TESTING_NON_CANONICAL"
+    },
+    {
+      "id": "anchor-po-receipt",
+      "path": "../first-touch-po-acceptance-2026-10-01.json",
+      "sha256": "dfd6131800ba620356175893379b1509ae8a30b79259e5a77ab5cafb587cb374"
+    },
+    {
+      "id": "critical-source-proposal",
+      "path": "proposed-copy.json",
+      "sha256": "208f92fb13c63fec3c8fd6a01c906290fd930a9a8e7445f85a402a890ebabacb"
+    },
+    {
+      "id": "actual-prompts",
+      "path": "imagegen-prompts.md",
+      "sha256": "8f4189308e9190bf1f1e023ad71e1d662e76f8e513fa66606af7f9007706253f"
+    }
+  ],
+  "selected_sequences": {
+    "A": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "B": [
+      1,
+      2,
+      5
+    ]
+  },
+  "missing_cards": [
+    "A4",
+    "B3",
+    "B4"
+  ],
+  "parent_observation": "Parent final reload observed desktop/mobile390, current selected-sequence paragraph và ARIA artwork đúng. Exactcaption/cover/A3/A5 không thấy clipping. A3 selected3/4 và B5 selected3/3, next disabled. A5 sourceblock rất nhỏ, khó đọc ở normal mobile fixture scale: OPEN/minor visual issue, không readability PASS. Human interpretation/governance bridge/fullchain vẫn pending.",
+  "screenshots": [
+    "../r2-critical-desktop-observation.png",
+    "../r2-critical-mobile-observation.png"
+  ]
+}

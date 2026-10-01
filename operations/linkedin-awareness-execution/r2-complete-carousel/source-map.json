@@ -1,0 +1,151 @@
+{
+  "baseline": "3a0928c392303e8d8a9ab51ca50bfed88f919bd6",
+  "status": "FULL_OFFLINE_COMPLETE_PARENT_SCOPED_RENDER_OBSERVED_HUMAN_PENDING",
+  "sources": [
+    {
+      "id": "revised-copy-json",
+      "original_path": "operations/linkedin-awareness-execution/r2-complete-carousel/rendered-copy.json",
+      "sha256": "a943c76071cb65153108140c9ee13962ebc78f3598c31a9090d8ba9068f293f4",
+      "bytes": 14883
+    },
+    {
+      "id": "A1",
+      "original_path": "operations/linkedin-awareness-execution/cold-feed-opening-pilot-r2/shared-cover-native.png",
+      "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "bytes": 1676618,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "A2",
+      "original_path": "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+      "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+      "bytes": 1678280,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "A3",
+      "original_path": "operations/linkedin-awareness-execution/r2-critical-pilot/A3-native.png",
+      "sha256": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+      "bytes": 1681861,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "A4",
+      "original_path": "operations/linkedin-awareness-execution/r2-complete-carousel/A4-native.png",
+      "sha256": "320c08cc1d5c8ad4286ea53215d130d846793c9383acae6b827d5808897865e7",
+      "bytes": 1633630,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "A5",
+      "original_path": "operations/linkedin-awareness-execution/r2-complete-carousel/A5-shared-native.png",
+      "sha256": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+      "bytes": 1544835,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "B1",
+      "original_path": "operations/linkedin-awareness-execution/cold-feed-opening-pilot-r2/shared-cover-native.png",
+      "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "bytes": 1676618,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "B2",
+      "original_path": "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/B2-v2-native.png",
+      "sha256": "18f10926d26b2416ad269f5f7b2c51c6e96ec1b31cfb24da3d019eaa2155d334",
+      "bytes": 1645303,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "B3",
+      "original_path": "operations/linkedin-awareness-execution/r2-complete-carousel/B3-native.png",
+      "sha256": "5d6edb42ffc9d68b064726bf294ae4226be4cfdffe38d07e59c68499ea17356b",
+      "bytes": 1609188,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "B4",
+      "original_path": "operations/linkedin-awareness-execution/r2-complete-carousel/B4-native.png",
+      "sha256": "4fe9bc9d6c14a7c88a1b2a26917b7040da0b34ce2af167222f01d2d57aae1cd3",
+      "bytes": 1739565,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "B5",
+      "original_path": "operations/linkedin-awareness-execution/r2-complete-carousel/A5-shared-native.png",
+      "sha256": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+      "bytes": 1544835,
+      "embedded_without_transform": true
+    },
+    {
+      "id": "official-logo",
+      "original_path": "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "bytes": 3170,
+      "embedded_without_transform": true
+    }
+  ],
+  "historical_differences": [
+    "Full10 actual records/8unique PNG, no missing cards; human continuity understanding pending.",
+    "Commonnewcover; exactunchangedA2v3/B2v2 pixels andfields."
+  ],
+  "source_constraints": {
+    "help": "https://www.linkedin.com/help/linkedin/answer/a423087",
+    "tips": "https://business.linkedin.com/advertise/ads/sponsored-content/carousel-ads/tips?product=sales",
+    "help_observed": "150 recommended introductory characters,255max,headline2lines",
+    "tips_retrieval": "parent-provided official tips support firstfull/secondpeek; exact85% geometry fixture only"
+  },
+  "reference_pins": [
+    {
+      "path": "first-touch-anchor.md",
+      "sha256": "ddcea15869fdd5ee0a2e4e9d5e4ca34e0ece139db969c036b73131d3362be18b"
+    },
+    {
+      "path": "first-touch-po-acceptance-2026-10-01.json",
+      "sha256": "dfd6131800ba620356175893379b1509ae8a30b79259e5a77ab5cafb587cb374"
+    },
+    {
+      "path": "cold-feed-opening-pilot-r2\\manifest.csv",
+      "sha256": "539738d24d016e1baaa7fce7d534b84bd9fa1f43e5c378330009e0b013835788"
+    },
+    {
+      "path": "r2-critical-pilot\\manifest.csv",
+      "sha256": "fef90f53c1697b122026d2be5855f769c5815cf3a564a1827ed9ea99f64e61b7"
+    },
+    {
+      "path": "r2-complete-carousel\\copy-vi.json",
+      "sha256": "f1fbff11bca771f2db484a717b27a1cff2b916e381d31428c5a91391c4812a94"
+    },
+    {
+      "path": "r2-complete-carousel\\imagegen-prompts.md",
+      "sha256": "6868c514975e539de40bd57a4c62a59b2ee1daec3569637d16ffc20e4c14ace9"
+    }
+  ],
+  "selected_sequences": {
+    "A": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "B": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "missing_cards": [],
+  "execution_status": "SUCCESS",
+  "parent_observation": "Parent observed desktop exactcaption/cover và A/B arrows1→2→3→4→5,5/5next disabled. Mobile390 A5/B5 regionalqualifier/source sentence đọc được ở normal fixture scale, materially better than oldcritical source, no clipping. Old smallsource visual finding closed only in this fixture, not allplatform/buyer approval. Genericbodydensity/fonts/targetbuyer understanding remain humanpending.",
+  "screenshots": [
+    "../r2-complete-desktop-opening.png",
+    "../r2-complete-desktop-context.png",
+    "../r2-complete-desktop-ownership.png",
+    "../r2-complete-desktop-final.png",
+    "../r2-complete-mobile-final.png"
+  ]
+}

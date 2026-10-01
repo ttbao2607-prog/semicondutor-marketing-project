@@ -1,0 +1,30 @@
+{
+  "revision": "r2-critical-pilot-actual",
+  "main_copy_source": "proposed-copy.json",
+  "prompt_source": "imagegen-prompts.md",
+  "A3_labels": [
+    "KẾT QUẢ KIỂM THỬ",
+    "Người",
+    "Máy",
+    "Vật tư",
+    "Phương pháp",
+    "Môi trường"
+  ],
+  "A5_B5_labels": [
+    "Hồ sơ",
+    "Ngữ cảnh",
+    "Người phụ trách"
+  ],
+  "brand_count": {
+    "A3": 1,
+    "A5_B5": 2
+  },
+  "brand_roles": "official logo once plus Digiwin source attribution on A5; no extra wordmark",
+  "open": [
+    "A5 mobile proof readability",
+    "small body readability",
+    "fullchain gaps A4/B3/B4",
+    "buyer ERP governance bridge understanding"
+  ],
+  "scope": "native integrity observed, not buyer/live/fullstory acceptance"
+}

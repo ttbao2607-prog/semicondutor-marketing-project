@@ -1,0 +1,27 @@
+{
+  "revision": "first-touch-r2-pilot",
+  "tool": "builtin image_gen",
+  "mode": "full-card raster generation with inspected local references",
+  "base_calls": 1,
+  "correction_calls": 0,
+  "native_returned_path": "C:/Users/ASUS/.codex/generated_images/01a0f581-4c97-7441-990c-8a991f0e345c/exec-bab690c3-e6c3-4619-a1e5-5995622332cf.png",
+  "project_file": "shared-cover-native.png",
+  "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+  "bytes": 1676618,
+  "width": 1254,
+  "height": 1254,
+  "prompt": "imagegen-prompts.md",
+  "references": [
+    {
+      "path": "../production-r3/dependencies/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f"
+    },
+    {
+      "path": "../production-imagegen-v2/remaining-pilot/B1-v2-native.png",
+      "role": "frozen style",
+      "sha256": "f064264d3f3a6b7e5985728f718f38287043e55899dcd5f305744b2061170608"
+    }
+  ],
+  "provenance": "AI-created fictional editorial illustration, internal provenance only; no customer or facility evidence",
+  "native_visual_observation": "Parent observed exact headline/body/category/logo1/art1/5, no clipping, forbidden dash, weak label, readable fabricated data or ticks; scoped integrity only."
+}
