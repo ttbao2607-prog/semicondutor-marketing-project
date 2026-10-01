@@ -1,0 +1,12 @@
+# V2 pipeline prompt and QA anchor
+2026-10-01. PO-directed editorial rules; TESTING_NON_CANONICAL as buyer/performance learning. No automatic best-practice or buyer validation claim.
+
+1. Customer-visible copy, native fields, alt and generated artwork must contain no U+2014 em dash or U+2013 en dash. Use natural period/comma/colon. Internal source quotations/history can retain original punctuation with provenance.
+2. Omit `Tình huống minh họa` and comparable weakening meta labels/disclaimers from customer-facing artwork and alt. Keep internal AI illustration provenance and fictional-scene status in prompts/manifests/handoff. Removing weak labels never grants permission to claim actual customers/cases/facilities/years/outcomes.
+3. Preserve essential Taiwan label and exact ERP/MES source scope. These are factual qualification, not weak meta labels. Retain consultant perspective and role/pain/story logic.
+4. Official logo identifies brand; no redundant separate uppercase DIGIWIN header. Count logo/wordmark/headline/body/proof independently and explain roles, not mechanical cap PASS. Existing A1 count4 remains OPEN historical.
+5. Neutral record objects, no success ticks, pass/fail badges, numeric metrics or fabricated productUI. Illustrate review relations without diagnostic or workflow capability claim.
+6. Exact prompt text gets preflight for prohibited visible strings/dashes. After generation inspect actual Vietnamese glyphs/punctuation, label absence, logo, category/sequence, no clipping, diagram meaning, native dimensions/file size and feed312 where evidenced. Do not report inferred font/logo fidelity or mobile/platform PASS.
+7. Revised snapshot delta: remove illustration label on cards1-4; remove equivalent weakening alt clauses; A5/B5 imageheadline emdash replaced by period and capitalized `Góc`; separate uppercase DIGIWIN header omitted. Main bodies/nativeheadlines/captions/Taiwan proof unchanged. Disclose changed copy/furniture so comparison is not pure same-copy.
+8. Old A1/A3 show removedlabel; old A5 has longdash. They stay immutable historical and NEEDS_CURRENT_RULE_POLISH, not final revisedV2 delivery. A3 checkmark semantic issue stays OPEN_POLISH. No regeneration released now.
+9. Built-in ImageGen only, whole rastercard including text; no overlay/vector/API fallback. One initial per requested card; six new base calls, cumulative9 planned. Shared correction reserve1 remains separate; no exploratory churn.

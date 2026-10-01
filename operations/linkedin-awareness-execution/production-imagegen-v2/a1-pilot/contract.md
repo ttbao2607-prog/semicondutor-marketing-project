@@ -1,0 +1,10 @@
+# A1 ImageGen pilot execution contract
+2026-10-01. Outcome: one genuine built-in ImageGen full-card A1, persisted with exact source/prompt/provenance and honest inspection, awaiting PO style. Native CLI leaf Writer, parent Coordinator final visual/context auditor and independent structural auditor; parent runtime admission gpt-6.1-sol/low. Baseline e27be1496d66cd003b7081efa3cac2c6f6c30cc9, local-only.
+Allowed: this pilot folder, latest dated status in five canonical docs and ImageGen plan. Protected: R3 source/storyboard, V1 pack, prior history. No A3/A5/batch, account, Git mutation, tests, API/CLI/SVG/overlay/image scripts. Plan: contract/prompt/copy first; inspect logo; one built-in generation; inspect actual result; one targeted critical correction only if necessary; save native PNG, manifest and handoff; stop for PO style.
+AC1 CONTRACT: actual built-in full-card raster, exact prompt/reference/call evidence.
+AC2 STRUCTURAL/CONTRACT: exact A1 image headline/body, official logo plus DIGIWIN, category, illustration label, 1/5; caption/native headline outside image; pinned R3 sources.
+AC3 CONTRACT: credible fictional OSAT package/test motif and result-record/review grouping, white text space/master palette, consultant tone, no invented UI/customer/outcome.
+AC4 STRUCTURAL/CONTRACT: native PNG measured square >=1080 preferred, <=4320 and <=10MB; inspect Vietnamese/logo/layout at actual resolution; feed readability not claimed without actual display evidence.
+AC5 STRUCTURAL: manifest IDs/path/hash/bytes/dimensions/status/source/prompt/ref; one initial call, at most one shared critical correction, original retained if superseded.
+AC6 CONTRACT: AWAITING_PO_STYLE, truthful gaps and docs impact, no subsequent production or buyer/live conclusion.
+SUCCESS means reviewable pilot and evidence meet all critical criteria, separate from PO approval. PARTIAL if material QA gap; FAILURE for attempted critical unmet result; BLOCKED for observed external dependency. Parent audits saved prompt/copy/native PNG/manifest/handoff and protected hashes independently.

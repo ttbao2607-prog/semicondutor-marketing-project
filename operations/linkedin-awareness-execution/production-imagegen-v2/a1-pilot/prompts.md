@@ -1,0 +1,16 @@
+# A1 prompt / call provenance
+Call 1 planned: built-in image_gen; opaque full-card generate. Reference: official logo only, supporting brand input, already viewed. Path ../../production-r3/dependencies/digiwin-logo.webp; SHA256 590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f. No seed/size parameter exposed. No correction unless critical copy/logo/spec issue, one shared correction maximum.
+
+## Exact call 1 prompt
+
+Create ONE finished square 1:1 B2B LinkedIn carousel card, intended 1080 square or larger native square, opaque background. This is card 1/5 for Vietnamese OSAT Quality professionals. Generate the entire finished raster card, including exact Vietnamese text and brand reference. The attached image is ONLY the official Digiwin logo reference: faithfully preserve its shape and cyan-blue brand treatment, do not copy any other prior artwork. Also display separate clear brand name DIGIWIN. Sophisticated editorial OSAT semiconductor macro/conceptual illustration: believable packaged semiconductor die/package resting beside a precise test fixture/tray, composed with neutral paper result-record and review-folder objects. Fictional illustrative situation, not a photograph of a real customer or facility. The record and folder are quiet clean objects, no readable extra data, no numeric metrics, no fabricated dashboard. Consultant recognition and professional authority, not consumer curiosity or suspense. Generous white/light #F8FAFC negative space for all text; primary #2563EB, dark #1E293B, restrained blue accents. Heading style Outfit, body Work Sans, clean strong typography, large legible Vietnamese accents; exact font fidelity preferred. Text hierarchy: small logo and clear DIGIWIN/category/sequence; prominent full headline; complete body with comfortable line spacing; illustration in remaining lower area; discreet but readable illustration label. Do not shrink the body to fit. Safe margins, no cropped words or objects. Precise material detail and quiet lighting create visual interest, not neon, holograms, cartoon, shock, gaming, generic cleanroom or wafer/fab hero. Preserve all exact strings below, including punctuation, accents and case. No other visible text, no CTA button. Exact visible text:
+DIGIWIN
+ERP · VẬN HÀNH BÁN DẪN
+1/5
+Digiwin: tổ chức rà soát từ tình huống.
+Nhóm chất lượng OSAT nhận kết quả kiểm thử bất thường. Với góc nhìn Digiwin, bước đầu là xác định hồ sơ cần xem trước khi bàn về nguyên nhân.
+Tình huống minh họa
+Do not place introductory caption or native platform headline in this image. Do not prelist lot/stage/time details, invent capabilities, customer marks, outcomes, cases or years. Use illustration only to support receiving an abnormal test result and organizing records before discussing causes. Professional finished full-card image, not a vector diagram or fake software screen.
+
+## Actual call 1 receipt
+Built-in image_gen returned one image at C:/Users/ASUS/.codex/generated_images/01a0f581-4c97-7441-990c-8a991f0e345c/exec-10dc2e12-582a-412a-9f77-19ac8136f9e7.png. Native1254×1254, copied unchanged to A1-v1-native.png. 0 correction calls. Arguments: prompt above, referenced_image_paths = official logo absolute local path, transparent_background=false. No size/seed/API parameter. Execution emitted truncated base64 accidentally; source PNG is the audit artifact.
