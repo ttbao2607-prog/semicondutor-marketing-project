@@ -1,5 +1,7 @@
 # LinkedIn Build Pack
 
+**Carousel awareness decision (2026-10-01):** Bảo chọn carousel images + introductory copy, kể chuyện theo card để định vị Digiwin là ERP có chuyên môn và kinh nghiệm ngành semiconductor. Anchor audit/spec/artifact: [LinkedIn_Carousel_Constraints_and_Awareness_Anchor.md](../../operations/LinkedIn_Carousel_Constraints_and_Awareness_Anchor.md). Điều này supersede static mặc định và format-open trong wave tối ưu awareness, cùng Company-Page-only destination baseline cho carousel này: mỗi ad chọn một trong ba LDP đúng route để đọc thêm; URL vẫn required nhưng mục tiêu native awareness không click-driven. Đây là positioning intent, không tự xác nhận claim kinh nghiệm/capability hoặc brand lift. Cohort/POV pair/locale/C, budget và live authority chưa chốt; chưa sản xuất hoặc upload. Docs sync chỉ trong worktree, chưa commit/merge/push.
+
 **Status:** offline creative revision and Bảo-approved proof-carousel v1 complete; authorized external read-only validation was completed on 2026-09-14. The public record retains only sanitized findings. A separately authorized 2026-09-30 Company List discovery audience was created and remains `Building`; no creative was attached, no campaign delivered, and no spend occurred.
 
 ## Format and delivery specifications

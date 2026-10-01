@@ -1,6 +1,10 @@
 # Plan tối ưu LinkedIn awareness theo target role và POV
 
+**Carousel awareness decision (2026-10-01):** Bảo chọn carousel images + introductory copy, kể chuyện theo card để định vị Digiwin là ERP có chuyên môn và kinh nghiệm ngành semiconductor. Anchor audit/spec/artifact: [LinkedIn_Carousel_Constraints_and_Awareness_Anchor.md](LinkedIn_Carousel_Constraints_and_Awareness_Anchor.md). Điều này supersede static mặc định và format-open trong wave tối ưu awareness, cùng Company-Page-only destination baseline cho carousel này: mỗi ad chọn một trong ba LDP đúng route để đọc thêm; URL vẫn required nhưng mục tiêu native awareness không click-driven. Đây là positioning intent, không tự xác nhận claim kinh nghiệm/capability hoặc brand lift. Cohort/POV pair/locale/C, budget và live authority chưa chốt; chưa sản xuất hoặc upload. Docs sync chỉ trong worktree, chưa commit/merge/push.
+
 Ngày: 2026-10-01. Revision: v1.1 — chắt lọc hai audit và thẩm định trong session. Product Owner: Bảo. Trạng thái: PLAN READY FOR PO REVIEW; các phương án dưới đây là proposal, chưa phải copy được duyệt chạy. Bảo đã giao sửa plan và commit local; chưa chọn cohort/POV hoặc cấp quyền sản xuất/live test.
+
+**Approval addendum (2026-10-01, supersedes review status trên):** Bảo đã chốt plan v1.1 tại local commit `90528af`. Chỉ đạo tiếp theo là lập `LinkedIn_Awareness_Execution_Plan.md`, planning-only, chưa thực hiện. Approval định hướng không tự chọn cohort, POV pair, locale/baseline hoặc cấp live/spend authority. Hai audit v1.0 và lịch sử revision dưới đây giữ nguyên; chưa có independent re-audit v1.1.
 
 ## 1. Execution contract và trạng thái nguồn
 
