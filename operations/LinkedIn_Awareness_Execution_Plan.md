@@ -4,6 +4,8 @@ Ngày: 2026-10-01. Revision: v1.1 — carousel format và ERP semiconductor posi
 
 **Selected artifact contract:** xem `LinkedIn_Carousel_Constraints_and_Awareness_Anchor.md` — platform constraints, narrative acceptance và formats MD/SVG/PNG/HTML/CSV. Hai carousel A/B, C tùy chọn, preview/QA từng ad. Mục tiêu chính: định vị Digiwin là ERP có chuyên môn và kinh nghiệm ngành semiconductor; claim cụ thể phải có evidence. Landing đúng route là đường đọc thêm, native awareness không phụ thuộc click.
 
+**Execution addendum (2026-10-01, supersedes planning-only task status):** Bảo authorized checkpoint 67067c4 and one native leaf Writer gpt-6.1-sol/low. E1 R1–R4 + E2 option briefs completed under operations/linkedin-awareness-execution/execution-contract.md; parent SELF audit PASS, scope options only, evidence in coordinator-audit.md. No final pair/assets/live gate released. Planning text below retains future pipeline scope; current output status comes from the milestone handoff and parent inspection.
+
 ## 1. Mandate và kết quả cần đạt
 
 Bảo đã chốt định hướng tại `LinkedIn_Awareness_Adcopy_Optimization_Plan.md` v1.1, nằm trong local commit `90528af7fa0de989282425f1cb726479c8d8226b`. Lượt hiện tại chỉ lập kế hoạch thực thi; không chạy research mới, sản xuất ad, tạo preview, gọi reviewer, mở account hoặc commit. Approval định hướng không tự chọn một cohort/locale hoặc chấp thuận spend.

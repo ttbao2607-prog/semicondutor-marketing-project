@@ -54,4 +54,4 @@ Hai carousel A/B; C tùy chọn. Mọi ad được chọn đều preview/QA. N�
 
 Auditor kiểm tra platform counts/spec provenance, readability tại rendered size, story/role fit, ERP–semiconductor brand association, proof scope, advertiser attribution và destination consistency. Caption/card engagement không chứng minh đọc hết, hiểu hoặc memory lift. Self-review khác buyer evidence. SUCCESS của artifact scope không tự là AUDIT_PASS, LIVE READY hoặc brand outcome SUCCESS.
 
-Format/positioning đã chốt; cohort/pair/test type/locale/C, budget, live mandate và buyer/product/native validation vẫn theo execution gates. Chưa tạo content/asset trong lượt ghi anchor. Anchor và docs sync hiện local working-tree, chưa commit/merge/push.
+Format/positioning đã chốt; cohort/pair/test type/locale/C, budget, live mandate và buyer/product/native validation vẫn theo execution gates. Chưa tạo content/asset trong lượt ghi anchor. Anchor và docs sync đã được checkpoint local tại 67067c4; chưa merge main hoặc push GitHub.
