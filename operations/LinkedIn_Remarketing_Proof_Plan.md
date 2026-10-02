@@ -19,7 +19,7 @@ Mandate hiện tại chỉ gồm plan và checkpoint tài liệu. Research sâu,
 | Nguồn tại base HEAD | Fact / giới hạn |
 |---|---|
 | `Semiconductor_Work_Kickoff.md`, mục 3–4 | RMK củng cố chuyên môn và dẫn tới bước tiếp theo; pain → proof → CTA; leads là tín hiệu cộng thêm. |
-| `ads/linkedin/LinkedIn_Build_Pack.md`, Retargeting definition | Planned `LI-AUD-P1-ENGAGED-30D`, single-image/document engagement, reachable members >=300 và platform/UI eligibility. Đây là guardrail canonical hiện có, cần revalidate trước live. |
+| `ads/linkedin/LinkedIn_Build_Pack.md`, Retargeting definition | Tài liệu ghi `LI-AUD-P1-ENGAGED-30D` có status Building, single-image/document engagement, reachable members >=300 và platform/UI eligibility. Đây là trạng thái được ghi trong tài liệu, chưa phải trạng thái account được chứng kiến; guardrail cần revalidate trước live. |
 | `operations/LinkedIn_Awareness_Adcopy_Optimization_Plan.md`, mục 9 | Chữ Building chưa có live witness cho engagement audience; cấu trúc 3 segment ad sets và proposal 2 FDI/domestic campaigns chưa được reconciled thành kiến trúc live-approved. Company List discovery là nguồn khác, không phải tệp warm. |
 | `operations/LinkedIn_Carousel_Governance_Record.md` | CAR-01 Taiwan/CAR-02 China/CAR-03 abstract/CAR-04 Vietnam approved offline v1. CAR-03 không có customer name/logo/result; văn phòng không chứng minh local deployment outcome. |
 | `operations/Public_Source_Register.md` | PO approval 2026-09-29 cho case/claim đã có trong VI source và translation giữ đúng scope. Không suy rộng sang claim mới, logo/name mới hoặc translation riêng của 200+/700+ English carousel metrics. |
@@ -52,8 +52,8 @@ Narrative rough ứng viên, chưa khóa format/card count: bài toán → case/
 | R2 — Verify proof | Mở nguồn official Digiwin gốc; phân biệt solution page, customer relationship, implementation case và measured outcome. Đối chiếu số, đơn vị, thời gian, baseline và attribution. | Mỗi claim phân loại usable-within-existing-scope / requires-PO-decision / unsupported-remove. Nguồn inaccessible không coi verified. Không ép có đủ ba lane. |
 | R3 — Rights | Map từng case/name/logo/photo/quote tới quyết định hiện có; không phủ định approval VI đã ghi, cũng không mở rộng approval. | Rights matrix; unknown làm hold claim bị ảnh hưởng. PO xử lý material rights/scope decision; không tự nhắn khách hàng hoặc thu thập thông tin cá nhân. |
 | R4 — Audience/format | Tra docs LinkedIn official hiện hành về retargeting sources, carousel-image engagement, document/single-image, windows, eligibility/min size, objective/format/placement. | Route memo có URL/date và phân biệt documented vs account-observed. Không mặc định carousel nuôi `LI-AUD-P1-ENGAGED-30D`; platform docs chưa đủ để xác nhận tệp account. |
-| R5 — Relevance | Match case và pain tới role/segment trong source brief; kiểm tra proof đang nói đúng nhu cầu hay chỉ giới thiệu quy mô. | Shortlist có rationale và gaps; đề xuất một persona/pain/pilot locale, không chia nhỏ audience khi chưa có size evidence. |
-| R6 — Measurement/destination | Review native reporting, existing route measurement và CTA; đề xuất native document/case consumption hoặc landing phù hợp. | Measurement memo, source-of-truth cho từng metric, destination/offer và trade-off. Website route/tag/form thay đổi phải có mandate riêng. |
+| R5 — Relevance | Match case và pain tới role/segment trong source brief; xác định tình huống kích hoạt, nhu cầu phát sinh, proof phù hợp và liên kết mong muốn với Digiwin. Role/pain tự nó chưa chứng minh tình huống buyer nhớ tới nhà cung cấp. | Shortlist có rationale, trigger hypothesis và gaps; đề xuất một persona/pain/pilot locale, không chia nhỏ audience khi chưa có size evidence. Tình huống mua là giả thuyết đến khi có buyer evidence; buyer validation không phải gate bắt buộc trước draft. |
+| R6 — Measurement/destination | Review native reporting, existing route measurement và CTA; phân biệt nhu cầu tìm hiểu qua case với nhu cầu trao đổi khi đang đánh giá giải pháp, đề xuất bước tiếp phù hợp cho nội dung được chọn. | Measurement memo, source-of-truth cho từng metric, destination/offer và trade-off. Hai nhu cầu là content hypotheses, không phải hai nhóm intent đã xác minh trong tệp; không bắt buộc hai CTA trong một ad hoặc chia audience. Website route/tag/form thay đổi phải có mandate riêng. |
 
 Public official-web research là route đề xuất cho R2/R4 khi phase research được release. Live-account read-only inventory cần mandate riêng ghi account/profile/resource/controller; không browser login, upload, attach hoặc tạo audience để “nghiên cứu”. Trước Chrome/LadiPage action đọc local guidance và skill áp dụng. Không invent new tracking threshold/event, không dùng `accepted_form` chưa verified.
 
@@ -89,12 +89,14 @@ P0 execution terminal chỉ `SUCCESS` khi toàn bộ tiêu chí trên đạt; `P
 - Mỗi proof liên quan tới pain/persona và giải thích Digiwin role; outcome không biến thành guarantee/cross-market inference.
 - Không dùng award/ranking/“uy tín quốc tế” như factual superlative thiếu evidence; ưu tiên bằng chứng cụ thể.
 - Ad hiểu được khi gặp độc lập; first-mention clarity và locale terminology được review; caption/headline/body/CTA thống nhất.
+- Trước pilot offline, chốt một câu hỏi học hỏi chính về nội dung. Human review kiểm tra người xem nhận đúng Digiwin là advertiser, hiểu vai trò Digiwin trong case và giới hạn proof. Ghi câu trả lời/nhầm lẫn cùng revision, loại người review và giới hạn mẫu; logo/màu nhất quán chưa chứng minh buyer recognition. PO/editorial review không được báo thành buyer validation.
 - Exact copy/image records pin revision/hash; rendered desktop/mobile không clipping, proof qualification và nguồn thiết yếu đọc được; không chỉ dựa vào native PNG hoặc source inspection.
 - Explicit PO human content decision gắn revision; mechanical QA không thay buyer validation hoặc live approval.
 
 ### Business test proposal và live readiness
 
 - Trước launch chốt hypothesis, primary metric, denominator, review window/sample sufficiency, cost envelope, decision rule và owner. Chưa đủ dữ liệu để đặt CTR/CPL lift hoặc frequency cap bằng số trong plan này.
+- Pilot offline kiểm tra hiểu nội dung/proof, attribution về Digiwin và render; không đo hiệu quả RMK. Live test phải có câu hỏi học hỏi chính và tiêu chí delivery riêng. Consumption/progression chỉ hỗ trợ kết luận hành vi; muốn kết luận buyer nhớ Digiwin trong tình huống mua cần nghiên cứu liên kết brand–tình huống phù hợp, không mặc định thêm nghiên cứu đó làm gate cho draft.
 - Delivery guardrail: source audience eligible, actual reachable size và targeting overlap/exclusion được UI evidence xác nhận. Nếu thiếu carousel-source route hoặc tệp quá nhỏ, hold RMK; không mở tệp sai ICP cho đủ số.
 - Attention: metric native phù hợp format thực (document engagement/consumption nếu available); progression: destination interaction có measurement verified. Leads/qualified leads là optional, nguồn rõ.
 - Nếu test hai cách kể, giữ audience/offer/proof/locale/destination và delivery settings có thể so sánh; đổi nhiều yếu tố phải gọi package test, không suy causal effect của riêng proof.
@@ -111,3 +113,7 @@ Decision pack sau P1/P2 phải để Bảo chọn persona/pain, proof lane và c
 Docs impact: đã review `CURRENT_STATE.md`, `DOCS_IMPACT_MAP.md`, kickoff, build pack, readiness, proof governance/register và measurement baseline liên quan. Chỉ current-state discoverability cần note mới. Build pack/readiness/governance/tracking/budget giữ nguyên vì chưa có adoption, proof approval hoặc operational transition. Khi phase sau đổi current truth, sync đúng canonical docs trong impact map trước PASS/commit/handoff.
 
 Checkpoint review: parent self-review content/diff và Git persistence; independent audit chưa thực hiện. Trạng thái research/production/live: `NOT_STARTED / NOT_RELEASED`.
+
+## 8. Plan refinement checkpoint (2026-10-02)
+
+Bảo authorized cải tiến plan theo thẩm định audit rồi commit và dừng. Tiếp thu trigger hypothesis ở R5, hai nhu cầu bước tiếp ở R6, kiểm tra attribution/role trong human review, phân biệt offline learning với live measurement và wording audience theo cấp evidence. Đây là refinement của plan, không xác nhận intent/tình huống mua, buyer recognition hoặc audience readiness. Không thêm buyer-research gate bắt buộc trước draft; không release research/production/live. Containing commit là checkpoint refinement; audit dogfood được dùng làm input phản biện, không tự coi mọi nhận định là blocker hoặc independent acceptance của revision mới.
