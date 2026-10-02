@@ -59,3 +59,7 @@ This turn delivers status + audit + revised content anchor only. Next correction
 Before generating replacement images, check the four answers and searchability against actual source/disposition and Bảo's feedback. Missing source blocks only the affected claim. No blanket new research/rights flow, forced audience verification or visual-only fix. Later changed copy/images require new demo/pins/render observations/human receipt. R2 pixels/copy/manifest stay frozen; append new correction revision rather than erase failure evidence.
 
 Docs impact: current status/build/readiness, RMK plan, continuity plan and research entry point updated. Original cold/awareness positioning, source permissions/governance, landing, tracking and budget unchanged. Independent audit pending; this self-audit content verdict AUDIT_FAIL matches explicit PO rejection.
+
+## R3 lesson: governance language is not customer copy (2026-10-02)
+
+Bảo rejects R3's “Case về quản trị vận hành; không chứng minh xử lý kiểm thử bất thường.” An instruction to keep scope explicit in this anchor meant choose/source precise facts, not print the internal proof-match limitation as advertising. Do not reuse this sentence from the audit as footer copy. [AD-ED-01](../Ad_Artifact_Editorial_QA_Gate.md) requires copy and post-generation semantic review; internal adjacent-pain reasoning stays in ledger/audit, customer copy carries named case/market/role/result attribution. This preserves truthfulness and supplier authority together. R3 status AD_COPY_FAILED; next correction not started here.

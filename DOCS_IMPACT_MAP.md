@@ -14,3 +14,5 @@ For a material change, review the listed CANONICAL files and update only those w
 | Experiment/pivot changing operating decision | CURRENT_STATE.md; affected strategy/build/measurement docs; preserve evidence in HISTORY / LOG |
 
 Canonical Awareness content-review process: `operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md`; synchronize ExecutionPlan E4/E5/E7, buildpack/readiness and current status when this process changes. Other formats require separate scope mandate.
+
+Customer-facing ad copy/artwork revisions also require `operations/Ad_Artifact_Editorial_QA_Gate.md` (AD-ED-01), current native/rendered text inspection and receipt; synchronize runbook/ExecutionPlan/template and current build/readiness on material gate changes.

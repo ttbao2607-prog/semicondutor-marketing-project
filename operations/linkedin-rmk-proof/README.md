@@ -44,3 +44,7 @@ Current visual candidate: [Quality ImageGen R2](quality-pilot-imagegen-r2/README
 ## Case-led R3 pilot (2026-10-02)
 
 Bảo authorizes re-pilot under revised anchor. [R3](quality-pilot-case-r3/README.md) has four carousel images answering identity, named case/role, attributed result and self-search resource. Current candidate READY_FOR_HUMAN_REVIEW; R2 stays failed in history, no content/live approval inherited.
+
+## Current R3 PO rejection (2026-10-02)
+
+R3 is **AD_COPY_FAILED / CHANGES_REQUESTED**, not ready content. Read [editorial status/actual findings](quality-rmk-r3-editorial-status.json) and [new AD-ED-01 gate](../Ad_Artifact_Editorial_QA_Gate.md). Repo/audit caution leaked into the ad footer; future copy/native images/demo require post-generation semantic QA and closure. Failed artifacts/earlier rendered evidence retained; no new creative or live work in this QA task.

@@ -1,0 +1,44 @@
+{
+  "gate_id": "AD-ED-01",
+  "date": "2026-10-02",
+  "revision": "quality-rmk-case-r3",
+  "artifact_checkpoint": "fe5c127",
+  "po_reviewer": "Bao / Product Owner",
+  "po_decision": "CHANGES_REQUESTED",
+  "content_status": "AD_COPY_FAILED",
+  "content_outcome": "FAILURE",
+  "editorial_verdict": "EDITORIAL_QA_FAIL",
+  "review_kind": "explicit PO rejection + writer follow-up of exact copy and previously inspected final raster/demo; not independent audit",
+  "pins": {
+    "index.html": "82d4e1c06cb8f7e0e94c7cda3db6cc98441e56e7eb24af514f556bd7f3fe93c4",
+    "copy-vi.json": "f08bc69724f331b61e1e03e11b6c3c5c82dbee7eceecbf4a8ad755d84a253651",
+    "manifest.csv": "3673b76f1274150ab8618294b7c006fb3d86e417d1576b96d1861d3908631f0d",
+    "R4-native.png": "ebb8fdb36e4683ca2354f0b3cc0cecf8aad088d74903b40e5787190975a5ee79"
+  },
+  "findings": [
+    {
+      "card": "R4",
+      "surface": "source/footer, copy + native PNG + current demo",
+      "exact_string": "Case về quản trị vận hành; không chứng minh xử lý kiểm thử bất thường.",
+      "classification": "internal proof-match reasoning leaked into ad",
+      "severity": "critical",
+      "action": "rewrite for customer purpose; keep boundary in internal audit; update affected raster/demo before closure",
+      "closure": "OPEN"
+    },
+    {
+      "card": "R3",
+      "surface": "source/footer + image_body",
+      "exact_strings": [
+        "Kết quả không phải cam kết cho nhà máy khác.",
+        "Một bằng chứng vận hành để tham khảo khi đánh giá nhà cung cấp."
+      ],
+      "classification": "flagged generic agent-caution framing; semantic editorial review required",
+      "action": "prefer concise named-case attribution, preserve truthful scope",
+      "closure": "OPEN"
+    }
+  ],
+  "gate_path": "operations/Ad_Artifact_Editorial_QA_Gate.md",
+  "correction_status": "NOT_STARTED",
+  "independent_audit": "PENDING",
+  "live": "NOT_RELEASED"
+}

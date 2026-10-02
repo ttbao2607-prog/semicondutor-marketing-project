@@ -187,3 +187,7 @@ Canonical CURRENT_STATE ghi nhận Bảo đã chốt v1.1 và đang ở planning
 Tiêu chí hoàn thành lượt lập plan: work packages/dependencies rõ; research questions/source/done/limits rõ; content deliverables và acceptance rõ; execution/audit/learning statuses rõ; scope planning-only và decisions pending rõ; docs approval synchronized.
 
 **Terminal lượt này: SUCCESS — EXECUTION PLAN PREPARED FOR REVIEW.** E0–E8 chưa bắt đầu; content/research execution chưa được thực hiện. Independent audit execution plan: NOT_PERFORMED. File mới và addenda hiện là working-tree changes local, chưa stage/commit/merge/push. Quyền commit trước đó chỉ cho lần sửa v1.1, không tự áp cho các file mới lượt này.
+
+## E4/E5/E7 editorial QA addition (2026-10-02)
+
+[AD-ED-01](Ad_Artifact_Editorial_QA_Gate.md) is mandatory: E4 copy/customer-purpose preflight and rough-visible-text review; E5 post-generation native-image plus rendered desktop/mobile semantic review; E7 verifies receipt and closure hashes/evidence. Any internal repo/audit caveat in customer surfaces blocks ready handoff until exact copy, affected raster and demo are corrected and reobserved. Preserve truthful attribution/scope; do not weaken facts to sound confident. This adds review requirements, no new production/live authority.

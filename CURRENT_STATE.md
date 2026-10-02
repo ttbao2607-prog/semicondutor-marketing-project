@@ -1,5 +1,8 @@
 # Current state
 
+**RMK R3 editorial failure / post-generation QA (2026-10-02):** Bảo rejects R3 at fe5c127: AD_COPY_FAILED / CHANGES_REQUESTED, content FAILURE. R4 footer leaks internal proof-boundary reasoning into advertising, weakening supplier authority. [AD-ED-01 editorial gate](operations/Ad_Artifact_Editorial_QA_Gate.md) now requires exact copy-field preflight plus post-generation inspection of all native image text and desktop/mobile demo, semantic customer-purpose review and revision-bound closure receipt. Internal repo/audit caution stays in governance docs; truthful case/source/market attribution remains. [R3 status](operations/linkedin-rmk-proof/quality-rmk-r3-editorial-status.json) pins failed artifacts and PO decision; R3 is not ready/accepted. Artifacts stay frozen; no new copy/image/account/live work. Independent audit pending.
+
+
 **Case-led RMK R3 pilot (2026-10-02):** Bảo releases a new offline pilot under revised evidence-first anchor. [R3 four-card carousel](operations/linkedin-rmk-proof/quality-pilot-case-r3/README.md) identifies Digiwin supplier role, PR05 exact China packaging/testing case name, integrated solution and publisher-reported month-close15→5days, plus visible search/domain/case06 locator. Adjacent operations proof to cold O1/O4-Q, not abnormal-test outcome. PR05/PR10 official sources reopened; existing claim scope retained. 4 original ImageGen PNG,0edits, exact copy/pins/demo/eight desktop-mobile observations delivered; bounded execution SUCCESS / READY_FOR_HUMAN_REVIEW, PO content/independent audit/buyer/live pending. Warm hypothesis retained; R2 AD_COPY_FAILED history preserved. Proposed destination is actual case collection, inert in demo; no landing/tracking/account/spend/push/merge.
 
 

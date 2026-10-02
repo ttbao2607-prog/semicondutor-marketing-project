@@ -28,3 +28,7 @@ TEMPLATE ONLY; no observed approval. Copy to a new revision-bound external recei
 | H6 readable views/navigation | UNKNOWN | UNKNOWN | UNKNOWN | UNKNOWN |
 
 Severity: critical/material/minor with reason tied to stage and effect, not checkbox closure. List missing/unobserved views/actions/source rights explicitly. Date/reviewer/decision stay unknown until actually supplied. Human content acceptance applies only to exact offline revision; no account/live/spend or buyer validation inferred. Changed copy/image/order/locale/proof/destination invalidates dependent approval, requiring current demo/manifest and reobserved affected views/transitions.
+
+## H7 / AD-ED-01 editorial QA receipt
+
+Gate revision: UNKNOWN. Reviewer/writer/independence: UNKNOWN. Copy + ordered native image + desktop/mobile demo hashes/evidence: UNKNOWN. Record each exact string/card/surface, internal-process versus customer-useful classification, authority/source impact, keep/rewrite/remove decision, owner and corrected revision/hash/render closure. Verdict EDITORIAL_QA_PASS / EDITORIAL_QA_FAIL / INSUFFICIENT_EVIDENCE: UNKNOWN. Do not infer PASS from no keyword matches or matching bad source text. See ../Ad_Artifact_Editorial_QA_Gate.md.
