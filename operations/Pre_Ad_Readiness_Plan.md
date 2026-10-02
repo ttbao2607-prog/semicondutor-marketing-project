@@ -148,6 +148,8 @@ After route/asset readiness and any required action-time confirmation, create on
 
 ### F — Define LinkedIn engagement retargeting
 
+Research addendum (2026-10-02): [RMK proof pack](linkedin-rmk-proof/README.md) completes bounded local/public R1–R6 under Bảo's research mandate; independent audit/PO selection and production/live release remain pending. Source/rights holds and direct-carousel-source gap are itemized; this does not establish audience creation/eligibility, approve an objective or release account inventory/build/spend.
+
 Create the definition for `LI-AUD-P1-ENGAGED-30D` in Building only when the audience source and eligibility are evidenced. Source is single-image/document engagement. This audience is launchable only at `>=300` reachable members, subject to platform/UI evidence.
 
 **Acceptance:** definition and threshold are recorded; no upload or activation occurs in this plan.

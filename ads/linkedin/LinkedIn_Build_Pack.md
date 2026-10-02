@@ -115,6 +115,8 @@ Phân khúc Nội địa nhắm vào các doanh nghiệp công nghiệp phụ tr
 
 ## Retargeting definition
 
+Research addendum (2026-10-02): [RMK proof research](../../operations/linkedin-rmk-proof/README.md) is `READY_FOR_PO_RESEARCH_REVIEW`, with case/rights disposition and official-source format/measurement options. No direct carousel-image engagement source was verified in consulted LinkedIn documentation; this is a documented-source gap, not proof that every account lacks such a route. The Building status below is recorded documentation, not a fresh account witness. No audience, objective, creative or budget change is adopted by this research.
+
 `LI-AUD-P1-ENGAGED-30D`: single-image/document engagement, status **Building**, launchable only when reachable audience is `>=300` and UI evidence confirms eligibility. The separately authorized discovery Company List is not this retargeting audience and does not authorize attaching an audience to an ad set.
 
 ## Creative pack

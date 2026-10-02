@@ -1,6 +1,6 @@
 # LinkedIn remarketing proof — branch goal và execution plan
 
-Ngày: 2026-10-02 · Product Owner: Bảo · Status: `PLAN_ONLY / READY_FOR_PO_PLAN_REVIEW`.
+Ngày: 2026-10-02 · Product Owner: Bảo · Current status: `RESEARCH_DELIVERED / READY_FOR_PO_RESEARCH_REVIEW`; strategy/production/live chưa release. P0/P0 refinement statuses phía dưới là historical mandate snapshots.
 
 Branch: `slice/linkedin-rmk-proof-plan`, tạo từ HEAD worktree `052b88bc0930729dab7b95493aaac4fcf8739ac7`. Checkpoint plan được xác định bằng containing commit; không merge main hoặc push. Main vẫn là canonical integration branch; tài liệu này là proposed slice, không tự thay thế quyết định canonical.
 
@@ -117,3 +117,7 @@ Checkpoint review: parent self-review content/diff và Git persistence; independ
 ## 8. Plan refinement checkpoint (2026-10-02)
 
 Bảo authorized cải tiến plan theo thẩm định audit rồi commit và dừng. Tiếp thu trigger hypothesis ở R5, hai nhu cầu bước tiếp ở R6, kiểm tra attribution/role trong human review, phân biệt offline learning với live measurement và wording audience theo cấp evidence. Đây là refinement của plan, không xác nhận intent/tình huống mua, buyer recognition hoặc audience readiness. Không thêm buyer-research gate bắt buộc trước draft; không release research/production/live. Containing commit là checkpoint refinement; audit dogfood được dùng làm input phản biện, không tự coi mọi nhận định là blocker hoặc independent acceptance của revision mới.
+
+## 9. Research release và actual result (2026-10-02)
+
+Bảo chỉ đạo “làm phần research trước”, release P1/R1–R6 local/public trong lượt này. [Research pack](linkedin-rmk-proof/README.md) pin inputs tại `0d621de`, gồm proof ledger/rights matrix, platform memo, shortlist/measurement và source-map. Bounded research deliverables complete; execution `SUCCESS`, overall readiness `PARTIAL / READY_FOR_PO_RESEARCH_REVIEW`, independent audit pending. Source divergence Bright Power (PDF 1 ngày vs casebook 2 ngày, cùng target 2 giờ), Wafer Works detailed-scope gap và carousel-source audience gap được ghi explicit; existing VI approvals giữ nguyên. Red Dot/MUSE issuer evidence chỉ chứng minh Athena design/platform recognition, chưa cấp new paid claim/mark rights. Tệp account, buyer triggers và actual delivery vẫn unknown. Không triển khai P2 production brief/P3 creative hoặc P5 account/live, không commit/merge/push trong lượt research này; P0 checkpoint `6c99ca0` và refinement `0d621de` giữ nguyên lịch sử.
