@@ -30,3 +30,7 @@ Local checkpoint authorization (2026-10-02): sau research delivery, Bảo yêu c
 ## Implementation and continuity follow-up (2026-10-02)
 
 Read [implementation handoff](implementation-handoff.md) and [source/gate manifest](implementation-manifest.json) before future strategy/production/account work. Carousel Brand awareness is confirmed; direct carousel audience remains unresolved. Next preparation is the [continuity-map plan](../LinkedIn_Cold_to_RMK_Continuity_Map_Plan.md), before pilot selection. Earlier A/B shortlist remains candidate-only; no forced selection. Map not started; no creative/live release.
+
+## Current scoped pilot (2026-10-02)
+
+Bảo selects execution from this worktree full cold pilots. [Quality RMK R1](quality-pilot-r1/README.md) delivers O1/O4-Q continuity plus five-card offline pilot for human review. This releases bounded P2/P3 for this slice only; earlier no-production statements remain dated history. No full map or account/live release.

@@ -1,0 +1,11 @@
+# Quality RMK R1 offline pilot
+
+[Open current feed demo](index.html) · [Exact copy](copy-vi.md) · [Continuity and contract](continuity-and-contract.md) · [Manifest](manifest.csv) · [Source-map](source-map.json) · [Render evidence](render-evidence.json) · [Human receipt](human-review-receipt.md).
+
+Bảo released a pilot using only completed cold pilots in this worktree. Selected O1/O4-Q at input checkpoint a49d4af; no other worktree input used. One VI RMK treatment, 5 cards, 5 original vector SVG + 5 browser-exported PNG1080, self-contained demo embeds those PNG. No ImageGen call or photo/customer mark. Retained vector approach is an offline pilot, not approval of RMK visual direction.
+
+Execution `SUCCESS` for bounded offline delivery and observed rendering; `READY_FOR_HUMAN_REVIEW`, content/independent audit/buyer/live pending. The proof is PR01 metric-free Taiwan industry context, supporting credibility, not a successful abnormal-test case. Carousel-source audience is unresolved; no account test occurred. No full 11-treatment map attempted under this narrowed mandate.
+
+Render notes: isolated headless Edge on loopback, desktop1440 with feed640 and mobile390, all 5 cards observed; source qualifier visible on cards2/3, no SVG text clipping observed. Automated loaded-image/order/boundary checks recorded; screenshot visual review is by writer, not independent audit. Navigation changes were programmatically exercised; physical swipe, keyboard and live LinkedIn UI were not observed. Mobile source is small but legible in this fixture; buyer readability remains human review. Initial desktop feed needs vertical scrolling to see navigation. Fixture is simulation, not exact platform geometry.
+
+Rebuild: `python build.py` creates SVG/copy and demo (uses PNG if present); start scoped loopback using local-web-preview; `node render-qa.mjs` exports PNG and screenshots; rebuild demo after exports and re-render changed demo. Renderer uses an isolated temporary profile, never the signed-in browser. Preview server must be stopped through its ownership helper. Final manifest is regenerated after all docs/evidence are saved; human receipt excluded to permit review without invalidating artifact pins. Temporary profile/state is outside Git.

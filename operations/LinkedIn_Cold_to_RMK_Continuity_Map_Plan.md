@@ -40,3 +40,7 @@ Success requires: 11/11 treatment coverage with exact source/status or explicit 
 Auditor target: actual matrix versus pinned scripts/proof and implementation manifest; check coverage, scope/rights, continuity classification, unresolved audience gates and protected diff. Execution status may be SUCCESS for a complete map with honest no-match rows; live readiness remains separate. Independent reviewer unassigned/pending.
 
 Docs impact: before map handoff, review CURRENT_STATE, Build Pack, readiness and source/governance docs. Sync adopted decisions only, preserve dated history. This plan changes preparation order: continuity map precedes persona/proof pilot selection; earlier research shortlist is not the selection decision.
+
+## Current PO scope override (2026-10-02)
+
+Bảo says use only completed pilots in this worktree and implement one. This supersedes cross-worktree input reconciliation for this pilot. [Quality R1](linkedin-rmk-proof/quality-pilot-r1/README.md) selects O1/O4-Q; two scoped continuity rows and full offline treatment delivered. Full11-treatment map remains deferred; do not require reading/merging another branch for this slice. Human content/live decision remains pending.
