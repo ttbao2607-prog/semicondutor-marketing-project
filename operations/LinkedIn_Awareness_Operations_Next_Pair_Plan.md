@@ -1,5 +1,11 @@
 # Plan cặp Awareness tiếp theo: Operations O2/O4-O
 
+**Remaining LinkedIn scenario inventory (2026-10-02):** `operations/LinkedIn_Awareness_Remaining_Scenarios.md` reconciles 10 base POV IDs/11 role treatments. Four treatments have offline artifacts (Quality O1/O4-Q, Operations O2/O4-O); seven base scenarios remain unproduced: O3, F1–F3, P1–P3. This is unassigned library inventory, not a mandatory production queue or winner/priority. Operations remains `PARTIAL / RENDER_QA_BLOCKED` and human `ON_HOLD_RENDER_QA`; no account/live authority. Earlier dated plan-only and counts are historical snapshots.
+
+**Operations ImageGen R1 offline pack (2026-10-02):** `operations/linkedin-awareness-execution/operations-imagegen-r1/` has 10 O2/O4-O records, 8 unique native PNG (1254 square), full self-contained demo, current source-map/manifest and production copy snapshot. Built-in ImageGen used 8 base calls, 0 corrections; A1=B1 and A5=B5. Existing P1 and protected historical artifacts remain unchanged. Coordinator native image/mechanical inspection is scoped positive, but browser `goto` to local preview failed at permission security check before render; desktop/mobile/navigation and normal mobile Taiwan-proof readability are unobserved. Full offline workflow status `PARTIAL / RENDER_QA_BLOCKED`; human receipt `ON_HOLD_RENDER_QA`, no content/buyer/canonical/live approval. This supersedes only prior current P1-only/no-image status; dated plan and receipts remain historical.
+
+**Operations P1 copy draft (2026-10-02):** The authorized next script slice produced VI/no-C working draft O2/O4-O at `operations/linkedin-awareness-execution/operations-p1-copy/`: exact A/B five-card MD/JSON, storyboard, claim boundaries and source pins. This advances the 2026-10-01 Operations plan-only snapshot to P1 offline copy draft only; it does not record Bảo business selection or content acceptance. No Operations images, current demo, rendered QA, human receipt, buyer evidence, ImageGen release, account or live authority exists. P2 call envelope and any production phase remain unreleased; prior dated receipts and Quality artifacts retain their historical scope.
+
 2026-10-01 · `PLAN_ONLY / AWAITING_PO_EXECUTION`.
 
 ## Execution contract

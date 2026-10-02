@@ -1,5 +1,11 @@
 # First-touch review anchor
 
+## Bảo first-mention clarity instruction, 2026-10-02
+
+For **future ad-copy revisions across all cohorts and formats**, give a short, source-checked, locale-matched explanation in parentheses at the first customer-visible occurrence of each abbreviation/acronym and the named industry labels **OSAT** and **Fabless** in each independently encountered ad. Place it naturally in the caption/intro or first visible text before an unexplained acronym chain; one clear first mention is enough, not every card. Example Vietnamese wording to validate against the actual source/scope: `OSAT (dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài)`; `Fabless (doanh nghiệp thiết kế chip, không sở hữu nhà máy chế tạo)`. If ERP, MES or WIP appears, explain that first occurrence briefly using a verified definition; do not infer product capability from a term definition. Adapt wording to language, role and channel limits by rewriting nearby copy, not silently dropping the needed explanation or exceeding native character constraints.
+
+This is a PO editorial instruction for later copy, not a retroactive edit or buyer-validated rule. Current P1 and Operations/Quality copy, PNG, demo, manifests, receipts and pinned historical hashes remain their recorded revisions. Existing first-touch anchor status stays `PO_ACCEPTED_TESTING_NON_CANONICAL`; visual freeze and all content/live review gates remain. Source context: `Semiconductor - Website & Ads.md` line 19 connects OSAT with packaging/testing; line 42 names IC Design/Fabless.
+
 ## Current PO acceptance, 2026-10-01
 
 `PO_ACCEPTED_TESTING_NON_CANONICAL`. Bảo: “Đúng ý Bảo rồi, chốt anchor này vào status là Bảo acceptance, vẫn chưa canonical do chưa test thật. Sau đó chạy pilot tiếp theo trên R2 nhé.”

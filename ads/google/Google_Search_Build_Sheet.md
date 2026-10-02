@@ -1,5 +1,7 @@
 # Google Search Build Sheet
 
+**Future ad-copy first mention (Bảo, 2026-10-02):** In each independently encountered Search ad, explain the first customer-visible abbreviation/acronym and OSAT/Fabless with a brief, locale-matched, source-checked parenthetical phrase. Reword RSA headlines/descriptions to respect their actual character limits and avoid unexplained acronym chains; do not infer product capability from definitions. Rule source: `../../operations/linkedin-awareness-execution/first-touch-anchor.md`. Existing keywords/candidates and campaign status are unchanged; this is no build/live release.
+
 **Status:** offline production draft; no remote campaign creation, enablement or spend. Campaign target state remains paused. Vietnamese-first OSAT, Fabless and ERP–MES–OT/partner seed research was completed in Keyword Planner on 2026-09-14 under the recorded configuration. OSAT and Fabless showed no displayed metrics; Partner had one row with limited displayed historical estimates and seven rows with dashes. These observations do not establish demand, campaign eligibility or performance. Each query automatically created a draft plan entry; no explicit save was clicked. These are Planner drafts, not campaigns.
 
 ## Campaign structure

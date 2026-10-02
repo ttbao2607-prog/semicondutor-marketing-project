@@ -1,0 +1,84 @@
+{
+  "revision": "operations-imagegen-r1",
+  "status": "CURRENT_SELF_CONTAINED_DEMO_RENDER_QA_BLOCKED",
+  "sources": {
+    "production_copy": {
+      "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/copy-vi.json",
+      "sha256": "0bfdd6c78e1b98acfc7409779fad7875af4003af04c4f5d3be1d3f479af00b54",
+      "bytes": 10839
+    },
+    "builder": {
+      "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/build_fixture.py",
+      "sha256": "b13496dd23d6ceaa9676cd63babd6f5cad9dc1f848df7ae248c81f6f78cec520",
+      "bytes": 2540
+    },
+    "template": {
+      "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/template.html",
+      "sha256": "69e77dbf96ffbd88a070bc6d7d4b81b3cad1329df4f8294b29bdf906fcffc748",
+      "bytes": 10531
+    },
+    "logo": {
+      "path": "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "bytes": 3170
+    },
+    "images": {
+      "A1": {
+        "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/A1-shared-native.png",
+        "sha256": "dc10d2826421005a8d89a00d4686bc0d31b842f4c421a8de1cf1c1870e3e80ed",
+        "bytes": 1549596
+      },
+      "A2": {
+        "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/A2-native.png",
+        "sha256": "feec44d18673694c34a40203ab7b3986c8bf16af044c79832d06c2bce390d9ae",
+        "bytes": 1636825
+      },
+      "A3": {
+        "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/A3-native.png",
+        "sha256": "ae977cbe435ba7ecadc42991cf77bad502224f7a67c85d659c43d2f27c21e173",
+        "bytes": 1617221
+      },
+      "A4": {
+        "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/A4-native.png",
+        "sha256": "3a36fa21fe3963de44250c4f673db070288d7c46b8344adbf6aae7ef94682a53",
+        "bytes": 1742466
+      },
+      "A5": {
+        "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+        "sha256": "50567d3d976db5012dfad8124976c4dc79e0add208c0ac5121918a7e00419150",
+        "bytes": 1558484
+      },
+      "B1": {
+        "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/A1-shared-native.png",
+        "sha256": "dc10d2826421005a8d89a00d4686bc0d31b842f4c421a8de1cf1c1870e3e80ed",
+        "bytes": 1549596
+      },
+      "B2": {
+        "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/B2-native.png",
+        "sha256": "d476b957c8eeb9f9d62a0cc5516052a71fa47bcd050313d30ccf431704bdc7b9",
+        "bytes": 1688578
+      },
+      "B3": {
+        "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/B3-native.png",
+        "sha256": "8a6a6e7363b316bf8a318b023acca6b24dea967a61206b6fb1037a6e1e6023ef",
+        "bytes": 1616647
+      },
+      "B4": {
+        "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/B4-native.png",
+        "sha256": "d33d8cf79823909c27f0911307442c84603d16dcc1204b006727d189730d90a2",
+        "bytes": 1696938
+      },
+      "B5": {
+        "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+        "sha256": "50567d3d976db5012dfad8124976c4dc79e0add208c0ac5121918a7e00419150",
+        "bytes": 1558484
+      }
+    }
+  },
+  "copy_delta": "P1 main/caption/native/destination/proof unchanged; alt weak meta labels removed in separate production snapshot",
+  "reuse": {
+    "B1": "A1",
+    "B5": "A5"
+  },
+  "limits": "Offline simulated feed; original PNG bytes embedded, no image transform. Parent browser permission failure blocked desktop/mobile/navigation observation; human content decision pending."
+}

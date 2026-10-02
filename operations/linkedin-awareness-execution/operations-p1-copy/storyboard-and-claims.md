@@ -1,0 +1,24 @@
+# Operations P1 storyboard and claim boundaries
+
+2026-10-02 · `operations-p1-r1` · internal editorial draft. A = O2 situation progression; B = O4-O comparison questions. A/B share caption, card 1, card 5, OSAT Operations cohort, one lot-status/handoff pain, ERP category, VI, five cards, inert destination and regional proof depth. Narrative structure on cards 2–4 is the proposed independent variable. Body length and future visual treatment still need parity review; delivery placement, objective, period and measurement remain unknown. This is no clean live A/B test claim.
+
+| Transition | A situation progression | B question framework |
+|---|---|
+| 1→2 | Operations reader sees conditional differing reports → first compare lot, stage and observation time. | Same first touch → question 1 asks whether reports share that scope. |
+| 2→3 | Different stages/times may explain differences → identify source used for the handoff under discussion. | Scope question → question 2 identifies the source for this handoff. |
+| 3→4 | Source is a review input, not a diagnosed system error → clarify missing information and confirmation ownership. | Source question → question 3 assigns review and confirmation of what remains missing. |
+| 4→5 | Shared context and owner → management synthesis → Digiwin Taiwan ERP/MES context with explicit geography. | Three questions → same synthesis and regional source block. |
+
+The first touch applies the four accepted questions in `first-touch-anchor.md` (`PO_ACCEPTED_TESTING_NON_CANONICAL`): Digiwin speaks as a manufacturing ERP adviser (caption); Operations/Plant OSAT is addressed (cover); differing lot status reports are a conditional situation (cover); comparing stage and time before action is the reason to continue. This is an Operations adaptation of the accepted anchor, with buyer comprehension still untested. It does not assert a real failed handoff, a late delivery or that all OSAT plants use this workflow.
+
+The existing visual freeze remains the later-image boundary: white/blue professional hierarchy, packaged die/tray and neutral records for OSAT, readable source qualification, and no fabricated facility/customer/system interface. P1 is text only and does not seek a new visual approval. Existing anchor, image, demo, manifest and receipt bytes remain protected.
+
+| Copy locus / proposition | Existing exact source and scope | Decision for P1 |
+|---|---|---|
+| Caption: Digiwin and manufacturing ERP | P2 in `evidence-register.md`, Workflow ERP page, exact excerpt `Hệ thống ERP cho doanh nghiệp sản xuất vừa và lớn.`; source-pins records URL/locator and register hash. | Narrow category identity. `tư vấn` is the accepted first-touch editorial role in `first-touch-anchor.md`, not evidence of a specific engagement or module. |
+| A1/B1 and A2/B2: lot, stage and observation time | L2 `LinkedIn_Awareness_Adcopy_Optimization_Plan.md` O2 lines 39/56/75 and Operations option in `brief-options.md`; A03 local page 2–5 operating-question framework, hash in source-pins. | Illustrative management question. `Có thể` allows two reports to be valid at different scope/time; no claim of prevalence or product automation. |
+| A3/B3 handoff source; A4/B4 confirmation owner | L2 O2/O4-O and `brief-options.md` O option; A03 page 2 excerpt `Nguồn dữ liệu nào? ... Ai chịu trách nhiệm?` | Editorial framework only. No universal authoritative record, workflow guarantee or ERP function asserted. Do not treat two different status reports as a diagnosed system error, promise delivery timing or an operating outcome. Exact operating scope needs reviewer confirmation before factual product copy. |
+| A5/B5 Taiwan ERP/MES context | P1 in `evidence-register.md`, Taiwan Digiwin semiconductor page, exact excerpt `透過經營管理 ERP 與生產製造 MES 系統`; locator and register hash pinned. | Explicitly a Taiwan source statement, ERP and MES distinct. No Vietnam OSAT deployment, ERP-only MES function, customer result or numerical expertise claim. |
+| Destination and invitation | Existing OSAT VI route and R2 final-card invitation in `r2-complete-carousel/copy-vi.json`; Operations plan §1. | Draft route, inert in any later demo. UTM/account implementation unknown. |
+
+**Rights/proof HOLD:** no new license for official logo, customer mark, third-party image, case evidence or facility portrayal is inferred from source access. P1 supplies text only; later artifact owner must pin permitted logo bytes and source rights. No WIP function, real-time state, automatic handoff, scheduling, delivery improvement, measured result, Taiwan-to-Vietnam case transfer or universal lot model is claimed. Product reviewer must scope any stronger capability sentence before it enters copy. Existing P1 and P2 public page excerpts are recorded in the local evidence register; original page snapshots are not local P1 files, so this draft does not claim fresh source verification.

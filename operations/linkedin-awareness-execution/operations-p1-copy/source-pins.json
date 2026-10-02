@@ -1,0 +1,53 @@
+{
+  "Semiconductor_Work_Kickoff.md": {
+    "sha256": "2a7526825682187ef2374be70fa40fee9a6d24cfac2f4bf6fa0fc36ccdbb64b6",
+    "bytes": 45924
+  },
+  "operations/LinkedIn_Awareness_Adcopy_Optimization_Plan.md": {
+    "sha256": "9f67ff53a46936fdce27a9140ff260b2c1ef76363a4429fe3d7640e6a4c24d51",
+    "bytes": 35751
+  },
+  "assets/linkedin/source/osat-document-ad-6p-copy.md": {
+    "sha256": "b901ae9cedd884967a2da74a245ac0c99b484274fea93e6f89444d8e1dc60677",
+    "bytes": 3986
+  },
+  "operations/linkedin-awareness-execution/evidence-register.md": {
+    "sha256": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+    "bytes": 13256
+  },
+  "operations/linkedin-awareness-execution/brief-options.md": {
+    "sha256": "7f6c3bb2c512dbfb36ebce964606d6a73bd4dfd326e5ec72cd16e1ddc4428f18",
+    "bytes": 12612
+  },
+  "operations/LinkedIn_Awareness_Operations_Next_Pair_Plan.md": {
+    "input_baseline_sha256": "fb51be4940eebe56121d19a14ae70ddcbe0b4aced503d031b85878940ca6afe1",
+    "input_baseline_bytes": 12219,
+    "current_candidate_sha256": "44650a4f8d03a4ab47715d14192eeb99db75874bbb513fa8856e488dbd81c468",
+    "current_candidate_bytes": 12902,
+    "note": "Input baseline was read before the P1 status note; candidate hash reflects the synchronized current-status note. Story scope comes from unchanged historical plan sections."
+  },
+  "operations/linkedin-awareness-execution/first-touch-anchor.md": {
+    "sha256": "ddcea15869fdd5ee0a2e4e9d5e4ca34e0ece139db969c036b73131d3362be18b",
+    "bytes": 3435
+  },
+  "public_source_scope": {
+    "P1": {
+      "url": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+      "exact_excerpt": "透過經營管理 ERP 與生產製造 MES 系統",
+      "locator": "evidence-register.md lines 18-24; original Taiwan page sections 提升現代化管理軟實力, 封裝測試, 管理挑戰 and recorded observed lines 221-274; exact excerpt on register line 22",
+      "status": "existing evidence-register excerpt; original public page not locally archived in this P1"
+    },
+    "P2": {
+      "url": "https://www.digiwin.com.vn/solutions/workflow-erp/",
+      "exact_excerpt": "Hệ thống ERP cho doanh nghiệp sản xuất vừa và lớn.",
+      "locator": "evidence-register.md lines 26-32; original Vietnam page Workflow ERP iGP / Tổng quan giải pháp, recorded observed lines 104-144; exact excerpt on register line 30",
+      "status": "existing evidence-register excerpt; original public page not locally archived in this P1"
+    },
+    "P5": {
+      "url": "https://ir.amkor.com/news-releases/news-release-details/amkor-factory-intelligence-enables-industry-40",
+      "exact_excerpt": "With ULT, Amkor maintains visibility into materials and processes at every stage.",
+      "locator": "evidence-register.md lines 50-56; original Amkor article 2021-02-23 paragraph, recorded observed line 54",
+      "status": "context only, no Digiwin/lot product proof"
+    }
+  }
+}

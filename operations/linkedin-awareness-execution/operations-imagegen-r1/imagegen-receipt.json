@@ -1,0 +1,216 @@
+{
+  "revision": "operations-imagegen-r1",
+  "mode": "builtin_imagegen",
+  "base_calls": 8,
+  "targeted_corrections": 0,
+  "correction_ceiling": 2,
+  "shared_reuse": {
+    "B1": "A1",
+    "B5": "A5"
+  },
+  "calls": [
+    {
+      "id": "A1",
+      "tool": "builtin_imagegen.imagegen",
+      "call_kind": "base",
+      "original_generated_name": "exec-bc9c9792-b04a-463a-a246-bbe185c99ac3.png",
+      "workspace_path": "A1-shared-native.png",
+      "sha256": "dc10d2826421005a8d89a00d4686bc0d31b842f4c421a8de1cf1c1870e3e80ed",
+      "references": [
+        {
+          "path": "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "role": "style/material/hierarchy only"
+        },
+        {
+          "path": "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp",
+          "role": "official brand identity"
+        }
+      ],
+      "exact_visible_strings": {
+        "category": "ERP · VẬN HÀNH BÁN DẪN",
+        "sequence": "1/5",
+        "headline": "Nhóm vận hành OSAT: cùng lô, khác trạng thái?",
+        "body": "Khi các bộ phận cùng xem một lô nhưng báo cáo khác nhau, cần biết mỗi trạng thái thuộc công đoạn và thời điểm nào trước khi bàn bước tiếp."
+      },
+      "visual_direction": "Two blank status report sheets around a packaged semiconductor die tray, conditional differing stage/time views."
+    },
+    {
+      "id": "A2",
+      "tool": "builtin_imagegen.imagegen",
+      "call_kind": "base",
+      "original_generated_name": "exec-49ac4e40-5f76-4d34-b395-e31c6879240c.png",
+      "workspace_path": "A2-native.png",
+      "sha256": "feec44d18673694c34a40203ab7b3986c8bf16af044c79832d06c2bce390d9ae",
+      "references": [
+        {
+          "path": "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "role": "style/material/hierarchy only"
+        },
+        {
+          "path": "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp",
+          "role": "official brand identity"
+        }
+      ],
+      "exact_visible_strings": {
+        "category": "ERP · VẬN HÀNH BÁN DẪN",
+        "sequence": "2/5",
+        "headline": "Trước hết, đặt báo cáo cùng phạm vi.",
+        "body": "Nhóm xác định mã lô, công đoạn và thời điểm ghi nhận của từng báo cáo. Hai trạng thái có thể đều đúng nếu chúng phản ánh các bước hoặc thời điểm khác nhau."
+      },
+      "visual_direction": "Blank paper record groups and packaged die/tray, comparing lot identity, process stage and observation time."
+    },
+    {
+      "id": "B2",
+      "tool": "builtin_imagegen.imagegen",
+      "call_kind": "base",
+      "original_generated_name": "exec-d4062655-0a90-41ec-9365-53714711caa7.png",
+      "workspace_path": "B2-native.png",
+      "sha256": "d476b957c8eeb9f9d62a0cc5516052a71fa47bcd050313d30ccf431704bdc7b9",
+      "references": [
+        {
+          "path": "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "role": "style/material/hierarchy only"
+        },
+        {
+          "path": "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp",
+          "role": "official brand identity"
+        }
+      ],
+      "exact_visible_strings": {
+        "category": "ERP · VẬN HÀNH BÁN DẪN",
+        "sequence": "2/5",
+        "headline": "1. Có đang đối chiếu cùng phạm vi?",
+        "body": "Mã lô, công đoạn và thời điểm ghi nhận có khớp nhau? Nếu khác bước hoặc khác lúc, hai trạng thái có thể đều đúng trong phạm vi riêng của chúng."
+      },
+      "visual_direction": "Two blank neutral status report groups with a question symbol and packaged die/tray."
+    },
+    {
+      "id": "A3",
+      "tool": "builtin_imagegen.imagegen",
+      "call_kind": "base",
+      "original_generated_name": "exec-fa8bf6c0-39d9-4a4a-badf-5da3a633c3a6.png",
+      "workspace_path": "A3-native.png",
+      "sha256": "ae977cbe435ba7ecadc42991cf77bad502224f7a67c85d659c43d2f27c21e173",
+      "references": [
+        {
+          "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/A2-native.png",
+          "role": "style/material/hierarchy only"
+        },
+        {
+          "path": "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp",
+          "role": "official brand identity"
+        }
+      ],
+      "exact_visible_strings": {
+        "category": "ERP · VẬN HÀNH BÁN DẪN",
+        "sequence": "3/5",
+        "headline": "Trạng thái này đến từ hồ sơ nào?",
+        "body": "Khi phạm vi đã rõ, nhóm xem nguồn ghi nhận dùng cho bước bàn giao này và thông tin cần chuyển sang bộ phận tiếp nhận."
+      },
+      "visual_direction": "Neutral blank record sheets moving between two departmental review positions over a packaged die tray."
+    },
+    {
+      "id": "A4",
+      "tool": "builtin_imagegen.imagegen",
+      "call_kind": "base",
+      "original_generated_name": "exec-2bc69bd8-234c-4b20-b298-7957e2346db2.png",
+      "workspace_path": "A4-native.png",
+      "sha256": "3a36fa21fe3963de44250c4f673db070288d7c46b8344adbf6aae7ef94682a53",
+      "references": [
+        {
+          "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/A3-native.png",
+          "role": "style/material/hierarchy only"
+        },
+        {
+          "path": "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp",
+          "role": "official brand identity"
+        }
+      ],
+      "exact_visible_strings": {
+        "category": "ERP · VẬN HÀNH BÁN DẪN",
+        "sequence": "4/5",
+        "headline": "Ai xác nhận phần còn thiếu?",
+        "body": "Nhóm ghi lại thông tin còn thiếu, người đối chiếu nguồn và người xác nhận bước tiếp. Người nhận bàn giao biết cần kiểm tra mục nào trước khi cập nhật trạng thái lô."
+      },
+      "visual_direction": "Neutral paper records discussed by two people as next review ownership is clarified, packaged die tray."
+    },
+    {
+      "id": "A5",
+      "tool": "builtin_imagegen.imagegen",
+      "call_kind": "base",
+      "original_generated_name": "exec-f52b8886-4bd2-40b1-a44d-274b277dddfc.png",
+      "workspace_path": "A5-shared-native.png",
+      "sha256": "50567d3d976db5012dfad8124976c4dc79e0add208c0ac5121918a7e00419150",
+      "references": [
+        {
+          "path": "operations/linkedin-awareness-execution/r2-complete-carousel/A5-shared-native.png",
+          "role": "style/material/hierarchy only"
+        },
+        {
+          "path": "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp",
+          "role": "official brand identity"
+        }
+      ],
+      "exact_visible_strings": {
+        "category": "ERP · VẬN HÀNH BÁN DẪN",
+        "sequence": "5/5",
+        "headline": "Từ trạng thái lô đến căn cứ phối hợp.",
+        "body": "Đặt lô, công đoạn, thời điểm, nguồn và người xác nhận trong cùng cuộc trao đổi là một góc nhìn quản trị. Digiwin chia sẻ bối cảnh ERP và MES cho ngành bán dẫn từ tài liệu tại Đài Loan.",
+        "regional_label": "Góc nhìn ngành tại Đài Loan",
+        "regional_context": "Tài liệu bán dẫn Digiwin tại Đài Loan đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+        "invitation": "Đọc thêm về bài toán OSAT"
+      },
+      "visual_direction": "Five unlabeled folder cues and a large lower proof panel; Taiwan qualifier and ERP/MES source sentence highly legible at mobile390 scale."
+    },
+    {
+      "id": "B3",
+      "tool": "builtin_imagegen.imagegen",
+      "call_kind": "base",
+      "original_generated_name": "exec-4032117b-5444-4e04-b00b-3a287868725d.png",
+      "workspace_path": "B3-native.png",
+      "sha256": "8a6a6e7363b316bf8a318b023acca6b24dea967a61206b6fb1037a6e1e6023ef",
+      "references": [
+        {
+          "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/B2-native.png",
+          "role": "style/material/hierarchy only"
+        },
+        {
+          "path": "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp",
+          "role": "official brand identity"
+        }
+      ],
+      "exact_visible_strings": {
+        "category": "ERP · VẬN HÀNH BÁN DẪN",
+        "sequence": "3/5",
+        "headline": "2. Nguồn nào dùng cho bước này?",
+        "body": "Nguồn ghi nhận nào đang được dùng cho bước bàn giao lô? Nguồn đó mô tả công đoạn, thời điểm và thông tin cần chuyển cho người tiếp nhận ra sao?"
+      },
+      "visual_direction": "Two blank record sources converge at a conceptual handoff point around packaged die tray."
+    },
+    {
+      "id": "B4",
+      "tool": "builtin_imagegen.imagegen",
+      "call_kind": "base",
+      "original_generated_name": "exec-585115e2-35c8-4cb8-b9b9-d78e9dd5ece6.png",
+      "workspace_path": "B4-native.png",
+      "sha256": "d33d8cf79823909c27f0911307442c84603d16dcc1204b006727d189730d90a2",
+      "references": [
+        {
+          "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/A4-native.png",
+          "role": "style/material/hierarchy only"
+        },
+        {
+          "path": "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp",
+          "role": "official brand identity"
+        }
+      ],
+      "exact_visible_strings": {
+        "category": "ERP · VẬN HÀNH BÁN DẪN",
+        "sequence": "4/5",
+        "headline": "3. Ai xác nhận phần còn thiếu?",
+        "body": "Thông tin nào còn thiếu, ai đối chiếu nguồn và ai xác nhận bước tiếp? Nhóm cần biết mục nào được kiểm tra trước khi người nhận cập nhật trạng thái lô."
+      },
+      "visual_direction": "Blank records and modest human handoff gesture around packaged die tray."
+    }
+  ]
+}
