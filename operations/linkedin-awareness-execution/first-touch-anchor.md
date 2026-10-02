@@ -1,5 +1,9 @@
 # First-touch review anchor
 
+## Current PO exception, 2026-10-02
+
+Bảo's latest instruction keeps brief, source-checked first-mention clarity for OSAT, Fabless and WIP where applicable. ERP and MES do not require a first-mention parenthetical; preserve their distinct meanings. This current exception supersedes the ERP/MES clause in the dated instruction below and does not change historical copy or its review state.
+
 ## Bảo first-mention clarity instruction, 2026-10-02
 
 For **future ad-copy revisions across all cohorts and formats**, give a short, source-checked, locale-matched explanation in parentheses at the first customer-visible occurrence of each abbreviation/acronym and the named industry labels **OSAT** and **Fabless** in each independently encountered ad. Place it naturally in the caption/intro or first visible text before an unexplained acronym chain; one clear first mention is enough, not every card. Example Vietnamese wording to validate against the actual source/scope: `OSAT (dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài)`; `Fabless (doanh nghiệp thiết kế chip, không sở hữu nhà máy chế tạo)`. If ERP, MES or WIP appears, explain that first occurrence briefly using a verified definition; do not infer product capability from a term definition. Adapt wording to language, role and channel limits by rewriting nearby copy, not silently dropping the needed explanation or exceeding native character constraints.
