@@ -40,3 +40,7 @@ Current visual candidate: [Quality ImageGen R2](quality-pilot-imagegen-r2/README
 ## Current PO content decision (2026-10-02)
 
 **Quality ImageGen R2: AD_COPY_FAILED / CHANGES_REQUESTED**, explicit Bảo review, overall content FAILURE. Earlier ready/pending notes are dated history. Read [audit and revised content anchor](RMK_Content_Anchor_and_R2_Audit.md), [review-status manifest](quality-rmk-r2-review-status.json) and revision-bound human receipt. Warm traffic is accepted working creative hypothesis. Next correction is evidence-first copy with Digiwin identity/role and a concrete named searchable case; no new ImageGen/live action in this audit.
+
+## Case-led R3 pilot (2026-10-02)
+
+Bảo authorizes re-pilot under revised anchor. [R3](quality-pilot-case-r3/README.md) has four carousel images answering identity, named case/role, attributed result and self-search resource. Current candidate READY_FOR_HUMAN_REVIEW; R2 stays failed in history, no content/live approval inherited.
