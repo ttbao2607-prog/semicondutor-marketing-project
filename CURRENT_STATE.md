@@ -1,5 +1,8 @@
 # Current state
 
+**Carousel images / raster RMK replacement (2026-10-02):** Bảo reaffirms awareness carousel images with Brand awareness and rejects static SVG artwork direction. Current [Quality RMK ImageGen R2](operations/linkedin-rmk-proof/quality-pilot-imagegen-r2/README.md) replaces the vector candidate: five original raster PNG, exact existing VI copy/PR01 scope, current byte-pinned carousel demo, native inspection and desktop/mobile5-card observations. 5 base ImageGen calls +2 targeted source-footer edits; no SVG conversion or image postprocessing. Execution SUCCESS / READY_FOR_HUMAN_REVIEW; R2 content/style/buyer/independent audit/live pending. R1 retained as historical, no longer current candidate. No account/spend/push/merge.
+
+
 **Quality RMK offline pilot (2026-10-02):** Bảo narrowed execution to completed cold pilots in this worktree and released one pilot on the current RMK branch. [Quality RMK R1](operations/linkedin-rmk-proof/quality-pilot-r1/README.md) uses O1/O4-Q and PR01 metric-free Taiwan industry context, classified supporting credibility, not a successful abnormal-test case. Five original vector SVG/PNG1080 cards, VI copy, current self-contained PNG demo, two continuity rows, source-map/manifest and desktop/mobile5-card observations delivered. Bounded execution SUCCESS / READY_FOR_HUMAN_REVIEW; PO content, independent audit, buyer and live acceptance pending. No other worktree used; 11-treatment map deferred outside this narrowed slice. Carousel-source eligibility remains unverified; no account/tracking/budget/landing action. Cold assets unchanged.
 
 

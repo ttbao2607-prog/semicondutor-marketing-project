@@ -129,3 +129,7 @@ Bảo requested persistent implementation evidence and a plan for cold-to-RMK co
 ## 11. Scoped offline pilot release and result (2026-10-02)
 
 Bảo released selection and pilot from this worktree completed cold packs only, superseding cross-worktree/full-map prerequisites for this bounded slice. [Quality R1](linkedin-rmk-proof/quality-pilot-r1/README.md) links O1/O4-Q to PR01 supporting Taiwan industry credibility, not same-pain case outcome. P2 scoped continuity/brief and P3 five-card vector offline pilot complete; render evidence, exact copy/PNG/demo and pins delivered. Execution SUCCESS / READY_FOR_HUMAN_REVIEW, independent audit and human/buyer acceptance pending. No P5 account/live release. Docs impact reviewed: CURRENT_STATE, Build Pack/readiness and continuity preparation updated; source approval/governance/tracking/budget truth unchanged.
+
+## 12. Carousel raster direction and R2 replacement (2026-10-02)
+
+Bảo rejects static SVG visual direction, reaffirms awareness carousel images and requests raster execution. [ImageGen R2](linkedin-rmk-proof/quality-pilot-imagegen-r2/README.md) is current five-card RMK candidate, preserving R1 copy/PR01 continuity but replacing artwork with original PNG. R1 is historical only; current demo/pins/desktop-mobile observations delivered. No inherited content approval, no live source readiness or spend release. Canonical anchor, first-touch guidance, current state/build/readiness synchronized; proof/rights/tracking/budget unaffected.

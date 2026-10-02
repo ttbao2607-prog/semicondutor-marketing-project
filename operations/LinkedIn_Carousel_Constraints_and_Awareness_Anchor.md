@@ -1,5 +1,10 @@
 # LinkedIn carousel — constraints và awareness anchor
 
+## Bảo format and visual-direction decision, 2026-10-02
+
+Awareness remains **carousel images with introductory copy, Brand awareness objective**. Bảo rejects static SVG artwork direction; do not propose single-static/SVG or SVG-to-PNG as the current visual execution. Use original raster image artwork for the current carousel pilot, with source-bound storytelling and exact revision review. Format adoption is not acceptance of every current image/copy or live mandate. Historical vector assets/receipts retain their dates; no destructive removal is required to stop using them.
+
+
 Ngày/revision: 2026-10-01 / v1.0. Owner: Bảo. Trạng thái: FORMAT AND POSITIONING SELECTED; production/live chưa bắt đầu. Đây là anchor để writer và auditor đối chiếu, không phải approval account/spend.
 
 ## 1. Quyết định Bảo

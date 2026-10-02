@@ -1,0 +1,60 @@
+{
+  "tool": "built-in image_gen",
+  "base_calls": 5,
+  "targeted_readability_edits": 2,
+  "critical_corrections": 0,
+  "records": [
+    {
+      "card": "R1",
+      "output_id": "exec-6e1d4c20-7926-4049-9af6-5972e712c044",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1785574,
+      "sha256": "4d642e90b3cf359c5ccdb86c5b435d36c547cf1971fc1d5197a7137f13e9af6d",
+      "transforms": "none",
+      "targeted_source_edit": false
+    },
+    {
+      "card": "R2",
+      "output_id": "exec-1de28158-7478-46cb-9b37-e41bf00ce3fc",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1865826,
+      "sha256": "ca09197ad5286957c9b4934a62daf86d86be69e37bf4fbe8518a3360c65d9886",
+      "transforms": "none",
+      "targeted_source_edit": true
+    },
+    {
+      "card": "R3",
+      "output_id": "exec-592a3fe5-9610-4b2d-85c8-5ce5be3f0fef",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1811747,
+      "sha256": "300ece75cbae9870ff8194fd442ef75932702eac5d74949f3598feb7d3cccd8e",
+      "transforms": "none",
+      "targeted_source_edit": true
+    },
+    {
+      "card": "R4",
+      "output_id": "exec-cdfa22d6-4f64-43f1-ad46-a82f3bbdc096",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1583615,
+      "sha256": "bb17da5f817bba2c972e6dc1c59f67b2cf4b4eb896347f0b603434d137424da3",
+      "transforms": "none",
+      "targeted_source_edit": false
+    },
+    {
+      "card": "R5",
+      "output_id": "exec-622c7ddf-d137-4b2c-b398-6843f21b1bca",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1756843,
+      "sha256": "967869a36713797d9a3f0d7a0007bc815f7898ec75d52f8527d16622ce8a0afe",
+      "transforms": "none",
+      "targeted_source_edit": false
+    }
+  ],
+  "historical_base_R2_R3": "original outputs retained in tool output storage; current repo pins selected edited images",
+  "authority": "offline five-card raster replacement; no live"
+}

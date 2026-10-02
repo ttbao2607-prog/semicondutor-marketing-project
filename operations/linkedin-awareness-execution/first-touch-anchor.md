@@ -1,5 +1,10 @@
 # First-touch review anchor
 
+## Bảo format and visual-direction decision, 2026-10-02
+
+Awareness remains **carousel images with introductory copy, Brand awareness objective**. Bảo rejects static SVG artwork direction; do not propose single-static/SVG or SVG-to-PNG as the current visual execution. Use original raster image artwork for the current carousel pilot, with source-bound storytelling and exact revision review. Format adoption is not acceptance of every current image/copy or live mandate. Historical vector assets/receipts retain their dates; no destructive removal is required to stop using them.
+
+
 ## Bảo first-mention clarity instruction, 2026-10-02
 
 For **future ad-copy revisions across all cohorts and formats**, give a short, source-checked, locale-matched explanation in parentheses at the first customer-visible occurrence of each abbreviation/acronym and the named industry labels **OSAT** and **Fabless** in each independently encountered ad. Place it naturally in the caption/intro or first visible text before an unexplained acronym chain; one clear first mention is enough, not every card. Example Vietnamese wording to validate against the actual source/scope: `OSAT (dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài)`; `Fabless (doanh nghiệp thiết kế chip, không sở hữu nhà máy chế tạo)`. If ERP, MES or WIP appears, explain that first occurrence briefly using a verified definition; do not infer product capability from a term definition. Adapt wording to language, role and channel limits by rewriting nearby copy, not silently dropping the needed explanation or exceeding native character constraints.

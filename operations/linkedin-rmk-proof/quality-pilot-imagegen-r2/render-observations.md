@@ -1,0 +1,5 @@
+# Render observations · final R2
+
+Writer inspected 10 screenshots, desktop1440/feed640 and mobile390, all five cards. Headline/body/sequence/source qualified Taiwan inspected against exact copy; main text intact, no clipping observed. Source on R2/R3 was initially too small; two targeted ImageGen footer edits closed that finding in final fixture. Current source panels readable at mobile card scale. Generated illustration on R3 includes supplemental folder labels (process, actual needs, your factory) and neutral checklist illustration, not new performance evidence. Booklet content/Taiwan skyline is imagined editorial artwork, not a photograph of the official source or actual facility.
+
+Automated evidence verifies loaded images, card1–5 ordinal and boundary state. Programmatic navigation observed; physical gestures/key presses unobserved. Original PNG untransformed; Page logo official, artwork wordmark approximation. Human style/content/buyer understanding and account native-preview unresolved. Independent audit pending. Execution SUCCESS for bounded offline replacement / READY_FOR_HUMAN_REVIEW.

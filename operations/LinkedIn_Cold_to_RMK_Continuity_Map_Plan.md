@@ -44,3 +44,5 @@ Docs impact: before map handoff, review CURRENT_STATE, Build Pack, readiness and
 ## Current PO scope override (2026-10-02)
 
 Bảo says use only completed pilots in this worktree and implement one. This supersedes cross-worktree input reconciliation for this pilot. [Quality R1](linkedin-rmk-proof/quality-pilot-r1/README.md) selects O1/O4-Q; two scoped continuity rows and full offline treatment delivered. Full11-treatment map remains deferred; do not require reading/merging another branch for this slice. Human content/live decision remains pending.
+
+Current pilot candidate is [Quality ImageGen R2](linkedin-rmk-proof/quality-pilot-imagegen-r2/README.md) after Bảo rejects SVG aesthetics. Scoped O1/O4-Q continuity retained; changed images require new revision review.

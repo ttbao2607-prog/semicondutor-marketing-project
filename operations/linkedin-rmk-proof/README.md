@@ -34,3 +34,5 @@ Read [implementation handoff](implementation-handoff.md) and [source/gate manife
 ## Current scoped pilot (2026-10-02)
 
 Bảo selects execution from this worktree full cold pilots. [Quality RMK R1](quality-pilot-r1/README.md) delivers O1/O4-Q continuity plus five-card offline pilot for human review. This releases bounded P2/P3 for this slice only; earlier no-production statements remain dated history. No full map or account/live release.
+
+Current visual candidate: [Quality ImageGen R2](quality-pilot-imagegen-r2/README.md), five-card raster carousel replacing vector R1 after PO feedback. Awareness direction is carousel images, not static SVG. R1 remains history; R2 awaits human review.
