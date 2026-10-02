@@ -26,3 +26,7 @@ Parent verification: 20 reproducible Git-blob input pins và 19 public-source ob
 PO decision đề xuất tiếp theo: ưu tiên pilot OSAT Operations/cost-close dùng CAS IC có attribution, hoặc Fabless qualitative Bright Power; VI là pilot-review locale đề xuất. Chọn proof lane/persona trước P2/creative; lựa chọn này không cần ép mở account hay phỏng vấn buyer. Platform/account gate riêng trước live.
 
 Local checkpoint authorization (2026-10-02): sau research delivery, Bảo yêu cầu commit pack và báo bước tiếp theo. Containing commit checkpoints năm file research cùng năm docs status/source-discoverability trên branch hiện tại; không merge/push. Các statements chưa commit phía trên mô tả lượt research trước checkpoint này. P2 vẫn chờ PO chọn persona/pain/proof lane/locale/offer; không release creative hoặc live.
+
+## Implementation and continuity follow-up (2026-10-02)
+
+Read [implementation handoff](implementation-handoff.md) and [source/gate manifest](implementation-manifest.json) before future strategy/production/account work. Carousel Brand awareness is confirmed; direct carousel audience remains unresolved. Next preparation is the [continuity-map plan](../LinkedIn_Cold_to_RMK_Continuity_Map_Plan.md), before pilot selection. Earlier A/B shortlist remains candidate-only; no forced selection. Map not started; no creative/live release.

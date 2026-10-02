@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-02",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "owner": "Codex",
+  "input_checkpoint": "52cba162878c2d048ed40b68bcb7efce571a45d0",
+  "status": "DOCUMENTED_PLATFORM_CONFIRMATION / ACCOUNT_UNVERIFIED",
+  "authority": "local docs and continuity plan checkpoint; no production/account/live",
+  "entrypoints": [
+    "operations/linkedin-rmk-proof/implementation-handoff.md",
+    "operations/LinkedIn_Cold_to_RMK_Continuity_Map_Plan.md"
+  ],
+  "sources": [
+    {
+      "id": "LI01",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a423087",
+      "title": "Carousel ads",
+      "accessed": "2026-10-02",
+      "observation": "Carousel image supports Brand Awareness; multiple image cards.",
+      "limitation": "Creative compatibility does not establish native retargeting source.",
+      "evidence_type": "PUBLIC_OFFICIAL_DOC_CONTENT",
+      "snapshot_archived": false
+    },
+    {
+      "id": "LI02",
+      "url": "https://www.linkedin.com/help/learning/answer/a422075/",
+      "title": "Brand awareness ad objective",
+      "accessed": "2026-10-02",
+      "observation": "Available formats include Carousel image; optimization uses reach/impressions depending on format/bidding.",
+      "limitation": "Recheck exact available optimization for chosen carousel settings.",
+      "evidence_type": "PUBLIC_OFFICIAL_DOC_CONTENT",
+      "snapshot_archived": false
+    },
+    {
+      "id": "LI03",
+      "url": "https://www.linkedin.com/help/lms/answer/a427551/retargeting-overview?lang=en-us",
+      "title": "Retargeting with Matched Audiences",
+      "accessed": "2026-10-02",
+      "observation": "Lists single image/document/video sources, not carousel image; at least 300 matched members.",
+      "limitation": "Absence is documentation gap, not absolute impossibility; no account witness.",
+      "evidence_type": "PUBLIC_OFFICIAL_DOC_CONTENT",
+      "snapshot_archived": false
+    },
+    {
+      "id": "LI04",
+      "url": "https://www.linkedin.com/help/lms/answer/a713230",
+      "title": "Create a single image audience",
+      "accessed": "2026-10-02",
+      "observation": "Interactions/chargeable clicks; 30/60/90/180/365 days; source ad sets; Ready count differs from engagement.",
+      "limitation": "Not carousel-source evidence; no unique-member count inferred from interactions.",
+      "evidence_type": "PUBLIC_OFFICIAL_DOC_CONTENT",
+      "snapshot_archived": false
+    },
+    {
+      "id": "LI05",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a422123",
+      "title": "Ad set setup best practices",
+      "accessed": "2026-10-02",
+      "observation": "Audience targeting and Matched Audiences configured at ad-set level.",
+      "limitation": "Separate cold/RMK ad sets proposed; campaign grouping and account UI unverified.",
+      "evidence_type": "PUBLIC_OFFICIAL_DOC_CONTENT",
+      "snapshot_archived": false
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "phase": "P2 strategy / P5 prebuild",
+      "requirement": "Keep cold carousel Brand awareness; verify chosen objective/format settings before build",
+      "sources": [
+        "LI01",
+        "LI02"
+      ],
+      "status": "DOCUMENTED / ACCOUNT_PENDING"
+    },
+    {
+      "id": "G2",
+      "phase": "P5 before audience creation or attachment",
+      "requirement": "Witness exact carousel source category if available, signal/window and source ad-set identity. Otherwise hold route and ask PO to choose explicitly labeled alternative.",
+      "sources": [
+        "LI03",
+        "LI04"
+      ],
+      "status": "DOCUMENTED_SOURCE_GAP"
+    },
+    {
+      "id": "G3",
+      "phase": "P5 before launch",
+      "requirement": "Verify Ready, >=300 matched members and actual reachable target size/eligibility; no raw member data.",
+      "sources": [
+        "LI03",
+        "LI04"
+      ],
+      "status": "ACCOUNT_PENDING"
+    },
+    {
+      "id": "G4",
+      "phase": "P2 architecture / P5 prelaunch",
+      "requirement": "Separate cold/RMK targeting; record receiving ad set and source granularity, grouping, exclusions/expansion, objective compatibility. Do not promise individual sequence.",
+      "sources": [
+        "LI04",
+        "LI05"
+      ],
+      "status": "PROPOSAL / ACCOUNT_PENDING"
+    },
+    {
+      "id": "G5",
+      "phase": "P3 pilot / P5 prelaunch",
+      "requirement": "Pin content/proof/rights/destination; separate offline acceptance from live mandate, measurement and budget decisions.",
+      "sources": [],
+      "status": "NOT_RELEASED"
+    }
+  ],
+  "revalidation": "Future authorized operator opens these URLs and records sanitized account evidence. Public docs can change; compare observation deltas. This manifest does not authorize account actions.",
+  "artifacts": [
+    {
+      "path": "operations/linkedin-rmk-proof/implementation-handoff.md",
+      "sha256": "c0a0b83bb923310510193159ce3bf86a3ee7cb9ad5a3b9c3f42a8e79a862d37e"
+    },
+    {
+      "path": "operations/LinkedIn_Cold_to_RMK_Continuity_Map_Plan.md",
+      "sha256": "978417d024626e8e3c327d50484768dc9a5d56da1439d83c9160b8bebb9d3c47"
+    }
+  ]
+}

@@ -30,3 +30,7 @@ Research proposal: a short ungated case document for native learning, or a case 
 ## Pre-live account evidence target (not executed)
 
 One authorized controller must identify exact account/Page permissions, source ad sets/formats and performance window, actual audience status/unique count, reachable size after targeting restrictions, overlap/exclusion/locale/placements and destination. Reconcile the two-campaign vs three-segment-ad-set proposals, allocation and source ownership before object build. Existing Building documentation remains historical recorded status, account state unknown. No native delivery data gathered or exported in this research.
+
+## Reconfirmation and implementation gates (2026-10-02)
+
+Bảo correctly recalled image carousel with Brand awareness. Official objective page explicitly includes Carousel image; this does not require conversion/click-through objective. Source eligibility remains a separate unresolved question. Future implementation must read [handoff](implementation-handoff.md) and execute applicable [manifest gates G1–G5](implementation-manifest.json) within a separately authorized route.
