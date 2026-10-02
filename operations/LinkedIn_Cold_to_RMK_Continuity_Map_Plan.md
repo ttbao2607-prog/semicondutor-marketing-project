@@ -46,3 +46,7 @@ Docs impact: before map handoff, review CURRENT_STATE, Build Pack, readiness and
 Bảo says use only completed pilots in this worktree and implement one. This supersedes cross-worktree input reconciliation for this pilot. [Quality R1](linkedin-rmk-proof/quality-pilot-r1/README.md) selects O1/O4-Q; two scoped continuity rows and full offline treatment delivered. Full11-treatment map remains deferred; do not require reading/merging another branch for this slice. Human content/live decision remains pending.
 
 Current pilot candidate is [Quality ImageGen R2](linkedin-rmk-proof/quality-pilot-imagegen-r2/README.md) after Bảo rejects SVG aesthetics. Scoped O1/O4-Q continuity retained; changed images require new revision review.
+
+## Content anchor supersedes generic continuity (2026-10-02)
+
+Bảo rejects R2 ad copy despite visual continuity. Warm-reader hypothesis accepted; continuity rows must now identify what material new fact the RMK adds about Digiwin, exact named case/role/proof and search/resource locator. O1/O4-Q to general PR01 material was insufficient, not an accepted proof match. [Audit/anchor](linkedin-rmk-proof/RMK_Content_Anchor_and_R2_Audit.md) controls next correction. Keep this worktree-only scope and carousel raster; do not restart full11 map or require live audience evidence before drafting.

@@ -1,5 +1,8 @@
 # Pre-Ad Readiness Execution Plan
 
+**Quality RMK R2 content failed (2026-10-02):** Bảo rejects quality-rmk-imagegen-r2 at checkpoint754fe84: AD_COPY_FAILED / CHANGES_REQUESTED; overall content outcome FAILURE. Visual continuity and mechanical render delivery remain historical evidence, but ad adds no substantive supplier/proof information and names no searchable case. [Audit and revised RMK anchor](linkedin-rmk-proof/RMK_Content_Anchor_and_R2_Audit.md) requires Digiwin identity/role, concrete source-backed named case, visible searchable resource and relevance/next step before another image revision. Warm traffic is PO-accepted working creative hypothesis; account/intent/readiness remains unverified and is not a gate before copy correction. Raster carousel direction unchanged; R2 artifacts frozen as failed-content evidence, no current accepted RMK candidate. This supersedes review-pending/current-ready status for R2. No new copy/PNG/account/live action; independent audit pending.
+
+
 **Carousel images / raster RMK replacement (2026-10-02):** Bảo reaffirms awareness carousel images with Brand awareness and rejects static SVG artwork direction. Current [Quality RMK ImageGen R2](linkedin-rmk-proof/quality-pilot-imagegen-r2/README.md) replaces the vector candidate: five original raster PNG, exact existing VI copy/PR01 scope, current byte-pinned carousel demo, native inspection and desktop/mobile5-card observations. 5 base ImageGen calls +2 targeted source-footer edits; no SVG conversion or image postprocessing. Execution SUCCESS / READY_FOR_HUMAN_REVIEW; R2 content/style/buyer/independent audit/live pending. R1 retained as historical, no longer current candidate. No account/spend/push/merge.
 
 

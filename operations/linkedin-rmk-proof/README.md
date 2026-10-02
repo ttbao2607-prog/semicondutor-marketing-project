@@ -36,3 +36,7 @@ Read [implementation handoff](implementation-handoff.md) and [source/gate manife
 Bảo selects execution from this worktree full cold pilots. [Quality RMK R1](quality-pilot-r1/README.md) delivers O1/O4-Q continuity plus five-card offline pilot for human review. This releases bounded P2/P3 for this slice only; earlier no-production statements remain dated history. No full map or account/live release.
 
 Current visual candidate: [Quality ImageGen R2](quality-pilot-imagegen-r2/README.md), five-card raster carousel replacing vector R1 after PO feedback. Awareness direction is carousel images, not static SVG. R1 remains history; R2 awaits human review.
+
+## Current PO content decision (2026-10-02)
+
+**Quality ImageGen R2: AD_COPY_FAILED / CHANGES_REQUESTED**, explicit Bảo review, overall content FAILURE. Earlier ready/pending notes are dated history. Read [audit and revised content anchor](RMK_Content_Anchor_and_R2_Audit.md), [review-status manifest](quality-rmk-r2-review-status.json) and revision-bound human receipt. Warm traffic is accepted working creative hypothesis. Next correction is evidence-first copy with Digiwin identity/role and a concrete named searchable case; no new ImageGen/live action in this audit.
