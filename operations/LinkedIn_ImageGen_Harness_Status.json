@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-03",
+  "status": "testing_dogfood",
+  "implementation_status": "SUCCESS",
+  "independent_audit": "AUDIT_PASS",
+  "checkpoint_plan_audit": "AUDIT_PASS",
+  "synthetic_tests_passed": 35,
+  "real_candidate_status": "NOT_RUN",
+  "proposed_candidate": "F2-A2",
+  "generation_authority": "NOT_RELEASED",
+  "checkpoint": "Containing local commit; no push authorized",
+  "gate_sha256": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+  "tests_sha256": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+  "run_plan": "operations/LinkedIn_ImageGen_First_Candidate_Dogfood_Plan.md",
+  "scope_limits": [
+    "No real ImageGen call or final artifact review has occurred in this milestone",
+    "One non-closing candidate cannot prove set diversity, full-carousel quality or Taiwan closing-source readability",
+    "No content acceptance, production readiness or live authority"
+  ]
+}
