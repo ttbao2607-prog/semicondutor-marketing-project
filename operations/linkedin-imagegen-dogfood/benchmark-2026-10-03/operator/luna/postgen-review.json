@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "reviewer": "/root",
+  "writer": "/root/dogfood_luna",
+  "review_independence": "INDEPENDENT_OF_CANDIDATE_WRITER",
+  "generation_operator": "/root",
+  "operator_own_dispatch_audit": "SELF",
+  "gate_id": "AD-ED-01",
+  "native_sha256": "4594d10a6a67050d9b779ad52776aebdfccc2578632039bdd3ee7da5ff48a100",
+  "html_sha256": "3709c8383f008415301ac9723669e14e64cef8bf5fc441b81d820284beb0cfff",
+  "copy_sha256": "2e551ab0de465046e198ad0822417a72c585f3b35796c46dccca1876f859d2ea",
+  "native_integrity": "PASS_SAVED_BYTES_MATCH_TOOL_OUTPUT",
+  "dimensions": {"expected": [1024, 1024], "observed": [1254, 1254], "verdict": "FAIL"},
+  "visible_artwork_text": "PASS_SCOPED_NATIVE_INSPECTION",
+  "story_fit": "REVIEW_FINDING_CENTRAL_TREND_DISTRACTS_FROM_COMPARISON_SCOPE",
+  "brand": "VISUALLY_CONSISTENT_WITH_SUPPLIED_MARK_NOT_PIXEL_CERTIFICATION",
+  "alt_accuracy": "PASS_CORE_THREE_DIMENSION_RELATIONSHIP; does not describe decorative curve",
+  "editorial": "EDITORIAL_QA_PASS_SCOPED_TEXT_AND_NO_INTERNAL_PROCESS_LEAKAGE; visual meaning has separate finding",
+  "internal_payload_leakage": "NO_LEAKAGE_OBSERVED_IN_NATIVE_HTML_OR_TWO_FILE_EXPORT",
+  "visible_text_reconciliation": "Headline, body and three labels inspected verbatim in actual native image; no additional readable wording or internal notes observed. Exact caption/native headline and reviewed alt observed in browser DOM and complete HTML.",
+  "desktop": {"viewport": [1280, 900], "image_loaded": true, "horizontal_overflow": false, "image_display_size": [608, 608], "visual_observation": "PASS_SCOPED_FULL_PAGE_SCREENSHOT"},
+  "mobile": {"viewport": [390, 844], "image_loaded": true, "horizontal_overflow": false, "image_display_size": [358.4, 358.4], "visual_observation": "PASS_SCOPED_SCREENSHOT_CHARS_LABELS_UNCLIPPED", "readability_note": "Labels/body are small at feed scale; operator inspected fixture, PO/buyer understanding remains untested"},
+  "browser_evidence": "Parent CUA tab 2, loopback index.html, desktop/full-page and mobile screenshots observed in current session on 2026-10-03, bound to HTML/native hashes above.",
+  "html_inspection": "Complete static HTML read: ordinary charset/viewport/title/style, caption, single native image with exact alt and native headline. No script, hidden content, extra metadata, links, attachments, external resources or internal receipt serialization.",
+  "export": {"path": "C:/Users/ASUS/Documents/Codex/2026-10-03/chec/outputs/candidate-luna", "files": ["index.html", "output/f2-a2.png"], "byte_equality_to_reviewed_files": true},
+  "findings": [
+    {"id": "DOGFOOD-SIZE-01", "expected": "Native dimensions equal separately pinned contract", "observed": "Built-in tool returned 1254x1254 despite exact 1024x1024 prompt", "attribution": "Operator/tool size-control gap; not a child-model failure", "closure": "OPEN; no resizing, edit, retry or retrospective contract relaxation"},
+    {"id": "DOGFOOD-STORY-02", "expected": "Image clearly communicates the product/period/related-lot comparison scope", "observed": "Large central solid rising curve and dashed baseline add an unlabelled fourth visual focus. This can read as growth/improvement instead of a simple forecast-change cue and distracts from the three dimensions", "classification": "Operator visual judgment and ambiguity, not proof of a fabricated numerical claim or keyword veto", "closure": "OPEN; simplify the visual cue in a separately bounded revision; no image correction was run"}
+  ],
+  "candidate_status": "CHANGES_REQUIRED",
+  "content_acceptance": "NOT_GRANTED",
+  "full_carousel_set_diversity_taiwan_closing_and_live": "NOT_TESTED"
+}

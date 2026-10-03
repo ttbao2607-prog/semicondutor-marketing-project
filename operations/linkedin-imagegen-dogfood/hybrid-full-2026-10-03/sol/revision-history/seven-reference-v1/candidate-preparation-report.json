@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "stage_result": "PREPARED_FOR_PARENT_REVIEW",
+  "requested_configuration": {
+    "model": "gpt-6.1-sol",
+    "effort": "low"
+  },
+  "parent_admitted_child_uuid": "01a0ff50-0176-7ac0-8cef-ac6c6f33ee9b",
+  "assembly_start_utc": "2026-10-03T03:14:02.099108+00:00",
+  "assembly_end_utc": "2026-10-03T03:14:02.138288+00:00",
+  "assembly_seconds": 0.031,
+  "timing_limit": "Assembly timing only. Parent exact native rollout measures full candidate preparation turn including reference inspection. Phase1 shared overhead excluded.",
+  "shared_manifest_pin": "b9a55329a781d5d84bc14e75c8a52d0aed1be30e49b7b15a40bcf54575575f99",
+  "reference_images_inspected": [
+    "r2-1.png",
+    "r2-2.png",
+    "r2-3.png",
+    "r2-4.png",
+    "r2-5.png",
+    "r2-6.png"
+  ],
+  "candidate_file_hashes": {
+    "contract.json": "27fca5e232bc43c08ca8c47ae29a10505f92862e3d854dd25004369a997361e1",
+    "calls-draft.json": "fd9699bebf03d8ae367fba80ccaf3a36fddf94682869145872b7196eb3d6455a",
+    "storyboard.md": "35bd077e144a3809a40bd2d3ac3a006a3037703c630e93c77725459b511c4035"
+  },
+  "calls": 10,
+  "transitions": 8,
+  "labels_changed": false,
+  "common_alt_change_proposals": [],
+  "protected_common_code_hashes_unchanged": true,
+  "checks": "Exact shared inputs, call shape/order/singletons, approved artwork projection, assembled prompt/hash and unoccupied outputs checked; no real preflight authority exists yet",
+  "tamper_dogfood": "DEFERRED_UNTIL_PARENT_REAL_BINDING; no fabricated parent review/release",
+  "generation": "NOT_RUN",
+  "semantic_verdict": "PARENT_REVIEW_PENDING",
+  "creative_verdict": "INSUFFICIENT_EVIDENCE"
+}

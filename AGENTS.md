@@ -1,3 +1,7 @@
+## Project worker default — PO freeze 2026-10-03
+
+Trong repository này, khi có mandate spawn child, worker mặc định là native leaf `gpt-6.1-sol` với reasoning effort `low`. Coordinator/root hiện tại giữ vai trò điều phối/final audit. Phải quan sát effective runtime model/effort và qua admission/acceptance checks trước khi release mutation; không suy runtime từ prompt hoặc tự khai. Không silent Luna/model/effort fallback. Mọi thay đổi cần override mới của Bảo; default không tự cấp quyền spawn/delegate. Không áp dụng global. Sol visual family là baseline project theo PO; historical candidate FAIL/CHANGES_REQUIRED vẫn giữ riêng. Xem [freeze record](operations/LinkedIn_ImageGen_Harness_Freeze_2026-10-03.md).
+
 # Hướng dẫn vận hành workspace Semiconductor Paid
 
 ## Thứ tự nguồn

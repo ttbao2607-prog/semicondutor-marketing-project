@@ -1,0 +1,32 @@
+{
+  "audit": "PASS",
+  "scope": "final protected baseline/docs/status/pins, distinct from creative FAIL",
+  "baseline_files": 546,
+  "allowed_changed_preexisting_files": [
+    "CURRENT_STATE.md",
+    "DOCS_INDEX.md",
+    "README.md",
+    "operations/LinkedIn_Awareness_Campaign_Creative_Review.md",
+    "operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md",
+    "operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md",
+    "operations/LinkedIn_Awareness_Execution_Plan.md",
+    "operations/LinkedIn_Awareness_ImageGen_Harness_Redesign_Plan.md",
+    "operations/LinkedIn_ImageGen_First_Candidate_Dogfood_Plan.md",
+    "operations/LinkedIn_ImageGen_Harness_Status.json",
+    "operations/LinkedIn_ImageGen_Preflight_Schema.md",
+    "operations/LinkedIn_ImageGen_Visual_Instructions.md",
+    "operations/Pre_Ad_Readiness_Plan.md",
+    "scripts/verify_imagegen_preflight.py",
+    "tests/test_imagegen_preflight.py",
+    "ads/linkedin/LinkedIn_Build_Pack.md"
+  ],
+  "preserved_preexisting_files": 530,
+  "common_pinned_files_unchanged": 31,
+  "git_head_unchanged": true,
+  "staged_files": 0,
+  "no_git_mutations_in_run": true,
+  "remote_live": "NOT_CHECKED",
+  "new_run_state": "testing_dogfood/CHANGES_REQUIRED",
+  "docs_status_sha256": "b9386b25dd9015d406e380ff873037918035a2860f79a4c9d7a5dd906dafa056",
+  "benchmark_report_sha256": "1c7137095da4b4e38e2b14e58d041856fa2dbcbb882d62cbdd04a06b166344b7"
+}

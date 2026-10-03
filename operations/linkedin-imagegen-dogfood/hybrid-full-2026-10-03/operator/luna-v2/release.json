@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "revision": "hybrid-luna-release-v1",
+  "authorizer": "/root under direct PO full-dogfood mandate",
+  "authority_ref": {
+    "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/authority.md",
+    "sha256": "070ae9ea5e5236c2a740d4ff0c4a4c4b9d8e5651afb24a4494afd9c7c7aa4459",
+    "revision": "PO-full-dogfood-2026-10-03"
+  },
+  "purpose": "OFFLINE_IMAGEGEN",
+  "contract": {
+    "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/contract.json",
+    "sha256": "adbaee5173ec197ee1a26d16f7b4ec8d39bf941cb6547ee13a595d269817fead",
+    "revision": "hybrid-full-luna-contract-v2-tool-capacity"
+  },
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/copy.json",
+    "sha256": "b09739370eab4dbc67c9c4d2fe133b93557a916dfe0097d865a64ee257f40b71",
+    "revision": "hybrid-full-shared-copy-v1-parent-review-pending"
+  },
+  "review": {
+    "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/luna-v2/review.json",
+    "sha256": "d33da1f1b06e4e2b6cee47d63613e1651cf8d18caeb1f8e0611eccff4ba9d365",
+    "revision": "hybrid-luna-source-review-v1"
+  },
+  "groups": [
+    [
+      "F2-A1"
+    ],
+    [
+      "F2-A2"
+    ],
+    [
+      "F2-A3"
+    ],
+    [
+      "F2-A4"
+    ],
+    [
+      "F2-A5"
+    ],
+    [
+      "P2-A1"
+    ],
+    [
+      "P2-A2"
+    ],
+    [
+      "P2-A3"
+    ],
+    [
+      "P2-A4"
+    ],
+    [
+      "P2-A5"
+    ]
+  ]
+}

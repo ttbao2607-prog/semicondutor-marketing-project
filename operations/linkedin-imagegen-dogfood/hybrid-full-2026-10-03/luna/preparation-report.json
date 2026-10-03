@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "stage_result": "PREPARED_FOR_PARENT_REVIEW",
+  "started_utc": "2026-10-03T03:25:27Z",
+  "ended_utc": "2026-10-03T03:35:23.824590Z",
+  "elapsed_seconds": 596.825,
+  "timing_note": "Shared Sol alignment/common-input preparation overhead is excluded; start is this leaf's recorded candidate-preparation boundary.",
+  "runtime_admission": {
+    "source": "parent-supplied admission message; not independently introspected by this leaf",
+    "requested_model": "gpt-6-luna",
+    "requested_reasoning_effort": "max",
+    "parent_reported_effective_model": "gpt-6-luna",
+    "parent_reported_effective_reasoning_effort": "max",
+    "child_thread_uuid": "01a0ff4f-c4db-7f11-b86a-87ade2499be6",
+    "admission_receipt_id": "admission-b2bcf98f-e9b7-4def-bf3f-df942422f800.json"
+  },
+  "common_inputs": {
+    "manifest_pin": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd",
+    "manifest_actual_sha256": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd",
+    "manifest_file_count_parent_reported": 33,
+    "mismatches_parent_reported": 0,
+    "copy_revision": "hybrid-full-shared-copy-v1-parent-review-pending",
+    "copy_sha256": "b09739370eab4dbc67c9c4d2fe133b93557a916dfe0097d865a64ee257f40b71",
+    "reference_paths_roles": [
+      {
+        "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+        "role": "campaign_visual"
+      },
+      {
+        "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+        "role": "campaign_visual"
+      },
+      {
+        "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png",
+        "role": "campaign_visual"
+      },
+      {
+        "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png",
+        "role": "campaign_visual"
+      },
+      {
+        "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+        "role": "brand_asset"
+      }
+    ],
+    "all_six_r2_references_retained_for_human_comparison": true,
+    "generation_tool_limit_note": "Four selected R2 images plus the official logo make five invocation references; the tool rejected the earlier seven-reference attempt before inference, with zero generated images, as parent reported.",
+    "wording_observation": "The frozen style.campaign.instructions says “Use the six R2 references,” while each bound invocation list contains four R2 images and the official logo. Preserved as frozen and reported to parent for common-owner review."
+  },
+  "contract_preparation": {
+    "template": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/contract-template.json",
+    "only_authorized_template_substitutions": [
+      "MODEL in contract revision",
+      "MODEL in output.directory"
+    ],
+    "contract_equals_template_after_substitutions": true,
+    "output_directory": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/native",
+    "ad_order": [
+      "F2-A",
+      "P2-A"
+    ],
+    "call_count": 10,
+    "groups_are_ten_singletons": true,
+    "reuse_fields_unchanged": true,
+    "source_and_reference_pins_unchanged": true
+  },
+  "prompt_preparation": {
+    "assembly": "verify_imagegen_preflight.make_prompt(contract, call)",
+    "sha256": "UTF-8 bytes of each exact assembled prompt",
+    "call_order": [
+      "F2_A1",
+      "F2_A2",
+      "F2_A3",
+      "F2_A4",
+      "F2_A5",
+      "P2_A1",
+      "P2_A2",
+      "P2_A3",
+      "P2_A4",
+      "P2_A5"
+    ],
+    "call_index": [
+      {
+        "call_id": "F2_A1",
+        "target": "F2-A1",
+        "output_id": "f2-a1",
+        "output_path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/native/f2-a1.png",
+        "reference_count": 5,
+        "prompt_sha256": "b2b40a968cbcd6c1494624e1b1e6d0b33d4f024bdb9ec52730ef7a33748879b8"
+      },
+      {
+        "call_id": "F2_A2",
+        "target": "F2-A2",
+        "output_id": "f2-a2",
+        "output_path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/native/f2-a2.png",
+        "reference_count": 5,
+        "prompt_sha256": "eb07d296cf2264733f439f83be14f607963da72944c5a96625e2c86a551521dc"
+      },
+      {
+        "call_id": "F2_A3",
+        "target": "F2-A3",
+        "output_id": "f2-a3",
+        "output_path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/native/f2-a3.png",
+        "reference_count": 5,
+        "prompt_sha256": "050b6ebf184ce7b402573bcb688109ffcdaabb8ec61c4b216858de912a5cb118"
+      },
+      {
+        "call_id": "F2_A4",
+        "target": "F2-A4",
+        "output_id": "f2-a4",
+        "output_path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/native/f2-a4.png",
+        "reference_count": 5,
+        "prompt_sha256": "3b15b9aec6ab34ff7e6f8bf9eb307327aa982021a7338abae3cba8e4a44eff1a"
+      },
+      {
+        "call_id": "F2_A5",
+        "target": "F2-A5",
+        "output_id": "f2-a5",
+        "output_path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/native/f2-a5.png",
+        "reference_count": 5,
+        "prompt_sha256": "92625f4e67381fa5f664eaa9477c95153d2745a6a2ed341934a3e660a4c51c3f"
+      },
+      {
+        "call_id": "P2_A1",
+        "target": "P2-A1",
+        "output_id": "p2-a1",
+        "output_path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/native/p2-a1.png",
+        "reference_count": 5,
+        "prompt_sha256": "679434a344e3493e47b4edc18a8e853baf8f1281f6bfd59ee5bec1c88f88d253"
+      },
+      {
+        "call_id": "P2_A2",
+        "target": "P2-A2",
+        "output_id": "p2-a2",
+        "output_path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/native/p2-a2.png",
+        "reference_count": 5,
+        "prompt_sha256": "afccc8570d2fa1e73ce49963850bac9acee34c658d2d774888cd43e17713a1e5"
+      },
+      {
+        "call_id": "P2_A3",
+        "target": "P2-A3",
+        "output_id": "p2-a3",
+        "output_path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/native/p2-a3.png",
+        "reference_count": 5,
+        "prompt_sha256": "bd3812be65d02a3b1113d7bf372a12dbf0e2f3251d9a28f5ac11e72a34bda678"
+      },
+      {
+        "call_id": "P2_A4",
+        "target": "P2-A4",
+        "output_id": "p2-a4",
+        "output_path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/native/p2-a4.png",
+        "reference_count": 5,
+        "prompt_sha256": "8182f9f34c407edca40fcdf545ef0b48f589f8f5aa1e2554228fe9b278f54460"
+      },
+      {
+        "call_id": "P2_A5",
+        "target": "P2-A5",
+        "output_id": "p2-a5",
+        "output_path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/native/p2-a5.png",
+        "reference_count": 5,
+        "prompt_sha256": "e17db78214f905d8ae8cc2a67f7200c21eb380b34aca8d49a75991ffdaf69a53"
+      }
+    ],
+    "approved_artwork_equals_gate_projection": true,
+    "shared_artwork_labels_unchanged": true,
+    "extra_artwork_text_added": false,
+    "unique_concept_count": 10
+  },
+  "scope_and_checks": {
+    "changed_files": [
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/contract.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/storyboard.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/calls-draft.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/preparation-report.json"
+    ],
+    "protected_common_and_code_hashes": {
+      "common_manifest": {
+        "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/inputs-identity-manifest.json",
+        "sha256": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd"
+      },
+      "copy": {
+        "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/copy.json",
+        "sha256": "b09739370eab4dbc67c9c4d2fe133b93557a916dfe0097d865a64ee257f40b71"
+      },
+      "contract_template": {
+        "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/contract-template.json",
+        "sha256": "422884546902ca23ef22d498d8e49e6faa9a2ff43db61c9c39e3a247fc8e9b56"
+      },
+      "preflight_helper": {
+        "path": "scripts/verify_imagegen_preflight.py",
+        "sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8"
+      },
+      "references": [
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+          "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+          "role": "campaign_visual"
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+          "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+          "role": "campaign_visual"
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png",
+          "sha256": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+          "role": "campaign_visual"
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png",
+          "sha256": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+          "role": "campaign_visual"
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "role": "brand_asset"
+        }
+      ]
+    },
+    "candidate_preflight_run": false,
+    "mutating_tests_run": false,
+    "image_generation_by_leaf": 0,
+    "review_or_release_authored_by_leaf": false,
+    "other_candidate_inspected": false,
+    "git_mutation": false,
+    "browser_or_account_access": false,
+    "parent_reported_shared_test_suite": "49 tests passed; parent-reported evidence, not rerun by this leaf.",
+    "result_scope": "Preparation and prompt assembly only. This report does not certify editorial/source acceptance, visual or brand quality, image dimensions, rendering, dispatch, or campaign performance."
+  },
+  "artifact_sha256": {
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/contract.json": "adbaee5173ec197ee1a26d16f7b4ec8d39bf941cb6547ee13a595d269817fead",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/storyboard.md": "b72082ae016b68073d6c9d6f959f523d9f08b08bca2d9ad2bdbf35f21442caef",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/calls-draft.json": "b5ffb0b988d62a9498e4d633ccdae32deb19c5b1d88c9e7cb40f25ee8f45c15b"
+  }
+}

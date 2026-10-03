@@ -1,0 +1,7 @@
+# Pre-authority leaf delivery
+
+Use common/brief.json and contract-template.json. Sol/luna independently propose ten useful concepts and both full narrative transitions; no image generation. Replace MODEL in output.directory/revision only; all source/copy/style/reference/definition/limit/groups remain identical. Save model/contract.json, storyboard.md and calls-draft.json. Each call carries exact assembled prompt and UTF-8 SHA256; every singleton gets one unique native output. Parent alone binds exact reviewed contracts/copy/subjects into review/release/final spec and does fresh selected dispatch checks. Do not author fake review/release or arbitrary PASS.
+
+The seven-reference list is the six real R2 PNGs in manifest order plus official logo. campaign_visual roles transfer whitelisted visual grammar only; brand_asset transfers official mark only. Header category/sequence and closing regional labels are in shared artwork_labels; no new diagram wording is released. F2 card5 has exact regional_context but no fabricated source footer. P2 card5 includes exact source_attribution. Render all required sources at readable normal mobile size, not tiny footer. Alts are proposed new intent, parent review pending; reconcile truthful actual image before viewer handoff through fresh shared pins.
+
+Native check API/CLI is in brief.json. It preserves bytes, verifies PNG chunk bounds/CRC and dimensions, does not certify decodable pixels, brand, provenance, content or creative quality. Parent retains all postgen and browser judgment.

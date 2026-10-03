@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "tool": "CUA in-app browser 2, temporary tab5",
+  "viewers": {
+    "sol": "6406f608e955364b84474e58629d13b3a89327d1098a94de8d09a015f07e2bca",
+    "luna": "3ddc850c2b0eb0c55082a784c321bad304eb4e00cc132dd819620a5dc6be748b"
+  },
+  "desktop": {
+    "viewport": [
+      1280,
+      900
+    ],
+    "observed": "five positions both F2/P2 in eachmodel, screenshot full-page pairs eachposition; complete square images without crop"
+  },
+  "mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "observed": "five positions allfourcarousels DOM observed; fullpage closing screenshot bothmodel; images fullsquare317–333px withscrollbarvariation; no horizontaloverflow"
+  },
+  "controls": {
+    "observed": "All dot positions, prev/next each F2/P2 carousel/model, position changes and disabled first/last endpoints",
+    "not_exercised": "Keyboard arrow shortcuts not separately exercised; shared source reviewed"
+  },
+  "closing_verdict": "CHANGES_REQUIRED: all four panels retain approved Taiwan context/source; footer source too small for comfortable no-zoom reading. Exact source correctness is independent from readability.",
+  "screenshot_files": [
+    "screenshots/sol-closing-desktop.jpg",
+    "screenshots/sol-closing-mobile.jpg",
+    "screenshots/luna-closing-desktop.jpg",
+    "screenshots/luna-closing-mobile.jpg"
+  ],
+  "color_boundary": "Browser screenshots show warm cast even on white page chrome; style/palette review also uses original native PNG observations. No browser-color setting altered.",
+  "alt_truthfulness": "Approved generic intent alt descriptions checked against actual native scenes. Some role/time symbolism abstract or completion ambiguity, reported in final visual findings; do not imply deployed results.",
+  "internal_viewer_notes": "No internal status/agent/contract/proof caveats in clean viewer text or hidden fields/export; separate operator notes only repo.",
+  "live_boundary": "Loopback only; no external CTA destination navigation, login/account action or publication",
+  "cleanup": "Viewport reset, temporary tab5 closed, owned PID29084 preview stopped with ownership receipt and portFree=true"
+}

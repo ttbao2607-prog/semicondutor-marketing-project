@@ -3,6 +3,8 @@ import copy
 import importlib.util
 import io
 import json
+import struct
+import zlib
 from pathlib import Path
 import subprocess
 import sys
@@ -425,6 +427,186 @@ class GateTests(unittest.TestCase):
             args[-1] = output
             with redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
                 self.assertEqual(gate.main(args), 1)
+
+
+class CampaignTests(unittest.TestCase):
+    def setUp(self):
+        work = ROOT / "work"
+        work.mkdir(exist_ok=True)
+        self.temp = tempfile.TemporaryDirectory(prefix="imagegen-campaign-fixture-", dir=work)
+        self.addCleanup(self.temp.cleanup)
+        self.fx = Fixture(Path(self.temp.name))
+        self.fx.contract["references"][0].update(role="campaign_visual", attributes=["material_depth", "typography_hierarchy", "campaign_identity", "scene_diagram_integration"])
+        self.fx.contract["style"]["campaign"] = {"revision": "synthetic-campaign-v1", "instructions": "Synthetic campaign: material depth and scene-integrated diagrams; no copied wording or exact composition."}
+        self.fx.contract["output"] = {"directory": "fixture/planned", "extension": ".png", "policy": "native_square_min", "min_edge": 1080}
+        self.fx.commit_inputs()
+
+    def put_png(self, width, height):
+        def chunk(kind, payload):
+            return struct.pack(">I", len(payload)) + kind + payload + struct.pack(">I", zlib.crc32(kind + payload) & 0xffffffff)
+        raw = b"\x89PNG\r\n\x1a\n" + chunk(b"IHDR", struct.pack(">IIBBBBB", width, height, 8, 0, 0, 0, 0))
+        raw += chunk(b"IDAT", zlib.compress((b"\x00" + b"\xff" * width) * height)) + chunk(b"IEND", b"")
+        path = self.fx.root / self.fx.spec["calls"][0]["output_path"]
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_bytes(raw)
+        return path
+
+    def native_check(self):
+        return gate.native_output_check(self.fx.root, "fixture/release.json", self.fx.anchor, "fixture/spec.json", "call0")[0]
+
+    def test_campaign_guidance_is_conditional_and_legacy_prompt_unchanged(self):
+        call = self.fx.spec["calls"][0]
+        self.assertIn("Campaign visual references guide", call["prompt"])
+        self.assertIn("OUTPUT REQUIREMENT", call["prompt"])
+        self.assertIn('"policy":"native_square_min"', call["prompt"])
+        self.assertIn('"min_edge":1080', call["prompt"])
+        self.assertIn("one square native PNG with minimum edge 1080", call["prompt"])
+        self.assertIn("no resizing or compositing", call["prompt"])
+        old = Fixture(self.fx.root / "legacy")
+        oldcall = old.spec["calls"][0]
+        expected = ("Create the approved carousel artwork. Use only approved artwork text for printed wording.\n"
+                    "References supply only their declared attributes; never copy reference wording, record data or composition.\n"
+                    "STYLE\n" + gate.canonical(old.contract["style"]) + "\n"
+                    "REFERENCE ROLES\n" + gate.canonical(oldcall["references"]) + "\n"
+                    "CARD CONCEPTS (not printed labels)\n" + gate.canonical(oldcall["concepts"]) + "\n"
+                    "APPROVED ARTWORK TEXT\n" + gate.canonical(oldcall["artwork_text"]))
+        self.assertEqual(oldcall["prompt"], expected)
+        self.fx.contract["references"][0]["attributes"] = {"invalid": "object"}
+        self.fx.commit_inputs()
+        with self.assertRaisesRegex(gate.Invalid, "list required"):
+            self.fx.check()
+
+    def test_reviewed_campaign_is_assembled_without_creative_acceptance(self):
+        receipt = self.fx.check()
+        self.assertIn(self.fx.contract["style"]["campaign"]["instructions"], self.fx.spec["calls"][0]["prompt"])
+        self.assertEqual(receipt["creative_verdict"], "INSUFFICIENT_EVIDENCE")
+
+    def test_campaign_cannot_transfer_wording_data_props_or_exact_composition(self):
+        for attr in ("wording", "record_data", "props", "composition", "exact_composition"):
+            with self.subTest(attr=attr):
+                self.fx.contract["references"][0]["attributes"] = [attr]
+                self.fx.commit_inputs()
+                with self.assertRaisesRegex(gate.Invalid, "Campaign reference cannot transfer"):
+                    self.fx.check()
+
+    def test_palette_role_remains_isolated_from_campaign_attributes(self):
+        self.fx.contract["references"][0]["role"] = "palette"
+        self.fx.commit_inputs()
+        with self.assertRaisesRegex(gate.Invalid, "Style-only role cannot transfer"):
+            self.fx.check()
+
+    def test_campaign_requires_reviewed_payload_and_rejects_unknown_payload(self):
+        del self.fx.contract["style"]["campaign"]
+        self.fx.commit_inputs()
+        with self.assertRaisesRegex(gate.Invalid, "requires reviewed campaign"):
+            self.fx.check()
+        self.fx.contract["style"]["campaign"] = {"revision": "v1", "instructions": "synthetic", "unreviewed": "extra"}
+        self.fx.commit_inputs()
+        with self.assertRaisesRegex(gate.Invalid, "Unexpected fields"):
+            self.fx.check()
+
+    def test_campaign_style_tamper_rejected_until_fresh_pins(self):
+        self.fx.contract["style"]["campaign"]["instructions"] = "Changed material treatment"
+        self.fx.put("contract.json", self.fx.contract)
+        self.fx.save_spec()
+        with self.assertRaisesRegex(gate.Invalid, "Changed input: fixture/contract"):
+            self.fx.check()
+        self.fx.commit_inputs()  # Synthetic new review/release pins only, never real authority.
+        self.assertEqual(self.fx.check()["mechanical_verdict"], "PASS")
+
+    def test_campaign_prompt_and_reference_tamper_rejected(self):
+        self.fx.spec["calls"][0]["prompt"] += "unreviewed suffix"
+        self.fx.put("spec.json", self.fx.spec)
+        with self.assertRaisesRegex(gate.Invalid, "Prompt differs"):
+            self.fx.check()
+        self.fx.save_spec()
+        self.fx.dispatch()
+        self.fx.put("palette.dat", "changed campaign reference")
+        with self.assertRaisesRegex(gate.Invalid, "Changed input"):
+            self.fx.dispatch_check()
+
+    def test_native_min_policy_checks_actual_png_not_requested_dimensions(self):
+        for edge in (1080, 1254):
+            with self.subTest(edge=edge):
+                path = self.put_png(edge, edge)
+                result = self.native_check()
+                self.assertEqual(result["actual_dimensions"], [edge, edge])
+                self.assertEqual(result["native_sha256"], gate.digest(path.read_bytes()))
+                self.assertEqual(result["native_provenance_verdict"], "NOT_ASSESSED")
+                self.assertEqual(result["creative_verdict"], "INSUFFICIENT_EVIDENCE")
+        for width, height in ((1079, 1079), (1254, 1080)):
+            self.put_png(width, height)
+            with self.assertRaisesRegex(gate.Invalid, "square and meet minimum"):
+                self.native_check()
+
+    def test_native_min_policy_invalid_mixed_boolean_or_weak_requirement(self):
+        original = copy.deepcopy(self.fx.contract["output"])
+        for change in ({"min_edge": 1024}, {"min_edge": True}, {"width": 1254}, {"policy": "unknown"}):
+            self.fx.contract["output"] = {**original, **change}
+            self.fx.commit_inputs()
+            with self.assertRaises(gate.Invalid):
+                self.fx.check()
+
+    def test_old_exact_1024_contract_still_rejects_1254_png(self):
+        self.fx.contract["output"] = {"directory": "fixture/planned", "extension": ".png", "width": 1024, "height": 1024}
+        self.fx.commit_inputs()
+        self.put_png(1254, 1254)
+        with self.assertRaisesRegex(gate.Invalid, "differs from exact dimensions"):
+            self.native_check()
+        self.put_png(1024, 1024)
+        self.assertEqual(self.native_check()["dimension_verdict"], "PASS")
+
+    def test_actual_failed_trial_keeps_original_exact_policy(self):
+        base = ROOT / "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03"
+        for model in ("luna", "sol"):
+            with self.subTest(model=model):
+                contract = json.loads((base / model / "contract.json").read_text(encoding="utf-8-sig"))
+                dimensions = gate.png_dimensions((base / model / "output/f2-a2.png").read_bytes())
+                self.assertEqual(dimensions, (1254, 1254))
+                with self.assertRaisesRegex(gate.Invalid, "differs from exact dimensions"):
+                    gate.check_dimensions(contract["output"], dimensions)
+
+    def test_native_container_missing_corrupt_and_wrong_call_fail(self):
+        with self.assertRaisesRegex(gate.Invalid, "Missing input"):
+            self.native_check()
+        path = self.put_png(1080, 1080)
+        path.write_bytes(path.read_bytes()[:-1])
+        with self.assertRaisesRegex(gate.Invalid, "Truncated PNG"):
+            self.native_check()
+        path = self.put_png(1080, 1080)
+        raw = bytearray(path.read_bytes()); raw[20] ^= 1; path.write_bytes(raw)
+        with self.assertRaisesRegex(gate.Invalid, "CRC mismatch"):
+            self.native_check()
+        with self.assertRaisesRegex(gate.Invalid, "Unknown preflight call"):
+            gate.native_output_check(self.fx.root, "fixture/release.json", self.fx.anchor, "fixture/spec.json", "unknown")
+
+    def test_campaign_keeps_independent_first_mentions_and_advisory_layer(self):
+        for ad in self.fx.copy["ads"]:
+            ad["caption"] = "ERP/MES"
+        self.fx.copy["ads"][0]["cards"][0]["headline"] = "Fabless (" + self.fx.contract["definitions"]["Fabless"] + ")"
+        self.fx.copy["ads"][1]["cards"][0]["headline"] = "Fabless"
+        self.fx.commit_inputs()
+        with self.assertRaisesRegex(gate.Invalid, "Unexplained first mention: B"):
+            self.fx.check()
+        self.fx.copy["ads"][1]["cards"][0]["headline"] = self.fx.copy["ads"][0]["cards"][0]["headline"]
+        self.fx.commit_inputs()
+        for call in self.fx.spec["calls"]:
+            for concept in call["concepts"]:
+                concept.update(concept_id="same", description="same", props=["same"])
+        self.fx.save_spec()
+        receipt = self.fx.check()
+        self.assertTrue(receipt["advisories"])
+        self.assertEqual(receipt["mechanical_verdict"], "PASS")
+        self.assertEqual(receipt["creative_verdict"], "INSUFFICIENT_EVIDENCE")
+
+    def test_native_cli_requires_selection_and_does_not_certify_pixels(self):
+        self.put_png(1254, 1254)
+        command = [sys.executable, "-B", str(ROOT / "scripts/verify_imagegen_preflight.py"), "native-output-check", "--root", str(self.fx.root), "--release", "fixture/release.json", "--release-sha256", self.fx.anchor, "--spec", "fixture/spec.json", "--call-id", "call0"]
+        result = subprocess.run(command, capture_output=True, text=True, encoding="utf-8")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(json.loads(result.stdout)["rendered_artifact_verdict"], "NOT_ASSESSED")
+        missing = subprocess.run(command[:-2], capture_output=True, text=True, encoding="utf-8")
+        self.assertNotEqual(missing.returncode, 0)
 
 
 if __name__ == "__main__":

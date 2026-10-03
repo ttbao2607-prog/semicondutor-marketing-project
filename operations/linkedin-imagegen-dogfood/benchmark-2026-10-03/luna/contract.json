@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "revision": "benchmark-f2-a2-contract-v1",
+  "locale": "vi",
+  "channel": "linkedin-carousel",
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/copy.json",
+    "sha256": "2e551ab0de465046e198ad0822417a72c585f3b35796c46dccca1876f859d2ea",
+    "revision": "benchmark-f2-a2-copy-v1"
+  },
+  "sources": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-copy.json",
+      "sha256": "dce82218734651c93aa662840ae74616e9483404e24905552279cad41f5aee52",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-storyboard.md",
+      "sha256": "780a9bdf1cc48d888d748c3eea4deb6741ecadf783eeb71d7051931c7379c1d5",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+    }
+  ],
+  "card_sources": {
+    "A2": [
+      "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-copy.json",
+      "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-storyboard.md"
+    ]
+  },
+  "ad_order": [
+    "A"
+  ],
+  "card_order": {
+    "A": [
+      "A2"
+    ]
+  },
+  "surfaces": {
+    "A": [
+      {
+        "surface_id": "feed",
+        "reading_order": [
+          "caption",
+          "A2.headline",
+          "A2.body",
+          "A2.source_text",
+          "A2.cta",
+          "A2.native_headline",
+          "A2.alt",
+          "A2.artwork_labels"
+        ]
+      }
+    ]
+  },
+  "definitions": {
+    "OSAT": "dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài",
+    "Fabless": "thiết kế chip, không sở hữu nhà máy chế tạo",
+    "WIP": "bán thành phẩm"
+  },
+  "limits": {
+    "caption": 255,
+    "headline": 45,
+    "body": 180,
+    "source_text": 200,
+    "cta": 70,
+    "native_headline": 45,
+    "alt": 200,
+    "artwork_labels": 70
+  },
+  "groups": [
+    [
+      "A2"
+    ]
+  ],
+  "reuse_fields": [
+    "headline",
+    "body",
+    "source_text",
+    "cta",
+    "native_headline",
+    "alt",
+    "artwork_labels"
+  ],
+  "references": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/palette-lighting-reference.png",
+      "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "role": "palette",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "role": "brand_asset",
+      "attributes": [
+        "brand_mark"
+      ]
+    }
+  ],
+  "style": {
+    "brand": "Digiwin; reproduce the official reference mark once, without invented glyphs",
+    "palette": [
+      "white",
+      "#0052FF",
+      "#0B132B",
+      "charcoal"
+    ],
+    "lighting": "bright daylight, clean neutral background",
+    "avoid": [
+      "neon",
+      "dark mode",
+      "human faces",
+      "fabricated metrics or identifiers",
+      "capability or outcome claims",
+      "reference wording or composition",
+      "printed caption, native headline, alt or internal notes",
+      "any extra text beyond approved artwork and the official brand mark"
+    ]
+  },
+  "output": {
+    "directory": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/output",
+    "extension": ".png",
+    "width": 1024,
+    "height": 1024
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "revision": "parent-luna-one-call-release-v1",
+  "authorizer": "Bao, recorded by /root operator",
+  "authority_ref": {
+    "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/authority.md",
+    "sha256": "bed39c6c323dc78cea94d7e5ba97ae36e004a2ad41e3ef39c618fe2e1954f448",
+    "revision": "bao-two-configuration-dogfood-2026-10-03"
+  },
+  "purpose": "OFFLINE_IMAGEGEN",
+  "contract": {
+    "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/contract.json",
+    "sha256": "52af9e6e667dac1cd16f444ca24ec14c8ca8fb0e3b1b0bf57e4d0175979db718",
+    "revision": "benchmark-f2-a2-contract-v1"
+  },
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/copy.json",
+    "sha256": "2e551ab0de465046e198ad0822417a72c585f3b35796c46dccca1876f859d2ea",
+    "revision": "benchmark-f2-a2-copy-v1"
+  },
+  "review": {
+    "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/luna/review.json",
+    "sha256": "56a50bed84931da78c499fd8ad507799881ec924ca7d15c9c8f65166f3883083",
+    "revision": "parent-luna-source-copy-review-v1"
+  },
+  "groups": [
+    [
+      "A2"
+    ]
+  ]
+}

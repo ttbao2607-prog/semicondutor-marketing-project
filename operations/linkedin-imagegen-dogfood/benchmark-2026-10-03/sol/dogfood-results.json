@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "start_utc": "2026-10-03T01:20:13.583491+00:00",
+  "end_utc": "2026-10-03T01:20:14.064103+00:00",
+  "trusted_release_path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/release.json",
+  "parent_supplied_release_sha256": "99bfc3a6b794b8cca4ff4eaaddacbc64bdbb1f400ef055286646bc27accaf68f",
+  "positive_checks": {
+    "preflight": "PASS",
+    "dispatch_check": "PASS",
+    "viewer_check": "PASS"
+  },
+  "actual_dispatch_observed": false,
+  "negative_cases": [
+    {
+      "case": "changed contract",
+      "mode": "preflight",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/contract.json"
+    },
+    {
+      "case": "changed copy",
+      "mode": "preflight",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/copy.json"
+    },
+    {
+      "case": "changed review",
+      "mode": "preflight",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/review.json"
+    },
+    {
+      "case": "changed source",
+      "mode": "preflight",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-copy.json"
+    },
+    {
+      "case": "changed reference",
+      "mode": "preflight",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/palette-lighting-reference.png"
+    },
+    {
+      "case": "changed prompt",
+      "mode": "preflight",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Prompt differs from assembled approved inputs"
+    },
+    {
+      "case": "stale receipt after spec revision change",
+      "mode": "dispatch",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Stale or altered preflight receipt"
+    },
+    {
+      "case": "substituted release versus parent pin",
+      "mode": "preflight",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/release.json"
+    },
+    {
+      "case": "changed dispatch prompt",
+      "mode": "dispatch",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Dispatch prompt differs from verified call"
+    },
+    {
+      "case": "changed dispatch reference list",
+      "mode": "dispatch",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Dispatch reference paths differ"
+    },
+    {
+      "case": "changed dispatch receipt hash",
+      "mode": "dispatch",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Dispatch receipt hash mismatch"
+    },
+    {
+      "case": "occupied selected output at preflight",
+      "mode": "preflight",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Planned output would overwrite existing artifact"
+    },
+    {
+      "case": "occupied selected output at dispatch",
+      "mode": "dispatch",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Selected output would overwrite existing artifact"
+    },
+    {
+      "case": "viewer extra internal_notes",
+      "mode": "viewer",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Viewer payload differs from approved public-field projection"
+    },
+    {
+      "case": "viewer extra metadata",
+      "mode": "viewer",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Viewer payload differs from approved public-field projection"
+    },
+    {
+      "case": "viewer extra hidden_html",
+      "mode": "viewer",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Viewer payload differs from approved public-field projection"
+    },
+    {
+      "case": "viewer extra attachments",
+      "mode": "viewer",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Viewer payload differs from approved public-field projection"
+    },
+    {
+      "case": "viewer changed approved text",
+      "mode": "viewer",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Viewer payload differs from approved public-field projection"
+    }
+  ],
+  "negative_case_count": 18,
+  "all_expected_rejections_observed": true,
+  "protected_hashes_before": {
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/brief.json": "54fe7e4dba66de5491832ebb9eabc60bcd713422693e72b4ac0b9c8ff08f84a8",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/copy.json": "2e551ab0de465046e198ad0822417a72c585f3b35796c46dccca1876f859d2ea",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-copy.json": "dce82218734651c93aa662840ae74616e9483404e24905552279cad41f5aee52",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-storyboard.md": "780a9bdf1cc48d888d748c3eea4deb6741ecadf783eeb71d7051931c7379c1d5",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/palette-lighting-reference.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "scripts/verify_imagegen_preflight.py": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+    "tests/test_imagegen_preflight.py": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+    "operations/Ad_Artifact_Editorial_QA_Gate.md": "a045be594186b09c1e60fa41b276ac4ccdd4a9a20873d89f2ae738d4088c61e0",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/contract.json": "4bc98a99a6cfa0ca4186788c696b5b66c7a3e20a65f8484228f3d3e3e0ecff3c",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/call-draft.json": "2d3446f69b0949fec50f7e01ac04ce1f034adc629cf15c3f2aa826f1bd24bcb0",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/viewer.json": "2e551ab0de465046e198ad0822417a72c585f3b35796c46dccca1876f859d2ea"
+  },
+  "protected_hashes_after": {
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/brief.json": "54fe7e4dba66de5491832ebb9eabc60bcd713422693e72b4ac0b9c8ff08f84a8",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/copy.json": "2e551ab0de465046e198ad0822417a72c585f3b35796c46dccca1876f859d2ea",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-copy.json": "dce82218734651c93aa662840ae74616e9483404e24905552279cad41f5aee52",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-storyboard.md": "780a9bdf1cc48d888d748c3eea4deb6741ecadf783eeb71d7051931c7379c1d5",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/palette-lighting-reference.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "scripts/verify_imagegen_preflight.py": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+    "tests/test_imagegen_preflight.py": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+    "operations/Ad_Artifact_Editorial_QA_Gate.md": "a045be594186b09c1e60fa41b276ac4ccdd4a9a20873d89f2ae738d4088c61e0",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/contract.json": "4bc98a99a6cfa0ca4186788c696b5b66c7a3e20a65f8484228f3d3e3e0ecff3c",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/call-draft.json": "2d3446f69b0949fec50f7e01ac04ce1f034adc629cf15c3f2aa826f1bd24bcb0",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/viewer.json": "2e551ab0de465046e198ad0822417a72c585f3b35796c46dccca1876f859d2ea"
+  },
+  "temporary_roots_removed": true,
+  "semantic_verdict": "NOT_ASSESSED",
+  "creative_verdict": "INSUFFICIENT_EVIDENCE",
+  "stage_result": "MECHANICAL_CHECKS_COMPLETE_FOR_PARENT_AUDIT",
+  "limits": "No generation, rendered review, content acceptance, or shared test-suite execution."
+}

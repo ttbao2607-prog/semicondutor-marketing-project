@@ -1,0 +1,311 @@
+{
+  "kind": "LOCAL_BYTE_INVENTORY_NOT_GIT_COMMIT",
+  "baseline": "7e95a44dc5a3e5c25c07cda7c0f905822b8ba864",
+  "candidate_verdict": "CHANGES_REQUIRED",
+  "files": {
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/allocation-and-contract.md": {
+      "sha256": "9296ccf42dcc254690974c80bb05fcdb9f26a5433228f751245855ee80233586",
+      "bytes": 3581
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/authority.md": {
+      "sha256": "bed39c6c323dc78cea94d7e5ba97ae36e004a2ad41e3ef39c618fe2e1954f448",
+      "bytes": 675
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/brief.json": {
+      "sha256": "54fe7e4dba66de5491832ebb9eabc60bcd713422693e72b4ac0b9c8ff08f84a8",
+      "bytes": 3464
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/copy.json": {
+      "sha256": "2e551ab0de465046e198ad0822417a72c585f3b35796c46dccca1876f859d2ea",
+      "bytes": 1040
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/digiwin-logo.webp": {
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "bytes": 3170
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-copy.json": {
+      "sha256": "dce82218734651c93aa662840ae74616e9483404e24905552279cad41f5aee52",
+      "bytes": 35358
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-storyboard.md": {
+      "sha256": "780a9bdf1cc48d888d748c3eea4deb6741ecadf783eeb71d7051931c7379c1d5",
+      "bytes": 2134
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/palette-lighting-reference.png": {
+      "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+      "bytes": 1678280
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/call-draft.json": {
+      "sha256": "d5275b779ec2127dcfab7ac6d49280294de07ef829a40230b099a11f5e144e85",
+      "bytes": 7119
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/child-report.json": {
+      "sha256": "99781a4b4f126dad81e25d2edc111662491b68d9eacb27668796a84989045502",
+      "bytes": 4427
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/concept.md": {
+      "sha256": "c635b2c994b0247a601697dd00127723517d3c58666fa82d7ed85b3f7513b06d",
+      "bytes": 655
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/contract.json": {
+      "sha256": "52af9e6e667dac1cd16f444ca24ec14c8ca8fb0e3b1b0bf57e4d0175979db718",
+      "bytes": 3740
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/dispatch-check.json": {
+      "sha256": "4377a20e6c083090bdad0087e9709e519f21d767840c03d28f25608e498cfb5e",
+      "bytes": 2441
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/dogfood-results.json": {
+      "sha256": "4f8705a15d9ce93cd1cffc5177292c6f566417092c224a5dfc04173dbf9ee196",
+      "bytes": 11567
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/index.html": {
+      "sha256": "3709c8383f008415301ac9723669e14e64cef8bf5fc441b81d820284beb0cfff",
+      "bytes": 1183
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/output/f2-a2.png": {
+      "sha256": "4594d10a6a67050d9b779ad52776aebdfccc2578632039bdd3ee7da5ff48a100",
+      "bytes": 1356588
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/planned-dispatch.json": {
+      "sha256": "115cab3fbded1a3e8a80a41152e11c3094f0f218573a9b1e2c2114f49a018ce8",
+      "bytes": 4231
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/preflight.json": {
+      "sha256": "5f0acccdde21d75d9a6c19db10c2ce653a25fbb330632f137b7b909afebe5950",
+      "bytes": 2328
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/spec.json": {
+      "sha256": "6f84a4b1b69ad6453ab48d1192a6f8c2157d7da8f0f064bb52d6461c2cd1627f",
+      "bytes": 8471
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/viewer-build-report.json": {
+      "sha256": "24406d31c794a572874e23683a234cb7d74edbfdeb4b84441f469d2a27995976",
+      "bytes": 2479
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/viewer-check.json": {
+      "sha256": "96590d7eb58231a11af796523b121b08a6152571d3b38837f4a7d1e1900d4634",
+      "bytes": 2387
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/viewer.json": {
+      "sha256": "2e551ab0de465046e198ad0822417a72c585f3b35796c46dccca1876f859d2ea",
+      "bytes": 1040
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/documentation-closeout-audit.json": {
+      "sha256": "37d977b874dba2317e78e1e539241af2bd69bc9864b97a81a300dccbe5d10703",
+      "bytes": 1074
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/final-audit.json": {
+      "sha256": "f61fed5b34ee0a244500b9b359bb91171400a26a689e19797a9a30a164ff8747",
+      "bytes": 6104
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/luna/actual-dispatch.json": {
+      "sha256": "8ce706229c70429bb5086670538dbd103d32b7bd70256c701086b232863f34d4",
+      "bytes": 5259
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/luna/dispatch-before-call.json": {
+      "sha256": "115cab3fbded1a3e8a80a41152e11c3094f0f218573a9b1e2c2114f49a018ce8",
+      "bytes": 4231
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/luna/dispatch-check-before-call.json": {
+      "sha256": "4377a20e6c083090bdad0087e9709e519f21d767840c03d28f25608e498cfb5e",
+      "bytes": 2441
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/luna/independent-dogfood.json": {
+      "sha256": "a9e88a102350b3c3814aa3faa5528826f52faa5cd5603040da1d666bae775d00",
+      "bytes": 4004
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/luna/postgen-review.json": {
+      "sha256": "3382f97e4a87ca9f87cb5affcad5b37a7cdbf73dadfc977c50329b25d90fb261",
+      "bytes": 3646
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/luna/preflight-before-call.json": {
+      "sha256": "5f0acccdde21d75d9a6c19db10c2ce653a25fbb330632f137b7b909afebe5950",
+      "bytes": 2328
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/luna/provenance-inspection.json": {
+      "sha256": "3b3c312ad034fe1667599eb0c011035a83679a2428c86329ef353c12929ef88f",
+      "bytes": 7967
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/luna/release.json": {
+      "sha256": "edfe7b7bb5dae896d81678d366deda5753a89536d50842e60158296d921ac60a",
+      "bytes": 1209
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/luna/review.json": {
+      "sha256": "56a50bed84931da78c499fd8ad507799881ec924ca7d15c9c8f65166f3883083",
+      "bytes": 1747
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/model-identity-audit.json": {
+      "sha256": "ff4d519dd151ccd2b3e2ea0ffa43e57b72c5e99b9a22b0c655a834c4189f86a1",
+      "bytes": 880
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/runtime-benchmark-metrics.json": {
+      "sha256": "68c8026d83040a97fc5f1cab106757831ce4e9c8237a79716a601e2562c5e6b5",
+      "bytes": 6186
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/actual-dispatch.json": {
+      "sha256": "45545866635c92f060d7b6f714d45722818b6ce90f44bd58c8dff8608070be45",
+      "bytes": 5285
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/dispatch-before-call.json": {
+      "sha256": "9855360644fe47e0ceb852b62ffe7f76d18c23963cecb98b4ab85607f06c8216",
+      "bytes": 4258
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/dispatch-check-before-call.json": {
+      "sha256": "9e142978b22ea06cfc79a30171758809cc5ba580e2cc3b19b82c8477a43b098c",
+      "bytes": 2435
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/independent-dogfood.json": {
+      "sha256": "adc37aebeb9351d45052b33dc18c2e2aeaa2bec9cd583fecfd0044b05c01073f",
+      "bytes": 4001
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/postgen-review.json": {
+      "sha256": "098e6d719fa9ae1c5f7e1962f0a3a7a7ffaa81a10f3de9f2ae5ab8522506fa6c",
+      "bytes": 3195
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/preflight-before-call.json": {
+      "sha256": "684218f06ad6635d1139bc39ad90fb30971f2ead253511f8d3f5c93b3637bbaa",
+      "bytes": 2322
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/provenance-inspection.json": {
+      "sha256": "3581a2de935150fd15a7d0e1e7c5793366eaea108569e2b35b4c20863354fb9c",
+      "bytes": 7970
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/release.json": {
+      "sha256": "99bfc3a6b794b8cca4ff4eaaddacbc64bdbb1f400ef055286646bc27accaf68f",
+      "bytes": 1209
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/review.json": {
+      "sha256": "e8b95d7e60aa0d7b2254b8e86c14e1ae7bb9b49ca95d6f325767ee695d5b2cd1",
+      "bytes": 1748
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/source-copy-review-notes.md": {
+      "sha256": "8fbb0724f645026609e238f28fb6d93a62517ca11ead161481e04d444f089518",
+      "bytes": 2758
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/trusted-pins-luna.json": {
+      "sha256": "162788241effd1b76541128b0b264eb967310cd396f581ad328db3d7af5ca44a",
+      "bytes": 1149
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/trusted-pins-sol.json": {
+      "sha256": "58daa2b9a9fbfc0c0b99c377a6c2596d782d1ad42612bdb7e56c193ffe8047b6",
+      "bytes": 1147
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/call-draft.json": {
+      "sha256": "2d3446f69b0949fec50f7e01ac04ce1f034adc629cf15c3f2aa826f1bd24bcb0",
+      "bytes": 7174
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/child-report.json": {
+      "sha256": "d0a749e9214d3b034b1213e62e6179f6b9493da3078cda0879df18e5e22fd231",
+      "bytes": 4080
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/concept.md": {
+      "sha256": "ee8553c16ab46daf26b61e9990a1c3a94f703874bf6d2c7a87a784c725e4d4fc",
+      "bytes": 1100
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/contract.json": {
+      "sha256": "4bc98a99a6cfa0ca4186788c696b5b66c7a3e20a65f8484228f3d3e3e0ecff3c",
+      "bytes": 3763
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/dispatch-check.json": {
+      "sha256": "9e142978b22ea06cfc79a30171758809cc5ba580e2cc3b19b82c8477a43b098c",
+      "bytes": 2435
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/dogfood-results.json": {
+      "sha256": "1ab98880e1ecfb04d17af93c0ad87f5f656cb8fbf5af8246fb852cc79b97c4ff",
+      "bytes": 9277
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/index.html": {
+      "sha256": "157ea2f1fa8da6a1a28b09ad1a3fbdc02f4f83e48f6c13ea7f985069000dd03a",
+      "bytes": 1174
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/output/f2-a2.png": {
+      "sha256": "ad1877eed58f1bf351d4dfa9386aca154e393bfe2f3a66ed9697ff777f2755da",
+      "bytes": 1233004
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/planned-dispatch.json": {
+      "sha256": "9855360644fe47e0ceb852b62ffe7f76d18c23963cecb98b4ab85607f06c8216",
+      "bytes": 4258
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/preflight.json": {
+      "sha256": "684218f06ad6635d1139bc39ad90fb30971f2ead253511f8d3f5c93b3637bbaa",
+      "bytes": 2322
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/run_candidate_dogfood.py": {
+      "sha256": "df7e430ae1e76ea389229e99ac856b153c07368b254d5918cd58c2302b12c11f",
+      "bytes": 6583
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/spec.json": {
+      "sha256": "077fcfc68ba688ceba0d9083e8cc02d91b4db16ee0fee3cf7496a14ea25bbe7a",
+      "bytes": 8524
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/viewer-build-report.json": {
+      "sha256": "7a91d7a084f946df8035555b1e0c971cca91c161a6d57acc77b3c2a72e7d6c84",
+      "bytes": 1151
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/viewer-check.json": {
+      "sha256": "9102a2ec4cbcffcf3eaac6309142b5b8d2e7a015ad08fc3e00c595dd38cc6e36",
+      "bytes": 2381
+    },
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/viewer.json": {
+      "sha256": "2e551ab0de465046e198ad0822417a72c585f3b35796c46dccca1876f859d2ea",
+      "bytes": 1040
+    },
+    "CURRENT_STATE.md": {
+      "sha256": "b0ef8a783d1ef15d2b3ec8511f010db7312ef2efcd196418e38333b336614bc5",
+      "bytes": 51030
+    },
+    "DOCS_INDEX.md": {
+      "sha256": "2e6b8b856bb6724fcdb055c3b66b023cd6cffbb84a0b790bf8021389808ef0d7",
+      "bytes": 2770
+    },
+    "README.md": {
+      "sha256": "846f81ea0b707b848d9a13624efb4e9a4af54bc86af2d16cacbeb2e0e7d907fe",
+      "bytes": 34059
+    },
+    "ads/linkedin/LinkedIn_Build_Pack.md": {
+      "sha256": "cb50a02d04cd05e88b4f695fe0bb775ff3980e4d543198ee436ad7ed94de9967",
+      "bytes": 48609
+    },
+    "operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md": {
+      "sha256": "db661f6cc6d97bf165cf7e92ae8eb4ab74a9c28bd92f63b83c7e5a2c071cdfb4",
+      "bytes": 16342
+    },
+    "operations/LinkedIn_Awareness_Execution_Plan.md": {
+      "sha256": "6a681ec28cf47f8e6bee490eb847945aeca0ae5471578033175b7c6ccef14045",
+      "bytes": 51245
+    },
+    "operations/LinkedIn_Awareness_ImageGen_Harness_Redesign_Plan.md": {
+      "sha256": "efdc684448034c8175c773cb0e1e9e88e172c408b87fab919f7cdaf37d99739e",
+      "bytes": 18588
+    },
+    "operations/LinkedIn_Awareness_Remaining_Scenarios.md": {
+      "sha256": "7a4335329a40c0a1422cf8700458292b4847758749e54bd817c3ab560d968b44",
+      "bytes": 9622
+    },
+    "operations/LinkedIn_ImageGen_Harness_Implementation_Record.md": {
+      "sha256": "be8d568bc747a4850ec2f4bc1a8767232f88c3fb4af7440a38a214a01da5da10",
+      "bytes": 12294
+    },
+    "operations/LinkedIn_ImageGen_Harness_Status.json": {
+      "sha256": "d9d69e95fceaf9a3775f5bee689f6aeaaacf0c3a6424683386c9d784079b0b77",
+      "bytes": 2432
+    },
+    "operations/LinkedIn_ImageGen_Preflight_Schema.md": {
+      "sha256": "f3001361227100f77f57545f129026451edbea2185d5369a2ccd88f7df60653c",
+      "bytes": 31135
+    },
+    "operations/LinkedIn_ImageGen_Visual_Instructions.md": {
+      "sha256": "35a5a166ad1ed0de866fb19be3f9543ae0943ff16726517ea8b415a7405ffa7d",
+      "bytes": 6600
+    },
+    "operations/Pre_Ad_Readiness_Plan.md": {
+      "sha256": "9382dafe59efea5a8c22a22d813b981aed2cbcb63251e5ee14b36644a05929a8",
+      "bytes": 57983
+    },
+    "operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md": {
+      "sha256": "aac9d8a6844bf843cba94c99e3ed9cf99c73b272df53754f57c46fd63cb639bd",
+      "bytes": 10050
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sol": {
+    "release": {
+      "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/release.json",
+      "sha256": "99bfc3a6b794b8cca4ff4eaaddacbc64bdbb1f400ef055286646bc27accaf68f",
+      "revision": "parent-sol-one-call-release-v1"
+    },
+    "review": {
+      "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/review.json",
+      "sha256": "e8b95d7e60aa0d7b2254b8e86c14e1ae7bb9b49ca95d6f325767ee695d5b2cd1",
+      "revision": "parent-sol-source-copy-review-v1"
+    },
+    "contract": {
+      "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/contract.json",
+      "sha256": "4bc98a99a6cfa0ca4186788c696b5b66c7a3e20a65f8484228f3d3e3e0ecff3c",
+      "revision": "benchmark-sol-f2-a2-contract-v1"
+    },
+    "copy": {
+      "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/copy.json",
+      "sha256": "2e551ab0de465046e198ad0822417a72c585f3b35796c46dccca1876f859d2ea",
+      "revision": "benchmark-f2-a2-copy-v1"
+    },
+    "prompt_sha256": "b37ed1608cf6182e895612797ef43ba2b9410c8b76a6d502d49a69ba100c8db4"
+  }
+}

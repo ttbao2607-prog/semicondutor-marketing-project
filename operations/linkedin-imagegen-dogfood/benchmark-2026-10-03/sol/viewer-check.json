@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "gate_version": 1,
+  "gate_sha256": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+  "layer": "VIEWER_PAYLOAD_CHECK",
+  "mechanical_verdict": "PASS",
+  "purpose": "OFFLINE_IMAGEGEN",
+  "spec_path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/spec.json",
+  "release_path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/release.json",
+  "release_sha256": "99bfc3a6b794b8cca4ff4eaaddacbc64bdbb1f400ef055286646bc27accaf68f",
+  "scope_call_id": null,
+  "input_hashes": {
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/authority.md": "bed39c6c323dc78cea94d7e5ba97ae36e004a2ad41e3ef39c618fe2e1954f448",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/copy.json": "2e551ab0de465046e198ad0822417a72c585f3b35796c46dccca1876f859d2ea",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-copy.json": "dce82218734651c93aa662840ae74616e9483404e24905552279cad41f5aee52",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-storyboard.md": "780a9bdf1cc48d888d748c3eea4deb6741ecadf783eeb71d7051931c7379c1d5",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/palette-lighting-reference.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/release.json": "99bfc3a6b794b8cca4ff4eaaddacbc64bdbb1f400ef055286646bc27accaf68f",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/review.json": "e8b95d7e60aa0d7b2254b8e86c14e1ae7bb9b49ca95d6f325767ee695d5b2cd1",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/contract.json": "4bc98a99a6cfa0ca4186788c696b5b66c7a3e20a65f8484228f3d3e3e0ecff3c",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/spec.json": "077fcfc68ba688ceba0d9083e8cc02d91b4db16ee0fee3cf7496a14ea25bbe7a"
+  },
+  "call_ids": [
+    "F2_A2"
+  ],
+  "advisories": [],
+  "semantic_verdict": "NOT_ASSESSED",
+  "creative_verdict": "INSUFFICIENT_EVIDENCE",
+  "authority": "NO_GENERATION_AUTHORITY",
+  "rendered_artifact_verdict": "NOT_ASSESSED"
+}

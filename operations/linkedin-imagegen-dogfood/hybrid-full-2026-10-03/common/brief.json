@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "revision": "hybrid-full-common-brief-v2-tool-capacity",
+  "baseline_commit": "7e95a44dc5a3e5c25c07cda7c0f905822b8ba864",
+  "source_commit": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+  "copy_ref": {
+    "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/copy.json",
+    "sha256": "b09739370eab4dbc67c9c4d2fe133b93557a916dfe0097d865a64ee257f40b71",
+    "revision": "hybrid-full-shared-copy-v1-parent-review-pending"
+  },
+  "source_pins": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/copy-vi.json",
+      "sha256": "dce82218734651c93aa662840ae74616e9483404e24905552279cad41f5aee52",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "frozen_source_path": "operations/linkedin-awareness-execution/f2-forecast-imagegen-r1/copy-vi.json"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/storyboard-and-claims.md",
+      "sha256": "780a9bdf1cc48d888d748c3eea4deb6741ecadf783eeb71d7051931c7379c1d5",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "frozen_source_path": "operations/linkedin-awareness-execution/f2-forecast-p1-copy/storyboard-and-claims.md"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/editorial-qa-receipt.md",
+      "sha256": "c3e3eabac52aedf9a30c930a2e70a5819af95cdced2e304d526f59828a11f0fd",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "frozen_source_path": "operations/linkedin-awareness-execution/f2-forecast-imagegen-r1/editorial-qa-receipt.md"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/source-pins.json",
+      "sha256": "a0c4291456fce1a1b31ddbaeff5bb26971f6c9109b69881372904b2f1a66337d",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "frozen_source_path": "operations/linkedin-awareness-execution/f2-forecast-p1-copy/source-pins.json"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/copy-vi.json",
+      "sha256": "8c9397a062418395b944eca91baa879ebaaa701b00acb6b373648e96232460ed",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "frozen_source_path": "operations/linkedin-awareness-execution/p2-boundaries-imagegen-r1/copy-vi.json"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/storyboard-and-claims.md",
+      "sha256": "98710302463207eaa275cdc95ff93f581aacf620fa78bd0763ec0fb3e9c48fc5",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "frozen_source_path": "operations/linkedin-awareness-execution/p2-boundaries-p1-copy/storyboard-and-claims.md"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/editorial-qa-receipt.md",
+      "sha256": "26a46d71e99f09281b3394581fce759be01436830ca09bd77dd7132fc439af3b",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "frozen_source_path": "operations/linkedin-awareness-execution/p2-boundaries-imagegen-r1/editorial-qa-receipt.md"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/source-pins.json",
+      "sha256": "2fc0f17b55702050d9ccd2d2fbb750ec9d53181805998383dbea4765cc84d0fb",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "frozen_source_path": "operations/linkedin-awareness-execution/p2-boundaries-p1-copy/source-pins.json"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/evidence-register.md",
+      "sha256": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "frozen_source_path": "operations/linkedin-awareness-execution/evidence-register.md"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/source-brief.md",
+      "sha256": "6abeda531f6b2316e89073b99202de0a195caa11895243c9a8d99552bed2c90e",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "frozen_source_path": "Semiconductor - Website & Ads.md"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/scenario-library.md",
+      "sha256": "5e7939dfee23481e14af7db5aa6faa916528853b4bc886f4e55ee26793f82358",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "frozen_source_path": "operations/LinkedIn_Awareness_Adcopy_Optimization_Plan.md"
+    }
+  ],
+  "campaign_input_pins": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/campaign-visual-kit-r2.md",
+      "sha256": "ea5712ceaf52f0a6ba1fdfd8ed13d44f84d5f3c74ce334f308ced7e3c24940db",
+      "revision": "campaign-r2-preparation-2026-10-03",
+      "source_path": "operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/campaign-creative-review.md",
+      "sha256": "2669292dc1aa4ebc43a894076eb7e02c2b680d0b8cf652738a3fa771fdb2476a",
+      "revision": "campaign-r2-preparation-2026-10-03",
+      "source_path": "operations/LinkedIn_Awareness_Campaign_Creative_Review.md"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/r2-reference-origin-manifest.json",
+      "sha256": "45aaa293b913d3dd5c7e6fdf9910e08b9113056642ecf063587d108fdfae5ec5",
+      "revision": "campaign-r2-preparation-2026-10-03",
+      "source_path": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/reference-manifest.json"
+    }
+  ],
+  "references": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+      "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+      "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png",
+      "sha256": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png",
+      "sha256": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "role": "brand_asset",
+      "attributes": [
+        "brand_mark"
+      ]
+    }
+  ],
+  "style": {
+    "brand": "Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs",
+    "palette": [
+      "white",
+      "#0052FF",
+      "#0B132B",
+      "#00B4D8",
+      "charcoal"
+    ],
+    "lighting": "bright neutral daylight with soft grounded shadows",
+    "avoid": [
+      "neon",
+      "dark mode",
+      "human faces",
+      "fabricated metrics identifiers dates statuses or results",
+      "customer marks or facility evidence",
+      "unreviewed capability or outcome claims",
+      "reference wording record values props or exact composition",
+      "printed caption native headline alt or internal notes",
+      "extra wording beyond approved artwork text and official brand mark"
+    ],
+    "campaign": {
+      "revision": "campaign-r2-hybrid-full-v1-parent-review-pending",
+      "instructions": "Use the six R2 references as a coherent campaign visual grammar: bright white, soft blue and navy; neutral daylight; soft grounded shadows; photographic material depth and a credible shared material world. Strong blue/navy headline, readable secondary text and stable official logo/category/sequence treatment. Integrate relationship diagrams into the same physical scene, with matching light, material and depth; a flat standalone white infographic alone does not establish the chosen R2 family. Vary view angle, scene scale, negative space and scene/diagram balance according to each card reader question or action. Fabless Planning scenes should express product, plan and outsourced-lot relationships; Partner Architecture scenes should express ownership, handoff, reconciliation and responsibility. Semiconductor cues must suit the cohort; never require OSAT chip trays for Fabless or Partner. Maintain identity and hierarchy across both complete five-card carousels while each card adds a distinct meaning. Support opening orientation, comparison, context, responsibility/next step and closing as a flexible narrative, not a mandatory universal workflow. Keep closing/source content clearly separated and readable at ordinary desktop and 390px mobile viewing scale without zoom. Preserve reviewed Taiwan attribution and source scope; do not imply a facility or deployment. Transfer only reviewed colors, lighting, shadows, material depth, typography hierarchy, campaign identity and scene-integrated diagram language. Never copy reference words, record values, exact composition or a fixed prop list; no 12/38/50 layout requirement, mandatory paper/pen/tray, five-folder count or Taipei skyline. Print only exact approved artwork fields/labels and the official mark; caption/native headline/alt stay outside raster. Diagrams may use only reviewed labels, with no invented identifiers dates metrics statuses guarantees or outcomes. Do not add internal proof/review caveats or technical instructions as viewer wording. Actual images must be judged per card, full five-card narrative and across scenarios; unique prompts, IDs, hashes or prop counts cannot prove visual quality."
+    }
+  },
+  "definitions": {
+    "OSAT": "dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài",
+    "Fabless": "thiết kế chip, không sở hữu nhà máy chế tạo",
+    "WIP": "bán thành phẩm"
+  },
+  "limits": {
+    "caption": 255,
+    "headline": 45,
+    "body": 180,
+    "source_text": 200,
+    "cta": 70,
+    "native_headline": 45,
+    "alt": 200,
+    "artwork_labels": 70
+  },
+  "output_policy": {
+    "extension": ".png",
+    "policy": "native_square_min",
+    "min_edge": 1080
+  },
+  "ad_order": [
+    "F2-A",
+    "P2-A"
+  ],
+  "card_order": {
+    "F2-A": [
+      "F2-A1",
+      "F2-A2",
+      "F2-A3",
+      "F2-A4",
+      "F2-A5"
+    ],
+    "P2-A": [
+      "P2-A1",
+      "P2-A2",
+      "P2-A3",
+      "P2-A4",
+      "P2-A5"
+    ]
+  },
+  "groups": [
+    [
+      "F2-A1"
+    ],
+    [
+      "F2-A2"
+    ],
+    [
+      "F2-A3"
+    ],
+    [
+      "F2-A4"
+    ],
+    [
+      "F2-A5"
+    ],
+    [
+      "P2-A1"
+    ],
+    [
+      "P2-A2"
+    ],
+    [
+      "P2-A3"
+    ],
+    [
+      "P2-A4"
+    ],
+    [
+      "P2-A5"
+    ]
+  ],
+  "reuse_fields": [
+    "headline",
+    "body",
+    "source_text",
+    "cta",
+    "native_headline",
+    "alt",
+    "artwork_labels"
+  ],
+  "parent_review_status": "PENDING_REAL_SOURCE_COPY_CONTRACT_REVIEW",
+  "generation_status": "NOT_RUN_PARENT_DISPATCH_ONLY",
+  "call_envelope": {
+    "base_per_model": 10,
+    "base_total": 20,
+    "correction_total": 0
+  },
+  "superseded_proposal": "Prior prepared seven-card proposal superseded by direct full-carousel mandate; historical kit/criteria bytes retained",
+  "timing": "This Sol shared alignment/preparation overhead is separate from later candidate preparation and four-stage benchmark comparison",
+  "candidate_preparation": {
+    "contract_template": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/contract-template.json",
+    "replace_only": [
+      "MODEL in contract revision and output.directory with admitted leaf sol or luna"
+    ],
+    "output_directory_per_model": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/MODEL/native",
+    "deliverables": [
+      "contract.json",
+      "storyboard.md",
+      "calls-draft.json"
+    ],
+    "calls_draft_format": "One object with schema_version=1, revision and calls list; each exact gate call shape includes call_id,targets,references,concepts,artwork_text,prompt,prompt_sha256,output_id,output_path; no review/release/spec authority refs",
+    "call_ids": "F2_A1...F2_A5 then P2_A1...P2_A5",
+    "output_ids": "f2-a1...f2-a5 then p2-a1...p2-a5",
+    "artwork_text": "gate.artwork(shared card); exact shared labels; no additional wording",
+    "prompt": "gate.make_prompt(candidate_contract,call), exact UTF-8 SHA256",
+    "concept_review": "Independent leaf storyboard and intended scene within exact common copy/alts/labels; parent independently reviews. Any required alt change goes to common owner and fresh parent review before dispatch; never silently diverge shared copy.",
+    "generation_operator": "Parent only; leaf does not author final spec/review/release or dispatch image tools"
+  },
+  "native_check_api": {
+    "function": "native_output_check(root, release_path, parent_release_sha256, spec_path, call_id)",
+    "cli": "python -B scripts/verify_imagegen_preflight.py native-output-check --release <parent-release> --release-sha256 <parent-pin> --spec <bound-spec> --call-id <selected> --output <new-operator-receipt>",
+    "behavior": "Read/recheck independently pinned inputs and actual output PNG container/hash/dimensions. Enforce native_square_min>=1080 or unchanged old exact contract; no transformation/provenance or visual certification."
+  },
+  "reference_tool_capacity": {
+    "observed_max_referenced_image_paths": 5,
+    "observed_error": "First parent built-in ImageGen attempt rejected before inference: referenced_image_paths at most 5",
+    "generated_images_in_rejected_attempt": 0,
+    "selected_r2_roles": [
+      "opening r2-1",
+      "relation r2-2",
+      "context r2-4",
+      "closing r2-6"
+    ],
+    "brand": "official digiwin-logo.webp fifth",
+    "all_six_r2_images_retained_for_human_comparison": true,
+    "attribution": "Operator/tool-surface correction, not child configuration failure",
+    "old_seven_reference_bindings": "Retained immutable; fresh parent review/release/spec required before dispatch"
+  }
+}

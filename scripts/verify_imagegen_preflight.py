@@ -11,13 +11,16 @@ import hashlib
 import json
 from pathlib import Path, PureWindowsPath
 import re
+import struct
+import zlib
 import sys
 
 VERSION = 1
 CARD_FIELDS = ("headline", "body", "source_text", "cta", "native_headline", "alt", "artwork_labels")
 ART_FIELDS = ("headline", "body", "source_text", "cta", "artwork_labels")
 TERMS = ("OSAT", "Fabless", "WIP")  # Current PO policy; ERP/MES deliberately exempt.
-ROLES = {"palette", "lighting", "brand_asset"}
+ROLES = {"palette", "lighting", "brand_asset", "campaign_visual"}
+CAMPAIGN_ATTRIBUTES = {"colors", "lighting", "shadows", "material_depth", "typography_hierarchy", "campaign_identity", "scene_diagram_integration"}
 
 
 class Invalid(ValueError):
@@ -125,12 +128,19 @@ def artwork(card):
 
 def make_prompt(contract, call):
     """One bounded assembly contract; no copied reference composition or internal ledger."""
+    campaign_guidance = ("Campaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\n"
+                         "Palette/lighting references supply only their declared colors, lighting and shadows.\n"
+                         "Never copy reference words, record data, exact composition or mandatory props.\n") if "campaign" in contract["style"] else ""
+    output_guidance = ("\nOUTPUT REQUIREMENT\n"
+                       + canonical(contract["output"]) + "\n"
+                       + "Create one square native PNG with minimum edge " + str(contract["output"]["min_edge"])
+                       + " pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.") if contract["output"].get("policy") == "native_square_min" else ""
     return ("Create the approved carousel artwork. Use only approved artwork text for printed wording.\n"
             "References supply only their declared attributes; never copy reference wording, record data or composition.\n"
-            "STYLE\n" + canonical(contract["style"]) + "\n"
+            + campaign_guidance + "STYLE\n" + canonical(contract["style"]) + "\n"
             "REFERENCE ROLES\n" + canonical(call["references"]) + "\n"
             "CARD CONCEPTS (not printed labels)\n" + canonical(call["concepts"]) + "\n"
-            "APPROVED ARTWORK TEXT\n" + canonical(call["artwork_text"]))
+            "APPROVED ARTWORK TEXT\n" + canonical(call["artwork_text"]) + output_guidance)
 
 
 def validate(root, release_path, release_sha256, spec_path, scope_call_id=None, protect_outputs=True):
@@ -271,21 +281,25 @@ def validate(root, release_path, release_sha256, spec_path, scope_call_id=None, 
         shape(ref, ("path", "sha256", "revision", "role", "attributes"))
         require(ref["role"] in ROLES, "Unsupported reference role")
         string_list(ref["attributes"], "reference attributes")
+        if ref["role"] == "campaign_visual":
+            require(set(ref["attributes"]) <= CAMPAIGN_ATTRIBUTES, "Campaign reference cannot transfer wording/data/props/exact composition")
+            require("campaign" in contract["style"], "Campaign reference requires reviewed campaign style")
         require(ref["role"] not in ("palette", "lighting") or set(ref["attributes"]) <= {"colors", "lighting", "shadows"}, "Style-only role cannot transfer composition/text/props")
         inputs.ref({k: ref[k] for k in ("path", "sha256", "revision")}, False)
         identity = (str(inputs.path(ref["path"])), ref["role"])
         require(identity not in ref_keys, "Duplicate reference role")
         ref_keys.add(identity)
-    shape(contract["style"], ("brand", "palette", "lighting", "avoid"))
+    shape(contract["style"], ("brand", "palette", "lighting", "avoid"), ("campaign",))
+    if "campaign" in contract["style"]:
+        shape(contract["style"]["campaign"], ("revision", "instructions"))
+        for key in ("revision", "instructions"):
+            text(contract["style"]["campaign"][key], "campaign " + key)
     for key in ("brand", "lighting"):
         text(contract["style"][key], "style " + key)
     for key in ("palette", "avoid"):
         string_list(contract["style"][key], "style " + key, False)
-    shape(contract["output"], ("directory", "extension", "width", "height"))
+    validate_output_policy(contract["output"])
     output_dir = inputs.path(contract["output"]["directory"])
-    require(contract["output"]["extension"] == ".png", "Only original PNG output planned")
-    for key in ("width", "height"):
-        require(type(contract["output"][key]) is int and contract["output"][key] > 0, "Positive output dimensions required")
 
     spec = inputs.json(spec_path)
     shape(spec, ("schema_version", "revision", "release", "contract", "copy", "review", "calls"))
@@ -338,6 +352,73 @@ def validate(root, release_path, release_sha256, spec_path, scope_call_id=None, 
     return receipt, {"inputs": inputs, "contract": contract, "copy": copy, "spec": spec}
 
 
+def validate_output_policy(output):
+    """Missing policy preserves the original exact-size contract."""
+    policy = output.get("policy", "exact")
+    if policy == "exact":
+        shape(output, ("directory", "extension", "width", "height"), ("policy",))
+        for key in ("width", "height"):
+            require(type(output[key]) is int and output[key] > 0, "Positive output dimensions required")
+    elif policy == "native_square_min":
+        shape(output, ("directory", "extension", "policy", "min_edge"))
+        require(type(output["min_edge"]) is int and output["min_edge"] >= 1080, "Native square minimum must be >=1080")
+    else:
+        raise Invalid("Unsupported output policy")
+    require(output["extension"] == ".png", "Only original PNG output planned")
+
+
+def png_dimensions(raw):
+    """Read PNG container dimensions with chunk CRC/bounds checks; no visual/provenance certification."""
+    require(raw[:8] == b"\x89PNG\r\n\x1a\n", "Native output is not PNG")
+    offset, dimensions, ended = 8, None, False
+    while offset < len(raw):
+        require(offset + 12 <= len(raw), "Truncated PNG chunk")
+        length = int.from_bytes(raw[offset:offset + 4], "big")
+        kind = raw[offset + 4:offset + 8]
+        end = offset + 12 + length
+        require(end <= len(raw), "Truncated PNG payload")
+        payload = raw[offset + 8:offset + 8 + length]
+        require(zlib.crc32(kind + payload) & 0xffffffff == int.from_bytes(raw[end - 4:end], "big"), "PNG chunk CRC mismatch")
+        if dimensions is None:
+            require(kind == b"IHDR" and length == 13, "PNG first chunk must be IHDR")
+            dimensions = struct.unpack(">II", payload[:8])
+            require(all(dimensions), "PNG dimensions must be positive")
+        else:
+            require(kind != b"IHDR", "Duplicate PNG IHDR")
+        offset = end
+        if kind == b"IEND":
+            require(length == 0 and offset == len(raw), "Invalid PNG end/trailing bytes")
+            ended = True
+            break
+    require(dimensions is not None and ended, "Incomplete PNG container")
+    return dimensions
+
+
+def check_dimensions(output, dimensions):
+    validate_output_policy(output)
+    width, height = dimensions
+    if output.get("policy", "exact") == "native_square_min":
+        require(width == height and width >= output["min_edge"], "Native output must be square and meet minimum edge")
+    else:
+        require((width, height) == (output["width"], output["height"]), "Native output differs from exact dimensions")
+
+
+def native_output_check(root, release_path, release_sha256, spec_path, call_id):
+    receipt, state = validate(root, release_path, release_sha256, spec_path, scope_call_id=call_id, protect_outputs=False)
+    require(call_id is not None, "Native output check requires selected call")
+    call = next(c for c in state["spec"]["calls"] if c["call_id"] == call_id)
+    inputs = state["inputs"]
+    raw = inputs.read(call["output_path"])
+    dimensions = png_dimensions(raw)
+    check_dimensions(state["contract"]["output"], dimensions)
+    inputs.recheck()
+    return {**receipt, "layer": "POSTGEN_DIMENSION_CHECK", "call_id": call_id,
+            "output_path": call["output_path"], "native_sha256": digest(raw), "native_bytes": len(raw),
+            "actual_dimensions": list(dimensions), "output_policy": state["contract"]["output"],
+            "dimension_verdict": "PASS", "native_provenance_verdict": "NOT_ASSESSED",
+            "rendered_artifact_verdict": "NOT_ASSESSED"}, state
+
+
 def dispatch_check(root, release_path, release_sha256, spec_path, receipt_path, dispatch_path):
     check_files = Inputs(root)
     saved = check_files.json(receipt_path)
@@ -374,7 +455,7 @@ def viewer_check(root, release_path, release_sha256, spec_path, viewer_path):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("mode", choices=("preflight", "dispatch-check", "viewer-check"))
+    parser.add_argument("mode", choices=("preflight", "dispatch-check", "viewer-check", "native-output-check"))
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--release", required=True, help="Repo-relative trusted release file")
     parser.add_argument("--release-sha256", required=True, help="Coordinator-supplied pin, not read from call spec")
@@ -387,7 +468,9 @@ def main(argv=None):
     args = parser.parse_args(argv)
     try:
         common = (args.root, args.release, args.release_sha256, args.spec)
-        if args.mode == "dispatch-check":
+        if args.mode == "native-output-check":
+            result, state = native_output_check(*common, args.call_id)
+        elif args.mode == "dispatch-check":
             require(args.receipt and args.dispatch, "Dispatch check requires --receipt and --dispatch")
             result, state = dispatch_check(*common, args.receipt, args.dispatch)
         elif args.mode == "viewer-check":
