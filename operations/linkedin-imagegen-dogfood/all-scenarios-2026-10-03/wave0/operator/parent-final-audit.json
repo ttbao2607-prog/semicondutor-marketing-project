@@ -1,0 +1,69 @@
+{
+  "AUDIT_SCOPE": "Current wave0P3 full5 cardscoped review plusremainingdraftpreparation; nofutureproductionPASS",
+  "CONTRACT_REF": {
+    "operations\\linkedin-imagegen-dogfood\\all-scenarios-2026-10-03\\operator\\execution-contract.json": "340c038518febac5ec46add0a5fabc441867d502de9c9e152a14a78698ab63dc",
+    "operations\\linkedin-imagegen-dogfood\\all-scenarios-2026-10-03\\operator\\authority.md": "23793060eaed368d1b2f6a85a5edcdf3abaeadf012fd1c7446ea98a4f8202e79",
+    "operations\\linkedin-imagegen-dogfood\\all-scenarios-2026-10-03\\wave0\\operator\\p3\\release.json": "4b82bc17f3a55fabb65e2a5c3c896ad62ee1a9ff5590c0b4423d0da4c1765f41",
+    "operations\\linkedin-imagegen-dogfood\\all-scenarios-2026-10-03\\wave0\\operator\\p3-correction\\release.json": "d59a561dcedc56cbec0388d20d0efa3ecc416dccad80618f1f3dc1af7e64f1c2",
+    "operations\\linkedin-imagegen-dogfood\\all-scenarios-2026-10-03\\wave0\\common\\p3-copy.json": "b5225251b5abe014caa2d9fcd2e38ebc3f70b19188ac28ac052f08d4ff41ca19",
+    "operations\\linkedin-imagegen-dogfood\\all-scenarios-2026-10-03\\wave0\\operator\\render-positions.json": "5910e93778dba244b1fbb8b245d79c00d0967c083009af78a2003b2e2b708506"
+  },
+  "BASELINE_REF": "882e621d5e1fb6a04710be59c08ba287cbf3d0ed",
+  "CANDIDATE_REF": {
+    "copy_sha256": "b5225251b5abe014caa2d9fcd2e38ebc3f70b19188ac28ac052f08d4ff41ca19",
+    "viewer_html_sha256": "ba040b4d9198b00db368aad9002615f42fb4c466a69a863dfad0844ab0f99ef8",
+    "closing_sha256": "867c3299bfe35dbeb352f915f960805158dff1c1198aa8c4dff3c12a53254f33"
+  },
+  "VERDICT": "FAIL",
+  "execution_status": "PARTIAL",
+  "parent_disposition": "STOPPED_AT_WAVE0_P3_CLOSING_CHANGES_REQUIRED",
+  "COVERAGE": {
+    "AC01": "PASS — STRUCTURAL/CONTRACT — parent exact ads projection: only compact body/source A5 delta; all prior sources/references/copy/review/release independently hashed;11 Git snapshots comparedbyte-exact;9source drafts reviewed as preparationonly",
+    "AC02": "PASS — BEHAVIORAL/RUNTIME — both paired exactSol/lowacceptance;fresh scoped dispatch/base+correction andnativechecks;2new1254square originalsbyte-identical;49unit checks PASS",
+    "AC03": "FAIL — VISUAL — corrected A5source still small narrowfooter at390mobile/image332.6667 withoutzoom; approximatefont size judgedvisually, not instrumented OCR; headline/copy/logo/nointernalwording scopedPASS",
+    "AC04": "PASS — VISUAL — P3A1-A4 freshnative+mobile+desktopreusequalified, all5positions10records/nooverflow;dots/prevnext/Rightkey/endpoints observed;4wording transitions coherent;sharedbrightR2/Sol family scopedmatchesF3; nofullcampaign acceptance",
+    "AC05": "PASS — STRUCTURAL/CONTRACT — all trackedbeforehashesunchangedbeforecanonicalsync; exact7filecleanviewer/manifestsourcesmatched;pendingcanonicalsyncverifiedseparately",
+    "AC06": "PASS — STRUCTURAL/CONTRACT —1base+1correction,4reused;9treatments45cardsdraftsNOT_RUN/NOT_RELEASED, P3NOT_FROZEN; oldF3freezeexactretained"
+  },
+  "FINDINGS": {
+    "FAILED_AC": "AC03",
+    "EXPECTED": "Source/context/attribution comfortablylegible at ordinarymobile332.667imagewidth, approximatelybodylikehierarchy in dedicatedreadablearea; sameunchangedcopy",
+    "OBSERVED": "Baseandsolecorrection retainedsmallsourcefooter; correction reference-shapedicon/sourceblock remainsnarrow,source materiallysmallerthanbody. No finalheadlineperioderrorinthisrun.",
+    "EVIDENCE": {
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/operator/evidence/rollout-all-p3-mobile-base.png": "c6bd3cbc23f45dfcc0260a7455c2dcbc8ca85189ef8cbfeadfac7245bcaa2a7c",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/operator/evidence/rollout-all-p3-mobile-r4.png": "2230c0afcdf4c3880d413d39e4732514fc6c961ad08ba2200429c2d05fc865a3"
+    },
+    "EVIDENCE_GAP": "No instrumented rasterfontmeasurement; direct nativeandactualmobilescreenshot visualjudgment. NoF1/F2orother productiongenerated/rendered.",
+    "RESTORE_CONDITION": "Newbounded PO mandate to reviseP3closinglayout and reopenoneimageattempt, thenfreshsource/contract/dispatch/native/mobileaudit; no criterionweakening",
+    "REQUIRED_RECHECK": "A5 exacttext/logo/source/mobilecomfort+affectedfull5narrative/style+protectedbytes+freshbindings"
+  },
+  "reuse_scope": "P3A1-A4 current exactwording/native/logo/pendingmeaning/mobile/desktop confirmed; nooldwholecarouselapprovalcarry",
+  "test_scope": "Parent49unitchecks freshlyexecuted; no19negative/3positive candidatefixture replay claimedthisrun",
+  "counts": {
+    "base": 1,
+    "correction": 1,
+    "reused": 4,
+    "future_base": 0,
+    "prepared_treatments": 9,
+    "prepared_cards": 45
+  },
+  "workers": [
+    {
+      "path": "/root/dogfood_sol",
+      "thread": "01a0ff50-0176-7ac0-8cef-ac6c6f33ee9b",
+      "receipt": "C:\\Users\\ASUS\\.codex\\orchestration-admissions\\admission-3c14bd32-681d-4d5d-b514-6287044a03b8.json",
+      "model": "gpt-6.1-sol",
+      "effort": "low"
+    },
+    {
+      "path": "/root/rollout_source_sol",
+      "thread": "01a1013d-91ae-7e80-97d0-732049d90635",
+      "receipt": "C:\\Users\\ASUS\\.codex\\orchestration-admissions\\admission-f6f60156-2fe0-4c26-bed4-5b570da0aa3d.json",
+      "model": "gpt-6.1-sol",
+      "effort": "low"
+    }
+  ],
+  "audit_mode": "SELF",
+  "freeze": "Existingmechanism+exactF3retained; noP3/newexactsetPOacceptance",
+  "git": "Newworkuncommitted/unstaged onlocalbranch; no push/merge/live"
+}

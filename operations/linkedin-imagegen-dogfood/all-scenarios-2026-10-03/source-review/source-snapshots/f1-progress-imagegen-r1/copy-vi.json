@@ -1,0 +1,287 @@
+{
+  "scenario_id": "F1",
+  "scenario_name": "Tiến độ theo sản phẩm/lot",
+  "cohort": "Operations/Supply Chain",
+  "operating_question": "Có báo cáo từng đối tác. Đã nhìn rõ tiến độ của từng lot?",
+  "revision": "f1-progress-p1-r1",
+  "status": "OFFLINE_TEST_PACK_COMPLETED",
+  "caption": {
+    "text": "Digiwin tư vấn ERP bán dẫn. Với nhóm Fabless (thiết kế vi mạch) theo dõi gia công ngoài tại OSAT (đóng gói, kiểm thử), đây là cách đối chiếu WIP (bán thành phẩm) theo từng lot.",
+    "length": 176
+  },
+  "destination": "https://solutions.digiwin.com.vn/fabless?lang=vi",
+  "cards": [
+    {
+      "card_id": "A1",
+      "treatment": "A",
+      "role": "Situation progression",
+      "native": "Tiến độ lot: nhìn từ báo cáo rời?",
+      "native_length": 34,
+      "image_headline": "Nhận báo cáo từ đối tác: đã rõ từng lot?",
+      "image_headline_length": 42,
+      "image_body": "Nhóm vận hành Fabless nhận báo cáo định kỳ từ các đối tác gia công nhưng mất nhiều giờ gom số liệu để biết chính xác từng lô wafer và chip đang nằm ở đâu.",
+      "image_body_length": 152,
+      "alt": "Minh họa nhóm quản lý vận hành Fabless tổng hợp báo cáo tiến độ gia công chip từ nhiều đối tác.",
+      "prompt_brief": "Professional semiconductor cleanroom editorial photography, pure white background, outsourced semiconductor production lot progress report sheet and silicon wafer tray on daylight table, Digiwin electric blue #0052FF title typography and dark navy accents, strictly no human faces, no neon, no dark mode, no fake metrics."
+    },
+    {
+      "card_id": "A2",
+      "treatment": "A",
+      "role": "Situation progression",
+      "native": "Đối chiếu mã lot và datecode",
+      "native_length": 30,
+      "image_headline": "Góc nhìn theo sản phẩm và mã lô thực tế",
+      "image_headline_length": 41,
+      "image_body": "Thay vì đọc từng bảng tính riêng rẽ, nhóm chuẩn hóa thông tin theo mã sản phẩm, mã lô nội bộ, datecode và mã phân loại BIN của từng đợt giao gia công ngoài.",
+      "image_body_length": 158,
+      "alt": "Bảng dữ liệu chuẩn hóa thông tin lot bán dẫn theo mã sản phẩm, datecode và trạng thái công đoạn gia công.",
+      "prompt_brief": "Close-up macro editorial photography of semiconductor BGA chip tray, pure white background, bright white cleanroom desk, outsourced lot travel sheet with datecode, Digiwin electric blue #0052FF headline highlight, strictly no human faces, no neon, no dark mode."
+    },
+    {
+      "card_id": "A3",
+      "treatment": "A",
+      "role": "Situation progression",
+      "native": "Xác định trạng thái công đoạn",
+      "native_length": 29,
+      "image_headline": "Công đoạn dở dang dừng tại vị trí nào?",
+      "image_headline_length": 40,
+      "image_body": "Mỗi lô được xác định rõ đang ở bước mài lát wafer, đóng gói hay kiểm thử hoàn tất, giúp nhóm phát hiện sớm các điểm nghẽn mà không cần đợi đối tác giục.",
+      "image_body_length": 153,
+      "alt": "Minh họa theo dõi trạng thái công đoạn gia công bán dẫn từ mài wafer đến đóng gói và kiểm thử.",
+      "prompt_brief": "Cleanroom engineering documentation review, physical outsourced lot status checklist sheet next to silicon wafer box, pure white background, Digiwin electric blue #0052FF title, strictly no human faces, no neon, no dark mode."
+    },
+    {
+      "card_id": "A4",
+      "treatment": "A",
+      "role": "Situation progression",
+      "native": "Thống nhất dữ liệu giao tiếp",
+      "native_length": 31,
+      "image_headline": "Một bảng số liệu chung giữa hai bên",
+      "image_headline_length": 37,
+      "image_body": "Nhóm kỹ thuật và đối tác cùng chốt phương thức gửi nhận định kỳ, thống nhất định dạng dữ liệu và người phụ trách cập nhật tiến độ cho từng đợt sản xuất.",
+      "image_body_length": 155,
+      "alt": "Biên bản thống nhất phương thức cập nhật tiến độ gia công và người chịu trách nhiệm xác nhận số liệu.",
+      "prompt_brief": "Editorial cleanroom desk composition, partner coordination sign-off sheet with pen and lot milestone checklist, pure white daylight background, Digiwin electric blue #0052FF headline, strictly no human faces, no neon, no dark mode."
+    },
+    {
+      "card_id": "A5",
+      "treatment": "A",
+      "role": "Situation progression",
+      "native": "Digiwin: quản trị WIP gia công ngoài",
+      "native_length": 35,
+      "image_headline": "Từ báo cáo rời đến góc nhìn xuyên suốt.",
+      "image_headline_length": 40,
+      "image_body": "Chuẩn hóa tiến độ từng lot là bước đầu quản trị chuỗi gia công. Digiwin chia sẻ kinh nghiệm kết nối ERP và MES chuyên ngành bán dẫn từ tài liệu thực tiễn tại Đài Loan.",
+      "image_body_length": 169,
+      "alt": "Mô hình tổng hợp quản trị tiến độ lot gia công bán dẫn; ghi chú tài liệu Digiwin Đài Loan về ERP và MES.",
+      "regional_label": "Góc nhìn ngành tại Đài Loan",
+      "regional_context": "Tài liệu bán dẫn Digiwin tại Đài Loan chia sẻ kinh nghiệm kết nối ERP và MES trong quản trị chuỗi gia công.",
+      "invitation": "Đọc thêm về bài toán Fabless",
+      "prompt_brief": "Closing summary card on pure white background, cleanroom daylight aesthetic, five connected folder icons across center, flat silhouette panel of Taipei 101 skyline at bottom, Digiwin brand mark, strictly no human faces, no neon, no dark mode."
+    },
+    {
+      "card_id": "B1",
+      "treatment": "B",
+      "role": "Question framework",
+      "native": "Tiến độ lot: nhìn từ báo cáo rời?",
+      "native_length": 34,
+      "image_headline": "Nhận báo cáo từ đối tác: đã rõ từng lot?",
+      "image_headline_length": 42,
+      "image_body": "Nhóm vận hành Fabless nhận báo cáo định kỳ từ các đối tác gia công nhưng mất nhiều giờ gom số liệu để biết chính xác từng lô wafer và chip đang nằm ở đâu.",
+      "image_body_length": 152,
+      "alt": "Minh họa nhóm quản lý vận hành Fabless tổng hợp báo cáo tiến độ gia công chip từ nhiều đối tác.",
+      "prompt_brief": "Professional semiconductor cleanroom editorial photography, pure white background, outsourced semiconductor production lot progress report sheet and silicon wafer tray on daylight table, Digiwin electric blue #0052FF title typography and dark navy accents, strictly no human faces, no neon, no dark mode, no fake metrics."
+    },
+    {
+      "card_id": "B2",
+      "treatment": "B",
+      "role": "Question framework",
+      "native": "1. Mã lot đã khớp mã sản phẩm?",
+      "native_length": 32,
+      "image_headline": "Câu hỏi 1: Mã lô đã quy về chuẩn chung?",
+      "image_headline_length": 39,
+      "image_body": "Báo cáo từ mỗi đối tác có theo đúng quy ước mã sản phẩm, số lô và mã datecode của doanh nghiệp để dễ dàng tra cứu chéo khi có sự cố hay không.",
+      "image_body_length": 150,
+      "alt": "Câu hỏi kiểm tra quy ước mã lô và mã sản phẩm giữa doanh nghiệp Fabless và đối tác gia công.",
+      "prompt_brief": "Cleanroom inspection table, numbered step '1' card in Digiwin electric blue #0052FF, semiconductor chip carrier tray on pure white surface, high-end daylight editorial style, strictly no human faces, no neon, no dark mode."
+    },
+    {
+      "card_id": "B3",
+      "treatment": "B",
+      "role": "Question framework",
+      "native": "2. Công đoạn dở dang cập nhật khi nào?",
+      "native_length": 33,
+      "image_headline": "Câu hỏi 2: Trạng thái chốt tại thời điểm nào?",
+      "image_headline_length": 38,
+      "image_body": "Số lượng wafer hay IC hoàn thành ở từng trạm gia công được chốt theo mốc thời gian nào, có phân tách rõ phế phẩm và sản lượng đạt chuẩn hay không.",
+      "image_body_length": 154,
+      "alt": "Câu hỏi xác định thời điểm chốt sản lượng đạt chuẩn và phế phẩm dở dang tại từng trạm gia công.",
+      "prompt_brief": "Macro cleanroom daylight photo, numbered step '2' in Digiwin electric blue #0052FF, lot progress and WIP tracking record on pure white surface, Digiwin brand context, strictly no human faces, no neon, no dark mode."
+    },
+    {
+      "card_id": "B4",
+      "treatment": "B",
+      "role": "Question framework",
+      "native": "3. Ai chịu trách nhiệm đối chiếu?",
+      "native_length": 31,
+      "image_headline": "Câu hỏi 3: Người đầu mối xác nhận là ai?",
+      "image_headline_length": 40,
+      "image_body": "Khi phát hiện lệch số lượng hoặc chậm tiến độ giữa các khâu, đầu mối phụ trách chuỗi cung ứng của hai bên đối chiếu và xử lý theo quy trình nào.",
+      "image_body_length": 155,
+      "alt": "Câu hỏi xác định người đầu mối phụ trách đối chiếu và giải quyết lệch số liệu gia công ngoài.",
+      "prompt_brief": "Semiconductor cleanroom plant handoff verification concept, numbered step '3' card in Digiwin electric blue #0052FF, lot release sign-off clipboard on pure white background, Digiwin brand mark, strictly no human faces, no neon, no dark mode."
+    },
+    {
+      "card_id": "B5",
+      "treatment": "B",
+      "role": "Question framework",
+      "native": "Digiwin: quản trị WIP gia công ngoài",
+      "native_length": 35,
+      "image_headline": "Từ báo cáo rời đến góc nhìn xuyên suốt.",
+      "image_headline_length": 40,
+      "image_body": "Chuẩn hóa tiến độ từng lot là bước đầu quản trị chuỗi gia công. Digiwin chia sẻ kinh nghiệm kết nối ERP và MES chuyên ngành bán dẫn từ tài liệu thực tiễn tại Đài Loan.",
+      "image_body_length": 169,
+      "alt": "Mô hình tổng hợp quản trị tiến độ lot gia công bán dẫn; ghi chú tài liệu Digiwin Đài Loan về ERP và MES.",
+      "regional_label": "Góc nhìn ngành tại Đài Loan",
+      "regional_context": "Tài liệu bán dẫn Digiwin tại Đài Loan chia sẻ kinh nghiệm kết nối ERP và MES trong quản trị chuỗi gia công.",
+      "invitation": "Đọc thêm về bài toán Fabless",
+      "prompt_brief": "Closing summary card on pure white background, cleanroom daylight aesthetic, five connected folder icons across center, flat silhouette panel of Taipei 101 skyline at bottom, Digiwin brand mark, strictly no human faces, no neon, no dark mode."
+    }
+  ],
+  "planned_calls": [
+    {
+      "call_id": "CALL_A1_B1",
+      "card_targets": [
+        "A1",
+        "B1"
+      ],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "f1_r1_a1_shared",
+        "AspectRatio": "1:1",
+        "Prompt": "Professional semiconductor cleanroom editorial photography, pure white background, outsourced semiconductor production lot progress report sheet and silicon wafer tray on daylight table, Digiwin electric blue #0052FF title typography and dark navy accents, strictly no human faces, no neon, no dark mode, no fake metrics.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png"
+        ]
+      }
+    },
+    {
+      "call_id": "CALL_A2",
+      "card_targets": [
+        "A2"
+      ],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "f1_r1_a2",
+        "AspectRatio": "1:1",
+        "Prompt": "Close-up macro editorial photography of semiconductor BGA chip tray, pure white background, bright white cleanroom desk, outsourced lot travel sheet with datecode, Digiwin electric blue #0052FF headline highlight, strictly no human faces, no neon, no dark mode.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png"
+        ]
+      }
+    },
+    {
+      "call_id": "CALL_A3",
+      "card_targets": [
+        "A3"
+      ],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "f1_r1_a3",
+        "AspectRatio": "1:1",
+        "Prompt": "Cleanroom engineering documentation review, physical outsourced lot status checklist sheet next to silicon wafer box, pure white background, Digiwin electric blue #0052FF title, strictly no human faces, no neon, no dark mode.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "CALL_A4",
+      "card_targets": [
+        "A4"
+      ],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "f1_r1_a4",
+        "AspectRatio": "1:1",
+        "Prompt": "Editorial cleanroom desk composition, partner coordination sign-off sheet with pen and lot milestone checklist, pure white daylight background, Digiwin electric blue #0052FF headline, strictly no human faces, no neon, no dark mode.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "CALL_A5_B5",
+      "card_targets": [
+        "A5",
+        "B5"
+      ],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "f1_r1_a5_shared",
+        "AspectRatio": "1:1",
+        "Prompt": "Closing summary card on pure white background, cleanroom daylight aesthetic, five connected folder icons across center, flat silhouette panel of Taipei 101 skyline at bottom, Digiwin brand mark, strictly no human faces, no neon, no dark mode.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "CALL_B2",
+      "card_targets": [
+        "B2"
+      ],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "f1_r1_b2",
+        "AspectRatio": "1:1",
+        "Prompt": "Cleanroom inspection table, numbered step '1' card in Digiwin electric blue #0052FF, semiconductor chip carrier tray on pure white surface, high-end daylight editorial style, strictly no human faces, no neon, no dark mode.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "CALL_B3",
+      "card_targets": [
+        "B3"
+      ],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "f1_r1_b3",
+        "AspectRatio": "1:1",
+        "Prompt": "Macro cleanroom daylight photo, numbered step '2' in Digiwin electric blue #0052FF, lot progress and WIP tracking record on pure white surface, Digiwin brand context, strictly no human faces, no neon, no dark mode.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "CALL_B4",
+      "card_targets": [
+        "B4"
+      ],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "f1_r1_b4",
+        "AspectRatio": "1:1",
+        "Prompt": "Semiconductor cleanroom plant handoff verification concept, numbered step '3' card in Digiwin electric blue #0052FF, lot release sign-off clipboard on pure white background, Digiwin brand mark, strictly no human faces, no neon, no dark mode.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    }
+  ]
+}

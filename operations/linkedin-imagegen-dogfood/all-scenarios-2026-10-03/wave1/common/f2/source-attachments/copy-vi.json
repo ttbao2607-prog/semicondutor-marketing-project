@@ -1,0 +1,377 @@
+{
+  "scenario_id": "F2",
+  "scenario_name": "Forecast gặp thực tế",
+  "cohort": "Fabless Planning/Program",
+  "operating_question": "Khi forecast thay đổi, WIP gia công ngoài nào cần được đối chiếu trước?",
+  "revision": "f2-forecast-imagegen-r1-prompt-v2-altmatch",
+  "status": "EARLY_IMAGEGEN_R1_DRAFT_PARENT_REVIEW_GATE",
+  "caption": {
+    "text": "Digiwin tư vấn ERP. Nhóm kế hoạch Fabless (thiết kế chip, không sở hữu nhà máy chế tạo): forecast đổi, WIP (bán thành phẩm) gia công ngoài nào cần đối chiếu?",
+    "length": 157
+  },
+  "destination": "https://solutions.digiwin.com.vn/fabless?lang=vi",
+  "cards": [
+    {
+      "card_id": "A1",
+      "treatment": "A",
+      "role": "Conditional situation progression",
+      "native": "Forecast đổi: đối chiếu từ đâu?",
+      "image_headline": "Forecast đổi, lô nào cần xem trước?",
+      "image_body": "Nếu dự báo nhu cầu thay đổi, nhóm kế hoạch cần xác định các lô gia công liên quan trước khi trao đổi điều chỉnh với đối tác.",
+      "alt": "Forecast đổi, lô nào cần xem trước? Khay chip đen đặt cạnh phiếu kế hoạch trên bàn trắng sáng.",
+      "destination": "https://solutions.digiwin.com.vn/fabless?lang=vi",
+      "prompt_brief": "White background, daylight cleanroom editorial photography for Digiwin, electric blue #0052FF and dark navy #0B132B headline. Scene: two neutral forecast revision sheets beside a black chip waffle pack. No human faces, no neon, no dark mode, no fake metrics. Paper and process props must be blank and unlabelled; no visible text beyond the approved copy.",
+      "native_length": 31,
+      "image_headline_length": 35,
+      "image_body_length": 124,
+      "alt_length": 132,
+      "counts": {
+        "native": 31,
+        "image_headline": 35,
+        "image_body": 124,
+        "alt": 132
+      }
+    },
+    {
+      "card_id": "A2",
+      "treatment": "A",
+      "role": "Conditional situation progression",
+      "native": "Khoanh phạm vi cần đối chiếu",
+      "image_headline": "Bắt đầu từ sản phẩm và kỳ kế hoạch",
+      "image_body": "Khi dự báo thay đổi, nhóm đối chiếu sản phẩm, kỳ kế hoạch và các lô liên quan trước khi trao đổi với đối tác.",
+      "alt": "Bắt đầu từ sản phẩm và kỳ kế hoạch. Phiếu sản phẩm và lịch kế hoạch đặt cạnh khay chip trên bàn sáng.",
+      "destination": "https://solutions.digiwin.com.vn/fabless?lang=vi",
+      "prompt_brief": "White background, daylight cleanroom editorial photography for Digiwin, electric blue #0052FF and dark navy #0B132B headline. Scene: product scope sheet and neutral calendar sheet beside chip tray. No human faces, no neon, no dark mode, no fake metrics. Paper and process props must be blank and unlabelled; no visible text beyond the approved copy.",
+      "native_length": 28,
+      "image_headline_length": 34,
+      "image_body_length": 148,
+      "alt_length": 131,
+      "counts": {
+        "native": 28,
+        "image_headline": 34,
+        "image_body": 148,
+        "alt": 131
+      }
+    },
+    {
+      "card_id": "A3",
+      "treatment": "A",
+      "role": "Conditional situation progression",
+      "native": "Xem trạng thái và thời điểm",
+      "image_headline": "Trạng thái này được ghi nhận khi nào?",
+      "image_body": "Đối chiếu trạng thái lô với thời điểm và nguồn báo cáo. Nếu dữ liệu khác kỳ cập nhật, cần làm rõ trước khi dùng trong cuộc trao đổi kế hoạch.",
+      "alt": "Trạng thái này được ghi nhận khi nào? Tờ ghi thời điểm và nguồn báo cáo đặt cạnh khay chip.",
+      "destination": "https://solutions.digiwin.com.vn/fabless?lang=vi",
+      "prompt_brief": "White background, daylight cleanroom editorial photography for Digiwin, electric blue #0052FF and dark navy #0B132B headline. Scene: dated report sheets with blank neutral fields and chip tray. No human faces, no neon, no dark mode, no fake metrics. Paper and process props must be blank and unlabelled; no visible text beyond the approved copy.",
+      "native_length": 27,
+      "image_headline_length": 37,
+      "image_body_length": 141,
+      "alt_length": 134,
+      "counts": {
+        "native": 27,
+        "image_headline": 37,
+        "image_body": 141,
+        "alt": 134
+      }
+    },
+    {
+      "card_id": "A4",
+      "treatment": "A",
+      "role": "Conditional situation progression",
+      "native": "Chốt câu hỏi cho đối tác",
+      "image_headline": "Còn thiếu gì để trao đổi kế hoạch?",
+      "image_body": "Nhóm ghi phần thông tin còn thiếu và người cần xác nhận với đối tác. Việc điều chỉnh kế hoạch phụ thuộc dữ liệu và thỏa thuận thực tế của các bên.",
+      "alt": "Còn thiếu gì để trao đổi kế hoạch? Phiếu ghi chú và bút đặt cạnh khay chip trên bàn làm việc sáng.",
+      "destination": "https://solutions.digiwin.com.vn/fabless?lang=vi",
+      "prompt_brief": "White background, daylight cleanroom editorial photography for Digiwin, electric blue #0052FF and dark navy #0B132B headline. Scene: open questions clipboard and neutral owner note. No human faces, no neon, no dark mode, no fake metrics. Paper and process props must be blank and unlabelled; no visible text beyond the approved copy.",
+      "native_length": 24,
+      "image_headline_length": 34,
+      "image_body_length": 146,
+      "alt_length": 131,
+      "counts": {
+        "native": 24,
+        "image_headline": 34,
+        "image_body": 146,
+        "alt": 131
+      }
+    },
+    {
+      "card_id": "A5",
+      "treatment": "A",
+      "role": "Conditional situation progression",
+      "native": "Góc nhìn quản trị bán dẫn",
+      "image_headline": "Từ dữ liệu lô đến căn cứ phối hợp.",
+      "image_body": "Đối chiếu phạm vi, nguồn và người xác nhận là căn cứ trao đổi. Tài liệu bán dẫn Digiwin tại Đài Loan đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+      "alt": "Năm thư mục xanh xám nối thành hàng trên nền sáng; khung dưới có hình Taipei 101 và nội dung về tài liệu bán dẫn Digiwin tại Đài Loan.",
+      "destination": "https://solutions.digiwin.com.vn/fabless?lang=vi",
+      "prompt_brief": "White background, daylight cleanroom editorial photography for Digiwin, electric blue #0052FF and dark navy #0B132B headline. Scene: five minimal connected folders alternating blue and grey. No human faces, no neon, no dark mode, no fake metrics. Paper and process props must be blank and unlabelled; no visible text beyond the approved copy.",
+      "regional_label": "Góc nhìn ngành tại Đài Loan",
+      "regional_context": "Tài liệu bán dẫn Digiwin tại Đài Loan đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+      "invitation": "Đọc thêm về bài toán Fabless",
+      "native_length": 25,
+      "image_headline_length": 34,
+      "image_body_length": 152,
+      "alt_length": 160,
+      "counts": {
+        "native": 25,
+        "image_headline": 34,
+        "image_body": 152,
+        "alt": 160,
+        "regional_label": 27,
+        "regional_context": 89,
+        "invitation": 28
+      }
+    },
+    {
+      "card_id": "B1",
+      "treatment": "B",
+      "role": "Three review questions",
+      "native": "Forecast đổi: đối chiếu từ đâu?",
+      "image_headline": "Forecast đổi, lô nào cần xem trước?",
+      "image_body": "Nếu dự báo nhu cầu thay đổi, nhóm kế hoạch cần xác định các lô gia công liên quan trước khi trao đổi điều chỉnh với đối tác.",
+      "alt": "Forecast đổi, lô nào cần xem trước? Khay chip đen đặt cạnh phiếu kế hoạch trên bàn trắng sáng.",
+      "destination": "https://solutions.digiwin.com.vn/fabless?lang=vi",
+      "prompt_brief": "White background, daylight cleanroom editorial photography for Digiwin, electric blue #0052FF and dark navy #0B132B headline. Scene: two neutral forecast revision sheets beside a black chip waffle pack. No human faces, no neon, no dark mode, no fake metrics. Paper and process props must be blank and unlabelled; no visible text beyond the approved copy.",
+      "native_length": 31,
+      "image_headline_length": 35,
+      "image_body_length": 124,
+      "alt_length": 132,
+      "counts": {
+        "native": 31,
+        "image_headline": 35,
+        "image_body": 124,
+        "alt": 132
+      }
+    },
+    {
+      "card_id": "B2",
+      "treatment": "B",
+      "role": "Three review questions",
+      "native": "1. Lô nào liên quan?",
+      "image_headline": "1. Thay đổi chạm tới lô nào?",
+      "image_body": "Sản phẩm và kỳ kế hoạch nào thay đổi? Các lô gia công nào thuộc phạm vi cần đối chiếu? Khoanh phạm vi trước khi xem các báo cáo tiến độ.",
+      "alt": "1. Thay đổi chạm tới lô nào? Phiếu sản phẩm và khay chip trên bàn làm việc sáng.",
+      "destination": "https://solutions.digiwin.com.vn/fabless?lang=vi",
+      "prompt_brief": "White background, daylight cleanroom editorial photography for Digiwin, electric blue #0052FF and dark navy #0B132B headline. Scene: one blue question card beside scope sheet. No human faces, no neon, no dark mode, no fake metrics. Paper and process props must be blank and unlabelled; no visible text beyond the approved copy.",
+      "native_length": 20,
+      "image_headline_length": 28,
+      "image_body_length": 136,
+      "alt_length": 125,
+      "counts": {
+        "native": 20,
+        "image_headline": 28,
+        "image_body": 136,
+        "alt": 125
+      }
+    },
+    {
+      "card_id": "B3",
+      "treatment": "B",
+      "role": "Three review questions",
+      "native": "2. Dữ liệu có cùng thời điểm?",
+      "image_headline": "2. Đang so dữ liệu của thời điểm nào?",
+      "image_body": "Trạng thái và nguồn báo cáo của từng lô được cập nhật khi nào? Khác thời điểm không tự chứng minh chậm tiến độ; cần kiểm tra bối cảnh trước.",
+      "alt": "2. Đang so dữ liệu của thời điểm nào? Phiếu thời điểm và nguồn báo cáo đặt cạnh khay chip.",
+      "destination": "https://solutions.digiwin.com.vn/fabless?lang=vi",
+      "prompt_brief": "White background, daylight cleanroom editorial photography for Digiwin, electric blue #0052FF and dark navy #0B132B headline. Scene: two report sheets and neutral date note. No human faces, no neon, no dark mode, no fake metrics. Paper and process props must be blank and unlabelled; no visible text beyond the approved copy.",
+      "native_length": 29,
+      "image_headline_length": 37,
+      "image_body_length": 140,
+      "alt_length": 134,
+      "counts": {
+        "native": 29,
+        "image_headline": 37,
+        "image_body": 140,
+        "alt": 134
+      }
+    },
+    {
+      "card_id": "B4",
+      "treatment": "B",
+      "role": "Three review questions",
+      "native": "3. Ai xác nhận trước điều chỉnh?",
+      "image_headline": "3. Ai làm rõ phần còn thiếu?",
+      "image_body": "Thông tin nào cần đối tác xác nhận, ai đối chiếu và khi nào trao đổi lại? Sau đó, hai bên có cơ sở bàn bước tiếp theo theo dữ liệu hiện có.",
+      "alt": "3. Ai làm rõ phần còn thiếu? Ghi chú phân công và khay chip trên bàn sáng.",
+      "destination": "https://solutions.digiwin.com.vn/fabless?lang=vi",
+      "prompt_brief": "White background, daylight cleanroom editorial photography for Digiwin, electric blue #0052FF and dark navy #0B132B headline. Scene: three neutral question notes and owner clipboard. No human faces, no neon, no dark mode, no fake metrics. Paper and process props must be blank and unlabelled; no visible text beyond the approved copy.",
+      "native_length": 32,
+      "image_headline_length": 28,
+      "image_body_length": 147,
+      "alt_length": 125,
+      "counts": {
+        "native": 32,
+        "image_headline": 28,
+        "image_body": 147,
+        "alt": 125
+      }
+    },
+    {
+      "card_id": "B5",
+      "treatment": "B",
+      "role": "Three review questions",
+      "native": "Góc nhìn quản trị bán dẫn",
+      "image_headline": "Từ dữ liệu lô đến căn cứ phối hợp.",
+      "image_body": "Đối chiếu phạm vi, nguồn và người xác nhận là căn cứ trao đổi. Tài liệu bán dẫn Digiwin tại Đài Loan đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+      "alt": "Năm thư mục xanh xám nối thành hàng trên nền sáng; khung dưới có hình Taipei 101 và nội dung về tài liệu bán dẫn Digiwin tại Đài Loan.",
+      "destination": "https://solutions.digiwin.com.vn/fabless?lang=vi",
+      "prompt_brief": "White background, daylight cleanroom editorial photography for Digiwin, electric blue #0052FF and dark navy #0B132B headline. Scene: five minimal connected folders alternating blue and grey. No human faces, no neon, no dark mode, no fake metrics. Paper and process props must be blank and unlabelled; no visible text beyond the approved copy.",
+      "regional_label": "Góc nhìn ngành tại Đài Loan",
+      "regional_context": "Tài liệu bán dẫn Digiwin tại Đài Loan đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+      "invitation": "Đọc thêm về bài toán Fabless",
+      "native_length": 25,
+      "image_headline_length": 34,
+      "image_body_length": 152,
+      "alt_length": 160,
+      "counts": {
+        "native": 25,
+        "image_headline": 34,
+        "image_body": 152,
+        "alt": 160,
+        "regional_label": 27,
+        "regional_context": 89,
+        "invitation": 28
+      }
+    }
+  ],
+  "planned_calls": [
+    {
+      "call_id": "F2_CALL_A1_B1",
+      "card_targets": [
+        "A1",
+        "B1"
+      ],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "f2_p1_r1_a1_b1",
+        "AspectRatio": "1:1",
+        "Prompt": "White background, daylight cleanroom editorial photography for Digiwin, electric blue #0052FF and dark navy #0B132B headline. Scene: two neutral forecast revision sheets beside a black chip waffle pack. No human faces, no neon, no dark mode, no fake metrics. Create one 1254x1254 square finished Vietnamese carousel raster. A2-v3 and A5-shared are style references only: borrow their daylight lighting, composition and layout; do not copy wording, labels, numbers, process-tile text, or CTA from them. Use the official logo reference only to reproduce the Digiwin mark once in the top-left header. Visible text whitelist: the exact logo, category, sequence, headline and body specified below; Card 5 may also show only its exact regional panel title, source line and reading CTA specified below. Keep all paper sheets and process cards completely blank and unlabelled; no letters, numerals, small print or extra words anywhere. Preserve daylight lighting and hierarchy. Top 12%: official cyan Digiwin logo once at left, grey vertical separator, exact dark category \"ERP · GIA CÔNG BÁN DẪN\"; right fine connecting line and electric blue exact sequence \"1/5\". Middle 38%: large bold headline exactly \"Forecast đổi, lô nào cần xem trước?\"; first phrase electric blue #0052FF, remaining phrase dark navy #0B132B. Below it left aligned charcoal body exactly \"Nếu dự báo nhu cầu thay đổi, nhóm kế hoạch cần xác định các lô gia công liên quan trước khi trao đổi điều chỉnh với đối tác.\". Bottom 50%: physical black matrix waffle pack containing black packaged semiconductor chips, blank neutral white paper records with pen and pale blue process cards with empty, unlabeled faces. Correct Vietnamese diacritics, generous readable spacing. Do not print native headline, caption, alt or internal role. No fabricated dashboard, no charts, no performance badges, no pass ticks, no customer names, no invented record values.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "F2_CALL_A2",
+      "card_targets": [
+        "A2"
+      ],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "f2_p1_r1_a2",
+        "AspectRatio": "1:1",
+        "Prompt": "White background, daylight cleanroom editorial photography for Digiwin, electric blue #0052FF and dark navy #0B132B headline. Scene: product scope sheet and neutral calendar sheet beside chip tray. No human faces, no neon, no dark mode, no fake metrics. Create one 1254x1254 square finished Vietnamese carousel raster. A2-v3 and A5-shared are style references only: borrow their daylight lighting, composition and layout; do not copy wording, labels, numbers, process-tile text, or CTA from them. Use the official logo reference only to reproduce the Digiwin mark once in the top-left header. Visible text whitelist: the exact logo, category, sequence, headline and body specified below; Card 5 may also show only its exact regional panel title, source line and reading CTA specified below. Keep all paper sheets and process cards completely blank and unlabelled; no letters, numerals, small print or extra words anywhere. Preserve daylight lighting and hierarchy. Top 12%: official cyan Digiwin logo once at left, grey vertical separator, exact dark category \"ERP · GIA CÔNG BÁN DẪN\"; right fine connecting line and electric blue exact sequence \"2/5\". Middle 38%: large bold headline exactly \"Bắt đầu từ sản phẩm và kỳ kế hoạch\"; first phrase electric blue #0052FF, remaining phrase dark navy #0B132B. Below it left aligned charcoal body exactly \"Khi dự báo thay đổi, nhóm đối chiếu sản phẩm, kỳ kế hoạch và các lô liên quan trước khi trao đổi với đối tác.\". Bottom 50%: physical black matrix waffle pack containing black packaged semiconductor chips, blank neutral white paper records with pen and pale blue process cards with empty, unlabeled faces. Correct Vietnamese diacritics, generous readable spacing. Do not print native headline, caption, alt or internal role. No fabricated dashboard, no charts, no performance badges, no pass ticks, no customer names, no invented record values.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "F2_CALL_A3",
+      "card_targets": [
+        "A3"
+      ],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "f2_p1_r1_a3",
+        "AspectRatio": "1:1",
+        "Prompt": "White background, daylight cleanroom editorial photography for Digiwin, electric blue #0052FF and dark navy #0B132B headline. Scene: dated report sheets with blank neutral fields and chip tray. No human faces, no neon, no dark mode, no fake metrics. Create one 1254x1254 square finished Vietnamese carousel raster. A2-v3 and A5-shared are style references only: borrow their daylight lighting, composition and layout; do not copy wording, labels, numbers, process-tile text, or CTA from them. Use the official logo reference only to reproduce the Digiwin mark once in the top-left header. Visible text whitelist: the exact logo, category, sequence, headline and body specified below; Card 5 may also show only its exact regional panel title, source line and reading CTA specified below. Keep all paper sheets and process cards completely blank and unlabelled; no letters, numerals, small print or extra words anywhere. Preserve daylight lighting and hierarchy. Top 12%: official cyan Digiwin logo once at left, grey vertical separator, exact dark category \"ERP · GIA CÔNG BÁN DẪN\"; right fine connecting line and electric blue exact sequence \"3/5\". Middle 38%: large bold headline exactly \"Trạng thái này được ghi nhận khi nào?\"; first phrase electric blue #0052FF, remaining phrase dark navy #0B132B. Below it left aligned charcoal body exactly \"Đối chiếu trạng thái lô với thời điểm và nguồn báo cáo. Nếu dữ liệu khác kỳ cập nhật, cần làm rõ trước khi dùng trong cuộc trao đổi kế hoạch.\". Bottom 50%: physical black matrix waffle pack containing black packaged semiconductor chips, blank neutral white paper records with pen and pale blue process cards with empty, unlabeled faces. Correct Vietnamese diacritics, generous readable spacing. Do not print native headline, caption, alt or internal role. No fabricated dashboard, no charts, no performance badges, no pass ticks, no customer names, no invented record values.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "F2_CALL_A4",
+      "card_targets": [
+        "A4"
+      ],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "f2_p1_r1_a4",
+        "AspectRatio": "1:1",
+        "Prompt": "White background, daylight cleanroom editorial photography for Digiwin, electric blue #0052FF and dark navy #0B132B headline. Scene: open questions clipboard and neutral owner note. No human faces, no neon, no dark mode, no fake metrics. Create one 1254x1254 square finished Vietnamese carousel raster. A2-v3 and A5-shared are style references only: borrow their daylight lighting, composition and layout; do not copy wording, labels, numbers, process-tile text, or CTA from them. Use the official logo reference only to reproduce the Digiwin mark once in the top-left header. Visible text whitelist: the exact logo, category, sequence, headline and body specified below; Card 5 may also show only its exact regional panel title, source line and reading CTA specified below. Keep all paper sheets and process cards completely blank and unlabelled; no letters, numerals, small print or extra words anywhere. Preserve daylight lighting and hierarchy. Top 12%: official cyan Digiwin logo once at left, grey vertical separator, exact dark category \"ERP · GIA CÔNG BÁN DẪN\"; right fine connecting line and electric blue exact sequence \"4/5\". Middle 38%: large bold headline exactly \"Còn thiếu gì để trao đổi kế hoạch?\"; first phrase electric blue #0052FF, remaining phrase dark navy #0B132B. Below it left aligned charcoal body exactly \"Nhóm ghi phần thông tin còn thiếu và người cần xác nhận với đối tác. Việc điều chỉnh kế hoạch phụ thuộc dữ liệu và thỏa thuận thực tế của các bên.\". Bottom 50%: physical black matrix waffle pack containing black packaged semiconductor chips, blank neutral white paper records with pen and pale blue process cards with empty, unlabeled faces. Correct Vietnamese diacritics, generous readable spacing. Do not print native headline, caption, alt or internal role. No fabricated dashboard, no charts, no performance badges, no pass ticks, no customer names, no invented record values.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "F2_CALL_A5_B5",
+      "card_targets": [
+        "A5",
+        "B5"
+      ],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "f2_p1_r1_a5_b5",
+        "AspectRatio": "1:1",
+        "Prompt": "White background, daylight cleanroom editorial photography for Digiwin, electric blue #0052FF and dark navy #0B132B headline. Scene: five minimal connected folders alternating blue and grey. No human faces, no neon, no dark mode, no fake metrics. Create one 1254x1254 square finished Vietnamese carousel raster. A2-v3 and A5-shared are style references only: borrow their daylight lighting, composition and layout; do not copy wording, labels, numbers, process-tile text, or CTA from them. Use the official logo reference only to reproduce the Digiwin mark once in the top-left header. Visible text whitelist: the exact logo, category, sequence, headline and body specified below; Card 5 may also show only its exact regional panel title, source line and reading CTA specified below. Keep all paper sheets and process cards completely blank and unlabelled; no letters, numerals, small print or extra words anywhere. Preserve daylight lighting and hierarchy. Top 12%: official cyan Digiwin logo once at left, grey vertical separator, exact dark category \"ERP · GIA CÔNG BÁN DẪN\"; right fine connecting line and electric blue exact sequence \"5/5\". Middle 38%: large bold headline exactly \"Từ dữ liệu lô đến căn cứ phối hợp.\"; first phrase electric blue #0052FF, remaining phrase dark navy #0B132B. Below it left aligned charcoal body exactly \"Đối chiếu phạm vi, nguồn và người xác nhận là căn cứ trao đổi. Tài liệu bán dẫn Digiwin tại Đài Loan đặt ERP và MES trong bối cảnh quản trị và sản xuất.\". Bottom 50%: physical black matrix waffle pack containing black packaged semiconductor chips, blank neutral white paper records with pen and pale blue process cards with empty, unlabeled faces. Correct Vietnamese diacritics, generous readable spacing. Do not print native headline, caption, alt or internal role. No fabricated dashboard, no charts, no performance badges, no pass ticks, no customer names, no invented record values. Closing furniture: five minimal connected blue/grey folder icons at center, rounded bottom panel with flat Taipei 101 skyline. Exact panel title \"Góc nhìn ngành tại Đài Loan\". Exact source qualifier \"Tài liệu bán dẫn Digiwin tại Đài Loan đặt ERP và MES trong bối cảnh quản trị và sản xuất.\". Exact blue reading invitation pill \"Đọc thêm về bài toán Fabless\". Taiwan skyline is an editorial source location, not customer/facility proof. Fabless reading invitation is the exact cohort adaptation approved by Bảo; it does not broaden the Taiwan source scope or claim product capability. Ensure panel source text remains legible.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "F2_CALL_B2",
+      "card_targets": [
+        "B2"
+      ],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "f2_p1_r1_b2",
+        "AspectRatio": "1:1",
+        "Prompt": "White background, daylight cleanroom editorial photography for Digiwin, electric blue #0052FF and dark navy #0B132B headline. Scene: one blue question card beside scope sheet. No human faces, no neon, no dark mode, no fake metrics. Create one 1254x1254 square finished Vietnamese carousel raster. A2-v3 and A5-shared are style references only: borrow their daylight lighting, composition and layout; do not copy wording, labels, numbers, process-tile text, or CTA from them. Use the official logo reference only to reproduce the Digiwin mark once in the top-left header. Visible text whitelist: the exact logo, category, sequence, headline and body specified below; Card 5 may also show only its exact regional panel title, source line and reading CTA specified below. Keep all paper sheets and process cards completely blank and unlabelled; no letters, numerals, small print or extra words anywhere. Preserve daylight lighting and hierarchy. Top 12%: official cyan Digiwin logo once at left, grey vertical separator, exact dark category \"ERP · GIA CÔNG BÁN DẪN\"; right fine connecting line and electric blue exact sequence \"2/5\". Middle 38%: large bold headline exactly \"1. Thay đổi chạm tới lô nào?\"; first phrase electric blue #0052FF, remaining phrase dark navy #0B132B. Below it left aligned charcoal body exactly \"Sản phẩm và kỳ kế hoạch nào thay đổi? Các lô gia công nào thuộc phạm vi cần đối chiếu? Khoanh phạm vi trước khi xem các báo cáo tiến độ.\". Bottom 50%: physical black matrix waffle pack containing black packaged semiconductor chips, blank neutral white paper records with pen and pale blue process cards with empty, unlabeled faces. Correct Vietnamese diacritics, generous readable spacing. Do not print native headline, caption, alt or internal role. No fabricated dashboard, no charts, no performance badges, no pass ticks, no customer names, no invented record values.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "F2_CALL_B3",
+      "card_targets": [
+        "B3"
+      ],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "f2_p1_r1_b3",
+        "AspectRatio": "1:1",
+        "Prompt": "White background, daylight cleanroom editorial photography for Digiwin, electric blue #0052FF and dark navy #0B132B headline. Scene: two report sheets and neutral date note. No human faces, no neon, no dark mode, no fake metrics. Create one 1254x1254 square finished Vietnamese carousel raster. A2-v3 and A5-shared are style references only: borrow their daylight lighting, composition and layout; do not copy wording, labels, numbers, process-tile text, or CTA from them. Use the official logo reference only to reproduce the Digiwin mark once in the top-left header. Visible text whitelist: the exact logo, category, sequence, headline and body specified below; Card 5 may also show only its exact regional panel title, source line and reading CTA specified below. Keep all paper sheets and process cards completely blank and unlabelled; no letters, numerals, small print or extra words anywhere. Preserve daylight lighting and hierarchy. Top 12%: official cyan Digiwin logo once at left, grey vertical separator, exact dark category \"ERP · GIA CÔNG BÁN DẪN\"; right fine connecting line and electric blue exact sequence \"3/5\". Middle 38%: large bold headline exactly \"2. Đang so dữ liệu của thời điểm nào?\"; first phrase electric blue #0052FF, remaining phrase dark navy #0B132B. Below it left aligned charcoal body exactly \"Trạng thái và nguồn báo cáo của từng lô được cập nhật khi nào? Khác thời điểm không tự chứng minh chậm tiến độ; cần kiểm tra bối cảnh trước.\". Bottom 50%: physical black matrix waffle pack containing black packaged semiconductor chips, blank neutral white paper records with pen and pale blue process cards with empty, unlabeled faces. Correct Vietnamese diacritics, generous readable spacing. Do not print native headline, caption, alt or internal role. No fabricated dashboard, no charts, no performance badges, no pass ticks, no customer names, no invented record values.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "F2_CALL_B4",
+      "card_targets": [
+        "B4"
+      ],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "f2_p1_r1_b4",
+        "AspectRatio": "1:1",
+        "Prompt": "White background, daylight cleanroom editorial photography for Digiwin, electric blue #0052FF and dark navy #0B132B headline. Scene: three neutral question notes and owner clipboard. No human faces, no neon, no dark mode, no fake metrics. Create one 1254x1254 square finished Vietnamese carousel raster. A2-v3 and A5-shared are style references only: borrow their daylight lighting, composition and layout; do not copy wording, labels, numbers, process-tile text, or CTA from them. Use the official logo reference only to reproduce the Digiwin mark once in the top-left header. Visible text whitelist: the exact logo, category, sequence, headline and body specified below; Card 5 may also show only its exact regional panel title, source line and reading CTA specified below. Keep all paper sheets and process cards completely blank and unlabelled; no letters, numerals, small print or extra words anywhere. Preserve daylight lighting and hierarchy. Top 12%: official cyan Digiwin logo once at left, grey vertical separator, exact dark category \"ERP · GIA CÔNG BÁN DẪN\"; right fine connecting line and electric blue exact sequence \"4/5\". Middle 38%: large bold headline exactly \"3. Ai làm rõ phần còn thiếu?\"; first phrase electric blue #0052FF, remaining phrase dark navy #0B132B. Below it left aligned charcoal body exactly \"Thông tin nào cần đối tác xác nhận, ai đối chiếu và khi nào trao đổi lại? Sau đó, hai bên có cơ sở bàn bước tiếp theo theo dữ liệu hiện có.\". Bottom 50%: physical black matrix waffle pack containing black packaged semiconductor chips, blank neutral white paper records with pen and pale blue process cards with empty, unlabeled faces. Correct Vietnamese diacritics, generous readable spacing. Do not print native headline, caption, alt or internal role. No fabricated dashboard, no charts, no performance badges, no pass ticks, no customer names, no invented record values.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    }
+  ]
+}

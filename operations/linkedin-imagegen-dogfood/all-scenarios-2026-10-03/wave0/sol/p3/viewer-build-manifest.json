@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "built_utc": "2026-10-03T10:17:29.231447+00:00",
+  "output_directory": "C:\\Users\\ASUS\\Documents\\Codex\\2026-10-03\\chec\\outputs\\rollout-all-p3",
+  "files": {
+    "index.html": "ba040b4d9198b00db368aad9002615f42fb4c466a69a863dfad0844ab0f99ef8",
+    "assets/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "assets/p3-a1.png": "4beaf34b2ddff6b63fffa1f24d5fc947fcad5e54990f7e2a3532169fd87e7f72",
+    "assets/p3-a2.png": "308abf1daefb058fe6ad14752626711e5371d65b4f5bc5988c7b24d2728417f8",
+    "assets/p3-a3.png": "6460d333656d83c8a177ba078d73325890bd63b2eff5e805ab1a15f2bad014a0",
+    "assets/p3-a4.png": "c12bb7176508a0cc47776a1446f4986eb167a2a0b6b4c3d27c005f4a129627e9",
+    "assets/p3-a5.png": "05943ec7f1c577fcbc6ba562f885d05729ba56596b557cc8108a552be4416deb"
+  },
+  "input_hashes": {
+    "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03/sol/p3/native/p3-a1.png": "4beaf34b2ddff6b63fffa1f24d5fc947fcad5e54990f7e2a3532169fd87e7f72",
+    "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03/sol/p3/native/p3-a2.png": "308abf1daefb058fe6ad14752626711e5371d65b4f5bc5988c7b24d2728417f8",
+    "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03/sol/p3/native/p3-a3.png": "6460d333656d83c8a177ba078d73325890bd63b2eff5e805ab1a15f2bad014a0",
+    "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03/sol/p3/native/p3-a4.png": "c12bb7176508a0cc47776a1446f4986eb167a2a0b6b4c3d27c005f4a129627e9",
+    "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/sol/p3/native/p3-a5-r3.png": "05943ec7f1c577fcbc6ba562f885d05729ba56596b557cc8108a552be4416deb",
+    "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/common/p3-copy.json": "b5225251b5abe014caa2d9fcd2e38ebc3f70b19188ac28ac052f08d4ff41ca19",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f"
+  },
+  "copy_projection": "public-copy.json exact common bytes",
+  "cards_per_feed": [
+    5
+  ],
+  "native_bytes_unchanged": true,
+  "official_logo_bytes_unchanged": true,
+  "rendered_verdict": "NOT_ASSESSED",
+  "navigation_verdict": "SOURCE_ONLY_PARENT_BROWSER_CHECK_REQUIRED",
+  "viewer_boundary": "Only HTML, five native PNG and logo in reader export; internal manifest stays repo-only",
+  "destinations_from_source_metadata": true,
+  "durable_viewer_directory": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/sol/p3/viewer",
+  "durable_files": {
+    "index.html": "ba040b4d9198b00db368aad9002615f42fb4c466a69a863dfad0844ab0f99ef8",
+    "assets/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "assets/p3-a1.png": "4beaf34b2ddff6b63fffa1f24d5fc947fcad5e54990f7e2a3532169fd87e7f72",
+    "assets/p3-a2.png": "308abf1daefb058fe6ad14752626711e5371d65b4f5bc5988c7b24d2728417f8",
+    "assets/p3-a3.png": "6460d333656d83c8a177ba078d73325890bd63b2eff5e805ab1a15f2bad014a0",
+    "assets/p3-a4.png": "c12bb7176508a0cc47776a1446f4986eb167a2a0b6b4c3d27c005f4a129627e9",
+    "assets/p3-a5.png": "05943ec7f1c577fcbc6ba562f885d05729ba56596b557cc8108a552be4416deb"
+  },
+  "producer_scope": "Byteidentity/publiccopy/source structure only; parent native/reuse/render judgment pending"
+}

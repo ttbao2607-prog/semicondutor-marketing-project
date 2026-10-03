@@ -1,0 +1,25 @@
+{
+  "stage": "DRAFT_PARENT_REVIEW_PENDING",
+  "baseline_copy": {
+    "path": "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03/common/p3-copy.json",
+    "sha256": "b9b5be15192a3bbef175520691a0c8c0c6ab05095dac87f319ae2cfcb1fce836"
+  },
+  "changes": [
+    {
+      "card_id": "P3-A5",
+      "field": "body",
+      "before": "Digiwin đặt câu hỏi quản trị dữ liệu vận hành: yêu cầu nào, hồ sơ nào và ai xác nhận? Bộ hồ sơ cần được đối chiếu với yêu cầu cụ thể của khách hàng.",
+      "after": "Bộ hồ sơ cần được đối chiếu với yêu cầu cụ thể của khách hàng."
+    },
+    {
+      "card_id": "P3-A5",
+      "field": "source_text",
+      "before": "Tài liệu bán dẫn Digiwin tại Đài Loan đặt ERP và MES trong bối cảnh quản trị và sản xuất.\nNguồn: Digiwin Đài Loan, tài liệu giải pháp bán dẫn.",
+      "after": "Tài liệu giải pháp bán dẫn Digiwin Đài Loan: ERP và MES trong bối cảnh quản trị và sản xuất."
+    }
+  ],
+  "headline_no_final_period": true,
+  "body_scope": "parent approved preparation text",
+  "source_compaction": "proposal pending parent source review; retains Digiwin Taiwan semiconductor-document ERP/MES context, not deployment/outcome proof",
+  "other_fields_caption_cards_exact": true
+}

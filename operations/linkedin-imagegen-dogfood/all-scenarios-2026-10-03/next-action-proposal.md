@@ -1,0 +1,3 @@
+# Next action — DRAFT_ONLY_NOT_RELEASED
+
+Reopen one P3 closing attempt only with new explicit PO mandate and freshcopy/contract/review/release/spec bindings. Keep exact current wording/headline/style; fullwidthsource mainparagraph atbody-size orlarger, photo/diagramreduced, noiconcolumn/narrowfooter/sourcebox. Compare acceptedF3 hierarchy atsameactualmobile317–333px display. No harnessrewrite/criterionweakening orcopychange to matcholdimage. Recheck native/source/mobilecomfort and affectedfull5story/export/protectedbytes; stop iffails. Currentwave budgetconsumed; thisproposal grants noimage/release/Git/live authority.

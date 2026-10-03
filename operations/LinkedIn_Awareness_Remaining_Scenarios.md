@@ -1,3 +1,5 @@
+> **Remaining rollout current03-10-2026:** LatestPOmandate authorized localrollout; Wave0 now STOPPED_AT_WAVE0_P3_CLOSING_CHANGES_REQUIRED / FAIL / PARTIAL.1base+1correction consumed,4reused/5selected. Exactwords/headlinePASS, correctedsource stilltoo small atmobile390/image332.6667px.49parentunitPASS; no candidatefixture19/3 replay thisrun. Ninefuturetreatments45cards prepared NOT_RUN/NOT_RELEASED; nofurthercalls. frozen_harness mechanism+exactF3 only unchanged, P3notaccepted.46+10planceilings unchanged, P3wavecap consumed. Current work recorded by containing local checkpoint under PO authorization; prior882e621; no push/merge/live. Originaldated plan/proposedauthority notes below are historical; thisnote supersedes onlycurrent executionstate. [Result](LinkedIn_ImageGen_All_Scenarios_Rollout_Result_2026-10-03.md).
+
 ## Current scoped inventory — 03-10-2026
 
 11treatments/10baseIDs; F3 exact current set frozen, ten remain NOT_FROZEN. Prior UNASSIGNED/production-count notes below are dated historical snapshots; prior artifacts require requalification. Plan only, no futurecalls released.

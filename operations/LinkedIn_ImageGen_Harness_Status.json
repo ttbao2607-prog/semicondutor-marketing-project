@@ -6,19 +6,19 @@
   "independent_audit": "IMPLEMENTATION_CHECKPOINT_PASS_SEPARATE_FROM_CREATIVE_FAIL",
   "checkpoint_plan_audit": "AUDIT_PASS",
   "synthetic_tests_passed": 49,
-  "real_candidate_status": "CHANGES_REQUIRED_P3_CLOSING",
-  "proposed_candidate": "F3-A originalsA1-A4 + compactA5r3; P3-A originalsA1-A4 + correctedA5r2",
-  "generation_authority": "NO_FUTURE_GENERATION_RELEASED_SCOPED_FREEZE_AND_REMAINING_PLAN_ONLY",
-  "checkpoint": "recorded by containing local scoped-freeze checkpoint; prior baseline97d72a7; no push/merge",
+  "real_candidate_status": "STOPPED_AT_WAVE0_P3_CLOSING_CHANGES_REQUIRED",
+  "proposed_candidate": "P3-A1–A4 reused + wave0 P3-A5-r4 NOT_ACCEPTED",
+  "generation_authority": "WAVE0_ONE_BASE_ONE_CORRECTION_CONSUMED_NO_FUTURE_RELEASE",
+  "checkpoint": "containing local checkpoint under PO authorization; prior882e621; no push/merge/live",
   "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
   "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
-  "run_plan": "operations/LinkedIn_ImageGen_Closing_Forward_Rollout_Plan_2026-10-03.md",
+  "run_plan": "operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Plan_2026-10-03.md",
   "scope_limits": [
-    "Lifecycle frozen_harness only mechanism+exactpassed F3 POaccepted scope",
-    "P3 closing FAIL remains open; production/readiness PARTIAL",
-    "Prior fullrunFAIL immutable; earlier fulltwo-carousel freezecondition not claimed met",
-    "Remaining ten PLAN_ONLY_NOT_RELEASED; no futurecalls",
-    "No external/business/live authority"
+    "mechanism+exactF3 freeze unchanged",
+    "Wave0P3 closing readabilityFAIL despite exactwordingPASS",
+    "1base+1correction consumed;4reused selected5",
+    "Ninefuturetreatments45cards prepared NOT_RUN/NOT_RELEASED",
+    "No furthergeneration ornewPOacceptance"
   ],
   "candidate_statuses": {
     "sol": "CHANGES_REQUIRED_P3_CLOSING"
@@ -28,38 +28,37 @@
   "candidate_contract_audit": "FAIL",
   "content_acceptance": "PO_ACCEPTED_EXACT_F3_AND_MECHANISM_ONLY_P3_NOT_ACCEPTED",
   "image_call_counts": {
-    "base": 6,
+    "base": 1,
     "correction": 1,
-    "F3_base": 1,
-    "P3_base": 5,
-    "P3_correction": 1
+    "reused": 4,
+    "selected": 5,
+    "future_base": 0
   },
   "fresh_shared_tests_passed": 49,
   "independent_parent_negative_cases": {
     "count": 0,
-    "status": "NOT_REPLAYED"
+    "status": "NOT_REPLAYED_THIS_RUN"
   },
   "child_negative_cases": {
-    "f3": 19,
-    "p3": 19
+    "current_wave0": "NOT_RUN"
   },
   "native_dimensions": {
     "policy": "native_square_min",
     "minimum_edge": 1080,
-    "new_original_count": 7,
-    "selected_count": 10,
-    "prior_selected_count": 4,
+    "new_original_count": 2,
+    "selected_count": 5,
+    "reused_count": 4,
     "actual_new_each": [
       1254,
       1254
     ],
     "resize": false
   },
-  "benchmark_report": "operations/LinkedIn_ImageGen_Closing_Forward_Rollout_Result_2026-10-03.md",
-  "final_audit": "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03/operator/final-audit.json",
+  "benchmark_report": "operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Result_2026-10-03.md",
+  "final_audit": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/operator/parent-final-audit.json",
   "runtime_metrics": {
-    "scope": "singleworker controlled forward rollout; no modelcomparison",
-    "cleanup": "tabclosed viewportreset serverstopped portfree"
+    "scope": "singlewave localexecution no modelcomparison",
+    "cleanup": "browserclosed viewportreset serverstopped"
   },
   "content_acceptance_detail": {
     "current_po": "passed mechanism and exact current F3 five-card set accepted/frozen",
@@ -3118,15 +3117,15 @@
       }
     }
   },
-  "final_audit_sha256": "dc734745185f008f212729f37636ea9b9fd8bf8bc6ac79fd86dbb914f89af91a",
+  "final_audit_sha256": "1c3d529fb1f327c626bc1fb34d1f2e757273d4334ccaabd66cbb4f9fd1a55510",
   "independent_parent_positive_cases": {
     "count": 0,
-    "status": "NOT_REPLAYED"
+    "status": "NOT_REPLAYED_THIS_RUN"
   },
   "current_run_audit": "FAIL",
-  "shared_manifest_sha256": "450b339a031bae6d8af7e85cb6e5a24573d1c793d880d7fc6ccd43064260d284",
+  "shared_manifest_sha256": "cf78f5cfed3b485726746db87e864cf19ba82be3adee61cff7db3c4ef41efe08",
   "native_dimension_contract_audit": "PASS_FORWARD_NATIVE_SQUARE_MIN",
-  "current_run": "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03",
+  "current_run": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0",
   "freeze": {
     "status": "FROZEN_PO_ADOPTED",
     "date": "2026-10-03",
@@ -3171,27 +3170,18 @@
     "frozen_harness": "NOT_TRANSITIONED",
     "further_calls_released": false,
     "prior_status_raw": "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03/operator/prior-status.json",
-    "historical_audit_scope": "forward two-carousel trial remains FAIL; pre-scoped-freeze lifecycle observation preserved, current lifecycle governed by scoped_freeze"
+    "historical_audit_scope": "forward two-carousel trial remains FAIL; pre-scoped-freeze lifecycle observation preserved, current lifecycle governed by scoped_freeze",
+    "scope": "historical prior closing-forward run; currentwave0 in all_scenarios_rollout"
   },
   "child_positive_cases": {
-    "f3": 3,
-    "p3": 3
+    "current_wave0": "NOT_RUN"
   },
   "parent_mechanical_review": {
     "unit_tests_replayed": 49,
-    "child_fixtures_reviewed": {
-      "f3": {
-        "negative": 19,
-        "positive": 3
-      },
-      "p3": {
-        "negative": 19,
-        "positive": 3
-      }
-    },
-    "candidate_fixture_cases_replayed": 0
+    "candidate_fixture_cases_replayed": 0,
+    "scope": "freshwave0"
   },
-  "shared_manifest_path": "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03/common/input-manifest.json",
+  "shared_manifest_path": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/common/input-manifest.json",
   "scenario_verdicts": {
     "F3": "FROZEN_PO_ACCEPTED",
     "P3": "FAIL_CHANGES_REQUIRED"
@@ -3218,7 +3208,7 @@
   },
   "remaining_rollout_plan": {
     "path": "operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Plan_2026-10-03.md",
-    "status": "PLAN_ONLY_NOT_RELEASED",
+    "status": "PO_LOCAL_EXECUTION_AUTHORIZED_CURRENT_WAVE0_STOPPED_FUTURE_WAVES_NOT_RELEASED",
     "treatment_count": 11,
     "frozen_count": 1,
     "remaining_count": 10,
@@ -3251,5 +3241,28 @@
     ]
   },
   "production_status": "PARTIAL_P3_CLOSING_FAIL",
-  "readiness_status": "PARTIAL_NO_EXTERNAL_RELEASE"
+  "readiness_status": "PARTIAL_NO_EXTERNAL_RELEASE",
+  "prior_current_status_archive": {
+    "path": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/operator/prior-status-exact.json",
+    "sha256": "53401e47e1efdb4cd944079d1d7e759dda5e268a55d1b6bc5a88904392371cb5"
+  },
+  "all_scenarios_rollout": {
+    "status": "STOPPED_AT_WAVE0_P3_CLOSING_CHANGES_REQUIRED",
+    "audit": "FAIL",
+    "execution": "PARTIAL",
+    "result": "operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Result_2026-10-03.md",
+    "current_wave": 0,
+    "base": 1,
+    "correction": 1,
+    "reused": 4,
+    "selected": 5,
+    "P3": "NOT_ACCEPTED_CHANGES_REQUIRED",
+    "prepared_remaining_treatments": 9,
+    "prepared_remaining_cards": 45,
+    "future_generation": "NOT_RELEASED",
+    "budget_ceiling_base": 46,
+    "budget_ceiling_correction": 10,
+    "P3_wave_cap": "CONSUMED",
+    "new_PO_finished_approval": "NOT_GRANTED"
+  }
 }

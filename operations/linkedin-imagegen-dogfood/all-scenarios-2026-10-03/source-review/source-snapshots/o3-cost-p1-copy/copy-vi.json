@@ -1,0 +1,257 @@
+{
+  "scenario_id": "O3",
+  "scenario_name": "Cost bắt đầu từ shopfloor",
+  "cohort": "Finance/Plant",
+  "operating_question": "Kết sổ chi phí đang chờ dữ liệu nào từ sản xuất?",
+  "revision": "o3-cost-p1-r2",
+  "status": "OFFLINE_TEST_PACK_COMPLETED",
+  "caption": {
+    "text": "Digiwin tư vấn ERP (hệ thống quản trị nguồn lực) cho sản xuất. Với bộ phận tài chính nhà máy OSAT (đóng gói, kiểm thử bán dẫn), chúng tôi chia sẻ cách gắn số liệu xưởng vào kết sổ chi phí.",
+    "length": 187
+  },
+  "destination": "https://solutions.digiwin.com.vn/semiconductor-osat?lang=vi",
+  "cards": [
+    {
+      "card_id": "A1",
+      "treatment": "A",
+      "role": "Situation progression",
+      "native": "Kết sổ chi phí: chờ dữ liệu nào?",
+      "native_length": 33,
+      "image_headline": "Kỳ kết sổ chi phí: chờ số liệu nào từ xưởng?",
+      "image_headline_length": 44,
+      "image_body": "Khi kỳ tính giá thành đến gần, kế toán chi phí cần biết bán thành phẩm trên chuyền và hao hụt từng lô đang chốt ở công đoạn nào trước khi đóng sổ.",
+      "image_body_length": 154,
+      "alt": "Tình huống minh họa bộ phận tài chính và quản lý xưởng OSAT đối chiếu số liệu bán thành phẩm trước kỳ kết sổ chi phí.",
+      "prompt_brief": "Professional semiconductor cleanroom editorial photography, pure white background, inspection clipboard with cost review sheet and silicon wafer tray on daylight table, Digiwin electric blue #0052FF title typography and dark navy accents, strictly no human faces, no neon, no dark mode, no fake metrics."
+    },
+    {
+      "card_id": "A2",
+      "treatment": "A",
+      "role": "Situation progression",
+      "native": "Điểm dở dang nằm ở đâu?",
+      "native_length": 24,
+      "image_headline": "Xác định bán thành phẩm dở dang theo lô",
+      "image_headline_length": 39,
+      "image_body": "Kế toán và xưởng cùng rà soát các lô đang chạy trên chuyền: mỗi lô dừng tại bước gia công nào, số lượng wafer hay chip dở dang tại thời điểm cắt kỳ là bao nhiêu.",
+      "image_body_length": 163,
+      "alt": "Bảng minh họa đối chiếu số lượng dở dang theo từng mã lô và bước gia công trên chuyền sản xuất.",
+      "prompt_brief": "Close-up macro editorial photography of semiconductor BGA chip tray, pure white background, bright white cleanroom desk, lot identification travel sheet, Digiwin electric blue #0052FF headline highlight, strictly no human faces, no neon, no dark mode."
+    },
+    {
+      "card_id": "A3",
+      "treatment": "A",
+      "role": "Situation progression",
+      "native": "Đối chiếu hao hụt và hoàn thành",
+      "native_length": 32,
+      "image_headline": "Nguồn dữ liệu hao hụt đến từ hồ sơ nào?",
+      "image_headline_length": 40,
+      "image_body": "Chi phí chỉ sát thực tế khi sản lượng hoàn thành, phế phẩm và hao hụt công đoạn được đối chiếu từ đúng hồ sơ sản xuất, thay vì ước lượng trung bình.",
+      "image_body_length": 154,
+      "alt": "Minh họa đối chiếu sản lượng hoàn thành và tỷ lệ hao hụt thực tế từ hồ sơ sản xuất của xưởng.",
+      "prompt_brief": "Cleanroom engineering documentation review, physical lot yield inspection record sheet next to silicon wafer lot box, pure white background, Digiwin electric blue #0052FF title, strictly no human faces, no neon, no dark mode."
+    },
+    {
+      "card_id": "A4",
+      "treatment": "A",
+      "role": "Situation progression",
+      "native": "Rõ người xác nhận số liệu xưởng",
+      "native_length": 32,
+      "image_headline": "Ai xác nhận số liệu trước giờ chốt?",
+      "image_headline_length": 36,
+      "image_body": "Nhóm thống nhất thời điểm chốt dữ liệu, người kiểm tra hồ sơ xưởng và người xác nhận số liệu dở dang. Kế toán có căn cứ rõ ràng trước khi chạy kỳ giá thành.",
+      "image_body_length": 160,
+      "alt": "Quy trình minh họa xác định người kiểm tra hồ sơ xưởng và người ký xác nhận số liệu chốt kỳ chi phí.",
+      "prompt_brief": "Editorial cleanroom desk composition, verification sign-off sheet with pen and lot status checklist, pure white daylight background, Digiwin electric blue #0052FF headline, strictly no human faces, no neon, no dark mode."
+    },
+    {
+      "card_id": "A5",
+      "treatment": "A",
+      "role": "Situation progression",
+      "native": "Digiwin: kết nối chi phí và xưởng",
+      "native_length": 34,
+      "image_headline": "Từ số liệu xưởng đến quyết định giá thành.",
+      "image_headline_length": 43,
+      "image_body": "Gắn số liệu dở dang và hao hụt thực tế vào kỳ giá thành là góc nhìn quản trị. Digiwin chia sẻ kinh nghiệm kết nối ERP và MES (hệ thống điều hành sản xuất) từ tài liệu Đài Loan.",
+      "image_body_length": 176,
+      "alt": "Tổng hợp mối nối quản trị giữa số liệu xưởng và kết sổ chi phí; ghi chú tài liệu bán dẫn Digiwin tại Đài Loan về ERP và MES.",
+      "regional_label": "Góc nhìn ngành tại Đài Loan",
+      "regional_context": "Tài liệu bán dẫn Digiwin tại Đài Loan đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+      "invitation": "Đọc thêm về bài toán OSAT",
+      "prompt_brief": "Closing summary card on pure white background, cleanroom daylight aesthetic, five connected folder icons across center, flat silhouette panel of Taipei 101 skyline at bottom, Digiwin brand mark, strictly no human faces, no neon, no dark mode."
+    },
+    {
+      "card_id": "B1",
+      "treatment": "B",
+      "role": "Question framework",
+      "native": "Kết sổ chi phí: chờ dữ liệu nào?",
+      "native_length": 33,
+      "image_headline": "Kỳ kết sổ chi phí: chờ số liệu nào từ xưởng?",
+      "image_headline_length": 44,
+      "image_body": "Khi kỳ tính giá thành đến gần, kế toán chi phí cần biết bán thành phẩm trên chuyền và hao hụt từng lô đang chốt ở công đoạn nào trước khi đóng sổ.",
+      "image_body_length": 154,
+      "alt": "Tình huống minh họa bộ phận tài chính và quản lý xưởng OSAT đối chiếu số liệu bán thành phẩm trước kỳ kết sổ chi phí.",
+      "prompt_brief": "Professional semiconductor cleanroom editorial photography, pure white background, inspection clipboard with cost review sheet and silicon wafer tray on daylight table, Digiwin electric blue #0052FF title typography and dark navy accents, strictly no human faces, no neon, no dark mode, no fake metrics."
+    },
+    {
+      "card_id": "B2",
+      "treatment": "B",
+      "role": "Question framework",
+      "native": "1. Số dở dang đã chốt đúng lô?",
+      "native_length": 31,
+      "image_headline": "1. Số dở dang đã chốt đúng mã lô?",
+      "image_headline_length": 34,
+      "image_body": "Từng lô đang dừng ở công đoạn nào tại thời điểm cắt kỳ? Số lượng dở dang trên chuyền có phản ánh đúng thực tế xưởng hay đang lệch kỳ ghi nhận?",
+      "image_body_length": 146,
+      "alt": "Câu hỏi thứ nhất rà soát mã lô, vị trí công đoạn và số lượng dở dang trên chuyền tại thời điểm chốt.",
+      "prompt_brief": "Cleanroom inspection table, numbered step '1' card in Digiwin electric blue #0052FF, semiconductor chip carrier tray on pure white surface, high-end daylight editorial style, strictly no human faces, no neon, no dark mode."
+    },
+    {
+      "card_id": "B3",
+      "treatment": "B",
+      "role": "Question framework",
+      "native": "2. Nguồn hao hụt lấy từ đâu?",
+      "native_length": 28,
+      "image_headline": "2. Số liệu hao hụt ghi nhận từ đâu?",
+      "image_headline_length": 36,
+      "image_body": "Sản lượng hoàn thành và phế phẩm lấy từ biên bản kiểm tra công đoạn hay ước tính chung? Dữ liệu hao hụt đã đủ căn cứ để đưa vào bảng tính chi phí?",
+      "image_body_length": 150,
+      "alt": "Câu hỏi thứ hai chất vấn nguồn gốc dữ liệu sản lượng hoàn thành và hao hụt thực tế từ xưởng.",
+      "prompt_brief": "Macro cleanroom daylight photo, numbered step '2' in Digiwin electric blue #0052FF, yield and scrap calculation record on pure white surface, semiconductor context, strictly no human faces, no neon, no dark mode."
+    },
+    {
+      "card_id": "B4",
+      "treatment": "B",
+      "role": "Question framework",
+      "native": "3. Ai chịu trách nhiệm xác nhận?",
+      "native_length": 32,
+      "image_headline": "3. Ai xác nhận số liệu xưởng bàn giao?",
+      "image_headline_length": 38,
+      "image_body": "Ai là người đối chiếu số liệu thực tế tại chuyền, và ai ký duyệt số chốt gửi sang tài chính? Ranh giới trách nhiệm rõ giúp kỳ kết sổ không bị nghẽn.",
+      "image_body_length": 151,
+      "alt": "Câu hỏi thứ ba làm rõ trách nhiệm đối chiếu và thẩm quyền duyệt số liệu xưởng bàn giao cho kế toán.",
+      "prompt_brief": "Semiconductor cleanroom plant handoff verification concept, numbered step '3' card in Digiwin electric blue #0052FF, lot release sign-off clipboard on pure white background, strictly no human faces, no neon, no dark mode."
+    },
+    {
+      "card_id": "B5",
+      "treatment": "B",
+      "role": "Question framework",
+      "native": "Digiwin: kết nối chi phí và xưởng",
+      "native_length": 34,
+      "image_headline": "Từ số liệu xưởng đến quyết định giá thành.",
+      "image_headline_length": 43,
+      "image_body": "Gắn số liệu dở dang và hao hụt thực tế vào kỳ giá thành là góc nhìn quản trị. Digiwin chia sẻ kinh nghiệm kết nối ERP và MES (hệ thống điều hành sản xuất) từ tài liệu Đài Loan.",
+      "image_body_length": 176,
+      "alt": "Tổng hợp mối nối quản trị giữa số liệu xưởng và kết sổ chi phí; ghi chú tài liệu bán dẫn Digiwin tại Đài Loan về ERP và MES.",
+      "regional_label": "Góc nhìn ngành tại Đài Loan",
+      "regional_context": "Tài liệu bán dẫn Digiwin tại Đài Loan đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+      "invitation": "Đọc thêm về bài toán OSAT",
+      "prompt_brief": "Closing summary card on pure white background, cleanroom daylight aesthetic, five connected folder icons across center, flat silhouette panel of Taipei 101 skyline at bottom, Digiwin brand mark, strictly no human faces, no neon, no dark mode."
+    }
+  ],
+  "planned_calls": [
+    {
+      "call_id": "CALL_A1_B1",
+      "card_targets": ["A1", "B1"],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "o3_r1_a1_shared",
+        "AspectRatio": "1:1",
+        "Prompt": "Professional semiconductor cleanroom editorial photography, pure white background, inspection clipboard with cost review sheet and silicon wafer tray on daylight table, Digiwin electric blue #0052FF title typography and dark navy accents, strictly no human faces, no neon, no dark mode, no fake metrics.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png"
+        ]
+      }
+    },
+    {
+      "call_id": "CALL_A2",
+      "card_targets": ["A2"],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "o3_r1_a2",
+        "AspectRatio": "1:1",
+        "Prompt": "Close-up macro editorial photography of semiconductor BGA chip tray, pure white background, bright white cleanroom desk, lot identification travel sheet, Digiwin electric blue #0052FF headline highlight, strictly no human faces, no neon, no dark mode.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png"
+        ]
+      }
+    },
+    {
+      "call_id": "CALL_A3",
+      "card_targets": ["A3"],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "o3_r1_a3",
+        "AspectRatio": "1:1",
+        "Prompt": "Cleanroom engineering documentation review, physical lot yield inspection record sheet next to silicon wafer lot box, pure white background, Digiwin electric blue #0052FF title, strictly no human faces, no neon, no dark mode.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png"
+        ]
+      }
+    },
+    {
+      "call_id": "CALL_A4",
+      "card_targets": ["A4"],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "o3_r1_a4",
+        "AspectRatio": "1:1",
+        "Prompt": "Editorial cleanroom desk composition, verification sign-off sheet with pen and lot status checklist, pure white daylight background, Digiwin electric blue #0052FF headline, strictly no human faces, no neon, no dark mode.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png"
+        ]
+      }
+    },
+    {
+      "call_id": "CALL_A5_B5",
+      "card_targets": ["A5", "B5"],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "o3_r1_a5_shared",
+        "AspectRatio": "1:1",
+        "Prompt": "Closing summary card on pure white background, cleanroom daylight aesthetic, five connected folder icons across center, flat silhouette panel of Taipei 101 skyline at bottom, Digiwin brand mark, strictly no human faces, no neon, no dark mode.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png"
+        ]
+      }
+    },
+    {
+      "call_id": "CALL_B2",
+      "card_targets": ["B2"],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "o3_r1_b2",
+        "AspectRatio": "1:1",
+        "Prompt": "Cleanroom inspection table, numbered step '1' card in Digiwin electric blue #0052FF, semiconductor chip carrier tray on pure white surface, high-end daylight editorial style, strictly no human faces, no neon, no dark mode.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png"
+        ]
+      }
+    },
+    {
+      "call_id": "CALL_B3",
+      "card_targets": ["B3"],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "o3_r1_b3",
+        "AspectRatio": "1:1",
+        "Prompt": "Macro cleanroom daylight photo, numbered step '2' in Digiwin electric blue #0052FF, yield and scrap calculation record on pure white surface, semiconductor context, strictly no human faces, no neon, no dark mode.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png"
+        ]
+      }
+    },
+    {
+      "call_id": "CALL_B4",
+      "card_targets": ["B4"],
+      "tool_name": "generate_image",
+      "tool_arguments": {
+        "ImageName": "o3_r1_b4",
+        "AspectRatio": "1:1",
+        "Prompt": "Semiconductor cleanroom plant handoff verification concept, numbered step '3' card in Digiwin electric blue #0052FF, lot release sign-off clipboard on pure white background, strictly no human faces, no neon, no dark mode.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png"
+        ]
+      }
+    }
+  ]
+}

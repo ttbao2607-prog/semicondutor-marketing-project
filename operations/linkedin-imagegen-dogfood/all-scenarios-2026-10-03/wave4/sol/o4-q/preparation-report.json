@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "status": "DRAFT_READY_FOR_PARENT_CONTRACT_REVIEW",
+  "copy_public_values_unchanged": true,
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave4/common/o4-q-copy.json",
+    "sha256": "ce6e6d3872638811ce63f46405f24f82ea2a73fa003a31df0d1359963bf898cc",
+    "revision": "all-scenarios-wave4-o4-q-copy-v1-parent-preparation-approved"
+  },
+  "contract": {
+    "path": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave4/sol/o4-q/contract.json",
+    "sha256": "60ae30b854470bf1e4dc5583c642ea98ce1a97db07ceab7d7d6504f5a4173482",
+    "revision": "all-scenarios-wave4-o4-q-contract-v1-parent-review-pending"
+  },
+  "calls_draft": {
+    "path": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave4/sol/o4-q/calls-draft.json",
+    "sha256": "af19bee1d6b522bb1ff5c4fe881db2352d9e51911a8c31b0bd4eff106f3ed164",
+    "revision": "all-scenarios-wave4-o4-q-calls-v1-parent-review-pending"
+  },
+  "planned_base_calls": 5,
+  "actual_image_calls": 0,
+  "closing_first": [
+    "O4-Q-B5"
+  ],
+  "reference_hash_findings": [],
+  "candidate_verdict": "NOT_RUN",
+  "release": "NOT_GRANTED",
+  "remaining_gates": [
+    "parent fresh review and wave-specific release after prior wave audit",
+    "contract-bound preflight and per-call dispatch",
+    "native exact text/logo/source and minimum size review",
+    "full desktop/mobile carousel transitions and cross-scenario creative audit",
+    "PO approval of exact completed set"
+  ]
+}

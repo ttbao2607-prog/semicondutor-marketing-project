@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "revision": "all-scenarios-wave4-o4-q-contract-v1-parent-review-pending",
+  "locale": "vi-VN",
+  "channel": "linkedin-carousel",
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave4/common/o4-q-copy.json",
+    "sha256": "ce6e6d3872638811ce63f46405f24f82ea2a73fa003a31df0d1359963bf898cc",
+    "revision": "all-scenarios-wave4-o4-q-copy-v1-parent-preparation-approved"
+  },
+  "sources": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/source-snapshots/r2-complete-carousel/copy-vi.json",
+      "sha256": "4f4b5b32aaeeb64eca9b1004ebd775cc9079f21109059a6005d2fd3f4d584a87",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/source-snapshots/support/evidence-register.md",
+      "sha256": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/review.md",
+      "sha256": "4d47778d085f57d981c3cb0dea92ba562345a127174411beac603e90ad0df7a0",
+      "revision": "corrected-source-review-v2-parent-approved"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/detail-map.json",
+      "sha256": "2adf75fef21ca61c5d2cd869ec1e63e1e1fb0a21b1fcf78315b097cdd262f403",
+      "revision": "corrected-source-review-v2-parent-approved"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/delta-log.json",
+      "sha256": "1afd66da0bf3f62be5ce30fab49d3865753fbfc4018bf61d24d3c1441db9aa32",
+      "revision": "corrected-source-review-v2-parent-approved"
+    }
+  ],
+  "card_sources": {
+    "O4-Q-B1": [
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/source-snapshots/r2-complete-carousel/copy-vi.json",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/source-snapshots/support/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/review.md",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/detail-map.json",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/delta-log.json"
+    ],
+    "O4-Q-B2": [
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/source-snapshots/r2-complete-carousel/copy-vi.json",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/source-snapshots/support/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/review.md",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/detail-map.json",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/delta-log.json"
+    ],
+    "O4-Q-B3": [
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/source-snapshots/r2-complete-carousel/copy-vi.json",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/source-snapshots/support/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/review.md",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/detail-map.json",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/delta-log.json"
+    ],
+    "O4-Q-B4": [
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/source-snapshots/r2-complete-carousel/copy-vi.json",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/source-snapshots/support/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/review.md",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/detail-map.json",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/delta-log.json"
+    ],
+    "O4-Q-B5": [
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/source-snapshots/r2-complete-carousel/copy-vi.json",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/source-snapshots/support/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/review.md",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/detail-map.json",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/delta-log.json"
+    ]
+  },
+  "ad_order": [
+    "O4-Q-B"
+  ],
+  "card_order": {
+    "O4-Q-B": [
+      "O4-Q-B1",
+      "O4-Q-B2",
+      "O4-Q-B3",
+      "O4-Q-B4",
+      "O4-Q-B5"
+    ]
+  },
+  "surfaces": {
+    "O4-Q-B": [
+      {
+        "surface_id": "full-carousel-feed",
+        "reading_order": [
+          "caption",
+          "O4-Q-B1.headline",
+          "O4-Q-B1.body",
+          "O4-Q-B1.source_text",
+          "O4-Q-B1.cta",
+          "O4-Q-B1.native_headline",
+          "O4-Q-B1.alt",
+          "O4-Q-B1.artwork_labels",
+          "O4-Q-B2.headline",
+          "O4-Q-B2.body",
+          "O4-Q-B2.source_text",
+          "O4-Q-B2.cta",
+          "O4-Q-B2.native_headline",
+          "O4-Q-B2.alt",
+          "O4-Q-B2.artwork_labels",
+          "O4-Q-B3.headline",
+          "O4-Q-B3.body",
+          "O4-Q-B3.source_text",
+          "O4-Q-B3.cta",
+          "O4-Q-B3.native_headline",
+          "O4-Q-B3.alt",
+          "O4-Q-B3.artwork_labels",
+          "O4-Q-B4.headline",
+          "O4-Q-B4.body",
+          "O4-Q-B4.source_text",
+          "O4-Q-B4.cta",
+          "O4-Q-B4.native_headline",
+          "O4-Q-B4.alt",
+          "O4-Q-B4.artwork_labels",
+          "O4-Q-B5.headline",
+          "O4-Q-B5.body",
+          "O4-Q-B5.source_text",
+          "O4-Q-B5.cta",
+          "O4-Q-B5.native_headline",
+          "O4-Q-B5.alt",
+          "O4-Q-B5.artwork_labels"
+        ]
+      }
+    ]
+  },
+  "definitions": {
+    "OSAT": "dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài",
+    "Fabless": "thiết kế chip, không sở hữu nhà máy chế tạo",
+    "WIP": "bán thành phẩm"
+  },
+  "limits": {
+    "caption": 255,
+    "headline": 45,
+    "body": 180,
+    "source_text": 200,
+    "cta": 70,
+    "native_headline": 45,
+    "alt": 200,
+    "artwork_labels": 70
+  },
+  "groups": [
+    [
+      "O4-Q-B5"
+    ],
+    [
+      "O4-Q-B1"
+    ],
+    [
+      "O4-Q-B2"
+    ],
+    [
+      "O4-Q-B3"
+    ],
+    [
+      "O4-Q-B4"
+    ]
+  ],
+  "reuse_fields": [
+    "headline",
+    "body",
+    "source_text",
+    "cta",
+    "native_headline",
+    "alt",
+    "artwork_labels"
+  ],
+  "references": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+      "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+      "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png",
+      "sha256": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png",
+      "sha256": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "role": "brand_asset",
+      "attributes": [
+        "brand_mark"
+      ]
+    }
+  ],
+  "style": {
+    "brand": "Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs",
+    "palette": [
+      "white",
+      "#0052FF",
+      "#0B132B",
+      "#00B4D8",
+      "charcoal"
+    ],
+    "lighting": "bright neutral daylight with soft grounded shadows",
+    "avoid": [
+      "neon",
+      "dark mode",
+      "human faces",
+      "fabricated metrics identifiers dates statuses or results",
+      "customer marks or facility evidence",
+      "unreviewed capability or outcome claims",
+      "reference wording record values props or exact composition",
+      "printed caption native headline alt or internal notes",
+      "extra wording beyond approved artwork text and official brand mark"
+    ],
+    "campaign": {
+      "revision": "all-scenarios-wave4-fresh-r2-v1",
+      "instructions": "Use four frozen R2 campaign references and one official logo reference only. Bright white office/daylight photography, soft blue and navy, credible photographic material depth, grounded shadows and integrated physical relationship diagrams. Vary view angle, scale and open relationship structures according to each card meaning. Blank material surfaces only; no invented labels, microglyphs, identifiers, dates, metrics, ticks, seals or completed badges. Printed wording limited to exact approved headline, body, source_text, CTA, category and sequence; caption/native headline/alt remain outside raster. No reference wording, prop quota, fixed layout or legacy scene inheritance. No invented customer/facility/capability evidence. Closing reserves a dedicated full-width source paragraph at body-like size about 56 native pixels, comfortably readable at 317–333 pixels without zoom; reduce photo area to protect readable text. Preserve native square PNG minimum 1080 per edge, never resize or composite to pass."
+    }
+  },
+  "output": {
+    "directory": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave4/sol/o4-q/native",
+    "extension": ".png",
+    "policy": "native_square_min",
+    "min_edge": 1080
+  }
+}
