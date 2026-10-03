@@ -1,0 +1,25 @@
+{
+  "verdict": "PASS",
+  "scope": "Planning/order/source/protection only; no visual candidate acceptance",
+  "baseline": "f3c7e17c50163672659ab75bd9ee5300384b1694",
+  "plan_sha256": "2ea0c12d2d9a6fa38d0e21d25f189765c35af23e4e24848bf6a5e824ff88e3b7",
+  "po_note_sha256": "9d207769b6ee758475ca6bb13867bd294e44b317be0f8f473d6498f4d8bf1d64",
+  "changed_tracked": [
+    "CURRENT_STATE.md",
+    "DOCS_INDEX.md",
+    "README.md",
+    "ads/linkedin/LinkedIn_Build_Pack.md",
+    "operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md",
+    "operations/LinkedIn_Awareness_Execution_Plan.md",
+    "operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Plan_2026-10-03.md",
+    "operations/LinkedIn_ImageGen_Harness_Status.json",
+    "operations/Pre_Ad_Readiness_Plan.md"
+  ],
+  "current_status_prior_values": "ALL_UNCHANGED except newclosing_layout_plan field",
+  "harness_native_prior_run": "UNCHANGED trackedbytes via bounded Gitdiff",
+  "candidate": "NO_CANDIDATE_YET",
+  "image_calls": 0,
+  "index": "EMPTY",
+  "plan_state": "UNCOMMITTED after authorizedcheckpoint",
+  "required_next": "Execute previews only when plan execution authorized; Bao exactrenderedlayoutacceptance before harness update"
+}

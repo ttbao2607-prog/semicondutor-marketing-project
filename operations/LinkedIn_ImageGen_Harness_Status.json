@@ -3264,5 +3264,21 @@
     "budget_ceiling_correction": 10,
     "P3_wave_cap": "CONSUMED",
     "new_PO_finished_approval": "NOT_GRANTED"
+  },
+  "closing_layout_plan": {
+    "path": "operations/LinkedIn_ImageGen_Closing_Layout_Selection_Plan_2026-10-03.md",
+    "status": "DRAFT_PLAN_READY",
+    "candidate_status": "NO_CANDIDATE_YET",
+    "harness_status": "NO_HARNESS_UPDATE",
+    "checkpoint": "f3c7e17c50163672659ab75bd9ee5300384b1694",
+    "sequence": "Bao authorizes preview plan → actual previews → Bao exact rendered layout selection/acceptance → bounded chosen refine if needed → accepted exact layout/wording freeze → harness update within approved sequence with fresh internal bindings/checks",
+    "proposed_base": 2,
+    "proposed_chosen_refine_max": 1,
+    "generation_authority": "DRAFT_NOT_RELEASED",
+    "work_state": "containing local plan checkpoint under PO latest instruction; no push/live",
+    "prior_P3_failure": "UNCHANGED",
+    "next_commit": "AUTHORIZED_CONTAINING_LOCAL_PLAN_CHECKPOINT",
+    "harness_followup_authority": "conditional user-approved sequence after Bao exact layout acceptance; no additional generic PO gate unless new material scope",
+    "execution_mandate": "After containing checkpoint execute through Bao exact rendered layout approval; no preview preparation in precommit phase"
   }
 }

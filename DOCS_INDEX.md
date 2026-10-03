@@ -1,3 +1,5 @@
+> **Layout plan checkpoint 03-10-2026:** containing local plan checkpoint under latest PO authorization; sau checkpoint thực hiện preview tới Bảo duyệt đúng rendered layout. Không push/live; frozen scope/prior P3FAIL giữ nguyên.
+
 > **Remaining rollout current03-10-2026:** LatestPOmandate authorized localrollout; Wave0 now STOPPED_AT_WAVE0_P3_CLOSING_CHANGES_REQUIRED / FAIL / PARTIAL.1base+1correction consumed,4reused/5selected. Exactwords/headlinePASS, correctedsource stilltoo small atmobile390/image332.6667px.49parentunitPASS; no candidatefixture19/3 replay thisrun. Ninefuturetreatments45cards prepared NOT_RUN/NOT_RELEASED; nofurthercalls. frozen_harness mechanism+exactF3 only unchanged, P3notaccepted.46+10planceilings unchanged, P3wavecap consumed. Current work recorded by containing local checkpoint under PO authorization; prior882e621; no push/merge/live. Originaldated plan/proposedauthority notes below are historical; thisnote supersedes onlycurrent executionstate. [Result](operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Result_2026-10-03.md).
 
 > **PO freeze 03-10-2026:** Bảo chốt hybrid harness và chọn Sol visual family làm chuẩn project; native leaf mặc định `gpt-6.1-sol/low`, runtime/admission/acceptance phải xác minh, không silent Luna fallback. Lifecycle giữ `testing_dogfood`. Quyết định này supersede ghi chú chưa PO duyệt hướng visual hoặc pending/uncommitted bên dưới cho current freeze này; historical operator FAIL/CHANGES_REQUIRED và findings không đổi, không blanket buyer/live/external release hoặc thêm image calls. Quyết định được ghi bởi containing local freeze checkpoint, prior baseline `7e95a44`; không push/merge. [Freeze record](operations/LinkedIn_ImageGen_Harness_Freeze_2026-10-03.md).
@@ -8,6 +10,7 @@ CANONICAL defines current marketing truth and participates in sync review. HISTO
 
 | Path | Class | Purpose | Sync review |
 |---|---|---|---|
+| operations/LinkedIn_ImageGen_Closing_Layout_Selection_Plan_2026-10-03.md | CANONICAL | visual selection and exact layout freeze before separately mandated harness propagation | Yes |
 | operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Result_2026-10-03.md | HISTORY / LOG | Wave0 closing FAIL after1base1correction; ninefuture drafts notrun | No |
 | operations/LinkedIn_ImageGen_Scoped_Freeze_2026-10-03.md | HISTORY / LOG | exact PO scoped mechanism/F3 freeze; P3 failure retained | No |
 | operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Plan_2026-10-03.md | CANONICAL | remaining ten-treatment waves, proposed unreleased budgets and gates | Yes |
