@@ -1,0 +1,27 @@
+{
+  "revision": "B-direct-edit-v1",
+  "baseline": "abed669ff9da88be75aa624b4aff540eb6049b58",
+  "authority": "Bao: okie lam di after clarification directimageedit of alreadyapproved B layout; removeextra diagramwords andenlargesource",
+  "approved_layout": "B_SOURCE_AFTER_IMAGE_ALREADY_APPROVED",
+  "edit_target": {
+    "path": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/sol/b/native/p3-a5-layout-b.png",
+    "sha256": "501f228d3a23b7ab90e302904fb7cac7ad2b9731133da702a0f8082218df2886"
+  },
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/common/p3-copy.json",
+    "sha256": "b5225251b5abe014caa2d9fcd2e38ebc3f70b19188ac28ac052f08d4ff41ca19",
+    "revision": "all-scenarios-wave0-p3-copy-v1-parent-review-pending"
+  },
+  "scope": "One additional direct image edit only; no redesign, preserve B composition/sourcefullwidth; sourceatleastbodyhierarchy; exact copy",
+  "AC": [
+    "Native untouchedsquare>=1080",
+    "Exact publictext/labels, noextra diagramlabels",
+    "Sourcefullwidth atbodylikehierarchy actualmobile390/image332.667 nozoom",
+    "SameBcomposition/noskyline; fullP3 continuity withunchangedA1–4",
+    "Cleanpublicbundle/protectedoldbytes; accurate currentstatus, no harness/Git/live mutation"
+  ],
+  "audit_mode": "SELF parent",
+  "deterministic_gate": "NOT_APPLICABLE_TO_DIRECT_EDIT: existing reference schema bans exactcomposition transfer; do not claim PASS or modify gate. Explicitly authorized directedit preview independently reviewed/pinned below",
+  "budget": 1,
+  "harness": "UNCHANGED until finishedrender accepted"
+}

@@ -1,0 +1,63 @@
+{
+  "AUDIT_SCOPE": "Implementation closing-reference opt-in only; parentreconciliation of independentAC01/AC02 plusboundedprotection/docs/codepins; no stressrasteracceptance",
+  "CONTRACT_REF": {
+    "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/operator/execution-contract.json",
+    "sha256": "d49bdeed0accc502484289eef975932e9cb395ef5fac3e6017d1241d2e95096f"
+  },
+  "BASELINE_REF": "abed669ff9da88be75aa624b4aff540eb6049b58 withauthorizedprioruncommittedclosingartifacts",
+  "CANDIDATE_REF": {
+    "gate_sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+    "tests_sha256": "2c383a475ecc44cfd72825d4a825b2aec1a90da49e42d856928c2dec878f97c2",
+    "anchor_sha256": "016b69513d28bee0ab1b371e4ff5c8f4a86acb531a40125d72785622b01a7416"
+  },
+  "VERDICT": "PASS",
+  "COVERAGE": {
+    "AC01": "PASS — STRUCTURAL/CONTRACT —independentSol audit reference role/scope/release/review chain; parentactualdiff/referenceapproval/anchorbytes",
+    "AC02": "PASS — BEHAVIORAL/RUNTIME —independent65tests plusshared2adclosing release+dispatch/invalidattrs/staleanchorcounterexamples/historicalpromptbytecompat",
+    "AC03": "PASS — STRUCTURAL/CONTRACT scoped —protectedallpriorfiles except14authorizedcanonical/code paths, oldstatusoutsideupgradeobjects unchanged; implementationcheckpoint stillnext",
+    "AC04": "NOT_CHECKED — VISUAL —dogfood actualnewnative/fullsets NOT_RUN untilcheckpoint",
+    "AC05": "NOT_CHECKED — BEHAVIORAL/STRUCTURAL —freshstressreleases/dogfoodpublicrendersnotprepared",
+    "AC06": "PASS — STRUCTURAL/CONTRACT scoped —no prematurefreeze/allcampaignacceptance; pendingdogfoodstage correctlyrecorded"
+  },
+  "FINDINGS": {
+    "FAILED_AC": null,
+    "EXPECTED": "Minimalbackwardcompatibleclosingstandard",
+    "OBSERVED": "No supportedimplementationfinding",
+    "EVIDENCE": "Gate/tests/rawacceptedanchor exacthashes; independenttool-runtime-backed65tests and counterexamples",
+    "EVIDENCE_GAP": "Stress actualimages/reader required beforeupgradefreeze",
+    "RESTORE_CONDITION": null,
+    "REQUIRED_RECHECK": "FreshdogfoodF2/O1 native/full5/mobile/public withpostcheckpointpins"
+  },
+  "independent_auditor": {
+    "agent": "/root/rollout_source_sol",
+    "model": "gpt-6.1-sol",
+    "effort": "low",
+    "tests_passed": 65,
+    "counterexamples": [
+      "sharedA5/B5closinggroup freshdispatchPASS",
+      "unauthorizedwording/data/props/composition/brand/colorsattributesrejected",
+      "changedanchorafterpreflight rejecteddispatch",
+      "historicalno-closingpromptbyteidentical"
+    ]
+  },
+  "root_protected_files": 1247,
+  "root_changed_allowed": [
+    "operations/LinkedIn_ImageGen_Preflight_Schema.md",
+    "operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Plan_2026-10-03.md",
+    "operations/LinkedIn_ImageGen_Closing_Layout_Selection_Plan_2026-10-03.md",
+    "tests/test_imagegen_preflight.py",
+    "operations/Pre_Ad_Readiness_Plan.md",
+    "README.md",
+    "scripts/verify_imagegen_preflight.py",
+    "operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md",
+    "operations/LinkedIn_ImageGen_Harness_Status.json",
+    "operations/LinkedIn_ImageGen_Visual_Instructions.md",
+    "CURRENT_STATE.md",
+    "operations/LinkedIn_Awareness_Execution_Plan.md",
+    "ads/linkedin/LinkedIn_Build_Pack.md",
+    "DOCS_INDEX.md"
+  ],
+  "old_status_scopes": "PRESERVED",
+  "image_calls_this_implementation": 0,
+  "git": "authorizedcheckpointnext; no push/merge/live"
+}

@@ -1,3 +1,17 @@
+> **Closing implementation audit03-10-2026:** IMPLEMENTATION_AUDIT_PASS_READY_FOR_CHECKPOINT / testing_dogfood_closing_upgrade. Independent leaf+root verified65checks (49regression+16closing), bindings/counterexamples and1247protected priorfiles with only14allowed code/docs changes. This proves implementation/mechanical scope, not future image readability or wholecampaign acceptance. Containing authorized local checkpoint must precede dogfood generation; F2/O1 proposal remains NOT_RELEASED until root commit/freshbindings. Prior freeze/history unchanged; no push/live. [Audit](operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/operator/implementation-final-audit.json) SHA256 `cfb12531e0d204ad87685d5db3d7969a7b5e747be5d70b691bb19cb211772da8`.
+
+> **Closing upgrade03-10-2026:** exact edited B accepted; implementation READY_FOR_PARENT_AUDIT, root commit before dogfood; no blanket rollout.
+
+| New document | Classification | Scope |
+|---|---|---|
+| operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/closing-standard-guide.md | CANONICAL | opt-in closing role/schema/prompt amendment |
+| operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/dogfood-plan.md | PLAN | F2/O1 proposed10base+2targeted, NOT_RELEASED |
+| operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/reference-approval.json | HISTORY/LOG | exact PO accepted anchor and raw copy identity |
+
+> **B directedit current03-10-2026:** B layout ALREADY_APPROVED; latestoneadditionalDIRECTEDIT authorized/done, scopednative/renderPASS,10positionsfull5desktop/mobile. Sourcefullwidth at leastbody-sized/no skyline; exactcopy/labels, sameBcomposition. Editedimage readyforBảo actualview; no A/Breselection. Manual independentbindings, NOTdeterministicgatePASS; gate/harness unchanged, nofullrollout/Git/live. Previous2+1FAIL/results/history and mechanism+exactF3freeze preserved. Await exacteditedimageacceptance before harnesspropagation. [Result](operations/LinkedIn_ImageGen_Closing_Layout_B_Direct_Edit_Result_2026-10-03.md).
+
+> **Chosen B current outcome03-10-2026:** Bdirection chosen by Bảo; exactfinishedlayout NOT_ACCEPTED.2base+1chosenrefine budgetconsumed. Brefine CHANGES_REQUIRED: source stillsmallerthanbody, skyline/iconcolumn narrows source andbigphoto takes readingarea; diagramlabels removed scopedPASS. Harness UNCHANGED; mechanism+exactF3 freeze/oldP3FAIL unchanged. AwaitPOdecision on nextdirection/refinement; nofurthercalls/allscenario generation. Checkpointabed669 localnopush; currentnewoutcome/docs UNCOMMITTED/UNSTAGED. [Internalresult](operations/LinkedIn_ImageGen_Closing_Layout_Selection_Result_2026-10-03.md).
+
 > **Layout plan checkpoint 03-10-2026:** containing local plan checkpoint under latest PO authorization; sau checkpoint thực hiện preview tới Bảo duyệt đúng rendered layout. Không push/live; frozen scope/prior P3FAIL giữ nguyên.
 
 > **Remaining rollout current03-10-2026:** LatestPOmandate authorized localrollout; Wave0 now STOPPED_AT_WAVE0_P3_CLOSING_CHANGES_REQUIRED / FAIL / PARTIAL.1base+1correction consumed,4reused/5selected. Exactwords/headlinePASS, correctedsource stilltoo small atmobile390/image332.6667px.49parentunitPASS; no candidatefixture19/3 replay thisrun. Ninefuturetreatments45cards prepared NOT_RUN/NOT_RELEASED; nofurthercalls. frozen_harness mechanism+exactF3 only unchanged, P3notaccepted.46+10planceilings unchanged, P3wavecap consumed. Current work recorded by containing local checkpoint under PO authorization; prior882e621; no push/merge/live. Originaldated plan/proposedauthority notes below are historical; thisnote supersedes onlycurrent executionstate. [Result](operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Result_2026-10-03.md).
@@ -10,6 +24,8 @@ CANONICAL defines current marketing truth and participates in sync review. HISTO
 
 | Path | Class | Purpose | Sync review |
 |---|---|---|---|
+| operations/LinkedIn_ImageGen_Closing_Layout_B_Direct_Edit_Result_2026-10-03.md | HISTORY / LOG | one direct B edit scopedPASS, exact edited-image POview pending | No |
+| operations/LinkedIn_ImageGen_Closing_Layout_Selection_Result_2026-10-03.md | HISTORY / LOG | chosen B refinement source hierarchy failure; budget consumed, exact layout unaccepted | No |
 | operations/LinkedIn_ImageGen_Closing_Layout_Selection_Plan_2026-10-03.md | CANONICAL | visual selection and exact layout freeze before separately mandated harness propagation | Yes |
 | operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Result_2026-10-03.md | HISTORY / LOG | Wave0 closing FAIL after1base1correction; ninefuture drafts notrun | No |
 | operations/LinkedIn_ImageGen_Scoped_Freeze_2026-10-03.md | HISTORY / LOG | exact PO scoped mechanism/F3 freeze; P3 failure retained | No |

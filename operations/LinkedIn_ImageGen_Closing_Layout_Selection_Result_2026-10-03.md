@@ -1,0 +1,15 @@
+# Chosen B refinement — current outcome 03-10-2026
+
+CHANGES_REQUIRED / parent final audit FAIL AC03 after actual native and rendered review; parent operator receipt remains immutable. Bảo chose direction “Chọn B — nguồn sau hình (đề xuất)”, not exact finishedimage approval. Exact layout NOT_ACCEPTED.2base+1sole chosenrefine consumed; no furthergeneration/drafts released. Await PO decision on next refinement/direction; no all-scenarios generation or harness update.
+
+A/Bbase had unauthorized diagramwords; A omitted approved regional label. Chosen Brefine removed diagramlabels (scopedPASS), but generated Taipei skyline/iconcolumn narrows source, source smaller thanbody and largephoto takes readingarea despite explicit instructions. Source hierarchy regressed; no headline/copy rewrite toaccept image. Current nativeoriginal1254square SHA256 `2d458318a142b68e93d0fad6fd113dbd9a981ed085bf16a83c4ebd68a2ffcf0b`. Producer only verifies bytes/publicprojection; Parent completed actualmobile/full5/renderreview: source hierarchy/readability FAIL remains; structural navigation/export passes are separate.
+
+Cleanfull5reader `outputs/closing-layout-b-refine/index.html` selects priorunchangedP3A1–A4 plus newrefine;7publicfiles, exactcopyprojection/logobytes, manifestrepo outsideviewer. BaseB preserved. Copy SHA256 `b5225251b5abe014caa2d9fcd2e38ebc3f70b19188ac28ac052f08d4ff41ca19`; boundcopy/contracts/refs/gate/tests untouched. Internal findings are not viewerchrome/hiddennotes/attachments.
+
+Checkpoint `abed669ff9da88be75aa624b4aff540eb6049b58` local, nopush/merge/live. Currentoutcome/docs/newassets localuncommitted/unstaged. frozen_harness scope remains mechanism+exactF3 only; oldP3FAIL/oldruns unchanged. Harness UNCHANGED: Bdirection choice does not count as exactlayoutacceptance neededbefore propagation. Further attempt requires actualnewPOdecision because currentboundedbudget consumed, not routinegeneric extra gate after acceptedlayout.
+
+Docsimpactreviewed: currentselectionworkflow/entry/status/runbook/execution/readiness/build/remainingplan updated. Strategy/proofrights/budget/landing/tracking unchanged. No new outcome claim for ninepreparedfuturetreatments.
+
+## Completed parent audit
+
+`operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/parent-final-audit.json` SHA256 `dee97ef260cc0e0fdfc5590c5db91b0262dd5ca8fe1a3273fd8d7debaa3821f0`. Parent observed30actualfullcard positions (3variants ×5cards ×desktop/mobile),390×844 and1280×900; actualimage widths332.6667/606.6667px, nooverflow. Dots/endpoints observed, Bprev/ArrowRight additionally exercised. Three7filepublicbundles exactprojection/nativebyte PASS; threefreshpreflight/dispatch/native checks PASS1254square.1142trackedprotectedbaseline unchanged except10allowedcanonical paths. No unit/fixture replay needed because gatecode unchanged. OverallFAIL AC03; exactfinishedimage NOT_ACCEPTED,2base+1chosenrefine consumed. BaseB stronger than Brefine is scoped operator visualcomparison, not PO finalapproval.

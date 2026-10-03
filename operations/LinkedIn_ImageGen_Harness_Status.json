@@ -3267,18 +3267,109 @@
   },
   "closing_layout_plan": {
     "path": "operations/LinkedIn_ImageGen_Closing_Layout_Selection_Plan_2026-10-03.md",
-    "status": "DRAFT_PLAN_READY",
-    "candidate_status": "NO_CANDIDATE_YET",
-    "harness_status": "NO_HARNESS_UPDATE",
-    "checkpoint": "f3c7e17c50163672659ab75bd9ee5300384b1694",
+    "status": "CHANGES_REQUIRED_AWAITING_PO_DECISION",
+    "candidate_status": "B_REFINE_NOT_ACCEPTED_SOURCE_HIERARCHY_FAIL",
+    "harness_status": "UNCHANGED_NO_HARNESS_UPDATE",
+    "checkpoint": "abed669ff9da88be75aa624b4aff540eb6049b58",
     "sequence": "Bao authorizes preview plan → actual previews → Bao exact rendered layout selection/acceptance → bounded chosen refine if needed → accepted exact layout/wording freeze → harness update within approved sequence with fresh internal bindings/checks",
     "proposed_base": 2,
     "proposed_chosen_refine_max": 1,
-    "generation_authority": "DRAFT_NOT_RELEASED",
-    "work_state": "containing local plan checkpoint under PO latest instruction; no push/live",
+    "generation_authority": "NO_FURTHER_RELEASE",
+    "work_state": "currentoutcome local UNCOMMITTED/UNSTAGED afterabed669; nopush/live",
     "prior_P3_failure": "UNCHANGED",
     "next_commit": "AUTHORIZED_CONTAINING_LOCAL_PLAN_CHECKPOINT",
     "harness_followup_authority": "conditional user-approved sequence after Bao exact layout acceptance; no additional generic PO gate unless new material scope",
-    "execution_mandate": "After containing checkpoint execute through Bao exact rendered layout approval; no preview preparation in precommit phase"
+    "execution_mandate": "After containing checkpoint execute through Bao exact rendered layout approval; no preview preparation in precommit phase",
+    "selected_direction": "B_SOURCE_AFTER_IMAGE",
+    "direction_choice_exact": "Chọn B — nguồn sau hình (đề xuất)",
+    "finished_layout_acceptance": "NOT_ACCEPTED",
+    "actual_base": 2,
+    "actual_chosen_refine": 1,
+    "budget_status": "CONSUMED_NO_FURTHER_GENERATION",
+    "result": "operations/LinkedIn_ImageGen_Closing_Layout_Selection_Result_2026-10-03.md",
+    "next_action": "Latest explicitone-directedit completed scopedPASS; await Bao finishedimageview via closing_layout_direct_edit, no A/Breselection",
+    "findings": [
+      "Taipei skyline/iconcolumn narrows source",
+      "source smallerthanbody",
+      "largephoto steals readingarea"
+    ],
+    "diagram_labels": "REMOVED_SCOPED_PASS",
+    "final_audit_path": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/parent-final-audit.json",
+    "final_audit_sha256": "dee97ef260cc0e0fdfc5590c5db91b0262dd5ca8fe1a3273fd8d7debaa3821f0",
+    "final_audit_verdict": "FAIL",
+    "failed_criterion": "AC03_SOURCE_HIERARCHY_READABILITY",
+    "actual_render_positions": 30,
+    "viewports": {
+      "mobile": [
+        390,
+        844
+      ],
+      "desktop": [
+        1280,
+        900
+      ]
+    },
+    "actual_image_widths_px": {
+      "mobile": 332.6667,
+      "desktop": 606.6667
+    },
+    "public_bundles_verified": 3,
+    "fresh_bound_call_checks": 3,
+    "unit_fixture_replay": "NOT_NEEDED_GATE_UNCHANGED",
+    "protected_baseline_count": 1142,
+    "protected_scope": "unchanged except10allowedcanonicalpaths",
+    "previous_run_status": "2base+1chosenrefine FAIL unchanged; prior finalaudit remains historical evidence"
+  },
+  "closing_layout_direct_edit": {
+    "status": "PO_ACCEPTED_EXACT_IMAGE_STANDARD",
+    "layout_direction": "B_ALREADY_APPROVED",
+    "new_authority": "Bao explicit okie làm đi: one direct imageedit",
+    "actual_image_edits": 1,
+    "native_sha256": "016b69513d28bee0ab1b371e4ff5c8f4a86acb531a40125d72785622b01a7416",
+    "native_dimensions": [
+      1254,
+      1254
+    ],
+    "scoped_audit_verdict": "PASS",
+    "final_image_PO_acceptance": "ACCEPTED_EXACT_IMAGE_016b695_BY_CURRENT_PO_MANDATE",
+    "actual_render_positions": 10,
+    "audit_path": "operations/linkedin-imagegen-dogfood/closing-layout-b-direct-edit-2026-10-03/operator/parent-final-audit.json",
+    "audit_sha256": "f2e68a4a01765bfa5e374fe719078d665e183f33767c4a8d5809ec28587f45ce",
+    "audit_stage": "FINAL_PARENT_RECHECK_PASS",
+    "result": "operations/LinkedIn_ImageGen_Closing_Layout_B_Direct_Edit_Result_2026-10-03.md",
+    "bindings": "manual independentlypinned exactcompositionedit; NOTdeterministicgatePASS",
+    "gate_harness": "UNCHANGED",
+    "protected_before_files": 1225,
+    "future_generation": "NO_RELEASE",
+    "harness_propagation": "current PO mandate implementing closing standard; parent audit+commit before dogfood",
+    "prior_failed_runs": "UNCHANGED"
+  },
+  "closing_standard_upgrade": {
+    "status": "IMPLEMENTATION_AUDIT_PASS_READY_FOR_CHECKPOINT",
+    "phase": "testing_dogfood_closing_upgrade",
+    "authorization_exact": "oki chốt làm chuẩn harness, làm harness xong commit checkpoint r sau đó dogfood tiếp nhé để freeze harness.",
+    "accepted_anchor_sha256": "016b69513d28bee0ab1b371e4ff5c8f4a86acb531a40125d72785622b01a7416",
+    "guide": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/closing-standard-guide.md",
+    "unit_tests_passed": 65,
+    "existing_regression_tests": 49,
+    "new_closing_tests": 16,
+    "gate_sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+    "tests_sha256": "2c383a475ecc44cfd72825d4a825b2aec1a90da49e42d856928c2dec878f97c2",
+    "independent_parent_audit": "PASS",
+    "checkpoint": "CONTAINING_AUTHORIZED_LOCAL_CHECKPOINT_BEFORE_GENERATION",
+    "work_state": "Recorded by containing authorized local checkpoint; no push/merge/live",
+    "dogfood_plan": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/dogfood-plan.md",
+    "dogfood_budget_proposed": {
+      "base": 10,
+      "targeted_corrections": 2,
+      "status": "NOT_RELEASED"
+    },
+    "new_generation": 0,
+    "prior_freeze_scope": "UNCHANGED_MECHANISM_AND_EXACT_F3",
+    "whole_campaign_acceptance": "NOT_GRANTED",
+    "audit_path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/operator/implementation-final-audit.json",
+    "audit_sha256": "cfb12531e0d204ad87685d5db3d7969a7b5e747be5d70b691bb19cb211772da8",
+    "proof_scope": "65 checks implementation/mechanical only; future image stress NOT_ASSESSED",
+    "protected_prior_files_verified": 1247
   }
 }

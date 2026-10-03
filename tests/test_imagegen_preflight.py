@@ -609,5 +609,136 @@ class CampaignTests(unittest.TestCase):
         self.assertNotEqual(missing.returncode, 0)
 
 
+
+class ClosingGuideTests(unittest.TestCase):
+    def setUp(self):
+        work = ROOT / "work"
+        work.mkdir(exist_ok=True)
+        self.temp = tempfile.TemporaryDirectory(prefix="closing-fixture-", dir=work)
+        self.addCleanup(self.temp.cleanup)
+        self.fx = Fixture(Path(self.temp.name))
+        self.fx.put("closing.png", "synthetic pinned anchor, not actual artwork")
+        anchor = self.fx.ref("closing.png", "accepted-layout-v1")
+        self.fx.contract["references"].append(dict(anchor, role="closing_layout", attributes=sorted(gate.CLOSING_ATTRIBUTES)))
+        self.fx.contract["style"]["closing"] = {"revision": "closing-v1", "instructions": "Source is main full-width paragraph, body-sized; CTA separate.", "reference": anchor, "cards": ["A2", "B2"]}
+        self.bind()
+
+    def bind(self, groups=None):
+        self.fx.commit_inputs()
+        groups = groups or [["A2"], ["B2"]]
+        self.fx.release["groups"] = groups
+        self.fx.put("release.json", self.fx.release)
+        self.fx.anchor = self.fx.ref("release.json", "fixture-release-v1")["sha256"]
+        self.fx.spec["release"] = self.fx.ref("release.json", "fixture-release-v1")
+        self.fx.spec["calls"] = [c for c in self.fx.spec["calls"] if c["targets"] in groups]
+        self.fx.save_spec()
+
+    def fails(self, pattern, check=None):
+        with self.assertRaisesRegex(gate.Invalid, pattern):
+            (check or self.fx.check)()
+
+    def test_closing_subset_positive_and_prompt(self):
+        self.assertEqual(self.fx.check()["mechanical_verdict"], "PASS")
+        prompt = self.fx.spec["calls"][0]["prompt"]
+        for wording in ("CLOSING STRUCTURAL GUIDE", "333px", "Reduce photo", "source once", "exception only"):
+            self.assertIn(wording, prompt)
+        self.assertEqual(self.fx.dispatch()["mechanical_verdict"], "PASS")
+
+    def test_opening_release_rejected(self):
+        self.bind([["A1"]])
+        self.fails("closing cards only")
+
+    def test_opening_style_card_rejected(self):
+        self.fx.contract["style"]["closing"]["cards"] = ["A1"]
+        self.bind()
+        self.fails("last card")
+
+    def test_source_and_cta_required(self):
+        for field in ("source_text", "cta"):
+            with self.subTest(field=field):
+                old = self.fx.copy["ads"][0]["cards"][-1][field]
+                self.fx.copy["ads"][0]["cards"][-1][field] = ""
+                self.bind()
+                self.fails("nonempty source and CTA")
+                self.fx.copy["ads"][0]["cards"][-1][field] = old
+
+    def test_unknown_transfer_attribute_rejected(self):
+        self.fx.contract["references"][-1]["attributes"].append("reference_words")
+        self.bind()
+        self.fails("cannot transfer")
+
+    def test_missing_style_or_anchor_rejected(self):
+        closing = self.fx.contract["style"].pop("closing")
+        self.bind()
+        self.fails("requires reviewed closing style")
+        self.fx.contract["style"]["closing"] = closing
+        self.fx.contract["references"].pop()
+        self.bind()
+        self.fails("exactly one")
+
+    def test_style_anchor_mismatch_rejected(self):
+        self.fx.contract["style"]["closing"]["reference"]["sha256"] = "0" * 64
+        self.bind()
+        self.fails("differs from reviewed anchor")
+
+    def test_changed_anchor_bytes_rejected(self):
+        self.fx.put("closing.png", "changed anchor")
+        self.fails("Changed input")
+
+    def test_contract_change_cannot_rebind_old_review(self):
+        self.fx.contract["style"]["closing"]["instructions"] += " changed"
+        self.fx.put("contract.json", self.fx.contract)
+        self.fails("Changed input")
+
+    def test_changed_prompt_rejected(self):
+        self.fx.spec["calls"][0]["prompt"] += " print additional words"
+        self.fx.put("spec.json", self.fx.spec)
+        self.fails("prompt|Prompt")
+
+    def test_call_anchor_substitution_rejected(self):
+        self.fx.spec["calls"][0]["references"] = self.fx.spec["calls"][0]["references"][:-1]
+        self.fx.save_spec()
+        self.fails("reference|Reference")
+
+    def test_malformed_attributes_rejected_as_invalid(self):
+        self.fx.contract["references"][-1]["attributes"] = {"layout_hierarchy": True}
+        self.bind()
+        self.fails("reference attributes")
+
+    def test_closing_payload_unknown_field_rejected(self):
+        self.fx.contract["style"]["closing"]["self_approved"] = True
+        self.bind()
+        self.fails("keys|fields|Unexpected")
+
+    def test_stale_review_release_and_spec_bindings(self):
+        for filename in ("review.json", "release.json", "spec.json"):
+            with self.subTest(filename=filename):
+                path = self.fx.root / "fixture" / filename
+                old = path.read_bytes()
+                value = json.loads(old)
+                if filename == "spec.json":
+                    value["contract"]["sha256"] = "0" * 64
+                else:
+                    value["revision"] += "-changed"
+                self.fx.put(filename, value)
+                self.fails("Changed input|differs")
+                path.write_bytes(old)
+
+    def test_dispatch_cannot_drop_anchor_or_change_prompt(self):
+        self.fx.dispatch()
+        original = copy.deepcopy(self.fx.proposal)
+        for key, value in (("reference_paths", original["reference_paths"][:-1]), ("prompt", original["prompt"] + " changed")):
+            with self.subTest(key=key):
+                self.fx.proposal = copy.deepcopy(original)
+                self.fx.proposal[key] = value
+                self.fx.put("dispatch.json", self.fx.proposal)
+                self.fails("reference|prompt|Prompt|Reference", self.fx.dispatch_check)
+
+    def test_stale_dispatch_after_closing_instruction_change(self):
+        self.fx.dispatch()
+        self.fx.contract["style"]["closing"]["instructions"] += " same source, more room"
+        self.bind()
+        self.fails("Stale|stale|Changed|differs", self.fx.dispatch_check)
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

@@ -19,8 +19,9 @@ VERSION = 1
 CARD_FIELDS = ("headline", "body", "source_text", "cta", "native_headline", "alt", "artwork_labels")
 ART_FIELDS = ("headline", "body", "source_text", "cta", "artwork_labels")
 TERMS = ("OSAT", "Fabless", "WIP")  # Current PO policy; ERP/MES deliberately exempt.
-ROLES = {"palette", "lighting", "brand_asset", "campaign_visual"}
+ROLES = {"palette", "lighting", "brand_asset", "campaign_visual", "closing_layout"}
 CAMPAIGN_ATTRIBUTES = {"colors", "lighting", "shadows", "material_depth", "typography_hierarchy", "campaign_identity", "scene_diagram_integration"}
+CLOSING_ATTRIBUTES = {"layout_hierarchy", "source_full_width", "source_body_hierarchy", "cta_separation"}
 
 
 class Invalid(ValueError):
@@ -131,13 +132,18 @@ def make_prompt(contract, call):
     campaign_guidance = ("Campaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\n"
                          "Palette/lighting references supply only their declared colors, lighting and shadows.\n"
                          "Never copy reference words, record data, exact composition or mandatory props.\n") if "campaign" in contract["style"] else ""
+    closing_guidance = ("CLOSING STRUCTURAL GUIDE\n"
+                        "The independently reviewed closing_layout reference is an exception only for declared structural hierarchy: source full width, source/body hierarchy and CTA separation.\n"
+                        "Do not transfer its wording, data, objects, fixed counts or exact photographic composition. Use cohort-appropriate grounded scenes and integrated diagrams.\n"
+                        "Print only approved words, source once, no added punctuation or diagram labels. Source must be at least body-sized and comfortable without zoom at ordinary 333px display, full width, never a footnote.\n"
+                        "No skyline or icon column may narrow the source. Reduce photo/diagram area before reducing type; keep CTA separate.\n") if "closing" in contract["style"] else ""
     output_guidance = ("\nOUTPUT REQUIREMENT\n"
                        + canonical(contract["output"]) + "\n"
                        + "Create one square native PNG with minimum edge " + str(contract["output"]["min_edge"])
                        + " pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.") if contract["output"].get("policy") == "native_square_min" else ""
     return ("Create the approved carousel artwork. Use only approved artwork text for printed wording.\n"
             "References supply only their declared attributes; never copy reference wording, record data or composition.\n"
-            + campaign_guidance + "STYLE\n" + canonical(contract["style"]) + "\n"
+            + campaign_guidance + closing_guidance + "STYLE\n" + canonical(contract["style"]) + "\n"
             "REFERENCE ROLES\n" + canonical(call["references"]) + "\n"
             "CARD CONCEPTS (not printed labels)\n" + canonical(call["concepts"]) + "\n"
             "APPROVED ARTWORK TEXT\n" + canonical(call["artwork_text"]) + output_guidance)
@@ -284,16 +290,34 @@ def validate(root, release_path, release_sha256, spec_path, scope_call_id=None, 
         if ref["role"] == "campaign_visual":
             require(set(ref["attributes"]) <= CAMPAIGN_ATTRIBUTES, "Campaign reference cannot transfer wording/data/props/exact composition")
             require("campaign" in contract["style"], "Campaign reference requires reviewed campaign style")
+        if ref["role"] == "closing_layout":
+            require(set(ref["attributes"]) <= CLOSING_ATTRIBUTES, "Closing reference cannot transfer wording/data/props/exact composition")
+            require("closing" in contract["style"], "Closing reference requires reviewed closing style")
         require(ref["role"] not in ("palette", "lighting") or set(ref["attributes"]) <= {"colors", "lighting", "shadows"}, "Style-only role cannot transfer composition/text/props")
         inputs.ref({k: ref[k] for k in ("path", "sha256", "revision")}, False)
         identity = (str(inputs.path(ref["path"])), ref["role"])
         require(identity not in ref_keys, "Duplicate reference role")
         ref_keys.add(identity)
-    shape(contract["style"], ("brand", "palette", "lighting", "avoid"), ("campaign",))
+    shape(contract["style"], ("brand", "palette", "lighting", "avoid"), ("campaign", "closing"))
     if "campaign" in contract["style"]:
         shape(contract["style"]["campaign"], ("revision", "instructions"))
         for key in ("revision", "instructions"):
             text(contract["style"]["campaign"][key], "campaign " + key)
+    closing_refs = [r for r in refs if r["role"] == "closing_layout"]
+    if "closing" in contract["style"]:
+        closing = contract["style"]["closing"]
+        shape(closing, ("revision", "instructions", "reference", "cards"))
+        text(closing["revision"], "closing revision")
+        text(closing["instructions"], "closing instructions")
+        string_list(closing["cards"], "closing cards")
+        require(len(closing_refs) == 1, "Closing style requires exactly one closing layout anchor")
+        anchor = {k: closing_refs[0][k] for k in ("path", "sha256", "revision")}
+        require(closing["reference"] == anchor, "Closing style reference differs from reviewed anchor")
+        last_cards = {order[-1] for order in contract["card_order"].values()}
+        require(set(closing["cards"]) <= last_cards, "Closing guide restricted to last card per ad")
+        for cid in closing["cards"]:
+            require(cards[cid]["source_text"].strip() and cards[cid]["cta"].strip(), "Closing card requires nonempty source and CTA")
+        require(all(set(group) <= set(closing["cards"]) for group in allowed_groups), "Closing anchor release must select closing cards only")
     for key in ("brand", "lighting"):
         text(contract["style"][key], "style " + key)
     for key in ("palette", "avoid"):

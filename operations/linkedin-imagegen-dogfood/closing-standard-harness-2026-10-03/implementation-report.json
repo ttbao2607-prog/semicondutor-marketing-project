@@ -1,0 +1,58 @@
+{
+  "status": "READY_FOR_PARENT_AUDIT_STOP_FOR_ROOT_COMMIT",
+  "tests": {
+    "total": 65,
+    "existing": 49,
+    "new_closing": 16,
+    "result": "PASS"
+  },
+  "gate_sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+  "tests_sha256": "2c383a475ecc44cfd72825d4a825b2aec1a90da49e42d856928c2dec878f97c2",
+  "anchor_original_sha256": "016b69513d28bee0ab1b371e4ff5c8f4a86acb531a40125d72785622b01a7416",
+  "anchor_copy_sha256": "016b69513d28bee0ab1b371e4ff5c8f4a86acb531a40125d72785622b01a7416",
+  "new_image_calls": 0,
+  "Git_mutations": 0,
+  "docs_impact": "Reviewed canonical schema/visual/process/status. No strategy/proof-rights/landing/budget/tracking changes. Historical bodies retained.",
+  "protected_input_verification": true,
+  "prior_status_objects_preserved": [
+    "freeze",
+    "scoped_freeze",
+    "default_project_worker",
+    "historical_scopes",
+    "scenario_verdicts",
+    "current_run",
+    "image_call_counts",
+    "final_audit"
+  ],
+  "changed_existing_paths": [
+    "scripts/verify_imagegen_preflight.py",
+    "tests/test_imagegen_preflight.py",
+    "operations/LinkedIn_ImageGen_Preflight_Schema.md",
+    "operations/LinkedIn_ImageGen_Visual_Instructions.md",
+    "CURRENT_STATE.md",
+    "README.md",
+    "DOCS_INDEX.md",
+    "operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md",
+    "operations/LinkedIn_Awareness_Execution_Plan.md",
+    "operations/Pre_Ad_Readiness_Plan.md",
+    "ads/linkedin/LinkedIn_Build_Pack.md",
+    "operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Plan_2026-10-03.md",
+    "operations/LinkedIn_ImageGen_Closing_Layout_Selection_Plan_2026-10-03.md",
+    "operations/LinkedIn_ImageGen_Harness_Status.json"
+  ],
+  "new_owned_paths": [
+    "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/closing-standard-guide.md",
+    "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/dogfood-plan.md",
+    "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/implementation-report.json",
+    "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/prior-status-before-upgrade.json",
+    "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/protected-input-inventory.json",
+    "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/reference-approval.json",
+    "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/references/po-accepted-closing-b.png",
+    "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/stress-input-proposal.json"
+  ],
+  "status_changed_top_keys": [
+    "closing_layout_direct_edit",
+    "closing_standard_upgrade"
+  ],
+  "diff_check": "PASS; advisory LF-to-CRLF warnings only on ordinary unpinned markdown"
+}
