@@ -1,0 +1,89 @@
+{
+  "AUDIT_SCOPE": "Forward closing compact F3 +complete P3 controlled dogfood",
+  "CONTRACT_REF": "operator/execution-contract.json",
+  "BASELINE_REF": "97d72a7f84b375d95dbf41c87a227fe949f44886 and protected-before875files",
+  "CANDIDATE_REF": {
+    "F3": "current first4prior originals +newA5r3 SHA97cc4bdb20a22db3622139ee0d6e631aa19f92262aa5161c37b08bc3efd77eed",
+    "P3": "neworiginalA1–A4+correctedA5r2 SHA1f3318eb4ec4b0358847c67dac2a62037cd94b22ab887867fd6b594bd452bb9f"
+  },
+  "VERDICT": "FAIL",
+  "COVERAGE": [
+    "COPY: PASS - STRUCTURAL/CONTRACT - approvedF3body-onlydelta/P3projectionexact, independentlyreviewed pinnedinputs",
+    "MECHANICAL: PASS - BEHAVIORAL/RUNTIME - parent49unit tests; actual7preflight/dispatch/native checks; reviewedchild19negative3positive eachF3/P3 NOTparentreplay",
+    "NATIVE: PASS - STRUCTURAL/CONTRACT - 7decoded native1254square byteoriginal identity; ten selected cardsincl4before",
+    "F3: PASS - VISUAL - currentfivecardnative/mobile/desktop/source once readable nozoom scopedphasePASS",
+    "P3_A1_A4: PASS - VISUAL - wording/logo/blankrecords/pendingsemantics/coherentmaterialfamily",
+    "P3_A5_TEXT: FAIL - VISUAL - nativecorrectedheadline extra finalperiod beyondapprovednoendperiod",
+    "P3_A5_SOURCE: FAIL - VISUAL - normalmobile390 image332.667 source+attribution still materiallysmaller thanbody and uncomfortable nozoom",
+    "STORY: PASS - VISUAL - all8transitions; F3handoff vsP3request/scope/document/owner/synthesis distinct, sharedfamily",
+    "RENDER_EXPORT: PASS - STRUCTURAL/CONTRACT+BEHAVIORAL/RUNTIME - 20positionsdesktop/mobile nooverflow, dots/prevnext/keyboard/endpoints,3sevenfilemanifests/publiconly exports",
+    "PROTECTION: PASS - STRUCTURAL/CONTRACT - all875beforefiles unchanged beforecanonicaldocupdates, frozenmechanism/test/refs/priorrun preserved",
+    "PO_FINISHED_APPROVAL: NOT_CHECKED - STRUCTURAL/CONTRACT - noexactfinishedcarouselPOapproval; lifecycle remains testing_dogfood"
+  ],
+  "FINDINGS": {
+    "FAILED_AC": [
+      "P3_A5_TEXT",
+      "P3_A5_SOURCE"
+    ],
+    "EXPECTED": "Exact headline punctuation; required source/context/attribution comfortablyreadable atnormalmobile nozoom",
+    "OBSERVED": "CorrectedP3-A5 gained a finalperiod; source/attribution visiblystillbelowbody readablehierarchy at332.667px display",
+    "EVIDENCE": "operator/render-audit.json, sol/p3/corrections/native/p3-a5-r2.png and outputs/rollout-forward-p3-mobile-closing.png",
+    "EVIDENCE_GAP": "No OCR/fontpixel measurement or buyer/live evidence claimed; visuallyobserved clear failure",
+    "RESTORE_CONDITION": "A newly authorized P3closing copy/layout solution must preserve exactpublicmeaning and show nativewording/mobile source readability",
+    "REQUIRED_RECHECK": "newexactclosingnative+mobile+affectedstory/export plusprotectedinvariants"
+  },
+  "execution_status": "PARTIAL",
+  "parent_disposition": "CHANGES_REQUIRED_P3_CLOSING",
+  "lifecycle": "testing_dogfood",
+  "audit_mode": "SELF capacityfallback parent ownsprimarynative/source/browser evidence",
+  "calls": {
+    "base": 6,
+    "correction": 1,
+    "F3": 1,
+    "P3": 6
+  },
+  "scenario_verdicts": {
+    "F3": "PASS",
+    "P3": "FAIL"
+  },
+  "worker": "gpt-6.1-sol/low canonical paired acceptanceobserved",
+  "test_outcome": "PASS mechanical cannotcertifyrastertext/readability",
+  "child_candidate_cases": {
+    "f3": {
+      "negative": 19,
+      "positive": 3
+    },
+    "p3": {
+      "negative": 19,
+      "positive": 3
+    }
+  },
+  "parent_candidate_cases_replayed": 0,
+  "parent_shared_unit_tests": 49,
+  "evidence_sha256": {
+    "operator/f3/native/F3_A5_R3.json": "b323c516f83987e571d3b0208ab880afc8319cf0096587fe36a105c7a78a5548",
+    "operator/p3/native/P3_A1.json": "97f56d6f92477997827ab1ce7b51fae9d271c02818eeccf50bcdbece0f4708f5",
+    "operator/p3/native/P3_A2.json": "a64eeb01d9ccbdd7b3b2e34550fd61f016b5fa70372deb4abd5d9d9bb06679ac",
+    "operator/p3/native/P3_A3.json": "d0ebe6f043825fe706aefa9955a589604f257991d0fc9a3bd50f56f1333634ee",
+    "operator/p3/native/P3_A4.json": "2c75ddd079a9b25b834dd0d02c121859daa4e5474952e56aa2e9d56a66cf2e5f",
+    "operator/p3/native/P3_A5.json": "b5314265ec2bd305b62da6b035763bc215d388e5153b56bbb62c60ce592537f9",
+    "operator/p3-correction/native/P3_A5_R2.json": "5e0581eb74d269880822252f7bde01beb2ce3900fc16a8adebbd0f7be51f7aa5",
+    "operator/f3/phase-audit.json": "81c1196810e1263189eebd5035bb2a96392433092d3cf34f57d1dda101f183f3",
+    "operator/render-audit.json": "e4ffcba18af68ff12e08246071942dd125755c397b6710bafbac0e32bd1b9c45",
+    "operator/prior-status.json": "da976f23cbecb4134c0cb731602cb380ee097c307a7ce4c91f8a101e76d22278",
+    "common/input-manifest.json": "450b339a031bae6d8af7e85cb6e5a24573d1c793d880d7fc6ccd43064260d284",
+    "sol/f3/dogfood-results-v2.json": "0eebda9ca381764ff04a7e8921a88536136aba16f35d662bc82a1c6d44a71dd9",
+    "sol/p3/dogfood-results-v2.json": "ff3921c4c6f68089e695e5cae9e06ef36219469860a0a75f65e3b67863aff3c0"
+  },
+  "screenshot_sha256": {
+    "rollout-forward-f3-mobile-closing.png": "68e62eee615f69c99794540312bb30d62e7fadaf75bfcd5c6bdbbe261dde9790",
+    "rollout-forward-p3-mobile-closing.png": "6541d03b734900a08ef1aea5aa19c794f0230b30e40a76b88587721a9ee677f4",
+    "rollout-forward-p3-original-mobile-closing.png": "3fd5b9562f49b12843e30dc3ff848364bad1e61bbc14419fcdbd99a4b137cad4"
+  },
+  "generation_method": "built-in imagegen exactsavedreviewedprompts+fivefrozenreferencepaths; rawPNG noresize/compositing",
+  "stop_loss": "new6base+1reservedP3correction consumed; nofurtherreleased generation",
+  "frozen_harness": "NOT_TRANSITIONED needsclearallcriteria ANDexactfinishedcarouselBaoapproval",
+  "historical_failed_runs": "unchanged",
+  "runtime_cleanup": "temporaryIABtabclosed/viewportreset/ownedloopbackstopped portfree",
+  "no_git_mutation": true
+}

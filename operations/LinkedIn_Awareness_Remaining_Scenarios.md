@@ -1,3 +1,23 @@
+## Current scoped inventory — 03-10-2026
+
+11treatments/10baseIDs; F3 exact current set frozen, ten remain NOT_FROZEN. Prior UNASSIGNED/production-count notes below are dated historical snapshots; prior artifacts require requalification. Plan only, no futurecalls released.
+
+| Treatment | Current state | Proposed wave | Source at1f476c31 |
+|---|---|---|---|
+| F3 | FROZEN_PO_ACCEPTED | done | `f3-handoff-imagegen-r1/copy-vi.json` under operations/linkedin-awareness-execution/ |
+| P3 | NOT_FROZEN / closing CHANGES_REQUIRED | 0 | `p3-audit-imagegen-r1/copy-vi.json` under operations/linkedin-awareness-execution/ |
+| F1 | NOT_FROZEN | 1 | `f1-progress-imagegen-r1/copy-vi.json` under operations/linkedin-awareness-execution/ |
+| F2 | NOT_FROZEN | 1 | `f2-forecast-imagegen-r1/copy-vi.json` under operations/linkedin-awareness-execution/ |
+| P1 | NOT_FROZEN | 2 | `p1-owner-imagegen-r1/copy-vi.json` under operations/linkedin-awareness-execution/ |
+| P2 | NOT_FROZEN | 2 | `p2-boundaries-imagegen-r1/copy-vi.json` under operations/linkedin-awareness-execution/ |
+| O2 | NOT_FROZEN | 3 | `operations-imagegen-r1/copy-vi.json` under operations/linkedin-awareness-execution/ |
+| O4-O | NOT_FROZEN | 3 | `operations-imagegen-r1/copy-vi.json` under operations/linkedin-awareness-execution/ |
+| O1 | NOT_FROZEN | 4 | `r2-complete-carousel/copy-vi.json` under operations/linkedin-awareness-execution/ |
+| O4-Q | NOT_FROZEN | 4 | `r2-complete-carousel/copy-vi.json` under operations/linkedin-awareness-execution/ |
+| O3 | NOT_FROZEN / proof review required | 5 | `o3-cost-p1-copy/copy-vi.json` under operations/linkedin-awareness-execution/ |
+
+See LinkedIn_ImageGen_All_Scenarios_Rollout_Plan_2026-10-03.md for exact sourcepaths and claim/reuse/wave stop gates. O3 remains draftmanagementscope pendingproof, not verifiedcapability.
+
 # LinkedIn Awareness scenario inventory for future assignment
 
 **Dogfood benchmark closeout (2026-10-03, newest):** Hai trial F2-A2 local đã hoàn tất với cấu hình được skill gates xác minh `gpt-6-luna/max` và `gpt-6.1-sol/low`, cùng source/copy/style/harness. Parent operator thực hiện 2 base calls / 0 corrections theo authority giới hạn; native bytes giữ nguyên. Lifecycle vẫn `testing_dogfood`; run `PARTIAL`, benchmark measurement `COMPLETE`, candidate contract audit `FAIL`: cả hai native 1254×1254 khác yêu cầu đã pin 1024×1024, cả hai `CHANGES_REQUIRED`. Đây là gap size-control của operator/tool, không quy thành lỗi chuẩn bị của child. Parent đã kiểm tra wording/mark/alt, không thấy internal caveats trong native/HTML/metadata/export, và xem desktop 1280/mobile 390; Luna còn finding về đường cong đi lên làm mơ hồ story fit, chưa là buyer verdict hay fabricated numerical claim. Bảo content acceptance `NOT_GRANTED`. Implementation checkpoint `SUCCESS` / `AUDIT_PASS` và 35 tests giữ giá trị riêng; parent freshly rerun 35 tests và normalized 18 negative cases mỗi candidate đều đạt expected rejection (child Sol18/Luna17 riêng). Next: review sizing policy tương lai theo native output quan sát được hoặc chứng minh exact-size route; không sửa contract cũ để biến FAIL thành PASS, không retry/resize/correction được cấp thêm. Báo cáo evidence: `operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md`; status CANONICAL: `operations/LinkedIn_ImageGen_Harness_Status.json`. Các đoạn status cũ bên dưới là snapshot lịch sử, superseded về generation/candidate hiện tại. Baseline `7e95a44dc5a3e5c25c07cda7c0f905822b8ba864`; artifact/doc/status mới chỉ local, uncommitted, không staging/push/merge. Không whole-carousel/set-diversity/Taiwan-closing/buyer/live readiness hay general model ranking.

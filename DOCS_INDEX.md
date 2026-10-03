@@ -6,6 +6,11 @@ CANONICAL defines current marketing truth and participates in sync review. HISTO
 
 | Path | Class | Purpose | Sync review |
 |---|---|---|---|
+| operations/LinkedIn_ImageGen_Scoped_Freeze_2026-10-03.md | HISTORY / LOG | exact PO scoped mechanism/F3 freeze; P3 failure retained | No |
+| operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Plan_2026-10-03.md | CANONICAL | remaining ten-treatment waves, proposed unreleased budgets and gates | Yes |
+| operations/LinkedIn_ImageGen_Closing_Forward_Rollout_Result_2026-10-03.md | HISTORY / LOG | forward F3 PASS; P3 closing FAIL; no final freeze | No |
+| operations/LinkedIn_ImageGen_Controlled_Rollout_Result_2026-10-03.md | HISTORY / LOG | stopped F3 gate; corrected body closed, mobile source FAIL; P3 not run | No |
+| operations/LinkedIn_ImageGen_Controlled_Rollout_Plan_2026-10-03.md | CANONICAL | bounded F3 then P3 rollout authority/dependency and acceptance | Yes |
 | operations/LinkedIn_ImageGen_Harness_Freeze_2026-10-03.md | HISTORY / LOG | exact PO freeze/adoption and project Sol worker decision; historical failures retained | No |
 | operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md | HISTORY / LOG | bounded full-carousel trial; mechanical pass separate from creative failure | No |
 | operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md; operations/LinkedIn_Awareness_Campaign_Creative_Review.md | CANONICAL | next campaign art direction and three-level human criteria | Yes |

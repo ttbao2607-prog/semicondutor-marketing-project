@@ -1,0 +1,43 @@
+{
+  "AUDIT_SCOPE": "POscopedfreezeandremainingrolloutplan localcheckpoint",
+  "CONTRACT_REF": "operator/execution-contract.json",
+  "BASELINE_REF": "97d72a7+protected-before970files",
+  "CANDIDATE_REF": {
+    "status_sha256": "53401e47e1efdb4cd944079d1d7e759dda5e268a55d1b6bc5a88904392371cb5",
+    "freeze_record_sha256": "275ea8d9f32b74d16a5af3a03bd7348adb2866cc47ad2c94ec72435d5dc057d9",
+    "rollout_plan_sha256": "ac3a17f85bddaadbd114b200b2bbae167ec65d02f9124d8ff063d11438adef4a",
+    "preservation_manifest_sha256": "9fa4f1dc366b24acc989721443760e5c386241f53a822725d1a10365d7843171"
+  },
+  "VERDICT": "PASS",
+  "COVERAGE": [
+    "SCOPE: PASS - STRUCTURAL/CONTRACT - currentPOexplicitfreeze acceptedharness+exactF3 only; P3FAILstillopen, oldcreativeauditsunchanged",
+    "PRESERVE: PASS - STRUCTURAL/CONTRACT - 970beforefiles only10allowedcanonicaldocsattrs changed;gate/test/refs/priorrunsrawbytesunchanged",
+    "F3_IDENTITY: PASS - STRUCTURAL/CONTRACT - exactsevenfileviewer+copy/5nativeinputs matchingpriorrenderauditedmanifest;3mobileevidencebytespreservedinternal",
+    "INVENTORY_PLAN: PASS - STRUCTURAL/CONTRACT - 11treatmentswith10remaining,9sourcepaths verifiedfrozenGitblobs;VI5cardeach,46base10corrproposedonly,closingfirst+waveaudit+POexactsetfreeze",
+    "STATUS_HISTORY: PASS - STRUCTURAL/CONTRACT - frozen_harness scopenarrowPOoverride, fullbeforestatus archived, historicalscopes/freeze/defaultworkerunchanged",
+    "RUNTIME: PASS - BEHAVIORAL/RUNTIME - sameSol low canonicalacceptance, no newcalls/tests fabricated",
+    "DOCS: PASS - STRUCTURAL/CONTRACT - newest scopednotes supersedeold lifecycle/inventorystatus; priorfindingsnot rewritten"
+  ],
+  "FINDINGS": {
+    "FAILED_AC": [],
+    "EXPECTED": "Accurate boundedfreeze, durableassets, comprehensiveunreleasedplan andlocalcommit scope",
+    "OBSERVED": "PASS thisdoc/freeze milestone; productionofremainingten notattempted, P3closing stillFAIL",
+    "EVIDENCE": "preservation-manifest.json,currentstatus,newfreeze/plan,priorcurrentrenderaudits",
+    "EVIDENCE_GAP": "No newgeneration/fullcampaignquality/buyer/liveapproval claimed",
+    "RESTORE_CONDITION": "Futureeachwave needsfreshreleasedcopy+calls+native/render/story/export checks beforefreeze",
+    "REQUIRED_RECHECK": "stagedblobbyteidentity and exactallowlist prior tolocalcommit"
+  },
+  "execution_status": "SUCCESS",
+  "parent_disposition": "SCOPED_FREEZE_AND_PLAN_ACCEPTED_FOR_LOCAL_CHECKPOINT",
+  "legacy_creative_verdict": "FAIL remains unchanged",
+  "live_remote_checked": false,
+  "no_push_merge": true,
+  "staged_whitespace_check": {
+    "verdict": "PASS_WITH_IMMUTABLE_SOURCE_EXCEPTION",
+    "exception_path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/support/source-brief.md",
+    "source_sha256": "6abeda531f6b2316e89073b99202de0a195caa11895243c9a8d99552bed2c90e",
+    "reason": "One trailing space +one blanklineEOF inherited byte-exact from already committed frozen hybrid source; cannot normalize boundsource ascosmeticfix",
+    "verified_prior_source": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/source-brief.md",
+    "all_other_staged_paths": "PASS"
+  }
+}

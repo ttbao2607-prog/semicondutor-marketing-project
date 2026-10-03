@@ -1,73 +1,72 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-03",
-  "status": "testing_dogfood",
+  "status": "frozen_harness",
   "implementation_status": "SUCCESS",
   "independent_audit": "IMPLEMENTATION_CHECKPOINT_PASS_SEPARATE_FROM_CREATIVE_FAIL",
   "checkpoint_plan_audit": "AUDIT_PASS",
   "synthetic_tests_passed": 49,
-  "real_candidate_status": "CHANGES_REQUIRED",
-  "proposed_candidate": "F2-A/P2-A full five-card carousels per model",
-  "generation_authority": "BOUNDED_TWENTY_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
-  "checkpoint": "recorded by containing local freeze checkpoint; no push/merge; prior baseline 7e95a44",
+  "real_candidate_status": "CHANGES_REQUIRED_P3_CLOSING",
+  "proposed_candidate": "F3-A originalsA1-A4 + compactA5r3; P3-A originalsA1-A4 + correctedA5r2",
+  "generation_authority": "NO_FUTURE_GENERATION_RELEASED_SCOPED_FREEZE_AND_REMAINING_PLAN_ONLY",
+  "checkpoint": "recorded by containing local scoped-freeze checkpoint; prior baseline97d72a7; no push/merge",
   "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
   "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
-  "run_plan": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+  "run_plan": "operations/LinkedIn_ImageGen_Closing_Forward_Rollout_Plan_2026-10-03.md",
   "scope_limits": [
-    "20 base/0 correction completed; no further call release",
-    "Both CHANGES_REQUIRED; seven definite text violations plus separate SolF2A3 quarantine",
-    "Four mobile Taiwan source panels require changes",
-    "No PO/buyer/live whole-set acceptance/general ranking",
-    "Old exact1024 trial remains FAIL"
+    "Lifecycle frozen_harness only mechanism+exactpassed F3 POaccepted scope",
+    "P3 closing FAIL remains open; production/readiness PARTIAL",
+    "Prior fullrunFAIL immutable; earlier fulltwo-carousel freezecondition not claimed met",
+    "Remaining ten PLAN_ONLY_NOT_RELEASED; no futurecalls",
+    "No external/business/live authority"
   ],
   "candidate_statuses": {
-    "luna": "CHANGES_REQUIRED",
-    "sol": "CHANGES_REQUIRED"
+    "sol": "CHANGES_REQUIRED_P3_CLOSING"
   },
   "execution_status": "PARTIAL",
-  "benchmark_measurement_status": "COMPLETE",
+  "benchmark_measurement_status": "NOT_A_MODEL_COMPARISON",
   "candidate_contract_audit": "FAIL",
-  "content_acceptance": "PO_HARNESS_ADOPTION_AND_SOL_VISUAL_DIRECTION_APPROVED_NOT_BLANKET_EXTERNAL_RELEASE",
+  "content_acceptance": "PO_ACCEPTED_EXACT_F3_AND_MECHANISM_ONLY_P3_NOT_ACCEPTED",
   "image_call_counts": {
-    "base": 20,
-    "correction": 0,
-    "pre_inference_reference_limit_rejection": 1,
-    "rejected_attempt_images": 0
+    "base": 6,
+    "correction": 1,
+    "F3_base": 1,
+    "P3_base": 5,
+    "P3_correction": 1
   },
   "fresh_shared_tests_passed": 49,
   "independent_parent_negative_cases": {
-    "sol": 19,
-    "luna": 19
+    "count": 0,
+    "status": "NOT_REPLAYED"
   },
   "child_negative_cases": {
-    "sol": 19,
-    "luna": 19
+    "f3": 19,
+    "p3": 19
   },
   "native_dimensions": {
     "policy": "native_square_min",
     "minimum_edge": 1080,
-    "actual_all20": [
+    "new_original_count": 7,
+    "selected_count": 10,
+    "prior_selected_count": 4,
+    "actual_new_each": [
       1254,
       1254
     ],
     "resize": false
   },
-  "benchmark_report": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
-  "final_audit": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/final-audit.json",
+  "benchmark_report": "operations/LinkedIn_ImageGen_Closing_Forward_Rollout_Result_2026-10-03.md",
+  "final_audit": "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03/operator/final-audit.json",
   "runtime_metrics": {
-    "scope": "operator image tool; some parallel; no model causal/cost ranking",
-    "sol_sum_seconds": 463.382,
-    "sol_median_seconds": 48.782,
-    "luna_sum_seconds": 928.258,
-    "luna_median_seconds": 83.763
+    "scope": "singleworker controlled forward rollout; no modelcomparison",
+    "cleanup": "tabclosed viewportreset serverstopped portfree"
   },
   "content_acceptance_detail": {
-    "current_po": "harness freeze/adoption and Sol visual direction approved",
-    "historical_operator_candidates": "CHANGES_REQUIRED unchanged",
+    "current_po": "passed mechanism and exact current F3 five-card set accepted/frozen",
+    "P3": "NOT_ACCEPTED_CHANGES_REQUIRED",
     "buyer": "NOT_GRANTED",
     "live": "NOT_GRANTED",
-    "whole_set_external_release": "NOT_GRANTED",
-    "historical_components": "retained in historical scope"
+    "whole_remaining_library": "NOT_ACCEPTED_NOT_RELEASED"
   },
   "campaign_preparation": {
     "status": "HISTORICAL_ACCEPTED_PREPARATION_SUPERSEDED_BY_FULL_RUN",
@@ -330,17 +329,2804 @@
       "shared_manifest_sha256": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd",
       "native_dimension_contract_audit": "PASS_FORWARD_NATIVE_SQUARE_MIN",
       "current_run": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03"
+    },
+    "prior_current_before_controlled_rollout_closeout": {
+      "schema_version": 1,
+      "updated_at": "2026-10-03",
+      "status": "testing_dogfood",
+      "implementation_status": "SUCCESS",
+      "independent_audit": "IMPLEMENTATION_CHECKPOINT_PASS_SEPARATE_FROM_CREATIVE_FAIL",
+      "checkpoint_plan_audit": "AUDIT_PASS",
+      "synthetic_tests_passed": 49,
+      "real_candidate_status": "CHANGES_REQUIRED",
+      "proposed_candidate": "F2-A/P2-A full five-card carousels per model",
+      "generation_authority": "BOUNDED_TWENTY_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+      "checkpoint": "recorded by containing local freeze checkpoint; no push/merge; prior baseline 7e95a44",
+      "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+      "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+      "run_plan": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+      "scope_limits": [
+        "20 base/0 correction completed; no further call release",
+        "Both CHANGES_REQUIRED; seven definite text violations plus separate SolF2A3 quarantine",
+        "Four mobile Taiwan source panels require changes",
+        "No PO/buyer/live whole-set acceptance/general ranking",
+        "Old exact1024 trial remains FAIL"
+      ],
+      "candidate_statuses": {
+        "luna": "CHANGES_REQUIRED",
+        "sol": "CHANGES_REQUIRED"
+      },
+      "execution_status": "PARTIAL",
+      "benchmark_measurement_status": "COMPLETE",
+      "candidate_contract_audit": "FAIL",
+      "content_acceptance": "PO_HARNESS_ADOPTION_AND_SOL_VISUAL_DIRECTION_APPROVED_NOT_BLANKET_EXTERNAL_RELEASE",
+      "image_call_counts": {
+        "base": 20,
+        "correction": 0,
+        "pre_inference_reference_limit_rejection": 1,
+        "rejected_attempt_images": 0
+      },
+      "fresh_shared_tests_passed": 49,
+      "independent_parent_negative_cases": {
+        "sol": 19,
+        "luna": 19
+      },
+      "child_negative_cases": {
+        "sol": 19,
+        "luna": 19
+      },
+      "native_dimensions": {
+        "policy": "native_square_min",
+        "minimum_edge": 1080,
+        "actual_all20": [
+          1254,
+          1254
+        ],
+        "resize": false
+      },
+      "benchmark_report": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+      "final_audit": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/final-audit.json",
+      "runtime_metrics": {
+        "scope": "operator image tool; some parallel; no model causal/cost ranking",
+        "sol_sum_seconds": 463.382,
+        "sol_median_seconds": 48.782,
+        "luna_sum_seconds": 928.258,
+        "luna_median_seconds": 83.763
+      },
+      "content_acceptance_detail": {
+        "current_po": "harness freeze/adoption and Sol visual direction approved",
+        "historical_operator_candidates": "CHANGES_REQUIRED unchanged",
+        "buyer": "NOT_GRANTED",
+        "live": "NOT_GRANTED",
+        "whole_set_external_release": "NOT_GRANTED",
+        "historical_components": "retained in historical scope"
+      },
+      "campaign_preparation": {
+        "status": "HISTORICAL_ACCEPTED_PREPARATION_SUPERSEDED_BY_FULL_RUN",
+        "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+        "executable_alignment": "IMPLEMENTED_FORWARD_ONLY",
+        "seven_card_proposal": "SUPERSEDED_NOT_CURRENT_AUTHORITY"
+      },
+      "historical_scopes": {
+        "two_call_trial_and_campaign_preparation_snapshot": {
+          "schema_version": 1,
+          "updated_at": "2026-10-03",
+          "status": "testing_dogfood",
+          "implementation_status": "SUCCESS",
+          "independent_audit": "AUDIT_PASS",
+          "checkpoint_plan_audit": "AUDIT_PASS",
+          "synthetic_tests_passed": 35,
+          "real_candidate_status": "CHANGES_REQUIRED",
+          "proposed_candidate": "F2-A2",
+          "generation_authority": "BOUNDED_TWO_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+          "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+          "gate_sha256": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+          "tests_sha256": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+          "run_plan": "operations/LinkedIn_ImageGen_First_Candidate_Dogfood_Plan.md",
+          "scope_limits": [
+            "Two actual base calls completed; native and desktop/mobile fixtures inspected by parent; this does not cure the native dimensional failure",
+            "Both candidates CHANGES_REQUIRED; Luna central upward-curve story-fit ambiguity also open as operator finding",
+            "Bảo accepts colors/copy/logo components only; no whole-candidate acceptance or set diversity, full-carousel quality, Taiwan closing-source readability, buyer validation or live authority",
+            "One trial/configuration at different effort with a stochastic shared image tool; no general ranking or price conclusion",
+            "Forward sizing policy requires review and fresh pins for any future separately released call; immutable failed trial remains FAIL"
+          ],
+          "candidate_statuses": {
+            "luna": "CHANGES_REQUIRED",
+            "sol": "CHANGES_REQUIRED"
+          },
+          "execution_status": "PARTIAL",
+          "benchmark_measurement_status": "COMPLETE",
+          "candidate_contract_audit": "FAIL",
+          "content_acceptance": "COMPONENTS_ACCEPTED_VISUAL_PENDING",
+          "image_call_counts": {
+            "base": 2,
+            "correction": 0
+          },
+          "fresh_shared_tests_passed": 35,
+          "independent_parent_negative_cases": {
+            "luna": 18,
+            "sol": 18
+          },
+          "child_negative_cases": {
+            "luna": 17,
+            "sol": 18
+          },
+          "native_dimensions": {
+            "requested": [
+              1024,
+              1024
+            ],
+            "luna": [
+              1254,
+              1254
+            ],
+            "sol": [
+              1254,
+              1254
+            ]
+          },
+          "benchmark_report": "operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md",
+          "final_audit": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/final-audit.json",
+          "runtime_metrics": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/runtime-benchmark-metrics.json",
+          "content_acceptance_detail": {
+            "accepted": [
+              "colors",
+              "copy",
+              "logo"
+            ],
+            "visual": "PENDING_R2_CAMPAIGN",
+            "whole_candidate": "NOT_ACCEPTED",
+            "historical_benchmark": "Unchanged"
+          },
+          "campaign_preparation": {
+            "status": "READY_FOR_PO_REVIEW",
+            "production": "NOT_RUN",
+            "kit": "operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md",
+            "criteria": "operations/LinkedIn_Awareness_Campaign_Creative_Review.md",
+            "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+            "future_proof": "one5cardad+two different-rolecards contrasting scenario; sevenbase/zerocorrection UNRELEASED; exacttargets/sourcecopyreview required",
+            "future_native_policy": "square>=1080eachside/noresize, forwardonly",
+            "executable_alignment": "NOT_IMPLEMENTED_REQUIRED_BEFORE_FUTURE_DISPATCH",
+            "parent_audit": "PASS",
+            "operator_audit": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/operator-audit.json",
+            "audit_scope": "Preparation only; parent 1280x900/390x844 guide observation and528 protected identity; no creative/new-production acceptance"
+          }
+        },
+        "pre_freeze_hybrid_status_2026_10_03": {
+          "schema_version": 1,
+          "updated_at": "2026-10-03",
+          "status": "testing_dogfood",
+          "implementation_status": "SUCCESS",
+          "independent_audit": "IMPLEMENTATION_CHECKPOINT_PASS_SEPARATE_FROM_CREATIVE_FAIL",
+          "checkpoint_plan_audit": "AUDIT_PASS",
+          "synthetic_tests_passed": 49,
+          "real_candidate_status": "CHANGES_REQUIRED",
+          "proposed_candidate": "F2-A/P2-A full five-card carousels per model",
+          "generation_authority": "BOUNDED_TWENTY_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+          "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+          "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+          "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+          "run_plan": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+          "scope_limits": [
+            "20 base/0 correction completed; no further call release",
+            "Both CHANGES_REQUIRED; seven definite text violations plus separate SolF2A3 quarantine",
+            "Four mobile Taiwan source panels require changes",
+            "No PO/buyer/live whole-set acceptance/general ranking",
+            "Old exact1024 trial remains FAIL"
+          ],
+          "candidate_statuses": {
+            "luna": "CHANGES_REQUIRED",
+            "sol": "CHANGES_REQUIRED"
+          },
+          "execution_status": "PARTIAL",
+          "benchmark_measurement_status": "COMPLETE",
+          "candidate_contract_audit": "FAIL",
+          "content_acceptance": "WHOLE_CANDIDATE_NOT_GRANTED",
+          "image_call_counts": {
+            "base": 20,
+            "correction": 0,
+            "pre_inference_reference_limit_rejection": 1,
+            "rejected_attempt_images": 0
+          },
+          "fresh_shared_tests_passed": 49,
+          "independent_parent_negative_cases": {
+            "sol": 19,
+            "luna": 19
+          },
+          "child_negative_cases": {
+            "sol": 19,
+            "luna": 19
+          },
+          "native_dimensions": {
+            "policy": "native_square_min",
+            "minimum_edge": 1080,
+            "actual_all20": [
+              1254,
+              1254
+            ],
+            "resize": false
+          },
+          "benchmark_report": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+          "final_audit": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/final-audit.json",
+          "runtime_metrics": {
+            "scope": "operator image tool; some parallel; no model causal/cost ranking",
+            "sol_sum_seconds": 463.382,
+            "sol_median_seconds": 48.782,
+            "luna_sum_seconds": 928.258,
+            "luna_median_seconds": 83.763
+          },
+          "content_acceptance_detail": {
+            "whole_candidate": "NOT_GRANTED",
+            "buyer": "NOT_GRANTED",
+            "live": "NOT_GRANTED",
+            "historical_components": "retained in historical scope"
+          },
+          "campaign_preparation": {
+            "status": "HISTORICAL_ACCEPTED_PREPARATION_SUPERSEDED_BY_FULL_RUN",
+            "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+            "executable_alignment": "IMPLEMENTED_FORWARD_ONLY",
+            "seven_card_proposal": "SUPERSEDED_NOT_CURRENT_AUTHORITY"
+          },
+          "historical_scopes": {
+            "two_call_trial_and_campaign_preparation_snapshot": {
+              "schema_version": 1,
+              "updated_at": "2026-10-03",
+              "status": "testing_dogfood",
+              "implementation_status": "SUCCESS",
+              "independent_audit": "AUDIT_PASS",
+              "checkpoint_plan_audit": "AUDIT_PASS",
+              "synthetic_tests_passed": 35,
+              "real_candidate_status": "CHANGES_REQUIRED",
+              "proposed_candidate": "F2-A2",
+              "generation_authority": "BOUNDED_TWO_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+              "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+              "gate_sha256": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+              "tests_sha256": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+              "run_plan": "operations/LinkedIn_ImageGen_First_Candidate_Dogfood_Plan.md",
+              "scope_limits": [
+                "Two actual base calls completed; native and desktop/mobile fixtures inspected by parent; this does not cure the native dimensional failure",
+                "Both candidates CHANGES_REQUIRED; Luna central upward-curve story-fit ambiguity also open as operator finding",
+                "Bảo accepts colors/copy/logo components only; no whole-candidate acceptance or set diversity, full-carousel quality, Taiwan closing-source readability, buyer validation or live authority",
+                "One trial/configuration at different effort with a stochastic shared image tool; no general ranking or price conclusion",
+                "Forward sizing policy requires review and fresh pins for any future separately released call; immutable failed trial remains FAIL"
+              ],
+              "candidate_statuses": {
+                "luna": "CHANGES_REQUIRED",
+                "sol": "CHANGES_REQUIRED"
+              },
+              "execution_status": "PARTIAL",
+              "benchmark_measurement_status": "COMPLETE",
+              "candidate_contract_audit": "FAIL",
+              "content_acceptance": "COMPONENTS_ACCEPTED_VISUAL_PENDING",
+              "image_call_counts": {
+                "base": 2,
+                "correction": 0
+              },
+              "fresh_shared_tests_passed": 35,
+              "independent_parent_negative_cases": {
+                "luna": 18,
+                "sol": 18
+              },
+              "child_negative_cases": {
+                "luna": 17,
+                "sol": 18
+              },
+              "native_dimensions": {
+                "requested": [
+                  1024,
+                  1024
+                ],
+                "luna": [
+                  1254,
+                  1254
+                ],
+                "sol": [
+                  1254,
+                  1254
+                ]
+              },
+              "benchmark_report": "operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md",
+              "final_audit": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/final-audit.json",
+              "runtime_metrics": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/runtime-benchmark-metrics.json",
+              "content_acceptance_detail": {
+                "accepted": [
+                  "colors",
+                  "copy",
+                  "logo"
+                ],
+                "visual": "PENDING_R2_CAMPAIGN",
+                "whole_candidate": "NOT_ACCEPTED",
+                "historical_benchmark": "Unchanged"
+              },
+              "campaign_preparation": {
+                "status": "READY_FOR_PO_REVIEW",
+                "production": "NOT_RUN",
+                "kit": "operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md",
+                "criteria": "operations/LinkedIn_Awareness_Campaign_Creative_Review.md",
+                "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+                "future_proof": "one5cardad+two different-rolecards contrasting scenario; sevenbase/zerocorrection UNRELEASED; exacttargets/sourcecopyreview required",
+                "future_native_policy": "square>=1080eachside/noresize, forwardonly",
+                "executable_alignment": "NOT_IMPLEMENTED_REQUIRED_BEFORE_FUTURE_DISPATCH",
+                "parent_audit": "PASS",
+                "operator_audit": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/operator-audit.json",
+                "audit_scope": "Preparation only; parent 1280x900/390x844 guide observation and528 protected identity; no creative/new-production acceptance"
+              }
+            }
+          },
+          "final_audit_sha256": "69152fbb1dccc363d347772b09c8ea3ab20a723b235d2d02d533ab9d26facbeb",
+          "independent_parent_positive_cases": {
+            "sol": 3,
+            "luna": 3
+          },
+          "current_run_audit": "FAIL",
+          "shared_manifest_sha256": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd",
+          "native_dimension_contract_audit": "PASS_FORWARD_NATIVE_SQUARE_MIN",
+          "current_run": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03"
+        }
+      },
+      "final_audit_sha256": "69152fbb1dccc363d347772b09c8ea3ab20a723b235d2d02d533ab9d26facbeb",
+      "independent_parent_positive_cases": {
+        "sol": 3,
+        "luna": 3
+      },
+      "current_run_audit": "FAIL",
+      "shared_manifest_sha256": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd",
+      "native_dimension_contract_audit": "PASS_FORWARD_NATIVE_SQUARE_MIN",
+      "current_run": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03",
+      "freeze": {
+        "status": "FROZEN_PO_ADOPTED",
+        "date": "2026-10-03",
+        "record": "operations/LinkedIn_ImageGen_Harness_Freeze_2026-10-03.md",
+        "authorization_exact": "Okie đẹp rồi codex. Chốt harness này và dùng sol làm chuẩn cho project - Luna không đạt yêu cầu visual bằng Sol. Commit checkpoint này status như vậy nhé (freeze harness hiện tại và chọn sol làm worker chính nếu spawn child).",
+        "mechanism_gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+        "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+        "no_further_generation_release": true
+      },
+      "default_project_worker": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "low",
+        "surface": "native_leaf",
+        "runtime_observation_required": true,
+        "admission_acceptance_required": true,
+        "silent_fallback_allowed": false,
+        "change_authority": "new Bao override",
+        "scope": "this project only",
+        "root_coordinator": "unchanged"
+      },
+      "po_visual_adoption": {
+        "direction": "SOL_VISUAL_BASELINE_FAMILY_APPROVED",
+        "luna": "NOT_SELECTED_BY_PO_FOR_PROJECT_VISUAL",
+        "historical_operator_findings": "UNCHANGED",
+        "whole_set_external_release": "NOT_GRANTED"
+      },
+      "controlled_rollout": {
+        "plan": "operations/LinkedIn_ImageGen_Controlled_Rollout_Plan_2026-10-03.md",
+        "root": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03",
+        "status": "PREPARATION_PENDING_PARENT_AUDIT",
+        "order": [
+          "F3-A",
+          "P3-A"
+        ],
+        "p3_dependency": "F3 audit PASS",
+        "base_max": 10,
+        "correction_max": 2,
+        "correction_rounds_max": 1,
+        "correction_per_card_max": 1,
+        "generated": 0,
+        "final_lifecycle_gate": "audit clear AND Bao exact finished-carousel approval",
+        "commit_push": "NOT_IMPLICITLY_AUTHORIZED"
+      }
+    },
+    "prior_current_before_closing_forward": {
+      "schema_version": 1,
+      "updated_at": "2026-10-03",
+      "status": "testing_dogfood",
+      "implementation_status": "SUCCESS",
+      "independent_audit": "IMPLEMENTATION_CHECKPOINT_PASS_SEPARATE_FROM_CREATIVE_FAIL",
+      "checkpoint_plan_audit": "AUDIT_PASS",
+      "synthetic_tests_passed": 49,
+      "real_candidate_status": "CHANGES_REQUIRED",
+      "proposed_candidate": "F3-A current A1-A4 originals + A5-r2",
+      "generation_authority": "STOPPED_AT_F3_GATE_FIVE_BASE_ONE_CORRECTION_COMPLETED_NO_FURTHER_A5_OR_P3_RELEASE",
+      "checkpoint": "current rollout local uncommitted, no commit/push authorized; prior committed harness adoption at97d72a7 retained",
+      "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+      "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+      "run_plan": "operations/LinkedIn_ImageGen_Controlled_Rollout_Plan_2026-10-03.md",
+      "scope_limits": [
+        "Stopped at F3 gate: corrected A5 mobile source FAIL",
+        "Full body omission/coalescing CLOSED by r2",
+        "P3 prepared not run: NO_F3_GATE_PASS; crossscenario NOT_CHECKED",
+        "No more A5 attempts; unused reserve not retry permission",
+        "No frozen_harness or finished-carousel PO approval; prior harness adoption retained"
+      ],
+      "candidate_statuses": {
+        "sol": "CHANGES_REQUIRED"
+      },
+      "execution_status": "PARTIAL",
+      "benchmark_measurement_status": "NOT_A_MODEL_COMPARISON",
+      "candidate_contract_audit": "FAIL",
+      "content_acceptance": "PO_HARNESS_ADOPTION_AND_SOL_VISUAL_DIRECTION_APPROVED_NOT_BLANKET_EXTERNAL_RELEASE",
+      "image_call_counts": {
+        "base": 5,
+        "correction": 1,
+        "P3": 0
+      },
+      "fresh_shared_tests_passed": 49,
+      "independent_parent_negative_cases": {
+        "count": 0,
+        "status": "NOT_REPLAYED",
+        "scope": "Parent reviewed child F3 negative evidence; did not replay candidate cases"
+      },
+      "child_negative_cases": {
+        "sol_f3": 19
+      },
+      "native_dimensions": {
+        "policy": "native_square_min",
+        "minimum_edge": 1080,
+        "original_count": 6,
+        "selected_count": 5,
+        "actual_each": [
+          1254,
+          1254
+        ],
+        "resize": false
+      },
+      "benchmark_report": "operations/LinkedIn_ImageGen_Controlled_Rollout_Result_2026-10-03.md",
+      "final_audit": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/operator/final-audit.json",
+      "runtime_metrics": {
+        "scope": "single-worker controlled rollout, no model comparison",
+        "evidence": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/operator/final-audit.json"
+      },
+      "content_acceptance_detail": {
+        "current_po": "harness freeze/adoption and Sol visual direction approved",
+        "historical_operator_candidates": "CHANGES_REQUIRED unchanged",
+        "buyer": "NOT_GRANTED",
+        "live": "NOT_GRANTED",
+        "whole_set_external_release": "NOT_GRANTED",
+        "historical_components": "retained in historical scope"
+      },
+      "campaign_preparation": {
+        "status": "HISTORICAL_ACCEPTED_PREPARATION_SUPERSEDED_BY_FULL_RUN",
+        "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+        "executable_alignment": "IMPLEMENTED_FORWARD_ONLY",
+        "seven_card_proposal": "SUPERSEDED_NOT_CURRENT_AUTHORITY"
+      },
+      "historical_scopes": {
+        "two_call_trial_and_campaign_preparation_snapshot": {
+          "schema_version": 1,
+          "updated_at": "2026-10-03",
+          "status": "testing_dogfood",
+          "implementation_status": "SUCCESS",
+          "independent_audit": "AUDIT_PASS",
+          "checkpoint_plan_audit": "AUDIT_PASS",
+          "synthetic_tests_passed": 35,
+          "real_candidate_status": "CHANGES_REQUIRED",
+          "proposed_candidate": "F2-A2",
+          "generation_authority": "BOUNDED_TWO_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+          "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+          "gate_sha256": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+          "tests_sha256": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+          "run_plan": "operations/LinkedIn_ImageGen_First_Candidate_Dogfood_Plan.md",
+          "scope_limits": [
+            "Two actual base calls completed; native and desktop/mobile fixtures inspected by parent; this does not cure the native dimensional failure",
+            "Both candidates CHANGES_REQUIRED; Luna central upward-curve story-fit ambiguity also open as operator finding",
+            "Bảo accepts colors/copy/logo components only; no whole-candidate acceptance or set diversity, full-carousel quality, Taiwan closing-source readability, buyer validation or live authority",
+            "One trial/configuration at different effort with a stochastic shared image tool; no general ranking or price conclusion",
+            "Forward sizing policy requires review and fresh pins for any future separately released call; immutable failed trial remains FAIL"
+          ],
+          "candidate_statuses": {
+            "luna": "CHANGES_REQUIRED",
+            "sol": "CHANGES_REQUIRED"
+          },
+          "execution_status": "PARTIAL",
+          "benchmark_measurement_status": "COMPLETE",
+          "candidate_contract_audit": "FAIL",
+          "content_acceptance": "COMPONENTS_ACCEPTED_VISUAL_PENDING",
+          "image_call_counts": {
+            "base": 2,
+            "correction": 0
+          },
+          "fresh_shared_tests_passed": 35,
+          "independent_parent_negative_cases": {
+            "luna": 18,
+            "sol": 18
+          },
+          "child_negative_cases": {
+            "luna": 17,
+            "sol": 18
+          },
+          "native_dimensions": {
+            "requested": [
+              1024,
+              1024
+            ],
+            "luna": [
+              1254,
+              1254
+            ],
+            "sol": [
+              1254,
+              1254
+            ]
+          },
+          "benchmark_report": "operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md",
+          "final_audit": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/final-audit.json",
+          "runtime_metrics": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/runtime-benchmark-metrics.json",
+          "content_acceptance_detail": {
+            "accepted": [
+              "colors",
+              "copy",
+              "logo"
+            ],
+            "visual": "PENDING_R2_CAMPAIGN",
+            "whole_candidate": "NOT_ACCEPTED",
+            "historical_benchmark": "Unchanged"
+          },
+          "campaign_preparation": {
+            "status": "READY_FOR_PO_REVIEW",
+            "production": "NOT_RUN",
+            "kit": "operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md",
+            "criteria": "operations/LinkedIn_Awareness_Campaign_Creative_Review.md",
+            "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+            "future_proof": "one5cardad+two different-rolecards contrasting scenario; sevenbase/zerocorrection UNRELEASED; exacttargets/sourcecopyreview required",
+            "future_native_policy": "square>=1080eachside/noresize, forwardonly",
+            "executable_alignment": "NOT_IMPLEMENTED_REQUIRED_BEFORE_FUTURE_DISPATCH",
+            "parent_audit": "PASS",
+            "operator_audit": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/operator-audit.json",
+            "audit_scope": "Preparation only; parent 1280x900/390x844 guide observation and528 protected identity; no creative/new-production acceptance"
+          }
+        },
+        "pre_freeze_hybrid_status_2026_10_03": {
+          "schema_version": 1,
+          "updated_at": "2026-10-03",
+          "status": "testing_dogfood",
+          "implementation_status": "SUCCESS",
+          "independent_audit": "IMPLEMENTATION_CHECKPOINT_PASS_SEPARATE_FROM_CREATIVE_FAIL",
+          "checkpoint_plan_audit": "AUDIT_PASS",
+          "synthetic_tests_passed": 49,
+          "real_candidate_status": "CHANGES_REQUIRED",
+          "proposed_candidate": "F2-A/P2-A full five-card carousels per model",
+          "generation_authority": "BOUNDED_TWENTY_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+          "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+          "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+          "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+          "run_plan": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+          "scope_limits": [
+            "20 base/0 correction completed; no further call release",
+            "Both CHANGES_REQUIRED; seven definite text violations plus separate SolF2A3 quarantine",
+            "Four mobile Taiwan source panels require changes",
+            "No PO/buyer/live whole-set acceptance/general ranking",
+            "Old exact1024 trial remains FAIL"
+          ],
+          "candidate_statuses": {
+            "luna": "CHANGES_REQUIRED",
+            "sol": "CHANGES_REQUIRED"
+          },
+          "execution_status": "PARTIAL",
+          "benchmark_measurement_status": "COMPLETE",
+          "candidate_contract_audit": "FAIL",
+          "content_acceptance": "WHOLE_CANDIDATE_NOT_GRANTED",
+          "image_call_counts": {
+            "base": 20,
+            "correction": 0,
+            "pre_inference_reference_limit_rejection": 1,
+            "rejected_attempt_images": 0
+          },
+          "fresh_shared_tests_passed": 49,
+          "independent_parent_negative_cases": {
+            "sol": 19,
+            "luna": 19
+          },
+          "child_negative_cases": {
+            "sol": 19,
+            "luna": 19
+          },
+          "native_dimensions": {
+            "policy": "native_square_min",
+            "minimum_edge": 1080,
+            "actual_all20": [
+              1254,
+              1254
+            ],
+            "resize": false
+          },
+          "benchmark_report": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+          "final_audit": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/final-audit.json",
+          "runtime_metrics": {
+            "scope": "operator image tool; some parallel; no model causal/cost ranking",
+            "sol_sum_seconds": 463.382,
+            "sol_median_seconds": 48.782,
+            "luna_sum_seconds": 928.258,
+            "luna_median_seconds": 83.763
+          },
+          "content_acceptance_detail": {
+            "whole_candidate": "NOT_GRANTED",
+            "buyer": "NOT_GRANTED",
+            "live": "NOT_GRANTED",
+            "historical_components": "retained in historical scope"
+          },
+          "campaign_preparation": {
+            "status": "HISTORICAL_ACCEPTED_PREPARATION_SUPERSEDED_BY_FULL_RUN",
+            "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+            "executable_alignment": "IMPLEMENTED_FORWARD_ONLY",
+            "seven_card_proposal": "SUPERSEDED_NOT_CURRENT_AUTHORITY"
+          },
+          "historical_scopes": {
+            "two_call_trial_and_campaign_preparation_snapshot": {
+              "schema_version": 1,
+              "updated_at": "2026-10-03",
+              "status": "testing_dogfood",
+              "implementation_status": "SUCCESS",
+              "independent_audit": "AUDIT_PASS",
+              "checkpoint_plan_audit": "AUDIT_PASS",
+              "synthetic_tests_passed": 35,
+              "real_candidate_status": "CHANGES_REQUIRED",
+              "proposed_candidate": "F2-A2",
+              "generation_authority": "BOUNDED_TWO_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+              "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+              "gate_sha256": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+              "tests_sha256": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+              "run_plan": "operations/LinkedIn_ImageGen_First_Candidate_Dogfood_Plan.md",
+              "scope_limits": [
+                "Two actual base calls completed; native and desktop/mobile fixtures inspected by parent; this does not cure the native dimensional failure",
+                "Both candidates CHANGES_REQUIRED; Luna central upward-curve story-fit ambiguity also open as operator finding",
+                "Bảo accepts colors/copy/logo components only; no whole-candidate acceptance or set diversity, full-carousel quality, Taiwan closing-source readability, buyer validation or live authority",
+                "One trial/configuration at different effort with a stochastic shared image tool; no general ranking or price conclusion",
+                "Forward sizing policy requires review and fresh pins for any future separately released call; immutable failed trial remains FAIL"
+              ],
+              "candidate_statuses": {
+                "luna": "CHANGES_REQUIRED",
+                "sol": "CHANGES_REQUIRED"
+              },
+              "execution_status": "PARTIAL",
+              "benchmark_measurement_status": "COMPLETE",
+              "candidate_contract_audit": "FAIL",
+              "content_acceptance": "COMPONENTS_ACCEPTED_VISUAL_PENDING",
+              "image_call_counts": {
+                "base": 2,
+                "correction": 0
+              },
+              "fresh_shared_tests_passed": 35,
+              "independent_parent_negative_cases": {
+                "luna": 18,
+                "sol": 18
+              },
+              "child_negative_cases": {
+                "luna": 17,
+                "sol": 18
+              },
+              "native_dimensions": {
+                "requested": [
+                  1024,
+                  1024
+                ],
+                "luna": [
+                  1254,
+                  1254
+                ],
+                "sol": [
+                  1254,
+                  1254
+                ]
+              },
+              "benchmark_report": "operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md",
+              "final_audit": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/final-audit.json",
+              "runtime_metrics": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/runtime-benchmark-metrics.json",
+              "content_acceptance_detail": {
+                "accepted": [
+                  "colors",
+                  "copy",
+                  "logo"
+                ],
+                "visual": "PENDING_R2_CAMPAIGN",
+                "whole_candidate": "NOT_ACCEPTED",
+                "historical_benchmark": "Unchanged"
+              },
+              "campaign_preparation": {
+                "status": "READY_FOR_PO_REVIEW",
+                "production": "NOT_RUN",
+                "kit": "operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md",
+                "criteria": "operations/LinkedIn_Awareness_Campaign_Creative_Review.md",
+                "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+                "future_proof": "one5cardad+two different-rolecards contrasting scenario; sevenbase/zerocorrection UNRELEASED; exacttargets/sourcecopyreview required",
+                "future_native_policy": "square>=1080eachside/noresize, forwardonly",
+                "executable_alignment": "NOT_IMPLEMENTED_REQUIRED_BEFORE_FUTURE_DISPATCH",
+                "parent_audit": "PASS",
+                "operator_audit": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/operator-audit.json",
+                "audit_scope": "Preparation only; parent 1280x900/390x844 guide observation and528 protected identity; no creative/new-production acceptance"
+              }
+            }
+          },
+          "final_audit_sha256": "69152fbb1dccc363d347772b09c8ea3ab20a723b235d2d02d533ab9d26facbeb",
+          "independent_parent_positive_cases": {
+            "sol": 3,
+            "luna": 3
+          },
+          "current_run_audit": "FAIL",
+          "shared_manifest_sha256": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd",
+          "native_dimension_contract_audit": "PASS_FORWARD_NATIVE_SQUARE_MIN",
+          "current_run": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03"
+        },
+        "prior_current_before_controlled_rollout_closeout": {
+          "schema_version": 1,
+          "updated_at": "2026-10-03",
+          "status": "testing_dogfood",
+          "implementation_status": "SUCCESS",
+          "independent_audit": "IMPLEMENTATION_CHECKPOINT_PASS_SEPARATE_FROM_CREATIVE_FAIL",
+          "checkpoint_plan_audit": "AUDIT_PASS",
+          "synthetic_tests_passed": 49,
+          "real_candidate_status": "CHANGES_REQUIRED",
+          "proposed_candidate": "F2-A/P2-A full five-card carousels per model",
+          "generation_authority": "BOUNDED_TWENTY_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+          "checkpoint": "recorded by containing local freeze checkpoint; no push/merge; prior baseline 7e95a44",
+          "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+          "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+          "run_plan": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+          "scope_limits": [
+            "20 base/0 correction completed; no further call release",
+            "Both CHANGES_REQUIRED; seven definite text violations plus separate SolF2A3 quarantine",
+            "Four mobile Taiwan source panels require changes",
+            "No PO/buyer/live whole-set acceptance/general ranking",
+            "Old exact1024 trial remains FAIL"
+          ],
+          "candidate_statuses": {
+            "luna": "CHANGES_REQUIRED",
+            "sol": "CHANGES_REQUIRED"
+          },
+          "execution_status": "PARTIAL",
+          "benchmark_measurement_status": "COMPLETE",
+          "candidate_contract_audit": "FAIL",
+          "content_acceptance": "PO_HARNESS_ADOPTION_AND_SOL_VISUAL_DIRECTION_APPROVED_NOT_BLANKET_EXTERNAL_RELEASE",
+          "image_call_counts": {
+            "base": 20,
+            "correction": 0,
+            "pre_inference_reference_limit_rejection": 1,
+            "rejected_attempt_images": 0
+          },
+          "fresh_shared_tests_passed": 49,
+          "independent_parent_negative_cases": {
+            "sol": 19,
+            "luna": 19
+          },
+          "child_negative_cases": {
+            "sol": 19,
+            "luna": 19
+          },
+          "native_dimensions": {
+            "policy": "native_square_min",
+            "minimum_edge": 1080,
+            "actual_all20": [
+              1254,
+              1254
+            ],
+            "resize": false
+          },
+          "benchmark_report": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+          "final_audit": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/final-audit.json",
+          "runtime_metrics": {
+            "scope": "operator image tool; some parallel; no model causal/cost ranking",
+            "sol_sum_seconds": 463.382,
+            "sol_median_seconds": 48.782,
+            "luna_sum_seconds": 928.258,
+            "luna_median_seconds": 83.763
+          },
+          "content_acceptance_detail": {
+            "current_po": "harness freeze/adoption and Sol visual direction approved",
+            "historical_operator_candidates": "CHANGES_REQUIRED unchanged",
+            "buyer": "NOT_GRANTED",
+            "live": "NOT_GRANTED",
+            "whole_set_external_release": "NOT_GRANTED",
+            "historical_components": "retained in historical scope"
+          },
+          "campaign_preparation": {
+            "status": "HISTORICAL_ACCEPTED_PREPARATION_SUPERSEDED_BY_FULL_RUN",
+            "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+            "executable_alignment": "IMPLEMENTED_FORWARD_ONLY",
+            "seven_card_proposal": "SUPERSEDED_NOT_CURRENT_AUTHORITY"
+          },
+          "historical_scopes": {
+            "two_call_trial_and_campaign_preparation_snapshot": {
+              "schema_version": 1,
+              "updated_at": "2026-10-03",
+              "status": "testing_dogfood",
+              "implementation_status": "SUCCESS",
+              "independent_audit": "AUDIT_PASS",
+              "checkpoint_plan_audit": "AUDIT_PASS",
+              "synthetic_tests_passed": 35,
+              "real_candidate_status": "CHANGES_REQUIRED",
+              "proposed_candidate": "F2-A2",
+              "generation_authority": "BOUNDED_TWO_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+              "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+              "gate_sha256": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+              "tests_sha256": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+              "run_plan": "operations/LinkedIn_ImageGen_First_Candidate_Dogfood_Plan.md",
+              "scope_limits": [
+                "Two actual base calls completed; native and desktop/mobile fixtures inspected by parent; this does not cure the native dimensional failure",
+                "Both candidates CHANGES_REQUIRED; Luna central upward-curve story-fit ambiguity also open as operator finding",
+                "Bảo accepts colors/copy/logo components only; no whole-candidate acceptance or set diversity, full-carousel quality, Taiwan closing-source readability, buyer validation or live authority",
+                "One trial/configuration at different effort with a stochastic shared image tool; no general ranking or price conclusion",
+                "Forward sizing policy requires review and fresh pins for any future separately released call; immutable failed trial remains FAIL"
+              ],
+              "candidate_statuses": {
+                "luna": "CHANGES_REQUIRED",
+                "sol": "CHANGES_REQUIRED"
+              },
+              "execution_status": "PARTIAL",
+              "benchmark_measurement_status": "COMPLETE",
+              "candidate_contract_audit": "FAIL",
+              "content_acceptance": "COMPONENTS_ACCEPTED_VISUAL_PENDING",
+              "image_call_counts": {
+                "base": 2,
+                "correction": 0
+              },
+              "fresh_shared_tests_passed": 35,
+              "independent_parent_negative_cases": {
+                "luna": 18,
+                "sol": 18
+              },
+              "child_negative_cases": {
+                "luna": 17,
+                "sol": 18
+              },
+              "native_dimensions": {
+                "requested": [
+                  1024,
+                  1024
+                ],
+                "luna": [
+                  1254,
+                  1254
+                ],
+                "sol": [
+                  1254,
+                  1254
+                ]
+              },
+              "benchmark_report": "operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md",
+              "final_audit": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/final-audit.json",
+              "runtime_metrics": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/runtime-benchmark-metrics.json",
+              "content_acceptance_detail": {
+                "accepted": [
+                  "colors",
+                  "copy",
+                  "logo"
+                ],
+                "visual": "PENDING_R2_CAMPAIGN",
+                "whole_candidate": "NOT_ACCEPTED",
+                "historical_benchmark": "Unchanged"
+              },
+              "campaign_preparation": {
+                "status": "READY_FOR_PO_REVIEW",
+                "production": "NOT_RUN",
+                "kit": "operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md",
+                "criteria": "operations/LinkedIn_Awareness_Campaign_Creative_Review.md",
+                "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+                "future_proof": "one5cardad+two different-rolecards contrasting scenario; sevenbase/zerocorrection UNRELEASED; exacttargets/sourcecopyreview required",
+                "future_native_policy": "square>=1080eachside/noresize, forwardonly",
+                "executable_alignment": "NOT_IMPLEMENTED_REQUIRED_BEFORE_FUTURE_DISPATCH",
+                "parent_audit": "PASS",
+                "operator_audit": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/operator-audit.json",
+                "audit_scope": "Preparation only; parent 1280x900/390x844 guide observation and528 protected identity; no creative/new-production acceptance"
+              }
+            },
+            "pre_freeze_hybrid_status_2026_10_03": {
+              "schema_version": 1,
+              "updated_at": "2026-10-03",
+              "status": "testing_dogfood",
+              "implementation_status": "SUCCESS",
+              "independent_audit": "IMPLEMENTATION_CHECKPOINT_PASS_SEPARATE_FROM_CREATIVE_FAIL",
+              "checkpoint_plan_audit": "AUDIT_PASS",
+              "synthetic_tests_passed": 49,
+              "real_candidate_status": "CHANGES_REQUIRED",
+              "proposed_candidate": "F2-A/P2-A full five-card carousels per model",
+              "generation_authority": "BOUNDED_TWENTY_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+              "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+              "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+              "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+              "run_plan": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+              "scope_limits": [
+                "20 base/0 correction completed; no further call release",
+                "Both CHANGES_REQUIRED; seven definite text violations plus separate SolF2A3 quarantine",
+                "Four mobile Taiwan source panels require changes",
+                "No PO/buyer/live whole-set acceptance/general ranking",
+                "Old exact1024 trial remains FAIL"
+              ],
+              "candidate_statuses": {
+                "luna": "CHANGES_REQUIRED",
+                "sol": "CHANGES_REQUIRED"
+              },
+              "execution_status": "PARTIAL",
+              "benchmark_measurement_status": "COMPLETE",
+              "candidate_contract_audit": "FAIL",
+              "content_acceptance": "WHOLE_CANDIDATE_NOT_GRANTED",
+              "image_call_counts": {
+                "base": 20,
+                "correction": 0,
+                "pre_inference_reference_limit_rejection": 1,
+                "rejected_attempt_images": 0
+              },
+              "fresh_shared_tests_passed": 49,
+              "independent_parent_negative_cases": {
+                "sol": 19,
+                "luna": 19
+              },
+              "child_negative_cases": {
+                "sol": 19,
+                "luna": 19
+              },
+              "native_dimensions": {
+                "policy": "native_square_min",
+                "minimum_edge": 1080,
+                "actual_all20": [
+                  1254,
+                  1254
+                ],
+                "resize": false
+              },
+              "benchmark_report": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+              "final_audit": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/final-audit.json",
+              "runtime_metrics": {
+                "scope": "operator image tool; some parallel; no model causal/cost ranking",
+                "sol_sum_seconds": 463.382,
+                "sol_median_seconds": 48.782,
+                "luna_sum_seconds": 928.258,
+                "luna_median_seconds": 83.763
+              },
+              "content_acceptance_detail": {
+                "whole_candidate": "NOT_GRANTED",
+                "buyer": "NOT_GRANTED",
+                "live": "NOT_GRANTED",
+                "historical_components": "retained in historical scope"
+              },
+              "campaign_preparation": {
+                "status": "HISTORICAL_ACCEPTED_PREPARATION_SUPERSEDED_BY_FULL_RUN",
+                "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+                "executable_alignment": "IMPLEMENTED_FORWARD_ONLY",
+                "seven_card_proposal": "SUPERSEDED_NOT_CURRENT_AUTHORITY"
+              },
+              "historical_scopes": {
+                "two_call_trial_and_campaign_preparation_snapshot": {
+                  "schema_version": 1,
+                  "updated_at": "2026-10-03",
+                  "status": "testing_dogfood",
+                  "implementation_status": "SUCCESS",
+                  "independent_audit": "AUDIT_PASS",
+                  "checkpoint_plan_audit": "AUDIT_PASS",
+                  "synthetic_tests_passed": 35,
+                  "real_candidate_status": "CHANGES_REQUIRED",
+                  "proposed_candidate": "F2-A2",
+                  "generation_authority": "BOUNDED_TWO_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+                  "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+                  "gate_sha256": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+                  "tests_sha256": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+                  "run_plan": "operations/LinkedIn_ImageGen_First_Candidate_Dogfood_Plan.md",
+                  "scope_limits": [
+                    "Two actual base calls completed; native and desktop/mobile fixtures inspected by parent; this does not cure the native dimensional failure",
+                    "Both candidates CHANGES_REQUIRED; Luna central upward-curve story-fit ambiguity also open as operator finding",
+                    "Bảo accepts colors/copy/logo components only; no whole-candidate acceptance or set diversity, full-carousel quality, Taiwan closing-source readability, buyer validation or live authority",
+                    "One trial/configuration at different effort with a stochastic shared image tool; no general ranking or price conclusion",
+                    "Forward sizing policy requires review and fresh pins for any future separately released call; immutable failed trial remains FAIL"
+                  ],
+                  "candidate_statuses": {
+                    "luna": "CHANGES_REQUIRED",
+                    "sol": "CHANGES_REQUIRED"
+                  },
+                  "execution_status": "PARTIAL",
+                  "benchmark_measurement_status": "COMPLETE",
+                  "candidate_contract_audit": "FAIL",
+                  "content_acceptance": "COMPONENTS_ACCEPTED_VISUAL_PENDING",
+                  "image_call_counts": {
+                    "base": 2,
+                    "correction": 0
+                  },
+                  "fresh_shared_tests_passed": 35,
+                  "independent_parent_negative_cases": {
+                    "luna": 18,
+                    "sol": 18
+                  },
+                  "child_negative_cases": {
+                    "luna": 17,
+                    "sol": 18
+                  },
+                  "native_dimensions": {
+                    "requested": [
+                      1024,
+                      1024
+                    ],
+                    "luna": [
+                      1254,
+                      1254
+                    ],
+                    "sol": [
+                      1254,
+                      1254
+                    ]
+                  },
+                  "benchmark_report": "operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md",
+                  "final_audit": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/final-audit.json",
+                  "runtime_metrics": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/runtime-benchmark-metrics.json",
+                  "content_acceptance_detail": {
+                    "accepted": [
+                      "colors",
+                      "copy",
+                      "logo"
+                    ],
+                    "visual": "PENDING_R2_CAMPAIGN",
+                    "whole_candidate": "NOT_ACCEPTED",
+                    "historical_benchmark": "Unchanged"
+                  },
+                  "campaign_preparation": {
+                    "status": "READY_FOR_PO_REVIEW",
+                    "production": "NOT_RUN",
+                    "kit": "operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md",
+                    "criteria": "operations/LinkedIn_Awareness_Campaign_Creative_Review.md",
+                    "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+                    "future_proof": "one5cardad+two different-rolecards contrasting scenario; sevenbase/zerocorrection UNRELEASED; exacttargets/sourcecopyreview required",
+                    "future_native_policy": "square>=1080eachside/noresize, forwardonly",
+                    "executable_alignment": "NOT_IMPLEMENTED_REQUIRED_BEFORE_FUTURE_DISPATCH",
+                    "parent_audit": "PASS",
+                    "operator_audit": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/operator-audit.json",
+                    "audit_scope": "Preparation only; parent 1280x900/390x844 guide observation and528 protected identity; no creative/new-production acceptance"
+                  }
+                }
+              },
+              "final_audit_sha256": "69152fbb1dccc363d347772b09c8ea3ab20a723b235d2d02d533ab9d26facbeb",
+              "independent_parent_positive_cases": {
+                "sol": 3,
+                "luna": 3
+              },
+              "current_run_audit": "FAIL",
+              "shared_manifest_sha256": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd",
+              "native_dimension_contract_audit": "PASS_FORWARD_NATIVE_SQUARE_MIN",
+              "current_run": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03"
+            }
+          },
+          "final_audit_sha256": "69152fbb1dccc363d347772b09c8ea3ab20a723b235d2d02d533ab9d26facbeb",
+          "independent_parent_positive_cases": {
+            "sol": 3,
+            "luna": 3
+          },
+          "current_run_audit": "FAIL",
+          "shared_manifest_sha256": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd",
+          "native_dimension_contract_audit": "PASS_FORWARD_NATIVE_SQUARE_MIN",
+          "current_run": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03",
+          "freeze": {
+            "status": "FROZEN_PO_ADOPTED",
+            "date": "2026-10-03",
+            "record": "operations/LinkedIn_ImageGen_Harness_Freeze_2026-10-03.md",
+            "authorization_exact": "Okie đẹp rồi codex. Chốt harness này và dùng sol làm chuẩn cho project - Luna không đạt yêu cầu visual bằng Sol. Commit checkpoint này status như vậy nhé (freeze harness hiện tại và chọn sol làm worker chính nếu spawn child).",
+            "mechanism_gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+            "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+            "no_further_generation_release": true
+          },
+          "default_project_worker": {
+            "model": "gpt-6.1-sol",
+            "reasoning_effort": "low",
+            "surface": "native_leaf",
+            "runtime_observation_required": true,
+            "admission_acceptance_required": true,
+            "silent_fallback_allowed": false,
+            "change_authority": "new Bao override",
+            "scope": "this project only",
+            "root_coordinator": "unchanged"
+          },
+          "po_visual_adoption": {
+            "direction": "SOL_VISUAL_BASELINE_FAMILY_APPROVED",
+            "luna": "NOT_SELECTED_BY_PO_FOR_PROJECT_VISUAL",
+            "historical_operator_findings": "UNCHANGED",
+            "whole_set_external_release": "NOT_GRANTED"
+          },
+          "controlled_rollout": {
+            "plan": "operations/LinkedIn_ImageGen_Controlled_Rollout_Plan_2026-10-03.md",
+            "root": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03",
+            "status": "PREPARATION_PENDING_PARENT_AUDIT",
+            "order": [
+              "F3-A",
+              "P3-A"
+            ],
+            "p3_dependency": "F3 audit PASS",
+            "base_max": 10,
+            "correction_max": 2,
+            "correction_rounds_max": 1,
+            "correction_per_card_max": 1,
+            "generated": 0,
+            "final_lifecycle_gate": "audit clear AND Bao exact finished-carousel approval",
+            "commit_push": "NOT_IMPLICITLY_AUTHORIZED"
+          }
+        }
+      },
+      "final_audit_sha256": "e2a91d3c657055cf25f980f7417a3056cbe00e96d2e14c87f1dda9ee50258da5",
+      "independent_parent_positive_cases": {
+        "count": 0,
+        "status": "NOT_REPLAYED",
+        "scope": "Parent reviewed child F3 positive evidence; did not replay candidate cases"
+      },
+      "current_run_audit": "FAIL",
+      "shared_manifest_sha256": "5e723b1d198e96da8be4006b7abaf246569aac0563648cadc19a1bfadfc1c641",
+      "native_dimension_contract_audit": "PASS_FORWARD_NATIVE_SQUARE_MIN",
+      "current_run": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03",
+      "freeze": {
+        "status": "FROZEN_PO_ADOPTED",
+        "date": "2026-10-03",
+        "record": "operations/LinkedIn_ImageGen_Harness_Freeze_2026-10-03.md",
+        "authorization_exact": "Okie đẹp rồi codex. Chốt harness này và dùng sol làm chuẩn cho project - Luna không đạt yêu cầu visual bằng Sol. Commit checkpoint này status như vậy nhé (freeze harness hiện tại và chọn sol làm worker chính nếu spawn child).",
+        "mechanism_gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+        "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+        "no_further_generation_release": true
+      },
+      "default_project_worker": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "low",
+        "surface": "native_leaf",
+        "runtime_observation_required": true,
+        "admission_acceptance_required": true,
+        "silent_fallback_allowed": false,
+        "change_authority": "new Bao override",
+        "scope": "this project only",
+        "root_coordinator": "unchanged"
+      },
+      "po_visual_adoption": {
+        "direction": "SOL_VISUAL_BASELINE_FAMILY_APPROVED",
+        "luna": "NOT_SELECTED_BY_PO_FOR_PROJECT_VISUAL",
+        "historical_operator_findings": "UNCHANGED",
+        "whole_set_external_release": "NOT_GRANTED"
+      },
+      "controlled_rollout": {
+        "plan": "operations/LinkedIn_ImageGen_Controlled_Rollout_Plan_2026-10-03.md",
+        "root": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03",
+        "status": "STOPPED_AT_F3_GATE_CHANGES_REQUIRED",
+        "order": [
+          "F3-A",
+          "P3-A"
+        ],
+        "p3_dependency": "F3 audit PASS",
+        "base_max": 10,
+        "correction_max": 2,
+        "correction_rounds_max": 1,
+        "correction_per_card_max": 1,
+        "generated": 6,
+        "final_lifecycle_gate": "audit clear AND Bao exact finished-carousel approval",
+        "commit_push": "NOT_IMPLICITLY_AUTHORIZED",
+        "audit": "FAIL",
+        "execution_status": "PARTIAL",
+        "generated_base": 5,
+        "generated_correction": 1,
+        "p3_status": "PREPARED_NOT_RUN",
+        "p3_gate": "NO_F3_GATE_PASS",
+        "p3_calls": 0,
+        "crossscenario": "NOT_CHECKED",
+        "f3_a5_full_body": "CLOSED_BY_R2",
+        "f3_a5_mobile_source": "FAIL",
+        "f3_a5_attempts_remaining": 0,
+        "unused_correction_reserve": 1,
+        "unused_reserve_is_authority": false,
+        "finished_carousel_PO_acceptance": "NOT_GRANTED",
+        "final_lifecycle": "testing_dogfood",
+        "result": "operations/LinkedIn_ImageGen_Controlled_Rollout_Result_2026-10-03.md",
+        "prior_status_raw": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/operator/prior-status-at-rollout-start.json"
+      },
+      "child_positive_cases": {
+        "sol_f3": 3
+      },
+      "parent_mechanical_review": {
+        "unit_tests_replayed": 49,
+        "child_fixture_report_reviewed": true,
+        "child_negative_cases_reviewed": 19,
+        "child_positive_cases_reviewed": 3,
+        "candidate_fixture_cases_replayed": 0,
+        "evidence": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/dogfood-results-v2.json"
+      },
+      "shared_manifest_path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/input-manifest.json"
+    },
+    "before_scoped_freeze_exact_prior_status": {
+      "schema_version": 1,
+      "updated_at": "2026-10-03",
+      "status": "testing_dogfood",
+      "implementation_status": "SUCCESS",
+      "independent_audit": "IMPLEMENTATION_CHECKPOINT_PASS_SEPARATE_FROM_CREATIVE_FAIL",
+      "checkpoint_plan_audit": "AUDIT_PASS",
+      "synthetic_tests_passed": 49,
+      "real_candidate_status": "CHANGES_REQUIRED_P3_CLOSING",
+      "proposed_candidate": "F3-A originalsA1-A4 + compactA5r3; P3-A originalsA1-A4 + correctedA5r2",
+      "generation_authority": "FORWARD_SIX_BASE_ONE_P3_CORRECTION_COMPLETED_NO_FURTHER_CALL_RELEASE",
+      "checkpoint": "forward rollout local uncommitted; no commit/push authorized; prior harness adoption checkpoint97d72a7 retained",
+      "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+      "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+      "run_plan": "operations/LinkedIn_ImageGen_Closing_Forward_Rollout_Plan_2026-10-03.md",
+      "scope_limits": [
+        "F3 PASS compact body and readable source once",
+        "P3 correctedA5 FAIL extra headline period and mobile source/attribution too small",
+        "No further calls; no frozen_harness or finished-carousel PO approval",
+        "Prior harness adoption/Soldefault and historical failures unchanged"
+      ],
+      "candidate_statuses": {
+        "sol": "CHANGES_REQUIRED_P3_CLOSING"
+      },
+      "execution_status": "PARTIAL",
+      "benchmark_measurement_status": "NOT_A_MODEL_COMPARISON",
+      "candidate_contract_audit": "FAIL",
+      "content_acceptance": "PO_HARNESS_ADOPTION_AND_SOL_VISUAL_DIRECTION_APPROVED_NOT_BLANKET_EXTERNAL_RELEASE",
+      "image_call_counts": {
+        "base": 6,
+        "correction": 1,
+        "F3_base": 1,
+        "P3_base": 5,
+        "P3_correction": 1
+      },
+      "fresh_shared_tests_passed": 49,
+      "independent_parent_negative_cases": {
+        "count": 0,
+        "status": "NOT_REPLAYED"
+      },
+      "child_negative_cases": {
+        "f3": 19,
+        "p3": 19
+      },
+      "native_dimensions": {
+        "policy": "native_square_min",
+        "minimum_edge": 1080,
+        "new_original_count": 7,
+        "selected_count": 10,
+        "prior_selected_count": 4,
+        "actual_new_each": [
+          1254,
+          1254
+        ],
+        "resize": false
+      },
+      "benchmark_report": "operations/LinkedIn_ImageGen_Closing_Forward_Rollout_Result_2026-10-03.md",
+      "final_audit": "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03/operator/final-audit.json",
+      "runtime_metrics": {
+        "scope": "singleworker controlled forward rollout; no modelcomparison",
+        "cleanup": "tabclosed viewportreset serverstopped portfree"
+      },
+      "content_acceptance_detail": {
+        "current_po": "harness freeze/adoption and Sol visual direction approved",
+        "historical_operator_candidates": "CHANGES_REQUIRED unchanged",
+        "buyer": "NOT_GRANTED",
+        "live": "NOT_GRANTED",
+        "whole_set_external_release": "NOT_GRANTED",
+        "historical_components": "retained in historical scope"
+      },
+      "campaign_preparation": {
+        "status": "HISTORICAL_ACCEPTED_PREPARATION_SUPERSEDED_BY_FULL_RUN",
+        "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+        "executable_alignment": "IMPLEMENTED_FORWARD_ONLY",
+        "seven_card_proposal": "SUPERSEDED_NOT_CURRENT_AUTHORITY"
+      },
+      "historical_scopes": {
+        "two_call_trial_and_campaign_preparation_snapshot": {
+          "schema_version": 1,
+          "updated_at": "2026-10-03",
+          "status": "testing_dogfood",
+          "implementation_status": "SUCCESS",
+          "independent_audit": "AUDIT_PASS",
+          "checkpoint_plan_audit": "AUDIT_PASS",
+          "synthetic_tests_passed": 35,
+          "real_candidate_status": "CHANGES_REQUIRED",
+          "proposed_candidate": "F2-A2",
+          "generation_authority": "BOUNDED_TWO_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+          "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+          "gate_sha256": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+          "tests_sha256": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+          "run_plan": "operations/LinkedIn_ImageGen_First_Candidate_Dogfood_Plan.md",
+          "scope_limits": [
+            "Two actual base calls completed; native and desktop/mobile fixtures inspected by parent; this does not cure the native dimensional failure",
+            "Both candidates CHANGES_REQUIRED; Luna central upward-curve story-fit ambiguity also open as operator finding",
+            "Bảo accepts colors/copy/logo components only; no whole-candidate acceptance or set diversity, full-carousel quality, Taiwan closing-source readability, buyer validation or live authority",
+            "One trial/configuration at different effort with a stochastic shared image tool; no general ranking or price conclusion",
+            "Forward sizing policy requires review and fresh pins for any future separately released call; immutable failed trial remains FAIL"
+          ],
+          "candidate_statuses": {
+            "luna": "CHANGES_REQUIRED",
+            "sol": "CHANGES_REQUIRED"
+          },
+          "execution_status": "PARTIAL",
+          "benchmark_measurement_status": "COMPLETE",
+          "candidate_contract_audit": "FAIL",
+          "content_acceptance": "COMPONENTS_ACCEPTED_VISUAL_PENDING",
+          "image_call_counts": {
+            "base": 2,
+            "correction": 0
+          },
+          "fresh_shared_tests_passed": 35,
+          "independent_parent_negative_cases": {
+            "luna": 18,
+            "sol": 18
+          },
+          "child_negative_cases": {
+            "luna": 17,
+            "sol": 18
+          },
+          "native_dimensions": {
+            "requested": [
+              1024,
+              1024
+            ],
+            "luna": [
+              1254,
+              1254
+            ],
+            "sol": [
+              1254,
+              1254
+            ]
+          },
+          "benchmark_report": "operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md",
+          "final_audit": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/final-audit.json",
+          "runtime_metrics": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/runtime-benchmark-metrics.json",
+          "content_acceptance_detail": {
+            "accepted": [
+              "colors",
+              "copy",
+              "logo"
+            ],
+            "visual": "PENDING_R2_CAMPAIGN",
+            "whole_candidate": "NOT_ACCEPTED",
+            "historical_benchmark": "Unchanged"
+          },
+          "campaign_preparation": {
+            "status": "READY_FOR_PO_REVIEW",
+            "production": "NOT_RUN",
+            "kit": "operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md",
+            "criteria": "operations/LinkedIn_Awareness_Campaign_Creative_Review.md",
+            "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+            "future_proof": "one5cardad+two different-rolecards contrasting scenario; sevenbase/zerocorrection UNRELEASED; exacttargets/sourcecopyreview required",
+            "future_native_policy": "square>=1080eachside/noresize, forwardonly",
+            "executable_alignment": "NOT_IMPLEMENTED_REQUIRED_BEFORE_FUTURE_DISPATCH",
+            "parent_audit": "PASS",
+            "operator_audit": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/operator-audit.json",
+            "audit_scope": "Preparation only; parent 1280x900/390x844 guide observation and528 protected identity; no creative/new-production acceptance"
+          }
+        },
+        "pre_freeze_hybrid_status_2026_10_03": {
+          "schema_version": 1,
+          "updated_at": "2026-10-03",
+          "status": "testing_dogfood",
+          "implementation_status": "SUCCESS",
+          "independent_audit": "IMPLEMENTATION_CHECKPOINT_PASS_SEPARATE_FROM_CREATIVE_FAIL",
+          "checkpoint_plan_audit": "AUDIT_PASS",
+          "synthetic_tests_passed": 49,
+          "real_candidate_status": "CHANGES_REQUIRED",
+          "proposed_candidate": "F2-A/P2-A full five-card carousels per model",
+          "generation_authority": "BOUNDED_TWENTY_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+          "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+          "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+          "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+          "run_plan": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+          "scope_limits": [
+            "20 base/0 correction completed; no further call release",
+            "Both CHANGES_REQUIRED; seven definite text violations plus separate SolF2A3 quarantine",
+            "Four mobile Taiwan source panels require changes",
+            "No PO/buyer/live whole-set acceptance/general ranking",
+            "Old exact1024 trial remains FAIL"
+          ],
+          "candidate_statuses": {
+            "luna": "CHANGES_REQUIRED",
+            "sol": "CHANGES_REQUIRED"
+          },
+          "execution_status": "PARTIAL",
+          "benchmark_measurement_status": "COMPLETE",
+          "candidate_contract_audit": "FAIL",
+          "content_acceptance": "WHOLE_CANDIDATE_NOT_GRANTED",
+          "image_call_counts": {
+            "base": 20,
+            "correction": 0,
+            "pre_inference_reference_limit_rejection": 1,
+            "rejected_attempt_images": 0
+          },
+          "fresh_shared_tests_passed": 49,
+          "independent_parent_negative_cases": {
+            "sol": 19,
+            "luna": 19
+          },
+          "child_negative_cases": {
+            "sol": 19,
+            "luna": 19
+          },
+          "native_dimensions": {
+            "policy": "native_square_min",
+            "minimum_edge": 1080,
+            "actual_all20": [
+              1254,
+              1254
+            ],
+            "resize": false
+          },
+          "benchmark_report": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+          "final_audit": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/final-audit.json",
+          "runtime_metrics": {
+            "scope": "operator image tool; some parallel; no model causal/cost ranking",
+            "sol_sum_seconds": 463.382,
+            "sol_median_seconds": 48.782,
+            "luna_sum_seconds": 928.258,
+            "luna_median_seconds": 83.763
+          },
+          "content_acceptance_detail": {
+            "whole_candidate": "NOT_GRANTED",
+            "buyer": "NOT_GRANTED",
+            "live": "NOT_GRANTED",
+            "historical_components": "retained in historical scope"
+          },
+          "campaign_preparation": {
+            "status": "HISTORICAL_ACCEPTED_PREPARATION_SUPERSEDED_BY_FULL_RUN",
+            "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+            "executable_alignment": "IMPLEMENTED_FORWARD_ONLY",
+            "seven_card_proposal": "SUPERSEDED_NOT_CURRENT_AUTHORITY"
+          },
+          "historical_scopes": {
+            "two_call_trial_and_campaign_preparation_snapshot": {
+              "schema_version": 1,
+              "updated_at": "2026-10-03",
+              "status": "testing_dogfood",
+              "implementation_status": "SUCCESS",
+              "independent_audit": "AUDIT_PASS",
+              "checkpoint_plan_audit": "AUDIT_PASS",
+              "synthetic_tests_passed": 35,
+              "real_candidate_status": "CHANGES_REQUIRED",
+              "proposed_candidate": "F2-A2",
+              "generation_authority": "BOUNDED_TWO_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+              "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+              "gate_sha256": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+              "tests_sha256": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+              "run_plan": "operations/LinkedIn_ImageGen_First_Candidate_Dogfood_Plan.md",
+              "scope_limits": [
+                "Two actual base calls completed; native and desktop/mobile fixtures inspected by parent; this does not cure the native dimensional failure",
+                "Both candidates CHANGES_REQUIRED; Luna central upward-curve story-fit ambiguity also open as operator finding",
+                "Bảo accepts colors/copy/logo components only; no whole-candidate acceptance or set diversity, full-carousel quality, Taiwan closing-source readability, buyer validation or live authority",
+                "One trial/configuration at different effort with a stochastic shared image tool; no general ranking or price conclusion",
+                "Forward sizing policy requires review and fresh pins for any future separately released call; immutable failed trial remains FAIL"
+              ],
+              "candidate_statuses": {
+                "luna": "CHANGES_REQUIRED",
+                "sol": "CHANGES_REQUIRED"
+              },
+              "execution_status": "PARTIAL",
+              "benchmark_measurement_status": "COMPLETE",
+              "candidate_contract_audit": "FAIL",
+              "content_acceptance": "COMPONENTS_ACCEPTED_VISUAL_PENDING",
+              "image_call_counts": {
+                "base": 2,
+                "correction": 0
+              },
+              "fresh_shared_tests_passed": 35,
+              "independent_parent_negative_cases": {
+                "luna": 18,
+                "sol": 18
+              },
+              "child_negative_cases": {
+                "luna": 17,
+                "sol": 18
+              },
+              "native_dimensions": {
+                "requested": [
+                  1024,
+                  1024
+                ],
+                "luna": [
+                  1254,
+                  1254
+                ],
+                "sol": [
+                  1254,
+                  1254
+                ]
+              },
+              "benchmark_report": "operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md",
+              "final_audit": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/final-audit.json",
+              "runtime_metrics": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/runtime-benchmark-metrics.json",
+              "content_acceptance_detail": {
+                "accepted": [
+                  "colors",
+                  "copy",
+                  "logo"
+                ],
+                "visual": "PENDING_R2_CAMPAIGN",
+                "whole_candidate": "NOT_ACCEPTED",
+                "historical_benchmark": "Unchanged"
+              },
+              "campaign_preparation": {
+                "status": "READY_FOR_PO_REVIEW",
+                "production": "NOT_RUN",
+                "kit": "operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md",
+                "criteria": "operations/LinkedIn_Awareness_Campaign_Creative_Review.md",
+                "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+                "future_proof": "one5cardad+two different-rolecards contrasting scenario; sevenbase/zerocorrection UNRELEASED; exacttargets/sourcecopyreview required",
+                "future_native_policy": "square>=1080eachside/noresize, forwardonly",
+                "executable_alignment": "NOT_IMPLEMENTED_REQUIRED_BEFORE_FUTURE_DISPATCH",
+                "parent_audit": "PASS",
+                "operator_audit": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/operator-audit.json",
+                "audit_scope": "Preparation only; parent 1280x900/390x844 guide observation and528 protected identity; no creative/new-production acceptance"
+              }
+            }
+          },
+          "final_audit_sha256": "69152fbb1dccc363d347772b09c8ea3ab20a723b235d2d02d533ab9d26facbeb",
+          "independent_parent_positive_cases": {
+            "sol": 3,
+            "luna": 3
+          },
+          "current_run_audit": "FAIL",
+          "shared_manifest_sha256": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd",
+          "native_dimension_contract_audit": "PASS_FORWARD_NATIVE_SQUARE_MIN",
+          "current_run": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03"
+        },
+        "prior_current_before_controlled_rollout_closeout": {
+          "schema_version": 1,
+          "updated_at": "2026-10-03",
+          "status": "testing_dogfood",
+          "implementation_status": "SUCCESS",
+          "independent_audit": "IMPLEMENTATION_CHECKPOINT_PASS_SEPARATE_FROM_CREATIVE_FAIL",
+          "checkpoint_plan_audit": "AUDIT_PASS",
+          "synthetic_tests_passed": 49,
+          "real_candidate_status": "CHANGES_REQUIRED",
+          "proposed_candidate": "F2-A/P2-A full five-card carousels per model",
+          "generation_authority": "BOUNDED_TWENTY_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+          "checkpoint": "recorded by containing local freeze checkpoint; no push/merge; prior baseline 7e95a44",
+          "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+          "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+          "run_plan": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+          "scope_limits": [
+            "20 base/0 correction completed; no further call release",
+            "Both CHANGES_REQUIRED; seven definite text violations plus separate SolF2A3 quarantine",
+            "Four mobile Taiwan source panels require changes",
+            "No PO/buyer/live whole-set acceptance/general ranking",
+            "Old exact1024 trial remains FAIL"
+          ],
+          "candidate_statuses": {
+            "luna": "CHANGES_REQUIRED",
+            "sol": "CHANGES_REQUIRED"
+          },
+          "execution_status": "PARTIAL",
+          "benchmark_measurement_status": "COMPLETE",
+          "candidate_contract_audit": "FAIL",
+          "content_acceptance": "PO_HARNESS_ADOPTION_AND_SOL_VISUAL_DIRECTION_APPROVED_NOT_BLANKET_EXTERNAL_RELEASE",
+          "image_call_counts": {
+            "base": 20,
+            "correction": 0,
+            "pre_inference_reference_limit_rejection": 1,
+            "rejected_attempt_images": 0
+          },
+          "fresh_shared_tests_passed": 49,
+          "independent_parent_negative_cases": {
+            "sol": 19,
+            "luna": 19
+          },
+          "child_negative_cases": {
+            "sol": 19,
+            "luna": 19
+          },
+          "native_dimensions": {
+            "policy": "native_square_min",
+            "minimum_edge": 1080,
+            "actual_all20": [
+              1254,
+              1254
+            ],
+            "resize": false
+          },
+          "benchmark_report": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+          "final_audit": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/final-audit.json",
+          "runtime_metrics": {
+            "scope": "operator image tool; some parallel; no model causal/cost ranking",
+            "sol_sum_seconds": 463.382,
+            "sol_median_seconds": 48.782,
+            "luna_sum_seconds": 928.258,
+            "luna_median_seconds": 83.763
+          },
+          "content_acceptance_detail": {
+            "current_po": "harness freeze/adoption and Sol visual direction approved",
+            "historical_operator_candidates": "CHANGES_REQUIRED unchanged",
+            "buyer": "NOT_GRANTED",
+            "live": "NOT_GRANTED",
+            "whole_set_external_release": "NOT_GRANTED",
+            "historical_components": "retained in historical scope"
+          },
+          "campaign_preparation": {
+            "status": "HISTORICAL_ACCEPTED_PREPARATION_SUPERSEDED_BY_FULL_RUN",
+            "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+            "executable_alignment": "IMPLEMENTED_FORWARD_ONLY",
+            "seven_card_proposal": "SUPERSEDED_NOT_CURRENT_AUTHORITY"
+          },
+          "historical_scopes": {
+            "two_call_trial_and_campaign_preparation_snapshot": {
+              "schema_version": 1,
+              "updated_at": "2026-10-03",
+              "status": "testing_dogfood",
+              "implementation_status": "SUCCESS",
+              "independent_audit": "AUDIT_PASS",
+              "checkpoint_plan_audit": "AUDIT_PASS",
+              "synthetic_tests_passed": 35,
+              "real_candidate_status": "CHANGES_REQUIRED",
+              "proposed_candidate": "F2-A2",
+              "generation_authority": "BOUNDED_TWO_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+              "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+              "gate_sha256": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+              "tests_sha256": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+              "run_plan": "operations/LinkedIn_ImageGen_First_Candidate_Dogfood_Plan.md",
+              "scope_limits": [
+                "Two actual base calls completed; native and desktop/mobile fixtures inspected by parent; this does not cure the native dimensional failure",
+                "Both candidates CHANGES_REQUIRED; Luna central upward-curve story-fit ambiguity also open as operator finding",
+                "Bảo accepts colors/copy/logo components only; no whole-candidate acceptance or set diversity, full-carousel quality, Taiwan closing-source readability, buyer validation or live authority",
+                "One trial/configuration at different effort with a stochastic shared image tool; no general ranking or price conclusion",
+                "Forward sizing policy requires review and fresh pins for any future separately released call; immutable failed trial remains FAIL"
+              ],
+              "candidate_statuses": {
+                "luna": "CHANGES_REQUIRED",
+                "sol": "CHANGES_REQUIRED"
+              },
+              "execution_status": "PARTIAL",
+              "benchmark_measurement_status": "COMPLETE",
+              "candidate_contract_audit": "FAIL",
+              "content_acceptance": "COMPONENTS_ACCEPTED_VISUAL_PENDING",
+              "image_call_counts": {
+                "base": 2,
+                "correction": 0
+              },
+              "fresh_shared_tests_passed": 35,
+              "independent_parent_negative_cases": {
+                "luna": 18,
+                "sol": 18
+              },
+              "child_negative_cases": {
+                "luna": 17,
+                "sol": 18
+              },
+              "native_dimensions": {
+                "requested": [
+                  1024,
+                  1024
+                ],
+                "luna": [
+                  1254,
+                  1254
+                ],
+                "sol": [
+                  1254,
+                  1254
+                ]
+              },
+              "benchmark_report": "operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md",
+              "final_audit": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/final-audit.json",
+              "runtime_metrics": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/runtime-benchmark-metrics.json",
+              "content_acceptance_detail": {
+                "accepted": [
+                  "colors",
+                  "copy",
+                  "logo"
+                ],
+                "visual": "PENDING_R2_CAMPAIGN",
+                "whole_candidate": "NOT_ACCEPTED",
+                "historical_benchmark": "Unchanged"
+              },
+              "campaign_preparation": {
+                "status": "READY_FOR_PO_REVIEW",
+                "production": "NOT_RUN",
+                "kit": "operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md",
+                "criteria": "operations/LinkedIn_Awareness_Campaign_Creative_Review.md",
+                "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+                "future_proof": "one5cardad+two different-rolecards contrasting scenario; sevenbase/zerocorrection UNRELEASED; exacttargets/sourcecopyreview required",
+                "future_native_policy": "square>=1080eachside/noresize, forwardonly",
+                "executable_alignment": "NOT_IMPLEMENTED_REQUIRED_BEFORE_FUTURE_DISPATCH",
+                "parent_audit": "PASS",
+                "operator_audit": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/operator-audit.json",
+                "audit_scope": "Preparation only; parent 1280x900/390x844 guide observation and528 protected identity; no creative/new-production acceptance"
+              }
+            },
+            "pre_freeze_hybrid_status_2026_10_03": {
+              "schema_version": 1,
+              "updated_at": "2026-10-03",
+              "status": "testing_dogfood",
+              "implementation_status": "SUCCESS",
+              "independent_audit": "IMPLEMENTATION_CHECKPOINT_PASS_SEPARATE_FROM_CREATIVE_FAIL",
+              "checkpoint_plan_audit": "AUDIT_PASS",
+              "synthetic_tests_passed": 49,
+              "real_candidate_status": "CHANGES_REQUIRED",
+              "proposed_candidate": "F2-A/P2-A full five-card carousels per model",
+              "generation_authority": "BOUNDED_TWENTY_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+              "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+              "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+              "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+              "run_plan": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+              "scope_limits": [
+                "20 base/0 correction completed; no further call release",
+                "Both CHANGES_REQUIRED; seven definite text violations plus separate SolF2A3 quarantine",
+                "Four mobile Taiwan source panels require changes",
+                "No PO/buyer/live whole-set acceptance/general ranking",
+                "Old exact1024 trial remains FAIL"
+              ],
+              "candidate_statuses": {
+                "luna": "CHANGES_REQUIRED",
+                "sol": "CHANGES_REQUIRED"
+              },
+              "execution_status": "PARTIAL",
+              "benchmark_measurement_status": "COMPLETE",
+              "candidate_contract_audit": "FAIL",
+              "content_acceptance": "WHOLE_CANDIDATE_NOT_GRANTED",
+              "image_call_counts": {
+                "base": 20,
+                "correction": 0,
+                "pre_inference_reference_limit_rejection": 1,
+                "rejected_attempt_images": 0
+              },
+              "fresh_shared_tests_passed": 49,
+              "independent_parent_negative_cases": {
+                "sol": 19,
+                "luna": 19
+              },
+              "child_negative_cases": {
+                "sol": 19,
+                "luna": 19
+              },
+              "native_dimensions": {
+                "policy": "native_square_min",
+                "minimum_edge": 1080,
+                "actual_all20": [
+                  1254,
+                  1254
+                ],
+                "resize": false
+              },
+              "benchmark_report": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+              "final_audit": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/final-audit.json",
+              "runtime_metrics": {
+                "scope": "operator image tool; some parallel; no model causal/cost ranking",
+                "sol_sum_seconds": 463.382,
+                "sol_median_seconds": 48.782,
+                "luna_sum_seconds": 928.258,
+                "luna_median_seconds": 83.763
+              },
+              "content_acceptance_detail": {
+                "whole_candidate": "NOT_GRANTED",
+                "buyer": "NOT_GRANTED",
+                "live": "NOT_GRANTED",
+                "historical_components": "retained in historical scope"
+              },
+              "campaign_preparation": {
+                "status": "HISTORICAL_ACCEPTED_PREPARATION_SUPERSEDED_BY_FULL_RUN",
+                "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+                "executable_alignment": "IMPLEMENTED_FORWARD_ONLY",
+                "seven_card_proposal": "SUPERSEDED_NOT_CURRENT_AUTHORITY"
+              },
+              "historical_scopes": {
+                "two_call_trial_and_campaign_preparation_snapshot": {
+                  "schema_version": 1,
+                  "updated_at": "2026-10-03",
+                  "status": "testing_dogfood",
+                  "implementation_status": "SUCCESS",
+                  "independent_audit": "AUDIT_PASS",
+                  "checkpoint_plan_audit": "AUDIT_PASS",
+                  "synthetic_tests_passed": 35,
+                  "real_candidate_status": "CHANGES_REQUIRED",
+                  "proposed_candidate": "F2-A2",
+                  "generation_authority": "BOUNDED_TWO_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+                  "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+                  "gate_sha256": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+                  "tests_sha256": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+                  "run_plan": "operations/LinkedIn_ImageGen_First_Candidate_Dogfood_Plan.md",
+                  "scope_limits": [
+                    "Two actual base calls completed; native and desktop/mobile fixtures inspected by parent; this does not cure the native dimensional failure",
+                    "Both candidates CHANGES_REQUIRED; Luna central upward-curve story-fit ambiguity also open as operator finding",
+                    "Bảo accepts colors/copy/logo components only; no whole-candidate acceptance or set diversity, full-carousel quality, Taiwan closing-source readability, buyer validation or live authority",
+                    "One trial/configuration at different effort with a stochastic shared image tool; no general ranking or price conclusion",
+                    "Forward sizing policy requires review and fresh pins for any future separately released call; immutable failed trial remains FAIL"
+                  ],
+                  "candidate_statuses": {
+                    "luna": "CHANGES_REQUIRED",
+                    "sol": "CHANGES_REQUIRED"
+                  },
+                  "execution_status": "PARTIAL",
+                  "benchmark_measurement_status": "COMPLETE",
+                  "candidate_contract_audit": "FAIL",
+                  "content_acceptance": "COMPONENTS_ACCEPTED_VISUAL_PENDING",
+                  "image_call_counts": {
+                    "base": 2,
+                    "correction": 0
+                  },
+                  "fresh_shared_tests_passed": 35,
+                  "independent_parent_negative_cases": {
+                    "luna": 18,
+                    "sol": 18
+                  },
+                  "child_negative_cases": {
+                    "luna": 17,
+                    "sol": 18
+                  },
+                  "native_dimensions": {
+                    "requested": [
+                      1024,
+                      1024
+                    ],
+                    "luna": [
+                      1254,
+                      1254
+                    ],
+                    "sol": [
+                      1254,
+                      1254
+                    ]
+                  },
+                  "benchmark_report": "operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md",
+                  "final_audit": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/final-audit.json",
+                  "runtime_metrics": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/runtime-benchmark-metrics.json",
+                  "content_acceptance_detail": {
+                    "accepted": [
+                      "colors",
+                      "copy",
+                      "logo"
+                    ],
+                    "visual": "PENDING_R2_CAMPAIGN",
+                    "whole_candidate": "NOT_ACCEPTED",
+                    "historical_benchmark": "Unchanged"
+                  },
+                  "campaign_preparation": {
+                    "status": "READY_FOR_PO_REVIEW",
+                    "production": "NOT_RUN",
+                    "kit": "operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md",
+                    "criteria": "operations/LinkedIn_Awareness_Campaign_Creative_Review.md",
+                    "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+                    "future_proof": "one5cardad+two different-rolecards contrasting scenario; sevenbase/zerocorrection UNRELEASED; exacttargets/sourcecopyreview required",
+                    "future_native_policy": "square>=1080eachside/noresize, forwardonly",
+                    "executable_alignment": "NOT_IMPLEMENTED_REQUIRED_BEFORE_FUTURE_DISPATCH",
+                    "parent_audit": "PASS",
+                    "operator_audit": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/operator-audit.json",
+                    "audit_scope": "Preparation only; parent 1280x900/390x844 guide observation and528 protected identity; no creative/new-production acceptance"
+                  }
+                }
+              },
+              "final_audit_sha256": "69152fbb1dccc363d347772b09c8ea3ab20a723b235d2d02d533ab9d26facbeb",
+              "independent_parent_positive_cases": {
+                "sol": 3,
+                "luna": 3
+              },
+              "current_run_audit": "FAIL",
+              "shared_manifest_sha256": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd",
+              "native_dimension_contract_audit": "PASS_FORWARD_NATIVE_SQUARE_MIN",
+              "current_run": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03"
+            }
+          },
+          "final_audit_sha256": "69152fbb1dccc363d347772b09c8ea3ab20a723b235d2d02d533ab9d26facbeb",
+          "independent_parent_positive_cases": {
+            "sol": 3,
+            "luna": 3
+          },
+          "current_run_audit": "FAIL",
+          "shared_manifest_sha256": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd",
+          "native_dimension_contract_audit": "PASS_FORWARD_NATIVE_SQUARE_MIN",
+          "current_run": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03",
+          "freeze": {
+            "status": "FROZEN_PO_ADOPTED",
+            "date": "2026-10-03",
+            "record": "operations/LinkedIn_ImageGen_Harness_Freeze_2026-10-03.md",
+            "authorization_exact": "Okie đẹp rồi codex. Chốt harness này và dùng sol làm chuẩn cho project - Luna không đạt yêu cầu visual bằng Sol. Commit checkpoint này status như vậy nhé (freeze harness hiện tại và chọn sol làm worker chính nếu spawn child).",
+            "mechanism_gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+            "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+            "no_further_generation_release": true
+          },
+          "default_project_worker": {
+            "model": "gpt-6.1-sol",
+            "reasoning_effort": "low",
+            "surface": "native_leaf",
+            "runtime_observation_required": true,
+            "admission_acceptance_required": true,
+            "silent_fallback_allowed": false,
+            "change_authority": "new Bao override",
+            "scope": "this project only",
+            "root_coordinator": "unchanged"
+          },
+          "po_visual_adoption": {
+            "direction": "SOL_VISUAL_BASELINE_FAMILY_APPROVED",
+            "luna": "NOT_SELECTED_BY_PO_FOR_PROJECT_VISUAL",
+            "historical_operator_findings": "UNCHANGED",
+            "whole_set_external_release": "NOT_GRANTED"
+          },
+          "controlled_rollout": {
+            "plan": "operations/LinkedIn_ImageGen_Controlled_Rollout_Plan_2026-10-03.md",
+            "root": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03",
+            "status": "PREPARATION_PENDING_PARENT_AUDIT",
+            "order": [
+              "F3-A",
+              "P3-A"
+            ],
+            "p3_dependency": "F3 audit PASS",
+            "base_max": 10,
+            "correction_max": 2,
+            "correction_rounds_max": 1,
+            "correction_per_card_max": 1,
+            "generated": 0,
+            "final_lifecycle_gate": "audit clear AND Bao exact finished-carousel approval",
+            "commit_push": "NOT_IMPLICITLY_AUTHORIZED"
+          }
+        },
+        "prior_current_before_closing_forward": {
+          "schema_version": 1,
+          "updated_at": "2026-10-03",
+          "status": "testing_dogfood",
+          "implementation_status": "SUCCESS",
+          "independent_audit": "IMPLEMENTATION_CHECKPOINT_PASS_SEPARATE_FROM_CREATIVE_FAIL",
+          "checkpoint_plan_audit": "AUDIT_PASS",
+          "synthetic_tests_passed": 49,
+          "real_candidate_status": "CHANGES_REQUIRED",
+          "proposed_candidate": "F3-A current A1-A4 originals + A5-r2",
+          "generation_authority": "STOPPED_AT_F3_GATE_FIVE_BASE_ONE_CORRECTION_COMPLETED_NO_FURTHER_A5_OR_P3_RELEASE",
+          "checkpoint": "current rollout local uncommitted, no commit/push authorized; prior committed harness adoption at97d72a7 retained",
+          "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+          "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+          "run_plan": "operations/LinkedIn_ImageGen_Controlled_Rollout_Plan_2026-10-03.md",
+          "scope_limits": [
+            "Stopped at F3 gate: corrected A5 mobile source FAIL",
+            "Full body omission/coalescing CLOSED by r2",
+            "P3 prepared not run: NO_F3_GATE_PASS; crossscenario NOT_CHECKED",
+            "No more A5 attempts; unused reserve not retry permission",
+            "No frozen_harness or finished-carousel PO approval; prior harness adoption retained"
+          ],
+          "candidate_statuses": {
+            "sol": "CHANGES_REQUIRED"
+          },
+          "execution_status": "PARTIAL",
+          "benchmark_measurement_status": "NOT_A_MODEL_COMPARISON",
+          "candidate_contract_audit": "FAIL",
+          "content_acceptance": "PO_HARNESS_ADOPTION_AND_SOL_VISUAL_DIRECTION_APPROVED_NOT_BLANKET_EXTERNAL_RELEASE",
+          "image_call_counts": {
+            "base": 5,
+            "correction": 1,
+            "P3": 0
+          },
+          "fresh_shared_tests_passed": 49,
+          "independent_parent_negative_cases": {
+            "count": 0,
+            "status": "NOT_REPLAYED",
+            "scope": "Parent reviewed child F3 negative evidence; did not replay candidate cases"
+          },
+          "child_negative_cases": {
+            "sol_f3": 19
+          },
+          "native_dimensions": {
+            "policy": "native_square_min",
+            "minimum_edge": 1080,
+            "original_count": 6,
+            "selected_count": 5,
+            "actual_each": [
+              1254,
+              1254
+            ],
+            "resize": false
+          },
+          "benchmark_report": "operations/LinkedIn_ImageGen_Controlled_Rollout_Result_2026-10-03.md",
+          "final_audit": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/operator/final-audit.json",
+          "runtime_metrics": {
+            "scope": "single-worker controlled rollout, no model comparison",
+            "evidence": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/operator/final-audit.json"
+          },
+          "content_acceptance_detail": {
+            "current_po": "harness freeze/adoption and Sol visual direction approved",
+            "historical_operator_candidates": "CHANGES_REQUIRED unchanged",
+            "buyer": "NOT_GRANTED",
+            "live": "NOT_GRANTED",
+            "whole_set_external_release": "NOT_GRANTED",
+            "historical_components": "retained in historical scope"
+          },
+          "campaign_preparation": {
+            "status": "HISTORICAL_ACCEPTED_PREPARATION_SUPERSEDED_BY_FULL_RUN",
+            "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+            "executable_alignment": "IMPLEMENTED_FORWARD_ONLY",
+            "seven_card_proposal": "SUPERSEDED_NOT_CURRENT_AUTHORITY"
+          },
+          "historical_scopes": {
+            "two_call_trial_and_campaign_preparation_snapshot": {
+              "schema_version": 1,
+              "updated_at": "2026-10-03",
+              "status": "testing_dogfood",
+              "implementation_status": "SUCCESS",
+              "independent_audit": "AUDIT_PASS",
+              "checkpoint_plan_audit": "AUDIT_PASS",
+              "synthetic_tests_passed": 35,
+              "real_candidate_status": "CHANGES_REQUIRED",
+              "proposed_candidate": "F2-A2",
+              "generation_authority": "BOUNDED_TWO_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+              "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+              "gate_sha256": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+              "tests_sha256": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+              "run_plan": "operations/LinkedIn_ImageGen_First_Candidate_Dogfood_Plan.md",
+              "scope_limits": [
+                "Two actual base calls completed; native and desktop/mobile fixtures inspected by parent; this does not cure the native dimensional failure",
+                "Both candidates CHANGES_REQUIRED; Luna central upward-curve story-fit ambiguity also open as operator finding",
+                "Bảo accepts colors/copy/logo components only; no whole-candidate acceptance or set diversity, full-carousel quality, Taiwan closing-source readability, buyer validation or live authority",
+                "One trial/configuration at different effort with a stochastic shared image tool; no general ranking or price conclusion",
+                "Forward sizing policy requires review and fresh pins for any future separately released call; immutable failed trial remains FAIL"
+              ],
+              "candidate_statuses": {
+                "luna": "CHANGES_REQUIRED",
+                "sol": "CHANGES_REQUIRED"
+              },
+              "execution_status": "PARTIAL",
+              "benchmark_measurement_status": "COMPLETE",
+              "candidate_contract_audit": "FAIL",
+              "content_acceptance": "COMPONENTS_ACCEPTED_VISUAL_PENDING",
+              "image_call_counts": {
+                "base": 2,
+                "correction": 0
+              },
+              "fresh_shared_tests_passed": 35,
+              "independent_parent_negative_cases": {
+                "luna": 18,
+                "sol": 18
+              },
+              "child_negative_cases": {
+                "luna": 17,
+                "sol": 18
+              },
+              "native_dimensions": {
+                "requested": [
+                  1024,
+                  1024
+                ],
+                "luna": [
+                  1254,
+                  1254
+                ],
+                "sol": [
+                  1254,
+                  1254
+                ]
+              },
+              "benchmark_report": "operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md",
+              "final_audit": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/final-audit.json",
+              "runtime_metrics": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/runtime-benchmark-metrics.json",
+              "content_acceptance_detail": {
+                "accepted": [
+                  "colors",
+                  "copy",
+                  "logo"
+                ],
+                "visual": "PENDING_R2_CAMPAIGN",
+                "whole_candidate": "NOT_ACCEPTED",
+                "historical_benchmark": "Unchanged"
+              },
+              "campaign_preparation": {
+                "status": "READY_FOR_PO_REVIEW",
+                "production": "NOT_RUN",
+                "kit": "operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md",
+                "criteria": "operations/LinkedIn_Awareness_Campaign_Creative_Review.md",
+                "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+                "future_proof": "one5cardad+two different-rolecards contrasting scenario; sevenbase/zerocorrection UNRELEASED; exacttargets/sourcecopyreview required",
+                "future_native_policy": "square>=1080eachside/noresize, forwardonly",
+                "executable_alignment": "NOT_IMPLEMENTED_REQUIRED_BEFORE_FUTURE_DISPATCH",
+                "parent_audit": "PASS",
+                "operator_audit": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/operator-audit.json",
+                "audit_scope": "Preparation only; parent 1280x900/390x844 guide observation and528 protected identity; no creative/new-production acceptance"
+              }
+            },
+            "pre_freeze_hybrid_status_2026_10_03": {
+              "schema_version": 1,
+              "updated_at": "2026-10-03",
+              "status": "testing_dogfood",
+              "implementation_status": "SUCCESS",
+              "independent_audit": "IMPLEMENTATION_CHECKPOINT_PASS_SEPARATE_FROM_CREATIVE_FAIL",
+              "checkpoint_plan_audit": "AUDIT_PASS",
+              "synthetic_tests_passed": 49,
+              "real_candidate_status": "CHANGES_REQUIRED",
+              "proposed_candidate": "F2-A/P2-A full five-card carousels per model",
+              "generation_authority": "BOUNDED_TWENTY_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+              "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+              "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+              "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+              "run_plan": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+              "scope_limits": [
+                "20 base/0 correction completed; no further call release",
+                "Both CHANGES_REQUIRED; seven definite text violations plus separate SolF2A3 quarantine",
+                "Four mobile Taiwan source panels require changes",
+                "No PO/buyer/live whole-set acceptance/general ranking",
+                "Old exact1024 trial remains FAIL"
+              ],
+              "candidate_statuses": {
+                "luna": "CHANGES_REQUIRED",
+                "sol": "CHANGES_REQUIRED"
+              },
+              "execution_status": "PARTIAL",
+              "benchmark_measurement_status": "COMPLETE",
+              "candidate_contract_audit": "FAIL",
+              "content_acceptance": "WHOLE_CANDIDATE_NOT_GRANTED",
+              "image_call_counts": {
+                "base": 20,
+                "correction": 0,
+                "pre_inference_reference_limit_rejection": 1,
+                "rejected_attempt_images": 0
+              },
+              "fresh_shared_tests_passed": 49,
+              "independent_parent_negative_cases": {
+                "sol": 19,
+                "luna": 19
+              },
+              "child_negative_cases": {
+                "sol": 19,
+                "luna": 19
+              },
+              "native_dimensions": {
+                "policy": "native_square_min",
+                "minimum_edge": 1080,
+                "actual_all20": [
+                  1254,
+                  1254
+                ],
+                "resize": false
+              },
+              "benchmark_report": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+              "final_audit": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/final-audit.json",
+              "runtime_metrics": {
+                "scope": "operator image tool; some parallel; no model causal/cost ranking",
+                "sol_sum_seconds": 463.382,
+                "sol_median_seconds": 48.782,
+                "luna_sum_seconds": 928.258,
+                "luna_median_seconds": 83.763
+              },
+              "content_acceptance_detail": {
+                "whole_candidate": "NOT_GRANTED",
+                "buyer": "NOT_GRANTED",
+                "live": "NOT_GRANTED",
+                "historical_components": "retained in historical scope"
+              },
+              "campaign_preparation": {
+                "status": "HISTORICAL_ACCEPTED_PREPARATION_SUPERSEDED_BY_FULL_RUN",
+                "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+                "executable_alignment": "IMPLEMENTED_FORWARD_ONLY",
+                "seven_card_proposal": "SUPERSEDED_NOT_CURRENT_AUTHORITY"
+              },
+              "historical_scopes": {
+                "two_call_trial_and_campaign_preparation_snapshot": {
+                  "schema_version": 1,
+                  "updated_at": "2026-10-03",
+                  "status": "testing_dogfood",
+                  "implementation_status": "SUCCESS",
+                  "independent_audit": "AUDIT_PASS",
+                  "checkpoint_plan_audit": "AUDIT_PASS",
+                  "synthetic_tests_passed": 35,
+                  "real_candidate_status": "CHANGES_REQUIRED",
+                  "proposed_candidate": "F2-A2",
+                  "generation_authority": "BOUNDED_TWO_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+                  "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+                  "gate_sha256": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+                  "tests_sha256": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+                  "run_plan": "operations/LinkedIn_ImageGen_First_Candidate_Dogfood_Plan.md",
+                  "scope_limits": [
+                    "Two actual base calls completed; native and desktop/mobile fixtures inspected by parent; this does not cure the native dimensional failure",
+                    "Both candidates CHANGES_REQUIRED; Luna central upward-curve story-fit ambiguity also open as operator finding",
+                    "Bảo accepts colors/copy/logo components only; no whole-candidate acceptance or set diversity, full-carousel quality, Taiwan closing-source readability, buyer validation or live authority",
+                    "One trial/configuration at different effort with a stochastic shared image tool; no general ranking or price conclusion",
+                    "Forward sizing policy requires review and fresh pins for any future separately released call; immutable failed trial remains FAIL"
+                  ],
+                  "candidate_statuses": {
+                    "luna": "CHANGES_REQUIRED",
+                    "sol": "CHANGES_REQUIRED"
+                  },
+                  "execution_status": "PARTIAL",
+                  "benchmark_measurement_status": "COMPLETE",
+                  "candidate_contract_audit": "FAIL",
+                  "content_acceptance": "COMPONENTS_ACCEPTED_VISUAL_PENDING",
+                  "image_call_counts": {
+                    "base": 2,
+                    "correction": 0
+                  },
+                  "fresh_shared_tests_passed": 35,
+                  "independent_parent_negative_cases": {
+                    "luna": 18,
+                    "sol": 18
+                  },
+                  "child_negative_cases": {
+                    "luna": 17,
+                    "sol": 18
+                  },
+                  "native_dimensions": {
+                    "requested": [
+                      1024,
+                      1024
+                    ],
+                    "luna": [
+                      1254,
+                      1254
+                    ],
+                    "sol": [
+                      1254,
+                      1254
+                    ]
+                  },
+                  "benchmark_report": "operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md",
+                  "final_audit": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/final-audit.json",
+                  "runtime_metrics": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/runtime-benchmark-metrics.json",
+                  "content_acceptance_detail": {
+                    "accepted": [
+                      "colors",
+                      "copy",
+                      "logo"
+                    ],
+                    "visual": "PENDING_R2_CAMPAIGN",
+                    "whole_candidate": "NOT_ACCEPTED",
+                    "historical_benchmark": "Unchanged"
+                  },
+                  "campaign_preparation": {
+                    "status": "READY_FOR_PO_REVIEW",
+                    "production": "NOT_RUN",
+                    "kit": "operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md",
+                    "criteria": "operations/LinkedIn_Awareness_Campaign_Creative_Review.md",
+                    "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+                    "future_proof": "one5cardad+two different-rolecards contrasting scenario; sevenbase/zerocorrection UNRELEASED; exacttargets/sourcecopyreview required",
+                    "future_native_policy": "square>=1080eachside/noresize, forwardonly",
+                    "executable_alignment": "NOT_IMPLEMENTED_REQUIRED_BEFORE_FUTURE_DISPATCH",
+                    "parent_audit": "PASS",
+                    "operator_audit": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/operator-audit.json",
+                    "audit_scope": "Preparation only; parent 1280x900/390x844 guide observation and528 protected identity; no creative/new-production acceptance"
+                  }
+                }
+              },
+              "final_audit_sha256": "69152fbb1dccc363d347772b09c8ea3ab20a723b235d2d02d533ab9d26facbeb",
+              "independent_parent_positive_cases": {
+                "sol": 3,
+                "luna": 3
+              },
+              "current_run_audit": "FAIL",
+              "shared_manifest_sha256": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd",
+              "native_dimension_contract_audit": "PASS_FORWARD_NATIVE_SQUARE_MIN",
+              "current_run": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03"
+            },
+            "prior_current_before_controlled_rollout_closeout": {
+              "schema_version": 1,
+              "updated_at": "2026-10-03",
+              "status": "testing_dogfood",
+              "implementation_status": "SUCCESS",
+              "independent_audit": "IMPLEMENTATION_CHECKPOINT_PASS_SEPARATE_FROM_CREATIVE_FAIL",
+              "checkpoint_plan_audit": "AUDIT_PASS",
+              "synthetic_tests_passed": 49,
+              "real_candidate_status": "CHANGES_REQUIRED",
+              "proposed_candidate": "F2-A/P2-A full five-card carousels per model",
+              "generation_authority": "BOUNDED_TWENTY_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+              "checkpoint": "recorded by containing local freeze checkpoint; no push/merge; prior baseline 7e95a44",
+              "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+              "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+              "run_plan": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+              "scope_limits": [
+                "20 base/0 correction completed; no further call release",
+                "Both CHANGES_REQUIRED; seven definite text violations plus separate SolF2A3 quarantine",
+                "Four mobile Taiwan source panels require changes",
+                "No PO/buyer/live whole-set acceptance/general ranking",
+                "Old exact1024 trial remains FAIL"
+              ],
+              "candidate_statuses": {
+                "luna": "CHANGES_REQUIRED",
+                "sol": "CHANGES_REQUIRED"
+              },
+              "execution_status": "PARTIAL",
+              "benchmark_measurement_status": "COMPLETE",
+              "candidate_contract_audit": "FAIL",
+              "content_acceptance": "PO_HARNESS_ADOPTION_AND_SOL_VISUAL_DIRECTION_APPROVED_NOT_BLANKET_EXTERNAL_RELEASE",
+              "image_call_counts": {
+                "base": 20,
+                "correction": 0,
+                "pre_inference_reference_limit_rejection": 1,
+                "rejected_attempt_images": 0
+              },
+              "fresh_shared_tests_passed": 49,
+              "independent_parent_negative_cases": {
+                "sol": 19,
+                "luna": 19
+              },
+              "child_negative_cases": {
+                "sol": 19,
+                "luna": 19
+              },
+              "native_dimensions": {
+                "policy": "native_square_min",
+                "minimum_edge": 1080,
+                "actual_all20": [
+                  1254,
+                  1254
+                ],
+                "resize": false
+              },
+              "benchmark_report": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+              "final_audit": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/final-audit.json",
+              "runtime_metrics": {
+                "scope": "operator image tool; some parallel; no model causal/cost ranking",
+                "sol_sum_seconds": 463.382,
+                "sol_median_seconds": 48.782,
+                "luna_sum_seconds": 928.258,
+                "luna_median_seconds": 83.763
+              },
+              "content_acceptance_detail": {
+                "current_po": "harness freeze/adoption and Sol visual direction approved",
+                "historical_operator_candidates": "CHANGES_REQUIRED unchanged",
+                "buyer": "NOT_GRANTED",
+                "live": "NOT_GRANTED",
+                "whole_set_external_release": "NOT_GRANTED",
+                "historical_components": "retained in historical scope"
+              },
+              "campaign_preparation": {
+                "status": "HISTORICAL_ACCEPTED_PREPARATION_SUPERSEDED_BY_FULL_RUN",
+                "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+                "executable_alignment": "IMPLEMENTED_FORWARD_ONLY",
+                "seven_card_proposal": "SUPERSEDED_NOT_CURRENT_AUTHORITY"
+              },
+              "historical_scopes": {
+                "two_call_trial_and_campaign_preparation_snapshot": {
+                  "schema_version": 1,
+                  "updated_at": "2026-10-03",
+                  "status": "testing_dogfood",
+                  "implementation_status": "SUCCESS",
+                  "independent_audit": "AUDIT_PASS",
+                  "checkpoint_plan_audit": "AUDIT_PASS",
+                  "synthetic_tests_passed": 35,
+                  "real_candidate_status": "CHANGES_REQUIRED",
+                  "proposed_candidate": "F2-A2",
+                  "generation_authority": "BOUNDED_TWO_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+                  "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+                  "gate_sha256": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+                  "tests_sha256": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+                  "run_plan": "operations/LinkedIn_ImageGen_First_Candidate_Dogfood_Plan.md",
+                  "scope_limits": [
+                    "Two actual base calls completed; native and desktop/mobile fixtures inspected by parent; this does not cure the native dimensional failure",
+                    "Both candidates CHANGES_REQUIRED; Luna central upward-curve story-fit ambiguity also open as operator finding",
+                    "Bảo accepts colors/copy/logo components only; no whole-candidate acceptance or set diversity, full-carousel quality, Taiwan closing-source readability, buyer validation or live authority",
+                    "One trial/configuration at different effort with a stochastic shared image tool; no general ranking or price conclusion",
+                    "Forward sizing policy requires review and fresh pins for any future separately released call; immutable failed trial remains FAIL"
+                  ],
+                  "candidate_statuses": {
+                    "luna": "CHANGES_REQUIRED",
+                    "sol": "CHANGES_REQUIRED"
+                  },
+                  "execution_status": "PARTIAL",
+                  "benchmark_measurement_status": "COMPLETE",
+                  "candidate_contract_audit": "FAIL",
+                  "content_acceptance": "COMPONENTS_ACCEPTED_VISUAL_PENDING",
+                  "image_call_counts": {
+                    "base": 2,
+                    "correction": 0
+                  },
+                  "fresh_shared_tests_passed": 35,
+                  "independent_parent_negative_cases": {
+                    "luna": 18,
+                    "sol": 18
+                  },
+                  "child_negative_cases": {
+                    "luna": 17,
+                    "sol": 18
+                  },
+                  "native_dimensions": {
+                    "requested": [
+                      1024,
+                      1024
+                    ],
+                    "luna": [
+                      1254,
+                      1254
+                    ],
+                    "sol": [
+                      1254,
+                      1254
+                    ]
+                  },
+                  "benchmark_report": "operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md",
+                  "final_audit": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/final-audit.json",
+                  "runtime_metrics": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/runtime-benchmark-metrics.json",
+                  "content_acceptance_detail": {
+                    "accepted": [
+                      "colors",
+                      "copy",
+                      "logo"
+                    ],
+                    "visual": "PENDING_R2_CAMPAIGN",
+                    "whole_candidate": "NOT_ACCEPTED",
+                    "historical_benchmark": "Unchanged"
+                  },
+                  "campaign_preparation": {
+                    "status": "READY_FOR_PO_REVIEW",
+                    "production": "NOT_RUN",
+                    "kit": "operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md",
+                    "criteria": "operations/LinkedIn_Awareness_Campaign_Creative_Review.md",
+                    "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+                    "future_proof": "one5cardad+two different-rolecards contrasting scenario; sevenbase/zerocorrection UNRELEASED; exacttargets/sourcecopyreview required",
+                    "future_native_policy": "square>=1080eachside/noresize, forwardonly",
+                    "executable_alignment": "NOT_IMPLEMENTED_REQUIRED_BEFORE_FUTURE_DISPATCH",
+                    "parent_audit": "PASS",
+                    "operator_audit": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/operator-audit.json",
+                    "audit_scope": "Preparation only; parent 1280x900/390x844 guide observation and528 protected identity; no creative/new-production acceptance"
+                  }
+                },
+                "pre_freeze_hybrid_status_2026_10_03": {
+                  "schema_version": 1,
+                  "updated_at": "2026-10-03",
+                  "status": "testing_dogfood",
+                  "implementation_status": "SUCCESS",
+                  "independent_audit": "IMPLEMENTATION_CHECKPOINT_PASS_SEPARATE_FROM_CREATIVE_FAIL",
+                  "checkpoint_plan_audit": "AUDIT_PASS",
+                  "synthetic_tests_passed": 49,
+                  "real_candidate_status": "CHANGES_REQUIRED",
+                  "proposed_candidate": "F2-A/P2-A full five-card carousels per model",
+                  "generation_authority": "BOUNDED_TWENTY_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+                  "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+                  "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+                  "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+                  "run_plan": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+                  "scope_limits": [
+                    "20 base/0 correction completed; no further call release",
+                    "Both CHANGES_REQUIRED; seven definite text violations plus separate SolF2A3 quarantine",
+                    "Four mobile Taiwan source panels require changes",
+                    "No PO/buyer/live whole-set acceptance/general ranking",
+                    "Old exact1024 trial remains FAIL"
+                  ],
+                  "candidate_statuses": {
+                    "luna": "CHANGES_REQUIRED",
+                    "sol": "CHANGES_REQUIRED"
+                  },
+                  "execution_status": "PARTIAL",
+                  "benchmark_measurement_status": "COMPLETE",
+                  "candidate_contract_audit": "FAIL",
+                  "content_acceptance": "WHOLE_CANDIDATE_NOT_GRANTED",
+                  "image_call_counts": {
+                    "base": 20,
+                    "correction": 0,
+                    "pre_inference_reference_limit_rejection": 1,
+                    "rejected_attempt_images": 0
+                  },
+                  "fresh_shared_tests_passed": 49,
+                  "independent_parent_negative_cases": {
+                    "sol": 19,
+                    "luna": 19
+                  },
+                  "child_negative_cases": {
+                    "sol": 19,
+                    "luna": 19
+                  },
+                  "native_dimensions": {
+                    "policy": "native_square_min",
+                    "minimum_edge": 1080,
+                    "actual_all20": [
+                      1254,
+                      1254
+                    ],
+                    "resize": false
+                  },
+                  "benchmark_report": "operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md",
+                  "final_audit": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/final-audit.json",
+                  "runtime_metrics": {
+                    "scope": "operator image tool; some parallel; no model causal/cost ranking",
+                    "sol_sum_seconds": 463.382,
+                    "sol_median_seconds": 48.782,
+                    "luna_sum_seconds": 928.258,
+                    "luna_median_seconds": 83.763
+                  },
+                  "content_acceptance_detail": {
+                    "whole_candidate": "NOT_GRANTED",
+                    "buyer": "NOT_GRANTED",
+                    "live": "NOT_GRANTED",
+                    "historical_components": "retained in historical scope"
+                  },
+                  "campaign_preparation": {
+                    "status": "HISTORICAL_ACCEPTED_PREPARATION_SUPERSEDED_BY_FULL_RUN",
+                    "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+                    "executable_alignment": "IMPLEMENTED_FORWARD_ONLY",
+                    "seven_card_proposal": "SUPERSEDED_NOT_CURRENT_AUTHORITY"
+                  },
+                  "historical_scopes": {
+                    "two_call_trial_and_campaign_preparation_snapshot": {
+                      "schema_version": 1,
+                      "updated_at": "2026-10-03",
+                      "status": "testing_dogfood",
+                      "implementation_status": "SUCCESS",
+                      "independent_audit": "AUDIT_PASS",
+                      "checkpoint_plan_audit": "AUDIT_PASS",
+                      "synthetic_tests_passed": 35,
+                      "real_candidate_status": "CHANGES_REQUIRED",
+                      "proposed_candidate": "F2-A2",
+                      "generation_authority": "BOUNDED_TWO_BASE_CALLS_COMPLETED_NO_FURTHER_CALL_RELEASE",
+                      "checkpoint": "Baseline 7e95a44 unchanged; new benchmark artifacts/docs/status local and uncommitted; no staging/push",
+                      "gate_sha256": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+                      "tests_sha256": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+                      "run_plan": "operations/LinkedIn_ImageGen_First_Candidate_Dogfood_Plan.md",
+                      "scope_limits": [
+                        "Two actual base calls completed; native and desktop/mobile fixtures inspected by parent; this does not cure the native dimensional failure",
+                        "Both candidates CHANGES_REQUIRED; Luna central upward-curve story-fit ambiguity also open as operator finding",
+                        "Bảo accepts colors/copy/logo components only; no whole-candidate acceptance or set diversity, full-carousel quality, Taiwan closing-source readability, buyer validation or live authority",
+                        "One trial/configuration at different effort with a stochastic shared image tool; no general ranking or price conclusion",
+                        "Forward sizing policy requires review and fresh pins for any future separately released call; immutable failed trial remains FAIL"
+                      ],
+                      "candidate_statuses": {
+                        "luna": "CHANGES_REQUIRED",
+                        "sol": "CHANGES_REQUIRED"
+                      },
+                      "execution_status": "PARTIAL",
+                      "benchmark_measurement_status": "COMPLETE",
+                      "candidate_contract_audit": "FAIL",
+                      "content_acceptance": "COMPONENTS_ACCEPTED_VISUAL_PENDING",
+                      "image_call_counts": {
+                        "base": 2,
+                        "correction": 0
+                      },
+                      "fresh_shared_tests_passed": 35,
+                      "independent_parent_negative_cases": {
+                        "luna": 18,
+                        "sol": 18
+                      },
+                      "child_negative_cases": {
+                        "luna": 17,
+                        "sol": 18
+                      },
+                      "native_dimensions": {
+                        "requested": [
+                          1024,
+                          1024
+                        ],
+                        "luna": [
+                          1254,
+                          1254
+                        ],
+                        "sol": [
+                          1254,
+                          1254
+                        ]
+                      },
+                      "benchmark_report": "operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md",
+                      "final_audit": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/final-audit.json",
+                      "runtime_metrics": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/runtime-benchmark-metrics.json",
+                      "content_acceptance_detail": {
+                        "accepted": [
+                          "colors",
+                          "copy",
+                          "logo"
+                        ],
+                        "visual": "PENDING_R2_CAMPAIGN",
+                        "whole_candidate": "NOT_ACCEPTED",
+                        "historical_benchmark": "Unchanged"
+                      },
+                      "campaign_preparation": {
+                        "status": "READY_FOR_PO_REVIEW",
+                        "production": "NOT_RUN",
+                        "kit": "operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md",
+                        "criteria": "operations/LinkedIn_Awareness_Campaign_Creative_Review.md",
+                        "record": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+                        "future_proof": "one5cardad+two different-rolecards contrasting scenario; sevenbase/zerocorrection UNRELEASED; exacttargets/sourcecopyreview required",
+                        "future_native_policy": "square>=1080eachside/noresize, forwardonly",
+                        "executable_alignment": "NOT_IMPLEMENTED_REQUIRED_BEFORE_FUTURE_DISPATCH",
+                        "parent_audit": "PASS",
+                        "operator_audit": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/operator-audit.json",
+                        "audit_scope": "Preparation only; parent 1280x900/390x844 guide observation and528 protected identity; no creative/new-production acceptance"
+                      }
+                    }
+                  },
+                  "final_audit_sha256": "69152fbb1dccc363d347772b09c8ea3ab20a723b235d2d02d533ab9d26facbeb",
+                  "independent_parent_positive_cases": {
+                    "sol": 3,
+                    "luna": 3
+                  },
+                  "current_run_audit": "FAIL",
+                  "shared_manifest_sha256": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd",
+                  "native_dimension_contract_audit": "PASS_FORWARD_NATIVE_SQUARE_MIN",
+                  "current_run": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03"
+                }
+              },
+              "final_audit_sha256": "69152fbb1dccc363d347772b09c8ea3ab20a723b235d2d02d533ab9d26facbeb",
+              "independent_parent_positive_cases": {
+                "sol": 3,
+                "luna": 3
+              },
+              "current_run_audit": "FAIL",
+              "shared_manifest_sha256": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd",
+              "native_dimension_contract_audit": "PASS_FORWARD_NATIVE_SQUARE_MIN",
+              "current_run": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03",
+              "freeze": {
+                "status": "FROZEN_PO_ADOPTED",
+                "date": "2026-10-03",
+                "record": "operations/LinkedIn_ImageGen_Harness_Freeze_2026-10-03.md",
+                "authorization_exact": "Okie đẹp rồi codex. Chốt harness này và dùng sol làm chuẩn cho project - Luna không đạt yêu cầu visual bằng Sol. Commit checkpoint này status như vậy nhé (freeze harness hiện tại và chọn sol làm worker chính nếu spawn child).",
+                "mechanism_gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+                "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+                "no_further_generation_release": true
+              },
+              "default_project_worker": {
+                "model": "gpt-6.1-sol",
+                "reasoning_effort": "low",
+                "surface": "native_leaf",
+                "runtime_observation_required": true,
+                "admission_acceptance_required": true,
+                "silent_fallback_allowed": false,
+                "change_authority": "new Bao override",
+                "scope": "this project only",
+                "root_coordinator": "unchanged"
+              },
+              "po_visual_adoption": {
+                "direction": "SOL_VISUAL_BASELINE_FAMILY_APPROVED",
+                "luna": "NOT_SELECTED_BY_PO_FOR_PROJECT_VISUAL",
+                "historical_operator_findings": "UNCHANGED",
+                "whole_set_external_release": "NOT_GRANTED"
+              },
+              "controlled_rollout": {
+                "plan": "operations/LinkedIn_ImageGen_Controlled_Rollout_Plan_2026-10-03.md",
+                "root": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03",
+                "status": "PREPARATION_PENDING_PARENT_AUDIT",
+                "order": [
+                  "F3-A",
+                  "P3-A"
+                ],
+                "p3_dependency": "F3 audit PASS",
+                "base_max": 10,
+                "correction_max": 2,
+                "correction_rounds_max": 1,
+                "correction_per_card_max": 1,
+                "generated": 0,
+                "final_lifecycle_gate": "audit clear AND Bao exact finished-carousel approval",
+                "commit_push": "NOT_IMPLICITLY_AUTHORIZED"
+              }
+            }
+          },
+          "final_audit_sha256": "e2a91d3c657055cf25f980f7417a3056cbe00e96d2e14c87f1dda9ee50258da5",
+          "independent_parent_positive_cases": {
+            "count": 0,
+            "status": "NOT_REPLAYED",
+            "scope": "Parent reviewed child F3 positive evidence; did not replay candidate cases"
+          },
+          "current_run_audit": "FAIL",
+          "shared_manifest_sha256": "5e723b1d198e96da8be4006b7abaf246569aac0563648cadc19a1bfadfc1c641",
+          "native_dimension_contract_audit": "PASS_FORWARD_NATIVE_SQUARE_MIN",
+          "current_run": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03",
+          "freeze": {
+            "status": "FROZEN_PO_ADOPTED",
+            "date": "2026-10-03",
+            "record": "operations/LinkedIn_ImageGen_Harness_Freeze_2026-10-03.md",
+            "authorization_exact": "Okie đẹp rồi codex. Chốt harness này và dùng sol làm chuẩn cho project - Luna không đạt yêu cầu visual bằng Sol. Commit checkpoint này status như vậy nhé (freeze harness hiện tại và chọn sol làm worker chính nếu spawn child).",
+            "mechanism_gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+            "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+            "no_further_generation_release": true
+          },
+          "default_project_worker": {
+            "model": "gpt-6.1-sol",
+            "reasoning_effort": "low",
+            "surface": "native_leaf",
+            "runtime_observation_required": true,
+            "admission_acceptance_required": true,
+            "silent_fallback_allowed": false,
+            "change_authority": "new Bao override",
+            "scope": "this project only",
+            "root_coordinator": "unchanged"
+          },
+          "po_visual_adoption": {
+            "direction": "SOL_VISUAL_BASELINE_FAMILY_APPROVED",
+            "luna": "NOT_SELECTED_BY_PO_FOR_PROJECT_VISUAL",
+            "historical_operator_findings": "UNCHANGED",
+            "whole_set_external_release": "NOT_GRANTED"
+          },
+          "controlled_rollout": {
+            "plan": "operations/LinkedIn_ImageGen_Controlled_Rollout_Plan_2026-10-03.md",
+            "root": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03",
+            "status": "STOPPED_AT_F3_GATE_CHANGES_REQUIRED",
+            "order": [
+              "F3-A",
+              "P3-A"
+            ],
+            "p3_dependency": "F3 audit PASS",
+            "base_max": 10,
+            "correction_max": 2,
+            "correction_rounds_max": 1,
+            "correction_per_card_max": 1,
+            "generated": 6,
+            "final_lifecycle_gate": "audit clear AND Bao exact finished-carousel approval",
+            "commit_push": "NOT_IMPLICITLY_AUTHORIZED",
+            "audit": "FAIL",
+            "execution_status": "PARTIAL",
+            "generated_base": 5,
+            "generated_correction": 1,
+            "p3_status": "PREPARED_NOT_RUN",
+            "p3_gate": "NO_F3_GATE_PASS",
+            "p3_calls": 0,
+            "crossscenario": "NOT_CHECKED",
+            "f3_a5_full_body": "CLOSED_BY_R2",
+            "f3_a5_mobile_source": "FAIL",
+            "f3_a5_attempts_remaining": 0,
+            "unused_correction_reserve": 1,
+            "unused_reserve_is_authority": false,
+            "finished_carousel_PO_acceptance": "NOT_GRANTED",
+            "final_lifecycle": "testing_dogfood",
+            "result": "operations/LinkedIn_ImageGen_Controlled_Rollout_Result_2026-10-03.md",
+            "prior_status_raw": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/operator/prior-status-at-rollout-start.json"
+          },
+          "child_positive_cases": {
+            "sol_f3": 3
+          },
+          "parent_mechanical_review": {
+            "unit_tests_replayed": 49,
+            "child_fixture_report_reviewed": true,
+            "child_negative_cases_reviewed": 19,
+            "child_positive_cases_reviewed": 3,
+            "candidate_fixture_cases_replayed": 0,
+            "evidence": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/dogfood-results-v2.json"
+          },
+          "shared_manifest_path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/input-manifest.json"
+        }
+      },
+      "final_audit_sha256": "dc734745185f008f212729f37636ea9b9fd8bf8bc6ac79fd86dbb914f89af91a",
+      "independent_parent_positive_cases": {
+        "count": 0,
+        "status": "NOT_REPLAYED"
+      },
+      "current_run_audit": "FAIL",
+      "shared_manifest_sha256": "450b339a031bae6d8af7e85cb6e5a24573d1c793d880d7fc6ccd43064260d284",
+      "native_dimension_contract_audit": "PASS_FORWARD_NATIVE_SQUARE_MIN",
+      "current_run": "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03",
+      "freeze": {
+        "status": "FROZEN_PO_ADOPTED",
+        "date": "2026-10-03",
+        "record": "operations/LinkedIn_ImageGen_Harness_Freeze_2026-10-03.md",
+        "authorization_exact": "Okie đẹp rồi codex. Chốt harness này và dùng sol làm chuẩn cho project - Luna không đạt yêu cầu visual bằng Sol. Commit checkpoint này status như vậy nhé (freeze harness hiện tại và chọn sol làm worker chính nếu spawn child).",
+        "mechanism_gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+        "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+        "no_further_generation_release": true
+      },
+      "default_project_worker": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "low",
+        "surface": "native_leaf",
+        "runtime_observation_required": true,
+        "admission_acceptance_required": true,
+        "silent_fallback_allowed": false,
+        "change_authority": "new Bao override",
+        "scope": "this project only",
+        "root_coordinator": "unchanged"
+      },
+      "po_visual_adoption": {
+        "direction": "SOL_VISUAL_BASELINE_FAMILY_APPROVED",
+        "luna": "NOT_SELECTED_BY_PO_FOR_PROJECT_VISUAL",
+        "historical_operator_findings": "UNCHANGED",
+        "whole_set_external_release": "NOT_GRANTED"
+      },
+      "controlled_rollout": {
+        "root": "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03",
+        "plan": "operations/LinkedIn_ImageGen_Closing_Forward_Rollout_Plan_2026-10-03.md",
+        "result": "operations/LinkedIn_ImageGen_Closing_Forward_Rollout_Result_2026-10-03.md",
+        "status": "CHANGES_REQUIRED_P3_CLOSING",
+        "audit": "FAIL",
+        "execution_status": "PARTIAL",
+        "generated_base": 6,
+        "generated_correction": 1,
+        "generated": 7,
+        "f3_status": "PASS",
+        "p3_status": "FAIL",
+        "crossscenario": "SCOPED_PASS",
+        "finished_carousel_PO_acceptance": "NOT_GRANTED",
+        "final_lifecycle": "testing_dogfood",
+        "frozen_harness": "NOT_TRANSITIONED",
+        "further_calls_released": false,
+        "prior_status_raw": "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03/operator/prior-status.json"
+      },
+      "child_positive_cases": {
+        "f3": 3,
+        "p3": 3
+      },
+      "parent_mechanical_review": {
+        "unit_tests_replayed": 49,
+        "child_fixtures_reviewed": {
+          "f3": {
+            "negative": 19,
+            "positive": 3
+          },
+          "p3": {
+            "negative": 19,
+            "positive": 3
+          }
+        },
+        "candidate_fixture_cases_replayed": 0
+      },
+      "shared_manifest_path": "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03/common/input-manifest.json",
+      "scenario_verdicts": {
+        "F3": "PASS",
+        "P3": "FAIL"
+      }
     }
   },
-  "final_audit_sha256": "69152fbb1dccc363d347772b09c8ea3ab20a723b235d2d02d533ab9d26facbeb",
+  "final_audit_sha256": "dc734745185f008f212729f37636ea9b9fd8bf8bc6ac79fd86dbb914f89af91a",
   "independent_parent_positive_cases": {
-    "sol": 3,
-    "luna": 3
+    "count": 0,
+    "status": "NOT_REPLAYED"
   },
   "current_run_audit": "FAIL",
-  "shared_manifest_sha256": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd",
+  "shared_manifest_sha256": "450b339a031bae6d8af7e85cb6e5a24573d1c793d880d7fc6ccd43064260d284",
   "native_dimension_contract_audit": "PASS_FORWARD_NATIVE_SQUARE_MIN",
-  "current_run": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03",
+  "current_run": "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03",
   "freeze": {
     "status": "FROZEN_PO_ADOPTED",
     "date": "2026-10-03",
@@ -366,5 +3152,104 @@
     "luna": "NOT_SELECTED_BY_PO_FOR_PROJECT_VISUAL",
     "historical_operator_findings": "UNCHANGED",
     "whole_set_external_release": "NOT_GRANTED"
-  }
+  },
+  "controlled_rollout": {
+    "root": "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03",
+    "plan": "operations/LinkedIn_ImageGen_Closing_Forward_Rollout_Plan_2026-10-03.md",
+    "result": "operations/LinkedIn_ImageGen_Closing_Forward_Rollout_Result_2026-10-03.md",
+    "status": "CHANGES_REQUIRED_P3_CLOSING",
+    "audit": "FAIL",
+    "execution_status": "PARTIAL",
+    "generated_base": 6,
+    "generated_correction": 1,
+    "generated": 7,
+    "f3_status": "PASS",
+    "p3_status": "FAIL",
+    "crossscenario": "SCOPED_PASS",
+    "finished_carousel_PO_acceptance": "NOT_GRANTED",
+    "final_lifecycle": "testing_dogfood",
+    "frozen_harness": "NOT_TRANSITIONED",
+    "further_calls_released": false,
+    "prior_status_raw": "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03/operator/prior-status.json",
+    "historical_audit_scope": "forward two-carousel trial remains FAIL; pre-scoped-freeze lifecycle observation preserved, current lifecycle governed by scoped_freeze"
+  },
+  "child_positive_cases": {
+    "f3": 3,
+    "p3": 3
+  },
+  "parent_mechanical_review": {
+    "unit_tests_replayed": 49,
+    "child_fixtures_reviewed": {
+      "f3": {
+        "negative": 19,
+        "positive": 3
+      },
+      "p3": {
+        "negative": 19,
+        "positive": 3
+      }
+    },
+    "candidate_fixture_cases_replayed": 0
+  },
+  "shared_manifest_path": "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03/common/input-manifest.json",
+  "scenario_verdicts": {
+    "F3": "FROZEN_PO_ACCEPTED",
+    "P3": "FAIL_CHANGES_REQUIRED"
+  },
+  "freeze_scope": "PASSED_HARNESS_MECHANISM_AND_PO_ACCEPTED_EXACT_CURRENT_F3_ONLY",
+  "scoped_freeze": {
+    "status": "FROZEN_PO_ACCEPTED",
+    "record": "operations/LinkedIn_ImageGen_Scoped_Freeze_2026-10-03.md",
+    "instruction_exact": "commit đi codex, bộ chuyển đạt đổi thành freeze. Lên plan rollout toàn bộ kịch bản còn lại.",
+    "F3": "FROZEN_PO_ACCEPTED",
+    "P3": "CHANGES_REQUIRED",
+    "preservation_manifest": "operations/linkedin-imagegen-dogfood/scoped-freeze-rollout-plan-2026-10-03/preservation-manifest.json",
+    "f3_selected_files": {
+      "index.html": "018a332f89f4c061202dc1f209e1b23cac9edbd2c0e3f499a43ff004bf1ff59e",
+      "assets/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "assets/f3-a1.png": "04133ce869e035369a11b3b032f4510008e83e33ccf33052afdda2faf8338bcb",
+      "assets/f3-a2.png": "faef33196bf1f2b34178b9b49a436284e78646b0b8e6c71a4fe37c54c1fc40ff",
+      "assets/f3-a3.png": "05a1159dea04ae1dbed90982f9cf552b2265cd72394cef6bb9706a954bed2227",
+      "assets/f3-a4.png": "2fa9b81dffab98e948264385570f3b94f8667688b98b3e152da0a55f7bfc57aa",
+      "assets/f3-a5.png": "97cc4bdb20a22db3622139ee0d6e631aa19f92262aa5161c37b08bc3efd77eed"
+    },
+    "scope_interpretation": "new PO lifecycle narrowed to passed scope; prior two-carousel full freeze condition not met",
+    "external_business_live_release": false
+  },
+  "remaining_rollout_plan": {
+    "path": "operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Plan_2026-10-03.md",
+    "status": "PLAN_ONLY_NOT_RELEASED",
+    "treatment_count": 11,
+    "frozen_count": 1,
+    "remaining_count": 10,
+    "proposed_base_ceiling": 46,
+    "proposed_correction_ceiling": 10,
+    "generation_released": false,
+    "waves": [
+      [
+        "P3"
+      ],
+      [
+        "F1",
+        "F2"
+      ],
+      [
+        "P1",
+        "P2"
+      ],
+      [
+        "O2",
+        "O4-O"
+      ],
+      [
+        "O1",
+        "O4-Q"
+      ],
+      [
+        "O3"
+      ]
+    ]
+  },
+  "production_status": "PARTIAL_P3_CLOSING_FAIL",
+  "readiness_status": "PARTIAL_NO_EXTERNAL_RELEASE"
 }

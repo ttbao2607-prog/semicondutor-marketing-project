@@ -1,0 +1,235 @@
+{
+  "checks": [
+    {
+      "scenario": "F3",
+      "position": 5,
+      "mode": "mobile",
+      "image": 332.66668701171875,
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "scenario": "F3",
+      "position": 1,
+      "mode": "mobile",
+      "image": 332.66668701171875,
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "scenario": "F3",
+      "position": 2,
+      "mode": "mobile",
+      "image": 332.66668701171875,
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "scenario": "F3",
+      "position": 3,
+      "mode": "mobile",
+      "image": 332.66668701171875,
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "scenario": "F3",
+      "position": 4,
+      "mode": "mobile",
+      "image": 332.66668701171875,
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "scenario": "F3",
+      "position": "1/5",
+      "mode": "desktop",
+      "image": 606.6666870117188,
+      "overflow": false,
+      "viewport": [
+        1280,
+        900
+      ]
+    },
+    {
+      "scenario": "F3",
+      "position": "2/5",
+      "mode": "desktop",
+      "image": 606.6666870117188,
+      "overflow": false,
+      "viewport": [
+        1280,
+        900
+      ]
+    },
+    {
+      "scenario": "F3",
+      "position": "3/5",
+      "mode": "desktop",
+      "image": 606.6666870117188,
+      "overflow": false,
+      "viewport": [
+        1280,
+        900
+      ]
+    },
+    {
+      "scenario": "F3",
+      "position": "4/5",
+      "mode": "desktop",
+      "image": 606.6666870117188,
+      "overflow": false,
+      "viewport": [
+        1280,
+        900
+      ]
+    },
+    {
+      "scenario": "F3",
+      "position": "5/5",
+      "mode": "desktop",
+      "image": 606.6666870117188,
+      "overflow": false,
+      "viewport": [
+        1280,
+        900
+      ]
+    },
+    {
+      "scenario": "P3r2",
+      "position": "1/5",
+      "mode": "mobile",
+      "image": 332.66668701171875,
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "scenario": "P3r2",
+      "position": "2/5",
+      "mode": "mobile",
+      "image": 332.66668701171875,
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "scenario": "P3r2",
+      "position": "3/5",
+      "mode": "mobile",
+      "image": 332.66668701171875,
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "scenario": "P3r2",
+      "position": "4/5",
+      "mode": "mobile",
+      "image": 332.66668701171875,
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "scenario": "P3r2",
+      "position": "5/5",
+      "mode": "mobile",
+      "image": 332.66668701171875,
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "scenario": "P3r2",
+      "position": "1/5",
+      "mode": "desktop",
+      "image": 606.6666870117188,
+      "overflow": false,
+      "viewport": [
+        1280,
+        900
+      ]
+    },
+    {
+      "scenario": "P3r2",
+      "position": "2/5",
+      "mode": "desktop",
+      "image": 606.6666870117188,
+      "overflow": false,
+      "viewport": [
+        1280,
+        900
+      ]
+    },
+    {
+      "scenario": "P3r2",
+      "position": "3/5",
+      "mode": "desktop",
+      "image": 606.6666870117188,
+      "overflow": false,
+      "viewport": [
+        1280,
+        900
+      ]
+    },
+    {
+      "scenario": "P3r2",
+      "position": "4/5",
+      "mode": "desktop",
+      "image": 606.6666870117188,
+      "overflow": false,
+      "viewport": [
+        1280,
+        900
+      ]
+    },
+    {
+      "scenario": "P3r2",
+      "position": "5/5",
+      "mode": "desktop",
+      "image": 606.6666870117188,
+      "overflow": false,
+      "viewport": [
+        1280,
+        900
+      ]
+    }
+  ],
+  "P3navigation": "dots/prevnext/keyboard/endpoints observed",
+  "F3closing": "PASS body-size source once atmobile390 image332.667 nozoom",
+  "P3originalClosing": "FAIL visibly miniature source+attribution atmobile390",
+  "P3correctedClosing": "FAIL source+attribution still smallerthanbody and notcomfortable nozoom; headline unapprovedfinalperiod nativeobserved",
+  "evidence": [
+    "outputs/rollout-forward-f3-mobile-closing.png",
+    "outputs/rollout-forward-p3-original-mobile-closing.png",
+    "outputs/rollout-forward-p3-mobile-closing.png"
+  ],
+  "crossscenario": "PASS scoped visualfamily blue-white photographicoffice+integrateddiagrams/sharedheader; distincthandoff vsrequestdocumentowner questions, P3recordscene lackschip onA3/A4 allowed scenario material variation",
+  "bounds": "visualobservation notOCR or fontpixelmeasurement, no buyer/liveperformance conclusion"
+}

@@ -1,0 +1,70 @@
+{
+  "scenario": "F3-A",
+  "candidate": "A1-A4 original plus A5-r2",
+  "desktop": [
+    {
+      "imageWidth": 606.6666870117188,
+      "overflow": false,
+      "position": "1/5",
+      "src": "assets/f3-a1.png"
+    },
+    {
+      "imageWidth": 606.6666870117188,
+      "overflow": false,
+      "position": "2/5",
+      "src": "assets/f3-a2.png"
+    },
+    {
+      "imageWidth": 606.6666870117188,
+      "overflow": false,
+      "position": "3/5",
+      "src": "assets/f3-a3.png"
+    },
+    {
+      "imageWidth": 606.6666870117188,
+      "overflow": false,
+      "position": "4/5",
+      "src": "assets/f3-a4.png"
+    },
+    {
+      "imageWidth": 606.6666870117188,
+      "overflow": false,
+      "position": "5/5",
+      "src": "assets/f3-a5.png"
+    }
+  ],
+  "mobile": [
+    {
+      "overflow": false,
+      "position": "1/5",
+      "src": "assets/f3-a1.png"
+    },
+    {
+      "overflow": false,
+      "position": "2/5",
+      "src": "assets/f3-a2.png"
+    },
+    {
+      "overflow": false,
+      "position": "3/5",
+      "src": "assets/f3-a3.png"
+    },
+    {
+      "overflow": false,
+      "position": "4/5",
+      "src": "assets/f3-a4.png"
+    }
+  ],
+  "mobile_closing": {
+    "imageWidth": 332.66668701171875,
+    "overflow": false,
+    "position": "5/5",
+    "src": "assets/f3-a5.png",
+    "viewport": 390
+  },
+  "navigation": "All five dots,prev/next,endpoints,and ArrowLeft/ArrowRight observed",
+  "source_readability": "FAIL: corrected source is visibly smaller than body and cannot be read comfortably at normal332.667px display without zoom",
+  "screenshot": "C:/Users/ASUS/Documents/Codex/2026-10-03/chec/outputs/rollout-f3-mobile-closing.png",
+  "native_color_review": "Original native PNGs independently viewed; browser screenshot warm cast affects page chrome too, not treated as native palette failure",
+  "P3": "NOT_RUN_F3_GATE_NOT_PASSED"
+}

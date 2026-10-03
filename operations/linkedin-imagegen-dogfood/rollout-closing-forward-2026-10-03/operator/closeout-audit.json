@@ -1,0 +1,32 @@
+{
+  "AUDIT_SCOPE": "Final document/state/protection closeout distinctfromcreativeFAIL",
+  "CONTRACT_REF": "operator/execution-contract.json",
+  "BASELINE_REF": "97d72a7+protected875files",
+  "CANDIDATE_REF": {
+    "status_sha256": "909cdbb626f6a2937c99ec47d6b668f0955e71d3932ff5edc327fecce16a8aa7",
+    "result_sha256": "9d788e701459a208fb4070df84121d4f15f682d8904773bf02450c2bbaaa94a4"
+  },
+  "VERDICT": "PASS",
+  "COVERAGE": [
+    "DOCUMENTS: PASS - STRUCTURAL/CONTRACT - currentF3PASS/P3FAIL PARTIAL6base1correction, currentevidencepinsverified",
+    "PROTECTION: PASS - STRUCTURAL/CONTRACT - 875beforefiles checked;8allowedcurrentcanonicaldocs onlychanged; priorruns/gate/test/refs preserved",
+    "HISTORY: PASS - STRUCTURAL/CONTRACT - exactpriorstatusarchived andbeforehistoricalscopes/freeze/defaultworkerunchanged",
+    "EXPORT: PASS - STRUCTURAL/CONTRACT - 3cleansevenfile manifests/image/copybyteidentities verified",
+    "RUNTIME: PASS - BEHAVIORAL/RUNTIME - Sol lowpairedacceptance, temporarytabclosed/viewportreset/loopbackownedserverstopped",
+    "GIT: PASS - STRUCTURAL/CONTRACT - sameHEAD97d72a7, emptystaging, no commit/push, actualremoteunchecked"
+  ],
+  "FINDINGS": {
+    "FAILED_AC": [],
+    "EXPECTED": "Accurate scoping of completedchecks and knownfailedclosing withoutfalsefreeze",
+    "OBSERVED": "DocumentationcloseoutPASS; creativeFAIL/PARTIAL remains",
+    "EVIDENCE": "operator/final-audit.json and currentstatus/result",
+    "EVIDENCE_GAP": "P3closing source/extra punctuationfailed; exactfinishedPOapprovalabsent",
+    "RESTORE_CONDITION": "Newauthorizedclosingresolution mustpassactualnative/mobile/affectedchecks",
+    "REQUIRED_RECHECK": "Freshclosingcandidate plusdependentstory/publicexport/protectedstate"
+  },
+  "overall_creative_verdict": "FAIL",
+  "lifecycle": "testing_dogfood",
+  "parent_disposition": "CHANGES_REQUIRED_P3_CLOSING",
+  "no_further_generation": true,
+  "no_git_mutation": true
+}
