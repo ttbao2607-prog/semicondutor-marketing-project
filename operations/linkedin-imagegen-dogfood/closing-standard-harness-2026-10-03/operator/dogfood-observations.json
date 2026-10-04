@@ -1,0 +1,93 @@
+{
+  "revision": "closing-dogfood-parent-observations-v1",
+  "candidate_checkpoint": "3587fe740988a8ef50fe5df96b7231daea574add",
+  "verdict": "PASS_NATIVE_RENDER_STORY_SCOPE",
+  "docs_finalization": "PENDING",
+  "counts": {
+    "base": 10,
+    "correction": 1,
+    "selected": 10,
+    "render_positions": 20
+  },
+  "native": [
+    {
+      "call": "F2_A1",
+      "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/sol/f2/native/f2-a1.png",
+      "sha256": "3ef8e1af06ac0b7c2e96bb721080da8e9eaf519126e8ebc08ac3f2159b282886",
+      "kind": "BASE"
+    },
+    {
+      "call": "F2_A2",
+      "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/sol/f2/native/f2-a2.png",
+      "sha256": "09c9aa7dcabc3987bf504ff5b88a62f4a56940674679f8f72c88ea2cfe580010",
+      "kind": "BASE"
+    },
+    {
+      "call": "F2_A3",
+      "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/sol/f2/native/f2-a3.png",
+      "sha256": "2376281e801ea63e19cd403e6aaad67933d4448b3f97103025861f3be2528d51",
+      "kind": "BASE"
+    },
+    {
+      "call": "F2_A4",
+      "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/sol/f2/native/f2-a4.png",
+      "sha256": "0bd61f0755331b09c4267774b9f40982f6a42ac7ed11b330b149ffeb27c3ec1f",
+      "kind": "BASE"
+    },
+    {
+      "call": "F2_A5",
+      "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/sol/f2/native/f2-a5.png",
+      "sha256": "b5b359618d4ea610d01aed5df66977063f05f66fb7861a5d492c0893f3bd50f7",
+      "kind": "BASE"
+    },
+    {
+      "call": "F2_A2_R2",
+      "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/sol/f2/corrections/native/f2-a2-r2.png",
+      "sha256": "844131d6c35668150034ce92e89881f822f9b74d1698f4dc732f24c869d85573",
+      "kind": "CORRECTION"
+    },
+    {
+      "call": "O1_A1",
+      "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/sol/o1/native/o1-a1.png",
+      "sha256": "57dffde9abbfcca1ab10c85de1565a8a03d84fe1f0594da2a24039b7e98b5f94",
+      "kind": "BASE"
+    },
+    {
+      "call": "O1_A2",
+      "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/sol/o1/native/o1-a2.png",
+      "sha256": "d2b09aece6aefc2d7b2f56b74f91093012127684d66ad9ac9c712b40a9c45c38",
+      "kind": "BASE"
+    },
+    {
+      "call": "O1_A3",
+      "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/sol/o1/native/o1-a3.png",
+      "sha256": "0328a21ff75539819e22b20378c38654a7c4aba04e057092cc3d3bc5b34abe3e",
+      "kind": "BASE"
+    },
+    {
+      "call": "O1_A4",
+      "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/sol/o1/native/o1-a4.png",
+      "sha256": "2b10ecf95cea30fc48ea1f9988cbc274d6d00a3d907cb4fa2b3a8de61ff70d99",
+      "kind": "BASE"
+    },
+    {
+      "call": "O1_A5",
+      "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/sol/o1/native/o1-a5.png",
+      "sha256": "e76d8a41aa02410d9ae4a2463dc5b37f3e8f7f945e0181d2ca1d2656ff682eb5",
+      "kind": "BASE"
+    }
+  ],
+  "raw_checkpoint_pins_unchanged": 119,
+  "mechanical_public_bundle": "PASS",
+  "native_visual": "Parent viewed all11 originals. Selected10exact wording/diacritics/category/sequence/body/source/CTA andofficialmark. F2baseA2 extrafinalperiodFAIL replacedby844131d6 correction; baseunchanged. Background record placeholderlines/pictograms are unlabelled illustration, no invented values/identifiers/microtext. Correctioncalendar unnumberedbars expresses planning only, no metrics/results.",
+  "source_hierarchy": "F2/O1 fullwidth sourceonce afterphoto, at leastbodyhierarchy, visible/readable withoutzoom at390/image332.6667. No skyline/iconcolumn, no addedreferenceheading.",
+  "story": {
+    "F2": "PASS: scope-lots -> product/plan/lots -> status/time/source -> open question/confirmation -> information/source/person; 4transitions, dottedquestion prevents handshake from asserting completedagreement.",
+    "O1": "PASS: abnormaltest orientation -> split/merge recordrelation -> fivecontextdimensions -> person/nextstep pendingarrow -> information/technicalassessment boundary; 4transitions.",
+    "cross_family": "PASS: stablewhite/blue/navy, officialmark/category/sequence, office daylight physicaldepth/semiconductor signals, integrateddiagrams; compatibleP3acceptedanchor/F3frozenfamily; distinctcardmeanings ratherthanpropquota."
+  },
+  "browser": "Actualdesktop1280x900 andmobile390x844; all20positions screenshotobserved; next/previous/dot andArrowRight worked, endpoints disabled,nooverflow. Nativeoriginalwhiteblue; app screenshotwarmcast notpalettechange.",
+  "cleanup": "viewport reset, agenttabclosed, ownedloopback40552stoppedport8765free",
+  "audit_support": "IndependentSol/low sourceprojection11pins/fourcontractchains/exact10prompts PASS; modelpairedacceptance freshlyPASS bothleaves; rootreconciled actualcopy/refscope/native/render.",
+  "scope": "Upgrade closingmethod/reference/layout and F2/O1 dogfood only; not automaticallcampaignproduction/live acceptance."
+}

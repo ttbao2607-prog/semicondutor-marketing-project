@@ -1,0 +1,3 @@
+# Benchmark authority — repo internal
+2026-10-03. Direct Bảo instruction: use local_orchestrator_cli, run dogfood with two children, Luna max and Sol low, same harness; current session retains operator, audit and dogfood checks, benchmark the two configurations.
+This releases two isolated candidate preparations and at most one built-in ImageGen base call per independently reviewed candidate (two total), zero correction calls. No automatic batch expansion, image transformations, Git mutation, account, publishing or spend. Children cannot author their review/release or invoke image tools. Parent remains operator and final auditor. Bảo retains content acceptance.

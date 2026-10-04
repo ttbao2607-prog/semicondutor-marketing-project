@@ -1,14 +1,57 @@
+| operations/LinkedIn_ImageGen_Closing_Standard_Dogfood_Result_2026-10-03.md | HISTORY/LOG | scopedclosing method freeze after F2/O1 actual dogfood; historicalFAIL preserved |
+
+> **Closing standard freeze03-10-2026:** FROZEN_HARNESS_CLOSING_STANDARD_TESTED_F2_O1 theo PO mandate sau auditPASS:10base+1F2A2correction/11actualcalls,2full5selected10;20desktop/mobilepositions, exactselectedcopy, source fullwidth>=body/nozoom image332.6667px,4transitions each/crossfamily/cleanreaders PASS. Implementation65checks đã commitlocal3587fe7 trước calls;119pins verified before guide/plan finalization;117 remain unchanged after2authorized guide/plan updates. PriorF2baseA2 punctuationFAIL và mọi oldFAIL/F3freeze giữ nguyên; không blanket exactproduction/live approval. Dogfood/results/docs saucheckpoint localUNCOMMITTED/UNSTAGED, không mandatecommit thứhai/push/merge/live. Parentobservations21b44c74…; finalcloseout receipt parent writes afterdocs. [Result](operations/LinkedIn_ImageGen_Closing_Standard_Dogfood_Result_2026-10-03.md).
+
+> **Closing implementation audit03-10-2026:** IMPLEMENTATION_AUDIT_PASS_READY_FOR_CHECKPOINT / testing_dogfood_closing_upgrade. Independent leaf+root verified65checks (49regression+16closing), bindings/counterexamples and1247protected priorfiles with only14allowed code/docs changes. This proves implementation/mechanical scope, not future image readability or wholecampaign acceptance. Containing authorized local checkpoint must precede dogfood generation; F2/O1 proposal remains NOT_RELEASED until root commit/freshbindings. Prior freeze/history unchanged; no push/live. [Audit](operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/operator/implementation-final-audit.json) SHA256 `cfb12531e0d204ad87685d5db3d7969a7b5e747be5d70b691bb19cb211772da8`.
+
+> **Closing upgrade03-10-2026:** exact edited B accepted; implementation READY_FOR_PARENT_AUDIT, root commit before dogfood; no blanket rollout.
+
+| New document | Classification | Scope |
+|---|---|---|
+| operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/closing-standard-guide.md | CANONICAL | opt-in closing role/schema/prompt amendment |
+| operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/dogfood-plan.md | PLAN | F2/O1 proposed10base+2targeted, NOT_RELEASED |
+| operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/reference-approval.json | HISTORY/LOG | exact PO accepted anchor and raw copy identity |
+
+> **B directedit current03-10-2026:** B layout ALREADY_APPROVED; latestoneadditionalDIRECTEDIT authorized/done, scopednative/renderPASS,10positionsfull5desktop/mobile. Sourcefullwidth at leastbody-sized/no skyline; exactcopy/labels, sameBcomposition. Editedimage readyforBảo actualview; no A/Breselection. Manual independentbindings, NOTdeterministicgatePASS; gate/harness unchanged, nofullrollout/Git/live. Previous2+1FAIL/results/history and mechanism+exactF3freeze preserved. Await exacteditedimageacceptance before harnesspropagation. [Result](operations/LinkedIn_ImageGen_Closing_Layout_B_Direct_Edit_Result_2026-10-03.md).
+
+> **Chosen B current outcome03-10-2026:** Bdirection chosen by Bảo; exactfinishedlayout NOT_ACCEPTED.2base+1chosenrefine budgetconsumed. Brefine CHANGES_REQUIRED: source stillsmallerthanbody, skyline/iconcolumn narrows source andbigphoto takes readingarea; diagramlabels removed scopedPASS. Harness UNCHANGED; mechanism+exactF3 freeze/oldP3FAIL unchanged. AwaitPOdecision on nextdirection/refinement; nofurthercalls/allscenario generation. Checkpointabed669 localnopush; currentnewoutcome/docs UNCOMMITTED/UNSTAGED. [Internalresult](operations/LinkedIn_ImageGen_Closing_Layout_Selection_Result_2026-10-03.md).
+
+> **Layout plan checkpoint 03-10-2026:** containing local plan checkpoint under latest PO authorization; sau checkpoint thực hiện preview tới Bảo duyệt đúng rendered layout. Không push/live; frozen scope/prior P3FAIL giữ nguyên.
+
+> **Remaining rollout current03-10-2026:** LatestPOmandate authorized localrollout; Wave0 now STOPPED_AT_WAVE0_P3_CLOSING_CHANGES_REQUIRED / FAIL / PARTIAL.1base+1correction consumed,4reused/5selected. Exactwords/headlinePASS, correctedsource stilltoo small atmobile390/image332.6667px.49parentunitPASS; no candidatefixture19/3 replay thisrun. Ninefuturetreatments45cards prepared NOT_RUN/NOT_RELEASED; nofurthercalls. frozen_harness mechanism+exactF3 only unchanged, P3notaccepted.46+10planceilings unchanged, P3wavecap consumed. Current work recorded by containing local checkpoint under PO authorization; prior882e621; no push/merge/live. Originaldated plan/proposedauthority notes below are historical; thisnote supersedes onlycurrent executionstate. [Result](operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Result_2026-10-03.md).
+
+> **PO freeze 03-10-2026:** Bảo chốt hybrid harness và chọn Sol visual family làm chuẩn project; native leaf mặc định `gpt-6.1-sol/low`, runtime/admission/acceptance phải xác minh, không silent Luna fallback. Lifecycle giữ `testing_dogfood`. Quyết định này supersede ghi chú chưa PO duyệt hướng visual hoặc pending/uncommitted bên dưới cho current freeze này; historical operator FAIL/CHANGES_REQUIRED và findings không đổi, không blanket buyer/live/external release hoặc thêm image calls. Quyết định được ghi bởi containing local freeze checkpoint, prior baseline `7e95a44`; không push/merge. [Freeze record](operations/LinkedIn_ImageGen_Harness_Freeze_2026-10-03.md).
+
 # Documentation index
 
 CANONICAL defines current marketing truth and participates in sync review. HISTORY / LOG preserves evidence or chronology. DERIVED can be regenerated.
 
 | Path | Class | Purpose | Sync review |
 |---|---|---|---|
+| operations/LinkedIn_ImageGen_Closing_Layout_B_Direct_Edit_Result_2026-10-03.md | HISTORY / LOG | one direct B edit scopedPASS, exact edited-image POview pending | No |
+| operations/LinkedIn_ImageGen_Closing_Layout_Selection_Result_2026-10-03.md | HISTORY / LOG | chosen B refinement source hierarchy failure; budget consumed, exact layout unaccepted | No |
+| operations/LinkedIn_ImageGen_Closing_Layout_Selection_Plan_2026-10-03.md | CANONICAL | visual selection and exact layout freeze before separately mandated harness propagation | Yes |
+| operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Result_2026-10-03.md | HISTORY / LOG | Wave0 closing FAIL after1base1correction; ninefuture drafts notrun | No |
+| operations/LinkedIn_ImageGen_Scoped_Freeze_2026-10-03.md | HISTORY / LOG | exact PO scoped mechanism/F3 freeze; P3 failure retained | No |
+| operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Plan_2026-10-03.md | CANONICAL | remaining ten-treatment waves, proposed unreleased budgets and gates | Yes |
+| operations/LinkedIn_ImageGen_Closing_Forward_Rollout_Result_2026-10-03.md | HISTORY / LOG | forward F3 PASS; P3 closing FAIL; no final freeze | No |
+| operations/LinkedIn_ImageGen_Controlled_Rollout_Result_2026-10-03.md | HISTORY / LOG | stopped F3 gate; corrected body closed, mobile source FAIL; P3 not run | No |
+| operations/LinkedIn_ImageGen_Controlled_Rollout_Plan_2026-10-03.md | CANONICAL | bounded F3 then P3 rollout authority/dependency and acceptance | Yes |
+| operations/LinkedIn_ImageGen_Harness_Freeze_2026-10-03.md | HISTORY / LOG | exact PO freeze/adoption and project Sol worker decision; historical failures retained | No |
+| operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md | HISTORY / LOG | bounded full-carousel trial; mechanical pass separate from creative failure | No |
+| operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md; operations/LinkedIn_Awareness_Campaign_Creative_Review.md | CANONICAL | next campaign art direction and three-level human criteria | Yes |
+| operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/ | HISTORY / LOG | preparation contract, exact reference pins, brief and record | No |
+| C:/Users/ASUS/Documents/Codex/2026-10-03/chec/outputs/r2-campaign-guide/index.html and assets/ | DERIVED | Vietnamese R2 reference review guide | No |
 | CURRENT_STATE.md; README.md; AGENTS.md | CANONICAL | current entry point and operating rules | Yes |
 | Semiconductor_Work_Kickoff.md; Semiconductor - Website & Ads.md | CANONICAL | governing paid strategy/source brief | Yes when scope changes |
 | operations/Pre_Ad_Readiness_Plan.md; operations/OSAT_Route_Source_of_Truth.md | CANONICAL | execution phase, route truth and gates | Yes |
 | operations/Public_Source_Register.md; operations/LinkedIn_Carousel_Governance_Record.md | CANONICAL | sources, proof and creative governance | Yes |
 | ads/google/Google_Search_Build_Sheet.md; ads/linkedin/LinkedIn_Build_Pack.md | CANONICAL | channel build truth | Yes |
+| operations/LinkedIn_Awareness_ImageGen_Harness_Redesign_Plan.md; operations/LinkedIn_ImageGen_Preflight_Schema.md; operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md | CANONICAL | current harness design boundary and viewer/internal review process; design is not implementation or content approval | Yes |
+| operations/LinkedIn_ImageGen_Visual_Instructions.md | CANONICAL | current harness visual instruction and source/viewer separation | Yes |
+| operations/LinkedIn_ImageGen_Harness_Status.json; operations/LinkedIn_ImageGen_First_Candidate_Dogfood_Plan.md | CANONICAL | testing_dogfood lifecycle, actual CHANGES_REQUIRED candidates; first-candidate plan retained as bounded pre-run context | Yes |
+| operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md | HISTORY / LOG | dated two-configuration trial outcomes, primary measurements and immutable failure evidence | No |
+| operations/LinkedIn_ImageGen_Harness_Implementation_Record.md | HISTORY / LOG | dated implementation/check evidence and independent audit outcome | No |
 | tracking/Semiconductor_Tracking_Contract.md; design-system/digiwin-semiconductor-marketing/MASTER.md and pages/ | CANONICAL | tracking and landing design truth | Yes |
 | drafts/S01_Proof_and_Message.md through S04_Measurement_and_Budget.md | CANONICAL | current research/planning inputs | Yes when stated result changes |
 | drafts/S04A_Management_Budget_Scenarios.md; drafts/S04B_Executive_Budget_Recommendation.md | DERIVED | management scenarios/recommendation | No |

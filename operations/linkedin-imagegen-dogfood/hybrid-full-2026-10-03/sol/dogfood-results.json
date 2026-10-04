@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "record_kind": "V2_DOGFOOD_PENDING",
+  "stage_result": "AWAITING_PARENT_V2_BINDING",
+  "prior_19_expected_rejections": {
+    "result": "PRESERVED_FOR_SEVEN_REFERENCE_V1_ONLY",
+    "report": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/sol/revision-history/seven-reference-v1/dogfood-results.json",
+    "sha256": "a056a737d265a5831b4ba9b47fb27e890fa33d3899e92e7143ee5fcd35bb8f02"
+  },
+  "current_shared_manifest_pin": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd",
+  "current_real_checks": "NOT_RUN; new parent v2 review/release/spec required",
+  "generation_calls_by_child": 0
+}

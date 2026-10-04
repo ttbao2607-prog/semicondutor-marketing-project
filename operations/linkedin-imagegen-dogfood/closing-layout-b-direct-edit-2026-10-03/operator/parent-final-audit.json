@@ -1,0 +1,74 @@
+{
+  "AUDIT_SCOPE": "Parent SELF independent direct image edit preview: native/copy/public/render/B-preservation/protection; not harness or deterministic-schema acceptance",
+  "CONTRACT_REF": {
+    "path": "operations/linkedin-imagegen-dogfood/closing-layout-b-direct-edit-2026-10-03/operator/execution-contract.json",
+    "sha256": "4641e34996cd44fd902b5376f6b78e6267d02cf255767eba17f6bf0056090ebe"
+  },
+  "BASELINE_REF": {
+    "approved_B_native_sha256": "501f228d3a23b7ab90e302904fb7cac7ad2b9731133da702a0f8082218df2886",
+    "checkpoint": "abed669ff9da88be75aa624b4aff540eb6049b58 local-only"
+  },
+  "CANDIDATE_REF": {
+    "native_sha256": "016b69513d28bee0ab1b371e4ff5c8f4a86acb531a40125d72785622b01a7416",
+    "mobile": {
+      "path": "operations/linkedin-imagegen-dogfood/closing-layout-b-direct-edit-2026-10-03/operator/render/b-edited-mobile-5.png",
+      "sha256": "db6c08da285cf2db26e3f9d3fc2a8038daadcd48683c35a568101ff55b2b049e"
+    },
+    "desktop": {
+      "path": "operations/linkedin-imagegen-dogfood/closing-layout-b-direct-edit-2026-10-03/operator/render/b-edited-desktop-5.png",
+      "sha256": "50585aaac0ef59a192a262d2d2f31068a347e0ea708a8000aaa7bbec03c0d586"
+    }
+  },
+  "VERDICT": "PASS",
+  "COVERAGE": {
+    "AC01": "PASS — STRUCTURAL —1254square untouchedoriginalbytes native receipt",
+    "AC02": "PASS — VISUAL —exactapprovedwording/threeapprovedlabels/officiallogo; threeextra diagramwords erased, sourceonce/headlineNOperiod",
+    "AC03": "PASS — VISUAL —fullwidthsource visuallyatleastbody hierarchy, ordinarymobile390 image332.6667 readable withoutzoom",
+    "AC04": "PASS — VISUAL/BEHAVIORAL —actualBcomposition retained,noskyline; fivepositionsdesktop/mobile,fourP3transitions,broadofficeblue/semiconductorfamily",
+    "AC05": "PASS — STRUCTURAL/CONTRACT —sevenpublicfiles exactprojection/rawA1–4/logo/native,1225protectedpriorbytesunchangedexcept10allowedcanonicalpaths; currentdocs/status independentlyrechecked"
+  },
+  "FINDINGS": {
+    "FAILED_AC": null,
+    "EXPECTED": "Direct edit alreadyapprovedB two details only",
+    "OBSERVED": "No decisive violation observed; source increased, diagramwords removed, broadlayout/photo unchanged",
+    "EVIDENCE": {
+      "path": "operations/linkedin-imagegen-dogfood/closing-layout-b-direct-edit-2026-10-03/operator/render/b-edited-mobile-5.png",
+      "sha256": "db6c08da285cf2db26e3f9d3fc2a8038daadcd48683c35a568101ff55b2b049e"
+    },
+    "EVIDENCE_GAP": "No exactimagePOacceptance yet; no numericalrasterfontclaim. Existing deterministic-schema direct-edit support not claimed",
+    "RESTORE_CONDITION": null,
+    "REQUIRED_RECHECK": "PO review actual finishededitedimage before harness propagation"
+  },
+  "manual_dispatch_bindings": "execution-contract/source-review/tool-args all independentlypinned by root priorcall, ONEexplicitadditionaldirectedit mandate",
+  "deterministic_gate": "NOT_APPLICABLE directedit exactcomposition role unsupported by unchangedgate; do notlabelmechanicalPASS",
+  "public_files": {
+    "index.html": "ba040b4d9198b00db368aad9002615f42fb4c466a69a863dfad0844ab0f99ef8",
+    "assets/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "assets/p3-a1.png": "4beaf34b2ddff6b63fffa1f24d5fc947fcad5e54990f7e2a3532169fd87e7f72",
+    "assets/p3-a2.png": "308abf1daefb058fe6ad14752626711e5371d65b4f5bc5988c7b24d2728417f8",
+    "assets/p3-a3.png": "6460d333656d83c8a177ba078d73325890bd63b2eff5e805ab1a15f2bad014a0",
+    "assets/p3-a4.png": "c12bb7176508a0cc47776a1446f4986eb167a2a0b6b4c3d27c005f4a129627e9",
+    "assets/p3-a5.png": "016b69513d28bee0ab1b371e4ff5c8f4a86acb531a40125d72785622b01a7416"
+  },
+  "protected_files": 1225,
+  "allowed_changed": [
+    "README.md",
+    "operations/Pre_Ad_Readiness_Plan.md",
+    "operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md",
+    "operations/LinkedIn_Awareness_Execution_Plan.md",
+    "CURRENT_STATE.md",
+    "ads/linkedin/LinkedIn_Build_Pack.md",
+    "operations/LinkedIn_ImageGen_Harness_Status.json",
+    "operations/LinkedIn_ImageGen_Closing_Layout_Selection_Plan_2026-10-03.md",
+    "operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Plan_2026-10-03.md",
+    "DOCS_INDEX.md"
+  ],
+  "image_edits_this_scope": 1,
+  "historical_previews": "2base+1refineFAIL unchanged; newdirectedit separateexplicitmandate",
+  "PO_layout": "B ALREADY_APPROVED no A/B reselection",
+  "PO_finished_image": "AWAITING_REVIEW, no currentfreezeacceptance",
+  "harness": "UNCHANGED",
+  "git": "No commit/push/merge/live this scope",
+  "topology": "One reusednativeSol/low leaf, rootoperator/auditor, no recursion",
+  "docs_sync": "FINAL_PARENT_RECHECK_PASS; historicalscope/status outsideclosingobjectsunchanged"
+}

@@ -1,5 +1,9 @@
 # First-touch review anchor
 
+## Current PO exception, 2026-10-02
+
+Bảo's latest instruction keeps brief, source-checked first-mention clarity for OSAT, Fabless and WIP where applicable. ERP and MES do not require a first-mention parenthetical; preserve their distinct meanings. This current exception supersedes the ERP/MES clause in the dated instruction below and does not change historical copy or its review state.
+
 ## Bảo format and visual-direction decision, 2026-10-02
 
 Awareness remains **carousel images with introductory copy, Brand awareness objective**. Bảo rejects static SVG artwork direction; do not propose single-static/SVG or SVG-to-PNG as the current visual execution. Use original raster image artwork for the current carousel pilot, with source-bound storytelling and exact revision review. Format adoption is not acceptance of every current image/copy or live mandate. Historical vector assets/receipts retain their dates; no destructive removal is required to stop using them.

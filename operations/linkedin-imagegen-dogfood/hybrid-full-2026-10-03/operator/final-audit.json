@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "AUDIT_SCOPE": "bounded hybrid dogfood: F2-A and P2-A complete five-card carousels per model; parent SELF audit, exactly two configured leaves",
+  "CONTRACT_REF": "operator/{sol,luna}-v2/release.json + immutable independent review/pins",
+  "BASELINE_REF": "7e95a44dc5a3e5c25c07cda7c0f905822b8ba864 and 546 pre-run files",
+  "CANDIDATE_REF": {
+    "common_manifest_sha256": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd",
+    "native": "final-mechanical-audit.json 20 original identities",
+    "html_sol": "6406f608e955364b84474e58629d13b3a89327d1098a94de8d09a015f07e2bca",
+    "html_luna": "3ddc850c2b0eb0c55082a784c321bad304eb4e00cc132dd819620a5dc6be748b"
+  },
+  "VERDICT": "FAIL",
+  "COVERAGE": [
+    "AC-identity: PASS — BEHAVIORAL/RUNTIME — canonical paired acceptance receipts, sol/low and luna/max",
+    "AC-inputs: PASS — STRUCTURAL/CONTRACT — shared-input-audit-v2.json and candidate-pin files",
+    "AC-gates: PASS — BEHAVIORAL/RUNTIME — 49 focused tests, parent fresh 19 negative rejections + 3 positive fixtures each",
+    "AC-native: PASS — STRUCTURAL/CONTRACT — decoded twenty native 1254-square PNG original bytes unchanged; zero correction",
+    "AC-public: PASS — STRUCTURAL/CONTRACT — exact public projection/export allowlist, hidden HTML audit and readable PNG metadata only; provider opaque crypto unverified",
+    "AC-style: FAIL — VISUAL — original twenty image observations and rendered five positions/each scenario; R2 grammar largely restored, Luna P2-A1 teal outlier",
+    "AC-story: FAIL — VISUAL — sixteen transitions and two cross-scenario reviews; completion symbols ambiguous",
+    "AC-copy-native: FAIL — VISUAL — seven definite blocked cards plus Sol F2-A3 microglyph quarantine; no retrospective approval",
+    "AC-closing-mobile: FAIL — VISUAL — all four Taiwan-source panels too small for comfortable no-zoom reading at 390px",
+    "AC-preserve: PASS — STRUCTURAL/CONTRACT — 544 protected preexisting files identical before canonical doc sync"
+  ],
+  "FINDINGS": {
+    "FAILED_AC": [
+      "AC-style",
+      "AC-story",
+      "AC-copy-native",
+      "AC-closing-mobile"
+    ],
+    "EXPECTED": "Exact approved native wording/labels, faithful unresolved-vs-confirmed story and comfortably readable Taiwan attribution with stable R2 visual family",
+    "OBSERVED": "Sol has 3 definite native text violations + 1 uncertain report microglyph quarantine; Luna has 4 definite text violations. Both completion-symbol ambiguities and all four closing attribution mobile readability need changes.",
+    "EVIDENCE": "native-observations.json + original PNG hashes in final-mechanical-audit.json + operator/screenshots/ closing mobile/desktop, CUA root trace full 5-position navigation",
+    "EVIDENCE_GAP": "No exact values alleged for tiny report glyphs; source readability is operator visual finding, no buyer/PO acceptance. Raster logo judged by direct comparison, no pixel-perfect wordmark certification. Provider opaque cryptographic metadata not authenticated.",
+    "RESTORE_CONDITION": "Freeze an explicitly approved diagram-label whitelist before future release; depict pending confirmation without completed-result symbols; arrange existing approved source text legibly at mobile size. Fresh complete-carousel review needed.",
+    "REQUIRED_RECHECK": "Native exact text/labels, actual story states, all eight transitions/model, cross-scenario consistency and all four mobile closings after a separately authorized correction run."
+  },
+  "parent_disposition": "CHANGES_REQUIRED_BOTH_MODELS",
+  "execution_status": "PARTIAL",
+  "benchmark_measurement_status": "COMPLETE",
+  "lifecycle": "testing_dogfood",
+  "counts": {
+    "native": 20,
+    "carousels": 4,
+    "base_image_calls": 20,
+    "corrections": 0,
+    "pre_inference_reference_limit_rejection": 1
+  },
+  "transition_review": {
+    "sol": {
+      "F2": [
+        "1→2: forecast to product/period/lot scope; body completes undated visual",
+        "2→3: scope to time/source; numerical-looking report glyphs quarantined",
+        "3→4: missing data and partner confirmation; unauthorized labels block",
+        "4→5: scope/source/owner synthesis; unauthorized labels, tick ambiguity and mobile footer"
+      ],
+      "P2": [
+        "1→2: boundary to ownership/copy; opener bridge looks settled, Chỉnh",
+        "2→3: ownership to reconciliation; distinct records retained, scoped positive",
+        "3→4: reconciliation to sender/receiver/time/confirmation; tick ambiguity",
+        "4→5: responsibility synthesis and Taiwan source; punctuation mismatch and tiny footer"
+      ]
+    },
+    "luna": {
+      "F2": [
+        "1→2: branch to scope ring, visual period weak",
+        "2→3: time/source; unapproved Nguồn báo cáo label",
+        "3→4: missing information/open gap; completion tick confuses pending state",
+        "4→5: synthesis/source; unapproved labels and tiny mobile footer"
+      ],
+      "P2": [
+        "1→2: two systems to ownership/copy; unapproved ERP/MES labels on opener",
+        "2→3: copied record to comparison lens; differences remain rather than auto-correct",
+        "3→4: reconciliation to handoff roles/time; person tick completion ambiguity",
+        "4→5: ownership/reconcile/confirm synthesis; unapproved labels/punctuation, tiny footer"
+      ]
+    }
+  },
+  "cross_scenario": {
+    "sol": "Stable office/daylight/material header identity; planning-record vs architecture-record stories differ meaningfully. Variations are not all flat keyword/prop repetition. Closing and pending-state semantics block whole-set acceptance.",
+    "luna": "Stable office/material/header generally; lens/ribbon motifs recurring but story roles differ, advisory only. Teal ERP/MES block on P2 opener is palette/style outlier; completion-state/labels block acceptance."
+  },
+  "per_card_status_boundary": "Four Sol and three Luna provisionally positive cards; neither full carousel accepted. Definite Dừng counts exclude uncertain Sol microglyphs, already Dừng closing cards also carry mobile Chỉnh.",
+  "git_boundary": "local uncommitted changes, no stage/push/merge; actual remote not checked"
+}

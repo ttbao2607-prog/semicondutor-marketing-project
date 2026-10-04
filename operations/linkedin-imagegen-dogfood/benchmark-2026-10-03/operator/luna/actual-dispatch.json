@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "record_kind": "ACTUAL_OPERATOR_IMAGEGEN_CALL",
+  "operator": "/root",
+  "model_key": "luna",
+  "tool": "image_gen.imagegen",
+  "image_generator_model": "NOT_EXPOSED",
+  "start_utc": "2026-10-03 01:37:51 UTC",
+  "end_utc": "2026-10-03 01:38:19 UTC",
+  "arguments": {
+    "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics or identifiers\",\"capability or outcome claims\",\"reference wording or composition\",\"printed caption, native headline, alt or internal notes\",\"any extra text beyond approved artwork and the official brand mark\"],\"brand\":\"Digiwin; reproduce the official reference mark once, without invented glyphs\",\"lighting\":\"bright daylight, clean neutral background\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\"],\"path\":\"operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/palette-lighting-reference.png\",\"revision\":\"1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f\",\"role\":\"palette\",\"sha256\":\"c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/digiwin-logo.webp\",\"revision\":\"1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"Sản phẩm\",\"Kỳ kế hoạch\",\"Lô liên quan\"],\"card_id\":\"A2\",\"concept_id\":\"f2-a2-three-way-scope-map-v1\",\"description\":\"Create a finished square 1024x1024 source-safe editorial infographic. Set the supplied approved headline in a clear top band and the supplied approved body immediately below. In the lower area, show a balanced three-way scope map: a simple product outline, a planning-interval bracket with no dates, and a small cluster of identical blank lot tiles. Give each group only its corresponding approved artwork label and join the three groups with thin, non-directional lines around one empty comparison frame. Add one small blue offset cue at the frame edge to suggest that the forecast changed, without numbers or text. Use generous white space, crisp navy and charcoal typography, and the brief’s white/blue palette with a bright neutral treatment. Place the authentic Digiwin brand mark once, undistorted. Print only the approved artwork fields and labels; do not print the caption, native headline, alt text, or internal notes. Do not show invented product or lot identifiers, dates, metrics, statuses, customer/facility evidence, or outcomes; do not imply automated matching, live ERP data, verified traceability, or guaranteed results. Reference images supply only their declared palette, lighting, shadows, and official brand mark; do not copy their wording, record data, props, or composition.\",\"props\":[\"three equal-weight outline groups\",\"a date-free planning-interval bracket\",\"a cluster of blank lot tiles\",\"thin non-directional connectors\",\"one small blue forecast-shift cue without text\"],\"reader_question\":\"When the forecast changes, which product, planning period and related lots should the planning team compare before discussing it with the partner?\"}]\nAPPROVED ARTWORK TEXT\n{\"A2\":{\"artwork_labels\":[\"Sản phẩm\",\"Kỳ kế hoạch\",\"Lô liên quan\"],\"body\":\"Khi dự báo thay đổi, nhóm đối chiếu sản phẩm, kỳ kế hoạch và các lô liên quan trước khi trao đổi với đối tác.\",\"cta\":\"\",\"headline\":\"Bắt đầu từ sản phẩm và kỳ kế hoạch\",\"source_text\":\"\"}}",
+    "referenced_image_paths": [
+      "D:\\linkedin-awareness-harness-redesign\\operations\\linkedin-imagegen-dogfood\\benchmark-2026-10-03\\common\\palette-lighting-reference.png",
+      "D:\\linkedin-awareness-harness-redesign\\operations\\linkedin-imagegen-dogfood\\benchmark-2026-10-03\\common\\digiwin-logo.webp"
+    ],
+    "transparent_background": false
+  },
+  "prompt_sha256": "e61731d4c58c4e98dda788d36de818401c00aa2bf1ffda441c223a8b9df769ba",
+  "trusted_release_sha256": "edfe7b7bb5dae896d81678d366deda5753a89536d50842e60158296d921ac60a",
+  "actual_dispatch_observed": true,
+  "native_source_path": "C:/Users/ASUS/.codex/generated_images/01a0ff10-9048-7ae0-abd6-eb6e6d40bce0/exec-f24101c8-d2d8-410e-b36a-68bae74b1746.png",
+  "workspace_path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/output/f2-a2.png",
+  "sha256": "4594d10a6a67050d9b779ad52776aebdfccc2578632039bdd3ee7da5ff48a100",
+  "bytes": 1356588,
+  "expected_dimensions": [
+    1024,
+    1024
+  ],
+  "actual_dimensions": [
+    1254,
+    1254
+  ],
+  "dimension_verdict": "FAIL",
+  "native_bytes_equal": true,
+  "base_calls": 1,
+  "correction_calls": 0,
+  "tool_result": "IMAGE_CREATED",
+  "candidate_result": "CHANGES_REQUIRED",
+  "sizing_failure_attribution": "Observed operator/tool contract mismatch; not attributed to child configuration"
+}

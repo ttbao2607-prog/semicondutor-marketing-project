@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "revision": "hybrid-full-MODEL-contract-v2-tool-capacity",
+  "locale": "vi-VN",
+  "channel": "linkedin-carousel",
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/copy.json",
+    "sha256": "b09739370eab4dbc67c9c4d2fe133b93557a916dfe0097d865a64ee257f40b71",
+    "revision": "hybrid-full-shared-copy-v1-parent-review-pending"
+  },
+  "sources": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/copy-vi.json",
+      "sha256": "dce82218734651c93aa662840ae74616e9483404e24905552279cad41f5aee52",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/storyboard-and-claims.md",
+      "sha256": "780a9bdf1cc48d888d748c3eea4deb6741ecadf783eeb71d7051931c7379c1d5",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/editorial-qa-receipt.md",
+      "sha256": "c3e3eabac52aedf9a30c930a2e70a5819af95cdced2e304d526f59828a11f0fd",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/source-pins.json",
+      "sha256": "a0c4291456fce1a1b31ddbaeff5bb26971f6c9109b69881372904b2f1a66337d",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/copy-vi.json",
+      "sha256": "8c9397a062418395b944eca91baa879ebaaa701b00acb6b373648e96232460ed",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/storyboard-and-claims.md",
+      "sha256": "98710302463207eaa275cdc95ff93f581aacf620fa78bd0763ec0fb3e9c48fc5",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/editorial-qa-receipt.md",
+      "sha256": "26a46d71e99f09281b3394581fce759be01436830ca09bd77dd7132fc439af3b",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/source-pins.json",
+      "sha256": "2fc0f17b55702050d9ccd2d2fbb750ec9d53181805998383dbea4765cc84d0fb",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/evidence-register.md",
+      "sha256": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/source-brief.md",
+      "sha256": "6abeda531f6b2316e89073b99202de0a195caa11895243c9a8d99552bed2c90e",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/scenario-library.md",
+      "sha256": "5e7939dfee23481e14af7db5aa6faa916528853b4bc886f4e55ee26793f82358",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+    }
+  ],
+  "card_sources": {
+    "F2-A1": [
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/copy-vi.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/storyboard-and-claims.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/editorial-qa-receipt.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/source-pins.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/source-brief.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/scenario-library.md"
+    ],
+    "F2-A2": [
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/copy-vi.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/storyboard-and-claims.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/editorial-qa-receipt.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/source-pins.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/source-brief.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/scenario-library.md"
+    ],
+    "F2-A3": [
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/copy-vi.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/storyboard-and-claims.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/editorial-qa-receipt.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/source-pins.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/source-brief.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/scenario-library.md"
+    ],
+    "F2-A4": [
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/copy-vi.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/storyboard-and-claims.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/editorial-qa-receipt.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/source-pins.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/source-brief.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/scenario-library.md"
+    ],
+    "F2-A5": [
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/copy-vi.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/storyboard-and-claims.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/editorial-qa-receipt.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/source-pins.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/source-brief.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/scenario-library.md"
+    ],
+    "P2-A1": [
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/copy-vi.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/storyboard-and-claims.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/editorial-qa-receipt.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/source-pins.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/source-brief.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/scenario-library.md"
+    ],
+    "P2-A2": [
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/copy-vi.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/storyboard-and-claims.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/editorial-qa-receipt.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/source-pins.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/source-brief.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/scenario-library.md"
+    ],
+    "P2-A3": [
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/copy-vi.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/storyboard-and-claims.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/editorial-qa-receipt.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/source-pins.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/source-brief.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/scenario-library.md"
+    ],
+    "P2-A4": [
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/copy-vi.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/storyboard-and-claims.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/editorial-qa-receipt.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/source-pins.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/source-brief.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/scenario-library.md"
+    ],
+    "P2-A5": [
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/copy-vi.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/storyboard-and-claims.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/editorial-qa-receipt.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/source-pins.json",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/source-brief.md",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/scenario-library.md"
+    ]
+  },
+  "ad_order": [
+    "F2-A",
+    "P2-A"
+  ],
+  "card_order": {
+    "F2-A": [
+      "F2-A1",
+      "F2-A2",
+      "F2-A3",
+      "F2-A4",
+      "F2-A5"
+    ],
+    "P2-A": [
+      "P2-A1",
+      "P2-A2",
+      "P2-A3",
+      "P2-A4",
+      "P2-A5"
+    ]
+  },
+  "surfaces": {
+    "F2-A": [
+      {
+        "surface_id": "full-carousel-feed",
+        "reading_order": [
+          "caption",
+          "F2-A1.headline",
+          "F2-A1.body",
+          "F2-A1.source_text",
+          "F2-A1.cta",
+          "F2-A1.native_headline",
+          "F2-A1.alt",
+          "F2-A1.artwork_labels",
+          "F2-A2.headline",
+          "F2-A2.body",
+          "F2-A2.source_text",
+          "F2-A2.cta",
+          "F2-A2.native_headline",
+          "F2-A2.alt",
+          "F2-A2.artwork_labels",
+          "F2-A3.headline",
+          "F2-A3.body",
+          "F2-A3.source_text",
+          "F2-A3.cta",
+          "F2-A3.native_headline",
+          "F2-A3.alt",
+          "F2-A3.artwork_labels",
+          "F2-A4.headline",
+          "F2-A4.body",
+          "F2-A4.source_text",
+          "F2-A4.cta",
+          "F2-A4.native_headline",
+          "F2-A4.alt",
+          "F2-A4.artwork_labels",
+          "F2-A5.headline",
+          "F2-A5.body",
+          "F2-A5.source_text",
+          "F2-A5.cta",
+          "F2-A5.native_headline",
+          "F2-A5.alt",
+          "F2-A5.artwork_labels"
+        ]
+      }
+    ],
+    "P2-A": [
+      {
+        "surface_id": "full-carousel-feed",
+        "reading_order": [
+          "caption",
+          "P2-A1.headline",
+          "P2-A1.body",
+          "P2-A1.source_text",
+          "P2-A1.cta",
+          "P2-A1.native_headline",
+          "P2-A1.alt",
+          "P2-A1.artwork_labels",
+          "P2-A2.headline",
+          "P2-A2.body",
+          "P2-A2.source_text",
+          "P2-A2.cta",
+          "P2-A2.native_headline",
+          "P2-A2.alt",
+          "P2-A2.artwork_labels",
+          "P2-A3.headline",
+          "P2-A3.body",
+          "P2-A3.source_text",
+          "P2-A3.cta",
+          "P2-A3.native_headline",
+          "P2-A3.alt",
+          "P2-A3.artwork_labels",
+          "P2-A4.headline",
+          "P2-A4.body",
+          "P2-A4.source_text",
+          "P2-A4.cta",
+          "P2-A4.native_headline",
+          "P2-A4.alt",
+          "P2-A4.artwork_labels",
+          "P2-A5.headline",
+          "P2-A5.body",
+          "P2-A5.source_text",
+          "P2-A5.cta",
+          "P2-A5.native_headline",
+          "P2-A5.alt",
+          "P2-A5.artwork_labels"
+        ]
+      }
+    ]
+  },
+  "definitions": {
+    "OSAT": "dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài",
+    "Fabless": "thiết kế chip, không sở hữu nhà máy chế tạo",
+    "WIP": "bán thành phẩm"
+  },
+  "limits": {
+    "caption": 255,
+    "headline": 45,
+    "body": 180,
+    "source_text": 200,
+    "cta": 70,
+    "native_headline": 45,
+    "alt": 200,
+    "artwork_labels": 70
+  },
+  "groups": [
+    [
+      "F2-A1"
+    ],
+    [
+      "F2-A2"
+    ],
+    [
+      "F2-A3"
+    ],
+    [
+      "F2-A4"
+    ],
+    [
+      "F2-A5"
+    ],
+    [
+      "P2-A1"
+    ],
+    [
+      "P2-A2"
+    ],
+    [
+      "P2-A3"
+    ],
+    [
+      "P2-A4"
+    ],
+    [
+      "P2-A5"
+    ]
+  ],
+  "reuse_fields": [
+    "headline",
+    "body",
+    "source_text",
+    "cta",
+    "native_headline",
+    "alt",
+    "artwork_labels"
+  ],
+  "references": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+      "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+      "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png",
+      "sha256": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png",
+      "sha256": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "role": "brand_asset",
+      "attributes": [
+        "brand_mark"
+      ]
+    }
+  ],
+  "style": {
+    "brand": "Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs",
+    "palette": [
+      "white",
+      "#0052FF",
+      "#0B132B",
+      "#00B4D8",
+      "charcoal"
+    ],
+    "lighting": "bright neutral daylight with soft grounded shadows",
+    "avoid": [
+      "neon",
+      "dark mode",
+      "human faces",
+      "fabricated metrics identifiers dates statuses or results",
+      "customer marks or facility evidence",
+      "unreviewed capability or outcome claims",
+      "reference wording record values props or exact composition",
+      "printed caption native headline alt or internal notes",
+      "extra wording beyond approved artwork text and official brand mark"
+    ],
+    "campaign": {
+      "revision": "campaign-r2-hybrid-full-v1-parent-review-pending",
+      "instructions": "Use the six R2 references as a coherent campaign visual grammar: bright white, soft blue and navy; neutral daylight; soft grounded shadows; photographic material depth and a credible shared material world. Strong blue/navy headline, readable secondary text and stable official logo/category/sequence treatment. Integrate relationship diagrams into the same physical scene, with matching light, material and depth; a flat standalone white infographic alone does not establish the chosen R2 family. Vary view angle, scene scale, negative space and scene/diagram balance according to each card reader question or action. Fabless Planning scenes should express product, plan and outsourced-lot relationships; Partner Architecture scenes should express ownership, handoff, reconciliation and responsibility. Semiconductor cues must suit the cohort; never require OSAT chip trays for Fabless or Partner. Maintain identity and hierarchy across both complete five-card carousels while each card adds a distinct meaning. Support opening orientation, comparison, context, responsibility/next step and closing as a flexible narrative, not a mandatory universal workflow. Keep closing/source content clearly separated and readable at ordinary desktop and 390px mobile viewing scale without zoom. Preserve reviewed Taiwan attribution and source scope; do not imply a facility or deployment. Transfer only reviewed colors, lighting, shadows, material depth, typography hierarchy, campaign identity and scene-integrated diagram language. Never copy reference words, record values, exact composition or a fixed prop list; no 12/38/50 layout requirement, mandatory paper/pen/tray, five-folder count or Taipei skyline. Print only exact approved artwork fields/labels and the official mark; caption/native headline/alt stay outside raster. Diagrams may use only reviewed labels, with no invented identifiers dates metrics statuses guarantees or outcomes. Do not add internal proof/review caveats or technical instructions as viewer wording. Actual images must be judged per card, full five-card narrative and across scenarios; unique prompts, IDs, hashes or prop counts cannot prove visual quality."
+    }
+  },
+  "output": {
+    "directory": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/MODEL/native",
+    "extension": ".png",
+    "policy": "native_square_min",
+    "min_edge": 1080
+  }
+}

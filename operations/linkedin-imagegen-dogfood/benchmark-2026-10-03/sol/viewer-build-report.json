@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "start_utc": "2026-10-03T01:25:49.800224+00:00",
+  "end_utc": "2026-10-03T01:25:49.809225+00:00",
+  "html_path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/index.html",
+  "html_sha256": "157ea2f1fa8da6a1a28b09ad1a3fbdc02f4f83e48f6c13ea7f985069000dd03a",
+  "intended_field_projection": {
+    "document_title": "A/A2.headline",
+    "visible_text": [
+      "A/caption",
+      "A/A2.native_headline"
+    ],
+    "image_src": "output/f2-a2.png",
+    "image_alt": "A/A2.alt"
+  },
+  "structural_checks": {
+    "visible_text_exact": true,
+    "image_src_alt_exact": true,
+    "title_exact": true,
+    "no_scripts_links_embedded_payloads": true,
+    "ordinary_metadata_only": true,
+    "protected_inputs_native_bytes_unchanged": true
+  },
+  "native_sha256": "ad1877eed58f1bf351d4dfa9386aca154e393bfe2f3a66ed9697ff777f2755da",
+  "operator_observed_dimension_mismatch": {
+    "requested": [
+      1024,
+      1024
+    ],
+    "actual": [
+      1254,
+      1254
+    ],
+    "candidate_status": "CHANGES_REQUIRED"
+  },
+  "rendered_verdict": "NOT_ASSESSED",
+  "browser_actions": 0
+}

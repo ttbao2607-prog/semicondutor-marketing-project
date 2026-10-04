@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "stage_result": "PREPARED_FOR_PARENT_REVIEW",
+  "candidate": {
+    "ad_id": "A",
+    "card_id": "A2",
+    "call_id": "F2_A2",
+    "call_count": 1,
+    "output_id": "f2-a2",
+    "output_path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/output/f2-a2.png"
+  },
+  "role_and_locality": {
+    "role": "first-generation leaf Executor",
+    "host": "local",
+    "repository": "D:/linkedin-awareness-harness-redesign",
+    "branch": "slice/linkedin-harness-redesign-plan",
+    "head": "7e95a44dc5a3e5c25c07cda7c0f905822b8ba864"
+  },
+  "configuration": {
+    "requested": {
+      "model": "gpt-6-luna",
+      "reasoning_effort": "max"
+    },
+    "runtime_admission": {
+      "model": "gpt-6-luna",
+      "reasoning_effort": "max",
+      "admitted_by": "parent via skill gate",
+      "native_child_thread_id": "01a0ff4f-c4db-7f11-b86a-87ade2499be6"
+    }
+  },
+  "start_utc": "2026-10-03T01:24:29Z",
+  "end_utc": "2026-10-03T01:27:00Z",
+  "changed_files": [
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/contract.json",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/call-draft.json",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/viewer.json",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/concept.md",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/child-report.json"
+  ],
+  "protected_common_hashes": {
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/brief.json": "54fe7e4dba66de5491832ebb9eabc60bcd713422693e72b4ac0b9c8ff08f84a8",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/copy.json": "2e551ab0de465046e198ad0822417a72c585f3b35796c46dccca1876f859d2ea",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-copy.json": "dce82218734651c93aa662840ae74616e9483404e24905552279cad41f5aee52",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-storyboard.md": "780a9bdf1cc48d888d748c3eea4deb6741ecadf783eeb71d7051931c7379c1d5",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/palette-lighting-reference.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f"
+  },
+  "protected_code_hashes": {
+    "scripts/verify_imagegen_preflight.py": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+    "tests/test_imagegen_preflight.py": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15"
+  },
+  "additional_protected_input_hashes": {
+    "operations/LinkedIn_ImageGen_Preflight_Schema.md": "54267585d9c0da6584dd6201285a3fbf4590e336f4e135a93a1970f43fb5401b",
+    "operations/LinkedIn_ImageGen_Visual_Instructions.md": "a7d82fda7c0775aa307ce46e8ef7c87a4ea29befdd50dce80a3fead32ecc6230",
+    "operations/LinkedIn_ImageGen_Harness_Status.json": "ecc19d9e23e6a6c314f7e4486df90a3271301ba7f24ada2b3b0cc561573e18a9",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/allocation-and-contract.md": "9296ccf42dcc254690974c80bb05fcdb9f26a5433228f751245855ee80233586",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/authority.md": "bed39c6c323dc78cea94d7e5ba97ae36e004a2ad41e3ef39c618fe2e1954f448"
+  },
+  "frozen_editorial_gate_sha256_pinned_in_schema": "a045be594186b09c1e60fa41b276ac4ccdd4a9a20873d89f2ae738d4088c61e0",
+  "checks": {
+    "brief_copy_source_and_reference_pins_match_disk": true,
+    "contract_schema_field_set_prepared": true,
+    "prompt_assembled_by_gate_make_prompt": true,
+    "prompt_sha256_verified": true,
+    "viewer_json_is_byte_copy_of_common_copy": true,
+    "preflight_run": false,
+    "tests_run": false,
+    "imagegen_called": false,
+    "review_release_or_attestation_authored": false,
+    "git_mutation": false,
+    "common_or_canonical_docs_written": false,
+    "other_child_output_inspected": false
+  },
+  "docs_impact": "Docs impact reviewed: no canonical update required; this preparation records no source/copy acceptance or status transition.",
+  "operator_boundary": "Parent retains source-copy/contract review, trusted release, fresh preflight and dispatch check, generation, output review, and benchmark timing/usage evidence."
+}

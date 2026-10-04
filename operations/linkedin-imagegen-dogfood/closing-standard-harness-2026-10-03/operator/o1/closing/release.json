@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "revision": "o1-closing-release-v1",
+  "authorizer": "/root under Bao directdogfoodmandate",
+  "authority_ref": {
+    "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/operator/dogfood-authority.md",
+    "sha256": "068c5099afdaeb224f1c93ca76a9ff5fccead961474ad3cbea24b1192653ea94",
+    "revision": "POclosingdogfood2026-10-03"
+  },
+  "purpose": "OFFLINE_IMAGEGEN",
+  "contract": {
+    "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/sol/o1/closing/contract.json",
+    "sha256": "03168c4a326e196ecad5ac73f488d28e0c712da01ffce4c0aedf8ecddc9abf3b",
+    "revision": "closing-standard-o1-closing-contract-v1-parent-review-pending"
+  },
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/common/o1-copy.json",
+    "sha256": "a10f0cdd6f73d3607ac04c23897c644446c242d5232622346407d28794cc1925",
+    "revision": "all-scenarios-wave4-o1-copy-v1-parent-preparation-approved"
+  },
+  "review": {
+    "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/operator/o1/closing/review.json",
+    "sha256": "528f5333b0a90120b9689cc45c8f63f3867ab9d1c8bc966c191b9e8e3ba8f3bd",
+    "revision": "o1-closing-parent-review-v1"
+  },
+  "groups": [
+    [
+      "O1-A5"
+    ]
+  ]
+}

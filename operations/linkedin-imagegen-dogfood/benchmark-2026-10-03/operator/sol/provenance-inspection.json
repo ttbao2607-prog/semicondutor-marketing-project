@@ -1,0 +1,219 @@
+{
+  "image_path": "operations\\linkedin-imagegen-dogfood\\benchmark-2026-10-03\\sol\\output\\f2-a2.png",
+  "read_only": true,
+  "provenance_boxes": [
+    {
+      "box": "jumb",
+      "payload_bytes": 23646,
+      "children": [
+        {
+          "box": "jumd",
+          "payload_bytes": 22,
+          "description": "\u0003c2pa "
+        },
+        {
+          "box": "jumb",
+          "payload_bytes": 23608,
+          "children": [
+            {
+              "box": "jumd",
+              "payload_bytes": 63,
+              "description": "\u0003urn:c2pa:f0d0248b-d48b-422a-9399-9fb758b27732 "
+            },
+            {
+              "box": "jumb",
+              "payload_bytes": 3188,
+              "children": [
+                {
+                  "box": "jumd",
+                  "payload_bytes": 33,
+                  "description": "\u0003c2pa.assertions "
+                },
+                {
+                  "box": "jumb",
+                  "payload_bytes": 2505,
+                  "children": [
+                    {
+                      "box": "jumd",
+                      "payload_bytes": 51,
+                      "description": "\u0013c2pa.icon    \u0018c2sh���U�_r����\u001c\u0004`c�"
+                    },
+                    {
+                      "box": "bfdb",
+                      "payload_bytes": 15,
+                      "opaque_binary_not_exported": true
+                    },
+                    {
+                      "box": "bidb",
+                      "payload_bytes": 2415,
+                      "opaque_binary_not_exported": true
+                    }
+                  ]
+                },
+                {
+                  "box": "jumb",
+                  "payload_bytes": 431,
+                  "children": [
+                    {
+                      "box": "jumd",
+                      "payload_bytes": 57,
+                      "description": "\u0013c2pa.actions.v2    \u0018c2sh*u��u\b���1~(^��\""
+                    },
+                    {
+                      "box": "cbor",
+                      "payload_bytes": 358,
+                      "decoded": {
+                        "actions": [
+                          {
+                            "action": "c2pa.created",
+                            "when": {
+                              "cbor_tag": 0,
+                              "value": "2026-10-03T01:23:18.758605488Z"
+                            },
+                            "softwareAgent": {
+                              "name": "ChatGPT",
+                              "version": "gpt-image"
+                            },
+                            "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"
+                          },
+                          {
+                            "action": "c2pa.converted",
+                            "when": {
+                              "cbor_tag": 0,
+                              "value": "2026-10-03T01:23:18.758607407Z"
+                            }
+                          },
+                          {
+                            "action": "c2pa.watermarked.unbound",
+                            "when": {
+                              "cbor_tag": 0,
+                              "value": "2026-10-03T01:23:18.757875845Z"
+                            }
+                          }
+                        ],
+                        "allActionsIncluded": false
+                      },
+                      "decoded_all_bytes": true
+                    }
+                  ]
+                },
+                {
+                  "box": "jumb",
+                  "payload_bytes": 187,
+                  "children": [
+                    {
+                      "box": "jumd",
+                      "payload_bytes": 56,
+                      "description": "\u0013c2pa.hash.data    \u0018c2shG�\u001c�3��\f������?'"
+                    },
+                    {
+                      "box": "cbor",
+                      "payload_bytes": 115,
+                      "decoded": {
+                        "exclusions": [
+                          {
+                            "start": 33,
+                            "length": 23666
+                          }
+                        ],
+                        "name": "jumbf manifest",
+                        "alg": "sha256",
+                        "hash": "<binary 32 bytes>",
+                        "pad": "<binary 8 bytes>"
+                      },
+                      "decoded_all_bytes": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "box": "jumb",
+              "payload_bytes": 690,
+              "children": [
+                {
+                  "box": "jumd",
+                  "payload_bytes": 31,
+                  "description": "\u0003c2pa.claim.v2 "
+                },
+                {
+                  "box": "cbor",
+                  "payload_bytes": 643,
+                  "decoded": {
+                    "instanceID": "xmp:iid:2e7d18d7-8599-419d-ad28-378b997b19c1",
+                    "claim_generator_info": {
+                      "name": "OpenAI Media Service API",
+                      "icon": {
+                        "url": "self#jumbf=c2pa.assertions/c2pa.icon",
+                        "hash": "<binary 32 bytes>"
+                      },
+                      "org.contentauth.c2pa_rs": "0.79.2",
+                      "specVersion": "2.2.0"
+                    },
+                    "signature": "self#jumbf=/c2pa/urn:c2pa:f0d0248b-d48b-422a-9399-9fb758b27732/c2pa.signature",
+                    "created_assertions": [
+                      {
+                        "url": "self#jumbf=c2pa.assertions/c2pa.icon",
+                        "hash": "<binary 32 bytes>"
+                      },
+                      {
+                        "url": "self#jumbf=c2pa.assertions/c2pa.actions.v2",
+                        "hash": "<binary 32 bytes>"
+                      },
+                      {
+                        "url": "self#jumbf=c2pa.assertions/c2pa.hash.data",
+                        "hash": "<binary 32 bytes>"
+                      }
+                    ],
+                    "dc:title": "image.png",
+                    "alg": "sha256"
+                  },
+                  "decoded_all_bytes": true
+                }
+              ]
+            },
+            {
+              "box": "jumb",
+              "payload_bytes": 19635,
+              "children": [
+                {
+                  "box": "jumd",
+                  "payload_bytes": 32,
+                  "description": "\u0003c2pa.signature "
+                },
+                {
+                  "box": "cbor",
+                  "payload_bytes": 19587,
+                  "decoded": {
+                    "cbor_tag": 18,
+                    "value": [
+                      "<binary 3048 bytes>",
+                      {
+                        "sigTst2": {
+                          "tstTokens": [
+                            {
+                              "val": "<binary 5258 bytes>"
+                            }
+                          ]
+                        },
+                        "rVals": {
+                          "ocspVals": [
+                            "<binary 2007 bytes>"
+                          ]
+                        },
+                        "pad": "<binary 8953 bytes>"
+                      },
+                      null,
+                      "<binary 256 bytes>"
+                    ]
+                  },
+                  "decoded_all_bytes": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

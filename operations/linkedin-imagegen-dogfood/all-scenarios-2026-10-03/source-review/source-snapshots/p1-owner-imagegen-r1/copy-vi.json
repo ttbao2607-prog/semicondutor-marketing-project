@@ -1,0 +1,356 @@
+{
+  "scenario_id": "P1",
+  "scenario_name": "Kết nối có người chịu trách nhiệm",
+  "cohort": "Supplier/Partner IT/MES/OT/SI",
+  "revision": "p1-imagegen-r1",
+  "status": "IMAGEGEN_R1_GENERATION_RELEASED",
+  "caption": {
+    "text": "Digiwin tư vấn ERP bán dẫn. Với nhóm công nghệ và tích hợp của đối tác, dữ liệu đã truyền qua chưa có nghĩa bước tiếp theo đã có người xác nhận.",
+    "length": 144
+  },
+  "destination": "https://solutions.digiwin.com.vn/supplierecosystem?lang=vi",
+  "cards": [
+    {
+      "card_id": "A1",
+      "treatment": "A",
+      "role": "Situation progression",
+      "native": "Dữ liệu đã truyền, ai xác nhận?",
+      "native_length": 31,
+      "image_headline": "Dữ liệu qua rồi: ai xác nhận tiếp?",
+      "image_headline_length": 34,
+      "image_body": "Nếu hai hệ thống đã trao đổi dữ liệu, nhóm tích hợp vẫn cần làm rõ nguồn, người đối chiếu và điều kiện để bộ phận nhận xử lý tiếp.",
+      "image_body_length": 130,
+      "alt": "Khay chip cạnh hai tờ giấy trắng kẻ ô trên mặt bàn sáng.",
+      "prompt_brief": "Commercial white cleanroom editorial photography, pure white background, daylight soft shadows. Digiwin official cyan logo #00B4D8, electric blue #0052FF and dark navy #0B132B two-color headline. Black waffle pack tray with packaged semiconductor chips, neutral white paper and pen. No human faces, no neon, no dark mode, no fake metrics, no customer marks, no system screenshot, no invented readable record data. Physical editorial concept: two neutral handoff papers beside chip tray.",
+      "source_ids": [
+        "LIB-P1",
+        "VI-SOURCE",
+        "ERP-CATEGORY"
+      ]
+    },
+    {
+      "card_id": "A2",
+      "treatment": "A",
+      "role": "Situation progression",
+      "native": "Xác định nguồn của dữ liệu",
+      "native_length": 26,
+      "image_headline": "Bắt đầu từ nguồn và mục đích nhận",
+      "image_headline_length": 33,
+      "image_body": "Với một điểm giao nhận cụ thể, cùng xác định dữ liệu đến từ đâu, phản ánh thời điểm nào và được dùng cho quyết định nào ở bên nhận.",
+      "image_body_length": 131,
+      "alt": "Khay chip cạnh giấy trắng kẻ ô trên mặt bàn sáng.",
+      "prompt_brief": "Commercial white cleanroom editorial photography, pure white background, daylight soft shadows. Digiwin official cyan logo #00B4D8, electric blue #0052FF and dark navy #0B132B two-color headline. Black waffle pack tray with packaged semiconductor chips, neutral white paper and pen. No human faces, no neon, no dark mode, no fake metrics, no customer marks, no system screenshot, no invented readable record data. Physical editorial concept: source ownership sheet beside chip tray.",
+      "source_ids": [
+        "LIB-P1",
+        "VI-SOURCE",
+        "ERP-CATEGORY"
+      ]
+    },
+    {
+      "card_id": "A3",
+      "treatment": "A",
+      "role": "Situation progression",
+      "native": "Chốt trách nhiệm đối chiếu",
+      "native_length": 26,
+      "image_headline": "Có người nhận, cần người đối chiếu.",
+      "image_headline_length": 35,
+      "image_body": "Khi dữ liệu chưa khớp, ai kiểm tra nguồn và ai liên hệ bên gửi? Thống nhất trách nhiệm này trước khi chuyển việc sang bộ phận sử dụng.",
+      "image_body_length": 134,
+      "alt": "Khay chip cạnh giấy trắng kẻ ô trên mặt bàn sáng.",
+      "prompt_brief": "Commercial white cleanroom editorial photography, pure white background, daylight soft shadows. Digiwin official cyan logo #00B4D8, electric blue #0052FF and dark navy #0B132B two-color headline. Black waffle pack tray with packaged semiconductor chips, neutral white paper and pen. No human faces, no neon, no dark mode, no fake metrics, no customer marks, no system screenshot, no invented readable record data. Physical editorial concept: reconciliation paper and pen beside chip tray.",
+      "source_ids": [
+        "LIB-P1",
+        "VI-SOURCE",
+        "ERP-CATEGORY"
+      ]
+    },
+    {
+      "card_id": "A4",
+      "treatment": "A",
+      "role": "Situation progression",
+      "native": "Làm rõ điều kiện xử lý tiếp",
+      "native_length": 27,
+      "image_headline": "Xác nhận xong mới chuyển bước",
+      "image_headline_length": 29,
+      "image_body": "Cùng ghi rõ thông tin cần đủ, người xác nhận và bước xử lý tiếp theo. Một lần truyền thành công chưa tự chứng minh dữ liệu phù hợp để hành động.",
+      "image_body_length": 144,
+      "alt": "Khay chip cạnh giấy trắng kẻ ô trên mặt bàn sáng.",
+      "prompt_brief": "Commercial white cleanroom editorial photography, pure white background, daylight soft shadows. Digiwin official cyan logo #00B4D8, electric blue #0052FF and dark navy #0B132B two-color headline. Black waffle pack tray with packaged semiconductor chips, neutral white paper and pen. No human faces, no neon, no dark mode, no fake metrics, no customer marks, no system screenshot, no invented readable record data. Physical editorial concept: responsibility handoff sheet beside chip tray.",
+      "source_ids": [
+        "LIB-P1",
+        "VI-SOURCE",
+        "ERP-CATEGORY"
+      ]
+    },
+    {
+      "card_id": "A5",
+      "treatment": "A",
+      "role": "Situation progression",
+      "native": "Digiwin: góc nhìn quản trị dữ liệu",
+      "native_length": 34,
+      "image_headline": "Kết nối cần ranh giới trách nhiệm",
+      "image_headline_length": 33,
+      "image_body": "Digiwin đặt câu hỏi quản trị ở điểm nối ERP và MES: nguồn nào được dùng, ai đối chiếu và ai xác nhận? Phạm vi tích hợp cần được các bên xem xét.",
+      "image_body_length": 144,
+      "alt": "Năm bìa hồ sơ xanh và xám nối thành chuỗi trên khay chip, cạnh hình Taipei 101.",
+      "prompt_brief": "Commercial white cleanroom editorial photography, pure white background, daylight soft shadows. Digiwin official cyan logo #00B4D8, electric blue #0052FF and dark navy #0B132B two-color headline. Black waffle pack tray with packaged semiconductor chips, neutral white paper and pen. No human faces, no neon, no dark mode, no fake metrics, no customer marks, no system screenshot, no invented readable record data. Physical editorial concept: five connected blue and grey folder icons, bottom rounded Taipei 101 silhouette panel.",
+      "source_ids": [
+        "LIB-P1",
+        "ERP-CATEGORY",
+        "TW-CONTEXT"
+      ],
+      "regional_label": "Góc nhìn ngành tại Đài Loan",
+      "regional_context": "Tài liệu bán dẫn Digiwin tại Đài Loan đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+      "invitation": "Đọc thêm về hợp tác bán dẫn",
+      "regional_scope_note": "Taiwan semiconductor document context only; no Partner deployment/interface/outcome proof.",
+      "source_attribution": "Nguồn: Digiwin Đài Loan, tài liệu giải pháp bán dẫn."
+    },
+    {
+      "card_id": "B1",
+      "treatment": "B",
+      "role": "Question framework",
+      "native": "Dữ liệu đã truyền, ai xác nhận?",
+      "native_length": 31,
+      "image_headline": "Dữ liệu qua rồi: ai xác nhận tiếp?",
+      "image_headline_length": 34,
+      "image_body": "Nếu hai hệ thống đã trao đổi dữ liệu, nhóm tích hợp vẫn cần làm rõ nguồn, người đối chiếu và điều kiện để bộ phận nhận xử lý tiếp.",
+      "image_body_length": 130,
+      "alt": "Khay chip cạnh hai tờ giấy trắng kẻ ô trên mặt bàn sáng.",
+      "prompt_brief": "Commercial white cleanroom editorial photography, pure white background, daylight soft shadows. Digiwin official cyan logo #00B4D8, electric blue #0052FF and dark navy #0B132B two-color headline. Black waffle pack tray with packaged semiconductor chips, neutral white paper and pen. No human faces, no neon, no dark mode, no fake metrics, no customer marks, no system screenshot, no invented readable record data. Physical editorial concept: two neutral handoff papers beside chip tray.",
+      "source_ids": [
+        "LIB-P1",
+        "VI-SOURCE",
+        "ERP-CATEGORY"
+      ]
+    },
+    {
+      "card_id": "B2",
+      "treatment": "B",
+      "role": "Question framework",
+      "native": "Câu hỏi 1: nguồn nào?",
+      "native_length": 21,
+      "image_headline": "Nguồn nào cho quyết định này?",
+      "image_headline_length": 29,
+      "image_body": "Bên gửi và bên nhận có cùng hiểu ý nghĩa, thời điểm và mục đích của dữ liệu? Xác định nguồn cho điểm giao nhận đang xem xét trước khi xử lý.",
+      "image_body_length": 140,
+      "alt": "Khay chip cạnh giấy trắng kẻ ô trên mặt bàn sáng.",
+      "prompt_brief": "Commercial white cleanroom editorial photography, pure white background, daylight soft shadows. Digiwin official cyan logo #00B4D8, electric blue #0052FF and dark navy #0B132B two-color headline. Black waffle pack tray with packaged semiconductor chips, neutral white paper and pen. No human faces, no neon, no dark mode, no fake metrics, no customer marks, no system screenshot, no invented readable record data. Physical editorial concept: source ownership sheet beside chip tray.",
+      "source_ids": [
+        "LIB-P1",
+        "VI-SOURCE",
+        "ERP-CATEGORY"
+      ]
+    },
+    {
+      "card_id": "B3",
+      "treatment": "B",
+      "role": "Question framework",
+      "native": "Câu hỏi 2: ai đối chiếu?",
+      "native_length": 24,
+      "image_headline": "Ai xử lý khi dữ liệu chưa khớp?",
+      "image_headline_length": 31,
+      "image_body": "Khi hai phía hiểu khác nhau, ai đối chiếu với nguồn và ai kết nối người phụ trách bên gửi? Cần rõ trách nhiệm, không chỉ tên hệ thống nhận.",
+      "image_body_length": 139,
+      "alt": "Khay chip cạnh giấy trắng kẻ ô trên mặt bàn sáng.",
+      "prompt_brief": "Commercial white cleanroom editorial photography, pure white background, daylight soft shadows. Digiwin official cyan logo #00B4D8, electric blue #0052FF and dark navy #0B132B two-color headline. Black waffle pack tray with packaged semiconductor chips, neutral white paper and pen. No human faces, no neon, no dark mode, no fake metrics, no customer marks, no system screenshot, no invented readable record data. Physical editorial concept: reconciliation paper and pen beside chip tray.",
+      "source_ids": [
+        "LIB-P1",
+        "VI-SOURCE",
+        "ERP-CATEGORY"
+      ]
+    },
+    {
+      "card_id": "B4",
+      "treatment": "B",
+      "role": "Question framework",
+      "native": "Câu hỏi 3: xác nhận điều gì?",
+      "native_length": 28,
+      "image_headline": "Điều kiện nào để chuyển bước?",
+      "image_headline_length": 29,
+      "image_body": "Bộ phận nhận cần đủ thông tin gì và ai xác nhận trước khi hành động? Ghi rõ điều kiện của điểm giao nhận, không dùng một quy tắc cho mọi luồng.",
+      "image_body_length": 143,
+      "alt": "Khay chip cạnh giấy trắng kẻ ô trên mặt bàn sáng.",
+      "prompt_brief": "Commercial white cleanroom editorial photography, pure white background, daylight soft shadows. Digiwin official cyan logo #00B4D8, electric blue #0052FF and dark navy #0B132B two-color headline. Black waffle pack tray with packaged semiconductor chips, neutral white paper and pen. No human faces, no neon, no dark mode, no fake metrics, no customer marks, no system screenshot, no invented readable record data. Physical editorial concept: responsibility handoff sheet beside chip tray.",
+      "source_ids": [
+        "LIB-P1",
+        "VI-SOURCE",
+        "ERP-CATEGORY"
+      ]
+    },
+    {
+      "card_id": "B5",
+      "treatment": "B",
+      "role": "Question framework",
+      "native": "Digiwin: góc nhìn quản trị dữ liệu",
+      "native_length": 34,
+      "image_headline": "Kết nối cần ranh giới trách nhiệm",
+      "image_headline_length": 33,
+      "image_body": "Digiwin đặt câu hỏi quản trị ở điểm nối ERP và MES: nguồn nào được dùng, ai đối chiếu và ai xác nhận? Phạm vi tích hợp cần được các bên xem xét.",
+      "image_body_length": 144,
+      "alt": "Năm bìa hồ sơ xanh và xám nối thành chuỗi trên khay chip, cạnh hình Taipei 101.",
+      "prompt_brief": "Commercial white cleanroom editorial photography, pure white background, daylight soft shadows. Digiwin official cyan logo #00B4D8, electric blue #0052FF and dark navy #0B132B two-color headline. Black waffle pack tray with packaged semiconductor chips, neutral white paper and pen. No human faces, no neon, no dark mode, no fake metrics, no customer marks, no system screenshot, no invented readable record data. Physical editorial concept: five connected blue and grey folder icons, bottom rounded Taipei 101 silhouette panel.",
+      "source_ids": [
+        "LIB-P1",
+        "ERP-CATEGORY",
+        "TW-CONTEXT"
+      ],
+      "regional_label": "Góc nhìn ngành tại Đài Loan",
+      "regional_context": "Tài liệu bán dẫn Digiwin tại Đài Loan đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+      "invitation": "Đọc thêm về hợp tác bán dẫn",
+      "regional_scope_note": "Taiwan semiconductor document context only; no Partner deployment/interface/outcome proof.",
+      "source_attribution": "Nguồn: Digiwin Đài Loan, tài liệu giải pháp bán dẫn."
+    }
+  ],
+  "planned_calls": [
+    {
+      "call_id": "P1_CALL_A1_B1",
+      "card_targets": [
+        "A1",
+        "B1"
+      ],
+      "tool_name": "image_gen.imagegen",
+      "status": "GENERATED_AND_COPIED_BYTE_IDENTICAL_PARENT_VISUAL_PASS",
+      "tool_arguments": {
+        "ImageName": "partner_p1_prep_r1_a1_b1",
+        "AspectRatio": "1:1",
+        "Prompt": "Commercial white cleanroom editorial photography, pure white background, daylight soft shadows. Digiwin official cyan logo #00B4D8, electric blue #0052FF and dark navy #0B132B two-color headline. Black waffle pack tray with packaged semiconductor chips, neutral white paper and pen. No human faces, no neon, no dark mode, no fake metrics, no customer marks, no system screenshot, no invented readable record data. Physical editorial concept: two neutral handoff papers beside chip tray. Generate one 1254x1254 square carousel card. Three-tier vertical hierarchy: top12percent brand/sequence, middle38percent headline/body, bottom50percent physical concept. Reference images are style and layout anchors only; do not copy their customer-facing text. Exact visible header: official Digiwin cyan logo, neutral grey vertical separator, category \"ERP · QUẢN TRỊ BÁN DẪN\", top-right blue sequence \"1/5\". Exact headline \"Dữ liệu qua rồi: ai xác nhận tiếp?\" in large two-color electric blue then dark navy. Exact body \"Nếu hai hệ thống đã trao đổi dữ liệu, nhóm tích hợp vẫn cần làm rõ nguồn, người đối chiếu và điều kiện để bộ phận nhận xử lý tiếp.\". Vietnamese diacritics must be correct, natural line breaks, readable hierarchy. Do not add native headline to artwork; it is LinkedIn metadata. Do not print internal roles, card IDs, instructions or provenance. Exact text lock: print only the explicitly quoted visible header, sequence, image headline and image body, plus the quoted regional title, regional context, approved reading pill and source attribution on Card 5. Use reference images for style and layout only; copy no wording, labels, samples or data from them. Inspection sheets, clipboards, process cards and paper surfaces must remain blank or contain only neutral nontext shapes. Do not add numbers, charts, metrics, sample values, customer names, labels, footnotes, disclaimers or any extra visible text.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "P1_CALL_A2",
+      "card_targets": [
+        "A2"
+      ],
+      "tool_name": "image_gen.imagegen",
+      "status": "RELEASED_FOR_IMAGEGEN",
+      "tool_arguments": {
+        "ImageName": "partner_p1_prep_r1_a2",
+        "AspectRatio": "1:1",
+        "Prompt": "Commercial white cleanroom editorial photography, pure white background, daylight soft shadows. Digiwin official cyan logo #00B4D8, electric blue #0052FF and dark navy #0B132B two-color headline. Black waffle pack tray with packaged semiconductor chips, neutral white paper and pen. No human faces, no neon, no dark mode, no fake metrics, no customer marks, no system screenshot, no invented readable record data. Physical editorial concept: source ownership sheet beside chip tray. Generate one 1254x1254 square carousel card. Three-tier vertical hierarchy: top12percent brand/sequence, middle38percent headline/body, bottom50percent physical concept. Reference images are style and layout anchors only; do not copy their customer-facing text. Exact visible header: official Digiwin cyan logo, neutral grey vertical separator, category \"ERP · QUẢN TRỊ BÁN DẪN\", top-right blue sequence \"2/5\". Exact headline \"Bắt đầu từ nguồn và mục đích nhận\" in large two-color electric blue then dark navy. Exact body \"Với một điểm giao nhận cụ thể, cùng xác định dữ liệu đến từ đâu, phản ánh thời điểm nào và được dùng cho quyết định nào ở bên nhận.\". Vietnamese diacritics must be correct, natural line breaks, readable hierarchy. Do not add native headline to artwork; it is LinkedIn metadata. Do not print internal roles, card IDs, instructions or provenance. Exact text lock: print only the explicitly quoted visible header, sequence, image headline and image body, plus the quoted regional title, regional context, approved reading pill and source attribution on Card 5. Use reference images for style and layout only; copy no wording, labels, samples or data from them. Inspection sheets, clipboards, process cards and paper surfaces must remain blank or contain only neutral nontext shapes. Do not add numbers, charts, metrics, sample values, customer names, labels, footnotes, disclaimers or any extra visible text.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "P1_CALL_A3",
+      "card_targets": [
+        "A3"
+      ],
+      "tool_name": "image_gen.imagegen",
+      "status": "RELEASED_FOR_IMAGEGEN",
+      "tool_arguments": {
+        "ImageName": "partner_p1_prep_r1_a3",
+        "AspectRatio": "1:1",
+        "Prompt": "Commercial white cleanroom editorial photography, pure white background, daylight soft shadows. Digiwin official cyan logo #00B4D8, electric blue #0052FF and dark navy #0B132B two-color headline. Black waffle pack tray with packaged semiconductor chips, neutral white paper and pen. No human faces, no neon, no dark mode, no fake metrics, no customer marks, no system screenshot, no invented readable record data. Physical editorial concept: reconciliation paper and pen beside chip tray. Generate one 1254x1254 square carousel card. Three-tier vertical hierarchy: top12percent brand/sequence, middle38percent headline/body, bottom50percent physical concept. Reference images are style and layout anchors only; do not copy their customer-facing text. Exact visible header: official Digiwin cyan logo, neutral grey vertical separator, category \"ERP · QUẢN TRỊ BÁN DẪN\", top-right blue sequence \"3/5\". Exact headline \"Có người nhận, cần người đối chiếu.\" in large two-color electric blue then dark navy. Exact body \"Khi dữ liệu chưa khớp, ai kiểm tra nguồn và ai liên hệ bên gửi? Thống nhất trách nhiệm này trước khi chuyển việc sang bộ phận sử dụng.\". Vietnamese diacritics must be correct, natural line breaks, readable hierarchy. Do not add native headline to artwork; it is LinkedIn metadata. Do not print internal roles, card IDs, instructions or provenance. Exact text lock: print only the explicitly quoted visible header, sequence, image headline and image body, plus the quoted regional title, regional context, approved reading pill and source attribution on Card 5. Use reference images for style and layout only; copy no wording, labels, samples or data from them. Inspection sheets, clipboards, process cards and paper surfaces must remain blank or contain only neutral nontext shapes. Do not add numbers, charts, metrics, sample values, customer names, labels, footnotes, disclaimers or any extra visible text.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "P1_CALL_A4",
+      "card_targets": [
+        "A4"
+      ],
+      "tool_name": "image_gen.imagegen",
+      "status": "RELEASED_FOR_IMAGEGEN",
+      "tool_arguments": {
+        "ImageName": "partner_p1_prep_r1_a4",
+        "AspectRatio": "1:1",
+        "Prompt": "Commercial white cleanroom editorial photography, pure white background, daylight soft shadows. Digiwin official cyan logo #00B4D8, electric blue #0052FF and dark navy #0B132B two-color headline. Black waffle pack tray with packaged semiconductor chips, neutral white paper and pen. No human faces, no neon, no dark mode, no fake metrics, no customer marks, no system screenshot, no invented readable record data. Physical editorial concept: responsibility handoff sheet beside chip tray. Generate one 1254x1254 square carousel card. Three-tier vertical hierarchy: top12percent brand/sequence, middle38percent headline/body, bottom50percent physical concept. Reference images are style and layout anchors only; do not copy their customer-facing text. Exact visible header: official Digiwin cyan logo, neutral grey vertical separator, category \"ERP · QUẢN TRỊ BÁN DẪN\", top-right blue sequence \"4/5\". Exact headline \"Xác nhận xong mới chuyển bước\" in large two-color electric blue then dark navy. Exact body \"Cùng ghi rõ thông tin cần đủ, người xác nhận và bước xử lý tiếp theo. Một lần truyền thành công chưa tự chứng minh dữ liệu phù hợp để hành động.\". Vietnamese diacritics must be correct, natural line breaks, readable hierarchy. Do not add native headline to artwork; it is LinkedIn metadata. Do not print internal roles, card IDs, instructions or provenance. Exact text lock: print only the explicitly quoted visible header, sequence, image headline and image body, plus the quoted regional title, regional context, approved reading pill and source attribution on Card 5. Use reference images for style and layout only; copy no wording, labels, samples or data from them. Inspection sheets, clipboards, process cards and paper surfaces must remain blank or contain only neutral nontext shapes. Do not add numbers, charts, metrics, sample values, customer names, labels, footnotes, disclaimers or any extra visible text.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "P1_CALL_A5_B5",
+      "card_targets": [
+        "A5",
+        "B5"
+      ],
+      "tool_name": "image_gen.imagegen",
+      "status": "TARGETED_CORRECTION_1_READY_FOR_IMAGEGEN",
+      "tool_arguments": {
+        "ImageName": "partner_p1_prep_r1_a5_b5",
+        "AspectRatio": "1:1",
+        "Prompt": "Commercial white cleanroom editorial photography, pure white background, daylight soft shadows. Digiwin official cyan logo #00B4D8, electric blue #0052FF and dark navy #0B132B two-color headline. Black waffle pack tray with packaged semiconductor chips, neutral white paper and pen. No human faces, no neon, no dark mode, no fake metrics, no customer marks, no system screenshot, no invented readable record data. Physical editorial concept: five connected blue and grey folder icons, bottom rounded Taipei 101 silhouette panel. Generate one 1254x1254 square carousel card. Three-tier vertical hierarchy: top12percent brand/sequence, middle38percent headline/body, bottom50percent physical concept. Reference images are style and layout anchors only; do not copy their customer-facing text. Exact visible header: official Digiwin cyan logo, neutral grey vertical separator, category \"ERP · QUẢN TRỊ BÁN DẪN\", top-right blue sequence \"5/5\". Exact headline \"Kết nối cần ranh giới trách nhiệm\" in large two-color electric blue then dark navy. Exact body \"Digiwin đặt câu hỏi quản trị ở điểm nối ERP và MES: nguồn nào được dùng, ai đối chiếu và ai xác nhận? Phạm vi tích hợp cần được các bên xem xét.\". Vietnamese diacritics must be correct, natural line breaks, readable hierarchy. Do not add native headline to artwork; it is LinkedIn metadata. Do not print internal roles, card IDs, instructions or provenance. Closing invariant: five connected blue/grey folder icons, bottom rounded panel with flat Taipei 101 skyline silhouette. Exact regional title \"Góc nhìn ngành tại Đài Loan\". Exact regional context \"Tài liệu bán dẫn Digiwin tại Đài Loan đặt ERP và MES trong bối cảnh quản trị và sản xuất.\". Exact blue reading pill \"Đọc thêm về hợp tác bán dẫn\". Preserve the Taiwan source attribution exactly. Do not add customer names, case names, results, figures, footnotes, disclaimers or other visible text beyond the exact copy listed here. Exact visible source attribution \"Nguồn: Digiwin Đài Loan, tài liệu giải pháp bán dẫn.\" Keep the exact source attribution fully legible at a 390px mobile feed display: use the same text size and weight as the regional-context paragraph, with dark navy text on the light panel. Reserve enough panel height for the title, context (up to three natural lines), approved reading pill, and source attribution (up to two natural lines), with clear spacing and no clipping. Keep the reading pill above the source attribution. Never shrink the source line to fine print. Exact text lock: print only the explicitly quoted visible header, sequence, image headline and image body, plus the quoted regional title, regional context, approved reading pill and source attribution on Card 5. Use reference images for style and layout only; copy no wording, labels, samples or data from them. Inspection sheets, clipboards, process cards and paper surfaces must remain blank or contain only neutral nontext shapes. Do not add numbers, charts, metrics, sample values, customer names, labels, footnotes, disclaimers or any extra visible text.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "P1_CALL_B2",
+      "card_targets": [
+        "B2"
+      ],
+      "tool_name": "image_gen.imagegen",
+      "status": "RELEASED_FOR_IMAGEGEN",
+      "tool_arguments": {
+        "ImageName": "partner_p1_prep_r1_b2",
+        "AspectRatio": "1:1",
+        "Prompt": "Commercial white cleanroom editorial photography, pure white background, daylight soft shadows. Digiwin official cyan logo #00B4D8, electric blue #0052FF and dark navy #0B132B two-color headline. Black waffle pack tray with packaged semiconductor chips, neutral white paper and pen. No human faces, no neon, no dark mode, no fake metrics, no customer marks, no system screenshot, no invented readable record data. Physical editorial concept: source ownership sheet beside chip tray. Generate one 1254x1254 square carousel card. Three-tier vertical hierarchy: top12percent brand/sequence, middle38percent headline/body, bottom50percent physical concept. Reference images are style and layout anchors only; do not copy their customer-facing text. Exact visible header: official Digiwin cyan logo, neutral grey vertical separator, category \"ERP · QUẢN TRỊ BÁN DẪN\", top-right blue sequence \"2/5\". Exact headline \"Nguồn nào cho quyết định này?\" in large two-color electric blue then dark navy. Exact body \"Bên gửi và bên nhận có cùng hiểu ý nghĩa, thời điểm và mục đích của dữ liệu? Xác định nguồn cho điểm giao nhận đang xem xét trước khi xử lý.\". Vietnamese diacritics must be correct, natural line breaks, readable hierarchy. Do not add native headline to artwork; it is LinkedIn metadata. Do not print internal roles, card IDs, instructions or provenance. Exact text lock: print only the explicitly quoted visible header, sequence, image headline and image body, plus the quoted regional title, regional context, approved reading pill and source attribution on Card 5. Use reference images for style and layout only; copy no wording, labels, samples or data from them. Inspection sheets, clipboards, process cards and paper surfaces must remain blank or contain only neutral nontext shapes. Do not add numbers, charts, metrics, sample values, customer names, labels, footnotes, disclaimers or any extra visible text.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "P1_CALL_B3",
+      "card_targets": [
+        "B3"
+      ],
+      "tool_name": "image_gen.imagegen",
+      "status": "RELEASED_FOR_IMAGEGEN",
+      "tool_arguments": {
+        "ImageName": "partner_p1_prep_r1_b3",
+        "AspectRatio": "1:1",
+        "Prompt": "Commercial white cleanroom editorial photography, pure white background, daylight soft shadows. Digiwin official cyan logo #00B4D8, electric blue #0052FF and dark navy #0B132B two-color headline. Black waffle pack tray with packaged semiconductor chips, neutral white paper and pen. No human faces, no neon, no dark mode, no fake metrics, no customer marks, no system screenshot, no invented readable record data. Physical editorial concept: reconciliation paper and pen beside chip tray. Generate one 1254x1254 square carousel card. Three-tier vertical hierarchy: top12percent brand/sequence, middle38percent headline/body, bottom50percent physical concept. Reference images are style and layout anchors only; do not copy their customer-facing text. Exact visible header: official Digiwin cyan logo, neutral grey vertical separator, category \"ERP · QUẢN TRỊ BÁN DẪN\", top-right blue sequence \"3/5\". Exact headline \"Ai xử lý khi dữ liệu chưa khớp?\" in large two-color electric blue then dark navy. Exact body \"Khi hai phía hiểu khác nhau, ai đối chiếu với nguồn và ai kết nối người phụ trách bên gửi? Cần rõ trách nhiệm, không chỉ tên hệ thống nhận.\". Vietnamese diacritics must be correct, natural line breaks, readable hierarchy. Do not add native headline to artwork; it is LinkedIn metadata. Do not print internal roles, card IDs, instructions or provenance. Exact text lock: print only the explicitly quoted visible header, sequence, image headline and image body, plus the quoted regional title, regional context, approved reading pill and source attribution on Card 5. Use reference images for style and layout only; copy no wording, labels, samples or data from them. Inspection sheets, clipboards, process cards and paper surfaces must remain blank or contain only neutral nontext shapes. Do not add numbers, charts, metrics, sample values, customer names, labels, footnotes, disclaimers or any extra visible text.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    },
+    {
+      "call_id": "P1_CALL_B4",
+      "card_targets": [
+        "B4"
+      ],
+      "tool_name": "image_gen.imagegen",
+      "status": "RELEASED_FOR_IMAGEGEN",
+      "tool_arguments": {
+        "ImageName": "partner_p1_prep_r1_b4",
+        "AspectRatio": "1:1",
+        "Prompt": "Commercial white cleanroom editorial photography, pure white background, daylight soft shadows. Digiwin official cyan logo #00B4D8, electric blue #0052FF and dark navy #0B132B two-color headline. Black waffle pack tray with packaged semiconductor chips, neutral white paper and pen. No human faces, no neon, no dark mode, no fake metrics, no customer marks, no system screenshot, no invented readable record data. Physical editorial concept: responsibility handoff sheet beside chip tray. Generate one 1254x1254 square carousel card. Three-tier vertical hierarchy: top12percent brand/sequence, middle38percent headline/body, bottom50percent physical concept. Reference images are style and layout anchors only; do not copy their customer-facing text. Exact visible header: official Digiwin cyan logo, neutral grey vertical separator, category \"ERP · QUẢN TRỊ BÁN DẪN\", top-right blue sequence \"4/5\". Exact headline \"Điều kiện nào để chuyển bước?\" in large two-color electric blue then dark navy. Exact body \"Bộ phận nhận cần đủ thông tin gì và ai xác nhận trước khi hành động? Ghi rõ điều kiện của điểm giao nhận, không dùng một quy tắc cho mọi luồng.\". Vietnamese diacritics must be correct, natural line breaks, readable hierarchy. Do not add native headline to artwork; it is LinkedIn metadata. Do not print internal roles, card IDs, instructions or provenance. Exact text lock: print only the explicitly quoted visible header, sequence, image headline and image body, plus the quoted regional title, regional context, approved reading pill and source attribution on Card 5. Use reference images for style and layout only; copy no wording, labels, samples or data from them. Inspection sheets, clipboards, process cards and paper surfaces must remain blank or contain only neutral nontext shapes. Do not add numbers, charts, metrics, sample values, customer names, labels, footnotes, disclaimers or any extra visible text.",
+        "ImagePaths": [
+          "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+          "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+          "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp"
+        ]
+      }
+    }
+  ],
+  "customer_category": "ERP · QUẢN TRỊ BÁN DẪN",
+  "experiment_boundary": "A/B narrative structure only, no live causal claim. P3 domestic end-user distinct from P1/P2 Partner audience.",
+  "closing_context_decision": "RESOLVED_BY_PO: exact CTA adaptation approved; Taiwan source qualifier and layout proof boundary unchanged. Remaining offline image calls released by parent on 2026-10-02.",
+  "generation_release": "P1 remaining six calls plus complete P2/P3 packs (8 unique image calls per scenario); parent release received 2026-10-02. Generate in bounded batches with per-call fresh preflight and native image inspection."
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "stage_result": "V2_REFERENCE_CAPACITY_PREPARED_FOR_PARENT_REBINDING",
+  "requested_configuration": {
+    "model": "gpt-6.1-sol",
+    "effort": "low"
+  },
+  "parent_admitted_child_uuid": "01a0ff50-0176-7ac0-8cef-ac6c6f33ee9b",
+  "assembly_start_utc": "2026-10-03T03:14:02.099108+00:00",
+  "assembly_end_utc": "2026-10-03T03:14:02.138288+00:00",
+  "assembly_seconds": 0.031,
+  "timing_limit": "Assembly timing only. Parent exact native rollout measures full candidate preparation turn including reference inspection. Phase1 shared overhead excluded.",
+  "shared_manifest_pin": "a334064bc9ea7de72d1f63108485098e9a719f0532020f6897c205b8864c02dd",
+  "reference_images_inspected": [
+    "r2-1.png",
+    "r2-2.png",
+    "r2-3.png",
+    "r2-4.png",
+    "r2-5.png",
+    "r2-6.png"
+  ],
+  "candidate_file_hashes": {
+    "contract.json": "db02a47f242e7dc27697359cdc2e691f335b2b4a4258883ca1d6507cf897ec6f",
+    "calls-draft.json": "31f3c89b03fe2ebd3c627d1581fe372ae73509f521270a0069768bf401378a09",
+    "storyboard.md": "98b9005ce6c2c937c754e91162d64204e2aa622edd99724b7c3f3cbe330fe489"
+  },
+  "calls": 10,
+  "transitions": 8,
+  "labels_changed": false,
+  "common_alt_change_proposals": [],
+  "protected_common_code_hashes_unchanged": true,
+  "checks": "Exact shared inputs, call shape/order/singletons, approved artwork projection, assembled prompt/hash and unoccupied outputs checked; no real preflight authority exists yet",
+  "tamper_dogfood": "DEFERRED_UNTIL_PARENT_REAL_BINDING; no fabricated parent review/release",
+  "generation": "NOT_RUN",
+  "semantic_verdict": "PARENT_REVIEW_PENDING",
+  "creative_verdict": "INSUFFICIENT_EVIDENCE",
+  "tool_capacity_revision": {
+    "selected_references": [
+      "r2-1.png",
+      "r2-2.png",
+      "r2-4.png",
+      "r2-6.png",
+      "digiwin-logo.webp"
+    ],
+    "previous_version_archive": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/sol/revision-history/seven-reference-v1",
+    "concepts_and_output_mapping_unchanged": true,
+    "copy_style_bytes_unchanged": true,
+    "operator_rejected_attempt_images": 0
+  },
+  "current_review_binding": "PENDING_NEW_PARENT_OPERATOR_SOL_V2",
+  "completed_utc": "2026-10-03T03:21:45.671564+00:00"
+}

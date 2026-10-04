@@ -1,0 +1,2 @@
+Bảo: commit checkpoint này, sau đó chạy tới lúc Bảo duyệt bố cục.
+Checkpoint abed669ff9da88be75aa624b4aff540eb6049b58 committed first. Execute two fresh P3-A5 layout previews A/B under committed selection plan. Exact current P3 copy, frozen visual identity and harness/gate protected. Maximum2base; maximum1chosen refinement remains unreleased until actual choice. Parent source review, dispatch, native and actual full P3 desktop/mobile audit before exact rendered layout PO acceptance. No harness update before PO acceptance; no future scenario generation, no push/merge/live.

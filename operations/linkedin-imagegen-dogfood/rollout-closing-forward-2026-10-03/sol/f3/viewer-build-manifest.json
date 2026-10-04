@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "built_utc": "2026-10-03T08:01:53.973401+00:00",
+  "output_directory": "C:\\Users\\ASUS\\Documents\\Codex\\2026-10-03\\chec\\outputs\\rollout-forward-f3",
+  "files": {
+    "index.html": "018a332f89f4c061202dc1f209e1b23cac9edbd2c0e3f499a43ff004bf1ff59e",
+    "assets/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "assets/f3-a1.png": "04133ce869e035369a11b3b032f4510008e83e33ccf33052afdda2faf8338bcb",
+    "assets/f3-a2.png": "faef33196bf1f2b34178b9b49a436284e78646b0b8e6c71a4fe37c54c1fc40ff",
+    "assets/f3-a3.png": "05a1159dea04ae1dbed90982f9cf552b2265cd72394cef6bb9706a954bed2227",
+    "assets/f3-a4.png": "2fa9b81dffab98e948264385570f3b94f8667688b98b3e152da0a55f7bfc57aa",
+    "assets/f3-a5.png": "97cc4bdb20a22db3622139ee0d6e631aa19f92262aa5161c37b08bc3efd77eed"
+  },
+  "input_hashes": {
+    "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/native/f3-a1.png": "04133ce869e035369a11b3b032f4510008e83e33ccf33052afdda2faf8338bcb",
+    "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/native/f3-a2.png": "faef33196bf1f2b34178b9b49a436284e78646b0b8e6c71a4fe37c54c1fc40ff",
+    "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/native/f3-a3.png": "05a1159dea04ae1dbed90982f9cf552b2265cd72394cef6bb9706a954bed2227",
+    "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/native/f3-a4.png": "2fa9b81dffab98e948264385570f3b94f8667688b98b3e152da0a55f7bfc57aa",
+    "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03/sol/f3/native/f3-a5-r3.png": "97cc4bdb20a22db3622139ee0d6e631aa19f92262aa5161c37b08bc3efd77eed",
+    "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03/common/f3-copy.json": "42bfe643e390dc933637a852bc82210c288139c2bfee4e548826d3c907c640a6",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f"
+  },
+  "copy_projection": "public-copy.json exact common bytes",
+  "cards_per_feed": [
+    5
+  ],
+  "native_bytes_unchanged": true,
+  "official_logo_bytes_unchanged": true,
+  "rendered_verdict": "NOT_ASSESSED",
+  "navigation_verdict": "SOURCE_ONLY_PARENT_BROWSER_CHECK_REQUIRED",
+  "viewer_boundary": "Only HTML, five native PNG and logo in reader export; internal manifest stays repo-only",
+  "destinations_from_source_metadata": true
+}

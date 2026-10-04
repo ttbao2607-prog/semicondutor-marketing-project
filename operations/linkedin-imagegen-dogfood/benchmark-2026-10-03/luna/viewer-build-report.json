@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "candidate_status": "CHANGES_REQUIRED",
+  "status_reason": "Parent-observed output dimensions 1254x1254 do not match the pinned 1024x1024 request.",
+  "rendered_preview_review": "NOT_PERFORMED",
+  "html": {
+    "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/index.html",
+    "sha256": "3709c8383f008415301ac9723669e14e64cef8bf5fc441b81d820284beb0cfff",
+    "structural_text_inspection": "MATCHED viewer.json approved fields",
+    "document_title": {
+      "source_field": "headline",
+      "text": "Bắt đầu từ sản phẩm và kỳ kế hoạch"
+    },
+    "intended_visible_projection": [
+      {
+        "type": "caption",
+        "source_field": "caption",
+        "text": "Digiwin tư vấn ERP. Nhóm kế hoạch Fabless (thiết kế chip, không sở hữu nhà máy chế tạo): forecast đổi, WIP (bán thành phẩm) gia công ngoài nào cần đối chiếu?"
+      },
+      {
+        "type": "image",
+        "source_path": "output/f2-a2.png",
+        "source_field": "native generated image",
+        "alt": "Sản phẩm, kỳ kế hoạch và các lô liên quan được liên kết để khoanh phạm vi đối chiếu.",
+        "width": "100%",
+        "height": "auto"
+      },
+      {
+        "type": "native_headline",
+        "source_field": "native_headline",
+        "text": "Khoanh phạm vi cần đối chiếu"
+      }
+    ],
+    "structure_observed": {
+      "language": "vi",
+      "main_max_width_px": 640,
+      "outer_spacing_px": 16,
+      "caption_font_size_px": 16,
+      "native_headline_font_size_px": 18,
+      "allowed_elements_only": true,
+      "no_scripts_links_external_assets_or_hidden_fields": true,
+      "no_extra_visible_page_copy": true
+    }
+  },
+  "image": {
+    "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/output/f2-a2.png",
+    "sha256": "4594d10a6a67050d9b779ad52776aebdfccc2578632039bdd3ee7da5ff48a100",
+    "bytes": 1356588,
+    "actual_dimensions_px": [
+      1254,
+      1254
+    ],
+    "requested_dimensions_px": [
+      1024,
+      1024
+    ],
+    "modified_by_child": false
+  },
+  "viewer_json_sha256": "2e551ab0de465046e198ad0822417a72c585f3b35796c46dccca1876f859d2ea",
+  "scope_note": "This report records HTML structure and the dimension mismatch. It does not claim browser rendering, visual acceptance, source/editorial acceptance, or content acceptance."
+}

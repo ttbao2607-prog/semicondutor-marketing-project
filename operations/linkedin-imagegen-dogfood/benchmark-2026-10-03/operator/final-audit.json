@@ -1,0 +1,47 @@
+{
+  "AUDIT_SCOPE": "Two bounded F2-A2 configuration trials: native child identity, shared source/copy/style contract, preflight/dispatch/viewer dogfood, actual native images and desktop/mobile fixtures",
+  "CONTRACT_REF": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/allocation-and-contract.md",
+  "BASELINE_REF": "7e95a44dc5a3e5c25c07cda7c0f905822b8ba864",
+  "CANDIDATE_REF": "Per-trial independently pinned release/spec/native/HTML hashes in operator/* records; final inventory in operator/candidate-checkpoint.json",
+  "VERDICT": "FAIL",
+  "COVERAGE": {
+    "AC1": "AC1: PASS — STRUCTURAL/CONTRACT + BEHAVIORAL/RUNTIME — skill admission and acceptance receipts for exact /root/dogfood_luna gpt-6-luna/max and /root/dogfood_sol gpt-6.1-sol/low, runtime-benchmark-metrics.json",
+    "AC2": "AC2: PASS — STRUCTURAL/CONTRACT — common frozen-object pins, independent review notes, releases, protected gate/test/AD-ED-01 hashes; no Git mutation, child ownership separated",
+    "AC3": "AC3: PASS — STRUCTURAL/CONTRACT + BEHAVIORAL/RUNTIME — independently supplied release pins, fresh operator preflight/dispatch check and exact actual-dispatch records, one call/configuration zero corrections",
+    "AC4": "AC4: PASS — BEHAVIORAL/RUNTIME — shared 35-test suite freshly passed, child Sol 18/Luna 17 expected rejections, normalized independent operator 18 expected rejections each; A/B/CJK/ERP-MES/advisory expectations retained",
+    "AC5": "AC5: FAIL — VISUAL + STRUCTURAL/CONTRACT — both actual native files 1254x1254 versus independently pinned 1024x1024; actual text/brand/alt/HTML/export and desktop/mobile inspected, separate Luna story-fit ambiguity remains open",
+    "AC6": "AC6: PASS — BEHAVIORAL/RUNTIME + STRUCTURAL/CONTRACT — primary four-turn metrics, typed per-candidate findings, observed call counts, separate operator/tool sizing attribution, fixed 18-case parent comparison, no general model ranking or buyer claim"
+  },
+  "FINDINGS": [
+    {
+      "FAILED_AC": "AC5",
+      "EXPECTED": "Each native image matches the separately pinned 1024x1024 output requirement",
+      "OBSERVED": "Both native ImageGen outputs are 1254x1254; preserved without edits. Operator had selected 1024 without evidence that the built-in tool could honor it",
+      "EVIDENCE": "operator/sol/actual-dispatch.json and operator/luna/actual-dispatch.json; PNG IHDR values, native-byte hashes and postgen-review.json for both trials",
+      "EVIDENCE_GAP": "No reliable explicit size control was observed for this built-in interface. Same failure is outside child-model preparation quality",
+      "RESTORE_CONDITION": "Define and review a forward sizing policy compatible with the observed native output, or prove a supported exact-size route. Preserve this failed immutable trial; never relabel its old contract as passed",
+      "REQUIRED_RECHECK": "Before any future call, freshly pin its new contract/review/release and inspect actual native dimensions afterward; no new call or correction is released by this audit"
+    },
+    {
+      "FAILED_AC": "AC5",
+      "EXPECTED": "Luna visual clearly communicates three dimensions to compare, without an ambiguous extra central trend",
+      "OBSERVED": "Luna native raster has a prominent unlabelled upward curve and dashed baseline, distracting from the product/period/lots comparison and possibly reading as improvement",
+      "EVIDENCE": "Luna native SHA256 4594d10a6a67050d9b779ad52776aebdfccc2578632039bdd3ee7da5ff48a100, actual native and desktop/mobile CUA screenshots; operator/luna/postgen-review.json",
+      "EVIDENCE_GAP": "Operator visual judgment; no buyer test or Bảo content decision. This is not evidence of a fabricated numerical result or a keyword diversity veto",
+      "RESTORE_CONDITION": "A separately bounded revision simplifies the change cue and is judged on the actual raster",
+      "REQUIRED_RECHECK": "Exact input/dispatch checks and actual native/story/desktop/mobile inspection after any separately released revision"
+    }
+  ],
+  "execution_status": "PARTIAL",
+  "benchmark_measurement_status": "COMPLETE",
+  "parent_disposition": "NOT_ACCEPT_CANDIDATES_AS_CONTRACT_COMPLETE",
+  "lifecycle_status": "testing_dogfood",
+  "candidate_statuses": {"luna": "CHANGES_REQUIRED", "sol": "CHANGES_REQUIRED"},
+  "child_corrective_rounds": {"luna": 0, "sol": 0},
+  "image_call_counts": {"luna": {"base": 1, "correction": 0}, "sol": {"base": 1, "correction": 0}},
+  "operator_setup_corrections": ["Unicode stdout encoding in audit helper fixed before dispatch; evidence checks had already passed", "Wrong-cwd read corrected; preview server target was still correct", "Shell quoting error in metadata probe replaced by a saved read-only script", "Desktop native screenshot clipping in IAB backend resolved with full-page capture; not attributed to HTML"],
+  "native_metadata_inspection": "Both caBX provenance structures decoded separately, all CBOR payload bytes accounted for; provider creation/conversion/watermark/signature/hash metadata, no harness prompt/review/contract/internal caveats found. Opaque hashes, embedded provider icon and certificate/signature bytes are summarized, not exported; no cryptographic signature certification is claimed. Native bytes preserved",
+  "comparison_limits": "One trial/configuration at different effort; same non-closing card and stochastic image tool, no fixed seed exposed. Child authored free concepts; identical source/copy/style/gate and parent 18-case checks. Desktop content widths differ 640/608px under same prose template; both mobile render widths are 358.4px. No set diversity, full-carousel, Taiwan closing-source readability, buyer or live readiness conclusion",
+  "git_state": "Baseline commit unchanged; current benchmark files/status/doc deltas are local and uncommitted; no staging/push/merge/history changes",
+  "native_child_cleanup": "Both comparison leaves reached completed boundaries; no native close API is exposed. No replacement or third benchmark child; final doc assistance uses same Sol leaf outside measured first four turns"
+}

@@ -1,0 +1,2 @@
+Bảo selected actual preview direction: Chọn B — nguồn sau hình (đề xuất).
+Release the sole selected-direction refinement under committed2base+max1chosen budget. Preserve B post-image full-width source hierarchy, exact public copy/labels; remove added diagramwords and make source aslargeasbody. No new A correction or further retries. Root source/release/dispatch/native/renderaudit and actual finished render POacceptance remain required before harness update.

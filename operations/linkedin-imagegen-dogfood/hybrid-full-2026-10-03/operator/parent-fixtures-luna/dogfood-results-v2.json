@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "record_kind": "ISOLATED_CANDIDATE_DOGFOOD_V2",
+  "stage_result": "MECHANICAL_DOGFOOD_COMPLETE_FOR_PARENT_AUDIT",
+  "start_utc": "2026-10-03T05:18:34.180195+00:00",
+  "end_utc": "2026-10-03T05:18:36.454546+00:00",
+  "parent_supplied_release_path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/luna-v2/release.json",
+  "parent_supplied_release_sha256": "6ea05caa8c4c82f353ccad219dfff87f54bcaad586b3647557d5846436f772ef",
+  "selected_fixture_call": "F2_A1",
+  "authentic_review_release_copied_without_edit_for_baseline": "No new real review/release or authority was authored; mutations are fixture-only and cannot authorize generation",
+  "positive_checks": [
+    {
+      "mode": "preflight",
+      "expected": "PASS",
+      "observed": "PASS",
+      "scope": "ISOLATED_COPIED_REAL_INPUTS_ONLY",
+      "actual_dispatch_observed": false
+    },
+    {
+      "mode": "dispatch",
+      "expected": "PASS",
+      "observed": "PASS",
+      "scope": "ISOLATED_COPIED_REAL_INPUTS_ONLY",
+      "actual_dispatch_observed": false
+    },
+    {
+      "mode": "viewer",
+      "expected": "PASS",
+      "observed": "PASS",
+      "scope": "ISOLATED_COPIED_REAL_INPUTS_ONLY",
+      "actual_dispatch_observed": false
+    }
+  ],
+  "negative_cases": [
+    {
+      "case": "changed contract groups",
+      "mode": "preflight",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/contract.json",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    },
+    {
+      "case": "changed campaign style",
+      "mode": "preflight",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/contract.json",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    },
+    {
+      "case": "changed copy",
+      "mode": "preflight",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/copy.json",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    },
+    {
+      "case": "changed review",
+      "mode": "preflight",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/luna-v2/review.json",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    },
+    {
+      "case": "substituted release against parent pin",
+      "mode": "preflight",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/luna-v2/release.json",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    },
+    {
+      "case": "changed source",
+      "mode": "preflight",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/copy-vi.json",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    },
+    {
+      "case": "changed campaign reference",
+      "mode": "preflight",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    },
+    {
+      "case": "changed assembled prompt",
+      "mode": "preflight",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Prompt differs from assembled approved inputs",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    },
+    {
+      "case": "stale receipt after changed spec",
+      "mode": "dispatch",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Stale or altered preflight receipt",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    },
+    {
+      "case": "changed dispatch prompt",
+      "mode": "dispatch",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Dispatch prompt differs from verified call",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    },
+    {
+      "case": "changed dispatch reference order",
+      "mode": "dispatch",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Dispatch reference paths differ",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    },
+    {
+      "case": "changed dispatch receipt hash",
+      "mode": "dispatch",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Dispatch receipt hash mismatch",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    },
+    {
+      "case": "occupied selected output at preflight",
+      "mode": "preflight",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Planned output would overwrite existing artifact",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    },
+    {
+      "case": "occupied selected output at dispatch",
+      "mode": "dispatch",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Selected output would overwrite existing artifact",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    },
+    {
+      "case": "viewer extra internal_notes",
+      "mode": "viewer",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Viewer payload differs from approved public-field projection",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    },
+    {
+      "case": "viewer extra metadata",
+      "mode": "viewer",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Viewer payload differs from approved public-field projection",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    },
+    {
+      "case": "viewer extra hidden_html",
+      "mode": "viewer",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Viewer payload differs from approved public-field projection",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    },
+    {
+      "case": "viewer extra attachments",
+      "mode": "viewer",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Viewer payload differs from approved public-field projection",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    },
+    {
+      "case": "viewer changed approved headline",
+      "mode": "viewer",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "matched_expectation": true,
+      "error": "Viewer payload differs from approved public-field projection",
+      "scope": "ISOLATED_FIXTURE_ONLY"
+    }
+  ],
+  "negative_case_count": 19,
+  "all_expected_rejections_observed": true,
+  "real_input_hashes_before": {
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/copy-vi.json": "8c9397a062418395b944eca91baa879ebaaa701b00acb6b373648e96232460ed",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/contract.json": "adbaee5173ec197ee1a26d16f7b4ec8d39bf941cb6547ee13a595d269817fead",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/evidence-register.md": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/source-pins.json": "a0c4291456fce1a1b31ddbaeff5bb26971f6c9109b69881372904b2f1a66337d",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/scenario-library.md": "5e7939dfee23481e14af7db5aa6faa916528853b4bc886f4e55ee26793f82358",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/copy-vi.json": "dce82218734651c93aa662840ae74616e9483404e24905552279cad41f5aee52",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/storyboard-and-claims.md": "98710302463207eaa275cdc95ff93f581aacf620fa78bd0763ec0fb3e9c48fc5",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/luna-v2/release.json": "6ea05caa8c4c82f353ccad219dfff87f54bcaad586b3647557d5846436f772ef",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/source-pins.json": "2fc0f17b55702050d9ccd2d2fbb750ec9d53181805998383dbea4765cc84d0fb",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/editorial-qa-receipt.md": "26a46d71e99f09281b3394581fce759be01436830ca09bd77dd7132fc439af3b",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/luna-v2/review.json": "d33da1f1b06e4e2b6cee47d63613e1651cf8d18caeb1f8e0611eccff4ba9d365",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/source-brief.md": "6abeda531f6b2316e89073b99202de0a195caa11895243c9a8d99552bed2c90e",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/storyboard-and-claims.md": "780a9bdf1cc48d888d748c3eea4deb6741ecadf783eeb71d7051931c7379c1d5",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/luna-v2/spec.json": "35a1d84e40a86d2cb546af4befc06b46bcfae78239ffc15947cdbbf523c09d51",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/copy.json": "b09739370eab4dbc67c9c4d2fe133b93557a916dfe0097d865a64ee257f40b71",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/authority.md": "070ae9ea5e5236c2a740d4ff0c4a4c4b9d8e5651afb24a4494afd9c7c7aa4459",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/editorial-qa-receipt.md": "c3e3eabac52aedf9a30c930a2e70a5819af95cdced2e304d526f59828a11f0fd",
+    "scripts/verify_imagegen_preflight.py": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8"
+  },
+  "real_input_hashes_after": {
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/copy-vi.json": "8c9397a062418395b944eca91baa879ebaaa701b00acb6b373648e96232460ed",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/luna/contract.json": "adbaee5173ec197ee1a26d16f7b4ec8d39bf941cb6547ee13a595d269817fead",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/evidence-register.md": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/source-pins.json": "a0c4291456fce1a1b31ddbaeff5bb26971f6c9109b69881372904b2f1a66337d",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/scenario-library.md": "5e7939dfee23481e14af7db5aa6faa916528853b4bc886f4e55ee26793f82358",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/copy-vi.json": "dce82218734651c93aa662840ae74616e9483404e24905552279cad41f5aee52",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/storyboard-and-claims.md": "98710302463207eaa275cdc95ff93f581aacf620fa78bd0763ec0fb3e9c48fc5",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/luna-v2/release.json": "6ea05caa8c4c82f353ccad219dfff87f54bcaad586b3647557d5846436f772ef",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/source-pins.json": "2fc0f17b55702050d9ccd2d2fbb750ec9d53181805998383dbea4765cc84d0fb",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/P2/editorial-qa-receipt.md": "26a46d71e99f09281b3394581fce759be01436830ca09bd77dd7132fc439af3b",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/luna-v2/review.json": "d33da1f1b06e4e2b6cee47d63613e1651cf8d18caeb1f8e0611eccff4ba9d365",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/support/source-brief.md": "6abeda531f6b2316e89073b99202de0a195caa11895243c9a8d99552bed2c90e",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/storyboard-and-claims.md": "780a9bdf1cc48d888d748c3eea4deb6741ecadf783eeb71d7051931c7379c1d5",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/luna-v2/spec.json": "35a1d84e40a86d2cb546af4befc06b46bcfae78239ffc15947cdbbf523c09d51",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/copy.json": "b09739370eab4dbc67c9c4d2fe133b93557a916dfe0097d865a64ee257f40b71",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/authority.md": "070ae9ea5e5236c2a740d4ff0c4a4c4b9d8e5651afb24a4494afd9c7c7aa4459",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/F2/editorial-qa-receipt.md": "c3e3eabac52aedf9a30c930a2e70a5819af95cdced2e304d526f59828a11f0fd",
+    "scripts/verify_imagegen_preflight.py": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8"
+  },
+  "real_native_outputs_read_or_copied": false,
+  "temporary_roots_removed": true,
+  "generation_calls": 0,
+  "actual_dispatch_observed": false,
+  "semantic_verdict": "NOT_ASSESSED_BY_THIS_MECHANICAL_DOGFOOD",
+  "creative_verdict": "INSUFFICIENT_EVIDENCE",
+  "runtime_identity": "Parent previously accepted reused Sol low; parent verifies current turn after completion"
+}

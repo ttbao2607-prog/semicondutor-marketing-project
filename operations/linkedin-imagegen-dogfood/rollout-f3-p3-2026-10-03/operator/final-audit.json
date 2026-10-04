@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "audit_scope": "Controlled F3-A current r2 candidate and rollout boundary",
+  "baseline": "97d72a7f84b375d95dbf41c87a227fe949f44886",
+  "date": "2026-10-03T07:35:00.103566+00:00",
+  "verdict": "FAIL",
+  "execution_status": "PARTIAL",
+  "parent_disposition": "STOPPED_AT_F3_GATE_CHANGES_REQUIRED",
+  "lifecycle": "testing_dogfood",
+  "worker": "gpt-6.1-sol/low verified canonical receipt",
+  "audit_mode": "SELF",
+  "calls": {
+    "base": 5,
+    "correction": 1,
+    "P3": 0
+  },
+  "native": "six originals1254square,decoded and byte-preserved; selectA1-A4original+A5-r2",
+  "coverage": {
+    "source_copy": "PASS exact source/main/header/body/CTA fields on r2",
+    "first_mention": "PASS F3 independentfeed; caption explainsFabless;ERP/MES exempt",
+    "mechanical": "PASS49tests;19negative+3positive candidatefixtures",
+    "native_integrity": "PASS",
+    "card_A1_A4": "PASS scoped wordmark/wording/blankprops/pendingsemantics/R2family",
+    "card_A5_r2_wording": "PASS full body restored; no extra readablelabels observed",
+    "card_A5_r2_mobile_source": "FAIL",
+    "F3_continuity": "PASS four transitions; conditionalhandoff -> selectedpoint -> identify/source -> owner/missing -> management synthesis",
+    "crossscenario": "NOT_CHECKED P3notrun",
+    "public_projection": "PASS exact publiccopy/images/logo nointernal notes",
+    "F3_render_navigation": "PASS desktop1280x900/mobile390x844 all5positions/nohorizontaloverflow/dots/prevnext/keyboard",
+    "PO_finished_carousel_acceptance": "NOT_GRANTED"
+  },
+  "findings": [
+    {
+      "card": "F3-A5",
+      "expected": "Required regional/source content comfortablyreadable normalmobile withoutzoom",
+      "observed": "Still significantlysmaller than body at332.667px display after sole correction; duplicatedbodysentence issueclosed but sourcereadability notclosed",
+      "evidence": "operator/render-audit.json and original correctednative and outputs/rollout-f3-mobile-closing.png",
+      "restore_condition": "A newly authorized closing solution must demonstrate readable exact requiredsource text and preserve approvedwording/style; or explicit scoped PO acceptance decision; never relabel oldaudit",
+      "required_recheck": "Newexactcandidate native, normalmobile closing, dependentstory/export checks"
+    }
+  ],
+  "stop_loss": "No furtherA5 attempt; conditionalP3 generation notauthorized untilF3PASS. One unusedcorrection reservation is notpermission toretry samecard. No weakening sourcecriterion or automaticfreeze.",
+  "harness_code_changed": false,
+  "historical_evidence_unchanged": true,
+  "images_method": "built-in image_gen through imagegen skill; exact assembled reviewedprompts and five frozenreferences savedpercall; no resizing/compositing",
+  "no_commit_push_or_live_action": true
+}

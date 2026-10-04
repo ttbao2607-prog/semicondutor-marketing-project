@@ -1,0 +1,121 @@
+{
+  "timestamp_utc": "2026-10-03T01:22:17.559950+00:00",
+  "reviewer": "/root",
+  "gate_sha256": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+  "release_sha256": "99bfc3a6b794b8cca4ff4eaaddacbc64bdbb1f400ef055286646bc27accaf68f",
+  "positive_checks": "PASS",
+  "negative_count": 18,
+  "all_expected_rejections_observed": true,
+  "cases": [
+    {
+      "case": "changed contract",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/contract.json"
+    },
+    {
+      "case": "changed copy",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/copy.json"
+    },
+    {
+      "case": "changed review",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/review.json"
+    },
+    {
+      "case": "changed source",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-copy.json"
+    },
+    {
+      "case": "changed reference",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/palette-lighting-reference.png"
+    },
+    {
+      "case": "changed prompt",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "error": "Prompt differs from assembled approved inputs"
+    },
+    {
+      "case": "stale receipt",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "error": "Stale or altered preflight receipt"
+    },
+    {
+      "case": "substituted release",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "error": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/sol/release.json"
+    },
+    {
+      "case": "dispatch prompt",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "error": "Dispatch prompt differs from verified call"
+    },
+    {
+      "case": "dispatch references",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "error": "Dispatch reference paths differ"
+    },
+    {
+      "case": "dispatch receipt hash",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "error": "Dispatch receipt hash mismatch"
+    },
+    {
+      "case": "occupied output preflight",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "error": "Planned output would overwrite existing artifact"
+    },
+    {
+      "case": "occupied output dispatch",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "error": "Selected output would overwrite existing artifact"
+    },
+    {
+      "case": "viewer internal_notes",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "error": "Viewer payload differs from approved public-field projection"
+    },
+    {
+      "case": "viewer metadata",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "error": "Viewer payload differs from approved public-field projection"
+    },
+    {
+      "case": "viewer hidden_html",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "error": "Viewer payload differs from approved public-field projection"
+    },
+    {
+      "case": "viewer attachments",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "error": "Viewer payload differs from approved public-field projection"
+    },
+    {
+      "case": "changed viewer wording",
+      "expected": "REJECTED",
+      "observed": "REJECTED",
+      "error": "Viewer payload differs from approved public-field projection"
+    }
+  ],
+  "original_inputs_rechecked": true,
+  "actual_dispatch_observed": false
+}

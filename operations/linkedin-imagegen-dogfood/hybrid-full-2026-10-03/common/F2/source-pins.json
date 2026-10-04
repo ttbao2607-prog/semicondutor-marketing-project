@@ -1,0 +1,92 @@
+{
+  "source_scope": "Planning evidence and canonical visual/proof anchors; no new external verification",
+  "sources": [
+    {
+      "path": "CURRENT_STATE.md",
+      "sha256": "007a95aebc7d9f64753cb8d2e3d1334a2617458d6ea0ba99199ddb4a5b6ea797"
+    },
+    {
+      "path": "DOCS_IMPACT_MAP.md",
+      "sha256": "1680b6385bbf3f479422064b158aca4c12b9dfb3e5384af6d09bc8564a80fb71"
+    },
+    {
+      "path": "operations/LinkedIn_Awareness_Remaining_Scenarios.md",
+      "sha256": "1dc82e997231df1860848a75277869e33297d74b124f80122b69c61401202c63"
+    },
+    {
+      "path": "operations/LinkedIn_Awareness_Adcopy_Optimization_Plan.md",
+      "sha256": "6f0f542e276d2fe701a814eda2ec4c9136d74c3e64cbbaf1084ebdced6019200"
+    },
+    {
+      "path": "operations/LinkedIn_Carousel_Visual_Manifest.md",
+      "sha256": "f704189270684e504708cd3e55a6a88d5c52ce26c112c88852a68afdeae6fb35"
+    },
+    {
+      "path": "operations/linkedin-awareness-execution/first-touch-anchor.md",
+      "sha256": "d3d3ca8eec5c5ea3d4bf5e6ecc105900028bd897b84fd9dedbde7de10d473a75"
+    },
+    {
+      "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/copy-vi.json",
+      "sha256": "0bfdd6c78e1b98acfc7409779fad7875af4003af04c4f5d3be1d3f479af00b54"
+    },
+    {
+      "path": "scripts/verify_imagegen_preflight.py",
+      "sha256": "d1c880c6c6bd2bd08f2de8236e1608008fa9f38fba84881dcd055ca8d9250f7c"
+    },
+    {
+      "path": "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+      "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74"
+    },
+    {
+      "path": "operations/linkedin-awareness-execution/operations-imagegen-r1/A5-shared-native.png",
+      "sha256": "50567d3d976db5012dfad8124976c4dc79e0add208c0ac5121918a7e00419150"
+    },
+    {
+      "path": "operations/linkedin-awareness-execution/production-r3/dependencies/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f"
+    },
+    {
+      "path": "Semiconductor - Website & Ads.md",
+      "sha256": "182df43ba932997c37c1754c9d29d1b8539a63a24eeaaf19662eb86290bf5fd5"
+    },
+    {
+      "path": "drafts/S01_Proof_and_Message.md",
+      "sha256": "cf3a57dd537ac41e156509ecf1ae45d9c3c09e4bd3b4959b892af641a04093e3"
+    },
+    {
+      "path": "operations/Public_Source_Register.md",
+      "sha256": "e5d6d0a8a2c1cb8d87d0a14f7306bb092f8bdb7d19d3358a13db63f6f5e6d43d"
+    },
+    {
+      "path": "operations/linkedin-awareness-execution/evidence-register.md",
+      "sha256": "0cefc7da3c1b06a2c7066626533a0c94649fcae54bedf1d7077740c4023fe893"
+    },
+    {
+      "path": "operations/linkedin-awareness-execution/operations-p1-copy/source-pins.json",
+      "sha256": "ba340cdab1357201ceebb06a4dcf79bb6cf9f1745ceb8c29d61a7bb6b54645a9"
+    }
+  ],
+  "primary_support": {
+    "Taiwan_primary_archived": {
+      "url": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+      "local_path": "operations/linkedin-awareness-execution/evidence-register.md",
+      "lines": "18-24",
+      "locator": "提升現代化管理軟實力, observed source lines221-250",
+      "exact_quote": "透過經營管理 ERP 與生產製造 MES 系統",
+      "meaning": "ERP business management and MES production manufacturing systems",
+      "verified_at": "archived read-only source observation 2026-10-01, not freshly fetched in this correction"
+    },
+    "Fabless_primary_definition": {
+      "url": "https://openjicareport.jica.go.jp/pdf/12390787.pdf",
+      "locator": "section2.6.1 Fabless (design-focused) companies; search result observed2026-10-02",
+      "exact_quote": "Fabless companies are firms that do not own semiconductor manufacturing plants (fabs)",
+      "meaning": "Definition supports no-owned-fab distinction; chip-design activity also confirmed in SIA industry primer",
+      "scope": "fresh web search excerpt, not complete PDF review"
+    },
+    "local_brief": {
+      "path": "Semiconductor - Website & Ads.md",
+      "lines": "42,48,52",
+      "scope": "IC design/Fabless, forecast/outsource WIP/cost context; case leads not proof"
+    }
+  }
+}

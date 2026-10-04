@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "revision": "b-parent-release-v1",
+  "authorizer": "/root underBao directclosinglayoutmandate",
+  "authority_ref": {
+    "path": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/authority.md",
+    "sha256": "417c0cbb359b0aec3e62b9d2dd1e513668fad69d4d59992e29ad72bdd50575d7",
+    "revision": "POclosinglayout2026-10-03"
+  },
+  "purpose": "OFFLINE_IMAGEGEN",
+  "contract": {
+    "path": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/sol/b/contract.json",
+    "sha256": "9a08e48e861637ba15c90fe615f4238ba753c97943f682c2ec5d3a9e0938f2df",
+    "revision": "closing-layout-b-contract-v1-parent-review-pending"
+  },
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/common/p3-copy.json",
+    "sha256": "b5225251b5abe014caa2d9fcd2e38ebc3f70b19188ac28ac052f08d4ff41ca19",
+    "revision": "all-scenarios-wave0-p3-copy-v1-parent-review-pending"
+  },
+  "review": {
+    "path": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/b/review.json",
+    "sha256": "43531044072c7c551a7dec8cdb5c153adf6ae98ce668e7252ffab27e8ac50983",
+    "revision": "b-parent-source-review-v1"
+  },
+  "groups": [
+    [
+      "P3-A5"
+    ]
+  ]
+}

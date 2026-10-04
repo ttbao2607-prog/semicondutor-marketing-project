@@ -1,0 +1,31 @@
+{
+  "goal": "Record approved F3/P3 rollout plan and execute sequential controlled dogfood",
+  "authority_exact": "ghi plan vào worktree, Dùng local_orchestrator_cli quản lý chạy rollout.",
+  "baseline": "97d72a7f84b375d95dbf41c87a227fe949f44886",
+  "worker": "/root/dogfood_sol gpt-6.1-sol low native CLI leaf",
+  "coordinator": "/root operator final auditor",
+  "topology": "one reused writer, no recursive delegation",
+  "audit_mode": "SELF capacity fallback; parent has file/runtime/native/render modalities and final authority",
+  "scope": "F3-A1..A5 then P3-A1..A5; P3 only after F3 audit clear",
+  "call_limit": {
+    "base": 10,
+    "correction": 2,
+    "rounds": 1
+  },
+  "allowed_delta": "new rollout docs/copy/concepts/viewer/native files and current canonical notes/status",
+  "protected": "existing harness code/tests/legacy contracts/copies/images/evidence; global configs; live accounts",
+  "stop": "unresolved F3 failure beyond correction budget stops P3; failures keep testing_dogfood",
+  "freeze_condition": "all mandatory checks clear and Bao approval of exact finished carousels",
+  "git": "no new commit/push/merge authorization",
+  "ac": [
+    "source/copy pins and fresh dispatch",
+    "same Sol/R2 visual family",
+    "correct artwork text/source/mark",
+    "native square min1080",
+    "five-card continuity",
+    "meaningful F3/P3 story difference",
+    "normal desktop/mobile readable closing",
+    "no internal content in public export",
+    "bounded corrections and preserved originals"
+  ]
+}

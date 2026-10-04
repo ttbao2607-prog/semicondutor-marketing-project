@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "child_task": "/root/dogfood_sol",
+  "parent_admitted_child_id": "01a0ff50-0176-7ac0-8cef-ac6c6f33ee9b",
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning_effort": "low",
+  "runtime_configuration_evidence": "Parent independently admitted actual gpt-6.1-sol/low; runtime fields are not exposed directly to child.",
+  "start_utc": "2026-10-03T01:16:54.981692+00:00",
+  "start_scope": "Stage-1 file assembly; preceding instruction reads are not timed here",
+  "end_utc": "2026-10-03T01:16:54.997447+00:00",
+  "changed_files": [
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/contract.json",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/call-draft.json",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/viewer.json",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/concept.md",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/child-report.json"
+  ],
+  "protected_hashes_before": {
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/brief.json": "54fe7e4dba66de5491832ebb9eabc60bcd713422693e72b4ac0b9c8ff08f84a8",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/copy.json": "2e551ab0de465046e198ad0822417a72c585f3b35796c46dccca1876f859d2ea",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-copy.json": "dce82218734651c93aa662840ae74616e9483404e24905552279cad41f5aee52",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-storyboard.md": "780a9bdf1cc48d888d748c3eea4deb6741ecadf783eeb71d7051931c7379c1d5",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/palette-lighting-reference.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "scripts/verify_imagegen_preflight.py": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+    "tests/test_imagegen_preflight.py": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+    "operations/Ad_Artifact_Editorial_QA_Gate.md": "a045be594186b09c1e60fa41b276ac4ccdd4a9a20873d89f2ae738d4088c61e0"
+  },
+  "protected_hashes_after": {
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/brief.json": "54fe7e4dba66de5491832ebb9eabc60bcd713422693e72b4ac0b9c8ff08f84a8",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/copy.json": "2e551ab0de465046e198ad0822417a72c585f3b35796c46dccca1876f859d2ea",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-copy.json": "dce82218734651c93aa662840ae74616e9483404e24905552279cad41f5aee52",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-storyboard.md": "780a9bdf1cc48d888d748c3eea4deb6741ecadf783eeb71d7051931c7379c1d5",
+    "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/palette-lighting-reference.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "scripts/verify_imagegen_preflight.py": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+    "tests/test_imagegen_preflight.py": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+    "operations/Ad_Artifact_Editorial_QA_Gate.md": "a045be594186b09c1e60fa41b276ac4ccdd4a9a20873d89f2ae738d4088c61e0"
+  },
+  "stage_result": "PREPARED_FOR_PARENT_REVIEW",
+  "local_checks": [
+    "prompt equals gate.make_prompt",
+    "viewer byte-identical to common copy",
+    "protected common/code hashes unchanged",
+    "planned image path unoccupied"
+  ],
+  "not_executed": [
+    "preflight requiring parent review/release",
+    "image generation",
+    "rendered image review",
+    "Git mutation"
+  ],
+  "findings": []
+}

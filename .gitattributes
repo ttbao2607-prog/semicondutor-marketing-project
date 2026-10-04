@@ -1,0 +1,26 @@
+# Preserve checkpoint raw bytes for independent SHA256 pins across checkout.
+# -text prevents line-ending conversion; it does not disable textual diffs.
+operations/linkedin-imagegen-dogfood/** -text
+operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/** -text
+scripts/verify_imagegen_preflight.py -text
+tests/test_imagegen_preflight.py -text
+operations/LinkedIn_ImageGen_Preflight_Schema.md -text
+operations/LinkedIn_ImageGen_Visual_Instructions.md -text
+operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md -text
+operations/LinkedIn_Awareness_Campaign_Creative_Review.md -text
+operations/LinkedIn_ImageGen_Harness_Status.json -text
+operations/LinkedIn_ImageGen_Harness_Freeze_2026-10-03.md -text
+AGENTS.md -text
+.gitattributes -text
+operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md -text
+operations/LinkedIn_ImageGen_Hybrid_Full_Dogfood_Benchmark_2026-10-03.md -text
+operations/LinkedIn_ImageGen_Controlled_Rollout_Plan_2026-10-03.md -text
+operations/LinkedIn_ImageGen_Controlled_Rollout_Result_2026-10-03.md -text
+operations/LinkedIn_ImageGen_Closing_Forward_Rollout_Plan_2026-10-03.md -text
+operations/LinkedIn_ImageGen_Closing_Forward_Rollout_Result_2026-10-03.md -text
+operations/LinkedIn_ImageGen_Scoped_Freeze_2026-10-03.md -text
+operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Plan_2026-10-03.md -text
+operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Result_2026-10-03.md -text
+operations/LinkedIn_ImageGen_Closing_Layout_Selection_Plan_2026-10-03.md -text
+operations/LinkedIn_ImageGen_Closing_Layout_Selection_Result_2026-10-03.md -text
+operations/LinkedIn_ImageGen_Closing_Layout_B_Direct_Edit_Result_2026-10-03.md -text

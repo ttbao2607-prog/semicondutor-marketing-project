@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "stage_result": "DOGFOOD_INPUT_CHECKS_RECORDED",
+  "candidate": {
+    "call_id": "F2_A2",
+    "real_candidate_status": "NOT_RUN",
+    "actual_imagegen_call": false,
+    "selected_output_exists": false
+  },
+  "trusted_release": {
+    "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/luna/release.json",
+    "sha256": "edfe7b7bb5dae896d81678d366deda5753a89536d50842e60158296d921ac60a",
+    "revision": "parent-luna-one-call-release-v1"
+  },
+  "positive_checks": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/preflight.json",
+      "sha256": "5f0acccdde21d75d9a6c19db10c2ce653a25fbb330632f137b7b909afebe5950",
+      "layer": "PREGEN",
+      "mechanical_verdict": "PASS",
+      "creative_verdict": "INSUFFICIENT_EVIDENCE",
+      "authority": "NO_GENERATION_AUTHORITY",
+      "actual_dispatch_observed": null
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/dispatch-check.json",
+      "sha256": "4377a20e6c083090bdad0087e9709e519f21d767840c03d28f25608e498cfb5e",
+      "layer": "DISPATCH_CHECK",
+      "mechanical_verdict": "PASS",
+      "creative_verdict": "INSUFFICIENT_EVIDENCE",
+      "authority": "NO_GENERATION_AUTHORITY",
+      "actual_dispatch_observed": false
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/viewer-check.json",
+      "sha256": "96590d7eb58231a11af796523b121b08a6152571d3b38837f4a7d1e1900d4634",
+      "layer": "VIEWER_PAYLOAD_CHECK",
+      "mechanical_verdict": "PASS",
+      "creative_verdict": "INSUFFICIENT_EVIDENCE",
+      "authority": "NO_GENERATION_AUTHORITY",
+      "actual_dispatch_observed": null
+    }
+  ],
+  "candidate_specific_negative_cases": {
+    "case_count": 17,
+    "expected_rejections_observed": 17,
+    "all_expected_rejections_observed": true,
+    "cases": [
+      {
+        "case_id": "contract_bytes_changed",
+        "mutation": "Append whitespace to isolated contract.json bytes.",
+        "expected": {
+          "outcome": "REJECT",
+          "error_contains": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/contract.json"
+        },
+        "observed": {
+          "outcome": "REJECT",
+          "error_type": "Invalid",
+          "error": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/contract.json"
+        },
+        "matched_expected": true
+      },
+      {
+        "case_id": "copy_bytes_changed",
+        "mutation": "Append whitespace to isolated shared copy.json bytes.",
+        "expected": {
+          "outcome": "REJECT",
+          "error_contains": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/copy.json"
+        },
+        "observed": {
+          "outcome": "REJECT",
+          "error_type": "Invalid",
+          "error": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/copy.json"
+        },
+        "matched_expected": true
+      },
+      {
+        "case_id": "review_bytes_changed",
+        "mutation": "Append whitespace to isolated parent review.json bytes.",
+        "expected": {
+          "outcome": "REJECT",
+          "error_contains": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/luna/review.json"
+        },
+        "observed": {
+          "outcome": "REJECT",
+          "error_type": "Invalid",
+          "error": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/luna/review.json"
+        },
+        "matched_expected": true
+      },
+      {
+        "case_id": "source_bytes_changed",
+        "mutation": "Append whitespace to an isolated pinned source file.",
+        "expected": {
+          "outcome": "REJECT",
+          "error_contains": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-copy.json"
+        },
+        "observed": {
+          "outcome": "REJECT",
+          "error_type": "Invalid",
+          "error": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-copy.json"
+        },
+        "matched_expected": true
+      },
+      {
+        "case_id": "reference_bytes_changed",
+        "mutation": "Append bytes to an isolated pinned palette/lighting reference.",
+        "expected": {
+          "outcome": "REJECT",
+          "error_contains": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/palette-lighting-reference.png"
+        },
+        "observed": {
+          "outcome": "REJECT",
+          "error_type": "Invalid",
+          "error": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/palette-lighting-reference.png"
+        },
+        "matched_expected": true
+      },
+      {
+        "case_id": "prompt_changed",
+        "mutation": "Append unapproved prompt text and recompute its SHA-256.",
+        "expected": {
+          "outcome": "REJECT",
+          "error_contains": "Prompt differs from assembled approved inputs"
+        },
+        "observed": {
+          "outcome": "REJECT",
+          "error_type": "Invalid",
+          "error": "Prompt differs from assembled approved inputs"
+        },
+        "matched_expected": true
+      },
+      {
+        "case_id": "stale_receipt_after_spec_change",
+        "mutation": "Change only the isolated spec revision while keeping the previously saved receipt.",
+        "expected": {
+          "outcome": "REJECT",
+          "error_contains": "Stale or altered preflight receipt"
+        },
+        "observed": {
+          "outcome": "REJECT",
+          "error_type": "Invalid",
+          "error": "Stale or altered preflight receipt"
+        },
+        "matched_expected": true
+      },
+      {
+        "case_id": "substituted_release_vs_supplied_pin",
+        "mutation": "Use an altered isolated release file with the parent-supplied release SHA-256.",
+        "expected": {
+          "outcome": "REJECT",
+          "error_contains": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/luna/substituted-release.json"
+        },
+        "observed": {
+          "outcome": "REJECT",
+          "error_type": "Invalid",
+          "error": "Changed input: operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/operator/luna/substituted-release.json"
+        },
+        "matched_expected": true
+      },
+      {
+        "case_id": "dispatch_prompt_changed",
+        "mutation": "Alter dispatch prompt and recompute prompt hash.",
+        "expected": {
+          "outcome": "REJECT",
+          "error_contains": "Dispatch prompt differs from verified call"
+        },
+        "observed": {
+          "outcome": "REJECT",
+          "error_type": "Invalid",
+          "error": "Dispatch prompt differs from verified call"
+        },
+        "matched_expected": true
+      },
+      {
+        "case_id": "dispatch_reference_list_changed",
+        "mutation": "Replace exact ordered reference paths with an empty list.",
+        "expected": {
+          "outcome": "REJECT",
+          "error_contains": "Dispatch reference paths differ"
+        },
+        "observed": {
+          "outcome": "REJECT",
+          "error_type": "Invalid",
+          "error": "Dispatch reference paths differ"
+        },
+        "matched_expected": true
+      },
+      {
+        "case_id": "dispatch_receipt_hash_changed",
+        "mutation": "Replace the bound preflight receipt SHA-256.",
+        "expected": {
+          "outcome": "REJECT",
+          "error_contains": "Dispatch receipt hash mismatch"
+        },
+        "observed": {
+          "outcome": "REJECT",
+          "error_type": "Invalid",
+          "error": "Dispatch receipt hash mismatch"
+        },
+        "matched_expected": true
+      },
+      {
+        "case_id": "occupied_selected_output",
+        "mutation": "Create a sentinel only at the selected output path in the isolated case root.",
+        "expected": {
+          "outcome": "REJECT",
+          "error_contains": "Selected output would overwrite existing artifact"
+        },
+        "observed": {
+          "outcome": "REJECT",
+          "error_type": "Invalid",
+          "error": "Selected output would overwrite existing artifact"
+        },
+        "matched_expected": true
+      },
+      {
+        "case_id": "viewer_extra_internal_field",
+        "mutation": "Add extra viewer payload field 'internal'.",
+        "expected": {
+          "outcome": "REJECT",
+          "error_contains": "Viewer payload differs from approved public-field projection"
+        },
+        "observed": {
+          "outcome": "REJECT",
+          "error_type": "Invalid",
+          "error": "Viewer payload differs from approved public-field projection"
+        },
+        "matched_expected": true
+      },
+      {
+        "case_id": "viewer_extra_metadata",
+        "mutation": "Add extra viewer payload field 'metadata'.",
+        "expected": {
+          "outcome": "REJECT",
+          "error_contains": "Viewer payload differs from approved public-field projection"
+        },
+        "observed": {
+          "outcome": "REJECT",
+          "error_type": "Invalid",
+          "error": "Viewer payload differs from approved public-field projection"
+        },
+        "matched_expected": true
+      },
+      {
+        "case_id": "viewer_extra_hidden_data",
+        "mutation": "Add extra viewer payload field 'hidden'.",
+        "expected": {
+          "outcome": "REJECT",
+          "error_contains": "Viewer payload differs from approved public-field projection"
+        },
+        "observed": {
+          "outcome": "REJECT",
+          "error_type": "Invalid",
+          "error": "Viewer payload differs from approved public-field projection"
+        },
+        "matched_expected": true
+      },
+      {
+        "case_id": "viewer_extra_attachments",
+        "mutation": "Add extra viewer payload field 'attachments'.",
+        "expected": {
+          "outcome": "REJECT",
+          "error_contains": "Viewer payload differs from approved public-field projection"
+        },
+        "observed": {
+          "outcome": "REJECT",
+          "error_type": "Invalid",
+          "error": "Viewer payload differs from approved public-field projection"
+        },
+        "matched_expected": true
+      },
+      {
+        "case_id": "viewer_approved_text_changed",
+        "mutation": "Change approved viewer caption text.",
+        "expected": {
+          "outcome": "REJECT",
+          "error_contains": "Viewer payload differs from approved public-field projection"
+        },
+        "observed": {
+          "outcome": "REJECT",
+          "error_type": "Invalid",
+          "error": "Viewer payload differs from approved public-field projection"
+        },
+        "matched_expected": true
+      }
+    ]
+  },
+  "temporary_root_cleanup": {
+    "temporary_root": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/luna/.dogfood-tmp-stage2",
+    "created_case_roots": 17,
+    "removed_case_roots": 17,
+    "verified_markers": true,
+    "root_removed": true
+  },
+  "scope_note": "Mechanical/preflight and payload checks only. They do not establish actual dispatch, generated image quality, source/editorial acceptance, visual acceptance, buyer validation or live readiness."
+}

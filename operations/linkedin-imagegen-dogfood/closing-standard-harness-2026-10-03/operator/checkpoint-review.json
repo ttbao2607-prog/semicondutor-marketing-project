@@ -1,0 +1,31 @@
+{
+  "phase": "IMPLEMENTATION_COMPLETE_BEFORE_DOGFOOD",
+  "verdict": "PASS",
+  "protected_files": 1247,
+  "changed_allowed": [
+    "operations/LinkedIn_ImageGen_Preflight_Schema.md",
+    "operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Plan_2026-10-03.md",
+    "operations/LinkedIn_ImageGen_Closing_Layout_Selection_Plan_2026-10-03.md",
+    "tests/test_imagegen_preflight.py",
+    ".gitattributes",
+    "operations/Pre_Ad_Readiness_Plan.md",
+    "README.md",
+    "scripts/verify_imagegen_preflight.py",
+    "operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md",
+    "operations/LinkedIn_ImageGen_Harness_Status.json",
+    "operations/LinkedIn_ImageGen_Visual_Instructions.md",
+    "CURRENT_STATE.md",
+    "operations/LinkedIn_Awareness_Execution_Plan.md",
+    "ads/linkedin/LinkedIn_Build_Pack.md",
+    "DOCS_INDEX.md"
+  ],
+  "unit_checks": 65,
+  "gate_sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+  "tests_sha256": "2c383a475ecc44cfd72825d4a825b2aec1a90da49e42d856928c2dec878f97c2",
+  "reference_sha256": "016b69513d28bee0ab1b371e4ff5c8f4a86acb531a40125d72785622b01a7416",
+  "harness_upgrade": "IMPLEMENTATION_AUDIT_PASS_READY_FOR_CHECKPOINT",
+  "dogfood_image_calls": 0,
+  "freeze_upgrade": "NOT_YET_DOGFOOD_TESTED",
+  "prior_failures": "PRESERVED",
+  "authority": "Bao explicitlocalcheckpoint beforedogfood; no push/merge/live"
+}

@@ -1,0 +1,23 @@
+{
+  "VERDICT": "PASS",
+  "scope": "parent final documentation primary evidence binding only; candidate visual FAIL unchanged",
+  "report_sha256": "1c7137095da4b4e38e2b14e58d041856fa2dbcbb882d62cbdd04a06b166344b7",
+  "six_primary_report_refs_verified": [
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/final-audit.json",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/native-observations.json",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/final-mechanical-audit.json",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/native-metadata-audit.json",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/parent-fixtures-sol/dogfood-results-v2.json",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/operator/parent-fixtures-luna/dogfood-results-v2.json"
+  ],
+  "render_audit_sha256": "6decc76658bb87f74209723f296a5357e90f497fc847ea0f62f8f497d9e4812f",
+  "screenshot_sha256": {
+    "screenshots/sol-closing-desktop.jpg": "a8101f9ec96283c8ea03bfbcdfa333b7e05e111b89c82e7ef10812e79943fb18",
+    "screenshots/sol-closing-mobile.jpg": "f7727188b626e5c6678d63d4a2ea583ffe97b6f6de5b742de7a76f20d19606ea",
+    "screenshots/luna-closing-desktop.jpg": "15e0cb8cb034216bbdb719909a1f1c46dcfccfa6680a778c844fa7799e3c8446",
+    "screenshots/luna-closing-mobile.jpg": "90fc7b85e54bee226edb07530094e71c923f45b0e0bba9a23f7d91d69f8e1eb4"
+  },
+  "paired_model_gate": "Sol low/Luna max ACCEPTED by canonical gates after final writer turns",
+  "leaf_terminal_state": "No further task released; native close primitive unavailable",
+  "preview_cleanup": "Viewport reset/tab closed/owned server stopped"
+}

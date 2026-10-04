@@ -1,0 +1,68 @@
+{
+  "mechanical": {
+    "schema_version": 1,
+    "gate_version": 1,
+    "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+    "layer": "POSTGEN_DIMENSION_CHECK",
+    "mechanical_verdict": "PASS",
+    "purpose": "OFFLINE_IMAGEGEN",
+    "spec_path": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/operator/p3-correction/spec.json",
+    "release_path": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/operator/p3-correction/release.json",
+    "release_sha256": "d59a561dcedc56cbec0388d20d0efa3ecc416dccad80618f1f3dc1af7e64f1c2",
+    "scope_call_id": "P3_A5_R4",
+    "input_hashes": {
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/operator/authority.md": "23793060eaed368d1b2f6a85a5edcdf3abaeadf012fd1c7446ea98a4f8202e79",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/common/p3-copy.json": "b5225251b5abe014caa2d9fcd2e38ebc3f70b19188ac28ac052f08d4ff41ca19",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/operator/p3-correction/release.json": "d59a561dcedc56cbec0388d20d0efa3ecc416dccad80618f1f3dc1af7e64f1c2",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/operator/p3-correction/review.json": "ceaa7172f3209ebe5316cf82821e6683ade258550466220093854f46b461d895",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/operator/p3-correction/spec.json": "4fd360394a790220b55b2b3c955b5f95396c291c727e2e22b503a0a308625af2",
+      "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/sol/p3/corrections/contract.json": "e9947e81d5f60e1176d9da73ffe0efead090fa5a6ded81e00863ab2b5a441a59",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+      "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+      "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/P3/copy-vi.json": "ad2a4799b8a88ce565f146c7bbf2af8f3c2ff47908e3bb1532fbf3b18b2a6a02",
+      "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/P3/editorial-qa-receipt.md": "0257075362c27a26a3546e5bdcb2c5d81ea0463cc1b08eb6945289efe710207b",
+      "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/P3/source-pins.json": "719596b19ec545ae9dd6f312eee3373c92bac1967d4355d71e235b94f354fbe0",
+      "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/P3/storyboard-and-claims.md": "a15877aaffe6f7cc3edfe76e721f73ab1b759ffe5d1bf5a997e7993d931eeb2d",
+      "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/support/evidence-register.md": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+      "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/support/scenario-library.md": "5e7939dfee23481e14af7db5aa6faa916528853b4bc886f4e55ee26793f82358",
+      "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/support/source-brief.md": "6abeda531f6b2316e89073b99202de0a195caa11895243c9a8d99552bed2c90e"
+    },
+    "call_ids": [
+      "P3_A5_R4"
+    ],
+    "advisories": [],
+    "semantic_verdict": "NOT_ASSESSED",
+    "creative_verdict": "INSUFFICIENT_EVIDENCE",
+    "authority": "NO_GENERATION_AUTHORITY",
+    "call_id": "P3_A5_R4",
+    "output_path": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/sol/p3/corrections/native/p3-a5-r4.png",
+    "native_sha256": "867c3299bfe35dbeb352f915f960805158dff1c1198aa8c4dff3c12a53254f33",
+    "native_bytes": 1712924,
+    "actual_dimensions": [
+      1254,
+      1254
+    ],
+    "output_policy": {
+      "directory": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/sol/p3/corrections/native",
+      "extension": ".png",
+      "policy": "native_square_min",
+      "min_edge": 1080
+    },
+    "dimension_verdict": "PASS",
+    "native_provenance_verdict": "NOT_ASSESSED",
+    "rendered_artifact_verdict": "NOT_ASSESSED"
+  },
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "original_source": "C:\\Users\\ASUS\\.codex\\generated_images\\01a0ff10-9048-7ae0-abd6-eb6e6d40bce0\\exec-16367223-0ea2-4adf-921e-51737c55423d.png",
+  "original_sha256": "867c3299bfe35dbeb352f915f960805158dff1c1198aa8c4dff3c12a53254f33",
+  "native_sha256": "867c3299bfe35dbeb352f915f960805158dff1c1198aa8c4dff3c12a53254f33",
+  "copied_byte_exact": true,
+  "observed_utc": "2026-10-03T10:25:50.606547+00:00",
+  "call_kind": "CORRECTION"
+}

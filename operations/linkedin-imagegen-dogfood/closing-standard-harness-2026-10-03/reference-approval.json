@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "revision": "po-closing-standard-2026-10-03-v1",
+  "authority": "Bao exact current-session instruction, relayed by coordinator",
+  "authorization_exact": "oki chốt làm chuẩn harness, làm harness xong commit checkpoint r sau đó dogfood tiếp nhé để freeze harness.",
+  "accepted_native_original": "operations/linkedin-imagegen-dogfood/closing-layout-b-direct-edit-2026-10-03/sol/native/p3-a5-b-edited.png",
+  "accepted_native_sha256": "016b69513d28bee0ab1b371e4ff5c8f4a86acb531a40125d72785622b01a7416",
+  "reference": {
+    "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/references/po-accepted-closing-b.png",
+    "sha256": "016b69513d28bee0ab1b371e4ff5c8f4a86acb531a40125d72785622b01a7416",
+    "revision": "po-closing-standard-2026-10-03-v1"
+  },
+  "accepted_scope": "closing B layout hierarchy and exact edited image; project standard anchor",
+  "permitted_attributes": [
+    "layout_hierarchy",
+    "source_full_width",
+    "source_body_hierarchy",
+    "cta_separation"
+  ],
+  "not_transferred": [
+    "wording",
+    "data",
+    "objects",
+    "fixed_counts",
+    "exact_photographic_composition"
+  ],
+  "prior_parent_audit": {
+    "path": "operations/linkedin-imagegen-dogfood/closing-layout-b-direct-edit-2026-10-03/operator/parent-final-audit.json",
+    "sha256": "f2e68a4a01765bfa5e374fe719078d665e183f33767c4a8d5809ec28587f45ce"
+  },
+  "record_kind": "PO_DECISION_RECORD_NOT_PARENT_CONTRACT_ATTESTATION",
+  "future_generation_authority": "NONE_BEFORE_PARENT_COMMIT_AND_INDEPENDENT_RELEASE"
+}

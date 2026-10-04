@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "revision": "parent-sol-source-copy-review-v1",
+  "writer": "/root/dogfood_sol",
+  "reviewer": "/root independent operator/source-copy auditor",
+  "date": "2026-10-03",
+  "scope": "OFFLINE_SOURCE_COPY",
+  "independence": "INDEPENDENT",
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/sol/contract.json",
+      "sha256": "4bc98a99a6cfa0ca4186788c696b5b66c7a3e20a65f8484228f3d3e3e0ecff3c",
+      "revision": "benchmark-sol-f2-a2-contract-v1"
+    },
+    "copy": {
+      "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/copy.json",
+      "sha256": "2e551ab0de465046e198ad0822417a72c585f3b35796c46dccca1876f859d2ea",
+      "revision": "benchmark-f2-a2-copy-v1"
+    },
+    "sources": [
+      {
+        "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-copy.json",
+        "sha256": "dce82218734651c93aa662840ae74616e9483404e24905552279cad41f5aee52",
+        "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+      },
+      {
+        "path": "operations/linkedin-imagegen-dogfood/benchmark-2026-10-03/common/frozen-storyboard.md",
+        "sha256": "780a9bdf1cc48d888d748c3eea4deb6741ecadf783eeb71d7051931c7379c1d5",
+        "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+      }
+    ]
+  },
+  "verdicts": {
+    "source_copy": "PASS",
+    "editorial": "PASS",
+    "first_mention": "PASS"
+  },
+  "reviewed_ads": [
+    "A"
+  ],
+  "reviewed_fields": [
+    "A/caption",
+    "A/A2.headline",
+    "A/A2.body",
+    "A/A2.source_text",
+    "A/A2.cta",
+    "A/A2.native_headline",
+    "A/A2.alt",
+    "A/A2.artwork_labels"
+  ],
+  "unresolved_findings": []
+}

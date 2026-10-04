@@ -1,0 +1,13 @@
+# Operator source/copy review — internal only
+
+2026-10-03. Reviewer /root is distinct from both candidate writers. Compared exact F2-A2 headline, body and native headline against the frozen JSON at 1f476c31; no capability, measured result or regional generalization added. Frozen storyboard classifies intermediate copy as a conditional planning comparison. Empty source/CTA fields on this non-closing card do not remove the closing source's Taiwan qualifier; that card is outside this pilot.
+
+Reviewed shared caption introduces Digiwin/ERP and explicitly explains Fabless and WIP at their first occurrences. ERP/MES exemptions are retained; definitions are not inherited from another ad. The shared new alt describes the intended three-way comparison without committing to old paper/calendar/chip-tray props; actual-raster accuracy remains a post-generation requirement. Three approved diagram labels repeat the exact dimensions named by the headline/body, with no fabricated identifiers, dates, statuses or performance outcomes. Customer copy contains no agent confidence/validation notes.
+
+Retained frozen hard limits: caption 255 (target 180), native headline 45, artwork headline 45, body 180. Actual caption 157, native headline 28, headline 34, body 109. Old stored A2 body count 148 is not trusted. Newly declared label/alt/source/CTA caps bind this bounded contract; they do not relax a known original hard limit.
+
+Inspected both actual reference files. The original artwork supplies palette/light/shadows only, never its composition, wording, props or tiles. The official Digiwin asset alone supplies brand-mark identity. Native preservation and logo/glyph inspection remain required after generation.
+
+Sol proposal review: equal-weight undirected links and a comparison outline connect the three dimensions without claiming a process, automatic function or result. Exact approved labels/headline/body only; concept instructions are not printed copy. Structural operator script checks identity and shape but does not perform this semantic review or grant human creative acceptance.
+
+Luna proposal review: a balanced three-way scope map with date-free planning bracket and blank lot tiles connects the same reviewed dimensions. The unlabelled blue offset cue expresses the caption's forecast-change situation without adding a numerical before/after result. Non-directional lines, no identifiers/metrics/statuses/capabilities and unchanged approved wording keep the proposal within the same source boundary. Actual image, mark, wording and glyph review remain pending. The same 1024x1024 input requirement is retained for this second trial; the first tool output's 1254x1254 mismatch is recorded rather than silently relaxing the shared criterion.

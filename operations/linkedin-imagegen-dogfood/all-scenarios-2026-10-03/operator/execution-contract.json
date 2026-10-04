@@ -1,0 +1,53 @@
+{
+  "revision": "remaining-rollout-parent-v1",
+  "baseline": "882e621d5e1fb6a04710be59c08ba287cbf3d0ed",
+  "goal": "Ten remaining Vietnamese5card treatments meeting exactwording/source/mobile and R2/Sol campaign narrative consistency",
+  "role": "Coordinator/Auditor",
+  "surface": "native CodexCLI",
+  "locality": "D:\\linkedin-awareness-harness-redesign",
+  "coordinator_override_adoption": "NOT_APPLIED",
+  "audit_mode": "SELF",
+  "audit_reason": "Two authorized leaves allocated disjoint production preparation and source review; parent independently verifies source/gates/native/render/protected scope",
+  "workers": {
+    "A": "/root/dogfood_sol gpt-6.1-sol/low; wave0 draft then sole wave production prep",
+    "B": "/root/rollout_source_sol gpt-6.1-sol/low; source-review drafts only"
+  },
+  "model_override": "PO exactSol/low currentgoal; repo defaultsame",
+  "protected": "All prior receipts/audits/copy/native/frozenviewer/gate/tests; only newnamespace and explicitly synchronizedcurrentdocs mutable",
+  "AC": {
+    "AC01": "STRUCTURAL/CONTRACT: exactsourceprojection and reviewedqualified deltas pinned independently ofcall spec",
+    "AC02": "BEHAVIORAL/RUNTIME: exactworker admission/acceptance plusfreshpreflight/dispatch/native byteidentity square>=1080",
+    "AC03": "VISUAL: exacttext/logo/pendingmeanings noinventeddata/microglyphs; sourcebody-sized readablenozoom mobile390/image317-333",
+    "AC04": "VISUAL: full5desktop/mobile positions/navigation +4transitions/scenario +crossscenario frozenF3style",
+    "AC05": "STRUCTURAL/CONTRACT: clean publicreader/export nointernalnotes; protectedhashes stable,currentdocs accurate, nooldPASSrewrite",
+    "AC06": "STRUCTURAL/CONTRACT: actualcalls/reuse/correctioncounts separated; exactsets NOT_FROZEN withoutPOacceptance"
+  },
+  "waves": [
+    [
+      "P3"
+    ],
+    [
+      "F1",
+      "F2"
+    ],
+    [
+      "P1",
+      "P2"
+    ],
+    [
+      "O2",
+      "O4-O"
+    ],
+    [
+      "O1",
+      "O4-Q"
+    ],
+    [
+      "O3"
+    ]
+  ],
+  "base_ceiling": 46,
+  "correction_ceiling": 10,
+  "terminal": "EachscenarioPASS pendingPOorFAIL/CHANGES_REQUIRED afteroneboundedcorrection; broaderresultPARTIALifanyfailed/held",
+  "generation_mode": "builtinimagegen only; noAPI fallback"
+}

@@ -1,0 +1,13 @@
+{
+  "stage": "READY_FOR_PARENT_SOURCE_COPY_CONTRACT_AUDIT",
+  "new_call": "P3_A5_R3",
+  "copy_sha256": "b5225251b5abe014caa2d9fcd2e38ebc3f70b19188ac28ac052f08d4ff41ca19",
+  "contract_sha256": "7411e8a34ce09230715161a94248e7676560f3a5b2858d4f6aab9507dd6123fc",
+  "calls_draft_sha256": "446010c4a11d073245290b26aa5b65450242eb919ce5e07ad0ce9ebe6c1b033d",
+  "prompt_sha256": "ab98cbee0fe4252d2621503e1adbcdaaf9ea27ef4707c12d9295b450ff36e4f6",
+  "reuse_count": 4,
+  "references_count": 5,
+  "generation": "NOT_RUN",
+  "protected_prior_gate_tests_unchanged": true,
+  "future_wave_setup": "consume otherleaf source/draft outputs read-only after parent review; fresh wave-owned contracts/calls/pins and immutable reuse manifest; parent operator binding/closing-first dispatch; no writes to otherleaf/operator"
+}

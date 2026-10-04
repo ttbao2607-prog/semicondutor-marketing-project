@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "revision": "rollout-f3-parent-release-v1",
+  "authorizer": "/root under direct Bao rollout mandate",
+  "authority_ref": {
+    "path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/operator/authority.md",
+    "sha256": "306f77aab740ef7d80b57a3ce6d303b65a6ec0baa819c22e1038a44f8d276a1f",
+    "revision": "PO-rollout-2026-10-03"
+  },
+  "purpose": "OFFLINE_IMAGEGEN",
+  "contract": {
+    "path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/contract.json",
+    "sha256": "4fec59ac462280bdfb7f6292fc827b0a4e60f153b4e8048c9313bac7ac11de22",
+    "revision": "rollout-f3-sol-contract-v1-parent-review-pending"
+  },
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/f3-copy.json",
+    "sha256": "9e8182b2235d3393e3bbf69485f6eb95fe45adffcb67825dc4561878f59cc0bc",
+    "revision": "f3-copy-v1-parent-review-pending"
+  },
+  "review": {
+    "path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/operator/f3/review.json",
+    "sha256": "b4e25373e71d074237ac9eb52fe34bbc8b8897b05712ed9c026cc2f42c61f85f",
+    "revision": "rollout-f3-parent-source-review-v1"
+  },
+  "groups": [
+    [
+      "F3-A1"
+    ],
+    [
+      "F3-A2"
+    ],
+    [
+      "F3-A3"
+    ],
+    [
+      "F3-A4"
+    ],
+    [
+      "F3-A5"
+    ]
+  ]
+}

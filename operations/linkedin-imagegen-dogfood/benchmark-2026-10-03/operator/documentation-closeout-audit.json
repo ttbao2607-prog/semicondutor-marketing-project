@@ -1,0 +1,20 @@
+{
+  "verdict": "PASS_DOCUMENTATION_AND_EVIDENCE_RECONCILIATION",
+  "candidate_contract_verdict_unchanged": "FAIL",
+  "baseline": "7e95a44dc5a3e5c25c07cda7c0f905822b8ba864",
+  "staged_changes": false,
+  "git_mutations": false,
+  "protected_code_test_editorial_hashes": {
+    "scripts/verify_imagegen_preflight.py": "2b4c7666887fe2d8c3973fb79ac6a3379b0cbba375c9c82fd92fac0553c690f7",
+    "tests/test_imagegen_preflight.py": "86c0110b04ce84746c84d0e03fb1344ed0937e2c72a3e87cf5b1a32062e02b15",
+    "operations/Ad_Artifact_Editorial_QA_Gate.md": "a045be594186b09c1e60fa41b276ac4ccdd4a9a20873d89f2ae738d4088c61e0"
+  },
+  "report_evidence_hashes_verified": 20,
+  "current_status_reconciled": true,
+  "historical_document_content_preserved": true,
+  "native_source_and_export_bytes_preserved": true,
+  "exports_only_two_files_each": true,
+  "no_new_generation_or_correction": true,
+  "final_audit_sha256": "f61fed5b34ee0a244500b9b359bb91171400a26a689e19797a9a30a164ff8747",
+  "report_sha256": "aac9d8a6844bf843cba94c99e3ed9cf99c73b272df53754f57c46fd63cb639bd"
+}

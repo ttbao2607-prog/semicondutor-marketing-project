@@ -1,0 +1,295 @@
+{
+  "AUDIT_SCOPE": "SELF parent independent closing-layout-preview native/bindings/public/render/protection; no harness production acceptance",
+  "CONTRACT_REF": {
+    "path": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/execution-contract.json",
+    "sha256": "361510df18f240e8395872c444b928edd1b8115847b3d71bb3a693e836542d11"
+  },
+  "BASELINE_REF": "abed669ff9da88be75aa624b4aff540eb6049b58 local-only; scoped mechanism/exactF3 protected",
+  "CANDIDATE_REF": {
+    "layout": "b-refine",
+    "native_sha256": "2d458318a142b68e93d0fad6fd113dbd9a981ed085bf16a83c4ebd68a2ffcf0b",
+    "render": {
+      "path": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/render/layout-b-refine-desktop-5.png",
+      "sha256": "c945aeea45efbdeffd13e961ce3319ce710cde1b055ae74237a48a34c4b19bf7"
+    }
+  },
+  "VERDICT": "FAIL",
+  "COVERAGE": {
+    "AC01": "PASS — STRUCTURAL/CONTRACT — three separately pinned contract/copy/review/release/spec receipts",
+    "AC02": "PASS — BEHAVIORAL/RUNTIME — Sol/low acceptance plus three preflight/dispatch/native original1254 receipts",
+    "AC03": "FAIL — VISUAL — A/B extra diagramwords, A absent regional label; chosen Brefine source smallerthanbody and skylinecolumn narrows source atmobile332.6667",
+    "AC04": "PASS — VISUAL/BEHAVIORAL scoped — all30fullcard positions plus4transitions pervariant; broad R2officeblue/semiconductor/diagram family retained, closing acceptance separate",
+    "AC05": "PASS — STRUCTURAL/CONTRACT — three7filepublicbundles exactprojection and protected trackedbytes unchangedexcept10explicitcanonicalpaths",
+    "AC06": "PASS — STRUCTURAL/CONTRACT — two baseonechosenrefine; BaoBdirectionchosen only, exactfinishedlayout NOT_ACCEPTED/noharnessupdate"
+  },
+  "FINDINGS": {
+    "FAILED_AC": "AC03",
+    "EXPECTED": "ChosenB fullwidth source atmainbody hierarchy, no decorativeiconcolumn; exact approved wording/labels only",
+    "OBSERVED": "BaseA/B introduced three unapproveddiagramlabels; A omitted Taiwanregional label. ChosenBrefine removesextra diagramwords but addsTaipeiskylinecolumn taking sourcewidth, source visiblysmallerthanbody and largephoto takesprimaryreadingarea",
+    "EVIDENCE": {
+      "mobile": {
+        "path": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/render/layout-b-refine-mobile-5.png",
+        "sha256": "61b7622a21d1b3332b78f85fb9b0ce0237207d2679ff6d3080222172df105ce4"
+      },
+      "desktop": {
+        "path": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/render/layout-b-refine-desktop-5.png",
+        "sha256": "c945aeea45efbdeffd13e961ce3319ce710cde1b055ae74237a48a34c4b19bf7"
+      },
+      "native": "2d458318a142b68e93d0fad6fd113dbd9a981ed085bf16a83c4ebd68a2ffcf0b"
+    },
+    "EVIDENCE_GAP": "No precise rasterfont-size claim; visual comparison observed atactualmobile390/image332.6667, nozoom. No exactfinishedimage POacceptance",
+    "RESTORE_CONDITION": "A separately authorized correction preserving chosenB actualcomposition with sourcebody-like fullwidth and exactwords, then freshnative/mobile/full5audit and Baoexactrenderacceptance",
+    "REQUIRED_RECHECK": "Affectedclosing native/mobile/desktop wording/hierarchy plus unchangedA1–4 continuity andprotected/publicboundaries"
+  },
+  "counts": {
+    "base_calls": 2,
+    "chosen_refine_calls": 1,
+    "chosen_refine_remaining": 0,
+    "reused_P3_A1_A4": 4,
+    "image_calls_total": 3,
+    "render_positions": 30,
+    "unit_tests_this_phase": "NOT_RUN gate/testsunchanged; freshartifactgatechecks executed",
+    "harness_changes": 0
+  },
+  "layout_dispositions": {
+    "a": "FAIL exactwords/missingregional label; layoutnotselected",
+    "b": "CHANGES_REQUIRED exactdiagramlabels/sourcehierarchy; selecteddirection only",
+    "b-refine": "FAIL sourcehierarchy/forbiddenskylinecolumn, removeddiagramlabels scopedPASS"
+  },
+  "narrative_transitions": [
+    "question aboutlot → clarify scope",
+    "scope → select relevantrecords",
+    "records → responsible review",
+    "responsible review → management/source/nextreading; closingreadabilityFAILseparate"
+  ],
+  "frozenF3_comparison": "Observed priorfrozenF3mobileclosing and unchangedrawbaseline/hash: broadfamilyretained, cannotoverridesourcehierarchyFAIL",
+  "bundle_checks": {
+    "a": {
+      "files": {
+        "index.html": "ba040b4d9198b00db368aad9002615f42fb4c466a69a863dfad0844ab0f99ef8",
+        "assets/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+        "assets/p3-a1.png": "4beaf34b2ddff6b63fffa1f24d5fc947fcad5e54990f7e2a3532169fd87e7f72",
+        "assets/p3-a2.png": "308abf1daefb058fe6ad14752626711e5371d65b4f5bc5988c7b24d2728417f8",
+        "assets/p3-a3.png": "6460d333656d83c8a177ba078d73325890bd63b2eff5e805ab1a15f2bad014a0",
+        "assets/p3-a4.png": "c12bb7176508a0cc47776a1446f4986eb167a2a0b6b4c3d27c005f4a129627e9",
+        "assets/p3-a5.png": "1913a7b6f2755c549e19564ed5dec0d04e0db1c5599b1db9c094b9bb439d481a"
+      },
+      "copy_projection_sha256": "b5225251b5abe014caa2d9fcd2e38ebc3f70b19188ac28ac052f08d4ff41ca19",
+      "native_check": {
+        "schema_version": 1,
+        "gate_version": 1,
+        "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+        "layer": "POSTGEN_DIMENSION_CHECK",
+        "mechanical_verdict": "PASS",
+        "purpose": "OFFLINE_IMAGEGEN",
+        "spec_path": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/a/spec.json",
+        "release_path": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/a/release.json",
+        "release_sha256": "10fdf125d0ab5fd1fbdadd3f8fc2aa7af958c592f5f2c1ed41824b085f9ba4d4",
+        "scope_call_id": "P3_A5_LAYOUT_A",
+        "input_hashes": {
+          "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/common/p3-copy.json": "b5225251b5abe014caa2d9fcd2e38ebc3f70b19188ac28ac052f08d4ff41ca19",
+          "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/a/release.json": "10fdf125d0ab5fd1fbdadd3f8fc2aa7af958c592f5f2c1ed41824b085f9ba4d4",
+          "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/a/review.json": "8a0e16254eae3849ae994e8c900690e85ad9e08d2071d43af6f7e9873bdd96c9",
+          "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/a/spec.json": "82d161343f211848fdc8fe056178cb5d65852b5a0732fcd9f05bd07cae612a9e",
+          "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/authority.md": "417c0cbb359b0aec3e62b9d2dd1e513668fad69d4d59992e29ad72bdd50575d7",
+          "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/sol/a/contract.json": "1d0b5a4925896b2573a9cb12062c7a099ba209f4fbc175270ea815c3abb0ece0",
+          "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+          "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+          "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+          "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/P3/copy-vi.json": "ad2a4799b8a88ce565f146c7bbf2af8f3c2ff47908e3bb1532fbf3b18b2a6a02",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/P3/editorial-qa-receipt.md": "0257075362c27a26a3546e5bdcb2c5d81ea0463cc1b08eb6945289efe710207b",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/P3/source-pins.json": "719596b19ec545ae9dd6f312eee3373c92bac1967d4355d71e235b94f354fbe0",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/P3/storyboard-and-claims.md": "a15877aaffe6f7cc3edfe76e721f73ab1b759ffe5d1bf5a997e7993d931eeb2d",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/support/evidence-register.md": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/support/scenario-library.md": "5e7939dfee23481e14af7db5aa6faa916528853b4bc886f4e55ee26793f82358",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/support/source-brief.md": "6abeda531f6b2316e89073b99202de0a195caa11895243c9a8d99552bed2c90e"
+        },
+        "call_ids": [
+          "P3_A5_LAYOUT_A"
+        ],
+        "advisories": [],
+        "semantic_verdict": "NOT_ASSESSED",
+        "creative_verdict": "INSUFFICIENT_EVIDENCE",
+        "authority": "NO_GENERATION_AUTHORITY",
+        "call_id": "P3_A5_LAYOUT_A",
+        "output_path": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/sol/a/native/p3-a5-layout-a.png",
+        "native_sha256": "1913a7b6f2755c549e19564ed5dec0d04e0db1c5599b1db9c094b9bb439d481a",
+        "native_bytes": 1687138,
+        "actual_dimensions": [
+          1254,
+          1254
+        ],
+        "output_policy": {
+          "directory": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/sol/a/native",
+          "extension": ".png",
+          "policy": "native_square_min",
+          "min_edge": 1080
+        },
+        "dimension_verdict": "PASS",
+        "native_provenance_verdict": "NOT_ASSESSED",
+        "rendered_artifact_verdict": "NOT_ASSESSED"
+      },
+      "public_boundary": "PASS",
+      "current_accepted": false
+    },
+    "b": {
+      "files": {
+        "index.html": "ba040b4d9198b00db368aad9002615f42fb4c466a69a863dfad0844ab0f99ef8",
+        "assets/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+        "assets/p3-a1.png": "4beaf34b2ddff6b63fffa1f24d5fc947fcad5e54990f7e2a3532169fd87e7f72",
+        "assets/p3-a2.png": "308abf1daefb058fe6ad14752626711e5371d65b4f5bc5988c7b24d2728417f8",
+        "assets/p3-a3.png": "6460d333656d83c8a177ba078d73325890bd63b2eff5e805ab1a15f2bad014a0",
+        "assets/p3-a4.png": "c12bb7176508a0cc47776a1446f4986eb167a2a0b6b4c3d27c005f4a129627e9",
+        "assets/p3-a5.png": "501f228d3a23b7ab90e302904fb7cac7ad2b9731133da702a0f8082218df2886"
+      },
+      "copy_projection_sha256": "b5225251b5abe014caa2d9fcd2e38ebc3f70b19188ac28ac052f08d4ff41ca19",
+      "native_check": {
+        "schema_version": 1,
+        "gate_version": 1,
+        "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+        "layer": "POSTGEN_DIMENSION_CHECK",
+        "mechanical_verdict": "PASS",
+        "purpose": "OFFLINE_IMAGEGEN",
+        "spec_path": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/b/spec.json",
+        "release_path": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/b/release.json",
+        "release_sha256": "087d4d433e716ccb0d2943b70907179c76fd96b03214dea563bdb38b62a0a80c",
+        "scope_call_id": "P3_A5_LAYOUT_B",
+        "input_hashes": {
+          "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/common/p3-copy.json": "b5225251b5abe014caa2d9fcd2e38ebc3f70b19188ac28ac052f08d4ff41ca19",
+          "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/authority.md": "417c0cbb359b0aec3e62b9d2dd1e513668fad69d4d59992e29ad72bdd50575d7",
+          "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/b/release.json": "087d4d433e716ccb0d2943b70907179c76fd96b03214dea563bdb38b62a0a80c",
+          "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/b/review.json": "43531044072c7c551a7dec8cdb5c153adf6ae98ce668e7252ffab27e8ac50983",
+          "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/b/spec.json": "3140d5c3607bc8094b2810a1657ea2e4ddc1695b8a660c6ea9e8d186956bf3b0",
+          "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/sol/b/contract.json": "9a08e48e861637ba15c90fe615f4238ba753c97943f682c2ec5d3a9e0938f2df",
+          "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+          "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+          "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+          "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/P3/copy-vi.json": "ad2a4799b8a88ce565f146c7bbf2af8f3c2ff47908e3bb1532fbf3b18b2a6a02",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/P3/editorial-qa-receipt.md": "0257075362c27a26a3546e5bdcb2c5d81ea0463cc1b08eb6945289efe710207b",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/P3/source-pins.json": "719596b19ec545ae9dd6f312eee3373c92bac1967d4355d71e235b94f354fbe0",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/P3/storyboard-and-claims.md": "a15877aaffe6f7cc3edfe76e721f73ab1b759ffe5d1bf5a997e7993d931eeb2d",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/support/evidence-register.md": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/support/scenario-library.md": "5e7939dfee23481e14af7db5aa6faa916528853b4bc886f4e55ee26793f82358",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/support/source-brief.md": "6abeda531f6b2316e89073b99202de0a195caa11895243c9a8d99552bed2c90e"
+        },
+        "call_ids": [
+          "P3_A5_LAYOUT_B"
+        ],
+        "advisories": [],
+        "semantic_verdict": "NOT_ASSESSED",
+        "creative_verdict": "INSUFFICIENT_EVIDENCE",
+        "authority": "NO_GENERATION_AUTHORITY",
+        "call_id": "P3_A5_LAYOUT_B",
+        "output_path": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/sol/b/native/p3-a5-layout-b.png",
+        "native_sha256": "501f228d3a23b7ab90e302904fb7cac7ad2b9731133da702a0f8082218df2886",
+        "native_bytes": 1650111,
+        "actual_dimensions": [
+          1254,
+          1254
+        ],
+        "output_policy": {
+          "directory": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/sol/b/native",
+          "extension": ".png",
+          "policy": "native_square_min",
+          "min_edge": 1080
+        },
+        "dimension_verdict": "PASS",
+        "native_provenance_verdict": "NOT_ASSESSED",
+        "rendered_artifact_verdict": "NOT_ASSESSED"
+      },
+      "public_boundary": "PASS",
+      "current_accepted": false
+    },
+    "b-refine": {
+      "files": {
+        "index.html": "ba040b4d9198b00db368aad9002615f42fb4c466a69a863dfad0844ab0f99ef8",
+        "assets/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+        "assets/p3-a1.png": "4beaf34b2ddff6b63fffa1f24d5fc947fcad5e54990f7e2a3532169fd87e7f72",
+        "assets/p3-a2.png": "308abf1daefb058fe6ad14752626711e5371d65b4f5bc5988c7b24d2728417f8",
+        "assets/p3-a3.png": "6460d333656d83c8a177ba078d73325890bd63b2eff5e805ab1a15f2bad014a0",
+        "assets/p3-a4.png": "c12bb7176508a0cc47776a1446f4986eb167a2a0b6b4c3d27c005f4a129627e9",
+        "assets/p3-a5.png": "2d458318a142b68e93d0fad6fd113dbd9a981ed085bf16a83c4ebd68a2ffcf0b"
+      },
+      "copy_projection_sha256": "b5225251b5abe014caa2d9fcd2e38ebc3f70b19188ac28ac052f08d4ff41ca19",
+      "native_check": {
+        "schema_version": 1,
+        "gate_version": 1,
+        "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+        "layer": "POSTGEN_DIMENSION_CHECK",
+        "mechanical_verdict": "PASS",
+        "purpose": "OFFLINE_IMAGEGEN",
+        "spec_path": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/b-refine/spec.json",
+        "release_path": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/b-refine/release.json",
+        "release_sha256": "b89dad6ae4d16ea1187ae65146444a84b3c7205f63bb52f39307f748d2da838f",
+        "scope_call_id": "P3_A5_LAYOUT_B_REFINE",
+        "input_hashes": {
+          "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave0/common/p3-copy.json": "b5225251b5abe014caa2d9fcd2e38ebc3f70b19188ac28ac052f08d4ff41ca19",
+          "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/b-refine/release.json": "b89dad6ae4d16ea1187ae65146444a84b3c7205f63bb52f39307f748d2da838f",
+          "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/b-refine/review.json": "30fae5223591034abf0b2ebcd158194b383ac3084c989bfd56acf2dd4602c1af",
+          "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/b-refine/spec.json": "af082fd2c8d3edf4c931f387e1500f0f6e52833e20437ca3fbde16ab2d445c01",
+          "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/operator/chosen-refine-authority.md": "6b2149088ddcc953cb976deb6ff44ccdd5a5e275b702a2c8eff9a0371986f130",
+          "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/sol/b-refine/contract.json": "ca42bf955fcafee36ba6af5399ec927a170641a5eef7df8be8ec0e98e8578abf",
+          "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+          "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+          "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+          "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/P3/copy-vi.json": "ad2a4799b8a88ce565f146c7bbf2af8f3c2ff47908e3bb1532fbf3b18b2a6a02",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/P3/editorial-qa-receipt.md": "0257075362c27a26a3546e5bdcb2c5d81ea0463cc1b08eb6945289efe710207b",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/P3/source-pins.json": "719596b19ec545ae9dd6f312eee3373c92bac1967d4355d71e235b94f354fbe0",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/P3/storyboard-and-claims.md": "a15877aaffe6f7cc3edfe76e721f73ab1b759ffe5d1bf5a997e7993d931eeb2d",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/support/evidence-register.md": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/support/scenario-library.md": "5e7939dfee23481e14af7db5aa6faa916528853b4bc886f4e55ee26793f82358",
+          "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/support/source-brief.md": "6abeda531f6b2316e89073b99202de0a195caa11895243c9a8d99552bed2c90e"
+        },
+        "call_ids": [
+          "P3_A5_LAYOUT_B_REFINE"
+        ],
+        "advisories": [],
+        "semantic_verdict": "NOT_ASSESSED",
+        "creative_verdict": "INSUFFICIENT_EVIDENCE",
+        "authority": "NO_GENERATION_AUTHORITY",
+        "call_id": "P3_A5_LAYOUT_B_REFINE",
+        "output_path": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/sol/b-refine/native/p3-a5-layout-b-refine.png",
+        "native_sha256": "2d458318a142b68e93d0fad6fd113dbd9a981ed085bf16a83c4ebd68a2ffcf0b",
+        "native_bytes": 1667549,
+        "actual_dimensions": [
+          1254,
+          1254
+        ],
+        "output_policy": {
+          "directory": "operations/linkedin-imagegen-dogfood/closing-layout-preview-2026-10-03/sol/b-refine/native",
+          "extension": ".png",
+          "policy": "native_square_min",
+          "min_edge": 1080
+        },
+        "dimension_verdict": "PASS",
+        "native_provenance_verdict": "NOT_ASSESSED",
+        "rendered_artifact_verdict": "NOT_ASSESSED"
+      },
+      "public_boundary": "PASS",
+      "current_accepted": false
+    }
+  },
+  "protected_tracked": 1142,
+  "changed_allowed_canonical": [
+    "CURRENT_STATE.md",
+    "DOCS_INDEX.md",
+    "README.md",
+    "ads/linkedin/LinkedIn_Build_Pack.md",
+    "operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md",
+    "operations/LinkedIn_Awareness_Execution_Plan.md",
+    "operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Plan_2026-10-03.md",
+    "operations/LinkedIn_ImageGen_Closing_Layout_Selection_Plan_2026-10-03.md",
+    "operations/LinkedIn_ImageGen_Harness_Status.json",
+    "operations/Pre_Ad_Readiness_Plan.md"
+  ],
+  "topology": "Reused one native local firstgeneration Sol/low leaf; no recursive delegation; completed turn not claimCLOSED",
+  "PO_decision": "Bdirection chosen; exactfinishedrender NOT_ACCEPTED; currentboundedbudgetconsumed. Await additionaldirection/refinement decision",
+  "public_artifacts": "Clean public-only readers; internalfindings/authority/status confinedrepo",
+  "Git": "checkpointcommittedlocallyfirst; subsequentpreview/currentdocs localuncommitted/unstaged; no push/merge/live"
+}

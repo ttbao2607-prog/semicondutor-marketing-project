@@ -1,0 +1,24 @@
+{
+  "parent_verified": [
+    {
+      "agent_path": "/root/dogfood_luna",
+      "expected_model": "gpt-6-luna",
+      "expected_effort": "max",
+      "native_child_thread_id": "01a0ff4f-c4db-7f11-b86a-87ade2499be6",
+      "acceptance_command_exit": 0,
+      "acceptance_observed_by_parent": true,
+      "admission_receipt_sha256": "e0a462fa108d4bade7cd3056a0c38fb59f1a00f17ec60287999e8ed723507c8b"
+    },
+    {
+      "agent_path": "/root/dogfood_sol",
+      "expected_model": "gpt-6.1-sol",
+      "expected_effort": "low",
+      "native_child_thread_id": "01a0ff50-0176-7ac0-8cef-ac6c6f33ee9b",
+      "acceptance_command_exit": 0,
+      "acceptance_observed_by_parent": true,
+      "admission_receipt_sha256": "ce95e11397bb85c6dd81790821ba719739a0382d8fcd835521a8e9184898e816"
+    }
+  ],
+  "comparison_turns": 4,
+  "sol_documentation_turn_excluded": true
+}

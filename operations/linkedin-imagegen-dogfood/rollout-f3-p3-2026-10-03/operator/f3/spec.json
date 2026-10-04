@@ -1,0 +1,578 @@
+{
+  "schema_version": 1,
+  "revision": "rollout-f3-spec-v1",
+  "release": {
+    "path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/operator/f3/release.json",
+    "sha256": "fdc28a88edaef211c1770096e1e83f8795fd783cee01b5002d6b84afb4c04ac7",
+    "revision": "rollout-f3-parent-release-v1"
+  },
+  "contract": {
+    "path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/contract.json",
+    "sha256": "4fec59ac462280bdfb7f6292fc827b0a4e60f153b4e8048c9313bac7ac11de22",
+    "revision": "rollout-f3-sol-contract-v1-parent-review-pending"
+  },
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/common/f3-copy.json",
+    "sha256": "9e8182b2235d3393e3bbf69485f6eb95fe45adffcb67825dc4561878f59cc0bc",
+    "revision": "f3-copy-v1-parent-review-pending"
+  },
+  "review": {
+    "path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/operator/f3/review.json",
+    "sha256": "b4e25373e71d074237ac9eb52fe34bbc8b8897b05712ed9c026cc2f42c61f85f",
+    "revision": "rollout-f3-parent-source-review-v1"
+  },
+  "calls": [
+    {
+      "call_id": "F3_A1",
+      "targets": [
+        "F3-A1"
+      ],
+      "references": [
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+          "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+          "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png",
+          "sha256": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png",
+          "sha256": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+          "role": "brand_asset",
+          "attributes": [
+            "brand_mark"
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "card_id": "F3-A1",
+          "concept_id": "handoff-open-question",
+          "reader_question": "Which records travel with the lot at a partner handoff?",
+          "description": "Create one finished square native PNG minimum1080 each edge. Print only exact approved artwork_text and official logo; caption/native headline/alt/internal instructions remain outside raster. All background papers and records completely blank: no microglyphs, charts, record labels, dates or values. No ticks, seals, badges or completed-state symbols. Use photographic material daylight office and appropriate semiconductor cues with integrated varied diagrams, stable official header/category/sequence and strong readable blue/navy headline/body. No simplistic flat template or fixed layout percentages. Keep text uncluttered. Closing regional/context/source text must be comfortably legible at317px image display, approximately body type, with generous allocated space. Oblique daylight office scene, a matte semiconductor carrier at the boundary between two separated pale material surfaces. Blank translucent record sleeves accompany the carrier but stop in an open handoff zone; grounded connectors pose a relationship to review, not completed delivery.",
+          "props": [
+            "matte semiconductor carrier",
+            "blank record sleeves",
+            "open handoff zone"
+          ],
+          "artwork_labels": [
+            "ERP · GIA CÔNG BÁN DẪN",
+            "1/5"
+          ]
+        }
+      ],
+      "artwork_text": {
+        "F3-A1": {
+          "headline": "Chuyển đối tác, đã rõ dữ liệu đi cùng?",
+          "body": "Khi một lô chuyển giữa các đối tác gia công, nhóm vận hành và chất lượng cần hỏi thông tin nào đi cùng lô và ai xác nhận tại điểm bàn giao.",
+          "source_text": "",
+          "cta": "",
+          "artwork_labels": [
+            "ERP · GIA CÔNG BÁN DẪN",
+            "1/5"
+          ]
+        }
+      },
+      "output_id": "f3-a1",
+      "output_path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/native/f3-a1.png",
+      "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"Use the six R2 references as a coherent campaign visual grammar: bright white, soft blue and navy; neutral daylight; soft grounded shadows; photographic material depth and a credible shared material world. Strong blue/navy headline, readable secondary text and stable official logo/category/sequence treatment. Integrate relationship diagrams into the same physical scene, with matching light, material and depth; a flat standalone white infographic alone does not establish the chosen R2 family. Vary view angle, scene scale, negative space and scene/diagram balance according to each card reader question or action. Fabless Planning scenes should express product, plan and outsourced-lot relationships; Partner Architecture scenes should express ownership, handoff, reconciliation and responsibility. Semiconductor cues must suit the cohort; never require OSAT chip trays for Fabless or Partner. Maintain identity and hierarchy across both complete five-card carousels while each card adds a distinct meaning. Support opening orientation, comparison, context, responsibility/next step and closing as a flexible narrative, not a mandatory universal workflow. Keep closing/source content clearly separated and readable at ordinary desktop and 390px mobile viewing scale without zoom. Preserve reviewed Taiwan attribution and source scope; do not imply a facility or deployment. Transfer only reviewed colors, lighting, shadows, material depth, typography hierarchy, campaign identity and scene-integrated diagram language. Never copy reference words, record values, exact composition or a fixed prop list; no 12/38/50 layout requirement, mandatory paper/pen/tray, five-folder count or Taipei skyline. Print only exact approved artwork fields/labels and the official mark; caption/native headline/alt stay outside raster. Diagrams may use only reviewed labels, with no invented identifiers dates metrics statuses guarantees or outcomes. Do not add internal proof/review caveats or technical instructions as viewer wording. Actual images must be judged per card, full five-card narrative and across scenarios; unique prompts, IDs, hashes or prop counts cannot prove visual quality.\",\"revision\":\"campaign-r2-hybrid-full-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"ERP · GIA CÔNG BÁN DẪN\",\"1/5\"],\"card_id\":\"F3-A1\",\"concept_id\":\"handoff-open-question\",\"description\":\"Create one finished square native PNG minimum1080 each edge. Print only exact approved artwork_text and official logo; caption/native headline/alt/internal instructions remain outside raster. All background papers and records completely blank: no microglyphs, charts, record labels, dates or values. No ticks, seals, badges or completed-state symbols. Use photographic material daylight office and appropriate semiconductor cues with integrated varied diagrams, stable official header/category/sequence and strong readable blue/navy headline/body. No simplistic flat template or fixed layout percentages. Keep text uncluttered. Closing regional/context/source text must be comfortably legible at317px image display, approximately body type, with generous allocated space. Oblique daylight office scene, a matte semiconductor carrier at the boundary between two separated pale material surfaces. Blank translucent record sleeves accompany the carrier but stop in an open handoff zone; grounded connectors pose a relationship to review, not completed delivery.\",\"props\":[\"matte semiconductor carrier\",\"blank record sleeves\",\"open handoff zone\"],\"reader_question\":\"Which records travel with the lot at a partner handoff?\"}]\nAPPROVED ARTWORK TEXT\n{\"F3-A1\":{\"artwork_labels\":[\"ERP · GIA CÔNG BÁN DẪN\",\"1/5\"],\"body\":\"Khi một lô chuyển giữa các đối tác gia công, nhóm vận hành và chất lượng cần hỏi thông tin nào đi cùng lô và ai xác nhận tại điểm bàn giao.\",\"cta\":\"\",\"headline\":\"Chuyển đối tác, đã rõ dữ liệu đi cùng?\",\"source_text\":\"\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+      "prompt_sha256": "9c98d4619edcc3f27246b019a3430bcd7082263b9bc4a9bda0901a293de4ebe8"
+    },
+    {
+      "call_id": "F3_A2",
+      "targets": [
+        "F3-A2"
+      ],
+      "references": [
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+          "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+          "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png",
+          "sha256": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png",
+          "sha256": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+          "role": "brand_asset",
+          "attributes": [
+            "brand_mark"
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "card_id": "F3-A2",
+          "concept_id": "single-transfer-scope",
+          "reader_question": "Which confirmed transfer point and product are under review?",
+          "description": "Create one finished square native PNG minimum1080 each edge. Print only exact approved artwork_text and official logo; caption/native headline/alt/internal instructions remain outside raster. All background papers and records completely blank: no microglyphs, charts, record labels, dates or values. No ticks, seals, badges or completed-state symbols. Use photographic material daylight office and appropriate semiconductor cues with integrated varied diagrams, stable official header/category/sequence and strong readable blue/navy headline/body. No simplistic flat template or fixed layout percentages. Keep text uncluttered. Closing regional/context/source text must be comfortably legible at317px image display, approximately body type, with generous allocated space. Closer elevated view of one unmarked die-design tile on a continuous curved material path. One open acrylic frame selects a single junction while other paths remain outside focus. The scene scopes one transfer without claiming a universal flow.",
+          "props": [
+            "die-design tile",
+            "material path",
+            "open acrylic frame"
+          ],
+          "artwork_labels": [
+            "ERP · GIA CÔNG BÁN DẪN",
+            "2/5"
+          ]
+        }
+      ],
+      "artwork_text": {
+        "F3-A2": {
+          "headline": "Điểm chuyển nào đang được xem xét?",
+          "body": "Chọn một điểm bàn giao cụ thể trong luồng đã được các bên xác nhận, bắt đầu với sản phẩm đang xét.",
+          "source_text": "",
+          "cta": "",
+          "artwork_labels": [
+            "ERP · GIA CÔNG BÁN DẪN",
+            "2/5"
+          ]
+        }
+      },
+      "output_id": "f3-a2",
+      "output_path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/native/f3-a2.png",
+      "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"Use the six R2 references as a coherent campaign visual grammar: bright white, soft blue and navy; neutral daylight; soft grounded shadows; photographic material depth and a credible shared material world. Strong blue/navy headline, readable secondary text and stable official logo/category/sequence treatment. Integrate relationship diagrams into the same physical scene, with matching light, material and depth; a flat standalone white infographic alone does not establish the chosen R2 family. Vary view angle, scene scale, negative space and scene/diagram balance according to each card reader question or action. Fabless Planning scenes should express product, plan and outsourced-lot relationships; Partner Architecture scenes should express ownership, handoff, reconciliation and responsibility. Semiconductor cues must suit the cohort; never require OSAT chip trays for Fabless or Partner. Maintain identity and hierarchy across both complete five-card carousels while each card adds a distinct meaning. Support opening orientation, comparison, context, responsibility/next step and closing as a flexible narrative, not a mandatory universal workflow. Keep closing/source content clearly separated and readable at ordinary desktop and 390px mobile viewing scale without zoom. Preserve reviewed Taiwan attribution and source scope; do not imply a facility or deployment. Transfer only reviewed colors, lighting, shadows, material depth, typography hierarchy, campaign identity and scene-integrated diagram language. Never copy reference words, record values, exact composition or a fixed prop list; no 12/38/50 layout requirement, mandatory paper/pen/tray, five-folder count or Taipei skyline. Print only exact approved artwork fields/labels and the official mark; caption/native headline/alt stay outside raster. Diagrams may use only reviewed labels, with no invented identifiers dates metrics statuses guarantees or outcomes. Do not add internal proof/review caveats or technical instructions as viewer wording. Actual images must be judged per card, full five-card narrative and across scenarios; unique prompts, IDs, hashes or prop counts cannot prove visual quality.\",\"revision\":\"campaign-r2-hybrid-full-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"ERP · GIA CÔNG BÁN DẪN\",\"2/5\"],\"card_id\":\"F3-A2\",\"concept_id\":\"single-transfer-scope\",\"description\":\"Create one finished square native PNG minimum1080 each edge. Print only exact approved artwork_text and official logo; caption/native headline/alt/internal instructions remain outside raster. All background papers and records completely blank: no microglyphs, charts, record labels, dates or values. No ticks, seals, badges or completed-state symbols. Use photographic material daylight office and appropriate semiconductor cues with integrated varied diagrams, stable official header/category/sequence and strong readable blue/navy headline/body. No simplistic flat template or fixed layout percentages. Keep text uncluttered. Closing regional/context/source text must be comfortably legible at317px image display, approximately body type, with generous allocated space. Closer elevated view of one unmarked die-design tile on a continuous curved material path. One open acrylic frame selects a single junction while other paths remain outside focus. The scene scopes one transfer without claiming a universal flow.\",\"props\":[\"die-design tile\",\"material path\",\"open acrylic frame\"],\"reader_question\":\"Which confirmed transfer point and product are under review?\"}]\nAPPROVED ARTWORK TEXT\n{\"F3-A2\":{\"artwork_labels\":[\"ERP · GIA CÔNG BÁN DẪN\",\"2/5\"],\"body\":\"Chọn một điểm bàn giao cụ thể trong luồng đã được các bên xác nhận, bắt đầu với sản phẩm đang xét.\",\"cta\":\"\",\"headline\":\"Điểm chuyển nào đang được xem xét?\",\"source_text\":\"\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+      "prompt_sha256": "7a81dcaca50f9188af5bf5b273655d21f8ab0cf4f6131c9d6ad19756c04060ea"
+    },
+    {
+      "call_id": "F3_A3",
+      "targets": [
+        "F3-A3"
+      ],
+      "references": [
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+          "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+          "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png",
+          "sha256": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png",
+          "sha256": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+          "role": "brand_asset",
+          "attributes": [
+            "brand_mark"
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "card_id": "F3-A3",
+          "concept_id": "identity-source-comparison",
+          "reader_question": "Can both sides identify the same lot and source?",
+          "description": "Create one finished square native PNG minimum1080 each edge. Print only exact approved artwork_text and official logo; caption/native headline/alt/internal instructions remain outside raster. All background papers and records completely blank: no microglyphs, charts, record labels, dates or values. No ticks, seals, badges or completed-state symbols. Use photographic material daylight office and appropriate semiconductor cues with integrated varied diagrams, stable official header/category/sequence and strong readable blue/navy headline/body. No simplistic flat template or fixed layout percentages. Keep text uncluttered. Closing regional/context/source text must be comfortably legible at317px image display, approximately body type, with generous allocated space. Two blank translucent record plates with different silhouettes approach an empty shared comparison surface beside an unmarked semiconductor substrate. Paired grounded channels remain distinct; no numbers, tables, charts or characters on records.",
+          "props": [
+            "blank record plates",
+            "semiconductor substrate",
+            "comparison surface"
+          ],
+          "artwork_labels": [
+            "ERP · GIA CÔNG BÁN DẪN",
+            "3/5"
+          ]
+        }
+      ],
+      "artwork_text": {
+        "F3-A3": {
+          "headline": "Cùng một lô, đã rõ nguồn hồ sơ?",
+          "body": "Đối chiếu mã lô, sản phẩm và nguồn hồ sơ liên quan theo thỏa thuận thực tế. Nếu cách định danh khác nhau, cần người phụ trách làm rõ trước khi cập nhật.",
+          "source_text": "",
+          "cta": "",
+          "artwork_labels": [
+            "ERP · GIA CÔNG BÁN DẪN",
+            "3/5"
+          ]
+        }
+      },
+      "output_id": "f3-a3",
+      "output_path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/native/f3-a3.png",
+      "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"Use the six R2 references as a coherent campaign visual grammar: bright white, soft blue and navy; neutral daylight; soft grounded shadows; photographic material depth and a credible shared material world. Strong blue/navy headline, readable secondary text and stable official logo/category/sequence treatment. Integrate relationship diagrams into the same physical scene, with matching light, material and depth; a flat standalone white infographic alone does not establish the chosen R2 family. Vary view angle, scene scale, negative space and scene/diagram balance according to each card reader question or action. Fabless Planning scenes should express product, plan and outsourced-lot relationships; Partner Architecture scenes should express ownership, handoff, reconciliation and responsibility. Semiconductor cues must suit the cohort; never require OSAT chip trays for Fabless or Partner. Maintain identity and hierarchy across both complete five-card carousels while each card adds a distinct meaning. Support opening orientation, comparison, context, responsibility/next step and closing as a flexible narrative, not a mandatory universal workflow. Keep closing/source content clearly separated and readable at ordinary desktop and 390px mobile viewing scale without zoom. Preserve reviewed Taiwan attribution and source scope; do not imply a facility or deployment. Transfer only reviewed colors, lighting, shadows, material depth, typography hierarchy, campaign identity and scene-integrated diagram language. Never copy reference words, record values, exact composition or a fixed prop list; no 12/38/50 layout requirement, mandatory paper/pen/tray, five-folder count or Taipei skyline. Print only exact approved artwork fields/labels and the official mark; caption/native headline/alt stay outside raster. Diagrams may use only reviewed labels, with no invented identifiers dates metrics statuses guarantees or outcomes. Do not add internal proof/review caveats or technical instructions as viewer wording. Actual images must be judged per card, full five-card narrative and across scenarios; unique prompts, IDs, hashes or prop counts cannot prove visual quality.\",\"revision\":\"campaign-r2-hybrid-full-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"ERP · GIA CÔNG BÁN DẪN\",\"3/5\"],\"card_id\":\"F3-A3\",\"concept_id\":\"identity-source-comparison\",\"description\":\"Create one finished square native PNG minimum1080 each edge. Print only exact approved artwork_text and official logo; caption/native headline/alt/internal instructions remain outside raster. All background papers and records completely blank: no microglyphs, charts, record labels, dates or values. No ticks, seals, badges or completed-state symbols. Use photographic material daylight office and appropriate semiconductor cues with integrated varied diagrams, stable official header/category/sequence and strong readable blue/navy headline/body. No simplistic flat template or fixed layout percentages. Keep text uncluttered. Closing regional/context/source text must be comfortably legible at317px image display, approximately body type, with generous allocated space. Two blank translucent record plates with different silhouettes approach an empty shared comparison surface beside an unmarked semiconductor substrate. Paired grounded channels remain distinct; no numbers, tables, charts or characters on records.\",\"props\":[\"blank record plates\",\"semiconductor substrate\",\"comparison surface\"],\"reader_question\":\"Can both sides identify the same lot and source?\"}]\nAPPROVED ARTWORK TEXT\n{\"F3-A3\":{\"artwork_labels\":[\"ERP · GIA CÔNG BÁN DẪN\",\"3/5\"],\"body\":\"Đối chiếu mã lô, sản phẩm và nguồn hồ sơ liên quan theo thỏa thuận thực tế. Nếu cách định danh khác nhau, cần người phụ trách làm rõ trước khi cập nhật.\",\"cta\":\"\",\"headline\":\"Cùng một lô, đã rõ nguồn hồ sơ?\",\"source_text\":\"\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+      "prompt_sha256": "d45abd93f52ecb788318f4ca8f9a5c11480be9aa1a109dace975d29ce57b6f6d"
+    },
+    {
+      "call_id": "F3_A4",
+      "targets": [
+        "F3-A4"
+      ],
+      "references": [
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+          "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+          "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png",
+          "sha256": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png",
+          "sha256": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+          "role": "brand_asset",
+          "attributes": [
+            "brand_mark"
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "card_id": "F3-A4",
+          "concept_id": "missing-information-pending",
+          "reader_question": "Who needs to confirm missing handoff information?",
+          "description": "Create one finished square native PNG minimum1080 each edge. Print only exact approved artwork_text and official logo; caption/native headline/alt/internal instructions remain outside raster. All background papers and records completely blank: no microglyphs, charts, record labels, dates or values. No ticks, seals, badges or completed-state symbols. Use photographic material daylight office and appropriate semiconductor cues with integrated varied diagrams, stable official header/category/sequence and strong readable blue/navy headline/body. No simplistic flat template or fixed layout percentages. Keep text uncluttered. Closing regional/context/source text must be comfortably legible at317px image display, approximately body type, with generous allocated space. A daylight side view shows two physical handoff surfaces separated by an open gap. One empty record sleeve stops at the gap, a spare blank insert awaits placement; two unmarked role markers sit on opposite sides. No checkmarks or completed bridge.",
+          "props": [
+            "open gap",
+            "blank insert",
+            "unmarked role markers"
+          ],
+          "artwork_labels": [
+            "ERP · GIA CÔNG BÁN DẪN",
+            "4/5"
+          ]
+        }
+      ],
+      "artwork_text": {
+        "F3-A4": {
+          "headline": "Ai xác nhận thông tin tại bàn giao?",
+          "body": "Ghi rõ phần thông tin chưa đủ và người cần xác nhận ở hai bên. Bước tiếp theo cần theo quy trình thực tế được các bên xác nhận.",
+          "source_text": "",
+          "cta": "",
+          "artwork_labels": [
+            "ERP · GIA CÔNG BÁN DẪN",
+            "4/5"
+          ]
+        }
+      },
+      "output_id": "f3-a4",
+      "output_path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/native/f3-a4.png",
+      "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"Use the six R2 references as a coherent campaign visual grammar: bright white, soft blue and navy; neutral daylight; soft grounded shadows; photographic material depth and a credible shared material world. Strong blue/navy headline, readable secondary text and stable official logo/category/sequence treatment. Integrate relationship diagrams into the same physical scene, with matching light, material and depth; a flat standalone white infographic alone does not establish the chosen R2 family. Vary view angle, scene scale, negative space and scene/diagram balance according to each card reader question or action. Fabless Planning scenes should express product, plan and outsourced-lot relationships; Partner Architecture scenes should express ownership, handoff, reconciliation and responsibility. Semiconductor cues must suit the cohort; never require OSAT chip trays for Fabless or Partner. Maintain identity and hierarchy across both complete five-card carousels while each card adds a distinct meaning. Support opening orientation, comparison, context, responsibility/next step and closing as a flexible narrative, not a mandatory universal workflow. Keep closing/source content clearly separated and readable at ordinary desktop and 390px mobile viewing scale without zoom. Preserve reviewed Taiwan attribution and source scope; do not imply a facility or deployment. Transfer only reviewed colors, lighting, shadows, material depth, typography hierarchy, campaign identity and scene-integrated diagram language. Never copy reference words, record values, exact composition or a fixed prop list; no 12/38/50 layout requirement, mandatory paper/pen/tray, five-folder count or Taipei skyline. Print only exact approved artwork fields/labels and the official mark; caption/native headline/alt stay outside raster. Diagrams may use only reviewed labels, with no invented identifiers dates metrics statuses guarantees or outcomes. Do not add internal proof/review caveats or technical instructions as viewer wording. Actual images must be judged per card, full five-card narrative and across scenarios; unique prompts, IDs, hashes or prop counts cannot prove visual quality.\",\"revision\":\"campaign-r2-hybrid-full-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"ERP · GIA CÔNG BÁN DẪN\",\"4/5\"],\"card_id\":\"F3-A4\",\"concept_id\":\"missing-information-pending\",\"description\":\"Create one finished square native PNG minimum1080 each edge. Print only exact approved artwork_text and official logo; caption/native headline/alt/internal instructions remain outside raster. All background papers and records completely blank: no microglyphs, charts, record labels, dates or values. No ticks, seals, badges or completed-state symbols. Use photographic material daylight office and appropriate semiconductor cues with integrated varied diagrams, stable official header/category/sequence and strong readable blue/navy headline/body. No simplistic flat template or fixed layout percentages. Keep text uncluttered. Closing regional/context/source text must be comfortably legible at317px image display, approximately body type, with generous allocated space. A daylight side view shows two physical handoff surfaces separated by an open gap. One empty record sleeve stops at the gap, a spare blank insert awaits placement; two unmarked role markers sit on opposite sides. No checkmarks or completed bridge.\",\"props\":[\"open gap\",\"blank insert\",\"unmarked role markers\"],\"reader_question\":\"Who needs to confirm missing handoff information?\"}]\nAPPROVED ARTWORK TEXT\n{\"F3-A4\":{\"artwork_labels\":[\"ERP · GIA CÔNG BÁN DẪN\",\"4/5\"],\"body\":\"Ghi rõ phần thông tin chưa đủ và người cần xác nhận ở hai bên. Bước tiếp theo cần theo quy trình thực tế được các bên xác nhận.\",\"cta\":\"\",\"headline\":\"Ai xác nhận thông tin tại bàn giao?\",\"source_text\":\"\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+      "prompt_sha256": "d4a86c4a3b9c09cac242c4898118469cb42e7925b1b28b6d06240cbe3a96146b"
+    },
+    {
+      "call_id": "F3_A5",
+      "targets": [
+        "F3-A5"
+      ],
+      "references": [
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+          "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+          "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png",
+          "sha256": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png",
+          "sha256": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+          "role": "brand_asset",
+          "attributes": [
+            "brand_mark"
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "card_id": "F3-A5",
+          "concept_id": "handoff-management-close",
+          "reader_question": "How do scope, source and confirmation support coordination?",
+          "description": "Create one finished square native PNG minimum1080 each edge. Print only exact approved artwork_text and official logo; caption/native headline/alt/internal instructions remain outside raster. All background papers and records completely blank: no microglyphs, charts, record labels, dates or values. No ticks, seals, badges or completed-state symbols. Use photographic material daylight office and appropriate semiconductor cues with integrated varied diagrams, stable official header/category/sequence and strong readable blue/navy headline/body. No simplistic flat template or fixed layout percentages. Keep text uncluttered. Closing regional/context/source text must be comfortably legible at317px image display, approximately body type, with generous allocated space. Wide bright office composition with a grounded three-part material relationship around a semiconductor die tile. Open connectors retain pending review. Reserve a large clean regional/source panel as prominent readable text, using approximately body-sized type at317px image display; no tiny footer.",
+          "props": [
+            "die tile",
+            "open material relationship",
+            "large source panel"
+          ],
+          "artwork_labels": [
+            "ERP · GIA CÔNG BÁN DẪN",
+            "5/5",
+            "Góc nhìn ngành tại Đài Loan"
+          ]
+        }
+      ],
+      "artwork_text": {
+        "F3-A5": {
+          "headline": "Từ dữ liệu lô đến căn cứ phối hợp.",
+          "body": "Đối chiếu phạm vi, nguồn và người xác nhận là căn cứ trao đổi. Tài liệu bán dẫn Digiwin tại Đài Loan đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+          "source_text": "Tài liệu bán dẫn Digiwin tại Đài Loan đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+          "cta": "Đọc thêm về bài toán Fabless",
+          "artwork_labels": [
+            "ERP · GIA CÔNG BÁN DẪN",
+            "5/5",
+            "Góc nhìn ngành tại Đài Loan"
+          ]
+        }
+      },
+      "output_id": "f3-a5",
+      "output_path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/native/f3-a5.png",
+      "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"Use the six R2 references as a coherent campaign visual grammar: bright white, soft blue and navy; neutral daylight; soft grounded shadows; photographic material depth and a credible shared material world. Strong blue/navy headline, readable secondary text and stable official logo/category/sequence treatment. Integrate relationship diagrams into the same physical scene, with matching light, material and depth; a flat standalone white infographic alone does not establish the chosen R2 family. Vary view angle, scene scale, negative space and scene/diagram balance according to each card reader question or action. Fabless Planning scenes should express product, plan and outsourced-lot relationships; Partner Architecture scenes should express ownership, handoff, reconciliation and responsibility. Semiconductor cues must suit the cohort; never require OSAT chip trays for Fabless or Partner. Maintain identity and hierarchy across both complete five-card carousels while each card adds a distinct meaning. Support opening orientation, comparison, context, responsibility/next step and closing as a flexible narrative, not a mandatory universal workflow. Keep closing/source content clearly separated and readable at ordinary desktop and 390px mobile viewing scale without zoom. Preserve reviewed Taiwan attribution and source scope; do not imply a facility or deployment. Transfer only reviewed colors, lighting, shadows, material depth, typography hierarchy, campaign identity and scene-integrated diagram language. Never copy reference words, record values, exact composition or a fixed prop list; no 12/38/50 layout requirement, mandatory paper/pen/tray, five-folder count or Taipei skyline. Print only exact approved artwork fields/labels and the official mark; caption/native headline/alt stay outside raster. Diagrams may use only reviewed labels, with no invented identifiers dates metrics statuses guarantees or outcomes. Do not add internal proof/review caveats or technical instructions as viewer wording. Actual images must be judged per card, full five-card narrative and across scenarios; unique prompts, IDs, hashes or prop counts cannot prove visual quality.\",\"revision\":\"campaign-r2-hybrid-full-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"ERP · GIA CÔNG BÁN DẪN\",\"5/5\",\"Góc nhìn ngành tại Đài Loan\"],\"card_id\":\"F3-A5\",\"concept_id\":\"handoff-management-close\",\"description\":\"Create one finished square native PNG minimum1080 each edge. Print only exact approved artwork_text and official logo; caption/native headline/alt/internal instructions remain outside raster. All background papers and records completely blank: no microglyphs, charts, record labels, dates or values. No ticks, seals, badges or completed-state symbols. Use photographic material daylight office and appropriate semiconductor cues with integrated varied diagrams, stable official header/category/sequence and strong readable blue/navy headline/body. No simplistic flat template or fixed layout percentages. Keep text uncluttered. Closing regional/context/source text must be comfortably legible at317px image display, approximately body type, with generous allocated space. Wide bright office composition with a grounded three-part material relationship around a semiconductor die tile. Open connectors retain pending review. Reserve a large clean regional/source panel as prominent readable text, using approximately body-sized type at317px image display; no tiny footer.\",\"props\":[\"die tile\",\"open material relationship\",\"large source panel\"],\"reader_question\":\"How do scope, source and confirmation support coordination?\"}]\nAPPROVED ARTWORK TEXT\n{\"F3-A5\":{\"artwork_labels\":[\"ERP · GIA CÔNG BÁN DẪN\",\"5/5\",\"Góc nhìn ngành tại Đài Loan\"],\"body\":\"Đối chiếu phạm vi, nguồn và người xác nhận là căn cứ trao đổi. Tài liệu bán dẫn Digiwin tại Đài Loan đặt ERP và MES trong bối cảnh quản trị và sản xuất.\",\"cta\":\"Đọc thêm về bài toán Fabless\",\"headline\":\"Từ dữ liệu lô đến căn cứ phối hợp.\",\"source_text\":\"Tài liệu bán dẫn Digiwin tại Đài Loan đặt ERP và MES trong bối cảnh quản trị và sản xuất.\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+      "prompt_sha256": "3e413e0b575df2f2a1201f893bbe6b8a839b9760ce5dba72226fbd5b05515399"
+    }
+  ]
+}

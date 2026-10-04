@@ -1,0 +1,20 @@
+{
+  "status": "CORRECTION_DRAFT_READY_PARENT_REVIEW_REQUIRED",
+  "target": "F2-A2",
+  "finding": "Parent native exact-copy FAIL: added final headline period",
+  "correction_kind": "FRESH_GENERATION_CAMPAIGN_REFERENCE_ONLY",
+  "approved_copy_unchanged": true,
+  "original_campaign_contract_unchanged_sha256": "5451d63d3b86a11ae86339bc69e8daf0624081b5602b10fc35e14299fb715006",
+  "contract_sha256": "753804fb22fa52c6301e441894280419974fa39818d53fdab63e5f8a90519059",
+  "calls_draft_sha256": "098085988e35a44b07e397ec0c93253f165f7c5fdcb947dfb81cfca4c28092a4",
+  "call_id": "F2_A2_R2",
+  "release_groups_required": [
+    [
+      "F2-A2"
+    ]
+  ],
+  "budget": "sole F2 targeted correction; consumed only when root calls",
+  "review_release_spec": "PARENT_ONLY_NOT_AUTHORED",
+  "new_generation": 0,
+  "historical_native": "UNCHANGED"
+}

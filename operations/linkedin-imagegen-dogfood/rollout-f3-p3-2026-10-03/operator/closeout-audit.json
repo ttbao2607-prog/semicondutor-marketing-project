@@ -1,0 +1,39 @@
+{
+  "AUDIT_SCOPE": "Final documentation, protection and export closeout; separate from creative audit FAIL",
+  "CONTRACT_REF": "operator/execution-contract.json",
+  "BASELINE_REF": "97d72a7f84b375d95dbf41c87a227fe949f44886",
+  "CANDIDATE_REF": {
+    "status_sha256": "da976f23cbecb4134c0cb731602cb380ee097c307a7ce4c91f8a101e76d22278",
+    "report_sha256": "5f71ce52cf37e4b841cc67c7075a2bd97d1f0b491cf82dd0037c9b05a26126bb"
+  },
+  "VERDICT": "PASS",
+  "AUDIT_MODE": "SELF capacity fallback; coordinator verified evidence",
+  "COVERAGE": [
+    "DOCS: PASS - STRUCTURAL/CONTRACT - current status bound to 5base1correction0P3, no parent candidate replay falsely asserted",
+    "PROTECTION: PASS - STRUCTURAL/CONTRACT - 782 original files checked; only8 allowed canonical docs changed; frozen gate/tests/default worker and historical scopes retained",
+    "EXPORT: PASS - STRUCTURAL/CONTRACT - both seven-file viewer manifests plus raw public projection verified",
+    "GIT: PASS - STRUCTURAL/CONTRACT - HEAD unchanged97d72a7, index empty; no commit/push; live remote not checked",
+    "STOP: PASS - BEHAVIORAL/RUNTIME - P3 release/native absent; F3 creative audit remainsFAIL; no more A5 attempt",
+    "RENDER_CLEANUP: PASS - BEHAVIORAL/RUNTIME - IAB tab closed, viewport reset, loopback server stopped and port free"
+  ],
+  "FINDINGS": {
+    "FAILED_AC": [],
+    "EXPECTED": "Accurate scoped closeout without false freeze/P3 completion",
+    "OBSERVED": "PASS closeout; creative FAIL remains",
+    "EVIDENCE": [
+      "operator/final-audit.json",
+      "operator/render-audit.json",
+      "../../LinkedIn_ImageGen_Controlled_Rollout_Result_2026-10-03.md"
+    ],
+    "EVIDENCE_GAP": "P3/crossscenario not run and exact finished-carousel PO acceptance not granted; explicitly not claimed",
+    "RESTORE_CONDITION": "New authorized closing solution and required checks before P3 release",
+    "REQUIRED_RECHECK": "New candidate source/native/mobile/continuity/export"
+  },
+  "overall_rollout_creative_verdict": "FAIL",
+  "execution_status": "PARTIAL",
+  "parent_disposition": "STOPPED_AT_F3_GATE",
+  "lifecycle": "testing_dogfood",
+  "parent_test_scope": "49 focused unit tests independently rerun; child19negative3positive reports reviewed, not parent replayed",
+  "child_runtime_acceptance": "ACCEPTED Sol low existing native leaf; no close primitive available, leaf completed",
+  "no_further_generation": true
+}

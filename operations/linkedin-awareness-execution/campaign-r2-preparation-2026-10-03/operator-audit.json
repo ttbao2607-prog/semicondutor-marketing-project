@@ -1,0 +1,222 @@
+{
+  "AUDIT_SCOPE": "R2 campaign visual kit and human review criteria preparation, reference authenticity, clean review guide, canonical synchronization and protected state",
+  "CONTRACT_REF": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/execution-contract.md; approved preparation-only request in this conversation",
+  "BASELINE_REF": "7e95a44dc5a3e5c25c07cda7c0f905822b8ba864 plus pre-task saved-byte inventory of 539 files",
+  "CANDIDATE_REF": {
+    "repo_files": [
+      {
+        "path": "operations/LinkedIn_Awareness_Campaign_Creative_Review.md",
+        "sha256": "2669292dc1aa4ebc43a894076eb7e02c2b680d0b8cf652738a3fa771fdb2476a"
+      },
+      {
+        "path": "operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md",
+        "sha256": "ea5712ceaf52f0a6ba1fdfd8ed13d44f84d5f3c74ce334f308ced7e3c24940db"
+      },
+      {
+        "path": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/campaign-brief-template.md",
+        "sha256": "007de1301959f5033e69d8be6b8b6a4aa821fd375824fdf7735b853a351127c6"
+      },
+      {
+        "path": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/execution-contract.md",
+        "sha256": "49f0e42f5be97a429ca908b1fd2a552f8294a0d1ed157ef554112d508cbb1783"
+      },
+      {
+        "path": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/preparation-record.json",
+        "sha256": "8b701640d4379cda82009825234efabaac3a3ba16cf58c7c942ef3d863538036"
+      },
+      {
+        "path": "operations/linkedin-awareness-execution/campaign-r2-preparation-2026-10-03/reference-manifest.json",
+        "sha256": "45aaa293b913d3dd5c7e6fdf9910e08b9113056642ecf063587d108fdfae5ec5"
+      },
+      {
+        "path": "CURRENT_STATE.md",
+        "sha256": "d8a07e674a7be6b76e06715f686b872f99b01c792cf9e1630ef13ade535bc26b"
+      },
+      {
+        "path": "DOCS_INDEX.md",
+        "sha256": "84bfdd4e8541cb8eee722645fdb85adf767fa947d78e497e3dd588813620b408"
+      },
+      {
+        "path": "README.md",
+        "sha256": "e82caaeafe069944b332f390a1d6c6f97e9d0a8015e23ad7d84a1065d88f36a9"
+      },
+      {
+        "path": "ads/linkedin/LinkedIn_Build_Pack.md",
+        "sha256": "fed83df18d5d2ae981530bb9729d35072ec641a7746538ad1eb96d59a0d4fc20"
+      },
+      {
+        "path": "operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md",
+        "sha256": "dbbfc2ef375fd9a4015aa43405fadf742c1d2412ab072615074e11678ace140e"
+      },
+      {
+        "path": "operations/LinkedIn_Awareness_Execution_Plan.md",
+        "sha256": "77f04e5dd6fbededddd6c5969e85ee6ad1789d25318d88e9234d7da714c5a234"
+      },
+      {
+        "path": "operations/LinkedIn_Awareness_ImageGen_Harness_Redesign_Plan.md",
+        "sha256": "dca3e376b82090347685afeaafce7ada3e12cc585c3822444bc5a3138436055e"
+      },
+      {
+        "path": "operations/LinkedIn_ImageGen_Harness_Status.json",
+        "sha256": "5cd42cba11ce690d60c5a6c02b97e5853625e2b57d997b39f07472d55939abb7"
+      },
+      {
+        "path": "operations/LinkedIn_ImageGen_Preflight_Schema.md",
+        "sha256": "4d485516949d499c9231fd2a39acb218b35867894d54350d3fa2d57f757e8a4b"
+      },
+      {
+        "path": "operations/LinkedIn_ImageGen_Visual_Instructions.md",
+        "sha256": "4ec79504cee8cab1efeda09c58b5fc7a2fcb469d96fb9b1bed9c9b2238514e52"
+      },
+      {
+        "path": "operations/Pre_Ad_Readiness_Plan.md",
+        "sha256": "9b601ee8e614ce5af8d3a065611f85e64397f75826a8ebf3e66cafc4f04dc4b8"
+      }
+    ],
+    "guide": {
+      "path": "C:/Users/ASUS/Documents/Codex/2026-10-03/chec/outputs/r2-campaign-guide/index.html",
+      "sha256": "1b4e4901ebaf59fce7e71b4a3fd743b52d9cf49dfa647e372cf173101c411d11"
+    },
+    "reference_files": [
+      {
+        "path": "operations/linkedin-awareness-execution/cold-feed-opening-pilot-r2/shared-cover-native.png",
+        "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+        "bytes": 1676618,
+        "native_dimensions": [
+          1254,
+          1254
+        ]
+      },
+      {
+        "path": "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/A2-v3-native.png",
+        "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+        "bytes": 1678280,
+        "native_dimensions": [
+          1254,
+          1254
+        ]
+      },
+      {
+        "path": "operations/linkedin-awareness-execution/production-imagegen-v2/remaining-pilot/B2-v2-native.png",
+        "sha256": "18f10926d26b2416ad269f5f7b2c51c6e96ec1b31cfb24da3d019eaa2155d334",
+        "bytes": 1645303,
+        "native_dimensions": [
+          1254,
+          1254
+        ]
+      },
+      {
+        "path": "operations/linkedin-awareness-execution/r2-critical-pilot/A3-native.png",
+        "sha256": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+        "bytes": 1681861,
+        "native_dimensions": [
+          1254,
+          1254
+        ]
+      },
+      {
+        "path": "operations/linkedin-awareness-execution/r2-complete-carousel/A4-native.png",
+        "sha256": "320c08cc1d5c8ad4286ea53215d130d846793c9383acae6b827d5808897865e7",
+        "bytes": 1633630,
+        "native_dimensions": [
+          1254,
+          1254
+        ]
+      },
+      {
+        "path": "operations/linkedin-awareness-execution/r2-complete-carousel/A5-shared-native.png",
+        "sha256": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+        "bytes": 1544835,
+        "native_dimensions": [
+          1254,
+          1254
+        ]
+      }
+    ]
+  },
+  "VERDICT": "PASS",
+  "COVERAGE": {
+    "AC1": "AC1: PASS — STRUCTURAL/CONTRACT + VISUAL — Six native references independently match Git681a237, original files, manifest hashes and output assets; critical and complete R2 history reconciled",
+    "AC2": "AC2: PASS — STRUCTURAL/CONTRACT + VISUAL — Corrected visual kit defines stable material/light/identity/hierarchy and integrated diagrams, flexible scenario objects and relationships; no universal prop quota, copied labels or fixed ratios",
+    "AC3": "AC3: PASS — STRUCTURAL/CONTRACT — Review criteria include card, full-carousel and cross-scenario observations, explicit Đạt/Chỉnh/Dừng rules and blank forms; no prefilled human acceptance or automatic creative guarantee",
+    "AC4": "AC4: PASS — STRUCTURAL/CONTRACT — Five-step workflow, campaign brief and storyboard template; proposed five-card ad plus two distinct-role cards, seven base and zero correction calls unreleased; minimum square native1080 forward-only; executable alignment honestly not implemented",
+    "AC5": "AC5: PASS — VISUAL + BEHAVIORAL/RUNTIME + STRUCTURAL/CONTRACT — CUA desktop1280x900 and mobile390x844 guide observed, six images loaded and uncropped, two/one columns, no horizontal overflow, readable criteria and working native-image link; whole HTML/export and native provenance inspected",
+    "AC6": "AC6: PASS — STRUCTURAL/CONTRACT + BEHAVIORAL/RUNTIME — Eleven canonical files synchronized, readiness READY_FOR_PO_REVIEW, production NOT_RUN; old candidate FAIL and image call counts preserved; 528 non-owned files unchanged; nine historical Markdown bodies hash-reconstructed after removing newest addendum"
+  },
+  "FINDINGS": [
+    {
+      "FAILED_AC": "AC3",
+      "EXPECTED": "Readable Vietnamese preparation material suitable for Product Owner review",
+      "OBSERVED": "Initial kit/criteria/brief and newest addenda used compressed mixed-language prose; one same-writer correction rewrote them in clear Vietnamese and added usable blank review forms; parent re-read and closed the finding",
+      "EVIDENCE": "Final candidate hashes above for kit, criteria, brief and current canonical addenda; native child correction turn",
+      "EVIDENCE_GAP": "None for preparation readability; future creative output and buyer understanding not tested",
+      "RESTORE_CONDITION": "Correct new prose without changing protected history, guide or native images — met",
+      "REQUIRED_RECHECK": "Corrected documents and protected boundaries independently rechecked, then final readiness/status closure rechecked"
+    }
+  ],
+  "execution_status": "SUCCESS",
+  "execution_scope": "PREPARATION_ONLY",
+  "parent_disposition": "ACCEPT_PREPARATION_READY_FOR_PO_REVIEW",
+  "production": "NOT_RUN",
+  "new_image_calls": 0,
+  "topology": {
+    "sole_writer": "/root/sol_visual_pipeline_audit",
+    "model": "gpt-6.1-sol",
+    "effort": "low",
+    "native_thread": "01a0ff87-b20a-78b1-996b-bd1daa78e1f0",
+    "AUDIT_MODE": "SELF",
+    "session_default": "Sol/low authorized by Bảo",
+    "luna_bootstrap": "Interrupted before mutation release; no files written"
+  },
+  "identity_gate": {
+    "receipt": "C:/Users/ASUS/.codex/orchestration-admissions/admission-b0b229ac-1156-479a-b8cc-aa6bcc3287b5.json",
+    "fresh_admission_exit": 0,
+    "final_acceptance_exit": 0,
+    "raw_runtime_logs_exported": false
+  },
+  "guide_render": {
+    "desktop": {
+      "viewport": [
+        1280,
+        900
+      ],
+      "columns": 2,
+      "image_width": 522.4000244140625,
+      "overflow": false
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "columns": 1,
+      "image_width": 341.6000061035156,
+      "overflow": false
+    },
+    "link": "Native reference-1.png opened as1254x1254 and back navigation returned to guide",
+    "scope": "Preparation reference guide only; no new ad/carousel acceptance"
+  },
+  "metadata_inspection": "Six PNG caBX/C2PA structures decoded read-only with all CBOR payload bytes accounted for; no text/EXIF chunks or harness/agent review notes found. Native provider provenance retained. Binary icon/certificate/signature/hash items summarized; no cryptographic certification claimed",
+  "preview_cleanup": {
+    "pid": 19052,
+    "server_stopped": true,
+    "ownership_record_removed": true,
+    "port_free": true,
+    "browser_tab_closed": true,
+    "viewport_reset": true
+  },
+  "git_state": {
+    "HEAD": "7e95a44dc5a3e5c25c07cda7c0f905822b8ba864",
+    "staged": false,
+    "new_commit": false,
+    "pushed": false,
+    "live_remote_checked": false,
+    "new_preparation": "Local uncommitted files; named branch retained"
+  },
+  "residual_dependencies": [
+    "Select and review exact scenarios, source/copy revisions, storyboard and target/output mapping before any future generation",
+    "Perform the small separately reviewed executable alignment for full campaign visual grammar; no compatibility claim for current palette-only assembly",
+    "Fresh separately authorized bounded generation and actual whole-carousel/cross-scenario visual review remain future work"
+  ]
+}
+

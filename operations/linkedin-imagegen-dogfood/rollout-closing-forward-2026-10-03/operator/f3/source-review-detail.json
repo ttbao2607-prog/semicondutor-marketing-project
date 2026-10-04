@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "delta": "F3 only exact duplicate Taiwan sentence removed from body; same source once",
+  "baseline_copy_sha256": "9e8182b2235d3393e3bbf69485f6eb95fe45adffcb67825dc4561878f59cc0bc",
+  "candidate_copy_sha256": "42bfe643e390dc933637a852bc82210c288139c2bfee4e548826d3c907c640a6",
+  "public_semantics": "Source scope/conditional relationships/ERP-MES exemption retained; no deployment/capability widening",
+  "P3_dependency": "fresh F3 phase audit PASS"
+}

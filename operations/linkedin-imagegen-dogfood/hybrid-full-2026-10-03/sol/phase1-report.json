@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "phase": "PHASE1_ALIGNMENT_AND_COMMON_PREPARATION",
+  "result": "READY_FOR_PARENT_AUDIT",
+  "parent_admitted_runtime": {
+    "child_uuid": "01a0ff50-0176-7ac0-8cef-ac6c6f33ee9b",
+    "model": "gpt-6.1-sol",
+    "effort": "low",
+    "admission_receipt": "admission-37c006de-053a-4f67-a5d8-cf0363807428.json"
+  },
+  "timing_scope": "Shared alignment/common overhead, excluded from later candidate preparation; primary parent rollout timestamps authoritative",
+  "tests": {
+    "existing": 35,
+    "new": 14,
+    "total": 49,
+    "observed_result": "OK",
+    "duration_seconds": 1.95,
+    "no_image_or_render_calls": true
+  },
+  "changes": [
+    "scripts/verify_imagegen_preflight.py",
+    "tests/test_imagegen_preflight.py",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/allocation-contract.md",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/"
+  ],
+  "common_file_count": 28,
+  "gate_sha256": "6cf752ff249553e88222edea647ee0e0efeb215816fc2ab0b6b0201974ab44a8",
+  "tests_sha256": "f0d45c2356bba488dd65d3247b1341fdb8140eb33624f92eacc5032d9fed6dde",
+  "common_manifest_sha256": "b9a55329a781d5d84bc14e75c8a52d0aed1be30e49b7b15a40bcf54575575f99",
+  "protected_checks": [
+    "frozen source bytes equal Git1f476c31",
+    "exact reviewed captions/headlines/bodies/native/CTA/context retained",
+    "old native hashes retained; old exact1024 contracts untouched and reject1254 in focused test",
+    "HEAD unchanged; staging empty"
+  ],
+  "review": "PARENT_PENDING",
+  "generation": "NOT_RUN",
+  "docs_impact": "Reviewed map; canonical closeout deferred to parent after phase audit, no canonical mutation authorized in Phase1",
+  "native_check_limits": "PNG container/dimensions/hash only; no transformation, decoding/visual/provenance/brand certification",
+  "completed_utc": "2026-10-03T03:06:48.508423+00:00",
+  "parent_spotreview_followup": "Added explicit conditional campaign guidance, preserved exact legacy prompt bytes, and validates attribute list before set conversion; focused test covers both.",
+  "parent_L1_output_policy_correction": "Deterministic OUTPUT REQUIREMENT appended only for native_square_min, explicit square native PNG/min1080/no resize or compositing. Existing focused test asserts new policy and exact legacy prompt bytes. 49 tests rerun OK."
+}

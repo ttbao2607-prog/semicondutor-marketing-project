@@ -1,0 +1,21 @@
+{
+  "verdict": "PASS",
+  "scope": "F3 fresh current A1-A4 originals +A5r3 forward; gate opening P3 only",
+  "baseline": "97d72a7 + old F3 before",
+  "candidate_native_sha256": "97cc4bdb20a22db3622139ee0d6e631aa19f92262aa5161c37b08bc3efd77eed",
+  "source_copy": "PASS exact approved body-only delta and source once, headline punctuation/CTA/category/sequence/logo",
+  "native": "PASS1254square byteoriginal noresize",
+  "visual": "PASS R2/Sol office/material depth/semiconductor relationship, no inventedlabels/backgroundmicroglyphs or complete-state markers",
+  "mobile_source": "PASS at390x844 actualimage332.667 withoutzoom, approximatebodytype",
+  "continuity": "PASS conditionalhandoff ->selectedpoint ->identity/source ->missingowner ->managementsynthesis; first4bytes unchanged and reviewedinnewviewer",
+  "render": "PASS tenpositions desktop/mobile;nooverflow/dots/prevnext/keyboard/endpoints",
+  "export": "PASS clean publicprojection/native/logo exact",
+  "evidence": [
+    "operator/f3/render-checks.json",
+    "sol/f3/viewer-build-manifest.json",
+    "sol/f3/native/f3-a5-r3.png"
+  ],
+  "historical_failed_candidates": "unchangedFAIL",
+  "po_finished_acceptance": "NOT_GRANTED",
+  "P3_release_condition": "SATISFIED_BY_CURRENT_AUDIT_NOT_PO_BLANKET_APPROVAL"
+}

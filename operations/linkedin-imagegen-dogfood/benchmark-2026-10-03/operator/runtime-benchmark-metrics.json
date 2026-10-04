@@ -1,0 +1,182 @@
+{
+  "luna": {
+    "runtime_identity": {
+      "model": "gpt-6-luna",
+      "effort": "max",
+      "native_child_thread_id": "01a0ff4f-c4db-7f11-b86a-87ade2499be6",
+      "agent_path": "/root/dogfood_luna",
+      "admission": "ADMITTED",
+      "verifier_exit_code": 0
+    },
+    "primary_evidence_kind": "exact-child rollout task_started/task_complete/token_count, admission verifier",
+    "completed_comparable_turns": 4,
+    "expected_comparable_turns": 4,
+    "turns": [
+      {
+        "start_utc": "2026-10-03T01:10:13.250Z",
+        "tool_calls": 4,
+        "end_utc": "2026-10-03T01:13:22.233Z",
+        "wall_seconds": 188.983,
+        "token_usage_delta": {
+          "input_tokens": 219743,
+          "cached_input_tokens": 186112,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 8620,
+          "reasoning_output_tokens": 6755,
+          "total_tokens": 228363
+        },
+        "stage": "bootstrap"
+      },
+      {
+        "start_utc": "2026-10-03T01:15:02.372Z",
+        "tool_calls": 14,
+        "end_utc": "2026-10-03T01:28:25.718Z",
+        "wall_seconds": 803.346,
+        "token_usage_delta": {
+          "input_tokens": 1682555,
+          "cached_input_tokens": 1601536,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 38595,
+          "reasoning_output_tokens": 28705,
+          "total_tokens": 1721150
+        },
+        "stage": "candidate_preparation"
+      },
+      {
+        "start_utc": "2026-10-03T01:29:29.326Z",
+        "tool_calls": 8,
+        "end_utc": "2026-10-03T01:36:50.841Z",
+        "wall_seconds": 441.515,
+        "token_usage_delta": {
+          "input_tokens": 1614390,
+          "cached_input_tokens": 1576192,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 22829,
+          "reasoning_output_tokens": 16451,
+          "total_tokens": 1637219
+        },
+        "stage": "mechanical_dogfood"
+      },
+      {
+        "start_utc": "2026-10-03T01:39:32.721Z",
+        "tool_calls": 1,
+        "end_utc": "2026-10-03T01:42:22.727Z",
+        "wall_seconds": 170.006,
+        "token_usage_delta": {
+          "input_tokens": 498804,
+          "cached_input_tokens": 487680,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 8983,
+          "reasoning_output_tokens": 6355,
+          "total_tokens": 507787
+        },
+        "stage": "viewer_build"
+      }
+    ],
+    "candidate_preparation_seconds": 803.346,
+    "active_child_turn_seconds": 1603.85,
+    "tokens": {
+      "total_tokens": 4094519,
+      "cached_input_tokens": 3851520,
+      "input_tokens": 4015492,
+      "cache_write_input_tokens": 0,
+      "reasoning_output_tokens": 58266,
+      "output_tokens": 79027
+    },
+    "uncached_input_tokens": 163972,
+    "tool_calls": 27,
+    "between_turn_operator_wait_seconds_excluded": true,
+    "cost_currency": "NOT_CALCULATED; no price or per-tool charge is exposed",
+    "limits": "One trial/configuration, different effort, same stochastic image tool; raw session state is not exported"
+  },
+  "sol": {
+    "runtime_identity": {
+      "model": "gpt-6.1-sol",
+      "effort": "low",
+      "native_child_thread_id": "01a0ff50-0176-7ac0-8cef-ac6c6f33ee9b",
+      "agent_path": "/root/dogfood_sol",
+      "admission": "ADMITTED",
+      "verifier_exit_code": 0
+    },
+    "primary_evidence_kind": "exact-child rollout task_started/task_complete/token_count, admission verifier",
+    "completed_comparable_turns": 4,
+    "expected_comparable_turns": 4,
+    "turns": [
+      {
+        "start_utc": "2026-10-03T01:10:28.660Z",
+        "tool_calls": 3,
+        "end_utc": "2026-10-03T01:11:13.851Z",
+        "wall_seconds": 45.191,
+        "token_usage_delta": {
+          "input_tokens": 156847,
+          "cached_input_tokens": 133888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 703,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 157550
+        },
+        "stage": "bootstrap"
+      },
+      {
+        "start_utc": "2026-10-03T01:15:19.562Z",
+        "tool_calls": 6,
+        "end_utc": "2026-10-03T01:17:03.861Z",
+        "wall_seconds": 104.299,
+        "token_usage_delta": {
+          "input_tokens": 419871,
+          "cached_input_tokens": 394496,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2584,
+          "reasoning_output_tokens": 30,
+          "total_tokens": 422455
+        },
+        "stage": "candidate_preparation"
+      },
+      {
+        "start_utc": "2026-10-03T01:19:02.646Z",
+        "tool_calls": 2,
+        "end_utc": "2026-10-03T01:20:24.335Z",
+        "wall_seconds": 81.689,
+        "token_usage_delta": {
+          "input_tokens": 213649,
+          "cached_input_tokens": 209280,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2279,
+          "reasoning_output_tokens": 63,
+          "total_tokens": 215928
+        },
+        "stage": "mechanical_dogfood"
+      },
+      {
+        "start_utc": "2026-10-03T01:25:07.419Z",
+        "tool_calls": 1,
+        "end_utc": "2026-10-03T01:25:57.239Z",
+        "wall_seconds": 49.82,
+        "token_usage_delta": {
+          "input_tokens": 148746,
+          "cached_input_tokens": 146432,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1404,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 150150
+        },
+        "stage": "viewer_build"
+      }
+    ],
+    "candidate_preparation_seconds": 104.299,
+    "active_child_turn_seconds": 280.999,
+    "tokens": {
+      "total_tokens": 946083,
+      "cached_input_tokens": 884096,
+      "input_tokens": 939113,
+      "cache_write_input_tokens": 0,
+      "reasoning_output_tokens": 93,
+      "output_tokens": 6970
+    },
+    "uncached_input_tokens": 55017,
+    "tool_calls": 12,
+    "between_turn_operator_wait_seconds_excluded": true,
+    "cost_currency": "NOT_CALCULATED; no price or per-tool charge is exposed",
+    "limits": "One trial/configuration, different effort, same stochastic image tool; raw session state is not exported"
+  }
+}

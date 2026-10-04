@@ -1,0 +1,42 @@
+{
+  "revision": "closing-standard-upgrade-v1",
+  "baseline_head": "abed669ff9da88be75aa624b4aff540eb6049b58",
+  "PO_authority": "oki chốt làm chuẩn harness, làm harness xong commit checkpoint r sau đó dogfood tiếp nhé để freeze harness.",
+  "accepted_exact_image": {
+    "path": "operations/linkedin-imagegen-dogfood/closing-layout-b-direct-edit-2026-10-03/sol/native/p3-a5-b-edited.png",
+    "sha256": "016b69513d28bee0ab1b371e4ff5c8f4a86acb531a40125d72785622b01a7416"
+  },
+  "role": "Coordinator/operator/finalAuditor nativeCLI currentmachine",
+  "workers": {
+    "A": "/root/dogfood_sol gpt-6.1-sol/low nativefirstgenerationleaf writer",
+    "B": "/root/rollout_source_sol gpt-6.1-sol/low read-onlyindependent investigator/auditor"
+  },
+  "audit_mode": "INDEPENDENT",
+  "reason": "Code/schema and instructions/anchor independentlymutable, mandatoryruntime+visual modalities; B audits mechanicalimplementation, root verifiesprotectedfreshbindings/visualfullsets",
+  "coordinator_override_adoption": "NOT_APPLIED",
+  "sequence": [
+    "implementminimalclosingreferencecontract/instructions/tests/docs",
+    "independentcodeaudit+parentchecks",
+    "authorizedlocalcheckpoint BEFOREliveimagecalls",
+    "fresh dogfoodF2/O1 completefivecards withsamepubliccopy (10base),max1correctedcardperscenarioifneeded",
+    "native/full5desktop/mobile/4transitions+crosscohort/sourcebodyhierarchyaudit",
+    "freezeupdatedharness onlyafterallmandatorytypedchecksPASS; scope method/closingstandard/testedcases, notallcampaignacceptedproductionsets"
+  ],
+  "AC": {
+    "AC01": "STRUCTURAL/CONTRACT: exactacceptedanchor/reviewindependentlypinned; closingroleallowedonlylast-source+CTA; wording/props nevertransfer; speccannotredefinecriteria",
+    "AC02": "BEHAVIORAL/RUNTIME: regression/tests inclnegativechangedpins/attrs/nonclosingrole/release/review/spec; firstmentionad/surfaceERP-MESexception/public/nativeoutput preserved",
+    "AC03": "STRUCTURAL/CONTRACT: originalhistoricalrawnatives/copy/auditsprotected; accuratecanonicaldocs; orderedcommitbeforegeneration",
+    "AC04": "VISUAL: F2/O1full5nativeexactwording/labels/logo/sourcefullwidth>=bodyactual390/image317–333nozoom; office/semiconductor/diagramfamilyand4narrativetransitions",
+    "AC05": "BEHAVIORAL/STRUCTURAL: newreleasedpreflight+dispatchnative/publicfreshpins, sourceprojectionchecks; nointernalartifactleakage",
+    "AC06": "STRUCTURAL/CONTRACT: freezeonlytestedmethodscopeafterPASS; nohistoryFAILrewrite/newallcampaignproductionacceptance/push/merge/live"
+  },
+  "stress": "F2body/source62/92 equalP3; contexttransferstress. O1body147/source92 longerbody. No inventedlongerFablesscopy. Freshfull5percase becausepriorreuse notqualified",
+  "allowed": "scripts/verify_imagegen_preflight.py tests/test_imagegen_preflight.py,newupgrade/dogfoodnamespace andnewdocs,currentcanonicalstatus/entries,rawhashattributesneededforcheckpoint",
+  "forbidden": "oldrunrawcopy/contracts/receipts/natives/failedaudits; allprevioussource/register/editorial/landing/budget/tracking; Gitpush/merge/liveaccount",
+  "budget": {
+    "base": 10,
+    "correction_max": 2,
+    "correction_per_scenario_max": 1
+  },
+  "terminal": "PASS scopedfreeze or FAIL/CHANGES_REQUIRED withevidence, noautomaticlimitextra/claimwholecampaign"
+}
