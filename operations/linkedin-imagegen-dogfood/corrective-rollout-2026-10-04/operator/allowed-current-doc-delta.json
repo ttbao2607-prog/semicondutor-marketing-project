@@ -1,0 +1,19 @@
+{
+  "authority": "Baoapproved newcorrective plan execution aftercheckpoint6d0d192; currentdatedoverrides only,priorrunandoldhistorical sections intact",
+  "owner": "rollout_writer",
+  "files": [
+    "CURRENT_STATE.md",
+    "README.md",
+    "DOCS_INDEX.md",
+    "ads/linkedin/LinkedIn_Build_Pack.md",
+    "operations/Pre_Ad_Readiness_Plan.md",
+    "operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md",
+    "operations/LinkedIn_Awareness_Execution_Plan.md",
+    "operations/LinkedIn_Awareness_Remaining_Scenarios.md",
+    "operations/LinkedIn_Awareness_ImageGen_Harness_Redesign_Plan.md",
+    "operations/LinkedIn_ImageGen_All_Scenarios_Rollout_Plan_2026-10-03.md",
+    "operations/LinkedIn_ImageGen_Harness_Status.json"
+  ],
+  "prohibited": "historical content/JSONfields/gate/tests/source/reference/RMK",
+  "protected_baseline_exception": "These docs reviewed diff allowed; all other1402protected files requirebyteequality"
+}

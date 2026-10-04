@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "status": "ROOT_SELECTED_FOR_RENDER_AUDIT",
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/O4-Q/common/o4-q-copy.json",
+    "sha256": "7cadf1c4408228f90fbc8d9e59699c88b3fd09468eecc41d264a43e1e7ceff82",
+    "revision": "all-scenarios-o4-q-copy-v1-parent-review-pending"
+  },
+  "cards": {
+    "O4-Q-B1": {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-Q/worker/native/o4-q-b1.png",
+      "sha256": "3301df9e54af6072c3490a79cfda48f3e80b1afa4fbf2a6dc43fe719846952a7",
+      "state": "ROOT_SELECTED_NATIVE_PASS"
+    },
+    "O4-Q-B2": {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-Q/worker/native/o4-q-b2.png",
+      "sha256": "31c4a1412aac419ae636d675e22d25629a12d756bc9bddac6db2c30f527e8034",
+      "state": "ROOT_SELECTED_NATIVE_PASS"
+    },
+    "O4-Q-B3": {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-Q/worker/native/o4-q-b3.png",
+      "sha256": "54af1e7ee4e9fae2333a64b6974756afc570eebf3828161573bbf05408f4ac01",
+      "state": "ROOT_SELECTED_NATIVE_PASS"
+    },
+    "O4-Q-B4": {
+      "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/O4-Q/worker/native/o4-q-b4-r2.png",
+      "sha256": "f29e4b405cd7050edfcf37327d8be3be69fc16c198d7ffd002aa0bb8f369afa9",
+      "state": "ROOT_SELECTED_NATIVE_PASS"
+    },
+    "O4-Q-B5": {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-Q/worker/corrections/native/o4-q-b5-r2.png",
+      "sha256": "6f6fa40a1263a591e5c2308dda45f98b3b6c3fb0ded9b1c4e06414c0e9e6a13b",
+      "state": "ROOT_SELECTED_NATIVE_PASS"
+    }
+  },
+  "logo": {
+    "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+    "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f"
+  },
+  "destination": "https://solutions.digiwin.com.vn/semiconductor-osat?lang=vi"
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "built_utc": "2026-10-04T02:03:49.651165+00:00",
+  "output_directory": "D:\\linkedin-awareness-harness-redesign\\operations\\linkedin-imagegen-dogfood\\corrective-rollout-2026-10-04\\O4-Q\\public",
+  "files": {
+    "index.html": "d8ac0d3b36b689266b647f75cc3eb840dcc8acadf169eb960d3c9109030cd9a5",
+    "assets/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "assets/o4-q-b1.png": "3301df9e54af6072c3490a79cfda48f3e80b1afa4fbf2a6dc43fe719846952a7",
+    "assets/o4-q-b2.png": "31c4a1412aac419ae636d675e22d25629a12d756bc9bddac6db2c30f527e8034",
+    "assets/o4-q-b3.png": "54af1e7ee4e9fae2333a64b6974756afc570eebf3828161573bbf05408f4ac01",
+    "assets/o4-q-b4.png": "f29e4b405cd7050edfcf37327d8be3be69fc16c198d7ffd002aa0bb8f369afa9",
+    "assets/o4-q-b5.png": "6f6fa40a1263a591e5c2308dda45f98b3b6c3fb0ded9b1c4e06414c0e9e6a13b"
+  },
+  "input_hashes": {
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-Q/worker/native/o4-q-b1.png": "3301df9e54af6072c3490a79cfda48f3e80b1afa4fbf2a6dc43fe719846952a7",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-Q/worker/native/o4-q-b2.png": "31c4a1412aac419ae636d675e22d25629a12d756bc9bddac6db2c30f527e8034",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-Q/worker/native/o4-q-b3.png": "54af1e7ee4e9fae2333a64b6974756afc570eebf3828161573bbf05408f4ac01",
+    "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/O4-Q/worker/native/o4-q-b4-r2.png": "f29e4b405cd7050edfcf37327d8be3be69fc16c198d7ffd002aa0bb8f369afa9",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-Q/worker/corrections/native/o4-q-b5-r2.png": "6f6fa40a1263a591e5c2308dda45f98b3b6c3fb0ded9b1c4e06414c0e9e6a13b",
+    "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/O4-Q/common/o4-q-copy.json": "7cadf1c4408228f90fbc8d9e59699c88b3fd09468eecc41d264a43e1e7ceff82",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f"
+  },
+  "copy_projection": "public-copy.json exact common bytes",
+  "cards_per_feed": [
+    5
+  ],
+  "native_bytes_unchanged": true,
+  "official_logo_bytes_unchanged": true,
+  "rendered_verdict": "NOT_ASSESSED",
+  "navigation_verdict": "SOURCE_ONLY_PARENT_BROWSER_CHECK_REQUIRED",
+  "viewer_boundary": "Only HTML, five native PNG and logo in reader export; internal manifest stays repo-only",
+  "destinations_from_source_metadata": true
+}

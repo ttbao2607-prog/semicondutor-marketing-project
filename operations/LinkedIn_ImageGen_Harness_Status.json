@@ -3473,5 +3473,35 @@
     "P2",
     "O4-Q"
   ]
+},
+  "corrective_rollout": {
+  "date": "2026-10-04",
+  "status": "CORRECTIVE_COMPLETED",
+  "plan": "operations/LinkedIn_Corrective_Scenarios_Rollout_Plan_2026-10-04.md",
+  "checkpoint": "6d0d192dabf698ad9834c7add69aed84ce1646f8",
+  "queue_ledger": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/operator/queue-ledger.json",
+  "primary_call_ceiling": 8,
+  "reserve_call_ceiling": 4,
+  "reserve_policy": "maximum one per failed card; global ceiling four; root evidence-based release",
+  "runtime": "admitted native gpt-6.1-sol / low",
+  "scope": "LOCAL_COLD_CREATIVE_ONLY",
+  "whole_campaign_pass": "LOCAL_SELECTED_CREATIVE_ONLY_NO_LIVE_OR_BUYER_ACCEPTANCE",
+  "prior_continuous_run": "IMMUTABLE_CHECKPOINT_HISTORY",
+  "actual_counts": "SEE_ROOT_LEDGER",
+  "protected_baseline_files": 1940,
+  "execution_status": "SUCCESS",
+  "current_selected_local_creative_audit": "PASS_UNDER_ROOT_TREATMENT_RECEIPTS",
+  "root_final_closeout": "PENDING_MECHANICAL_PACKAGE_DOCS_AUDIT",
+  "root_final_receipt": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/operator/final-audit.json",
+  "result": "operations/LinkedIn_Corrective_Scenarios_Rollout_Result_2026-10-04.md",
+  "primary_calls_actual": 8,
+  "reserve_calls_actual": 2,
+  "actual_calls_new_round": 10,
+  "actual_calls_two_rounds": 48,
+  "new_selected_originals": 8,
+  "reused_originals_new_round": 7,
+  "selected_local_treatments": 11,
+  "selected_local_cards": 55,
+  "corrective_working_tree_state": "UNCOMMITTED_LOCAL_ONLY_NO_PUSH"
 }
 }

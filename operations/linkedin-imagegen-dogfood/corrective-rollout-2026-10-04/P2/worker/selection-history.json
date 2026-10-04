@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "selection": "New A1 R2 and reserve A4 R3; unchanged prior A2/A3/closing A5 R2",
+  "selected_origins_sha256": "6d891b7ae924a3731789218c7bae563ff5b4ad9a24316c4636442f933b7e0ccf",
+  "rejected_a4": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/P2/worker/native/p2-a4.png",
+      "sha256": "7bb7f3ecbf2ab873e941233f0b1e054f4512be76e3b9671617c079e9a62e664c"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P2/worker/native/p2-a4-r2.png",
+      "sha256": "f5e2f681c296cbd6544508725fe0c4e756f1ac2f491aaa6e37440378f34d957b"
+    }
+  ],
+  "rejected_preserved": true,
+  "render_verdict": "ROOT_PENDING"
+}
