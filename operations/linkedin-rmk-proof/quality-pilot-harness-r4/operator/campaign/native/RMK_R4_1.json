@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "gate_version": 1,
+  "gate_sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+  "layer": "POSTGEN_DIMENSION_CHECK",
+  "mechanical_verdict": "PASS",
+  "purpose": "OFFLINE_IMAGEGEN",
+  "spec_path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/spec.json",
+  "release_path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/release.json",
+  "release_sha256": "ed50b2e651181b9d381352cd27c9146a7df5317c726e472d393a4b2b9040eb13",
+  "scope_call_id": "RMK_R4_1",
+  "input_hashes": {
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+    "operations/linkedin-rmk-proof/quality-pilot-harness-r4/campaign/contract.json": "047b906a925f4d9eebb831b013ab459609bd47fa9e3d9362ecbfe9ac5bf9d88e",
+    "operations/linkedin-rmk-proof/quality-pilot-harness-r4/copy-vi.json": "1251646180154432cbd2a5e79e04d4deba493c4ebf2b01f5cb486e01aa2ba498",
+    "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/authority.json": "b6796306d294c5c6c53f10b926a2c4bd7a413d12ff672f1e74b94eb1de195358",
+    "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/release.json": "ed50b2e651181b9d381352cd27c9146a7df5317c726e472d393a4b2b9040eb13",
+    "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/review.json": "5ce697828f32f1fbe5b7c71245af78b9320deb6439ba46f8eaf8da76e42a982d",
+    "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/spec.json": "9f3615e680807824bace181a3e51c896088d4141a62d278d171fb835a986b00d",
+    "operations/linkedin-rmk-proof/quality-pilot-harness-r4/source-map.json": "d211140b1ac1a3ba8b710c231b47cf36cf3240219be016d37501e67363d4f3f1"
+  },
+  "call_ids": [
+    "RMK_R4_1",
+    "RMK_R4_2",
+    "RMK_R4_3"
+  ],
+  "advisories": [],
+  "semantic_verdict": "NOT_ASSESSED",
+  "creative_verdict": "INSUFFICIENT_EVIDENCE",
+  "authority": "NO_GENERATION_AUTHORITY",
+  "call_id": "RMK_R4_1",
+  "output_path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/native/rmk-r4-1.png",
+  "native_sha256": "5d7854aa78cea764f600204b20b70af38d660bb0e0a0c1a4eee51e3f1e1cc4ac",
+  "native_bytes": 1642809,
+  "actual_dimensions": [
+    1254,
+    1254
+  ],
+  "output_policy": {
+    "directory": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/native",
+    "extension": ".png",
+    "policy": "native_square_min",
+    "min_edge": 1080
+  },
+  "dimension_verdict": "PASS",
+  "native_provenance_verdict": "NOT_ASSESSED",
+  "rendered_artifact_verdict": "NOT_ASSESSED"
+}

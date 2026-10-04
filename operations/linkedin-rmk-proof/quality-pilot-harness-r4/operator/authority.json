@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "revision": "rmk-r4-bao-authority-2026-10-04-v1",
+  "date": "2026-10-04",
+  "user_execution_instruction": "Okie dùng execution-contract chạy R4 với harness mới.",
+  "user_role_instruction": "Một leaf Sol/low chuẩn bị copy/contract/demo; mình vận hành ImageGen và audit. Dùng local_orchestrator_cli để vận hành và theo dõi harness áp lên remarketing đang làm có ổn định như bên coldtrafic không.",
+  "baseline": "7730bd974ff7ae2c3c8173e79bf1aac9ff48fe75",
+  "writer": "/root/rmk_r4_writer",
+  "root_role": "Coordinator, source/copy reviewer, sole ImageGen/browser operator, final auditor",
+  "scope": "One offline VI Quality case-led RMK four-card R4, PR05 and PR10, frozen current harness",
+  "base_call_limit": 4,
+  "correction_call_limit": 0,
+  "git_mutations": "NOT_AUTHORIZED",
+  "account_live": "NOT_AUTHORIZED",
+  "po_content_acceptance": "NOT_GRANTED"
+}

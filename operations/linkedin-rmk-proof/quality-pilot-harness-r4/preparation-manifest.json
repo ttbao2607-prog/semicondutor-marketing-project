@@ -1,0 +1,85 @@
+{
+  "revision": "rmk-quality-r4-v1-parent-review-pending",
+  "baseline": "7730bd9",
+  "status": "PREPARED_ONLY_PARENT_REVIEW_PENDING",
+  "pins": {
+    "operations/linkedin-rmk-proof/quality-pilot-harness-r4/copy-vi.json": "1251646180154432cbd2a5e79e04d4deba493c4ebf2b01f5cb486e01aa2ba498",
+    "operations/linkedin-rmk-proof/quality-pilot-harness-r4/source-map.json": "d211140b1ac1a3ba8b710c231b47cf36cf3240219be016d37501e67363d4f3f1",
+    "operations/linkedin-rmk-proof/quality-pilot-harness-r4/storyboard.json": "3ce047154488fecaab418bc376777633c7f1d31c0ecebe0776ba1efbe8aa4957",
+    "operations/linkedin-rmk-proof/quality-pilot-harness-r4/execution-contract.json": "80c89b58497968d99a7903df6989b370f59b6834770e1eee3a4697f288089c42",
+    "operations/linkedin-rmk-proof/quality-pilot-harness-r4/editorial-copy-preflight.json": "f5abfcbdd38f8d7370ada48c1e9b59a20ca8fb456e40c849cd2ce19a8199cf8d",
+    "operations/linkedin-rmk-proof/quality-pilot-harness-r4/campaign/contract.json": "047b906a925f4d9eebb831b013ab459609bd47fa9e3d9362ecbfe9ac5bf9d88e",
+    "operations/linkedin-rmk-proof/quality-pilot-harness-r4/campaign/calls-draft.json": "4332044d737d594823be8859fb194d43287d48931206ec5fd25650353f8dedb5",
+    "operations/linkedin-rmk-proof/quality-pilot-harness-r4/closing/contract.json": "88029d706cc856930b237f5635bda44445aeaf3ebf220ac8e833a752e25fd9b4",
+    "operations/linkedin-rmk-proof/quality-pilot-harness-r4/closing/calls-draft.json": "5d8c49a33f70795840e8eacc03b673da64a1bf95e6fd3eac57288aff68097c38",
+    "operations/linkedin-rmk-proof/quality-pilot-harness-r4/build_preview.py": "b477dbf22dc163b8e71090023fcdc882983ab0823a8cadd9cd206729bca850f8",
+    "operations/linkedin-rmk-proof/quality-pilot-harness-r4/preparation-checks.json": "af57f7ea4f10cdb079ae85a12bd2a827fcf6d6fe7904946fe1495a67b24f8814"
+  },
+  "groups": {
+    "campaign": [
+      [
+        "RMK-R4-1"
+      ],
+      [
+        "RMK-R4-2"
+      ],
+      [
+        "RMK-R4-3"
+      ]
+    ],
+    "closing": [
+      [
+        "RMK-R4-4"
+      ]
+    ]
+  },
+  "calls": {
+    "campaign": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/campaign/calls-draft.json",
+    "closing": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/closing/calls-draft.json"
+  },
+  "reviewed_fields": [
+    "RMK-R4/caption",
+    "RMK-R4/RMK-R4-1.headline",
+    "RMK-R4/RMK-R4-1.body",
+    "RMK-R4/RMK-R4-1.source_text",
+    "RMK-R4/RMK-R4-1.cta",
+    "RMK-R4/RMK-R4-1.native_headline",
+    "RMK-R4/RMK-R4-1.alt",
+    "RMK-R4/RMK-R4-1.artwork_labels",
+    "RMK-R4/RMK-R4-2.headline",
+    "RMK-R4/RMK-R4-2.body",
+    "RMK-R4/RMK-R4-2.source_text",
+    "RMK-R4/RMK-R4-2.cta",
+    "RMK-R4/RMK-R4-2.native_headline",
+    "RMK-R4/RMK-R4-2.alt",
+    "RMK-R4/RMK-R4-2.artwork_labels",
+    "RMK-R4/RMK-R4-3.headline",
+    "RMK-R4/RMK-R4-3.body",
+    "RMK-R4/RMK-R4-3.source_text",
+    "RMK-R4/RMK-R4-3.cta",
+    "RMK-R4/RMK-R4-3.native_headline",
+    "RMK-R4/RMK-R4-3.alt",
+    "RMK-R4/RMK-R4-3.artwork_labels",
+    "RMK-R4/RMK-R4-4.headline",
+    "RMK-R4/RMK-R4-4.body",
+    "RMK-R4/RMK-R4-4.source_text",
+    "RMK-R4/RMK-R4-4.cta",
+    "RMK-R4/RMK-R4-4.native_headline",
+    "RMK-R4/RMK-R4-4.alt",
+    "RMK-R4/RMK-R4-4.artwork_labels"
+  ],
+  "review_instruction": "Extract reviewed_fields in this exact ordered list, inspect every value in copy-vi.json plus source-map claim provenance and local pins. Parent authors fresh review/release/spec bindings; draft calls must remain byte-equivalent.",
+  "output_directory": "C:/Users/ASUS/Documents/Codex/2026-10-04/va-2/outputs/rmk-quality-r4",
+  "not_done": [
+    "review/release/spec",
+    "ImageGen",
+    "viewer build",
+    "native/render/navigation audit",
+    "final docs synchronization",
+    "stability probes"
+  ],
+  "reference_selection": {
+    "campaign": "r2-1/r2-2/r2-4/r2-6/logo (5)",
+    "closing": "r2-1/r2-2/r2-4/logo/accepted-closing-anchor (5)"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "revision": "rmk-r4-campaign-parent-release-v1",
+  "authorizer": "Bao explicit R4 execution; root bounded operator release after source/editorial review",
+  "authority_ref": {
+    "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/authority.json",
+    "sha256": "b6796306d294c5c6c53f10b926a2c4bd7a413d12ff672f1e74b94eb1de195358",
+    "revision": "rmk-r4-bao-authority-2026-10-04-v1"
+  },
+  "purpose": "FIXTURE_ONLY",
+  "contract": {
+    "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/campaign/contract.json",
+    "sha256": "047b906a925f4d9eebb831b013ab459609bd47fa9e3d9362ecbfe9ac5bf9d88e",
+    "revision": "rmk-quality-r4-v1-parent-review-pending-campaign"
+  },
+  "copy": {
+    "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/copy-vi.json",
+    "sha256": "1251646180154432cbd2a5e79e04d4deba493c4ebf2b01f5cb486e01aa2ba498",
+    "revision": "rmk-quality-r4-v1-parent-review-pending"
+  },
+  "review": {
+    "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/stability-fixtures/failed-review.json",
+    "sha256": "22f709294330d093e7df59d882c47a97d2a66c614ccff918b5a2252a7a17f8c0",
+    "revision": "rmk-r4-campaign-parent-review-v1"
+  },
+  "groups": [
+    [
+      "RMK-R4-1"
+    ],
+    [
+      "RMK-R4-2"
+    ],
+    [
+      "RMK-R4-3"
+    ]
+  ]
+}

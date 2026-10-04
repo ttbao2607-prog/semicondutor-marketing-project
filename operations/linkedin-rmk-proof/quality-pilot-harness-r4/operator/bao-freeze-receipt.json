@@ -1,0 +1,52 @@
+{
+  "revision": "rmk-r4-bao-freeze-2026-10-04",
+  "date": "2026-10-04",
+  "authorizer": "Bao",
+  "authority": [
+    "Visual và nội dung ổn r codex",
+    "commit checkpoint này đi codex, ghi Bảo freeze harness cho visual + storyboard hiện tại của rmk R4."
+  ],
+  "status": "PO_ACCEPTED_VISUAL_STORYBOARD_FROZEN",
+  "scope": "Current R4 visual, public copy and storyboard under the existing frozen harness; no harness-rule changes",
+  "pins": [
+    {
+      "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/copy-vi.json",
+      "sha256": "1251646180154432cbd2a5e79e04d4deba493c4ebf2b01f5cb486e01aa2ba498"
+    },
+    {
+      "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/storyboard.json",
+      "sha256": "3ce047154488fecaab418bc376777633c7f1d31c0ecebe0776ba1efbe8aa4957"
+    },
+    {
+      "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/campaign/contract.json",
+      "sha256": "047b906a925f4d9eebb831b013ab459609bd47fa9e3d9362ecbfe9ac5bf9d88e"
+    },
+    {
+      "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/closing/contract.json",
+      "sha256": "88029d706cc856930b237f5635bda44445aeaf3ebf220ac8e833a752e25fd9b4"
+    },
+    {
+      "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/native/rmk-r4-1.png",
+      "sha256": "5d7854aa78cea764f600204b20b70af38d660bb0e0a0c1a4eee51e3f1e1cc4ac"
+    },
+    {
+      "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/native/rmk-r4-2.png",
+      "sha256": "cd375fc50a7696ec7c0996066b312f9c6c4e172632b327376717f0bf5b4ecd70"
+    },
+    {
+      "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/native/rmk-r4-3.png",
+      "sha256": "8968723747095d70db2af7bd01ac29f2034f0405097867e9109532916e17a672"
+    },
+    {
+      "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/native/rmk-r4-4.png",
+      "sha256": "3502f647b30cbbce77aa54d52d1182e17fc1375fe33931cf15781c8317b93b50"
+    }
+  ],
+  "audit": "operator/parent-final-audit.json is prior offline audit; hashes there describe pre-freeze candidate",
+  "boundaries": {
+    "destination": "Existing CN case collection proposed; no dedicated VI case06 LDP/PDF prepared; CTA route/tracking/live configuration remains pending",
+    "live_release": false,
+    "git_authority": "Local checkpoint commit only; no push"
+  },
+  "preservation": "Prior pending/offline/uncommitted statements are dated pre-checkpoint history superseded by this receipt."
+}

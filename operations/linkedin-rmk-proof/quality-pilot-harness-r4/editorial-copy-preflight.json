@@ -1,0 +1,47 @@
+{
+  "gate_id": "AD-ED-01",
+  "revision": "rmk-quality-r4-v1-parent-review-pending",
+  "review_kind": "writer self-review of copy only; parent independent review pending",
+  "reviewed_fields": [
+    "RMK-R4/caption",
+    "RMK-R4/RMK-R4-1.headline",
+    "RMK-R4/RMK-R4-1.body",
+    "RMK-R4/RMK-R4-1.source_text",
+    "RMK-R4/RMK-R4-1.cta",
+    "RMK-R4/RMK-R4-1.native_headline",
+    "RMK-R4/RMK-R4-1.alt",
+    "RMK-R4/RMK-R4-1.artwork_labels",
+    "RMK-R4/RMK-R4-2.headline",
+    "RMK-R4/RMK-R4-2.body",
+    "RMK-R4/RMK-R4-2.source_text",
+    "RMK-R4/RMK-R4-2.cta",
+    "RMK-R4/RMK-R4-2.native_headline",
+    "RMK-R4/RMK-R4-2.alt",
+    "RMK-R4/RMK-R4-2.artwork_labels",
+    "RMK-R4/RMK-R4-3.headline",
+    "RMK-R4/RMK-R4-3.body",
+    "RMK-R4/RMK-R4-3.source_text",
+    "RMK-R4/RMK-R4-3.cta",
+    "RMK-R4/RMK-R4-3.native_headline",
+    "RMK-R4/RMK-R4-3.alt",
+    "RMK-R4/RMK-R4-3.artwork_labels",
+    "RMK-R4/RMK-R4-4.headline",
+    "RMK-R4/RMK-R4-4.body",
+    "RMK-R4/RMK-R4-4.source_text",
+    "RMK-R4/RMK-R4-4.cta",
+    "RMK-R4/RMK-R4-4.native_headline",
+    "RMK-R4/RMK-R4-4.alt",
+    "RMK-R4/RMK-R4-4.artwork_labels"
+  ],
+  "findings": [
+    {
+      "surface": "all caption/headline/body/source/CTA/native/alt/labels",
+      "classification": "customer-useful supplier/case/source information",
+      "reason": "Named entity, China market, integrated solution and attributed month-close result carry scope. Searchable case locator serves reader action. No agent-confidence or proof-classification text.",
+      "action": "retain for parent review"
+    }
+  ],
+  "copy_verdict": "SELF_REVIEW_COMPLETE_PARENT_REVIEW_PENDING",
+  "artwork_verdict": "NOT_CREATED_NOT_INSPECTED",
+  "desktop_mobile": "NOT_BUILT_NOT_INSPECTED"
+}

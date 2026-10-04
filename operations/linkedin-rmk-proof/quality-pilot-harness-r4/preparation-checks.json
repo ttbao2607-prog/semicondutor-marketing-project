@@ -1,0 +1,18 @@
+{
+  "revision": "rmk-quality-r4-v1-parent-review-pending",
+  "verification": "Writer structural preparation checks only; no parent review/release/spec or native/render acceptance",
+  "checks": [
+    "campaign: pinned inputs/reference order/prompt assembly exact; native targets absent",
+    "closing: pinned inputs/reference order/prompt assembly exact; native targets absent",
+    "UTF8 Vietnamese and exact Chinese entity preserved",
+    "four cards, caption135, field limits and prohibited dash check",
+    "builder Python AST parses; output absent; builder not invoked",
+    "Parent corrected closing selection5; contract/call identical refs; prompt reassembled and repinned. Campaign selection5 unchanged."
+  ],
+  "parent_remaining": [
+    "fresh schema preflight through independent bindings",
+    "AD-ED-01 independent copy/native/render review",
+    "bounded stability probes",
+    "docs sync final outcome"
+  ]
+}

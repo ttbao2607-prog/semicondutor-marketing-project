@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "revision": "rmk-r4-campaign-spec-v1",
+  "release": {
+    "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/release.json",
+    "sha256": "ed50b2e651181b9d381352cd27c9146a7df5317c726e472d393a4b2b9040eb13",
+    "revision": "rmk-r4-campaign-parent-release-v1"
+  },
+  "contract": {
+    "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/campaign/contract.json",
+    "sha256": "047b906a925f4d9eebb831b013ab459609bd47fa9e3d9362ecbfe9ac5bf9d88e",
+    "revision": "rmk-quality-r4-v1-parent-review-pending-campaign"
+  },
+  "copy": {
+    "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/copy-vi.json",
+    "sha256": "1251646180154432cbd2a5e79e04d4deba493c4ebf2b01f5cb486e01aa2ba498",
+    "revision": "rmk-quality-r4-v1-parent-review-pending"
+  },
+  "review": {
+    "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/review.json",
+    "sha256": "5ce697828f32f1fbe5b7c71245af78b9320deb6439ba46f8eaf8da76e42a982d",
+    "revision": "rmk-r4-campaign-parent-review-v1"
+  },
+  "calls": [
+    {
+      "call_id": "RMK_R4_1",
+      "targets": [
+        "RMK-R4-1"
+      ],
+      "references": [
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+          "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+          "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png",
+          "sha256": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png",
+          "sha256": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+          "role": "brand_asset",
+          "attributes": [
+            "brand_mark"
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "card_id": "RMK-R4-1",
+          "concept_id": "supplier-manufacturing-digital-role-v1",
+          "reader_question": "What does Digiwin provide?",
+          "description": "INTERNAL DIRECTIONS NOT PRINTED. Angled daylight material workstation: a blank physical planning sheet beside a silicon package tray; a transparent blue integration bridge connects two neutral modules, conveying solution-provider breadth without dashboards or facility proof. Only exact approved artwork text and official supplied logo once. All other surfaces blank. Preserve minimum1080 square native PNG original bytes. Read body/source comfortably at333px without zoom.",
+          "props": [
+            "blank planning sheet",
+            "package tray",
+            "transparent integration bridge"
+          ],
+          "artwork_labels": [
+            "DIGIWIN · CASE BÁN DẪN",
+            "1/4"
+          ]
+        }
+      ],
+      "artwork_text": {
+        "RMK-R4-1": {
+          "headline": "Digiwin: giải pháp số cho sản xuất",
+          "body": "Digiwin phát triển và cung cấp giải pháp chuyển đổi số cho doanh nghiệp sản xuất, từ ERP đến sản xuất thông minh.",
+          "source_text": "Digiwin Việt Nam · Giới thiệu công ty",
+          "cta": "",
+          "artwork_labels": [
+            "DIGIWIN · CASE BÁN DẪN",
+            "1/4"
+          ]
+        }
+      },
+      "output_id": "rmk-r4-1",
+      "output_path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/native/rmk-r4-1.png",
+      "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"Use selected frozen R2 campaign references and official logo only. Bright white office/daylight photography, soft blue and navy, credible photographic material depth, grounded shadows and integrated physical relationship diagrams. Vary view angle, scale and open relationship structures according to each card meaning. Blank material surfaces only; no invented labels, microglyphs, identifiers, dates, metrics, ticks, seals or completed badges. Printed wording limited to exact approved headline, body, source_text, CTA, category and sequence; caption/native headline/alt remain outside raster. No reference wording, prop quota, fixed layout or legacy scene inheritance. No invented customer/facility/capability evidence. Closing reserves a dedicated full-width source paragraph at body-like size about 56 native pixels, comfortably readable at 317–333 pixels without zoom; reduce photo area to protect readable text. Preserve native square PNG minimum 1080 per edge, never resize or composite to pass.\",\"revision\":\"rmk-quality-r4-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"DIGIWIN · CASE BÁN DẪN\",\"1/4\"],\"card_id\":\"RMK-R4-1\",\"concept_id\":\"supplier-manufacturing-digital-role-v1\",\"description\":\"INTERNAL DIRECTIONS NOT PRINTED. Angled daylight material workstation: a blank physical planning sheet beside a silicon package tray; a transparent blue integration bridge connects two neutral modules, conveying solution-provider breadth without dashboards or facility proof. Only exact approved artwork text and official supplied logo once. All other surfaces blank. Preserve minimum1080 square native PNG original bytes. Read body/source comfortably at333px without zoom.\",\"props\":[\"blank planning sheet\",\"package tray\",\"transparent integration bridge\"],\"reader_question\":\"What does Digiwin provide?\"}]\nAPPROVED ARTWORK TEXT\n{\"RMK-R4-1\":{\"artwork_labels\":[\"DIGIWIN · CASE BÁN DẪN\",\"1/4\"],\"body\":\"Digiwin phát triển và cung cấp giải pháp chuyển đổi số cho doanh nghiệp sản xuất, từ ERP đến sản xuất thông minh.\",\"cta\":\"\",\"headline\":\"Digiwin: giải pháp số cho sản xuất\",\"source_text\":\"Digiwin Việt Nam · Giới thiệu công ty\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-rmk-proof/quality-pilot-harness-r4/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement. altered",
+      "prompt_sha256": "96e8b56a7754ba6bdaba544834dc775ae9c180d05b22e79cdb5493ce142d7eed"
+    },
+    {
+      "call_id": "RMK_R4_2",
+      "targets": [
+        "RMK-R4-2"
+      ],
+      "references": [
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+          "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+          "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png",
+          "sha256": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png",
+          "sha256": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+          "role": "brand_asset",
+          "attributes": [
+            "brand_mark"
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "card_id": "RMK-R4-2",
+          "concept_id": "named-china-packaging-case-v1",
+          "reader_question": "Which named case can I identify?",
+          "description": "INTERNAL DIRECTIONS NOT PRINTED. Closer eye-level packaged-chip tray with three blank standing process plates connected through one physical clear-blue rail. Different silhouette and perspective from first card; integrated operation relationships, no fabricated factory or customer mark. Only exact approved artwork text and official supplied logo once. All other surfaces blank. Preserve minimum1080 square native PNG original bytes. Read body/source comfortably at333px without zoom.",
+          "props": [
+            "package tray",
+            "blank process plates",
+            "clear-blue rail"
+          ],
+          "artwork_labels": [
+            "DIGIWIN · CASE BÁN DẪN",
+            "2/4"
+          ]
+        }
+      ],
+      "artwork_text": {
+        "RMK-R4-2": {
+          "headline": "Một case đóng gói và kiểm thử tại Trung Quốc",
+          "body": "江苏中科智芯集成科技有限公司 triển khai giải pháp số tích hợp. Case đề cập hồ sơ, quy trình và hiệu quả sản xuất gia công.",
+          "source_text": "Digiwin Việt Nam · 8 case studies · case06",
+          "cta": "",
+          "artwork_labels": [
+            "DIGIWIN · CASE BÁN DẪN",
+            "2/4"
+          ]
+        }
+      },
+      "output_id": "rmk-r4-2",
+      "output_path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/native/rmk-r4-2.png",
+      "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"Use selected frozen R2 campaign references and official logo only. Bright white office/daylight photography, soft blue and navy, credible photographic material depth, grounded shadows and integrated physical relationship diagrams. Vary view angle, scale and open relationship structures according to each card meaning. Blank material surfaces only; no invented labels, microglyphs, identifiers, dates, metrics, ticks, seals or completed badges. Printed wording limited to exact approved headline, body, source_text, CTA, category and sequence; caption/native headline/alt remain outside raster. No reference wording, prop quota, fixed layout or legacy scene inheritance. No invented customer/facility/capability evidence. Closing reserves a dedicated full-width source paragraph at body-like size about 56 native pixels, comfortably readable at 317–333 pixels without zoom; reduce photo area to protect readable text. Preserve native square PNG minimum 1080 per edge, never resize or composite to pass.\",\"revision\":\"rmk-quality-r4-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"DIGIWIN · CASE BÁN DẪN\",\"2/4\"],\"card_id\":\"RMK-R4-2\",\"concept_id\":\"named-china-packaging-case-v1\",\"description\":\"INTERNAL DIRECTIONS NOT PRINTED. Closer eye-level packaged-chip tray with three blank standing process plates connected through one physical clear-blue rail. Different silhouette and perspective from first card; integrated operation relationships, no fabricated factory or customer mark. Only exact approved artwork text and official supplied logo once. All other surfaces blank. Preserve minimum1080 square native PNG original bytes. Read body/source comfortably at333px without zoom.\",\"props\":[\"package tray\",\"blank process plates\",\"clear-blue rail\"],\"reader_question\":\"Which named case can I identify?\"}]\nAPPROVED ARTWORK TEXT\n{\"RMK-R4-2\":{\"artwork_labels\":[\"DIGIWIN · CASE BÁN DẪN\",\"2/4\"],\"body\":\"江苏中科智芯集成科技有限公司 triển khai giải pháp số tích hợp. Case đề cập hồ sơ, quy trình và hiệu quả sản xuất gia công.\",\"cta\":\"\",\"headline\":\"Một case đóng gói và kiểm thử tại Trung Quốc\",\"source_text\":\"Digiwin Việt Nam · 8 case studies · case06\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-rmk-proof/quality-pilot-harness-r4/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+      "prompt_sha256": "93a357c50f5e36679bf7838adfddba0309cf61b4cbed654b5aae0d9facd31254"
+    },
+    {
+      "call_id": "RMK_R4_3",
+      "targets": [
+        "RMK-R4-3"
+      ],
+      "references": [
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+          "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+          "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png",
+          "sha256": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png",
+          "sha256": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+          "role": "brand_asset",
+          "attributes": [
+            "brand_mark"
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "card_id": "RMK-R4-3",
+          "concept_id": "published-month-close-result-v1",
+          "reader_question": "What concrete result does the case report?",
+          "description": "INTERNAL DIRECTIONS NOT PRINTED. Top-down daylight scene: a compact blank ledger beside a single descending curved blue time ribbon ending at a plain closed ledger. Exact approved headline carries15and5; no extra numbers, calendar dates, badges, ticks or data glyphs. Only exact approved artwork text and official supplied logo once. All other surfaces blank. Preserve minimum1080 square native PNG original bytes. Read body/source comfortably at333px without zoom.",
+          "props": [
+            "blank ledger",
+            "curved blue time ribbon"
+          ],
+          "artwork_labels": [
+            "DIGIWIN · CASE BÁN DẪN",
+            "3/4"
+          ]
+        }
+      ],
+      "artwork_text": {
+        "RMK-R4-3": {
+          "headline": "Khóa sổ tháng: từ 15 ngày còn 5 ngày",
+          "body": "Trong case 江苏中科智芯集成科技有限公司, Digiwin chia sẻ kết quả rút thời gian khóa sổ tháng từ 15 ngày xuống 5 ngày.",
+          "source_text": "Case06 · 江苏中科智芯集成科技有限公司 · Trung Quốc",
+          "cta": "",
+          "artwork_labels": [
+            "DIGIWIN · CASE BÁN DẪN",
+            "3/4"
+          ]
+        }
+      },
+      "output_id": "rmk-r4-3",
+      "output_path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/native/rmk-r4-3.png",
+      "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"Use selected frozen R2 campaign references and official logo only. Bright white office/daylight photography, soft blue and navy, credible photographic material depth, grounded shadows and integrated physical relationship diagrams. Vary view angle, scale and open relationship structures according to each card meaning. Blank material surfaces only; no invented labels, microglyphs, identifiers, dates, metrics, ticks, seals or completed badges. Printed wording limited to exact approved headline, body, source_text, CTA, category and sequence; caption/native headline/alt remain outside raster. No reference wording, prop quota, fixed layout or legacy scene inheritance. No invented customer/facility/capability evidence. Closing reserves a dedicated full-width source paragraph at body-like size about 56 native pixels, comfortably readable at 317–333 pixels without zoom; reduce photo area to protect readable text. Preserve native square PNG minimum 1080 per edge, never resize or composite to pass.\",\"revision\":\"rmk-quality-r4-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"DIGIWIN · CASE BÁN DẪN\",\"3/4\"],\"card_id\":\"RMK-R4-3\",\"concept_id\":\"published-month-close-result-v1\",\"description\":\"INTERNAL DIRECTIONS NOT PRINTED. Top-down daylight scene: a compact blank ledger beside a single descending curved blue time ribbon ending at a plain closed ledger. Exact approved headline carries15and5; no extra numbers, calendar dates, badges, ticks or data glyphs. Only exact approved artwork text and official supplied logo once. All other surfaces blank. Preserve minimum1080 square native PNG original bytes. Read body/source comfortably at333px without zoom.\",\"props\":[\"blank ledger\",\"curved blue time ribbon\"],\"reader_question\":\"What concrete result does the case report?\"}]\nAPPROVED ARTWORK TEXT\n{\"RMK-R4-3\":{\"artwork_labels\":[\"DIGIWIN · CASE BÁN DẪN\",\"3/4\"],\"body\":\"Trong case 江苏中科智芯集成科技有限公司, Digiwin chia sẻ kết quả rút thời gian khóa sổ tháng từ 15 ngày xuống 5 ngày.\",\"cta\":\"\",\"headline\":\"Khóa sổ tháng: từ 15 ngày còn 5 ngày\",\"source_text\":\"Case06 · 江苏中科智芯集成科技有限公司 · Trung Quốc\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-rmk-proof/quality-pilot-harness-r4/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+      "prompt_sha256": "67dc14068409795fb94563e9a584f04149b5831a785e70abc5744e1a558ed1e8"
+    }
+  ]
+}

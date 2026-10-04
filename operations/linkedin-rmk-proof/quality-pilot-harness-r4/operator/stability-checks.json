@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "revision": "rmk-r4-parent-stability-probes-v1",
+  "baseline": "7730bd9",
+  "gate_sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+  "tests_sha256": "2c383a475ecc44cfd72825d4a825b2aec1a90da49e42d856928c2dec878f97c2",
+  "unit_tests": {
+    "count": 65,
+    "outcome": "PASS",
+    "run": "fresh parent python -B -m unittest discover -s tests -p test_imagegen_preflight.py"
+  },
+  "negative_count": 5,
+  "positive_count": 2,
+  "results": [
+    {
+      "probe": "unapproved internal caution in artwork",
+      "verdict": "PASS",
+      "observed_rejection": "Unapproved artwork wording/label"
+    },
+    {
+      "probe": "altered prompt even with recomputed hash",
+      "verdict": "PASS",
+      "observed_rejection": "Prompt differs from assembled approved inputs"
+    },
+    {
+      "probe": "closing reference omitted",
+      "verdict": "PASS",
+      "observed_rejection": "Call reference identity/role differs from reviewed references"
+    },
+    {
+      "probe": "hidden internal notes in viewer",
+      "verdict": "PASS",
+      "observed_rejection": "Viewer payload differs from approved public-field projection"
+    },
+    {
+      "probe": "editorial FAIL attestation even with consistent fresh bindings",
+      "verdict": "PASS",
+      "observed_rejection": "Review not passed"
+    },
+    {
+      "probe": "campaign valid real bindings",
+      "verdict": "PASS"
+    },
+    {
+      "probe": "closing valid real bindings",
+      "verdict": "PASS"
+    }
+  ],
+  "scope": "Actual R4-derived bounded fixtures. No inference or native outputs from fixtures. Mechanics are not semantic/creative approval."
+}

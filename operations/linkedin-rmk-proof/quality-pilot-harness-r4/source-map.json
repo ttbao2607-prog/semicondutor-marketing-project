@@ -1,0 +1,55 @@
+{
+  "revision": "rmk-quality-r4-v1-parent-review-pending",
+  "access_date": "2026-10-04",
+  "observation_provenance": "Parent independently reopened public pages today; writer records supplied observations, not downloaded snapshots.",
+  "sources": [
+    {
+      "id": "PR05",
+      "url": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+      "locator": "case06; 江苏中科智芯集成科技有限公司",
+      "observed": "China packaging/testing; records/processes/outsourcing-production efficiency; integrated digital solution; month-close15days to5days",
+      "cards": [
+        "RMK-R4-2",
+        "RMK-R4-3",
+        "RMK-R4-4"
+      ]
+    },
+    {
+      "id": "PR10",
+      "url": "https://www.digiwin.com.vn/about-vn/",
+      "locator": "Digiwin Vietnam company/about",
+      "observed": "Developer/provider of manufacturer digital transformation solutions, ERP to smart manufacturing",
+      "cards": [
+        "RMK-R4-1"
+      ]
+    }
+  ],
+  "internal_notes": [
+    "Adjacent operations proof for Quality warm hypothesis; no abnormal-test outcome inference.",
+    "Published case result attributed to named China case; not ERP-only causality or universal promise.",
+    "No customer mark, facility authenticity, extra capability, deployment-period or local-semiconductor-result claim."
+  ],
+  "raw_local_inputs": [
+    {
+      "path": "operations/linkedin-rmk-proof/proof-ledger.md",
+      "sha256": "cb17e66692e05c320f4980c08bcbef8b63c1a0ebb644eb6fc5a118fd91736e56",
+      "revision": "baseline7730bd9"
+    },
+    {
+      "path": "operations/linkedin-rmk-proof/source-map.json",
+      "sha256": "6fdd0b9d4ad0620fe64019800be5bd85d28b43672cbe6dca9f20dced53a4fba6",
+      "revision": "baseline7730bd9"
+    },
+    {
+      "path": "operations/linkedin-rmk-proof/RMK_Content_Anchor_and_R2_Audit.md",
+      "sha256": "3ea8ffcda1d28d7e8066e0d8975aeb388dd218eb6611e06cbcf118d060993007",
+      "revision": "baseline7730bd9"
+    },
+    {
+      "path": "operations/Ad_Artifact_Editorial_QA_Gate.md",
+      "sha256": "a045be594186b09c1e60fa41b276ac4ccdd4a9a20873d89f2ae738d4088c61e0",
+      "revision": "baseline7730bd9"
+    }
+  ],
+  "destination": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/"
+}

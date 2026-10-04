@@ -1,0 +1,74 @@
+{
+  "revision": "rmk-r4-actual-calls-v1",
+  "base_calls": 4,
+  "corrections": 0,
+  "order": [
+    4,
+    1,
+    2,
+    3
+  ],
+  "calls": [
+    {
+      "call_id": "RMK_R4_4",
+      "observed_order": 1,
+      "tool": "built-in image_gen.imagegen",
+      "original_path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a10452-9341-7553-bc0a-ced3883809d5\\exec-f82dc92d-5865-47f8-8308-1f1367d272db.png",
+      "repo_path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/native/rmk-r4-4.png",
+      "sha256": "3502f647b30cbbce77aa54d52d1182e17fc1375fe33931cf15781c8317b93b50",
+      "tool_args_sha256": "39eb928cbb29d8b7ef1df9762226213db7c2fb7b7aba45a42982772eaa1366fd",
+      "dimension_receipt": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/closing/native/RMK_R4_4.json",
+      "native_bytes_unchanged": true,
+      "actual_dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "call_id": "RMK_R4_1",
+      "observed_order": 2,
+      "tool": "built-in image_gen.imagegen",
+      "original_path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a10452-9341-7553-bc0a-ced3883809d5\\exec-d83cea80-53d9-4a97-8a24-e598f6664d92.png",
+      "repo_path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/native/rmk-r4-1.png",
+      "sha256": "5d7854aa78cea764f600204b20b70af38d660bb0e0a0c1a4eee51e3f1e1cc4ac",
+      "tool_args_sha256": "6d99810b62ffe6299c0a0421b9ef8ef02d4b193af4d9564f50dfb39f8ed6bb6e",
+      "dimension_receipt": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/native/RMK_R4_1.json",
+      "native_bytes_unchanged": true,
+      "actual_dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "call_id": "RMK_R4_2",
+      "observed_order": 3,
+      "tool": "built-in image_gen.imagegen",
+      "original_path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a10452-9341-7553-bc0a-ced3883809d5\\exec-6c4786ff-47eb-4f4c-bc38-c8d5bd1eb259.png",
+      "repo_path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/native/rmk-r4-2.png",
+      "sha256": "cd375fc50a7696ec7c0996066b312f9c6c4e172632b327376717f0bf5b4ecd70",
+      "tool_args_sha256": "3d72a0188d5e6bcd02bff145f5c1070368e1b0b396a14cc42b248a082214f96a",
+      "dimension_receipt": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/native/RMK_R4_2.json",
+      "native_bytes_unchanged": true,
+      "actual_dimensions": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "call_id": "RMK_R4_3",
+      "observed_order": 4,
+      "tool": "built-in image_gen.imagegen",
+      "original_path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a10452-9341-7553-bc0a-ced3883809d5\\exec-b7e564a6-4e99-4011-9f76-e2ded9989dba.png",
+      "repo_path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/native/rmk-r4-3.png",
+      "sha256": "8968723747095d70db2af7bd01ac29f2034f0405097867e9109532916e17a672",
+      "tool_args_sha256": "83d003e6179b325d4194d6cf50c981e3e1a8f576fe3d7bc247136a6eee183b32",
+      "dimension_receipt": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/native/RMK_R4_3.json",
+      "native_bytes_unchanged": true,
+      "actual_dimensions": [
+        1254,
+        1254
+      ]
+    }
+  ],
+  "boundary": "Actual tool provenance recorded by sole root operator; mechanical receipts alone did not establish this."
+}

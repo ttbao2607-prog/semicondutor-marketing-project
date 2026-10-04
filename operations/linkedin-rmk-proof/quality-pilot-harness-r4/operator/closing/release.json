@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "revision": "rmk-r4-closing-parent-release-v1",
+  "authorizer": "Bao explicit R4 execution; root bounded operator release after source/editorial review",
+  "authority_ref": {
+    "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/authority.json",
+    "sha256": "b6796306d294c5c6c53f10b926a2c4bd7a413d12ff672f1e74b94eb1de195358",
+    "revision": "rmk-r4-bao-authority-2026-10-04-v1"
+  },
+  "purpose": "OFFLINE_IMAGEGEN",
+  "contract": {
+    "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/closing/contract.json",
+    "sha256": "88029d706cc856930b237f5635bda44445aeaf3ebf220ac8e833a752e25fd9b4",
+    "revision": "rmk-quality-r4-v1-parent-review-pending-closing"
+  },
+  "copy": {
+    "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/copy-vi.json",
+    "sha256": "1251646180154432cbd2a5e79e04d4deba493c4ebf2b01f5cb486e01aa2ba498",
+    "revision": "rmk-quality-r4-v1-parent-review-pending"
+  },
+  "review": {
+    "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/closing/review.json",
+    "sha256": "29b9a1bed87c217beb23e95315b83f496344e5e0102305cc5337cf1dde83dab6",
+    "revision": "rmk-r4-closing-parent-review-v1"
+  },
+  "groups": [
+    [
+      "RMK-R4-4"
+    ]
+  ]
+}

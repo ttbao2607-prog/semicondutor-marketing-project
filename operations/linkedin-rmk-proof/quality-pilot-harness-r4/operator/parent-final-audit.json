@@ -1,0 +1,330 @@
+{
+  "AUDIT_SCOPE": "R4 offline preparation, released ImageGen calls, native/editorial/story/browser QA, scope protection and stability probes",
+  "CONTRACT_REF": {
+    "path": "D:\\optimize-awareness-LinkedIn-adcopy\\operations\\linkedin-rmk-proof\\quality-pilot-harness-r4\\execution-contract.json",
+    "sha256": "80c89b58497968d99a7903df6989b370f59b6834770e1eee3a4697f288089c42",
+    "note": "Preparation snapshot; final disposition supersedes deferred/pending states."
+  },
+  "BASELINE_REF": "7730bd974ff7ae2c3c8173e79bf1aac9ff48fe75",
+  "CANDIDATE_REF": {
+    "path": "D:\\optimize-awareness-LinkedIn-adcopy\\operations\\linkedin-rmk-proof\\quality-pilot-harness-r4",
+    "files": [
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/build_preview.py",
+        "sha256": "4434755074df64844271da8dc2486a9fd672ff1331af62c6472b3d5123e17514"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/campaign/calls-draft.json",
+        "sha256": "4332044d737d594823be8859fb194d43287d48931206ec5fd25650353f8dedb5"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/campaign/contract.json",
+        "sha256": "047b906a925f4d9eebb831b013ab459609bd47fa9e3d9362ecbfe9ac5bf9d88e"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/closing/calls-draft.json",
+        "sha256": "5d8c49a33f70795840e8eacc03b673da64a1bf95e6fd3eac57288aff68097c38"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/closing/contract.json",
+        "sha256": "88029d706cc856930b237f5635bda44445aeaf3ebf220ac8e833a752e25fd9b4"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/copy-vi.json",
+        "sha256": "1251646180154432cbd2a5e79e04d4deba493c4ebf2b01f5cb486e01aa2ba498"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/editorial-copy-preflight.json",
+        "sha256": "f5abfcbdd38f8d7370ada48c1e9b59a20ca8fb456e40c849cd2ce19a8199cf8d"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/execution-contract.json",
+        "sha256": "80c89b58497968d99a7903df6989b370f59b6834770e1eee3a4697f288089c42"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/native/rmk-r4-1.png",
+        "sha256": "5d7854aa78cea764f600204b20b70af38d660bb0e0a0c1a4eee51e3f1e1cc4ac"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/native/rmk-r4-2.png",
+        "sha256": "cd375fc50a7696ec7c0996066b312f9c6c4e172632b327376717f0bf5b4ecd70"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/native/rmk-r4-3.png",
+        "sha256": "8968723747095d70db2af7bd01ac29f2034f0405097867e9109532916e17a672"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/native/rmk-r4-4.png",
+        "sha256": "3502f647b30cbbce77aa54d52d1182e17fc1375fe33931cf15781c8317b93b50"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/navigation-correction-receipt.json",
+        "sha256": "a8f450b0a108b82cf69b7e82b6ed8f76043084296861c9f96e3efd474db82933"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/actual-calls.json",
+        "sha256": "80cf6cfaab6094b65de835e8ce545d24e8cefe02c45c4adf3a11693a899b266e"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/authority.json",
+        "sha256": "b6796306d294c5c6c53f10b926a2c4bd7a413d12ff672f1e74b94eb1de195358"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/binding.json",
+        "sha256": "824848d255a75b61303f831a06695bb982bc7d0a17f33039fdd143c4bc365b2c"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/dispatch/RMK_R4_1-check.json",
+        "sha256": "9503015887e86c4132b5673ee69ceecc68fa4de4970a21e3be79df8923124ed9"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/dispatch/RMK_R4_1-planned.json",
+        "sha256": "78bdd4f54794d5d9d08edfcf12aee27cbd62b485e8e00ddbf343249293ab6de6"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/dispatch/RMK_R4_1-preflight.json",
+        "sha256": "b665b20050760c4efddcc43504180201556a77abccfb3a1e111313c38568205c"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/dispatch/RMK_R4_1-tool-args.json",
+        "sha256": "6d99810b62ffe6299c0a0421b9ef8ef02d4b193af4d9564f50dfb39f8ed6bb6e"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/dispatch/RMK_R4_2-check.json",
+        "sha256": "de66931867649f1edaf3169b13d86fd74bd5a5fcf4c2277ce95767bf450a71d7"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/dispatch/RMK_R4_2-planned.json",
+        "sha256": "fd114005e32d1f70fd8e4ba03cdcafb8b346f523e6c1a63a77b0b0cde0d3957d"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/dispatch/RMK_R4_2-preflight.json",
+        "sha256": "06e3b86833f2c5d585aa722b1f0e66313710612d26c810a5058f895241401229"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/dispatch/RMK_R4_2-tool-args.json",
+        "sha256": "3d72a0188d5e6bcd02bff145f5c1070368e1b0b396a14cc42b248a082214f96a"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/dispatch/RMK_R4_3-check.json",
+        "sha256": "f8524508853b68c8bd29718a1fa82e4ce4a303386ca1eb1e6639dab53379c9d9"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/dispatch/RMK_R4_3-planned.json",
+        "sha256": "2d84c60f09d8ac320d919cea9e7766c6dcf521044e885cea7d4b84b61c04d07a"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/dispatch/RMK_R4_3-preflight.json",
+        "sha256": "3b87548e74835f1eeec933fbf1cd2eb81e9a297fa631bcc49f892a65be9aae18"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/dispatch/RMK_R4_3-tool-args.json",
+        "sha256": "83d003e6179b325d4194d6cf50c981e3e1a8f576fe3d7bc247136a6eee183b32"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/native/RMK_R4_1.json",
+        "sha256": "02f4c182a32f6841d6bf3d301a1a8f65f0af0f290319be1347e43e34543a6640"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/native/RMK_R4_2.json",
+        "sha256": "a02c9ea8a070792f2aef350b1fcc91e223ba7167f5bdb7778e37868f11a26b66"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/native/RMK_R4_3.json",
+        "sha256": "6170d6daf3eaa1c2a0adc806c54efdad77ab48ec49329fe1f57c80b4bcdf6c64"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/release.json",
+        "sha256": "ed50b2e651181b9d381352cd27c9146a7df5317c726e472d393a4b2b9040eb13"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/review.json",
+        "sha256": "5ce697828f32f1fbe5b7c71245af78b9320deb6439ba46f8eaf8da76e42a982d"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/spec.json",
+        "sha256": "9f3615e680807824bace181a3e51c896088d4141a62d278d171fb835a986b00d"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/campaign/viewer-check.json",
+        "sha256": "921a52352cbbdefe26e0b16c4c5ff7936378914f4e71f74631fae64d75f06374"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/closing/binding.json",
+        "sha256": "f9278593891f0b482e7e7551600a549cdb2c65f1a2153b8ec33a6a32c83a9a4c"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/closing/dispatch/RMK_R4_4-check.json",
+        "sha256": "a8a0cb8e079ea441cb553c8e8289b9d6ca355b202fc17d32bb1045df2c50cc32"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/closing/dispatch/RMK_R4_4-planned.json",
+        "sha256": "528b014dd62fe05121ab6baeeef9c2936c6681f9d2b2c995fa49fdb71fddb7dd"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/closing/dispatch/RMK_R4_4-preflight.json",
+        "sha256": "b20b0e9a89a5a5c92a66aabc97832cad468e379d7c9a9307eeea1ceb2404b39d"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/closing/dispatch/RMK_R4_4-tool-args.json",
+        "sha256": "39eb928cbb29d8b7ef1df9762226213db7c2fb7b7aba45a42982772eaa1366fd"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/closing/native/RMK_R4_4.json",
+        "sha256": "690c037638be3251eaa2bb53294e02c8fe62c907aa8a864e297243f15d7a636e"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/closing/release.json",
+        "sha256": "d62e0c92c2364fe894b2cf17fca2d3809e69b180e559c270cdfe4f70e359c65a"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/closing/review.json",
+        "sha256": "29b9a1bed87c217beb23e95315b83f496344e5e0102305cc5337cf1dde83dab6"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/closing/spec.json",
+        "sha256": "52e57ef3bc0d849ea1fed21ac2a74f153d97825f87e94facd491da565a196237"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/closing/viewer-check.json",
+        "sha256": "d70753b9c3a68ab5590352523da438f08b97301a50a9793db86e071be3238c5e"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/postgen-editorial-and-story.json",
+        "sha256": "24ecba0bfd2657e93f7bd99bff09993a152c4822c82410e4ff003878ba1947e3"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/render-checks.json",
+        "sha256": "0dfd2f9d8354b21818bbd8aec06fe7d87f57351e46205aaede4e37f8d25ba261"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/source-review-detail.json",
+        "sha256": "5abeb558de2959b35bfa5b369abb0e779bcbc31b1716575f67ddcb317596ea81"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/stability-checks.json",
+        "sha256": "e7b1cc657eb229b4d587991243b26a6e02e1e73bf9d6c4ce623d4ef64db24ff7"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/stability-fixtures/bad-viewer.json",
+        "sha256": "afd3e8906e9da7daf8b61918ae1c3d18c1f7825951364dc0845f01d14b94b194"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/stability-fixtures/campaign-probe-ab4b43e1.json",
+        "sha256": "72f02657c093798b99d3dd8519e9c65b615f9053b84ec1e700d0f5892e887cfe"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/stability-fixtures/campaign-probe-fcabd59e.json",
+        "sha256": "16d322c1965fdaf36a8a2564a6e83c466f3cc545be5b81646223b655ad4b7af3"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/stability-fixtures/campaign-probe.json",
+        "sha256": "72f02657c093798b99d3dd8519e9c65b615f9053b84ec1e700d0f5892e887cfe"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/stability-fixtures/closing-probe-e5583828.json",
+        "sha256": "920d732aa189ff9174acc9c8c283f0e3648c67fa2c9de658da0997a3c2181639"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/stability-fixtures/failed-review-spec.json",
+        "sha256": "c56893cc9c0ae0f96629bc3e20bff178e34faf14c39155d903aeb6a6e45f11ad"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/stability-fixtures/failed-review.json",
+        "sha256": "22f709294330d093e7df59d882c47a97d2a66c614ccff918b5a2252a7a17f8c0"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/operator/stability-fixtures/fixture-release.json",
+        "sha256": "ccfc534be7a0e02f3a207d1dd406ca01ade5de69ca6e8e853bda7fc802ff2b4f"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/preparation-checks.json",
+        "sha256": "af57f7ea4f10cdb079ae85a12bd2a827fcf6d6fe7904946fe1495a67b24f8814"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/preparation-manifest.json",
+        "sha256": "e5d75973e2c9e0d0fad5a2b10c351ba3832297964d28ab17138c6f01d7a0727c"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/public-copy.json",
+        "sha256": "1251646180154432cbd2a5e79e04d4deba493c4ebf2b01f5cb486e01aa2ba498"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/README.md",
+        "sha256": "798c9e91c22fd737f466d70dd4eb4e04966d7acead0a853c07bc9ad8be4a5273"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/source-map.json",
+        "sha256": "d211140b1ac1a3ba8b710c231b47cf36cf3240219be016d37501e67363d4f3f1"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/storyboard.json",
+        "sha256": "3ce047154488fecaab418bc376777633c7f1d31c0ecebe0776ba1efbe8aa4957"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/viewer-build-manifest.json",
+        "sha256": "fb827a6574317a781698c88d8222d347bf29eb85fc4be366dc03bd8419961157"
+      }
+    ],
+    "canonical_docs": [
+      {
+        "path": "CURRENT_STATE.md",
+        "sha256": "6ab0f4ea959e8de0591e1e98f97acca45dca71d6eca20948deb3754dfc474c24"
+      },
+      {
+        "path": "ads/linkedin/LinkedIn_Build_Pack.md",
+        "sha256": "7a3f97ab4d9c821d704191fcb70be00f69a07dde824d5c7a3b2c72cd283099c5"
+      },
+      {
+        "path": "operations/Pre_Ad_Readiness_Plan.md",
+        "sha256": "7f3952441411fde5daba7e88bb62b47e265417c57e7a21f98340f76c67ec29b7"
+      },
+      {
+        "path": "operations/LinkedIn_Remarketing_Proof_Plan.md",
+        "sha256": "c79724292db3f94de82711baa2c5084915e420cec7e139b95dba34c9822019f8"
+      },
+      {
+        "path": "operations/LinkedIn_Cold_to_RMK_Continuity_Map_Plan.md",
+        "sha256": "806ab0c160036f961b4b9225977ec088b8a39fd9a059a71abde63be4c6ebac6b"
+      },
+      {
+        "path": "operations/linkedin-rmk-proof/README.md",
+        "sha256": "e0799eee2912aadb564672ea4e4175e9050baafd765ae3e55038eace90df2a86"
+      }
+    ],
+    "viewer_sha256": "a05104d3a106aeeeee048f42df77f256f9681fada523b092da66369e76b77182"
+  },
+  "VERDICT": "PASS",
+  "AUDIT_MODE": "SELF: root reviewed leaf preparation and operated ImageGen; no separate external auditor",
+  "COVERAGE": {
+    "AC1": "PASS: source-review-detail.json",
+    "AC2": "PASS: pre-release review plus postgen-editorial-and-story.json",
+    "AC3": "PASS: frozen gate/tests hash and unchanged HEAD/staging; protected history outside six additive docs unchanged",
+    "AC4": "PASS: four native receipts and human native/8-view QA",
+    "AC5": "PASS: six-file export, native bytes and viewer-check/render-checks",
+    "AC6": "PASS: six canonical addenda preserve prior content; honest offline status",
+    "AC7": "PASS: 65 unit tests, 5 negative and 2 positive probes"
+  },
+  "FINDINGS": [
+    {
+      "finding": "Viewer accessibility labels initially used denominator 5 for four cards",
+      "status": "CLOSED",
+      "evidence": "navigation-correction-receipt.json; corrected denominator 4 verified with browser navigation",
+      "native_correction_calls": 0
+    }
+  ],
+  "limits": [
+    "One bounded RMK pilot supports transfer stability, not statistical reliability or all campaigns.",
+    "Mechanical gate validates approved inputs/attestations; semantic editorial judgment remains human.",
+    "PO creative acceptance and live campaign authorization not granted.",
+    "Nonclosing source footers smaller than body; closing source readability inspected on mobile."
+  ],
+  "git": {
+    "branch": "slice/linkedin-rmk-proof-plan",
+    "HEAD": "7730bd974ff7ae2c3c8173e79bf1aac9ff48fe75",
+    "staged_changes": false,
+    "new_commit": false,
+    "push_performed": false,
+    "remote": "No new remote operation; cached remote refs do not assert current live state."
+  }
+}
