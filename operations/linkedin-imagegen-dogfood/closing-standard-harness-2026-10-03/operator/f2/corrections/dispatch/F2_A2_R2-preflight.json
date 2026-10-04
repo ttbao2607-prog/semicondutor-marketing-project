@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "gate_version": 1,
+  "gate_sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+  "layer": "PREGEN",
+  "mechanical_verdict": "PASS",
+  "purpose": "OFFLINE_IMAGEGEN",
+  "spec_path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/operator/f2/corrections/spec.json",
+  "release_path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/operator/f2/corrections/release.json",
+  "release_sha256": "c5d49a03fbab6b3276d51df3a48436759d2eba20cca4f574d5ec4b0b6a8662a2",
+  "scope_call_id": "F2_A2_R2",
+  "input_hashes": {
+    "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave1/common/f2/source-attachments/copy-vi.json": "dce82218734651c93aa662840ae74616e9483404e24905552279cad41f5aee52",
+    "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave1/common/f2/source-attachments/delta-log.json": "1afd66da0bf3f62be5ce30fab49d3865753fbfc4018bf61d24d3c1441db9aa32",
+    "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave1/common/f2/source-attachments/detail-map.json": "2adf75fef21ca61c5d2cd869ec1e63e1e1fb0a21b1fcf78315b097cdd262f403",
+    "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave1/common/f2/source-attachments/evidence-register.md": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+    "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave1/common/f2/source-attachments/first-touch-anchor.md": "d90ffb1e76be80dd15e0d9537520569595ef65a94df78f9d3928a71a0a7c8067",
+    "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave1/common/f2/source-attachments/local-terminology-evidence.json": "6e81ee57160281e180fc86f8471b02005ee67ab817f0d3e13334b8d0a79f789c",
+    "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/wave1/common/f2/source-attachments/review.md": "4d47778d085f57d981c3cb0dea92ba562345a127174411beac603e90ad0df7a0",
+    "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/common/f2-copy.json": "45b83f7a59323a2c00a0016f6f06472395b7f4a7a079ab5ec15c55c718a2b919",
+    "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/operator/dogfood-authority.md": "068c5099afdaeb224f1c93ca76a9ff5fccead961474ad3cbea24b1192653ea94",
+    "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/operator/f2/corrections/release.json": "c5d49a03fbab6b3276d51df3a48436759d2eba20cca4f574d5ec4b0b6a8662a2",
+    "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/operator/f2/corrections/review.json": "c5ccf5611b93c48f16ddd01f84a2e24b2312a2abb78da96e16c4b514bc20a1bb",
+    "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/operator/f2/corrections/spec.json": "f8b1a433007a82ce9c89a733b10f109153d0fa1c771468e04431a3b78e0be254",
+    "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/sol/f2/corrections/contract.json": "753804fb22fa52c6301e441894280419974fa39818d53fdab63e5f8a90519059",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79"
+  },
+  "call_ids": [
+    "F2_A2_R2"
+  ],
+  "advisories": [],
+  "semantic_verdict": "NOT_ASSESSED",
+  "creative_verdict": "INSUFFICIENT_EVIDENCE",
+  "authority": "NO_GENERATION_AUTHORITY"
+}

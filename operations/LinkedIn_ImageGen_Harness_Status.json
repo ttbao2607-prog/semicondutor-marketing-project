@@ -3345,8 +3345,8 @@
     "prior_failed_runs": "UNCHANGED"
   },
   "closing_standard_upgrade": {
-    "status": "IMPLEMENTATION_AUDIT_PASS_READY_FOR_CHECKPOINT",
-    "phase": "testing_dogfood_closing_upgrade",
+    "status": "FROZEN_HARNESS_CLOSING_STANDARD_TESTED_F2_O1",
+    "phase": "SCOPED_FROZEN_AFTER_DOGFOOD_PASS",
     "authorization_exact": "oki chốt làm chuẩn harness, làm harness xong commit checkpoint r sau đó dogfood tiếp nhé để freeze harness.",
     "accepted_anchor_sha256": "016b69513d28bee0ab1b371e4ff5c8f4a86acb531a40125d72785622b01a7416",
     "guide": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/closing-standard-guide.md",
@@ -3357,19 +3357,71 @@
     "tests_sha256": "2c383a475ecc44cfd72825d4a825b2aec1a90da49e42d856928c2dec878f97c2",
     "independent_parent_audit": "PASS",
     "checkpoint": "CONTAINING_AUTHORIZED_LOCAL_CHECKPOINT_BEFORE_GENERATION",
-    "work_state": "Recorded by containing authorized local checkpoint; no push/merge/live",
+    "work_state": "DOGFOOD_RESULTS_AFTER_CHECKPOINT_LOCAL_UNCOMMITTED_UNSTAGED_NO_SECOND_COMMIT_MANDATE",
     "dogfood_plan": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/dogfood-plan.md",
     "dogfood_budget_proposed": {
       "base": 10,
       "targeted_corrections": 2,
       "status": "NOT_RELEASED"
     },
-    "new_generation": 0,
+    "new_generation": 11,
     "prior_freeze_scope": "UNCHANGED_MECHANISM_AND_EXACT_F3",
     "whole_campaign_acceptance": "NOT_GRANTED",
     "audit_path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/operator/implementation-final-audit.json",
     "audit_sha256": "cfb12531e0d204ad87685d5db3d7969a7b5e747be5d70b691bb19cb211772da8",
-    "proof_scope": "65 checks implementation/mechanical only; future image stress NOT_ASSESSED",
-    "protected_prior_files_verified": 1247
+    "proof_scope": "65 implementation/mechanical checks only; actual F2/O1 native/render/story scopedPASS independently observed separately",
+    "protected_prior_files_verified": 1247,
+    "freeze_authority": "Existing Bao conditional mandate satisfied by scoped root actualnative/render/story audit",
+    "implementation_checkpoint": "3587fe740988a8ef50fe5df96b7231daea574add",
+    "checkpoint_locality": "LOCAL_ONLY_NO_PUSH_BEFORE_IMAGE_CALLS",
+    "dogfood_execution": "COMPLETE_BOUNDED_TESTED_SCOPE",
+    "dogfood_audit": "PASS_NATIVE_RENDER_STORY_SCOPE",
+    "dogfood_counts": {
+      "base": 10,
+      "correction": 1,
+      "actual_calls": 11,
+      "selected_cards": 10,
+      "render_positions": 20,
+      "F2_correction": 1,
+      "O1_correction": 0
+    },
+    "observations_path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/operator/dogfood-observations.json",
+    "observations_sha256": "21b44c74a46bd30e151d94be4bfa5cb02e6e4923117f7b0cdf560d13265949ca",
+    "final_closeout_audit_path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/operator/parent-final-audit.json",
+    "final_closeout_audit_status": "FINAL_PARENT_AUDIT_PASS",
+    "result": "operations/LinkedIn_ImageGen_Closing_Standard_Dogfood_Result_2026-10-03.md",
+    "freeze_scope": "closing method/reference/layout tested on F2/O1 and accepted P3 anchor; prior mechanism/exactF3 freeze unchanged",
+    "source_hierarchy": "PASS fullwidth source once >=body readable nozoom390viewport/332.6667image",
+    "story": "PASS fourtransitions each and P3/F3crossfamily",
+    "viewers": "PASS exact publicprojection/nativebytes sevenfiles each",
+    "historical_F2_A2_base": {
+      "verdict": "FAIL_EXTRA_FINAL_PERIOD_PRESERVED",
+      "sha256": "09c9aa7dcabc3987bf504ff5b88a62f4a56940674679f8f72c88ea2cfe580010",
+      "selected_correction_sha256": "844131d6c35668150034ce92e89881f822f9b74d1698f4dc732f24c869d85573"
+    },
+    "raw_checkpoint_pins_verified": 119,
+    "review_release_spec_chains_verified": 5,
+    "future_generation": "NO_FURTHER_RELEASE",
+    "prior_top_production_status_scope": "Historical remaining-rollout stopped P3 run; unchanged FAIL/counts, not current closing-method dogfood verdict",
+    "current_budget_state": {
+      "authorized_base": 10,
+      "correction_cap": 2,
+      "actual_base": 10,
+      "actual_correction": 1,
+      "remaining_reserve": "NOT_AUTOMATIC_RELEASE; completed test no further calls",
+      "original_proposal_field": "historical initial proposal, superseded by actual bounded root release/counts"
+    },
+    "raw_checkpoint_pins_current_byte_identical": 117,
+    "raw_checkpoint_pins_scope": "119 verified before guide/plan finalization;117 remain byte-identical after2authorized current-guide/dogfood-plan updates. Historical raw images/copy/receipts unchanged.",
+    "authorized_checkpoint_pin_updates": [
+      "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/closing-standard-guide.md",
+      "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/dogfood-plan.md"
+    ]
+  },
+  "current_status_scope": "FROZEN_HARNESS_CLOSING_STANDARD_TESTED_F2_O1; older top-level production metrics/audit/gate/test counts are preserved historical remaining-rollout scope",
+  "current_run_ref": {
+    "status_object": "closing_standard_upgrade",
+    "namespace": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03",
+    "authoritative_fields": "gate_sha256/tests_sha256/unit_tests_passed/dogfood_counts/dogfood_audit/observations_path/observations_sha256/result"
   }
 }
