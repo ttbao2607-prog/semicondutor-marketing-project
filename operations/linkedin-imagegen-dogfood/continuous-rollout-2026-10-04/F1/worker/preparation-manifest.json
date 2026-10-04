@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "status": "PREPARED_FOR_INDEPENDENT_ROOT_REVIEW_NOT_RELEASED",
+  "writer_thread_id": "01a10447-8fc9-7303-a357-0d45496ca499",
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/f1-copy.json",
+    "sha256": "35442440959244ef51dc7599747affd40936700b9b24c0353a0ba688d1a68b54",
+    "revision": "all-scenarios-f1-copy-v1-parent-review-pending",
+    "exact_original": "operations/linkedin-imagegen-dogfood/all-scenarios-2026-10-03/source-review/F1/public-copy.json"
+  },
+  "sources": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/copy-vi.json",
+      "sha256": "c94d79033323b8a514d248f4ae168e6690e237f37a43d4d874c32a1eec149db7",
+      "revision": "continuous-f1-source-snapshot-2026-10-04"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/delta-log.json",
+      "sha256": "1afd66da0bf3f62be5ce30fab49d3865753fbfc4018bf61d24d3c1441db9aa32",
+      "revision": "continuous-f1-source-snapshot-2026-10-04"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/detail-map.json",
+      "sha256": "2adf75fef21ca61c5d2cd869ec1e63e1e1fb0a21b1fcf78315b097cdd262f403",
+      "revision": "continuous-f1-source-snapshot-2026-10-04"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/evidence-register.md",
+      "sha256": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+      "revision": "continuous-f1-source-snapshot-2026-10-04"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/first-touch-anchor.md",
+      "sha256": "d90ffb1e76be80dd15e0d9537520569595ef65a94df78f9d3928a71a0a7c8067",
+      "revision": "continuous-f1-source-snapshot-2026-10-04"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/local-terminology-evidence.json",
+      "sha256": "6e81ee57160281e180fc86f8471b02005ee67ab817f0d3e13334b8d0a79f789c",
+      "revision": "continuous-f1-source-snapshot-2026-10-04"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/review.md",
+      "sha256": "4d47778d085f57d981c3cb0dea92ba562345a127174411beac603e90ad0df7a0",
+      "revision": "continuous-f1-source-snapshot-2026-10-04"
+    }
+  ],
+  "contracts": {
+    "campaign": {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/worker/campaign/contract.json",
+      "sha256": "bcf635aa2d349c0b907583c3844a9d1a0a522c5ad0ade1e18feabb6f4aa8608d",
+      "revision": "continuous-f1-campaign-contract-v1-parent-review-pending"
+    },
+    "closing": {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/worker/closing/contract.json",
+      "sha256": "1addc341cb1e5d6b880460f05f979cb6d9670e3b08a3c54404bbb6634a2ec709",
+      "revision": "continuous-f1-closing-contract-v1-parent-review-pending"
+    }
+  },
+  "calls_drafts": {
+    "campaign": {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/worker/campaign/calls-draft.json",
+      "sha256": "225a45c7ab69e8e0b0273987b46adf854b960e059f1c201183c62a0a42fca18a",
+      "calls": [
+        "F1_A1",
+        "F1_A2",
+        "F1_A3",
+        "F1_A4"
+      ]
+    },
+    "closing": {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/worker/closing/calls-draft.json",
+      "sha256": "8db8f6e4b78ebe4ec6fb111587311abc3d7b1a799631e2761049697e5a845fa8",
+      "calls": [
+        "F1_A5"
+      ]
+    }
+  },
+  "builder": {
+    "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/worker/build_preview.py",
+    "sha256": "24f83e4e39cbc1b78fdfbfe0eb23c246afa3b67e136d4d7e96a95a4bdc16a1d3",
+    "execution": "WAIT_FOR_FIVE_NATIVE_AND_ROOT_VIEWER_RELEASE",
+    "selection_argument": "--selected-a2 {base,r2} required; root selection only"
+  },
+  "release_subsets": {
+    "closing": [
+      "F1-A5"
+    ],
+    "campaign": [
+      "F1-A1",
+      "F1-A2",
+      "F1-A3",
+      "F1-A4"
+    ]
+  },
+  "no_imagegen_executed": true,
+  "operator_records_root_owned": true
+}

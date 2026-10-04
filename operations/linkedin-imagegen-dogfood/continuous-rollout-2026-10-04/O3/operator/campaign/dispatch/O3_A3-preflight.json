@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "gate_version": 1,
+  "gate_sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+  "layer": "PREGEN",
+  "mechanical_verdict": "PASS",
+  "purpose": "OFFLINE_IMAGEGEN",
+  "spec_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/operator/campaign/spec.json",
+  "release_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/operator/campaign/release.json",
+  "release_sha256": "6a157039c0f0142ce671d6ec505e95bbee0e817f4335dea2b670e4d910e76c5c",
+  "scope_call_id": "O3_A3",
+  "input_hashes": {
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/o3-copy.json": "6755dfd45a2dcb642d3631f55e6176b13c2073218adf5423e9d52bf7f155d2f1",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/00-copy-vi.json": "527bf1f8fbe990f7572e6e8c6d84d353fec250486192f102c11593b48b6bdb47",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/01-evidence-register.md": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/02-review.md": "4d47778d085f57d981c3cb0dea92ba562345a127174411beac603e90ad0df7a0",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/03-detail-map.json": "2adf75fef21ca61c5d2cd869ec1e63e1e1fb0a21b1fcf78315b097cdd262f403",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/04-delta-log.json": "1afd66da0bf3f62be5ce30fab49d3865753fbfc4018bf61d24d3c1441db9aa32",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/05-source-pins.json": "3b833300aa1fd2a2914e69054228fcd302c81cf17ff276f48f95929c5af1229c",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/06-storyboard-and-claims.md": "d91e4f08e2a0f287d1d88376829eb6b6e7753fc5b661f77529df8013b46d2384",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/operator/campaign/release.json": "6a157039c0f0142ce671d6ec505e95bbee0e817f4335dea2b670e4d910e76c5c",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/operator/campaign/review.json": "e97316191b317deb1895464645031a850dea22232868dfedf1acff972b0f62c9",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/operator/campaign/spec.json": "5db89040e8101004eff984050096dc4c42552aefc50432b289247ab2f2830b96",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/worker/campaign/contract.json": "996b650073781f10260518be01e07d0ad68a663d4079e506c89524804139ee0e",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/operator/authority.md": "73eeaf0fe59281f772ac5327e6d3c5a32620d30cf189e6776a92c5627dc9d3d6",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79"
+  },
+  "call_ids": [
+    "O3_A1",
+    "O3_A2",
+    "O3_A3",
+    "O3_A4"
+  ],
+  "advisories": [
+    "PROP_REPETITION: inspect actual concepts, not just text/positions"
+  ],
+  "semantic_verdict": "NOT_ASSESSED",
+  "creative_verdict": "INSUFFICIENT_EVIDENCE",
+  "authority": "NO_GENERATION_AUTHORITY"
+}

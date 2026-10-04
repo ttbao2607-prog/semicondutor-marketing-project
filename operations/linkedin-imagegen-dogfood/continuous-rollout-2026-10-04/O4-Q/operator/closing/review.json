@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "revision": "O4-Q-closing-root-review-v1",
+  "writer": "/root/rollout_writer",
+  "reviewer": "/root",
+  "date": "2026-10-04",
+  "scope": "OFFLINE_SOURCE_COPY",
+  "independence": "INDEPENDENT",
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-Q/worker/closing/contract.json",
+      "sha256": "9a00293c6354e65d8746e10624a0a87067158e15b413897345f2a7049a367bb9",
+      "revision": "continuous-o4-q-closing-contract-v1-parent-review-pending"
+    },
+    "copy": {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-Q/common/o4-q-copy.json",
+      "sha256": "7cadf1c4408228f90fbc8d9e59699c88b3fd09468eecc41d264a43e1e7ceff82",
+      "revision": "all-scenarios-o4-q-copy-v1-parent-review-pending"
+    },
+    "sources": [
+      {
+        "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-Q/common/source-attachments/00-copy-vi.json",
+        "sha256": "4f4b5b32aaeeb64eca9b1004ebd775cc9079f21109059a6005d2fd3f4d584a87",
+        "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+      },
+      {
+        "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-Q/common/source-attachments/01-evidence-register.md",
+        "sha256": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+        "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+      },
+      {
+        "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-Q/common/source-attachments/02-review.md",
+        "sha256": "4d47778d085f57d981c3cb0dea92ba562345a127174411beac603e90ad0df7a0",
+        "revision": "corrected-source-review-v2-parent-approved"
+      },
+      {
+        "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-Q/common/source-attachments/03-detail-map.json",
+        "sha256": "2adf75fef21ca61c5d2cd869ec1e63e1e1fb0a21b1fcf78315b097cdd262f403",
+        "revision": "corrected-source-review-v2-parent-approved"
+      },
+      {
+        "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-Q/common/source-attachments/04-delta-log.json",
+        "sha256": "1afd66da0bf3f62be5ce30fab49d3865753fbfc4018bf61d24d3c1441db9aa32",
+        "revision": "corrected-source-review-v2-parent-approved"
+      }
+    ]
+  },
+  "verdicts": {
+    "source_copy": "PASS",
+    "editorial": "PASS",
+    "first_mention": "PASS"
+  },
+  "reviewed_ads": [
+    "O4-Q-B"
+  ],
+  "reviewed_fields": [
+    "O4-Q-B/caption",
+    "O4-Q-B/O4-Q-B1.headline",
+    "O4-Q-B/O4-Q-B1.body",
+    "O4-Q-B/O4-Q-B1.source_text",
+    "O4-Q-B/O4-Q-B1.cta",
+    "O4-Q-B/O4-Q-B1.native_headline",
+    "O4-Q-B/O4-Q-B1.alt",
+    "O4-Q-B/O4-Q-B1.artwork_labels",
+    "O4-Q-B/O4-Q-B2.headline",
+    "O4-Q-B/O4-Q-B2.body",
+    "O4-Q-B/O4-Q-B2.source_text",
+    "O4-Q-B/O4-Q-B2.cta",
+    "O4-Q-B/O4-Q-B2.native_headline",
+    "O4-Q-B/O4-Q-B2.alt",
+    "O4-Q-B/O4-Q-B2.artwork_labels",
+    "O4-Q-B/O4-Q-B3.headline",
+    "O4-Q-B/O4-Q-B3.body",
+    "O4-Q-B/O4-Q-B3.source_text",
+    "O4-Q-B/O4-Q-B3.cta",
+    "O4-Q-B/O4-Q-B3.native_headline",
+    "O4-Q-B/O4-Q-B3.alt",
+    "O4-Q-B/O4-Q-B3.artwork_labels",
+    "O4-Q-B/O4-Q-B4.headline",
+    "O4-Q-B/O4-Q-B4.body",
+    "O4-Q-B/O4-Q-B4.source_text",
+    "O4-Q-B/O4-Q-B4.cta",
+    "O4-Q-B/O4-Q-B4.native_headline",
+    "O4-Q-B/O4-Q-B4.alt",
+    "O4-Q-B/O4-Q-B4.artwork_labels",
+    "O4-Q-B/O4-Q-B5.headline",
+    "O4-Q-B/O4-Q-B5.body",
+    "O4-Q-B/O4-Q-B5.source_text",
+    "O4-Q-B/O4-Q-B5.cta",
+    "O4-Q-B/O4-Q-B5.native_headline",
+    "O4-Q-B/O4-Q-B5.alt",
+    "O4-Q-B/O4-Q-B5.artwork_labels"
+  ],
+  "unresolved_findings": []
+}

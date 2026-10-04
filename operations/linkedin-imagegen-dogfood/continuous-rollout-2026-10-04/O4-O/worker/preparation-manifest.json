@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "status": "PREPARED_FOR_ROOT_REVIEW_NOT_RELEASED",
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-O/common/o4-o-copy.json",
+    "sha256": "95080f151296f81dff1e4b850e080e7bfb2c324ac8d444bad82270d92743d28c",
+    "revision": "all-scenarios-o4-o-copy-v1-parent-review-pending"
+  },
+  "sources": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-O/common/source-attachments/00-copy-vi.json",
+      "sha256": "bf2fb68fca0ea1ad19e1432ecb8446bef53f9e61a5e534cd25402494f48d16c2",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-O/common/source-attachments/01-evidence-register.md",
+      "sha256": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-O/common/source-attachments/02-review.md",
+      "sha256": "4d47778d085f57d981c3cb0dea92ba562345a127174411beac603e90ad0df7a0",
+      "revision": "corrected-source-review-v2-parent-approved"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-O/common/source-attachments/03-detail-map.json",
+      "sha256": "2adf75fef21ca61c5d2cd869ec1e63e1e1fb0a21b1fcf78315b097cdd262f403",
+      "revision": "corrected-source-review-v2-parent-approved"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-O/common/source-attachments/04-delta-log.json",
+      "sha256": "1afd66da0bf3f62be5ce30fab49d3865753fbfc4018bf61d24d3c1441db9aa32",
+      "revision": "corrected-source-review-v2-parent-approved"
+    }
+  ],
+  "contracts": {
+    "campaign": {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-O/worker/campaign/contract.json",
+      "sha256": "41199af89661f5cc83cc9b01b5cd463ba822897f80ba5bcb40529fe751de41fb",
+      "revision": "continuous-o4-o-campaign-contract-v1-parent-review-pending"
+    },
+    "closing": {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-O/worker/closing/contract.json",
+      "sha256": "e4c14dfadf14424eb6b5deb1b41adfee9d0004f2c0ac9b70126796eaa4301522",
+      "revision": "continuous-o4-o-closing-contract-v1-parent-review-pending"
+    }
+  },
+  "calls_drafts": {
+    "campaign": {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-O/worker/campaign/calls-draft.json",
+      "sha256": "c86c51e64a85f8330b7bca073b8944dabe10f00d82382fc1542d1fb9df6c9512",
+      "calls": [
+        "O4_O_B1",
+        "O4_O_B2",
+        "O4_O_B3",
+        "O4_O_B4"
+      ]
+    },
+    "closing": {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-O/worker/closing/calls-draft.json",
+      "sha256": "53fa4dff42cce1f75cdb0fa5a5e876282ed981d0fe03146dec4da48e3bf6688e",
+      "calls": [
+        "O4_O_B5"
+      ]
+    }
+  },
+  "release_subsets": {
+    "campaign": [
+      "O4-O-B1",
+      "O4-O-B2",
+      "O4-O-B3",
+      "O4-O-B4"
+    ],
+    "closing": [
+      "O4-O-B5"
+    ]
+  },
+  "native_directory": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-O/worker/native",
+  "reader_build": "WAIT_FOR_NATIVE_AND_ROOT_RELEASE",
+  "builder": {
+    "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-O/worker/build_preview.py",
+    "sha256": "f5e4b84585e15c5371e4adcdeb5a39b54f7dda8005fe9359fd30313d533bcf97",
+    "selection_argument": "--selected-b5 r2 after root selection"
+  }
+}

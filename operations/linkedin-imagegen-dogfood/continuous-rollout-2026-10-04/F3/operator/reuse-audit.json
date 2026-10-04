@@ -1,0 +1,34 @@
+{
+  "status": "AUDIT_PASSED_UNDER_PO_CONTINUOUS_MANDATE",
+  "authority": "Bao 2026-10-04 no human per-set wait",
+  "scope": "exact selected local creative and stated fixtures, no buyer/live claims",
+  "base_calls": 0,
+  "correction_calls": 0,
+  "reused": 5,
+  "selected": 5,
+  "viewports": {
+    "mobile": [
+      390,
+      844
+    ],
+    "desktop": [
+      1280,
+      900
+    ]
+  },
+  "render_positions_observed": 10,
+  "visual_evidence": "root mcp__cua_repl screenshot observations in current task; statement bound to selected native/reader hashes",
+  "observations": "Exact frozen compact R3 restored after wrong R2 reuse detection. Root observed all5 on current corrected public reader at desktop1280x900 and mobile390x844. All4story transitions, next and dot navigation, end disabled observed. Legacy PO frozen hierarchy retained; no new B-transfer claim.",
+  "public_manifest_sha256": "684cc0b38effaef1e1e9b824a4182c42834381706d4acd92aa6460d876cf6a8f",
+  "public_files": {
+    "index.html": "018a332f89f4c061202dc1f209e1b23cac9edbd2c0e3f499a43ff004bf1ff59e",
+    "assets/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "assets/f3-a1.png": "04133ce869e035369a11b3b032f4510008e83e33ccf33052afdda2faf8338bcb",
+    "assets/f3-a2.png": "faef33196bf1f2b34178b9b49a436284e78646b0b8e6c71a4fe37c54c1fc40ff",
+    "assets/f3-a3.png": "05a1159dea04ae1dbed90982f9cf552b2265cd72394cef6bb9706a954bed2227",
+    "assets/f3-a4.png": "2fa9b81dffab98e948264385570f3b94f8667688b98b3e152da0a55f7bfc57aa",
+    "assets/f3-a5.png": "97cc4bdb20a22db3622139ee0d6e631aa19f92262aa5161c37b08bc3efd77eed"
+  },
+  "failed_or_open_criteria": [],
+  "correction_history": "Selection-only repair; no image call. A5 R3 SHA97cc4bdb20a22db3622139ee0d6e631aa19f92262aa5161c37b08bc3efd77eed."
+}

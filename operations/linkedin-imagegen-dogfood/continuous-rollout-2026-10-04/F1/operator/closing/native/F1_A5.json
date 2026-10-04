@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "gate_version": 1,
+  "gate_sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+  "layer": "POSTGEN_DIMENSION_CHECK",
+  "mechanical_verdict": "PASS",
+  "purpose": "OFFLINE_IMAGEGEN",
+  "spec_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/operator/closing/spec.json",
+  "release_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/operator/closing/release.json",
+  "release_sha256": "dcb95393fc2c8747c950d432cfdb14deab93bc401cad4c89c33239ed4479169a",
+  "scope_call_id": "F1_A5",
+  "input_hashes": {
+    "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/references/po-accepted-closing-b.png": "016b69513d28bee0ab1b371e4ff5c8f4a86acb531a40125d72785622b01a7416",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/f1-copy.json": "35442440959244ef51dc7599747affd40936700b9b24c0353a0ba688d1a68b54",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/copy-vi.json": "c94d79033323b8a514d248f4ae168e6690e237f37a43d4d874c32a1eec149db7",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/delta-log.json": "1afd66da0bf3f62be5ce30fab49d3865753fbfc4018bf61d24d3c1441db9aa32",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/detail-map.json": "2adf75fef21ca61c5d2cd869ec1e63e1e1fb0a21b1fcf78315b097cdd262f403",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/evidence-register.md": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/first-touch-anchor.md": "d90ffb1e76be80dd15e0d9537520569595ef65a94df78f9d3928a71a0a7c8067",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/local-terminology-evidence.json": "6e81ee57160281e180fc86f8471b02005ee67ab817f0d3e13334b8d0a79f789c",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/review.md": "4d47778d085f57d981c3cb0dea92ba562345a127174411beac603e90ad0df7a0",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/operator/closing/release.json": "dcb95393fc2c8747c950d432cfdb14deab93bc401cad4c89c33239ed4479169a",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/operator/closing/review.json": "5df5b36f6ef6b35a61c7db8c8f346e3fd518b981329a082bb9407978ae493c65",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/operator/closing/spec.json": "b6466842b2095736f6a12bddeb4a3e958e8a90972f7034933d28da092bcdb463",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/worker/closing/contract.json": "1addc341cb1e5d6b880460f05f979cb6d9670e3b08a3c54404bbb6634a2ec709",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/operator/authority.md": "73eeaf0fe59281f772ac5327e6d3c5a32620d30cf189e6776a92c5627dc9d3d6",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d"
+  },
+  "call_ids": [
+    "F1_A5"
+  ],
+  "advisories": [],
+  "semantic_verdict": "NOT_ASSESSED",
+  "creative_verdict": "INSUFFICIENT_EVIDENCE",
+  "authority": "NO_GENERATION_AUTHORITY",
+  "call_id": "F1_A5",
+  "output_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/worker/native/f1-a5.png",
+  "native_sha256": "a2c167159746e3b98bcd887c17e0913730ae651cba35f27d9e2ed4eb82d76180",
+  "native_bytes": 1618389,
+  "actual_dimensions": [
+    1254,
+    1254
+  ],
+  "output_policy": {
+    "directory": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/worker/native",
+    "extension": ".png",
+    "policy": "native_square_min",
+    "min_edge": 1080
+  },
+  "dimension_verdict": "PASS",
+  "native_provenance_verdict": "NOT_ASSESSED",
+  "rendered_artifact_verdict": "NOT_ASSESSED"
+}

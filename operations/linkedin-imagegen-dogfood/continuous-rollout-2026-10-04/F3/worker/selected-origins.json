@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "status": "CANDIDATE_REUSE_ROOT_ACCEPTANCE_PENDING",
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F3/common/f3-copy.json",
+    "sha256": "42bfe643e390dc933637a852bc82210c288139c2bfee4e548826d3c907c640a6",
+    "revision": "closing-forward-f3-copy-v1-parent-review-pending",
+    "origin": "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03/common/f3-copy.json"
+  },
+  "cards": {
+    "F3-A1": {
+      "path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/native/f3-a1.png",
+      "sha256": "04133ce869e035369a11b3b032f4510008e83e33ccf33052afdda2faf8338bcb"
+    },
+    "F3-A2": {
+      "path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/native/f3-a2.png",
+      "sha256": "faef33196bf1f2b34178b9b49a436284e78646b0b8e6c71a4fe37c54c1fc40ff"
+    },
+    "F3-A3": {
+      "path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/native/f3-a3.png",
+      "sha256": "05a1159dea04ae1dbed90982f9cf552b2265cd72394cef6bb9706a954bed2227"
+    },
+    "F3-A4": {
+      "path": "operations/linkedin-imagegen-dogfood/rollout-f3-p3-2026-10-03/sol/f3/native/f3-a4.png",
+      "sha256": "2fa9b81dffab98e948264385570f3b94f8667688b98b3e152da0a55f7bfc57aa"
+    },
+    "F3-A5": {
+      "path": "operations/linkedin-imagegen-dogfood/rollout-closing-forward-2026-10-03/sol/f3/native/f3-a5-r3.png",
+      "sha256": "97cc4bdb20a22db3622139ee0d6e631aa19f92262aa5161c37b08bc3efd77eed"
+    }
+  },
+  "logo": {
+    "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+    "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f"
+  },
+  "destination": "https://solutions.digiwin.com.vn/fabless?lang=vi",
+  "reconciliation": "Frozen preservation manifest and frozen-viewer asset match R3; prior continuous R2 preserved worker/prior-selection-r2"
+}
