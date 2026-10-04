@@ -1,0 +1,353 @@
+{
+  "audit_mode": "SELF",
+  "observed_writer_model": "gpt-6.1-sol/low; paired acceptance exit0",
+  "inventory_pins": 40,
+  "outputs": {
+    "case06-anchor": {
+      "sha256": "db68a4441f12ea4923ec82514d9bf5ba5af7252b9dd329837fd6f93fc29f625a",
+      "bytes": 46159,
+      "owner_manifest_sha256": "567bc7ddc42b05e864fd79e7a46e6af0541d4ef375aa21ae31de770951f72d1d",
+      "actual_gate_receipts": [
+        {
+          "script": "check.py",
+          "exit_code": 0,
+          "result": {
+            "mechanical_verdict": "PASS",
+            "errors": [],
+            "editorial_render_acceptance": "REQUIRES_PARENT_AND_BAO",
+            "general_harness_freeze": "NOT_GRANTED"
+          }
+        },
+        {
+          "script": "test_release.py",
+          "exit_code": 0,
+          "result": {
+            "positive_exact_projection": true,
+            "negative_document_corruptions": [
+              "extra_public_prose",
+              "extra_accessible_claim",
+              "internal_json_leak",
+              "wrong_source",
+              "wrong_case",
+              "wrong_promise",
+              "unapproved_metric",
+              "missing_detail"
+            ],
+            "swapped_locale_rejected_by_adopted_payload_binding": true,
+            "unknown_internal_public_fields_rejected": true,
+            "acceptance": "MECHANICAL_ONLY_HUMAN_REVIEW_REQUIRED"
+          }
+        }
+      ]
+    },
+    "pressway-dogfood": {
+      "sha256": "c92cd2b8ab52a1594051249b7624d7e6166f89dc44eef5e6199670664a28fe19",
+      "bytes": 39731,
+      "owner_manifest_sha256": "f810d4930df889cefc147fec62374e991114e04981b12ae78b2560ff9eb10c25",
+      "actual_gate_receipts": [
+        {
+          "script": "check.py",
+          "exit_code": 0,
+          "result": {
+            "mechanical_verdict": "PASS",
+            "errors": [],
+            "editorial_render_acceptance": "REQUIRES_PARENT_AND_BAO",
+            "general_harness_freeze": "NOT_GRANTED"
+          }
+        },
+        {
+          "script": "test_release.py",
+          "exit_code": 0,
+          "result": {
+            "positive_exact_projection": true,
+            "negative_document_corruptions": [
+              "extra_public_prose",
+              "extra_accessible_claim",
+              "internal_json_leak",
+              "wrong_source",
+              "wrong_case",
+              "wrong_promise",
+              "unapproved_metric",
+              "missing_detail"
+            ],
+            "swapped_locale_rejected_by_adopted_payload_binding": true,
+            "unknown_internal_public_fields_rejected": true,
+            "acceptance": "MECHANICAL_ONLY_HUMAN_REVIEW_REQUIRED"
+          }
+        }
+      ]
+    }
+  },
+  "parent_negative_probes": {
+    "case06-anchor": [
+      "extra_accessible_claim",
+      "internal_json",
+      "rogue_public_metric",
+      "wrong_public_source",
+      "wrong_external_manifest_pin"
+    ],
+    "pressway-dogfood": [
+      "extra_accessible_claim",
+      "internal_json",
+      "rogue_public_metric",
+      "wrong_public_source",
+      "wrong_external_manifest_pin"
+    ]
+  },
+  "rendered_locales": {
+    "case06-anchor": {
+      "four_locale_public_projection": "PASS",
+      "390_overflow": false,
+      "metric_cards": 1
+    },
+    "pressway-dogfood": {
+      "four_locale_public_projection": "PASS",
+      "390_overflow": false,
+      "metric_cards": 0
+    }
+  },
+  "runtime": {
+    "sourceSelect": {
+      "focus": "BODY",
+      "lang": "en",
+      "url": "http://127.0.0.1:8765/outputs/pressway-dogfood/index.html?entry=RMK-PRESS&case=pressway-vn&contract=rmk-fulfillment-content-v2&lang=en&utm_source=linkedin#source"
+    },
+    "sourceOpenedURL": "https://www.digiwin.com.vn/casestudies/erp-pressway-precision-case-study-vn/",
+    "sourceOpenedTitle": "Pressway Precision áp dụng ERP với Nhà máy mới | Digiwin Vietnam",
+    "reload": {
+      "lang": "en",
+      "url": "http://127.0.0.1:8765/outputs/pressway-dogfood/index.html?entry=RMK-PRESS&case=pressway-vn&contract=rmk-fulfillment-content-v2&lang=en&utm_source=linkedin#source"
+    },
+    "back": {
+      "lang": "vi",
+      "url": "http://127.0.0.1:8765/outputs/pressway-dogfood/index.html?entry=RMK-PRESS&case=pressway-vn&contract=rmk-fulfillment-content-v2&lang=vi&utm_source=linkedin#source"
+    }
+  },
+  "malformed_runtime": [
+    {
+      "articleHidden": true,
+      "disabled": true,
+      "url": "http://127.0.0.1:8765/outputs/pressway-dogfood/index.html?entry=RMK-PRESS&entry=RMK-PRESS&case=pressway-vn&contract=rmk-fulfillment-content-v2&lang=vi",
+      "visible": "Đến bài viết\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nKhông thể mở nội dung này\n\nLiên kết không xác định hoặc phiên bản nội dung chưa có. Vui lòng kiểm tra lại liên kết."
+    },
+    {
+      "articleHidden": true,
+      "disabled": true,
+      "url": "http://127.0.0.1:8765/outputs/pressway-dogfood/index.html?entry=RMK-PRESS&case=case06&contract=rmk-fulfillment-content-v2&lang=vi",
+      "visible": "Đến bài viết\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nKhông thể mở nội dung này\n\nLiên kết không xác định hoặc phiên bản nội dung chưa có. Vui lòng kiểm tra lại liên kết."
+    },
+    {
+      "articleHidden": true,
+      "disabled": true,
+      "url": "http://127.0.0.1:8765/outputs/pressway-dogfood/index.html?entry=RMK-PRESS&case=pressway-vn&contract=rmk-fulfillment-content-v2&lang=vi#result",
+      "visible": "Đến bài viết\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nKhông thể mở nội dung này\n\nLiên kết không xác định hoặc phiên bản nội dung chưa có. Vui lòng kiểm tra lại liên kết."
+    }
+  ],
+  "route_gate": {
+    "route_verdict": "PASS",
+    "positive_compatibility": 1,
+    "toggle_cases": 4,
+    "negative_controls": 6
+  },
+  "mobile_sizes": {
+    "pressway": [
+      {
+        "body": "17px",
+        "client": 320,
+        "scrollWidth": 320,
+        "sourceCTA": 48,
+        "width": 320
+      },
+      {
+        "body": "17px",
+        "client": 414,
+        "scrollWidth": 414,
+        "sourceCTA": 48,
+        "width": 414
+      }
+    ],
+    "anchor": [
+      {
+        "client": 320,
+        "lang": "zh-Hant",
+        "metricAria": "月結所需時間: 15 → 5 天",
+        "scroll": 320,
+        "width": 320
+      },
+      {
+        "client": 414,
+        "lang": "zh-Hant",
+        "metricAria": "月結所需時間: 15 → 5 天",
+        "scroll": 414,
+        "width": 414
+      }
+    ]
+  },
+  "historical_v4_preserved": true,
+  "desktop_observation": {
+    "pressway": {
+      "width": 1422,
+      "client": 1405,
+      "scrollWidth": 1405,
+      "screenshot": "demo1-dogfood-pressway-desktop.png"
+    },
+    "anchor": {
+      "width": 1707,
+      "client": 1690,
+      "scrollWidth": 1690,
+      "screenshot": "ldp-case06-anchor-desktop.png"
+    },
+    "scope": "Normal browser desktop viewport; earlier temporary viewport capture timeout recovered through fresh tab. No screenshot claim for failed capture."
+  },
+  "reduced_motion": {
+    "source_rule": "@media(prefers-reduced-motion:reduce): auto scroll + no transitions",
+    "runtime_emulation": "NOT_CHECKED",
+    "boundary": "Source inspected, no animation or diagram controls; does not claim simulated OS setting"
+  },
+  "protected": {
+    "observation": "2026-10-04 revised-demo work unit",
+    "v1_manifest_sha256": "aa9a684f729bc9d9022d847f659a086ab7ba13037c043750824be28a198a40ec",
+    "roots": [
+      {
+        "root": "D:\\optimize-awareness-LinkedIn-adcopy",
+        "protected_input_count": 117,
+        "raw_pin_exceptions": [],
+        "shared_pack_byte_identical": true,
+        "frozen_tracked_blobs_and_semantics_preserved": true
+      },
+      {
+        "root": "D:\\linkedin-rmk-fulfillment",
+        "protected_input_count": 117,
+        "raw_pin_exceptions": [
+          "operations/linkedin-rmk-proof/proof-ledger.md",
+          "operations/linkedin-rmk-proof/RMK_Content_Anchor_and_R2_Audit.md",
+          "operations/Ad_Artifact_Editorial_QA_Gate.md"
+        ],
+        "shared_pack_byte_identical": true,
+        "frozen_tracked_blobs_and_semantics_preserved": true
+      },
+      {
+        "root": "D:\\linkedin-rmk-mobile-adapter",
+        "protected_input_count": 117,
+        "raw_pin_exceptions": [
+          "operations/linkedin-rmk-proof/proof-ledger.md",
+          "operations/linkedin-rmk-proof/RMK_Content_Anchor_and_R2_Audit.md",
+          "operations/Ad_Artifact_Editorial_QA_Gate.md"
+        ],
+        "shared_pack_byte_identical": true,
+        "frozen_tracked_blobs_and_semantics_preserved": true
+      }
+    ],
+    "raw_validator_status": "FAIL for six Markdown checkout representations; not repaired or reported PASS"
+  },
+  "findings": [
+    {
+      "id": "UX1",
+      "mandatory_contract_failure": false,
+      "observed": "source-language select replaces article and focus drops to BODY",
+      "impact": "Keyboard reader loses position after language change; header toggles retain focus. Select, reload, back and links function.",
+      "recommendation": "Restore focus to replacement select in a separately authorized next revision, with keyboard regression.",
+      "action_taken": "Recorded only; no corrective run after dogfood"
+    }
+  ],
+  "contract_sha256": "5c83f6b0165646bc3a40e4b597c2139fe7d1359bb54faed627c75fbaba1da6f8",
+  "VERDICT": "PASS",
+  "scope": "One diagram-free anchor + one Pressway dogfood; mandatory DF1–DF7. No claim of general harness freeze, complete accessibility certification, full carousel/ad pair or live readiness.",
+  "COVERAGE": {
+    "DF1": "PASS — STRUCTURAL/CONTRACT + VISUAL — exact four-locale business projection; no diagram; anchor metric screenshot",
+    "DF2": "PASS — STRUCTURAL/CONTRACT — reviewed public schema, optional metric, owner-pinned releases, whole-document reconstruction",
+    "DF3": "PASS — STRUCTURAL/CONTRACT + VISUAL — primary source semantics, exact VI closing promise; four localized requirements/process details, metric absent",
+    "DF4": "PASS — BEHAVIORAL/RUNTIME — actual positive/negative gate receipts, four independent HTML corruptions and wrong external pin per output",
+    "DF5": "PASS — VISUAL + BEHAVIORAL/RUNTIME — saved 320/390/414 and desktop; four locales, section/identity/UTM, malformed routes and source opened; UX1 recorded",
+    "DF6": "NOT_CHECKED — STRUCTURAL/CONTRACT — preservation verified; final selective commit/reconstruction pending postcommit receipt",
+    "DF7": "NOT_CHECKED — STRUCTURAL/CONTRACT — exports/status prepared; terminal commit/delivery supplied by postcommit receipt"
+  },
+  "parent_disposition": "ACCEPT_FIRST_DOGFOOD_WITH_OPEN_UX1_FOR_LOCAL_CHECKPOINT; whole-goal completion pending postcommit receipt; general harness freeze not granted",
+  "checkpoint_phase": "PRECOMMIT_ARTIFACT_AND_RUNTIME_AUDIT; DF6/DF7 final commit receipt supplied separately",
+  "AUDIT_SCOPE": "Precommit candidate/source/contract/runtime/render review DF1–DF5; preservation part of DF6. Complete Git/delivery DF6/DF7 covered separately by postcommit receipt.",
+  "CONTRACT_REF": "harness-dogfood-execution-contract.json",
+  "BASELINE_REF": {
+    "owner": "c38a62451521fb11c2f4aa3ada8a47a2b3cb904f",
+    "ldp": "4db377d286d9b4ddd2c328722902a1b413b144b6",
+    "historical_v4_sha256": "399a1c3aed670570af5b830f81546d0691e35da3fe92166db2142259f2fd8158"
+  },
+  "CANDIDATE_REF": {
+    "case06-anchor": {
+      "sha256": "db68a4441f12ea4923ec82514d9bf5ba5af7252b9dd329837fd6f93fc29f625a",
+      "bytes": 46159,
+      "manifest": "567bc7ddc42b05e864fd79e7a46e6af0541d4ef375aa21ae31de770951f72d1d"
+    },
+    "pressway-dogfood": {
+      "sha256": "c92cd2b8ab52a1594051249b7624d7e6166f89dc44eef5e6199670664a28fe19",
+      "bytes": 39731,
+      "manifest": "f810d4930df889cefc147fec62374e991114e04981b12ae78b2560ff9eb10c25"
+    }
+  },
+  "FINDINGS": {
+    "FAILED_AC": [],
+    "EXPECTED": "Keyboard focus remains on the language control after changing language at source",
+    "OBSERVED": "Replacement article removes focused select; activeElement becomes BODY",
+    "EVIDENCE": "dogfood1-extra-runtime.json sourceSelect.focus, Chrome tab1367558814, exact Pressway SHA c92cd2b8ab52…",
+    "EVIDENCE_GAP": "No exhaustive accessibility or touch-device certification; reduced-motion rule inspected without OS emulation",
+    "RESTORE_CONDITION": "Separately authorize focused-control restoration before general reuse; no correction in this bounded pilot",
+    "REQUIRED_RECHECK": "Keyboard select, subsequent Tab position, all four locales, history and source route"
+  },
+  "local_checkpoint": {
+    "ldp": {
+      "ldp_commit": "857965dadbce20ca53cca49db7d12eb34b77ca0b",
+      "branch": "slice/linkedin-rmk-mobile-adapter",
+      "staged_file_count": 42,
+      "raw_git_blobs_match_working_bytes": true,
+      "changed_paths": [
+        ".gitattributes",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/HARNESS_SPEC.md",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/README.md",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/WRITER_ASSESSMENT.md",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/anchor-internal-evidence.json",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/anchor-public-proposal.json",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/app.js",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/build.py",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/candidate-inventory.json",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/check.py",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/checks.json",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/digiwin-logo.webp",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/engine.py",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/outputs/case06-anchor/binding.json",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/outputs/case06-anchor/index.html",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/outputs/pressway-dogfood/binding.json",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/outputs/pressway-dogfood/index.html",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/pressway-internal-evidence.json",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/pressway-public-proposal.json",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/proposal-inventory.json",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/releases/case06-anchor/app.js",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/releases/case06-anchor/digiwin-logo.webp",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/releases/case06-anchor/engine.py",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/releases/case06-anchor/internal-evidence.json",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/releases/case06-anchor/owner-review.json",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/releases/case06-anchor/public-content.json",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/releases/case06-anchor/release-manifest.json",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/releases/case06-anchor/route.js",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/releases/case06-anchor/template.html",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/releases/pressway-dogfood/app.js",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/releases/pressway-dogfood/digiwin-logo.webp",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/releases/pressway-dogfood/engine.py",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/releases/pressway-dogfood/internal-evidence.json",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/releases/pressway-dogfood/owner-review.json",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/releases/pressway-dogfood/public-content.json",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/releases/pressway-dogfood/release-manifest.json",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/releases/pressway-dogfood/route.js",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/releases/pressway-dogfood/template.html",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/route.js",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/template.html",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/test_release.py",
+        "operations/linkedin-rmk-mobile-adapter/harness-dogfood-2026-10-04/test_routes.cjs"
+      ],
+      "remote": "NOT_PUSHED; no live remote observation this turn",
+      "older_drafts": "Uncommitted outside new namespace",
+      "harness_sha256": "fe3bcd4ff1e8aa5e13e4107b39a2db9b467d5667a1b14e46d13665e5abb68135"
+    },
+    "parent": "Will be recorded by containing owner commit and exported postcommit receipt"
+  },
+  "documentation_sync": "Eight canonical status documents updated for new scope; stale prior working-tree v4 status captured in local work evidence, historical v4 artifacts/audits untouched. Writer README updated, historical checks retained, final inventory40pins reverified.",
+  "raw_pin_git_policy": "Narrow -text Git attributes for new harness and two new shared releases preserve exact checkpoint bytes; no frozen-file rules changed."
+}

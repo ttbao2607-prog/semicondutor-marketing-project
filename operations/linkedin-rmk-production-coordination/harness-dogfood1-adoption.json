@@ -1,0 +1,22 @@
+{
+  "contract_sha256": "5c83f6b0165646bc3a40e4b597c2139fe7d1359bb54faed627c75fbaba1da6f8",
+  "adopted_releases": [
+    {
+      "scope": "case06-anchor",
+      "release_id": "rmk-case06-anchor-v1",
+      "release_dir": "D:\\optimize-awareness-LinkedIn-adcopy\\operations\\linkedin-rmk-production-coordination\\shared-releases\\rmk-case06-anchor-v1",
+      "manifest_sha256": "567bc7ddc42b05e864fd79e7a46e6af0541d4ef375aa21ae31de770951f72d1d"
+    },
+    {
+      "scope": "pressway-dogfood",
+      "release_id": "rmk-pressway-dogfood-v1",
+      "release_dir": "D:\\optimize-awareness-LinkedIn-adcopy\\operations\\linkedin-rmk-production-coordination\\shared-releases\\rmk-pressway-dogfood-v1",
+      "manifest_sha256": "f810d4930df889cefc147fec62374e991114e04981b12ae78b2560ff9eb10c25"
+    }
+  ],
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "browser_controller": "parent",
+  "commit_authority": "Selective local checkpoint only",
+  "stop": "After demo1 and parent evaluation; no automatic corrective or mass run"
+}

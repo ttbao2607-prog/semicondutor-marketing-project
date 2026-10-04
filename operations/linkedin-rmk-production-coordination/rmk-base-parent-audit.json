@@ -1,0 +1,111 @@
+{
+  "AUDIT_SCOPE": "Parent reconciliation of twelve base native image artifacts and generation receipts; source/copy preflight and visual inspection were previously observed. Does not accept any full carousel/adapter pair.",
+  "CONTRACT_REF": "rmk-fulfillment-content-v2; manifest5068f5b339a9dd1228d9029acfc7b2175e3e05a3bcb5dc41b25ce5082503f838",
+  "BASELINE_REF": "4db377d286d9b4ddd2c328722902a1b413b144b6",
+  "CANDIDATE_REF": [
+    {
+      "call_id": "RMK_BRIGHT_1",
+      "native_sha256": "ff3b380f508bda37ac762aeee32e0fc4bb56bc12b563b1994173150b33690e6a",
+      "original_bytes_equal": true,
+      "writer_pixel_verdict": "FAIL_EXTRA_ERP_LABEL"
+    },
+    {
+      "call_id": "RMK_BRIGHT_2",
+      "native_sha256": "4280aac8fce8194c2fc7639795a548d5c5e180e21e842431cf0885a9bdaad175",
+      "original_bytes_equal": true,
+      "writer_pixel_verdict": "SCOPED_NATIVE_TEXT_PASS_RENDER_PENDING"
+    },
+    {
+      "call_id": "RMK_BRIGHT_3",
+      "native_sha256": "aedf67bff54635787dd9a2fde455b4d6036d66ade04938c2c24234124843f219",
+      "original_bytes_equal": true,
+      "writer_pixel_verdict": "SCOPED_NATIVE_TEXT_PASS_RENDER_PENDING"
+    },
+    {
+      "call_id": "RMK_BRIGHT_4",
+      "native_sha256": "d6be010dc327f35e972a8aabdfd447efb69c0ca97835a73c61f5a7494d04820c",
+      "original_bytes_equal": true,
+      "writer_pixel_verdict": "SCOPED_NATIVE_TEXT_PASS_RENDER_PENDING"
+    },
+    {
+      "call_id": "RMK_PRESS_1",
+      "native_sha256": "799da9ee4770895906000562d3f75fbf51533dbcfedee8ea6930d92352d4ed9e",
+      "original_bytes_equal": true,
+      "writer_pixel_verdict": "SCOPED_TEXT_PASS_MACHINE_DISPLAY_MICRODETAIL_PARENT_REVIEW"
+    },
+    {
+      "call_id": "RMK_PRESS_2",
+      "native_sha256": "101f9422d005b286596678269ea5d1fe827d4b017f8cfa56077a8a9f0917a063",
+      "original_bytes_equal": true,
+      "writer_pixel_verdict": "SCOPED_NATIVE_TEXT_PASS_RENDER_PENDING"
+    },
+    {
+      "call_id": "RMK_PRESS_3",
+      "native_sha256": "2c3946cb77fb491a7a17304c3cd7b7009a79086d3640034cbb0ed1cefe9e6320",
+      "original_bytes_equal": true,
+      "writer_pixel_verdict": "FAIL_EXTRA_VIET_TRUNG_DIAGRAM_LABELS"
+    },
+    {
+      "call_id": "RMK_PRESS_4",
+      "native_sha256": "5df8874bc9d195b97755eefb79c7c224acbf21141fc3bbfea41a1414cafb3f8e",
+      "original_bytes_equal": true,
+      "writer_pixel_verdict": "SCOPED_NATIVE_TEXT_PASS_RENDER_PENDING"
+    },
+    {
+      "call_id": "RMK_PIN_1",
+      "native_sha256": "c86e996b480dcc5285a03e8299bb79e76d37b2759df1db239430c1a4206a570e",
+      "original_bytes_equal": true,
+      "writer_pixel_verdict": "SCOPED_TEXT_PASS_RISING_BAR_ICON_CREATIVE_REVIEW_PENDING"
+    },
+    {
+      "call_id": "RMK_PIN_2",
+      "native_sha256": "21b986f4fe20f4eaeb74cfd4a81dc67606ed3b19459c968cb40ce2eb95e6461a",
+      "original_bytes_equal": true,
+      "writer_pixel_verdict": "SCOPED_NATIVE_TEXT_PASS_RENDER_PENDING"
+    },
+    {
+      "call_id": "RMK_PIN_3",
+      "native_sha256": "42ffc5c1207d039eb85a0f263fed2792b83c746ce69e102f6bd50721d9b0c56b",
+      "original_bytes_equal": true,
+      "writer_pixel_verdict": "SCOPED_NATIVE_TEXT_PASS_RENDER_PENDING"
+    },
+    {
+      "call_id": "RMK_PIN_4",
+      "native_sha256": "75240a2fdab8c1c5494dd4cff5b2d43387c604a2c90794c527146a7b6f7e5d90",
+      "original_bytes_equal": true,
+      "writer_pixel_verdict": "TEXT_PASS_POSSIBLE_FABRICATED_FACILITY_PHOTO_CREATIVE_REVIEW"
+    }
+  ],
+  "VERDICT": "FAIL",
+  "COVERAGE": [
+    "BASE_CALLS: PASS — OBSERVED_BYTE_AND_RECEIPT_BINDING — actual-calls.json and original/native PNG hashes",
+    "NATIVE_EXACT_COPY: FAIL — OBSERVED_PIXEL_REVIEW — Bright1 additional ERP; Press3 additional Việt/Trung",
+    "NATIVE_BLANK_SURFACE: FAIL — OBSERVED_PROMPT_AND_PIXEL_RECONCILIATION — Pin4 factory-interior picture violates explicit blank folio and no facility evidence",
+    "PAIR_ACCEPTANCE: BLOCKED — OBSERVED_RELEASE_SCOPE — destinations planned; case06 design not frozen; other adapters not produced"
+  ],
+  "FINDINGS": [
+    {
+      "FAILED_AC": "NATIVE_EXACT_COPY",
+      "EXPECTED": "Raster wording limited to approved fields and official brand mark.",
+      "OBSERVED": "Bright1 prints extra ERP scene label; Press3 prints extra Việt and Trung diagram labels.",
+      "EVIDENCE": "Parent inspected exact native outputs; actual-calls.json records original paths/hash and frozen actual prompts.",
+      "EVIDENCE_GAP": "No corrected outputs; correction is intentionally unauthorized.",
+      "RESTORE_CONDITION": "Separately authorized corrective run or disposition by Bao.",
+      "REQUIRED_RECHECK": "Exact printed copy and all affected carousel pairs."
+    },
+    {
+      "FAILED_AC": "NATIVE_BLANK_SURFACE",
+      "EXPECTED": "Pin4 closing requires Small oblique blank case folio; blank material surfaces only; no customer/facility evidence.",
+      "OBSERVED": "Pin4 includes generated factory-interior photograph inside the folio.",
+      "EVIDENCE": "Exact RMK_PIN_4 tool prompt and native image viewed by parent.",
+      "EVIDENCE_GAP": "Image is not verified documentary customer evidence.",
+      "RESTORE_CONDITION": "Separately authorized corrective run; original retained.",
+      "REQUIRED_RECHECK": "Blank-folio requirement and visual continuity."
+    }
+  ],
+  "pin1_concern": "Unlabeled chart icon in generic provider scene retained as design concern; not accepted as proven customer outcome claim. No hard fail solely from child assertion.",
+  "corrections": 0,
+  "all_groups_acceptance": "NOT_GRANTED",
+  "untracked_cache": "scripts/__pycache__/verify_imagegen_preflight.cpython-313.pyc is outside writer scope; author provenance not independently established; preserved untouched.",
+  "git_state": "Consumer files uncommitted local drafts; no push/live."
+}
