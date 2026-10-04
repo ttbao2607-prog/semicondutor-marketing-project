@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "release_id": "rmk-pressway-harness-freeze-v1",
+  "content_revision": "pressway-detail-proposal-v1",
+  "case_id": "pressway-vn",
+  "entity_native": "Pressway Precision",
+  "entry_ids": [
+    "RMK-PRESS"
+  ],
+  "default_entry": "RMK-PRESS",
+  "ready_locales": [
+    "vi",
+    "en",
+    "zh-Hans",
+    "zh-Hant"
+  ],
+  "metric": null,
+  "source": {
+    "url": "https://www.digiwin.com.vn/casestudies/erp-pressway-precision-case-study-vn/",
+    "language": "vi",
+    "publisher": "Digiwin Việt Nam"
+  },
+  "detail_source_url": null,
+  "compatibility": [
+    {
+      "entry": "RMK-PRESS",
+      "case": "pressway-vn",
+      "contract": "rmk-fulfillment-content-v2",
+      "maps_to_release": "rmk-pressway-harness-freeze-v1"
+    },
+    {
+      "entry": "RMK-PRESS",
+      "case": "pressway-vn",
+      "contract": "rmk-pressway-dogfood-v1",
+      "maps_to_release": "rmk-pressway-harness-freeze-v1"
+    }
+  ],
+  "locales": {
+    "vi": {
+      "language_name": "Tiếng Việt",
+      "article_label": "CASE · NHÀ MÁY MỚI",
+      "market_label": "Sản xuất nhựa · Việt Nam",
+      "title": "Workflow ERP cho nhà máy nhựa mới",
+      "intro": "Pressway Precision cùng Digiwin chuẩn bị quy trình và nhu cầu bản địa hóa cho nhà máy mới tại Việt Nam.",
+      "metric_label": "",
+      "day_unit": "",
+      "problem_heading": "Nhu cầu của nhà máy mới",
+      "problems": [
+        "Giao diện Việt/Trung và tư vấn song ngữ.",
+        "Hệ thống tương đồng với trụ sở chính để trao đổi dữ liệu.",
+        "Quy trình phù hợp với quản lý ngành nhựa."
+      ],
+      "scope_heading": "Chuẩn bị quy trình vận hành",
+      "scope": "Hai bên cùng thảo luận quy trình trong dự án Workflow ERP.",
+      "reading_heading": "Xem dự án Pressway Precision",
+      "reading_questions": [
+        "Nhu cầu của nhà máy mới",
+        "Chuẩn bị quy trình vận hành"
+      ],
+      "source_instruction": "Đọc case để xem nhu cầu bản địa hóa và cách Digiwin cùng doanh nghiệp chuẩn bị quy trình cho nhà máy mới.",
+      "project_details": [
+        {
+          "title": "Vật liệu và tái chế",
+          "text": "Khấu trừ vật liệu theo dữ liệu nhập kho; quy hoạch quy trình tái chế và lãnh dụng vật liệu thay thế."
+        },
+        {
+          "title": "Đơn hàng và số lô",
+          "text": "Liên kết đơn hàng với lệnh sản xuất; quản lý số lô để truy nguồn vật liệu."
+        }
+      ],
+      "implementation_source_label": "Đọc case Pressway",
+      "source_cta": "Đọc case Pressway",
+      "source_language": "Nguồn: tiếng Việt",
+      "language_label": "Ngôn ngữ",
+      "nav_label": "Trong bài này",
+      "context_nav": "Nhu cầu",
+      "provider_nav": "Dự án",
+      "source_nav": "Nguồn",
+      "skip": "Đến bài viết",
+      "fallback": "Hiển thị Tiếng Việt.",
+      "pending": "Bản dịch chưa có. Hiển thị Tiếng Việt.",
+      "unavailable_heading": "Không thể mở nội dung này",
+      "unavailable": "Liên kết không xác định hoặc phiên bản nội dung chưa có. Vui lòng kiểm tra lại liên kết."
+    },
+    "en": {
+      "language_name": "English",
+      "article_label": "CASE · NEW FACTORY",
+      "market_label": "Plastics manufacturing · Vietnam",
+      "title": "Workflow ERP for a new plastics factory",
+      "intro": "Pressway Precision and Digiwin prepared processes and localization requirements for a new factory in Vietnam.",
+      "metric_label": "",
+      "day_unit": "",
+      "problem_heading": "Requirements of the new factory",
+      "problems": [
+        "Vietnamese/Chinese interface and bilingual consulting.",
+        "A system similar to headquarters for data exchange.",
+        "Processes suited to plastics management."
+      ],
+      "scope_heading": "Preparing operating processes",
+      "scope": "Both teams discussed processes in the Workflow ERP project.",
+      "reading_heading": "Explore the Pressway Precision project",
+      "reading_questions": [
+        "Requirements of the new factory",
+        "Preparing operating processes"
+      ],
+      "source_instruction": "Read the case to explore localization needs and how Digiwin and the company prepared processes for the new factory.",
+      "project_details": [
+        {
+          "title": "Materials and recycling",
+          "text": "Material deduction uses warehouse-receipt data; recycling and substitute-material issue processes were planned."
+        },
+        {
+          "title": "Orders and lots",
+          "text": "Orders link to production orders; lot management supports material tracing."
+        }
+      ],
+      "implementation_source_label": "Read the Pressway case",
+      "source_cta": "Read the Pressway case",
+      "source_language": "Source: Vietnamese",
+      "language_label": "Language",
+      "nav_label": "In this article",
+      "context_nav": "Requirements",
+      "provider_nav": "Project",
+      "source_nav": "Source",
+      "skip": "Skip to article",
+      "fallback": "Showing Vietnamese.",
+      "pending": "This translation is unavailable. Showing Vietnamese.",
+      "unavailable_heading": "This content is unavailable",
+      "unavailable": "The link is not recognized or this content version is unavailable. Please check the link."
+    },
+    "zh-Hans": {
+      "language_name": "简体中文",
+      "article_label": "案例 · 新工厂",
+      "market_label": "塑料制造 · 越南",
+      "title": "新塑料工厂的 Workflow ERP",
+      "intro": "Pressway Precision 与 Digiwin 为越南新工厂准备流程及本地化需求。",
+      "metric_label": "",
+      "day_unit": "",
+      "problem_heading": "新工厂的管理需求",
+      "problems": [
+        "越中双语界面及双语咨询。",
+        "与总部相近的系统，便于数据交换。",
+        "适合塑料行业管理的流程。"
+      ],
+      "scope_heading": "准备运营流程",
+      "scope": "双方在 Workflow ERP 项目中共同讨论流程。",
+      "reading_heading": "了解 Pressway Precision 项目",
+      "reading_questions": [
+        "新工厂的管理需求",
+        "准备运营流程"
+      ],
+      "source_instruction": "阅读案例，了解本地化需求，以及 Digiwin 与企业如何为新工厂准备流程。",
+      "project_details": [
+        {
+          "title": "材料与回收",
+          "text": "依据入库数据扣料，并规划回收及替代材料领用流程。"
+        },
+        {
+          "title": "订单与批次",
+          "text": "订单关联生产工单；批次管理支持材料追溯。"
+        }
+      ],
+      "implementation_source_label": "阅读 Pressway 案例",
+      "source_cta": "阅读 Pressway 案例",
+      "source_language": "来源：越南语",
+      "language_label": "语言",
+      "nav_label": "本文内容",
+      "context_nav": "需求",
+      "provider_nav": "方案",
+      "source_nav": "来源",
+      "skip": "跳至正文",
+      "fallback": "当前显示越南语。",
+      "pending": "此翻译暂不可用。当前显示越南语。",
+      "unavailable_heading": "此内容暂不可用",
+      "unavailable": "链接无法识别，或此内容版本暂不可用。请检查链接。"
+    },
+    "zh-Hant": {
+      "language_name": "繁體中文",
+      "article_label": "案例 · 新工廠",
+      "market_label": "塑膠製造 · 越南",
+      "title": "新塑膠工廠的 Workflow ERP",
+      "intro": "Pressway Precision 與 Digiwin 為越南新工廠準備流程及在地化需求。",
+      "metric_label": "",
+      "day_unit": "",
+      "problem_heading": "新工廠的管理需求",
+      "problems": [
+        "越中雙語介面及雙語諮詢。",
+        "與總部相近的系統，便於資料交換。",
+        "適合塑膠產業管理的流程。"
+      ],
+      "scope_heading": "準備營運流程",
+      "scope": "雙方在 Workflow ERP 專案中共同討論流程。",
+      "reading_heading": "了解 Pressway Precision 專案",
+      "reading_questions": [
+        "新工廠的管理需求",
+        "準備營運流程"
+      ],
+      "source_instruction": "閱讀案例，了解在地化需求，以及 Digiwin 與企業如何為新工廠準備流程。",
+      "project_details": [
+        {
+          "title": "材料與回收",
+          "text": "依據入庫資料扣料，並規劃回收及替代材料領用流程。"
+        },
+        {
+          "title": "訂單與批次",
+          "text": "訂單關聯生產工單；批次管理支援材料追溯。"
+        }
+      ],
+      "implementation_source_label": "閱讀 Pressway 案例",
+      "source_cta": "閱讀 Pressway 案例",
+      "source_language": "來源：越南語",
+      "language_label": "語言",
+      "nav_label": "本文內容",
+      "context_nav": "需求",
+      "provider_nav": "方案",
+      "source_nav": "來源",
+      "skip": "跳至正文",
+      "fallback": "目前顯示越南語。",
+      "pending": "此翻譯暫不可用。目前顯示越南語。",
+      "unavailable_heading": "此內容暫不可用",
+      "unavailable": "連結無法識別，或此內容版本暫不可用。請檢查連結。"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "status": "PROPOSAL_OWNER_ADOPTION_REQUIRED",
+  "closing_promise": {
+    "card_id": "RMK-PRESS-4",
+    "headline": "Xem dự án Pressway Precision",
+    "body": "Đọc case để xem nhu cầu bản địa hóa và cách Digiwin cùng doanh nghiệp chuẩn bị quy trình cho nhà máy mới.",
+    "source_text": "Digiwin Việt Nam · digiwin.com.vn\nCase Pressway Precision · Workflow ERP",
+    "cta": "Đọc case Pressway",
+    "native_headline": "Xem dự án Pressway Precision",
+    "alt": "Đọc case để xem nhu cầu bản địa hóa và cách Digiwin cùng doanh nghiệp chuẩn bị quy trình cho nhà máy mới.",
+    "artwork_labels": [
+      "DIGIWIN · CASE SẢN XUẤT",
+      "4/4"
+    ]
+  },
+  "input_contract": "rmk-fulfillment-content-v2",
+  "input_manifest_sha256": "5068f5b339a9dd1228d9029acfc7b2175e3e05a3bcb5dc41b25ce5082503f838",
+  "source_url": "https://www.digiwin.com.vn/casestudies/erp-pressway-precision-case-study-vn/",
+  "source_language": "vi",
+  "field_sources": {
+    "locales.*.intro/problems/scope": "PR09-qualitative-scope; source lines127–128",
+    "locales.*.project_details[0]": "PR09-material-process proposed; lines139–140",
+    "locales.*.project_details[1]": "PR09-production-records proposed; lines148–149",
+    "locales.*.source_instruction/source_cta": "Exact VI RMK-PRESS-4 closing promise and scope-preserving proposed translations"
+  },
+  "excluded": [
+    "one-month claim",
+    "100% inventory claim",
+    "MES claim",
+    "audit success",
+    "semiconductor identity"
+  ],
+  "locale_readiness": {
+    "vi": "PROPOSED_NOT_ADOPTED",
+    "en": "PROPOSED_NOT_ADOPTED",
+    "zh-Hans": "PROPOSED_NOT_ADOPTED",
+    "zh-Hant": "PROPOSED_NOT_ADOPTED"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "observation": "2026-10-04 revised-demo work unit",
+  "v1_manifest_sha256": "aa9a684f729bc9d9022d847f659a086ab7ba13037c043750824be28a198a40ec",
+  "roots": [
+    {
+      "root": "D:\\optimize-awareness-LinkedIn-adcopy",
+      "protected_input_count": 117,
+      "raw_pin_exceptions": [],
+      "shared_pack_byte_identical": true,
+      "frozen_tracked_blobs_and_semantics_preserved": true
+    },
+    {
+      "root": "D:\\linkedin-rmk-fulfillment",
+      "protected_input_count": 117,
+      "raw_pin_exceptions": [
+        "operations/linkedin-rmk-proof/proof-ledger.md",
+        "operations/linkedin-rmk-proof/RMK_Content_Anchor_and_R2_Audit.md",
+        "operations/Ad_Artifact_Editorial_QA_Gate.md"
+      ],
+      "shared_pack_byte_identical": true,
+      "frozen_tracked_blobs_and_semantics_preserved": true
+    },
+    {
+      "root": "D:\\linkedin-rmk-mobile-adapter",
+      "protected_input_count": 117,
+      "raw_pin_exceptions": [
+        "operations/linkedin-rmk-proof/proof-ledger.md",
+        "operations/linkedin-rmk-proof/RMK_Content_Anchor_and_R2_Audit.md",
+        "operations/Ad_Artifact_Editorial_QA_Gate.md"
+      ],
+      "shared_pack_byte_identical": true,
+      "frozen_tracked_blobs_and_semantics_preserved": true
+    }
+  ],
+  "raw_validator_status": "FAIL for six Markdown checkout representations; not repaired or reported PASS"
+}

@@ -1,0 +1,53 @@
+{
+  "revision": "mobile-expand-harness-freeze-v2-2026-10-04",
+  "status": "FROZEN_SCOPED_REVISION",
+  "authorizer": "Bao latest explicit request to fix and rerun to freeze harness, prepare rollout",
+  "reviewer": "/root",
+  "audit_sha256": "d0a98165f7d8d3c58ae10dfa4ea477eda20acff01bec821eafe405d06e0c8c08",
+  "mechanism": {
+    "engine.py": "b7a51a9f1956dd42903b7291234e0d01f5cf913f4c4e6e2bbe7de5ca6463fd73",
+    "app.js": "c62b12631e78b2cac15835b3367ccca4c014e22ecc7fff2f69e0e0e7949358fe",
+    "template.html": "c9021b4b092e4a707b9fa7b73d67b0415c38e9d9b0ee38ff7adbe34a55dc7127",
+    "route.js": "ae535b87102d41ea8aa5b7ddb9c19fc311093662342dffd49a9dc5cc591cb162",
+    "build.py": "08dc2540b9a9f6663b2ed32807d94ff5f495197a906377d20f7a023079b0aafb",
+    "check.py": "81a1def9132a5ba195fb2926432f9c5b684205160ff8a095c1533ccfa5eae6e7",
+    "test_release.py": "6b4c1893559c4b499fedeb10f18a6e4469585d4d96a8af86ff4a81971915d966",
+    "test_schema.py": "2b12b2c110570b3606aac848aecfcdcf57d3e75bdc1a504b2313423205f67813",
+    "test_routes.cjs": "62dfc208b96a2852a34e99d4e1176e42447f66323e94d66af64f903b7dde4864",
+    "test_interaction.cjs": "40d0d023881ea462aa0ff059590d1e6243b294107daf39f8d4e35a46fc44cf20"
+  },
+  "owner_releases": [
+    {
+      "release_id": "rmk-case06-harness-freeze-v2",
+      "release_dir": "D:\\optimize-awareness-LinkedIn-adcopy\\operations\\linkedin-rmk-production-coordination\\shared-releases\\rmk-case06-harness-freeze-v2",
+      "manifest_sha256": "1f853392e4db7c9579a903a2ce70d839d5864b22cba21dc9a36aecb862525b29"
+    },
+    {
+      "release_id": "rmk-pressway-harness-freeze-v2",
+      "release_dir": "D:\\optimize-awareness-LinkedIn-adcopy\\operations\\linkedin-rmk-production-coordination\\shared-releases\\rmk-pressway-harness-freeze-v2",
+      "manifest_sha256": "26b562f2afba2c8e0596566d284f2f676538495f9698670d99f4d04c8163365d"
+    }
+  ],
+  "accepted_outputs": {
+    "case06-anchor": "6512d28fd82783f5e92e4ed65654f6a67d6282c36efeff5e832fb13f288f70e8",
+    "pressway-dogfood": "ef7c70195d07d6d2d9ebbb2fa97b9ab40bf195dd87953f9fca75384bcea25361"
+  },
+  "bounded_contexts": [
+    "Source-reviewed duration comparison in days: finite nonboolean nonnegative baseline/result and explicit source publisher",
+    "Qualitative case: metric=null and no result DOM/route"
+  ],
+  "fixed_behavior": [
+    "fourlocale source/headerfocus",
+    "same-locale article continuity",
+    "native Enter/hash/back/forward target focus",
+    "exact inputtuple/locale/UTM preservation and honest malformed reject",
+    "whole-source reconstruction from externally pinned owner manifest"
+  ],
+  "observed_viewports": "CSS320/390/414 exact; desktop CSS1422 due observed browser scaling (requested emulation1280), no overflow",
+  "freeze_not_permission": [
+    "Future source/claim/promise/locale data requires independent owner adoption",
+    "No universal metric schema, automatic claim trust or self approval",
+    "No mass HTML build or LadiPage publication/tracking/live"
+  ],
+  "historical_failure": "v1 output/fixture/release/history preserved, native BODY reset corrected in separate revision2"
+}

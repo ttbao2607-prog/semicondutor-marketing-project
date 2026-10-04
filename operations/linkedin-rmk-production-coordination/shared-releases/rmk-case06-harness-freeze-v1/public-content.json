@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "release_id": "rmk-case06-harness-freeze-v1",
+  "content_revision": "case06-editorial-detail-v3",
+  "case_id": "case06",
+  "entity_native": "江苏中科智芯集成科技有限公司",
+  "entry_ids": [
+    "RMK-R4-O1",
+    "RMK-R4-O4-Q"
+  ],
+  "default_entry": "RMK-R4-O1",
+  "ready_locales": [
+    "vi",
+    "en",
+    "zh-Hans",
+    "zh-Hant"
+  ],
+  "metric": {
+    "baseline": 15,
+    "result": 5,
+    "publisher": "Digiwin Việt Nam · case06"
+  },
+  "source": {
+    "url": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+    "language": "zh-Hans",
+    "publisher": "Digiwin Việt Nam"
+  },
+  "detail_source_url": "https://www.digiwin.com/erp/15454.html",
+  "compatibility": [
+    {
+      "entry": "RMK-R4-O1",
+      "case": "case06",
+      "contract": "rmk-case06-anchor-v1",
+      "maps_to_release": "rmk-case06-harness-freeze-v1"
+    },
+    {
+      "entry": "RMK-R4-O4-Q",
+      "case": "case06",
+      "contract": "rmk-case06-anchor-v1",
+      "maps_to_release": "rmk-case06-harness-freeze-v1"
+    }
+  ],
+  "locales": {
+    "vi": {
+      "language_name": "Tiếng Việt",
+      "article_label": "CASE06 · BÁN DẪN",
+      "market_label": "Đóng gói & kiểm thử · Trung Quốc",
+      "title": "Liên kết hồ sơ sản xuất và kiểm soát thay đổi",
+      "intro": "ERP + iMES kết nối dữ liệu hiện trường, thay đổi thông số và hồ sơ sản xuất trong case đóng gói, kiểm thử này.",
+      "metric_label": "Thời gian khóa sổ tháng",
+      "day_unit": "ngày",
+      "problem_heading": "Ba vấn đề trong case",
+      "problems": [
+        "Quản lý hồ sơ thiếu trật tự.",
+        "Quy trình nghiệp vụ chưa chuẩn hóa.",
+        "Hiệu quả gia công ngoài và sản xuất còn thấp."
+      ],
+      "scope_heading": "Digiwin ERP + iMES",
+      "scope": "Doanh nghiệp triển khai giải pháp số tích hợp Digiwin ERP + iMES.",
+      "reading_heading": "Mở đúng case06",
+      "reading_questions": [
+        "Vấn đề nào xuất hiện trước dự án?",
+        "Doanh nghiệp triển khai giải pháp theo hướng nào?"
+      ],
+      "source_instruction": "Chọn nhóm 封装测试, rồi chọn thẻ 案例 06 江苏中科智芯集成科技有限公司. Đọc lần lượt 核心痛点 (vấn đề), 鼎捷方案 (giải pháp) và 实施成效 (kết quả).",
+      "project_details": [
+        {
+          "title": "Thông tin hiện trường · SPC",
+          "text": "SPC (kiểm soát quá trình bằng thống kê) thu thập và phân tích thông tin hiện trường theo thời gian thực."
+        },
+        {
+          "title": "Thay đổi thông số · ECN",
+          "text": "ECN (thông báo thay đổi kỹ thuật) phân phối thay đổi thông số công nghệ theo thời gian thực."
+        },
+        {
+          "title": "Hồ sơ liên kết",
+          "text": "MES liên kết lô, trạm làm việc, người vận hành và sản phẩm/vật liệu để truy vết theo các góc nhìn."
+        },
+        {
+          "title": "Ghi nhận & báo cáo bất thường",
+          "text": "Hệ thống tự mở phiếu bất thường và báo cáo lần lượt lên các cấp."
+        }
+      ],
+      "implementation_source_label": "Đọc chi tiết triển khai",
+      "source_cta": "Mở nguồn tiếng Trung",
+      "source_language": "Nguồn: tiếng Trung",
+      "language_label": "Ngôn ngữ",
+      "nav_label": "Trong bài này",
+      "context_nav": "Vấn đề",
+      "provider_nav": "Dự án",
+      "source_nav": "Nguồn",
+      "skip": "Đến bài viết",
+      "fallback": "Hiển thị Tiếng Việt.",
+      "pending": "Bản dịch chưa có. Hiển thị Tiếng Việt.",
+      "unavailable_heading": "Không thể mở nội dung này",
+      "unavailable": "Liên kết không xác định hoặc phiên bản nội dung chưa có. Vui lòng kiểm tra lại liên kết."
+    },
+    "en": {
+      "language_name": "English",
+      "article_label": "CASE06 · SEMICONDUCTORS",
+      "market_label": "Packaging & testing · China",
+      "title": "Linking production records and controlling changes",
+      "intro": "ERP + iMES connects shopfloor information, parameter changes and production records in this packaging and testing case.",
+      "metric_label": "Month-close duration",
+      "day_unit": "days",
+      "problem_heading": "Three problems in the case",
+      "problems": [
+        "Disorganized records management.",
+        "Nonstandard business processes.",
+        "Low outsourcing and production efficiency."
+      ],
+      "scope_heading": "Digiwin ERP + iMES",
+      "scope": "The business implemented an integrated Digiwin ERP + iMES solution.",
+      "reading_heading": "Open the correct case06",
+      "reading_questions": [
+        "What problems preceded the project?",
+        "What solution did the business implement?"
+      ],
+      "source_instruction": "Select 封装测试, then the tab 案例 06 江苏中科智芯集成科技有限公司. Read 核心痛点 (problems), 鼎捷方案 (solution) and 实施成效 (results).",
+      "project_details": [
+        {
+          "title": "Shopfloor information · SPC",
+          "text": "SPC (statistical process control) collects and analyzes shopfloor information in real time."
+        },
+        {
+          "title": "Parameter changes · ECN",
+          "text": "ECN (engineering change notice) distributes process parameter changes in real time."
+        },
+        {
+          "title": "Linked records",
+          "text": "MES links batches, workstations, operators and products/materials for tracing from different perspectives."
+        },
+        {
+          "title": "Exception recording & escalation",
+          "text": "The system automatically opens exception records and escalates them through successive levels."
+        }
+      ],
+      "implementation_source_label": "Read the implementation detail",
+      "source_cta": "Open the Chinese source",
+      "source_language": "Source: Chinese",
+      "language_label": "Language",
+      "nav_label": "In this article",
+      "context_nav": "Problems",
+      "provider_nav": "Project",
+      "source_nav": "Source",
+      "skip": "Skip to article",
+      "fallback": "Showing Vietnamese.",
+      "pending": "This translation is unavailable. Showing Vietnamese.",
+      "unavailable_heading": "This content is unavailable",
+      "unavailable": "The link is not recognized or this content version is unavailable. Please check the link."
+    },
+    "zh-Hans": {
+      "language_name": "简体中文",
+      "article_label": "CASE06 · 半导体",
+      "market_label": "封装与测试 · 中国",
+      "title": "关联生产记录，管理参数变更",
+      "intro": "ERP + iMES 在这个封装测试案例中连接现场信息、参数变更与生产记录。",
+      "metric_label": "月结所需时间",
+      "day_unit": "天",
+      "problem_heading": "案例中的三项问题",
+      "problems": [
+        "资料管理混乱。",
+        "业务流程不规范。",
+        "委外与生产效率低。"
+      ],
+      "scope_heading": "Digiwin ERP + iMES",
+      "scope": "企业实施了 Digiwin ERP + iMES 一体化数字化解决方案。",
+      "reading_heading": "打开正确的 case06",
+      "reading_questions": [
+        "项目之前面临哪些问题？",
+        "企业实施了什么方案？"
+      ],
+      "source_instruction": "选择封装测试，再选择案例 06 江苏中科智芯集成科技有限公司页签，依次阅读核心痛点、鼎捷方案和实施成效。",
+      "project_details": [
+        {
+          "title": "现场信息 · SPC",
+          "text": "SPC（统计过程控制）实时收集与分析现场信息。"
+        },
+        {
+          "title": "参数变更 · ECN",
+          "text": "ECN（工程变更通知）实时下发工艺参数变更。"
+        },
+        {
+          "title": "关联记录",
+          "text": "MES 关联批次、工站、操作工及产品/物料，支持不同视角的追溯。"
+        },
+        {
+          "title": "异常记录与上报",
+          "text": "系统自动开立异常单，并逐层上报。"
+        }
+      ],
+      "implementation_source_label": "阅读实施细节",
+      "source_cta": "打开中文来源",
+      "source_language": "来源语言：中文",
+      "language_label": "语言",
+      "nav_label": "本文内容",
+      "context_nav": "问题",
+      "provider_nav": "方案",
+      "source_nav": "来源",
+      "skip": "跳至正文",
+      "fallback": "当前显示越南语。",
+      "pending": "此翻译暂不可用。当前显示越南语。",
+      "unavailable_heading": "此内容暂不可用",
+      "unavailable": "链接无法识别，或此内容版本暂不可用。请检查链接。"
+    },
+    "zh-Hant": {
+      "language_name": "繁體中文",
+      "article_label": "CASE06 · 半導體",
+      "market_label": "封裝與測試 · 中國",
+      "title": "關聯生產紀錄，管理參數變更",
+      "intro": "ERP + iMES 在這個封裝測試案例中連接現場資訊、參數變更與生產紀錄。",
+      "metric_label": "月結所需時間",
+      "day_unit": "天",
+      "problem_heading": "案例中的三項問題",
+      "problems": [
+        "資料管理混亂。",
+        "業務流程不規範。",
+        "委外與生產效率低。"
+      ],
+      "scope_heading": "Digiwin ERP + iMES",
+      "scope": "企業實施了 Digiwin ERP + iMES 整合數位化解決方案。",
+      "reading_heading": "開啟正確的 case06",
+      "reading_questions": [
+        "專案之前面臨哪些問題？",
+        "企業實施了什麼方案？"
+      ],
+      "source_instruction": "選擇封装测试，再選擇案例 06 江苏中科智芯集成科技有限公司頁籤，依序閱讀核心痛点、鼎捷方案和实施成效。",
+      "project_details": [
+        {
+          "title": "現場資訊 · SPC",
+          "text": "SPC（統計製程管制）即時蒐集與分析現場資訊。"
+        },
+        {
+          "title": "參數變更 · ECN",
+          "text": "ECN（工程變更通知）即時下發製程參數變更。"
+        },
+        {
+          "title": "關聯紀錄",
+          "text": "MES 關聯批次、工站、操作人員及產品/物料，支援不同視角的追溯。"
+        },
+        {
+          "title": "異常紀錄與上報",
+          "text": "系統自動開立異常單，並逐層上報。"
+        }
+      ],
+      "implementation_source_label": "閱讀實施細節",
+      "source_cta": "開啟中文來源",
+      "source_language": "來源語言：中文",
+      "language_label": "語言",
+      "nav_label": "本文內容",
+      "context_nav": "問題",
+      "provider_nav": "方案",
+      "source_nav": "來源",
+      "skip": "跳至正文",
+      "fallback": "目前顯示越南語。",
+      "pending": "此翻譯暫不可用。目前顯示越南語。",
+      "unavailable_heading": "此內容暫不可用",
+      "unavailable": "連結無法識別，或此內容版本暫不可用。請檢查連結。"
+    }
+  }
+}

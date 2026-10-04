@@ -1,0 +1,23 @@
+{
+  "releases": [
+    {
+      "family": "bright",
+      "path": "operations/linkedin-rmk-fulfillment/corrective-2026-10-04/parent-operator/bright/release.json",
+      "sha256": "c0381ede0c41d07ae45171c38d44daeded87c5f487ce024feeab03630cc0e3d2",
+      "revision": "bright-r2-parent-imagegen-release-v1"
+    },
+    {
+      "family": "press",
+      "path": "operations/linkedin-rmk-fulfillment/corrective-2026-10-04/parent-operator/press/release.json",
+      "sha256": "aa5900312c338f85d22917b381aaeb0e316f2ae33325ef407aa57e5129287099",
+      "revision": "press-r2-parent-imagegen-release-v1"
+    },
+    {
+      "family": "pin",
+      "path": "operations/linkedin-rmk-fulfillment/corrective-2026-10-04/parent-operator/pin/release.json",
+      "sha256": "8aefe646e352a8c2a939d671ea3c663911fa98303b834fcb5a01890095584643",
+      "revision": "pin-r2-parent-imagegen-release-v1"
+    }
+  ],
+  "pixel_acceptance": "PENDING_ACTUAL_OUTPUTS"
+}

@@ -1,0 +1,198 @@
+{
+  "status": "PREPARED_NO_MASS_BUILD_NO_LIVE",
+  "groups": [
+    {
+      "case_id": "case06",
+      "cold_rows": [
+        "O1",
+        "O3",
+        "O4-Q"
+      ],
+      "proposed_ad": "RMK-R4",
+      "closing_promise": "Named China case06 context, integrated solution and attributed month-close result",
+      "cold_dependencies": [
+        {
+          "id": "O1",
+          "copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O1/worker/public-copy.json",
+          "sha256": "a10f0cdd6f73d3607ac04c23897c644446c242d5232622346407d28794cc1925"
+        },
+        {
+          "id": "O3",
+          "copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/worker/public-copy.json",
+          "sha256": "6755dfd45a2dcb642d3631f55e6176b13c2073218adf5423e9d52bf7f155d2f1"
+        },
+        {
+          "id": "O4-Q",
+          "copy_path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/O4-Q/worker/public-copy.json",
+          "sha256": "7cadf1c4408228f90fbc8d9e59699c88b3fd09468eecc41d264a43e1e7ceff82"
+        }
+      ],
+      "status": "PREPARATION_ONLY_NOT_BUILD_RELEASE",
+      "dependencies": [
+        "Exact closing card selected/pinned by parent",
+        "Owner source/promise/claim map review",
+        "Four locale text and origin-language labels adopted",
+        "Exact entry/case/release compatibility and source URLs adopted",
+        "Supported duration baseline/result or qualitative null only",
+        "Parent mobile/desktop/keyboard/source/reduced-motion review",
+        "O3 exact R4 reuse parent selection pending; do not silently add RMK-R4-O3"
+      ],
+      "current_adapter": {
+        "output": "outputs/case06-anchor/index.html",
+        "release_id": "rmk-case06-harness-freeze-v2",
+        "owner_manifest_sha256": "1f853392e4db7c9579a903a2ce70d839d5864b22cba21dc9a36aecb862525b29",
+        "status": "PARENT_OFFLINE_RENDER_PASS_SCOPED_HARNESS_FROZEN"
+      },
+      "execution_policy": "Fresh row source/promise/locale/route adoption before build; O3 binding pending where listed. This queue is preparation only."
+    },
+    {
+      "case_id": "case04",
+      "cold_rows": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "proposed_ad": "RMK-BRIGHT",
+      "closing_promise": "Tìm 上海晶丰明源半导体股份有限公司 trong bộ 8 case studies để xem bối cảnh và giải pháp.",
+      "cold_dependencies": [
+        {
+          "id": "F1",
+          "copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/worker/public-copy.json",
+          "sha256": "35442440959244ef51dc7599747affd40936700b9b24c0353a0ba688d1a68b54"
+        },
+        {
+          "id": "F2",
+          "copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F2/worker/public-copy.json",
+          "sha256": "45b83f7a59323a2c00a0016f6f06472395b7f4a7a079ab5ec15c55c718a2b919"
+        },
+        {
+          "id": "F3",
+          "copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F3/worker/public-copy.json",
+          "sha256": "42bfe643e390dc933637a852bc82210c288139c2bfee4e548826d3c907c640a6"
+        }
+      ],
+      "status": "PREPARATION_ONLY_NOT_BUILD_RELEASE",
+      "dependencies": [
+        "Exact closing card selected/pinned by parent",
+        "Owner source/promise/claim map review",
+        "Four locale text and origin-language labels adopted",
+        "Exact entry/case/release compatibility and source URLs adopted",
+        "Supported duration baseline/result or qualitative null only",
+        "Owner immutable renderer/frame/payload/manifest adoption",
+        "Actual document/schema/negative gates",
+        "Parent mobile/desktop/keyboard/source/reduced-motion review"
+      ],
+      "current_adapter": "NOT_PRODUCED; no four-locale expanded HTML release",
+      "closing_card": {
+        "card_id": "RMK-BRIGHT-4",
+        "path": "operations/linkedin-rmk-fulfillment/bright/native/rmk-bright-4.png",
+        "sha256": "d6be010dc327f35e972a8aabdfd447efb69c0ca97835a73c61f5a7494d04820c"
+      },
+      "carousel_status": "PARENT_OFFLINE_NATIVE_STORY_RENDER_PASS",
+      "execution_policy": "Fresh row source/promise/locale/route adoption before build; O3 binding pending where listed. This queue is preparation only."
+    },
+    {
+      "case_id": "pressway-vn",
+      "cold_rows": [
+        "P1",
+        "P2"
+      ],
+      "proposed_ad": "RMK-PRESS",
+      "closing_promise": "Đọc case để xem nhu cầu bản địa hóa và cách Digiwin cùng doanh nghiệp chuẩn bị quy trình cho nhà máy mới.",
+      "cold_dependencies": [
+        {
+          "id": "P1",
+          "copy_path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/worker/public-copy.json",
+          "sha256": "5c986bbc26d6fb3e3862c9cd18d73b257c041fd419652c795613d74040068fc8"
+        },
+        {
+          "id": "P2",
+          "copy_path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P2/worker/public-copy.json",
+          "sha256": "6240d4002e138fbff3e3fa2186a8deb45e280fbe7200b5194a941ec9552baef8"
+        }
+      ],
+      "status": "PREPARATION_ONLY_NOT_BUILD_RELEASE",
+      "dependencies": [
+        "Exact closing card selected/pinned by parent",
+        "Owner source/promise/claim map review",
+        "Four locale text and origin-language labels adopted",
+        "Exact entry/case/release compatibility and source URLs adopted",
+        "Supported duration baseline/result or qualitative null only",
+        "Parent mobile/desktop/keyboard/source/reduced-motion review"
+      ],
+      "current_adapter": {
+        "output": "outputs/pressway-dogfood/index.html",
+        "release_id": "rmk-pressway-harness-freeze-v2",
+        "owner_manifest_sha256": "26b562f2afba2c8e0596566d284f2f676538495f9698670d99f4d04c8163365d",
+        "status": "PARENT_OFFLINE_RENDER_PASS_SCOPED_HARNESS_FROZEN"
+      },
+      "closing_card": {
+        "card_id": "RMK-PRESS-4",
+        "path": "operations/linkedin-rmk-fulfillment/press/native/rmk-press-4.png",
+        "sha256": "5df8874bc9d195b97755eefb79c7c224acbf21141fc3bbfea41a1414cafb3f8e"
+      },
+      "carousel_status": "PARENT_OFFLINE_NATIVE_STORY_RENDER_PASS",
+      "execution_policy": "Fresh row source/promise/locale/route adoption before build; O3 binding pending where listed. This queue is preparation only."
+    },
+    {
+      "case_id": "pinchuan-vn",
+      "cold_rows": [
+        "P3"
+      ],
+      "proposed_ad": "RMK-PIN",
+      "closing_promise": "Xem bối cảnh và cách triển khai dữ liệu vận hành trong case eMES tại Phẩm Thuyên Việt Nam.",
+      "cold_dependencies": [
+        {
+          "id": "P3",
+          "copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/P3/worker/public-copy.json",
+          "sha256": "b5225251b5abe014caa2d9fcd2e38ebc3f70b19188ac28ac052f08d4ff41ca19"
+        }
+      ],
+      "status": "PREPARATION_ONLY_NOT_BUILD_RELEASE",
+      "dependencies": [
+        "Exact closing card selected/pinned by parent",
+        "Owner source/promise/claim map review",
+        "Four locale text and origin-language labels adopted",
+        "Exact entry/case/release compatibility and source URLs adopted",
+        "Supported duration baseline/result or qualitative null only",
+        "Owner immutable renderer/frame/payload/manifest adoption",
+        "Actual document/schema/negative gates",
+        "Parent mobile/desktop/keyboard/source/reduced-motion review"
+      ],
+      "current_adapter": "NOT_PRODUCED; no four-locale expanded HTML release",
+      "closing_card": {
+        "card_id": "RMK-PIN-4",
+        "path": "operations/linkedin-rmk-fulfillment/corrective-2026-10-04/pin/native/rmk-pin-4-r2.png",
+        "sha256": "b4d2c1e78c82aebd8b5f74dd6c0a26eb3e165c6aaafbc9eafd4f8d5f3a3e3702"
+      },
+      "carousel_status": "PARENT_OFFLINE_NATIVE_STORY_RENDER_PASS",
+      "execution_policy": "Fresh row source/promise/locale/route adoption before build; O3 binding pending where listed. This queue is preparation only."
+    }
+  ],
+  "mapped_cold_rows": 9,
+  "deduplicated_cases": 4,
+  "holds": [
+    {
+      "cold_row": "O2",
+      "reason": "Approved PR05 result covers month close, not lot-state reconciliation. A weak repeat of case06 would not answer this remaining question. New closer case/capability is not approved by public availability; affected row held.",
+      "fallback": null
+    },
+    {
+      "cold_row": "O4-O",
+      "reason": "Approved PR05 result covers month close, not lot-state reconciliation. A weak repeat of case06 would not answer this remaining question. New closer case/capability is not approved by public availability; affected row held.",
+      "fallback": null
+    }
+  ],
+  "content_release": {
+    "release_id": "rmk-fulfillment-content-v2",
+    "manifest_sha256": "5068f5b339a9dd1228d9029acfc7b2175e3e05a3bcb5dc41b25ce5082503f838",
+    "scope": "Carousel content adoption only; raster/pair/HTML acceptance not granted"
+  },
+  "proposal_sha256": "1a21e839ef918f7bd838fecdb46ed3320db608785e5702a636e6eb021d1e4900",
+  "current_harness_freeze": {
+    "revision": "mobile-expand-harness-freeze-v2-2026-10-04",
+    "sha256": "27c2a7841f0dacd21d758052c0c4f2a34aac6534886ac324759dbcc22933830e",
+    "status": "FROZEN_SCOPED_REVISION"
+  },
+  "carousel_selection_sha256": "d9d46954cbbf70f035c08afa779ba58a8f50b4a02bc54f75dafac5e50a7cc5dd"
+}
