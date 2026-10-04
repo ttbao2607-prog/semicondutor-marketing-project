@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "release_id": "rmk-continuity-v1",
+  "baseline_commit": "d163ce7e8040c763cd649c11cd14de3ee48bc204",
+  "manifest_policy": "Manifest SHA256 binds exact shared bytes; new content requires a new release; scoped .gitattributes disables line-ending conversion",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "75db9ea43e8611611f30b8f42160314aa8539407ca0a480bef2191eded544c63",
+      "bytes": 76
+    },
+    {
+      "path": "case-content.json",
+      "sha256": "37173276e9ef8fae222c1056e3889a03c25e6e2f006b7751fc90b825f7c8384b",
+      "bytes": 6476
+    },
+    {
+      "path": "continuity-matrix.json",
+      "sha256": "4d4f5d17c6052002754835bf3fec8541e97c3886246443e7c9d5eaea18c18ce5",
+      "bytes": 28846
+    },
+    {
+      "path": "contract.json",
+      "sha256": "7e454166247ab45bd684278b1f9ed8c20bdd2d370611244ecc52b6c4fab59a23",
+      "bytes": 5989
+    },
+    {
+      "path": "execution-contract.json",
+      "sha256": "a367b045202400318db514e005caeade55da6068cf2a4f3f2cf1561eb10cd5c7",
+      "bytes": 4143
+    },
+    {
+      "path": "input-manifest.json",
+      "sha256": "9ad8fa856aec00512ea7c5bd2cd4b94884fd59c2981e12589cfe9161da5d92aa",
+      "bytes": 56952
+    },
+    {
+      "path": "README.md",
+      "sha256": "4bd4b1cb93e736e21b1a3f7915fa1b36c343d6072c8ce397b2afb0a2e8a5684f",
+      "bytes": 7819
+    },
+    {
+      "path": "verify_contract.py",
+      "sha256": "cd6fc1dd6ec3b20d5b37bd2aad8d62bc8a17914f188672c006ef75d1a82d256f",
+      "bytes": 18165
+    },
+    {
+      "path": "worktree-handoff.md",
+      "sha256": "33ca4d961b70882c833c7e335f8ce2165efd6adb10086c71c899c71999d792f4",
+      "bytes": 4474
+    },
+    {
+      "path": "worktree-registry.json",
+      "sha256": "155592342b8ded072f21aae6539f3e9d5dad3c7427e0d7de4bdf9611a0705f26",
+      "bytes": 1080
+    }
+  ]
+}

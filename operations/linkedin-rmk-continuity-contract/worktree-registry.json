@@ -1,0 +1,26 @@
+{
+  "baseline_commit": "d163ce7e8040c763cd649c11cd14de3ee48bc204",
+  "shared_contract_checkpoint": "containing local commit, resolved by git; no self-referential hash",
+  "setup_state": "two local worktrees created; both receive this checkpoint before independent audit",
+  "production_state": "NOT_STARTED",
+  "worktrees": [
+    {
+      "lane": "rmk",
+      "branch": "slice/linkedin-rmk-fulfillment",
+      "path": "D:/linkedin-rmk-fulfillment",
+      "write_prefix": "operations/linkedin-rmk-fulfillment/",
+      "owner": "future_rmk_writer",
+      "shared_pack_access": "read_only",
+      "stop_condition": "no production until assigned mandate; contract mismatch holds affected pair"
+    },
+    {
+      "lane": "ldp",
+      "branch": "slice/linkedin-rmk-mobile-adapter",
+      "path": "D:/linkedin-rmk-mobile-adapter",
+      "write_prefix": "operations/linkedin-rmk-mobile-adapter/",
+      "owner": "future_ldp_writer",
+      "shared_pack_access": "read_only",
+      "stop_condition": "no production until assigned mandate; contract mismatch holds affected pair"
+    }
+  ]
+}

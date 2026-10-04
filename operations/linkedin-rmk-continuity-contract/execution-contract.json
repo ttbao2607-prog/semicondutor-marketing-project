@@ -1,0 +1,88 @@
+{
+  "goal": "Reviewable, versioned shared coordination mechanism for parallel RMK and mobile adapter work without independent claim/continuity drift.",
+  "scope": "coordination contract + local worktree preparation; no new RMK/LDP production or live operation",
+  "baseline_ref": "d163ce7e8040c763cd649c11cd14de3ee48bc204",
+  "candidate_ref": "containing local commit; exact SHA supplied to post-commit auditor",
+  "original_clauses": [
+    "two logically connected worktrees from consolidated Cold/R4 state",
+    "RMK closing cards expand to lightweight mobile LDP with language toggle; PDF not a second truth",
+    "source-backed continuity and claims; preserve accepted R4/frozen harness",
+    "local commit before exactly one Sol/low audit",
+    "stop before Corrective 1"
+  ],
+  "audit_mode": "INDEPENDENT: user explicitly requests one read-only native leaf; parent remains final reconciler",
+  "audit_dispatch": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "low",
+    "fork_turns": "none",
+    "children": 1,
+    "write_permission": false,
+    "runtime_admission_and_acceptance_required": true
+  },
+  "acceptance_criteria": [
+    {
+      "id": "AC1",
+      "type": "STRUCTURAL/CONTRACT",
+      "criterion": "Pin eleven selected Cold copies, accepted public artifacts/receipts and exact frozen R4/source inputs to baseline; no historical status promoted."
+    },
+    {
+      "id": "AC2",
+      "type": "STRUCTURAL/CONTRACT",
+      "criterion": "One case/claim/locale source preserves entity, market, integrated scope, month-close15→5days and attribution; no unrelated outcome/capability."
+    },
+    {
+      "id": "AC3",
+      "type": "STRUCTURAL/CONTRACT",
+      "criterion": "All eleven rows account for question, evidence status, match/hold; only existing scoped R4 lane bound; no compulsory one-to-one or blanket case06 reuse."
+    },
+    {
+      "id": "AC4",
+      "type": "STRUCTURAL/CONTRACT",
+      "criterion": "Entry→case→promise→locale/section→source contract is explicit; LDP primary/PDF optional; missing/invalid routes and locales do not mislead."
+    },
+    {
+      "id": "AC5",
+      "type": "STRUCTURAL/CONTRACT",
+      "criterion": "Single shared writer/disjoint consumer ownership; exact release/hash handoff; change fanout and pair acceptance invalidation prevent silent drift."
+    },
+    {
+      "id": "AC6",
+      "type": "STRUCTURAL/CONTRACT",
+      "criterion": "Two real local worktrees inherit same containing contract checkpoint from baseline with shared bytes; no push/history rewrite or unauthorized production."
+    },
+    {
+      "id": "AC7",
+      "type": "BEHAVIORAL/RUNTIME",
+      "criterion": "Mechanical verifier and bounded negative probes reject corruptions within declared coverage; future semantic/browser checks remain explicit and unclaimed."
+    },
+    {
+      "id": "AC8",
+      "type": "STRUCTURAL/CONTRACT",
+      "criterion": "Canonical addenda are consistent; post-commit one Sol/low read-only audit bound to candidate; findings reconciled, stop before Corrective1 regardless of verdict."
+    }
+  ],
+  "plan": [
+    "construct shared pack + eleven-row inventory",
+    "create disjoint consumer worktrees from baseline",
+    "mechanical and bounded corruption checks; canonical docs reconciliation",
+    "commit pack locally; fast-forward clean consumers to same checkpoint",
+    "spawn/admit readonly auditor against exact commit; reconcile verdict; stop"
+  ],
+  "evidence": [
+    "input-manifest.json + actual baseline Git blobs",
+    "contract/case-content/continuity-matrix + source/freeze receipts",
+    "release-manifest.json + validator/probes output",
+    "worktree-registry + actual git identities/bytes",
+    "post-commit audit report and model gates"
+  ],
+  "execution_status": "PREPARED_FOR_CHECKPOINT_AND_POST_COMMIT_AUDIT",
+  "audit_status": "POST_COMMIT_AUDIT_PENDING",
+  "corrective_rounds_authorized": 0,
+  "forbidden": [
+    "new creative or LDP production under this setup",
+    "live/publish/account/tag/form/spend actions",
+    "push",
+    "historical asset/receipt/harness modification",
+    "correction after independent audit in this turn"
+  ]
+}

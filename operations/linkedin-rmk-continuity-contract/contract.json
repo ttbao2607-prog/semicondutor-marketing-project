@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "release_id": "rmk-continuity-v1",
+  "baseline_commit": "d163ce7e8040c763cd649c11cd14de3ee48bc204",
+  "status": "CONTRACT_CHECKPOINT_FOR_INDEPENDENT_AUDIT",
+  "scope": "coordination contract + local worktree preparation; no new RMK/LDP production or live operation",
+  "authority": {
+    "owner": "Bao",
+    "current_task": "establish agreed mechanism; local commit; then exactly one Sol/low read-only audit; stop before Corrective 1",
+    "local_worktree_creation": true,
+    "local_commit": true,
+    "setup_consumer_fast_forward": true,
+    "push": false,
+    "production_workers_started": false,
+    "live_operation": false,
+    "corrective_rounds_authorized": 0
+  },
+  "content_owner": "coordinator_shared_content_owner",
+  "expected_cold_treatments": [
+    "O1",
+    "O2",
+    "O3",
+    "O4-Q",
+    "O4-O",
+    "F1",
+    "F2",
+    "F3",
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "ownership": {
+    "shared": {
+      "branch": "slice/linkedin-rmk-proof-plan",
+      "path": "D:/optimize-awareness-LinkedIn-adcopy",
+      "pack": "operations/linkedin-rmk-continuity-contract/"
+    },
+    "rmk": {
+      "branch": "slice/linkedin-rmk-fulfillment",
+      "path": "D:/linkedin-rmk-fulfillment",
+      "write_prefix": "operations/linkedin-rmk-fulfillment/"
+    },
+    "ldp": {
+      "branch": "slice/linkedin-rmk-mobile-adapter",
+      "path": "D:/linkedin-rmk-mobile-adapter",
+      "write_prefix": "operations/linkedin-rmk-mobile-adapter/"
+    }
+  },
+  "primary_destination": "mobile_multilingual_ldp_adapter",
+  "pdf_status": "NOT_SELECTED_OPTIONAL_DERIVATIVE",
+  "routing": {
+    "route_id": "rmk-case-adapter",
+    "logical_path": "/rmk-case/",
+    "public_base_url": null,
+    "public_route_status": "NOT_CONFIGURED",
+    "required_controls": [
+      "entry",
+      "case",
+      "contract",
+      "lang"
+    ],
+    "unknown_or_conflicting_identity": "EXPLICIT_UNAVAILABLE_NO_CASE_SUBSTITUTION",
+    "duplicate_controls": "REJECT",
+    "missing_or_invalid_lang": "EXPLICIT_VI_FALLBACK_WITH_VISIBLE_LANGUAGE_LABEL",
+    "version_policy": "serve exact bound supported release or explicit unavailable; never silently latest",
+    "preserve_on_toggle": [
+      "entry",
+      "case",
+      "contract",
+      "section",
+      "utm_parameters"
+    ],
+    "preserve_on_reload_back": "URL-selected entry/case/release/lang/section; user toggle updates lang in URL",
+    "organic_source_action": "user initiated source verification link; do not append synthetic tracking/control parameters to original source by default",
+    "tracking_status": "NO_NEW_EVENTS_OR_TAGS_CONFIGURED"
+  },
+  "entries": [
+    {
+      "entry_id": "RMK-R4-O1",
+      "cold_treatment_id": "O1",
+      "ad_id": "RMK-R4",
+      "case_id": "case06",
+      "claim_ids": [
+        "PR10-role",
+        "PR05-case",
+        "PR05-month-close"
+      ],
+      "initial_locale": "vi",
+      "section": "case-summary",
+      "logical_destination": "/rmk-case/?entry=RMK-R4-O1&case=case06&contract=rmk-continuity-v1&lang=vi#case-summary",
+      "configured_live_url": null,
+      "state": "DESTINATION_PENDING"
+    },
+    {
+      "entry_id": "RMK-R4-O4-Q",
+      "cold_treatment_id": "O4-Q",
+      "ad_id": "RMK-R4",
+      "case_id": "case06",
+      "claim_ids": [
+        "PR10-role",
+        "PR05-case",
+        "PR05-month-close"
+      ],
+      "initial_locale": "vi",
+      "section": "case-summary",
+      "logical_destination": "/rmk-case/?entry=RMK-R4-O4-Q&case=case06&contract=rmk-continuity-v1&lang=vi#case-summary",
+      "configured_live_url": null,
+      "state": "DESTINATION_PENDING"
+    }
+  ],
+  "locales": {
+    "initial": "vi",
+    "planned": [
+      "vi",
+      "en",
+      "zh-Hans",
+      "zh-Hant"
+    ],
+    "enabled_payloads": [
+      "vi"
+    ],
+    "toggle_rule": "enable only ready reviewed payloads; unavailable translation cannot display a misleading language label"
+  },
+  "consumer_binding_required_fields": [
+    "entry_ids",
+    "release_id",
+    "release_manifest_sha256",
+    "content_revision",
+    "claim_ids",
+    "locale",
+    "promise_fields",
+    "logical_destination",
+    "artifact_hashes",
+    "branch",
+    "commit"
+  ],
+  "pair_lifecycle": [
+    "PROOF_SELECTION_PENDING",
+    "CONTENT_BOUND",
+    "DESTINATION_PENDING",
+    "PAIR_REVIEW_PENDING",
+    "PAIR_ACCEPTED_OFFLINE"
+  ],
+  "pair_receipt_required_fields": [
+    "release_manifest_sha256",
+    "rmk_binding_sha256",
+    "ldp_binding_sha256",
+    "artifact_hashes",
+    "tested_urls",
+    "locales",
+    "viewports",
+    "semantic_observations",
+    "click_toggle_source_observations",
+    "auditor_verdict",
+    "candidate_commits"
+  ],
+  "future_pair_checks": [
+    "source_scope_and_new_information",
+    "native_and_rendered_copy",
+    "exact_entry_case_release_locale_section",
+    "all_ready_locale_semantics",
+    "320_390_414_mobile_and_desktop",
+    "midpage_toggle_utm_reload_back",
+    "unknown_conflict_duplicate_version_and_missing_translation",
+    "actual_original_source_target",
+    "matching_both_consumer_bindings"
+  ],
+  "change_control": {
+    "new_release_required": true,
+    "consumer_acknowledgment": "exact release-manifest SHA256 in BOTH bindings",
+    "fanout": "all entries/locales/PDFs affected by shared claim or case change",
+    "preserve_previous_releases": true,
+    "forbid_silent_latest": true,
+    "receipt_invalidation": "affected pair conclusions marked superseded; new pair remains unaccepted until required rechecks"
+  },
+  "protected": [
+    "all input-manifest pins",
+    "frozen Cold and R4 assets/receipts",
+    "existing harness and historical failures",
+    "proof/source approval scope",
+    "shared canonical docs from consumer writers",
+    "live account/form/tracking/budget/credentials/PII"
+  ],
+  "current_limits": [
+    "11 Cold inputs inventoried, not 11 RMK matches/ads",
+    "only prior O1/O4-Q R4 content bound; adapter absent",
+    "non-VI translations pending",
+    "public URL/CTA/tracking/live and full pair runtime acceptance pending"
+  ]
+}

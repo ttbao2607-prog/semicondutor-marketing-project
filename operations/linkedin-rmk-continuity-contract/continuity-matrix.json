@@ -1,0 +1,460 @@
+{
+  "schema_version": 1,
+  "release_id": "rmk-continuity-v1",
+  "baseline_commit": "d163ce7e8040c763cd649c11cd14de3ee48bc204",
+  "rows": [
+    {
+      "cold_treatment_id": "O1",
+      "cold": {
+        "copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O1/worker/public-copy.json",
+        "copy_sha256": "a10f0cdd6f73d3607ac04c23897c644446c242d5232622346407d28794cc1925",
+        "declared_historical_revision": "all-scenarios-wave4-o1-copy-v1-parent-preparation-approved",
+        "ad_id": "O1-A",
+        "caption": "Digiwin tư vấn giải pháp ERP cho doanh nghiệp sản xuất. Chúng tôi chia sẻ góc nhìn quản trị cho nhóm chất lượng OSAT (dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài) khi rà soát kiểm thử bất thường.",
+        "opening_headline": "Chất lượng OSAT: khi kiểm thử bất thường.",
+        "opening_body": "Trong sản xuất bán dẫn, khi nhiều bộ phận cùng rà soát kết quả, cần làm rõ căn cứ trao đổi: hồ sơ liên quan đến lô nào và thời điểm kiểm thử nào?",
+        "closing_cta": "Đọc thêm về bài toán OSAT",
+        "acceptance_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O1/operator/reuse-audit.json",
+        "acceptance_status": "AUDIT_PASSED_UNDER_PO_CONTINUOUS_MANDATE",
+        "acceptance_scope": "selected local creative; baseline containing commit supersedes pre-checkpoint pending strings; no live/buyer acceptance"
+      },
+      "persona": "Quality OSAT",
+      "pain": "Hồ sơ và trách nhiệm khi rà soát kiểm thử bất thường",
+      "remaining_reader_question": "Digiwin có case triển khai cụ thể nào để tôi xem thêm?",
+      "question_evidence": "writer planning inference from exact pinned Cold text; not buyer research",
+      "match_class": "adjacent_operations",
+      "proof_candidates": [
+        "PR05",
+        "PR10"
+      ],
+      "selection_status": "EXISTING_SCOPED_R4_CONTENT",
+      "rmk": {
+        "ad_id": "RMK-R4",
+        "public_copy_path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/copy-vi.json",
+        "case_id": "case06",
+        "claim_ids": [
+          "PR10-role",
+          "PR05-case",
+          "PR05-month-close"
+        ],
+        "entry_id": "RMK-R4-O1",
+        "closing_card_id": "RMK-R4-4",
+        "closing_promise": "Tìm 江苏中科智芯集成科技有限公司 trong bộ 8 case studies bán dẫn của Digiwin để xem bối cảnh, giải pháp và kết quả.",
+        "cta": "Xem case06"
+      },
+      "rationale": "Preserve prior O1/O4-Q approved R4 lane: named adjacent implementation evidence, not abnormal-test outcome.",
+      "hold": "Dedicated adapter, consumer binding and end-to-end pair acceptance pending.",
+      "pair_state": "DESTINATION_PENDING",
+      "pair_acceptance": null,
+      "delivery_gate": "ACCOUNT_AUDIENCE_OBJECTIVE_TRACKING_BUDGET_AND_LIVE_UNVERIFIED"
+    },
+    {
+      "cold_treatment_id": "O2",
+      "cold": {
+        "copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O2/worker/public-copy.json",
+        "copy_sha256": "45de52823e205a82df37293457e0705332def75f5c332b72c24a1e4d10abaeed",
+        "declared_historical_revision": "all-scenarios-o2-copy-v1-parent-review-pending",
+        "ad_id": "O2-A",
+        "caption": "Digiwin tư vấn giải pháp ERP cho doanh nghiệp sản xuất. Với nhóm vận hành OSAT (dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài), chúng tôi chia sẻ cách đối chiếu trạng thái lô khi nhiều bộ phận cùng xem.",
+        "opening_headline": "Nhóm vận hành OSAT: cùng lô, khác trạng thái?",
+        "opening_body": "Khi các bộ phận cùng xem một lô nhưng báo cáo khác nhau, cần biết mỗi trạng thái thuộc công đoạn và thời điểm nào trước khi bàn bước tiếp.",
+        "closing_cta": "Đọc thêm về bài toán OSAT",
+        "acceptance_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O2/operator/final-audit.json",
+        "acceptance_status": "AUDIT_PASSED_UNDER_PO_CONTINUOUS_MANDATE",
+        "acceptance_scope": "selected local creative; baseline containing commit supersedes pre-checkpoint pending strings; no live/buyer acceptance"
+      },
+      "persona": "Operations OSAT",
+      "pain": "Cùng lô nhưng khác công đoạn/thời điểm báo cáo",
+      "remaining_reader_question": "Có case nào cho thấy phạm vi triển khai và kết quả quản trị?",
+      "question_evidence": "writer planning inference from exact pinned Cold text; not buyer research",
+      "match_class": "candidate_adjacent_operations",
+      "proof_candidates": [
+        "PR05"
+      ],
+      "selection_status": "PROOF_SELECTION_PENDING",
+      "rmk": {
+        "ad_id": null,
+        "public_copy_path": null,
+        "case_id": null,
+        "claim_ids": [],
+        "entry_id": null,
+        "closing_card_id": null,
+        "closing_promise": null,
+        "cta": null
+      },
+      "rationale": "Candidate only: verify actual match and source scope before selecting case, claims, closing promise and entry. No automatic case06 routing.",
+      "hold": "PR05 month-close result does not establish real-time lot-state mechanism or broaden the approved Quality lane.",
+      "pair_state": "PROOF_SELECTION_PENDING",
+      "pair_acceptance": null,
+      "delivery_gate": "ACCOUNT_AUDIENCE_OBJECTIVE_TRACKING_BUDGET_AND_LIVE_UNVERIFIED"
+    },
+    {
+      "cold_treatment_id": "O3",
+      "cold": {
+        "copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/worker/public-copy.json",
+        "copy_sha256": "6755dfd45a2dcb642d3631f55e6176b13c2073218adf5423e9d52bf7f155d2f1",
+        "declared_historical_revision": "all-scenarios-o3-copy-v1-parent-review-pending",
+        "ad_id": "O3-A",
+        "caption": "Digiwin tư vấn ERP. Nhóm tài chính nhà máy OSAT (dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài): cần đối chiếu dữ liệu nào từ xưởng trước kỳ kết sổ chi phí?",
+        "opening_headline": "Kỳ kết sổ chi phí: chờ số liệu nào từ xưởng?",
+        "opening_body": "Trước kỳ kết sổ chi phí, kế toán và xưởng cần đối chiếu những hồ sơ nào về bán thành phẩm, sản lượng hoàn thành và hao hụt theo lô?",
+        "closing_cta": "Đọc thêm về bài toán OSAT",
+        "acceptance_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/operator/final-audit.json",
+        "acceptance_status": "AUDIT_PASSED_UNDER_PO_CONTINUOUS_MANDATE",
+        "acceptance_scope": "selected local creative; baseline containing commit supersedes pre-checkpoint pending strings; no live/buyer acceptance"
+      },
+      "persona": "Finance OSAT",
+      "pain": "Đối chiếu hồ sơ xưởng trước kỳ kết sổ chi phí",
+      "remaining_reader_question": "Có case khóa sổ tháng với doanh nghiệp và kết quả xác định?",
+      "question_evidence": "writer planning inference from exact pinned Cold text; not buyer research",
+      "match_class": "candidate_finance_related",
+      "proof_candidates": [
+        "PR05"
+      ],
+      "selection_status": "PROOF_SELECTION_PENDING",
+      "rmk": {
+        "ad_id": null,
+        "public_copy_path": null,
+        "case_id": null,
+        "claim_ids": [],
+        "entry_id": null,
+        "closing_card_id": null,
+        "closing_promise": null,
+        "cta": null
+      },
+      "rationale": "Candidate only: verify actual match and source scope before selecting case, claims, closing promise and entry. No automatic case06 routing.",
+      "hold": "PR05 month-close result does not establish real-time lot-state mechanism or broaden the approved Quality lane.",
+      "pair_state": "PROOF_SELECTION_PENDING",
+      "pair_acceptance": null,
+      "delivery_gate": "ACCOUNT_AUDIENCE_OBJECTIVE_TRACKING_BUDGET_AND_LIVE_UNVERIFIED"
+    },
+    {
+      "cold_treatment_id": "O4-Q",
+      "cold": {
+        "copy_path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/O4-Q/worker/public-copy.json",
+        "copy_sha256": "7cadf1c4408228f90fbc8d9e59699c88b3fd09468eecc41d264a43e1e7ceff82",
+        "declared_historical_revision": "all-scenarios-o4-q-copy-v1-parent-review-pending",
+        "ad_id": "O4-Q-B",
+        "caption": "Digiwin tư vấn giải pháp ERP cho doanh nghiệp sản xuất. Chúng tôi chia sẻ góc nhìn quản trị cho nhóm chất lượng OSAT (dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài) khi rà soát kiểm thử bất thường.",
+        "opening_headline": "Chất lượng OSAT: khi kiểm thử bất thường.",
+        "opening_body": "Trong sản xuất bán dẫn, khi nhiều bộ phận cùng rà soát kết quả, cần làm rõ căn cứ trao đổi: hồ sơ liên quan đến lô nào và thời điểm kiểm thử nào?",
+        "closing_cta": "Đọc thêm về bài toán OSAT",
+        "acceptance_path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/O4-Q/operator/final-audit.json",
+        "acceptance_status": "AUDIT_PASSED_UNDER_PO_CORRECTIVE_MANDATE",
+        "acceptance_scope": "selected local creative; baseline containing commit supersedes pre-checkpoint pending strings; no live/buyer acceptance"
+      },
+      "persona": "Quality OSAT",
+      "pain": "Căn cứ trao đổi khi rà soát kiểm thử bất thường",
+      "remaining_reader_question": "Tôi có thể tự tìm và kiểm chứng case Digiwin nào?",
+      "question_evidence": "writer planning inference from exact pinned Cold text; not buyer research",
+      "match_class": "adjacent_operations",
+      "proof_candidates": [
+        "PR05",
+        "PR10"
+      ],
+      "selection_status": "EXISTING_SCOPED_R4_CONTENT",
+      "rmk": {
+        "ad_id": "RMK-R4",
+        "public_copy_path": "operations/linkedin-rmk-proof/quality-pilot-harness-r4/copy-vi.json",
+        "case_id": "case06",
+        "claim_ids": [
+          "PR10-role",
+          "PR05-case",
+          "PR05-month-close"
+        ],
+        "entry_id": "RMK-R4-O4-Q",
+        "closing_card_id": "RMK-R4-4",
+        "closing_promise": "Tìm 江苏中科智芯集成科技有限公司 trong bộ 8 case studies bán dẫn của Digiwin để xem bối cảnh, giải pháp và kết quả.",
+        "cta": "Xem case06"
+      },
+      "rationale": "Preserve prior O1/O4-Q approved R4 lane: named adjacent implementation evidence, not abnormal-test outcome.",
+      "hold": "Dedicated adapter, consumer binding and end-to-end pair acceptance pending.",
+      "pair_state": "DESTINATION_PENDING",
+      "pair_acceptance": null,
+      "delivery_gate": "ACCOUNT_AUDIENCE_OBJECTIVE_TRACKING_BUDGET_AND_LIVE_UNVERIFIED"
+    },
+    {
+      "cold_treatment_id": "O4-O",
+      "cold": {
+        "copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-O/worker/public-copy.json",
+        "copy_sha256": "95080f151296f81dff1e4b850e080e7bfb2c324ac8d444bad82270d92743d28c",
+        "declared_historical_revision": "all-scenarios-o4-o-copy-v1-parent-review-pending",
+        "ad_id": "O4-O-B",
+        "caption": "Digiwin tư vấn giải pháp ERP cho doanh nghiệp sản xuất. Với nhóm vận hành OSAT (dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài), chúng tôi chia sẻ cách đối chiếu trạng thái lô khi nhiều bộ phận cùng xem.",
+        "opening_headline": "Nhóm vận hành OSAT: cùng lô, khác trạng thái?",
+        "opening_body": "Khi các bộ phận cùng xem một lô nhưng báo cáo khác nhau, cần biết mỗi trạng thái thuộc công đoạn và thời điểm nào trước khi bàn bước tiếp.",
+        "closing_cta": "Đọc thêm về bài toán OSAT",
+        "acceptance_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-O/operator/final-audit.json",
+        "acceptance_status": "AUDIT_PASSED_UNDER_PO_CONTINUOUS_MANDATE",
+        "acceptance_scope": "selected local creative; baseline containing commit supersedes pre-checkpoint pending strings; no live/buyer acceptance"
+      },
+      "persona": "Operations OSAT",
+      "pain": "Đối chiếu trạng thái lô trước khi bàn bước tiếp",
+      "remaining_reader_question": "Có proof triển khai phù hợp với câu hỏi quản trị này?",
+      "question_evidence": "writer planning inference from exact pinned Cold text; not buyer research",
+      "match_class": "candidate_adjacent_operations",
+      "proof_candidates": [
+        "PR05"
+      ],
+      "selection_status": "PROOF_SELECTION_PENDING",
+      "rmk": {
+        "ad_id": null,
+        "public_copy_path": null,
+        "case_id": null,
+        "claim_ids": [],
+        "entry_id": null,
+        "closing_card_id": null,
+        "closing_promise": null,
+        "cta": null
+      },
+      "rationale": "Candidate only: verify actual match and source scope before selecting case, claims, closing promise and entry. No automatic case06 routing.",
+      "hold": "PR05 month-close result does not establish real-time lot-state mechanism or broaden the approved Quality lane.",
+      "pair_state": "PROOF_SELECTION_PENDING",
+      "pair_acceptance": null,
+      "delivery_gate": "ACCOUNT_AUDIENCE_OBJECTIVE_TRACKING_BUDGET_AND_LIVE_UNVERIFIED"
+    },
+    {
+      "cold_treatment_id": "F1",
+      "cold": {
+        "copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/worker/public-copy.json",
+        "copy_sha256": "35442440959244ef51dc7599747affd40936700b9b24c0353a0ba688d1a68b54",
+        "declared_historical_revision": "all-scenarios-f1-copy-v1-parent-review-pending",
+        "ad_id": "F1-A",
+        "caption": "Digiwin tư vấn ERP. Nhóm Fabless (thiết kế chip, không sở hữu nhà máy chế tạo) đối chiếu WIP (bán thành phẩm) theo lô tại OSAT (dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài).",
+        "opening_headline": "Nhận báo cáo từ đối tác: đã rõ từng lô?",
+        "opening_body": "Nhóm vận hành Fabless nhận báo cáo từ các đối tác gia công. Cần đối chiếu những thông tin nào để biết từng lô đang ở công đoạn nào?",
+        "closing_cta": "Đọc thêm về bài toán Fabless",
+        "acceptance_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/operator/final-audit.json",
+        "acceptance_status": "AUDIT_PASSED_UNDER_PO_CONTINUOUS_MANDATE",
+        "acceptance_scope": "selected local creative; baseline containing commit supersedes pre-checkpoint pending strings; no live/buyer acceptance"
+      },
+      "persona": "Operations Fabless",
+      "pain": "WIP gia công ngoài qua báo cáo rời",
+      "remaining_reader_question": "Có case Fabless có tên và phạm vi triển khai để tự xem?",
+      "question_evidence": "writer planning inference from exact pinned Cold text; not buyer research",
+      "match_class": "candidate_qualitative_fabless",
+      "proof_candidates": [
+        "PR03"
+      ],
+      "selection_status": "PROOF_SELECTION_PENDING",
+      "rmk": {
+        "ad_id": null,
+        "public_copy_path": null,
+        "case_id": null,
+        "claim_ids": [],
+        "entry_id": null,
+        "closing_card_id": null,
+        "closing_promise": null,
+        "cta": null
+      },
+      "rationale": "Candidate only: verify actual match and source scope before selecting case, claims, closing promise and entry. No automatic case06 routing.",
+      "hold": "PR03 conflicting numeric baseline: qualitative only until resolved; no WIP/forecast/handoff outcome inferred.",
+      "pair_state": "PROOF_SELECTION_PENDING",
+      "pair_acceptance": null,
+      "delivery_gate": "ACCOUNT_AUDIENCE_OBJECTIVE_TRACKING_BUDGET_AND_LIVE_UNVERIFIED"
+    },
+    {
+      "cold_treatment_id": "F2",
+      "cold": {
+        "copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F2/worker/public-copy.json",
+        "copy_sha256": "45b83f7a59323a2c00a0016f6f06472395b7f4a7a079ab5ec15c55c718a2b919",
+        "declared_historical_revision": "all-scenarios-f2-copy-v1-parent-review-pending",
+        "ad_id": "F2-A",
+        "caption": "Digiwin tư vấn ERP. Nhóm kế hoạch Fabless (thiết kế chip, không sở hữu nhà máy chế tạo): forecast đổi, WIP (bán thành phẩm) gia công ngoài nào cần đối chiếu?",
+        "opening_headline": "Forecast đổi, lô nào cần xem trước?",
+        "opening_body": "Nếu dự báo nhu cầu thay đổi, nhóm kế hoạch cần xác định các lô gia công liên quan trước khi trao đổi điều chỉnh với đối tác.",
+        "closing_cta": "Đọc thêm về bài toán Fabless",
+        "acceptance_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F2/operator/reuse-audit.json",
+        "acceptance_status": "AUDIT_PASSED_UNDER_PO_CONTINUOUS_MANDATE",
+        "acceptance_scope": "selected local creative; baseline containing commit supersedes pre-checkpoint pending strings; no live/buyer acceptance"
+      },
+      "persona": "Planning Fabless",
+      "pain": "Forecast đổi và lô gia công cần đối chiếu",
+      "remaining_reader_question": "Có case phù hợp để hiểu giải pháp và kết quả, ngoài câu hỏi cold?",
+      "question_evidence": "writer planning inference from exact pinned Cold text; not buyer research",
+      "match_class": "candidate_qualitative_fabless",
+      "proof_candidates": [
+        "PR03"
+      ],
+      "selection_status": "PROOF_SELECTION_PENDING",
+      "rmk": {
+        "ad_id": null,
+        "public_copy_path": null,
+        "case_id": null,
+        "claim_ids": [],
+        "entry_id": null,
+        "closing_card_id": null,
+        "closing_promise": null,
+        "cta": null
+      },
+      "rationale": "Candidate only: verify actual match and source scope before selecting case, claims, closing promise and entry. No automatic case06 routing.",
+      "hold": "PR03 conflicting numeric baseline: qualitative only until resolved; no WIP/forecast/handoff outcome inferred.",
+      "pair_state": "PROOF_SELECTION_PENDING",
+      "pair_acceptance": null,
+      "delivery_gate": "ACCOUNT_AUDIENCE_OBJECTIVE_TRACKING_BUDGET_AND_LIVE_UNVERIFIED"
+    },
+    {
+      "cold_treatment_id": "F3",
+      "cold": {
+        "copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F3/worker/public-copy.json",
+        "copy_sha256": "42bfe643e390dc933637a852bc82210c288139c2bfee4e548826d3c907c640a6",
+        "declared_historical_revision": "closing-forward-f3-copy-v1-parent-review-pending",
+        "ad_id": "F3-A",
+        "caption": "Digiwin tư vấn ERP. Nhóm vận hành Fabless (thiết kế chip, không sở hữu nhà máy chế tạo): khi lô chuyển đối tác, dữ liệu nào đi cùng và ai xác nhận?",
+        "opening_headline": "Chuyển đối tác, đã rõ dữ liệu đi cùng?",
+        "opening_body": "Khi một lô chuyển giữa các đối tác gia công, nhóm vận hành và chất lượng cần hỏi thông tin nào đi cùng lô và ai xác nhận tại điểm bàn giao.",
+        "closing_cta": "Đọc thêm về bài toán Fabless",
+        "acceptance_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F3/operator/reuse-audit.json",
+        "acceptance_status": "AUDIT_PASSED_UNDER_PO_CONTINUOUS_MANDATE",
+        "acceptance_scope": "selected local creative; baseline containing commit supersedes pre-checkpoint pending strings; no live/buyer acceptance"
+      },
+      "persona": "Operations Fabless",
+      "pain": "Dữ liệu và xác nhận khi chuyển đối tác",
+      "remaining_reader_question": "Có proof triển khai nào phù hợp với việc giao nhận giữa các bên?",
+      "question_evidence": "writer planning inference from exact pinned Cold text; not buyer research",
+      "match_class": "candidate_qualitative_fabless",
+      "proof_candidates": [
+        "PR03"
+      ],
+      "selection_status": "PROOF_SELECTION_PENDING",
+      "rmk": {
+        "ad_id": null,
+        "public_copy_path": null,
+        "case_id": null,
+        "claim_ids": [],
+        "entry_id": null,
+        "closing_card_id": null,
+        "closing_promise": null,
+        "cta": null
+      },
+      "rationale": "Candidate only: verify actual match and source scope before selecting case, claims, closing promise and entry. No automatic case06 routing.",
+      "hold": "PR03 conflicting numeric baseline: qualitative only until resolved; no WIP/forecast/handoff outcome inferred.",
+      "pair_state": "PROOF_SELECTION_PENDING",
+      "pair_acceptance": null,
+      "delivery_gate": "ACCOUNT_AUDIENCE_OBJECTIVE_TRACKING_BUDGET_AND_LIVE_UNVERIFIED"
+    },
+    {
+      "cold_treatment_id": "P1",
+      "cold": {
+        "copy_path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/worker/public-copy.json",
+        "copy_sha256": "5c986bbc26d6fb3e3862c9cd18d73b257c041fd419652c795613d74040068fc8",
+        "declared_historical_revision": "all-scenarios-p1-copy-v1-parent-review-pending",
+        "ad_id": "P1-A",
+        "caption": "Digiwin tư vấn ERP bán dẫn. Với nhóm công nghệ và tích hợp của đối tác, dữ liệu đã truyền qua chưa có nghĩa bước tiếp theo đã có người xác nhận.",
+        "opening_headline": "Dữ liệu qua rồi: ai xác nhận tiếp?",
+        "opening_body": "Nếu hai hệ thống đã trao đổi dữ liệu, nhóm tích hợp vẫn cần làm rõ nguồn, người đối chiếu và điều kiện để bộ phận nhận xử lý tiếp.",
+        "closing_cta": "Đọc thêm về hợp tác bán dẫn",
+        "acceptance_path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/operator/final-audit.json",
+        "acceptance_status": "AUDIT_PASSED_UNDER_PO_CORRECTIVE_MANDATE",
+        "acceptance_scope": "selected local creative; baseline containing commit supersedes pre-checkpoint pending strings; no live/buyer acceptance"
+      },
+      "persona": "Technology/integration partner",
+      "pain": "Dữ liệu đã truyền nhưng bước tiếp cần người xác nhận",
+      "remaining_reader_question": "Có proof về vai trò triển khai của Digiwin phù hợp với đối tác?",
+      "question_evidence": "writer planning inference from exact pinned Cold text; not buyer research",
+      "match_class": "supporting_manufacturing_only_candidate",
+      "proof_candidates": [
+        "PR08",
+        "PR09"
+      ],
+      "selection_status": "PROOF_SELECTION_PENDING",
+      "rmk": {
+        "ad_id": null,
+        "public_copy_path": null,
+        "case_id": null,
+        "claim_ids": [],
+        "entry_id": null,
+        "closing_card_id": null,
+        "closing_promise": null,
+        "cta": null
+      },
+      "rationale": "Candidate only: verify actual match and source scope before selecting case, claims, closing promise and entry. No automatic case06 routing.",
+      "hold": "PR08/PR09 manufacturing evidence does not establish semiconductor integration ownership, genealogy or audit-readiness outcome.",
+      "pair_state": "PROOF_SELECTION_PENDING",
+      "pair_acceptance": null,
+      "delivery_gate": "ACCOUNT_AUDIENCE_OBJECTIVE_TRACKING_BUDGET_AND_LIVE_UNVERIFIED"
+    },
+    {
+      "cold_treatment_id": "P2",
+      "cold": {
+        "copy_path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P2/worker/public-copy.json",
+        "copy_sha256": "6240d4002e138fbff3e3fa2186a8deb45e280fbe7200b5194a941ec9552baef8",
+        "declared_historical_revision": "all-scenarios-p2-copy-v1-parent-review-pending",
+        "ad_id": "P2-A",
+        "caption": "Digiwin tư vấn ERP bán dẫn. Với nhóm kiến trúc và tích hợp của đối tác, trước khi nối ERP với MES, cần thống nhất nguồn dữ liệu và trách nhiệm ở mỗi điểm giao nhận.",
+        "opening_headline": "Trước khi nối: rõ ranh giới chưa?",
+        "opening_body": "Nếu ERP và MES cùng dùng một thông tin sản xuất, nhóm kiến trúc cần làm rõ hệ thống sở hữu, bên đối chiếu và điều kiện xác nhận trước khi thiết kế luồng.",
+        "closing_cta": "Đọc thêm về hợp tác bán dẫn",
+        "acceptance_path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P2/operator/final-audit.json",
+        "acceptance_status": "AUDIT_PASSED_UNDER_PO_CORRECTIVE_MANDATE",
+        "acceptance_scope": "selected local creative; baseline containing commit supersedes pre-checkpoint pending strings; no live/buyer acceptance"
+      },
+      "persona": "Architecture/integration partner",
+      "pain": "Nguồn dữ liệu và trách nhiệm trước khi nối ERP/MES",
+      "remaining_reader_question": "Có proof xác định phạm vi triển khai, thay vì suy capability tích hợp?",
+      "question_evidence": "writer planning inference from exact pinned Cold text; not buyer research",
+      "match_class": "supporting_manufacturing_only_candidate",
+      "proof_candidates": [
+        "PR08",
+        "PR09"
+      ],
+      "selection_status": "PROOF_SELECTION_PENDING",
+      "rmk": {
+        "ad_id": null,
+        "public_copy_path": null,
+        "case_id": null,
+        "claim_ids": [],
+        "entry_id": null,
+        "closing_card_id": null,
+        "closing_promise": null,
+        "cta": null
+      },
+      "rationale": "Candidate only: verify actual match and source scope before selecting case, claims, closing promise and entry. No automatic case06 routing.",
+      "hold": "PR08/PR09 manufacturing evidence does not establish semiconductor integration ownership, genealogy or audit-readiness outcome.",
+      "pair_state": "PROOF_SELECTION_PENDING",
+      "pair_acceptance": null,
+      "delivery_gate": "ACCOUNT_AUDIENCE_OBJECTIVE_TRACKING_BUDGET_AND_LIVE_UNVERIFIED"
+    },
+    {
+      "cold_treatment_id": "P3",
+      "cold": {
+        "copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/P3/worker/public-copy.json",
+        "copy_sha256": "b5225251b5abe014caa2d9fcd2e38ebc3f70b19188ac28ac052f08d4ff41ca19",
+        "declared_historical_revision": "all-scenarios-wave0-p3-copy-v1-parent-review-pending",
+        "ad_id": "P3-A",
+        "caption": "Digiwin tư vấn ERP bán dẫn. Với nhóm chất lượng và nhà máy nội địa, khi khách hàng hỏi một lô, hãy bắt đầu từ yêu cầu cụ thể, dữ liệu liên quan và người đối chiếu.",
+        "opening_headline": "Một câu hỏi về lô: hồ sơ ở đâu?",
+        "opening_body": "Nếu khách hàng yêu cầu xem dữ liệu liên quan một lô, nhóm chất lượng cần làm rõ câu hỏi, phạm vi hồ sơ và người phụ trách trước khi tập hợp tài liệu.",
+        "closing_cta": "Đọc thêm về dữ liệu audit",
+        "acceptance_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/P3/operator/reuse-audit.json",
+        "acceptance_status": "AUDIT_PASSED_UNDER_PO_CONTINUOUS_MANDATE",
+        "acceptance_scope": "selected local creative; baseline containing commit supersedes pre-checkpoint pending strings; no live/buyer acceptance"
+      },
+      "persona": "Domestic quality/manufacturing",
+      "pain": "Hồ sơ theo yêu cầu khách hàng về một lô",
+      "remaining_reader_question": "Có case quản trị hồ sơ phù hợp, với vai trò Digiwin rõ ràng?",
+      "question_evidence": "writer planning inference from exact pinned Cold text; not buyer research",
+      "match_class": "supporting_manufacturing_only_candidate",
+      "proof_candidates": [
+        "PR08",
+        "PR09"
+      ],
+      "selection_status": "PROOF_SELECTION_PENDING",
+      "rmk": {
+        "ad_id": null,
+        "public_copy_path": null,
+        "case_id": null,
+        "claim_ids": [],
+        "entry_id": null,
+        "closing_card_id": null,
+        "closing_promise": null,
+        "cta": null
+      },
+      "rationale": "Candidate only: verify actual match and source scope before selecting case, claims, closing promise and entry. No automatic case06 routing.",
+      "hold": "PR08/PR09 manufacturing evidence does not establish semiconductor integration ownership, genealogy or audit-readiness outcome.",
+      "pair_state": "PROOF_SELECTION_PENDING",
+      "pair_acceptance": null,
+      "delivery_gate": "ACCOUNT_AUDIENCE_OBJECTIVE_TRACKING_BUDGET_AND_LIVE_UNVERIFIED"
+    }
+  ]
+}
