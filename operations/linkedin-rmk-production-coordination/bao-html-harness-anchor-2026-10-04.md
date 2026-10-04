@@ -1,0 +1,9 @@
+# Bảo assessment · HTML adapter harness anchor · 2026-10-04
+
+Bảo rejected the first case06 editorial adapter demo (`rmk-case06-demo-v2`, HTML SHA256 `bfbd72969e504178927594df06624aaa642ba362dd855166bc5fc56a33f7c256`, 28,345 bytes) after viewing the concrete candidate. The following is the Product Owner's assessment, preserved verbatim as the anchor for the future HTML harness:
+
+> Chưa được, harness html chưa có nên các lỗi gặp ở carousel images đang bị tái lập ở html, các claim an toàn của agent đang bị bỏ vào html, visual cũng chưa đạt, content chư đủ chi tiết vì người đọc không có value gì thêm khi ấn expand (bên trong gần như toàn lặp lại metric) >> Kêu sol fix các điểm này nhé, commit 1 đoạn đánh giá của Bảo để sau này có anchor build harness.
+
+Disposition: **REJECTED_BY_BAO; NOT_FROZEN.** Prior parent source/routing/layout checks remain bounded observations and do not override this rejection or establish public editorial value. No mass adapter rollout may inherit this candidate.
+
+Parent execution interpretation, distinct from the verbatim assessment: resume the same Sol/low LDP writer; build a measurable draft HTML harness that catches generic agent/safety prose in reader content, repeated ad metrics without added value, unsupported case detail and poor mobile editorial hierarchy. A revised expand destination must provide substantive sourced case context, project/problem detail and a meaningful next reading step beyond the carousel. Parent adopts exact factual additions in a new named release and independently checks the revised public prose and rendered visual. Bảo reviews the concrete revised candidate before any design or harness freeze. This is an explicitly requested demo revision; it does not authorize carousel C1, live deployment, broad Git changes or a new frozen standard by agent declaration.
