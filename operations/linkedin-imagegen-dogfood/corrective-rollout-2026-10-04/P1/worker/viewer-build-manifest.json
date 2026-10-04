@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "built_utc": "2026-10-04T01:55:04.229996+00:00",
+  "output_directory": "D:\\linkedin-awareness-harness-redesign\\operations\\linkedin-imagegen-dogfood\\corrective-rollout-2026-10-04\\P1\\public",
+  "files": {
+    "index.html": "f676f830a9aeb55519654b56f2cc8307609a26df48cc3ddf88ca143a4a5cd690",
+    "assets/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "assets/p1-a1.png": "f082128a5ec17d63de24c9a3ba5d0e273d1833175b5d93999ca2a8ef16b1f523",
+    "assets/p1-a2.png": "96c34526bcca56313979979d0b20bda596073383e140ba32516da2dea7d46e62",
+    "assets/p1-a3.png": "4eb39ce45a3d1db0041ccde57e68bbf8618124fb3bae2d03b6e7c990129b23c5",
+    "assets/p1-a4.png": "6c2fb97ab8277a29fa2a31381eca41fbfed5ab4d59ced8a5cee703fdeb710322",
+    "assets/p1-a5.png": "523ca6fc0ff2026c7189aa83029decbe0ee88a71b4f306b51decf5e62895e13a"
+  },
+  "input_hashes": {
+    "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/worker/reserve/a1/native/p1-a1-r2.png": "f082128a5ec17d63de24c9a3ba5d0e273d1833175b5d93999ca2a8ef16b1f523",
+    "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/worker/native/p1-a2.png": "96c34526bcca56313979979d0b20bda596073383e140ba32516da2dea7d46e62",
+    "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/worker/native/p1-a3.png": "4eb39ce45a3d1db0041ccde57e68bbf8618124fb3bae2d03b6e7c990129b23c5",
+    "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/worker/native/p1-a4.png": "6c2fb97ab8277a29fa2a31381eca41fbfed5ab4d59ced8a5cee703fdeb710322",
+    "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/worker/native/p1-a5-r3.png": "523ca6fc0ff2026c7189aa83029decbe0ee88a71b4f306b51decf5e62895e13a",
+    "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/common/p1-copy.json": "5c986bbc26d6fb3e3862c9cd18d73b257c041fd419652c795613d74040068fc8",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f"
+  },
+  "copy_projection": "public-copy.json exact common bytes",
+  "cards_per_feed": [
+    5
+  ],
+  "native_bytes_unchanged": true,
+  "official_logo_bytes_unchanged": true,
+  "rendered_verdict": "NOT_ASSESSED",
+  "navigation_verdict": "SOURCE_ONLY_PARENT_BROWSER_CHECK_REQUIRED",
+  "viewer_boundary": "Only HTML, five native PNG and logo in reader export; internal manifest stays repo-only",
+  "destinations_from_source_metadata": true
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "status": "PREPARED_ROOT_REVIEW_PENDING",
+  "contract": {
+    "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-Q/worker/corrections/contract.json",
+    "sha256": "9ac7b6c788666995ec3e7d1cc742e2a33ae5cf107765b11310b9c2a61e8f5081",
+    "revision": "continuous-o4-q-b5-no-source-heading-correction-contract-v1-parent-review-pending"
+  },
+  "calls_draft": {
+    "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-Q/worker/corrections/calls-draft.json",
+    "sha256": "07153866b62520539c27b2ba5608c1a9e0dacc2adbd925384c3555d4d1aa3527"
+  },
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-Q/common/o4-q-copy.json",
+    "sha256": "7cadf1c4408228f90fbc8d9e59699c88b3fd09468eecc41d264a43e1e7ceff82",
+    "revision": "all-scenarios-o4-q-copy-v1-parent-review-pending"
+  },
+  "targets": [
+    "O4-Q-B5"
+  ],
+  "single_correction": true,
+  "base_preserved": true,
+  "builder_selection": "--selected-b5 r2 after root selection"
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "status": "PREPARED_ROOT_REVIEW_PENDING",
+  "contract": {
+    "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/P1/worker/corrections/contract.json",
+    "sha256": "8ff79823e78e06df7e4bfd7e3b84dde51ac73ac54134da0a8c37c67c6d1a4937",
+    "revision": "continuous-p1-a5-unlabelled-scene-correction-contract-v1-parent-review-pending"
+  },
+  "calls_draft": {
+    "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/P1/worker/corrections/calls-draft.json",
+    "sha256": "a985a95009fea9b6b19f5dbf0cac4c43bad58829aea351f32c0061db79f9e5c9"
+  },
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/P1/common/p1-copy.json",
+    "sha256": "5c986bbc26d6fb3e3862c9cd18d73b257c041fd419652c795613d74040068fc8",
+    "revision": "all-scenarios-p1-copy-v1-parent-review-pending"
+  },
+  "targets": [
+    "P1-A5"
+  ],
+  "single_correction": true,
+  "base_preserved": true,
+  "builder_selection": "--selected-a5 r2 after root selection"
+}

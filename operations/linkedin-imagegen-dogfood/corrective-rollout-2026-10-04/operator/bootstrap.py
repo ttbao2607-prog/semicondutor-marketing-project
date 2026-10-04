@@ -1,0 +1,14 @@
+import pathlib,json,hashlib,subprocess
+R=pathlib.Path(__file__).resolve().parents[4];B=pathlib.Path(__file__).resolve().parent
+def h(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def save(n,v):(B/n).write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=R,text=True).strip();assert head=='6d0d192dabf698ad9834c7add69aed84ce1646f8'
+files=subprocess.check_output(['git','ls-files'],cwd=R,text=True).splitlines();save('protected-baseline.json',{p:h(R/p) for p in files})
+save('execution-contract.json',{'role':'Coordinator/finalAuditor','surface':'Current native Codex children, noWorkLocal','writer':'/root/rollout_writer','readonly_auditor':'/root/rollout_audit','audit_mode':'INDEPENDENT','audit_reason':'M AND A;second corrective cycle','baseline_commit':head,'model':'gpt-6.1-sol','effort':'low','authority':'Bao2026-10-04 explicitlyapproved checkpointthen8primarymax4reserve plan','allowed':'new corrective-run artifacts/common/worker/public/operator anddatedcurrentdocs/result/export;rootdispatch','protected':'all priorrun/historical/source/ref/gate/test bytes;8passingreaders;RMK;noGitmutation after initialcheckpoint;no live','AC':{'AC01':'P1/P2/O4-Q full5 exactapprovedcopy/nativeartwork','AC02':'allnewcall source/review/release/preflight/native/originalbyte chains;min1080','AC03':'all3 full5 desktop/mobile story/source333/nozoom/navigation','AC04':'oldprotectedbytes equal exceptdeclaredcurrentdateddocs','AC05':'exactSol6.1low admittedandacceptedbothleaf;nohumanwait','AC06':'8primary+max4reserve;maxoneextraattempt/card;retainFAILhistory;cleanpublicexports'},'execution':'RUNNING','terminal':'SUCCESSonlyall3PASS;otherwisePARTIAL/FAILwithspecificremainingfindings'})
+save('queue-ledger.json',{'status':'RUNNING','primary_ceiling':8,'reserve_ceiling':4,'reserve_used':0,'calls':[],'queue':[{'treatment':c,'status':'PENDING'} for c in ['P1','P2','O4-Q']]})
+(B/'authority.md').write_text('Bảo2026-10-04: Commit local checkpoint hiện tại r làm theo đề xuất. Approved8primary calls P1A5 plusA1-A4, P2A1/A4, O4QB4; max4reserve global one/card. No intermediatehumanapproval. Keepfrozenharness/copy/history,Sol6.1low leaves. Localcreativeonly, no push/merge/live.\n',encoding='utf-8')
+old=R/'operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/operator/bind_dispatch.py'
+s=old.read_text(encoding='utf-8-sig').replace("BASE='operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04'","BASE='operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04'")
+s=s.replace('Bao continuous localrollout mandate','Bao approved corrective localrollout mandate').replace('Bao-2026-10-04-continuous','Bao-2026-10-04-corrective')
+(B/'bind_dispatch.py').write_text(s,encoding='utf-8')
+print('Rootcontract+baseline'+str(len(files))+'pins+authority+dispatchhelper ready')

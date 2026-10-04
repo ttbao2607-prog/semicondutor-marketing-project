@@ -1,0 +1,666 @@
+[
+  {
+    "treatment": "F1",
+    "field": "caption",
+    "before": "Digiwin tư vấn ERP bán dẫn. Với nhóm Fabless (thiết kế vi mạch) theo dõi gia công ngoài tại OSAT (đóng gói, kiểm thử), đây là cách đối chiếu WIP (bán thành phẩm) theo từng lot.",
+    "after": "Digiwin tư vấn ERP. Nhóm Fabless (thiết kế chip, không sở hữu nhà máy chế tạo) đối chiếu WIP (bán thành phẩm) theo lô tại OSAT (dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài)."
+  },
+  {
+    "treatment": "F1",
+    "card": "F1-A1",
+    "field": "headline",
+    "before": "Nhận báo cáo từ đối tác: đã rõ từng lot?",
+    "after": "Nhận báo cáo từ đối tác: đã rõ từng lô?"
+  },
+  {
+    "treatment": "F1",
+    "card": "F1-A1",
+    "field": "body",
+    "before": "Nhóm vận hành Fabless nhận báo cáo định kỳ từ các đối tác gia công nhưng mất nhiều giờ gom số liệu để biết chính xác từng lô wafer và chip đang nằm ở đâu.",
+    "after": "Nhóm vận hành Fabless nhận báo cáo từ các đối tác gia công. Cần đối chiếu những thông tin nào để biết từng lô đang ở công đoạn nào?"
+  },
+  {
+    "treatment": "F1",
+    "card": "F1-A1",
+    "field": "native_headline",
+    "before": "Tiến độ lot: nhìn từ báo cáo rời?",
+    "after": "Tiến độ lô: nhìn từ báo cáo rời?"
+  },
+  {
+    "treatment": "F1",
+    "card": "F1-A2",
+    "field": "headline",
+    "before": "Góc nhìn theo sản phẩm và mã lô thực tế",
+    "after": "Đối chiếu sản phẩm và mã lô"
+  },
+  {
+    "treatment": "F1",
+    "card": "F1-A2",
+    "field": "body",
+    "before": "Thay vì đọc từng bảng tính riêng rẽ, nhóm chuẩn hóa thông tin theo mã sản phẩm, mã lô nội bộ, datecode và mã phân loại BIN của từng đợt giao gia công ngoài.",
+    "after": "Nhóm đối chiếu mã sản phẩm, mã lô và các mã thời gian sản xuất, phẩm cấp kiểm thử theo quy ước đã thống nhất với đối tác."
+  },
+  {
+    "treatment": "F1",
+    "card": "F1-A2",
+    "field": "native_headline",
+    "before": "Đối chiếu mã lot và datecode",
+    "after": "Đối chiếu sản phẩm và mã lô"
+  },
+  {
+    "treatment": "F1",
+    "card": "F1-A2",
+    "field": "alt",
+    "before": "Bảng dữ liệu chuẩn hóa thông tin lot bán dẫn theo mã sản phẩm, datecode và trạng thái công đoạn gia công.",
+    "after": "Bảng dữ liệu chuẩn hóa thông tin lô bán dẫn theo mã sản phẩm, mã thời gian sản xuất và trạng thái công đoạn gia công."
+  },
+  {
+    "treatment": "F1",
+    "card": "F1-A3",
+    "field": "body",
+    "before": "Mỗi lô được xác định rõ đang ở bước mài lát wafer, đóng gói hay kiểm thử hoàn tất, giúp nhóm phát hiện sớm các điểm nghẽn mà không cần đợi đối tác giục.",
+    "after": "Theo quy trình thực tế của sản phẩm, lô đang ở công đoạn nào? Trạng thái được ghi nhận khi nào và từ báo cáo nào?"
+  },
+  {
+    "treatment": "F1",
+    "card": "F1-A5",
+    "field": "body",
+    "before": "Chuẩn hóa tiến độ từng lot là bước đầu quản trị chuỗi gia công. Digiwin chia sẻ kinh nghiệm kết nối ERP và MES chuyên ngành bán dẫn từ tài liệu thực tiễn tại Đài Loan.",
+    "after": "Chuẩn hóa tiến độ từng lô là bước đầu quản trị chuỗi gia công."
+  },
+  {
+    "treatment": "F1",
+    "card": "F1-A5",
+    "field": "alt",
+    "before": "Mô hình tổng hợp quản trị tiến độ lot gia công bán dẫn; ghi chú tài liệu Digiwin Đài Loan về ERP và MES.",
+    "after": "Mô hình tổng hợp quản trị tiến độ lô gia công bán dẫn; ghi chú tài liệu Digiwin Đài Loan về ERP và MES."
+  },
+  {
+    "treatment": "F2",
+    "card": "F2-A5",
+    "field": "body",
+    "before": "Đối chiếu phạm vi, nguồn và người xác nhận là căn cứ trao đổi. Tài liệu bán dẫn Digiwin tại Đài Loan đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "after": "Đối chiếu phạm vi, nguồn và người xác nhận là căn cứ trao đổi."
+  },
+  {
+    "treatment": "O2",
+    "field": "caption",
+    "before": "Digiwin tư vấn giải pháp ERP cho doanh nghiệp sản xuất. Với nhóm vận hành OSAT, chúng tôi chia sẻ cách đối chiếu trạng thái lô khi nhiều bộ phận cùng xem.",
+    "after": "Digiwin tư vấn giải pháp ERP cho doanh nghiệp sản xuất. Với nhóm vận hành OSAT (dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài), chúng tôi chia sẻ cách đối chiếu trạng thái lô khi nhiều bộ phận cùng xem."
+  },
+  {
+    "treatment": "O2",
+    "card": "O2-A5",
+    "field": "body",
+    "before": "Đặt lô, công đoạn, thời điểm, nguồn và người xác nhận trong cùng cuộc trao đổi là một góc nhìn quản trị. Digiwin chia sẻ bối cảnh ERP và MES cho ngành bán dẫn từ tài liệu tại Đài Loan.",
+    "after": "Đặt lô, công đoạn, thời điểm, nguồn và người xác nhận trong cùng cuộc trao đổi là một góc nhìn quản trị."
+  },
+  {
+    "treatment": "O4-O",
+    "field": "caption",
+    "before": "Digiwin tư vấn giải pháp ERP cho doanh nghiệp sản xuất. Với nhóm vận hành OSAT, chúng tôi chia sẻ cách đối chiếu trạng thái lô khi nhiều bộ phận cùng xem.",
+    "after": "Digiwin tư vấn giải pháp ERP cho doanh nghiệp sản xuất. Với nhóm vận hành OSAT (dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài), chúng tôi chia sẻ cách đối chiếu trạng thái lô khi nhiều bộ phận cùng xem."
+  },
+  {
+    "treatment": "O4-O",
+    "card": "O4-O-B5",
+    "field": "body",
+    "before": "Đặt lô, công đoạn, thời điểm, nguồn và người xác nhận trong cùng cuộc trao đổi là một góc nhìn quản trị. Digiwin chia sẻ bối cảnh ERP và MES cho ngành bán dẫn từ tài liệu tại Đài Loan.",
+    "after": "Đặt lô, công đoạn, thời điểm, nguồn và người xác nhận trong cùng cuộc trao đổi là một góc nhìn quản trị."
+  },
+  {
+    "treatment": "O1",
+    "field": "caption",
+    "before": "Digiwin tư vấn giải pháp ERP cho doanh nghiệp sản xuất. Chúng tôi chia sẻ góc nhìn quản trị cho nhóm chất lượng OSAT khi rà soát kiểm thử bất thường.",
+    "after": "Digiwin tư vấn giải pháp ERP cho doanh nghiệp sản xuất. Chúng tôi chia sẻ góc nhìn quản trị cho nhóm chất lượng OSAT (dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài) khi rà soát kiểm thử bất thường."
+  },
+  {
+    "treatment": "O4-Q",
+    "field": "caption",
+    "before": "Digiwin tư vấn giải pháp ERP cho doanh nghiệp sản xuất. Chúng tôi chia sẻ góc nhìn quản trị cho nhóm chất lượng OSAT khi rà soát kiểm thử bất thường.",
+    "after": "Digiwin tư vấn giải pháp ERP cho doanh nghiệp sản xuất. Chúng tôi chia sẻ góc nhìn quản trị cho nhóm chất lượng OSAT (dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài) khi rà soát kiểm thử bất thường."
+  },
+  {
+    "treatment": "O3",
+    "field": "caption",
+    "before": "Digiwin tư vấn ERP (hệ thống quản trị nguồn lực) cho sản xuất. Với bộ phận tài chính nhà máy OSAT (đóng gói, kiểm thử bán dẫn), chúng tôi chia sẻ cách gắn số liệu xưởng vào kết sổ chi phí.",
+    "after": "Digiwin tư vấn ERP. Nhóm tài chính nhà máy OSAT (dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài): cần đối chiếu dữ liệu nào từ xưởng trước kỳ kết sổ chi phí?"
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A1",
+    "field": "body",
+    "before": "Khi kỳ tính giá thành đến gần, kế toán chi phí cần biết bán thành phẩm trên chuyền và hao hụt từng lô đang chốt ở công đoạn nào trước khi đóng sổ.",
+    "after": "Trước kỳ kết sổ chi phí, kế toán và xưởng cần đối chiếu những hồ sơ nào về bán thành phẩm, sản lượng hoàn thành và hao hụt theo lô?"
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A1",
+    "field": "alt",
+    "before": "Tình huống minh họa bộ phận tài chính và quản lý xưởng OSAT đối chiếu số liệu bán thành phẩm trước kỳ kết sổ chi phí.",
+    "after": "Minh họa trao đổi giữa kế toán và xưởng về nguồn hồ sơ, phạm vi kỳ và người xác nhận dữ liệu."
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A2",
+    "field": "body",
+    "before": "Kế toán và xưởng cùng rà soát các lô đang chạy trên chuyền: mỗi lô dừng tại bước gia công nào, số lượng wafer hay chip dở dang tại thời điểm cắt kỳ là bao nhiêu.",
+    "after": "Tại thời điểm cắt kỳ, mỗi lô đang ở công đoạn nào? Số lượng dở dang được ghi nhận từ hồ sơ nào và ai xác nhận?"
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A2",
+    "field": "alt",
+    "before": "Bảng minh họa đối chiếu số lượng dở dang theo từng mã lô và bước gia công trên chuyền sản xuất.",
+    "after": "Minh họa trao đổi giữa kế toán và xưởng về nguồn hồ sơ, phạm vi kỳ và người xác nhận dữ liệu."
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A3",
+    "field": "body",
+    "before": "Chi phí chỉ sát thực tế khi sản lượng hoàn thành, phế phẩm và hao hụt công đoạn được đối chiếu từ đúng hồ sơ sản xuất, thay vì ước lượng trung bình.",
+    "after": "Sản lượng hoàn thành, phế phẩm và hao hụt được ghi nhận từ hồ sơ nào? Các bộ phận cần đối chiếu phạm vi và thời điểm trước khi trao đổi dữ liệu chi phí."
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A3",
+    "field": "alt",
+    "before": "Minh họa đối chiếu sản lượng hoàn thành và tỷ lệ hao hụt thực tế từ hồ sơ sản xuất của xưởng.",
+    "after": "Minh họa trao đổi giữa kế toán và xưởng về nguồn hồ sơ, phạm vi kỳ và người xác nhận dữ liệu."
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A4",
+    "field": "body",
+    "before": "Nhóm thống nhất thời điểm chốt dữ liệu, người kiểm tra hồ sơ xưởng và người xác nhận số liệu dở dang. Kế toán có căn cứ rõ ràng trước khi chạy kỳ giá thành.",
+    "after": "Ai đối chiếu hồ sơ xưởng, ai xác nhận số liệu và thời điểm bàn giao là khi nào? Cần làm rõ trách nhiệm theo quy trình thực tế."
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A4",
+    "field": "alt",
+    "before": "Quy trình minh họa xác định người kiểm tra hồ sơ xưởng và người ký xác nhận số liệu chốt kỳ chi phí.",
+    "after": "Minh họa trao đổi giữa kế toán và xưởng về nguồn hồ sơ, phạm vi kỳ và người xác nhận dữ liệu."
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A5",
+    "field": "headline",
+    "before": "Từ số liệu xưởng đến quyết định giá thành.",
+    "after": "Dữ liệu xưởng: căn cứ nào cho trao đổi chi phí?"
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A5",
+    "field": "body",
+    "before": "Gắn số liệu dở dang và hao hụt thực tế vào kỳ giá thành là góc nhìn quản trị. Digiwin chia sẻ kinh nghiệm kết nối ERP và MES (hệ thống điều hành sản xuất) từ tài liệu Đài Loan.",
+    "after": "Dữ liệu dở dang và hao hụt cần được đối chiếu trong phạm vi kỳ đang xem xét. Đây là câu hỏi quản trị cho trao đổi giữa kế toán và xưởng."
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A5",
+    "field": "native_headline",
+    "before": "Digiwin: kết nối chi phí và xưởng",
+    "after": "Đối chiếu dữ liệu xưởng và chi phí"
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A5",
+    "field": "alt",
+    "before": "Tổng hợp mối nối quản trị giữa số liệu xưởng và kết sổ chi phí; ghi chú tài liệu bán dẫn Digiwin tại Đài Loan về ERP và MES.",
+    "after": "Minh họa trao đổi giữa kế toán và xưởng về nguồn hồ sơ, phạm vi kỳ và người xác nhận dữ liệu."
+  },
+  {
+    "treatment": "O1",
+    "card": "O1-A1",
+    "field": "headline",
+    "before": "Nhóm chất lượng OSAT: khi kiểm thử bất thường.",
+    "after": "Chất lượng OSAT: khi kiểm thử bất thường."
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A5",
+    "field": "headline",
+    "before": "Dữ liệu xưởng: căn cứ nào cho trao đổi chi phí?",
+    "after": "Dữ liệu xưởng: căn cứ cho trao đổi chi phí?"
+  },
+  {
+    "treatment": "O4-Q",
+    "card": "O4-Q-B1",
+    "field": "headline",
+    "before": "Nhóm chất lượng OSAT: khi kiểm thử bất thường.",
+    "after": "Chất lượng OSAT: khi kiểm thử bất thường."
+  },
+  {
+    "treatment": "F1",
+    "card": "F1-A1",
+    "field": "alt",
+    "before": "Minh họa nhóm quản lý vận hành Fabless tổng hợp báo cáo tiến độ gia công chip từ nhiều đối tác.",
+    "after": "Minh họa câu hỏi quản trị: Nhận báo cáo từ đối tác: đã rõ từng lô.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "F1",
+    "card": "F1-A2",
+    "field": "alt",
+    "before": "Bảng dữ liệu chuẩn hóa thông tin lô bán dẫn theo mã sản phẩm, mã thời gian sản xuất và trạng thái công đoạn gia công.",
+    "after": "Minh họa câu hỏi quản trị: Đối chiếu sản phẩm và mã lô.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "F1",
+    "card": "F1-A3",
+    "field": "alt",
+    "before": "Minh họa theo dõi trạng thái công đoạn gia công bán dẫn từ mài wafer đến đóng gói và kiểm thử.",
+    "after": "Minh họa câu hỏi quản trị: Công đoạn dở dang dừng tại vị trí nào.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "F1",
+    "card": "F1-A4",
+    "field": "alt",
+    "before": "Biên bản thống nhất phương thức cập nhật tiến độ gia công và người chịu trách nhiệm xác nhận số liệu.",
+    "after": "Minh họa câu hỏi quản trị: Một bảng số liệu chung giữa hai bên.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "F1",
+    "card": "F1-A5",
+    "field": "alt",
+    "before": "Mô hình tổng hợp quản trị tiến độ lô gia công bán dẫn; ghi chú tài liệu Digiwin Đài Loan về ERP và MES.",
+    "after": "Minh họa câu hỏi quản trị: Từ báo cáo rời đến góc nhìn xuyên suốt.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "F1",
+    "card": "F1-A5",
+    "field": "source_text",
+    "before": "Tài liệu giải pháp bán dẫn do Digiwin tại Đài Loan công bố đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "after": "Tài liệu giải pháp bán dẫn Digiwin Đài Loan: ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "reason": "Parent-approved compact closing source wording."
+  },
+  {
+    "treatment": "F2",
+    "card": "F2-A1",
+    "field": "alt",
+    "before": "Forecast đổi, lô nào cần xem trước? Khay chip đen đặt cạnh phiếu kế hoạch trên bàn trắng sáng.",
+    "after": "Minh họa câu hỏi quản trị: Forecast đổi, lô nào cần xem trước.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "F2",
+    "card": "F2-A2",
+    "field": "alt",
+    "before": "Bắt đầu từ sản phẩm và kỳ kế hoạch. Phiếu sản phẩm và lịch kế hoạch đặt cạnh khay chip trên bàn sáng.",
+    "after": "Minh họa câu hỏi quản trị: Bắt đầu từ sản phẩm và kỳ kế hoạch.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "F2",
+    "card": "F2-A3",
+    "field": "alt",
+    "before": "Trạng thái này được ghi nhận khi nào? Tờ ghi thời điểm và nguồn báo cáo đặt cạnh khay chip.",
+    "after": "Minh họa câu hỏi quản trị: Trạng thái này được ghi nhận khi nào.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "F2",
+    "card": "F2-A4",
+    "field": "alt",
+    "before": "Còn thiếu gì để trao đổi kế hoạch? Phiếu ghi chú và bút đặt cạnh khay chip trên bàn làm việc sáng.",
+    "after": "Minh họa câu hỏi quản trị: Còn thiếu gì để trao đổi kế hoạch.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "F2",
+    "card": "F2-A5",
+    "field": "alt",
+    "before": "Năm thư mục xanh xám nối thành hàng trên nền sáng; khung dưới có hình Taipei 101 và nội dung về tài liệu bán dẫn Digiwin tại Đài Loan.",
+    "after": "Minh họa câu hỏi quản trị: Từ dữ liệu lô đến căn cứ phối hợp.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "F2",
+    "card": "F2-A5",
+    "field": "source_text",
+    "before": "Tài liệu giải pháp bán dẫn do Digiwin tại Đài Loan công bố đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "after": "Tài liệu giải pháp bán dẫn Digiwin Đài Loan: ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "reason": "Parent-approved compact closing source wording."
+  },
+  {
+    "treatment": "O1",
+    "card": "O1-A1",
+    "field": "alt",
+    "before": "Nhóm chất lượng OSAT cùng rà soát hồ sơ liên quan đến lô và thời điểm kiểm thử khi kết quả bất thường; bàn review đặt cạnh tray bán dẫn và các hồ sơ trung tính.",
+    "after": "Minh họa câu hỏi quản trị: Chất lượng OSAT: khi kiểm thử bất thường.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O1",
+    "card": "O1-A2",
+    "field": "alt",
+    "before": "Mã lô nối với công đoạn và thời điểm kiểm thử; nhánh thể hiện quan hệ hồ sơ khi tách hoặc gộp.",
+    "after": "Minh họa câu hỏi quản trị: Trước hết, xác định đúng lô.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O1",
+    "card": "O1-A3",
+    "field": "alt",
+    "before": "Hồ sơ kiểm thử đặt cạnh năm nhóm ngữ cảnh: người, máy, vật tư, phương pháp và môi trường.",
+    "after": "Minh họa câu hỏi quản trị: Đúng hồ sơ, còn cần đúng ngữ cảnh.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O1",
+    "card": "O1-A4",
+    "field": "alt",
+    "before": "Nguồn hồ sơ, phần còn thiếu và người kiểm tra tiếp được nối với bước review tiếp theo.",
+    "after": "Minh họa câu hỏi quản trị: Rà soát cần rõ người và bước tiếp.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O1",
+    "card": "O1-A5",
+    "field": "alt",
+    "before": "Hồ sơ, ngữ cảnh và người phụ trách nối với góc nhìn quản trị; nguồn Digiwin tại Đài Loan nêu ERP và MES trong bối cảnh bán dẫn.",
+    "after": "Minh họa câu hỏi quản trị: Từ rà soát đến quản trị thông tin.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O1",
+    "card": "O1-A5",
+    "field": "source_text",
+    "before": "Tài liệu giải pháp bán dẫn do Digiwin tại Đài Loan công bố đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "after": "Tài liệu giải pháp bán dẫn Digiwin Đài Loan: ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "reason": "Parent-approved compact closing source wording."
+  },
+  {
+    "treatment": "O2",
+    "card": "O2-A1",
+    "field": "alt",
+    "before": "nhóm vận hành OSAT đối chiếu trạng thái cùng một lô theo công đoạn và thời điểm.",
+    "after": "Minh họa câu hỏi quản trị: Nhóm vận hành OSAT: cùng lô, khác trạng thái.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O2",
+    "card": "O2-A2",
+    "field": "alt",
+    "before": "Hai báo cáo được đối chiếu theo mã lô, công đoạn và thời điểm ghi nhận.",
+    "after": "Minh họa câu hỏi quản trị: Trước hết, đặt báo cáo cùng phạm vi.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O2",
+    "card": "O2-A3",
+    "field": "alt",
+    "before": "Nguồn ghi nhận và thông tin đi cùng lô được đối chiếu tại bước bàn giao.",
+    "after": "Minh họa câu hỏi quản trị: Trạng thái này đến từ hồ sơ nào.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O2",
+    "card": "O2-A4",
+    "field": "alt",
+    "before": "Thông tin còn thiếu, người đối chiếu và người xác nhận bước tiếp trong tình huống.",
+    "after": "Minh họa câu hỏi quản trị: Ai xác nhận phần còn thiếu.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O2",
+    "card": "O2-A5",
+    "field": "alt",
+    "before": "Tổng hợp căn cứ phối hợp trạng thái lô; khối nguồn nêu tài liệu bán dẫn Digiwin tại Đài Loan nói về ERP và MES.",
+    "after": "Minh họa câu hỏi quản trị: Từ trạng thái lô đến căn cứ phối hợp.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O2",
+    "card": "O2-A5",
+    "field": "source_text",
+    "before": "Tài liệu giải pháp bán dẫn do Digiwin tại Đài Loan công bố đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "after": "Tài liệu giải pháp bán dẫn Digiwin Đài Loan: ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "reason": "Parent-approved compact closing source wording."
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A1",
+    "field": "alt",
+    "before": "Minh họa trao đổi giữa kế toán và xưởng về nguồn hồ sơ, phạm vi kỳ và người xác nhận dữ liệu.",
+    "after": "Minh họa câu hỏi quản trị: Kỳ kết sổ chi phí: chờ số liệu nào từ xưởng.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A2",
+    "field": "alt",
+    "before": "Minh họa trao đổi giữa kế toán và xưởng về nguồn hồ sơ, phạm vi kỳ và người xác nhận dữ liệu.",
+    "after": "Minh họa câu hỏi quản trị: Xác định bán thành phẩm dở dang theo lô.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A3",
+    "field": "alt",
+    "before": "Minh họa trao đổi giữa kế toán và xưởng về nguồn hồ sơ, phạm vi kỳ và người xác nhận dữ liệu.",
+    "after": "Minh họa câu hỏi quản trị: Nguồn dữ liệu hao hụt đến từ hồ sơ nào.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A4",
+    "field": "alt",
+    "before": "Minh họa trao đổi giữa kế toán và xưởng về nguồn hồ sơ, phạm vi kỳ và người xác nhận dữ liệu.",
+    "after": "Minh họa câu hỏi quản trị: Ai xác nhận số liệu trước giờ chốt.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A5",
+    "field": "alt",
+    "before": "Minh họa trao đổi giữa kế toán và xưởng về nguồn hồ sơ, phạm vi kỳ và người xác nhận dữ liệu.",
+    "after": "Minh họa câu hỏi quản trị: Dữ liệu xưởng: căn cứ cho trao đổi chi phí.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O3",
+    "card": "O3-A5",
+    "field": "source_text",
+    "before": "Tài liệu giải pháp bán dẫn do Digiwin tại Đài Loan công bố đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "after": "Tài liệu giải pháp bán dẫn Digiwin Đài Loan: ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "reason": "Parent-approved compact closing source wording."
+  },
+  {
+    "treatment": "O4-O",
+    "card": "O4-O-B1",
+    "field": "alt",
+    "before": "nhóm vận hành OSAT đối chiếu trạng thái cùng một lô theo công đoạn và thời điểm.",
+    "after": "Minh họa câu hỏi quản trị: Nhóm vận hành OSAT: cùng lô, khác trạng thái.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O4-O",
+    "card": "O4-O-B2",
+    "field": "alt",
+    "before": "Câu hỏi thứ nhất đối chiếu mã lô, công đoạn và thời điểm của hai báo cáo.",
+    "after": "Minh họa câu hỏi quản trị: 1. Có đang đối chiếu cùng phạm vi.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O4-O",
+    "card": "O4-O-B3",
+    "field": "alt",
+    "before": "Câu hỏi thứ hai đặt nguồn ghi nhận cạnh công đoạn, thời điểm và thông tin bàn giao lô.",
+    "after": "Minh họa câu hỏi quản trị: 2. Nguồn nào dùng cho bước này.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O4-O",
+    "card": "O4-O-B4",
+    "field": "alt",
+    "before": "Câu hỏi thứ ba về thông tin còn thiếu, người đối chiếu và người xác nhận bước tiếp.",
+    "after": "Minh họa câu hỏi quản trị: 3. Ai xác nhận phần còn thiếu.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O4-O",
+    "card": "O4-O-B5",
+    "field": "alt",
+    "before": "Tổng hợp căn cứ phối hợp trạng thái lô; khối nguồn nêu tài liệu bán dẫn Digiwin tại Đài Loan nói về ERP và MES.",
+    "after": "Minh họa câu hỏi quản trị: Từ trạng thái lô đến căn cứ phối hợp.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O4-O",
+    "card": "O4-O-B5",
+    "field": "source_text",
+    "before": "Tài liệu giải pháp bán dẫn do Digiwin tại Đài Loan công bố đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "after": "Tài liệu giải pháp bán dẫn Digiwin Đài Loan: ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "reason": "Parent-approved compact closing source wording."
+  },
+  {
+    "treatment": "O4-Q",
+    "card": "O4-Q-B1",
+    "field": "alt",
+    "before": "Nhóm chất lượng OSAT cùng rà soát hồ sơ liên quan đến lô và thời điểm kiểm thử khi kết quả bất thường; bàn review đặt cạnh tray bán dẫn và các hồ sơ trung tính.",
+    "after": "Minh họa câu hỏi quản trị: Chất lượng OSAT: khi kiểm thử bất thường.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O4-Q",
+    "card": "O4-Q-B2",
+    "field": "alt",
+    "before": "Câu hỏi thứ nhất về mã lô, công đoạn, thời điểm kiểm thử và quan hệ hồ sơ khi tách hoặc gộp.",
+    "after": "Minh họa câu hỏi quản trị: 1. Đang xem đúng lô nào.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O4-Q",
+    "card": "O4-Q-B3",
+    "field": "alt",
+    "before": "Hồ sơ kiểm thử đặt giữa năm nhóm ngữ cảnh và câu hỏi về thông tin cần đối chiếu thêm.",
+    "after": "Minh họa câu hỏi quản trị: 2. Ngữ cảnh nào còn cần kiểm tra.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O4-Q",
+    "card": "O4-Q-B4",
+    "field": "alt",
+    "before": "Nguồn hồ sơ, người đối chiếu và thông tin còn thiếu được đặt cạnh bước kiểm tra tiếp.",
+    "after": "Minh họa câu hỏi quản trị: 3. Ai kiểm tra phần còn thiếu.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O4-Q",
+    "card": "O4-Q-B5",
+    "field": "alt",
+    "before": "Hồ sơ, ngữ cảnh và người phụ trách nối với góc nhìn quản trị; nguồn Digiwin tại Đài Loan nêu ERP và MES trong bối cảnh bán dẫn.",
+    "after": "Minh họa câu hỏi quản trị: Từ rà soát đến quản trị thông tin.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "O4-Q",
+    "card": "O4-Q-B5",
+    "field": "source_text",
+    "before": "Tài liệu giải pháp bán dẫn do Digiwin tại Đài Loan công bố đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "after": "Tài liệu giải pháp bán dẫn Digiwin Đài Loan: ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "reason": "Parent-approved compact closing source wording."
+  },
+  {
+    "treatment": "P1",
+    "card": "P1-A1",
+    "field": "alt",
+    "before": "Khay chip cạnh hai tờ giấy trắng kẻ ô trên mặt bàn sáng.",
+    "after": "Minh họa câu hỏi quản trị: Dữ liệu qua rồi: ai xác nhận tiếp.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "P1",
+    "card": "P1-A2",
+    "field": "alt",
+    "before": "Khay chip cạnh giấy trắng kẻ ô trên mặt bàn sáng.",
+    "after": "Minh họa câu hỏi quản trị: Bắt đầu từ nguồn và mục đích nhận.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "P1",
+    "card": "P1-A3",
+    "field": "alt",
+    "before": "Khay chip cạnh giấy trắng kẻ ô trên mặt bàn sáng.",
+    "after": "Minh họa câu hỏi quản trị: Có người nhận, cần người đối chiếu.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "P1",
+    "card": "P1-A4",
+    "field": "alt",
+    "before": "Khay chip cạnh giấy trắng kẻ ô trên mặt bàn sáng.",
+    "after": "Minh họa câu hỏi quản trị: Xác nhận xong mới chuyển bước.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "P1",
+    "card": "P1-A5",
+    "field": "alt",
+    "before": "Năm bìa hồ sơ xanh và xám nối thành chuỗi trên khay chip, cạnh hình Taipei 101.",
+    "after": "Minh họa câu hỏi quản trị: Kết nối cần ranh giới trách nhiệm.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "P1",
+    "card": "P1-A5",
+    "field": "source_text",
+    "before": "Tài liệu giải pháp bán dẫn do Digiwin tại Đài Loan công bố đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "after": "Tài liệu giải pháp bán dẫn Digiwin Đài Loan: ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "reason": "Parent-approved compact closing source wording."
+  },
+  {
+    "treatment": "P2",
+    "card": "P2-A1",
+    "field": "alt",
+    "before": "Khay chip cạnh hai tờ giấy trắng kẻ ô trên mặt bàn sáng.",
+    "after": "Minh họa câu hỏi quản trị: Trước khi nối: rõ ranh giới chưa.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "P2",
+    "card": "P2-A2",
+    "field": "alt",
+    "before": "Khay chip cạnh giấy trắng kẻ ô trên mặt bàn sáng.",
+    "after": "Minh họa câu hỏi quản trị: Một thông tin: hệ thống nào sở hữu.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "P2",
+    "card": "P2-A3",
+    "field": "alt",
+    "before": "Khay chip cạnh giấy trắng kẻ ô trên mặt bàn sáng.",
+    "after": "Minh họa câu hỏi quản trị: Sai khác được đối chiếu ở đâu.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "P2",
+    "card": "P2-A4",
+    "field": "alt",
+    "before": "Khay chip cạnh giấy trắng kẻ ô trên mặt bàn sáng.",
+    "after": "Minh họa câu hỏi quản trị: Ranh giới rõ trước khi triển khai.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "P2",
+    "card": "P2-A5",
+    "field": "alt",
+    "before": "Năm bìa hồ sơ xanh và xám nối thành chuỗi phía trên khay chip; khung cuối có hình Taipei 101.",
+    "after": "Minh họa câu hỏi quản trị: Thiết kế luồng từ trách nhiệm.",
+    "reason": "Meaning-only intended description; actual native-image alt requires later review."
+  },
+  {
+    "treatment": "P2",
+    "card": "P2-A5",
+    "field": "source_text",
+    "before": "Tài liệu giải pháp bán dẫn do Digiwin tại Đài Loan công bố đặt ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "after": "Tài liệu giải pháp bán dẫn Digiwin Đài Loan: ERP và MES trong bối cảnh quản trị và sản xuất.",
+    "reason": "Parent-approved compact closing source wording."
+  }
+]

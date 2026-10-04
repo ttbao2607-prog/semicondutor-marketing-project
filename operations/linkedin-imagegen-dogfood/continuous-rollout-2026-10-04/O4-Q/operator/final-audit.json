@@ -1,0 +1,22 @@
+{
+  "status": "CHANGES_REQUIRED",
+  "audit_verdict": "FAIL",
+  "base_calls": 5,
+  "correction_calls": 1,
+  "selected": 0,
+  "failed_or_open_criteria": [
+    "O4_Q_B4 adds standalone questionmark in scene outsideapprovedartwork"
+  ],
+  "closing": "Solecorrection removes unapprovedsourceheading; exacttext/hierarchy333pxPASS",
+  "correction_sha256": "6f6fa40a1263a591e5c2308dda45f98b3b6c3fb0ded9b1c4e06414c0e9e6a13b",
+  "evidence": "Root observed all6generatednatives currenttask",
+  "campaign_native_sha256": {
+    "o4-q-b1.png": "3301df9e54af6072c3490a79cfda48f3e80b1afa4fbf2a6dc43fe719846952a7",
+    "o4-q-b2.png": "31c4a1412aac419ae636d675e22d25629a12d756bc9bddac6db2c30f527e8034",
+    "o4-q-b3.png": "54af1e7ee4e9fae2333a64b6974756afc570eebf3828161573bbf05408f4ac01",
+    "o4-q-b4.png": "43cd2a619942bb5d1603c7660339e4ef3ee9c424eb217ef5245eee52de624377",
+    "o4-q-b5.png": "a2f5765485b1b63e44720a9ff7f5c88d96a547a5bc2ccbd46f6f9ff994b79c72"
+  },
+  "public_reader": "NOT_RELEASED_FAILEDARTWORK",
+  "human_wait": false
+}

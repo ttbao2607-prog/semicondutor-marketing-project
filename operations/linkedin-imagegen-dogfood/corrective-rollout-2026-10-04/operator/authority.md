@@ -1,0 +1,1 @@
+Bảo2026-10-04: Commit local checkpoint hiện tại r làm theo đề xuất. Approved8primary calls P1A5 plusA1-A4, P2A1/A4, O4QB4; max4reserve global one/card. No intermediatehumanapproval. Keepfrozenharness/copy/history,Sol6.1low leaves. Localcreativeonly, no push/merge/live.

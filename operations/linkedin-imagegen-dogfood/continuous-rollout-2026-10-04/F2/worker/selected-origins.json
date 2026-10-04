@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "status": "CANDIDATE_REUSE_ROOT_ACCEPTANCE_PENDING",
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F2/common/f2-copy.json",
+    "sha256": "45b83f7a59323a2c00a0016f6f06472395b7f4a7a079ab5ec15c55c718a2b919",
+    "revision": "all-scenarios-f2-copy-v1-parent-review-pending",
+    "origin": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/common/f2-copy.json"
+  },
+  "cards": {
+    "F2-A1": {
+      "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/sol/f2/native/f2-a1.png",
+      "sha256": "3ef8e1af06ac0b7c2e96bb721080da8e9eaf519126e8ebc08ac3f2159b282886"
+    },
+    "F2-A2": {
+      "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/sol/f2/corrections/native/f2-a2-r2.png",
+      "sha256": "844131d6c35668150034ce92e89881f822f9b74d1698f4dc732f24c869d85573"
+    },
+    "F2-A3": {
+      "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/sol/f2/native/f2-a3.png",
+      "sha256": "2376281e801ea63e19cd403e6aaad67933d4448b3f97103025861f3be2528d51"
+    },
+    "F2-A4": {
+      "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/sol/f2/native/f2-a4.png",
+      "sha256": "0bd61f0755331b09c4267774b9f40982f6a42ac7ed11b330b149ffeb27c3ec1f"
+    },
+    "F2-A5": {
+      "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/sol/f2/native/f2-a5.png",
+      "sha256": "b5b359618d4ea610d01aed5df66977063f05f66fb7861a5d492c0893f3bd50f7"
+    }
+  },
+  "logo": {
+    "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+    "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f"
+  },
+  "destination": "https://solutions.digiwin.com.vn/fabless?lang=vi"
+}

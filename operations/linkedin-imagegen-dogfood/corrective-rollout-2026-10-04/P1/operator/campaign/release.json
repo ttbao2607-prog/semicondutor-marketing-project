@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "revision": "P1-campaign-root-release-v1",
+  "authorizer": "/root under Bao approved corrective localrollout mandate",
+  "authority_ref": {
+    "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/operator/authority.md",
+    "sha256": "41375f09b4d07763b4d90c2fd92071acf3dbc040b441d9a6f89c05c4650173f9",
+    "revision": "Bao-2026-10-04-corrective"
+  },
+  "purpose": "OFFLINE_IMAGEGEN",
+  "contract": {
+    "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/worker/campaign/contract.json",
+    "sha256": "475f66886363f0e29afdc3bf0532b24c5e90d06039e7f7f93d9f8d2f3012ceac",
+    "revision": "corrective-p1-campaign-contract-v1-parent-review-pending"
+  },
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/common/p1-copy.json",
+    "sha256": "5c986bbc26d6fb3e3862c9cd18d73b257c041fd419652c795613d74040068fc8",
+    "revision": "all-scenarios-p1-copy-v1-parent-review-pending"
+  },
+  "review": {
+    "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/operator/campaign/review.json",
+    "sha256": "2a273a5c1ff3af007d6ce6953448897f5d49bf4bd18533dc850ffecec844f168",
+    "revision": "P1-campaign-root-review-v1"
+  },
+  "groups": [
+    [
+      "P1-A1"
+    ],
+    [
+      "P1-A2"
+    ],
+    [
+      "P1-A3"
+    ],
+    [
+      "P1-A4"
+    ]
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "AUDIT_SCOPE": "Root independent final local creative acceptance: P1/P2/O4-Q corrections and combined 11 readers; no live campaign acceptance",
+  "CONTRACT_REF": "operator/execution-contract.json",
+  "BASELINE_REF": "6d0d192dabf698ad9834c7add69aed84ce1646f8; operator/protected-baseline.json",
+  "CANDIDATE_REF": "operator/final-mechanical-check.json; ZIP SHA256 08d113bb2dd4218bd556b3ecf532e6fc01e08733ff3786ec327b5d9d703b495f",
+  "VERDICT": "PASS",
+  "COVERAGE": [
+    "AC01: PASS — OBSERVED — P1,P2,O4-Q/operator/final-audit.json; exact selected originals and frozen copy",
+    "AC02: PASS — OBSERVED — operator/native-provenance.json; 10 actual originals/input chains,1254x1254",
+    "AC03: PASS — OBSERVED — three root reader receipts;30 new desktop/mobile positions/story/source333/navigation;80 prior positions bound to unchanged eight readers",
+    "AC04: PASS — OBSERVED — operator/final-mechanical-check.json;1929 protected files equal,11 authorized dated docs;old historical status retained",
+    "AC05: PASS — OBSERVED — paired child acceptance receipts ea12df8e-7e42-4178-a8ae-63a7c951d6f8 and a1cd363b-3eba-4abd-a2f6-4621baf9f9f7;Sol6.1/low,current-machine native children,no human pause",
+    "AC06: PASS — OBSERVED — operator/queue-ledger.json and final-mechanical-check.json;8 primary+2 reserve,one additional attempt/card,FAIL history retained,78-file portable export"
+  ],
+  "FINDINGS": {
+    "RESTORE_CONDITION": "None",
+    "EVIDENCE": "Root native visual and reader receipts; current-run independent readonly audit reconciled with root mechanical check",
+    "REQUIRED_RECHECK": "None for accepted candidate",
+    "EVIDENCE_GAP": [],
+    "EXPECTED": "All six mandatory criteria",
+    "OBSERVED": "All criteria satisfied; P1 punctuation and P2 carton marks resolved by bounded reserve generations",
+    "FAILED_AC": []
+  },
+  "execution": "SUCCESS",
+  "parent_disposition": "ACCEPT",
+  "freshness": "2026-10-04 final candidate; checkpoint remains 6d0d192; repaired artifacts uncommitted",
+  "limits": "Local creative audit only; no live/account/spend/push; old FAIL images remain historical",
+  "export_preview": "OBSERVED index desktop/mobile and relative P2 reader link on loopback port8766 PASS"
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "status": "PREPARED_ROOT_REVIEW_PENDING",
+  "checkpoint": "6d0d192dabf698ad9834c7add69aed84ce1646f8",
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/common/p1-copy.json",
+    "sha256": "5c986bbc26d6fb3e3862c9cd18d73b257c041fd419652c795613d74040068fc8",
+    "revision": "all-scenarios-p1-copy-v1-parent-review-pending"
+  },
+  "sources": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/common/source-attachments/00-copy-vi.json",
+      "sha256": "e8b5ad18c66cec21c072bb7bdd08d8371063205e9af1bda6450a8f51beaad1f0",
+      "revision": "preserved-continuous-source-bytes-6d0d192"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/common/source-attachments/01-evidence-register.md",
+      "sha256": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+      "revision": "preserved-continuous-source-bytes-6d0d192"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/common/source-attachments/02-review.md",
+      "sha256": "4d47778d085f57d981c3cb0dea92ba562345a127174411beac603e90ad0df7a0",
+      "revision": "preserved-continuous-source-bytes-6d0d192"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/common/source-attachments/03-detail-map.json",
+      "sha256": "2adf75fef21ca61c5d2cd869ec1e63e1e1fb0a21b1fcf78315b097cdd262f403",
+      "revision": "preserved-continuous-source-bytes-6d0d192"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/common/source-attachments/04-delta-log.json",
+      "sha256": "1afd66da0bf3f62be5ce30fab49d3865753fbfc4018bf61d24d3c1441db9aa32",
+      "revision": "preserved-continuous-source-bytes-6d0d192"
+    }
+  ],
+  "contracts": {
+    "closing": {
+      "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/worker/closing/contract.json",
+      "sha256": "fa1be48e03e72a0cc0bef3dbce517bf823c3ce337bcdff53509d32835e16c4a5",
+      "revision": "corrective-p1-closing-contract-v1-parent-review-pending"
+    },
+    "campaign": {
+      "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/worker/campaign/contract.json",
+      "sha256": "475f66886363f0e29afdc3bf0532b24c5e90d06039e7f7f93d9f8d2f3012ceac",
+      "revision": "corrective-p1-campaign-contract-v1-parent-review-pending"
+    }
+  },
+  "calls_drafts": {
+    "closing": {
+      "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/worker/closing/calls-draft.json",
+      "sha256": "b0beeb990fa00db365b86c708cdd249677ffe41babb539e2b7eae47bc9c97346",
+      "calls": [
+        "P1_A5_R3"
+      ]
+    },
+    "campaign": {
+      "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/worker/campaign/calls-draft.json",
+      "sha256": "5a8ace50377431b9dd150354a9d1573581b3b9b6573c970e89e56b01593d1ec2",
+      "calls": [
+        "P1_A1",
+        "P1_A2",
+        "P1_A3",
+        "P1_A4"
+      ]
+    }
+  },
+  "primary_calls": [
+    "P1_A5_R3",
+    "P1_A1",
+    "P1_A2",
+    "P1_A3",
+    "P1_A4"
+  ],
+  "global_primary_ceiling": 8,
+  "global_reserve_ceiling": 4,
+  "reserve_policy": "root release only, maximum one per failed card; primary drafts do not release reserve",
+  "frozen_gate_unchanged": true,
+  "builder": {
+    "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/worker/build_preview.py",
+    "sha256": "08293cc00fb19c3c38854356b828c09c73ae7a3179e1971369ebba6788341b2c",
+    "selection_manifest": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/worker/selected-origins.json",
+    "execution": "WAIT_ROOT_SELECTED_HASH_PINS_AND_BUILD_RELEASE"
+  },
+  "campaign_concept_revision": "distinct-card-meaning-v2"
+}

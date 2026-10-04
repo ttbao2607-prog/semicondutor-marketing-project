@@ -1,0 +1,16 @@
+{
+  "status": "HOLD_AFTER_BOUNDED_CORRECTION",
+  "audit_verdict": "FAIL",
+  "base_calls": 1,
+  "correction_calls": 1,
+  "selected": 0,
+  "failed_or_open_criteria": [
+    "Exactartwork: base adds ERP/MES scene labels; solecorrection adds unapproved heading and tick"
+  ],
+  "base_sha256": "4c21fed1d3b674e9fae76c245ebe885d87b269d86bfec4a83a7106b023561ae3",
+  "correction_sha256": "2f0a1f7ee02bf323b36a9d247a88f13453bd53117bf56a2874dbdd4bcea77fe7",
+  "evidence": "Root observed generated native images in current task; correction2f0a contains heading GocnhinnganhtaiDaiLoan and tick icon forbidden in prompt",
+  "campaign_calls": 0,
+  "remaining_campaign": "SKIPPED_CLOSING_GATE_FAILED",
+  "human_wait": false
+}

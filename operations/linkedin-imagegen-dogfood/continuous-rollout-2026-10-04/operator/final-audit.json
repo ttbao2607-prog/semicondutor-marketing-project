@@ -1,0 +1,29 @@
+{
+  "AUDIT_SCOPE": "All11 Cold treatments processed sequentially;40 selected cards in8 passing local readers. No live/account or remote publication claims.",
+  "CONTRACT_REF": "operator/execution-contract.json",
+  "BASELINE_REF": "04ac95f038b95d3e4207d1beda01c21ed1b80bad;operator/protected-baseline.json1402pins",
+  "CANDIDATE_REF": "operator/final-mechanical-check.json binds56selectedpublic files and57file package SHA026073a310d27486bf558d098cf76c8d7c093b7513ed8fffcb6ccbcfe9094a76",
+  "VERDICT": "FAIL",
+  "PARENT_DISPOSITION": "QUEUE_COMPLETED_WITH_FINDINGS;PARTIAL;8treatments accepted;3 held;wholecampaign not accepted",
+  "TEST_OUTCOME": "All38actual preflight/dispatch/native dimension gates PASS;8reader navigation controls PASS;known creative failures remain. No altered gate/tests or extra regression claim.",
+  "COVERAGE": [
+    "AC01: PASS \u00e2\u20ac\u201d STRUCTURAL/CONTRACT \u00e2\u20ac\u201d operator/queue-ledger.json all11terminal classifications",
+    "AC02: PASS \u00e2\u20ac\u201d STRUCTURAL/CONTRACT + BEHAVIORAL/RUNTIME \u00e2\u20ac\u201d all38freshchain/inputpins/originalbytes rechecked in operator/final-mechanical-check.json and independent readonly leaf reconciliation",
+    "AC03: FAIL \u00e2\u20ac\u201d VISUAL + STRUCTURAL/CONTRACT \u00e2\u20ac\u201d P1/P2/O4-Q operator/final-audit.json specific extra artwork labels/punctuation;40selectedcards exact/approved reusedexceptions bound per-case receipts",
+    "AC04: NOT_CHECKED \u00e2\u20ac\u201d VISUAL + BEHAVIORAL/RUNTIME \u00e2\u20ac\u201d 8releasedsets all80desktop/mobile positions observed by root;operator/navigation-audit.json next/prev/dots/keyboard/end;source333px nozoom. Held3sets fullreader acceptance NOT_CHECKED because blocked by knownAC03failure.",
+    "AC05: PASS \u00e2\u20ac\u201d STRUCTURAL/CONTRACT \u00e2\u20ac\u201d1391protectedbytes equal;11datedstatusdocumentexceptions inspected with oldsections/JSONobjects intact;ColdHEAD04ac95f andRMKHEAD7730bd9 unchanged. RMKwholeworkingtree not independently baseline-pinned, no claim of its fullbyteinventory.",
+    "AC06: PASS \u00e2\u20ac\u201d BEHAVIORAL/RUNTIME \u00e2\u20ac\u201d native leaf writer01a10447-8fc9-7303-a357-0d45496ca499 and readonlyleaf01a10447-b479-7442-9f99-3e3e828da335 admitted andpairedacceptance ACCEPTED exactgpt-6.1-sol/low. Native currentdesktop surface;noWorkLocal switch.",
+    "AC07: PASS \u00e2\u20ac\u201d STRUCTURAL/CONTRACT + BEHAVIORAL/RUNTIME \u00e2\u20ac\u201d31base7correction38actual;7fresh treatments exactly1correction each;P1skipped4campaign;nohumanapprovalpauses;failedhistoryretained"
+  ],
+  "FINDINGS": {
+    "FAILED_AC": "AC03",
+    "EXPECTED": "Native artwork contains only exact approved words/punctuation; no unsolicited headings/scene labels or standalone question marks/checkmarks",
+    "OBSERVED": "P1closing sole correction added sourceheading andtick;P2A1extraERP/MES labels andA4headlineperiod;O4-QB4extraquestionmark after closing correction budget spent",
+    "EVIDENCE": "continuous-rollout-2026-10-04/P1,P2,O4-Q/operator/final-audit.json;native originals retained and38provenance records rehashed",
+    "EVIDENCE_GAP": "P1campaign4notgenerated andheld3fullreader audits notperformed. O3A1blurred unlabeledscreen pattern has glyphclassification uncertainty;neither root norreadonlyoriginalinspection found readable letters/numbers/results. Accepted graphicalpattern disposition recorded in O3receipt.",
+    "RESTORE_CONDITION": "New bounded corrective scope for exact-artwork defects without changing frozen harness/source/acceptance;remaining P1cards requiregeneration after passingclosing gate",
+    "REQUIRED_RECHECK": "Affected nativewording andwhole5story/render/source/navigation;freshchain/originalpins;protectedhistorical anddoc invariants;modelpairedacceptance"
+  },
+  "OBSERVATIONS": "Root nativeoriginals andall80desktop/mobile screenshots current-task evidence;readonlyleaf didmechanical/source/history/package checks only. Runtime model gates are identity checks, not creative acceptance. Queue completion is not wholegoalPASS.",
+  "GIT": "Current rollout artifacts and11statusedits local uncommitted/unstaged;no commit/push/merge in rollout;actualremote not queried in final audit"
+}

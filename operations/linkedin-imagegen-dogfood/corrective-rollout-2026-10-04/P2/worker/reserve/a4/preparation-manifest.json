@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "status": "PREPARED_ROOT_REVIEW_PENDING",
+  "global_reserve_slot": 2,
+  "max_global_reserve": 4,
+  "per_card_reserve": 1,
+  "contract": {
+    "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P2/worker/reserve/a4/contract.json",
+    "sha256": "cbd3d30b00aeb13099119deaa236420bfb76e9fcc69027781ba660677e99901a",
+    "revision": "corrective-p2-a4-reserve-contract-v1-parent-review-pending"
+  },
+  "calls_draft": {
+    "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P2/worker/reserve/a4/calls-draft.json",
+    "sha256": "9939d3ead42021fed71bc3d391f61bc2fbc92541930ba8f7eb32b21f191ff540"
+  },
+  "copy": {
+    "path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P2/common/p2-copy.json",
+    "sha256": "6240d4002e138fbff3e3fa2186a8deb45e280fbe7200b5194a941ec9552baef8",
+    "revision": "all-scenarios-p2-copy-v1-parent-review-pending"
+  },
+  "targets": [
+    "P2-A4"
+  ],
+  "primary_inputs_untouched": true
+}

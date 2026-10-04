@@ -1,0 +1,61 @@
+{
+  "status": "QUEUE_COMPLETED_WITH_FINDINGS",
+  "queue": [
+    {
+      "treatment": "F3",
+      "status": "AUDIT_PASSED_UNDER_PO_CONTINUOUS_MANDATE"
+    },
+    {
+      "treatment": "P3",
+      "status": "AUDIT_PASSED_UNDER_PO_CONTINUOUS_MANDATE"
+    },
+    {
+      "treatment": "F1",
+      "status": "AUDIT_PASSED_UNDER_PO_CONTINUOUS_MANDATE"
+    },
+    {
+      "treatment": "F2",
+      "status": "AUDIT_PASSED_UNDER_PO_CONTINUOUS_MANDATE"
+    },
+    {
+      "treatment": "P1",
+      "status": "HOLD_AFTER_BOUNDED_CORRECTION"
+    },
+    {
+      "treatment": "P2",
+      "status": "CHANGES_REQUIRED"
+    },
+    {
+      "treatment": "O2",
+      "status": "AUDIT_PASSED_UNDER_PO_CONTINUOUS_MANDATE"
+    },
+    {
+      "treatment": "O4-O",
+      "status": "AUDIT_PASSED_UNDER_PO_CONTINUOUS_MANDATE"
+    },
+    {
+      "treatment": "O1",
+      "status": "AUDIT_PASSED_UNDER_PO_CONTINUOUS_MANDATE"
+    },
+    {
+      "treatment": "O4-Q",
+      "status": "CHANGES_REQUIRED"
+    },
+    {
+      "treatment": "O3",
+      "status": "AUDIT_PASSED_UNDER_PO_CONTINUOUS_MANDATE"
+    }
+  ],
+  "actual_calls": {
+    "base": 31,
+    "correction": 7
+  },
+  "current_finding": "P1 closing; P2 A1/A4; O4-Q B4 retain exact-artwork findings after sole correction budget. No extra calls or human pauses.",
+  "no_human_wait": true,
+  "execution": "PARTIAL",
+  "audit_verdict": "FAIL",
+  "passing_treatments": 8,
+  "held_treatments": 3,
+  "selected_cards": 40,
+  "reused_cards": 20
+}
