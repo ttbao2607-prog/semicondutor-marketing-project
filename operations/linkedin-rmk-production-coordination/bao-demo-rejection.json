@@ -1,0 +1,21 @@
+{
+  "authorizer": "Bao",
+  "status": "REJECTED_BY_BAO_NOT_FROZEN",
+  "candidate": "rmk-case06-demo-v2",
+  "html_sha256": "bfbd72969e504178927594df06624aaa642ba362dd855166bc5fc56a33f7c256",
+  "anchor_commit": "c38a62451521fb11c2f4aa3ada8a47a2b3cb904f",
+  "anchor_path": "operations/linkedin-rmk-production-coordination/bao-html-harness-anchor-2026-10-04.md",
+  "commit_scope": "Exactly the PO assessment/interpretation anchor, one file; local only, not pushed",
+  "findings": [
+    "No HTML harness preventing recurrence of creative/editorial failures",
+    "Generic safe agent prose in public HTML",
+    "Visual not accepted",
+    "Expansion adds insufficient value and repeats metric"
+  ],
+  "prior_observations": "Bounded technical/source/browser checks remain observations, do not override Product Owner rejection",
+  "action": "Same admitted Sol/low child revises one demo and proposes measurable HTML harness/content/design; parent adopts source additions, then independently reviews concrete revision",
+  "freeze": "NOT_GRANTED",
+  "mass_adapters": "NOT_AUTHORIZED_BEFORE_REVISED_DEMO_FREEZE",
+  "carousel": "Unchanged approved base generation continues; no C1",
+  "git": "No wider draft commit, push or consumer integration authorized"
+}

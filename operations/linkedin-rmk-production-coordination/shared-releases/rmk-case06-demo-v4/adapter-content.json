@@ -1,0 +1,612 @@
+{
+  "release_id": "rmk-case06-demo-v4",
+  "content_revision": "case06-glass-diagram-v4",
+  "case_id": "case06",
+  "entity_native": "江苏中科智芯集成科技有限公司",
+  "ready_locales": [
+    "vi",
+    "en",
+    "zh-Hans",
+    "zh-Hant"
+  ],
+  "locales": {
+    "vi": {
+      "language_name": "Tiếng Việt",
+      "article_label": "CASE06 · BÁN DẪN",
+      "market_label": "Đóng gói & kiểm thử · Trung Quốc",
+      "lead": "江苏中科智芯集成科技有限公司 triển khai giải pháp số tích hợp.",
+      "metric_label": "Thời gian khóa sổ tháng",
+      "day_unit": "ngày",
+      "metric_attribution": "Kết quả trong case06 do Digiwin chia sẻ.",
+      "provider_heading": "Digiwin và chuyển đổi số sản xuất",
+      "provider": "Digiwin phát triển và cung cấp giải pháp chuyển đổi số cho doanh nghiệp sản xuất, từ ERP đến sản xuất thông minh.",
+      "context_heading": "Bối cảnh & giải pháp",
+      "context": "江苏中科智芯集成科技有限公司 triển khai giải pháp số tích hợp. Case đề cập hồ sơ, quy trình và hiệu quả sản xuất gia công.",
+      "result_heading": "Kết quả khóa sổ tháng",
+      "result": "Trong case 江苏中科智芯集成科技有限公司, Digiwin chia sẻ kết quả rút thời gian khóa sổ tháng từ 15 ngày xuống 5 ngày.",
+      "source_heading": "Đọc nguồn gốc tiếng Trung",
+      "source": "Tìm 江苏中科智芯集成科技有限公司 trong bộ 8 case studies bán dẫn của Digiwin để xem bối cảnh, giải pháp và kết quả.",
+      "publisher": "Digiwin Việt Nam · 8 case studies bán dẫn · case06",
+      "source_cta": "Mở nguồn tiếng Trung",
+      "source_language": "Nguồn: tiếng Trung",
+      "language_label": "Ngôn ngữ",
+      "nav_label": "Trong bài này",
+      "summary_nav": "Tổng quan",
+      "provider_nav": "Dự án",
+      "context_nav": "Vấn đề",
+      "result_nav": "Kết quả",
+      "source_nav": "Nguồn",
+      "skip": "Đến bài viết",
+      "fallback": "Hiển thị Tiếng Việt.",
+      "unavailable_heading": "Không thể mở nội dung này",
+      "unavailable": "Liên kết không xác định hoặc phiên bản nội dung chưa có. Vui lòng kiểm tra lại liên kết.",
+      "pending": "Bản dịch chưa có. Hiển thị Tiếng Việt.",
+      "supplier_line": "Digiwin: giải pháp số cho sản xuất",
+      "title": "Liên kết hồ sơ sản xuất và kiểm soát thay đổi",
+      "intro": "ERP + iMES kết nối dữ liệu hiện trường, thay đổi thông số và hồ sơ sản xuất trong case đóng gói, kiểm thử này.",
+      "problem_heading": "Ba vấn đề trong case",
+      "problems": [
+        "Quản lý hồ sơ thiếu trật tự.",
+        "Quy trình nghiệp vụ chưa chuẩn hóa.",
+        "Hiệu quả gia công ngoài và sản xuất còn thấp."
+      ],
+      "scope_heading": "Digiwin ERP + iMES",
+      "scope": "Doanh nghiệp triển khai giải pháp số tích hợp Digiwin ERP + iMES.",
+      "reading_heading": "Mở đúng case06",
+      "reading_questions": [
+        "Vấn đề nào xuất hiện trước dự án?",
+        "Doanh nghiệp triển khai giải pháp theo hướng nào?"
+      ],
+      "source_instruction": "Chọn nhóm 封装测试, rồi chọn thẻ 案例 06 江苏中科智芯集成科技有限公司. Đọc lần lượt 核心痛点 (vấn đề), 鼎捷方案 (giải pháp) và 实施成效 (kết quả).",
+      "implementation_source_label": "Đọc chi tiết triển khai",
+      "project_details": [
+        {
+          "title": "Thông tin hiện trường · SPC",
+          "text": "SPC (kiểm soát quá trình bằng thống kê) thu thập và phân tích thông tin hiện trường theo thời gian thực.",
+          "claim_id": "PR05-spc-collection"
+        },
+        {
+          "title": "Thay đổi thông số · ECN",
+          "text": "ECN (thông báo thay đổi kỹ thuật) phân phối thay đổi thông số công nghệ theo thời gian thực.",
+          "claim_id": "PR05-ecn-distribution"
+        },
+        {
+          "title": "Hồ sơ liên kết",
+          "text": "MES liên kết lô, trạm làm việc, người vận hành và sản phẩm/vật liệu để truy vết theo các góc nhìn.",
+          "claim_id": "PR05-linked-records"
+        },
+        {
+          "title": "Ghi nhận & báo cáo bất thường",
+          "text": "Hệ thống tự mở phiếu bất thường và báo cáo lần lượt lên các cấp.",
+          "claim_id": "PR05-exception-escalation"
+        }
+      ]
+    },
+    "en": {
+      "language_name": "English",
+      "article_label": "CASE06 · SEMICONDUCTORS",
+      "market_label": "Packaging & testing · China",
+      "lead": "江苏中科智芯集成科技有限公司 implemented an integrated digital solution.",
+      "metric_label": "Month-close duration",
+      "day_unit": "days",
+      "metric_attribution": "Result reported by Digiwin in case06.",
+      "provider_heading": "Digiwin and manufacturing digital transformation",
+      "provider": "Digiwin develops and provides digital transformation solutions for manufacturers, from ERP to smart manufacturing.",
+      "context_heading": "Context & solution",
+      "context": "江苏中科智芯集成科技有限公司 implemented an integrated digital solution. The case discusses records, processes and contract manufacturing efficiency.",
+      "result_heading": "Month-close result",
+      "result": "In the case of 江苏中科智芯集成科技有限公司, Digiwin reports a reduction in month-close duration from 15 days to 5 days.",
+      "source_heading": "Read the original Chinese source",
+      "source": "Find 江苏中科智芯集成科技有限公司 in Digiwin’s collection of 8 semiconductor case studies to read the context, solution and results.",
+      "publisher": "Digiwin Vietnam · 8 semiconductor case studies · case06",
+      "source_cta": "Open the Chinese source",
+      "source_language": "Source: Chinese",
+      "language_label": "Language",
+      "nav_label": "In this article",
+      "summary_nav": "Overview",
+      "provider_nav": "Project",
+      "context_nav": "Problems",
+      "result_nav": "Result",
+      "source_nav": "Source",
+      "skip": "Skip to article",
+      "fallback": "Showing Vietnamese.",
+      "unavailable_heading": "This content is unavailable",
+      "unavailable": "The link is not recognized or this content version is unavailable. Please check the link.",
+      "pending": "This translation is unavailable. Showing Vietnamese.",
+      "supplier_line": "Digiwin: digital solutions for manufacturing",
+      "title": "Linking production records and controlling changes",
+      "intro": "ERP + iMES connects shopfloor information, parameter changes and production records in this packaging and testing case.",
+      "problem_heading": "Three problems in the case",
+      "problems": [
+        "Disorganized records management.",
+        "Nonstandard business processes.",
+        "Low outsourcing and production efficiency."
+      ],
+      "scope_heading": "Digiwin ERP + iMES",
+      "scope": "The business implemented an integrated Digiwin ERP + iMES solution.",
+      "reading_heading": "Open the correct case06",
+      "reading_questions": [
+        "What problems preceded the project?",
+        "What solution did the business implement?"
+      ],
+      "source_instruction": "Select 封装测试, then the tab 案例 06 江苏中科智芯集成科技有限公司. Read 核心痛点 (problems), 鼎捷方案 (solution) and 实施成效 (results).",
+      "implementation_source_label": "Read the implementation detail",
+      "project_details": [
+        {
+          "title": "Shopfloor information · SPC",
+          "text": "SPC (statistical process control) collects and analyzes shopfloor information in real time.",
+          "claim_id": "PR05-spc-collection"
+        },
+        {
+          "title": "Parameter changes · ECN",
+          "text": "ECN (engineering change notice) distributes process parameter changes in real time.",
+          "claim_id": "PR05-ecn-distribution"
+        },
+        {
+          "title": "Linked records",
+          "text": "MES links batches, workstations, operators and products/materials for tracing from different perspectives.",
+          "claim_id": "PR05-linked-records"
+        },
+        {
+          "title": "Exception recording & escalation",
+          "text": "The system automatically opens exception records and escalates them through successive levels.",
+          "claim_id": "PR05-exception-escalation"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "language_name": "简体中文",
+      "article_label": "CASE06 · 半导体",
+      "market_label": "封装与测试 · 中国",
+      "lead": "江苏中科智芯集成科技有限公司实施了集成数字化解决方案。",
+      "metric_label": "月结所需时间",
+      "day_unit": "天",
+      "metric_attribution": "Digiwin在 case06 中分享的结果。",
+      "provider_heading": "Digiwin与制造业数字化转型",
+      "provider": "Digiwin为制造企业开发并提供数字化转型解决方案，涵盖 ERP 到智能制造。",
+      "context_heading": "背景与解决方案",
+      "context": "江苏中科智芯集成科技有限公司实施了集成数字化解决方案。案例涉及记录、流程以及委外加工生产效率。",
+      "result_heading": "月结结果",
+      "result": "在江苏中科智芯集成科技有限公司案例中，Digiwin分享了月结时间从 15 天缩短至 5 天的结果。",
+      "source_heading": "阅读中文原始来源",
+      "source": "在Digiwin的 8 个半导体案例集中查找江苏中科智芯集成科技有限公司，了解背景、解决方案和结果。",
+      "publisher": "Digiwin越南 · 8 个半导体案例 · case06",
+      "source_cta": "打开中文来源",
+      "source_language": "来源语言：中文",
+      "language_label": "语言",
+      "nav_label": "本文内容",
+      "summary_nav": "概览",
+      "provider_nav": "方案",
+      "context_nav": "问题",
+      "result_nav": "结果",
+      "source_nav": "来源",
+      "skip": "跳至正文",
+      "fallback": "当前显示越南语。",
+      "unavailable_heading": "此内容暂不可用",
+      "unavailable": "链接无法识别，或此内容版本暂不可用。请检查链接。",
+      "pending": "此翻译暂不可用。当前显示越南语。",
+      "supplier_line": "Digiwin：制造业数字化解决方案",
+      "title": "关联生产记录，管理参数变更",
+      "intro": "ERP + iMES 在这个封装测试案例中连接现场信息、参数变更与生产记录。",
+      "problem_heading": "案例中的三项问题",
+      "problems": [
+        "资料管理混乱。",
+        "业务流程不规范。",
+        "委外与生产效率低。"
+      ],
+      "scope_heading": "Digiwin ERP + iMES",
+      "scope": "企业实施了 Digiwin ERP + iMES 一体化数字化解决方案。",
+      "reading_heading": "打开正确的 case06",
+      "reading_questions": [
+        "项目之前面临哪些问题？",
+        "企业实施了什么方案？"
+      ],
+      "source_instruction": "选择封装测试，再选择案例 06 江苏中科智芯集成科技有限公司页签，依次阅读核心痛点、鼎捷方案和实施成效。",
+      "implementation_source_label": "阅读实施细节",
+      "project_details": [
+        {
+          "title": "现场信息 · SPC",
+          "text": "SPC（统计过程控制）实时收集与分析现场信息。",
+          "claim_id": "PR05-spc-collection"
+        },
+        {
+          "title": "参数变更 · ECN",
+          "text": "ECN（工程变更通知）实时下发工艺参数变更。",
+          "claim_id": "PR05-ecn-distribution"
+        },
+        {
+          "title": "关联记录",
+          "text": "MES 关联批次、工站、操作工及产品/物料，支持不同视角的追溯。",
+          "claim_id": "PR05-linked-records"
+        },
+        {
+          "title": "异常记录与上报",
+          "text": "系统自动开立异常单，并逐层上报。",
+          "claim_id": "PR05-exception-escalation"
+        }
+      ]
+    },
+    "zh-Hant": {
+      "language_name": "繁體中文",
+      "article_label": "CASE06 · 半導體",
+      "market_label": "封裝與測試 · 中國",
+      "lead": "江苏中科智芯集成科技有限公司實施了整合數位化解決方案。",
+      "metric_label": "月結所需時間",
+      "day_unit": "天",
+      "metric_attribution": "Digiwin在 case06 中分享的結果。",
+      "provider_heading": "Digiwin與製造業數位轉型",
+      "provider": "Digiwin為製造企業開發並提供數位轉型解決方案，涵蓋 ERP 到智慧製造。",
+      "context_heading": "背景與解決方案",
+      "context": "江苏中科智芯集成科技有限公司實施了整合數位化解決方案。案例涉及紀錄、流程以及委外加工生產效率。",
+      "result_heading": "月結結果",
+      "result": "在江苏中科智芯集成科技有限公司案例中，Digiwin分享了月結時間從 15 天縮短至 5 天的結果。",
+      "source_heading": "閱讀中文原始來源",
+      "source": "在Digiwin的 8 個半導體案例集中查找江苏中科智芯集成科技有限公司，了解背景、解決方案和結果。",
+      "publisher": "Digiwin越南 · 8 個半導體案例 · case06",
+      "source_cta": "開啟中文來源",
+      "source_language": "來源語言：中文",
+      "language_label": "語言",
+      "nav_label": "本文內容",
+      "summary_nav": "概覽",
+      "provider_nav": "方案",
+      "context_nav": "問題",
+      "result_nav": "結果",
+      "source_nav": "來源",
+      "skip": "跳至正文",
+      "fallback": "目前顯示越南語。",
+      "unavailable_heading": "此內容暫不可用",
+      "unavailable": "連結無法識別，或此內容版本暫不可用。請檢查連結。",
+      "pending": "此翻譯暫不可用。目前顯示越南語。",
+      "supplier_line": "Digiwin：製造業數位化解決方案",
+      "title": "關聯生產紀錄，管理參數變更",
+      "intro": "ERP + iMES 在這個封裝測試案例中連接現場資訊、參數變更與生產紀錄。",
+      "problem_heading": "案例中的三項問題",
+      "problems": [
+        "資料管理混亂。",
+        "業務流程不規範。",
+        "委外與生產效率低。"
+      ],
+      "scope_heading": "Digiwin ERP + iMES",
+      "scope": "企業實施了 Digiwin ERP + iMES 整合數位化解決方案。",
+      "reading_heading": "開啟正確的 case06",
+      "reading_questions": [
+        "專案之前面臨哪些問題？",
+        "企業實施了什麼方案？"
+      ],
+      "source_instruction": "選擇封装测试，再選擇案例 06 江苏中科智芯集成科技有限公司頁籤，依序閱讀核心痛点、鼎捷方案和实施成效。",
+      "implementation_source_label": "閱讀實施細節",
+      "project_details": [
+        {
+          "title": "現場資訊 · SPC",
+          "text": "SPC（統計製程管制）即時蒐集與分析現場資訊。",
+          "claim_id": "PR05-spc-collection"
+        },
+        {
+          "title": "參數變更 · ECN",
+          "text": "ECN（工程變更通知）即時下發製程參數變更。",
+          "claim_id": "PR05-ecn-distribution"
+        },
+        {
+          "title": "關聯紀錄",
+          "text": "MES 關聯批次、工站、操作人員及產品/物料，支援不同視角的追溯。",
+          "claim_id": "PR05-linked-records"
+        },
+        {
+          "title": "異常紀錄與上報",
+          "text": "系統自動開立異常單，並逐層上報。",
+          "claim_id": "PR05-exception-escalation"
+        }
+      ]
+    }
+  },
+  "claim_map": {
+    "provider": "PR10-role",
+    "context": "PR05-case",
+    "lead": "PR05-case",
+    "result": "PR05-month-close",
+    "metric": "PR05-month-close",
+    "source": "PR05-case"
+  },
+  "entry_ids": [
+    "RMK-R4-O1",
+    "RMK-R4-O4-Q"
+  ],
+  "source_url": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+  "invariants": {
+    "market": "China",
+    "scope": "integrated_digital_solution",
+    "metric": "month_close_duration",
+    "baseline": 15,
+    "result": 5,
+    "unit": "days",
+    "attribution": "Digiwin reported case result; no isolated ERP causality",
+    "source_separation": "Month close only from original collection. ERP+iMES and operational details from exact named customer paragraph in 15454, corroborated in 15392; no causal linkage to month-close result."
+  },
+  "original_release": "rmk-continuity-v1",
+  "lifecycle": "ONE_LOCAL_DEMO_ONLY_BAO_DESIGN_FREEZE_PENDING",
+  "claim_ids": [
+    "PR10-role",
+    "PR05-case",
+    "PR05-month-close",
+    "PR05-records-problem",
+    "PR05-process-problem",
+    "PR05-outsourcing-production-problem",
+    "PR05-erp-imes-project",
+    "PR05-spc-collection",
+    "PR05-ecn-distribution",
+    "PR05-linked-records",
+    "PR05-exception-escalation"
+  ],
+  "implementation_source_url": "https://www.digiwin.com/erp/15454.html",
+  "implementation_corroborating_url": "https://www.digiwin.com/erp/15392.html",
+  "source_map": {
+    "status": "PROPOSAL_FOR_PARENT_ADOPTION",
+    "case_id": "case06",
+    "entity_native": "江苏中科智芯集成科技有限公司",
+    "collection_url": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+    "detail_url": "https://www.digiwin.com/erp/15454.html",
+    "corroborating_detail_url": "https://www.digiwin.com/erp/15392.html",
+    "bindings": [
+      {
+        "public_field": "title,intro",
+        "claim_ids": [
+          "PR05-erp-imes-project",
+          "PR05-ecn-distribution",
+          "PR05-linked-records"
+        ],
+        "locator": "15454 客户案例 exact native customer paragraph"
+      },
+      {
+        "public_field": "problems[0]",
+        "claim_ids": [
+          "PR05-records-problem"
+        ],
+        "locator": "Chinese collection case06 核心痛点"
+      },
+      {
+        "public_field": "problems[1]",
+        "claim_ids": [
+          "PR05-process-problem"
+        ],
+        "locator": "Chinese collection case06 核心痛点"
+      },
+      {
+        "public_field": "problems[2]",
+        "claim_ids": [
+          "PR05-outsourcing-production-problem"
+        ],
+        "locator": "Chinese collection case06 核心痛点"
+      },
+      {
+        "public_field": "scope",
+        "claim_ids": [
+          "PR05-erp-imes-project"
+        ],
+        "locator": "15454 客户案例 exact native customer paragraph; 15392 corroborates"
+      },
+      {
+        "public_field": "project_details[0]",
+        "claim_ids": [
+          "PR05-spc-collection"
+        ],
+        "locator": "15454 客户案例 SPC clause; acronym definition is a terminology aid"
+      },
+      {
+        "public_field": "project_details[1]",
+        "claim_ids": [
+          "PR05-ecn-distribution"
+        ],
+        "locator": "15454 客户案例 ECN parameter-change clause; acronym definition is a terminology aid"
+      },
+      {
+        "public_field": "project_details[2]",
+        "claim_ids": [
+          "PR05-linked-records"
+        ],
+        "locator": "15454 客户案例 MES associated batch/workstation/operator/product-material records; 15392 corroborates"
+      },
+      {
+        "public_field": "project_details[3]",
+        "claim_ids": [
+          "PR05-exception-escalation"
+        ],
+        "locator": "15454 客户案例 automatic exception record and escalation; 15392 corroborates"
+      },
+      {
+        "public_field": "metric",
+        "claim_ids": [
+          "PR05-month-close"
+        ],
+        "locator": "Chinese collection case06 实施成效; days 15 to 5",
+        "independent_from": "No claim that four operational functions caused month-close result"
+      },
+      {
+        "public_field": "source_instruction",
+        "claim_ids": [],
+        "locator": "Parent observed live collection UI: select 封装测试 then 案例06 exact customer tab; initial panel is case05"
+      },
+      {
+        "public_field": "reading_questions",
+        "claim_ids": [],
+        "locator": "Editorial navigation prompts answered by problem and project sections; not implementation facts"
+      }
+    ],
+    "excluded": [
+      "lower-defect or measured-effect wording",
+      "generic product architecture",
+      "rankings and market counts",
+      "generic staged deployment",
+      "facility area/capacity",
+      "new engineering/cost/procurement metrics",
+      "ERP-only causal attribution",
+      "audit success"
+    ],
+    "source_freshness": "2026-10-04 primary body reads by parent and leaf; PDF p16 checked but no adopted case06 detail"
+  },
+  "diagram_labels": {
+    "vi": {
+      "diagram_title": "Hồ sơ liên kết trong MES",
+      "diagram_instruction": "Chọn một loại hồ sơ để đọc chi tiết liên kết.",
+      "diagram_accessible": "MES liên kết hồ sơ lô, trạm làm việc, người vận hành và sản phẩm–vật liệu.",
+      "diagram_nodes": [
+        "Lô",
+        "Trạm làm việc",
+        "Người vận hành",
+        "Sản phẩm–vật liệu"
+      ],
+      "diagram_action": "Xem chi tiết hồ sơ liên kết",
+      "diagram_theme_label": "Giao diện sơ đồ",
+      "diagram_light": "Sáng",
+      "diagram_dark": "Tối",
+      "diagram_node_lines": [
+        [
+          "Lô",
+          ""
+        ],
+        [
+          "Trạm",
+          "làm việc"
+        ],
+        [
+          "Người",
+          "vận hành"
+        ],
+        [
+          "Sản phẩm–",
+          "vật liệu"
+        ]
+      ]
+    },
+    "en": {
+      "diagram_title": "Linked records in MES",
+      "diagram_instruction": "Select a record type to read about the links.",
+      "diagram_accessible": "MES links batch, workstation, operator and product–material records.",
+      "diagram_nodes": [
+        "Batch",
+        "Workstation",
+        "Operator",
+        "Product–material"
+      ],
+      "diagram_action": "Read linked-record details",
+      "diagram_theme_label": "Diagram appearance",
+      "diagram_light": "Light",
+      "diagram_dark": "Dark",
+      "diagram_node_lines": [
+        [
+          "Batch",
+          ""
+        ],
+        [
+          "Workstation",
+          ""
+        ],
+        [
+          "Operator",
+          ""
+        ],
+        [
+          "Product–",
+          "material"
+        ]
+      ]
+    },
+    "zh-Hans": {
+      "diagram_title": "MES 关联记录",
+      "diagram_instruction": "选择记录类型，查看关联记录的详情。",
+      "diagram_accessible": "MES 关联批次、工位、操作人员及产品物料记录。",
+      "diagram_nodes": [
+        "批次",
+        "工位",
+        "操作人员",
+        "产品物料"
+      ],
+      "diagram_action": "查看关联记录详情",
+      "diagram_theme_label": "示意图外观",
+      "diagram_light": "浅色",
+      "diagram_dark": "深色",
+      "diagram_node_lines": [
+        [
+          "批次",
+          ""
+        ],
+        [
+          "工位",
+          ""
+        ],
+        [
+          "操作人员",
+          ""
+        ],
+        [
+          "产品物料",
+          ""
+        ]
+      ]
+    },
+    "zh-Hant": {
+      "diagram_title": "MES 關聯記錄",
+      "diagram_instruction": "選擇記錄類型，查看關聯記錄的詳情。",
+      "diagram_accessible": "MES 關聯批次、工位、操作人員及產品物料記錄。",
+      "diagram_nodes": [
+        "批次",
+        "工位",
+        "操作人員",
+        "產品物料"
+      ],
+      "diagram_action": "查看關聯記錄詳情",
+      "diagram_theme_label": "示意圖外觀",
+      "diagram_light": "淺色",
+      "diagram_dark": "深色",
+      "diagram_node_lines": [
+        [
+          "批次",
+          ""
+        ],
+        [
+          "工位",
+          ""
+        ],
+        [
+          "操作人員",
+          ""
+        ],
+        [
+          "產品物料",
+          ""
+        ]
+      ]
+    }
+  },
+  "diagram_source_relation_map": {
+    "claim_id": "PR05-linked-records",
+    "source": "https://www.digiwin.com/erp/15454.html",
+    "center": "MES",
+    "relations": [
+      {
+        "record": "batch",
+        "type": "association",
+        "direction": null,
+        "activation": "navigate to and focus existing visible project_details row with claim_id PR05-linked-records"
+      },
+      {
+        "record": "workstation",
+        "type": "association",
+        "direction": null,
+        "activation": "navigate to and focus existing visible project_details row with claim_id PR05-linked-records"
+      },
+      {
+        "record": "operator",
+        "type": "association",
+        "direction": null,
+        "activation": "navigate to and focus existing visible project_details row with claim_id PR05-linked-records"
+      },
+      {
+        "record": "product-material",
+        "type": "association",
+        "direction": null,
+        "activation": "navigate to and focus existing visible project_details row with claim_id PR05-linked-records"
+      }
+    ],
+    "detail_text": "Reuse exact adopted v3 project_details text; no new operational or outcome prose."
+  }
+}

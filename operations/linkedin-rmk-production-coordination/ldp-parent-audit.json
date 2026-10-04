@@ -1,0 +1,31 @@
+{
+  "AUDIT_SCOPE": "One source-bound editorial case06 demo: observed source semantics, rendered layout and browser interactions; not mass adaptation, live deployment or pair launch acceptance",
+  "CONTRACT_REF": "D:\\optimize-awareness-LinkedIn-adcopy\\operations\\linkedin-rmk-production-coordination\\mandate-2026-10-04.json",
+  "BASELINE_REF": "4db377d286d9b4ddd2c328722902a1b413b144b6",
+  "CANDIDATE_REF": {
+    "git_commit": null,
+    "html_sha256": "bfbd72969e504178927594df06624aaa642ba362dd855166bc5fc56a33f7c256",
+    "release_id": "rmk-case06-demo-v2",
+    "manifest_sha256": "3f23a9ea3f3a02046a95809896c1f320e6a00b5ef2aecac4e64faa9184b4d0c3"
+  },
+  "VERDICT": "PASS",
+  "COVERAGE": {
+    "layout": "PASS: actual mobile viewport320/390/414; no horizontal overflow; desktop observed1422 CSS px after requested1280 scale mismatch, desktop layout legible",
+    "locales": "PASS: VI/EN/Hans/Hant rendered and all numeric/entity/attribution invariants retained",
+    "context": "PASS: header toggle O4-Q/context→EN preserved identity, exact case/release and synthetic UTM; Back restored VI/context; Reload retained EN/context; end native select Hant retained source and UTM",
+    "source": "PASS: actual Enter on source CTA emitted Page.windowOpen sequence314, exact public source URL; newly opened Chrome tab1367558754 rendered primary Chinese article; case06 tab selected and month-close15to5 verified",
+    "invalid": "PASS: unknown entry, duplicate entry and unknown release show explicit unavailable state; article/source hidden and language buttons disabled",
+    "keyboard": "PASS: Tab from VI control focused English with visible solid outline",
+    "binding": "PASS: exact owner release and unchanged original official embedded logo; no external runtime dependency; exported HTML bytes exact"
+  },
+  "FINDINGS": [],
+  "limits": [
+    "Browser-specific localhost observation, not live LadiPage runtime",
+    "Original Chinese collection locator used; no unverified direct case anchor",
+    "No actual campaign destination binding/live URL",
+    "Uncommitted draft; PO freeze pending",
+    "Full goal carousel audit is separate, this PASS covers demo only"
+  ],
+  "bao_freeze": "PENDING",
+  "pair_acceptance": "NOT_GRANTED"
+}

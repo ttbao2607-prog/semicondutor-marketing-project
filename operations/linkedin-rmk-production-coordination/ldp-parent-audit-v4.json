@@ -1,0 +1,32 @@
+{
+  "AUDIT_SCOPE": "Parent SELF audit of one local case06 v4 design demo, source continuity and inspected browser behavior. Not general harness freeze, mass production, accepted ad/adapter pair or live release.",
+  "CONTRACT_REF": "rmk-case06-demo-v4; manifest092d8646c81a9f4168ed8ea8f5efa9a1552c5bfe5c843a638b307b2b35acd8e8",
+  "BASELINE_REF": "4db377d286d9b4ddd2c328722902a1b413b144b6; v3 HTML9b41273c36e8735ba3b395072f7278c9a9982ed17235bc0f53ad4bcddba0ce51",
+  "CANDIDATE_REF": {
+    "index_sha256": "399a1c3aed670570af5b830f81546d0691e35da3fe92166db2142259f2fd8158",
+    "bytes": 43131,
+    "state": "LOCAL_UNCOMMITTED_DRAFT"
+  },
+  "VERDICT": "PASS",
+  "COVERAGE": [
+    "V4-COPY: PASS — OBSERVED — parent independently reconstructed complete document; four rendered locale fields equal v3 payload; diagram labels equal owner release",
+    "V4-DESIGN: PASS — OBSERVED_LIBRARY_AND_RENDER — Glassmorphism v2 Elevated metric; inline Effective HTML SVG diagram, four undirected MES associations; mobile light/dark screenshots inspected",
+    "V4-INTERACTION: PASS — OBSERVED_BROWSER — keyboard record activation focuses exact linked-record detail; theme controls persist through reload; language toggle preserves entry/case/release/section/UTM; end select keeps source section",
+    "V4-RESPONSIVE: PASS — OBSERVED_BROWSER — actual320/390/414px scrollWidth equals width; nodes112x64; SVG text16px; theme controls at least44px; desktop actual1422/client1405/scroll1405",
+    "V4-HARNESS: PASS — OBSERVED_BOUNDED_CASE06_PROFILE — exact parent release/frame reconstructed; independent rogue paragraph/ARIA/arrow probes rejected; immutable v3 history preserved",
+    "V4-PRESERVATION: PASS — OBSERVED — 117 protected inputs per checkout, all eleven shared files identical; six historical CRLF raw-pin mismatches reconciled against tracked blobs and normalized text; raw v1 verifier remains FAIL"
+  ],
+  "FINDINGS": [],
+  "limits": [
+    "Mouse/touch interaction across every control and every locale/viewport combination was not exhaustively tested. Keyboard actions and read-only DOM evidence are the observed interaction basis.",
+    "Original organic links remain external Chinese source URLs; no new hosted LadiPage route or actual campaign destination pair accepted.",
+    "Harness profile is reviewed case06 v4 only, not a frozen reusable general HTML harness.",
+    "No assertion that MES association diagram caused the15-to5 metric."
+  ],
+  "bao_design_acceptance": "PENDING",
+  "harness_freeze": "NOT_GRANTED",
+  "mass_rollout": "NOT_GRANTED",
+  "pair_acceptance": "NOT_GRANTED",
+  "browser_cleanup": "Created tab closed; mobile overrides reset; owned preview process stopped and port free.",
+  "git": "Only PO feedback paragraph is committed locally at c38a624. New demo/harness/releases are uncommitted; no push/merge/live."
+}

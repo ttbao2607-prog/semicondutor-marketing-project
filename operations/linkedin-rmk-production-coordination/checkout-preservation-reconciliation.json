@@ -1,0 +1,67 @@
+{
+  "result": "No protected semantic or Git blob change; exact raw input pin validator does fail for three source Markdown files per child checkout",
+  "evidence": [
+    {
+      "root": "D:\\linkedin-rmk-fulfillment",
+      "path": "operations/linkedin-rmk-proof/proof-ledger.md",
+      "actual_sha256": "401c2205a040590f8de1f3b7f202b970da961416092a72cebf6ad9f91c9686cc",
+      "expected_raw_sha256": "cb17e66692e05c320f4980c08bcbef8b63c1a0ebb644eb6fc5a118fd91736e56",
+      "tracked_blob": "37837445071c139f568f39a0fc73bdbe36f3f01f",
+      "expected_blob": "37837445071c139f568f39a0fc73bdbe36f3f01f",
+      "normalized_bytes_equal": true,
+      "disposition": "CHECKOUT_LINE_ENDING_REPRESENTATION_ONLY_RAW_PIN_CHECK_REMAINS_FAIL_NO_REPAIR"
+    },
+    {
+      "root": "D:\\linkedin-rmk-fulfillment",
+      "path": "operations/linkedin-rmk-proof/RMK_Content_Anchor_and_R2_Audit.md",
+      "actual_sha256": "627ff920a1cb7155bc2d429893c341e8de8c9b0b1f75e348823fc005c0050b09",
+      "expected_raw_sha256": "3ea8ffcda1d28d7e8066e0d8975aeb388dd218eb6611e06cbcf118d060993007",
+      "tracked_blob": "3f6cfc6bb737fb2836acb145ed0bac97183e5293",
+      "expected_blob": "3f6cfc6bb737fb2836acb145ed0bac97183e5293",
+      "normalized_bytes_equal": true,
+      "disposition": "CHECKOUT_LINE_ENDING_REPRESENTATION_ONLY_RAW_PIN_CHECK_REMAINS_FAIL_NO_REPAIR"
+    },
+    {
+      "root": "D:\\linkedin-rmk-fulfillment",
+      "path": "operations/Ad_Artifact_Editorial_QA_Gate.md",
+      "actual_sha256": "784e8523ae26ed49afd0e07af4f6349522b2fa0ef05945753971928bed5817a1",
+      "expected_raw_sha256": "a045be594186b09c1e60fa41b276ac4ccdd4a9a20873d89f2ae738d4088c61e0",
+      "tracked_blob": "59c5b030b9c3288859651176fc43bf3ca42af909",
+      "expected_blob": "59c5b030b9c3288859651176fc43bf3ca42af909",
+      "normalized_bytes_equal": true,
+      "disposition": "CHECKOUT_LINE_ENDING_REPRESENTATION_ONLY_RAW_PIN_CHECK_REMAINS_FAIL_NO_REPAIR"
+    },
+    {
+      "root": "D:\\linkedin-rmk-mobile-adapter",
+      "path": "operations/linkedin-rmk-proof/proof-ledger.md",
+      "actual_sha256": "401c2205a040590f8de1f3b7f202b970da961416092a72cebf6ad9f91c9686cc",
+      "expected_raw_sha256": "cb17e66692e05c320f4980c08bcbef8b63c1a0ebb644eb6fc5a118fd91736e56",
+      "tracked_blob": "37837445071c139f568f39a0fc73bdbe36f3f01f",
+      "expected_blob": "37837445071c139f568f39a0fc73bdbe36f3f01f",
+      "normalized_bytes_equal": true,
+      "disposition": "CHECKOUT_LINE_ENDING_REPRESENTATION_ONLY_RAW_PIN_CHECK_REMAINS_FAIL_NO_REPAIR"
+    },
+    {
+      "root": "D:\\linkedin-rmk-mobile-adapter",
+      "path": "operations/linkedin-rmk-proof/RMK_Content_Anchor_and_R2_Audit.md",
+      "actual_sha256": "627ff920a1cb7155bc2d429893c341e8de8c9b0b1f75e348823fc005c0050b09",
+      "expected_raw_sha256": "3ea8ffcda1d28d7e8066e0d8975aeb388dd218eb6611e06cbcf118d060993007",
+      "tracked_blob": "3f6cfc6bb737fb2836acb145ed0bac97183e5293",
+      "expected_blob": "3f6cfc6bb737fb2836acb145ed0bac97183e5293",
+      "normalized_bytes_equal": true,
+      "disposition": "CHECKOUT_LINE_ENDING_REPRESENTATION_ONLY_RAW_PIN_CHECK_REMAINS_FAIL_NO_REPAIR"
+    },
+    {
+      "root": "D:\\linkedin-rmk-mobile-adapter",
+      "path": "operations/Ad_Artifact_Editorial_QA_Gate.md",
+      "actual_sha256": "784e8523ae26ed49afd0e07af4f6349522b2fa0ef05945753971928bed5817a1",
+      "expected_raw_sha256": "a045be594186b09c1e60fa41b276ac4ccdd4a9a20873d89f2ae738d4088c61e0",
+      "tracked_blob": "59c5b030b9c3288859651176fc43bf3ca42af909",
+      "expected_blob": "59c5b030b9c3288859651176fc43bf3ca42af909",
+      "normalized_bytes_equal": true,
+      "disposition": "CHECKOUT_LINE_ENDING_REPRESENTATION_ONLY_RAW_PIN_CHECK_REMAINS_FAIL_NO_REPAIR"
+    }
+  ],
+  "shared_release_files": "Unmodified; exact manifest bytes preserved",
+  "do_not_claim_raw_validator_pass": true
+}

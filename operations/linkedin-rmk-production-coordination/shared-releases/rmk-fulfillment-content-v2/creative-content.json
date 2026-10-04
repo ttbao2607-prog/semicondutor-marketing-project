@@ -1,0 +1,581 @@
+{
+  "release_id": "rmk-fulfillment-content-v2",
+  "content_revision": "rmk-qualitative-three-groups-v2",
+  "locales_ready": [
+    "vi"
+  ],
+  "cases": [
+    {
+      "group": "bright",
+      "case_id": "case04",
+      "copy": {
+        "schema_version": 1,
+        "revision": "rmk-fulfillment-stage-a-proposal-v1-bright",
+        "ads": [
+          {
+            "ad_id": "RMK-BRIGHT",
+            "caption": "Digiwin cung cấp giải pháp số cho sản xuất. Xem case thiết kế chip tại Trung Quốc: 上海晶丰明源半导体股份有限公司.",
+            "cards": [
+              {
+                "card_id": "RMK-BRIGHT-1",
+                "headline": "Digiwin: giải pháp số cho sản xuất",
+                "body": "Digiwin phát triển và cung cấp giải pháp chuyển đổi số cho doanh nghiệp sản xuất, từ ERP đến sản xuất thông minh.",
+                "source_text": "Digiwin Việt Nam · Giới thiệu công ty",
+                "cta": "",
+                "native_headline": "Digiwin và chuyển đổi số sản xuất",
+                "alt": "Digiwin giới thiệu vai trò cung cấp giải pháp chuyển đổi số cho doanh nghiệp sản xuất.",
+                "artwork_labels": [
+                  "DIGIWIN · CASE SẢN XUẤT",
+                  "1/4"
+                ]
+              },
+              {
+                "card_id": "RMK-BRIGHT-2",
+                "headline": "Một case thiết kế chip tại Trung Quốc",
+                "body": "上海晶丰明源半导体股份有限公司 là doanh nghiệp thiết kế chip trong case04 do Digiwin Việt Nam giới thiệu.",
+                "source_text": "Digiwin Việt Nam · 8 case studies · case04",
+                "cta": "",
+                "native_headline": "Một case thiết kế chip tại Trung Quốc",
+                "alt": "上海晶丰明源半导体股份有限公司 là doanh nghiệp thiết kế chip trong case04 do Digiwin Việt Nam giới thiệu.",
+                "artwork_labels": [
+                  "DIGIWIN · CASE SẢN XUẤT",
+                  "2/4"
+                ]
+              },
+              {
+                "card_id": "RMK-BRIGHT-3",
+                "headline": "Từ bài toán gia công đến giải pháp",
+                "body": "Case nêu khó khăn trong quản lý gia công ngoài và giới thiệu giải pháp số tích hợp.",
+                "source_text": "Case04 · 上海晶丰明源半导体股份有限公司 · Trung Quốc",
+                "cta": "",
+                "native_headline": "Từ bài toán gia công đến giải pháp",
+                "alt": "Case nêu khó khăn trong quản lý gia công ngoài và giới thiệu giải pháp số tích hợp.",
+                "artwork_labels": [
+                  "DIGIWIN · CASE SẢN XUẤT",
+                  "3/4"
+                ]
+              },
+              {
+                "card_id": "RMK-BRIGHT-4",
+                "headline": "Đọc case thiết kế chip",
+                "body": "Tìm 上海晶丰明源半导体股份有限公司 trong bộ 8 case studies để xem bối cảnh và giải pháp.",
+                "source_text": "Digiwin Việt Nam · digiwin.com.vn\n8 case studies bán dẫn · case04\n上海晶丰明源半导体股份有限公司",
+                "cta": "Xem case04",
+                "native_headline": "Đọc case thiết kế chip",
+                "alt": "Tìm 上海晶丰明源半导体股份有限公司 trong bộ 8 case studies để xem bối cảnh và giải pháp.",
+                "artwork_labels": [
+                  "DIGIWIN · CASE SẢN XUẤT",
+                  "4/4"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "source_map": {
+        "revision": "rmk-fulfillment-stage-a-proposal-v1-bright",
+        "sources": [
+          {
+            "proof_id": "PR10",
+            "url": "https://www.digiwin.com.vn/about-vn/",
+            "locator": "lines202–206, solution ecosystem",
+            "excerpt": "Digiwin phát triển hệ thống ERP",
+            "observed_scope": "Manufacturer digital solution provider identity.",
+            "excluded": "Scale rankings, counts and SLA."
+          },
+          {
+            "proof_id": "PR03",
+            "case_id": "case04",
+            "entity": "上海晶丰明源半导体股份有限公司",
+            "market": "China",
+            "url": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+            "locator": "case04, lines239–257, solution249; pain245",
+            "excerpt": "一体化数智解决方案。",
+            "observed_scope": "IC design case; integrated digital solution; outsourcing-management inefficiency is a stated pain.",
+            "excluded": "All response durations, percentages and revenue claims; numeric baseline conflict remains unresolved."
+          }
+        ],
+        "destination": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+        "claims": {
+          "RMK-BRIGHT-1": [
+            "PR10-role"
+          ],
+          "RMK-BRIGHT-2": [
+            "PR03-case"
+          ],
+          "RMK-BRIGHT-3": [
+            "PR03-qualitative-scope"
+          ],
+          "RMK-BRIGHT-4": [
+            "PR03-resource"
+          ]
+        },
+        "consumer_policy": "Draft proposal; shared owner adoption required before production; no independent consumer truth."
+      },
+      "copy_sha256": "756cd8ffcd155c3dc6c9180a5ce5d4ff628b76c218b140816cd1a877c827cea0",
+      "promise": {
+        "card_id": "RMK-BRIGHT-4",
+        "headline": "Đọc case thiết kế chip",
+        "body": "Tìm 上海晶丰明源半导体股份有限公司 trong bộ 8 case studies để xem bối cảnh và giải pháp.",
+        "source_text": "Digiwin Việt Nam · digiwin.com.vn\n8 case studies bán dẫn · case04\n上海晶丰明源半导体股份有限公司",
+        "cta": "Xem case04",
+        "native_headline": "Đọc case thiết kế chip",
+        "alt": "Tìm 上海晶丰明源半导体股份有限公司 trong bộ 8 case studies để xem bối cảnh và giải pháp.",
+        "artwork_labels": [
+          "DIGIWIN · CASE SẢN XUẤT",
+          "4/4"
+        ]
+      },
+      "logical_destination": "/rmk-case/?entry=RMK-BRIGHT&case=case04&contract=rmk-fulfillment-content-v2&lang=vi#case-summary",
+      "adapter_state": "PLANNED_AFTER_BAO_DEMO_FREEZE_NOT_ROUTABLE_YET"
+    },
+    {
+      "group": "press",
+      "case_id": "pressway-vn",
+      "copy": {
+        "schema_version": 1,
+        "revision": "rmk-fulfillment-stage-a-proposal-v1-press",
+        "ads": [
+          {
+            "ad_id": "RMK-PRESS",
+            "caption": "Digiwin cung cấp giải pháp số cho sản xuất. Xem Pressway Precision triển khai Workflow ERP tại nhà máy nhựa mới ở Việt Nam.",
+            "cards": [
+              {
+                "card_id": "RMK-PRESS-1",
+                "headline": "Digiwin: giải pháp số cho sản xuất",
+                "body": "Digiwin phát triển và cung cấp giải pháp chuyển đổi số cho doanh nghiệp sản xuất, từ ERP đến sản xuất thông minh.",
+                "source_text": "Digiwin Việt Nam · Giới thiệu công ty",
+                "cta": "",
+                "native_headline": "Digiwin và chuyển đổi số sản xuất",
+                "alt": "Digiwin giới thiệu vai trò cung cấp giải pháp chuyển đổi số cho doanh nghiệp sản xuất.",
+                "artwork_labels": [
+                  "DIGIWIN · CASE SẢN XUẤT",
+                  "1/4"
+                ]
+              },
+              {
+                "card_id": "RMK-PRESS-2",
+                "headline": "Pressway: ERP cho nhà máy mới",
+                "body": "Pressway Precision hợp tác cùng Digiwin triển khai Workflow ERP cho nhà máy sản xuất nhựa mới tại Việt Nam.",
+                "source_text": "Digiwin Việt Nam · Case Pressway Precision",
+                "cta": "",
+                "native_headline": "Pressway: ERP cho nhà máy mới",
+                "alt": "Pressway Precision hợp tác cùng Digiwin triển khai Workflow ERP cho nhà máy sản xuất nhựa mới tại Việt Nam.",
+                "artwork_labels": [
+                  "DIGIWIN · CASE SẢN XUẤT",
+                  "2/4"
+                ]
+              },
+              {
+                "card_id": "RMK-PRESS-3",
+                "headline": "Quy trình và ngôn ngữ tại nhà máy",
+                "body": "Case mô tả giao diện Việt/Trung, tư vấn song ngữ và việc hai bên cùng thảo luận quy trình.",
+                "source_text": "Pressway Precision · Workflow ERP · Việt Nam",
+                "cta": "",
+                "native_headline": "Quy trình và ngôn ngữ tại nhà máy",
+                "alt": "Case mô tả giao diện Việt/Trung, tư vấn song ngữ và việc hai bên cùng thảo luận quy trình.",
+                "artwork_labels": [
+                  "DIGIWIN · CASE SẢN XUẤT",
+                  "3/4"
+                ]
+              },
+              {
+                "card_id": "RMK-PRESS-4",
+                "headline": "Xem dự án Pressway Precision",
+                "body": "Đọc case để xem nhu cầu bản địa hóa và cách Digiwin cùng doanh nghiệp chuẩn bị quy trình cho nhà máy mới.",
+                "source_text": "Digiwin Việt Nam · digiwin.com.vn\nCase Pressway Precision · Workflow ERP",
+                "cta": "Đọc case Pressway",
+                "native_headline": "Xem dự án Pressway Precision",
+                "alt": "Đọc case để xem nhu cầu bản địa hóa và cách Digiwin cùng doanh nghiệp chuẩn bị quy trình cho nhà máy mới.",
+                "artwork_labels": [
+                  "DIGIWIN · CASE SẢN XUẤT",
+                  "4/4"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "source_map": {
+        "revision": "rmk-fulfillment-stage-a-proposal-v1-press",
+        "sources": [
+          {
+            "proof_id": "PR10",
+            "url": "https://www.digiwin.com.vn/about-vn/",
+            "locator": "lines202–206, solution ecosystem",
+            "excerpt": "Digiwin phát triển hệ thống ERP",
+            "observed_scope": "Manufacturer digital solution provider identity.",
+            "excluded": "Scale rankings, counts and SLA."
+          },
+          {
+            "proof_id": "PR09",
+            "case_id": "pressway-vn",
+            "entity": "Pressway Precision",
+            "market": "Vietnam",
+            "url": "https://www.digiwin.com.vn/casestudies/erp-pressway-precision-case-study-vn/",
+            "locator": "lines127–134, localization and jointly discussed processes",
+            "excerpt": "giao diện song ngữ tiếng Việt/Trung",
+            "observed_scope": "New Vietnam plastics plant; Workflow ERP; bilingual interface and consulting; joint process discussions.",
+            "excluded": "One-month promise, semiconductor identity, ERP/MES integration ownership or success outcomes."
+          }
+        ],
+        "destination": "https://www.digiwin.com.vn/casestudies/erp-pressway-precision-case-study-vn/",
+        "claims": {
+          "RMK-PRESS-1": [
+            "PR10-role"
+          ],
+          "RMK-PRESS-2": [
+            "PR09-case"
+          ],
+          "RMK-PRESS-3": [
+            "PR09-qualitative-scope"
+          ],
+          "RMK-PRESS-4": [
+            "PR09-resource"
+          ]
+        },
+        "consumer_policy": "Draft proposal; shared owner adoption required before production; no independent consumer truth."
+      },
+      "copy_sha256": "9737742f53578abb8ee5990394dc6e12df745ed314ed6d76ca7acdf46fca9e55",
+      "promise": {
+        "card_id": "RMK-PRESS-4",
+        "headline": "Xem dự án Pressway Precision",
+        "body": "Đọc case để xem nhu cầu bản địa hóa và cách Digiwin cùng doanh nghiệp chuẩn bị quy trình cho nhà máy mới.",
+        "source_text": "Digiwin Việt Nam · digiwin.com.vn\nCase Pressway Precision · Workflow ERP",
+        "cta": "Đọc case Pressway",
+        "native_headline": "Xem dự án Pressway Precision",
+        "alt": "Đọc case để xem nhu cầu bản địa hóa và cách Digiwin cùng doanh nghiệp chuẩn bị quy trình cho nhà máy mới.",
+        "artwork_labels": [
+          "DIGIWIN · CASE SẢN XUẤT",
+          "4/4"
+        ]
+      },
+      "logical_destination": "/rmk-case/?entry=RMK-PRESS&case=pressway-vn&contract=rmk-fulfillment-content-v2&lang=vi#case-summary",
+      "adapter_state": "PLANNED_AFTER_BAO_DEMO_FREEZE_NOT_ROUTABLE_YET"
+    },
+    {
+      "group": "pin",
+      "case_id": "pinchuan-vn",
+      "copy": {
+        "schema_version": 1,
+        "revision": "rmk-fulfillment-stage-a-proposal-v1-pin",
+        "ads": [
+          {
+            "ad_id": "RMK-PIN",
+            "caption": "Digiwin cung cấp giải pháp số cho sản xuất. Xem Phẩm Thuyên Việt Nam triển khai eMES trong ngành dập kim loại chính xác.",
+            "cards": [
+              {
+                "card_id": "RMK-PIN-1",
+                "headline": "Digiwin: giải pháp số cho sản xuất",
+                "body": "Digiwin phát triển và cung cấp giải pháp chuyển đổi số cho doanh nghiệp sản xuất, từ ERP đến sản xuất thông minh.",
+                "source_text": "Digiwin Việt Nam · Giới thiệu công ty",
+                "cta": "",
+                "native_headline": "Digiwin và chuyển đổi số sản xuất",
+                "alt": "Digiwin giới thiệu vai trò cung cấp giải pháp chuyển đổi số cho doanh nghiệp sản xuất.",
+                "artwork_labels": [
+                  "DIGIWIN · CASE SẢN XUẤT",
+                  "1/4"
+                ]
+              },
+              {
+                "card_id": "RMK-PIN-2",
+                "headline": "Phẩm Thuyên: eMES tại Việt Nam",
+                "body": "Phẩm Thuyên Việt Nam hợp tác cùng Digiwin triển khai eMES trong ngành dập kim loại chính xác.",
+                "source_text": "Digiwin Việt Nam · Case Phẩm Thuyên Việt Nam",
+                "cta": "",
+                "native_headline": "Phẩm Thuyên: eMES tại Việt Nam",
+                "alt": "Phẩm Thuyên Việt Nam hợp tác cùng Digiwin triển khai eMES trong ngành dập kim loại chính xác.",
+                "artwork_labels": [
+                  "DIGIWIN · CASE SẢN XUẤT",
+                  "2/4"
+                ]
+              },
+              {
+                "card_id": "RMK-PIN-3",
+                "headline": "Dữ liệu vận hành ngay tại xưởng",
+                "body": "Case mô tả chuẩn hóa dữ liệu vận hành, báo cáo qua mobile và bảng Kanban tại xưởng.",
+                "source_text": "Phẩm Thuyên Việt Nam · eMES · Dập kim loại",
+                "cta": "",
+                "native_headline": "Dữ liệu vận hành ngay tại xưởng",
+                "alt": "Case mô tả chuẩn hóa dữ liệu vận hành, báo cáo qua mobile và bảng Kanban tại xưởng.",
+                "artwork_labels": [
+                  "DIGIWIN · CASE SẢN XUẤT",
+                  "3/4"
+                ]
+              },
+              {
+                "card_id": "RMK-PIN-4",
+                "headline": "Đọc case Phẩm Thuyên Việt Nam",
+                "body": "Xem bối cảnh và cách triển khai dữ liệu vận hành trong case eMES tại Phẩm Thuyên Việt Nam.",
+                "source_text": "Digiwin Việt Nam · digiwin.com.vn\nCase Phẩm Thuyên Việt Nam · eMES",
+                "cta": "Đọc case Phẩm Thuyên",
+                "native_headline": "Đọc case Phẩm Thuyên Việt Nam",
+                "alt": "Xem bối cảnh và cách triển khai dữ liệu vận hành trong case eMES tại Phẩm Thuyên Việt Nam.",
+                "artwork_labels": [
+                  "DIGIWIN · CASE SẢN XUẤT",
+                  "4/4"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "source_map": {
+        "revision": "rmk-fulfillment-stage-a-proposal-v1-pin",
+        "sources": [
+          {
+            "proof_id": "PR10",
+            "url": "https://www.digiwin.com.vn/about-vn/",
+            "locator": "lines202–206, solution ecosystem",
+            "excerpt": "Digiwin phát triển hệ thống ERP",
+            "observed_scope": "Manufacturer digital solution provider identity.",
+            "excluded": "Scale rankings, counts and SLA."
+          },
+          {
+            "proof_id": "PR08",
+            "case_id": "pinchuan-vn",
+            "entity": "Phẩm Thuyên Việt Nam",
+            "market": "Vietnam",
+            "url": "https://www.digiwin.com.vn/casestudies/pinchuan-vietnam-emes-case-study/",
+            "locator": "lines205–208,240–254: company, SOP, mobile reporting, Kanban, scheduling",
+            "excerpt": "Báo cáo qua mobile",
+            "observed_scope": "Precision metal stamping; eMES; operating-data standardization, mobile reporting and shopfloor Kanban.",
+            "excluded": "Percentages, deployment duration, semiconductor identity, customer-audit/genealogy outcome."
+          }
+        ],
+        "destination": "https://www.digiwin.com.vn/casestudies/pinchuan-vietnam-emes-case-study/",
+        "claims": {
+          "RMK-PIN-1": [
+            "PR10-role"
+          ],
+          "RMK-PIN-2": [
+            "PR08-case"
+          ],
+          "RMK-PIN-3": [
+            "PR08-qualitative-scope"
+          ],
+          "RMK-PIN-4": [
+            "PR08-resource"
+          ]
+        },
+        "consumer_policy": "Draft proposal; shared owner adoption required before production; no independent consumer truth."
+      },
+      "copy_sha256": "5e5b387d81e3c387664a5bde9e5d2ef71830079ee1ba792e69e66c6e29066386",
+      "promise": {
+        "card_id": "RMK-PIN-4",
+        "headline": "Đọc case Phẩm Thuyên Việt Nam",
+        "body": "Xem bối cảnh và cách triển khai dữ liệu vận hành trong case eMES tại Phẩm Thuyên Việt Nam.",
+        "source_text": "Digiwin Việt Nam · digiwin.com.vn\nCase Phẩm Thuyên Việt Nam · eMES",
+        "cta": "Đọc case Phẩm Thuyên",
+        "native_headline": "Đọc case Phẩm Thuyên Việt Nam",
+        "alt": "Xem bối cảnh và cách triển khai dữ liệu vận hành trong case eMES tại Phẩm Thuyên Việt Nam.",
+        "artwork_labels": [
+          "DIGIWIN · CASE SẢN XUẤT",
+          "4/4"
+        ]
+      },
+      "logical_destination": "/rmk-case/?entry=RMK-PIN&case=pinchuan-vn&contract=rmk-fulfillment-content-v2&lang=vi#case-summary",
+      "adapter_state": "PLANNED_AFTER_BAO_DEMO_FREEZE_NOT_ROUTABLE_YET"
+    }
+  ],
+  "rows": [
+    {
+      "cold_treatment_id": "O1",
+      "remaining_reader_question": "Digiwin có case triển khai cụ thể nào để tôi xem thêm?",
+      "cold_copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O1/worker/public-copy.json",
+      "cold_copy_sha256": "a10f0cdd6f73d3607ac04c23897c644446c242d5232622346407d28794cc1925",
+      "proposed_ad": "RMK-R4",
+      "case_id": "case06",
+      "claim_ids": [
+        "PR10-role",
+        "PR05-case",
+        "PR05-month-close"
+      ],
+      "status": "PRESERVE_ACCEPTED_R4",
+      "closing_promise": "Named China case06 context, integrated solution and attributed month-close result",
+      "creative_group": "accepted-r4",
+      "new_calls": 0,
+      "rationale": "O1/O4-Q accepted adjacent operations lane preserved."
+    },
+    {
+      "cold_treatment_id": "O2",
+      "remaining_reader_question": "Có case nào cho thấy phạm vi triển khai và kết quả quản trị?",
+      "cold_copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O2/worker/public-copy.json",
+      "cold_copy_sha256": "45de52823e205a82df37293457e0705332def75f5c332b72c24a1e4d10abaeed",
+      "status": "HOLD_PROOF_FIT",
+      "proposed_ad": null,
+      "case_id": null,
+      "claim_ids": [],
+      "closing_promise": null,
+      "creative_group": null,
+      "new_calls": 0,
+      "rationale": "Approved PR05 result covers month close, not lot-state reconciliation. A weak repeat of case06 would not answer this remaining question. New closer case/capability is not approved by public availability; affected row held."
+    },
+    {
+      "cold_treatment_id": "O3",
+      "remaining_reader_question": "Có case khóa sổ tháng với doanh nghiệp và kết quả xác định?",
+      "cold_copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/worker/public-copy.json",
+      "cold_copy_sha256": "6755dfd45a2dcb642d3631f55e6176b13c2073218adf5423e9d52bf7f155d2f1",
+      "proposed_ad": "RMK-R4",
+      "case_id": "case06",
+      "claim_ids": [
+        "PR10-role",
+        "PR05-case",
+        "PR05-month-close"
+      ],
+      "status": "PARENT_SELECTED_EXACT_R4_REUSE",
+      "closing_promise": "Named China case06 context, integrated solution and attributed month-close result",
+      "creative_group": "accepted-r4",
+      "new_calls": 0,
+      "rationale": "Finance remaining question fits the attributed month-close result; proposed reuse does not claim cost-per-lot or causal mechanism."
+    },
+    {
+      "cold_treatment_id": "O4-Q",
+      "remaining_reader_question": "Tôi có thể tự tìm và kiểm chứng case Digiwin nào?",
+      "cold_copy_path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/O4-Q/worker/public-copy.json",
+      "cold_copy_sha256": "7cadf1c4408228f90fbc8d9e59699c88b3fd09468eecc41d264a43e1e7ceff82",
+      "proposed_ad": "RMK-R4",
+      "case_id": "case06",
+      "claim_ids": [
+        "PR10-role",
+        "PR05-case",
+        "PR05-month-close"
+      ],
+      "status": "PRESERVE_ACCEPTED_R4",
+      "closing_promise": "Named China case06 context, integrated solution and attributed month-close result",
+      "creative_group": "accepted-r4",
+      "new_calls": 0,
+      "rationale": "O1/O4-Q accepted adjacent operations lane preserved."
+    },
+    {
+      "cold_treatment_id": "O4-O",
+      "remaining_reader_question": "Có proof triển khai phù hợp với câu hỏi quản trị này?",
+      "cold_copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O4-O/worker/public-copy.json",
+      "cold_copy_sha256": "95080f151296f81dff1e4b850e080e7bfb2c324ac8d444bad82270d92743d28c",
+      "status": "HOLD_PROOF_FIT",
+      "proposed_ad": null,
+      "case_id": null,
+      "claim_ids": [],
+      "closing_promise": null,
+      "creative_group": null,
+      "new_calls": 0,
+      "rationale": "Approved PR05 result covers month close, not lot-state reconciliation. A weak repeat of case06 would not answer this remaining question. New closer case/capability is not approved by public availability; affected row held."
+    },
+    {
+      "cold_treatment_id": "F1",
+      "remaining_reader_question": "Có case Fabless có tên và phạm vi triển khai để tự xem?",
+      "cold_copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/worker/public-copy.json",
+      "cold_copy_sha256": "35442440959244ef51dc7599747affd40936700b9b24c0353a0ba688d1a68b54",
+      "status": "PARENT_ADOPTED_QUALITATIVE_DRAFT",
+      "proposed_ad": "RMK-BRIGHT",
+      "case_id": "case04",
+      "claim_ids": [
+        "PR10-role",
+        "PR03-case",
+        "PR03-qualitative-scope",
+        "PR03-resource"
+      ],
+      "closing_promise": "Tìm 上海晶丰明源半导体股份有限公司 trong bộ 8 case studies để xem bối cảnh và giải pháp.",
+      "creative_group": "bright",
+      "new_calls": 4,
+      "rationale": "Named IC-design implementation gives supplier-consideration value after the Cold question; qualitative integrated scope, no forecast/WIP/handoff outcome or conflicting response metric."
+    },
+    {
+      "cold_treatment_id": "F2",
+      "remaining_reader_question": "Có case phù hợp để hiểu giải pháp và kết quả, ngoài câu hỏi cold?",
+      "cold_copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F2/worker/public-copy.json",
+      "cold_copy_sha256": "45b83f7a59323a2c00a0016f6f06472395b7f4a7a079ab5ec15c55c718a2b919",
+      "status": "PARENT_ADOPTED_QUALITATIVE_DRAFT",
+      "proposed_ad": "RMK-BRIGHT",
+      "case_id": "case04",
+      "claim_ids": [
+        "PR10-role",
+        "PR03-case",
+        "PR03-qualitative-scope",
+        "PR03-resource"
+      ],
+      "closing_promise": "Tìm 上海晶丰明源半导体股份有限公司 trong bộ 8 case studies để xem bối cảnh và giải pháp.",
+      "creative_group": "bright",
+      "new_calls": 4,
+      "rationale": "Named IC-design implementation gives supplier-consideration value after the Cold question; qualitative integrated scope, no forecast/WIP/handoff outcome or conflicting response metric."
+    },
+    {
+      "cold_treatment_id": "F3",
+      "remaining_reader_question": "Có proof triển khai nào phù hợp với việc giao nhận giữa các bên?",
+      "cold_copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F3/worker/public-copy.json",
+      "cold_copy_sha256": "42bfe643e390dc933637a852bc82210c288139c2bfee4e548826d3c907c640a6",
+      "status": "PARENT_ADOPTED_QUALITATIVE_DRAFT",
+      "proposed_ad": "RMK-BRIGHT",
+      "case_id": "case04",
+      "claim_ids": [
+        "PR10-role",
+        "PR03-case",
+        "PR03-qualitative-scope",
+        "PR03-resource"
+      ],
+      "closing_promise": "Tìm 上海晶丰明源半导体股份有限公司 trong bộ 8 case studies để xem bối cảnh và giải pháp.",
+      "creative_group": "bright",
+      "new_calls": 4,
+      "rationale": "Named IC-design implementation gives supplier-consideration value after the Cold question; qualitative integrated scope, no forecast/WIP/handoff outcome or conflicting response metric."
+    },
+    {
+      "cold_treatment_id": "P1",
+      "remaining_reader_question": "Có proof về vai trò triển khai của Digiwin phù hợp với đối tác?",
+      "cold_copy_path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P1/worker/public-copy.json",
+      "cold_copy_sha256": "5c986bbc26d6fb3e3862c9cd18d73b257c041fd419652c795613d74040068fc8",
+      "status": "PARENT_ADOPTED_QUALITATIVE_DRAFT",
+      "proposed_ad": "RMK-PRESS",
+      "case_id": "pressway-vn",
+      "claim_ids": [
+        "PR10-role",
+        "PR09-case",
+        "PR09-qualitative-scope",
+        "PR09-resource"
+      ],
+      "closing_promise": "Đọc case để xem nhu cầu bản địa hóa và cách Digiwin cùng doanh nghiệp chuẩn bị quy trình cho nhà máy mới.",
+      "creative_group": "press",
+      "new_calls": 4,
+      "rationale": "Actual local manufacturer ERP project shows jointly discussed process/localization scope; supporting provider implementation evidence, no semiconductor ERP/MES integration claim."
+    },
+    {
+      "cold_treatment_id": "P2",
+      "remaining_reader_question": "Có proof xác định phạm vi triển khai, thay vì suy capability tích hợp?",
+      "cold_copy_path": "operations/linkedin-imagegen-dogfood/corrective-rollout-2026-10-04/P2/worker/public-copy.json",
+      "cold_copy_sha256": "6240d4002e138fbff3e3fa2186a8deb45e280fbe7200b5194a941ec9552baef8",
+      "status": "PARENT_ADOPTED_QUALITATIVE_DRAFT",
+      "proposed_ad": "RMK-PRESS",
+      "case_id": "pressway-vn",
+      "claim_ids": [
+        "PR10-role",
+        "PR09-case",
+        "PR09-qualitative-scope",
+        "PR09-resource"
+      ],
+      "closing_promise": "Đọc case để xem nhu cầu bản địa hóa và cách Digiwin cùng doanh nghiệp chuẩn bị quy trình cho nhà máy mới.",
+      "creative_group": "press",
+      "new_calls": 4,
+      "rationale": "Actual local manufacturer ERP project shows jointly discussed process/localization scope; supporting provider implementation evidence, no semiconductor ERP/MES integration claim."
+    },
+    {
+      "cold_treatment_id": "P3",
+      "remaining_reader_question": "Có case quản trị hồ sơ phù hợp, với vai trò Digiwin rõ ràng?",
+      "cold_copy_path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/P3/worker/public-copy.json",
+      "cold_copy_sha256": "b5225251b5abe014caa2d9fcd2e38ebc3f70b19188ac28ac052f08d4ff41ca19",
+      "status": "PARENT_ADOPTED_QUALITATIVE_DRAFT",
+      "proposed_ad": "RMK-PIN",
+      "case_id": "pinchuan-vn",
+      "claim_ids": [
+        "PR10-role",
+        "PR08-case",
+        "PR08-qualitative-scope",
+        "PR08-resource"
+      ],
+      "closing_promise": "Xem bối cảnh và cách triển khai dữ liệu vận hành trong case eMES tại Phẩm Thuyên Việt Nam.",
+      "creative_group": "pin",
+      "new_calls": 4,
+      "rationale": "Actual local metal-stamping eMES implementation shows operating-data practices; supporting supplier evidence for dossier-minded readers, no audit-readiness or semiconductor genealogy outcome."
+    }
+  ],
+  "case06_reuse": "Exact frozen R4; O3 selected for finance consideration, additional entry adapter pending",
+  "lifecycle": "PARENT_REVIEWED_CREATIVE_CONTENT_NOT_PAIR_ACCEPTED"
+}

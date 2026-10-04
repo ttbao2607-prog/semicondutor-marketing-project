@@ -1,0 +1,43 @@
+{
+  "files": {
+    "demo1-dogfood-pressway.html": {
+      "sha256": "c92cd2b8ab52a1594051249b7624d7e6166f89dc44eef5e6199670664a28fe19",
+      "bytes": 39731
+    },
+    "ldp-case06-anchor-no-diagram.html": {
+      "sha256": "db68a4441f12ea4923ec82514d9bf5ba5af7252b9dd329837fd6f93fc29f625a",
+      "bytes": 46159
+    },
+    "demo1-dogfood-evaluation.md": {
+      "sha256": "428f2ca9b9382ffed86a36f4a90a3e9b581a8a8e139b67d6a1e101933b68efe8",
+      "bytes": 7045
+    },
+    "demo1-dogfood-parent-audit.json": {
+      "sha256": "f057fef19211f1f455609b891e06b102ca1a2e8ba0381ccd1dbadff6c42e1626",
+      "bytes": 18389
+    },
+    "demo1-dogfood-checkpoint-receipt.json": {
+      "sha256": "8647b574e473c52af3ef56096ac185232b1a7c6f02128e738a38ac2bb44a6fe5",
+      "bytes": 14633
+    },
+    "html-harness-demo1-dogfood.zip": {
+      "sha256": "b5e8b3911ef466b9a7bc08c2f6931c38add28cc91f6b08d05329095fa2f21224",
+      "bytes": 485382
+    },
+    "carousel-status-dogfood1-2026-10-04.md": {
+      "sha256": "bf708f56f0024d7c7d82fea678cd99983cf957c854c44047ce4edb8ae98fada2",
+      "bytes": 2383
+    },
+    "html-harness-dogfood1-spec.md": {
+      "sha256": "500cae001d9c49a7d22fe960b4985ff3a9de6dae65a5f7b0f6e7248a7f12c182",
+      "bytes": 1578
+    }
+  },
+  "archive_integrity": "PASS",
+  "inventory_raw_pins": "40/40PASS",
+  "commits": {
+    "ldp": "857965dadbce20ca53cca49db7d12eb34b77ca0b",
+    "parent": "a0ce46a20c7837a45a4bd167a3d673b60ba93a79"
+  },
+  "public_demo": "HTML contains only reviewed public fields; internal harness/evaluation archive is for project review, not a customer-facing web bundle"
+}
