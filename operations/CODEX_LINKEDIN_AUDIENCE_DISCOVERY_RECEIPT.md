@@ -1,4 +1,10 @@
+> **Research live UI · 2026-10-05:** Exact Company List Ready/80%; Details và refreshed list có **753,731 members**, 117 Companies, tab Unmatched 86. VN + English profile + Engineering/Operations/IT/QA = **4,800+**; thêm Manager/Director/VP/CXO = **780** ở saved definition `RSCH-CL-VN-LEAD-20261005` (persistence verified). Cùng filters + Vietnamese profile báo too small. Size gate discovery đã xác minh; mapping quality/denominator và production decisions vẫn OPEN. Retargeting menu không có Carousel riêng; warm RMK chưa đủ evidence. Chỉ lưu Saved Audience; Exit without saving ad set, không publish/enable/spend. [Receipt](LinkedIn_Audience_Ready_Research_2026-10-05.md). Snapshot cropped-size phía dưới là lịch sử trước research.
+
+> **Company List Ready · 2026-10-05:** Bảo xác nhận đúng `TEST-AUD-COMPANY-LIST-DISCOVERY-202610`; ảnh cung cấp hiển thị **Ready / match rate 80% / Company List / Owned**, Active ad sets `-`. Exact audience count bị cắt nên chưa xác minh reachable size hoặc gán `AUD_STATUS_READY_VIABLE`. Điều kiện chờ Building của đúng tệp này đã gỡ; engagement RMK `LI-AUD-P1-ENGAGED-30D`, targeting/filtered reach, attachment, budget và live vẫn có gate riêng. Các snapshot Building ngày 2026-09-30 bên dưới là lịch sử, được thay thế cho current Company List status bởi [evidence và bảng task](LinkedIn_Company_List_Ready_Update_2026-10-05.md).
+
 # BIÊN BẢN NGHIỆM THU KHÁM PHÁ LINKEDIN MATCHED AUDIENCE
+
+## Snapshot lịch sử — 2026-09-30 (không phải current status)
 
 - **Thời điểm kiểm tra (Timestamp):** 2026-09-30 14:16 UTC+7
 - **Tài khoản Campaign Manager:** Tài khoản Digiwin đã được xác nhận trên UI (tên và ID được lược khỏi receipt đã sanitize)
