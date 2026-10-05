@@ -1,3 +1,5 @@
+> **Latest PO closeout · 2026-10-05:** Phase 1 ưu tiên cold; RMK concept campaign/new-ad cohort → interaction window → Engagement hoặc click LDP được ghi nhận, không tự suy account hỗ trợ native Carousel interaction source. Defer implementation gap tới preparation Phase 2; chưa đổi objective/creative, chưa launch. PO yêu cầu local checkpoint + main integration.
+
 # Cold awareness mới → engagement RMK: evidence và data plan · 2026-10-05
 
 ## PO scope correction
