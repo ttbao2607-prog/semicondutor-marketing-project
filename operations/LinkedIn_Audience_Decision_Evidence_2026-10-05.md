@@ -1,3 +1,5 @@
+> **PO scope / Carousel verification · 2026-10-05:** Giữ **new cold Brand awareness + Carousel image → RMK chính new-ad cohort sau đó**; không lấy existing Digiwin Page pool. Awareness có Carousel (PO screenshot/UI), **Engagement cũng có Carousel** (selected native UI/screenshot); official guidance thêm Website visits, Website conversions, Lead generation. Format compatibility không phải native RMK source eligibility; đổi objective chưa giải quyết Carousel-source gap. Bảo không chọn Document; không đổi objective/creative. Trước delivery chưa có warm pool là expected, không phải blocker cold launch. Source CSV 424 rows chỉ name/country/city; private full review worksheet + source registry/measurement/gate templates đã chuẩn bị, identity/cleaned reach OPEN. [Current evidence/data plan](LinkedIn_Cold_To_RMK_Data_Plan_2026-10-05.md).
+
 # LinkedIn — evidence để quyết định targeting và RMK · 2026-10-05
 
 ## Mandate / acceptance

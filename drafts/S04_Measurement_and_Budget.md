@@ -1,3 +1,5 @@
+> **PO scope / Carousel verification · 2026-10-05:** Giữ **new cold Brand awareness + Carousel image → RMK chính new-ad cohort sau đó**; không lấy existing Digiwin Page pool. Awareness có Carousel (PO screenshot/UI), **Engagement cũng có Carousel** (selected native UI/screenshot); official guidance thêm Website visits, Website conversions, Lead generation. Format compatibility không phải native RMK source eligibility; đổi objective chưa giải quyết Carousel-source gap. Bảo không chọn Document; không đổi objective/creative. Trước delivery chưa có warm pool là expected, không phải blocker cold launch. Source CSV 424 rows chỉ name/country/city; private full review worksheet + source registry/measurement/gate templates đã chuẩn bị, identity/cleaned reach OPEN. [Current evidence/data plan](../operations/LinkedIn_Cold_To_RMK_Data_Plan_2026-10-05.md).
+
 # S04 — Measurement & budget draft
 
 **Status:** draft only; no tracking/account mutation and no live budget  
@@ -132,3 +134,8 @@ Pacing controls to be filled after discovery: delivery dates, spend curve, revie
 **L2 decision pack:** confirm the planning envelope, delivery dates, tax/fee basis, route, form/receiver scope, objective/bidding posture, pacing limits and permissions for any publish/enable/pause action.
 
 **Stop:** no tag/event/container setup, no form submit, no account edit, no budget change and no live KPI claim.
+
+
+## New-cold → RMK collection addendum · 2026-10-05
+
+Current contract: pin exact new cold campaign/ad-set/creative IDs and revisions, collect actual native reach/spend/metric-defined engagements, then inspect matched pool status/count and filtered eligibility. No existing Page pool or historical test activity enters the campaign baseline. New-campaign data remain UNKNOWN until delivery; source engagements are not unique matched people. 30-day cohort is planned, not verified Building. Cold keeps Brand awareness + Carousel; Engagement also supports Carousel but native Carousel engagement audience source remains unverified. Document alternative rejected by PO. Daily snapshots and eligible-day 3/7 then weekly checks are proposals, not scheduled jobs or a promised RMK-ready date. Budget/allocation/ceiling remain unchanged and do not authorize spend. See [data contract](../operations/LinkedIn_Cold_To_RMK_Data_Plan_2026-10-05.md).
