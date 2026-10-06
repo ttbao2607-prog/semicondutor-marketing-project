@@ -1,0 +1,21 @@
+{
+  "revision": "candidate1-v4-po-checkpoint-2026-10-06",
+  "user_instruction": "ổn r, commit checkpoint, sau đó chọn candidate 2 để dogfood, đợt 2 nếu ổn freeze dogfood chuẩn bị làm hàng loạt.",
+  "acceptance": "USER_ACCEPTED_CURRENT_OFFLINE_CANDIDATE",
+  "accepted_revision": "candidate1-english-v4",
+  "manifest_sha256": "fe3eebd7d2c7d044e387a140732d2c59a4135a2a65d42eb7e106a47714ffa9dc",
+  "zip_sha256": "c33cf316c62e70c7e13ecc635cb3e4ccaae0c0223ab0208c4cc845ff1c5caf00",
+  "limits_preserved": [
+    "Actual mobile-device viewport review remains NOT_PERFORMED.",
+    "PO acceptance does not manufacture missing render evidence or rewrite historical anchor verdict.",
+    "Dogfood freeze is conditional on round2 results; no current harness/adapter lifecycle promotion."
+  ],
+  "scope": "Local checkpoint on current branch; no main merge, push or live action.",
+  "verification": {
+    "benchmark_files_unchanged": 260,
+    "selected_image_hashes": "10_MATCH",
+    "zip_crc": "PASS"
+  },
+  "docs_impact": "CURRENT_STATE updated; anchor, editorial gate, runbook, locale adapter and guarded process reviewed; no process/strategy/budget/profile change in this checkpoint.",
+  "audit": "ROOT_SELF_REVIEW; user acceptance quoted separately, no independent-agent audit claimed."
+}

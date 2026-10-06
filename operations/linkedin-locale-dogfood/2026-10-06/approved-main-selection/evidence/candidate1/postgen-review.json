@@ -1,0 +1,225 @@
+{
+  "gate_id": "MSG-ANCHOR-01",
+  "stage": "POSTGEN_ARTIFACT",
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "revision": "1.0"
+  },
+  "source": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "revision": "VY-MAIL-USER-20261006"
+  },
+  "persona": "Plant/Operations Manager coordinating with finance at an eligible FDI packaging/testing business",
+  "route": "offline cold -> explanation -> China case; ads-derived warm hypothesis",
+  "locale": "en",
+  "segment": "FDI",
+  "revision": "candidate1-corrective-postgen-v4",
+  "verdict": "INSUFFICIENT_EVIDENCE",
+  "scope_observed": "Native plus actual331.22px artwork preview in desktop browser; named reader verified",
+  "native_message_review": "MATCH_SELF_REVIEW",
+  "native_artifact_review": "NO_LISTED_MATERIAL_FINDING",
+  "rendered_feed_review": "OBSERVED_SELF_REVIEW",
+  "full_device_mobile_review": "NOT_PERFORMED",
+  "original_three_findings": "CLOSED",
+  "units": [
+    {
+      "card_id": "COLD-OSAT-FIN-02-IMAGE",
+      "artifact": {
+        "path": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/assets/01.png",
+        "sha256": "8e7e3ea82f3e2757e352167d28234a7972effd528a2f65797e47eb2b5a4cd8bd",
+        "revision": "candidate1-v4"
+      },
+      "observation": "Cold month-end tension and operations-to-finance question preserved; no wafer or data scene added.",
+      "native_review": "NO_LISTED_MATERIAL_FINDING",
+      "render_scope": "331.22px artwork; not device viewport certification"
+    },
+    {
+      "card_id": "O3-A1",
+      "artifact": {
+        "path": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/assets/02.png",
+        "sha256": "a32ba663c6762254a14c5a5a230d038cbcb293767d4a6c8be9599a4a116b9546",
+        "revision": "candidate1-v4"
+      },
+      "observation": "Cut-off completeness question uses neutral records and packaged chip context.",
+      "native_review": "NO_LISTED_MATERIAL_FINDING",
+      "render_scope": "331.22px artwork; not device viewport certification"
+    },
+    {
+      "card_id": "O3-A2",
+      "artifact": {
+        "path": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/assets/03.png",
+        "sha256": "43f5cd60b4ebfcdb625616974b8ee9d4baea9d40ff7c0f3a456d306ae8a021ff",
+        "revision": "candidate1-v4"
+      },
+      "observation": "Lot/stage/owner question unchanged; neutral process relation, no invented record quantities.",
+      "native_review": "NO_LISTED_MATERIAL_FINDING",
+      "render_scope": "331.22px artwork; not device viewport certification"
+    },
+    {
+      "card_id": "O3-A3",
+      "artifact": {
+        "path": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/assets/04.png",
+        "sha256": "ccb72810bf6d30372853d63b9ef6528df5e4d2f30b14caa75c8f9134746d2fbc",
+        "revision": "candidate1-v4"
+      },
+      "observation": "Completion/scrap/loss reconciliation question unchanged; no chart or extra yield claim.",
+      "native_review": "NO_LISTED_MATERIAL_FINDING",
+      "render_scope": "331.22px artwork; not device viewport certification"
+    },
+    {
+      "card_id": "O3-A4",
+      "artifact": {
+        "path": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/assets/05.png",
+        "sha256": "e961d2bba5386b7b5d24c1814fda667ad6712a79a4b868b65b5467c7545dd504",
+        "revision": "candidate1-v4"
+      },
+      "observation": "Handoff ownership/cut-off question unchanged, factory and finance relation remains explicit.",
+      "native_review": "NO_LISTED_MATERIAL_FINDING",
+      "render_scope": "331.22px artwork; not device viewport certification"
+    },
+    {
+      "card_id": "O3-A5",
+      "artifact": {
+        "path": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/assets/06.png",
+        "sha256": "fbd2bd176f568547f53316f086a576a08c511611c4e35e805197d49c0557fe9f",
+        "revision": "candidate1-v4"
+      },
+      "observation": "Corrected: paper is blank; no bar/pie chart. Shared discussion mechanism and full-width Taiwan solution attribution/CTA exact.",
+      "native_review": "NO_LISTED_MATERIAL_FINDING",
+      "render_scope": "331.22px artwork; not device viewport certification"
+    },
+    {
+      "card_id": "RMK-R4-1",
+      "artifact": {
+        "path": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/assets/07.png",
+        "sha256": "e1a8fb486e3507c055a1dbe63ac55c036046c6dc341643cdb070abfd011d8892",
+        "revision": "candidate1-v4"
+      },
+      "observation": "Corrected: SEMICONDUCTOR CASE and1/4 present; company-introduction source separate and legible after feed reflow.",
+      "native_review": "NO_LISTED_MATERIAL_FINDING",
+      "render_scope": "331.22px artwork; not device viewport certification"
+    },
+    {
+      "card_id": "RMK-R4-2",
+      "artifact": {
+        "path": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/assets/08.png",
+        "sha256": "a3fe7e6aaff54ddab610e1b5b057e6c7ca4560d046f0964361f836d0db16456c",
+        "revision": "candidate1-v4"
+      },
+      "observation": "Source readability improved after observed feed finding; exact legal name, integrated-solution description and China context retained; no wafer/geographical icon.",
+      "native_review": "NO_LISTED_MATERIAL_FINDING",
+      "render_scope": "331.22px artwork; not device viewport certification"
+    },
+    {
+      "card_id": "RMK-R4-3",
+      "artifact": {
+        "path": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/assets/09.png",
+        "sha256": "e70814910bf848fddddf6546ea136a3975b6c01d4ad199aa20eda7bc8a8b5a61",
+        "revision": "candidate1-v4"
+      },
+      "observation": "Corrected: no calendar/highlighted days or data graphics; exact Chinese name and15-to-5 result only in approved text. Plain China source, no Taipei-like skyline.",
+      "native_review": "NO_LISTED_MATERIAL_FINDING",
+      "render_scope": "331.22px artwork; not device viewport certification"
+    },
+    {
+      "card_id": "RMK-R4-4",
+      "artifact": {
+        "path": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/assets/10.png",
+        "sha256": "f780e33668a5b8bda8e6ed29c13f074e1ae178de3fc2ce6a3f1ee1e6cf6da889",
+        "revision": "candidate1-v4"
+      },
+      "observation": "Reading invitation/source/Chinese entity unchanged, full-width source separate from CTA.",
+      "native_review": "NO_LISTED_MATERIAL_FINDING",
+      "render_scope": "331.22px artwork; not device viewport certification"
+    }
+  ],
+  "transitions": [
+    {
+      "cards": [
+        "COLD-OSAT-FIN-02-IMAGE",
+        "O3-A1"
+      ],
+      "observation": "Same reviewed story order and copy; inspected continuity in native and feed-sized artifacts.",
+      "verdict": "MATCH_SELF_REVIEW"
+    },
+    {
+      "cards": [
+        "O3-A1",
+        "O3-A2"
+      ],
+      "observation": "Same reviewed story order and copy; inspected continuity in native and feed-sized artifacts.",
+      "verdict": "MATCH_SELF_REVIEW"
+    },
+    {
+      "cards": [
+        "O3-A2",
+        "O3-A3"
+      ],
+      "observation": "Same reviewed story order and copy; inspected continuity in native and feed-sized artifacts.",
+      "verdict": "MATCH_SELF_REVIEW"
+    },
+    {
+      "cards": [
+        "O3-A3",
+        "O3-A4"
+      ],
+      "observation": "Same reviewed story order and copy; inspected continuity in native and feed-sized artifacts.",
+      "verdict": "MATCH_SELF_REVIEW"
+    },
+    {
+      "cards": [
+        "O3-A4",
+        "O3-A5"
+      ],
+      "observation": "Same reviewed story order and copy; inspected continuity in native and feed-sized artifacts.",
+      "verdict": "MATCH_SELF_REVIEW"
+    },
+    {
+      "cards": [
+        "O3-A5",
+        "RMK-R4-1"
+      ],
+      "observation": "Same reviewed story order and copy; inspected continuity in native and feed-sized artifacts.",
+      "verdict": "MATCH_SELF_REVIEW"
+    },
+    {
+      "cards": [
+        "RMK-R4-1",
+        "RMK-R4-2"
+      ],
+      "observation": "Same reviewed story order and copy; inspected continuity in native and feed-sized artifacts.",
+      "verdict": "MATCH_SELF_REVIEW"
+    },
+    {
+      "cards": [
+        "RMK-R4-2",
+        "RMK-R4-3"
+      ],
+      "observation": "Same reviewed story order and copy; inspected continuity in native and feed-sized artifacts.",
+      "verdict": "MATCH_SELF_REVIEW"
+    },
+    {
+      "cards": [
+        "RMK-R4-3",
+        "RMK-R4-4"
+      ],
+      "observation": "Same reviewed story order and copy; inspected continuity in native and feed-sized artifacts.",
+      "verdict": "MATCH_SELF_REVIEW"
+    }
+  ],
+  "whole_journey": "Eligible local FDI packaging/testing plant manager bridges to finance; cold tension -> records -> ownership -> shared cost discussion -> provider -> named China integrated solution -> attributed15-to-5 outcome -> English reader. Taiwan solution context stays separate from China customer proof. No explicit financial ROI or universal guarantee added.",
+  "remaining_limits": [
+    "SELF_REVIEW, no PO acceptance",
+    "Real mobile viewport layout not certified; prior denied raw-CDP route not retried",
+    "Full-page screenshot timed out; supported getScreenshot succeeded",
+    "Effective ImageGen model/effort not exposed",
+    "Account eligibility remains a scoped hypothesis; no live release"
+  ],
+  "harness_adapter_lifecycle_mutations": 0,
+  "git_mutations": 0
+}

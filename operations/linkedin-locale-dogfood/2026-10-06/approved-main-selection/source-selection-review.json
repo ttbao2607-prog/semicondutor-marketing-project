@@ -1,0 +1,47 @@
+{
+  "revision": "candidate1-2-3-selection-v1",
+  "authority": "Current user approves local checkpoint and conditionally merges reviewed artifacts; previous candidate1 approval retained.",
+  "candidates": [
+    {
+      "candidate": "candidate1",
+      "locale": "en",
+      "manifest": "operations/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-corrective-v3/final-candidate-manifest.json",
+      "manifest_sha256": "fe3eebd7d2c7d044e387a140732d2c59a4135a2a65d42eb7e106a47714ffa9dc",
+      "selected_images": 10,
+      "decode": "PASS",
+      "needs_image_correction": false,
+      "correction": null,
+      "main_selection": true,
+      "render_scope": "MOBILE_NOT_PERFORMED, OFFLINE_PO_ACCEPTED_ONLY"
+    },
+    {
+      "candidate": "candidate2",
+      "locale": "zh-Hans",
+      "manifest": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v1/final-viewer-manifest.json",
+      "manifest_sha256": "b50b1ab23fc473ce3a9f670e4c11b7baa680755e92a2e36b5c1e10484b389719",
+      "selected_images": 10,
+      "decode": "PASS",
+      "needs_image_correction": true,
+      "correction": "Card9 case source remains smaller than body; new reviewed layout required.",
+      "main_selection": false,
+      "render_scope": "INSUFFICIENT_EVIDENCE, CHANGES_REQUIRED"
+    },
+    {
+      "candidate": "candidate3",
+      "locale": "zh-Hant",
+      "manifest": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/final-viewer-manifest.json",
+      "manifest_sha256": "ebe0279e15a58ecfc6bde3e7135cf57545badce23dcb9203b8e51595a6c22db8",
+      "selected_images": 10,
+      "decode": "PASS",
+      "needs_image_correction": false,
+      "correction": null,
+      "main_selection": true,
+      "render_scope": "DESKTOP_FEED_MOBILE_READER_SELF_REVIEW_PASS"
+    }
+  ],
+  "original_images_verified": 30,
+  "independence": "ROOT_SELF_REVIEW",
+  "zip_handoff": "SUPERSEDED_BY_FOLDER_ONLY",
+  "adapter": "DEVELOPING / NOT_FROZEN",
+  "image_generation_this_task": 0
+}

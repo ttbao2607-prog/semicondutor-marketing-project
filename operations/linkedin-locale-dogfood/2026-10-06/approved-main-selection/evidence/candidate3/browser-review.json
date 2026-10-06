@@ -1,0 +1,64 @@
+{
+  "revision": "candidate3-browser-review-v1",
+  "evidence": "Actual tool-visible screenshots and DOM observations; no fabricated saved screenshot files.",
+  "desktop": {
+    "actual_css_viewport_width": 1707,
+    "image_width_approx": 638.222,
+    "cards": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "final10": "Upper/lower overlapping ordinary viewport captures after corrective."
+  },
+  "feed": {
+    "actual_image_width_approx": 331.222,
+    "cards": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "final9_10": "Corrective selected paths confirmed and actual source paragraphs inspected."
+  },
+  "mobile": {
+    "requested_override": "351x760",
+    "actual_css_viewport": "390x844",
+    "actual_image_width_range": [
+      315.555,
+      332.444
+    ],
+    "cards": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "final10": "Fresh corrective mobile screenshot reviewed."
+  },
+  "reader": "Desktop and mobile actual screenshots, correct source/entity/ERP+iMES/15-to-5, no horizontal overflow; return link verified.",
+  "capture_limitations": [
+    "Some fast screenshot batches returned previous visual frames despite fresh DOM. Only identifiable actual frames count; separate settled captures and earlier mobile/native coverage resolve selection ambiguity.",
+    "Full-page desktop screenshots later timed out. Raw CDP was blocked by a saved user preference and stopped. Ordinary existing-tab screenshot and keyboard navigation supplied final coverage; no raw-policy bypass."
+  ],
+  "viewport_override": "RESET"
+}
