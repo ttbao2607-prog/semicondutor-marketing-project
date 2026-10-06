@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "revision": "candidate2-corrective2-anchor-v1",
+  "gate_id": "MSG-ANCHOR-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "revision": "1.0"
+  },
+  "source": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "revision": "VY-MAIL-USER-20261006"
+  },
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/card9-source-main-paragraph/contract.json",
+      "sha256": "9ec3da60552b53861d5aaab28c12c42caf41061f19d2248f453c9437a8336fa3",
+      "revision": "candidate2-corrective2-source-contract-v1"
+    },
+    "copy": {
+      "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/reviewed-proof-copy.json",
+      "sha256": "761e8ad4dc689193400a019bc0c9ba129226ab9f67d1918fb88e9f8717c0baf8",
+      "revision": "candidate2-proof-copy-source-layout-v2"
+    },
+    "spec": {
+      "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/card9-source-main-paragraph/spec.json",
+      "sha256": "2d94a78ddf3f303706bf3192a70e0b97d7109181ca405aad5d3f173cde9dc131",
+      "revision": "candidate2-corrective2-spec-v1"
+    },
+    "script_review": {
+      "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/card9-source-main-paragraph/script-review.json",
+      "sha256": "d895ef02e58edd0f5ee24097a75eed7eb77f7fa99f294a748f21da0208de5fca",
+      "revision": "candidate2-corrective2-editorial-v1"
+    }
+  },
+  "scope": {
+    "segment": "FDI",
+    "locale": "zh-Hans",
+    "persona": "Plant/Operations Manager coordinating with finance at an eligible FDI packaging/testing business",
+    "route": "offline cold -> explanation -> China case; ads-derived warm hypothesis"
+  },
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "coverage": {
+    "ads": [
+      "RMK-R4"
+    ],
+    "cards": [
+      "RMK-R4-1",
+      "RMK-R4-2",
+      "RMK-R4-3",
+      "RMK-R4-4"
+    ],
+    "fields": {
+      "RMK-R4": [
+        "caption",
+        "RMK-R4-1.headline",
+        "RMK-R4-1.body",
+        "RMK-R4-1.source_text",
+        "RMK-R4-1.cta",
+        "RMK-R4-1.native_headline",
+        "RMK-R4-1.alt",
+        "RMK-R4-1.artwork_labels",
+        "RMK-R4-2.headline",
+        "RMK-R4-2.body",
+        "RMK-R4-2.source_text",
+        "RMK-R4-2.cta",
+        "RMK-R4-2.native_headline",
+        "RMK-R4-2.alt",
+        "RMK-R4-2.artwork_labels",
+        "RMK-R4-3.headline",
+        "RMK-R4-3.body",
+        "RMK-R4-3.source_text",
+        "RMK-R4-3.cta",
+        "RMK-R4-3.native_headline",
+        "RMK-R4-3.alt",
+        "RMK-R4-3.artwork_labels",
+        "RMK-R4-4.headline",
+        "RMK-R4-4.body",
+        "RMK-R4-4.source_text",
+        "RMK-R4-4.cta",
+        "RMK-R4-4.native_headline",
+        "RMK-R4-4.alt",
+        "RMK-R4-4.artwork_labels"
+      ]
+    },
+    "storyboard_cards": [
+      "RMK-R4-1",
+      "RMK-R4-2",
+      "RMK-R4-3",
+      "RMK-R4-4"
+    ]
+  },
+  "rules": {
+    "A1": {
+      "verdict": "MATCH",
+      "observation": "Packaging/testing is one bounded source-based industrial pilot, not the default target-account universe. No front-end fab imagery; wider supply-chain ICP is not replaced."
+    },
+    "A2": {
+      "verdict": "MATCH",
+      "observation": "Only local entities with real management need and decision scope fit; large centrally managed groups are not assumed addressable. This content pilot makes no eligibility assertion."
+    },
+    "A3": {
+      "verdict": "MATCH",
+      "observation": "FDI zh-Hans operations reader with finance collaborator. Chinese authored all fields; old finance-first draft not adopted. Ownership and local ERP authority not inferred from language."
+    },
+    "A4": {
+      "verdict": "MATCH",
+      "observation": "Implicit value: fewer waits/repeated reconciliation and clearer lot/cut-off/handoff responsibility. Named China result15to5 is time outcome, not financial ROI or promise."
+    },
+    "A5": {
+      "verdict": "N/A",
+      "observation": "Domestic VN readiness bridge is not applicable to this FDI Simplified Chinese operations journey."
+    },
+    "A6": {
+      "verdict": "MATCH",
+      "observation": "Lot cut-off, unfinished work, completion/loss source records and handoff ownership give relevant depth; no required recipe/audit topic stuffing."
+    },
+    "A7": {
+      "verdict": "MATCH",
+      "observation": "Question -> records -> responsibility -> shared review -> China proof -> named case reading. Taiwan context and China outcome are separated; proof is not ERP-only causality."
+    }
+  },
+  "units": [
+    {
+      "card_id": "RMK-R4-1",
+      "verdict": "MATCH",
+      "observation": "面向制造业的数字化解决方案 | 我们为制造企业开发并提供数字化转型解决方案，从ERP到智能制造。 | Source/CTA: Digiwin 越南 · 公司介绍 / "
+    },
+    {
+      "card_id": "RMK-R4-2",
+      "verdict": "MATCH",
+      "observation": "中国封装测试企业的实践 | 江苏中科智芯集成科技有限公司采用整合数字化方案。案例涉及记录、流程，以及委外与生产效率。 | Source/CTA: Digiwin 越南 · 8个案例 · 封装测试 / "
+    },
+    {
+      "card_id": "RMK-R4-3",
+      "verdict": "MATCH",
+      "observation": "月结时间：从15天缩短至5天 | 在中国企业\n江苏中科智芯集成科技有限公司\n的案例中，月结时间从15天缩短至5天。 | Source: 案例：江苏中科智芯集成科技有限公司\n中国; line breaks/separator layout only, named China case scope retained."
+    },
+    {
+      "card_id": "RMK-R4-4",
+      "verdict": "MATCH",
+      "observation": "阅读案例与实施内容 | 在8个半导体案例中找到江苏中科智芯集成科技有限公司，了解背景、方案与公布的成果。 | Source/CTA: Digiwin 越南 · digiwin.com.vn\n8个半导体案例\n江苏中科智芯集成科技有限公司 / 阅读封装测试案例"
+    }
+  ],
+  "transitions": [
+    {
+      "cards": [
+        "RMK-R4-1",
+        "RMK-R4-2"
+      ],
+      "verdict": "MATCH",
+      "observation": "面向制造业的数字化解决方案 -> 封装测试：中国企业案例; same plant/finance reconciliation thread."
+    },
+    {
+      "cards": [
+        "RMK-R4-2",
+        "RMK-R4-3"
+      ],
+      "verdict": "MATCH",
+      "observation": "封装测试：中国企业案例 -> 中国案例的月结时间变化; same plant/finance reconciliation thread."
+    },
+    {
+      "cards": [
+        "RMK-R4-3",
+        "RMK-R4-4"
+      ],
+      "verdict": "MATCH",
+      "observation": "中国案例的月结时间变化 -> 阅读整合方案案例; same plant/finance reconciliation thread."
+    }
+  ],
+  "context": {
+    "scope": "FULL_JOURNEY",
+    "verdict": "MATCH",
+    "observation": "Same FDI plant/operations persona collaborating with finance throughout: cold records question -> lot cut-off and handoff -> shared cost review -> provider -> named China case/time outcome -> Chinese reader/source. Bound local-system eligibility hypothesis; China case not direct proof of every O3 mechanism. Taiwan source and China result separated.9adjacent transitions reviewed including cold/explanation and explanation/proof boundaries. ROI implicit as Bao clarified. Actual reader script reviewed in Chinese; its original fallback strings are unused and will not be rendered. Fresh corrective script and source paragraph reviewed; all related cold/explanation/reader inputs remain pinned and unchanged.",
+    "brief": {
+      "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/brief.md",
+      "sha256": "8fba4c3e383b5982f4703d9821112444d47480aba4de8c2d6127bcdb53839159",
+      "revision": "candidate2-corrective-v2-brief"
+    },
+    "related_inputs": [
+      {
+        "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v1/cold/adapter-draft/public-copy.draft.json",
+        "sha256": "3698348d4ffb60112d30f55904894e4f2490457e3ae26586ff3502edd3fc6ee3",
+        "revision": "cold-candidate2-zh-Hans-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v1/explanation/adapter-draft/public-copy.draft.json",
+        "sha256": "1d03d4341ee26221aa5b38fd9e116296b1466edfd77713b83a8f3114c9a7daeb",
+        "revision": "explanation-candidate2-zh-Hans-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v1/reader-script.json",
+        "sha256": "7c0368c2b0e5a6a79053d212ef45add28054175b01e8c5298a71d400ac68f9b9",
+        "revision": "candidate2-reader-zh-Hans-v1"
+      }
+    ]
+  },
+  "unresolved_findings": []
+}

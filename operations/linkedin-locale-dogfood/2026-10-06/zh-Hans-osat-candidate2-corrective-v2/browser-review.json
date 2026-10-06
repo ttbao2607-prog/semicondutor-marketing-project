@@ -1,0 +1,76 @@
+{
+  "revision": "candidate2-corrective-v2-render-observations",
+  "reviewer": "ROOT_SELF_REVIEW",
+  "screenshots": "Actual tool-returned browser images; no saved screenshot files claimed.",
+  "desktop": {
+    "viewport_css": [
+      1707,
+      879
+    ],
+    "image_width_css": 638.22,
+    "cards_complete": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "method": "Native viewport upper/lower overlap or complete centered card; stale frames excluded."
+  },
+  "feed": {
+    "viewport_css": [
+      1707,
+      879
+    ],
+    "image_width_css": 331.22,
+    "cards_complete": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "method": "Actual viewport screenshot per selected image."
+  },
+  "mobile": {
+    "viewport_css": [
+      390,
+      844
+    ],
+    "requested_override": [
+      351,
+      760
+    ],
+    "image_width_css_observed": [
+      315.56,
+      332.44
+    ],
+    "complete_page_verified_cards": [
+      1
+    ],
+    "card2": "Upper/lower artwork observed; inconsistent compositor frames and repeated screenshot timeout prevent reliable full-page signoff.",
+    "other_cards": "NOT_COMPLETED",
+    "overflow_observed": false,
+    "verdict": "INSUFFICIENT_EVIDENCE"
+  },
+  "reader": {
+    "dom_verified": true,
+    "named_entity_country_integrated_solution_result": true,
+    "new_attribution_visible_in_dom": true,
+    "desktop_visual": "INSUFFICIENT_EVIDENCE",
+    "mobile_visual": "NOT_COMPLETED",
+    "external_links": "DOM hrefs checked against existing approved source snapshot; not clicked/live-verified."
+  },
+  "blocker": "Browser Page.captureScreenshot timed out repeatedly after viewport changes/selection, including default reader after reset and fresh owned tab. Native screenshots also produced inconsistent/clipped compositor frames. Tried documented native and tab screenshot APIs, ordinary scrolling, viewport reset and fresh same-browser tabs; no raw CDP or alternate browser-control workaround.",
+  "overall": "INSUFFICIENT_EVIDENCE"
+}

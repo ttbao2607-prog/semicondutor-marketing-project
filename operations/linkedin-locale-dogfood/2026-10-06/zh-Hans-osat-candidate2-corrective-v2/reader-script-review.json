@@ -1,0 +1,25 @@
+{
+  "revision": "candidate2-reader-editorial-v2",
+  "gate_id": "AD-ED-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "independence": "ROOT_SELF_REVIEW",
+  "finding": "Old negative scope boilerplate observed in actual reader DOM after card9 dispatch; prior context review did not list it. No historical receipt rewritten or automatic PASS inferred.",
+  "old_exact_string": "该案例公布的结果属于这家中国企业及其整合方案，不代表越南部署成果或其他工厂的保证。",
+  "new_exact_string": "中国企业江苏中科智芯集成科技有限公司实施 Digiwin ERP + iMES 一体化数字化解决方案；该案例公布月结时间由15天缩短至5天。",
+  "disposition": "REPLACE_INTERNAL_PROTECTIVE_COMMENTARY_WITH_NAMED_CASE_ATTRIBUTION",
+  "reason": "Entity/China/integrated ERP+iMES/published month-close outcome answer reader purpose without universal guarantee or Vietnam deployment inference. No image wording changes due to reader edit, no second inference required.",
+  "reader_script": {
+    "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/reader-script-v2.json",
+    "sha256": "386451224ae47d3076a1920319d1ea02cd9c840bfa11c04783bad32bdb6b13d1",
+    "revision": "candidate2-reader-zh-Hans-v2"
+  },
+  "reader_html_sha256": "09df580976db0f7f719b16ec44feccc31229514a20ae6f84fdb8b122ac577a03",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "revision": "1.0"
+  },
+  "whole_journey": "FDI operations/record reconciliation -> named China integrated case; ROI implicit, Taiwan reference separate.",
+  "postgen": "TEXT_DOM_PASS / ACTUAL_VISUAL_INSUFFICIENT_EVIDENCE"
+}

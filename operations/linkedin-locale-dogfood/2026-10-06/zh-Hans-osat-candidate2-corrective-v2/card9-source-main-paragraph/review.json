@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "revision": "candidate2-corrective2-mechanics-review-v1",
+  "writer": "/root",
+  "reviewer": "/root",
+  "date": "2026-10-06",
+  "scope": "OFFLINE_SOURCE_COPY",
+  "independence": "SELF_REVIEW",
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/card9-source-main-paragraph/contract.json",
+      "sha256": "9ec3da60552b53861d5aaab28c12c42caf41061f19d2248f453c9437a8336fa3",
+      "revision": "candidate2-corrective2-source-contract-v1"
+    },
+    "copy": {
+      "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/reviewed-proof-copy.json",
+      "sha256": "761e8ad4dc689193400a019bc0c9ba129226ab9f67d1918fb88e9f8717c0baf8",
+      "revision": "candidate2-proof-copy-source-layout-v2"
+    },
+    "sources": [
+      {
+        "path": "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/case06/source.json",
+        "sha256": "d2f5e9202f0101086fbaf541787cee37cb9031381585dd753bd8f9059a0b96f2",
+        "revision": "rmk-regenerated-case06-source-snapshot-v1"
+      },
+      {
+        "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v1/brief.md",
+        "sha256": "60c6c0280660a7cf9917aa0ef9d01528cb9b2e73d6d0c0f40a999575f792ba8e",
+        "revision": "candidate2-brief-v1"
+      },
+      {
+        "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/brief.md",
+        "sha256": "8fba4c3e383b5982f4703d9821112444d47480aba4de8c2d6127bcdb53839159",
+        "revision": "candidate2-corrective-v2-brief"
+      },
+      {
+        "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/script-review-observations.md",
+        "sha256": "72b094f27f50165b831f8017fc2d238b22a5c9d437f3a54b3e126d93a36e5358",
+        "revision": "candidate2-corrective-v2-script-review"
+      }
+    ]
+  },
+  "verdicts": {
+    "source_copy": "PASS",
+    "editorial": "PASS",
+    "first_mention": "PASS"
+  },
+  "reviewed_ads": [
+    "RMK-R4"
+  ],
+  "reviewed_fields": [
+    "RMK-R4/caption",
+    "RMK-R4/RMK-R4-1.headline",
+    "RMK-R4/RMK-R4-1.body",
+    "RMK-R4/RMK-R4-1.source_text",
+    "RMK-R4/RMK-R4-1.cta",
+    "RMK-R4/RMK-R4-1.native_headline",
+    "RMK-R4/RMK-R4-1.alt",
+    "RMK-R4/RMK-R4-1.artwork_labels",
+    "RMK-R4/RMK-R4-2.headline",
+    "RMK-R4/RMK-R4-2.body",
+    "RMK-R4/RMK-R4-2.source_text",
+    "RMK-R4/RMK-R4-2.cta",
+    "RMK-R4/RMK-R4-2.native_headline",
+    "RMK-R4/RMK-R4-2.alt",
+    "RMK-R4/RMK-R4-2.artwork_labels",
+    "RMK-R4/RMK-R4-3.headline",
+    "RMK-R4/RMK-R4-3.body",
+    "RMK-R4/RMK-R4-3.source_text",
+    "RMK-R4/RMK-R4-3.cta",
+    "RMK-R4/RMK-R4-3.native_headline",
+    "RMK-R4/RMK-R4-3.alt",
+    "RMK-R4/RMK-R4-3.artwork_labels",
+    "RMK-R4/RMK-R4-4.headline",
+    "RMK-R4/RMK-R4-4.body",
+    "RMK-R4/RMK-R4-4.source_text",
+    "RMK-R4/RMK-R4-4.cta",
+    "RMK-R4/RMK-R4-4.native_headline",
+    "RMK-R4/RMK-R4-4.alt",
+    "RMK-R4/RMK-R4-4.artwork_labels"
+  ],
+  "unresolved_findings": []
+}

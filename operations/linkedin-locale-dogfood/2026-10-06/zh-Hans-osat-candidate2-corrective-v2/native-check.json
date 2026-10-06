@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "gate_version": 1,
+  "gate_sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+  "layer": "POSTGEN_DIMENSION_CHECK",
+  "mechanical_verdict": "PASS",
+  "purpose": "OFFLINE_IMAGEGEN",
+  "spec_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/card9-source-main-paragraph/spec.json",
+  "release_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/card9-source-main-paragraph/release.json",
+  "release_sha256": "dd8640c17b64323332bd51389feb08ffcd5176ec29b617a8db82987c646a8c4b",
+  "scope_call_id": "CASE06_3_REGEN_proof-english-v2_proof-candidate2-zh-Hans-v1_SOURCE_MAIN_PARAGRAPH_CORRECTIVE2",
+  "input_hashes": {
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+    "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/brief.md": "8fba4c3e383b5982f4703d9821112444d47480aba4de8c2d6127bcdb53839159",
+    "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/card9-source-main-paragraph/contract.json": "9ec3da60552b53861d5aaab28c12c42caf41061f19d2248f453c9437a8336fa3",
+    "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/card9-source-main-paragraph/release.json": "dd8640c17b64323332bd51389feb08ffcd5176ec29b617a8db82987c646a8c4b",
+    "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/card9-source-main-paragraph/review.json": "1f30c36bcb9d9d3970c45cdc555b69f74c2d2234a3067e642bf0e1e45b59784d",
+    "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/card9-source-main-paragraph/spec.json": "2d94a78ddf3f303706bf3192a70e0b97d7109181ca405aad5d3f173cde9dc131",
+    "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/reviewed-proof-copy.json": "761e8ad4dc689193400a019bc0c9ba129226ab9f67d1918fb88e9f8717c0baf8",
+    "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/script-review-observations.md": "72b094f27f50165b831f8017fc2d238b22a5c9d437f3a54b3e126d93a36e5358",
+    "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v1/brief.md": "60c6c0280660a7cf9917aa0ef9d01528cb9b2e73d6d0c0f40a999575f792ba8e",
+    "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/case06/source.json": "d2f5e9202f0101086fbaf541787cee37cb9031381585dd753bd8f9059a0b96f2"
+  },
+  "call_ids": [
+    "CASE06_3_REGEN_proof-english-v2_proof-candidate2-zh-Hans-v1_SOURCE_MAIN_PARAGRAPH_CORRECTIVE2"
+  ],
+  "advisories": [],
+  "semantic_verdict": "NOT_ASSESSED",
+  "creative_verdict": "INSUFFICIENT_EVIDENCE",
+  "authority": "NO_GENERATION_AUTHORITY",
+  "call_id": "CASE06_3_REGEN_proof-english-v2_proof-candidate2-zh-Hans-v1_SOURCE_MAIN_PARAGRAPH_CORRECTIVE2",
+  "output_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/card9-source-main-paragraph/native/case06-3_proof-english-v2_proof-candidate2-zh-Hans-v1_source_main_paragraph_corrective2.png",
+  "native_sha256": "da37fa5c33fc652ddb82d05a445c38274a2c3373f5522754ab47b121f21e9c57",
+  "native_bytes": 1639529,
+  "actual_dimensions": [
+    1254,
+    1254
+  ],
+  "output_policy": {
+    "directory": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/card9-source-main-paragraph/native",
+    "extension": ".png",
+    "policy": "native_square_min",
+    "min_edge": 1080
+  },
+  "dimension_verdict": "PASS",
+  "native_provenance_verdict": "NOT_ASSESSED",
+  "rendered_artifact_verdict": "NOT_ASSESSED"
+}
