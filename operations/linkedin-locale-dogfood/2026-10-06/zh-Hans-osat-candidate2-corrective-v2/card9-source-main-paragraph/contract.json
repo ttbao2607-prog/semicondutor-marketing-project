@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "revision": "candidate2-corrective2-source-contract-v1",
+  "locale": "zh-Hans",
+  "channel": "linkedin-carousel",
+  "copy": {
+    "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/reviewed-proof-copy.json",
+    "sha256": "761e8ad4dc689193400a019bc0c9ba129226ab9f67d1918fb88e9f8717c0baf8",
+    "revision": "candidate2-proof-copy-source-layout-v2"
+  },
+  "sources": [
+    {
+      "path": "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/case06/source.json",
+      "sha256": "d2f5e9202f0101086fbaf541787cee37cb9031381585dd753bd8f9059a0b96f2",
+      "revision": "rmk-regenerated-case06-source-snapshot-v1"
+    },
+    {
+      "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v1/brief.md",
+      "sha256": "60c6c0280660a7cf9917aa0ef9d01528cb9b2e73d6d0c0f40a999575f792ba8e",
+      "revision": "candidate2-brief-v1"
+    },
+    {
+      "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/brief.md",
+      "sha256": "8fba4c3e383b5982f4703d9821112444d47480aba4de8c2d6127bcdb53839159",
+      "revision": "candidate2-corrective-v2-brief"
+    },
+    {
+      "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/script-review-observations.md",
+      "sha256": "72b094f27f50165b831f8017fc2d238b22a5c9d437f3a54b3e126d93a36e5358",
+      "revision": "candidate2-corrective-v2-script-review"
+    }
+  ],
+  "card_sources": {
+    "RMK-R4-1": [
+      "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/case06/source.json"
+    ],
+    "RMK-R4-2": [
+      "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/case06/source.json"
+    ],
+    "RMK-R4-3": [
+      "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/case06/source.json"
+    ],
+    "RMK-R4-4": [
+      "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/case06/source.json"
+    ]
+  },
+  "ad_order": [
+    "RMK-R4"
+  ],
+  "card_order": {
+    "RMK-R4": [
+      "RMK-R4-1",
+      "RMK-R4-2",
+      "RMK-R4-3",
+      "RMK-R4-4"
+    ]
+  },
+  "surfaces": {
+    "RMK-R4": [
+      {
+        "surface_id": "full-carousel-feed",
+        "reading_order": [
+          "caption",
+          "RMK-R4-1.headline",
+          "RMK-R4-1.body",
+          "RMK-R4-1.source_text",
+          "RMK-R4-1.cta",
+          "RMK-R4-1.native_headline",
+          "RMK-R4-1.alt",
+          "RMK-R4-1.artwork_labels",
+          "RMK-R4-2.headline",
+          "RMK-R4-2.body",
+          "RMK-R4-2.source_text",
+          "RMK-R4-2.cta",
+          "RMK-R4-2.native_headline",
+          "RMK-R4-2.alt",
+          "RMK-R4-2.artwork_labels",
+          "RMK-R4-3.headline",
+          "RMK-R4-3.body",
+          "RMK-R4-3.source_text",
+          "RMK-R4-3.cta",
+          "RMK-R4-3.native_headline",
+          "RMK-R4-3.alt",
+          "RMK-R4-3.artwork_labels",
+          "RMK-R4-4.headline",
+          "RMK-R4-4.body",
+          "RMK-R4-4.source_text",
+          "RMK-R4-4.cta",
+          "RMK-R4-4.native_headline",
+          "RMK-R4-4.alt",
+          "RMK-R4-4.artwork_labels"
+        ]
+      }
+    ]
+  },
+  "definitions": {
+    "OSAT": "半导体委外封装与测试",
+    "Fabless": "无晶圆厂芯片设计模式",
+    "WIP": "在制品"
+  },
+  "limits": {
+    "caption": 150,
+    "headline": 45,
+    "body": 180,
+    "source_text": 200,
+    "cta": 70,
+    "native_headline": 45,
+    "alt": 200,
+    "artwork_labels": 70
+  },
+  "groups": [
+    [
+      "RMK-R4-1"
+    ],
+    [
+      "RMK-R4-2"
+    ],
+    [
+      "RMK-R4-3"
+    ],
+    [
+      "RMK-R4-4"
+    ]
+  ],
+  "reuse_fields": [
+    "headline",
+    "body",
+    "source_text",
+    "cta",
+    "native_headline",
+    "alt",
+    "artwork_labels"
+  ],
+  "references": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+      "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+      "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png",
+      "sha256": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png",
+      "sha256": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "role": "brand_asset",
+      "attributes": [
+        "brand_mark"
+      ]
+    }
+  ],
+  "style": {
+    "brand": "Reproduce the supplied official Digiwin logo image exactly once. Do not derive any printed words from brand/style instructions. Category and role wording come exclusively from the approved artwork_labels.",
+    "palette": [
+      "white",
+      "#0052FF",
+      "#0B132B",
+      "#00B4D8",
+      "charcoal"
+    ],
+    "lighting": "bright neutral daylight with soft grounded shadows",
+    "avoid": [
+      "neon",
+      "dark mode",
+      "human faces",
+      "fabricated metrics identifiers dates statuses or results",
+      "customer marks or facility evidence",
+      "unreviewed capability or outcome claims",
+      "reference wording record values props or exact composition",
+      "printed caption native headline alt or internal notes",
+      "extra wording beyond approved artwork text and official brand mark"
+    ],
+    "campaign": {
+      "revision": "proof-candidate2-zh-Hans-v1-locale-style",
+      "instructions": "Preserve frozen R2 visual grammar: bright white/pale blue material world, blue/navy large type, neutral daylight, soft grounded shadows and tactile depth. Retain card-specific primary scene meaning and props. PRINTING CONTRACT: print every approved headline, body, source_text, CTA and artwork_labels exactly as supplied, once each. Header/category labels are mandatory exact literals, never synonyms or new prefixes. No separate ERP word/category unless present as a complete approved label. Caption, native_headline, alt and instructions are never printed. If multiple header labels exist, reserve a separate readable line for each; do not omit one to save space. Do not copy reference words or exact composition. Packaging/testing context in this pilot uses packaged chip trays and neutral production records; no wafer discs, wafer cassettes, wafer fab or wafer processing machinery, including on paper illustrations. This visual restriction is specific to this pilot; it is not a claim that wafer-level packaging does not exist. Relationship paths may be unlabelled neutral curves. SCENE: no extra words, letters, numbers, identifiers, metrics or repeated results; no added ERP labels, 15/5 calendars, chart-like records, graphs, screens, fake UI, seals, checkmarks or finished-status badges. Papers/folders/calendars stay completely blank. Numeric case results must appear only in the approved text blocks, not on scene props. Do not copy microtext or diagram words from references. No customer marks, real facility evidence, human faces or invented results. Keep source readable at ordinary333px, source paragraph separate from CTA; reduce scene space before shrinking type. Preserve Simplified Chinese glyphs and exact supplied punctuation. Never mix scripts or use pseudo-Chinese. Use ASCII parentheses for approved acronym definitions to remain compatible with the frozen gate; do not normalize other punctuation. Review Chinese punctuation at line starts/ends and mixed Latin terms at 333px; reduce scene area before shrinking type. Sequence and category use only exact artwork_labels. Category and source have independent reserved zones. Mandatory source plain full-width body-sized text, not microprint, with no geographical pictogram or skyline. Reduce scene before shrinking source. No chart, graph, period highlights or implied data on paper. This source revision incorporates candidate1 corrective scene/layout review before localization.\nLOCALE: zh-Hans. Print only supplied Simplified Chinese artwork text. Professional operational Chinese: clear reconciliation objects and responsible team, concise question and practical next step. Use supplied mainland terminology, not word-for-word Vietnamese syntax. No assumptions about national personality, certification or guaranteed results. Keep original scene and narrative order. Preserve Simplified Chinese glyphs and exact supplied punctuation. Never mix scripts or use pseudo-Chinese. Use ASCII parentheses for approved acronym definitions to remain compatible with the frozen gate; do not normalize other punctuation. Review Chinese punctuation at line starts/ends and mixed Latin terms at 333px; reduce scene area before shrinking type. TEXT-LED SOURCE CORRECTIVE: source_text is a MAIN paragraph directly below body and ABOVE a small neutral illustration, visibly larger than body. On1254canvas target64px source versus42px body. Full available width for source, retain author line breaks and allow wrapping without shrinking. No source/footer credit strip. Only small neutral blank-paper/folder/chip-tray illustration at bottom. Header/headline/body/source priority. No calendar/chart/data/wafer/new icons or wording."
+    }
+  },
+  "output": {
+    "directory": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/card9-source-main-paragraph/native",
+    "extension": ".png",
+    "policy": "native_square_min",
+    "min_edge": 1080
+  }
+}

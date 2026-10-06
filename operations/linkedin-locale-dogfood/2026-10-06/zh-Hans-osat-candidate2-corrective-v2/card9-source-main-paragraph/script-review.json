@@ -1,0 +1,58 @@
+{
+  "revision": "candidate2-corrective2-editorial-v1",
+  "gate_id": "AD-ED-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "copy_sha256": "761e8ad4dc689193400a019bc0c9ba129226ab9f67d1918fb88e9f8717c0baf8",
+  "reviewed_ads": [
+    "RMK-R4"
+  ],
+  "reviewed_fields": {
+    "RMK-R4": [
+      "caption",
+      "RMK-R4-1.headline",
+      "RMK-R4-1.body",
+      "RMK-R4-1.source_text",
+      "RMK-R4-1.cta",
+      "RMK-R4-1.native_headline",
+      "RMK-R4-1.alt",
+      "RMK-R4-1.artwork_labels",
+      "RMK-R4-2.headline",
+      "RMK-R4-2.body",
+      "RMK-R4-2.source_text",
+      "RMK-R4-2.cta",
+      "RMK-R4-2.native_headline",
+      "RMK-R4-2.alt",
+      "RMK-R4-2.artwork_labels",
+      "RMK-R4-3.headline",
+      "RMK-R4-3.body",
+      "RMK-R4-3.source_text",
+      "RMK-R4-3.cta",
+      "RMK-R4-3.native_headline",
+      "RMK-R4-3.alt",
+      "RMK-R4-3.artwork_labels",
+      "RMK-R4-4.headline",
+      "RMK-R4-4.body",
+      "RMK-R4-4.source_text",
+      "RMK-R4-4.cta",
+      "RMK-R4-4.native_headline",
+      "RMK-R4-4.alt",
+      "RMK-R4-4.artwork_labels"
+    ]
+  },
+  "BRAND_ROLE": {
+    "verdict": "PASS",
+    "observation": "Official Digiwin mark and manufacturing ERP/digital-solutions copy identify the advertiser, not a semiconductor producer."
+  },
+  "ADVERTISER_VOICE": {
+    "verdict": "PASS",
+    "observation": "Digiwin speaks as provider; operational questions address plant management with finance. Case results stay attributed."
+  },
+  "independence": "SELF_REVIEW",
+  "visual_review": "Actual root reviewed script/layout and original failed PNG; source-main-paragraph hierarchy changed, all case words/claims preserved. POSTGEN_NOT_RUN.",
+  "actual_review_ref": {
+    "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/script-review-observations.md",
+    "sha256": "72b094f27f50165b831f8017fc2d238b22a5c9d437f3a54b3e126d93a36e5358",
+    "revision": "candidate2-corrective-v2-script-review"
+  }
+}

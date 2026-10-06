@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "revision": "candidate2-corrective2-release-v1",
+  "authorizer": "/root recording Bao offline dogfood mandate",
+  "authority_ref": {
+    "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v1/brief.md",
+    "sha256": "60c6c0280660a7cf9917aa0ef9d01528cb9b2e73d6d0c0f40a999575f792ba8e",
+    "revision": "candidate2-brief-v1"
+  },
+  "purpose": "OFFLINE_IMAGEGEN",
+  "contract": {
+    "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/card9-source-main-paragraph/contract.json",
+    "sha256": "9ec3da60552b53861d5aaab28c12c42caf41061f19d2248f453c9437a8336fa3",
+    "revision": "candidate2-corrective2-source-contract-v1"
+  },
+  "copy": {
+    "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/reviewed-proof-copy.json",
+    "sha256": "761e8ad4dc689193400a019bc0c9ba129226ab9f67d1918fb88e9f8717c0baf8",
+    "revision": "candidate2-proof-copy-source-layout-v2"
+  },
+  "review": {
+    "path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/card9-source-main-paragraph/review.json",
+    "sha256": "1f30c36bcb9d9d3970c45cdc555b69f74c2d2234a3067e642bf0e1e45b59784d",
+    "revision": "candidate2-corrective2-mechanics-review-v1"
+  },
+  "groups": [
+    [
+      "RMK-R4-3"
+    ]
+  ]
+}
