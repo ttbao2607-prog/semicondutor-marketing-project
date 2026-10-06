@@ -30,3 +30,13 @@ operations/linkedin-rmk-production-coordination/shared-releases/rmk-case06-ancho
 operations/linkedin-rmk-production-coordination/shared-releases/rmk-pressway-dogfood-v1/** -text
 
 operations/linkedin-rmk-production-coordination/** -text
+
+# Locale adapter development checkpoint: preserve raw bytes for draft SHA pins.
+# This is byte preservation, not adapter adoption/freeze.
+operations/linkedin-locale-adapter/** -text
+scripts/prepare_linkedin_locale.py -text
+tests/test_linkedin_locale_adapter.py -text
+operations/Vy_Email_Content_Anchor.md -text
+operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md -text
+operations/templates/Message_Anchor*.md -text
+operations/message-anchor/** -text

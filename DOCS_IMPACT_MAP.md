@@ -5,6 +5,7 @@ For a material change, review the listed CANONICAL files and update only those w
 | Change category | Review canonical documents |
 |---|---|
 | Strategy, ICP, market, language, channel role | CURRENT_STATE.md; README.md; kickoff/source brief; Pre_Ad_Readiness_Plan; relevant S01-S03 and build pack |
+| VN / FDI message anchor or content alignment | operations/Vy_Email_Content_Anchor.md; original email evidence; AGENTS.md; CURRENT_STATE.md; kickoff/source brief; S01/S03; build/readiness; AD-ED-01; execution plan/runbook; message/brief/human receipt templates; locale-adapter docs where affected |
 | Budget / allocation / pacing | CURRENT_STATE.md; Pre_Ad_Readiness_Plan; S04_Measurement_and_Budget; relevant build pack |
 | Landing page or CTA/form behavior | CURRENT_STATE.md; Pre_Ad_Readiness_Plan; OSAT_Route_Source_of_Truth; tracking contract; design-system |
 | Ads, keyword, audience, creative | CURRENT_STATE.md; relevant build pack; Pre_Ad_Readiness_Plan; S02/S03; proof/governance record; LinkedIn_Awareness_Demo_and_Human_Audit_Runbook for current Awareness carousel |
@@ -16,3 +17,5 @@ For a material change, review the listed CANONICAL files and update only those w
 Canonical Awareness content-review process: `operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md`; synchronize ExecutionPlan E4/E5/E7, buildpack/readiness and current status when this process changes. Other formats require separate scope mandate.
 
 Customer-facing ad copy/artwork revisions also require `operations/Ad_Artifact_Editorial_QA_Gate.md` (AD-ED-01), current native/rendered text inspection and receipt; synchronize runbook/ExecutionPlan/template and current build/readiness on material gate changes.
+
+All VN/FDI marketing content artifacts and localization revisions require MSG-ANCHOR-01 against current `operations/Vy_Email_Content_Anchor.md`, bound to its revision/SHA256 and the supplied original-email source. Review before generation and again on actual finished artifacts; inspect individual units/surfaces and journey continuity. FAIL => CHANGES_REQUIRED; missing binding/evidence => INSUFFICIENT_EVIDENCE; neither permits script/content PASS or ready/accepted handoff. Historical receipts are not rewritten or retroactively certified. Budget/schedule/account proposals in the email are classified separately and confer no new operational authority.

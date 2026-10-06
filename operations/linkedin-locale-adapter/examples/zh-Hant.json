@@ -1,0 +1,42 @@
+{
+  "locale": "zh-Hant",
+  "revision": "osat-cold-zh-Hant-v1",
+  "copy": {
+    "schema_version": 1,
+    "revision": "osat-cold-zh-Hant-copy-v1",
+    "ads": [
+      {
+        "ad_id": "COLD-OSAT-FIN-02",
+        "caption": "Digiwin提供製造業ERP諮詢。對於OSAT (半導體委外封裝與測試)，月底結帳前，財務與工廠需要依批次核對在製品、完工產量與損耗紀錄。",
+        "cards": [
+          {
+            "card_id": "COLD-OSAT-FIN-02-IMAGE",
+            "headline": "月底結帳前，\n工廠紀錄核對了嗎？",
+            "body": "在製品、完工產量、損耗：\n結帳前逐項核對。",
+            "source_text": "",
+            "cta": "",
+            "native_headline": "月底結帳，從核對工廠紀錄開始",
+            "alt": "半導體工廠的結帳日曆與待核對的生產紀錄。",
+            "artwork_labels": [
+              "半導體工廠財務管理",
+              "製造業ERP解決方案"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "protected_literals": [
+    "Digiwin",
+    "OSAT",
+    "ERP"
+  ],
+  "rationale": [
+    {
+      "card_id": "COLD-OSAT-FIN-02-IMAGE",
+      "reader_intent": "Reconcile production records before financial close, without implying automatic integration.",
+      "adaptation_note": "Separately authored Taiwan draft uses 諮詢、在製品、紀錄、月底結帳 and 與. This is not character conversion; native semiconductor terminology review pending.",
+      "reader_question": "月底結帳前，財務與工廠是否已核對生產紀錄？"
+    }
+  ]
+}

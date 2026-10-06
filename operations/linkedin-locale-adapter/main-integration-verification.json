@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-06",
+  "execution_status": "SUCCESS",
+  "scope": "Selective integration of ffb4fba onto main base 9b75bd1; no source ancestry/assets imported",
+  "independence": "ROOT_SELF_INSPECTION",
+  "source_commit": "ffb4fbaa55c932d041524d7a584ebaa502f4515b",
+  "main_base": "9b75bd145e2d887a72c4a135aaa8b78e328cfa32",
+  "lifecycle": "DEVELOPING",
+  "freeze_status": "NOT_FROZEN",
+  "tests": {
+    "core": 65,
+    "adapter": 10,
+    "result": "PASS",
+    "adapter_fixture": "Explicit synthetic source fallback on main; multi-card FIXTURE_ONLY interoperability and checkout SHA regression, not native source/creative acceptance"
+  },
+  "production_adapter_sha256": "b35e517c3128b72e66ade40135d555f34daef1666ef923616f9ac9fd4d257a51",
+  "core_sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+  "checks": [
+    "source adapter/profile/draft bytes preserved exactly",
+    "draft copy hashes current",
+    "scoped Git byte preservation closes CRLF hash drift",
+    "source and anchor retained",
+    "source-only VI inputs/viewer absent",
+    "unrelated consolidation plan absent",
+    "developing/not-frozen explicit",
+    "main-specific test fixture portable"
+  ],
+  "historical_receipts": "Retained as source-worktree snapshots; no retroactive main acceptance",
+  "generation_calls": 0,
+  "remote_push": false
+}

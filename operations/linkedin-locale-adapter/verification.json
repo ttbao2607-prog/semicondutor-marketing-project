@@ -1,0 +1,76 @@
+{
+  "execution_status": "SUCCESS",
+  "scope": "Offline preparation adapter and draft examples only",
+  "review_independence": "ROOT_SELF_INSPECTION_NO_INDEPENDENT_AGENT",
+  "date": "2026-10-06",
+  "tests": {
+    "frozen_core": 65,
+    "locale_adapter": 9,
+    "result": "PASS"
+  },
+  "assertions": [
+    "source input hashes intact",
+    "core bytes unchanged",
+    "adapter/profile hashes current",
+    "exact scene/props/concept IDs retained",
+    "locale serialized in prompt",
+    "fresh copy/prompt hashes match",
+    "no inherited release/review",
+    "eight canonical banners only; prior bytes retained modulo line endings"
+  ],
+  "core_sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+  "adapter_sha256": "b35e517c3128b72e66ade40135d555f34daef1666ef923616f9ac9fd4d257a51",
+  "artifacts": [
+    {
+      "path": "operations/linkedin-locale-adapter/drafts/en/calls.draft.json",
+      "sha256": "93b9c0f7e1b058498f232514ebe96b8fa440d3c4c52cbc5545ec59d9ca6afdd7"
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/drafts/en/contract.draft.json",
+      "sha256": "4a8f87a0d6bb5c955377b9cbdcea7efee3a7251f8e14411c3641e028c2d29d95"
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/drafts/en/manifest.json",
+      "sha256": "0524b08136c94f65ccba1e5faa6dceca5b3143a9c185f52b59c1eb54c97078f3"
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/drafts/en/public-copy.draft.json",
+      "sha256": "454894a6a8cd81acfdfd711a9a79709e6a250987f4a7c59e8f01f29fcf4a82c8"
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/drafts/zh-Hans/calls.draft.json",
+      "sha256": "32b6f4ccf354a2b8e620d60f8a65e7fb3a43784428ab14375c95f190fb2b34e4"
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/drafts/zh-Hans/contract.draft.json",
+      "sha256": "6f68e0ba8edfe3934ceac94da017a35b276bb3593cb9a5edc2eacaa0b718e59f"
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/drafts/zh-Hans/manifest.json",
+      "sha256": "751c86796cdd8dbb403d1bf0399bbfa3da27b0a85b9bc0fd5f3887edd8f9d715"
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/drafts/zh-Hans/public-copy.draft.json",
+      "sha256": "53e52966ced068c1b1c65fd6df04b84eb12e4a735850c75c19cb65d969c884f3"
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/drafts/zh-Hant/calls.draft.json",
+      "sha256": "cae13177bfee9a8e5d2b5b3b1ef51e69ff62b7d9366b169628de17e9ae5cb03e"
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/drafts/zh-Hant/contract.draft.json",
+      "sha256": "e77c6c8ae3c48c3f1c6e11b7918b16741aab0b79bf2e3401f940dc08c16d4a14"
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/drafts/zh-Hant/manifest.json",
+      "sha256": "50c577a8d2bee090a971da7e32bc2efa1a330d08603ffc0211af77a541420d1a"
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/drafts/zh-Hant/public-copy.draft.json",
+      "sha256": "50ba4b9d8fb47d1c74cfd425b578de3b9d9091ba6965b784ecee2f26963794e5"
+    }
+  ],
+  "creative_status": "LOCALIZATION_DRAFT_REVIEW_REQUIRED",
+  "generation_calls": 0,
+  "git": "Working-tree files only; no stage/commit/merge/push in this task"
+}

@@ -1,0 +1,41 @@
+{
+  "status": "LOCALIZATION_DRAFT_REVIEW_REQUIRED",
+  "locale": "en",
+  "core_sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+  "source_inputs": [
+    {
+      "path": "operations/linkedin-journey-demo/2026-10-06/osat/v1/contract.json",
+      "sha256": "da63a6b6a1e99c2f4b4abca79383a3b0013548048d71ac52f3e062df4635f21b"
+    },
+    {
+      "path": "operations/linkedin-journey-demo/2026-10-06/osat/v1/public-copy.json",
+      "sha256": "671577a68391f362ef794f9372f931f9c27865dec6fa51d7843a728033ffb027"
+    },
+    {
+      "path": "operations/linkedin-journey-demo/2026-10-06/osat/v1/spec.json",
+      "sha256": "f107e606b3f98341a8721ea0d7c54cbc84b8db4e302bf0957dbd5b8d6f3a7410"
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/examples/en.json",
+      "sha256": "0dff897e372ba30f9b38af73ad357fab8b4e90b48779447d9fd20177640b5145"
+    }
+  ],
+  "profile_sha256": "1b0105ed92ef866fb7a5796aefcdfb9d8e9d9683c72f4257295e80a06653a6cd",
+  "adapter_sha256": "b35e517c3128b72e66ade40135d555f34daef1666ef923616f9ac9fd4d257a51",
+  "rationale": [
+    {
+      "card_id": "COLD-OSAT-FIN-02-IMAGE",
+      "reader_intent": "Reconcile production records before financial close, without implying automatic integration.",
+      "adaptation_note": "Replace the Vietnamese chốt ambiguity with reconciliation, keep shared responsibility. Direct operational question without calendar idioms or promised automation.",
+      "reader_question": "Have finance and the factory reconciled their records before month-end close?"
+    }
+  ],
+  "pending": [
+    "native market/domain copy review",
+    "claim and protected-entity scope",
+    "first mention per surface with ASCII parentheses",
+    "fresh editorial review/release/pins",
+    "native PNG glyph and 333px layout review",
+    "destination locale and journey continuity"
+  ]
+}

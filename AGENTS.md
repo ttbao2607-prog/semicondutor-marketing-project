@@ -48,6 +48,12 @@ Executor tự xử lý L0 trong phạm vi đã giao. Khi có trade-off material 
 
 ## Documentation synchronization gate
 
+### Mandatory message anchor — Bảo 2026-10-06
+
+Adapter English/Chinese trên main là **DEVELOPING / NOT_FROZEN** theo Bảo; tích hợp checkpoint không freeze/adopt adapter hoặc cấp generation/release. Trạng thái frozen core ImageGen là scope riêng. Xem `operations/linkedin-locale-adapter/Main_Integration_2026-10-06.md` và dependency source-only trước dogfood.
+
+Trước khi tạo/adapt/review mọi artifact marketing cho VN nội địa hoặc FDI English/Chinese, phải đọc `operations/Vy_Email_Content_Anchor.md` và email gốc được dẫn trong đó. Tách anchor audience/persona/message khỏi đề xuất ngân sách, lịch, account và trạng thái lịch sử trong mail. Ghi anchor ID/revision/SHA256, nhánh/persona/locale và kiểm MSG-ANCHOR-01 theo `operations/templates/Message_Anchor_Review_Receipt_Template.md`; kiểm từng artifact/surface và toàn journey. Gate bắt buộc cả PREGEN_SCRIPT và hậu kiểm artifact thực. MESSAGE_ANCHOR_FAIL => CHANGES_REQUIRED; thiếu review/binding/evidence => INSUFFICIENT_EVIDENCE. Cả hai chặn SCRIPT_REVIEW_PASS/generation và ready/accepted handoff. Không mang PASS cũ qua persona/locale/revision mới; không ghi acceptance hồi tố. Root thực hiện bounded anchor/gate documentation theo mandate hiện tại; không tự spawn hoặc sửa frozen core.
+
 Implementation/asset hoàn thành không đủ để PASS. Trước PASS, commit hoặc handoff: đọc DOCS_IMPACT_MAP.md, xác định CANONICAL docs bị ảnh hưởng, review chúng theo state thực tế, update statement stale và kiểm tra contradiction với implementation/artifact. Không rewrite HISTORY / LOG chỉ để khớp hiện tại, không bịa business decision khi evidence mơ hồ. Nếu không cần sửa canonical doc, báo rõ: **Docs impact reviewed: no canonical update required.**
 
 Khi bắt đầu/resume substantial work, đọc CURRENT_STATE.md, DOCS_IMPACT_MAP.md và canonical docs liên quan; không cần đọc toàn bộ marketing docs. PASS không hợp lệ nếu implementation/artifact và canonical marketing truth còn materially disagree.

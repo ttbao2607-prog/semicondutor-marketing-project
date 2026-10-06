@@ -1,0 +1,42 @@
+{
+  "locale": "en",
+  "revision": "osat-cold-en-v1",
+  "copy": {
+    "schema_version": 1,
+    "revision": "osat-cold-en-copy-v1",
+    "ads": [
+      {
+        "ad_id": "COLD-OSAT-FIN-02",
+        "caption": "Digiwin advises on manufacturing ERP. For OSAT (outsourced semiconductor assembly and test), month-end close starts with reconciling work in progress, completed output and losses by lot between finance and the factory.",
+        "cards": [
+          {
+            "card_id": "COLD-OSAT-FIN-02-IMAGE",
+            "headline": "Month-end is here.\nDo the factory records reconcile?",
+            "body": "Work in progress, completed output, losses:\nreconcile before close.",
+            "source_text": "",
+            "cta": "",
+            "native_headline": "Month-end close starts with factory records",
+            "alt": "A closing calendar and factory records waiting to be reconciled at a semiconductor plant.",
+            "artwork_labels": [
+              "SEMICONDUCTOR PLANT FINANCE",
+              "ERP for manufacturing"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "protected_literals": [
+    "Digiwin",
+    "OSAT",
+    "ERP"
+  ],
+  "rationale": [
+    {
+      "card_id": "COLD-OSAT-FIN-02-IMAGE",
+      "reader_intent": "Reconcile production records before financial close, without implying automatic integration.",
+      "adaptation_note": "Replace the Vietnamese chốt ambiguity with reconciliation, keep shared responsibility. Direct operational question without calendar idioms or promised automation.",
+      "reader_question": "Have finance and the factory reconciled their records before month-end close?"
+    }
+  ]
+}

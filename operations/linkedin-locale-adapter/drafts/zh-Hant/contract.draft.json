@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "revision": "osat-cold-zh-Hant-v1-contract",
+  "locale": "zh-Hant",
+  "channel": "linkedin-single-image",
+  "copy": {
+    "path": "operations/linkedin-locale-adapter/drafts/zh-Hant/public-copy.draft.json",
+    "sha256": "50ba4b9d8fb47d1c74cfd425b578de3b9d9091ba6965b784ecee2f26963794e5",
+    "revision": "osat-cold-zh-Hant-copy-v1"
+  },
+  "sources": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/00-copy-vi.json",
+      "sha256": "527bf1f8fbe990f7572e6e8c6d84d353fec250486192f102c11593b48b6bdb47",
+      "revision": "existing-source-O3"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/01-evidence-register.md",
+      "sha256": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+      "revision": "existing-source-O3"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/02-review.md",
+      "sha256": "4d47778d085f57d981c3cb0dea92ba562345a127174411beac603e90ad0df7a0",
+      "revision": "existing-source-O3"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/03-detail-map.json",
+      "sha256": "2adf75fef21ca61c5d2cd869ec1e63e1e1fb0a21b1fcf78315b097cdd262f403",
+      "revision": "existing-source-O3"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/04-delta-log.json",
+      "sha256": "1afd66da0bf3f62be5ce30fab49d3865753fbfc4018bf61d24d3c1441db9aa32",
+      "revision": "existing-source-O3"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/05-source-pins.json",
+      "sha256": "3b833300aa1fd2a2914e69054228fcd302c81cf17ff276f48f95929c5af1229c",
+      "revision": "existing-source-O3"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/06-storyboard-and-claims.md",
+      "sha256": "d91e4f08e2a0f287d1d88376829eb6b6e7753fc5b661f77529df8013b46d2384",
+      "revision": "existing-source-O3"
+    },
+    {
+      "path": "operations/linkedin-journey-demo/2026-10-06/authority.md",
+      "sha256": "8799d9a4d2dacfab70aa73b5adbcaf170cb417d68de9090b7a9f0103dd4ee7e9",
+      "revision": "Bao-current-session-2026-10-06"
+    },
+    {
+      "path": "operations/LinkedIn_PO_Direction_Budget_Checkpoint_2026-10-06.md",
+      "sha256": "90e55d079cb7855a974af0c52868c5a55c0c4825ac868ffbc41ec8234a39858c",
+      "revision": "PO-direction-budget-2026-10-06"
+    }
+  ],
+  "card_sources": {
+    "COLD-OSAT-FIN-02-IMAGE": [
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/00-copy-vi.json",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/01-evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/02-review.md",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/03-detail-map.json",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/04-delta-log.json",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/05-source-pins.json",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/O3/common/source-attachments/06-storyboard-and-claims.md",
+      "operations/linkedin-journey-demo/2026-10-06/authority.md",
+      "operations/LinkedIn_PO_Direction_Budget_Checkpoint_2026-10-06.md"
+    ]
+  },
+  "ad_order": [
+    "COLD-OSAT-FIN-02"
+  ],
+  "card_order": {
+    "COLD-OSAT-FIN-02": [
+      "COLD-OSAT-FIN-02-IMAGE"
+    ]
+  },
+  "surfaces": {
+    "COLD-OSAT-FIN-02": [
+      {
+        "surface_id": "feed",
+        "reading_order": [
+          "caption",
+          "COLD-OSAT-FIN-02-IMAGE.headline",
+          "COLD-OSAT-FIN-02-IMAGE.body",
+          "COLD-OSAT-FIN-02-IMAGE.source_text",
+          "COLD-OSAT-FIN-02-IMAGE.cta",
+          "COLD-OSAT-FIN-02-IMAGE.native_headline",
+          "COLD-OSAT-FIN-02-IMAGE.alt",
+          "COLD-OSAT-FIN-02-IMAGE.artwork_labels"
+        ]
+      },
+      {
+        "surface_id": "raster",
+        "reading_order": [
+          "COLD-OSAT-FIN-02-IMAGE.headline",
+          "COLD-OSAT-FIN-02-IMAGE.body",
+          "COLD-OSAT-FIN-02-IMAGE.artwork_labels"
+        ]
+      }
+    ]
+  },
+  "definitions": {
+    "OSAT": "半導體委外封裝與測試",
+    "Fabless": "無晶圓廠IC設計模式",
+    "WIP": "在製品"
+  },
+  "limits": {
+    "caption": 255,
+    "headline": 70,
+    "body": 180,
+    "source_text": 200,
+    "cta": 70,
+    "native_headline": 45,
+    "alt": 200,
+    "artwork_labels": 70
+  },
+  "groups": [
+    [
+      "COLD-OSAT-FIN-02-IMAGE"
+    ]
+  ],
+  "reuse_fields": [
+    "headline",
+    "body",
+    "source_text",
+    "cta",
+    "native_headline",
+    "alt",
+    "artwork_labels"
+  ],
+  "references": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+      "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+      "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "role": "brand_asset",
+      "attributes": [
+        "brand_mark"
+      ]
+    }
+  ],
+  "style": {
+    "brand": "Official supplied Digiwin mark once; category line gives role: 製造業ERP解決方案.",
+    "palette": [
+      "white",
+      "#0052FF",
+      "#0B132B",
+      "#00B4D8",
+      "charcoal"
+    ],
+    "lighting": "bright neutral daylight with soft grounded shadows",
+    "avoid": [
+      "neon",
+      "dark mode",
+      "human faces",
+      "fabricated metrics identifiers dates statuses or results",
+      "customer marks or facility evidence",
+      "unreviewed capability or outcome claims",
+      "reference wording record values props or exact composition",
+      "printed caption native headline alt or internal notes",
+      "extra wording beyond approved artwork text and official brand mark"
+    ],
+    "campaign": {
+      "revision": "osat-cold-zh-Hant-v1-locale-style",
+      "instructions": "Single square cold advertisement, not a carousel. Preserve the supplied official Digiwin logo exactly once, no extra DIGIWIN word. Transfer only frozen R2 visual grammar: bright white and pale blue material world, deep navy and vivid blue large type, neutral daylight, soft grounded shadows, photographic tactile depth and relationships integrated into the scene. Do not transfer reference copy, props, exact scene or card numbers. NO sequence number or swipe instruction. Hierarchy: official logo and the exact role line at top, then category readable at 332px feed width, then dominant readable headline, readable support and a grounded narrative scene below. The headline is the main visual anchor, category and ERP role text need large comfortable font size rather than tiny header labels. Artwork should have no tiny text. Print only reviewed artwork text and the official brand mark, no added labels, no reference headings, no punctuation added to the role line. No metrics, result guarantees, customer logo, fabricated record values or screens, faces or glowing technology decoration. Preserve Traditional Chinese glyphs and exact supplied punctuation. Never mix scripts or use pseudo-Chinese. Use ASCII parentheses for approved acronym definitions to remain compatible with the frozen gate; do not normalize other punctuation. Review Taiwan punctuation placement, Chinese line starts/ends and mixed Latin terms at 333px; reduce scene area before shrinking type.\nLOCALE: zh-Hant. Print only supplied Traditional Chinese artwork text for Taiwan. Professional operational wording: explicit reconciliation objects, responsibility and practical next step. Use separately reviewed Taiwan terms; never convert mainland copy mechanically or assume national personality. No audit, vendor qualification or commercial guarantees. Keep original scene and narrative order. Preserve Traditional Chinese glyphs and exact supplied punctuation. Never mix scripts or use pseudo-Chinese. Use ASCII parentheses for approved acronym definitions to remain compatible with the frozen gate; do not normalize other punctuation. Review Taiwan punctuation placement, Chinese line starts/ends and mixed Latin terms at 333px; reduce scene area before shrinking type."
+    }
+  },
+  "output": {
+    "directory": "operations/linkedin-locale-adapter/drafts/zh-Hant/native-pending-review",
+    "extension": ".png",
+    "policy": "native_square_min",
+    "min_edge": 1080
+  }
+}

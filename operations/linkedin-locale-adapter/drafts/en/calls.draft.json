@@ -1,0 +1,85 @@
+{
+  "status": "LOCALIZATION_DRAFT_REVIEW_REQUIRED",
+  "calls": [
+    {
+      "call_id": "OSAT_COLD_V1_osat-cold-en-v1",
+      "targets": [
+        "COLD-OSAT-FIN-02-IMAGE"
+      ],
+      "references": [
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+          "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+          "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+          "role": "brand_asset",
+          "attributes": [
+            "brand_mark"
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "card_id": "COLD-OSAT-FIN-02-IMAGE",
+          "concept_id": "osat-single-scene-v1",
+          "reader_question": "Have finance and the factory reconciled their records before month-end close?",
+          "description": "Tactile editorial scene: a simple blank standing calendar on the left and three blank production record folders on the right, meeting at an open reconciliation point. One small chip-package tray grounds the industry. Blank paper has no fake digits or microtext. Two sides waiting to meet, not automated integration. Distinct from the reference desk arrangement.",
+          "props": [
+            "blank standing calendar",
+            "three blank record folders",
+            "small chip package tray"
+          ],
+          "artwork_labels": [
+            "SEMICONDUCTOR PLANT FINANCE",
+            "ERP for manufacturing"
+          ]
+        }
+      ],
+      "artwork_text": {
+        "COLD-OSAT-FIN-02-IMAGE": {
+          "headline": "Month-end is here.\nDo the factory records reconcile?",
+          "body": "Work in progress, completed output, losses:\nreconcile before close.",
+          "source_text": "",
+          "cta": "",
+          "artwork_labels": [
+            "SEMICONDUCTOR PLANT FINANCE",
+            "ERP for manufacturing"
+          ]
+        }
+      },
+      "output_id": "osat-cold-v1_osat-cold-en-v1",
+      "output_path": "operations/linkedin-locale-adapter/drafts/en/native-pending-review/osat-cold-v1_osat-cold-en-v1.png",
+      "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Official supplied Digiwin mark once; category line gives role: ERP for manufacturing.\",\"campaign\":{\"instructions\":\"Single square cold advertisement, not a carousel. Preserve the supplied official Digiwin logo exactly once, no extra DIGIWIN word. Transfer only frozen R2 visual grammar: bright white and pale blue material world, deep navy and vivid blue large type, neutral daylight, soft grounded shadows, photographic tactile depth and relationships integrated into the scene. Do not transfer reference copy, props, exact scene or card numbers. NO sequence number or swipe instruction. Hierarchy: official logo and the exact role line at top, then category readable at 332px feed width, then dominant readable headline, readable support and a grounded narrative scene below. The headline is the main visual anchor, category and ERP role text need large comfortable font size rather than tiny header labels. Artwork should have no tiny text. Print only reviewed artwork text and the official brand mark, no added labels, no reference headings, no punctuation added to the role line. No metrics, result guarantees, customer logo, fabricated record values or screens, faces or glowing technology decoration. Preserve exact English spelling and supplied line breaks. Review longer words at 333px; reflow or reduce illustration space before shrinking type. Do not invent hyphenation.\\nLOCALE: en. Write only supplied English artwork text. International B2B English: specific operational question, accountable actor, concrete next step. No idioms, slogans, invented ROI or cultural stereotypes. Keep scenes and narrative order. No Vietnamese words from references. Preserve exact English spelling and supplied line breaks. Review longer words at 333px; reflow or reduce illustration space before shrinking type. Do not invent hyphenation.\",\"revision\":\"osat-cold-en-v1-locale-style\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"SEMICONDUCTOR PLANT FINANCE\",\"ERP for manufacturing\"],\"card_id\":\"COLD-OSAT-FIN-02-IMAGE\",\"concept_id\":\"osat-single-scene-v1\",\"description\":\"Tactile editorial scene: a simple blank standing calendar on the left and three blank production record folders on the right, meeting at an open reconciliation point. One small chip-package tray grounds the industry. Blank paper has no fake digits or microtext. Two sides waiting to meet, not automated integration. Distinct from the reference desk arrangement.\",\"props\":[\"blank standing calendar\",\"three blank record folders\",\"small chip package tray\"],\"reader_question\":\"Have finance and the factory reconciled their records before month-end close?\"}]\nAPPROVED ARTWORK TEXT\n{\"COLD-OSAT-FIN-02-IMAGE\":{\"artwork_labels\":[\"SEMICONDUCTOR PLANT FINANCE\",\"ERP for manufacturing\"],\"body\":\"Work in progress, completed output, losses:\\nreconcile before close.\",\"cta\":\"\",\"headline\":\"Month-end is here.\\nDo the factory records reconcile?\",\"source_text\":\"\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-locale-adapter/drafts/en/native-pending-review\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+      "prompt_sha256": "31c42641ced82a90bcd82945220e21a7aaff3c031d96184c7b80af37c0771f4c"
+    }
+  ]
+}

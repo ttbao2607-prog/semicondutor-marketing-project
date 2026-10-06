@@ -4,6 +4,8 @@
 
 ## Rule
 
+**Mandatory message alignment, effective 2026-10-06:** [VY-CONTENT-ANCHOR](Vy_Email_Content_Anchor.md), gate **MSG-ANCHOR-01**, applies in addition to AD-ED-01 to every VN-domestic / FDI en/zh-Hans/zh-Hant content artifact. Original email evidence is now supplied by Bảo; old internal reconciliation is not the only source. Check the current anchor before pregen and reread during postcheck. A polished, accurate-looking artifact can still fail audience/persona/message alignment.
+
 Repo/audit constraints govern what may be claimed; they are not advertising copy. Do not expose agent self-protection, proof classification, validation status or policy reasoning in caption, artwork, native headline, alt text, CTA or customer destination text. Customer copy must convey useful supplier/case information with warranted authority. This is not permission to exaggerate, fabricate or remove a qualification necessary to prevent a misleading claim.
 
 Use concrete entity/market/result attribution to scope a claim naturally. Keep research gaps, rights decisions, uncertainty about generalization and negative mechanism boundaries in internal ledger/contract/audit. When a claim cannot be supported, narrow or replace it with a supported statement rather than append an agent disclaimer to an otherwise broad claim. If ambiguity materially persists, hold that claim internally.
@@ -27,6 +29,10 @@ Use concrete entity/market/result attribution to scope a claim naturally. Keep r
 The current milestone may record a failed immutable revision and receipt without correcting it; do not call that artifact ready. This audit mandate adds the gate and records R3 failure only, not R4 production.
 
 ## Receipt fields
+
+MSG-ANCHOR-01 binding is mandatory in PREGEN_SCRIPT and POSTGEN_ARTIFACT receipts: anchor path/ID/current revision/SHA256, original-email record path/hash, branch/persona/route/locale, A1–A7 findings, exact strings/scenes on all surfaces, business-value/readiness/proof/CTA mapping, per-unit and transition closure, real reviewer and independence. Use [message receipt template](templates/Message_Anchor_Review_Receipt_Template.md), linked from the editorial receipt. FDI requires persona-specific business value/ROI framing without invented returns; VN requires ERP as a preparation bridge, without automatic qualification/audit/order promises. Email budget, platform/schedule and targeting proposals are not artifact anchors.
+
+MESSAGE_ANCHOR_FAIL => CHANGES_REQUIRED and blocks SCRIPT_REVIEW_PASS/generation plus ready/accepted handoff. Missing receipt/current anchor hash or stage-required inspection => INSUFFICIENT_EVIDENCE and also blocks those states. POSTGEN_NOT_RUN is explicit at pregen, not a failed image test. MESSAGE_ANCHOR_PASS is separate from editorial/source/rights/native/human/live verdicts; no mechanical or historical PASS overrides it. Changed anchor/persona/locale/copy/proof/order/scene/destination requires affected-scope recheck. Saving a clearly labeled failed/pending checkpoint remains allowed.
 
 Gate ID `AD-ED-01`; revision; checkpoint/input hashes; writer/reviewer and independence; copy fields reviewed; ordered native images; desktop/mobile evidence; each flagged exact string/surface; internal-process versus customer-useful classification; source/authority impact; keep/rewrite/remove decision; correction revision/hash and rendered closure; verdict and remaining unknowns. An empty keyword finding list is not a completed image/semantic review.
 
