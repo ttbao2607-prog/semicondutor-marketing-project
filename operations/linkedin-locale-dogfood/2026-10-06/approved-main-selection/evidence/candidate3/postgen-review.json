@@ -1,0 +1,178 @@
+{
+  "revision": "candidate3-postgen-final-v1",
+  "gate_id": "MSG-ANCHOR-01",
+  "stage": "POSTGEN_ARTIFACT",
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "editorial_verdict": "EDITORIAL_QA_PASS",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "scope": {
+    "segment": "FDI",
+    "locale": "zh-Hant",
+    "persona": "Eligible packaging/testing operations manager coordinating with finance",
+    "account_fit": "UNVERIFIED_HYPOTHESIS"
+  },
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "revision": "1.0",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+  },
+  "source": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "units": [
+    {
+      "index": 1,
+      "card_id": "COLD-OSAT-FIN-02-IMAGE",
+      "sha256": "9d0d30bc6fdd1a429797f788b4c174932cd79418a28b9b2653c57fb74ee302b9",
+      "native": "REVIEWED_MATCH",
+      "desktop": "REVIEWED",
+      "feed": "REVIEWED",
+      "mobile": "REVIEWED",
+      "verdict": "PASS_IN_TESTED_SCOPE"
+    },
+    {
+      "index": 2,
+      "card_id": "O3-A1",
+      "sha256": "6936a3a3ebf852c878c2222d87217ed95fedfe2066a5a3dfd0bfa7a816bd8f4d",
+      "native": "REVIEWED_MATCH",
+      "desktop": "REVIEWED",
+      "feed": "REVIEWED",
+      "mobile": "REVIEWED",
+      "verdict": "PASS_IN_TESTED_SCOPE"
+    },
+    {
+      "index": 3,
+      "card_id": "O3-A2",
+      "sha256": "75a3e268ecd5f07fa73f60a3f3bec705bdc94cabb12a23ae9db329493be584de",
+      "native": "REVIEWED_MATCH",
+      "desktop": "REVIEWED",
+      "feed": "REVIEWED",
+      "mobile": "REVIEWED",
+      "verdict": "PASS_IN_TESTED_SCOPE"
+    },
+    {
+      "index": 4,
+      "card_id": "O3-A3",
+      "sha256": "bfd97d43162bc38d18facfc3b98a19fe317bfaa9d3a6661a60da809f22166d12",
+      "native": "REVIEWED_MATCH",
+      "desktop": "REVIEWED",
+      "feed": "REVIEWED",
+      "mobile": "REVIEWED",
+      "verdict": "PASS_IN_TESTED_SCOPE"
+    },
+    {
+      "index": 5,
+      "card_id": "O3-A4",
+      "sha256": "d40ca6f1bed2ec4b4296dff449d90e173ec33d27b31150d6d6f4efa6ee314877",
+      "native": "REVIEWED_MATCH",
+      "desktop": "REVIEWED",
+      "feed": "REVIEWED",
+      "mobile": "REVIEWED",
+      "verdict": "PASS_IN_TESTED_SCOPE"
+    },
+    {
+      "index": 6,
+      "card_id": "O3-A5",
+      "sha256": "3af4f3a6e77430527f35509e7404bd1879a6ebf21c8fad65119fa54259fd7930",
+      "native": "REVIEWED_MATCH",
+      "desktop": "REVIEWED",
+      "feed": "REVIEWED",
+      "mobile": "REVIEWED",
+      "verdict": "PASS_IN_TESTED_SCOPE"
+    },
+    {
+      "index": 7,
+      "card_id": "RMK-R4-1",
+      "sha256": "3aeebfc859e5d83d2652ec67d24321c4db59c696271f6260eb7fb5a2109747b0",
+      "native": "REVIEWED_MATCH",
+      "desktop": "REVIEWED",
+      "feed": "REVIEWED",
+      "mobile": "REVIEWED",
+      "verdict": "PASS_IN_TESTED_SCOPE"
+    },
+    {
+      "index": 8,
+      "card_id": "RMK-R4-2",
+      "sha256": "13eccdc9b3d92f7412f327f78283da967cc50dd2f6f459ae5e41db1a41315066",
+      "native": "REVIEWED_MATCH",
+      "desktop": "REVIEWED",
+      "feed": "REVIEWED",
+      "mobile": "REVIEWED",
+      "verdict": "PASS_IN_TESTED_SCOPE"
+    },
+    {
+      "index": 9,
+      "card_id": "RMK-R4-3",
+      "sha256": "47cdbd2cce2516e60b6e546e326fa6f42d61e0e3d58bec10cc79942882ba21d9",
+      "native": "REVIEWED_MATCH",
+      "desktop": "REVIEWED",
+      "feed": "REVIEWED",
+      "mobile": "REVIEWED",
+      "verdict": "PASS_IN_TESTED_SCOPE"
+    },
+    {
+      "index": 10,
+      "card_id": "RMK-R4-4",
+      "sha256": "ac41353825ab08e583cf4458e6589d6910cb36c1fd3db11c321a7e1356876ec3",
+      "native": "REVIEWED_MATCH",
+      "desktop": "REVIEWED",
+      "feed": "REVIEWED",
+      "mobile": "REVIEWED",
+      "verdict": "PASS_IN_TESTED_SCOPE"
+    }
+  ],
+  "whole_journey": {
+    "verdict": "PASS_IN_TESTED_SCOPE",
+    "observation": "Same factory operations reader throughout cold record-readiness question, lot/WIP/output/scrap reconciliation, handoff responsibility, then named China ERP+iMES case and reader. ROI is implicit in reduced waiting/reconciliation, cost discussion and attributed month-close outcome; literal ROI is not required.",
+    "A1": "Bounded OSAT pilot; not a default universe of all semiconductor companies.",
+    "A2": "Local purchasing authority/account fit unverified.",
+    "A3": "Traditional Taiwan prose/terminology for FDI operations, not VI qualification message or finance-first pivot.",
+    "A4": "Implicit grounded business value; no fabricated ROI or generalized 15-to-5 promise.",
+    "A5": "VN domestic scope not applicable; no purchase-to-qualification/orders claim.",
+    "A6": "Lot/records, SPC, ECN and traceability in bounded original case; no requirement to force entire depth menu.",
+    "A7": "Copy, image sources, captions, CTA and reader retain entity/geography/integrated solution attribution."
+  },
+  "reader": {
+    "path": "deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/case-reader.html",
+    "sha256": "df6fd7c4dcdde9ba9055c4b82b52cddefd42c3dcc8c46590797773d5544808f6",
+    "desktop": "REVIEWED",
+    "mobile": "REVIEWED",
+    "navigation": "OPEN_AND_RETURN_VERIFIED",
+    "registered_name_exception": "江苏中科智芯集成科技有限公司 retains original registered Simplified characters within Traditional prose."
+  },
+  "findings": [
+    {
+      "id": "C3-09-SOURCE-HIERARCHY",
+      "index": 9,
+      "first_attempt": "CHANGES_REQUIRED",
+      "observation": "Case source text smaller than body at native and desktop; reader/caption attribution does not waive artwork layout rule.",
+      "cause": "GENERATED_ARTIFACT_LAYOUT",
+      "action": "One fresh source-paragraph layout release, exact approved copy retained.",
+      "final": "CLOSED_AFTER_NATIVE_DESKTOP_FEED_MOBILE_REVIEW"
+    },
+    {
+      "id": "C3-10-SOURCE-HIERARCHY",
+      "index": 10,
+      "first_attempt": "CHANGES_REQUIRED",
+      "observation": "Publisher/URL line smaller than body at native/mobile despite other source lines being large.",
+      "cause": "GENERATED_ARTIFACT_LAYOUT",
+      "action": "One fresh closing layout release; all three source lines body-sized or larger, CTA separate.",
+      "final": "CLOSED_AFTER_NATIVE_DESKTOP_FEED_MOBILE_REVIEW"
+    }
+  ],
+  "observations": [
+    "Paper lines, pale bands and empty form outlines recur in scenes. Literal blank-prop fidelity is imperfect. Root accepts neutral record formatting here: no numeric values, axes, trends or claimed customer data. This is a scoped nonblocking disposition, not exact prompt-fidelity PASS.",
+    "Card3 body is compact but readable in actual narrow mobile/feed inspection. Future authors should prefer line breaks before reducing font size; no invented typography threshold.",
+    "Cold native validation was initially sent to the carousel checker and refused as expected. Executor corrected routing to existing Single-image checker; no checker code changed.",
+    "Some fast screenshot batches returned previous visual frames despite fresh DOM. Only identifiable actual frames count; separate settled captures and earlier mobile/native coverage resolve selection ambiguity.",
+    "Full-page desktop screenshots later timed out. Raw CDP was blocked by a saved user preference and stopped. Ordinary existing-tab screenshot and keyboard navigation supplied final coverage; no raw-policy bypass."
+  ],
+  "open_material_findings": 0,
+  "limitations": [
+    "Root review, no independent native-market or buyer acceptance.",
+    "Offline source snapshot; external links not live-verified this turn.",
+    "No full-set, VN/Fabless/Partner, account/audience or production acceptance."
+  ]
+}
