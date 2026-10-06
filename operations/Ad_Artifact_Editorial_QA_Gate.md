@@ -1,3 +1,7 @@
+> **Historical finding trước rebuild v3 · VN xưng hô 2026-10-06 — policy1.1 / CHANGES_REQUIRED lúc review.** Bảo yêu cầu gọi trực tiếp người đọc là **“Quý Doanh Nghiệp”**, loại “Bạn/doanh nghiệp bạn”. [VN-VOICE-01 V5](VN_Locale_Reader_Voice_Gate.md) bắt buộc copy pregen scan + semantic review và actual native/desktop/mobile postgen transcript + review. Journey v1/v2 lúc review còn3ảnh R1/R5/E4,2captions và3alts cần sửa. Finding đã được thay thế bằng rebuild IC700/Aplus v3 +caption-context-v1; xem owned README/current acceptance. Cold v4 descriptive “doanh nghiệp Việt” giữ freeze. Policy1.0 receipts là lịch sử; fresh policy1.1/hash/V5 required trước dispatch mới. Không sửa frozen core/EN/Chinese; current work local chưa commit/push.
+
+> **VN-only freeze/gate · 2026-10-06:** Bảo freeze nuance Cold v4: “Đồng hành cùng doanh nghiệp Việt chuẩn bị năng lực quản trị để bước vào chuỗi bán dẫn.” [VN-VOICE-01](VN_Locale_Reader_Voice_Gate.md) bắt buộc PREGEN_SCRIPT và POSTGEN_ARTIFACT từng card/surface + toàn journey cho VN_DOMESTIC/vi-VN, bổ sung AD-ED-01/MSG-ANCHOR-01. Kiểm chủ thể/vai trò, trigger người đọc, tiếng Việt tự nhiên, bước tiếp và scope nguồn; không bắt mọi card lặp “đồng hành”. FAIL/thiếu review chặn generation/handoff. Freeze chỉ Cold v4; header mobile limitation giữ nguyên; RMK/evidence mới cần review riêng. Không thay EN/Chinese adapter hoặc frozen core.
+
 # Ad artifact editorial QA gate
 
 2026-10-02 · Bảo PO instruction after RMK R3 rejection. Applies to future paid-ad copy and finished artwork in this workspace, including awareness and RMK carousel images. Does not authorize production/live work. Canonical review loop remains LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md.
@@ -41,3 +45,21 @@ Gate ID `AD-ED-01`; revision; checkpoint/input hashes; writer/reviewer and indep
 R3 at `fe5c127`, card R4 source/footer: **“Case về quản trị vận hành; không chứng minh xử lý kiểm thử bất thường.”** Appears in exact copy and final raster/demo. PO rejects this draft-style caution. Verdict `EDITORIAL_QA_FAIL`, content `AD_COPY_FAILED / CHANGES_REQUESTED`. R3 card R3 footer “Kết quả không phải cam kết cho nhà máy khác.” and explanatory “Một bằng chứng vận hành để tham khảo…” also require this editorial review before a corrected revision, without inventing a universal result.
 
 Next revision must retain concrete proof but express authority through facts: named company/case, market, Digiwin role and attributed result. Keep adjacent-pain/non-generalization reasoning internal. Proof selection/rights/account boundaries remain unchanged.
+
+
+## Hậu kiểm bổ sung theo Bảo · 2026-10-05
+
+Áp dụng cho copy và artwork paid quảng cáo, gồm RMK. Đây là hậu kiểm của reviewer, chưa sửa mã/schema/tests harness.
+
+1. **BRAND-ROLE:** Kiểm tra mọi lần xuất hiện Digiwin trên ảnh và từng surface riêng (caption/native headline/alt/demo), phân biệt logo, category, headline, body, nguồn. Ghi exact string, count, vai trò và lý do cần giữ. Không thêm nhãn DIGIWIN cạnh logo chỉ để nhắc lại thương hiệu. Lặp không có chức năng mới phải rewrite/remove; không dùng ngưỡng đếm máy móc để PASS. Tên publisher/domain cần cho attribution có thể giữ, nhưng phải giải thích vai trò. Kiểm tra cả chữ nhỏ ngoài copy JSON.
+2. **ADVERTISER-VOICE:** Bài quảng cáo do Digiwin phát ngôn; không kể về Digiwin như một bên thứ ba đang giới thiệu/đánh giá nhà cung cấp. Flag các cách viết như “Digiwin chia sẻ kết quả”, “do Digiwin giới thiệu”, và lời giới thiệu công ty lặp lại. Dùng lời trực tiếp, tự nhiên; không bắt mọi câu phải có “chúng tôi”. Khách hàng vẫn là ngôi thứ ba; nguồn/case attribution vẫn rõ. Không đổi chủ thể thành Digiwin sở hữu kết quả khách hàng hay bịa lời khách hàng.
+
+Receipt bắt buộc: revision, card/surface/exact string, ảnh/copy/demo hash, brand count+roles, speaker và diễn giải, keep/rewrite/remove, claim/source impact, reviewer/independence, closure evidence native + desktop/mobile. Mỗi card có kết luận riêng. Có lỗi chưa khép = EDITORIAL_QA_FAIL; thiếu xem ảnh/render = INSUFFICIENT_EVIDENCE. Mechanical PASS không thay semantic PASS. Receipt cũ giữ nguyên lịch sử; revision mới phải được kiểm tra lại.
+
+## Duyệt script trước generation theo Bảo · 2026-10-05
+
+BRAND-ROLE và ADVERTISER-VOICE phải được kiểm tra **trước generation**, trên toàn bộ caption, headline, body, category/labels, source/footer, CTA, native headline, alt và storyboard của từng ad/card. Kiểm cả logo dự kiến để phát hiện header thương hiệu thừa; phân biệt vai trò nguồn với lời quảng cáo. Review tính liên tục câu chuyện, đúng chủ thể/claim/source và giọng Digiwin trực tiếp, không chờ có ảnh mới sửa content.
+
+Receipt PREGEN_SCRIPT ghi copy revision/hash, card/surface/exact string, brand count+roles dự kiến, speaker, source/story impact, findings và closure, reviewer/independence, verdict riêng BRAND-ROLE và ADVERTISER-VOICE cho từng card. Chỉ khi mọi card đạt cả hai tiêu chí, không còn finding content/source/story chưa khép, mới ghi SCRIPT_REVIEW_PASS và dùng đúng copy hash đó để tạo contract/review/release/spec mới qua harness hiện có. FAIL hoặc INSUFFICIENT_EVIDENCE chặn generation. Copy đổi sau review phải review và bind lại; không dùng PASS cũ. Không coi draft copy/keyword scan là semantic PASS.
+
+POSTGEN_ARTWORK là bước riêng: xem ảnh native và desktop/mobile, đối chiếu script đã duyệt để phát hiện chữ thêm/lặp/sai/thiếu, giọng bị đổi, nguồn/font/layout/story sai ý. Ghi hash ảnh/demo và closure từng card. SCRIPT_REVIEW_PASS không thay EDITORIAL_QA_PASS của ảnh; thiếu ảnh trước generation là POSTGEN_NOT_RUN, không làm script tự thất bại. Hai bước này do reviewer thực hiện; mã/schema/tests harness giữ nguyên.

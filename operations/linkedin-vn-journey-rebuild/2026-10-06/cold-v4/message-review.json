@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "revision": "VN-cold-v4-MSG-ANCHOR-01",
+  "gate_id": "MSG-ANCHOR-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "revision": "1.0"
+  },
+  "source": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3",
+    "revision": "VY-MAIL-USER-20261006"
+  },
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/contract.json",
+      "sha256": "a6e749e229a0df9dfd507fed7e4ae4680cb57e7152d3f3f2c6244dc958c2f3c0",
+      "revision": "VN-cold-v4-contract"
+    },
+    "copy": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/public-copy.json",
+      "sha256": "a12770d5750e7595e4ee3ebc42d7cfa3c91a298bd1575a6c600f7a7e671114a5",
+      "revision": "VN-cold-v4-copy"
+    },
+    "spec": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/spec.json",
+      "sha256": "d3b03038f157dfdc63b6fcf92a6420f55ebf85c95944b19fd5383a217121d7da",
+      "revision": "VN-cold-v4-spec"
+    },
+    "script_review": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/script-review-detail.json",
+      "sha256": "f1d1edb3a4182239afb91fd5a26ef775f3094c32ba3fbc7faaa104ef7508b2fc",
+      "revision": "VN-cold-v4-semantic-review"
+    }
+  },
+  "scope": {
+    "segment": "VN_DOMESTIC",
+    "locale": "vi-VN",
+    "persona": "Chủ doanh nghiệp / giám đốc vận hành nhà cung ứng công nghiệp nội địa",
+    "route": "VN-supplier-readiness-Cold"
+  },
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "coverage": {
+    "ads": [
+      "VN-COLD-AUTHORITY-04"
+    ],
+    "cards": [
+      "VN-COLD-AUTHORITY-04-IMAGE"
+    ],
+    "fields": {
+      "VN-COLD-AUTHORITY-04": [
+        "caption",
+        "VN-COLD-AUTHORITY-04-IMAGE.headline",
+        "VN-COLD-AUTHORITY-04-IMAGE.body",
+        "VN-COLD-AUTHORITY-04-IMAGE.source_text",
+        "VN-COLD-AUTHORITY-04-IMAGE.cta",
+        "VN-COLD-AUTHORITY-04-IMAGE.native_headline",
+        "VN-COLD-AUTHORITY-04-IMAGE.alt",
+        "VN-COLD-AUTHORITY-04-IMAGE.artwork_labels"
+      ]
+    },
+    "storyboard_cards": [
+      "VN-COLD-AUTHORITY-04-IMAGE"
+    ]
+  },
+  "rules": {
+    "A1": {
+      "verdict": "MATCH",
+      "observation": "Semiconductor expertise headline + domestic supplier invitation; precision-machined/stamped industrial components reflect relevant supply-chain activity, excludes fab/wafer/chip-tray scene."
+    },
+    "A2": {
+      "verdict": "MATCH",
+      "observation": "Owner/operations director decision-unit hypothesis; no assertion of live account eligibility or parent-system fit; selection count not customer-fit proof."
+    },
+    "A3": {
+      "verdict": "MATCH",
+      "observation": "vi-VN domestic supplier persona and readiness bridge, not translated OSAT Finance or FDI ROI primary hook."
+    },
+    "A4": {
+      "verdict": "N/A",
+      "observation": "VN_DOMESTIC only; no FDI ROI outcome claim."
+    },
+    "A5": {
+      "verdict": "MATCH",
+      "observation": "Exact Đồng hành cùng doanh nghiệp Việt chuẩn bị năng lực quản trị để bước vào chuỗi bán dẫn makes advertiser offer explicit; preparation support, no admission/certification/order guarantee."
+    },
+    "A6": {
+      "verdict": "MATCH",
+      "observation": "ERP sector role and process/data readiness only; no recipe/yield/MES/test-control or ERP-only deployment claim. Leadership attached to supplier not ranked product."
+    },
+    "A7": {
+      "verdict": "MATCH",
+      "observation": "Caption introduces Digiwin then chúng tôi; selection headline → explicit domestic invitation body → native headline/alt/context preserve same role/readiness. No fake CTA or URL, standalone only."
+    }
+  },
+  "units": [
+    {
+      "card_id": "VN-COLD-AUTHORITY-04-IMAGE",
+      "verdict": "MATCH",
+      "observation": "All card fields inspected:200+ selection headline; supplier-position role; new exact Đồng hành invitation body; caption/native/alt coherently address domestic supplier. Scene blank review folders and precision-metal parts, explicitly excludes v3 wafer/fab drift."
+    }
+  ],
+  "transitions": [],
+  "context": {
+    "scope": "STANDALONE",
+    "verdict": "MATCH",
+    "observation": "One correction Cold pilot chosen by Bao, not full journey/destination acceptance. Semantic continuity within Cold only, future RMK/evidence pending.",
+    "brief": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/authority.md",
+      "sha256": "e062cebea185668b33a0b15a004a723ced7f29230662605fafffdb810fa2b8d3",
+      "revision": "Bao-VN-Cold-correction-20261006"
+    },
+    "related_inputs": []
+  },
+  "unresolved_findings": []
+}

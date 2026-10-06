@@ -1,0 +1,565 @@
+{
+  "gate_id": "VN-VOICE-01",
+  "revision": "VN-journey-selected-postgen-1",
+  "stage": "POSTGEN_ARTIFACT",
+  "date": "2026-10-06",
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "verdict": "VN_VOICE_PASS",
+  "policy": {
+    "path": "operations/VN_Locale_Reader_Voice_Gate.md",
+    "revision": "1.0",
+    "sha256": "dc1744062bc7976704917a3a85d240ada417f5b61a382406ae2a2fe378ac9b19"
+  },
+  "freeze": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/VN_Cold_Nuance_Freeze_2026-10-06.json",
+    "sha256": "ed4b6c3323989ea1109cc7f1b77da88ece0a398ddfeabdafa1bb8c6e56cf85ec"
+  },
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "revision": "1.0",
+    "sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "source_sha256": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3"
+  },
+  "scope": {
+    "segment": "VN_DOMESTIC",
+    "locale": "vi-VN",
+    "persona": "Chủ doanh nghiệp / giám đốc vận hành nhà cung ứng công nghiệp nội địa",
+    "route": "VN-supplier-readiness-full-journey"
+  },
+  "inputs": {
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/public-copy.json": "ee6243009487ae7cc7c716f31f4abd3ffa7a83493ab6778186b20ec4638e34fb",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/spec.json": "e52de33751072aacf56411e25e7aa3f7f058399c5cd45ac18b81e84443bcb397",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/script-review-detail.json": "6ba9a5f2a19ef1fa91c4e70a695a2f05f0393f8d0db18dc0e4fdd6a36a2a4e8d",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/message-review.json": "bb64928e860704565b05f8fced84008c76605e04d458bff37cb075b7360e0390",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/vn-voice-pregen.json": "539c7e1335ceec2f2ee8884a79b1a23999f1283b5ad68a1df90721dc471219dd",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/dispatch-pins.json": "118233dcd4495cb0a3e5cfeb4d180801692d1b2c7fbaa3ef2ea6397a75d980c4",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v2/public-copy.json": "9c029dc3f4421a4797c57a4fd09cfd018cca708ba42d4ddd91871429339ddf95",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v2/spec.json": "183cddd80b83bc6bd773c39eae8e43815d66bf4b5d861a57c9f3ddcd458e7071",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v2/script-review-detail.json": "e568d4ac7c2b3a9d79e31fd328bbdb24216e350cf3affeceaf76a0e700e4794d",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v2/message-review.json": "c8f426b3641f9ceaa02e045d8aff2030c348bea03e80d3bfe764737b3bcdf627",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v2/vn-voice-pregen.json": "cbdc7eda1b016cd22ef2942c57abde51cd512c332716ddddee0cd147837cab11",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v2/dispatch-pins.json": "4d7c7e3af16bc7795495d0537a98b0dd8baf53ad3e929782d8499114b6df936a"
+  },
+  "demo": {
+    "path": "deliverables/linkedin-vn-journey/2026-10-06/index.html",
+    "sha256": "bebfa496203588ee92b1454a8165245ef75a6724c16181a16a0855095bd8182d",
+    "projection": "Only public caption/image/alt/native headline/CTA/destination and viewer navigation. No audit/contracts/internal notes embedded."
+  },
+  "units": [
+    {
+      "card_id": "VN-COLD-AUTHORITY-04-IMAGE",
+      "copy_fields_inspected": {
+        "card_id": "VN-COLD-AUTHORITY-04-IMAGE",
+        "headline": "200+\ndoanh nghiệp bán dẫn\nđã lựa chọn chúng tôi",
+        "body": "Đồng hành cùng doanh nghiệp Việt\nchuẩn bị năng lực quản trị\nđể bước vào chuỗi bán dẫn.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Đồng hành cùng doanh nghiệp Việt vào chuỗi",
+        "alt": "Digiwin với hook 200+ doanh nghiệp bán dẫn đã lựa chọn chúng tôi; đồng hành cùng doanh nghiệp Việt chuẩn bị quản trị. Minh họa linh kiện kim loại và hồ sơ quy trình.",
+        "artwork_labels": [
+          "ERP cho ngành bán dẫn\ntừ nhà cung cấp hàng đầu\nĐài Loan"
+        ]
+      },
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/native/vn-cold-v4.png",
+        "sha256": "a326010dce53815bdf77e52ca38ad0fb1990bf02a312ab9fe8b076ab407406f5"
+      },
+      "desktop": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/desktop-0.png",
+        "sha256": "bff8233b0c9e1054497ca7205011bfa7eecc929c60fc5cf968db3eefdd605658",
+        "width_css": 1280,
+        "art_width_css": 648.2222290039062
+      },
+      "mobile": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/mobile-0.png",
+        "sha256": "d29b4d7b01d804ccfb59ceb6c17fe9bfa0131a4dcafbaa03dd80fefd65ef65e2",
+        "width_css": 390,
+        "art_width_css": 335.5555725097656
+      },
+      "V1_V4_actual_observation": "Actual accepted 200+ selection hook and exact Đồng hành invitation retain advertiser and domestic-reader role. Industrial components/process binders, no wafer/fab. Re-reviewed current native/desktop/mobile under new voice gate; no retrospective PREGEN_PASS. Mobile positioning header remains small, already accepted limitation.",
+      "visible_text": "Headline/body/artwork_labels and applicable CTA exact after linebreak normalization; no new meaningful prop labels on selected assets. Cold fixed known scope.",
+      "brand_role": "One Digiwin logo on native; separate feed identity has account role, category has stage/product role. No added Digiwin word label. Pixel-perfect logo not certified.",
+      "advertiser_voice": "PASS; named actual subject in above observation and advertiser role reinforced by each independent ad caption.",
+      "anchor": "MATCH; preparation process/data → sourced ERP mechanics → scoped case/CTA",
+      "vn_voice": "VN_VOICE_PASS",
+      "editorial": "EDITORIAL_QA_PASS",
+      "readability": "Main hook/body readable at inspected widths; categories secondary/small. Cold header limitation retained; R5 raster CTA smaller than native headline/feed CTA, readable but could enlarge in PO revision."
+    },
+    {
+      "card_id": "VN-R1",
+      "copy_fields_inspected": {
+        "card_id": "VN-R1",
+        "headline": "Khách hàng cần dữ liệu.\nBạn đã sẵn sàng?",
+        "body": "Chúng tôi đồng hành cùng doanh nghiệp Việt\nchuẩn bị quy trình và dữ liệu với ERP.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Bắt đầu từ quy trình và dữ liệu",
+        "alt": "Digiwin: Khách hàng cần dữ liệu. Bạn đã sẵn sàng? Chúng tôi đồng hành cùng doanh nghiệp Việt chuẩn bị quy trình và dữ liệu với ERP.",
+        "artwork_labels": [
+          "ERP · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ"
+        ]
+      },
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v2/native/vn-r1-v2.png",
+        "sha256": "4f1662714fce8ae135e0a14b114f666e3e9fde751460f1164089020661c94b84"
+      },
+      "desktop": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/desktop-1.png",
+        "sha256": "bdd911973df812394640f52d002e764654c9b82507aeb7054c268c3bf8db2fbe",
+        "width_css": 1280,
+        "art_width_css": 648.2222290039062
+      },
+      "mobile": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/mobile-1.png",
+        "sha256": "bd81f953ca4d0290fcd6e22758dc87dc58353f66fa44ac1ed21e29c8395ac3f6",
+        "width_css": 390,
+        "art_width_css": 335.5555725097656
+      },
+      "V1_V4_actual_observation": "Actual corrected image prints only header, question Khách hàng cần dữ liệu. Bạn đã sẵn sàng? and chúng tôi đồng hành body. Two blank record stacks and bracket; v1 unreviewed labels removed. Direct readiness problem, no certification promise.",
+      "visible_text": "Headline/body/artwork_labels and applicable CTA exact after linebreak normalization; no new meaningful prop labels on selected assets. Cold fixed known scope.",
+      "brand_role": "One Digiwin logo on native; separate feed identity has account role, category has stage/product role. No added Digiwin word label. Pixel-perfect logo not certified.",
+      "advertiser_voice": "PASS; named actual subject in above observation and advertiser role reinforced by each independent ad caption.",
+      "anchor": "MATCH; preparation process/data → sourced ERP mechanics → scoped case/CTA",
+      "vn_voice": "VN_VOICE_PASS",
+      "editorial": "EDITORIAL_QA_PASS",
+      "readability": "Main hook/body readable at inspected widths; categories secondary/small. Cold header limitation retained; R5 raster CTA smaller than native headline/feed CTA, readable but could enlarge in PO revision."
+    },
+    {
+      "card_id": "VN-R2",
+      "copy_fields_inspected": {
+        "card_id": "VN-R2",
+        "headline": "Các bộ phận đã\ncùng một quy trình?",
+        "body": "Chúng tôi cùng doanh nghiệp làm rõ\nquy trình quản lý trước khi triển khai ERP.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Cùng làm rõ quy trình quản lý",
+        "alt": "Digiwin: Các bộ phận đã cùng một quy trình? Chúng tôi cùng doanh nghiệp làm rõ quy trình quản lý trước khi triển khai ERP.",
+        "artwork_labels": [
+          "ERP · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ"
+        ]
+      },
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/native/vn-r2-v1.png",
+        "sha256": "d0f2a51da627d693c011e2385483fd37f801cc3c8e4e27604d567b324c3efdb2"
+      },
+      "desktop": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/desktop-2-recheck.png",
+        "sha256": "e6f4c38bcf011d608380a3eb98880df9a88e15ecdd9860a9fe15d8e2d4664956",
+        "width_css": 1280,
+        "art_width_css": 648.2222290039062
+      },
+      "mobile": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/mobile-2.png",
+        "sha256": "360071418c571e187cd089934c359834b7cefadd4669d103b2d98687ba59f118",
+        "width_css": 390,
+        "art_width_css": 335.5555725097656
+      },
+      "V1_V4_actual_observation": "Actual department/process/record panels and blank process diagram; question Các bộ phận đã cùng một quy trình? and chúng tôi cùng doanh nghiệp body show people/process alignment. Generic icons added without extra text or new capability; no brand repetition. Desktop recheck closes capture-only duplicate artifact.",
+      "visible_text": "Headline/body/artwork_labels and applicable CTA exact after linebreak normalization; no new meaningful prop labels on selected assets. Cold fixed known scope.",
+      "brand_role": "One Digiwin logo on native; separate feed identity has account role, category has stage/product role. No added Digiwin word label. Pixel-perfect logo not certified.",
+      "advertiser_voice": "PASS; named actual subject in above observation and advertiser role reinforced by each independent ad caption.",
+      "anchor": "MATCH; preparation process/data → sourced ERP mechanics → scoped case/CTA",
+      "vn_voice": "VN_VOICE_PASS",
+      "editorial": "EDITORIAL_QA_PASS",
+      "readability": "Main hook/body readable at inspected widths; categories secondary/small. Cold header limitation retained; R5 raster CTA smaller than native headline/feed CTA, readable but could enlarge in PO revision."
+    },
+    {
+      "card_id": "VN-R3",
+      "copy_fields_inspected": {
+        "card_id": "VN-R3",
+        "headline": "Đơn hàng thay đổi.\nXưởng cập nhật từ đâu?",
+        "body": "Workflow ERP kết nối đơn hàng\nvới lệnh sản xuất để theo dõi tiến độ.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Nối đơn hàng với lệnh sản xuất",
+        "alt": "Digiwin: Đơn hàng thay đổi. Xưởng cập nhật từ đâu? Workflow ERP kết nối đơn hàng với lệnh sản xuất để theo dõi tiến độ.",
+        "artwork_labels": [
+          "ERP · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ"
+        ]
+      },
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/native/vn-r3-v1.png",
+        "sha256": "cc06b12b568746053ae3f501d38f9650df6c1f147a9aa35f9172053c275a788c"
+      },
+      "desktop": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/desktop-3.png",
+        "sha256": "17573684b153313ae13e089b37b74b429b2644d4bcaa5ba9cdf42fd0b1977b45",
+        "width_css": 1280,
+        "art_width_css": 648.2222290039062
+      },
+      "mobile": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/mobile-3.png",
+        "sha256": "8847d140739fb7363a8b794c067da05d6ffa80b7793606fb268d5c5d07711cd1",
+        "width_css": 390,
+        "art_width_css": 335.5555725097656
+      },
+      "V1_V4_actual_observation": "Actual order records/work-ticket/metal-parts context, exact Xưởng cập nhật từ đâu? and Workflow ERP sentence. Workflow ERP is acting subject; operational-reader question stays concrete. Decorative gear on ticket is not a fake UI or new automation claim.",
+      "visible_text": "Headline/body/artwork_labels and applicable CTA exact after linebreak normalization; no new meaningful prop labels on selected assets. Cold fixed known scope.",
+      "brand_role": "One Digiwin logo on native; separate feed identity has account role, category has stage/product role. No added Digiwin word label. Pixel-perfect logo not certified.",
+      "advertiser_voice": "PASS; named actual subject in above observation and advertiser role reinforced by each independent ad caption.",
+      "anchor": "MATCH; preparation process/data → sourced ERP mechanics → scoped case/CTA",
+      "vn_voice": "VN_VOICE_PASS",
+      "editorial": "EDITORIAL_QA_PASS",
+      "readability": "Main hook/body readable at inspected widths; categories secondary/small. Cold header limitation retained; R5 raster CTA smaller than native headline/feed CTA, readable but could enlarge in PO revision."
+    },
+    {
+      "card_id": "VN-R4",
+      "copy_fields_inspected": {
+        "card_id": "VN-R4",
+        "headline": "Vật liệu có vấn đề.\nĐội ngũ tra lại lô nào?",
+        "body": "Quản lý số lô hỗ trợ đội ngũ\ntruy nguồn vật liệu khi phát sinh lỗi.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Tra nguồn vật liệu theo số lô",
+        "alt": "Digiwin: Vật liệu có vấn đề. Đội ngũ tra lại lô nào? Quản lý số lô hỗ trợ đội ngũ truy nguồn vật liệu khi phát sinh lỗi.",
+        "artwork_labels": [
+          "ERP · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ"
+        ]
+      },
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/native/vn-r4-v1.png",
+        "sha256": "6d80ed982187551f23c1b59b1a379cd55fb72988af5a2385babd6a0b0c414dde"
+      },
+      "desktop": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/desktop-4.png",
+        "sha256": "c7cc1ee2920956471abeb2d620622af58688948ad9df4b70b0c8dadc795d2999",
+        "width_css": 1280,
+        "art_width_css": 648.2222290039062
+      },
+      "mobile": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/mobile-4.png",
+        "sha256": "232c1b6e5af1a3c1469eaf58ebe4840ed976e8b1011f4de7081009c7811b8934",
+        "width_css": 390,
+        "art_width_css": 335.5555725097656
+      },
+      "V1_V4_actual_observation": "Actual polymer granules and blank lot tags show material-origin question with đội ngũ subject. Body Quản lý số lô hỗ trợ đội ngũ truy nguồn vật liệu khi phát sinh lỗi matches reviewed scope, no genealogy/audit promise.",
+      "visible_text": "Headline/body/artwork_labels and applicable CTA exact after linebreak normalization; no new meaningful prop labels on selected assets. Cold fixed known scope.",
+      "brand_role": "One Digiwin logo on native; separate feed identity has account role, category has stage/product role. No added Digiwin word label. Pixel-perfect logo not certified.",
+      "advertiser_voice": "PASS; named actual subject in above observation and advertiser role reinforced by each independent ad caption.",
+      "anchor": "MATCH; preparation process/data → sourced ERP mechanics → scoped case/CTA",
+      "vn_voice": "VN_VOICE_PASS",
+      "editorial": "EDITORIAL_QA_PASS",
+      "readability": "Main hook/body readable at inspected widths; categories secondary/small. Cold header limitation retained; R5 raster CTA smaller than native headline/feed CTA, readable but could enlarge in PO revision."
+    },
+    {
+      "card_id": "VN-R5",
+      "copy_fields_inspected": {
+        "card_id": "VN-R5",
+        "headline": "Doanh nghiệp bạn\ncần chuẩn bị từ đâu?",
+        "body": "Xem cách chúng tôi cùng Pressway Precision\ntriển khai Workflow ERP tại Việt Nam.",
+        "source_text": "",
+        "cta": "Xem case Pressway Precision",
+        "native_headline": "Xem dự án Workflow ERP tại Việt Nam",
+        "alt": "Digiwin: Doanh nghiệp bạn cần chuẩn bị từ đâu? Xem cách chúng tôi cùng Pressway Precision triển khai Workflow ERP tại Việt Nam.",
+        "artwork_labels": [
+          "ERP · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ"
+        ]
+      },
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/native/vn-r5-v1.png",
+        "sha256": "d90bc6973658c3647705483adf9325ae27f742e44e04f72db84b663f434af592"
+      },
+      "desktop": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/desktop-5.png",
+        "sha256": "735ba371d0a0d82c10ceb07a266a817a28091d947a25053ea0dcd6fbb1ae2979",
+        "width_css": 1280,
+        "art_width_css": 648.2222290039062
+      },
+      "mobile": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/mobile-5.png",
+        "sha256": "ba8b7cfb2f5dc29092492ef7a540713689ddf89537cd723cb175ba05c4d8e843",
+        "width_css": 390,
+        "art_width_css": 335.5555725097656
+      },
+      "V1_V4_actual_observation": "Actual reader question Doanh nghiệp bạn cần chuẩn bị từ đâu?, named chúng tôi cùng Pressway body, open casebook and molded-housing illustration. CTA Xem case Pressway Precision present; same readiness problem bridges to named VI ERP case, not customer-entry guarantee.",
+      "visible_text": "Headline/body/artwork_labels and applicable CTA exact after linebreak normalization; no new meaningful prop labels on selected assets. Cold fixed known scope.",
+      "brand_role": "One Digiwin logo on native; separate feed identity has account role, category has stage/product role. No added Digiwin word label. Pixel-perfect logo not certified.",
+      "advertiser_voice": "PASS; named actual subject in above observation and advertiser role reinforced by each independent ad caption.",
+      "anchor": "MATCH; preparation process/data → sourced ERP mechanics → scoped case/CTA",
+      "vn_voice": "VN_VOICE_PASS",
+      "editorial": "EDITORIAL_QA_PASS",
+      "readability": "Main hook/body readable at inspected widths; categories secondary/small. Cold header limitation retained; R5 raster CTA smaller than native headline/feed CTA, readable but could enlarge in PO revision."
+    },
+    {
+      "card_id": "VN-E1",
+      "copy_fields_inspected": {
+        "card_id": "VN-E1",
+        "headline": "Pressway Precision\náp dụng ERP từ đầu.",
+        "body": "Nhà máy linh kiện nhựa điện tử tại Hải Phòng\ntriển khai Workflow ERP cùng chúng tôi.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Pressway: Workflow ERP tại Hải Phòng",
+        "alt": "Digiwin: Pressway Precision áp dụng ERP từ đầu. Nhà máy linh kiện nhựa điện tử tại Hải Phòng triển khai Workflow ERP cùng chúng tôi.",
+        "artwork_labels": [
+          "CASE VIỆT NAM · WORKFLOW ERP"
+        ]
+      },
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/native/vn-e1-v1.png",
+        "sha256": "903554e319bdc853d519ec73eeb17418c4ceb33855cc0ae96176e01cd80ec251"
+      },
+      "desktop": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/desktop-6.png",
+        "sha256": "fc3a75d034bd43eee8e1bc0474a68940d16d4d2375fd13e1169e6f3f9ffbe175",
+        "width_css": 1280,
+        "art_width_css": 648.2222290039062
+      },
+      "mobile": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/mobile-6.png",
+        "sha256": "263417969ce4e2b4eddf4615958cbc50225a7eb4b9a9e2e2ace0c104cb4da669",
+        "width_css": 390,
+        "art_width_css": 335.5555725097656
+      },
+      "V1_V4_actual_observation": "Actual Pressway Precision, Hải Phòng electronic-plastics factory and Workflow ERP cùng chúng tôi. Molded parts plus generic engineering plan are activity-context illustration, not ERP=CAD or customer facility evidence. Case ownership/semiconductor-entry not claimed.",
+      "visible_text": "Headline/body/artwork_labels and applicable CTA exact after linebreak normalization; no new meaningful prop labels on selected assets. Cold fixed known scope.",
+      "brand_role": "One Digiwin logo on native; separate feed identity has account role, category has stage/product role. No added Digiwin word label. Pixel-perfect logo not certified.",
+      "advertiser_voice": "PASS; named actual subject in above observation and advertiser role reinforced by each independent ad caption.",
+      "anchor": "MATCH; preparation process/data → sourced ERP mechanics → scoped case/CTA",
+      "vn_voice": "VN_VOICE_PASS",
+      "editorial": "EDITORIAL_QA_PASS",
+      "readability": "Main hook/body readable at inspected widths; categories secondary/small. Cold header limitation retained; R5 raster CTA smaller than native headline/feed CTA, readable but could enlarge in PO revision."
+    },
+    {
+      "card_id": "VN-E2",
+      "copy_fields_inspected": {
+        "card_id": "VN-E2",
+        "headline": "Hai bên cùng làm rõ\nquy trình nhà máy.",
+        "body": "Chúng tôi cùng Pressway Precision\nthảo luận và xây dựng cơ chế quản lý.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Hai bên cùng xây dựng quy trình",
+        "alt": "Digiwin: Hai bên cùng làm rõ quy trình nhà máy. Chúng tôi cùng Pressway Precision thảo luận và xây dựng cơ chế quản lý.",
+        "artwork_labels": [
+          "CASE VIỆT NAM · WORKFLOW ERP"
+        ]
+      },
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v2/native/vn-e2-v2.png",
+        "sha256": "302ab1b28ecc1018373b9979be81675139682b65574bf1780ba6020410401a99"
+      },
+      "desktop": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/desktop-7.png",
+        "sha256": "4e2e715f20cf37eaf1cbdc0920ab60a0d2f6d4d19b09fd6dcd89d9b415296e9a",
+        "width_css": 1280,
+        "art_width_css": 648.2222290039062
+      },
+      "mobile": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/mobile-7.png",
+        "sha256": "3bb3e524cc7ca501920bf438108a998408f481c78e1bfd0819dbdb70d24c0c4e",
+        "width_css": 390,
+        "art_width_css": 335.5555725097656
+      },
+      "V1_V4_actual_observation": "Actual corrected two process notebooks have blank rectangular process panels and review pens. Exact Hai bên cùng làm rõ and chúng tôi cùng Pressway body preserve collaborative management-process role; prior CAD imagery removed.",
+      "visible_text": "Headline/body/artwork_labels and applicable CTA exact after linebreak normalization; no new meaningful prop labels on selected assets. Cold fixed known scope.",
+      "brand_role": "One Digiwin logo on native; separate feed identity has account role, category has stage/product role. No added Digiwin word label. Pixel-perfect logo not certified.",
+      "advertiser_voice": "PASS; named actual subject in above observation and advertiser role reinforced by each independent ad caption.",
+      "anchor": "MATCH; preparation process/data → sourced ERP mechanics → scoped case/CTA",
+      "vn_voice": "VN_VOICE_PASS",
+      "editorial": "EDITORIAL_QA_PASS",
+      "readability": "Main hook/body readable at inspected widths; categories secondary/small. Cold header limitation retained; R5 raster CTA smaller than native headline/feed CTA, readable but could enlarge in PO revision."
+    },
+    {
+      "card_id": "VN-E3",
+      "copy_fields_inspected": {
+        "card_id": "VN-E3",
+        "headline": "Đơn hàng, sản xuất,\nvật liệu cùng một mạch.",
+        "body": "Tại Pressway Precision, Workflow ERP kết nối\nđơn hàng, lệnh sản xuất và quản lý số lô.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Pressway: kết nối dữ liệu vận hành",
+        "alt": "Digiwin: Đơn hàng, sản xuất, vật liệu cùng một mạch. Tại Pressway Precision, Workflow ERP kết nối đơn hàng, lệnh sản xuất và quản lý số lô.",
+        "artwork_labels": [
+          "CASE VIỆT NAM · WORKFLOW ERP"
+        ]
+      },
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v2/native/vn-e3-v2.png",
+        "sha256": "d747d29650c445c7443463619dbe0a16270555446f81cddf68817101450ccd7c"
+      },
+      "desktop": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/desktop-8.png",
+        "sha256": "4cb7c6e8d99a70d790b9c6d37716a3809b6382f59546b0d58eb2ebbb12352ba5",
+        "width_css": 1280,
+        "art_width_css": 648.2222290039062
+      },
+      "mobile": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/mobile-8.png",
+        "sha256": "6835e39a11f6d2098dde05ab14b0e1f7a39571ad00cbeec513cba9dc93b38128",
+        "width_css": 390,
+        "art_width_css": 335.5555725097656
+      },
+      "V1_V4_actual_observation": "Actual corrected CASE VIỆT NAM · WORKFLOW ERP header and white polymer granules/blank order/ticket/tag. Exact named-case connection body retained; prior semiconductor-header, IC parts and unreviewed labels removed. Does not imply Pressway is a semiconductor manufacturer.",
+      "visible_text": "Headline/body/artwork_labels and applicable CTA exact after linebreak normalization; no new meaningful prop labels on selected assets. Cold fixed known scope.",
+      "brand_role": "One Digiwin logo on native; separate feed identity has account role, category has stage/product role. No added Digiwin word label. Pixel-perfect logo not certified.",
+      "advertiser_voice": "PASS; named actual subject in above observation and advertiser role reinforced by each independent ad caption.",
+      "anchor": "MATCH; preparation process/data → sourced ERP mechanics → scoped case/CTA",
+      "vn_voice": "VN_VOICE_PASS",
+      "editorial": "EDITORIAL_QA_PASS",
+      "readability": "Main hook/body readable at inspected widths; categories secondary/small. Cold header limitation retained; R5 raster CTA smaller than native headline/feed CTA, readable but could enlarge in PO revision."
+    },
+    {
+      "card_id": "VN-E4",
+      "copy_fields_inspected": {
+        "card_id": "VN-E4",
+        "headline": "Doanh nghiệp bạn\nđã sẵn sàng bắt đầu?",
+        "body": "Cùng chúng tôi trao đổi nhu cầu quản trị,\ntừ quy trình và dữ liệu hiện có.",
+        "source_text": "",
+        "cta": "Trao đổi nhu cầu",
+        "native_headline": "Trao đổi nhu cầu quản trị",
+        "alt": "Digiwin: Doanh nghiệp bạn đã sẵn sàng bắt đầu? Cùng chúng tôi trao đổi nhu cầu quản trị, từ quy trình và dữ liệu hiện có.",
+        "artwork_labels": [
+          "CASE VIỆT NAM · WORKFLOW ERP"
+        ]
+      },
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/native/vn-e4-v1.png",
+        "sha256": "ab9b9d3053da1b76d5efabaa93f5188da57e20d90b16eebfd85ea1049367d3ee"
+      },
+      "desktop": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/desktop-9.png",
+        "sha256": "5d69c1de8daf7edf94cc6e773384a986085d40540c6b37eb3b70231b7e010fef",
+        "width_css": 1280,
+        "art_width_css": 648.2222290039062
+      },
+      "mobile": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/mobile-9.png",
+        "sha256": "ea568d360e8f20e6bfc043e59b8981ad623d40c8c4069b906b1f347d1d6f0431",
+        "width_css": 390,
+        "art_width_css": 335.5555725097656
+      },
+      "V1_V4_actual_observation": "Actual Doanh nghiệp bạn đã sẵn sàng bắt đầu? and Cùng chúng tôi trao đổi nhu cầu quản trị ... invite reader to existing-process/data discussion. Notebook/industrial bracket, actual Trao đổi nhu cầu CTA. No fabricated assessment offer/form behavior.",
+      "visible_text": "Headline/body/artwork_labels and applicable CTA exact after linebreak normalization; no new meaningful prop labels on selected assets. Cold fixed known scope.",
+      "brand_role": "One Digiwin logo on native; separate feed identity has account role, category has stage/product role. No added Digiwin word label. Pixel-perfect logo not certified.",
+      "advertiser_voice": "PASS; named actual subject in above observation and advertiser role reinforced by each independent ad caption.",
+      "anchor": "MATCH; preparation process/data → sourced ERP mechanics → scoped case/CTA",
+      "vn_voice": "VN_VOICE_PASS",
+      "editorial": "EDITORIAL_QA_PASS",
+      "readability": "Main hook/body readable at inspected widths; categories secondary/small. Cold header limitation retained; R5 raster CTA smaller than native headline/feed CTA, readable but could enlarge in PO revision."
+    }
+  ],
+  "transitions": [
+    {
+      "cards": [
+        "VN-COLD-AUTHORITY-04-IMAGE",
+        "VN-R1"
+      ],
+      "verdict": "MATCH",
+      "observation": "Actual accepted 200+ selection hook and exact Đồng hành invitation retain advertiser and domestic-reader role. Industrial components/process binders, no wafer/fab. Re-reviewed current native/desktop/mobile under new voice gate; no retrospective PREGEN_PASS. Mobile positioning header remains small, already accepted limitation. Next unit: Actual corrected image prints only header, question Khách hàng cần dữ liệu. Bạn đã sẵn sàng? and chúng tôi đồng hành body. Two blank record stacks and bracket; v1 unreviewed labels removed. Direct readiness problem, no certification promise."
+    },
+    {
+      "cards": [
+        "VN-R1",
+        "VN-R2"
+      ],
+      "verdict": "MATCH",
+      "observation": "Actual corrected image prints only header, question Khách hàng cần dữ liệu. Bạn đã sẵn sàng? and chúng tôi đồng hành body. Two blank record stacks and bracket; v1 unreviewed labels removed. Direct readiness problem, no certification promise. Next unit: Actual department/process/record panels and blank process diagram; question Các bộ phận đã cùng một quy trình? and chúng tôi cùng doanh nghiệp body show people/process alignment. Generic icons added without extra text or new capability; no brand repetition. Desktop recheck closes capture-only duplicate artifact."
+    },
+    {
+      "cards": [
+        "VN-R2",
+        "VN-R3"
+      ],
+      "verdict": "MATCH",
+      "observation": "Actual department/process/record panels and blank process diagram; question Các bộ phận đã cùng một quy trình? and chúng tôi cùng doanh nghiệp body show people/process alignment. Generic icons added without extra text or new capability; no brand repetition. Desktop recheck closes capture-only duplicate artifact. Next unit: Actual order records/work-ticket/metal-parts context, exact Xưởng cập nhật từ đâu? and Workflow ERP sentence. Workflow ERP is acting subject; operational-reader question stays concrete. Decorative gear on ticket is not a fake UI or new automation claim."
+    },
+    {
+      "cards": [
+        "VN-R3",
+        "VN-R4"
+      ],
+      "verdict": "MATCH",
+      "observation": "Actual order records/work-ticket/metal-parts context, exact Xưởng cập nhật từ đâu? and Workflow ERP sentence. Workflow ERP is acting subject; operational-reader question stays concrete. Decorative gear on ticket is not a fake UI or new automation claim. Next unit: Actual polymer granules and blank lot tags show material-origin question with đội ngũ subject. Body Quản lý số lô hỗ trợ đội ngũ truy nguồn vật liệu khi phát sinh lỗi matches reviewed scope, no genealogy/audit promise."
+    },
+    {
+      "cards": [
+        "VN-R4",
+        "VN-R5"
+      ],
+      "verdict": "MATCH",
+      "observation": "Actual polymer granules and blank lot tags show material-origin question with đội ngũ subject. Body Quản lý số lô hỗ trợ đội ngũ truy nguồn vật liệu khi phát sinh lỗi matches reviewed scope, no genealogy/audit promise. Next unit: Actual reader question Doanh nghiệp bạn cần chuẩn bị từ đâu?, named chúng tôi cùng Pressway body, open casebook and molded-housing illustration. CTA Xem case Pressway Precision present; same readiness problem bridges to named VI ERP case, not customer-entry guarantee."
+    },
+    {
+      "cards": [
+        "VN-R5",
+        "VN-E1"
+      ],
+      "verdict": "MATCH",
+      "observation": "Actual reader question Doanh nghiệp bạn cần chuẩn bị từ đâu?, named chúng tôi cùng Pressway body, open casebook and molded-housing illustration. CTA Xem case Pressway Precision present; same readiness problem bridges to named VI ERP case, not customer-entry guarantee. Next unit: Actual Pressway Precision, Hải Phòng electronic-plastics factory and Workflow ERP cùng chúng tôi. Molded parts plus generic engineering plan are activity-context illustration, not ERP=CAD or customer facility evidence. Case ownership/semiconductor-entry not claimed."
+    },
+    {
+      "cards": [
+        "VN-E1",
+        "VN-E2"
+      ],
+      "verdict": "MATCH",
+      "observation": "Actual Pressway Precision, Hải Phòng electronic-plastics factory and Workflow ERP cùng chúng tôi. Molded parts plus generic engineering plan are activity-context illustration, not ERP=CAD or customer facility evidence. Case ownership/semiconductor-entry not claimed. Next unit: Actual corrected two process notebooks have blank rectangular process panels and review pens. Exact Hai bên cùng làm rõ and chúng tôi cùng Pressway body preserve collaborative management-process role; prior CAD imagery removed."
+    },
+    {
+      "cards": [
+        "VN-E2",
+        "VN-E3"
+      ],
+      "verdict": "MATCH",
+      "observation": "Actual corrected two process notebooks have blank rectangular process panels and review pens. Exact Hai bên cùng làm rõ and chúng tôi cùng Pressway body preserve collaborative management-process role; prior CAD imagery removed. Next unit: Actual corrected CASE VIỆT NAM · WORKFLOW ERP header and white polymer granules/blank order/ticket/tag. Exact named-case connection body retained; prior semiconductor-header, IC parts and unreviewed labels removed. Does not imply Pressway is a semiconductor manufacturer."
+    },
+    {
+      "cards": [
+        "VN-E3",
+        "VN-E4"
+      ],
+      "verdict": "MATCH",
+      "observation": "Actual corrected CASE VIỆT NAM · WORKFLOW ERP header and white polymer granules/blank order/ticket/tag. Exact named-case connection body retained; prior semiconductor-header, IC parts and unreviewed labels removed. Does not imply Pressway is a semiconductor manufacturer. Next unit: Actual Doanh nghiệp bạn đã sẵn sàng bắt đầu? and Cùng chúng tôi trao đổi nhu cầu quản trị ... invite reader to existing-process/data discussion. Notebook/industrial bracket, actual Trao đổi nhu cầu CTA. No fabricated assessment offer/form behavior."
+    }
+  ],
+  "anchor_rules": {
+    "A1": "MATCH supplier metal/plastic activity, semiconductor/electronics readiness route, no fab/OSAT-only framing",
+    "A2": "MATCH owner/operations role hypothesis; no observed audience/customer-fit claim",
+    "A3": "MATCH Vietnamese domestic preparation copy, not translated FDI finance",
+    "A4": "N/A VN only",
+    "A5": "MATCH support prepare process/data/management, no qualification/audit/order promise",
+    "A6": "MATCH ERP order-production/material-lot scopes, no MES/yield/recipe/test capability",
+    "A7": "MATCH reader problem stays process/data readiness through case and consultation links"
+  },
+  "whole_journey": "MESSAGE_ANCHOR_PASS / VN_VOICE_PASS for selected offline artifacts. Official VI case and contact reviewed as destination topics; no form submission or production runtime validation. Offline narrative is not guaranteed ad serving sequence.",
+  "closure": [
+    {
+      "card": "VN-R1",
+      "at": "v2",
+      "closed": "Unreviewed document labels absent."
+    },
+    {
+      "card": "VN-E2",
+      "at": "v2",
+      "closed": "CAD/product-design implication removed from process card."
+    },
+    {
+      "card": "VN-E3",
+      "at": "v2",
+      "closed": "Exact VI case header and polymer material; unreviewed labels/ICs absent."
+    },
+    {
+      "id": "DESKTOP-CAPTURE-02",
+      "closed": "Initial desktop-2 capture has duplicate lower frame; fresh DOM feedCount=1 and desktop-2-recheck confirms single correct feed. Original capture retained."
+    }
+  ],
+  "render_capture_recovery": "Browser1 unavailable after extension reconnect; observed current Chrome3. Screenshot/fullPage timeout recovered with fresh AX and normal screenshot. UI body Control+Home failed; no page mutation. Width emulation scoped to own tab; no browser-global viewport changes.",
+  "limitations": [
+    "Cold v4 mobile positioning header small, accepted by PO; unchanged.",
+    "Category text secondary/small in new cards; R5 raster CTA smaller than feed/native CTA.",
+    "Repeated tabletop palette anchors visual family; meaning differs per process/order/lot/case/action. No buyer-performance validation.",
+    "Root self-review; new RMK/evidence pending Bao acceptance."
+  ],
+  "unresolved_blocking_findings": [],
+  "content_status": "READY_FOR_BAO_REVIEW / SELF_REVIEW",
+  "human_acceptance": "Cold v4 only accepted/frozen; new9 pending",
+  "execution_status": "SUCCESS",
+  "independent_audit": "NOT_ASSIGNED",
+  "branch": "slice/linkedin-vn-journey-rebuild",
+  "original_email": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "record_id": "VY-MAIL-USER-20261006",
+    "sha256": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3"
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "revision": "VN-v4-anchor-review",
+  "gate_id": "MSG-ANCHOR-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "revision": "1.0"
+  },
+  "source": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3",
+    "revision": "VY-MAIL-USER-20261006"
+  },
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/contract.json",
+      "sha256": "8604ef30e3e102bc6e3b4b431e0572af596bb0b4609d5da5b72fcef95c69db51",
+      "revision": "VN-journey-v4-correction-contract"
+    },
+    "copy": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/public-copy.json",
+      "sha256": "7071b8ea5b5d27f4f40291a861c303767b6c139b361add102d5253a0d9c03f96",
+      "revision": "VN-journey-v3-IC700-Aplus-copy"
+    },
+    "spec": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/spec.json",
+      "sha256": "3ec424c8bad9eabd5a79d8313709a89713205df39a04aaf9b09daa261b8d8fd5",
+      "revision": "VN-v4-targeted-spec"
+    },
+    "script_review": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/script-review-detail.json",
+      "sha256": "8594955889eeca9fbb3e381c8dda4ed6bcea2b4979357ede992dc89c0b3dce3a",
+      "revision": "VN-v4-script-review"
+    }
+  },
+  "scope": {
+    "segment": "VN_DOMESTIC",
+    "locale": "vi-VN",
+    "persona": "domestic supplier owner / operations director",
+    "route": "Cold-v4 to IC700 preparation RMK to Aplus semiconductor evidence"
+  },
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "coverage": {
+    "ads": [
+      "VN-RMK-READINESS",
+      "VN-EVIDENCE-APLUS"
+    ],
+    "cards": [
+      "VN-R1",
+      "VN-R2",
+      "VN-R3",
+      "VN-R4",
+      "VN-R5",
+      "VN-E1",
+      "VN-E2",
+      "VN-E3",
+      "VN-E4"
+    ],
+    "fields": {
+      "VN-RMK-READINESS": [
+        "caption",
+        "VN-R1.headline",
+        "VN-R1.body",
+        "VN-R1.source_text",
+        "VN-R1.cta",
+        "VN-R1.native_headline",
+        "VN-R1.alt",
+        "VN-R1.artwork_labels",
+        "VN-R2.headline",
+        "VN-R2.body",
+        "VN-R2.source_text",
+        "VN-R2.cta",
+        "VN-R2.native_headline",
+        "VN-R2.alt",
+        "VN-R2.artwork_labels",
+        "VN-R3.headline",
+        "VN-R3.body",
+        "VN-R3.source_text",
+        "VN-R3.cta",
+        "VN-R3.native_headline",
+        "VN-R3.alt",
+        "VN-R3.artwork_labels",
+        "VN-R4.headline",
+        "VN-R4.body",
+        "VN-R4.source_text",
+        "VN-R4.cta",
+        "VN-R4.native_headline",
+        "VN-R4.alt",
+        "VN-R4.artwork_labels",
+        "VN-R5.headline",
+        "VN-R5.body",
+        "VN-R5.source_text",
+        "VN-R5.cta",
+        "VN-R5.native_headline",
+        "VN-R5.alt",
+        "VN-R5.artwork_labels"
+      ],
+      "VN-EVIDENCE-APLUS": [
+        "caption",
+        "VN-E1.headline",
+        "VN-E1.body",
+        "VN-E1.source_text",
+        "VN-E1.cta",
+        "VN-E1.native_headline",
+        "VN-E1.alt",
+        "VN-E1.artwork_labels",
+        "VN-E2.headline",
+        "VN-E2.body",
+        "VN-E2.source_text",
+        "VN-E2.cta",
+        "VN-E2.native_headline",
+        "VN-E2.alt",
+        "VN-E2.artwork_labels",
+        "VN-E3.headline",
+        "VN-E3.body",
+        "VN-E3.source_text",
+        "VN-E3.cta",
+        "VN-E3.native_headline",
+        "VN-E3.alt",
+        "VN-E3.artwork_labels",
+        "VN-E4.headline",
+        "VN-E4.body",
+        "VN-E4.source_text",
+        "VN-E4.cta",
+        "VN-E4.native_headline",
+        "VN-E4.alt",
+        "VN-E4.artwork_labels"
+      ]
+    },
+    "storyboard_cards": [
+      "VN-R1",
+      "VN-R2",
+      "VN-R3",
+      "VN-R4",
+      "VN-R5",
+      "VN-E1",
+      "VN-E2",
+      "VN-E3",
+      "VN-E4"
+    ]
+  },
+  "rules": {
+    "A1": {
+      "verdict": "MATCH",
+      "observation": "Domestic supplier operations/owner readiness, not corporate fab buyer."
+    },
+    "A2": {
+      "verdict": "MATCH",
+      "observation": "Specific influencing/decision role tied to records/process preparation; no live ICP claim."
+    },
+    "A3": {
+      "verdict": "MATCH",
+      "observation": "Vietnamese domestic journey distinct from FDI ROI; China case geography does not change reader."
+    },
+    "A4": {
+      "verdict": "MATCH",
+      "observation": "Business value checkable records/controls for assessment preparation; no financial ROI invented."
+    },
+    "A5": {
+      "verdict": "MATCH",
+      "observation": "Readiness invitation, no qualification or guaranteed audit approval."
+    },
+    "A6": {
+      "verdict": "MATCH",
+      "observation": "Industry depth individual history, SPC and engineering parameters with correct solution attribution."
+    },
+    "A7": {
+      "verdict": "MATCH",
+      "observation": "Cold invitation to consulting-experience trigger then mechanisms then named semiconductor case and need discussion."
+    }
+  },
+  "units": [
+    {
+      "card_id": "VN-R1",
+      "verdict": "MATCH",
+      "observation": "700+ qualified immediately as consulting experience/IC, no geography, no audit count; speaker chúng tôi, domestic-reader preparation; source publisher count."
+    },
+    {
+      "card_id": "VN-R2",
+      "verdict": "MATCH",
+      "observation": "Customer audit trigger and complete readiness question; subject hồ sơ, advertiser invitation. No audit-success promise; management preparation relevance."
+    },
+    {
+      "card_id": "VN-R3",
+      "verdict": "MATCH",
+      "observation": "Aplus named as case example, iMES owns individual-product history; explains checkable record mechanism, no ERP-only claim."
+    },
+    {
+      "card_id": "VN-R4",
+      "verdict": "MATCH",
+      "observation": "Aplus engineering parameters and SPC named; subject hệ thống, concrete change/quality process and source; not generic specialist slogan."
+    },
+    {
+      "card_id": "VN-R5",
+      "verdict": "MATCH",
+      "observation": "Quý Doanh Nghiệp exact direct address; named China case iMES+TOP GP before audit, not passed audit; case reading next step."
+    },
+    {
+      "card_id": "VN-E1",
+      "verdict": "MATCH",
+      "observation": "Aplus China semiconductor identity and product named, audit preparation motive only. DigiHua source footer; no attributed customer quotation."
+    },
+    {
+      "card_id": "VN-E2",
+      "verdict": "MATCH",
+      "observation": "Serial-based reporting and per-product history attributed to Aplus; checkable preparation mechanism, not universal outcome."
+    },
+    {
+      "card_id": "VN-E3",
+      "verdict": "MATCH",
+      "observation": "SPC statistics and real-time quality alert explicitly named and case-attributed; no measured defect/yield reduction or ERP claim."
+    },
+    {
+      "card_id": "VN-E4",
+      "verdict": "MATCH",
+      "observation": "Quý Doanh Nghiệp invitation from chúng tôi to discuss existing records/process. No promised consulting package, free assessment or certification."
+    }
+  ],
+  "transitions": [
+    {
+      "cards": [
+        "VN-R1",
+        "VN-R2"
+      ],
+      "verdict": "MATCH",
+      "observation": "700+ qualified immediately as consulting experience/IC, no geography, no audit count; speaker chúng tôi, domestic-reader preparation; source publisher count. Next: Customer audit trigger and complete readiness question; subject hồ sơ, advertiser invitation. No audit-success promise; management preparation relevance."
+    },
+    {
+      "cards": [
+        "VN-R2",
+        "VN-R3"
+      ],
+      "verdict": "MATCH",
+      "observation": "Customer audit trigger and complete readiness question; subject hồ sơ, advertiser invitation. No audit-success promise; management preparation relevance. Next: Aplus named as case example, iMES owns individual-product history; explains checkable record mechanism, no ERP-only claim."
+    },
+    {
+      "cards": [
+        "VN-R3",
+        "VN-R4"
+      ],
+      "verdict": "MATCH",
+      "observation": "Aplus named as case example, iMES owns individual-product history; explains checkable record mechanism, no ERP-only claim. Next: Aplus engineering parameters and SPC named; subject hệ thống, concrete change/quality process and source; not generic specialist slogan."
+    },
+    {
+      "cards": [
+        "VN-R4",
+        "VN-R5"
+      ],
+      "verdict": "MATCH",
+      "observation": "Aplus engineering parameters and SPC named; subject hệ thống, concrete change/quality process and source; not generic specialist slogan. Next: Quý Doanh Nghiệp exact direct address; named China case iMES+TOP GP before audit, not passed audit; case reading next step."
+    },
+    {
+      "cards": [
+        "VN-E1",
+        "VN-E2"
+      ],
+      "verdict": "MATCH",
+      "observation": "Aplus China semiconductor identity and product named, audit preparation motive only. DigiHua source footer; no attributed customer quotation. Next: Serial-based reporting and per-product history attributed to Aplus; checkable preparation mechanism, not universal outcome."
+    },
+    {
+      "cards": [
+        "VN-E2",
+        "VN-E3"
+      ],
+      "verdict": "MATCH",
+      "observation": "Serial-based reporting and per-product history attributed to Aplus; checkable preparation mechanism, not universal outcome. Next: SPC statistics and real-time quality alert explicitly named and case-attributed; no measured defect/yield reduction or ERP claim."
+    },
+    {
+      "cards": [
+        "VN-E3",
+        "VN-E4"
+      ],
+      "verdict": "MATCH",
+      "observation": "SPC statistics and real-time quality alert explicitly named and case-attributed; no measured defect/yield reduction or ERP claim. Next: Quý Doanh Nghiệp invitation from chúng tôi to discuss existing records/process. No promised consulting package, free assessment or certification."
+    }
+  ],
+  "context": {
+    "scope": "FULL_JOURNEY",
+    "verdict": "MATCH",
+    "observation": "Frozen Cold200 selection count not same population as700 IC consulting experience. Preparation promise persists. RMK case mechanisms iMES not ERP substitute, Aplus China attributed; final direct Vietnamese discussion route. Public Chinese case is optional source reading, not VN localized landing deployment. Correction scene check: removed unapproved labels/header and E3 imagined automated inspection; only illustrative records/film retained.",
+    "brief": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/IC700_Nuance_Application.md",
+      "sha256": "93aaa56f0164a4730c7700d430ec6fd4f94e6f93ff3531ad8b81690f2490533f",
+      "revision": "PO-approved-nuance-application"
+    },
+    "related_inputs": [
+      {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/public-copy.json",
+        "sha256": "a12770d5750e7595e4ee3ebc42d7cfa3c91a298bd1575a6c600f7a7e671114a5",
+        "revision": "Cold-v4-frozen"
+      }
+    ]
+  },
+  "unresolved_findings": []
+}

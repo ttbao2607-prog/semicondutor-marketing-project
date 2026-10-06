@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "revision": "VN-v4-mechanical-review",
+  "writer": "/root",
+  "reviewer": "/root",
+  "date": "2026-10-06",
+  "scope": "OFFLINE_SOURCE_COPY",
+  "independence": "SELF_REVIEW",
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/contract.json",
+      "sha256": "8604ef30e3e102bc6e3b4b431e0572af596bb0b4609d5da5b72fcef95c69db51",
+      "revision": "VN-journey-v4-correction-contract"
+    },
+    "copy": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/public-copy.json",
+      "sha256": "7071b8ea5b5d27f4f40291a861c303767b6c139b361add102d5253a0d9c03f96",
+      "revision": "VN-journey-v3-IC700-Aplus-copy"
+    },
+    "sources": [
+      {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/authority.md",
+        "sha256": "04cb948bd2f0fbf7128cce4d2c9bd75e285c566d98a451ecd2c2af0ff98d08e0",
+        "revision": "Bao-regeneration-mandate"
+      },
+      {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/IC700_Claim_Scope.json",
+        "sha256": "fb105c717fd0f8b190039a6fd0ee5ea7ef235df9cf1b130fe77e7b53e5c1d1b5",
+        "revision": "PO-nuance-700"
+      },
+      {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/case-source.json",
+        "sha256": "c43e88dc9dc41a363dc5cb28e8e6f3c8d077966bbe6645c474da1bcb10926101",
+        "revision": "Aplus-bounded-source-20261006"
+      }
+    ]
+  },
+  "verdicts": {
+    "source_copy": "PASS",
+    "editorial": "PASS",
+    "first_mention": "PASS"
+  },
+  "reviewed_ads": [
+    "VN-RMK-READINESS",
+    "VN-EVIDENCE-APLUS"
+  ],
+  "reviewed_fields": [
+    "VN-RMK-READINESS/caption",
+    "VN-RMK-READINESS/VN-R1.headline",
+    "VN-RMK-READINESS/VN-R1.body",
+    "VN-RMK-READINESS/VN-R1.source_text",
+    "VN-RMK-READINESS/VN-R1.cta",
+    "VN-RMK-READINESS/VN-R1.native_headline",
+    "VN-RMK-READINESS/VN-R1.alt",
+    "VN-RMK-READINESS/VN-R1.artwork_labels",
+    "VN-RMK-READINESS/VN-R2.headline",
+    "VN-RMK-READINESS/VN-R2.body",
+    "VN-RMK-READINESS/VN-R2.source_text",
+    "VN-RMK-READINESS/VN-R2.cta",
+    "VN-RMK-READINESS/VN-R2.native_headline",
+    "VN-RMK-READINESS/VN-R2.alt",
+    "VN-RMK-READINESS/VN-R2.artwork_labels",
+    "VN-RMK-READINESS/VN-R3.headline",
+    "VN-RMK-READINESS/VN-R3.body",
+    "VN-RMK-READINESS/VN-R3.source_text",
+    "VN-RMK-READINESS/VN-R3.cta",
+    "VN-RMK-READINESS/VN-R3.native_headline",
+    "VN-RMK-READINESS/VN-R3.alt",
+    "VN-RMK-READINESS/VN-R3.artwork_labels",
+    "VN-RMK-READINESS/VN-R4.headline",
+    "VN-RMK-READINESS/VN-R4.body",
+    "VN-RMK-READINESS/VN-R4.source_text",
+    "VN-RMK-READINESS/VN-R4.cta",
+    "VN-RMK-READINESS/VN-R4.native_headline",
+    "VN-RMK-READINESS/VN-R4.alt",
+    "VN-RMK-READINESS/VN-R4.artwork_labels",
+    "VN-RMK-READINESS/VN-R5.headline",
+    "VN-RMK-READINESS/VN-R5.body",
+    "VN-RMK-READINESS/VN-R5.source_text",
+    "VN-RMK-READINESS/VN-R5.cta",
+    "VN-RMK-READINESS/VN-R5.native_headline",
+    "VN-RMK-READINESS/VN-R5.alt",
+    "VN-RMK-READINESS/VN-R5.artwork_labels",
+    "VN-EVIDENCE-APLUS/caption",
+    "VN-EVIDENCE-APLUS/VN-E1.headline",
+    "VN-EVIDENCE-APLUS/VN-E1.body",
+    "VN-EVIDENCE-APLUS/VN-E1.source_text",
+    "VN-EVIDENCE-APLUS/VN-E1.cta",
+    "VN-EVIDENCE-APLUS/VN-E1.native_headline",
+    "VN-EVIDENCE-APLUS/VN-E1.alt",
+    "VN-EVIDENCE-APLUS/VN-E1.artwork_labels",
+    "VN-EVIDENCE-APLUS/VN-E2.headline",
+    "VN-EVIDENCE-APLUS/VN-E2.body",
+    "VN-EVIDENCE-APLUS/VN-E2.source_text",
+    "VN-EVIDENCE-APLUS/VN-E2.cta",
+    "VN-EVIDENCE-APLUS/VN-E2.native_headline",
+    "VN-EVIDENCE-APLUS/VN-E2.alt",
+    "VN-EVIDENCE-APLUS/VN-E2.artwork_labels",
+    "VN-EVIDENCE-APLUS/VN-E3.headline",
+    "VN-EVIDENCE-APLUS/VN-E3.body",
+    "VN-EVIDENCE-APLUS/VN-E3.source_text",
+    "VN-EVIDENCE-APLUS/VN-E3.cta",
+    "VN-EVIDENCE-APLUS/VN-E3.native_headline",
+    "VN-EVIDENCE-APLUS/VN-E3.alt",
+    "VN-EVIDENCE-APLUS/VN-E3.artwork_labels",
+    "VN-EVIDENCE-APLUS/VN-E4.headline",
+    "VN-EVIDENCE-APLUS/VN-E4.body",
+    "VN-EVIDENCE-APLUS/VN-E4.source_text",
+    "VN-EVIDENCE-APLUS/VN-E4.cta",
+    "VN-EVIDENCE-APLUS/VN-E4.native_headline",
+    "VN-EVIDENCE-APLUS/VN-E4.alt",
+    "VN-EVIDENCE-APLUS/VN-E4.artwork_labels"
+  ],
+  "unresolved_findings": []
+}

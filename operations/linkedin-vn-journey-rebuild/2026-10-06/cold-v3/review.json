@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "revision": "VN-cold-v3-mechanical-review",
+  "writer": "/root",
+  "reviewer": "/root",
+  "date": "2026-10-06",
+  "scope": "OFFLINE_SOURCE_COPY",
+  "independence": "SELF_REVIEW",
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v3/contract.json",
+      "sha256": "c9b7d027b63cea3de2dceb8c4edc7ac12749ee7bebb79f95463af0a5f2ae282c",
+      "revision": "VN-cold-v3-contract"
+    },
+    "copy": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v3/public-copy.json",
+      "sha256": "4c7bc1789f30cde8345483f05bb2b7c5e921faa72bc346af943ae36b5d6a71db",
+      "revision": "VN-cold-v3-copy"
+    },
+    "sources": [
+      {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v3/authority.md",
+        "sha256": "854a9cef5c68b0080bf5a9e4151cde5ce0cd7f8eb1a2e5bb5dcaedf03af66330",
+        "revision": "Bao-VN-Cold-pilot-20261006"
+      },
+      {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v2/LEADERSHIP_CHECK.md",
+        "sha256": "dafb94fc1b3ab63a6fdf8ab28bce256851341bc121550d3f09ec23d156c8d4a0",
+        "revision": "leadership-recheck-20261006"
+      },
+      {
+        "path": "operations/linkedin-cold-authority/2026-10-05/v4/source.json",
+        "sha256": "e14309cac0d6f4b305df6ea45769ff199df2deee3c08f98beffba8e4236c8768",
+        "revision": "existing-200-selection-source"
+      }
+    ]
+  },
+  "verdicts": {
+    "source_copy": "PASS",
+    "editorial": "PASS",
+    "first_mention": "PASS"
+  },
+  "reviewed_ads": [
+    "VN-COLD-AUTHORITY-03"
+  ],
+  "reviewed_fields": [
+    "VN-COLD-AUTHORITY-03/caption",
+    "VN-COLD-AUTHORITY-03/VN-COLD-AUTHORITY-03-IMAGE.headline",
+    "VN-COLD-AUTHORITY-03/VN-COLD-AUTHORITY-03-IMAGE.body",
+    "VN-COLD-AUTHORITY-03/VN-COLD-AUTHORITY-03-IMAGE.source_text",
+    "VN-COLD-AUTHORITY-03/VN-COLD-AUTHORITY-03-IMAGE.cta",
+    "VN-COLD-AUTHORITY-03/VN-COLD-AUTHORITY-03-IMAGE.native_headline",
+    "VN-COLD-AUTHORITY-03/VN-COLD-AUTHORITY-03-IMAGE.alt",
+    "VN-COLD-AUTHORITY-03/VN-COLD-AUTHORITY-03-IMAGE.artwork_labels"
+  ],
+  "unresolved_findings": []
+}

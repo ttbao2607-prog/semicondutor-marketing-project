@@ -1,0 +1,20 @@
+{
+  "status": "BOUNDED_CHECKS_PASS / CURRENT_ARTIFACT_CHANGES_REQUIRED",
+  "tests": {
+    "command": "python operations/linkedin-vn-journey-rebuild/2026-10-06/reader-address/test_reader_address.py",
+    "result": "8 tests PASS; includes 8 dispatch subcases across both helpers"
+  },
+  "protected_hashes_unchanged": {
+    "scripts/verify_imagegen_preflight.py": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+    "operations/linkedin-journey-demo/2026-10-06/inputs/verify_single_image_trial.py": "aa71327c78dd2db4cf436bd9454003960492657b627a3bf36901a467bb75b72c",
+    "operations/Vy_Email_Content_Anchor.md": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/native/vn-cold-v4.png": "a326010dce53815bdf77e52ca38ad0fb1990bf02a312ab9fe8b076ab407406f5",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/public-copy.json": "a12770d5750e7595e4ee3ebc42d7cfa3c91a298bd1575a6c600f7a7e671114a5"
+  },
+  "current_copy_flag_count": 8,
+  "current_observed_flag_count": 8,
+  "candidate_flag_count": 0,
+  "candidate_semantic_and_anchor_review": "PENDING; no SCRIPT_REVIEW_PASS or generation",
+  "no_new_images": true
+}

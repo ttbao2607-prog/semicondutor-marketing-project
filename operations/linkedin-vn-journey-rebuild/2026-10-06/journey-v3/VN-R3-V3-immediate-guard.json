@@ -1,0 +1,62 @@
+{
+  "layer": "PREGEN_ANCHOR_SCRIPT_CHECK",
+  "status": "PREGEN_INPUTS_VERIFIED",
+  "call_id": "VN-R3-V3",
+  "scope": {
+    "segment": "VN_DOMESTIC",
+    "locale": "vi-VN",
+    "persona": "domestic supplier owner / operations director",
+    "route": "Cold-v4 to IC700 preparation RMK to Aplus semiconductor evidence"
+  },
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "revision": "1.0"
+  },
+  "message_review_sha256": "ab359d990adc71f5cd19bef286fec0e218e83da8d6a4db4df8869c59e6ab11fc",
+  "script_review": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/script-review-detail.json",
+    "sha256": "33f176c598348e1ef0d4edd6e26be0f2e4e1a713c29049a09a9a6ddacefcff98",
+    "revision": "VN-v3-editorial-script"
+  },
+  "input_hashes": {
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/IC700_Claim_Scope.json": "fb105c717fd0f8b190039a6fd0ee5ea7ef235df9cf1b130fe77e7b53e5c1d1b5",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/authority.md": "04cb948bd2f0fbf7128cce4d2c9bd75e285c566d98a451ecd2c2af0ff98d08e0",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/case-source.json": "c43e88dc9dc41a363dc5cb28e8e6f3c8d077966bbe6645c474da1bcb10926101",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/contract.json": "1ffbb6cd84a2f7588894e181ab25295173741dbbc706244802981e79cccec88e",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/public-copy.json": "7071b8ea5b5d27f4f40291a861c303767b6c139b361add102d5253a0d9c03f96",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/release.json": "477f0d5fc90ff5e5e27031c9780382fa53164291094b2c80305848862b4351f3",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/review.json": "3b69b4ef8d3f6502028aee53c6a370bb7819f2d5993fd8350c50cde12967d266",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/spec.json": "40aeb656c8264696b15cec38a28056a912053c33db8f6fa7c3ce54c3d98d992a",
+    "scripts/verify_imagegen_preflight.py": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/message-review.json": "ab359d990adc71f5cd19bef286fec0e218e83da8d6a4db4df8869c59e6ab11fc",
+    "operations/Vy_Email_Content_Anchor.md": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/script-review-detail.json": "33f176c598348e1ef0d4edd6e26be0f2e4e1a713c29049a09a9a6ddacefcff98",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/IC700_Nuance_Application.md": "93aaa56f0164a4730c7700d430ec6fd4f94e6f93ff3531ad8b81690f2490533f",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/public-copy.json": "a12770d5750e7595e4ee3ebc42d7cfa3c91a298bd1575a6c600f7a7e671114a5"
+  },
+  "mechanical_verdict": "PASS",
+  "message_review_binding": "PASS",
+  "semantic_verdict": "REVIEWER_ATTESTED_NOT_AUTOMATICALLY_ASSESSED",
+  "purpose": "OFFLINE_IMAGEGEN",
+  "authority": "NO_ADDITIONAL_GENERATION_AUTHORITY",
+  "tool_args": {
+    "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\",\"Numerical claims beyond exactly approved700 consulting-experience wording; audit success or certification guarantees\"],\"brand\":\"One supplied official Digiwin logo only; advertiser speaking directly; reviewed category not repeated brand name.\",\"campaign\":{\"instructions\":\"One square ad. Same bright white, pale blue, navy and tactile campaign family. Official logo once upper left. Approved category compact but legible; no page number. Main headline very large, bold, readable at332px; body minimum50px equivalent on1254 square. Headline/body/labels/source/CTA only exact approved wording; no additional diagram labels.700+ is very large on R1, qualified by exact consulting-experience body; no maps or geographical claim. Source footer visibly readable. No faces, customer logos, certifications, fake UI, unapproved numbers, false guarantee. Scenes editorial illustrations, not actual facilities. Film components only where case-relevant. Distinct scene per card. Direct address exact Quý Doanh Nghiệp. Do not print captions, alt or native headlines.\",\"revision\":\"VN-journey-v3\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"BÁN DẪN · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ\"],\"card_id\":\"VN-R3\",\"concept_id\":\"VN-R3-IC700-Aplus-v3\",\"description\":\"One generic flexible-film electronic component on a tray connected to a sequence of three tactile blank history tiles with barcode-like abstract marks. No printed numbers or software screens.\",\"props\":[\"flexible-film component\",\"history tiles\",\"tray\"],\"reader_question\":\"Mỗi sản phẩm cần một lịch sử rõ ràng.\"}]\nAPPROVED ARTWORK TEXT\n{\"VN-R3\":{\"artwork_labels\":[\"BÁN DẪN · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ\"],\"body\":\"Tại Aplus, iMES lưu lịch sử từng sản phẩm\\nđể đội ngũ tra lại dữ liệu.\",\"cta\":\"\",\"headline\":\"Mỗi sản phẩm\\ncần một lịch sử rõ ràng.\",\"source_text\":\"Nguồn case: DigiHua\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+    "referenced_image_paths": [
+      "D:\\LinkedIn_VN_Journey_Rebuild_2026-10-06\\operations\\linkedin-imagegen-dogfood\\hybrid-full-2026-10-03\\common\\references\\r2-1.png",
+      "D:\\LinkedIn_VN_Journey_Rebuild_2026-10-06\\operations\\linkedin-imagegen-dogfood\\hybrid-full-2026-10-03\\common\\references\\r2-2.png",
+      "D:\\LinkedIn_VN_Journey_Rebuild_2026-10-06\\operations\\linkedin-imagegen-dogfood\\hybrid-full-2026-10-03\\common\\references\\digiwin-logo.webp"
+    ],
+    "transparent_background": false
+  },
+  "VN_VOICE_receipt": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/vn-voice-pregen.json",
+    "sha256": "815e0a68e3e414c0bced80f4b6a8576f499229683ada2172b2e609fb4265007f",
+    "binding": "PASS",
+    "semantic": "REVIEWER_ATTESTED_NOT_AUTOMATIC"
+  }
+}

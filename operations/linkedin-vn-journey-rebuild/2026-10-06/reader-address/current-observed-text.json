@@ -1,0 +1,58 @@
+{
+  "stage": "POSTGEN_OBSERVED_TEXT",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "observed_fields": {
+    "VN-RMK-READINESS/demo-caption": "Doanh nghiệp Việt cần chuẩn bị gì về quản trị để bước vào chuỗi bán dẫn? Chúng tôi cùng bạn bắt đầu từ quy trình và dữ liệu, rồi xem cách Workflow ERP được triển khai tại Pressway Precision ở Việt Nam.",
+    "VN-R1/demo-alt": "Digiwin: Khách hàng cần dữ liệu. Bạn đã sẵn sàng? Chúng tôi đồng hành cùng doanh nghiệp Việt chuẩn bị quy trình và dữ liệu với ERP.",
+    "VN-R1/native-observed-headline": "Khách hàng cần dữ liệu.\nBạn đã sẵn sàng?",
+    "VN-R5/demo-alt": "Digiwin: Doanh nghiệp bạn cần chuẩn bị từ đâu? Xem cách chúng tôi cùng Pressway Precision triển khai Workflow ERP tại Việt Nam.",
+    "VN-R5/native-observed-headline": "Doanh nghiệp bạn\ncần chuẩn bị từ đâu?",
+    "VN-EVIDENCE-PRESSWAY/demo-caption": "Chuẩn bị năng lực quản trị từ quy trình và dữ liệu: xem cách chúng tôi cùng Pressway Precision triển khai Workflow ERP tại Hải Phòng. Doanh nghiệp bạn đang cần làm rõ điều gì trước khi bắt đầu?",
+    "VN-E4/demo-alt": "Digiwin: Doanh nghiệp bạn đã sẵn sàng bắt đầu? Cùng chúng tôi trao đổi nhu cầu quản trị, từ quy trình và dữ liệu hiện có.",
+    "VN-E4/native-observed-headline": "Doanh nghiệp bạn\nđã sẵn sàng bắt đầu?"
+  },
+  "evidence": [
+    {
+      "card_id": "VN-R1",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v2/native/vn-r1-v2.png",
+        "sha256": "4f1662714fce8ae135e0a14b114f666e3e9fde751460f1164089020661c94b84"
+      },
+      "mobile": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/mobile-1.png",
+        "sha256": "bd81f953ca4d0290fcd6e22758dc87dc58353f66fa44ac1ed21e29c8395ac3f6"
+      },
+      "observation": "Root visually inspected native and saved mobile screenshot; direct-reader Bạn visible. CHANGES_REQUIRED."
+    },
+    {
+      "card_id": "VN-R5",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/native/vn-r5-v1.png",
+        "sha256": "d90bc6973658c3647705483adf9325ae27f742e44e04f72db84b663f434af592"
+      },
+      "mobile": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/mobile-5.png",
+        "sha256": "ba8b7cfb2f5dc29092492ef7a540713689ddf89537cd723cb175ba05c4d8e843"
+      },
+      "observation": "Root visually inspected native and saved mobile screenshot; direct-reader Bạn visible. CHANGES_REQUIRED."
+    },
+    {
+      "card_id": "VN-E4",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/native/vn-e4-v1.png",
+        "sha256": "ab9b9d3053da1b76d5efabaa93f5188da57e20d90b16eebfd85ea1049367d3ee"
+      },
+      "mobile": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/mobile-9.png",
+        "sha256": "ea568d360e8f20e6bfc043e59b8981ad623d40c8c4069b906b1f347d1d6f0431"
+      },
+      "observation": "Root visually inspected native and saved mobile screenshot; direct-reader Bạn visible. CHANGES_REQUIRED."
+    }
+  ],
+  "demo": {
+    "path": "deliverables/linkedin-vn-journey/2026-10-06/index.html",
+    "sha256": "bebfa496203588ee92b1454a8165245ef75a6724c16181a16a0855095bd8182d"
+  },
+  "coverage": "Targeted findings confirmation, not fresh whole-journey PASS; captions inspected in screenshots, alt read from exact demo projection."
+}

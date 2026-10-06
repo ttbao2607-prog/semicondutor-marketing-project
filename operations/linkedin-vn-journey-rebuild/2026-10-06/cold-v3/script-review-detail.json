@@ -1,0 +1,49 @@
+{
+  "gate_id": "AD-ED-01",
+  "stage": "PREGEN_SCRIPT",
+  "revision": "VN-cold-v3-semantic-review",
+  "copy_sha256": "4c7bc1789f30cde8345483f05bb2b7c5e921faa72bc346af943ae36b5d6a71db",
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "reviewed_ads": [
+    "VN-COLD-AUTHORITY-03"
+  ],
+  "reviewed_fields": {
+    "VN-COLD-AUTHORITY-03": [
+      "caption",
+      "VN-COLD-AUTHORITY-03-IMAGE.headline",
+      "VN-COLD-AUTHORITY-03-IMAGE.body",
+      "VN-COLD-AUTHORITY-03-IMAGE.source_text",
+      "VN-COLD-AUTHORITY-03-IMAGE.cta",
+      "VN-COLD-AUTHORITY-03-IMAGE.native_headline",
+      "VN-COLD-AUTHORITY-03-IMAGE.alt",
+      "VN-COLD-AUTHORITY-03-IMAGE.artwork_labels"
+    ]
+  },
+  "BRAND_ROLE": {
+    "verdict": "PASS",
+    "observation": "Official logo once; chúng tôi selection headline is speaker, role line sector/supplier origin; caption names Digiwin once then direct chúng tôi, no redundant brand label."
+  },
+  "ADVERTISER_VOICE": {
+    "verdict": "PASS",
+    "observation": "đã lựa chọn chúng tôi is direct advertiser voice; named Digiwin only introduces advertiser in caption; no third-party company narration."
+  },
+  "field_observations": {
+    "card_id": "VN-COLD-AUTHORITY-03-IMAGE",
+    "headline": "200+\ndoanh nghiệp bán dẫn\nđã lựa chọn chúng tôi",
+    "body": "Chuẩn bị năng lực quản trị\nđể tham gia chuỗi bán dẫn.",
+    "source_text": "",
+    "cta": "",
+    "native_headline": "Chuẩn bị quản trị để tham gia chuỗi bán dẫn",
+    "alt": "Digiwin: 200+ doanh nghiệp bán dẫn đã lựa chọn chúng tôi. Minh họa nhà cung ứng chuẩn bị quy trình và dữ liệu quản trị để tham gia chuỗi bán dẫn.",
+    "artwork_labels": [
+      "ERP cho ngành bán dẫn\ntừ nhà cung cấp hàng đầu Đài Loan"
+    ]
+  },
+  "caption_observation": "200+ doanh nghiệp bán dẫn đã lựa chọn Digiwin. Khởi nguồn từ Đài Loan, chúng tôi cung cấp ERP và các giải pháp quản lý sản xuất. Doanh nghiệp Việt Nam đang chuẩn bị vào chuỗi bán dẫn? Hãy bắt đầu từ quy trình và dữ liệu quản trị.",
+  "storyboard_observation": "Tactile industrial supplier readiness scene: a small unbranded precision-component workshop model at lower right beside a review table with three blank process/data folders converging at an unfinished handoff. The abstract model is illustrative, not a real semiconductor factory. Main visual authority is the200+ numeral in large navy/blue type, not a pile of computer chips. Clear whitespace, neutral daylight. No readable text or numbers on props, no monitor, people, customer logos, certification seal or glowing integration paths.",
+  "unresolved_findings": [],
+  "postgen": "POSTGEN_NOT_RUN"
+}

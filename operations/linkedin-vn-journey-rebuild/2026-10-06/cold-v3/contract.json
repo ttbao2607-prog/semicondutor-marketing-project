@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "revision": "VN-cold-v3-contract",
+  "locale": "vi-VN",
+  "channel": "linkedin-single-image",
+  "copy": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v3/public-copy.json",
+    "sha256": "4c7bc1789f30cde8345483f05bb2b7c5e921faa72bc346af943ae36b5d6a71db",
+    "revision": "VN-cold-v3-copy"
+  },
+  "sources": [
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v3/authority.md",
+      "sha256": "854a9cef5c68b0080bf5a9e4151cde5ce0cd7f8eb1a2e5bb5dcaedf03af66330",
+      "revision": "Bao-VN-Cold-pilot-20261006"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v2/LEADERSHIP_CHECK.md",
+      "sha256": "dafb94fc1b3ab63a6fdf8ab28bce256851341bc121550d3f09ec23d156c8d4a0",
+      "revision": "leadership-recheck-20261006"
+    },
+    {
+      "path": "operations/linkedin-cold-authority/2026-10-05/v4/source.json",
+      "sha256": "e14309cac0d6f4b305df6ea45769ff199df2deee3c08f98beffba8e4236c8768",
+      "revision": "existing-200-selection-source"
+    }
+  ],
+  "card_sources": {
+    "VN-COLD-AUTHORITY-03-IMAGE": [
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v3/authority.md",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v2/LEADERSHIP_CHECK.md",
+      "operations/linkedin-cold-authority/2026-10-05/v4/source.json"
+    ]
+  },
+  "ad_order": [
+    "VN-COLD-AUTHORITY-03"
+  ],
+  "card_order": {
+    "VN-COLD-AUTHORITY-03": [
+      "VN-COLD-AUTHORITY-03-IMAGE"
+    ]
+  },
+  "surfaces": {
+    "VN-COLD-AUTHORITY-03": [
+      {
+        "surface_id": "feed",
+        "reading_order": [
+          "caption",
+          "VN-COLD-AUTHORITY-03-IMAGE.headline",
+          "VN-COLD-AUTHORITY-03-IMAGE.body",
+          "VN-COLD-AUTHORITY-03-IMAGE.source_text",
+          "VN-COLD-AUTHORITY-03-IMAGE.cta",
+          "VN-COLD-AUTHORITY-03-IMAGE.native_headline",
+          "VN-COLD-AUTHORITY-03-IMAGE.alt",
+          "VN-COLD-AUTHORITY-03-IMAGE.artwork_labels"
+        ]
+      },
+      {
+        "surface_id": "raster",
+        "reading_order": [
+          "VN-COLD-AUTHORITY-03-IMAGE.headline",
+          "VN-COLD-AUTHORITY-03-IMAGE.body",
+          "VN-COLD-AUTHORITY-03-IMAGE.artwork_labels"
+        ]
+      }
+    ]
+  },
+  "definitions": {
+    "OSAT": "dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài",
+    "Fabless": "thiết kế chip, không sở hữu nhà máy chế tạo",
+    "WIP": "bán thành phẩm"
+  },
+  "limits": {
+    "caption": 255,
+    "headline": 70,
+    "body": 180,
+    "source_text": 200,
+    "cta": 70,
+    "native_headline": 45,
+    "alt": 200,
+    "artwork_labels": 70
+  },
+  "groups": [
+    [
+      "VN-COLD-AUTHORITY-03-IMAGE"
+    ]
+  ],
+  "reuse_fields": [
+    "headline",
+    "body",
+    "source_text",
+    "cta",
+    "native_headline",
+    "alt",
+    "artwork_labels"
+  ],
+  "references": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+      "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+      "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "role": "brand_asset",
+      "attributes": [
+        "brand_mark"
+      ]
+    }
+  ],
+  "style": {
+    "brand": "Official Digiwin mark once. Role line identifies semiconductor ERP and leading supplier Taiwan origin; no extra brand label.",
+    "palette": [
+      "white",
+      "#0052FF",
+      "#0B132B",
+      "#00B4D8",
+      "charcoal"
+    ],
+    "lighting": "bright neutral daylight with soft grounded shadows",
+    "avoid": [
+      "neon",
+      "dark mode",
+      "human faces",
+      "customer marks or facility evidence",
+      "unreviewed capability or outcome claims",
+      "reference wording record values props or exact composition",
+      "printed caption native headline alt or internal notes",
+      "extra wording beyond approved artwork text and official brand mark",
+      "unreviewed metrics or result guarantees; reviewed200+ selection count is allowed"
+    ],
+    "campaign": {
+      "revision": "VN-cold-v3",
+      "instructions": "Single square Cold advertisement. Supplied logo exactly once. Frozen bright white/pale-blue/navy tactile visual grammar only. Dominant200+ numeral with complete semiconductor-enterprise selection meaning directly below. Exact two-line ERP/leading supplier Taiwan role line large and readable. Readiness bridge lower. All text readable at332px feed width, generous whitespace, no tiny footnote. Print only approved artwork fields and official logo. No caption/native headline/alt or internal notes printed. No extra labels, reference copy, carousel number, swipe instruction, customer logos, certification badges, fake numeric records, real customer facilities, screens, charts or faces. Composition must differ from reference scenes. Preserve exact Vietnamese diacritics. No implied supplier certification or guarantee."
+    }
+  },
+  "output": {
+    "directory": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v3/native",
+    "extension": ".png",
+    "policy": "native_square_min",
+    "min_edge": 1080
+  }
+}

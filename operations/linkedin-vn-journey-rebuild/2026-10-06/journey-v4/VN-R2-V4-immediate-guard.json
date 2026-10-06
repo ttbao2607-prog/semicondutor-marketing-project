@@ -1,0 +1,62 @@
+{
+  "layer": "PREGEN_ANCHOR_SCRIPT_CHECK",
+  "status": "PREGEN_INPUTS_VERIFIED",
+  "call_id": "VN-R2-V4",
+  "scope": {
+    "segment": "VN_DOMESTIC",
+    "locale": "vi-VN",
+    "persona": "domestic supplier owner / operations director",
+    "route": "Cold-v4 to IC700 preparation RMK to Aplus semiconductor evidence"
+  },
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "revision": "1.0"
+  },
+  "message_review_sha256": "bf51ebe5f9eaca8fdf1e68b6cdc4bdfb09326c790e771eefd0e127d63bf1ba39",
+  "script_review": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/script-review-detail.json",
+    "sha256": "8594955889eeca9fbb3e381c8dda4ed6bcea2b4979357ede992dc89c0b3dce3a",
+    "revision": "VN-v4-script-review"
+  },
+  "input_hashes": {
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/IC700_Claim_Scope.json": "fb105c717fd0f8b190039a6fd0ee5ea7ef235df9cf1b130fe77e7b53e5c1d1b5",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/authority.md": "04cb948bd2f0fbf7128cce4d2c9bd75e285c566d98a451ecd2c2af0ff98d08e0",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/case-source.json": "c43e88dc9dc41a363dc5cb28e8e6f3c8d077966bbe6645c474da1bcb10926101",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/public-copy.json": "7071b8ea5b5d27f4f40291a861c303767b6c139b361add102d5253a0d9c03f96",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/contract.json": "8604ef30e3e102bc6e3b4b431e0572af596bb0b4609d5da5b72fcef95c69db51",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/release.json": "ab4a3700fc70b5b115fb84433fba09a904d00b13e667fdcc41b2b055962d3886",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/review.json": "c6aff1fe3e7aaf9369573051ac309cc5d9e83e374efc6607eb6190d58af5c7c7",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/spec.json": "3ec424c8bad9eabd5a79d8313709a89713205df39a04aaf9b09daa261b8d8fd5",
+    "scripts/verify_imagegen_preflight.py": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/message-review.json": "bf51ebe5f9eaca8fdf1e68b6cdc4bdfb09326c790e771eefd0e127d63bf1ba39",
+    "operations/Vy_Email_Content_Anchor.md": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/script-review-detail.json": "8594955889eeca9fbb3e381c8dda4ed6bcea2b4979357ede992dc89c0b3dce3a",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/IC700_Nuance_Application.md": "93aaa56f0164a4730c7700d430ec6fd4f94e6f93ff3531ad8b81690f2490533f",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/public-copy.json": "a12770d5750e7595e4ee3ebc42d7cfa3c91a298bd1575a6c600f7a7e671114a5"
+  },
+  "mechanical_verdict": "PASS",
+  "message_review_binding": "PASS",
+  "semantic_verdict": "REVIEWER_ATTESTED_NOT_AUTOMATICALLY_ASSESSED",
+  "purpose": "OFFLINE_IMAGEGEN",
+  "authority": "NO_ADDITIONAL_GENERATION_AUTHORITY",
+  "tool_args": {
+    "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\",\"Numerical claims beyond exactly approved700 consulting-experience wording; audit success or certification guarantees\"],\"brand\":\"One supplied official Digiwin logo only; advertiser speaking directly; reviewed category not repeated brand name.\",\"campaign\":{\"instructions\":\"One square ad. Same bright white, pale blue, navy and tactile campaign family. Official logo once upper left. Approved category compact but legible; no page number. Main headline very large, bold, readable at332px; body minimum50px equivalent on1254 square. Headline/body/labels/source/CTA only exact approved wording; no additional diagram labels.700+ is very large on R1, qualified by exact consulting-experience body; no maps or geographical claim. Source footer visibly readable. No faces, customer logos, certifications, fake UI, unapproved numbers, false guarantee. Scenes editorial illustrations, not actual facilities. Film components only where case-relevant. Distinct scene per card. Direct address exact Quý Doanh Nghiệp. Do not print captions, alt or native headlines. CORRECTION: absolutely no prop labels, no additional header from references, no ERP wording unless exact approved text. Source footer legible. E3 use physical printed blank record tiles and flat amber exclamation marker beside rolled flexible film; no screen, plot, graph, wafer, optical camera, electronics dashboard or automated inspection equipment.\",\"revision\":\"VN-journey-v4\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"BÁN DẪN · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ\"],\"card_id\":\"VN-R2\",\"concept_id\":\"VN-R2-IC700-Aplus-v3\",\"description\":\"A neat review desk with a blank request sheet standing opposite an open blue process binder; a clear review gap invites preparation, no pass stamp or certificate. Extra YÊU CẦU ĐÁNH GIÁ printed on prop. Remove all prop wording. All papers show only abstract blank lines with no readable words.\",\"props\":[\"request sheet\",\"process binder\"],\"reader_question\":\"Khách hàng yêu cầu audit. Hồ sơ đã sẵn sàng?\"}]\nAPPROVED ARTWORK TEXT\n{\"VN-R2\":{\"artwork_labels\":[\"BÁN DẪN · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ\"],\"body\":\"Cùng chúng tôi chuẩn bị năng lực quản trị\\nđể đáp ứng yêu cầu đánh giá của khách hàng.\",\"cta\":\"\",\"headline\":\"Khách hàng yêu cầu audit.\\nHồ sơ đã sẵn sàng?\",\"source_text\":\"\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+    "referenced_image_paths": [
+      "D:\\LinkedIn_VN_Journey_Rebuild_2026-10-06\\operations\\linkedin-imagegen-dogfood\\hybrid-full-2026-10-03\\common\\references\\r2-1.png",
+      "D:\\LinkedIn_VN_Journey_Rebuild_2026-10-06\\operations\\linkedin-imagegen-dogfood\\hybrid-full-2026-10-03\\common\\references\\r2-2.png",
+      "D:\\LinkedIn_VN_Journey_Rebuild_2026-10-06\\operations\\linkedin-imagegen-dogfood\\hybrid-full-2026-10-03\\common\\references\\digiwin-logo.webp"
+    ],
+    "transparent_background": false
+  },
+  "VN_VOICE_receipt": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/vn-voice-pregen.json",
+    "sha256": "3a5f02754fa36b1234dc602a21469932ede7f4d313225667e9038ffe5fe06da6",
+    "binding": "PASS",
+    "semantic": "REVIEWER_ATTESTED_NOT_AUTOMATIC"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "revision": "VN-cold-v3-spec",
+  "release": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v3/release.json",
+    "sha256": "f5f503ac570adf5b0b2056e55ac369c72d70810b9351fe76a342748257e7a212",
+    "revision": "VN-cold-v3-release"
+  },
+  "contract": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v3/contract.json",
+    "sha256": "c9b7d027b63cea3de2dceb8c4edc7ac12749ee7bebb79f95463af0a5f2ae282c",
+    "revision": "VN-cold-v3-contract"
+  },
+  "copy": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v3/public-copy.json",
+    "sha256": "4c7bc1789f30cde8345483f05bb2b7c5e921faa72bc346af943ae36b5d6a71db",
+    "revision": "VN-cold-v3-copy"
+  },
+  "review": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v3/review.json",
+    "sha256": "c28077b2edf393dc8e39d40a8952ba14014737f6314685f84f415ce8b0686993",
+    "revision": "VN-cold-v3-mechanical-review"
+  },
+  "calls": [
+    {
+      "call_id": "VN_COLD_PILOT_V3",
+      "targets": [
+        "VN-COLD-AUTHORITY-03-IMAGE"
+      ],
+      "references": [
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+          "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+          "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+          "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+          "role": "brand_asset",
+          "attributes": [
+            "brand_mark"
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "card_id": "VN-COLD-AUTHORITY-03-IMAGE",
+          "concept_id": "VN-authority-readiness-v3",
+          "reader_question": "Ai cung cấp ERP có kinh nghiệm bán dẫn và hỗ trợ chuẩn bị năng lực quản trị?",
+          "description": "Tactile industrial supplier readiness scene: a small unbranded precision-component workshop model at lower right beside a review table with three blank process/data folders converging at an unfinished handoff. The abstract model is illustrative, not a real semiconductor factory. Main visual authority is the200+ numeral in large navy/blue type, not a pile of computer chips. Clear whitespace, neutral daylight. No readable text or numbers on props, no monitor, people, customer logos, certification seal or glowing integration paths.",
+          "props": [
+            "abstract component-workshop model",
+            "three blank process folders",
+            "unfinished shared review handoff"
+          ],
+          "artwork_labels": [
+            "ERP cho ngành bán dẫn\ntừ nhà cung cấp hàng đầu Đài Loan"
+          ]
+        }
+      ],
+      "artwork_text": {
+        "VN-COLD-AUTHORITY-03-IMAGE": {
+          "headline": "200+\ndoanh nghiệp bán dẫn\nđã lựa chọn chúng tôi",
+          "body": "Chuẩn bị năng lực quản trị\nđể tham gia chuỗi bán dẫn.",
+          "source_text": "",
+          "cta": "",
+          "artwork_labels": [
+            "ERP cho ngành bán dẫn\ntừ nhà cung cấp hàng đầu Đài Loan"
+          ]
+        }
+      },
+      "output_id": "vn-cold-pilot-v3",
+      "output_path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v3/native/vn-cold-pilot-v3.png",
+      "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\",\"unreviewed metrics or result guarantees; reviewed200+ selection count is allowed\"],\"brand\":\"Official Digiwin mark once. Role line identifies semiconductor ERP and leading supplier Taiwan origin; no extra brand label.\",\"campaign\":{\"instructions\":\"Single square Cold advertisement. Supplied logo exactly once. Frozen bright white/pale-blue/navy tactile visual grammar only. Dominant200+ numeral with complete semiconductor-enterprise selection meaning directly below. Exact two-line ERP/leading supplier Taiwan role line large and readable. Readiness bridge lower. All text readable at332px feed width, generous whitespace, no tiny footnote. Print only approved artwork fields and official logo. No caption/native headline/alt or internal notes printed. No extra labels, reference copy, carousel number, swipe instruction, customer logos, certification badges, fake numeric records, real customer facilities, screens, charts or faces. Composition must differ from reference scenes. Preserve exact Vietnamese diacritics. No implied supplier certification or guarantee.\",\"revision\":\"VN-cold-v3\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"ERP cho ngành bán dẫn\\ntừ nhà cung cấp hàng đầu Đài Loan\"],\"card_id\":\"VN-COLD-AUTHORITY-03-IMAGE\",\"concept_id\":\"VN-authority-readiness-v3\",\"description\":\"Tactile industrial supplier readiness scene: a small unbranded precision-component workshop model at lower right beside a review table with three blank process/data folders converging at an unfinished handoff. The abstract model is illustrative, not a real semiconductor factory. Main visual authority is the200+ numeral in large navy/blue type, not a pile of computer chips. Clear whitespace, neutral daylight. No readable text or numbers on props, no monitor, people, customer logos, certification seal or glowing integration paths.\",\"props\":[\"abstract component-workshop model\",\"three blank process folders\",\"unfinished shared review handoff\"],\"reader_question\":\"Ai cung cấp ERP có kinh nghiệm bán dẫn và hỗ trợ chuẩn bị năng lực quản trị?\"}]\nAPPROVED ARTWORK TEXT\n{\"VN-COLD-AUTHORITY-03-IMAGE\":{\"artwork_labels\":[\"ERP cho ngành bán dẫn\\ntừ nhà cung cấp hàng đầu Đài Loan\"],\"body\":\"Chuẩn bị năng lực quản trị\\nđể tham gia chuỗi bán dẫn.\",\"cta\":\"\",\"headline\":\"200+\\ndoanh nghiệp bán dẫn\\nđã lựa chọn chúng tôi\",\"source_text\":\"\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v3/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+      "prompt_sha256": "8c4ecb0573ab4c8105754ed4569543a06cd1e99124e7ffbf5f14751beccef4d3"
+    }
+  ]
+}

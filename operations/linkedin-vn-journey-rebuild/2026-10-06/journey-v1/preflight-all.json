@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "gate_version": 1,
+  "gate_sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+  "layer": "PREGEN",
+  "mechanical_verdict": "PASS",
+  "purpose": "OFFLINE_IMAGEGEN",
+  "spec_path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/spec.json",
+  "release_path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/release.json",
+  "release_sha256": "c14b48e9b9e585cf69ce7a738ed97be350bf5a89be4240f03cba30c569779cd8",
+  "scope_call_id": null,
+  "input_hashes": {
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/press/source.json": "aaff4729f47559db1f536f163786e62879ad3ad02f38ae8a9dba51a220f243ee",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/authority.md": "8a7975d8cac5d9402533b2df96e695f9151f66a2c67552189f6702b6adc5aac7",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/contract.json": "50f5350dcae207008ab39a6fd0262e58e27d5994ffea2f7d3650958a900212a3",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/public-copy.json": "ee6243009487ae7cc7c716f31f4abd3ffa7a83493ab6778186b20ec4638e34fb",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/release.json": "c14b48e9b9e585cf69ce7a738ed97be350bf5a89be4240f03cba30c569779cd8",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/review.json": "efe61ad955550cbb72b74d074b2cedac2fc2be9526dd1344a017e75ff175bf5e",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/spec.json": "e52de33751072aacf56411e25e7aa3f7f058399c5cd45ac18b81e84443bcb397"
+  },
+  "call_ids": [
+    "VN-R1-V1",
+    "VN-R2-V1",
+    "VN-R3-V1",
+    "VN-R4-V1",
+    "VN-R5-V1",
+    "VN-E1-V1",
+    "VN-E2-V1",
+    "VN-E3-V1",
+    "VN-E4-V1"
+  ],
+  "advisories": [],
+  "semantic_verdict": "NOT_ASSESSED",
+  "creative_verdict": "INSUFFICIENT_EVIDENCE",
+  "authority": "NO_GENERATION_AUTHORITY"
+}

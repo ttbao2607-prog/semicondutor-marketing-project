@@ -1,0 +1,79 @@
+{
+  "revision": "VN-cold-v4-postgen",
+  "stage": "POSTGEN_ARTIFACT",
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "anchor": {
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "source_sha256": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3"
+  },
+  "hashes": {
+    "public-copy.json": "a12770d5750e7595e4ee3ebc42d7cfa3c91a298bd1575a6c600f7a7e671114a5",
+    "spec.json": "d3b03038f157dfdc63b6fcf92a6420f55ebf85c95944b19fd5383a217121d7da",
+    "message-review.json": "9b76fc4154722e40c62b8c0cee3a32b2ac77792068b216e9db3bbd1f6c9693ca",
+    "script-review-detail.json": "f1d1edb3a4182239afb91fd5a26ef775f3094c32ba3fbc7faaa104ef7508b2fc",
+    "native/vn-cold-v4.png": "a326010dce53815bdf77e52ca38ad0fb1990bf02a312ab9fe8b076ab407406f5",
+    "index.html": "e0886db692447621a0c742d9e6072f89a1ad0ef185e2e3ee895bbfae3740eee4",
+    "mobile-390-preview.png": "53aa46a38aa535e001a633d26faf5c72f32be21c6971c0fb57d72e826347f6bf",
+    "desktop-1280-preview.png": "f63e9d8af64dd323838471894e707cfc7cc34184fd806972237328db49911da2"
+  },
+  "visible_text": [
+    "ERP cho ngành bán dẫn",
+    "từ nhà cung cấp hàng đầu",
+    "Đài Loan",
+    "200+",
+    "doanh nghiệp bán dẫn",
+    "đã lựa chọn chúng tôi",
+    "Đồng hành cùng doanh nghiệp Việt",
+    "chuẩn bị năng lực quản trị",
+    "để bước vào chuỗi bán dẫn."
+  ],
+  "native_dimensions": [
+    1254,
+    1254
+  ],
+  "original_bytes": "PASS",
+  "text_fidelity": "PASS",
+  "brand_role": "PASS: logo once, role separate, headline chúng tôi; exact logo pixel identity not certified",
+  "advertiser_voice": "PASS: invitation expresses advertiser companion role to domestic reader",
+  "editorial": "PASS: no internal qualifiers or new unsupported metrics visible",
+  "anchor_rules": {
+    "A1": "MATCH: precision metal components/process folders, no fab/wafer/chip trays",
+    "A2": "MATCH: same decision-persona hypothesis, no live eligibility or actual customer-facility claim",
+    "A3": "MATCH: Vietnamese invitation explicitly doanh nghiệp Việt; not translated FDI pain",
+    "A4": "N/A VN",
+    "A5": "MATCH: chuẩn bị năng lực quản trị, no certification/admission/order promise",
+    "A6": "MATCH: ERP/process preparation scope, no MES/yield/recipe/test claim",
+    "A7": "MATCH: caption, role, numerical headline, invitation body/native/alt support same Cold; full journey unreviewed"
+  },
+  "message_anchor_verdict": "MESSAGE_ANCHOR_PASS_COLD_ONLY",
+  "render": {
+    "mobile_css": 390,
+    "mobile_art_width": 332.4444580078125,
+    "desktop_css": 1280,
+    "desktop_art_width": 598.2222290039062,
+    "overflow": false,
+    "screenshot_recovery": "Initial CDP capture timed out on each breakpoint; fresh AX read and second capture succeeded."
+  },
+  "finding_closure": [
+    {
+      "id": "VN-COLD-V3-02",
+      "status": "CLOSED_AT_V4",
+      "evidence": "Actual image has machined/stamped metal components and physical folders; no factory, wafer or chip tray."
+    },
+    {
+      "id": "VN-COLD-V3-01",
+      "status": "PARTIALLY_IMPROVED_STILL_OPEN",
+      "evidence": "Role line now3lines and slightly larger; still small at332px relative to200+ headline. Main invitation readable.",
+      "recommendation": "Further enlarge role typography if PO requests next correction; do not claim ideal mobile hierarchy."
+    }
+  ],
+  "scene_deviations": "Folders not a literal unfinished handoff; generic physical process-data context preserved, no unreviewed capability. Plant/pen are neutral decorative additions.",
+  "content_status": "PILOT_PREVIEW / HEADER_READABILITY_CHANGES_REQUIRED",
+  "human_acceptance": "PENDING_BAO_ARTWORK_REVIEW",
+  "execution_status": "SUCCESS_FOR_REQUESTED_REGEN",
+  "full_journey": "NOT_ASSESSED"
+}

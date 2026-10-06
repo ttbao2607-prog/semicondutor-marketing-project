@@ -1,0 +1,119 @@
+{
+  "gate_id": "AD-ED-01",
+  "stage": "PREGEN_SCRIPT",
+  "revision": "VN-v4-script-review",
+  "copy_sha256": "7071b8ea5b5d27f4f40291a861c303767b6c139b361add102d5253a0d9c03f96",
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "reviewed_ads": [
+    "VN-RMK-READINESS",
+    "VN-EVIDENCE-APLUS"
+  ],
+  "reviewed_fields": {
+    "VN-RMK-READINESS": [
+      "caption",
+      "VN-R1.headline",
+      "VN-R1.body",
+      "VN-R1.source_text",
+      "VN-R1.cta",
+      "VN-R1.native_headline",
+      "VN-R1.alt",
+      "VN-R1.artwork_labels",
+      "VN-R2.headline",
+      "VN-R2.body",
+      "VN-R2.source_text",
+      "VN-R2.cta",
+      "VN-R2.native_headline",
+      "VN-R2.alt",
+      "VN-R2.artwork_labels",
+      "VN-R3.headline",
+      "VN-R3.body",
+      "VN-R3.source_text",
+      "VN-R3.cta",
+      "VN-R3.native_headline",
+      "VN-R3.alt",
+      "VN-R3.artwork_labels",
+      "VN-R4.headline",
+      "VN-R4.body",
+      "VN-R4.source_text",
+      "VN-R4.cta",
+      "VN-R4.native_headline",
+      "VN-R4.alt",
+      "VN-R4.artwork_labels",
+      "VN-R5.headline",
+      "VN-R5.body",
+      "VN-R5.source_text",
+      "VN-R5.cta",
+      "VN-R5.native_headline",
+      "VN-R5.alt",
+      "VN-R5.artwork_labels"
+    ],
+    "VN-EVIDENCE-APLUS": [
+      "caption",
+      "VN-E1.headline",
+      "VN-E1.body",
+      "VN-E1.source_text",
+      "VN-E1.cta",
+      "VN-E1.native_headline",
+      "VN-E1.alt",
+      "VN-E1.artwork_labels",
+      "VN-E2.headline",
+      "VN-E2.body",
+      "VN-E2.source_text",
+      "VN-E2.cta",
+      "VN-E2.native_headline",
+      "VN-E2.alt",
+      "VN-E2.artwork_labels",
+      "VN-E3.headline",
+      "VN-E3.body",
+      "VN-E3.source_text",
+      "VN-E3.cta",
+      "VN-E3.native_headline",
+      "VN-E3.alt",
+      "VN-E3.artwork_labels",
+      "VN-E4.headline",
+      "VN-E4.body",
+      "VN-E4.source_text",
+      "VN-E4.cta",
+      "VN-E4.native_headline",
+      "VN-E4.alt",
+      "VN-E4.artwork_labels"
+    ]
+  },
+  "BRAND_ROLE": {
+    "verdict": "PASS",
+    "observation": "Official logo only, consulting/case source attributed; not customer-owned ad."
+  },
+  "ADVERTISER_VOICE": {
+    "verdict": "PASS",
+    "observation": "Each caption chúng tôi; technical sentences case-attributed not third-party Digiwin narration."
+  },
+  "VN_VOICE": {
+    "verdict": "PASS",
+    "receipt": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/vn-voice-pregen.json",
+      "sha256": "3a5f02754fa36b1234dc602a21469932ede7f4d313225667e9038ffe5fe06da6",
+      "revision": "VN-v4-voice-pregen"
+    }
+  },
+  "unit_observations": {
+    "VN-R1": "700+ qualified immediately as consulting experience/IC, no geography, no audit count; speaker chúng tôi, domestic-reader preparation; source publisher count.",
+    "VN-R2": "Customer audit trigger and complete readiness question; subject hồ sơ, advertiser invitation. No audit-success promise; management preparation relevance.",
+    "VN-R3": "Aplus named as case example, iMES owns individual-product history; explains checkable record mechanism, no ERP-only claim.",
+    "VN-R4": "Aplus engineering parameters and SPC named; subject hệ thống, concrete change/quality process and source; not generic specialist slogan.",
+    "VN-R5": "Quý Doanh Nghiệp exact direct address; named China case iMES+TOP GP before audit, not passed audit; case reading next step.",
+    "VN-E1": "Aplus China semiconductor identity and product named, audit preparation motive only. DigiHua source footer; no attributed customer quotation.",
+    "VN-E2": "Serial-based reporting and per-product history attributed to Aplus; checkable preparation mechanism, not universal outcome.",
+    "VN-E3": "SPC statistics and real-time quality alert explicitly named and case-attributed; no measured defect/yield reduction or ERP claim.",
+    "VN-E4": "Quý Doanh Nghiệp invitation from chúng tôi to discuss existing records/process. No promised consulting package, free assessment or certification."
+  },
+  "unresolved_findings": [],
+  "postgen": "POSTGEN_NOT_RUN",
+  "correction_observations": {
+    "VN-R2": "Extra YÊU CẦU ĐÁNH GIÁ printed on prop. Remove all prop wording.",
+    "VN-E2": "Unapproved ERP · VẬN HÀNH BÁN DẪN header copied from reference; remove, correct case category only.",
+    "VN-E3": "Fake dashboard/graph and wafer measurement scene beyond approved illustrative scene; replace."
+  }
+}

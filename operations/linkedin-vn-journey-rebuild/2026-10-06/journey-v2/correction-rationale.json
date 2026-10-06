@@ -1,0 +1,25 @@
+{
+  "prior_revision": "journey-v1",
+  "findings": [
+    {
+      "card": "VN-R1",
+      "status": "CHANGES_REQUIRED",
+      "actual_extra_text": [
+        "YÊU CẦU CỦA KHÁCH HÀNG",
+        "HỒ SƠ NỘI BỘ"
+      ],
+      "reason": "Unreviewed prop labels outside exact approved artwork fields."
+    },
+    {
+      "card": "VN-E2",
+      "status": "CHANGES_REQUIRED",
+      "reason": "Technical CAD/product drawings risk suggesting engineering-design instead of joint management-process review; faint draft values not approved."
+    },
+    {
+      "card": "VN-E3",
+      "status": "CHANGES_REQUIRED",
+      "reason": "Reference semiconductor category plus unapproved prop labels and packaged chips instead of plastics-material context."
+    }
+  ],
+  "scope": "Three affected images only; exact public copy unchanged, fresh pregen source/anchor/voice review."
+}

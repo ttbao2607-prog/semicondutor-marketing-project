@@ -1,0 +1,9 @@
+# Cold pilot mandate and context — 2026-10-06
+
+Bảo: “okie duyệt, v chạy gent ảnh cold trước thử”. Accepted recommendation: ERP cho ngành bán dẫn — từ nhà cung cấp hàng đầu Đài Loan; numerical hook200+ with original selection-count meaning. One offline Cold pilot, no RMK generation, account action, publication or spend. Root records mandate and performs actual SELF_REVIEW; no worker/delegation.
+
+Persona: chủ doanh nghiệp/giám đốc vận hành nhà cung ứng công nghiệp nội địa có hoạt động phù hợp chuỗi điện tử/bán dẫn; vi-VN. Industry/account fit is a hypothesis, not live audience eligibility. Cold objective: identify advertiser + sector experience + domestic readiness bridge. Single image standalone pilot; future RMK explains processes/data and evidence shows only source-supported mechanism. Not a full-journey acceptance or claim of ordered platform delivery. No fake URL/CTA.
+
+Approved supplier-position inference: ERP provider leadership + semiconductor experience + Taiwan brand origin. Not number1 or a ranked specific semiconductor ERP product. Research source: cold-v2/LEADERSHIP_CHECK.md; count source: historical v4/source.json.200+ not VN count or ERP-only deployment count; no guaranteed chain admission/audit/order. Brand only, no customer marks or photos. Existing VI200+ use approval remains within exact selection wording.
+
+Execution adaptation: earlier plan preferred committed guard handoff. For this explicitly authorized one-image pilot, use the existing developing guard as an unchanged byte-pinned local input after fresh18-test validation; preserve snapshot and hash, invoke with this worktree root and fresh SELF_REVIEW receipt. No integration into active scripts, no freeze/adoption, no copied historical semantic PASS. A commit alone would not certify semantics. Frozen core/Single-image gate unchanged. Stop on failed/stale guard, reference or output verification. Postgen actual native + mobile review still required.
