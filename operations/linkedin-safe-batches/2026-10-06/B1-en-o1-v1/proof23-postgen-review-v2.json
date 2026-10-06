@@ -1,0 +1,206 @@
+{
+  "revision": "b1-proof23-postgen-v2",
+  "execution_status": "SUCCESS",
+  "scope": "Only source hierarchy proof2–3 and unapproved ! on proof3",
+  "reviewer": "ROOT_SELF_REVIEW",
+  "independent_audit": "NOT_PERFORMED",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "revision": "1.0",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "mail_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "before_manifest_sha256": "57cb4e70fe0aa90d777e0e90f9b9d4abcf8fb5937e66f553b553eee3a41e7545",
+  "after_manifest_sha256": "9fb3a0ed41547b3b0da6b43db861c3d667ae8a3d8e35383246cc4302d3488e8b",
+  "selected_artwork": [
+    {
+      "card_id": "COLD-OSAT-QA-01-IMAGE",
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B1-en-o1-v2/assets/01-cold-osat-qa-01-image.png",
+      "sha256": "f49d548de582548b73494f050cf419221017d5bcbc5b7c0b603be6e11ee2506e",
+      "source": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/cold/release-v1/campaign/native/osat-cold-v1_b1-cold-en-v1.png",
+      "selected_corrective": false
+    },
+    {
+      "card_id": "O1-A1",
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B1-en-o1-v2/assets/02-o1-a1.png",
+      "sha256": "a17309c2630a50ec885f3d4c79fe1b57866b393ca3bc336804a0e68b4155e8ac",
+      "source": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/explanation/release-v1/campaign/native/o1-a1_b1-explanation-en-v1.png",
+      "selected_corrective": false
+    },
+    {
+      "card_id": "O1-A2",
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B1-en-o1-v2/assets/03-o1-a2.png",
+      "sha256": "cdc8c322555894f238283198a2e26679f8db79e36ebab597884bd74311ed2df1",
+      "source": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/explanation/release-v1/campaign/native/o1-a2_b1-explanation-en-v1.png",
+      "selected_corrective": false
+    },
+    {
+      "card_id": "O1-A3",
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B1-en-o1-v2/assets/04-o1-a3.png",
+      "sha256": "c53a71d99f6b756dd8a69d1fbae383e92e22ad8998f2802fb71bd17ba06bf4f4",
+      "source": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/explanation/release-v1/campaign/native/o1-a3_b1-explanation-en-v1.png",
+      "selected_corrective": false
+    },
+    {
+      "card_id": "O1-A4",
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B1-en-o1-v2/assets/05-o1-a4.png",
+      "sha256": "ae8406590dded36ee44833f3db6b2ce949b45b04474263ad37e2db196defbf26",
+      "source": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/corrective-v1/o1-a4/native/o1-a4_b1-explanation-en-v1_corrective1.png",
+      "selected_corrective": true
+    },
+    {
+      "card_id": "O1-A5",
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B1-en-o1-v2/assets/06-o1-a5.png",
+      "sha256": "da89b43025bacb59ec28627a7f5bd3d5aa951ec1589fa5f30c551048bbdbcdd5",
+      "source": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/explanation/release-v1/closing/native/o1-a5_b1-explanation-en-v1.png",
+      "selected_corrective": false
+    },
+    {
+      "card_id": "RMK-R4-1",
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B1-en-o1-v2/assets/07-rmk-r4-1.png",
+      "sha256": "ce19bf68a01533a6e19a05c7f971376ad15b207556a602bcab1bdbcb2d47cdd9",
+      "source": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/corrective-v1/rmk-r4-1/native/case06-1_b1-proof-en-v1_corrective1.png",
+      "selected_corrective": true
+    },
+    {
+      "card_id": "RMK-R4-2",
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B1-en-o1-v2/assets/08-rmk-r4-2.png",
+      "sha256": "1bb450fedc473bc4e45b6cb6920335e6fe40cbec61f2d9ff40a0ec23faea9172",
+      "source": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/corrective-v3/rmk-r4-2/native/case06-2_b1-proof-en-v1_corrective3.png",
+      "selected_corrective": true
+    },
+    {
+      "card_id": "RMK-R4-3",
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B1-en-o1-v2/assets/09-rmk-r4-3.png",
+      "sha256": "c67fde5114959a063c2a1dd088e5d2dc0c3acceebeeb0ac80b6e71e3ec5ef1ca",
+      "source": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/corrective-v4/rmk-r4-3/native/case06-3_b1-proof-en-v1_corrective4.png",
+      "selected_corrective": true
+    },
+    {
+      "card_id": "RMK-R4-4",
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B1-en-o1-v2/assets/10-rmk-r4-4.png",
+      "sha256": "d0c3c8864664f842e16cf8f2f5ff98955111dbad3549667ad10df0e28699ac48",
+      "source": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/proof/release-v1/closing/native/case06-4_b1-proof-en-v1.png",
+      "selected_corrective": false
+    }
+  ],
+  "changed_cards": [
+    "RMK-R4-2",
+    "RMK-R4-3"
+  ],
+  "unchanged_cards": 8,
+  "copy_and_reader_unchanged": true,
+  "new_tool_calls": 4,
+  "total_original": 10,
+  "total_corrective": 6,
+  "total_tool_calls": 16,
+  "attempts": [
+    {
+      "card_id": "RMK-R4-2",
+      "output": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/corrective-v2/rmk-r4-2/native/case06-2_b1-proof-en-v1_corrective2.png",
+      "sha256": "e7166d765197d75bd4a8f9ac943dc64ab71ecede1ce74b4cef6e442632589b58",
+      "preflight": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/corrective-v2/rmk-r4-2/dispatch/CASE06_2_REGEN_b1-proof-en-v1_corrective2-fresh-preflight.json",
+      "preflight_sha256": "102b07232eb885501bda3acb2de1aaae962d7d18a729ef0afab4c68cd52a1890",
+      "native_check": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/corrective-v2/rmk-r4-2/native-checks/CASE06_2_REGEN_b1-proof-en-v1_corrective2.json",
+      "selected": false,
+      "observed": "First source enlargement still below body size; preserved nonselected."
+    },
+    {
+      "card_id": "RMK-R4-3",
+      "output": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/corrective-v2/rmk-r4-3/native/case06-3_b1-proof-en-v1_corrective2.png",
+      "sha256": "59c38a0337210ad92e08113a395f205298e70f09613ab9850eee620513570148",
+      "preflight": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/corrective-v2/rmk-r4-3/dispatch/CASE06_3_REGEN_b1-proof-en-v1_corrective2-fresh-preflight.json",
+      "preflight_sha256": "4191be3b9c3d724625deea392720f78c41b35e837c0912d739a415292954652c",
+      "native_check": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/corrective-v2/rmk-r4-3/native-checks/CASE06_3_REGEN_b1-proof-en-v1_corrective2.json",
+      "selected": false,
+      "observed": "First source enlargement still below body size; preserved nonselected."
+    },
+    {
+      "card_id": "RMK-R4-2",
+      "output": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/corrective-v3/rmk-r4-2/native/case06-2_b1-proof-en-v1_corrective3.png",
+      "sha256": "1bb450fedc473bc4e45b6cb6920335e6fe40cbec61f2d9ff40a0ec23faea9172",
+      "preflight": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/corrective-v3/rmk-r4-2/dispatch/CASE06_2_REGEN_b1-proof-en-v1_corrective3-fresh-preflight.json",
+      "preflight_sha256": "8b2cca03b0d953fffa9d915a5883f0808799ef8062809ea09ffbb8d7b11b2068",
+      "native_check": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/corrective-v3/rmk-r4-2/native-checks/CASE06_2_REGEN_b1-proof-en-v1_corrective3.json",
+      "selected": true,
+      "observed": "Large two-line source selected after native/render review."
+    },
+    {
+      "card_id": "RMK-R4-3",
+      "output": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/corrective-v4/rmk-r4-3/native/case06-3_b1-proof-en-v1_corrective4.png",
+      "sha256": "c67fde5114959a063c2a1dd088e5d2dc0c3acceebeeb0ac80b6e71e3ec5ef1ca",
+      "preflight": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/corrective-v4/rmk-r4-3/dispatch/CASE06_3_REGEN_b1-proof-en-v1_corrective4-fresh-preflight.json",
+      "preflight_sha256": "32325a3107c84c7bd1e1e18f1f335bb4ffee60e2f44207d30ce89001750ea2af",
+      "native_check": "operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/corrective-v4/rmk-r4-3/native-checks/CASE06_3_REGEN_b1-proof-en-v1_corrective4.json",
+      "selected": true,
+      "observed": "Large two-line source selected after native/render review."
+    }
+  ],
+  "findings": [
+    {
+      "card_id": "RMK-R4-2",
+      "status": "CLOSED",
+      "observation": "Exact source Digiwin Vietnam · Packaging/testing case now two bold large lines on separate white reading area, visibly larger than body; full source visible at desktop640/feed333/mobile333."
+    },
+    {
+      "card_id": "RMK-R4-3",
+      "status": "CLOSED",
+      "observation": "Exact named China source now two bold lines larger than body; no location column; red ! badge entirely removed. Neutral linked record/four pictograms retained; no replacement warning glyph."
+    }
+  ],
+  "native_text_review": "Both exact category/sequence/headline/body/source retained once; official Digiwin mark once. No extra printed labels/ROI metrics/customer identity or new claim. Scene record bands are neutral formatting; no exact-blank-prop certification.",
+  "anchor_disposition": {
+    "A1": "Same bounded packaging/testing entity; no new broad ICP assumption.",
+    "A2": "Same source-scoped record links and integrated ERP+iMES; no new capability claim.",
+    "A3": "FDI English QA with Operations unchanged.",
+    "A4": "Implicit value through coordinated records/context/responsibility unchanged; no financial ROI required.",
+    "A5": "Not applied: FDI scope.",
+    "A6": "Specific record tracing and exception workflow unchanged.",
+    "A7": "Both corrections only text hierarchy/removal of unapproved glyph; unchanged sequence, caption, CTA and English reader. Full journey render gaps remain."
+  },
+  "render_review": {
+    "surface": "Dedicated proof-correction-review.html using selected raw PNGs",
+    "desktop": {
+      "viewport_css": [
+        1707,
+        817
+      ],
+      "artwork_css": 640,
+      "coverage": "Full source/scene after overlapping scroll; proof2/3 screenshots observed."
+    },
+    "feed": {
+      "viewport_css": [
+        1707,
+        817
+      ],
+      "artwork_css": 333,
+      "coverage": "Both entire images observed."
+    },
+    "mobile": {
+      "requested": [
+        390,
+        844
+      ],
+      "actual_css": [
+        434,
+        938
+      ],
+      "artwork_css": 333,
+      "coverage": "Both entire images observed; certify only actual viewport, not requested390."
+    },
+    "screenshots": "Observed in tool results; no separate saved screenshot file claimed."
+  },
+  "whole_journey": {
+    "status": "REVIEW_DRAFT_RENDER_GATE_PENDING",
+    "final_anchor_verdict": "INSUFFICIENT_EVIDENCE",
+    "remaining": "O1-A1 visual-fidelity observation pending PO disposition; other cards and reader mobile/full journey rendered audit not rerun."
+  },
+  "frozen_pins_verified": 24,
+  "adapter": "DEVELOPING / NOT_FROZEN",
+  "runtime_model_effort": "NOT_OBSERVED",
+  "tool": "built-in image_gen",
+  "raster_transform": false,
+  "zip": false,
+  "git": "Working-tree local only; no stage/commit/merge/push",
+  "next_batch": "STOP_BEFORE_B2_FOR_PO_REVIEW"
+}
