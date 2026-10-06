@@ -8,6 +8,22 @@
   "candidate2_artwork_imported": false,
   "zip_imported": false,
   "new_generation": 0,
-  "main_merge": "PENDING_LOCAL_GIT_MERGE",
-  "scope_audit": "Staged diff and committed tree must be checked before merge."
+  "main_merge": "READY_FOR_AUTHORIZED_LOCAL_MERGE",
+  "scope_audit": "PASS_COMMITTED_ARTIFACTS_ONLY",
+  "committed_artifact_byte_matches": 28,
+  "original_png_decode_matches": 20,
+  "base_existing_files_changed": [
+    ".gitattributes",
+    "CURRENT_STATE.md",
+    "README.md",
+    "ads/linkedin/LinkedIn_Build_Pack.md",
+    "operations/Pre_Ad_Readiness_Plan.md",
+    "operations/linkedin-locale-adapter/README.md"
+  ],
+  "protected_main_vn_core_tracking_budget": "UNCHANGED_IN_COMMITTED_DIFF",
+  "candidate1_mobile_gate": "NOT_PERFORMED_PRESERVED",
+  "candidate2": "EXCLUDED",
+  "committed_file_count_before_audit_receipt": 46,
+  "audited_artifact_commit": "6fe7db6fc19760518a005ce375fd19b3d546187d",
+  "audit_recovery": "Initial precommit audit stopped on Windows default encoding; artifact commit existed before audit completed. UTF-8 audit rerun on committed tree now PASS; merge not yet performed."
 }
