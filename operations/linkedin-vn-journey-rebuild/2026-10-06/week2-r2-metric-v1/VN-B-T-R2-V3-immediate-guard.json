@@ -1,0 +1,59 @@
+{
+  "layer": "PREGEN_ANCHOR_SCRIPT_CHECK",
+  "status": "PREGEN_INPUTS_VERIFIED",
+  "call_id": "VN-B-T-R2-V3",
+  "scope": {
+    "segment": "VN_DOMESTIC",
+    "locale": "vi-VN",
+    "persona": "domestic supplier owner / operations director",
+    "route": "AcceptedColdB -> reader data/scope -> Aplus iMES TOPGP mechanisms -> attributed integrated project go-live within3months -> Aplus VN case reading -> scope discussion"
+  },
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "revision": "1.0"
+  },
+  "message_review_sha256": "dddea85afa53ec55a7495115f6a7488a02bd59f883fafc31adf22addb084ab0a",
+  "script_review": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/script-review-detail.json",
+    "sha256": "44afbdacc0f2f9b3d96cf5021d5a18160996444645141219d311e08f52bdd923",
+    "revision": "week2-r2-metric-v1-editorial"
+  },
+  "input_hashes": {
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/PLAN.md": "32ab415c1b51eaf72ea27f9b73332849cd4c03e482cf4a13a6f99af92d6879fa",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/authority.md": "d736068ac82ee24f8dbff28e7b36ea0507c1626d209f5424bf1b9429b1e1c2a3",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/case-script.json": "3d146e5be08ba97476882e75abc1ee0c998eb9e04fdfd4bff8fdf842f5cfb71f",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/contract.json": "29768a8329d8109104344179cd703cbd36752214cb7563fcc87876ffd0aab011",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/public-copy.json": "cdf979140838a414e51d9e16e51b17c858ebb3f946cab239d92b79f75a733b45",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/release.json": "a3f48456cd38fece56ab96ee8614286f77a9553bb3142626587e134bda51fe76",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/review.json": "01886491dc1350755d85826672f37d6c61ea2c7cac838b234d9720f5e055b4e9",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/spec.json": "bfe44626c7f78748ddbd78c5577de03ec41fafd6cf1b96531722f83542de8a83",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v2/native/vn-b-t-r2-v2.png": "3f056fcac882ecbbf2cc54209ae7b4c207f647e33b8a59539904ece72a3420f4",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timeproof-v1/SOURCE_PROOF.md": "1303faf7d97b78583587860037cad660185642dbc28f506787299527848c81ba",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timeproof-v1/STORYBOARD.md": "3db8b2dae1020e4a283cf8137bc07eb29b3a6b1adac7d1042c6ca736eae009f6",
+    "scripts/verify_imagegen_preflight.py": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/message-review.json": "dddea85afa53ec55a7495115f6a7488a02bd59f883fafc31adf22addb084ab0a",
+    "operations/Vy_Email_Content_Anchor.md": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/script-review-detail.json": "44afbdacc0f2f9b3d96cf5021d5a18160996444645141219d311e08f52bdd923",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/VN_Cold_Nuance_Freeze_2026-10-06.json": "ed4b6c3323989ea1109cc7f1b77da88ece0a398ddfeabdafa1bb8c6e56cf85ec"
+  },
+  "mechanical_verdict": "PASS",
+  "message_review_binding": "PASS",
+  "semantic_verdict": "REVIEWER_ATTESTED_NOT_AUTOMATICALLY_ASSESSED",
+  "purpose": "OFFLINE_IMAGEGEN",
+  "authority": "NO_ADDITIONAL_GENERATION_AUTHORITY",
+  "tool_args": {
+    "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\",\"Any numerical claim beyond exact scoped3months integrated Aplus project; no financial KPI, auditpass, generic guaranteed deployment duration or fake phase dates\"],\"brand\":\"One supplied official Digiwin logo only; advertiser speaking directly; reviewed category not repeated brand name.\",\"campaign\":{\"instructions\":\"Bright white pale blue navy tactile campaign identity; official logo ONCE upper left. Exact Vietnamese accents; headlines bold and large but body readable on332px feed, use generous body font and short line wraps. ABSOLUTE HEADER RULE: do not copy ERP · VẬN HÀNH BÁN DẪN from references. Print exactly the single artwork_labels category of this card, as its own readable line below the logo; no other header text or slide numbers. Exact category and footer. Generic COF carrier tape/folios conceptual scenes, not customer factory. No fake dashboard, software UI, chart values, customer logo, badge or audit claim. Only exact headline/body/category/source/CTA. Print no captions, alt or native headline. Only approved3months time metric, always scoped to named Aplus/China/iMES+TOPGP on R2 and E1. No staffing count,700,percent,year or timeline dates. No guaranteed deadline or passed audit. Paper surfaces blank, no pseudo text. Scene connected across cards but varied composition. Preserve exact Quý Doanh Nghiệp. EDIT MODE: the sole input image is R2-v2 edit target. Preserve its logo, exact category, headline, scene, palette, source footer and square layout. Add the final body sentence in visibly emphasized blue or bold text: Toàn dự án đi vào vận hành trong 3 tháng. Keep all original body text. Adjust body spacing/scene only enough to fit legibly; no new objects or claims.\",\"revision\":\"week2-r2-metric-v1\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"typography_hierarchy\",\"campaign_identity\"],\"path\":\"operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v2/native/vn-b-t-r2-v2.png\",\"revision\":\"R2-v2-edit-target\",\"role\":\"campaign_visual\",\"sha256\":\"3f056fcac882ecbbf2cc54209ae7b4c207f647e33b8a59539904ece72a3420f4\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"BÁN DẪN · DỮ LIỆU & LỘ TRÌNH TRIỂN KHAI\"],\"card_id\":\"VN-B-T-R2\",\"concept_id\":\"VN-B-T-R2-Aplus-time-v1\",\"description\":\"Two physical blue folios linked by a subtle editorial blue arrow, beside a COF reel and blank production paper. Metaphor for integrated management and shopfloor only, not a fake software screen.\",\"props\":[\"two folios,COF reel,blank paper\"],\"reader_question\":\"Chọn phạm vi triển khai: ERP cùng dữ liệu hiện trường.\"}]\nAPPROVED ARTWORK TEXT\n{\"VN-B-T-R2\":{\"artwork_labels\":[\"BÁN DẪN · DỮ LIỆU & LỘ TRÌNH TRIỂN KHAI\"],\"body\":\"Tham khảo Aplus tại Trung Quốc:\\ndự án tích hợp iMES + TOP GP kết nối quản trị và hiện trường.\\nToàn dự án đi vào vận hành trong 3 tháng.\",\"cta\":\"\",\"headline\":\"Chọn phạm vi triển khai:\\nERP cùng dữ liệu hiện trường.\",\"source_text\":\"Nguồn: DigiHua · case Aplus\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+    "referenced_image_paths": [
+      "D:\\LinkedIn_VN_Journey_Rebuild_2026-10-06\\operations\\linkedin-vn-journey-rebuild\\2026-10-06\\week2-timegen-v2\\native\\vn-b-t-r2-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "VN_VOICE_receipt": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/vn-voice-pregen.json",
+    "sha256": "a782c18f976b4374f411c9989e2be2c57eec85e5137915641f69e087e2f8bec3",
+    "binding": "PASS",
+    "semantic": "REVIEWER_ATTESTED_NOT_AUTOMATIC"
+  }
+}

@@ -1,0 +1,520 @@
+{
+  "stage": "POSTGEN_ARTIFACT",
+  "date": "2026-10-06",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "status": "READY_FOR_BAO_REVIEW / NEW9_PO_PENDING",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0"
+  },
+  "email": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3"
+  },
+  "voice_policy": {
+    "path": "operations/VN_Locale_Reader_Voice_Gate.md",
+    "sha256": "bb0ad4f22cd6b071e9947fef8f015149174f70e57dd7f721f55f8a86a97a78fc",
+    "revision": "1.1"
+  },
+  "scope": {
+    "segment": "VN_DOMESTIC",
+    "locale": "vi-VN",
+    "persona": "domestic supplier owner / operations director"
+  },
+  "copy": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/public-copy.json",
+    "sha256": "ed4ec8d0aa50a3daa38fd8d17b81d66dc4ad26205513c41a5de2a603cb35b025"
+  },
+  "proof": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timeproof-v1/SOURCE_PROOF.md",
+    "sha256": "1303faf7d97b78583587860037cad660185642dbc28f506787299527848c81ba"
+  },
+  "demo": {
+    "path": "deliverables/linkedin-vn-journey/2026-10-06-week2-time-v1/index.html",
+    "sha256": "21f76e30d2239b8f5ef3d069faa9b508f7435e4970a216db1e09dec47fdfc95e"
+  },
+  "case": {
+    "path": "deliverables/linkedin-vn-journey/2026-10-06-week2-time-v1/case-aplus.html",
+    "sha256": "4e771932b162fd9b6e258311d816357226a011ef58c32c50321c4e1e0a604896"
+  },
+  "observations": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render-observations.json",
+    "sha256": "0d32513fd7255c1c42367784fb6004031eaeaa25e4f0bfb7507c1c9ad0c519c4"
+  },
+  "transcript": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/postgen-observed-text.json",
+    "sha256": "bb5ef57747fe08bbc58d7ce4fc5285e3a75c48a3dfd3d99bd285a0b81644c998"
+  },
+  "address_scan": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/postgen-address-scan.json",
+    "sha256": "3ae8417b50ad8ce35a9cc8e9cbbb7fe773ed1468a5f5f964b7d5a4b466d6142c"
+  },
+  "units": [
+    {
+      "card_id": "VN-B-COLD",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-v1-cold/native/vn-b-cold-v1.png",
+        "sha256": "365abd1e103b03e6cb934f86152c144c7a2060f1440eab6d40d0a8999424f036"
+      },
+      "observed_visible_text": {
+        "headline": "3 điểm cần chuẩn bị\ntrước yêu cầu đánh giá",
+        "body": "Đúng phiên bản · Rõ phê duyệt · Có dữ liệu\nChúng tôi đồng hành cùng doanh nghiệp Việt\nchuẩn bị năng lực quản trị để bước vào chuỗi bán dẫn.",
+        "source_text": "",
+        "cta": "",
+        "artwork_labels": [
+          "ERP & QUẢN TRỊ QUY TRÌNH · BÁN DẪN"
+        ]
+      },
+      "evidence": [
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/desktop-0.png",
+          "sha256": "ca984d37412186bcd0820334f3d5d7aa770b58c89b85297b12ed26993e0a9919"
+        },
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/mobile-0.png",
+          "sha256": "49480bf2dcd557a0e593da8d6fa220efe979eec8798575de464ebc080feab7be"
+        }
+      ],
+      "continuity_and_source": "Retained Cold B: preparation/version/approval/data, domestic VN semiconductor supplier.",
+      "native_observation": "Root displayed and read original raster: exact headline/body/category/source/CTA, Vietnamese accents and one Digiwin logo. Generic semiconductor/editorial scenes are illustrations, not authenticated Aplus facility/product photographs.",
+      "V1": "PASS_SELF_REVIEW: advertiser Digiwin/we voice or caption product context; named case outcomes attributed.",
+      "V2": "PASS_SELF_REVIEW: independent caption domestic supplier preparation for customer assessment.",
+      "V3": "PASS_SELF_REVIEW: complete Vietnamese question/explanation/invitation, spelling visually inspected.",
+      "V4": "PASS_SELF_REVIEW: bounded integrated-system mechanism or case result, no audit/deadline promise.",
+      "V5": "PASS_SELF_REVIEW: exact Quý Doanh Nghiệp, no Bạn observed.",
+      "MSG-ANCHOR-01": "MESSAGE_ANCHOR_PASS_SELF_REVIEW",
+      "AD-ED-01": "PASS_SELF_REVIEW",
+      "readability": "Main headline/body visible at 390px viewport. Secondary category/source small; no equal-legibility claim for all raster text."
+    },
+    {
+      "card_id": "VN-B-T-R1",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v2/native/vn-b-t-r1-v2.png",
+        "sha256": "685d95dcc57d7e73d7f6d2517dcffa4a6abec93930247764ed2c0bc2f8dbe45d"
+      },
+      "observed_visible_text": {
+        "headline": "Muốn có dữ liệu đối chiếu,\ncần chuẩn bị từ đâu?",
+        "body": "Cùng Quý Doanh Nghiệp xác định dữ liệu cần chuẩn bị:\nlịch sử sản phẩm, chất lượng và tham số quy trình.",
+        "source_text": "",
+        "cta": "",
+        "artwork_labels": [
+          "BÁN DẪN · DỮ LIỆU & LỘ TRÌNH TRIỂN KHAI"
+        ]
+      },
+      "evidence": [
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/desktop-1.png",
+          "sha256": "d9ada00afdd0c92523b3930f6d559a03e75539fe6908e8dd46822561e978c4e6"
+        },
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/mobile-1.png",
+          "sha256": "053cf8a4d988452d82f74998be338b30512f07b6ee45b310f3a22a5eec85871e"
+        }
+      ],
+      "continuity_and_source": "Reader identifies product history, quality and process parameters before selecting scope.",
+      "native_observation": "Root displayed and read original raster: exact headline/body/category/source/CTA, Vietnamese accents and one Digiwin logo. Generic semiconductor/editorial scenes are illustrations, not authenticated Aplus facility/product photographs.",
+      "V1": "PASS_SELF_REVIEW: advertiser Digiwin/we voice or caption product context; named case outcomes attributed.",
+      "V2": "PASS_SELF_REVIEW: independent caption domestic supplier preparation for customer assessment.",
+      "V3": "PASS_SELF_REVIEW: complete Vietnamese question/explanation/invitation, spelling visually inspected.",
+      "V4": "PASS_SELF_REVIEW: bounded integrated-system mechanism or case result, no audit/deadline promise.",
+      "V5": "PASS_SELF_REVIEW: exact Quý Doanh Nghiệp, no Bạn observed.",
+      "MSG-ANCHOR-01": "MESSAGE_ANCHOR_PASS_SELF_REVIEW",
+      "AD-ED-01": "PASS_SELF_REVIEW",
+      "readability": "Main headline/body visible at 390px viewport. Secondary category/source small; no equal-legibility claim for all raster text."
+    },
+    {
+      "card_id": "VN-B-T-R2",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v2/native/vn-b-t-r2-v2.png",
+        "sha256": "3f056fcac882ecbbf2cc54209ae7b4c207f647e33b8a59539904ece72a3420f4"
+      },
+      "observed_visible_text": {
+        "headline": "Chọn phạm vi triển khai:\nERP cùng dữ liệu hiện trường.",
+        "body": "Tham khảo Aplus tại Trung Quốc:\ndự án tích hợp iMES + TOP GP kết nối quản trị và hiện trường.",
+        "source_text": "Nguồn: DigiHua · case Aplus",
+        "cta": "",
+        "artwork_labels": [
+          "BÁN DẪN · DỮ LIỆU & LỘ TRÌNH TRIỂN KHAI"
+        ]
+      },
+      "evidence": [
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/desktop-2.png",
+          "sha256": "ef6df307167c0bee67dae7f131ec22382cdd1425da6714a15ec72033d8f528dc"
+        },
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/mobile-2.png",
+          "sha256": "fa69f57802db4ea28d7dd9f967f0b05f8a3b0bd7f6eaa345c8ed142d637028c3"
+        }
+      ],
+      "continuity_and_source": "Aplus China integrated iMES + TOP GP, ERP and shopfloor context; not ERP-only claim.",
+      "native_observation": "Root displayed and read original raster: exact headline/body/category/source/CTA, Vietnamese accents and one Digiwin logo. Generic semiconductor/editorial scenes are illustrations, not authenticated Aplus facility/product photographs.",
+      "V1": "PASS_SELF_REVIEW: advertiser Digiwin/we voice or caption product context; named case outcomes attributed.",
+      "V2": "PASS_SELF_REVIEW: independent caption domestic supplier preparation for customer assessment.",
+      "V3": "PASS_SELF_REVIEW: complete Vietnamese question/explanation/invitation, spelling visually inspected.",
+      "V4": "PASS_SELF_REVIEW: bounded integrated-system mechanism or case result, no audit/deadline promise.",
+      "V5": "PASS_SELF_REVIEW: exact Quý Doanh Nghiệp, no Bạn observed.",
+      "MSG-ANCHOR-01": "MESSAGE_ANCHOR_PASS_SELF_REVIEW",
+      "AD-ED-01": "PASS_SELF_REVIEW",
+      "readability": "Main headline/body visible at 390px viewport. Secondary category/source small; no equal-legibility claim for all raster text."
+    },
+    {
+      "card_id": "VN-B-T-R3",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v2/native/vn-b-t-r3-v2.png",
+        "sha256": "0d954c284018e8b056b88763965bbb324b7430b091473b5659f62f9c6b6d84e0"
+      },
+      "observed_visible_text": {
+        "headline": "Chuẩn hóa cách ghi nhận,\nđể tra được từng sản phẩm.",
+        "body": "Trong case Aplus, báo công theo số serial\nhỗ trợ truy xuất lịch sử từng sản phẩm.",
+        "source_text": "Nguồn: DigiHua · case Aplus",
+        "cta": "",
+        "artwork_labels": [
+          "BÁN DẪN · DỮ LIỆU & LỘ TRÌNH TRIỂN KHAI"
+        ]
+      },
+      "evidence": [
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/desktop-3.png",
+          "sha256": "b968a32b47ee3fb92956783707c02e7c08103efd75de7ff5978c4ea8f583a1d9"
+        },
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/mobile-3.png",
+          "sha256": "e54192e46083c9d9f49e112c9600368eea6e500865400a8273f5f2a901cb38ce"
+        }
+      ],
+      "continuity_and_source": "Aplus serial-based reporting supports product history; no invented time saving.",
+      "native_observation": "Root displayed and read original raster: exact headline/body/category/source/CTA, Vietnamese accents and one Digiwin logo. Generic semiconductor/editorial scenes are illustrations, not authenticated Aplus facility/product photographs.",
+      "V1": "PASS_SELF_REVIEW: advertiser Digiwin/we voice or caption product context; named case outcomes attributed.",
+      "V2": "PASS_SELF_REVIEW: independent caption domestic supplier preparation for customer assessment.",
+      "V3": "PASS_SELF_REVIEW: complete Vietnamese question/explanation/invitation, spelling visually inspected.",
+      "V4": "PASS_SELF_REVIEW: bounded integrated-system mechanism or case result, no audit/deadline promise.",
+      "V5": "PASS_SELF_REVIEW: exact Quý Doanh Nghiệp, no Bạn observed.",
+      "MSG-ANCHOR-01": "MESSAGE_ANCHOR_PASS_SELF_REVIEW",
+      "AD-ED-01": "PASS_SELF_REVIEW",
+      "readability": "Main headline/body visible at 390px viewport. Secondary category/source small; no equal-legibility claim for all raster text."
+    },
+    {
+      "card_id": "VN-B-T-R4",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v2/native/vn-b-t-r4-v2.png",
+        "sha256": "5e7e33802d38352ca9f53ea1970e1a01d2337e103d2ff3a1801ddfb7f20c846c"
+      },
+      "observed_visible_text": {
+        "headline": "Chốt dữ liệu chất lượng\nvà tham số cần kiểm soát.",
+        "body": "Case Aplus ghi nhận thu thập dữ liệu đo, phân tích SPC\nvà quản lý tham số ECN, TECN, SEN.",
+        "source_text": "Nguồn: DigiHua · case Aplus",
+        "cta": "",
+        "artwork_labels": [
+          "BÁN DẪN · DỮ LIỆU & LỘ TRÌNH TRIỂN KHAI"
+        ]
+      },
+      "evidence": [
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/desktop-4.png",
+          "sha256": "0d57f5ec283c6e5830a3d33670551264eeb2572dace62bb01a093993ed4d5bd6"
+        },
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/mobile-4.png",
+          "sha256": "b222d3f8f4328e5c5955e6d9718ee5dbed70a1edfaef1d51f3ba539eef016cd5"
+        }
+      ],
+      "continuity_and_source": "Aplus measurement collection/SPC and ECN/TECN/SEN parameters; integrated product scope.",
+      "native_observation": "Root displayed and read original raster: exact headline/body/category/source/CTA, Vietnamese accents and one Digiwin logo. Generic semiconductor/editorial scenes are illustrations, not authenticated Aplus facility/product photographs.",
+      "V1": "PASS_SELF_REVIEW: advertiser Digiwin/we voice or caption product context; named case outcomes attributed.",
+      "V2": "PASS_SELF_REVIEW: independent caption domestic supplier preparation for customer assessment.",
+      "V3": "PASS_SELF_REVIEW: complete Vietnamese question/explanation/invitation, spelling visually inspected.",
+      "V4": "PASS_SELF_REVIEW: bounded integrated-system mechanism or case result, no audit/deadline promise.",
+      "V5": "PASS_SELF_REVIEW: exact Quý Doanh Nghiệp, no Bạn observed.",
+      "MSG-ANCHOR-01": "MESSAGE_ANCHOR_PASS_SELF_REVIEW",
+      "AD-ED-01": "PASS_SELF_REVIEW",
+      "readability": "Main headline/body visible at 390px viewport. Secondary category/source small; no equal-legibility claim for all raster text."
+    },
+    {
+      "card_id": "VN-B-T-R5",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v2/native/vn-b-t-r5-v2.png",
+        "sha256": "a10c18cd841359bd14b9a0acbb16cf87fc652835adb70e6d032343f16aa9f315"
+      },
+      "observed_visible_text": {
+        "headline": "Từ phạm vi triển khai\nđến mốc vận hành.",
+        "body": "Cùng Quý Doanh Nghiệp xem case Aplus:\ndự án iMES + TOP GP và thời gian go-live được ghi nhận.",
+        "source_text": "Nguồn: DigiHua · case Aplus",
+        "cta": "Xem case Aplus",
+        "artwork_labels": [
+          "BÁN DẪN · DỮ LIỆU & LỘ TRÌNH TRIỂN KHAI"
+        ]
+      },
+      "evidence": [
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/desktop-5.png",
+          "sha256": "55dc479ac9b59a5359279a619e71949f0d699e014c029b5c0f6fd2e3620fd53c"
+        },
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/mobile-5.png",
+          "sha256": "fc2fa5c75d75e401b5854c76b462e347caba7b8d6ce1097386404210bc4e6006"
+        }
+      ],
+      "continuity_and_source": "Scope-to-go-live bridge explicitly introduces Aplus timing, not prescribed deployment schedule.",
+      "native_observation": "Root displayed and read original raster: exact headline/body/category/source/CTA, Vietnamese accents and one Digiwin logo. Generic semiconductor/editorial scenes are illustrations, not authenticated Aplus facility/product photographs.",
+      "V1": "PASS_SELF_REVIEW: advertiser Digiwin/we voice or caption product context; named case outcomes attributed.",
+      "V2": "PASS_SELF_REVIEW: independent caption domestic supplier preparation for customer assessment.",
+      "V3": "PASS_SELF_REVIEW: complete Vietnamese question/explanation/invitation, spelling visually inspected.",
+      "V4": "PASS_SELF_REVIEW: bounded integrated-system mechanism or case result, no audit/deadline promise.",
+      "V5": "PASS_SELF_REVIEW: exact Quý Doanh Nghiệp, no Bạn observed.",
+      "MSG-ANCHOR-01": "MESSAGE_ANCHOR_PASS_SELF_REVIEW",
+      "AD-ED-01": "PASS_SELF_REVIEW",
+      "readability": "Main headline/body visible at 390px viewport. Secondary category/source small; no equal-legibility claim for all raster text."
+    },
+    {
+      "card_id": "VN-B-T-E1",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v2/native/vn-b-t-e1-v2.png",
+        "sha256": "4d481440415a34b02b98464ad562799f436da1064ed3ddf8cc4626c48eea6cd5"
+      },
+      "observed_visible_text": {
+        "headline": "Trong 3 tháng,\niMES + TOP GP đi vào vận hành.",
+        "body": "Tại Aplus Semiconductor, Trung Quốc, nguồn DigiHua\nghi nhận toàn dự án tích hợp hoàn tất go-live trong 3 tháng.",
+        "source_text": "Nguồn: DigiHua · case Aplus",
+        "cta": "",
+        "artwork_labels": [
+          "CASE BÁN DẪN · APLUS TRUNG QUỐC"
+        ]
+      },
+      "evidence": [
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/desktop-6.png",
+          "sha256": "1e7a7d7fc3192e736193e07b024ba717dbe2080e99fa82b4a375a857ea59c46e"
+        },
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/mobile-6.png",
+          "sha256": "c39e674d625ef9f2d61b505d6d899a2e50edfc954bd8c4319d06901ab1eeb942"
+        }
+      ],
+      "continuity_and_source": "Primary source actual result: entire Aplus integrated iMES + TOP GP go-live within 3 months. Not first-contact-to-audit duration or guarantee.",
+      "native_observation": "Root displayed and read original raster: exact headline/body/category/source/CTA, Vietnamese accents and one Digiwin logo. Generic semiconductor/editorial scenes are illustrations, not authenticated Aplus facility/product photographs.",
+      "V1": "PASS_SELF_REVIEW: advertiser Digiwin/we voice or caption product context; named case outcomes attributed.",
+      "V2": "PASS_SELF_REVIEW: independent caption domestic supplier preparation for customer assessment.",
+      "V3": "PASS_SELF_REVIEW: complete Vietnamese question/explanation/invitation, spelling visually inspected.",
+      "V4": "PASS_SELF_REVIEW: bounded integrated-system mechanism or case result, no audit/deadline promise.",
+      "V5": "PASS_SELF_REVIEW: exact Quý Doanh Nghiệp, no Bạn observed.",
+      "MSG-ANCHOR-01": "MESSAGE_ANCHOR_PASS_SELF_REVIEW",
+      "AD-ED-01": "PASS_SELF_REVIEW",
+      "readability": "Main headline/body visible at 390px viewport. Secondary category/source small; no equal-legibility claim for all raster text."
+    },
+    {
+      "card_id": "VN-B-T-E2",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v2/native/vn-b-t-e2-v2.png",
+        "sha256": "5bcbec05a22b2eceb53045878b6951575529b25e0f25bbf666faa19e5a63b49f"
+      },
+      "observed_visible_text": {
+        "headline": "Mốc vận hành ấy\nbao gồm những gì?",
+        "body": "Case ghi nhận quy trình hiện trường không dùng giấy,\nthu thập dữ liệu đo và phân tích SPC trên hệ thống.",
+        "source_text": "Nguồn: DigiHua · case Aplus",
+        "cta": "",
+        "artwork_labels": [
+          "CASE BÁN DẪN · APLUS TRUNG QUỐC"
+        ]
+      },
+      "evidence": [
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/desktop-7.png",
+          "sha256": "cdbaa02c6cd21e5fd867ae4c04baf1b1b75c2d137e5a13c82aceb9bd0cce00dc"
+        },
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/mobile-7.png",
+          "sha256": "6f3402514612468d74c63d4a87d99686173ac13a6bc545cd3de3e555e06b35bf"
+        }
+      ],
+      "continuity_and_source": "Published go-live scope: paperless shopfloor, measurements/SPC. No audit-pass assertion.",
+      "native_observation": "Root displayed and read original raster: exact headline/body/category/source/CTA, Vietnamese accents and one Digiwin logo. Generic semiconductor/editorial scenes are illustrations, not authenticated Aplus facility/product photographs.",
+      "V1": "PASS_SELF_REVIEW: advertiser Digiwin/we voice or caption product context; named case outcomes attributed.",
+      "V2": "PASS_SELF_REVIEW: independent caption domestic supplier preparation for customer assessment.",
+      "V3": "PASS_SELF_REVIEW: complete Vietnamese question/explanation/invitation, spelling visually inspected.",
+      "V4": "PASS_SELF_REVIEW: bounded integrated-system mechanism or case result, no audit/deadline promise.",
+      "V5": "PASS_SELF_REVIEW: exact Quý Doanh Nghiệp, no Bạn observed.",
+      "MSG-ANCHOR-01": "MESSAGE_ANCHOR_PASS_SELF_REVIEW",
+      "AD-ED-01": "PASS_SELF_REVIEW",
+      "readability": "Main headline/body visible at 390px viewport. Secondary category/source small; no equal-legibility claim for all raster text."
+    },
+    {
+      "card_id": "VN-B-T-E3",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v2/native/vn-b-t-e3-v2.png",
+        "sha256": "c8fcb3e0442f8b3445cf597179a87357b26af7b1ba3a4fa68404a814068f7d2d"
+      },
+      "observed_visible_text": {
+        "headline": "Dữ liệu sản xuất\ncó lịch sử để đối chiếu.",
+        "body": "Case Aplus ghi nhận báo công theo serial,\ntruy xuất từng sản phẩm và quản lý tham số quy trình.",
+        "source_text": "Nguồn: DigiHua · case Aplus",
+        "cta": "",
+        "artwork_labels": [
+          "CASE BÁN DẪN · APLUS TRUNG QUỐC"
+        ]
+      },
+      "evidence": [
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/desktop-8.png",
+          "sha256": "4b5b07bd9955c1ec60d74d4dc68b20ff01974371cf9a7602e74f8243deb30716"
+        },
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/mobile-8.png",
+          "sha256": "17b6bc6ef68b69463ae539bcce5d23946ca338c2492d05171e0a98b88b2787d7"
+        }
+      ],
+      "continuity_and_source": "Published operational serial history and process parameters, no invented KPI.",
+      "native_observation": "Root displayed and read original raster: exact headline/body/category/source/CTA, Vietnamese accents and one Digiwin logo. Generic semiconductor/editorial scenes are illustrations, not authenticated Aplus facility/product photographs.",
+      "V1": "PASS_SELF_REVIEW: advertiser Digiwin/we voice or caption product context; named case outcomes attributed.",
+      "V2": "PASS_SELF_REVIEW: independent caption domestic supplier preparation for customer assessment.",
+      "V3": "PASS_SELF_REVIEW: complete Vietnamese question/explanation/invitation, spelling visually inspected.",
+      "V4": "PASS_SELF_REVIEW: bounded integrated-system mechanism or case result, no audit/deadline promise.",
+      "V5": "PASS_SELF_REVIEW: exact Quý Doanh Nghiệp, no Bạn observed.",
+      "MSG-ANCHOR-01": "MESSAGE_ANCHOR_PASS_SELF_REVIEW",
+      "AD-ED-01": "PASS_SELF_REVIEW",
+      "readability": "Main headline/body visible at 390px viewport. Secondary category/source small; no equal-legibility claim for all raster text."
+    },
+    {
+      "card_id": "VN-B-T-E4",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v2/native/vn-b-t-e4-v2.png",
+        "sha256": "cff55676b4496a1fab9bedbaba4ea1493c496604769f4a34b2e38acd1580af42"
+      },
+      "observed_visible_text": {
+        "headline": "Quý Doanh Nghiệp\nmuốn bắt đầu từ phạm vi nào?",
+        "body": "Cùng chúng tôi trao đổi hiện trạng quy trình và dữ liệu,\nđể phác thảo lộ trình triển khai phù hợp.",
+        "source_text": "",
+        "cta": "Trao đổi lộ trình",
+        "artwork_labels": [
+          "CASE BÁN DẪN · APLUS TRUNG QUỐC"
+        ]
+      },
+      "evidence": [
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/desktop-9.png",
+          "sha256": "a8643c0eae89d5f31476788bfe2645623b881dcecf6d19d65586164444d2dade"
+        },
+        {
+          "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/mobile-9.png",
+          "sha256": "553d27c92b74af01539b128f4bb18952230aacd645dd23440ff8f07d1b8bab58"
+        }
+      ],
+      "continuity_and_source": "Reader invitation to discuss actual scope and suitable roadmap; no deadline guarantee.",
+      "native_observation": "Root displayed and read original raster: exact headline/body/category/source/CTA, Vietnamese accents and one Digiwin logo. Generic semiconductor/editorial scenes are illustrations, not authenticated Aplus facility/product photographs.",
+      "V1": "PASS_SELF_REVIEW: advertiser Digiwin/we voice or caption product context; named case outcomes attributed.",
+      "V2": "PASS_SELF_REVIEW: independent caption domestic supplier preparation for customer assessment.",
+      "V3": "PASS_SELF_REVIEW: complete Vietnamese question/explanation/invitation, spelling visually inspected.",
+      "V4": "PASS_SELF_REVIEW: bounded integrated-system mechanism or case result, no audit/deadline promise.",
+      "V5": "PASS_SELF_REVIEW: exact Quý Doanh Nghiệp, no Bạn observed.",
+      "MSG-ANCHOR-01": "MESSAGE_ANCHOR_PASS_SELF_REVIEW",
+      "AD-ED-01": "PASS_SELF_REVIEW",
+      "readability": "Main headline/body visible at 390px viewport. Secondary category/source small; no equal-legibility claim for all raster text."
+    }
+  ],
+  "case_review": {
+    "pregen": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/case-copy-pregen-review.json",
+      "sha256": "45ed2caa3d7998a934401508548b10d4a1c0280ba23a2588700480b0b0eb8a30"
+    },
+    "actual": "Opened case from RMK5 CTA in new tab; desktop/mobile reviewed exact script, source and VN contact links, no forms.",
+    "gates": "MSG-ANCHOR-01 / V1-V5 / AD-ED-01 PASS_SELF_REVIEW",
+    "screens": [
+      {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/case-desktop.png",
+        "sha256": "954ee337bdbf6946a1f0169c3f60df9fdc5f9aa771e09c29563a12151b576e3b"
+      },
+      {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/render/case-mobile.png",
+        "sha256": "5d8611fbcb9e92dfdf35fc0416f02ce1bae1d6b452326819501f27bb667f7cd8"
+      }
+    ]
+  },
+  "whole_journey": {
+    "Cold_to_RMK": "Preparation records -> identify data -> integrated ERP/shopfloor scope -> serial and SPC/parameters; same VN domestic supplier reader.",
+    "RMK_to_evidence": "R5 named Aplus integrated scope/timing -> E1 actual 3-month result -> E2/E3 published operating scope. Reader preparation sequence is editorial, not claimed Aplus chronology.",
+    "evidence_to_CTA": "Same reader invited to discuss scope/roadmap, no repetition guarantee.",
+    "A1": "PASS semiconductor supplier context, no assumed fab persona",
+    "A2": "Actual reader readiness/account fit unknown, no presumed deployment",
+    "A3": "PASS domestic VN owner/operations",
+    "A4": "N/A FDI framing, no unsupported ROI",
+    "A5": "PASS readiness without guaranteed audit/order/deadline",
+    "A6": "PASS iMES + TOP GP integrated scope, not ERP-only SPC/serial attribution",
+    "A7": "PASS same audience/product/proof scope across independently captioned ads and actual case"
+  },
+  "closed_findings": [
+    {
+      "candidate": "R1-v1",
+      "finding": "Wrong category copied from reference",
+      "closure": "Fresh v2 exact category generated and visually checked; original v1 retained separately."
+    }
+  ],
+  "limitations": [
+    "Secondary category/source small on mobile",
+    "Scenes are generic editorial semiconductor illustrations, not verified Aplus facility or exact product photographs",
+    "Unlabelled blocks/timeline are visual metaphors, not measured KPIs or authenticated deployment phases",
+    "Source gives integrated project go-live, not consultation-to-audit end-to-end duration or audit success",
+    "Self-review only; nine new images pending Bảo acceptance; no independent audit claimed"
+  ],
+  "pregen": [
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v1/contract.json",
+      "sha256": "fc306da5451c9dde05c8beb449c5c8924b7d057eff3156bea930b9cb6b96b2dc"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v1/spec.json",
+      "sha256": "ca3ba59446469241b230038bc90e346bb6e609c3ab6efe56891d21204d87163c"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v1/message-review.json",
+      "sha256": "d0a3945235762473423bf88017af2baf36aa3d68d80ce3ed11d184662c5392e8"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v1/vn-voice-pregen.json",
+      "sha256": "0aec230b9d33fdf94d42640f2924a51f3d38b4f9d7d759d78828bdb76248c7c6"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v1/script-review-detail.json",
+      "sha256": "2f01470dd7377942c67d70b1bd60e7fb6645ebd60209207ce1e8ae62191fa3fb"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v1/preflight-all.json",
+      "sha256": "b90d48f414ea71ece3230a5d0df65fefc46047d7bde52a8295a1d2420fcf0b23"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v2/contract.json",
+      "sha256": "616b8b45dfa2a552e021d270e63e6c1104b78a97545da054b69be5ee1cc36032"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v2/spec.json",
+      "sha256": "0dfaa04e71c8680f7c2d24a1e9542e0eec73acd23a055dbb9b2f420d35d1515b"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v2/message-review.json",
+      "sha256": "45f88069ab47f0aefd71adb69ea56c1a9f3298da152ee48bb1716ffe7f76ca35"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v2/vn-voice-pregen.json",
+      "sha256": "9ba243b373d97e835e363df6e38fd01fd73b4ead4ddc90582fdb7f283d084a10"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v2/script-review-detail.json",
+      "sha256": "34b1ed5c04c5a485b4f0bf4c96a9aa76ebb0a451cb422d2be616fe4846407949"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timegen-v2/preflight-all.json",
+      "sha256": "a54bc006a32c39953453fd13f242eccfce47c1553cb4c239a2e0549923e31396"
+    }
+  ],
+  "render_coverage": {
+    "native": 10,
+    "desktop": 10,
+    "mobile": 10,
+    "case": 2,
+    "all_images_loaded": true,
+    "horizontal_overflow": false
+  },
+  "live": "No account, upload, publish, swap, spend or budget mutation."
+}

@@ -1,0 +1,95 @@
+{
+  "gate_id": "VN-VOICE-01",
+  "revision": "week2-r2-metric-v1-voice-pregen",
+  "stage": "PREGEN_SCRIPT",
+  "date": "2026-10-06",
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "verdict": "VN_VOICE_PASS",
+  "policy": {
+    "path": "operations/VN_Locale_Reader_Voice_Gate.md",
+    "sha256": "bb0ad4f22cd6b071e9947fef8f015149174f70e57dd7f721f55f8a86a97a78fc",
+    "revision": "1.1"
+  },
+  "freeze": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/VN_Cold_Nuance_Freeze_2026-10-06.json",
+    "sha256": "ed4b6c3323989ea1109cc7f1b77da88ece0a398ddfeabdafa1bb8c6e56cf85ec",
+    "revision": "Cold-v4-frozen"
+  },
+  "copy": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/public-copy.json",
+    "sha256": "cdf979140838a414e51d9e16e51b17c858ebb3f946cab239d92b79f75a733b45",
+    "revision": "week2-r2-metric-v1-copy"
+  },
+  "spec": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/spec.json",
+    "sha256": "bfe44626c7f78748ddbd78c5577de03ec41fafd6cf1b96531722f83542de8a83",
+    "revision": "week2-r2-metric-v1-spec"
+  },
+  "scope": {
+    "segment": "VN_DOMESTIC",
+    "locale": "vi-VN",
+    "persona": "domestic supplier owner / operations director",
+    "route": "AcceptedColdB -> reader data/scope -> Aplus iMES TOPGP mechanisms -> attributed integrated project go-live within3months -> Aplus VN case reading -> scope discussion"
+  },
+  "reviewed_fields": {
+    "VN-B-T-RMK": [
+      "caption",
+      "VN-B-T-R2.headline",
+      "VN-B-T-R2.body",
+      "VN-B-T-R2.source_text",
+      "VN-B-T-R2.cta",
+      "VN-B-T-R2.native_headline",
+      "VN-B-T-R2.alt",
+      "VN-B-T-R2.artwork_labels"
+    ]
+  },
+  "units": [
+    {
+      "card_id": "VN-B-T-R2",
+      "exact_fields": {
+        "card_id": "VN-B-T-R2",
+        "headline": "Chọn phạm vi triển khai:\nERP cùng dữ liệu hiện trường.",
+        "body": "Tham khảo Aplus tại Trung Quốc:\ndự án tích hợp iMES + TOP GP kết nối quản trị và hiện trường.\nToàn dự án đi vào vận hành trong 3 tháng.",
+        "native_headline": "Aplus: iMES + TOP GP",
+        "source_text": "Nguồn: DigiHua · case Aplus",
+        "cta": "",
+        "alt": "Digiwin: Chọn phạm vi triển khai: ERP cùng dữ liệu hiện trường. Tham khảo Aplus tại Trung Quốc: dự án tích hợp iMES + TOP GP kết nối quản trị và hiện trường. Toàn dự án đi vào vận hành trong 3 tháng.",
+        "artwork_labels": [
+          "BÁN DẪN · DỮ LIỆU & LỘ TRÌNH TRIỂN KHAI"
+        ]
+      },
+      "V1_V4_observation": "Subject and product correct: Chọn phạm vi triển khai: ERP cùng dữ liệu hiện trường. / Tham khảo Aplus tại Trung Quốc: dự án tích hợp iMES + TOP GP kết nối quản trị và hiện trường. Toàn dự án đi vào vận hành trong 3 tháng.; preparation or historical case mechanism only; no audit-outcome guarantee. Exact labels/source/CTA and native/alt reviewed.Scope is source-specific iMES+TOPGP project go-live within3months, not first-contact-to-audit. Reader preparation sequencing is editorial, not proven project phases.",
+      "V5_observation": "Exact Quý Doanh Nghiệp when directly addressed; other subjects case or descriptive enterprise. Empty CTA/source N/A intentionally.",
+      "verdict": "VN_VOICE_PASS"
+    }
+  ],
+  "captions": [
+    {
+      "ad_id": "VN-B-T-RMK",
+      "exact_text": "Quý Doanh Nghiệp đang chuẩn bị dữ liệu cho đánh giá của khách hàng trong chuỗi bán dẫn? Cùng chúng tôi đi từ phạm vi dữ liệu cần đối chiếu đến cơ chế ghi nhận trên hệ thống; tham khảo dự án iMES + TOP GP tại Aplus Semiconductor, Trung Quốc.",
+      "observation": "Speaker chúng tôi, reader Quý Doanh Nghiệp, VN preparation POV; named historical case before first case mechanism."
+    }
+  ],
+  "reader_address": {
+    "verdict": "PASS",
+    "scan": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/address-scan.json",
+      "sha256": "fd6abb0f3b252fcc50357aaa4ded1de2325d239a892c3410dc469e041509ac5a",
+      "revision": "week2-r2-metric-v1-address"
+    },
+    "dispositions": {
+      "VN-B-T-RMK/caption": "PASS: formal exact or case/descriptive text; empty field N/A",
+      "VN-B-T-RMK/VN-B-T-R2.headline": "PASS: formal exact or case/descriptive text; empty field N/A",
+      "VN-B-T-RMK/VN-B-T-R2.body": "PASS: formal exact or case/descriptive text; empty field N/A",
+      "VN-B-T-RMK/VN-B-T-R2.source_text": "PASS: formal exact or case/descriptive text; empty field N/A",
+      "VN-B-T-RMK/VN-B-T-R2.cta": "PASS: formal exact or case/descriptive text; empty field N/A",
+      "VN-B-T-RMK/VN-B-T-R2.native_headline": "PASS: formal exact or case/descriptive text; empty field N/A",
+      "VN-B-T-RMK/VN-B-T-R2.alt": "PASS: formal exact or case/descriptive text; empty field N/A",
+      "VN-B-T-RMK/VN-B-T-R2.artwork_labels[0]": "PASS: formal exact or case/descriptive text; empty field N/A"
+    }
+  },
+  "postgen": "POSTGEN_NOT_RUN",
+  "unresolved_findings": []
+}

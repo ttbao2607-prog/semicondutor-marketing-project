@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "revision": "week2-r2-metric-v1-release",
+  "authorizer": "/root recording Bao explicit backup-generation request",
+  "authority_ref": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/authority.md",
+    "sha256": "d736068ac82ee24f8dbff28e7b36ea0507c1626d209f5424bf1b9429b1e1c2a3",
+    "revision": "Bao-week2-offline-mandate"
+  },
+  "purpose": "OFFLINE_IMAGEGEN",
+  "contract": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/contract.json",
+    "sha256": "29768a8329d8109104344179cd703cbd36752214cb7563fcc87876ffd0aab011",
+    "revision": "week2-r2-metric-v1-contract"
+  },
+  "copy": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/public-copy.json",
+    "sha256": "cdf979140838a414e51d9e16e51b17c858ebb3f946cab239d92b79f75a733b45",
+    "revision": "week2-r2-metric-v1-copy"
+  },
+  "review": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/review.json",
+    "sha256": "01886491dc1350755d85826672f37d6c61ea2c7cac838b234d9720f5e055b4e9",
+    "revision": "week2-r2-metric-v1-review"
+  },
+  "groups": [
+    [
+      "VN-B-T-R2"
+    ]
+  ]
+}
