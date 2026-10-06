@@ -1,0 +1,175 @@
+{
+  "revision": "VN-caption-context-v1",
+  "stage": "POSTGEN_ARTIFACT",
+  "status": "READY_FOR_BAO_REVIEW / SELF_REVIEW",
+  "execution_status": "SUCCESS",
+  "reviewer": "root",
+  "independence": "SELF_REVIEW",
+  "pregen": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/caption-context-v1/pregen-review.json",
+    "sha256": "2c4204002380632682a2dceb4ccfd23e11eaadd11e7237bd355375225a6f26d6"
+  },
+  "copy": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/caption-context-v1/public-copy.json",
+    "sha256": "5e671613f0af45ee0713cd5cf2dddea771563b3561ca724589707963c01da253"
+  },
+  "demo": {
+    "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/index.html",
+    "sha256": "4c49ce90f3a56091e2e432cc53391ab7f328ba4d4f3ca0aa468402e573985533"
+  },
+  "observations": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/caption-context-v1/render-observations.json",
+    "sha256": "7d8476c367fd1ec21d71cb2a3f1d5c9aebb8f4ba1401bc4585cd80ce7ad368e6"
+  },
+  "screenshots": [
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/caption-context-v1/desktop-r1.png",
+      "sha256": "87437a57c24596ac379bded57b97570e81afacdc8b2d5124c7c63cca51747d23"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/caption-context-v1/desktop-r3.png",
+      "sha256": "59aba9110ef617707bfd210fd83fe6c137635e8407c8d3b8dbf9b061febe89e7"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/caption-context-v1/mobile-r1.png",
+      "sha256": "8692b0557f977541bcb2647c8c8ebc3ef2bece224c461eeebf6bc4badc9b725c"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/caption-context-v1/mobile-r3.png",
+      "sha256": "b83ddf2fb159997d71828932ac8c71707e3f0b9c9f0f07665d0b70cbe3f73ebd"
+    }
+  ],
+  "MSG-ANCHOR-01": "MESSAGE_ANCHOR_PASS",
+  "VN-VOICE-01": "VN_VOICE_PASS",
+  "AD-ED-01": "EDITORIAL_PASS_FOR_HUMAN_REVIEW",
+  "actual_caption": "Với kinh nghiệm tư vấn hơn 700 khách hàng IC trong ngành bán dẫn, chúng tôi đồng hành cùng Quý Doanh Nghiệp chuẩn bị năng lực quản trị để đáp ứng yêu cầu đánh giá của khách hàng. Tham khảo case Aplus Semiconductor tại Trung Quốc với iMES + TOP GP.",
+  "observed_positions": 10,
+  "actual_desktop_mobile": "1422/390 CSS pixels, caption visible on all5cards; R1/R3 actual screenshots visually inspected; no clipping/overflow, images loaded",
+  "V1-V5": "Digiwin/chúng tôi advertiser, Quý Doanh Nghiệp reader, readiness benefit followed by explicit reference Aplus China iMES+TOPGP; natural Vietnamese case bridge before card3. No Bạn or promised audit outcome. Count700 not geographically attributed.",
+  "whole_journey": "New caption supplies Aplus context before first case mechanism. All other surfaces reused unchanged from prior actual review; current demo hash bound here.",
+  "source_scope": "Aplus semiconductor China, DigiHua-published case iMES+TOPGP per case-source.json; no new source fact/claim",
+  "unchanged_native_hashes": [
+    {
+      "card_id": "VN-COLD",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/native/vn-cold-v4.png",
+        "sha256": "a326010dce53815bdf77e52ca38ad0fb1990bf02a312ab9fe8b076ab407406f5"
+      },
+      "po": "FROZEN_COLD_V4"
+    },
+    {
+      "card_id": "VN-R1",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/native/vn-r1-v3.png",
+        "sha256": "0f6b73d0e674607e38d50ff5faa71a6fd71849bbc026e06f5528bb300445253c"
+      },
+      "demo_asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/assets/vn-r1-v3.png",
+        "sha256": "0f6b73d0e674607e38d50ff5faa71a6fd71849bbc026e06f5528bb300445253c"
+      },
+      "po": "PENDING_BAO_REVIEW"
+    },
+    {
+      "card_id": "VN-R2",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/native/vn-r2-v4.png",
+        "sha256": "9c3be86090bf06b4d981b070b1711a0820e0be6524084e94028b39e1df6a5cb0"
+      },
+      "demo_asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/assets/vn-r2-v4.png",
+        "sha256": "9c3be86090bf06b4d981b070b1711a0820e0be6524084e94028b39e1df6a5cb0"
+      },
+      "po": "PENDING_BAO_REVIEW"
+    },
+    {
+      "card_id": "VN-R3",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/native/vn-r3-v3.png",
+        "sha256": "502de6f48d250f0808d6bae422bbb181f85339927848d73ba041e49843451504"
+      },
+      "demo_asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/assets/vn-r3-v3.png",
+        "sha256": "502de6f48d250f0808d6bae422bbb181f85339927848d73ba041e49843451504"
+      },
+      "po": "PENDING_BAO_REVIEW"
+    },
+    {
+      "card_id": "VN-R4",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/native/vn-r4-v3.png",
+        "sha256": "e7243ffacca144da840fe4375e978334c8bd7b3e5522324fd11fd383fa6d42c3"
+      },
+      "demo_asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/assets/vn-r4-v3.png",
+        "sha256": "e7243ffacca144da840fe4375e978334c8bd7b3e5522324fd11fd383fa6d42c3"
+      },
+      "po": "PENDING_BAO_REVIEW"
+    },
+    {
+      "card_id": "VN-R5",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/native/vn-r5-v3.png",
+        "sha256": "fcc1c6874317990a5045996aa7bd8f9ba27a22b63b3b489c4f7355dd87a3e004"
+      },
+      "demo_asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/assets/vn-r5-v3.png",
+        "sha256": "fcc1c6874317990a5045996aa7bd8f9ba27a22b63b3b489c4f7355dd87a3e004"
+      },
+      "po": "PENDING_BAO_REVIEW"
+    },
+    {
+      "card_id": "VN-E1",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/native/vn-e1-v3.png",
+        "sha256": "7948d59fd1e7c26b9788fc724d07334e6e6b09fbd8d9d4e87ffed335db46e206"
+      },
+      "demo_asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/assets/vn-e1-v3.png",
+        "sha256": "7948d59fd1e7c26b9788fc724d07334e6e6b09fbd8d9d4e87ffed335db46e206"
+      },
+      "po": "PENDING_BAO_REVIEW"
+    },
+    {
+      "card_id": "VN-E2",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/native/vn-e2-v4.png",
+        "sha256": "4195fee39d561d9c926d56ad75ab34753908b50f33afc4296b3f9824d5fc3ced"
+      },
+      "demo_asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/assets/vn-e2-v4.png",
+        "sha256": "4195fee39d561d9c926d56ad75ab34753908b50f33afc4296b3f9824d5fc3ced"
+      },
+      "po": "PENDING_BAO_REVIEW"
+    },
+    {
+      "card_id": "VN-E3",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/native/vn-e3-v4.png",
+        "sha256": "d46e2d4160005d520db66a512d6531840b27a66d081b7fd688461c0646997c9c"
+      },
+      "demo_asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/assets/vn-e3-v4.png",
+        "sha256": "d46e2d4160005d520db66a512d6531840b27a66d081b7fd688461c0646997c9c"
+      },
+      "po": "PENDING_BAO_REVIEW"
+    },
+    {
+      "card_id": "VN-E4",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/native/vn-e4-v3.png",
+        "sha256": "bbbca3b5ce3a686726bb891c15d332983274c666bbddf49de60309e4835f21af"
+      },
+      "demo_asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/assets/vn-e4-v3.png",
+        "sha256": "bbbca3b5ce3a686726bb891c15d332983274c666bbddf49de60309e4835f21af"
+      },
+      "po": "PENDING_BAO_REVIEW"
+    }
+  ],
+  "prior_review": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/postgen-review.json",
+    "sha256": "0e7189929b5b2593a81a9c2c31bd9d9fa3fd0175b7902ec3ee40d8389dbb5a67"
+  },
+  "po": "New9 still pending Bảo; user authorized caption adjustment, not whole-set acceptance",
+  "git": "working files local; no commit/push/merge"
+}

@@ -1,0 +1,360 @@
+{
+  "gate_id": "VN-VOICE-01",
+  "revision": "VN-journey-v3-voice-pregen",
+  "stage": "PREGEN_SCRIPT",
+  "date": "2026-10-06",
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "verdict": "VN_VOICE_PASS",
+  "policy": {
+    "path": "operations/VN_Locale_Reader_Voice_Gate.md",
+    "sha256": "8aae1081a34ef25f22743d31c100d131986a1b5b626cabdac09e5f60f1d7b0d9",
+    "revision": "1.1"
+  },
+  "freeze": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/VN_Cold_Nuance_Freeze_2026-10-06.json",
+    "sha256": "ed4b6c3323989ea1109cc7f1b77da88ece0a398ddfeabdafa1bb8c6e56cf85ec",
+    "revision": "Cold-v4-frozen"
+  },
+  "copy": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/public-copy.json",
+    "sha256": "7071b8ea5b5d27f4f40291a861c303767b6c139b361add102d5253a0d9c03f96",
+    "revision": "VN-journey-v3-IC700-Aplus-copy"
+  },
+  "spec": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/spec.json",
+    "sha256": "40aeb656c8264696b15cec38a28056a912053c33db8f6fa7c3ce54c3d98d992a",
+    "revision": "VN-journey-v3-spec"
+  },
+  "scope": {
+    "segment": "VN_DOMESTIC",
+    "locale": "vi-VN",
+    "persona": "domestic supplier owner / operations director",
+    "route": "Cold-v4 to IC700 preparation RMK to Aplus semiconductor evidence"
+  },
+  "reviewed_fields": {
+    "VN-RMK-READINESS": [
+      "caption",
+      "VN-R1.headline",
+      "VN-R1.body",
+      "VN-R1.source_text",
+      "VN-R1.cta",
+      "VN-R1.native_headline",
+      "VN-R1.alt",
+      "VN-R1.artwork_labels",
+      "VN-R2.headline",
+      "VN-R2.body",
+      "VN-R2.source_text",
+      "VN-R2.cta",
+      "VN-R2.native_headline",
+      "VN-R2.alt",
+      "VN-R2.artwork_labels",
+      "VN-R3.headline",
+      "VN-R3.body",
+      "VN-R3.source_text",
+      "VN-R3.cta",
+      "VN-R3.native_headline",
+      "VN-R3.alt",
+      "VN-R3.artwork_labels",
+      "VN-R4.headline",
+      "VN-R4.body",
+      "VN-R4.source_text",
+      "VN-R4.cta",
+      "VN-R4.native_headline",
+      "VN-R4.alt",
+      "VN-R4.artwork_labels",
+      "VN-R5.headline",
+      "VN-R5.body",
+      "VN-R5.source_text",
+      "VN-R5.cta",
+      "VN-R5.native_headline",
+      "VN-R5.alt",
+      "VN-R5.artwork_labels"
+    ],
+    "VN-EVIDENCE-APLUS": [
+      "caption",
+      "VN-E1.headline",
+      "VN-E1.body",
+      "VN-E1.source_text",
+      "VN-E1.cta",
+      "VN-E1.native_headline",
+      "VN-E1.alt",
+      "VN-E1.artwork_labels",
+      "VN-E2.headline",
+      "VN-E2.body",
+      "VN-E2.source_text",
+      "VN-E2.cta",
+      "VN-E2.native_headline",
+      "VN-E2.alt",
+      "VN-E2.artwork_labels",
+      "VN-E3.headline",
+      "VN-E3.body",
+      "VN-E3.source_text",
+      "VN-E3.cta",
+      "VN-E3.native_headline",
+      "VN-E3.alt",
+      "VN-E3.artwork_labels",
+      "VN-E4.headline",
+      "VN-E4.body",
+      "VN-E4.source_text",
+      "VN-E4.cta",
+      "VN-E4.native_headline",
+      "VN-E4.alt",
+      "VN-E4.artwork_labels"
+    ]
+  },
+  "units": [
+    {
+      "card_id": "VN-R1",
+      "exact_fields": {
+        "card_id": "VN-R1",
+        "headline": "700+\nkhách hàng IC",
+        "body": "Kinh nghiệm tư vấn trong ngành bán dẫn.\nChúng tôi đồng hành cùng doanh nghiệp Việt.",
+        "source_text": "Nguồn: Digiwin",
+        "cta": "",
+        "native_headline": "Kinh nghiệm tư vấn hơn 700 khách hàng IC",
+        "alt": "Digiwin: 700+ khách hàng IC Kinh nghiệm tư vấn trong ngành bán dẫn. Chúng tôi đồng hành cùng doanh nghiệp Việt.",
+        "artwork_labels": [
+          "BÁN DẪN · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ"
+        ]
+      },
+      "V1_V4_observation": "700+ qualified immediately as consulting experience/IC, no geography, no audit count; speaker chúng tôi, domestic-reader preparation; source publisher count.",
+      "V5_observation": "Exact direct-reader Quý Doanh Nghiệp in R5/E4; other units descriptive/case subjects, not personal address. Every field reviewed; empty fields N/A by design.",
+      "verdict": "VN_VOICE_PASS"
+    },
+    {
+      "card_id": "VN-R2",
+      "exact_fields": {
+        "card_id": "VN-R2",
+        "headline": "Khách hàng yêu cầu audit.\nHồ sơ đã sẵn sàng?",
+        "body": "Cùng chúng tôi chuẩn bị năng lực quản trị\nđể đáp ứng yêu cầu đánh giá của khách hàng.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Chuẩn bị hồ sơ cho đánh giá khách hàng",
+        "alt": "Digiwin: Khách hàng yêu cầu audit. Hồ sơ đã sẵn sàng? Cùng chúng tôi chuẩn bị năng lực quản trị để đáp ứng yêu cầu đánh giá của khách hàng.",
+        "artwork_labels": [
+          "BÁN DẪN · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ"
+        ]
+      },
+      "V1_V4_observation": "Customer audit trigger and complete readiness question; subject hồ sơ, advertiser invitation. No audit-success promise; management preparation relevance.",
+      "V5_observation": "Exact direct-reader Quý Doanh Nghiệp in R5/E4; other units descriptive/case subjects, not personal address. Every field reviewed; empty fields N/A by design.",
+      "verdict": "VN_VOICE_PASS"
+    },
+    {
+      "card_id": "VN-R3",
+      "exact_fields": {
+        "card_id": "VN-R3",
+        "headline": "Mỗi sản phẩm\ncần một lịch sử rõ ràng.",
+        "body": "Tại Aplus, iMES lưu lịch sử từng sản phẩm\nđể đội ngũ tra lại dữ liệu.",
+        "source_text": "Nguồn case: DigiHua",
+        "cta": "",
+        "native_headline": "Aplus: truy xuất lịch sử từng sản phẩm",
+        "alt": "Digiwin: Mỗi sản phẩm cần một lịch sử rõ ràng. Tại Aplus, iMES lưu lịch sử từng sản phẩm để đội ngũ tra lại dữ liệu.",
+        "artwork_labels": [
+          "BÁN DẪN · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ"
+        ]
+      },
+      "V1_V4_observation": "Aplus named as case example, iMES owns individual-product history; explains checkable record mechanism, no ERP-only claim.",
+      "V5_observation": "Exact direct-reader Quý Doanh Nghiệp in R5/E4; other units descriptive/case subjects, not personal address. Every field reviewed; empty fields N/A by design.",
+      "verdict": "VN_VOICE_PASS"
+    },
+    {
+      "card_id": "VN-R4",
+      "exact_fields": {
+        "card_id": "VN-R4",
+        "headline": "Thay đổi tham số.\nĐội ngũ kiểm soát thế nào?",
+        "body": "Tại Aplus, hệ thống quản lý tham số kỹ thuật\nvà hỗ trợ kiểm soát chất lượng bằng SPC.",
+        "source_text": "Nguồn case: DigiHua",
+        "cta": "",
+        "native_headline": "Aplus: kiểm soát tham số và chất lượng",
+        "alt": "Digiwin: Thay đổi tham số. Đội ngũ kiểm soát thế nào? Tại Aplus, hệ thống quản lý tham số kỹ thuật và hỗ trợ kiểm soát chất lượng bằng SPC.",
+        "artwork_labels": [
+          "BÁN DẪN · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ"
+        ]
+      },
+      "V1_V4_observation": "Aplus engineering parameters and SPC named; subject hệ thống, concrete change/quality process and source; not generic specialist slogan.",
+      "V5_observation": "Exact direct-reader Quý Doanh Nghiệp in R5/E4; other units descriptive/case subjects, not personal address. Every field reviewed; empty fields N/A by design.",
+      "verdict": "VN_VOICE_PASS"
+    },
+    {
+      "card_id": "VN-R5",
+      "exact_fields": {
+        "card_id": "VN-R5",
+        "headline": "Quý Doanh Nghiệp\ncần chuẩn bị từ đâu?",
+        "body": "Xem case Aplus Semiconductor tại Trung Quốc:\ntriển khai iMES + TOP GP trước audit khách hàng.",
+        "source_text": "Nguồn case: DigiHua",
+        "cta": "Xem case Aplus",
+        "native_headline": "Xem case Aplus Semiconductor",
+        "alt": "Digiwin: Quý Doanh Nghiệp cần chuẩn bị từ đâu? Xem case Aplus Semiconductor tại Trung Quốc: triển khai iMES + TOP GP trước audit khách hàng.",
+        "artwork_labels": [
+          "BÁN DẪN · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ"
+        ]
+      },
+      "V1_V4_observation": "Quý Doanh Nghiệp exact direct address; named China case iMES+TOP GP before audit, not passed audit; case reading next step.",
+      "V5_observation": "Exact direct-reader Quý Doanh Nghiệp in R5/E4; other units descriptive/case subjects, not personal address. Every field reviewed; empty fields N/A by design.",
+      "verdict": "VN_VOICE_PASS"
+    },
+    {
+      "card_id": "VN-E1",
+      "exact_fields": {
+        "card_id": "VN-E1",
+        "headline": "Chuẩn bị hệ thống\ntrước audit khách hàng.",
+        "body": "Aplus Semiconductor tại Trung Quốc\ntriển khai iMES + TOP GP.",
+        "source_text": "Nguồn case: DigiHua",
+        "cta": "",
+        "native_headline": "Aplus: iMES + TOP GP tại Trung Quốc",
+        "alt": "Digiwin: Chuẩn bị hệ thống trước audit khách hàng. Aplus Semiconductor tại Trung Quốc triển khai iMES + TOP GP.",
+        "artwork_labels": [
+          "CASE BÁN DẪN · TRUNG QUỐC"
+        ]
+      },
+      "V1_V4_observation": "Aplus China semiconductor identity and product named, audit preparation motive only. DigiHua source footer; no attributed customer quotation.",
+      "V5_observation": "Exact direct-reader Quý Doanh Nghiệp in R5/E4; other units descriptive/case subjects, not personal address. Every field reviewed; empty fields N/A by design.",
+      "verdict": "VN_VOICE_PASS"
+    },
+    {
+      "card_id": "VN-E2",
+      "exact_fields": {
+        "card_id": "VN-E2",
+        "headline": "Tra lại lịch sử\ntừng sản phẩm.",
+        "body": "Tại Aplus, báo công theo serial\nhỗ trợ truy xuất lịch sử từng sản phẩm.",
+        "source_text": "Nguồn case: DigiHua",
+        "cta": "",
+        "native_headline": "Aplus: lịch sử theo từng serial",
+        "alt": "Digiwin: Tra lại lịch sử từng sản phẩm. Tại Aplus, báo công theo serial hỗ trợ truy xuất lịch sử từng sản phẩm.",
+        "artwork_labels": [
+          "CASE BÁN DẪN · TRUNG QUỐC"
+        ]
+      },
+      "V1_V4_observation": "Serial-based reporting and per-product history attributed to Aplus; checkable preparation mechanism, not universal outcome.",
+      "V5_observation": "Exact direct-reader Quý Doanh Nghiệp in R5/E4; other units descriptive/case subjects, not personal address. Every field reviewed; empty fields N/A by design.",
+      "verdict": "VN_VOICE_PASS"
+    },
+    {
+      "card_id": "VN-E3",
+      "exact_fields": {
+        "card_id": "VN-E3",
+        "headline": "Dữ liệu kiểm tra\nđược phân tích bằng SPC.",
+        "body": "Tại Aplus, hệ thống ghi nhận dữ liệu\nvà cảnh báo chất lượng theo thời gian thực.",
+        "source_text": "Nguồn case: DigiHua",
+        "cta": "",
+        "native_headline": "Aplus: dữ liệu kiểm tra và cảnh báo",
+        "alt": "Digiwin: Dữ liệu kiểm tra được phân tích bằng SPC. Tại Aplus, hệ thống ghi nhận dữ liệu và cảnh báo chất lượng theo thời gian thực.",
+        "artwork_labels": [
+          "CASE BÁN DẪN · TRUNG QUỐC"
+        ]
+      },
+      "V1_V4_observation": "SPC statistics and real-time quality alert explicitly named and case-attributed; no measured defect/yield reduction or ERP claim.",
+      "V5_observation": "Exact direct-reader Quý Doanh Nghiệp in R5/E4; other units descriptive/case subjects, not personal address. Every field reviewed; empty fields N/A by design.",
+      "verdict": "VN_VOICE_PASS"
+    },
+    {
+      "card_id": "VN-E4",
+      "exact_fields": {
+        "card_id": "VN-E4",
+        "headline": "Quý Doanh Nghiệp\nđã chuẩn bị đến đâu?",
+        "body": "Cùng chúng tôi trao đổi nhu cầu quản trị,\ntừ quy trình và dữ liệu hiện có.",
+        "source_text": "",
+        "cta": "Trao đổi nhu cầu",
+        "native_headline": "Trao đổi nhu cầu chuẩn bị quản trị",
+        "alt": "Digiwin: Quý Doanh Nghiệp đã chuẩn bị đến đâu? Cùng chúng tôi trao đổi nhu cầu quản trị, từ quy trình và dữ liệu hiện có.",
+        "artwork_labels": [
+          "CASE BÁN DẪN · TRUNG QUỐC"
+        ]
+      },
+      "V1_V4_observation": "Quý Doanh Nghiệp invitation from chúng tôi to discuss existing records/process. No promised consulting package, free assessment or certification.",
+      "V5_observation": "Exact direct-reader Quý Doanh Nghiệp in R5/E4; other units descriptive/case subjects, not personal address. Every field reviewed; empty fields N/A by design.",
+      "verdict": "VN_VOICE_PASS"
+    }
+  ],
+  "captions": [
+    {
+      "ad_id": "VN-RMK-READINESS",
+      "exact_text": "Với kinh nghiệm tư vấn hơn 700 khách hàng IC trong ngành bán dẫn, chúng tôi đồng hành cùng Quý Doanh Nghiệp chuẩn bị năng lực quản trị để đáp ứng yêu cầu đánh giá của khách hàng.",
+      "observation": "Speaker chúng tôi and exact Quý Doanh Nghiệp; independent preparation context, publisher/case attributed, no outcome guarantee."
+    },
+    {
+      "ad_id": "VN-EVIDENCE-APLUS",
+      "exact_text": "Để chuẩn bị đáp ứng yêu cầu đánh giá của khách hàng, Quý Doanh Nghiệp cần những hồ sơ nào? Cùng chúng tôi xem case Aplus Semiconductor tại Trung Quốc, do DigiHua công bố, với giải pháp iMES + TOP GP.",
+      "observation": "Speaker chúng tôi and exact Quý Doanh Nghiệp; independent preparation context, publisher/case attributed, no outcome guarantee."
+    }
+  ],
+  "reader_address": {
+    "verdict": "PASS",
+    "scan": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/address-scan.json",
+      "sha256": "e001ffe55827760cd3e8c6ee18f4e0163bb24d5b3d47ee6919cdd7076164160e",
+      "revision": "V5-pregen-v3"
+    },
+    "dispositions": {
+      "VN-RMK-READINESS/caption": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R1.headline": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R1.body": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R1.source_text": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R1.cta": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R1.native_headline": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R1.alt": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R1.artwork_labels[0]": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R2.headline": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R2.body": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R2.source_text": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R2.cta": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R2.native_headline": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R2.alt": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R2.artwork_labels[0]": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R3.headline": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R3.body": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R3.source_text": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R3.cta": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R3.native_headline": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R3.alt": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R3.artwork_labels[0]": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R4.headline": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R4.body": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R4.source_text": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R4.cta": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R4.native_headline": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R4.alt": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R4.artwork_labels[0]": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R5.headline": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R5.body": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R5.source_text": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R5.cta": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R5.native_headline": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R5.alt": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-RMK-READINESS/VN-R5.artwork_labels[0]": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/caption": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E1.headline": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E1.body": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E1.source_text": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E1.cta": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E1.native_headline": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E1.alt": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E1.artwork_labels[0]": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E2.headline": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E2.body": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E2.source_text": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E2.cta": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E2.native_headline": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E2.alt": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E2.artwork_labels[0]": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E3.headline": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E3.body": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E3.source_text": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E3.cta": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E3.native_headline": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E3.alt": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E3.artwork_labels[0]": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E4.headline": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E4.body": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E4.source_text": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E4.cta": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E4.native_headline": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E4.alt": "PASS: exact formal address or descriptive/case wording; empty field N/A",
+      "VN-EVIDENCE-APLUS/VN-E4.artwork_labels[0]": "PASS: exact formal address or descriptive/case wording; empty field N/A"
+    }
+  },
+  "postgen": "POSTGEN_NOT_RUN",
+  "unresolved_findings": []
+}

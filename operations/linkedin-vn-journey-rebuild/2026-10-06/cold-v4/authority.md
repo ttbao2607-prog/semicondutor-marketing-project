@@ -1,0 +1,7 @@
+# Cold v4 correction mandate — 2026-10-06
+
+Bảo chọn bản đầu và yêu cầu “gent lại nhé”: Đồng hành cùng doanh nghiệp Việt chuẩn bị năng lực quản trị để bước vào chuỗi bán dẫn. Keep approved200+ selection hook and leading-supplier Taiwan semiconductor ERP positioning. One correction generation; no live/campaign/RMK mandate. Persona remains domestic supplier owner/operations director; activity fit not live audience certification.
+
+Contract goal: revised native image carries exact subject/speaker and invitation in natural Vietnamese, sector role readable at332px artwork width and industrial component-supplier scene instead of fab/wafer/chip trays. Inspect actual native/desktop/mobile. Preserve v3 and all failed receipts; success of generation not acceptance. Source/claim scope unchanged:200+ publisher selection count, not ERP-only deployments/VN count/admission guarantee. Supplier leadership inference already reviewed and chosen by Bảo; not product top1. Scene illustrates preparation, not a real customer site or integration capability.
+
+Use unchanged byte-pinned developing guard snapshot in this owned artifact folder, fresh semantic script review and frozen mechanics. No core/active guard modification, no freeze/integration. The previous testing18tests records exactly same guard SHA. Stop on mismatch/failed guard/output. Reviewer root SELF_REVIEW, not independent-agent or PO artwork acceptance.

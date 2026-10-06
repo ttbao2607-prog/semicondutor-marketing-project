@@ -1,0 +1,76 @@
+{
+  "gate_id": "VN-VOICE-01-V5",
+  "policy_revision": "1.1",
+  "stage": "POSTGEN_OBSERVED_TEXT",
+  "scan_status": "READER_ADDRESS_REVIEW_BLOCKED",
+  "semantic_verdict": "NOT_AUTOMATICALLY_ASSESSED",
+  "observed_artwork": "REVIEWER_MUST_VERIFY",
+  "reviewed_surfaces": [
+    "VN-RMK-READINESS/demo-caption",
+    "VN-R1/demo-alt",
+    "VN-R1/native-observed-headline",
+    "VN-R5/demo-alt",
+    "VN-R5/native-observed-headline",
+    "VN-EVIDENCE-PRESSWAY/demo-caption",
+    "VN-E4/demo-alt",
+    "VN-E4/native-observed-headline"
+  ],
+  "findings": [
+    {
+      "surface": "VN-RMK-READINESS/demo-caption",
+      "kind": "READER_ADDRESS_CANDIDATE_BAN",
+      "exact": "bạn",
+      "text": "Doanh nghiệp Việt cần chuẩn bị gì về quản trị để bước vào chuỗi bán dẫn? Chúng tôi cùng bạn bắt đầu từ quy trình và dữ liệu, rồi xem cách Workflow ERP được triển khai tại Pressway Precision ở Việt Nam.",
+      "disposition": "UNRESOLVED_REVIEW_REQUIRED"
+    },
+    {
+      "surface": "VN-R1/demo-alt",
+      "kind": "READER_ADDRESS_CANDIDATE_BAN",
+      "exact": "Bạn",
+      "text": "Digiwin: Khách hàng cần dữ liệu. Bạn đã sẵn sàng? Chúng tôi đồng hành cùng doanh nghiệp Việt chuẩn bị quy trình và dữ liệu với ERP.",
+      "disposition": "UNRESOLVED_REVIEW_REQUIRED"
+    },
+    {
+      "surface": "VN-R1/native-observed-headline",
+      "kind": "READER_ADDRESS_CANDIDATE_BAN",
+      "exact": "Bạn",
+      "text": "Khách hàng cần dữ liệu.\nBạn đã sẵn sàng?",
+      "disposition": "UNRESOLVED_REVIEW_REQUIRED"
+    },
+    {
+      "surface": "VN-R5/demo-alt",
+      "kind": "READER_ADDRESS_CANDIDATE_BAN",
+      "exact": "bạn",
+      "text": "Digiwin: Doanh nghiệp bạn cần chuẩn bị từ đâu? Xem cách chúng tôi cùng Pressway Precision triển khai Workflow ERP tại Việt Nam.",
+      "disposition": "UNRESOLVED_REVIEW_REQUIRED"
+    },
+    {
+      "surface": "VN-R5/native-observed-headline",
+      "kind": "READER_ADDRESS_CANDIDATE_BAN",
+      "exact": "bạn",
+      "text": "Doanh nghiệp bạn\ncần chuẩn bị từ đâu?",
+      "disposition": "UNRESOLVED_REVIEW_REQUIRED"
+    },
+    {
+      "surface": "VN-EVIDENCE-PRESSWAY/demo-caption",
+      "kind": "READER_ADDRESS_CANDIDATE_BAN",
+      "exact": "bạn",
+      "text": "Chuẩn bị năng lực quản trị từ quy trình và dữ liệu: xem cách chúng tôi cùng Pressway Precision triển khai Workflow ERP tại Hải Phòng. Doanh nghiệp bạn đang cần làm rõ điều gì trước khi bắt đầu?",
+      "disposition": "UNRESOLVED_REVIEW_REQUIRED"
+    },
+    {
+      "surface": "VN-E4/demo-alt",
+      "kind": "READER_ADDRESS_CANDIDATE_BAN",
+      "exact": "bạn",
+      "text": "Digiwin: Doanh nghiệp bạn đã sẵn sàng bắt đầu? Cùng chúng tôi trao đổi nhu cầu quản trị, từ quy trình và dữ liệu hiện có.",
+      "disposition": "UNRESOLVED_REVIEW_REQUIRED"
+    },
+    {
+      "surface": "VN-E4/native-observed-headline",
+      "kind": "READER_ADDRESS_CANDIDATE_BAN",
+      "exact": "bạn",
+      "text": "Doanh nghiệp bạn\nđã sẵn sàng bắt đầu?",
+      "disposition": "UNRESOLVED_REVIEW_REQUIRED"
+    }
+  ]
+}

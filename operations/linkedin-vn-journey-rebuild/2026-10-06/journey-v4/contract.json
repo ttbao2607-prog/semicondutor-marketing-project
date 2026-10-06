@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "revision": "VN-journey-v4-correction-contract",
+  "locale": "vi-VN",
+  "channel": "linkedin-carousel",
+  "copy": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/public-copy.json",
+    "sha256": "7071b8ea5b5d27f4f40291a861c303767b6c139b361add102d5253a0d9c03f96",
+    "revision": "VN-journey-v3-IC700-Aplus-copy"
+  },
+  "sources": [
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/authority.md",
+      "sha256": "04cb948bd2f0fbf7128cce4d2c9bd75e285c566d98a451ecd2c2af0ff98d08e0",
+      "revision": "Bao-regeneration-mandate"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/IC700_Claim_Scope.json",
+      "sha256": "fb105c717fd0f8b190039a6fd0ee5ea7ef235df9cf1b130fe77e7b53e5c1d1b5",
+      "revision": "PO-nuance-700"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/case-source.json",
+      "sha256": "c43e88dc9dc41a363dc5cb28e8e6f3c8d077966bbe6645c474da1bcb10926101",
+      "revision": "Aplus-bounded-source-20261006"
+    }
+  ],
+  "card_sources": {
+    "VN-R1": [
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/authority.md",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/IC700_Claim_Scope.json",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/case-source.json"
+    ],
+    "VN-R2": [
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/authority.md",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/IC700_Claim_Scope.json",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/case-source.json"
+    ],
+    "VN-R3": [
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/authority.md",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/IC700_Claim_Scope.json",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/case-source.json"
+    ],
+    "VN-R4": [
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/authority.md",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/IC700_Claim_Scope.json",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/case-source.json"
+    ],
+    "VN-R5": [
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/authority.md",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/IC700_Claim_Scope.json",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/case-source.json"
+    ],
+    "VN-E1": [
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/authority.md",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/IC700_Claim_Scope.json",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/case-source.json"
+    ],
+    "VN-E2": [
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/authority.md",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/IC700_Claim_Scope.json",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/case-source.json"
+    ],
+    "VN-E3": [
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/authority.md",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/IC700_Claim_Scope.json",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/case-source.json"
+    ],
+    "VN-E4": [
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/authority.md",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/IC700_Claim_Scope.json",
+      "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/case-source.json"
+    ]
+  },
+  "ad_order": [
+    "VN-RMK-READINESS",
+    "VN-EVIDENCE-APLUS"
+  ],
+  "card_order": {
+    "VN-RMK-READINESS": [
+      "VN-R1",
+      "VN-R2",
+      "VN-R3",
+      "VN-R4",
+      "VN-R5"
+    ],
+    "VN-EVIDENCE-APLUS": [
+      "VN-E1",
+      "VN-E2",
+      "VN-E3",
+      "VN-E4"
+    ]
+  },
+  "surfaces": {
+    "VN-RMK-READINESS": [
+      {
+        "surface_id": "feed",
+        "reading_order": [
+          "caption",
+          "VN-R1.headline",
+          "VN-R1.body",
+          "VN-R1.source_text",
+          "VN-R1.cta",
+          "VN-R1.native_headline",
+          "VN-R1.alt",
+          "VN-R1.artwork_labels",
+          "VN-R2.headline",
+          "VN-R2.body",
+          "VN-R2.source_text",
+          "VN-R2.cta",
+          "VN-R2.native_headline",
+          "VN-R2.alt",
+          "VN-R2.artwork_labels",
+          "VN-R3.headline",
+          "VN-R3.body",
+          "VN-R3.source_text",
+          "VN-R3.cta",
+          "VN-R3.native_headline",
+          "VN-R3.alt",
+          "VN-R3.artwork_labels",
+          "VN-R4.headline",
+          "VN-R4.body",
+          "VN-R4.source_text",
+          "VN-R4.cta",
+          "VN-R4.native_headline",
+          "VN-R4.alt",
+          "VN-R4.artwork_labels",
+          "VN-R5.headline",
+          "VN-R5.body",
+          "VN-R5.source_text",
+          "VN-R5.cta",
+          "VN-R5.native_headline",
+          "VN-R5.alt",
+          "VN-R5.artwork_labels"
+        ]
+      },
+      {
+        "surface_id": "raster",
+        "reading_order": [
+          "VN-R1.headline",
+          "VN-R1.body",
+          "VN-R1.source_text",
+          "VN-R1.cta",
+          "VN-R1.artwork_labels",
+          "VN-R2.headline",
+          "VN-R2.body",
+          "VN-R2.source_text",
+          "VN-R2.cta",
+          "VN-R2.artwork_labels",
+          "VN-R3.headline",
+          "VN-R3.body",
+          "VN-R3.source_text",
+          "VN-R3.cta",
+          "VN-R3.artwork_labels",
+          "VN-R4.headline",
+          "VN-R4.body",
+          "VN-R4.source_text",
+          "VN-R4.cta",
+          "VN-R4.artwork_labels",
+          "VN-R5.headline",
+          "VN-R5.body",
+          "VN-R5.source_text",
+          "VN-R5.cta",
+          "VN-R5.artwork_labels"
+        ]
+      }
+    ],
+    "VN-EVIDENCE-APLUS": [
+      {
+        "surface_id": "feed",
+        "reading_order": [
+          "caption",
+          "VN-E1.headline",
+          "VN-E1.body",
+          "VN-E1.source_text",
+          "VN-E1.cta",
+          "VN-E1.native_headline",
+          "VN-E1.alt",
+          "VN-E1.artwork_labels",
+          "VN-E2.headline",
+          "VN-E2.body",
+          "VN-E2.source_text",
+          "VN-E2.cta",
+          "VN-E2.native_headline",
+          "VN-E2.alt",
+          "VN-E2.artwork_labels",
+          "VN-E3.headline",
+          "VN-E3.body",
+          "VN-E3.source_text",
+          "VN-E3.cta",
+          "VN-E3.native_headline",
+          "VN-E3.alt",
+          "VN-E3.artwork_labels",
+          "VN-E4.headline",
+          "VN-E4.body",
+          "VN-E4.source_text",
+          "VN-E4.cta",
+          "VN-E4.native_headline",
+          "VN-E4.alt",
+          "VN-E4.artwork_labels"
+        ]
+      },
+      {
+        "surface_id": "raster",
+        "reading_order": [
+          "VN-E1.headline",
+          "VN-E1.body",
+          "VN-E1.source_text",
+          "VN-E1.cta",
+          "VN-E1.artwork_labels",
+          "VN-E2.headline",
+          "VN-E2.body",
+          "VN-E2.source_text",
+          "VN-E2.cta",
+          "VN-E2.artwork_labels",
+          "VN-E3.headline",
+          "VN-E3.body",
+          "VN-E3.source_text",
+          "VN-E3.cta",
+          "VN-E3.artwork_labels",
+          "VN-E4.headline",
+          "VN-E4.body",
+          "VN-E4.source_text",
+          "VN-E4.cta",
+          "VN-E4.artwork_labels"
+        ]
+      }
+    ]
+  },
+  "definitions": {
+    "OSAT": "dịch vụ đóng gói và kiểm thử bán dẫn thuê ngoài",
+    "Fabless": "thiết kế chip, không sở hữu nhà máy chế tạo",
+    "WIP": "bán thành phẩm"
+  },
+  "limits": {
+    "caption": 255,
+    "headline": 70,
+    "body": 180,
+    "source_text": 200,
+    "cta": 70,
+    "native_headline": 45,
+    "alt": 200,
+    "artwork_labels": 70
+  },
+  "groups": [
+    [
+      "VN-R1"
+    ],
+    [
+      "VN-R2"
+    ],
+    [
+      "VN-R3"
+    ],
+    [
+      "VN-R4"
+    ],
+    [
+      "VN-R5"
+    ],
+    [
+      "VN-E1"
+    ],
+    [
+      "VN-E2"
+    ],
+    [
+      "VN-E3"
+    ],
+    [
+      "VN-E4"
+    ]
+  ],
+  "reuse_fields": [
+    "headline",
+    "body",
+    "source_text",
+    "cta",
+    "native_headline",
+    "alt",
+    "artwork_labels"
+  ],
+  "references": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+      "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+      "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "role": "brand_asset",
+      "attributes": [
+        "brand_mark"
+      ]
+    }
+  ],
+  "style": {
+    "brand": "One supplied official Digiwin logo only; advertiser speaking directly; reviewed category not repeated brand name.",
+    "palette": [
+      "white",
+      "#0052FF",
+      "#0B132B",
+      "#00B4D8",
+      "charcoal"
+    ],
+    "lighting": "bright neutral daylight with soft grounded shadows",
+    "avoid": [
+      "neon",
+      "dark mode",
+      "human faces",
+      "customer marks or facility evidence",
+      "unreviewed capability or outcome claims",
+      "reference wording record values props or exact composition",
+      "printed caption native headline alt or internal notes",
+      "extra wording beyond approved artwork text and official brand mark",
+      "Numerical claims beyond exactly approved700 consulting-experience wording; audit success or certification guarantees"
+    ],
+    "campaign": {
+      "revision": "VN-journey-v4",
+      "instructions": "One square ad. Same bright white, pale blue, navy and tactile campaign family. Official logo once upper left. Approved category compact but legible; no page number. Main headline very large, bold, readable at332px; body minimum50px equivalent on1254 square. Headline/body/labels/source/CTA only exact approved wording; no additional diagram labels.700+ is very large on R1, qualified by exact consulting-experience body; no maps or geographical claim. Source footer visibly readable. No faces, customer logos, certifications, fake UI, unapproved numbers, false guarantee. Scenes editorial illustrations, not actual facilities. Film components only where case-relevant. Distinct scene per card. Direct address exact Quý Doanh Nghiệp. Do not print captions, alt or native headlines. CORRECTION: absolutely no prop labels, no additional header from references, no ERP wording unless exact approved text. Source footer legible. E3 use physical printed blank record tiles and flat amber exclamation marker beside rolled flexible film; no screen, plot, graph, wafer, optical camera, electronics dashboard or automated inspection equipment."
+    }
+  },
+  "output": {
+    "directory": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/native",
+    "extension": ".png",
+    "policy": "native_square_min",
+    "min_edge": 1080
+  }
+}

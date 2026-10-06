@@ -1,0 +1,104 @@
+{
+  "policy_revision": "1.1",
+  "status": "CHANGES_REQUIRED",
+  "why": "New Bao direct-reader address instruction; previous rule1.0 and core/snapshot guard did not reject Bạn. Historical receipts preserved.",
+  "flagged_copy_fields": [
+    {
+      "surface": "VN-RMK-READINESS/caption",
+      "kind": "READER_ADDRESS_CANDIDATE_BAN",
+      "exact": "bạn",
+      "text": "Doanh nghiệp Việt cần chuẩn bị gì về quản trị để bước vào chuỗi bán dẫn? Chúng tôi cùng bạn bắt đầu từ quy trình và dữ liệu, rồi xem cách Workflow ERP được triển khai tại Pressway Precision ở Việt Nam.",
+      "disposition": "UNRESOLVED_REVIEW_REQUIRED"
+    },
+    {
+      "surface": "VN-RMK-READINESS/VN-R1.headline",
+      "kind": "READER_ADDRESS_CANDIDATE_BAN",
+      "exact": "Bạn",
+      "text": "Khách hàng cần dữ liệu.\nBạn đã sẵn sàng?",
+      "disposition": "UNRESOLVED_REVIEW_REQUIRED"
+    },
+    {
+      "surface": "VN-RMK-READINESS/VN-R1.alt",
+      "kind": "READER_ADDRESS_CANDIDATE_BAN",
+      "exact": "Bạn",
+      "text": "Digiwin: Khách hàng cần dữ liệu. Bạn đã sẵn sàng? Chúng tôi đồng hành cùng doanh nghiệp Việt chuẩn bị quy trình và dữ liệu với ERP.",
+      "disposition": "UNRESOLVED_REVIEW_REQUIRED"
+    },
+    {
+      "surface": "VN-RMK-READINESS/VN-R5.headline",
+      "kind": "READER_ADDRESS_CANDIDATE_BAN",
+      "exact": "bạn",
+      "text": "Doanh nghiệp bạn\ncần chuẩn bị từ đâu?",
+      "disposition": "UNRESOLVED_REVIEW_REQUIRED"
+    },
+    {
+      "surface": "VN-RMK-READINESS/VN-R5.alt",
+      "kind": "READER_ADDRESS_CANDIDATE_BAN",
+      "exact": "bạn",
+      "text": "Digiwin: Doanh nghiệp bạn cần chuẩn bị từ đâu? Xem cách chúng tôi cùng Pressway Precision triển khai Workflow ERP tại Việt Nam.",
+      "disposition": "UNRESOLVED_REVIEW_REQUIRED"
+    },
+    {
+      "surface": "VN-EVIDENCE-PRESSWAY/caption",
+      "kind": "READER_ADDRESS_CANDIDATE_BAN",
+      "exact": "bạn",
+      "text": "Chuẩn bị năng lực quản trị từ quy trình và dữ liệu: xem cách chúng tôi cùng Pressway Precision triển khai Workflow ERP tại Hải Phòng. Doanh nghiệp bạn đang cần làm rõ điều gì trước khi bắt đầu?",
+      "disposition": "UNRESOLVED_REVIEW_REQUIRED"
+    },
+    {
+      "surface": "VN-EVIDENCE-PRESSWAY/VN-E4.headline",
+      "kind": "READER_ADDRESS_CANDIDATE_BAN",
+      "exact": "bạn",
+      "text": "Doanh nghiệp bạn\nđã sẵn sàng bắt đầu?",
+      "disposition": "UNRESOLVED_REVIEW_REQUIRED"
+    },
+    {
+      "surface": "VN-EVIDENCE-PRESSWAY/VN-E4.alt",
+      "kind": "READER_ADDRESS_CANDIDATE_BAN",
+      "exact": "bạn",
+      "text": "Digiwin: Doanh nghiệp bạn đã sẵn sàng bắt đầu? Cùng chúng tôi trao đổi nhu cầu quản trị, từ quy trình và dữ liệu hiện có.",
+      "disposition": "UNRESOLVED_REVIEW_REQUIRED"
+    }
+  ],
+  "affected_selected_images": [
+    "VN-R1 (v2)",
+    "VN-R5 (v1)",
+    "VN-E4 (v1)"
+  ],
+  "affected_captions": [
+    "VN-RMK-READINESS",
+    "VN-EVIDENCE-PRESSWAY"
+  ],
+  "affected_alt": [
+    "VN-R1",
+    "VN-R5",
+    "VN-E4"
+  ],
+  "candidate": "reader-address/public-copy-candidate.json",
+  "candidate_status": "ADDRESS_ONLY_CANDIDATE_SUPERSEDED_FOR_RERUN / FULL_MESSAGE_CASE_REWRITE_REQUIRED / NO_NEW_IMAGES",
+  "cold": "PO frozen v4 unaffected; descriptive doanh nghiệp Việt is not direct second-person Bạn.",
+  "next_actions": [
+    "Review candidate full wording/layout, current policy1.1/anchor bindings; fresh contract/review/release/spec and address scan before dispatch.",
+    "Regenerate3 affected images using exact Quý Doanh Nghiệp; inspect native/mobile actual observed text with V5.",
+    "Rebuild demo caption/alt and correct artwork, run all relevant checks, close current findings; new PO acceptance separate."
+  ],
+  "git": "Working-tree only; not commit/push/merge.",
+  "policy": {
+    "path": "operations/VN_Locale_Reader_Voice_Gate.md",
+    "sha256": "8aae1081a34ef25f22743d31c100d131986a1b5b626cabdac09e5f60f1d7b0d9"
+  },
+  "checker": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/reader-address/verify_vn_reader_address.py",
+    "sha256": "c2ecc52356b40cbfdafaa4e43619fe2bc5f4a25bf8374e572464a7de063e92c1"
+  },
+  "current_actual_observations": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/reader-address/current-observed-text.json",
+    "sha256": "c45f474196b2fa0d1c7ca6aeb5e3b4d9634cd9ac4f89025667b3232b3886f6ba"
+  },
+  "postgen_scan": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/reader-address/current-postgen-scan.json",
+    "sha256": "e8c7d12822153cff4ec6418b58b9d1e5219bfc92f53c474686c805ce3b44b329"
+  },
+  "direct_reader_disposition": "All 8 current flagged fields address the VN reader directly; confirmed violations, not quoted source or business relation.",
+  "subsequent_po_direction": "../Audit_Readiness_Reframe.md"
+}

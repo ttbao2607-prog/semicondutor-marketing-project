@@ -1,0 +1,502 @@
+{
+  "schema_version": 1,
+  "revision": "VN-IC700-Aplus-POSTGEN-2026-10-06",
+  "stage": "POSTGEN_ARTIFACT",
+  "status": "READY_FOR_BAO_REVIEW / SELF_REVIEW",
+  "writer": "root",
+  "reviewer": "root",
+  "independence": "SELF_REVIEW; no independent reviewer claimed",
+  "locale": "vi-VN",
+  "segment": "VN_DOMESTIC",
+  "gates": {
+    "MSG-ANCHOR-01": "MESSAGE_ANCHOR_PASS",
+    "VN-VOICE-01": "VN_VOICE_PASS",
+    "AD-ED-01": "POSTGEN_EDITORIAL_PASS_FOR_HUMAN_REVIEW"
+  },
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337"
+  },
+  "email": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3"
+  },
+  "policy": {
+    "path": "operations/VN_Locale_Reader_Voice_Gate.md",
+    "sha256": "bb0ad4f22cd6b071e9947fef8f015149174f70e57dd7f721f55f8a86a97a78fc"
+  },
+  "policy_at_dispatch": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/policy-1.1-at-dispatch.snapshot.md",
+    "sha256": "8aae1081a34ef25f22743d31c100d131986a1b5b626cabdac09e5f60f1d7b0d9"
+  },
+  "policy_doc_clarification": "Historical finding sentence clarified after generation; V1-V5 rules/revision1.1 unchanged. Original dispatch receipts/pins preserved. Future dispatch must bind current policy.",
+  "copy": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/public-copy.json",
+    "sha256": "7071b8ea5b5d27f4f40291a861c303767b6c139b361add102d5253a0d9c03f96"
+  },
+  "specs": [
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/spec.json",
+      "sha256": "40aeb656c8264696b15cec38a28056a912053c33db8f6fa7c3ce54c3d98d992a"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/spec.json",
+      "sha256": "3ec424c8bad9eabd5a79d8313709a89713205df39a04aaf9b09daa261b8d8fd5"
+    }
+  ],
+  "selected_artifacts": [
+    {
+      "card_id": "VN-COLD",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/native/vn-cold-v4.png",
+        "sha256": "a326010dce53815bdf77e52ca38ad0fb1990bf02a312ab9fe8b076ab407406f5"
+      },
+      "po": "FROZEN_COLD_V4"
+    },
+    {
+      "card_id": "VN-R1",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/native/vn-r1-v3.png",
+        "sha256": "0f6b73d0e674607e38d50ff5faa71a6fd71849bbc026e06f5528bb300445253c"
+      },
+      "demo_asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/assets/vn-r1-v3.png",
+        "sha256": "0f6b73d0e674607e38d50ff5faa71a6fd71849bbc026e06f5528bb300445253c"
+      },
+      "po": "PENDING_BAO_REVIEW"
+    },
+    {
+      "card_id": "VN-R2",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/native/vn-r2-v4.png",
+        "sha256": "9c3be86090bf06b4d981b070b1711a0820e0be6524084e94028b39e1df6a5cb0"
+      },
+      "demo_asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/assets/vn-r2-v4.png",
+        "sha256": "9c3be86090bf06b4d981b070b1711a0820e0be6524084e94028b39e1df6a5cb0"
+      },
+      "po": "PENDING_BAO_REVIEW"
+    },
+    {
+      "card_id": "VN-R3",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/native/vn-r3-v3.png",
+        "sha256": "502de6f48d250f0808d6bae422bbb181f85339927848d73ba041e49843451504"
+      },
+      "demo_asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/assets/vn-r3-v3.png",
+        "sha256": "502de6f48d250f0808d6bae422bbb181f85339927848d73ba041e49843451504"
+      },
+      "po": "PENDING_BAO_REVIEW"
+    },
+    {
+      "card_id": "VN-R4",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/native/vn-r4-v3.png",
+        "sha256": "e7243ffacca144da840fe4375e978334c8bd7b3e5522324fd11fd383fa6d42c3"
+      },
+      "demo_asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/assets/vn-r4-v3.png",
+        "sha256": "e7243ffacca144da840fe4375e978334c8bd7b3e5522324fd11fd383fa6d42c3"
+      },
+      "po": "PENDING_BAO_REVIEW"
+    },
+    {
+      "card_id": "VN-R5",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/native/vn-r5-v3.png",
+        "sha256": "fcc1c6874317990a5045996aa7bd8f9ba27a22b63b3b489c4f7355dd87a3e004"
+      },
+      "demo_asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/assets/vn-r5-v3.png",
+        "sha256": "fcc1c6874317990a5045996aa7bd8f9ba27a22b63b3b489c4f7355dd87a3e004"
+      },
+      "po": "PENDING_BAO_REVIEW"
+    },
+    {
+      "card_id": "VN-E1",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/native/vn-e1-v3.png",
+        "sha256": "7948d59fd1e7c26b9788fc724d07334e6e6b09fbd8d9d4e87ffed335db46e206"
+      },
+      "demo_asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/assets/vn-e1-v3.png",
+        "sha256": "7948d59fd1e7c26b9788fc724d07334e6e6b09fbd8d9d4e87ffed335db46e206"
+      },
+      "po": "PENDING_BAO_REVIEW"
+    },
+    {
+      "card_id": "VN-E2",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/native/vn-e2-v4.png",
+        "sha256": "4195fee39d561d9c926d56ad75ab34753908b50f33afc4296b3f9824d5fc3ced"
+      },
+      "demo_asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/assets/vn-e2-v4.png",
+        "sha256": "4195fee39d561d9c926d56ad75ab34753908b50f33afc4296b3f9824d5fc3ced"
+      },
+      "po": "PENDING_BAO_REVIEW"
+    },
+    {
+      "card_id": "VN-E3",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/native/vn-e3-v4.png",
+        "sha256": "d46e2d4160005d520db66a512d6531840b27a66d081b7fd688461c0646997c9c"
+      },
+      "demo_asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/assets/vn-e3-v4.png",
+        "sha256": "d46e2d4160005d520db66a512d6531840b27a66d081b7fd688461c0646997c9c"
+      },
+      "po": "PENDING_BAO_REVIEW"
+    },
+    {
+      "card_id": "VN-E4",
+      "native": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/native/vn-e4-v3.png",
+        "sha256": "bbbca3b5ce3a686726bb891c15d332983274c666bbddf49de60309e4835f21af"
+      },
+      "demo_asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/assets/vn-e4-v3.png",
+        "sha256": "bbbca3b5ce3a686726bb891c15d332983274c666bbddf49de60309e4835f21af"
+      },
+      "po": "PENDING_BAO_REVIEW"
+    }
+  ],
+  "demo": {
+    "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/index.html",
+    "sha256": "b3bd2aaa39439f4ed895ab02edc7c1551fc0b6982166dc8a445c159aff7f6b47"
+  },
+  "case_page": {
+    "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/case-aplus.html",
+    "sha256": "8fa57848eb0254e3785099cfb05a563992de830145d6c458c78bfe727661b9f5"
+  },
+  "render_observations": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render-observations.json",
+    "sha256": "e7ab613eb0dac1dbbdb556b8838f1ccfd2fb17239af245ec8e3ae304dcdf5445"
+  },
+  "screenshots": [
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/case-desktop.png",
+      "sha256": "2783d9d1951180d8c3c84fd3b9e8765561b088ac5db3ec8f9158224c27f0d7ba"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/case-mobile.png",
+      "sha256": "f92c790ba4cd33a946433695add78f178fe7986853a894258fef7adde2d1cd9e"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/desktop-0.png",
+      "sha256": "781cff937aa9503a879f6071aab76a2b95b174e41a8a1c3a76a484006899f12c"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/desktop-1.png",
+      "sha256": "33e5b493d0dc02c7d86c0b590ef64f500003995d996aa68c8b089d498c78cfc7"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/desktop-2.png",
+      "sha256": "c0a98c20599e9f5b18493de2d3134fadf7d384fb9d665a9e2334b328316435f5"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/desktop-3.png",
+      "sha256": "8fe9268a73a183c7685f1e4765c875b207caba444f5a4fa086c1b3e2fd6ff1b4"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/desktop-4.png",
+      "sha256": "71a49094e6d5a0f98b9acac53b42cf84fdd7882b4e3694e3b5bdc6560ee5ca1f"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/desktop-5.png",
+      "sha256": "3e9cf862be105ea22047b0ae83a05388aefb9bcbe1416a23ff7024c85e4f718e"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/desktop-6.png",
+      "sha256": "40ce3176e6fcdde009c3e8d5a7c5d1eb087aeba1cf268af4ceaf9f45f429029f"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/desktop-7.png",
+      "sha256": "611aafd60123702e18c70a8971f504e61b433ced60e327a1467bc13dd9f44284"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/desktop-8.png",
+      "sha256": "0be050c91710bbb38e8e7d1f65d0e993ee6a695a8441f7b99c478b7b3a9e9993"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/desktop-9.png",
+      "sha256": "eacdd622f47c15855eced49ea776b6bececd2bbb00a030e316751d0f6ef96377"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/mobile-0.png",
+      "sha256": "1225035aebf4df04206f0fa8180dc2180ca97250d1f15c95baba3acee07f81b0"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/mobile-1.png",
+      "sha256": "4a68322b24e3a0cf2c9e74ddec15760ce23b4a8fbd41de6f1b197fa4a52e714e"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/mobile-2.png",
+      "sha256": "b108f2a6b904200e7528d43edc2d2106d153066632a6fa7b0592fdd5fec96f33"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/mobile-3.png",
+      "sha256": "f36984408a155965f17d6f0e98f48dbf6f70dbdf984e30f911da61a66646bf53"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/mobile-4.png",
+      "sha256": "fa93fd325d0abd195fa4420befa5c862df1b274e20864b30bb923cfb3055f280"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/mobile-5.png",
+      "sha256": "5a484f3286a8c245f6d71f7c6e09cde39d4a240cd23d253ee47309ed0e2a5d9c"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/mobile-6.png",
+      "sha256": "80cb8084be5c121a08816841c4d7a330521fe8e36fe6cf6fdb5947a058adf4e0"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/mobile-7.png",
+      "sha256": "c71a0f07fc5ac2384ff89cd703b9c24b0720643a35b0393c0256404128fd30cd"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/mobile-8.png",
+      "sha256": "821d62966b0e2066249334d7aef6e914e6dc07cc56138bcf9c7d46933962e392"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/render/mobile-9.png",
+      "sha256": "2280796dd97ecbe068ae5f3bd26dfb959e933fa11a1675f423bf6eb83e283889"
+    }
+  ],
+  "units": [
+    {
+      "card_id": "VN-R1",
+      "actual_native_text": {
+        "headline": "700+\nkhách hàng IC",
+        "body": "Kinh nghiệm tư vấn trong ngành bán dẫn.\nChúng tôi đồng hành cùng doanh nghiệp Việt.",
+        "source_text": "Nguồn: Digiwin",
+        "cta": "",
+        "artwork_labels": [
+          "BÁN DẪN · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ"
+        ]
+      },
+      "observation": "Root viewed selected native and actual desktop/mobile screenshots. Exact visible wording matches transcription. Blank source/CTA intentionally absent; Digiwin official logo once.",
+      "V1": "PASS: advertiser speaking; Aplus mechanisms attributed to case",
+      "V2": "PASS: readiness or concrete mechanism; VN/company POV in caption",
+      "V3": "PASS: meaningful Vietnamese subject and trigger",
+      "V4": "PASS: readiness -> case -> invitation; no outcome guarantee",
+      "V5": "PASS: no Bạn; direct Quý Doanh Nghiệp; descriptive doanh nghiệp Việt allowed",
+      "editorial": "PASS for human review; readable headline/body; small secondary category/source retained limitation",
+      "anchor": "MESSAGE_ANCHOR_PASS: VN readiness; no qualification/order outcome"
+    },
+    {
+      "card_id": "VN-R2",
+      "actual_native_text": {
+        "headline": "Khách hàng yêu cầu audit.\nHồ sơ đã sẵn sàng?",
+        "body": "Cùng chúng tôi chuẩn bị năng lực quản trị\nđể đáp ứng yêu cầu đánh giá của khách hàng.",
+        "source_text": "",
+        "cta": "",
+        "artwork_labels": [
+          "BÁN DẪN · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ"
+        ]
+      },
+      "observation": "Root viewed selected native and actual desktop/mobile screenshots. Exact visible wording matches transcription. Blank source/CTA intentionally absent; Digiwin official logo once.",
+      "V1": "PASS: advertiser speaking; Aplus mechanisms attributed to case",
+      "V2": "PASS: readiness or concrete mechanism; VN/company POV in caption",
+      "V3": "PASS: meaningful Vietnamese subject and trigger",
+      "V4": "PASS: readiness -> case -> invitation; no outcome guarantee",
+      "V5": "PASS: no Bạn; direct Quý Doanh Nghiệp; descriptive doanh nghiệp Việt allowed",
+      "editorial": "PASS for human review; readable headline/body; small secondary category/source retained limitation",
+      "anchor": "MESSAGE_ANCHOR_PASS: VN readiness; no qualification/order outcome"
+    },
+    {
+      "card_id": "VN-R3",
+      "actual_native_text": {
+        "headline": "Mỗi sản phẩm\ncần một lịch sử rõ ràng.",
+        "body": "Tại Aplus, iMES lưu lịch sử từng sản phẩm\nđể đội ngũ tra lại dữ liệu.",
+        "source_text": "Nguồn case: DigiHua",
+        "cta": "",
+        "artwork_labels": [
+          "BÁN DẪN · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ"
+        ]
+      },
+      "observation": "Root viewed selected native and actual desktop/mobile screenshots. Exact visible wording matches transcription. Blank source/CTA intentionally absent; Digiwin official logo once.",
+      "V1": "PASS: advertiser speaking; Aplus mechanisms attributed to case",
+      "V2": "PASS: readiness or concrete mechanism; VN/company POV in caption",
+      "V3": "PASS: meaningful Vietnamese subject and trigger",
+      "V4": "PASS: readiness -> case -> invitation; no outcome guarantee",
+      "V5": "PASS: no Bạn; direct Quý Doanh Nghiệp; descriptive doanh nghiệp Việt allowed",
+      "editorial": "PASS for human review; readable headline/body; small secondary category/source retained limitation",
+      "anchor": "MESSAGE_ANCHOR_PASS: VN readiness; no qualification/order outcome"
+    },
+    {
+      "card_id": "VN-R4",
+      "actual_native_text": {
+        "headline": "Thay đổi tham số.\nĐội ngũ kiểm soát thế nào?",
+        "body": "Tại Aplus, hệ thống quản lý tham số kỹ thuật\nvà hỗ trợ kiểm soát chất lượng bằng SPC.",
+        "source_text": "Nguồn case: DigiHua",
+        "cta": "",
+        "artwork_labels": [
+          "BÁN DẪN · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ"
+        ]
+      },
+      "observation": "Root viewed selected native and actual desktop/mobile screenshots. Exact visible wording matches transcription. Blank source/CTA intentionally absent; Digiwin official logo once.",
+      "V1": "PASS: advertiser speaking; Aplus mechanisms attributed to case",
+      "V2": "PASS: readiness or concrete mechanism; VN/company POV in caption",
+      "V3": "PASS: meaningful Vietnamese subject and trigger",
+      "V4": "PASS: readiness -> case -> invitation; no outcome guarantee",
+      "V5": "PASS: no Bạn; direct Quý Doanh Nghiệp; descriptive doanh nghiệp Việt allowed",
+      "editorial": "PASS for human review; readable headline/body; small secondary category/source retained limitation",
+      "anchor": "MESSAGE_ANCHOR_PASS: VN readiness; no qualification/order outcome"
+    },
+    {
+      "card_id": "VN-R5",
+      "actual_native_text": {
+        "headline": "Quý Doanh Nghiệp\ncần chuẩn bị từ đâu?",
+        "body": "Xem case Aplus Semiconductor tại Trung Quốc:\ntriển khai iMES + TOP GP trước audit khách hàng.",
+        "source_text": "Nguồn case: DigiHua",
+        "cta": "Xem case Aplus",
+        "artwork_labels": [
+          "BÁN DẪN · CHUẨN BỊ NĂNG LỰC QUẢN TRỊ"
+        ]
+      },
+      "observation": "Root viewed selected native and actual desktop/mobile screenshots. Exact visible wording matches transcription. Blank source/CTA intentionally absent; Digiwin official logo once.",
+      "V1": "PASS: advertiser speaking; Aplus mechanisms attributed to case",
+      "V2": "PASS: readiness or concrete mechanism; VN/company POV in caption",
+      "V3": "PASS: meaningful Vietnamese subject and trigger",
+      "V4": "PASS: readiness -> case -> invitation; no outcome guarantee",
+      "V5": "PASS: no Bạn; direct Quý Doanh Nghiệp; descriptive doanh nghiệp Việt allowed",
+      "editorial": "PASS for human review; readable headline/body; small secondary category/source retained limitation",
+      "anchor": "MESSAGE_ANCHOR_PASS: VN readiness; no qualification/order outcome"
+    },
+    {
+      "card_id": "VN-E1",
+      "actual_native_text": {
+        "headline": "Chuẩn bị hệ thống\ntrước audit khách hàng.",
+        "body": "Aplus Semiconductor tại Trung Quốc\ntriển khai iMES + TOP GP.",
+        "source_text": "Nguồn case: DigiHua",
+        "cta": "",
+        "artwork_labels": [
+          "CASE BÁN DẪN · TRUNG QUỐC"
+        ]
+      },
+      "observation": "Root viewed selected native and actual desktop/mobile screenshots. Exact visible wording matches transcription. Blank source/CTA intentionally absent; Digiwin official logo once.",
+      "V1": "PASS: advertiser speaking; Aplus mechanisms attributed to case",
+      "V2": "PASS: readiness or concrete mechanism; VN/company POV in caption",
+      "V3": "PASS: meaningful Vietnamese subject and trigger",
+      "V4": "PASS: readiness -> case -> invitation; no outcome guarantee",
+      "V5": "PASS: no Bạn; direct Quý Doanh Nghiệp; descriptive doanh nghiệp Việt allowed",
+      "editorial": "PASS for human review; readable headline/body; small secondary category/source retained limitation",
+      "anchor": "MESSAGE_ANCHOR_PASS: VN readiness; no qualification/order outcome"
+    },
+    {
+      "card_id": "VN-E2",
+      "actual_native_text": {
+        "headline": "Tra lại lịch sử\ntừng sản phẩm.",
+        "body": "Tại Aplus, báo công theo serial\nhỗ trợ truy xuất lịch sử từng sản phẩm.",
+        "source_text": "Nguồn case: DigiHua",
+        "cta": "",
+        "artwork_labels": [
+          "CASE BÁN DẪN · TRUNG QUỐC"
+        ]
+      },
+      "observation": "Root viewed selected native and actual desktop/mobile screenshots. Exact visible wording matches transcription. Blank source/CTA intentionally absent; Digiwin official logo once.",
+      "V1": "PASS: advertiser speaking; Aplus mechanisms attributed to case",
+      "V2": "PASS: readiness or concrete mechanism; VN/company POV in caption",
+      "V3": "PASS: meaningful Vietnamese subject and trigger",
+      "V4": "PASS: readiness -> case -> invitation; no outcome guarantee",
+      "V5": "PASS: no Bạn; direct Quý Doanh Nghiệp; descriptive doanh nghiệp Việt allowed",
+      "editorial": "PASS for human review; readable headline/body; small secondary category/source retained limitation",
+      "anchor": "MESSAGE_ANCHOR_PASS: VN readiness; no qualification/order outcome"
+    },
+    {
+      "card_id": "VN-E3",
+      "actual_native_text": {
+        "headline": "Dữ liệu kiểm tra\nđược phân tích bằng SPC.",
+        "body": "Tại Aplus, hệ thống ghi nhận dữ liệu\nvà cảnh báo chất lượng theo thời gian thực.",
+        "source_text": "Nguồn case: DigiHua",
+        "cta": "",
+        "artwork_labels": [
+          "CASE BÁN DẪN · TRUNG QUỐC"
+        ]
+      },
+      "observation": "Root viewed selected native and actual desktop/mobile screenshots. Exact visible wording matches transcription. Blank source/CTA intentionally absent; Digiwin official logo once.",
+      "V1": "PASS: advertiser speaking; Aplus mechanisms attributed to case",
+      "V2": "PASS: readiness or concrete mechanism; VN/company POV in caption",
+      "V3": "PASS: meaningful Vietnamese subject and trigger",
+      "V4": "PASS: readiness -> case -> invitation; no outcome guarantee",
+      "V5": "PASS: no Bạn; direct Quý Doanh Nghiệp; descriptive doanh nghiệp Việt allowed",
+      "editorial": "PASS for human review; readable headline/body; small secondary category/source retained limitation",
+      "anchor": "MESSAGE_ANCHOR_PASS: VN readiness; no qualification/order outcome"
+    },
+    {
+      "card_id": "VN-E4",
+      "actual_native_text": {
+        "headline": "Quý Doanh Nghiệp\nđã chuẩn bị đến đâu?",
+        "body": "Cùng chúng tôi trao đổi nhu cầu quản trị,\ntừ quy trình và dữ liệu hiện có.",
+        "source_text": "",
+        "cta": "Trao đổi nhu cầu",
+        "artwork_labels": [
+          "CASE BÁN DẪN · TRUNG QUỐC"
+        ]
+      },
+      "observation": "Root viewed selected native and actual desktop/mobile screenshots. Exact visible wording matches transcription. Blank source/CTA intentionally absent; Digiwin official logo once.",
+      "V1": "PASS: advertiser speaking; Aplus mechanisms attributed to case",
+      "V2": "PASS: readiness or concrete mechanism; VN/company POV in caption",
+      "V3": "PASS: meaningful Vietnamese subject and trigger",
+      "V4": "PASS: readiness -> case -> invitation; no outcome guarantee",
+      "V5": "PASS: no Bạn; direct Quý Doanh Nghiệp; descriptive doanh nghiệp Việt allowed",
+      "editorial": "PASS for human review; readable headline/body; small secondary category/source retained limitation",
+      "anchor": "MESSAGE_ANCHOR_PASS: VN readiness; no qualification/order outcome"
+    }
+  ],
+  "whole_journey": {
+    "verdict": "PASS_FOR_HUMAN_REVIEW",
+    "transition": "Frozen Cold readiness -> consulting experience -> audit preparation question -> serial/parameter mechanisms -> Aplus semiconductor China iMES+TOPGP case -> discussion invitation. Captions establish VN/company POV; no audit-pass guarantee.",
+    "count_scope": "700 consulting IC customers only, no TW/CN qualifier. Cold200 selected companies is different source population; never combine.",
+    "product_scope": "DigiHua Aplus China iMES+TOPGP; not ERP-only, VN delivery or audit-pass outcome.",
+    "destination": "Offline Vietnamese case-reading page observed desktop1422/mobile390. Informational CTAs lead here; optional Chinese primary source and existing public VN contact invitation. No form/tracking/live publication.",
+    "address": "Quý Doanh Nghiệp for direct address; descriptive doanh nghiệp Việt allowed."
+  },
+  "render_summary": {
+    "journey_positions": 20,
+    "case_positions": 2,
+    "desktop_css_width": 1422,
+    "mobile_css_width": 390,
+    "images_loaded": true,
+    "horizontal_overflow": false,
+    "all_actual_screenshots_visually_reviewed": true
+  },
+  "finding_closure": [
+    {
+      "card": "VN-R2",
+      "rejected": "V3 extra YÊU CẦU ĐÁNH GIÁ prop label",
+      "selected": "V4; extra text absent"
+    },
+    {
+      "card": "VN-E2",
+      "rejected": "V3 ERP header broadening product scope",
+      "selected": "V4; correct case category only"
+    },
+    {
+      "card": "VN-E3",
+      "rejected": "V3 invented SPC interface / wafer measurement scene",
+      "selected": "V4; physical records/amber marker/film, no invented dashboard"
+    }
+  ],
+  "limitations": [
+    "Cold original mobile positioning limitation retained",
+    "Source footers/category secondary and small at feed size; exact source accessible in case reading",
+    "Visuals illustrations, not actual facility or proof of automated inspection",
+    "R4 decorative scale ticks on measurement prop are not marketing KPI or record values"
+  ],
+  "protected_hashes": {
+    "scripts/verify_imagegen_preflight.py": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+    "operations/linkedin-journey-demo/2026-10-06/inputs/verify_single_image_trial.py": "aa71327c78dd2db4cf436bd9454003960492657b627a3bf36901a467bb75b72c",
+    "operations/Vy_Email_Content_Anchor.md": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/native/vn-cold-v4.png": "a326010dce53815bdf77e52ca38ad0fb1990bf02a312ab9fe8b076ab407406f5"
+  },
+  "po_acceptance": {
+    "Cold": "FROZEN_V4_UNCHANGED",
+    "new9": "PENDING_BAO_REVIEW"
+  },
+  "publication": "OFFLINE_ONLY; no publish/enable/spend",
+  "git": "Checkpoint6345f7d local only; generated outputs/docs uncommitted; no push/merge."
+}

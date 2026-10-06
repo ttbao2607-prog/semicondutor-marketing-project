@@ -1,0 +1,64 @@
+{
+  "status": "PO_ACCEPTED_OFFLINE_V3 / LOCAL_MAIN_INTEGRATION",
+  "source_checkpoint": "1ebdd34",
+  "base_main": "e8ae1e4",
+  "integration_mode": "Selective VN-only integration branch; main merge preserves own parent and source branch remains for unrelated ancestry. No push.",
+  "PO": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/PO_Offline_V3_Acceptance_2026-10-06.json",
+    "sha256": "6f8ef0f49caa2663e7f86d4df269d6b5b0596b78823d7e925ea6132b4dc27b22"
+  },
+  "current_copy": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/caption-context-v1/public-copy.json",
+    "sha256": "5e671613f0af45ee0713cd5cf2dddea771563b3561ca724589707963c01da253"
+  },
+  "current_selected_manifest": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/caption-context-v1/selected-manifest.json",
+    "sha256": "fc52e52991a69f202deb1134faae5832dd7caa116789057926a07520c38cef28"
+  },
+  "caption_postgen": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/caption-context-v1/postgen-review.json",
+    "sha256": "59869497113327af760043ba71937e6f294e3fcb4a0f6b721df4b7432379d6a7"
+  },
+  "demo": {
+    "path": "deliverables/linkedin-vn-journey/2026-10-06-v3/index.html",
+    "sha256": "4c49ce90f3a56091e2e432cc53391ab7f328ba4d4f3ca0aa468402e573985533"
+  },
+  "anchor_binding": [
+    {
+      "current_main": {
+        "path": "operations/Vy_Email_Content_Anchor.md",
+        "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+      },
+      "generation_snapshot": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/source-at-generation/Vy_Email_Content_Anchor.md",
+        "sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337"
+      },
+      "semantic_content_identical": true,
+      "byte_difference": "Only line endings; preserve main exact canonical bytes and historical generation snapshots, no retroactive re-pin."
+    },
+    {
+      "current_main": {
+        "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+        "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+      },
+      "generation_snapshot": {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/source-at-generation/Vy_Email_User_Provided_2026-10-06.md",
+        "sha256": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3"
+      },
+      "semantic_content_identical": true,
+      "byte_difference": "Only line endings; preserve main exact canonical bytes and historical generation snapshots, no retroactive re-pin."
+    }
+  ],
+  "MSG-ANCHOR-01": "MESSAGE_ANCHOR_PASS: current main A1-A7 same text as reviewed generation snapshots; selected finished images/caption/whole journey unchanged",
+  "VN-VOICE-01": "VN_VOICE_PASS retained observed exact selected native/caption; policy1.1 current hash identical",
+  "verification": {
+    "source_tracked_files_copied": 279,
+    "10_selected_native_demo_hashes": true,
+    "demo_caption247_and_case_page_unchanged": true,
+    "frozen_core_unchanged": true,
+    "main_EN_Chinese_adapter_bytes_unchanged": true,
+    "main_existing_docs_retained": true,
+    "scope": "Offline internal PO acceptance only; no account/publish/enable/spend; new9 not an EN/Chinese or harness freeze"
+  },
+  "docs_impact": "Current/readme/build/readiness/execution/map synchronized; VN gate templates/editorial/runbook relevant additions imported. Existing main history retained."
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "revision": "VN-journey-v2-correction-release",
+  "authorizer": "/root recording Bao explicit image/demo mandate",
+  "authority_ref": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/authority.md",
+    "sha256": "8a7975d8cac5d9402533b2df96e695f9151f66a2c67552189f6702b6adc5aac7",
+    "revision": "VN-journey-v1-authority"
+  },
+  "purpose": "OFFLINE_IMAGEGEN",
+  "contract": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v2/contract.json",
+    "sha256": "026e5055a66d870f275b365d805f17d69e1f78d15afdf09a2d4d3c473bce3a28",
+    "revision": "VN-journey-v2-correction-contract"
+  },
+  "copy": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v2/public-copy.json",
+    "sha256": "9c029dc3f4421a4797c57a4fd09cfd018cca708ba42d4ddd91871429339ddf95",
+    "revision": "VN-journey-v2-unchanged-copy"
+  },
+  "review": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v2/review.json",
+    "sha256": "487be5787841052611f8d2c67ab48328219c6d7c9e169c9d16528d6293085c73",
+    "revision": "VN-journey-v2-correction-review"
+  },
+  "groups": [
+    [
+      "VN-R1"
+    ],
+    [
+      "VN-E2"
+    ],
+    [
+      "VN-E3"
+    ]
+  ]
+}

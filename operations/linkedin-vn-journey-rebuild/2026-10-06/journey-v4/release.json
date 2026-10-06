@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "revision": "VN-v4-targeted-release",
+  "authorizer": "/root recording explicit Bao offline generation mandate",
+  "authority_ref": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/authority.md",
+    "sha256": "04cb948bd2f0fbf7128cce4d2c9bd75e285c566d98a451ecd2c2af0ff98d08e0",
+    "revision": "Bao-regeneration-mandate"
+  },
+  "purpose": "OFFLINE_IMAGEGEN",
+  "contract": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/contract.json",
+    "sha256": "8604ef30e3e102bc6e3b4b431e0572af596bb0b4609d5da5b72fcef95c69db51",
+    "revision": "VN-journey-v4-correction-contract"
+  },
+  "copy": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v3/public-copy.json",
+    "sha256": "7071b8ea5b5d27f4f40291a861c303767b6c139b361add102d5253a0d9c03f96",
+    "revision": "VN-journey-v3-IC700-Aplus-copy"
+  },
+  "review": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v4/review.json",
+    "sha256": "c6aff1fe3e7aaf9369573051ac309cc5d9e83e374efc6607eb6190d58af5c7c7",
+    "revision": "VN-v4-mechanical-review"
+  },
+  "groups": [
+    [
+      "VN-R2"
+    ],
+    [
+      "VN-E2"
+    ],
+    [
+      "VN-E3"
+    ]
+  ]
+}

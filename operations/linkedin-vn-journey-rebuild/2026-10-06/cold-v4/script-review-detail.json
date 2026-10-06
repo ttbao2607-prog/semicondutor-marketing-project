@@ -1,0 +1,49 @@
+{
+  "gate_id": "AD-ED-01",
+  "stage": "PREGEN_SCRIPT",
+  "revision": "VN-cold-v4-semantic-review",
+  "copy_sha256": "a12770d5750e7595e4ee3ebc42d7cfa3c91a298bd1575a6c600f7a7e671114a5",
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "reviewed_ads": [
+    "VN-COLD-AUTHORITY-04"
+  ],
+  "reviewed_fields": {
+    "VN-COLD-AUTHORITY-04": [
+      "caption",
+      "VN-COLD-AUTHORITY-04-IMAGE.headline",
+      "VN-COLD-AUTHORITY-04-IMAGE.body",
+      "VN-COLD-AUTHORITY-04-IMAGE.source_text",
+      "VN-COLD-AUTHORITY-04-IMAGE.cta",
+      "VN-COLD-AUTHORITY-04-IMAGE.native_headline",
+      "VN-COLD-AUTHORITY-04-IMAGE.alt",
+      "VN-COLD-AUTHORITY-04-IMAGE.artwork_labels"
+    ]
+  },
+  "BRAND_ROLE": {
+    "verdict": "PASS",
+    "observation": "One logo; subject of selection hook chúng tôi and invitation Đồng hành is advertiser. Role names offer, leading supplier and origin; no repeated brand word."
+  },
+  "ADVERTISER_VOICE": {
+    "verdict": "PASS",
+    "observation": "Đồng hành cùng doanh nghiệp Việt ... expresses Digiwin offer to domestic reader, not an English-style topic fragment; caption introduces Digiwin then chúng tôi; no third-party voice."
+  },
+  "field_observations": {
+    "card_id": "VN-COLD-AUTHORITY-04-IMAGE",
+    "headline": "200+\ndoanh nghiệp bán dẫn\nđã lựa chọn chúng tôi",
+    "body": "Đồng hành cùng doanh nghiệp Việt\nchuẩn bị năng lực quản trị\nđể bước vào chuỗi bán dẫn.",
+    "source_text": "",
+    "cta": "",
+    "native_headline": "Đồng hành cùng doanh nghiệp Việt vào chuỗi",
+    "alt": "Digiwin với hook 200+ doanh nghiệp bán dẫn đã lựa chọn chúng tôi; đồng hành cùng doanh nghiệp Việt chuẩn bị quản trị. Minh họa linh kiện kim loại và hồ sơ quy trình.",
+    "artwork_labels": [
+      "ERP cho ngành bán dẫn\ntừ nhà cung cấp hàng đầu\nĐài Loan"
+    ]
+  },
+  "caption_observation": "200+ doanh nghiệp bán dẫn đã lựa chọn Digiwin. Khởi nguồn từ Đài Loan, chúng tôi đồng hành cùng doanh nghiệp Việt chuẩn bị năng lực quản trị để bước vào chuỗi bán dẫn, bắt đầu từ quy trình và dữ liệu với ERP cho sản xuất.",
+  "storyboard_observation": "Lower-quarter tactile editorial tabletop with two modest unbranded precision-machined metal brackets and one stamped-metal housing; these are industrial supplier parts, not ICs. Beside them three large blank pale-blue physical process folders meet at an open review gap. No factory building, no semiconductor fab/cleanroom, no wafer discs/stacks, no chip packages/trays, no screens, no people, no icons or labels on records. Calm white/blue materials, subtle shadows, one small orange accent at unfinished review gap. The invitation text and large200+ are the hero; do not let scene dominate. Illustrative preparation, not a customer site, certification or automatic connector.",
+  "unresolved_findings": [],
+  "postgen": "POSTGEN_NOT_RUN"
+}

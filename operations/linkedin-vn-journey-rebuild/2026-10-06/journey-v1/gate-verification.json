@@ -1,0 +1,12 @@
+{
+  "scope": "VN journey scoped dispatch receipt binding only; not semantic evaluator",
+  "cases": {
+    "fail_voice": "BLOCKED_EXPECTED",
+    "missing_card": "BLOCKED_EXPECTED",
+    "changed_copy_pin": "BLOCKED_EXPECTED",
+    "changed_locale": "BLOCKED_EXPECTED"
+  },
+  "frozen_core_sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+  "cold_copy_sha256": "a12770d5750e7595e4ee3ebc42d7cfa3c91a298bd1575a6c600f7a7e671114a5",
+  "cold_native_sha256": "a326010dce53815bdf77e52ca38ad0fb1990bf02a312ab9fe8b076ab407406f5"
+}

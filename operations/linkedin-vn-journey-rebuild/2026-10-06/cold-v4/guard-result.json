@@ -1,0 +1,55 @@
+{
+  "layer": "PREGEN_ANCHOR_SCRIPT_CHECK",
+  "status": "PREGEN_INPUTS_VERIFIED",
+  "call_id": "VN_COLD_REGEN_V4",
+  "scope": {
+    "segment": "VN_DOMESTIC",
+    "locale": "vi-VN",
+    "persona": "Chủ doanh nghiệp / giám đốc vận hành nhà cung ứng công nghiệp nội địa",
+    "route": "VN-supplier-readiness-Cold"
+  },
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "revision": "1.0"
+  },
+  "message_review_sha256": "9b76fc4154722e40c62b8c0cee3a32b2ac77792068b216e9db3bbd1f6c9693ca",
+  "script_review": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/script-review-detail.json",
+    "sha256": "f1d1edb3a4182239afb91fd5a26ef775f3094c32ba3fbc7faaa104ef7508b2fc",
+    "revision": "VN-cold-v4-semantic-review"
+  },
+  "input_hashes": {
+    "operations/linkedin-cold-authority/2026-10-05/v4/source.json": "e14309cac0d6f4b305df6ea45769ff199df2deee3c08f98beffba8e4236c8768",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v2/LEADERSHIP_CHECK.md": "dafb94fc1b3ab63a6fdf8ab28bce256851341bc121550d3f09ec23d156c8d4a0",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/authority.md": "e062cebea185668b33a0b15a004a723ced7f29230662605fafffdb810fa2b8d3",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/contract.json": "a6e749e229a0df9dfd507fed7e4ae4680cb57e7152d3f3f2c6244dc958c2f3c0",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/public-copy.json": "a12770d5750e7595e4ee3ebc42d7cfa3c91a298bd1575a6c600f7a7e671114a5",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/release.json": "501eac9b4bafa501d978ff9d802ea97c0c384d1f6f4c2ebce1d26fd37c912d36",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/review.json": "44a82133ebcf7fb60601d744c3614575c9e3454edd906af24464b8094edf1fa2",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/spec.json": "d3b03038f157dfdc63b6fcf92a6420f55ebf85c95944b19fd5383a217121d7da",
+    "scripts/verify_imagegen_preflight.py": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/message-review.json": "9b76fc4154722e40c62b8c0cee3a32b2ac77792068b216e9db3bbd1f6c9693ca",
+    "operations/linkedin-journey-demo/2026-10-06/inputs/verify_single_image_trial.py": "aa71327c78dd2db4cf436bd9454003960492657b627a3bf36901a467bb75b72c",
+    "operations/Vy_Email_Content_Anchor.md": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/script-review-detail.json": "f1d1edb3a4182239afb91fd5a26ef775f3094c32ba3fbc7faaa104ef7508b2fc"
+  },
+  "mechanical_verdict": "PASS",
+  "message_review_binding": "PASS",
+  "semantic_verdict": "REVIEWER_ATTESTED_NOT_AUTOMATICALLY_ASSESSED",
+  "purpose": "OFFLINE_IMAGEGEN",
+  "authority": "NO_ADDITIONAL_GENERATION_AUTHORITY",
+  "tool_args": {
+    "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\",\"unreviewed metrics or result guarantees; reviewed200+ selection count is allowed\"],\"brand\":\"Official Digiwin mark once. Role line identifies semiconductor ERP and leading supplier Taiwan origin; no extra brand label.\",\"campaign\":{\"instructions\":\"One square Cold advertisement. Exactly one supplied official Digiwin logo. Header contains the reviewed THREE-LINE semiconductor ERP/leading supplier Taiwan role line; make it prominently readable at332px feed artwork width (roughly55-65px equivalent on1254 square), not tiny logo-side fine print.200+ is dominant hero but leave space for the denominator and the new advertiser invitation body in THREE readable lines. All reviewed text mandatory, exact Vietnamese diacritics. No extra category, labels, captions, footnotes, card numbers, screens, customer logos or certification seals. Frozen bright white/pale blue/navy tactile brand grammar only, NOT reference props/layout. The scene occupies only the lower quarter and must show a domestic precision-component supplier preparation context, never a fab/OSAT building. HARD EXCLUDE wafer stacks/discs, trays of packaged chips, cleanroom buildings and silicon factory skyline. Blank physical records and small non-electronic industrial precision metal parts only. No printed text/numbers/icons on records, no graphs/gears/chip pictograms, no glowing automatic integration. Headline selection count is the only numeric claim.\",\"revision\":\"VN-cold-v4\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"ERP cho ngành bán dẫn\\ntừ nhà cung cấp hàng đầu\\nĐài Loan\"],\"card_id\":\"VN-COLD-AUTHORITY-04-IMAGE\",\"concept_id\":\"VN-supplier-invitation-v4\",\"description\":\"Lower-quarter tactile editorial tabletop with two modest unbranded precision-machined metal brackets and one stamped-metal housing; these are industrial supplier parts, not ICs. Beside them three large blank pale-blue physical process folders meet at an open review gap. No factory building, no semiconductor fab/cleanroom, no wafer discs/stacks, no chip packages/trays, no screens, no people, no icons or labels on records. Calm white/blue materials, subtle shadows, one small orange accent at unfinished review gap. The invitation text and large200+ are the hero; do not let scene dominate. Illustrative preparation, not a customer site, certification or automatic connector.\",\"props\":[\"precision-machined metal brackets\",\"stamped-metal housing\",\"three blank process folders\",\"open review gap\"],\"reader_question\":\"Ai đồng hành cùng doanh nghiệp Việt chuẩn bị năng lực quản trị để bước vào chuỗi bán dẫn?\"}]\nAPPROVED ARTWORK TEXT\n{\"VN-COLD-AUTHORITY-04-IMAGE\":{\"artwork_labels\":[\"ERP cho ngành bán dẫn\\ntừ nhà cung cấp hàng đầu\\nĐài Loan\"],\"body\":\"Đồng hành cùng doanh nghiệp Việt\\nchuẩn bị năng lực quản trị\\nđể bước vào chuỗi bán dẫn.\",\"cta\":\"\",\"headline\":\"200+\\ndoanh nghiệp bán dẫn\\nđã lựa chọn chúng tôi\",\"source_text\":\"\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+    "referenced_image_paths": [
+      "D:\\LinkedIn_VN_Journey_Rebuild_2026-10-06\\operations\\linkedin-imagegen-dogfood\\hybrid-full-2026-10-03\\common\\references\\r2-1.png",
+      "D:\\LinkedIn_VN_Journey_Rebuild_2026-10-06\\operations\\linkedin-imagegen-dogfood\\hybrid-full-2026-10-03\\common\\references\\r2-2.png",
+      "D:\\LinkedIn_VN_Journey_Rebuild_2026-10-06\\operations\\linkedin-imagegen-dogfood\\hybrid-full-2026-10-03\\common\\references\\digiwin-logo.webp"
+    ],
+    "transparent_background": false
+  }
+}

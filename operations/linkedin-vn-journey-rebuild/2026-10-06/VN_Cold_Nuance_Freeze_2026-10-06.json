@@ -1,0 +1,23 @@
+{
+  "record_id": "VN-COLD-NUANCE-FREEZE-20261006",
+  "revision": "1.0",
+  "status": "PO_FROZEN_COLD_V4_NUANCE",
+  "authority_quote": "COLD traffic freeze naunce như trên nhé, thêm vào cơ chế tiền/hậu kiểm cho riêng VIệt Nam để gent các ảnh sau tuân thủ theo.",
+  "accepted_checkpoint": "b36bec5",
+  "segment": "VN_DOMESTIC",
+  "locale": "vi-VN",
+  "exact_body": "Đồng hành cùng doanh nghiệp Việt chuẩn bị năng lực quản trị để bước vào chuỗi bán dẫn.",
+  "copy": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/public-copy.json",
+    "sha256": "a12770d5750e7595e4ee3ebc42d7cfa3c91a298bd1575a6c600f7a7e671114a5"
+  },
+  "native": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/native/vn-cold-v4.png",
+    "sha256": "a326010dce53815bdf77e52ca38ad0fb1990bf02a312ab9fe8b076ab407406f5"
+  },
+  "acceptance_path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/PO_Acceptance_2026-10-06.json",
+  "scope": "Exact accepted Cold v4; voice principle applies to subsequent VN ads. New RMK/evidence assets not preaccepted.",
+  "retained_limitation": "Small positioning header at mobile feed width; observed in original postgen and retained by PO acceptance.",
+  "new_gate": "VN-VOICE-01",
+  "historical_pregen": "Not retroactively certified under new gate; previous receipts immutable."
+}

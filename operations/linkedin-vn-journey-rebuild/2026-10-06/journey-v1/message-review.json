@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "revision": "VN-journey-v1-MSG-ANCHOR-01",
+  "gate_id": "MSG-ANCHOR-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "revision": "1.0"
+  },
+  "source": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3",
+    "revision": "VY-MAIL-USER-20261006"
+  },
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/contract.json",
+      "sha256": "50f5350dcae207008ab39a6fd0262e58e27d5994ffea2f7d3650958a900212a3",
+      "revision": "VN-journey-v1-contract"
+    },
+    "copy": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/public-copy.json",
+      "sha256": "ee6243009487ae7cc7c716f31f4abd3ffa7a83493ab6778186b20ec4638e34fb",
+      "revision": "VN-journey-v1-copy"
+    },
+    "spec": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/spec.json",
+      "sha256": "e52de33751072aacf56411e25e7aa3f7f058399c5cd45ac18b81e84443bcb397",
+      "revision": "VN-journey-v1-spec"
+    },
+    "script_review": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/script-review-detail.json",
+      "sha256": "6ba9a5f2a19ef1fa91c4e70a695a2f05f0393f8d0db18dc0e4fdd6a36a2a4e8d",
+      "revision": "VN-journey-v1-semantic-review"
+    }
+  },
+  "scope": {
+    "segment": "VN_DOMESTIC",
+    "locale": "vi-VN",
+    "persona": "Chủ doanh nghiệp / giám đốc vận hành nhà cung ứng công nghiệp nội địa",
+    "route": "VN-supplier-readiness-full-journey"
+  },
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "coverage": {
+    "ads": [
+      "VN-RMK-READINESS",
+      "VN-EVIDENCE-PRESSWAY"
+    ],
+    "cards": [
+      "VN-R1",
+      "VN-R2",
+      "VN-R3",
+      "VN-R4",
+      "VN-R5",
+      "VN-E1",
+      "VN-E2",
+      "VN-E3",
+      "VN-E4"
+    ],
+    "fields": {
+      "VN-RMK-READINESS": [
+        "caption",
+        "VN-R1.headline",
+        "VN-R1.body",
+        "VN-R1.source_text",
+        "VN-R1.cta",
+        "VN-R1.native_headline",
+        "VN-R1.alt",
+        "VN-R1.artwork_labels",
+        "VN-R2.headline",
+        "VN-R2.body",
+        "VN-R2.source_text",
+        "VN-R2.cta",
+        "VN-R2.native_headline",
+        "VN-R2.alt",
+        "VN-R2.artwork_labels",
+        "VN-R3.headline",
+        "VN-R3.body",
+        "VN-R3.source_text",
+        "VN-R3.cta",
+        "VN-R3.native_headline",
+        "VN-R3.alt",
+        "VN-R3.artwork_labels",
+        "VN-R4.headline",
+        "VN-R4.body",
+        "VN-R4.source_text",
+        "VN-R4.cta",
+        "VN-R4.native_headline",
+        "VN-R4.alt",
+        "VN-R4.artwork_labels",
+        "VN-R5.headline",
+        "VN-R5.body",
+        "VN-R5.source_text",
+        "VN-R5.cta",
+        "VN-R5.native_headline",
+        "VN-R5.alt",
+        "VN-R5.artwork_labels"
+      ],
+      "VN-EVIDENCE-PRESSWAY": [
+        "caption",
+        "VN-E1.headline",
+        "VN-E1.body",
+        "VN-E1.source_text",
+        "VN-E1.cta",
+        "VN-E1.native_headline",
+        "VN-E1.alt",
+        "VN-E1.artwork_labels",
+        "VN-E2.headline",
+        "VN-E2.body",
+        "VN-E2.source_text",
+        "VN-E2.cta",
+        "VN-E2.native_headline",
+        "VN-E2.alt",
+        "VN-E2.artwork_labels",
+        "VN-E3.headline",
+        "VN-E3.body",
+        "VN-E3.source_text",
+        "VN-E3.cta",
+        "VN-E3.native_headline",
+        "VN-E3.alt",
+        "VN-E3.artwork_labels",
+        "VN-E4.headline",
+        "VN-E4.body",
+        "VN-E4.source_text",
+        "VN-E4.cta",
+        "VN-E4.native_headline",
+        "VN-E4.alt",
+        "VN-E4.artwork_labels"
+      ]
+    },
+    "storyboard_cards": [
+      "VN-R1",
+      "VN-R2",
+      "VN-R3",
+      "VN-R4",
+      "VN-R5",
+      "VN-E1",
+      "VN-E2",
+      "VN-E3",
+      "VN-E4"
+    ]
+  },
+  "rules": {
+    "A1": {
+      "verdict": "MATCH",
+      "observation": "Domestic industrial suppliers and preparation ERP; scenes metal/plastic component/process/material records, no fab or generic all-factory audience."
+    },
+    "A2": {
+      "verdict": "MATCH",
+      "observation": "Owner/operations-director hypothesis; Pressway Vietnam case not domestic ownership or same-size decision-fit proof; no live targeting eligibility inference."
+    },
+    "A3": {
+      "verdict": "MATCH",
+      "observation": "VN_DOMESTIC vi-VN preparation independently established in both ad captions; direct advertiser-to-reader invitation per VN-VOICE-01."
+    },
+    "A4": {
+      "verdict": "N/A",
+      "observation": "N/A VN only, no financial ROI claim."
+    },
+    "A5": {
+      "verdict": "MATCH",
+      "observation": "Chuẩn bị quy trình và dữ liệu, ERP mechanisms and existing-needs discussion; no automatic qualification/audit/vendor/order promise."
+    },
+    "A6": {
+      "verdict": "MATCH",
+      "observation": "Order-production and material-lot only, official case L148–149; no MES/test/yield/recipe/autonomous verification scope."
+    },
+    "A7": {
+      "verdict": "MATCH",
+      "observation": "Cold exact Đồng hành ... chuẩn bị invitation becomes preparation question R1, joint process R2, named ERP mechanisms R3/R4, reader-to-case R5; evidence names activity/geography/solution E1, two-party process E2, attributed ERP scope E3, reader next step E4. No forced đồng hành repetition. Official VI case destination covers these same joint processes/order/lot mechanisms; final contact is normal discussion, no form operation."
+    }
+  },
+  "units": [
+    {
+      "card_id": "VN-R1",
+      "verdict": "MATCH",
+      "observation": "Reader readiness question, advertiser explicitly chúng tôi helps doanh nghiệp Việt; ERP bridge not guarantee."
+    },
+    {
+      "card_id": "VN-R2",
+      "verdict": "MATCH",
+      "observation": "Question names departments; body states who jointly clarifies processes and when; same readiness reader."
+    },
+    {
+      "card_id": "VN-R3",
+      "verdict": "MATCH",
+      "observation": "Order/shopfloor question explicit reader action; product is sentence subject, sourced order-production connection, not live MES automation."
+    },
+    {
+      "card_id": "VN-R4",
+      "verdict": "MATCH",
+      "observation": "Explicit đội ngũ problem and lot lookup; material origin only, no guarantee audit/genealogy/yield."
+    },
+    {
+      "card_id": "VN-R5",
+      "verdict": "MATCH",
+      "observation": "Direct question bridges reader preparation to named local implementation; no claim customer entered semiconductor chain."
+    },
+    {
+      "card_id": "VN-E1",
+      "verdict": "MATCH",
+      "observation": "Named case, Hải Phòng, electronic-plastic activity and ERP role; local project not domestic ownership proof."
+    },
+    {
+      "card_id": "VN-E2",
+      "verdict": "MATCH",
+      "observation": "Explicit chúng tôi cùng Pressway does joint process design; no third-party Digiwin narration or promised package service."
+    },
+    {
+      "card_id": "VN-E3",
+      "verdict": "MATCH",
+      "observation": "Named-case limit repeated; ERP order-production and lot features, not universal result or joined-end-to-end genealogy."
+    },
+    {
+      "card_id": "VN-E4",
+      "verdict": "MATCH",
+      "observation": "Reader addressed directly, advertiser invitation to discuss existing process/data needs; no free diagnosis deliverable invented."
+    }
+  ],
+  "transitions": [
+    {
+      "cards": [
+        "VN-R1",
+        "VN-R2"
+      ],
+      "verdict": "MATCH",
+      "observation": "Reader readiness question, advertiser explicitly chúng tôi helps doanh nghiệp Việt; ERP bridge not guarantee. Next: Question names departments; body states who jointly clarifies processes and when; same readiness reader."
+    },
+    {
+      "cards": [
+        "VN-R2",
+        "VN-R3"
+      ],
+      "verdict": "MATCH",
+      "observation": "Question names departments; body states who jointly clarifies processes and when; same readiness reader. Next: Order/shopfloor question explicit reader action; product is sentence subject, sourced order-production connection, not live MES automation."
+    },
+    {
+      "cards": [
+        "VN-R3",
+        "VN-R4"
+      ],
+      "verdict": "MATCH",
+      "observation": "Order/shopfloor question explicit reader action; product is sentence subject, sourced order-production connection, not live MES automation. Next: Explicit đội ngũ problem and lot lookup; material origin only, no guarantee audit/genealogy/yield."
+    },
+    {
+      "cards": [
+        "VN-R4",
+        "VN-R5"
+      ],
+      "verdict": "MATCH",
+      "observation": "Explicit đội ngũ problem and lot lookup; material origin only, no guarantee audit/genealogy/yield. Next: Direct question bridges reader preparation to named local implementation; no claim customer entered semiconductor chain."
+    },
+    {
+      "cards": [
+        "VN-E1",
+        "VN-E2"
+      ],
+      "verdict": "MATCH",
+      "observation": "Named case, Hải Phòng, electronic-plastic activity and ERP role; local project not domestic ownership proof. Next: Explicit chúng tôi cùng Pressway does joint process design; no third-party Digiwin narration or promised package service."
+    },
+    {
+      "cards": [
+        "VN-E2",
+        "VN-E3"
+      ],
+      "verdict": "MATCH",
+      "observation": "Explicit chúng tôi cùng Pressway does joint process design; no third-party Digiwin narration or promised package service. Next: Named-case limit repeated; ERP order-production and lot features, not universal result or joined-end-to-end genealogy."
+    },
+    {
+      "cards": [
+        "VN-E3",
+        "VN-E4"
+      ],
+      "verdict": "MATCH",
+      "observation": "Named-case limit repeated; ERP order-production and lot features, not universal result or joined-end-to-end genealogy. Next: Reader addressed directly, advertiser invitation to discuss existing process/data needs; no free diagnosis deliverable invented."
+    }
+  ],
+  "context": {
+    "scope": "FULL_JOURNEY",
+    "verdict": "MATCH",
+    "observation": "Cold exact Đồng hành ... chuẩn bị invitation becomes preparation question R1, joint process R2, named ERP mechanisms R3/R4, reader-to-case R5; evidence names activity/geography/solution E1, two-party process E2, attributed ERP scope E3, reader next step E4. No forced đồng hành repetition. Script semantic scope only; actual native/rendered journey not yet reviewed. Official VI destination reviewed, no runtime form/publish approval.",
+    "brief": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/journey-v1/authority.md",
+      "sha256": "8a7975d8cac5d9402533b2df96e695f9151f66a2c67552189f6702b6adc5aac7",
+      "revision": "VN-journey-v1-authority"
+    },
+    "related_inputs": [
+      {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/public-copy.json",
+        "sha256": "a12770d5750e7595e4ee3ebc42d7cfa3c91a298bd1575a6c600f7a7e671114a5",
+        "revision": "VN-cold-v4-copy"
+      },
+      {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/PO_Acceptance_2026-10-06.json",
+        "sha256": "1270c563a5b9ef2d6ef395b0d41fcea31f7669f7edfbdf525cf8e17763f153a8",
+        "revision": "PO_ACCEPTED_OFFLINE_COLD_V4"
+      },
+      {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/VN_Cold_Nuance_Freeze_2026-10-06.json",
+        "sha256": "ed4b6c3323989ea1109cc7f1b77da88ece0a398ddfeabdafa1bb8c6e56cf85ec",
+        "revision": "1.0"
+      }
+    ]
+  },
+  "unresolved_findings": []
+}

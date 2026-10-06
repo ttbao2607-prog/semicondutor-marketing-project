@@ -1,0 +1,35 @@
+{
+  "gate_id": "MSG-ANCHOR-01",
+  "stage": "PREGEN_SCRIPT",
+  "artifact": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/Audit_Readiness_Reframe.md",
+    "sha256": "4ce40e71219cbf25b7d535f0f6fbf0c3cf9e2f853b33a0ef38e18b6544e7386b"
+  },
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337"
+  },
+  "anchor_id": "VY-CONTENT-ANCHOR",
+  "anchor_revision": "1.0",
+  "email": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3"
+  },
+  "scope": {
+    "branch": "slice/linkedin-vn-journey-rebuild",
+    "segment": "VN_DOMESTIC",
+    "locale": "vi-VN",
+    "persona": "domestic supplier owner / operations director"
+  },
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "verdict": "INSUFFICIENT_EVIDENCE",
+  "findings": [
+    "Exact public fields, scene/destination bridge and full per-surface/transition review not completed",
+    "700 publisher count confirmed by public HTTP; geography qualifier unsupported; full attribution/placement review pending; no audit pass count established",
+    "Aplus product scope is iMES + TOP GP; preserve DigiHua attribution; VN delivery scope unknown"
+  ],
+  "postgen": "NOT_RUN",
+  "generation_release": false,
+  "claim_scope": "IC700_Claim_Scope.json"
+}

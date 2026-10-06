@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "gate_version": 1,
+  "gate_sha256": "aa71327c78dd2db4cf436bd9454003960492657b627a3bf36901a467bb75b72c",
+  "layer": "PREGEN",
+  "mechanical_verdict": "PASS",
+  "purpose": "OFFLINE_IMAGEGEN",
+  "spec_path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/spec.json",
+  "release_path": "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/release.json",
+  "release_sha256": "501eac9b4bafa501d978ff9d802ea97c0c384d1f6f4c2ebce1d26fd37c912d36",
+  "scope_call_id": "VN_COLD_REGEN_V4",
+  "input_hashes": {
+    "operations/linkedin-cold-authority/2026-10-05/v4/source.json": "e14309cac0d6f4b305df6ea45769ff199df2deee3c08f98beffba8e4236c8768",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v2/LEADERSHIP_CHECK.md": "dafb94fc1b3ab63a6fdf8ab28bce256851341bc121550d3f09ec23d156c8d4a0",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/authority.md": "e062cebea185668b33a0b15a004a723ced7f29230662605fafffdb810fa2b8d3",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/contract.json": "a6e749e229a0df9dfd507fed7e4ae4680cb57e7152d3f3f2c6244dc958c2f3c0",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/public-copy.json": "a12770d5750e7595e4ee3ebc42d7cfa3c91a298bd1575a6c600f7a7e671114a5",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/release.json": "501eac9b4bafa501d978ff9d802ea97c0c384d1f6f4c2ebce1d26fd37c912d36",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/review.json": "44a82133ebcf7fb60601d744c3614575c9e3454edd906af24464b8094edf1fa2",
+    "operations/linkedin-vn-journey-rebuild/2026-10-06/cold-v4/spec.json": "d3b03038f157dfdc63b6fcf92a6420f55ebf85c95944b19fd5383a217121d7da"
+  },
+  "call_ids": [
+    "VN_COLD_REGEN_V4"
+  ],
+  "advisories": [],
+  "semantic_verdict": "NOT_ASSESSED",
+  "creative_verdict": "INSUFFICIENT_EVIDENCE",
+  "authority": "NO_GENERATION_AUTHORITY"
+}

@@ -1,0 +1,19 @@
+# Cold v2 — authority hook review
+
+Writer/reviewer /root, SELF_REVIEW, 2026-10-06. PREGEN_SCRIPT content scope only. Artifact revision VN-COLD-AUTHORITY-READINESS-v2. Copy SHA256 `464f2bcc809c66c7c878492745a8a14853b576cf3b3a7356049d64c1b9339f30`. Anchor VY-CONTENT-ANCHOR v1.0 SHA256 `96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337`; original VY-MAIL-USER-20261006 SHA256 `87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3`. Branch slice/linkedin-vn-journey-rebuild; VN_DOMESTIC / vi-VN; same domestic supplier decision persona as v1. New numerical emphasis supersedes v1 customer-facing script only, not historical review.
+
+## Evidence
+
+- [Taiwan official semiconductor page](https://www.digiwin.com.tw/dsc/solution/semiconductor/index): publisher selection count “超過 200 多家半導體產業選擇鼎新數智”. Web direct open timed out on 06/10; official-domain search returned the section (indexed crawl three weeks ago), consistent with saved direct HTTP snapshot 05/10 in `operations/linkedin-cold-authority/2026-10-05/v4/source.json`. Not claimed as successful fresh direct fetch. Existing VI approval in Public_Source_Register 05/10 covers exact 200+ selection wording; no extension to ERP-only deployment count, VN count or admission outcome.
+- [About Digiwin Vietnam](https://www.digiwin.com.vn/about-vn/): opened 06/10, lines118–132 support founding Taiwan1982 and ERP/process/data scope; lines202–206 distinguish ERP and production solutions. Its market-position statements are about broader ERP/manufacturing, not a proven semiconductor ERP leadership ranking.
+- 700+ IC consulting-experience count is an alternative source-defined hook on the China official page, not a larger version of the same 200+ denominator. Not used or added to 200+.
+
+## Surface and anchor review
+
+A1: headline semiconductor count identifies sector authority; body explicitly “Chuẩn bị năng lực quản trị để tham gia chuỗi bán dẫn” keeps supplier readiness. Scene remains an unbranded industrial component workshop, not evidence of a customer site. A2: unchanged decision persona hypothesis; count is supplier experience, not proof every domestic company is fit. A3: VI domestic reader; authority comes from overseas experience without pretending 200+ VN/domestic customers. A4 N/A VN, no ROI outcome. A5: numerical headline → readiness body/native headline/caption bridge, no automatic qualification/order promise. A6: no lot/yield/recipe/SPC/ERP-only capability or result claim. A7: within Cold, caption/native/alt and scene converge on readiness; RMK, evidence and destination still not reviewed.
+
+BRAND-ROLE: one logo; “chúng tôi” in numerical hook has advertiser role, no extra brand label. Caption names Digiwin once to identify advertiser then uses “chúng tôi”; role line defines category/origin. ADVERTISER-VOICE: direct selection claim and offer, not “Digiwin chia sẻ”. Headline200+ is authority; it does not itself claim all customers use a semiconductor ERP product. Category emptied to avoid a third redundant header.
+
+Finding: exact requested role line “Giải pháp ERP bán dẫn hàng đầu từ Đài Loan” adds a leadership claim with no sector-specific ranking evidence. Bảo's wording instruction is recorded; it does not establish ranking truth. Supported alternative, pending owner adoption: “Giải pháp ERP cho ngành bán dẫn từ Đài Loan”. Do not silently swap the requested wording or make it accepted by omitting the finding. Source scope/rights review required for new leadership claim.
+
+MSG-ANCHOR-01: PASS for domestic direction of source-copy within Cold only; does not close factual gate. Editorial script: CHANGES_REQUIRED for unsupported leadership line. Overall **SCRIPT_REVIEW_NOT_PASS / INSUFFICIENT_EVIDENCE**. No generation. POSTGEN_NOT_RUN. Guard committed handoff/contract/spec/release still pending. No PO artwork acceptance, independent audit, account change, commit or push.
