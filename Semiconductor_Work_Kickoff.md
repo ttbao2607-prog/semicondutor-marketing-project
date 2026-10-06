@@ -1,3 +1,7 @@
+> **PO pivot VI → English · 2026-10-06 — VI_DOMESTIC_CHANGES_REQUIRED / EN_ADAPTATION_DEFERRED.** Bảo xác nhận bộ VI hiện tại sai hướng cho tệp nội địa và cần build lại: ERP bán dẫn là cầu nối về năng lực quản trị để doanh nghiệp chuẩn bị tham gia chuỗi cung ứng bán dẫn. Không hứa mua ERP là đạt chuẩn, vượt audit hoặc có đơn hàng. Giữ skeleton, hình/demo và receipt hiện có làm nguồn cho chuyển chuỗi asset sang English ở task sau; hiện chưa dịch/adapt/generate EN, chưa có EN acceptance.
+
+> [Quyết định và handoff pivot](operations/LinkedIn_VI_EN_Message_Pivot_2026-10-06.md) là trạng thái hiện hành về audience/message, bao gồm 11 carousel/55 card, 4 bộ case/16 card và demo journey 3 luồng. Các ghi nhận PASS/READY bên dưới giữ phạm vi revision cũ và kỹ thuật, không chứng minh bộ hiện tại phù hợp cho VI nội địa hoặc đã sẵn sàng EN. Format Single image cold → Carousel RMK và trần media 11,7 triệu giữ nguyên; task này chỉ đồng bộ tài liệu và commit local, không đổi asset, audience, account hoặc live.
+
 # Digiwin Vietnam — Semiconductor Paid Operating Plan & Local Work Kickoff
 
 **Phiên bản:** v2.0 · 11/09/2026 · Múi giờ làm việc: Asia/Ho_Chi_Minh  

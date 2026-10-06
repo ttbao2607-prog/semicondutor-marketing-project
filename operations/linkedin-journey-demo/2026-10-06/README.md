@@ -1,0 +1,42 @@
+> **PO pivot VI → English · 2026-10-06 — VI_DOMESTIC_CHANGES_REQUIRED / EN_ADAPTATION_DEFERRED.** Bảo xác nhận bộ VI hiện tại sai hướng cho tệp nội địa và cần build lại: ERP bán dẫn là cầu nối về năng lực quản trị để doanh nghiệp chuẩn bị tham gia chuỗi cung ứng bán dẫn. Không hứa mua ERP là đạt chuẩn, vượt audit hoặc có đơn hàng. Giữ skeleton, hình/demo và receipt hiện có làm nguồn cho chuyển chuỗi asset sang English ở task sau; hiện chưa dịch/adapt/generate EN, chưa có EN acceptance.
+
+> [Quyết định và handoff pivot](../../LinkedIn_VI_EN_Message_Pivot_2026-10-06.md) là trạng thái hiện hành về audience/message, bao gồm 11 carousel/55 card, 4 bộ case/16 card và demo journey 3 luồng. Các ghi nhận PASS/READY bên dưới giữ phạm vi revision cũ và kỹ thuật, không chứng minh bộ hiện tại phù hợp cho VI nội địa hoặc đã sẵn sàng EN. Format Single image cold → Carousel RMK và trần media 11,7 triệu giữ nguyên; task này chỉ đồng bộ tài liệu và commit local, không đổi asset, audience, account hoặc live.
+
+# Cold → explanation → proof — offline journey demo · 2026-10-06
+
+Execution **SUCCESS** for producing three cold images and the portable three-journey demo. Editorial/creative review is **SELF_REVIEW / READY_FOR_HUMAN_REVIEW**; no independent or Bảo finished-asset acceptance is asserted. The selected content pairings are an offline demonstration matrix, not an audience/source binding or sequential live-delivery guarantee.
+
+Open [the demo](../../../deliverables/linkedin-journey-demo/2026-10-06/index.html), or unpack [the portable ZIP](../../../deliverables/linkedin-journey-demo/Digiwin_Cold_RMK_Journey_2026-10-06.zip) and open `index.html`. Everything needed by the viewer is included; no CDN, tracking, forms, external framework or account connection.
+
+| Friendly journey | New cold | Explanation carousel reused | Proof carousel reused |
+|---|---|---|---|
+| Kết sổ nhà máy bán dẫn | “Đến ngày kết sổ. Số liệu xưởng đã chốt?” — OSAT finance | O3: shopfloor records before cost close, 5 cards | case06: China packaging/testing month-close, 4 cards |
+| Quản lý gia công chip | “Gia công ở đối tác. Tiến độ vẫn là việc của bạn.” — Fabless operations | F1: lot/partner report reconciliation, 5 cards | Bright/case04: China chip-design integrated solution, 4 cards |
+| Chuẩn bị triển khai nhà máy | “Trước khi triển khai. Quy trình đã thống nhất?” — Partner process | P2: ownership/reconciliation/confirmation boundaries, 5 cards | Pressway: Vietnam plastics factory Workflow ERP/process/localization, 4 cards |
+
+Bảo explicitly selected Partner process → P2 → Pressway before its artwork generation; see [pairing decision](partner-pairing-decision.md). This is a preparation/responsibility connection. Pressway is not represented as proof of a technical ERP–MES connector. OSAT's case result is scoped to the China case; it is not promised for Vietnam or attributed to the explanatory mechanism. The additional existing carousel treatments and Phẩm Thuyên case remain separate library assets, not silently added to this journey.
+
+## Generation and selection
+
+- Built-in `image_gen.imagegen`, **5 actual calls: 3 original + 2 targeted corrections**. No CLI/model fallback or child delegation. Effective model/effort was not exposed or claimed; the R2 references supply the existing project visual family.
+- OSAT v1 omitted the required reader-category line; v2 restores it, with the original scene and exact headline/support retained.
+- Fabless v1 omitted category and invented a software monitor; v2 restores category and replaces the monitor with physical report paperwork.
+- Partner v1 was preflight preparation only, no inference. Its tightened v2 preparation generated one original image, with the spec's output ID `partner-cold-v1` retained. Selected actual path is `partner/v2/native/partner-cold-v1.png`.
+- Every selected cold is an original square PNG at least 1080px. No resizing, raster compositing, typography overlay or logo replacement was used. Original tool files were copied byte-for-byte into the workspace. Historical failed revisions are preserved, excluded from the viewer.
+- Each call has copy, semantic script self-review, contract/review/release/spec pins, preflight, dispatch check, actual dispatch and native output receipt. The exact copied Single image trial adapter remains unpromoted; the canonical frozen gate was not edited. Stored per-call inputs are the dispatch authority; current preparation scripts are convenience tooling, not a retroactive rewrite of the initial prompts.
+
+Final prompts: [OSAT](osat/v2/prompt.txt), [Fabless](fabless/v2/prompt.txt), [Partner](partner/v2/prompt.txt). Selected cold editorial receipts: [OSAT](osat/v2/postgen-review.json), [Fabless](fabless/v2/postgen-review.json), [Partner](partner/v2/postgen-review.json).
+
+## Viewer and verification
+
+The viewer contains **3 journeys × (1 cold + 5 explanation + 4 proof) = 30 images**, plus one brand logo. Existing 27 explanation/proof raster bytes are reused from the current local package; captions and card order are preserved. The native display titles containing the opaque `case06` identifier are projected as “case đóng gói/kiểm thử” in this new viewer only. Source images, original package/demo bytes and old receipts are unchanged. Current source/asset hashes are in [asset-manifest.json](asset-manifest.json).
+
+Desktop **1280px** and mobile **390px** browser checks traversed all 30 images: all loaded, no horizontal overflow. Mobile artwork width measured **332.44 CSS px**; the three new cold images were visually inspected at native size and this feed size. Evidence includes nine desktop stage screenshots and thirty final mobile card screenshots. The first temporary viewport request resolved to 434 CSS px because of browser zoom; only the measured final 390px evidence is used for the mobile gate. Early desktop immediate image-load samples contained transient pending decodes; final cached/readback checks show all 30 loaded.
+
+Keyboard Home/End reaches first/last card, arrow controls navigate, and focus moves to the selected card control when an arrow becomes disabled. Completion, restart, route reset and the three-row overview were observed. An initial test attempted to press a disabled arrow and was rejected by the UI harness; corrected tests use the enabled arrow. No application defect is inferred from that test invocation.
+
+[Final mobile readbacks](evidence/runtime-final-390.json), [final desktop readbacks](evidence/runtime-final-desktop.json), [UI checks](evidence/ui-checks.json), [desktop overview](evidence/desktop-overview.png) and [artifact verification](artifact-verification.json) bound to the current viewer constitute the acceptance evidence. This is operator verification, not a separate-agent audit. No new unit-test suite is introduced for this reversible artifact.
+
+Docs impact reviewed: CURRENT_STATE, README, LinkedIn_Build_Pack, Pre_Ad_Readiness, Cold_To_RMK_Data_Plan, Report_Artifact_Index, existing continuity plan and demo/human-audit runbook updated for these candidates, matrix and entrypoint. Budget decision, source rights, audience state, landing/tracking runtime and historical acceptances are unchanged.
+
+Git: files are local working-tree changes on `slice/linkedin-audience-ready-research`, based on checkpoint `3e73954`; Bao subsequently authorized a local checkpoint with "commit di codex" on 2026-10-06. The commit containing this note preserves the cold/demo/evidence and synchronized docs; no main merge or remote push is authorized. artifact-verification.json retains its precommit HEAD and new_commit=false as the historical verification snapshot. This demo does not replace or merge manager-package v6 in its other worktree. Browser preview server is stopped after QA; the packaged HTML remains the deliverable.
