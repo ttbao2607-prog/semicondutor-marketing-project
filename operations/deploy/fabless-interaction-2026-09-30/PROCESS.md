@@ -1,4 +1,4 @@
-# Fabless interaction repair: prepared, stop before deploy
+# Fabless interaction repair: production revision complete
 
 ## Pinned local state
 
@@ -8,11 +8,19 @@ Git-object source SHA-256: `5db304b5fad545ed81847453d1d3eb4db06b81b943e75f848d11
 
 `pending-request-template.json` declares four bounded semantic operations. The official `apply_semantic_delta` helper reproduced the complete committed candidate exactly from the baseline. Request preflight was run in memory against baseline Git bytes; it correctly rejects the template only for absent named production authority. It is not a passed deploy receipt. Exact page identity is deliberately unresolved in this public-safe template; no authenticated Builder source or physical runtime references are retained.
 
-## Current stop
+## Production closeout
+
+Bảo confirmed the preceding process had finished and authorized the exact existing-page revision on `https://solutions.digiwin.com.vn/fabless`. The same page was saved, reopened and published successfully at the same URL. The operation-owned receipt outside Git passed `validate_existing_page_revision.py` with terminal `EXISTING_PAGE_REVISION_RECONCILED`; it binds the current canonical candidate, Builder readback, public DOM and semantic-delta hashes. No upload, page creation, form rebind, form submission or GitHub push occurred.
+
+Public desktop and 390px mobile checks verified Progress/Lot/Cost diagrams, their inspectors, all three pain-card routes and smooth scrolling; keyboard navigation and all four locales also worked. At 320px in the desktop-browser viewport override, Cost remained functional but a 15px horizontal scrollbar was observed (`scrollWidth=320`, `clientWidth=305`). The interaction revision changes no CSS; this responsive observation is documented as an out-of-scope limitation rather than hidden as a no-overflow pass. PageSpeed was not remeasured. See `../../evidence/2026-09-30-fabless-interaction-production-deployment.md`.
+
+## Historical stop before Bảo's later deploy instruction
 
 Bảo explicitly requested preparation and stopping before deployment because another Codex process is deploying the previous main. That running state is PO-reported, not independently observed here. Do not claim its browser, open Builder, run a step server, save, publish, submit a form, or alter any existing receipt. This package has no live authority and does not release itself when time elapses.
 
-## Resume sequence after a new deployment instruction
+## Original resume sequence (completed for this revision)
+
+The public matrix passed for the repaired interactions. The 320px desktop-browser viewport showed a horizontal-scroll limitation, recorded below and in the evidence note; do not read the earlier no-overflow acceptance wording as a 320px pass.
 
 1. Read `git-state-recovery`, `CURRENT_STATE.md`, `DOCS_IMPACT_MAP.md`, `$ladipage-operator` and its `revise_existing_page` contract. Obtain the prior controller's completion/handoff evidence before acquiring the single browser controller role. Record its actual source commit, same-page identity, Save/reopen and public state. If its Git/docs closeout is still writing shared files, wait for that handoff before editing those files.
 2. Require Bảo's new authority for the exact existing Fabless page and `https://solutions.digiwin.com.vn/fabless`. The only target is Fabless. Do not upload/create a page or modify OSAT/Partner. The current instruction does not authorize this step's live action.
@@ -22,13 +30,13 @@ Bảo explicitly requested preparation and stopping before deployment because an
 6. Keep baseline/source drift, image URL normalization and identity metadata differences distinct. Map native LadiCDN images by element/alt/dimensions without changing them. Do not reuse the 2026-09-29 Fabless identity-pair exception for this new revision; unexpected metadata drift needs exact-revision evidence and authority. Stop on any unexplained difference.
 7. Deliver each declared `after` span via the operator's `serve_builder_step.py <new-receipt> --baseline <baseline-artifact> --step <index> --port <owned-loopback-port>`. Start servers only during the newly authorized lifecycle. Verify the displayed SHA-256, exact visible CodeMirror selection and whole-source result after each bounded paste. Do not paste the whole HTML. The four changes are map-runtime insertion, dynamic-copy translations, inclusion of inspector options in locale translation, and the scoped locale refresh hook.
 8. Save; observe completion, reopen and compare complete source. Confirm same page, then publish at the same URL. Do not retry uncertain live writes. Canonical main already contains the candidate: reconcile baseline → candidate with the helper and require exact current source identity; do not apply the same delta twice to main or copy live normalized HTML into Git.
-9. Verify public desktop and 390px mobile: direct Progress/Lot/Cost tabs, corresponding diagrams and inspector, each pain card's matching view plus smooth scroll, mobile expansion, Arrow/Home/End and Enter/Space, RMA and Cost MCU controls. Check all four locales only if the preceding accepted deployment made them live. Confirm exactly two CTA IDs, existing PopupX opening without submitting a lead, GTM/bridge and existing section tracking, image rendering, no horizontal overflow and no new JS errors. Check `lang`, UTM and click-ID preservation. No new PageSpeed measurement is part of this repair.
+9. Verify public desktop and 390px mobile: direct Progress/Lot/Cost tabs, corresponding diagrams and inspector, each pain card's matching view plus smooth scroll, mobile expansion, Arrow/Home/End and Enter/Space, RMA and Cost MCU controls. All four locales were live and verified. Exactly two CTA IDs remained; the existing PopupX opened and was closed without submitting a lead. No new GTM/bridge code was added. No images were broken and no new JS console errors were observed. Desktop and 390px had no horizontal overflow; at 320px the desktop-browser viewport showed a 15px horizontal scrollbar, recorded without a layout change. `lang` behavior was verified; `URLSearchParams` source inspection confirms updating `lang` preserves other query keys, so no synthetic UTM/click-ID was sent to production. No new PageSpeed measurement is part of this repair.
 10. Bind canonical commit/tree/blob/hash, Builder revision hash, public revision hash and the same semantic-delta hash in the new receipt. Only close as `COMPLETED` after all same-page, public and protected witnesses exist and the operator closeout validator passes. Update current docs with observed live truth; preserve historical logs. Keep publication status separate from GitHub push status.
 
 ## Protected state and acceptance
 
 Markup, CSS, images and existing section IDs are unchanged by the committed repair. The canonical two CTA controls remain inert/provider-free; live PopupX SDK/adapter/bridge and GTM belong to the existing page and must survive unchanged. The section-awareness and mobile-toggle scripts are unchanged. No form, receiver, tag/container, campaign, lead or spend mutation is included.
 
-Local evidence: `../../evidence/2026-09-30-fabless-local-interaction-repair.md`; browser interaction checks and tracking regression 12/12 already passed. Deployment is intentionally not attempted.
+Local evidence: `../../evidence/2026-09-30-fabless-local-interaction-repair.md`; browser interaction checks and tracking regression 12/12 passed. Production evidence: `../../evidence/2026-09-30-fabless-interaction-production-deployment.md`.
 
-Terminal: `PREPARED_STOP_BEFORE_DEPLOY`. This is preparation success, not `EXISTING_PAGE_REVISION_PREFLIGHT_READY` or live acceptance.
+Terminal: `EXISTING_PAGE_REVISION_RECONCILED`. The offline receipt validator passed after same-page Save/reopen, same-URL Publish, public desktop/mobile checks and canonical delta reconciliation. The 320px desktop-browser horizontal-scroll observation remains explicitly documented; it was not addressed by this interaction-only change.

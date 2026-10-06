@@ -30,7 +30,7 @@
 
 ### Component Overrides
 
-- Operations-map tabs must update the selected tab, its associated diagram and inspector together. Each pain card selects its matching progress/lot/cost view and scrolls to `fabless-map`; expand the mobile detail before scrolling. Preserve arrow/Home/End tab navigation and Enter/Space card activation. Dynamic map text follows the selected locale. The 2026-09-30 local repair is a candidate only; production still needs a separately authorized existing-page revision.
+- Operations-map tabs must update the selected tab, its associated diagram and inspector together. Each pain card selects its matching progress/lot/cost view and scrolls to `fabless-map`; expand the mobile detail before scrolling. Preserve arrow/Home/End tab navigation and Enter/Space card activation. Dynamic map text follows the selected locale. The 2026-09-30 interaction repair is published and publicly verified on the existing production page; see `operations/evidence/2026-09-30-fabless-interaction-production-deployment.md`. This status does not authorize a future revision or change the inert/provider-free canonical CTA rule.
 
 - Use a responsive outsourced-WIP handoff flow: `FORECAST > OUTSOURCE > LOT/DATECODE/BIN > COST REVIEW`.
 - Make ownership boundaries visually explicit with labels and connecting lines; do not imitate a live dashboard.
