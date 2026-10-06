@@ -1,0 +1,46 @@
+{
+  "gate_id": "AD-ED-01",
+  "stage": "PREGEN_SCRIPT",
+  "revision": "week2-r2-metric-v1-editorial",
+  "copy_sha256": "cdf979140838a414e51d9e16e51b17c858ebb3f946cab239d92b79f75a733b45",
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "reviewed_ads": [
+    "VN-B-T-RMK"
+  ],
+  "reviewed_fields": {
+    "VN-B-T-RMK": [
+      "caption",
+      "VN-B-T-R2.headline",
+      "VN-B-T-R2.body",
+      "VN-B-T-R2.source_text",
+      "VN-B-T-R2.cta",
+      "VN-B-T-R2.native_headline",
+      "VN-B-T-R2.alt",
+      "VN-B-T-R2.artwork_labels"
+    ]
+  },
+  "BRAND_ROLE": {
+    "verdict": "PASS",
+    "observation": "One official logo; Digiwin source publisher role only; historical case does not own the ad."
+  },
+  "ADVERTISER_VOICE": {
+    "verdict": "PASS",
+    "observation": "Direct chúng tôi invitation in each independent caption, case technical subject Aplus/iMES/TOP GP; not third-person Digiwin description."
+  },
+  "VN_VOICE": {
+    "verdict": "PASS",
+    "receipt": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/vn-voice-pregen.json",
+      "sha256": "a782c18f976b4374f411c9989e2be2c57eec85e5137915641f69e087e2f8bec3",
+      "revision": "week2-r2-metric-v1-voice-pregen"
+    }
+  },
+  "unit_observations": {
+    "VN-B-T-R2": "Subject and product correct: Chọn phạm vi triển khai: ERP cùng dữ liệu hiện trường. / Tham khảo Aplus tại Trung Quốc: dự án tích hợp iMES + TOP GP kết nối quản trị và hiện trường. Toàn dự án đi vào vận hành trong 3 tháng.; preparation or historical case mechanism only; no audit-outcome guarantee. Exact labels/source/CTA and native/alt reviewed.Scope is source-specific iMES+TOPGP project go-live within3months, not first-contact-to-audit. Reader preparation sequencing is editorial, not proven project phases."
+  },
+  "unresolved_findings": [],
+  "postgen": "POSTGEN_NOT_RUN"
+}

@@ -1,0 +1,104 @@
+{
+  "stage": "POSTGEN_ARTIFACT",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "status": "READY_FOR_BAO_REVIEW / REVISED_R2_PO_PENDING / OTHER_NEW8_PO_PENDING",
+  "card": {
+    "card_id": "VN-B-T-R2",
+    "headline": "Chọn phạm vi triển khai:\nERP cùng dữ liệu hiện trường.",
+    "body": "Tham khảo Aplus tại Trung Quốc:\ndự án tích hợp iMES + TOP GP kết nối quản trị và hiện trường.\nToàn dự án đi vào vận hành trong 3 tháng.",
+    "native_headline": "Aplus: iMES + TOP GP",
+    "source_text": "Nguồn: DigiHua · case Aplus",
+    "cta": "",
+    "alt": "Digiwin: Chọn phạm vi triển khai: ERP cùng dữ liệu hiện trường. Tham khảo Aplus tại Trung Quốc: dự án tích hợp iMES + TOP GP kết nối quản trị và hiện trường. Toàn dự án đi vào vận hành trong 3 tháng.",
+    "artwork_labels": [
+      "BÁN DẪN · DỮ LIỆU & LỘ TRÌNH TRIỂN KHAI"
+    ]
+  },
+  "native": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/native/vn-b-t-r2-v3.png",
+    "sha256": "94f3f0a858e306ccf82ab7cca76a377f847a8ad8cc6abb2a752e8c013fa73705"
+  },
+  "copy": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/full-journey-copy.json",
+    "sha256": "c8ce47a1fc9d6e3c8e22b9625881f292c2b2fa68f4be66448030dc78e538b0c1"
+  },
+  "demo": {
+    "path": "deliverables/linkedin-vn-journey/2026-10-06-week2-time-v2/index.html",
+    "sha256": "2ccab0df0cb923b9c59d0d40af4cce5489012bed270ad75da68932ec7dacefb3"
+  },
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0"
+  },
+  "email": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3"
+  },
+  "voice_policy": {
+    "path": "operations/VN_Locale_Reader_Voice_Gate.md",
+    "sha256": "bb0ad4f22cd6b071e9947fef8f015149174f70e57dd7f721f55f8a86a97a78fc",
+    "revision": "1.1"
+  },
+  "source": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timeproof-v1/SOURCE_PROOF.md",
+    "sha256": "1303faf7d97b78583587860037cad660185642dbc28f506787299527848c81ba"
+  },
+  "pregen": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/message-review.json",
+    "sha256": "dddea85afa53ec55a7495115f6a7488a02bd59f883fafc31adf22addb084ab0a"
+  },
+  "scope": {
+    "segment": "VN_DOMESTIC",
+    "locale": "vi-VN",
+    "persona": "domestic supplier owner / operations director"
+  },
+  "observations": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/render-observations.json",
+    "sha256": "3877a1252c59005797fa7240c800354a61bc6f3c2c3a71a39933f6ef3a165aaa"
+  },
+  "screens": [
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/render/desktop.png",
+      "sha256": "5e7ba43aaa38227bd5a8bb462827a559e57f6962f6e804301418b2b236ba1536"
+    },
+    {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/render/mobile.png",
+      "sha256": "64c7974d1287e3a5b877068d18aebdcf3233e8a9d60e538a059810420c0cec75"
+    }
+  ],
+  "actual_native_observation": "Exact headline, category, original two body lines, new bold blue sentence Toàn dự án đi vào vận hành trong 3 tháng., footer DigiHua/case Aplus and single Digiwin logo visually inspected. All accents correct; same folios/reel/arrow palette. Metric below explicit Aplus China/iMES+TOPGP scope. No added deadline/audit/ERP-only claim.",
+  "MSG-ANCHOR-01": "MESSAGE_ANCHOR_PASS_SELF_REVIEW",
+  "A1_A7": "Domestic semiconductor supplier preparing operational records; China case reference does not change locale/persona. Readiness -> data/scope -> integrated mechanisms -> attributed timing -> suitable-scope discussion retained.",
+  "V1": "PASS_SELF_REVIEW: Digiwin/we invitation in independent caption, source case attribution in card",
+  "V2": "PASS_SELF_REVIEW: preparation for customer assessment in supply chain, not generic ROI",
+  "V3": "PASS_SELF_REVIEW: natural complete Vietnamese phrasing and actual accent inspection",
+  "V4": "PASS_SELF_REVIEW: 3months only actual whole integrated Aplus project go-live, no reader promise",
+  "V5": "PASS_SELF_REVIEW: exact Quý Doanh Nghiệp in caption; no Bạn in actual text",
+  "AD-ED-01": "PASS_SELF_REVIEW",
+  "whole_journey": {
+    "R1_to_R2": "Identify needed data -> ERP/shopfloor scope; early3month Aplus result makes named case concrete. Not a prescribed duration for reader.",
+    "R2_to_R3_R4_R5": "Follow-up explains integrated serial/SPC/parameter mechanisms and invites reading same case.",
+    "RMK_to_evidence": "R2 previews timing; E1 reiterates result with explicit entire-project scope, E2/E3 describe actual operating outputs. Some deliberate metric repetition approved by Bảo addition.",
+    "case": "Case text/bytes unchanged; still distinguishes go-live from first-contact-to-audit and no audit success.",
+    "retained": "Other9native hashes and other copy fields identical; prior actual review evidence scoped to those unchanged artifacts, not retrospective acceptance. No new22-view claim."
+  },
+  "limitations": [
+    "Secondary source/category small on mobile",
+    "Generic semiconductor/editorial illustration, not actual Aplus photo",
+    "Self-review; no independent audit or new PO artwork acceptance",
+    "Source endpoint integrated-project go-live, not consultation-to-audit end-to-end duration"
+  ],
+  "parent_actual_review": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/postgen-review.json",
+    "sha256": "4fc5e22b670b9ad2aa3c9caa3d668ce2ce09127e0b16282bb486fc6f08893878"
+  },
+  "actual_render_coverage": {
+    "changed_native": 1,
+    "changed_desktop": 1,
+    "changed_mobile": 1
+  },
+  "live": "No account/upload/publish/spend/Git mutation"
+}

@@ -1,0 +1,160 @@
+{
+  "stage": "POSTGEN_MAIN_ADOPTION",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "anchor_id": "VY-CONTENT-ANCHOR",
+  "anchor_revision": "1.0",
+  "scope": {
+    "segment": "VN_DOMESTIC",
+    "locale": "vi-VN",
+    "persona": "domestic supplier owner / operations director"
+  },
+  "bindings": [
+    {
+      "main": {
+        "path": "operations/Vy_Email_Content_Anchor.md",
+        "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+      },
+      "source_sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+      "comparison": "Exact normalized text equal; raw line endings may differ. Fresh main binding, no inherited byte-pin PASS."
+    },
+    {
+      "main": {
+        "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+        "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+      },
+      "source_sha256": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3",
+      "comparison": "Exact normalized text equal; raw line endings may differ. Fresh main binding, no inherited byte-pin PASS."
+    },
+    {
+      "main": {
+        "path": "operations/VN_Locale_Reader_Voice_Gate.md",
+        "sha256": "bb0ad4f22cd6b071e9947fef8f015149174f70e57dd7f721f55f8a86a97a78fc"
+      },
+      "source_sha256": "bb0ad4f22cd6b071e9947fef8f015149174f70e57dd7f721f55f8a86a97a78fc",
+      "comparison": "Exact normalized text equal; raw line endings may differ. Fresh main binding, no inherited byte-pin PASS."
+    }
+  ],
+  "selection": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-main-integration/selection.json",
+    "sha256": "3652260c7033a21a9fa1f0f95d1e3d20104ec42a3318a59ccf0fc4628036dfdc"
+  },
+  "verdict": "MESSAGE_ANCHOR_PASS_SELF_REVIEW / PO_ACCEPTED_OFFLINE",
+  "actual_artifact_scope": "Current10selected rasters byte-equal to source originals inspected;9prior actual desktop/mobile views plus changed R2 native/desktop/mobile and identical case. No new browser22-view claim on main.",
+  "units": [
+    {
+      "card_id": "VN-B-COLD",
+      "asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-week2-time-v2/assets/vn-b-cold-v1.png",
+        "sha256": "365abd1e103b03e6cb934f86152c144c7a2060f1440eab6d40d0a8999424f036"
+      },
+      "verdict": "MATCH_SELF_REVIEW",
+      "observation": "Same exact selected bytes and reviewed audience/product/source scope from scoped original review."
+    },
+    {
+      "card_id": "VN-B-T-R1",
+      "asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-week2-time-v2/assets/vn-b-t-r1-v2.png",
+        "sha256": "685d95dcc57d7e73d7f6d2517dcffa4a6abec93930247764ed2c0bc2f8dbe45d"
+      },
+      "verdict": "MATCH_SELF_REVIEW",
+      "observation": "Same exact selected bytes and reviewed audience/product/source scope from scoped original review."
+    },
+    {
+      "card_id": "VN-B-T-R2",
+      "asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-week2-time-v2/assets/vn-b-t-r2-v3.png",
+        "sha256": "94f3f0a858e306ccf82ab7cca76a377f847a8ad8cc6abb2a752e8c013fa73705"
+      },
+      "verdict": "MATCH_SELF_REVIEW",
+      "observation": "R2 introduces Aplus China integrated iMES+TOPGP and actual whole-project3month go-live; no deadline guarantee."
+    },
+    {
+      "card_id": "VN-B-T-R3",
+      "asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-week2-time-v2/assets/vn-b-t-r3-v2.png",
+        "sha256": "0d954c284018e8b056b88763965bbb324b7430b091473b5659f62f9c6b6d84e0"
+      },
+      "verdict": "MATCH_SELF_REVIEW",
+      "observation": "Same exact selected bytes and reviewed audience/product/source scope from scoped original review."
+    },
+    {
+      "card_id": "VN-B-T-R4",
+      "asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-week2-time-v2/assets/vn-b-t-r4-v2.png",
+        "sha256": "5e7e33802d38352ca9f53ea1970e1a01d2337e103d2ff3a1801ddfb7f20c846c"
+      },
+      "verdict": "MATCH_SELF_REVIEW",
+      "observation": "Same exact selected bytes and reviewed audience/product/source scope from scoped original review."
+    },
+    {
+      "card_id": "VN-B-T-R5",
+      "asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-week2-time-v2/assets/vn-b-t-r5-v2.png",
+        "sha256": "a10c18cd841359bd14b9a0acbb16cf87fc652835adb70e6d032343f16aa9f315"
+      },
+      "verdict": "MATCH_SELF_REVIEW",
+      "observation": "Same exact selected bytes and reviewed audience/product/source scope from scoped original review."
+    },
+    {
+      "card_id": "VN-B-T-E1",
+      "asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-week2-time-v2/assets/vn-b-t-e1-v2.png",
+        "sha256": "4d481440415a34b02b98464ad562799f436da1064ed3ddf8cc4626c48eea6cd5"
+      },
+      "verdict": "MATCH_SELF_REVIEW",
+      "observation": "Same exact selected bytes and reviewed audience/product/source scope from scoped original review."
+    },
+    {
+      "card_id": "VN-B-T-E2",
+      "asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-week2-time-v2/assets/vn-b-t-e2-v2.png",
+        "sha256": "5bcbec05a22b2eceb53045878b6951575529b25e0f25bbf666faa19e5a63b49f"
+      },
+      "verdict": "MATCH_SELF_REVIEW",
+      "observation": "Same exact selected bytes and reviewed audience/product/source scope from scoped original review."
+    },
+    {
+      "card_id": "VN-B-T-E3",
+      "asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-week2-time-v2/assets/vn-b-t-e3-v2.png",
+        "sha256": "c8fcb3e0442f8b3445cf597179a87357b26af7b1ba3a4fa68404a814068f7d2d"
+      },
+      "verdict": "MATCH_SELF_REVIEW",
+      "observation": "Same exact selected bytes and reviewed audience/product/source scope from scoped original review."
+    },
+    {
+      "card_id": "VN-B-T-E4",
+      "asset": {
+        "path": "deliverables/linkedin-vn-journey/2026-10-06-week2-time-v2/assets/vn-b-t-e4-v2.png",
+        "sha256": "cff55676b4496a1fab9bedbaba4ea1493c496604769f4a34b2e38acd1580af42"
+      },
+      "verdict": "MATCH_SELF_REVIEW",
+      "observation": "Same exact selected bytes and reviewed audience/product/source scope from scoped original review."
+    }
+  ],
+  "surfaces": [
+    "Independent Cold/RMK/Evidence captions",
+    "Each raster headline/body/category/source/CTA",
+    "Native display headline/alt",
+    "Full journey transitions",
+    "VN Aplus case/destination"
+  ],
+  "A1": "Semiconductor supply-chain supplier readiness, not general manufacturing or assumed fab",
+  "A2": "Actual reader/customer fit unproven; no account assertion",
+  "A3": "VN domestic owner/operations, source China does not imply FDI",
+  "A4": "FDI ROI framing N/A, no invented ROI",
+  "A5": "Operational preparation; no audit/order/deadline promise",
+  "A6": "Named integrated iMES+TOPGP mechanisms; no ERP-only SPC/serial attribution",
+  "A7": "Cold readiness -> identify data/scope -> integrated serial/SPC/parameters -> Aplus go-live timing/outputs -> discuss suitable roadmap",
+  "V1_V5_AD_ED": "Advertiser/we caption, natural complete VN voice, exact Quý Doanh Nghiệp; no Bạn; case/source/metric bounded. Actual selected accents read in native/screens. No third-party voice or unsupported guarantee.",
+  "limitations": [
+    "Main binding distinguishes LF/CRLF from content change",
+    "Secondary category/source small mobile",
+    "Generic illustration, not Aplus facility photo",
+    "End-to-end consultation-to-audit duration/audit success unknown",
+    "Self-review only; no independent audit"
+  ],
+  "generation": "No generation/release/runtime adoption",
+  "live": "No operational readiness assertion"
+}

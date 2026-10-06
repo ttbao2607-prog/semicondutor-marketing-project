@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "revision": "week2-r2-metric-v1-anchor",
+  "gate_id": "MSG-ANCHOR-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "revision": "1.0"
+  },
+  "source": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3",
+    "revision": "VY-MAIL-USER-20261006"
+  },
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/contract.json",
+      "sha256": "29768a8329d8109104344179cd703cbd36752214cb7563fcc87876ffd0aab011",
+      "revision": "week2-r2-metric-v1-contract"
+    },
+    "copy": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/public-copy.json",
+      "sha256": "cdf979140838a414e51d9e16e51b17c858ebb3f946cab239d92b79f75a733b45",
+      "revision": "week2-r2-metric-v1-copy"
+    },
+    "spec": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/spec.json",
+      "sha256": "bfe44626c7f78748ddbd78c5577de03ec41fafd6cf1b96531722f83542de8a83",
+      "revision": "week2-r2-metric-v1-spec"
+    },
+    "script_review": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/script-review-detail.json",
+      "sha256": "44afbdacc0f2f9b3d96cf5021d5a18160996444645141219d311e08f52bdd923",
+      "revision": "week2-r2-metric-v1-editorial"
+    }
+  },
+  "scope": {
+    "segment": "VN_DOMESTIC",
+    "locale": "vi-VN",
+    "persona": "domestic supplier owner / operations director",
+    "route": "AcceptedColdB -> reader data/scope -> Aplus iMES TOPGP mechanisms -> attributed integrated project go-live within3months -> Aplus VN case reading -> scope discussion"
+  },
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "coverage": {
+    "ads": [
+      "VN-B-T-RMK"
+    ],
+    "cards": [
+      "VN-B-T-R2"
+    ],
+    "fields": {
+      "VN-B-T-RMK": [
+        "caption",
+        "VN-B-T-R2.headline",
+        "VN-B-T-R2.body",
+        "VN-B-T-R2.source_text",
+        "VN-B-T-R2.cta",
+        "VN-B-T-R2.native_headline",
+        "VN-B-T-R2.alt",
+        "VN-B-T-R2.artwork_labels"
+      ]
+    },
+    "storyboard_cards": [
+      "VN-B-T-R2"
+    ]
+  },
+  "rules": {
+    "A1": {
+      "verdict": "MATCH",
+      "observation": "Domestic supply-chain preparation; China COF case is reference, not actual VN target company."
+    },
+    "A2": {
+      "verdict": "MATCH",
+      "observation": "Owner/operations decision maker governs existing records; no entity live-ICP assertion."
+    },
+    "A3": {
+      "verdict": "MATCH",
+      "observation": "Vietnamese domestic preparation, China proof does not turn audience into FDI."
+    },
+    "A4": {
+      "verdict": "MATCH",
+      "observation": "FDI ROI requirement N/A, VN benefit documented readiness with no financial outcome."
+    },
+    "A5": {
+      "verdict": "MATCH",
+      "observation": "Preparation through correctly scoped WorkflowERP/iMES/TOP GP; historical one documentemployee/dozensreport/qualitative workload outcome is not qualification standard."
+    },
+    "A6": {
+      "verdict": "MATCH",
+      "observation": "Serial history, measured-data SPC and ECN parameters are attributed Aplus case mechanisms, not ERP-only capabilities."
+    },
+    "A7": {
+      "verdict": "MATCH",
+      "observation": "AcceptedColdB -> data/scope -> integrated Aplus mechanisms -> same project3months go-live -> scope discussion."
+    }
+  },
+  "units": [
+    {
+      "card_id": "VN-B-T-R2",
+      "verdict": "MATCH",
+      "observation": "Subject and product correct: Chọn phạm vi triển khai: ERP cùng dữ liệu hiện trường. / Tham khảo Aplus tại Trung Quốc: dự án tích hợp iMES + TOP GP kết nối quản trị và hiện trường. Toàn dự án đi vào vận hành trong 3 tháng.; preparation or historical case mechanism only; no audit-outcome guarantee. Exact labels/source/CTA and native/alt reviewed.Scope is source-specific iMES+TOPGP project go-live within3months, not first-contact-to-audit. Reader preparation sequencing is editorial, not proven project phases."
+    }
+  ],
+  "transitions": [],
+  "context": {
+    "scope": "FULL_JOURNEY",
+    "verdict": "MATCH",
+    "observation": "ColdB readiness -> scope/data RMK -> Aplus introduced in caption/R2/R5 -> integrated project3months outcome -> authored VN Aplus case script -> discussion. Same data objects and persona; no auditpass or deadline guarantee. Case endpoint not first-contact-to-audit.",
+    "brief": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/PLAN.md",
+      "sha256": "32ab415c1b51eaf72ea27f9b73332849cd4c03e482cf4a13a6f99af92d6879fa",
+      "revision": "VN-week2-plan-v1"
+    },
+    "related_inputs": [
+      {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/public-copy.json",
+        "sha256": "cdf979140838a414e51d9e16e51b17c858ebb3f946cab239d92b79f75a733b45",
+        "revision": "VN-week2-r2-metric-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/VN_Cold_Nuance_Freeze_2026-10-06.json",
+        "sha256": "ed4b6c3323989ea1109cc7f1b77da88ece0a398ddfeabdafa1bb8c6e56cf85ec",
+        "revision": "Cold-v4-frozen"
+      }
+    ]
+  },
+  "unresolved_findings": []
+}

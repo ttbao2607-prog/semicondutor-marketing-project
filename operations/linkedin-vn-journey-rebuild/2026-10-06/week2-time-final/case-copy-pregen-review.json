@@ -1,0 +1,78 @@
+{
+  "stage": "PREGEN_SCRIPT",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "exact_case": {
+    "revision": "Aplus-week2-timing-case-v1",
+    "title": "Aplus: dự án iMES + TOP GP đi vào vận hành trong 3 tháng",
+    "intro": "Aplus Semiconductor tại Trung Quốc hoạt động trong lĩnh vực COF, đóng gói/kiểm thử bán dẫn và Fine Pitch FPC. Case do DigiHua công bố mô tả dự án tích hợp iMES + TOP GP, trong bối cảnh khách hàng có yêu cầu kiểm tra nhà máy.",
+    "sections": [
+      [
+        "Thời gian dự án được công bố",
+        "Nguồn ghi nhận toàn dự án tích hợp iMES + TOP GP hoàn tất go-live trong vòng 3 tháng. Đây là kết quả của case Aplus. Nguồn không xác định thời gian từ buổi tư vấn đầu tiên đến khi hoàn thành kiểm tra khách hàng, cũng không công bố kết quả vượt audit."
+      ],
+      [
+        "Phạm vi đi vào vận hành",
+        "Các kết quả được công bố gồm quy trình hiện trường không dùng giấy, thu thập dữ liệu đo và phân tích SPC, báo công theo serial để truy xuất lịch sử từng sản phẩm, cùng quản lý tham số ECN, TECN, SEN. Các cơ chế thuộc giải pháp tích hợp; không quy mọi chức năng cho riêng ERP."
+      ],
+      [
+        "Từ dữ liệu cần đối chiếu đến phạm vi triển khai",
+        "Cùng Quý Doanh Nghiệp xác định dữ liệu cần chuẩn bị, cách ghi nhận hiện tại và các quy trình cần kết nối. Đây là bước trao đổi nhu cầu để phác thảo lộ trình phù hợp; thứ tự này không phải lịch triển khai Aplus đã được nguồn công bố."
+      ],
+      [
+        "Quý Doanh Nghiệp muốn bắt đầu từ phạm vi nào?",
+        "Cùng chúng tôi trao đổi hiện trạng quy trình và dữ liệu, để phác thảo lộ trình triển khai phù hợp với nhu cầu quản trị của Quý Doanh Nghiệp."
+      ]
+    ],
+    "source_url": "https://www.digihua.com/常州欣盛半导体技术股份有限公司/",
+    "contact_url": "https://www.digiwin.com.vn/contact-vn/"
+  },
+  "case_script": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-time-final/case-script.json",
+    "sha256": "3d146e5be08ba97476882e75abc1ee0c998eb9e04fdfd4bff8fdf842f5cfb71f"
+  },
+  "proof": {
+    "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timeproof-v1/SOURCE_PROOF.md",
+    "sha256": "1303faf7d97b78583587860037cad660185642dbc28f506787299527848c81ba"
+  },
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+    "revision": "1.0"
+  },
+  "email": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3"
+  },
+  "policy": {
+    "path": "operations/VN_Locale_Reader_Voice_Gate.md",
+    "sha256": "bb0ad4f22cd6b071e9947fef8f015149174f70e57dd7f721f55f8a86a97a78fc",
+    "revision": "1.1"
+  },
+  "MSG-ANCHOR-01": "MESSAGE_ANCHOR_PASS_SELF_REVIEW — VN preparation/scope, case China named before metric, no qualification promise",
+  "VN-VOICE-01": "VN_VOICE_PASS_SELF_REVIEW — exact Quý Doanh Nghiệp, advertiser direct invitation",
+  "AD-ED-01": "PASS_FOR_OFFLINE_CASE_TEXT_ONLY",
+  "units": [
+    {
+      "heading": "Thời gian dự án được công bố",
+      "exact_body": "Nguồn ghi nhận toàn dự án tích hợp iMES + TOP GP hoàn tất go-live trong vòng 3 tháng. Đây là kết quả của case Aplus. Nguồn không xác định thời gian từ buổi tư vấn đầu tiên đến khi hoàn thành kiểm tra khách hàng, cũng không công bố kết quả vượt audit.",
+      "observation": "Same case/solution/time endpoint or editorial reader invitation; no deadline promise, no auditpass/ERP-only expansion"
+    },
+    {
+      "heading": "Phạm vi đi vào vận hành",
+      "exact_body": "Các kết quả được công bố gồm quy trình hiện trường không dùng giấy, thu thập dữ liệu đo và phân tích SPC, báo công theo serial để truy xuất lịch sử từng sản phẩm, cùng quản lý tham số ECN, TECN, SEN. Các cơ chế thuộc giải pháp tích hợp; không quy mọi chức năng cho riêng ERP.",
+      "observation": "Same case/solution/time endpoint or editorial reader invitation; no deadline promise, no auditpass/ERP-only expansion"
+    },
+    {
+      "heading": "Từ dữ liệu cần đối chiếu đến phạm vi triển khai",
+      "exact_body": "Cùng Quý Doanh Nghiệp xác định dữ liệu cần chuẩn bị, cách ghi nhận hiện tại và các quy trình cần kết nối. Đây là bước trao đổi nhu cầu để phác thảo lộ trình phù hợp; thứ tự này không phải lịch triển khai Aplus đã được nguồn công bố.",
+      "observation": "Same case/solution/time endpoint or editorial reader invitation; no deadline promise, no auditpass/ERP-only expansion"
+    },
+    {
+      "heading": "Quý Doanh Nghiệp muốn bắt đầu từ phạm vi nào?",
+      "exact_body": "Cùng chúng tôi trao đổi hiện trạng quy trình và dữ liệu, để phác thảo lộ trình triển khai phù hợp với nhu cầu quản trị của Quý Doanh Nghiệp.",
+      "observation": "Same case/solution/time endpoint or editorial reader invitation; no deadline promise, no auditpass/ERP-only expansion"
+    }
+  ],
+  "POSTGEN": "NOT_RUN"
+}

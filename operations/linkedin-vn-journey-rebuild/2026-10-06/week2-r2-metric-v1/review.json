@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "revision": "week2-r2-metric-v1-review",
+  "writer": "/root",
+  "reviewer": "/root",
+  "date": "2026-10-06",
+  "scope": "OFFLINE_SOURCE_COPY",
+  "independence": "SELF_REVIEW",
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/contract.json",
+      "sha256": "29768a8329d8109104344179cd703cbd36752214cb7563fcc87876ffd0aab011",
+      "revision": "week2-r2-metric-v1-contract"
+    },
+    "copy": {
+      "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/public-copy.json",
+      "sha256": "cdf979140838a414e51d9e16e51b17c858ebb3f946cab239d92b79f75a733b45",
+      "revision": "week2-r2-metric-v1-copy"
+    },
+    "sources": [
+      {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/authority.md",
+        "sha256": "d736068ac82ee24f8dbff28e7b36ea0507c1626d209f5424bf1b9429b1e1c2a3",
+        "revision": "Bao-week2-offline-mandate"
+      },
+      {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/PLAN.md",
+        "sha256": "32ab415c1b51eaf72ea27f9b73332849cd4c03e482cf4a13a6f99af92d6879fa",
+        "revision": "time-generation-contract"
+      },
+      {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timeproof-v1/SOURCE_PROOF.md",
+        "sha256": "1303faf7d97b78583587860037cad660185642dbc28f506787299527848c81ba",
+        "revision": "Aplus-timing-proof"
+      },
+      {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-timeproof-v1/STORYBOARD.md",
+        "sha256": "3db8b2dae1020e4a283cf8137bc07eb29b3a6b1adac7d1042c6ca736eae009f6",
+        "revision": "time-storyboard"
+      },
+      {
+        "path": "operations/linkedin-vn-journey-rebuild/2026-10-06/week2-r2-metric-v1/case-script.json",
+        "sha256": "3d146e5be08ba97476882e75abc1ee0c998eb9e04fdfd4bff8fdf842f5cfb71f",
+        "revision": "Aplus-VN-case-script"
+      }
+    ]
+  },
+  "verdicts": {
+    "source_copy": "PASS",
+    "editorial": "PASS",
+    "first_mention": "PASS"
+  },
+  "reviewed_ads": [
+    "VN-B-T-RMK"
+  ],
+  "reviewed_fields": [
+    "VN-B-T-RMK/caption",
+    "VN-B-T-RMK/VN-B-T-R2.headline",
+    "VN-B-T-RMK/VN-B-T-R2.body",
+    "VN-B-T-RMK/VN-B-T-R2.source_text",
+    "VN-B-T-RMK/VN-B-T-R2.cta",
+    "VN-B-T-RMK/VN-B-T-R2.native_headline",
+    "VN-B-T-RMK/VN-B-T-R2.alt",
+    "VN-B-T-RMK/VN-B-T-R2.artwork_labels"
+  ],
+  "unresolved_findings": []
+}

@@ -1,0 +1,22 @@
+{
+  "execution": "SUCCESS",
+  "audit": "SELF_REVIEW / NOT_INDEPENDENT",
+  "status": "READY_FOR_BAO_REVIEW / NEW9_PO_PENDING",
+  "selected": 10,
+  "new": 9,
+  "retained": 1,
+  "actual_calls": 10,
+  "corrections": 1,
+  "render_evidence": 22,
+  "checks": [
+    "Original/native/demo byte equality",
+    "10 immediate guards and current input pins unchanged",
+    "Actual 10 native +20 demo +2 case views",
+    "Public copy projection",
+    "Fresh exact case text",
+    "Observed reader address scan",
+    "Protected accepted Cold/v3/core unchanged"
+  ],
+  "git": "Local working files only; no commit/merge/push",
+  "live": "No account change"
+}

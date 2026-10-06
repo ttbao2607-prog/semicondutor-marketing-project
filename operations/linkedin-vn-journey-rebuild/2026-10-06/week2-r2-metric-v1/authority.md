@@ -1,0 +1,1 @@
+Bảo: Card2/5 RMK thêm metric3tháng đi vào vận hành. Targeted R2 image edit and demo refresh only; other9images retained. Scope entire Aplus integrated iMES+TOPGP go-live, no reader deadline promise. Owner /root; offline only. CandidateB not automatically PO accepted or live. Frozen Coldv4/Aplus v3 untouched. 1base/card and at most1targeted correction/card.
