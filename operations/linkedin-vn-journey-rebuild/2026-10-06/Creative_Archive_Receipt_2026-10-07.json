@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-07",
+  "status": "CREATIVE_CLOSED / OFFLINE_ADOPTED",
+  "source_archive_branch": "slice/linkedin-vn-journey-rebuild",
+  "source_archive_commit": "4dda8694f10a7ae93b8574d781a0bb8498a193af",
+  "evidence_checkpoint": "73ec3b08234627dc874b37169b483f2c784b733b",
+  "source_worktree_clean_verified": true,
+  "current_artifact_main_commit": "c869982",
+  "retirement_scope": [
+    "D:/LinkedIn_VN_Journey_Rebuild_2026-10-06",
+    "D:/LinkedIn_VN_Value_Main_2026-10-07"
+  ],
+  "retirement_conditions": "Only remove clean named worktrees after this handoff commit reaches main; retain both branches and all committed evidence. No force removal, recursive shell deletion or other worktree changes.",
+  "restore_example": "git worktree add D:/LinkedIn_VN_Archive_Restore slice/linkedin-vn-journey-rebuild",
+  "remaining": [
+    "LDP import/runtime validation with separate deployment mandate",
+    "Live LinkedIn audience/format eligibility and measurement review",
+    "Remote main backup when explicitly requested"
+  ],
+  "remote": "Local commits only; no push in this closeout scope",
+  "scope": "Current Aplus swap handoff integrated; all historical trial/evidence stays on source archive branch, not main."
+}
