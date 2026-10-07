@@ -1,0 +1,271 @@
+{
+  "observed_local_at": "2026-10-07T13:39:59.578372+07:00",
+  "main_baseline": "b985009b8cafab6bc76ba0930ce03bc3cf2d309b",
+  "remote_tracking_main": "2cf29d638a6ad212d5e1a583efbd2f3d68fafda2",
+  "live_github_verified": false,
+  "live_account_readback": false,
+  "sources": {
+    "original_company_list": {
+      "worktree": "D:/optimize-awareness-LinkedIn-adcopy",
+      "branch": "slice/linkedin-audience-ready-research",
+      "head": "f2883d1c9db7c4abb72afa8998d2bde0cc192b74",
+      "dirty": true,
+      "files": [
+        {
+          "path": "operations/linkedin-closeout/2026-10-05/STATE.md",
+          "sha256": "133a6f79022d24db76450ab7130b2cafbc438530ada5297fa7a0ca2383c9b756",
+          "committed_at_head": false
+        },
+        {
+          "path": "operations/linkedin-closeout/2026-10-05/slice-a/HANDOFF.md",
+          "sha256": "980d17f0ad27d8e19c12279247f2021392e978f46c0f5a413e23f84d8a6564fb",
+          "committed_at_head": true
+        },
+        {
+          "path": "operations/linkedin-closeout/2026-10-05/slice-a/FULL_MATCHING_RESEARCH_RESULT_20261006.md",
+          "sha256": "c2fa9942ea70873f7301b7daac444270e7a58acffca5a4aa7665f30be7072c16",
+          "committed_at_head": false
+        },
+        {
+          "path": "operations/LinkedIn_PO_Direction_Budget_Checkpoint_2026-10-06.md",
+          "sha256": "6ac4fa53fa65d5b266f7ffb0f47baabd2cb2892dbeea8d8066cdfe329ced4f17",
+          "committed_at_head": true
+        },
+        {
+          "path": "operations/LinkedIn_Worktree_Consolidation_Result_2026-10-06.md",
+          "sha256": "b53f905054f0c02ced59ae7fdac6bf01e37d60e4f637d0793f2a8ec193eb4244",
+          "committed_at_head": true
+        }
+      ]
+    },
+    "backup_contingency": {
+      "worktree": "D:/Digiwin_LinkedIn_Contingency_Audience",
+      "branch": "slice/linkedin-contingency-audience",
+      "head": "910923c17561ccad1a30eb78aa910cc7a4489a5b",
+      "dirty": false,
+      "files": [
+        {
+          "path": "operations/LinkedIn_Contingency_R5_52_Upload_2026-10-07.md",
+          "sha256": "a689bf6805758a46793ebd5787881e0bb39d77e0a1dc81b67db1568e58bfae8d",
+          "committed_at_head": true
+        },
+        {
+          "path": "operations/LinkedIn_Contingency_R5_PostMatch_Check_2026-10-07.md",
+          "sha256": "5ef142f52042eb3fca9c05a31715eb26b83ff878722ddf7a0e3786477b0a34d7",
+          "committed_at_head": true
+        }
+      ]
+    },
+    "osat": {
+      "worktree": "D:/LinkedIn_Safe_OSAT_2026-10-07",
+      "branch": "slice/linkedin-safe-osat-parallel",
+      "head": "9adc1ce364e0e7b0f49900bce38004081a889f1a",
+      "dirty": false,
+      "files": [
+        {
+          "path": "operations/linkedin-safe-batches/parallel-osat-2026-10-07/ledger.json",
+          "sha256": "7f8715f06157537fb4f35562c6df7c874e59a3d7f9f9d0fe13e654c0963c95de",
+          "committed_at_head": true
+        },
+        {
+          "path": "operations/linkedin-safe-batches/parallel-osat-2026-10-07/B10-B12-main-integration/local-main-closeout.json",
+          "sha256": "9a6d38d4808b2d8216d52e51e54b512ebf9d66d4e9bb8a2fa59cdec35fcfee71",
+          "committed_at_head": true
+        }
+      ]
+    },
+    "fabless": {
+      "worktree": "D:/LinkedIn_Safe_Fabless_2026-10-07",
+      "branch": "slice/linkedin-safe-fabless-parallel",
+      "head": "e3b65780356cdf5f489ea3a45ac4927af616cd81",
+      "dirty": true,
+      "files": [
+        {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/ledger.json",
+          "sha256": "ef24df08134c3690ea10c65a1957010bc52ae2dbb87580bb212583b8e273d3d9",
+          "committed_at_head": true
+        },
+        {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/attempt-ledger.json",
+          "sha256": "67b5181ed039fd6c14838b7561437db2268aa45bedc83224c80a961cc4e52d33",
+          "committed_at_head": false
+        }
+      ]
+    },
+    "partner": {
+      "worktree": "D:/LinkedIn_Safe_Partner_2026-10-07",
+      "branch": "slice/linkedin-safe-partner-parallel",
+      "head": "2e1652c65242e2c1eac11491e526e78aa18ac3ad",
+      "dirty": true,
+      "files": [
+        {
+          "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/ledger.json",
+          "sha256": "362ad57e68dfa8090356033e6bf5a1fe49a1c0ea634fcd0df5991796e986a904",
+          "committed_at_head": false
+        },
+        {
+          "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/postgen-review-v7.json",
+          "sha256": "8f1a55813ad73297dd271c35dadd777fa7697c104bc986ec8ed6ca23d4965b16",
+          "committed_at_head": true
+        },
+        {
+          "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/attempt-ledger.json",
+          "sha256": "090f6b913227e27eb2dcb6b3026832178973e54a6092f7a2639fe35ca50ed773",
+          "committed_at_head": false
+        },
+        {
+          "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v1/attempt-ledger.json",
+          "sha256": "860d5c43420b6d8bc94b8d05b2cf5180f2b499f8fa774b9a4ce0c9b2b665877b",
+          "committed_at_head": false
+        }
+      ]
+    },
+    "fdi_html": {
+      "worktree": "D:/LinkedIn_FDI_Destination_HTML_2026-10-07",
+      "branch": "slice/linkedin-fdi-destination-html",
+      "head": "5b99984b142c9799c4e03e4da9ae34509b6ea926",
+      "dirty": false,
+      "files": [
+        {
+          "path": "operations/fdi-destination-html/2026-10-07/README.md",
+          "sha256": "baef72ed8ad6f7e609a0f95e226b71f0b55325792ab2e87960e023b90f1c9f6e",
+          "committed_at_head": false
+        },
+        {
+          "path": "operations/fdi-destination-html/2026-10-07/inventory.csv",
+          "sha256": "c850834091a656c9e9e81c560243b2fa24740a38a97d8a61f32c590ba00fc48f",
+          "committed_at_head": true
+        }
+      ]
+    }
+  },
+  "worktree_inventory": [
+    {
+      "worktree": "D:\\Digiwin_Semiconducter_Workspace",
+      "head": "b985009b8cafab6bc76ba0930ce03bc3cf2d309b",
+      "branch": "refs/heads/main",
+      "dirty": false
+    },
+    {
+      "worktree": "D:\\Digiwin_Fabless_Interaction_Fix",
+      "head": "8f94184288d5f3da8a7b8b796b8dbe7a11f0714d",
+      "branch": "refs/heads/slice/fabless-interaction-fix",
+      "dirty": false
+    },
+    {
+      "worktree": "D:\\Digiwin_LinkedIn_Contingency_Audience",
+      "head": "910923c17561ccad1a30eb78aa910cc7a4489a5b",
+      "branch": "refs/heads/slice/linkedin-contingency-audience",
+      "dirty": false
+    },
+    {
+      "worktree": "D:\\Digiwin_Reconciliation_Offline_Fix",
+      "head": "f49ce83aab18779228fbe5f696d0bafab5cb770e",
+      "branch": "refs/heads/slice/reconciliation-offline-fix",
+      "dirty": false
+    },
+    {
+      "worktree": "D:\\LinkedIn_B10_B12_Approved_Main_2026-10-07",
+      "head": "b985009b8cafab6bc76ba0930ce03bc3cf2d309b",
+      "branch": "refs/heads/slice/linkedin-b10-b12-approved-main",
+      "dirty": false
+    },
+    {
+      "worktree": "D:\\LinkedIn_B1_V2_Main_2026-10-06",
+      "head": "26f89d0526cd5d5f255782ce1e79401256b98a4b",
+      "branch": "refs/heads/slice/linkedin-b1-v2-main",
+      "dirty": false
+    },
+    {
+      "worktree": "D:\\LinkedIn_B2_B3_Approved_Main_2026-10-07",
+      "head": "cc904e2c25bfbc191a2027916601d10a4a6ddf21",
+      "branch": "refs/heads/slice/linkedin-b2-b3-approved-main",
+      "dirty": false
+    },
+    {
+      "worktree": "D:\\LinkedIn_B4_B5_Approved_Main_2026-10-07",
+      "head": "b2694b4ea9b556bb28562b1b22f10edefa1493e3",
+      "branch": "refs/heads/slice/linkedin-b4-b5-approved-main",
+      "dirty": false
+    },
+    {
+      "worktree": "D:\\LinkedIn_B6_B7_Approved_Main_2026-10-07",
+      "head": "65e06e8c82461664bc1ffd06853a277f1582a2a2",
+      "branch": "refs/heads/slice/linkedin-b6-b7-approved-main",
+      "dirty": false
+    },
+    {
+      "worktree": "D:\\LinkedIn_B8_B9_Approved_Main_2026-10-07",
+      "head": "568a16f2358c1f28fa6b34827ba6c82022045732",
+      "branch": "refs/heads/slice/linkedin-b8-b9-approved-main",
+      "dirty": false
+    },
+    {
+      "worktree": "D:\\LinkedIn_Candidate2_Main_2026-10-06",
+      "head": "e162eff2ee60d7292b0dfcbb864796a245f9462f",
+      "branch": "refs/heads/slice/linkedin-candidate2-main",
+      "dirty": false
+    },
+    {
+      "worktree": "D:\\LinkedIn_Current_Docs_2026-10-07",
+      "head": "b985009b8cafab6bc76ba0930ce03bc3cf2d309b",
+      "branch": "refs/heads/slice/linkedin-current-docs-reconciliation",
+      "dirty": true
+    },
+    {
+      "worktree": "D:\\LinkedIn_FDI_Destination_HTML_2026-10-07",
+      "head": "5b99984b142c9799c4e03e4da9ae34509b6ea926",
+      "branch": "refs/heads/slice/linkedin-fdi-destination-html",
+      "dirty": false
+    },
+    {
+      "worktree": "D:\\LinkedIn_Locale_Approved_Main_Integration_2026-10-06",
+      "head": "efde2357efd5d9c8f97552ca1855b50afe7c5ba6",
+      "branch": "refs/heads/slice/linkedin-locale-approved-main",
+      "dirty": false
+    },
+    {
+      "worktree": "D:\\LinkedIn_Partner_Ambiguity_Main_2026-10-07",
+      "head": "d6eda95afaf9a81a5dc5bdde29c6eff2e749a928",
+      "branch": "refs/heads/slice/partner-ambiguity-docs-main",
+      "dirty": false
+    },
+    {
+      "worktree": "D:\\LinkedIn_Safe_Fabless_2026-10-07",
+      "head": "e3b65780356cdf5f489ea3a45ac4927af616cd81",
+      "branch": "refs/heads/slice/linkedin-safe-fabless-parallel",
+      "dirty": true
+    },
+    {
+      "worktree": "D:\\LinkedIn_Safe_OSAT_2026-10-07",
+      "head": "9adc1ce364e0e7b0f49900bce38004081a889f1a",
+      "branch": "refs/heads/slice/linkedin-safe-osat-parallel",
+      "dirty": false
+    },
+    {
+      "worktree": "D:\\LinkedIn_Safe_Partner_2026-10-07",
+      "head": "2e1652c65242e2c1eac11491e526e78aa18ac3ad",
+      "branch": "refs/heads/slice/linkedin-safe-partner-parallel",
+      "dirty": true
+    },
+    {
+      "worktree": "D:\\LinkedIn_VN_V3_Main_Integration_2026-10-06",
+      "head": "f362294c52dfe5be2b8aa3b0751dd1d036a6ee05",
+      "branch": "refs/heads/slice/linkedin-vn-v3-main",
+      "dirty": false
+    },
+    {
+      "worktree": "D:\\LinkedIn_VN_Week2_Main_2026-10-06",
+      "head": "e3bb7cd2cdb103b033048f72db5b106fd22298c3",
+      "branch": "refs/heads/slice/linkedin-vn-week2-main",
+      "dirty": false
+    },
+    {
+      "worktree": "D:\\optimize-awareness-LinkedIn-adcopy",
+      "head": "f2883d1c9db7c4abb72afa8998d2bde0cc192b74",
+      "branch": "refs/heads/slice/linkedin-audience-ready-research",
+      "dirty": true
+    }
+  ],
+  "scope": "Sanitized progress metadata only; no raw account/company rows or credentials. Active source worktrees read-only."
+}
