@@ -1,0 +1,96 @@
+{
+  "artifact_status": "NATIVE_CONTENT_REVIEWED_RENDER_PARTIAL",
+  "business_message_observation": "FDI Operations with Quality uses three questions: same lot/process-stage/record-time scope, source record needed for handoff, and who checks missing information/confirms next step. English professional operational wording, implicit coordination value; no invented ROI%, yield result or ERP-only synchronized-status outcome.",
+  "card_reviews": [
+    {
+      "card_id": "COLD-OSAT-OPS-02-IMAGE",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "B4 final cold inspected anew: two record owners, shared lot and neutral handoff path; no completed result."
+    },
+    {
+      "card_id": "O4-O-B1",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "B4 final entry inspected anew: lot reports from different perspectives, no root-cause diagnosis."
+    },
+    {
+      "card_id": "O4-O-B2",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "New question1: unlabelled barcode/process/calendar-time pictograms; no date/record values, chart, or result."
+    },
+    {
+      "card_id": "O4-O-B3",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "New question2: source paper to receiving folder, no completed confirmation badge or invented record contents."
+    },
+    {
+      "card_id": "O4-O-B4",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "New question3: neutral receiving chips, blank records and shipping containers; no ticks, approval or resolved exception."
+    },
+    {
+      "card_id": "O4-O-B5",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "B4 final closing inspected anew: shared basis, source distinct from CTA; no automatic synchronization."
+    },
+    {
+      "card_id": "RMK-R4-1",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "B4 final company-introduction proof inspected anew: manufacturing solutions scope, no case outcome."
+    },
+    {
+      "card_id": "RMK-R4-2",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "B4 final China case proof inspected anew: legal entity exact, integrated ERP+iMES scope, no national scenery."
+    },
+    {
+      "card_id": "RMK-R4-3",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "B4 final linked-record proof inspected anew: batch/workstation/operator/material links, no fabricated data/results."
+    },
+    {
+      "card_id": "RMK-R4-4",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "B4 final implementation reading proof inspected anew: China entity/source/CTA exact; no Vietnam case or qualification promise."
+    }
+  ],
+  "findings": [
+    {
+      "card_id": "VIEWER_METADATA",
+      "severity": "RESOLVED_HELPER_LABEL",
+      "finding": "Copied preview helper initially displayed O2 instead of O4-O in the page title/heading.",
+      "disposition": "Owned delivery helpers corrected to O4-O before final selected manifest; refreshed CUA screenshots observed correct title. Released generation inputs and frozen adapter/harness unchanged."
+    }
+  ],
+  "render_coverage": {
+    "native_pngs": 10,
+    "desktop_feed333_cards": [
+      "COLD-OSAT-OPS-02-IMAGE",
+      "O4-O-B1",
+      "O4-O-B2",
+      "O4-O-B3",
+      "O4-O-B4",
+      "O4-O-B5",
+      "RMK-R4-1",
+      "RMK-R4-2",
+      "RMK-R4-3",
+      "RMK-R4-4"
+    ],
+    "desktop640": "Cold top in main viewer observed; all-card coverage incomplete.",
+    "mobile": {
+      "actual_width": 390,
+      "actual_height": 844,
+      "art_width": 333,
+      "status": "INSUFFICIENT_EVIDENCE",
+      "failure": "Question1 screenshot timed out; no successful B7 mobile screenshot counted."
+    },
+    "reader": "Desktop head through SPC/ECN observed; bottom source content DOM read but footer screenshot timed out, not visual PASS. Mobile reader not observed.",
+    "screenshots": "Actual CUA screenshots inspected in this session; no screenshot file artifact claimed."
+  },
+  "journey_review": {
+    "copy": "All captions/native headlines/alts, artwork text and reader-source copy read in full before generation; native7reused+3new inspected in new context.",
+    "transitions": "Nine Next actions observed counters2/10 through10/10; reader navigation observed. Return links observed in DOM, return action not executed.",
+    "source": "Named China case supports linked-record/parameter-change/exception workflow inquiry, not a guarantee of resolving conflicting status reports.",
+    "experiment": "Three-question treatment versus B4 narrative; cold/entry/closing/proof controlled by byte-identical reuse. No winner or clean factorial claim.",
+    "verdict": "Scoped semantic review; whole-render technical gate INSUFFICIENT_EVIDENCE."
+  }
+}

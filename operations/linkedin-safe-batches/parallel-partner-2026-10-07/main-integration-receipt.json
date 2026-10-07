@@ -3,7 +3,7 @@
   "checkpoint_kind": "DOCS_AMBIGUITY_CORRECTION_ONLY",
   "authority": "Bao current session: selectively merge this correction into main, then plan first batch",
   "source_checkpoint": "8d94be6a338d49538f09d36b7461f06c3d3c1a77",
-  "main_base": "b2694b4ea9b556bb28562b1b22f10edefa1493e3",
+  "main_base": "65e06e8c82461664bc1ffd06853a277f1582a2a2",
   "source_selected_files": 28,
   "exact_source_blob_copies": [
     "operations/linkedin-awareness-execution/p1-owner-imagegen-r1/READ_BEFORE_REUSE.md",
@@ -280,5 +280,8 @@
   "pushed": false,
   "verification": "SELF_REVIEW; source delta, main protected content and exact new Git blobs checked",
   "integration_commit": "Containing commit; final fast-forward/main SHA recorded in source closeout receipt",
-  "main_status_wording": "Current tracked-doc banners reconciled to local-main adoption; source candidate evidence preserved as dated snapshot"
+  "main_status_wording": "Current tracked-doc banners reconciled to local-main adoption; source candidate evidence preserved as dated snapshot",
+  "initial_main_base": "b2694b4ea9b556bb28562b1b22f10edefa1493e3",
+  "concurrent_main_change": "OSAT B6/B7 selected integration advanced main while Partner docs were prepared",
+  "reconciliation": "Merged current main into docs integration branch; six current-doc conflicts reconstructed from full 65e06e8 content plus bounded docs delta. All OSAT assets/receipts and selected main truth preserved."
 }
