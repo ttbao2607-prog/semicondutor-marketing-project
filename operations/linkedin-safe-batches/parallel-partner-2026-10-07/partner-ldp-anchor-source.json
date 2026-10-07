@@ -1,0 +1,317 @@
+{
+  "revision": "partner-approved-ldp-anchor-v1",
+  "authority": "Bao current-session instruction: use management-approved Partner Google Ads LDP as Partner content anchor",
+  "live_url": "https://solutions.digiwin.com.vn/supplierecosystem",
+  "live_revalidated_this_session": false,
+  "source_pins": [
+    {
+      "path": "landing/partner-route/supplier-ecosystem-flat.html",
+      "sha256": "d69c06b2a1f78e11b6087e6cd8580cab7d3bcd3c72ea71ce3dc1ec8964538f14"
+    },
+    {
+      "path": "landing/partner-route/supplier-four-locale-copy.json",
+      "sha256": "bf9c009a188b5f6c3f6c9600ee2d466c12deb72eb48b3f91d2ba082987033c82"
+    },
+    {
+      "path": "operations/Vy_Email_Content_Anchor.md",
+      "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+    },
+    {
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+    },
+    {
+      "path": "operations/Public_Source_Register.md",
+      "sha256": "ea9cd2def0d708c5f701d6b31a2e80f2c1d8a162f3bf1b61f12142abba8e613c"
+    },
+    {
+      "path": "operations/evidence/locale/2026-09-30-four-locale-production-deployment.md",
+      "sha256": "50329f6afd58e807011d9f3e2ecfe515913c413b5f9789c5d5685cd9a4872d29"
+    }
+  ],
+  "content_blocks": [
+    {
+      "line": 2462,
+      "section": "top",
+      "tag": "h1",
+      "text": "Từ quản trị nhà máy đến dữ liệu thiết bị:kết nối các lớp vận hành."
+    },
+    {
+      "line": 2463,
+      "section": "top",
+      "tag": "p",
+      "text": "Khám phá cách hệ sinh thái Digiwin & DigiHua tiếp cận quản trị doanh nghiệp, thực thi sản xuất và tích hợp dữ liệu thiết bị, đáp ứng linh hoạt các bài toán vận hành của doanh nghiệp cung ứng trong chuỗi bán dẫn."
+    },
+    {
+      "line": 2469,
+      "section": "top",
+      "tag": "p",
+      "text": "Kiến trúc vận hành chuẩn hóa được may đo và tích hợp trực tiếp theo hiện trạng thiết bị của từng phân xưởng."
+    },
+    {
+      "line": 2474,
+      "section": "top",
+      "tag": "h2",
+      "text": "Hồ Sơ Năng Lực Thực Tế"
+    },
+    {
+      "line": 2659,
+      "section": "audience-context",
+      "tag": "h2",
+      "text": "Một chuỗi ngành, không chỉ một bài toán vận hành."
+    },
+    {
+      "line": 2660,
+      "section": "audience-context",
+      "tag": "p",
+      "text": "Chọn bối cảnh để xem những lớp thông tin cần được đặt cạnh nhau trong chuỗi vận hành bán dẫn."
+    },
+    {
+      "line": 2669,
+      "section": "audience-context",
+      "tag": "h3",
+      "text": "Vật liệu & sản xuất phụ trợ"
+    },
+    {
+      "line": 2670,
+      "section": "audience-context",
+      "tag": "p",
+      "text": "Khi theo dõi sản xuất, cần đặt tiến độ, lô hàng và thông tin chất lượng trong cùng bối cảnh vận hành."
+    },
+    {
+      "line": 2678,
+      "section": "audience-context",
+      "tag": "h3",
+      "text": "Nhà chế tạo thiết bị"
+    },
+    {
+      "line": 2679,
+      "section": "audience-context",
+      "tag": "p",
+      "text": "Khi quản trị hoạt động sản xuất thiết bị, cần nhìn được thông tin doanh nghiệp, thực thi sản xuất và dữ liệu kiểm tra liên quan."
+    },
+    {
+      "line": 2687,
+      "section": "audience-context",
+      "tag": "h3",
+      "text": "Tích hợp & tự động hóa"
+    },
+    {
+      "line": 2688,
+      "section": "audience-context",
+      "tag": "p",
+      "text": "Khi kết nối các hệ thống, cần xác định rõ dữ liệu nào trao đổi giữa ERP, lớp thực thi và thiết bị; đơn vị nào phụ trách từng lớp."
+    },
+    {
+      "line": 2698,
+      "section": "ecosystem-architecture",
+      "tag": "h2",
+      "text": "Nhìn rõ ranh giới từng lớp trước khi nói về kết nối chuỗi."
+    },
+    {
+      "line": 2699,
+      "section": "ecosystem-architecture",
+      "tag": "p",
+      "text": "Hệ sinh thái Digiwin ERP ↔ DigiHua iMES ↔ Chuẩn kết nối SECS/GEM: Chuẩn hóa luồng dữ liệu 2 chiều từ quản trị kinh doanh đến từng cảm biến & lệnh Recipe của máy móc."
+    },
+    {
+      "line": 2789,
+      "section": "ecosystem-architecture",
+      "tag": "h3",
+      "text": "Khớp lệnh dự báo Fab, hoạch định nguyên vật liệu & minh bạch giá thành"
+    },
+    {
+      "line": 2902,
+      "section": "ecosystem-architecture",
+      "tag": "h3",
+      "text": "Run Card số hóa, kiểm soát công đoạn & xuất chứng thư CoC dưới 2.5 giây"
+    },
+    {
+      "line": 3014,
+      "section": "ecosystem-architecture",
+      "tag": "h3",
+      "text": "Chuẩn hóa SECS/GEM, nạp Recipe tự động & thu thập dữ liệu máy 24/7"
+    },
+    {
+      "line": 3136,
+      "section": "ecosystem-architecture",
+      "tag": "p",
+      "text": "Kiến trúc tích hợp hệ sinh thái: Chuẩn hóa theo cấu hình từng phân xưởng. Tương thích toàn diện với các chuẩn công nghiệp bán dẫn quốc tế (SEMI E30/E37/E87); Digiwin trực tiếp khảo sát và thiết lập ma trận kết nối tối ưu cho dây chuyền thực tế."
+    },
+    {
+      "line": 3155,
+      "section": "operations-questions",
+      "tag": "h2",
+      "text": "Kết nối để giải bài toán nhà máy, không phải để nối thêm phần mềm."
+    },
+    {
+      "line": 3156,
+      "section": "operations-questions",
+      "tag": "p",
+      "text": "Thời gian dừng máy không lên lịch, lỗi recipe không được truy nguyên, lô bị reject không có CoC đủ độ sâu. Đây chính là chi phí thực tế của việc vận hành mà không có hệ thống nào nói chuyện được với nhau. Chúng tôi không bán thêm phần mềm; chúng tôi đóng đúng ba khoảng trống đó."
+    },
+    {
+      "line": 3227,
+      "section": "product-evidence",
+      "tag": "h2",
+      "text": "Một dòng dữ liệu xuyên suốt nhà máy bán dẫn."
+    },
+    {
+      "line": 3227,
+      "section": "product-evidence",
+      "tag": "p",
+      "text": "Digiwin kết nối kế hoạch doanh nghiệp, thực thi sản xuất, quản trị chất lượng và dữ liệu thiết bị trên cùng một dòng vận hành."
+    },
+    {
+      "line": 3275,
+      "section": "product-evidence",
+      "tag": "p",
+      "text": "Mỗi mô hình được khảo sát và thiết kế theo quy trình, thiết bị, tiêu chuẩn chất lượng và mục tiêu vận hành riêng của doanh nghiệp."
+    },
+    {
+      "line": 3291,
+      "section": "supply-chain",
+      "tag": "h2",
+      "text": "Wafer Works: kết nối dữ liệu từ tăng trưởng tinh thể đến epitaxy."
+    },
+    {
+      "line": 3292,
+      "section": "supply-chain",
+      "tag": "p",
+      "text": "Digiwin đồng hành cùng Wafer Works trong việc xây dựng năng lực truy xuất và minh bạch vận hành cho chuỗi sản xuất silicon wafer, bao phủ toàn diện từ tăng trưởng tinh thể, gia công wafer đến kiểm soát lịch sử epitaxy."
+    },
+    {
+      "line": 3295,
+      "section": "supply-chain",
+      "tag": "p",
+      "text": "Theo dõi lịch sử sản xuất xuyên suốt từ tinh thể silicon đến từng lô wafer."
+    },
+    {
+      "line": 3296,
+      "section": "supply-chain",
+      "tag": "p",
+      "text": "Minh bạch WIP, tiến độ và trạng thái của các thiết bị có giá trị cao."
+    },
+    {
+      "line": 3297,
+      "section": "supply-chain",
+      "tag": "p",
+      "text": "Quản lý lịch sử epitaxy, giới hạn thông số và cảnh báo sớm rủi ro chất lượng."
+    },
+    {
+      "line": 3300,
+      "section": "supply-chain",
+      "tag": "p",
+      "text": "Nhà cung ứng silicon wafer toàn cầu"
+    },
+    {
+      "line": 3301,
+      "section": "supply-chain",
+      "tag": "p",
+      "text": "Kinh nghiệm số hóa ngành bán dẫn"
+    },
+    {
+      "line": 3302,
+      "section": "supply-chain",
+      "tag": "p",
+      "text": "Khách hàng bán dẫn hai bờ"
+    },
+    {
+      "line": 3305,
+      "section": "supply-chain",
+      "tag": "p",
+      "text": "Hệ thống chỉ số quy mô và kinh nghiệm chuyên sâu được Digiwin đúc kết qua hơn hai thập kỷ đồng hành cùng các tổ hợp sản xuất bán dẫn hàng đầu khu vực."
+    },
+    {
+      "line": 3318,
+      "section": "local-delivery",
+      "tag": "h2",
+      "text": "Kinh nghiệm ngành quốc tế. Năng lực chuyển giao tại Việt Nam."
+    },
+    {
+      "line": 3319,
+      "section": "local-delivery",
+      "tag": "p",
+      "text": "Đội ngũ chuyên gia Digiwin Vietnam trực tiếp khảo sát thực địa, chuẩn hóa quy trình nghiệp vụ và đồng hành chuyển giao giải pháp tại chỗ cho các doanh nghiệp sản xuất trong chuỗi cung ứng công nghệ cao."
+    },
+    {
+      "line": 3350,
+      "section": "local-delivery",
+      "tag": "h3",
+      "text": "Phẩm Thuyên Precision Việt Nam"
+    },
+    {
+      "line": 3355,
+      "section": "local-delivery",
+      "tag": "p",
+      "text": "Tại nhà máy gia công dập kim loại và linh kiện phụ trợ chính xác, Digiwin Vietnam triển khai giải pháp điều hành sản xuất eMES để kiểm soát chuyền máy thời gian thực, quản lý phả hệ chất lượng và truy xuất nguồn gốc sản phẩm."
+    },
+    {
+      "line": 3363,
+      "section": "local-delivery",
+      "tag": "p",
+      "text": "Dự án Phẩm Thuyên khẳng định năng lực triển khai thực tế của đội ngũ kỹ sư Digiwin Vietnam trong việc chuyển giao hệ thống điều hành sản xuất, làm chủ tiến độ và đồng hành cùng các mắt xích công nghiệp phụ trợ công nghệ cao."
+    },
+    {
+      "line": 3369,
+      "section": "resources",
+      "tag": "h2",
+      "text": "Bắt đầu từ lớp thông tin cần kết nối."
+    },
+    {
+      "line": 3369,
+      "section": "resources",
+      "tag": "p",
+      "text": "Khám phá sâu hơn hệ sinh thái giải pháp, kiến trúc vận hành và kinh nghiệm triển khai của Digiwin cho doanh nghiệp sản xuất."
+    },
+    {
+      "line": 3371,
+      "section": "resources",
+      "tag": "h3",
+      "text": "DigiHua / Factory stack"
+    },
+    {
+      "line": 3371,
+      "section": "resources",
+      "tag": "p",
+      "text": "Hệ sinh thái MES/MOM/APS/QMS và năng lực tích hợp dữ liệu thiết bị của DigiHua."
+    },
+    {
+      "line": 3372,
+      "section": "resources",
+      "tag": "h3",
+      "text": "Monitech 2026 / DigiHua iMES"
+    },
+    {
+      "line": 3372,
+      "section": "resources",
+      "tag": "p",
+      "text": "iMES kết nối các mắt xích trọng yếu trong chuỗi sản xuất bán dẫn."
+    },
+    {
+      "line": 3373,
+      "section": "resources",
+      "tag": "h3",
+      "text": "Phẩm Thuyên Việt Nam"
+    },
+    {
+      "line": 3373,
+      "section": "resources",
+      "tag": "p",
+      "text": "Dự án eMES cho hoạt động dập kim loại chính xác do Digiwin Vietnam triển khai trong 4 tuần."
+    },
+    {
+      "line": 3374,
+      "section": "resources",
+      "tag": "h3",
+      "text": "Pressway Precision Vietnam"
+    },
+    {
+      "line": 3374,
+      "section": "resources",
+      "tag": "p",
+      "text": "Case Workflow ERP trong sản xuất linh kiện nhựa/điện tử tại Việt Nam."
+    }
+  ],
+  "extraction_scope": "Static HTML section headings/paragraphs; excludes script/style/SVG; not a rendered or semantic PASS"
+}

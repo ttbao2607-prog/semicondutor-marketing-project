@@ -1,3 +1,5 @@
+> **Partner / Supplier — PO clarification 2026-10-07 · docs checkpoint trên main local.** Partner trong paid scope hiện hành là **nhà cung ứng công nghiệp trong chuỗi bán dẫn/điện tử** (PCB, substrate, linh kiện, vật liệu đóng gói, gia công chính xác cho thiết bị), không mặc định là SI/đối tác phần mềm. [LDP Partner Google Ads đã được duyệt là content anchor](operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-ldp-content-anchor-v1.md); giữ đúng audience, bài toán nhà máy, vai trò ERP/iMES/dữ liệu thiết bị và scope từng claim/case. P1/P2 hiện là nguồn persona SI, P3 là nguồn nội địa: phải adapt và review mới trước FDI generation, không kế thừa PASS. Snapshot cũ giữ nghĩa lịch sử. Scope docs ambiguity từ source checkpoint 8d94be6 được tích hợp chọn lọc; chưa push.
+
 > **Main integration · 2026-10-06 — adapter DEVELOPING / NOT_FROZEN.** Bảo chỉ cho tích hợp checkpoint `ffb4fba` (anchor/gate và adapter draft) vào main local; adapter còn developing, chưa freeze/adopt/release. Core ImageGen frozen giữ nguyên scope riêng. [Phạm vi tích hợp và dependency](operations/linkedin-locale-adapter/Main_Integration_2026-10-06.md): không đưa ảnh/viewer/input journey VI cũ lên main; full-journey dogfood, native EN/Chinese QA và creative acceptance còn pending. Các receipt/source-only status bên dưới giữ phạm vi checkpoint cũ, không chứng minh input/asset hiện có trên main. Không push/live.
 
 > **Message anchor · 2026-10-06 — MSG-ANCHOR-01 bắt buộc.** Email gốc đã được Bảo cung cấp trực tiếp trong phiên; [anchor nội dung VN / FDI EN–Chinese](operations/Vy_Email_Content_Anchor.md) tách định hướng audience/persona/message khỏi đề xuất vận hành và phần đã superseded. FDI tập trung business value/ROI có căn cứ; VN là ERP hỗ trợ chuẩn bị năng lực vào chuỗi. Phải đối chiếu anchor revision/SHA256 trước generation và hậu kiểm từng artifact/surface + toàn journey. FAIL → CHANGES_REQUIRED; thiếu review/binding/evidence → INSUFFICIENT_EVIDENCE; đều chặn SCRIPT_REVIEW_PASS và ready/accepted handoff. Core harness, artwork và receipt cũ giữ nguyên; không PASS hồi tố. Những ghi nhận email gốc chưa có và budget/schedule/proposal cũ bên dưới giữ nghĩa lịch sử, không thay trạng thái hiện hành. Bảo đã yêu cầu commit checkpoint local trên nhánh hiện tại; containing commit lưu anchor/gate và adapter draft. Không merge main/push/live; các ghi nhận chưa commit bên dưới là snapshot chuẩn bị.
@@ -48,7 +50,7 @@ Phần lớn thị trường IC Design Việt Nam vẫn đang ở một trong ba
 |---|---|---|---|
 |1|Packaging \&   Testing / OSAT|Việt Nam đã có quy mô vận hành thật; pain MES, WIP, 4M1E, test data, traceability, audit và cost \-\-\- sát năng lực Digiwin\.|Trụ cột nội dung và paid media chính|
 |2|IC Design / Fabless|Có nền nhân lực và doanh nghiệp thiết kế; cơ hội Digiwin rõ hơn khi doanh nghiệp đi từ R\&D sang thương mại hóa, thuê wafer/OSAT và cần quản trị WIP–Datecode–BIN–cost\.|Thought   leadership \+ target account chọn lọc|
-|3|Vật liệu, thiết bị \& công nghiệp hỗ trợ|Nhiều doanh nghiệp cung ứng điện tử, vật liệu, thiết bị và SI có nhu cầu ERP–MES–quality–traceability\.|Nội dung hệ sinh   thái \+ partner|
+|3|Vật liệu, thiết bị \& công nghiệp hỗ trợ|Doanh nghiệp cung ứng điện tử, vật liệu và thiết bị có bài toán nhà máy liên quan ERP–MES–quality–traceability; SI là audience riêng\.|Nội dung hệ sinh   thái \+ partner|
 |4|Wafer Fab /   Foundry|Quan trọng dài hạn nhưng vốn, công nghệ và hệ sinh thái cao; số account khả dụng trước mắt ít\.|Authority/policy content; chưa tách paid campaign|
 
 # Nguồn gốc và hệ thông điệp
@@ -81,7 +83,7 @@ Kể câu chuyện xuyên chuỗi: từ **forecast, outsource WIP** và **cost**
 |---|---|---|---|
 |Cơ quan nhà nước   / hiệp hội|Năng lực ngành, hệ sinh thái, nội địa hóa triển khai, chuẩn quản trị|Chuỗi giá trị bán dẫn; kinh nghiệm từ 1998; mô hình hợp tác đào tạo/đối tác; case CN/TW|Trao đổi chương   trình ngành / workshop|
 |Doanh nghiệp sản   xuất / Fabless / OSAT|Pain cụ thể, proof, lộ trình triển khai, time\-to\-value|WIP outsource; traceability; yield/SPC; cost; giao hàng; case before\-after|Chẩn đoán vận   hành 30 phút|
-|Công ty phần mềm   / SI / tự động hóa|Ranh giới vai trò, kiến trúc tích hợp, cơ hội đồng bán|ERP–APS–MES–equipment/OT;   integration; gói theo phân khúc|Partner session|
+|Công ty phần mềm / SI / tự động hóa — audience hợp tác riêng, ngoài Partner paid scope hiện hành|Ranh giới vai trò, kiến trúc tích hợp, cơ hội đồng bán|ERP–APS–MES–equipment/OT;   integration; gói theo phân khúc|Trao đổi hợp tác SI riêng; không phải CTA mặc định cho nhà cung ứng công nghiệp|
 
 ## Khung bài gợi ý
 
@@ -148,5 +150,5 @@ T**ăng độ phủ có chất lượng trong đúng account/role và xây nhậ
 
 - IC Design/Fabless thương mại hóa \- 25–30%: outsource WIP, Datecode/BIN/lot, forecast và cost\.
 
-- Supplier/SI/tự động hóa/vật liệu–thiết bị \- 15–20%: ERP–MES–OT, quality, traceability và partner\.
+- Nhà cung ứng công nghiệp/vật liệu–thiết bị (Partner; không gộp SI) \- 15–20%: ERP–MES–OT, quality, traceability và partner\.
 

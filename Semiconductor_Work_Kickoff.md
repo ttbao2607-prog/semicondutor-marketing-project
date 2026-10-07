@@ -1,3 +1,5 @@
+> **Partner / Supplier — PO clarification 2026-10-07 · docs checkpoint trên main local.** Partner trong paid scope hiện hành là **nhà cung ứng công nghiệp trong chuỗi bán dẫn/điện tử** (PCB, substrate, linh kiện, vật liệu đóng gói, gia công chính xác cho thiết bị), không mặc định là SI/đối tác phần mềm. [LDP Partner Google Ads đã được duyệt là content anchor](operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-ldp-content-anchor-v1.md); giữ đúng audience, bài toán nhà máy, vai trò ERP/iMES/dữ liệu thiết bị và scope từng claim/case. P1/P2 hiện là nguồn persona SI, P3 là nguồn nội địa: phải adapt và review mới trước FDI generation, không kế thừa PASS. Snapshot cũ giữ nghĩa lịch sử. Scope docs ambiguity từ source checkpoint 8d94be6 được tích hợp chọn lọc; chưa push.
+
 > **Main integration · 2026-10-06 — adapter DEVELOPING / NOT_FROZEN.** Bảo chỉ cho tích hợp checkpoint `ffb4fba` (anchor/gate và adapter draft) vào main local; adapter còn developing, chưa freeze/adopt/release. Core ImageGen frozen giữ nguyên scope riêng. [Phạm vi tích hợp và dependency](operations/linkedin-locale-adapter/Main_Integration_2026-10-06.md): không đưa ảnh/viewer/input journey VI cũ lên main; full-journey dogfood, native EN/Chinese QA và creative acceptance còn pending. Các receipt/source-only status bên dưới giữ phạm vi checkpoint cũ, không chứng minh input/asset hiện có trên main. Không push/live.
 
 > **Message anchor · 2026-10-06 — MSG-ANCHOR-01 bắt buộc.** Email gốc đã được Bảo cung cấp trực tiếp trong phiên; [anchor nội dung VN / FDI EN–Chinese](operations/Vy_Email_Content_Anchor.md) tách định hướng audience/persona/message khỏi đề xuất vận hành và phần đã superseded. FDI tập trung business value/ROI có căn cứ; VN là ERP hỗ trợ chuẩn bị năng lực vào chuỗi. Phải đối chiếu anchor revision/SHA256 trước generation và hậu kiểm từng artifact/surface + toàn journey. FAIL → CHANGES_REQUIRED; thiếu review/binding/evidence → INSUFFICIENT_EVIDENCE; đều chặn SCRIPT_REVIEW_PASS và ready/accepted handoff. Core harness, artwork và receipt cũ giữ nguyên; không PASS hồi tố. Những ghi nhận email gốc chưa có và budget/schedule/proposal cũ bên dưới giữ nghĩa lịch sử, không thay trạng thái hiện hành. Bảo đã yêu cầu commit checkpoint local trên nhánh hiện tại; containing commit lưu anchor/gate và adapter draft. Không merge main/push/live; các ghi nhận chưa commit bên dưới là snapshot chuẩn bị.
@@ -28,7 +30,7 @@ Nguồn đã đọc: `Semiconductor - Website & Ads.md`, file Bảo đính kèm 
 >
 > IC Design/Fabless thương mại hóa — 25–30%: outsource WIP, Datecode/BIN/lot, forecast và cost.
 >
-> Supplier/SI/tự động hóa/vật liệu–thiết bị — 15–20%: ERP–MES–OT, quality, traceability và partner.
+> Nhà cung ứng công nghiệp/vật liệu–thiết bị — 15–20%: bài toán vận hành, ERP–MES–OT, quality và traceability. Đây là nhãn Partner hiện hành; không phải tỷ trọng dành cho SI/channel partner.
 
 **Vai trò của Bảo:** own Google Ads, LinkedIn Ads, ad creative, paid landing experience, measurement method, ngân sách hai tháng và quyết định vận hành. Superior giao định hướng/kết quả mong muốn; Bảo chuyển chúng thành hệ thống mục tiêu, phân bổ nguồn lực và cách báo cáo thực tế. Không tự thêm một tầng chờ superior duyệt chiến thuật, từng asset hoặc từng điều chỉnh campaign.
 
@@ -102,7 +104,7 @@ Search và LinkedIn không cần launch cùng ngày. Nếu một kênh thiếu r
 |---|---|---|---|
 | OSAT & factories | 4M1E, test data, traceability, lot, audit, WIP, cost close | Dữ liệu vận hành cần nối như thế nào để truy vết, nhìn WIP hoặc đối soát cost? | Xem cơ chế/case; tự đánh giá một pain; yêu cầu trao đổi vận hành |
 | Fabless thương mại hóa | Outsource WIP, Datecode/BIN/lot, forecast, cost | Có nhìn được tình trạng gia công ngoài và liên hệ với kế hoạch/cost không? | Xem cách quản trị outsource; proof phù hợp; trao đổi bài toán cụ thể |
-| Supplier/SI/hệ sinh thái | ERP–MES–OT, quality, traceability, partner | Ai chịu trách nhiệm dữ liệu, đâu là điểm tích hợp và giá trị hợp tác? | Xem giải pháp tích hợp hoặc partner discussion tùy đối tượng |
+| Supplier/Partner — nhà cung ứng công nghiệp | Kế hoạch/vật tư, tiến độ/lô/chất lượng, thông tin thiết bị cần đặt trong cùng bối cảnh nhà máy | Cần kết nối lớp thông tin nào để giải bài toán vận hành? ERP, iMES và lớp thiết bị giữ vai trò gì? | Khám phá bài toán/giải pháp theo LDP Partner đã duyệt |
 
 Mỗi concept có một pain chính, một cơ chế có căn cứ, proof đủ scope và một CTA chính. OSAT là hướng ưu tiên để đánh giá route đầu tiên; các nhánh còn lại được research song song. Không bắt buộc dựng đủ ba landing hoặc chạy mọi pain ngay đợt đầu.
 

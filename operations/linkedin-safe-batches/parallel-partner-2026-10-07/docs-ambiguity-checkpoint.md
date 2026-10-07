@@ -1,0 +1,9 @@
+# Checkpoint: xử lý ambiguity trong docs Partner — PO 2026-10-07
+
+Scope approved by Bao: checkpoint and selectively integrate only the Partner ambiguity documentation correction into local main. This checkpoint contains current audience clarifications, approved-LDP content anchor/excerpts, four historical reuse notices, corrected handoff candidate and scoped review evidence. It is not B22 generation, creative acceptance, an adapter/harness adoption or a push.
+
+Source base: f2883d1c9db7c4abb72afa8998d2bde0cc192b74; owned branch slice/linkedin-safe-partner-parallel. The containing commit is the named local docs checkpoint; its SHA is recorded in the separate integration receipt after creation. Earlier 'uncommitted/local candidate' statements in the review evidence are dated pre-checkpoint observations, preserved rather than retroactively rewritten.
+
+Main integration starts from b2694b4ea9b556bb28562b1b22f10edefa1493e3, on a dedicated integration worktree/branch. Port the bounded docs changes onto current main, preserve unrelated main truth and its selected-artifact records. Main's Safe Batch plan is a summary; add Partner scope to it rather than overwrite with the full source plan. Do not merge the full research branch, debug scripts, empty deliverables, generation/runtime or frozen-core files.
+
+Verification criteria: exact selected source/new-doc bytes, reviewed bounded current-doc adaptations, original landing and historical artifact hashes unchanged, no unrelated changed path, no push, main clean after fast-forward integration. Docs impact reviewed in the approved correction report. B22 plan follows integration in the owned source worktree; generation stays subject to fresh supplier script/reader/storyboard/proof and per-call guard.
