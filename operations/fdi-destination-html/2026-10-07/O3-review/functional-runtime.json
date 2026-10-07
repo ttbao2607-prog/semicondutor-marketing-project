@@ -1,0 +1,215 @@
+[
+  {
+    "batch": "O3-EN",
+    "test": "fallback",
+    "active": "en",
+    "lang": "en"
+  },
+  {
+    "batch": "O3-EN",
+    "test": "fallback?lang=invalid",
+    "active": "en",
+    "lang": "en"
+  },
+  {
+    "batch": "O3-EN",
+    "test": "toggle",
+    "alt": "Đoàn tham quan trước tòa nhà khách hàng, cầm banner có thương hiệu Digiwin và tên 江苏中科智芯集成科技有限公司.",
+    "back": "index.html",
+    "focused": "vi",
+    "lang": "vi",
+    "result": "15 ngày → 5 ngày",
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/case-reader.html?lang=vi"
+  },
+  {
+    "batch": "O3-EN",
+    "test": "toggle",
+    "alt": "Group outside the customer building holding a banner bearing Digiwin branding and the name 江苏中科智芯集成科技有限公司.",
+    "back": "index.html",
+    "focused": "en",
+    "lang": "en",
+    "result": "15 days → 5 days",
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/case-reader.html?lang=en"
+  },
+  {
+    "batch": "O3-EN",
+    "test": "toggle",
+    "alt": "参访团在客户建筑前合影，横幅带有鼎捷品牌及江苏中科智芯集成科技有限公司名称。",
+    "back": "index.html",
+    "focused": "zh-Hans",
+    "lang": "zh-Hans",
+    "result": "15天 → 5天",
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/case-reader.html?lang=zh-Hans"
+  },
+  {
+    "batch": "O3-EN",
+    "test": "toggle",
+    "alt": "參訪團在客戶建築前合影，橫幅帶有鼎捷品牌及江苏中科智芯集成科技有限公司名稱。",
+    "back": "index.html",
+    "focused": "zh-Hant",
+    "lang": "zh-Hant",
+    "result": "15天 → 5天",
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/case-reader.html?lang=zh-Hant"
+  },
+  {
+    "batch": "O3-EN",
+    "test": "refresh",
+    "lang": "zh-Hant",
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/case-reader.html?lang=zh-Hant"
+  },
+  {
+    "batch": "O3-EN",
+    "test": "return",
+    "entry": "case-reader.html?lang=en",
+    "loadedAd": true,
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/index.html"
+  },
+  {
+    "batch": "O3-EN",
+    "test": "journey-entry",
+    "lang": "en",
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/case-reader.html?lang=en"
+  },
+  {
+    "batch": "O3-Hans",
+    "test": "fallback",
+    "active": "zh-Hans",
+    "lang": "zh-Hans"
+  },
+  {
+    "batch": "O3-Hans",
+    "test": "fallback?lang=invalid",
+    "active": "zh-Hans",
+    "lang": "zh-Hans"
+  },
+  {
+    "batch": "O3-Hans",
+    "test": "toggle",
+    "alt": "Đoàn tham quan trước tòa nhà khách hàng, cầm banner có thương hiệu Digiwin và tên 江苏中科智芯集成科技有限公司.",
+    "back": "index.html",
+    "focused": "vi",
+    "lang": "vi",
+    "result": "15 ngày → 5 ngày",
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v2/case-reader.html?lang=vi"
+  },
+  {
+    "batch": "O3-Hans",
+    "test": "toggle",
+    "alt": "Group outside the customer building holding a banner bearing Digiwin branding and the name 江苏中科智芯集成科技有限公司.",
+    "back": "index.html",
+    "focused": "en",
+    "lang": "en",
+    "result": "15 days → 5 days",
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v2/case-reader.html?lang=en"
+  },
+  {
+    "batch": "O3-Hans",
+    "test": "toggle",
+    "alt": "参访团在客户建筑前合影，横幅带有鼎捷品牌及江苏中科智芯集成科技有限公司名称。",
+    "back": "index.html",
+    "focused": "zh-Hans",
+    "lang": "zh-Hans",
+    "result": "15天 → 5天",
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v2/case-reader.html?lang=zh-Hans"
+  },
+  {
+    "batch": "O3-Hans",
+    "test": "toggle",
+    "alt": "參訪團在客戶建築前合影，橫幅帶有鼎捷品牌及江苏中科智芯集成科技有限公司名稱。",
+    "back": "index.html",
+    "focused": "zh-Hant",
+    "lang": "zh-Hant",
+    "result": "15天 → 5天",
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v2/case-reader.html?lang=zh-Hant"
+  },
+  {
+    "batch": "O3-Hans",
+    "test": "refresh",
+    "lang": "zh-Hant",
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v2/case-reader.html?lang=zh-Hant"
+  },
+  {
+    "batch": "O3-Hans",
+    "test": "return",
+    "entry": "case-reader.html?lang=zh-Hans",
+    "loadedAd": true,
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v2/index.html"
+  },
+  {
+    "batch": "O3-Hans",
+    "test": "journey-entry",
+    "lang": "zh-Hans",
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v2/case-reader.html?lang=zh-Hans"
+  },
+  {
+    "batch": "O3-Hant",
+    "test": "fallback",
+    "active": "zh-Hant",
+    "lang": "zh-Hant"
+  },
+  {
+    "batch": "O3-Hant",
+    "test": "fallback?lang=invalid",
+    "active": "zh-Hant",
+    "lang": "zh-Hant"
+  },
+  {
+    "batch": "O3-Hant",
+    "test": "toggle",
+    "alt": "Đoàn tham quan trước tòa nhà khách hàng, cầm banner có thương hiệu Digiwin và tên 江苏中科智芯集成科技有限公司.",
+    "back": "index.html",
+    "focused": "vi",
+    "lang": "vi",
+    "result": "15 ngày → 5 ngày",
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/case-reader.html?lang=vi"
+  },
+  {
+    "batch": "O3-Hant",
+    "test": "toggle",
+    "alt": "Group outside the customer building holding a banner bearing Digiwin branding and the name 江苏中科智芯集成科技有限公司.",
+    "back": "index.html",
+    "focused": "en",
+    "lang": "en",
+    "result": "15 days → 5 days",
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/case-reader.html?lang=en"
+  },
+  {
+    "batch": "O3-Hant",
+    "test": "toggle",
+    "alt": "参访团在客户建筑前合影，横幅带有鼎捷品牌及江苏中科智芯集成科技有限公司名称。",
+    "back": "index.html",
+    "focused": "zh-Hans",
+    "lang": "zh-Hans",
+    "result": "15天 → 5天",
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/case-reader.html?lang=zh-Hans"
+  },
+  {
+    "batch": "O3-Hant",
+    "test": "toggle",
+    "alt": "參訪團在客戶建築前合影，橫幅帶有鼎捷品牌及江苏中科智芯集成科技有限公司名稱。",
+    "back": "index.html",
+    "focused": "zh-Hant",
+    "lang": "zh-Hant",
+    "result": "15天 → 5天",
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/case-reader.html?lang=zh-Hant"
+  },
+  {
+    "batch": "O3-Hant",
+    "test": "refresh",
+    "lang": "zh-Hant",
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/case-reader.html?lang=zh-Hant"
+  },
+  {
+    "batch": "O3-Hant",
+    "test": "return",
+    "entry": "case-reader.html?lang=zh-Hant",
+    "loadedAd": true,
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/index.html"
+  },
+  {
+    "batch": "O3-Hant",
+    "test": "journey-entry",
+    "lang": "zh-Hant",
+    "url": "http://127.0.0.1:8766/deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/case-reader.html?lang=zh-Hant"
+  }
+]

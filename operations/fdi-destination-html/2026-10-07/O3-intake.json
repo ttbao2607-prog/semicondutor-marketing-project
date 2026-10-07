@@ -1,0 +1,722 @@
+{
+  "base_checkpoint": "9bc0bc6b413a6dfc06e108da82236f613d000f8d",
+  "base_reader_sha256": "ac0e85a8b0f835cd10eef9614ae4a4d291ec226efcdf993ce6d0b09b19047e1e",
+  "copy_sha256": "e7c20a59b21d757b30a86dc864f0208b96e5fac94d557a1da2295c82fa1babe6",
+  "targets": [
+    {
+      "batch": "O3-EN",
+      "locale": "en",
+      "directory": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4",
+      "original_files_sha256": {
+        "case-reader.html": "ab58fa2f6321a732ed15a703499ec22b85523f7f3298555dfb06ef21e748192a",
+        "index.html": "17bc53f5509b4b3fbdc56d8aac4f70d1ba4f1034af56af332f9080416bd55388",
+        "journey.json": "fe3eebd7d2c7d044e387a140732d2c59a4135a2a65d42eb7e106a47714ffa9dc",
+        "README.md": "7c4523cafafcced46f761d069b549765375565c0111736a76f46d4d21e91d5b9",
+        "assets/01.png": "8e7e3ea82f3e2757e352167d28234a7972effd528a2f65797e47eb2b5a4cd8bd",
+        "assets/02.png": "a32ba663c6762254a14c5a5a230d038cbcb293767d4a6c8be9599a4a116b9546",
+        "assets/03.png": "43f5cd60b4ebfcdb625616974b8ee9d4baea9d40ff7c0f3a456d306ae8a021ff",
+        "assets/04.png": "ccb72810bf6d30372853d63b9ef6528df5e4d2f30b14caa75c8f9134746d2fbc",
+        "assets/05.png": "e961d2bba5386b7b5d24c1814fda667ad6712a79a4b868b65b5467c7545dd504",
+        "assets/06.png": "fbd2bd176f568547f53316f086a576a08c511611c4e35e805197d49c0557fe9f",
+        "assets/07.png": "e1a8fb486e3507c055a1dbe63ac55c036046c6dc341643cdb070abfd011d8892",
+        "assets/08.png": "a3fe7e6aaff54ddab610e1b5b057e6c7ca4560d046f0964361f836d0db16456c",
+        "assets/09.png": "e70814910bf848fddddf6546ea136a3975b6c01d4ad199aa20eda7bc8a8b5a61",
+        "assets/10.png": "f780e33668a5b8bda8e6ed29c13f074e1ae178de3fc2ce6a3f1ee1e6cf6da889"
+      },
+      "ordered_rows": [
+        {
+          "index": 1,
+          "stage": "cold",
+          "card_id": "COLD-OSAT-FIN-02-IMAGE",
+          "caption": "Digiwin provides manufacturing ERP solutions. For packaging and testing plant managers: which lot records are still holding up the month-end discussion with finance?",
+          "copy": {
+            "card_id": "COLD-OSAT-FIN-02-IMAGE",
+            "headline": "Month-end is approaching.\nAre your factory records ready?",
+            "body": "Unfinished work, completed output and losses:\nreconcile lot records before the cut-off.",
+            "source_text": "",
+            "cta": "",
+            "native_headline": "Are your factory records ready?",
+            "alt": "Illustration: blank calendar, production folders and packaged chips frame the month-end records question for plant operations.",
+            "artwork_labels": [
+              "PACKAGING & TESTING OPERATIONS",
+              "ERP for manufacturing"
+            ]
+          },
+          "image": "assets/01.png",
+          "sha256": "8e7e3ea82f3e2757e352167d28234a7972effd528a2f65797e47eb2b5a4cd8bd",
+          "source_path": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-journey-v2/assets/01-v2.png"
+        },
+        {
+          "index": 2,
+          "stage": "explanation",
+          "card_id": "O3-A1",
+          "caption": "Digiwin manufacturing ERP solutions. Plant managers: review lot records and handoff ownership with finance to address month-end waiting and repeated reconciliation.",
+          "copy": {
+            "card_id": "O3-A1",
+            "headline": "What is holding up month-end?",
+            "body": "Before the cut-off, which lot records does finance still need from operations: unfinished work, completed output or losses?",
+            "source_text": "",
+            "cta": "",
+            "native_headline": "Which factory records are still missing?",
+            "alt": "Blank factory and finance records approach an open reconciliation point.",
+            "artwork_labels": [
+              "ERP · PLANT OPERATIONS",
+              "1/5"
+            ]
+          },
+          "image": "assets/02.png",
+          "sha256": "a32ba663c6762254a14c5a5a230d038cbcb293767d4a6c8be9599a4a116b9546",
+          "source_path": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-journey-v2/assets/02-v2.png"
+        },
+        {
+          "index": 3,
+          "stage": "explanation",
+          "card_id": "O3-A2",
+          "caption": "Digiwin manufacturing ERP solutions. Plant managers: review lot records and handoff ownership with finance to address month-end waiting and repeated reconciliation.",
+          "copy": {
+            "card_id": "O3-A2",
+            "headline": "Where is unfinished work at cut-off?",
+            "body": "For each lot, confirm its production stage, the record behind the unfinished quantity and who can verify it.",
+            "source_text": "",
+            "cta": "",
+            "native_headline": "Locate unfinished work by lot",
+            "alt": "A lot carrier at a neutral process boundary illustrates unfinished work at cut-off.",
+            "artwork_labels": [
+              "ERP · PLANT OPERATIONS",
+              "2/5"
+            ]
+          },
+          "image": "assets/03.png",
+          "sha256": "43f5cd60b4ebfcdb625616974b8ee9d4baea9d40ff7c0f3a456d306ae8a021ff",
+          "source_path": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-journey-v2/assets/03-v2.png"
+        },
+        {
+          "index": 4,
+          "stage": "explanation",
+          "card_id": "O3-A3",
+          "caption": "Digiwin manufacturing ERP solutions. Plant managers: review lot records and handoff ownership with finance to address month-end waiting and repeated reconciliation.",
+          "copy": {
+            "card_id": "O3-A3",
+            "headline": "Which records explain output and losses?",
+            "body": "Reconcile completed output, scrap and loss records for the same period before discussing production costs with finance.",
+            "source_text": "",
+            "cta": "",
+            "native_headline": "Reconcile completion and loss records",
+            "alt": "Separate production and loss records are compared without invented quantities or yield.",
+            "artwork_labels": [
+              "ERP · PLANT OPERATIONS",
+              "3/5"
+            ]
+          },
+          "image": "assets/04.png",
+          "sha256": "ccb72810bf6d30372853d63b9ef6528df5e4d2f30b14caa75c8f9134746d2fbc",
+          "source_path": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-journey-v2/assets/04-v2.png"
+        },
+        {
+          "index": 5,
+          "stage": "explanation",
+          "card_id": "O3-A4",
+          "caption": "Digiwin manufacturing ERP solutions. Plant managers: review lot records and handoff ownership with finance to address month-end waiting and repeated reconciliation.",
+          "copy": {
+            "card_id": "O3-A4",
+            "headline": "Who confirms the handoff to finance?",
+            "body": "Agree who checks the factory records, who confirms the figures and when the handoff occurs. Make ownership clear before the cut-off.",
+            "source_text": "",
+            "cta": "",
+            "native_headline": "Clarify ownership before the cut-off",
+            "alt": "Factory and finance records remain separated by an open confirmation boundary.",
+            "artwork_labels": [
+              "ERP · PLANT OPERATIONS",
+              "4/5"
+            ]
+          },
+          "image": "assets/05.png",
+          "sha256": "e961d2bba5386b7b5d24c1814fda667ad6712a79a4b868b65b5467c7545dd504",
+          "source_path": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-journey-v2/assets/05-v2.png"
+        },
+        {
+          "index": 6,
+          "stage": "explanation",
+          "card_id": "O3-A5",
+          "caption": "Digiwin manufacturing ERP solutions. Plant managers: review lot records and handoff ownership with finance to address month-end waiting and repeated reconciliation.",
+          "copy": {
+            "card_id": "O3-A5",
+            "headline": "Bring factory records into the cost review",
+            "body": "Use reconciled unfinished-work and loss records for the period under review. Give operations and finance a shared basis for discussion.",
+            "source_text": "Digiwin Taiwan semiconductor solution material: ERP and MES for management and production.",
+            "cta": "Explore the production-record questions",
+            "native_headline": "Connect factory records with finance",
+            "alt": "A reduced factory/finance scene supports a full-width Taiwan solution attribution and separate reading invitation.",
+            "artwork_labels": [
+              "ERP · PLANT OPERATIONS",
+              "5/5"
+            ]
+          },
+          "image": "assets/06.png",
+          "sha256": "fbd2bd176f568547f53316f086a576a08c511611c4e35e805197d49c0557fe9f",
+          "source_path": "operations/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-corrective-v3/o3_a5/native/o3-a5_explanation-english-v2_corrective1.png"
+        },
+        {
+          "index": 7,
+          "stage": "proof",
+          "card_id": "RMK-R4-1",
+          "caption": "Digiwin digital solutions for manufacturing. Explore a China packaging/testing case reporting month-close duration from 15 to 5 days.",
+          "copy": {
+            "card_id": "RMK-R4-1",
+            "headline": "Digital solutions for manufacturing",
+            "body": "We develop and provide digital transformation solutions for manufacturers, from ERP to smart manufacturing.",
+            "source_text": "Digiwin Vietnam · Company introduction",
+            "cta": "",
+            "native_headline": "Digital solutions for manufacturing",
+            "alt": "Digiwin digital transformation solutions for manufacturers, from ERP to smart manufacturing.",
+            "artwork_labels": [
+              "SEMICONDUCTOR CASE",
+              "1/4"
+            ]
+          },
+          "image": "assets/07.png",
+          "sha256": "e1a8fb486e3507c055a1dbe63ac55c036046c6dc341643cdb070abfd011d8892",
+          "source_path": "operations/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-corrective-v3/rmk_r4_1_feed_source/native/case06-1_proof-english-v2_corrective1_feedsource.png"
+        },
+        {
+          "index": 8,
+          "stage": "proof",
+          "card_id": "RMK-R4-2",
+          "caption": "Digiwin digital solutions for manufacturing. Explore a China packaging/testing case reporting month-close duration from 15 to 5 days.",
+          "copy": {
+            "card_id": "RMK-R4-2",
+            "headline": "A packaging and testing case in China",
+            "body": "江苏中科智芯集成科技有限公司 implemented an integrated digital solution. The case covers records, processes and outsourcing/production efficiency.",
+            "source_text": "Digiwin Vietnam · 8 case studies · Packaging/testing",
+            "cta": "",
+            "native_headline": "Packaging and testing: a China case",
+            "alt": "China packaging/testing case: 江苏中科智芯集成科技有限公司 and its integrated digital solution.",
+            "artwork_labels": [
+              "SEMICONDUCTOR CASE",
+              "2/4"
+            ]
+          },
+          "image": "assets/08.png",
+          "sha256": "a3fe7e6aaff54ddab610e1b5b057e6c7ca4560d046f0964361f836d0db16456c",
+          "source_path": "operations/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-corrective-v3/rmk_r4_2_feed_source/native/case06-2_proof-english-v2_feedsource.png"
+        },
+        {
+          "index": 9,
+          "stage": "proof",
+          "card_id": "RMK-R4-3",
+          "caption": "Digiwin digital solutions for manufacturing. Explore a China packaging/testing case reporting month-close duration from 15 to 5 days.",
+          "copy": {
+            "card_id": "RMK-R4-3",
+            "headline": "Month-close: from 15 days to 5 days",
+            "body": "In the China case of 江苏中科智芯集成科技有限公司, month-close duration fell from 15 days to 5 days.",
+            "source_text": "Case: 江苏中科智芯集成科技有限公司 · China",
+            "cta": "",
+            "native_headline": "Month-close result in the China case",
+            "alt": "Reported month-close result: 15 days to 5 days in the China case of 江苏中科智芯集成科技有限公司.",
+            "artwork_labels": [
+              "SEMICONDUCTOR CASE",
+              "3/4"
+            ]
+          },
+          "image": "assets/09.png",
+          "sha256": "e70814910bf848fddddf6546ea136a3975b6c01d4ad199aa20eda7bc8a8b5a61",
+          "source_path": "operations/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-corrective-v3/rmk_r4_3_footer_plain/native/case06-3_proof-english-v2_corrective1_footer.png"
+        },
+        {
+          "index": 10,
+          "stage": "proof",
+          "card_id": "RMK-R4-4",
+          "caption": "Digiwin digital solutions for manufacturing. Explore a China packaging/testing case reporting month-close duration from 15 to 5 days.",
+          "copy": {
+            "card_id": "RMK-R4-4",
+            "headline": "Read the case and its implementation",
+            "body": "Find 江苏中科智芯集成科技有限公司 in the 8 semiconductor case studies. Read the context, solution and reported results.",
+            "source_text": "Digiwin Vietnam · digiwin.com.vn\n8 semiconductor case studies\n江苏中科智芯集成科技有限公司",
+            "cta": "Read the packaging and testing case",
+            "native_headline": "Read the integrated-solution case",
+            "alt": "The 8 semiconductor case studies from Digiwin Vietnam, including 江苏中科智芯集成科技有限公司, at digiwin.com.vn.",
+            "artwork_labels": [
+              "SEMICONDUCTOR CASE",
+              "4/4"
+            ]
+          },
+          "image": "assets/10.png",
+          "sha256": "f780e33668a5b8bda8e6ed29c13f074e1ae178de3fc2ce6a3f1ee1e6cf6da889",
+          "source_path": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-journey-v2/assets/10-v2.png"
+        }
+      ],
+      "reader_after_sha256": "da7bec2c8ecabb81e79ac1e215184aff9d8b8ef67e28ecf2ddd27daadb92b190",
+      "entry_after_sha256": "2d1bc281c9b9c776192370bdd5e269b393533211409596d440cb83c850f980ca"
+    },
+    {
+      "batch": "O3-Hans",
+      "locale": "zh-Hans",
+      "directory": "deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v2",
+      "original_files_sha256": {
+        "case-reader.html": "09df580976db0f7f719b16ec44feccc31229514a20ae6f84fdb8b122ac577a03",
+        "index.html": "136aabb59732c0ea0196cdcf0472ad1a3403163c4a2bcb59ab0cc9851f3c69fc",
+        "journey.json": "5a12f3d51381c5873071b22fc29855c874a035aeaae2ee251c46e38ae6c969b9",
+        "README.md": "b894b58b2e5c594bde16ec617e189a8bae87df538866b25c385cc57018a2797f",
+        "assets/01.png": "765561473ce86823306aac6b013e3b63302e83c55c09a3a43f24978aea99ef6e",
+        "assets/02.png": "0e52718bd6da0d1671d1e4eac1ae91ab01edfb6e042c522aa6e4d522c8447e2f",
+        "assets/03.png": "d10d5844a1a3a8646a599a1daac1bbe38ce6364887a171213bc03b7ae3e0cc44",
+        "assets/04.png": "9ed9fcfedb6662d679a06b03025a8eb9f19711710210c32e241fbe577d237889",
+        "assets/05.png": "0daa3b7e9f93dd9a786ec27eb7f87d0caa53dde7c9c434748069a131e29f52a1",
+        "assets/06.png": "81265bdf1de4591050247730e3d57f77a5dbd00d49e5114a963b59703b381d81",
+        "assets/07.png": "e50185a076e18d771f6b835c1283db6b774f4d35981ea0d5bf2cb4a07981e8b0",
+        "assets/08.png": "f598a003539cbf5e6c5f22079bfe851cbc7bedadce743afa04879dae2b20bcfc",
+        "assets/09.png": "da37fa5c33fc652ddb82d05a445c38274a2c3373f5522754ab47b121f21e9c57",
+        "assets/10.png": "5218211ee19505d6a3b8acbb8d9a1fc23c7b241b222686f566db4fae7bd0e1db"
+      },
+      "ordered_rows": [
+        {
+          "index": 1,
+          "stage": "cold",
+          "caption": "Digiwin提供制造业ERP解决方案。封装测试工厂的运营负责人：哪些批次记录，仍让您与财务的月末讨论迟迟无法推进？",
+          "copy": {
+            "card_id": "COLD-OSAT-FIN-02-IMAGE",
+            "headline": "月末将至，\n工厂记录准备好了吗？",
+            "body": "在制品、完工产量、损耗：\n结账截止前，按批次核对记录。",
+            "source_text": "",
+            "cta": "",
+            "native_headline": "工厂记录准备好了吗？",
+            "alt": "示意图：空白日历、生产文件夹和封装芯片托盘呈现工厂月末记录核对问题。",
+            "artwork_labels": [
+              "封装测试工厂运营",
+              "制造业ERP解决方案"
+            ]
+          },
+          "image": "assets/01.png",
+          "sha256": "765561473ce86823306aac6b013e3b63302e83c55c09a3a43f24978aea99ef6e",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v1/cold/campaign/native/osat-cold-v1_cold-english-v2_cold-candidate2-zh-Hans-v1.png"
+        },
+        {
+          "index": 2,
+          "stage": "explanation",
+          "caption": "Digiwin制造业ERP解决方案。工厂运营负责人：与财务核对批次记录并明确交接责任，减少月末等待与重复核对。",
+          "copy": {
+            "card_id": "O3-A1",
+            "headline": "什么拖慢了月末结账？",
+            "body": "结账截止前，财务还需要工厂提供哪些批次记录：在制品、完工产量，还是损耗？",
+            "source_text": "",
+            "cta": "",
+            "native_headline": "哪些工厂记录尚未齐备？",
+            "alt": "空白工厂与财务记录在待核对的位置相接。",
+            "artwork_labels": [
+              "ERP · 工厂运营",
+              "1/5"
+            ]
+          },
+          "image": "assets/02.png",
+          "sha256": "0e52718bd6da0d1671d1e4eac1ae91ab01edfb6e042c522aa6e4d522c8447e2f",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v1/explanation/campaign/native/o3-a1_explanation-english-v2_explanation-candidate2-zh-Hans-v1.png"
+        },
+        {
+          "index": 3,
+          "stage": "explanation",
+          "caption": "Digiwin制造业ERP解决方案。工厂运营负责人：与财务核对批次记录并明确交接责任，减少月末等待与重复核对。",
+          "copy": {
+            "card_id": "O3-A2",
+            "headline": "截止时，在制品处于哪道工序？",
+            "body": "逐批确认生产工序、未完工数量的记录依据，以及负责核实的人。",
+            "source_text": "",
+            "cta": "",
+            "native_headline": "按批次确认在制品状态",
+            "alt": "中性的工序边界和批次托盘示意结账截止时的在制品。",
+            "artwork_labels": [
+              "ERP · 工厂运营",
+              "2/5"
+            ]
+          },
+          "image": "assets/03.png",
+          "sha256": "d10d5844a1a3a8646a599a1daac1bbe38ce6364887a171213bc03b7ae3e0cc44",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v1/explanation/campaign/native/o3-a2_explanation-english-v2_explanation-candidate2-zh-Hans-v1.png"
+        },
+        {
+          "index": 4,
+          "stage": "explanation",
+          "caption": "Digiwin制造业ERP解决方案。工厂运营负责人：与财务核对批次记录并明确交接责任，减少月末等待与重复核对。",
+          "copy": {
+            "card_id": "O3-A3",
+            "headline": "产量与损耗，有哪些记录依据？",
+            "body": "先核对同一期间的完工产量、报废与损耗记录，再与财务讨论生产成本。",
+            "source_text": "",
+            "cta": "",
+            "native_headline": "核对完工与损耗记录",
+            "alt": "分别对照生产与损耗记录，不呈现虚构数量或良率。",
+            "artwork_labels": [
+              "ERP · 工厂运营",
+              "3/5"
+            ]
+          },
+          "image": "assets/04.png",
+          "sha256": "9ed9fcfedb6662d679a06b03025a8eb9f19711710210c32e241fbe577d237889",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v1/explanation/campaign/native/o3-a3_explanation-english-v2_explanation-candidate2-zh-Hans-v1.png"
+        },
+        {
+          "index": 5,
+          "stage": "explanation",
+          "caption": "Digiwin制造业ERP解决方案。工厂运营负责人：与财务核对批次记录并明确交接责任，减少月末等待与重复核对。",
+          "copy": {
+            "card_id": "O3-A4",
+            "headline": "交给财务前，谁负责确认？",
+            "body": "明确谁核查工厂记录、谁确认数据、何时交接。结账截止前，先把责任说清楚。",
+            "source_text": "",
+            "cta": "",
+            "native_headline": "结账截止前，明确交接责任",
+            "alt": "工厂与财务记录由待确认的交接边界连接。",
+            "artwork_labels": [
+              "ERP · 工厂运营",
+              "4/5"
+            ]
+          },
+          "image": "assets/05.png",
+          "sha256": "0daa3b7e9f93dd9a786ec27eb7f87d0caa53dde7c9c434748069a131e29f52a1",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v1/explanation/campaign/native/o3-a4_explanation-english-v2_explanation-candidate2-zh-Hans-v1.png"
+        },
+        {
+          "index": 6,
+          "stage": "explanation",
+          "caption": "Digiwin制造业ERP解决方案。工厂运营负责人：与财务核对批次记录并明确交接责任，减少月末等待与重复核对。",
+          "copy": {
+            "card_id": "O3-A5",
+            "headline": "让工厂记录成为成本讨论的依据",
+            "body": "采用已核对的当期在制品与损耗记录，让工厂与财务有共同的讨论依据。",
+            "source_text": "Digiwin 台湾半导体方案资料：ERP与MES用于管理与生产。",
+            "cta": "了解生产记录核对问题",
+            "native_headline": "连接工厂记录与财务讨论",
+            "alt": "缩小的工厂与财务示意场景，配有独立的台湾方案来源与阅读入口。",
+            "artwork_labels": [
+              "ERP · 工厂运营",
+              "5/5"
+            ]
+          },
+          "image": "assets/06.png",
+          "sha256": "81265bdf1de4591050247730e3d57f77a5dbd00d49e5114a963b59703b381d81",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v1/explanation/closing/native/o3-a5_explanation-english-v2_explanation-candidate2-zh-Hans-v1.png"
+        },
+        {
+          "index": 7,
+          "stage": "proof",
+          "caption": "Digiwin制造业数字化解决方案。了解中国封装测试案例：月结时间从15天缩短至5天。",
+          "copy": {
+            "card_id": "RMK-R4-1",
+            "headline": "面向制造业的数字化解决方案",
+            "body": "我们为制造企业开发并提供数字化转型解决方案，从ERP到智能制造。",
+            "source_text": "Digiwin 越南 · 公司介绍",
+            "cta": "",
+            "native_headline": "面向制造业的数字化解决方案",
+            "alt": "Digiwin为制造企业提供从ERP到智能制造的数字化转型解决方案。",
+            "artwork_labels": [
+              "半导体案例",
+              "1/4"
+            ]
+          },
+          "image": "assets/07.png",
+          "sha256": "e50185a076e18d771f6b835c1283db6b774f4d35981ea0d5bf2cb4a07981e8b0",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v1/proof/campaign/native/case06-1_proof-english-v2_proof-candidate2-zh-Hans-v1.png"
+        },
+        {
+          "index": 8,
+          "stage": "proof",
+          "caption": "Digiwin制造业数字化解决方案。了解中国封装测试案例：月结时间从15天缩短至5天。",
+          "copy": {
+            "card_id": "RMK-R4-2",
+            "headline": "中国封装测试企业的实践",
+            "body": "江苏中科智芯集成科技有限公司采用整合数字化方案。案例涉及记录、流程，以及委外与生产效率。",
+            "source_text": "Digiwin 越南 · 8个案例 · 封装测试",
+            "cta": "",
+            "native_headline": "封装测试：中国企业案例",
+            "alt": "中国封装测试案例：江苏中科智芯集成科技有限公司及其整合数字化方案。",
+            "artwork_labels": [
+              "半导体案例",
+              "2/4"
+            ]
+          },
+          "image": "assets/08.png",
+          "sha256": "f598a003539cbf5e6c5f22079bfe851cbc7bedadce743afa04879dae2b20bcfc",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v1/proof/campaign/native/case06-2_proof-english-v2_proof-candidate2-zh-Hans-v1.png"
+        },
+        {
+          "index": 9,
+          "stage": "proof",
+          "caption": "Digiwin制造业数字化解决方案。了解中国封装测试案例：月结时间从15天缩短至5天。",
+          "copy": {
+            "card_id": "RMK-R4-3",
+            "headline": "月结时间：从15天缩短至5天",
+            "body": "在中国企业\n江苏中科智芯集成科技有限公司\n的案例中，月结时间从15天缩短至5天。",
+            "source_text": "案例：江苏中科智芯集成科技有限公司\n中国",
+            "cta": "",
+            "native_headline": "中国案例的月结时间变化",
+            "alt": "案例公布的月结时间：江苏中科智芯集成科技有限公司从15天缩短至5天。",
+            "artwork_labels": [
+              "半导体案例",
+              "3/4"
+            ]
+          },
+          "image": "assets/09.png",
+          "sha256": "da37fa5c33fc652ddb82d05a445c38274a2c3373f5522754ab47b121f21e9c57",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-corrective-v2/card9-source-main-paragraph/native/case06-3_proof-english-v2_proof-candidate2-zh-Hans-v1_source_main_paragraph_corrective2.png"
+        },
+        {
+          "index": 10,
+          "stage": "proof",
+          "caption": "Digiwin制造业数字化解决方案。了解中国封装测试案例：月结时间从15天缩短至5天。",
+          "copy": {
+            "card_id": "RMK-R4-4",
+            "headline": "阅读案例与实施内容",
+            "body": "在8个半导体案例中找到江苏中科智芯集成科技有限公司，了解背景、方案与公布的成果。",
+            "source_text": "Digiwin 越南 · digiwin.com.vn\n8个半导体案例\n江苏中科智芯集成科技有限公司",
+            "cta": "阅读封装测试案例",
+            "native_headline": "阅读整合方案案例",
+            "alt": "Digiwin越南在digiwin.com.vn发布的8个半导体案例，包括江苏中科智芯集成科技有限公司。",
+            "artwork_labels": [
+              "半导体案例",
+              "4/4"
+            ]
+          },
+          "image": "assets/10.png",
+          "sha256": "5218211ee19505d6a3b8acbb8d9a1fc23c7b241b222686f566db4fae7bd0e1db",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v1/proof/closing/native/case06-4_proof-english-v2_proof-candidate2-zh-Hans-v1.png"
+        }
+      ],
+      "reader_after_sha256": "cea21a1f5b4be0b8de80c09a00fead9126da84e288bac4c5c4f1b7253c705783",
+      "entry_after_sha256": "2ed5c7f4f74d553edc45f84919089af668d2ae1de1619abf070ab1de13622039"
+    },
+    {
+      "batch": "O3-Hant",
+      "locale": "zh-Hant",
+      "directory": "deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1",
+      "original_files_sha256": {
+        "case-reader.html": "df6fd7c4dcdde9ba9055c4b82b52cddefd42c3dcc8c46590797773d5544808f6",
+        "index.html": "afe67a9088e2eba6c10e49b5f564413dafef90634ddb5608a10c41e6c380031a",
+        "journey.json": "930f0df3f7ec5dac080ac4bb8efb20713a516a7e1ead23ee5958efb12b6890fd",
+        "README.md": "09d23b641160dbca90d20736c2867bdc82c4720efa943ae1fef898d39acc1bd3",
+        "assets/01.png": "9d0d30bc6fdd1a429797f788b4c174932cd79418a28b9b2653c57fb74ee302b9",
+        "assets/02.png": "6936a3a3ebf852c878c2222d87217ed95fedfe2066a5a3dfd0bfa7a816bd8f4d",
+        "assets/03.png": "75a3e268ecd5f07fa73f60a3f3bec705bdc94cabb12a23ae9db329493be584de",
+        "assets/04.png": "bfd97d43162bc38d18facfc3b98a19fe317bfaa9d3a6661a60da809f22166d12",
+        "assets/05.png": "d40ca6f1bed2ec4b4296dff449d90e173ec33d27b31150d6d6f4efa6ee314877",
+        "assets/06.png": "3af4f3a6e77430527f35509e7404bd1879a6ebf21c8fad65119fa54259fd7930",
+        "assets/07.png": "3aeebfc859e5d83d2652ec67d24321c4db59c696271f6260eb7fb5a2109747b0",
+        "assets/08.png": "13eccdc9b3d92f7412f327f78283da967cc50dd2f6f459ae5e41db1a41315066",
+        "assets/09-corrective1.png": "47cdbd2cce2516e60b6e546e326fa6f42d61e0e3d58bec10cc79942882ba21d9",
+        "assets/10-corrective1.png": "ac41353825ab08e583cf4458e6589d6910cb36c1fd3db11c321a7e1356876ec3"
+      },
+      "ordered_rows": [
+        {
+          "index": 1,
+          "stage": "cold",
+          "caption": "Digiwin提供製造業ERP解決方案。封裝測試工廠的營運主管：哪些批次紀錄，仍讓您與財務的月底討論遲遲無法推進？",
+          "copy": {
+            "card_id": "COLD-OSAT-FIN-02-IMAGE",
+            "headline": "月底將至，\n工廠紀錄準備好了嗎？",
+            "body": "在製品、完工產量、耗損：\n結帳截止前，依批次核對紀錄。",
+            "source_text": "",
+            "cta": "",
+            "native_headline": "工廠紀錄準備好了嗎？",
+            "alt": "示意圖：空白日曆、生產資料夾與封裝晶片托盤，呈現工廠月底核對紀錄的問題。",
+            "artwork_labels": [
+              "封裝測試工廠營運",
+              "製造業ERP解決方案"
+            ]
+          },
+          "image": "assets/01.png",
+          "sha256": "9d0d30bc6fdd1a429797f788b4c174932cd79418a28b9b2653c57fb74ee302b9",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/cold/campaign/native/osat-cold-v1_cold-english-v2_cold-candidate3-zh-Hant-v1.png"
+        },
+        {
+          "index": 2,
+          "stage": "explanation",
+          "caption": "Digiwin製造業ERP解決方案。工廠營運主管：與財務核對批次紀錄並釐清交接責任，減少月底等待與重複核對。",
+          "copy": {
+            "card_id": "O3-A1",
+            "headline": "什麼拖慢了月底結帳？",
+            "body": "結帳截止前，財務還需要工廠提供哪些批次紀錄：在製品、完工產量，還是耗損？",
+            "source_text": "",
+            "cta": "",
+            "native_headline": "哪些工廠紀錄尚未齊備？",
+            "alt": "工廠與財務的空白紀錄，在待核對的位置相接。",
+            "artwork_labels": [
+              "ERP · 工廠營運",
+              "1/5"
+            ]
+          },
+          "image": "assets/02.png",
+          "sha256": "6936a3a3ebf852c878c2222d87217ed95fedfe2066a5a3dfd0bfa7a816bd8f4d",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/explanation/campaign/native/o3-a1_explanation-english-v2_explanation-candidate3-zh-Hant-v1.png"
+        },
+        {
+          "index": 3,
+          "stage": "explanation",
+          "caption": "Digiwin製造業ERP解決方案。工廠營運主管：與財務核對批次紀錄並釐清交接責任，減少月底等待與重複核對。",
+          "copy": {
+            "card_id": "O3-A2",
+            "headline": "截止時，在製品在哪道製程？",
+            "body": "逐批確認製程、未完工數量的紀錄依據，以及負責核實的人。",
+            "source_text": "",
+            "cta": "",
+            "native_headline": "依批次確認在製品狀態",
+            "alt": "中性的製程邊界與批次托盤，示意結帳截止時的在製品。",
+            "artwork_labels": [
+              "ERP · 工廠營運",
+              "2/5"
+            ]
+          },
+          "image": "assets/03.png",
+          "sha256": "75a3e268ecd5f07fa73f60a3f3bec705bdc94cabb12a23ae9db329493be584de",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/explanation/campaign/native/o3-a2_explanation-english-v2_explanation-candidate3-zh-Hant-v1.png"
+        },
+        {
+          "index": 4,
+          "stage": "explanation",
+          "caption": "Digiwin製造業ERP解決方案。工廠營運主管：與財務核對批次紀錄並釐清交接責任，減少月底等待與重複核對。",
+          "copy": {
+            "card_id": "O3-A3",
+            "headline": "產量與耗損，有哪些紀錄依據？",
+            "body": "先核對同一期間的完工產量、報廢與耗損紀錄，再與財務討論生產成本。",
+            "source_text": "",
+            "cta": "",
+            "native_headline": "核對完工與耗損紀錄",
+            "alt": "分別對照生產與耗損紀錄，不呈現虛構數量或良率。",
+            "artwork_labels": [
+              "ERP · 工廠營運",
+              "3/5"
+            ]
+          },
+          "image": "assets/04.png",
+          "sha256": "bfd97d43162bc38d18facfc3b98a19fe317bfaa9d3a6661a60da809f22166d12",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/explanation/campaign/native/o3-a3_explanation-english-v2_explanation-candidate3-zh-Hant-v1.png"
+        },
+        {
+          "index": 5,
+          "stage": "explanation",
+          "caption": "Digiwin製造業ERP解決方案。工廠營運主管：與財務核對批次紀錄並釐清交接責任，減少月底等待與重複核對。",
+          "copy": {
+            "card_id": "O3-A4",
+            "headline": "交給財務前，誰負責確認？",
+            "body": "釐清誰核查工廠紀錄、誰確認資料、何時交接。結帳截止前，先把責任說清楚。",
+            "source_text": "",
+            "cta": "",
+            "native_headline": "結帳截止前，釐清交接責任",
+            "alt": "工廠與財務紀錄，由待確認的交接邊界連接。",
+            "artwork_labels": [
+              "ERP · 工廠營運",
+              "4/5"
+            ]
+          },
+          "image": "assets/05.png",
+          "sha256": "d40ca6f1bed2ec4b4296dff449d90e173ec33d27b31150d6d6f4efa6ee314877",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/explanation/campaign/native/o3-a4_explanation-english-v2_explanation-candidate3-zh-Hant-v1.png"
+        },
+        {
+          "index": 6,
+          "stage": "explanation",
+          "caption": "Digiwin製造業ERP解決方案。工廠營運主管：與財務核對批次紀錄並釐清交接責任，減少月底等待與重複核對。",
+          "copy": {
+            "card_id": "O3-A5",
+            "headline": "讓工廠紀錄成為成本討論的依據",
+            "body": "採用已核對的當期在製品與耗損紀錄，讓工廠與財務有共同的討論依據。",
+            "source_text": "Digiwin 臺灣半導體方案資料：\nERP與MES用於管理與生產。",
+            "cta": "了解生產紀錄核對問題",
+            "native_headline": "連結工廠紀錄與財務討論",
+            "alt": "縮小的工廠與財務示意場景，配有獨立的臺灣方案來源與閱讀入口。",
+            "artwork_labels": [
+              "ERP · 工廠營運",
+              "5/5"
+            ]
+          },
+          "image": "assets/06.png",
+          "sha256": "3af4f3a6e77430527f35509e7404bd1879a6ebf21c8fad65119fa54259fd7930",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/explanation/closing/native/o3-a5_explanation-english-v2_explanation-candidate3-zh-Hant-v1.png"
+        },
+        {
+          "index": 7,
+          "stage": "proof",
+          "caption": "Digiwin製造業數位化解決方案。了解中國封裝測試案例：月結時間從15天縮短至5天。",
+          "copy": {
+            "card_id": "RMK-R4-1",
+            "headline": "面向製造業的數位化解決方案",
+            "body": "我們為製造企業開發並提供數位轉型解決方案，從ERP到智慧製造。",
+            "source_text": "Digiwin 越南 · 公司介紹",
+            "cta": "",
+            "native_headline": "面向製造業的數位化解決方案",
+            "alt": "Digiwin為製造企業提供從ERP到智慧製造的數位轉型解決方案。",
+            "artwork_labels": [
+              "半導體案例",
+              "1/4"
+            ]
+          },
+          "image": "assets/07.png",
+          "sha256": "3aeebfc859e5d83d2652ec67d24321c4db59c696271f6260eb7fb5a2109747b0",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/proof/campaign/native/case06-1_proof-english-v2_proof-candidate3-zh-Hant-v1.png"
+        },
+        {
+          "index": 8,
+          "stage": "proof",
+          "caption": "Digiwin製造業數位化解決方案。了解中國封裝測試案例：月結時間從15天縮短至5天。",
+          "copy": {
+            "card_id": "RMK-R4-2",
+            "headline": "中國封裝測試企業的實務",
+            "body": "江苏中科智芯集成科技有限公司採用整合數位化方案。案例涉及紀錄、流程，以及委外與生產效率。",
+            "source_text": "Digiwin 越南 · 8個案例 · 封裝測試",
+            "cta": "",
+            "native_headline": "封裝測試：中國企業案例",
+            "alt": "中國封裝測試案例：江苏中科智芯集成科技有限公司及其整合數位化方案。",
+            "artwork_labels": [
+              "半導體案例",
+              "2/4"
+            ]
+          },
+          "image": "assets/08.png",
+          "sha256": "13eccdc9b3d92f7412f327f78283da967cc50dd2f6f459ae5e41db1a41315066",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/proof/campaign/native/case06-2_proof-english-v2_proof-candidate3-zh-Hant-v1.png"
+        },
+        {
+          "index": 9,
+          "stage": "proof",
+          "caption": "Digiwin製造業數位化解決方案。了解中國封裝測試案例：月結時間從15天縮短至5天。",
+          "copy": {
+            "card_id": "RMK-R4-3",
+            "headline": "月結時間：從15天縮短至5天",
+            "body": "在中國企業\n江苏中科智芯集成科技有限公司\n的案例中，月結時間從15天縮短至5天。",
+            "source_text": "案例：江苏中科智芯集成科技有限公司\n中國",
+            "cta": "",
+            "native_headline": "中國案例的月結時間變化",
+            "alt": "案例公布的月結時間：江苏中科智芯集成科技有限公司從15天縮短至5天。",
+            "artwork_labels": [
+              "半導體案例",
+              "3/4"
+            ]
+          },
+          "image": "assets/09-corrective1.png",
+          "sha256": "47cdbd2cce2516e60b6e546e326fa6f42d61e0e3d58bec10cc79942882ba21d9",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/proof/result-source-corrective1/native/case06-3_proof-english-v2_proof-candidate3-zh-Hant-v1_source_corrective1.png"
+        },
+        {
+          "index": 10,
+          "stage": "proof",
+          "caption": "Digiwin製造業數位化解決方案。了解中國封裝測試案例：月結時間從15天縮短至5天。",
+          "copy": {
+            "card_id": "RMK-R4-4",
+            "headline": "閱讀案例與導入內容",
+            "body": "在8個半導體案例中找到江苏中科智芯集成科技有限公司，了解背景、方案與公布的成果。",
+            "source_text": "Digiwin 越南 · digiwin.com.vn\n8個半導體案例\n江苏中科智芯集成科技有限公司",
+            "cta": "閱讀封裝測試案例",
+            "native_headline": "閱讀整合方案案例",
+            "alt": "Digiwin越南在digiwin.com.vn發布的8個半導體案例，包括江苏中科智芯集成科技有限公司。",
+            "artwork_labels": [
+              "半導體案例",
+              "4/4"
+            ]
+          },
+          "image": "assets/10-corrective1.png",
+          "sha256": "ac41353825ab08e583cf4458e6589d6910cb36c1fd3db11c321a7e1356876ec3",
+          "native_path": "operations/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/proof/closing-source-corrective1/native/case06-4_proof-english-v2_proof-candidate3-zh-Hant-v1_source_corrective1.png"
+        }
+      ],
+      "reader_after_sha256": "4696a02905a48e183e3f25f70d0904cba7dabb5ae393c926929ba71af9e25f15",
+      "entry_after_sha256": "d1b8da7f19964a5fcf8112720c87e59d3b7ceb4ebb547993a8da5fc272e26e1e"
+    }
+  ]
+}
