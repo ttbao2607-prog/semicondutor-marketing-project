@@ -1,5 +1,7 @@
 # Package v2 · danh sách nội dung và đầu việc cần rà
 
+**Steering mới của Bảo07/10:** [Anchor workflow/cách viết](Package_V2_Workflow_Anchor_2026-10-07.md) chốt B1 chuẩn hóa và chốt data repo → B2 khoảng3–4câu duyệt budget/logic/measurement → B3 polish tự nhiên.34mục dưới đây là nguồn nội dung, không phải34câu hỏi. Bảo có quyền tự chủ toàn pipeline; nội dung agent/local/integrity và câu hỏi kỹ thuật phục vụ hồ sơ nội bộ. Các dòng nói số câu hỏi/workflow còn mở được supersede riêng bởi steering này; chưa có execution plan hay câu hỏi cụ thể.
+
 Đây là danh sách đầu vào để Bảo thiết kế lại package, **chưa phải execution plan**. Mọi dòng đều là đối tượng cần cân nhắc ghi vào package; không mặc định phải giữ toàn bộ hoặc giữ cách trình bày của v1. Những việc đang mở được liệt kê để package phản ánh đúng tình hình, không được kích hoạt bởi danh sách này.
 
 Baseline tiến độ: [Main/worktree reconciliation07/10](../LinkedIn_Current_Progress_2026-10-07.md) tại main `196f26b`. Hai lane creative đang hoạt động có thể tiến thêm; refresh receipt lúc chọn nguồn v2. Lượt inventory này không có live-account readback hoặc audit artifact mới.
