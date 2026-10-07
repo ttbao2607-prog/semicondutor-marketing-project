@@ -18,5 +18,7 @@
     "Remote main backup when explicitly requested"
   ],
   "remote": "Local commits only; no push in this closeout scope",
-  "scope": "Current Aplus swap handoff integrated; all historical trial/evidence stays on source archive branch, not main."
+  "scope": "Current Aplus swap handoff integrated; all historical trial/evidence stays on source archive branch, not main.",
+  "retirement_observed": "Both named worktrees removed from Git inventory. Source root remains empty because Windows denied deleting the active session directory; no source files or uncommitted work remain there. Integration directory removed. Both archive branches retained. No forced deletion.",
+  "empty_directory_remaining": "D:/LinkedIn_VN_Journey_Rebuild_2026-10-06; delete the empty directory only after the session releases it."
 }
