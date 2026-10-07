@@ -1,0 +1,235 @@
+{
+  "revision": "osat-postgen-root-review-v1",
+  "batch": "B11-zh-Hans-o4-q-v1",
+  "generation_status": "COMPLETE_WITHIN_CAP",
+  "execution_status": "PARTIAL",
+  "audit_verdict": "INSUFFICIENT_EVIDENCE",
+  "artifact_status": "NATIVE_CONTENT_REVIEWED_RENDER_NOT_OBSERVED",
+  "final_anchor_status": "INSUFFICIENT_EVIDENCE",
+  "reviewer": "/root",
+  "independence": "ROOT_SELF_REVIEW",
+  "native_market_review": "NOT_PERFORMED",
+  "runtime_model_effort": "NOT_OBSERVED",
+  "persona": "Quality Manager coordinating records and context for unusual-test-result review at an eligible FDI packaging/testing entity",
+  "route": "offline cold -> O4-Q unusual-test-result record review -> China ERP+iMES linked records and exceptions -> zh-Hans reader with Chinese sources",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "revision": "1.0",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+  },
+  "email": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "original": 6,
+  "corrective": 1,
+  "total_imagegen": 7,
+  "reused_pngs": 4,
+  "selected": 10,
+  "selected_manifest_sha256": "71708b083715c77da5d47d06053ea02bf1af03b179dfe8b0e5aa81f3bab5f36a",
+  "attempt_ledger_sha256": "94568c6c7975a72bda965dadd4942919496b2bcc1e625f997a0c79da8f980cdc",
+  "actual_review_observations_sha256": "aac4db3278b75205727458510c5f30e3b59ce515ca51282e67ba396e92da36e3",
+  "frozen_pins_verified": 24,
+  "adapter_status": "DEVELOPING / NOT_FROZEN",
+  "business_message_observation": "FDI Quality reviews unusual test results by aligning lot identity/process/test time, split/merge record relationships, contextual information before cause discussion and next-review ownership. Shared evidence basis is implicit operational value. Technical evaluation remains distinct. Source-bound China integrated ERP+iMES linked records and exceptions support inquiry, not diagnosis, test-defect resolution or measured yield/ROI outcome. Taiwan solution source separate.",
+  "source_scope": "Taiwan ERP+MES solution material separate from named China integrated ERP+iMES implementation. Linked records/exception escalation support next review, not technical root-cause diagnosis, defect resolution or measured yield improvement. Historical O2 month-close HOLD stays separate.",
+  "card_reviews": [
+    {
+      "card_id": "COLD-OSAT-QUALITY-01-IMAGE",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "测试结果异常，正在复核哪些记录？",
+        "body": "核对批次、测试时间，以及下一次复核的责任人。",
+        "source": "",
+        "cta": "",
+        "labels": [
+          "封装测试质量",
+          "制造业ERP"
+        ]
+      },
+      "scene": "Packaged-chip tray between two neutral record stacks, linked by an owner pictogram and open curves. Exact Simplified Chinese labels/headline/body; no invented result, lot ID or diagnosis.",
+      "selected_sha256": "0f8fe0f054179f3baa223919a09e3cb0234aad15569ed2232ec365184a2a68f9"
+    },
+    {
+      "card_id": "O4-Q-B1",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "封装测试质量：复核异常测试结果。",
+        "body": "多个团队复核异常测试结果时，先明确各份记录对应的批次和测试时间。",
+        "source": "",
+        "cta": "",
+        "labels": [
+          "ERP · 质量复核",
+          "1/5"
+        ]
+      },
+      "scene": "Quality desk with blank record sheets, folders and packaged chips in a carrier. No printed test results or outcome markers.",
+      "selected_sha256": "0ea5e0464703eb722be8062de144e921dee661b8d4ac61f32079aec4bf8443cc"
+    },
+    {
+      "card_id": "O4-Q-B2",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "1. 正在复核哪个批次？",
+        "body": "批次编号、工序和测试时间是否与记录一致？若批次有拆分或合并，记录之间的关联是否清楚？",
+        "source": "",
+        "cta": "",
+        "labels": [
+          "ERP · 质量复核",
+          "2/5"
+        ]
+      },
+      "scene": "Central neutral chip carrier with a path branching to two smaller carriers. Question copy asks about record relationships; no real batch identifiers, result/status or certified split/merge capability claim.",
+      "selected_sha256": "6b7bf3d2fe1bc2a69af74e83af63b14bcf1c2a2cc95367bf6239abf7e21645cb"
+    },
+    {
+      "card_id": "O4-Q-B3",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "2. 哪些背景信息还需核对？",
+        "body": "人员、设备、材料、方法和环境的记录已说明什么？讨论原因前，还需核对哪些信息？",
+        "source": "",
+        "cta": "",
+        "labels": [
+          "ERP · 质量复核",
+          "3/5"
+        ]
+      },
+      "scene": "Blank central record clipboard with people, machine, material, method and environment pictograms. Exact Simplified copy asks for more context before discussing causes; no cause verdict or measured test result.",
+      "selected_sha256": "afdcc0f05b36bb78c3d813cf4c58b9f25f7c207ae888614b2157c5a01c01dc02"
+    },
+    {
+      "card_id": "O4-Q-B4",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "3. 缺失信息由谁核对？",
+        "body": "明确需要确认的信息来源、核对责任人和缺失信息。共同确定下一位复核人员，以及需要补充到共同依据中的信息。",
+        "source": "",
+        "cta": "",
+        "labels": [
+          "ERP · 质量复核",
+          "4/5"
+        ]
+      },
+      "scene": "Two neutral record sheets with two open review paths and endpoint dots. A generic information-review scene; checking responsibility is carried by exact copy. No verdict/seal/checkmark or extra question glyph.",
+      "selected_sha256": "63fafab2d7997809dcf4e763520c18faf6d284c5b2264bee472ab3f0dd61b62c"
+    },
+    {
+      "card_id": "O4-Q-B5",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "汇集记录、背景与复核责任人。",
+        "body": "在共同依据上讨论下一步核对。这一信息管理视角配合技术评估。",
+        "source": "Digiwin台湾半导体解决方案资料：\nERP与MES支持管理及生产。",
+        "cta": "了解封装测试复核问题",
+        "labels": [
+          "ERP · 质量复核",
+          "5/5"
+        ]
+      },
+      "scene": "Selected corrective preserves reduced chip/record/owner scene and exact Simplified closing text. Source now full-width, larger than body, on white area; CTA in a separate blue strip below. Side-by-side narrow footer removed, no skyline/icon divider introduced.",
+      "selected_sha256": "a26a2bd8aab76b765d02750aae82f298496a6e7f5954f1fe796dbf72c1c59584"
+    },
+    {
+      "card_id": "RMK-R4-1",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "为制造企业提供数字化方案",
+        "body": "我们为制造企业提供数字化方案，涵盖ERP与智能制造。",
+        "source": "Digiwin越南 · 公司介绍",
+        "cta": "",
+        "labels": [
+          "半导体案例",
+          "1/4"
+        ]
+      },
+      "scene": "Manufacturing digital-solutions provider scene with Digiwin Vietnam company-introduction source. Same-locale proof native inspected in current Quality context.",
+      "selected_sha256": "2281c078328ce853104cabc2e78cd995689ca41269ff584f2598edee11586936"
+    },
+    {
+      "card_id": "RMK-R4-2",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "中国封装测试企业的实施案例",
+        "body": "江苏中科智芯集成科技有限公司实施了Digiwin ERP + iMES一体化方案，应对记录管理、业务流程与生产效率问题。",
+        "source": "Digiwin越南 · 封装测试案例",
+        "cta": "",
+        "labels": [
+          "半导体案例",
+          "2/4"
+        ]
+      },
+      "scene": "Named China packaging/testing implementation and integrated ERP+iMES records/processes scope. No measured yield/ROI or abnormal-test root-cause claim.",
+      "selected_sha256": "7c0cdae5f09f2ad72f8934b7aa9f290adb7df29b44f95135e4651cb92d540649"
+    },
+    {
+      "card_id": "RMK-R4-3",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "关联记录，支持下一步复核。",
+        "body": "在该中国案例中，MES关联批次、工位、操作员及产品／物料，支持追溯。系统同时记录异常，并逐级上报。",
+        "source": "案例：江苏中科智芯集成科技有限公司 · 中国",
+        "cta": "",
+        "labels": [
+          "半导体案例",
+          "3/4"
+        ]
+      },
+      "scene": "Linked batch/workstation/operator/product-material record context and exception escalation. China case source remains explicit; no diagnosis guarantee.",
+      "selected_sha256": "4b71a3a7e03a4842148bd2d3b6fcfbaac4262f5a00088d96db530060488e9b13"
+    },
+    {
+      "card_id": "RMK-R4-4",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "了解具体实施内容。",
+        "body": "了解江苏中科智芯集成科技有限公司如何关联生产记录、下发工艺参数变更并记录异常。",
+        "source": "Digiwin · 封装测试案例 · 中国\n江苏中科智芯集成科技有限公司",
+        "cta": "阅读记录关联与异常处理流程",
+        "labels": [
+          "半导体案例",
+          "4/4"
+        ]
+      },
+      "scene": "Records, parameter-change and exception inquiry with case CTA and China source. Supports next information review rather than proof of resolving test defects.",
+      "selected_sha256": "4c73bd9ace014bb03b31d30e1b282726d76195954840675468371a25d47ada7c"
+    }
+  ],
+  "findings": [
+    {
+      "card_id": "O4-Q-B5",
+      "severity": "CHANGES_REQUIRED_ORIGINAL",
+      "finding": "Original closing puts source and CTA side by side in a narrow footer instead of full-width source above separate CTA.",
+      "status": "CLOSED_NATIVE_SELECTED_CORRECTIVE",
+      "closure": "Selected corrective preserves reduced chip/record/owner scene and exact Simplified closing text. Source now full-width, larger than body, on white area; CTA in a separate blue strip below. Side-by-side narrow footer removed, no skyline/icon divider introduced. Exact source/CTA retained. Actual render closure limited to browser observations.",
+      "selected_sha256": "a26a2bd8aab76b765d02750aae82f298496a6e7f5954f1fe796dbf72c1c59584"
+    }
+  ],
+  "render_coverage": {
+    "status": "NOT_OBSERVED_SHARED_BROWSER_BUSY",
+    "ownership_attempt": "Atomic CreateNew failed because another controller holds the shared lock; no browser action or server start.",
+    "observed_owner": {
+      "owner": "root-partner-b22-corrective-v7",
+      "worktree": "D:/LinkedIn_Safe_Partner_2026-10-07"
+    },
+    "desktop_feed333_cards": [],
+    "desktop640_cards": [],
+    "mobile_cards": [],
+    "journey": {
+      "status": "NOT_OBSERVED",
+      "source_only": "Localized viewer and China ERP+iMES reader copy reviewed; no executed browser journey, no inherited prior observations."
+    }
+  },
+  "journey_review": {
+    "status": "NOT_OBSERVED",
+    "source_only": "Localized viewer and China ERP+iMES reader copy reviewed; no executed browser journey, no inherited prior observations."
+  },
+  "unknowns": [
+    "Target entity and local ERP decision authority not verified.",
+    "Public proof rights and live-platform readiness not certified.",
+    "Incomplete whole-mobile/desktop640 evidence prevents whole-journey technical PASS."
+  ],
+  "po_status": "PENDING_REVIEW",
+  "git_status": "Owned OSAT working files only; uncommitted, not merged, not pushed.",
+  "stop": "Two-batch mandate; stop before B12."
+}

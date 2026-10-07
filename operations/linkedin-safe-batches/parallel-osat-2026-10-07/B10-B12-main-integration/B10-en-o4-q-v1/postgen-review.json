@@ -1,0 +1,235 @@
+{
+  "revision": "osat-postgen-root-review-v1",
+  "batch": "B10-en-o4-q-v1",
+  "generation_status": "COMPLETE_WITHIN_CAP",
+  "execution_status": "PARTIAL",
+  "audit_verdict": "INSUFFICIENT_EVIDENCE",
+  "artifact_status": "NATIVE_CONTENT_REVIEWED_RENDER_NOT_OBSERVED",
+  "final_anchor_status": "INSUFFICIENT_EVIDENCE",
+  "reviewer": "/root",
+  "independence": "ROOT_SELF_REVIEW",
+  "native_market_review": "NOT_PERFORMED",
+  "runtime_model_effort": "NOT_OBSERVED",
+  "persona": "Quality Manager coordinating records and context for unusual-test-result review at an eligible FDI packaging/testing entity",
+  "route": "offline cold -> O4-Q unusual-test-result record review -> China ERP+iMES linked records and exceptions -> en reader with Chinese sources",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "revision": "1.0",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+  },
+  "email": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "original": 6,
+  "corrective": 1,
+  "total_imagegen": 7,
+  "reused_pngs": 4,
+  "selected": 10,
+  "selected_manifest_sha256": "6ac8cea6751fc6dc81bcb0861a1e123e2fa224f4ded070ba8eebdf69ef47d215",
+  "attempt_ledger_sha256": "69b51982e97c2a88c988e32e242998dbea90fbf74082cd81be72ceab749a5525",
+  "actual_review_observations_sha256": "3d449cd5cfa2d8f7847a6f031fe6481d571061374ba430a34e5d48e3751b6109",
+  "frozen_pins_verified": 24,
+  "adapter_status": "DEVELOPING / NOT_FROZEN",
+  "business_message_observation": "FDI Quality reviews unusual test results by aligning lot identity/process/test time, split/merge record relationships, contextual information before cause discussion and next-review ownership. Shared evidence basis is implicit operational value. Technical evaluation remains distinct. Source-bound China integrated ERP+iMES linked records and exceptions support inquiry, not diagnosis, test-defect resolution or measured yield/ROI outcome. Taiwan solution source separate.",
+  "source_scope": "Taiwan ERP+MES solution material separate from named China integrated ERP+iMES implementation. Linked records/exception escalation support next review, not technical root-cause diagnosis, defect resolution or measured yield improvement. Historical O2 month-close HOLD stays separate.",
+  "card_reviews": [
+    {
+      "card_id": "COLD-OSAT-QUALITY-01-IMAGE",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "Unusual test results. Which records?",
+        "body": "Check the lot, test time and who owns the next review.",
+        "source": "",
+        "cta": "",
+        "labels": [
+          "PACKAGING & TESTING QUALITY",
+          "MANUFACTURING ERP"
+        ]
+      },
+      "scene": "Packaged-chip tray, two neutral record folios and an owner pictogram with open directional paths. No invented values, results or technical diagnosis.",
+      "selected_sha256": "605e9aa1f46f19698be845a2d624d98d13120853a77d8609088f9613085b996e"
+    },
+    {
+      "card_id": "O4-Q-B1",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "Packaging/testing quality: unusual results.",
+        "body": "When teams review unusual test results, first align on the lot and test time behind each record.",
+        "source": "",
+        "cta": "",
+        "labels": [
+          "ERP · QUALITY REVIEW",
+          "1/5"
+        ]
+      },
+      "scene": "Quality desk with blank record sheets, folders and packaged chips in a carrier. No printed test results or outcome markers.",
+      "selected_sha256": "6ac82e2ed86ecbacac0b3baabf09a30c2b1ee879902d09161aac04b5ec61c96b"
+    },
+    {
+      "card_id": "O4-Q-B2",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "1. Which lot are we reviewing?",
+        "body": "Do the lot ID, process stage and test time match the record? If lots were split or merged, are the relationships between records clear?",
+        "source": "",
+        "cta": "",
+        "labels": [
+          "ERP · QUALITY REVIEW",
+          "2/5"
+        ]
+      },
+      "scene": "Neutral chip carriers with incoming and branching/reconnecting paths for record relationships. No actual lot identifiers or certified split/merge capability claim.",
+      "selected_sha256": "677e9c8573e00d34c60ea4107eac4e66e48be09b6aa5216b816bf8c88cc798d2"
+    },
+    {
+      "card_id": "O4-Q-B3",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "2. What context needs checking?",
+        "body": "What do the records show about people, machines, materials, methods and environment? What else needs checking before discussing causes?",
+        "source": "",
+        "cta": "",
+        "labels": [
+          "ERP · QUALITY REVIEW",
+          "3/5"
+        ]
+      },
+      "scene": "Blank central record folder with people, machine, material, method and environment pictograms. No cause verdict or measured test result.",
+      "selected_sha256": "aa3ecc467591681b7ae98ff05a6fc2c5c1ced8967c23a5468f4602938a3dd2d4"
+    },
+    {
+      "card_id": "O4-Q-B4",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "3. Who checks what is missing?",
+        "body": "Identify the source to confirm, the person checking it and the missing information. Agree on the next reviewer and what to add to the shared basis.",
+        "source": "",
+        "cta": "",
+        "labels": [
+          "ERP · QUALITY REVIEW",
+          "4/5"
+        ]
+      },
+      "scene": "Three neutral folders with a pale middle position and two open arrows. Copy carries checking responsibility; the scene remains a generic information-review path without verdict/seal/checkmark or extra question glyph.",
+      "selected_sha256": "e754cf7d5afb3516e04d4e03600d80bd08ecc580775bc54df2ce85bd4865497f"
+    },
+    {
+      "card_id": "O4-Q-B5",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "Review records, context and owners together.",
+        "body": "Use a shared basis to discuss the next check. This information-management perspective complements the technical evaluation.",
+        "source": "Digiwin Taiwan semiconductor solution material:\nERP and MES support management and production.",
+        "cta": "Explore quality-review questions",
+        "labels": [
+          "ERP · QUALITY REVIEW",
+          "5/5"
+        ]
+      },
+      "scene": "Selected corrective retains reduced records/chip/owner review scene and exact closing text. Full-width source above separate CTA; skyline/building icon and divider column removed.",
+      "selected_sha256": "dcbe44a05cc6a6be6033e63072caf8e62bd3d2c6cc9aabdf8211e66547e4ff78"
+    },
+    {
+      "card_id": "RMK-R4-1",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "Digital solutions for manufacturing",
+        "body": "We provide digital solutions for manufacturers, from ERP to smart manufacturing.",
+        "source": "Digiwin Vietnam · Company introduction",
+        "cta": "",
+        "labels": [
+          "SEMICONDUCTOR CASE",
+          "1/4"
+        ]
+      },
+      "scene": "Manufacturing digital-solutions provider scene; large Digiwin Vietnam company-introduction source. Reused same-locale bytes, inspected in this current Quality context.",
+      "selected_sha256": "ce19bf68a01533a6e19a05c7f971376ad15b207556a602bcab1bdbcb2d47cdd9"
+    },
+    {
+      "card_id": "RMK-R4-2",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "A packaging and testing case in China",
+        "body": "江苏中科智芯集成科技有限公司 implemented an integrated Digiwin ERP + iMES solution to address records, processes and production efficiency.",
+        "source": "Digiwin Vietnam · Packaging/testing case",
+        "cta": "",
+        "labels": [
+          "SEMICONDUCTOR CASE",
+          "2/4"
+        ]
+      },
+      "scene": "Named China packaging/testing implementation, integrated ERP+iMES records/processes scope. No measured yield/ROI or abnormal-test root-cause claim.",
+      "selected_sha256": "1bb450fedc473bc4e45b6cb6920335e6fe40cbec61f2d9ff40a0ec23faea9172"
+    },
+    {
+      "card_id": "RMK-R4-3",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "Link the records for the next review.",
+        "body": "In the China case, MES links batches, workstations, operators and products/materials for tracing. The system also records and escalates exceptions.",
+        "source": "Case: 江苏中科智芯集成科技有限公司 · China",
+        "cta": "",
+        "labels": [
+          "SEMICONDUCTOR CASE",
+          "3/4"
+        ]
+      },
+      "scene": "Linked batch/workstation/operator/product-material record context and exception escalation. China case source remains explicit; no diagnosis guarantee.",
+      "selected_sha256": "c67fde5114959a063c2a1dd088e5d2dc0c3acceebeeb0ac80b6e71e3ec5ef1ca"
+    },
+    {
+      "card_id": "RMK-R4-4",
+      "exact_text": "Native headline/body/header/sequence/applicable source/CTA compared against current script. No unapproved printed words/results observed on selected final.",
+      "observed_script": {
+        "headline": "Explore the implementation detail.",
+        "body": "Read how 江苏中科智芯集成科技有限公司 links production records, distributes parameter changes and records exceptions.",
+        "source": "Digiwin · Packaging/testing case · China\n江苏中科智芯集成科技有限公司",
+        "cta": "Read the records and exception workflow",
+        "labels": [
+          "SEMICONDUCTOR CASE",
+          "4/4"
+        ]
+      },
+      "scene": "Records, parameter-change and exception inquiry with case CTA and China source. Supports next information review rather than proof of resolving test defects.",
+      "selected_sha256": "d0c3c8864664f842e16cf8f2f5ff98955111dbad3549667ad10df0e28699ac48"
+    }
+  ],
+  "findings": [
+    {
+      "card_id": "O4-Q-B5",
+      "severity": "CHANGES_REQUIRED_ORIGINAL",
+      "finding": "Original closing adds skyline and icon/divider column outside storyboard.",
+      "status": "CLOSED_NATIVE_SELECTED_CORRECTIVE",
+      "closure": "Corrected selected native inspected: skyline and divider removed, exact source/CTA retained with full-width source. Actual render closure limited to browser observations.",
+      "selected_sha256": "dcbe44a05cc6a6be6033e63072caf8e62bd3d2c6cc9aabdf8211e66547e4ff78"
+    }
+  ],
+  "render_coverage": {
+    "status": "NOT_OBSERVED_SHARED_BROWSER_BUSY",
+    "ownership_attempt": "Atomic CreateNew failed because another controller holds the shared lock; no browser action or server start.",
+    "observed_owner": {
+      "owner": "root-partner-b22-corrective-v7",
+      "worktree": "D:/LinkedIn_Safe_Partner_2026-10-07"
+    },
+    "desktop_feed333_cards": [],
+    "desktop640_cards": [],
+    "mobile_cards": [],
+    "journey": {
+      "status": "NOT_OBSERVED",
+      "source_only": "Localized viewer and China ERP+iMES reader copy reviewed; no executed browser journey, no inherited prior observations."
+    }
+  },
+  "journey_review": {
+    "status": "NOT_OBSERVED",
+    "source_only": "Localized viewer and China ERP+iMES reader copy reviewed; no executed browser journey, no inherited prior observations."
+  },
+  "unknowns": [
+    "Target entity and local ERP decision authority not verified.",
+    "Public proof rights and live-platform readiness not certified.",
+    "Incomplete whole-mobile/desktop640 evidence prevents whole-journey technical PASS."
+  ],
+  "po_status": "PENDING_REVIEW",
+  "git_status": "Owned OSAT working files only; uncommitted, not merged, not pushed.",
+  "stop": "Two-batch mandate; stop before B12."
+}
