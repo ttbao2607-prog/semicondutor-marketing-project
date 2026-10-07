@@ -1,0 +1,95 @@
+{
+  "stage": "MAIN_INTEGRATION_CONTENT_REVIEW",
+  "reviewer": "Codex root",
+  "independence": "SELF_REVIEW",
+  "anchor_id": "VY-CONTENT-ANCHOR",
+  "revision": "inline-v2",
+  "anchor_sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+  "email_sha256": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3",
+  "scope": "Exact adopted VN reader artifact bytes; same VN persona, translated EN/zh-Hans accessibility; not FDI adaptation",
+  "surfaces": "All titles, case paragraphs, mechanisms, self-check prompts, CTA, sources, alt and accessibility labels on both readers",
+  "A1": "COF context and product/inspection data preserved",
+  "A2": "No customer-fit or eligibility claim",
+  "A3": "Same VN reader needs, language choice does not change audience; formal 贵企业 in Chinese",
+  "A4": "N/A FDI persona; no invented ROI",
+  "A5": "System/data preparedness, no qualification or audit guarantee",
+  "A6": "Serial reporting/SPC/change mechanisms integrated scope unchanged; three months whole project, not ERP alone",
+  "A7": "Week1 preparation→self-review→needs; week2 attributed timing→scope/data/milestone→consultation. Back leads to existing VI journey and CTA explicitly VI contact destination",
+  "proof": "Aplus China/DigiHua/iMES+TOP GP; no first-consultation-to-audit metric or audit pass",
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "adapter": "DEVELOPING / NOT_FROZEN; not invoked/changed",
+  "imagegen_calls": 0,
+  "postgen": "OBSERVED_IN_PAGE / SELF_REVIEW",
+  "copy_sha256": "5874d44b171f78621eb2db4439b7f46cf785c78c082be7de3ce156681f33e71a",
+  "mandate": "Bảo requests three languages in one HTML per week for later LDP use",
+  "implementation": "Exact locale copy assembled into inline JSON; local display-only script, embedded hero/logo; no SDK/form/tracking dispatch or live operation",
+  "status": "PO_ACCEPTED_OFFLINE / LOCAL_MAIN_ADOPTION",
+  "artifacts": {
+    "case-aplus-week1.html": {
+      "sha256": "5e4c57e34c858ccb81e4a49de7bed1ae08a9f06793d0054f92cf8aa31ba18a05",
+      "bytes": 288121,
+      "states": [
+        "vi",
+        "en",
+        "zh-Hans"
+      ],
+      "all_authored_text_nodes_observed": true,
+      "alt_aria_exact": true,
+      "single_heading_and_unique_ids": true,
+      "embedded_images": true
+    },
+    "case-aplus-week2.html": {
+      "sha256": "122621b9874d9eadc5ed9f9489ccc904bdd8b0af5bdc8530e2b3fff7b1ae5a5d",
+      "bytes": 289371,
+      "states": [
+        "vi",
+        "en",
+        "zh-Hans"
+      ],
+      "all_authored_text_nodes_observed": true,
+      "alt_aria_exact": true,
+      "single_heading_and_unique_ids": true,
+      "embedded_images": true
+    }
+  },
+  "observations": "Twelve actual week/locale/viewport states observed; same URL across switch. Each authored node present; exact title/alt/aria bindings; active button and document lang changed. Mobile375/desktop1440 no overflow, embedded images load, all buttons44px. Actual inline desktop Chinese/mobile English screenshots reviewed; reused unchanged translation content previously rendered in all four EN/ZH readers.",
+  "message_verdict": "MESSAGE_ANCHOR_PASS",
+  "proof_review": "All2x3 units source attribution, case geography, whole-project metric limits, integrated capability, preparation prompts versus case facts, CTA destination retained; no whole FDI journey acceptance claim",
+  "limitations": "Local browser verified. LDP import/runtime script execution unknown until authorized operator route tested; not deploy-ready claim. VI value accepted, translations not separately PO accepted. No SDK/form/analytics dispatch; Google font optional external request only. No main/commit/push/live.",
+  "main_anchor_binding": {
+    "operations/Vy_Email_Content_Anchor.md": {
+      "source_sha256": "96197cd1999e250af64ab0a3a54e24cf3c2429b8366be53e2cc680a634667337",
+      "main_sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+      "same_message_source": true
+    },
+    "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md": {
+      "source_sha256": "87475d082cb66cc1dc11285a6a2d7982d77d80ca9cd2c14522bab2d212ebb5b3",
+      "main_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+      "same_message_source": true
+    }
+  },
+  "main_destinations": [
+    {
+      "week": 1,
+      "source_path": "deliverables/linkedin-vn-journey/2026-10-07-case-value-v1/case-aplus-week1.html",
+      "main_path": "deliverables/linkedin-vn-journey/2026-10-06-v3/case-aplus.html",
+      "previous_main_sha256": "8fa57848eb0254e3785099cfb05a563992de830145d6c458c78bfe727661b9f5",
+      "selected_sha256": "5e4c57e34c858ccb81e4a49de7bed1ae08a9f06793d0054f92cf8aa31ba18a05",
+      "exact_source_bytes": true,
+      "existing_expand_destination_unchanged": true,
+      "relative_back_links_resolve": true
+    },
+    {
+      "week": 2,
+      "source_path": "deliverables/linkedin-vn-journey/2026-10-07-case-value-v1/case-aplus-week2.html",
+      "main_path": "deliverables/linkedin-vn-journey/2026-10-06-week2-time-v2/case-aplus.html",
+      "previous_main_sha256": "4e771932b162fd9b6e258311d816357226a011ef58c32c50321c4e1e0a604896",
+      "selected_sha256": "122621b9874d9eadc5ed9f9489ccc904bdd8b0af5bdc8530e2b3fff7b1ae5a5d",
+      "exact_source_bytes": true,
+      "existing_expand_destination_unchanged": true,
+      "relative_back_links_resolve": true
+    }
+  ],
+  "source_review": "Source actual12locale/viewport states archived in source worktree; byte-equivalent integration, no new UI/content changes.",
+  "limits": "SELF_REVIEW source evidence, not independent audit or live LDP runtime. Broader ad/journey findings remain separate. No audience/budget/runtime/adapter freeze changes."
+}

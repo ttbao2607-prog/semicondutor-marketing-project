@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-07",
+  "owner": "Bao / Product Owner",
+  "authorization": "User approved current two single-HTML VI/EN/zh-Hans readers and requested merge into main.",
+  "scope": "Two final HTMLs only plus bounded integration/acceptance/current-state docs. No draft/helper/alternate/evidence-directory import.",
+  "status": "PO_ACCEPTED / LOCAL_MAIN_ADOPTION",
+  "artifacts": {
+    "deliverables/linkedin-vn-journey/2026-10-07-case-value-v1/case-aplus-week1.html": "5e4c57e34c858ccb81e4a49de7bed1ae08a9f06793d0054f92cf8aa31ba18a05",
+    "deliverables/linkedin-vn-journey/2026-10-07-case-value-v1/case-aplus-week2.html": "122621b9874d9eadc5ed9f9489ccc904bdd8b0af5bdc8530e2b3fff7b1ae5a5d"
+  },
+  "source_base": "95beb6bcd5eb29d4bfbebc0799cf20368ee904b0",
+  "target_base": "cc904e2c25bfbc191a2027916601d10a4a6ddf21",
+  "mapping": {
+    "week1": "deliverables/linkedin-vn-journey/2026-10-06-v3/case-aplus.html",
+    "week2": "deliverables/linkedin-vn-journey/2026-10-06-week2-time-v2/case-aplus.html"
+  },
+  "evidence_source": "operations/linkedin-vn-journey-rebuild/2026-10-06/ldp-language-inline-v2/postgen-review.json",
+  "self_review": "12 in-page locale/viewport observations; all authored nodes/title/alt/aria match, same URL, no overflow, embedded images loaded. This is source local review, not independent or live certification.",
+  "limitations": "LDP import/runtime not tested. No form/provider/tracking. Contact/back VI retained. Local commit/integration only; no push/live. Adapter DEVELOPING / NOT_FROZEN.",
+  "source_checkpoint": "714316c",
+  "method": "Selective artifact integration onto current main cc904e2; source branch history not merged, only exact two accepted HTMLs mapped to existing canonical case routes.",
+  "mapping_evidence": [
+    {
+      "week": 1,
+      "source_path": "deliverables/linkedin-vn-journey/2026-10-07-case-value-v1/case-aplus-week1.html",
+      "main_path": "deliverables/linkedin-vn-journey/2026-10-06-v3/case-aplus.html",
+      "previous_main_sha256": "8fa57848eb0254e3785099cfb05a563992de830145d6c458c78bfe727661b9f5",
+      "selected_sha256": "5e4c57e34c858ccb81e4a49de7bed1ae08a9f06793d0054f92cf8aa31ba18a05",
+      "exact_source_bytes": true,
+      "existing_expand_destination_unchanged": true,
+      "relative_back_links_resolve": true
+    },
+    {
+      "week": 2,
+      "source_path": "deliverables/linkedin-vn-journey/2026-10-07-case-value-v1/case-aplus-week2.html",
+      "main_path": "deliverables/linkedin-vn-journey/2026-10-06-week2-time-v2/case-aplus.html",
+      "previous_main_sha256": "4e771932b162fd9b6e258311d816357226a011ef58c32c50321c4e1e0a604896",
+      "selected_sha256": "122621b9874d9eadc5ed9f9489ccc904bdd8b0af5bdc8530e2b3fff7b1ae5a5d",
+      "exact_source_bytes": true,
+      "existing_expand_destination_unchanged": true,
+      "relative_back_links_resolve": true
+    }
+  ]
+}
