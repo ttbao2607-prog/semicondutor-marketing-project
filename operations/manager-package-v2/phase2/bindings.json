@@ -1,0 +1,113 @@
+{
+  "artifact_revision": "package-v2-phase2-1.0",
+  "stage": "INTERNAL_CONTENT_REVIEW",
+  "reviewed_utc": "2026-10-07T08:20:36.104905+00:00",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "baseline_commit": "4030d40d727668918bf079fd730d2071268a9004",
+  "anchor": {
+    "id": "SRC-ANCHOR",
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "head_at_capture": "196f26b9f3064fca8fe6b3b50b5707c2b54b65af"
+  },
+  "anchor_content_id": "VY-CONTENT-ANCHOR",
+  "anchor_revision": "1.0",
+  "email": {
+    "id": "SRC-MAIL",
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "head_at_capture": "196f26b9f3064fca8fe6b3b50b5707c2b54b65af"
+  },
+  "workflow": {
+    "id": "SRC-WORKFLOW",
+    "path": "operations/manager-package-v2/Package_V2_Workflow_Anchor_2026-10-07.md",
+    "sha256": "7fa12f6a362c437e032975e5ca5193791ed48d5dd35c4316cc7d9d34093dca93",
+    "head_at_capture": "7796bc60df71c9795cbc0a06aa92ecff4dc1d957",
+    "revision": "1.1"
+  },
+  "executive": {
+    "path": "deliverables/manager-package-v2/phase2/De_xuat_dau_tu_paid_ads.md",
+    "sha256": "27a283708bf432e85b5c32774d03daa34f05df45d8221efb466efc8285fe1c4e"
+  },
+  "internal_files": [
+    {
+      "path": "operations/manager-package-v2/phase2/Content_Split_Register.md",
+      "sha256": "9660ffb62e0ee0c0ba1c32d2b04e7066080ae092416a782703d89da2250658f4"
+    },
+    {
+      "path": "operations/manager-package-v2/phase2/Data_Routing_and_Source_Mapping.md",
+      "sha256": "551f4cacd3ce179d41fa8aa59c7a46fefabcffadf87ef489c595022136677958"
+    },
+    {
+      "path": "operations/manager-package-v2/phase2/Bao_Decision_Action_Register.md",
+      "sha256": "d404ae41489fa3cf71c272a6426832b617e31f3aa8dfa1c1ea2bdc8a2a422b22"
+    },
+    {
+      "path": "operations/manager-package-v2/phase2/Authority_and_Execution_Contract.md",
+      "sha256": "b4e17147b4af0f52e9b1a65b8f4e524645416d9b074d7b764d2026ada9935373"
+    },
+    {
+      "path": "operations/manager-package-v2/phase2/README.md",
+      "sha256": "6c0ab56114824bd772f600480151c22ebd0eb94b4e52ee554f12efaa87c603cd"
+    },
+    {
+      "path": "operations/manager-package-v2/phase2/Review_Receipt.md",
+      "sha256": "5330eccf5a4785efee4c9f1ffc8b11566184f10213d60c72dc724a89b113466e"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "operations/manager-package-v2/phase1/data-register.json",
+      "sha256": "280e557a243f2eea9a7e6e6834f81c225db06b412e1125bc304efd4db3f7369d",
+      "commit": "4030d40d727668918bf079fd730d2071268a9004"
+    },
+    {
+      "path": "operations/manager-package-v2/phase1/source-register.json",
+      "sha256": "96ff5eab27561be3243e8e265ee229630ca55e699d0b6c4a10bc7c84644c378c",
+      "commit": "4030d40d727668918bf079fd730d2071268a9004"
+    },
+    {
+      "path": "operations/manager-package-v2/phase1/Package_V2_Skeleton_Phase1.md",
+      "sha256": "e08bdc3428d38788904efa346054244c9390e896a044b2c52a8a181aa19aeadd",
+      "commit": "4030d40d727668918bf079fd730d2071268a9004"
+    },
+    {
+      "path": "operations/manager-package-v2/phase1/Claim_Register.md",
+      "sha256": "e2eb96b9f2555c960846ff0bd50a1d62fb252161a14d1ab441c87e30b28dd2fc",
+      "commit": "4030d40d727668918bf079fd730d2071268a9004"
+    },
+    {
+      "path": "operations/manager-package-v2/phase1/Inventory_Disposition.md",
+      "sha256": "b10256b0b9513c2013bdf4e2aafffe80d93fc3d5720f7a629b8f22437622bf30",
+      "commit": "4030d40d727668918bf079fd730d2071268a9004"
+    },
+    {
+      "path": "operations/manager-package-v2/phase1/Week1_Review_Week2_Data_Matrix.md",
+      "sha256": "a9773b166804fc1617f0a74a6e8d63a13f2614560970f76ff3cd338ee0f7c2cf",
+      "commit": "4030d40d727668918bf079fd730d2071268a9004"
+    }
+  ],
+  "related_notices": [
+    {
+      "path": "CURRENT_STATE.md",
+      "sha256": "51c7aaecbc7b8356e1210f969d014a48be928dc2eede80a42795a946ac46a3f0"
+    },
+    {
+      "path": "operations/LinkedIn_Current_Progress_2026-10-07.md",
+      "sha256": "fdd045d5725996851d0bc02fdf37e241800703ec2c35573f4b8e55acc2586645"
+    },
+    {
+      "path": "operations/manager-package-v2/README.md",
+      "sha256": "200d633bb7d95f1e7b859bc9636502e8f42bc4cf933ed3817533435b6045de83"
+    },
+    {
+      "path": "operations/manager-package-v2/Package_V2_Three_Phase_Plan_2026-10-07.md",
+      "sha256": "13a70badecc80e7791efd81a6bc3aa3455a6d2cf952716249bca5f70a47ec76b"
+    }
+  ],
+  "question_state": "PROPOSED_UNANSWERED",
+  "render_scope": "N/A internal Markdown; no new artwork/UI",
+  "semantic_evidence": "Review_Receipt.md",
+  "message_verdict": "MESSAGE_ANCHOR_PASS_INTERNAL_MARKDOWN_SCOPE"
+}

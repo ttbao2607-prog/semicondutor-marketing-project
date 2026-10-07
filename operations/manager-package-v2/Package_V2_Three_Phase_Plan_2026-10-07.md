@@ -1,10 +1,10 @@
-> **Phase1 update07/10:** Budget được ghi chưa thuế; dashboard do Bảo quản lý/coordinate, kế toán xử lý thuế. Tuần1 theo plan/review cuối tuần, tuần2 quyết định theo data matrix và swap đúng đoạn từ nguồn đã chuẩn bị. [Decision record](phase1/PO_Dashboard_Weekly_Decision_2026-10-07.md) thay all-in/cadence pending; không tự bắt đầuPhase2/3.
+> **Phase 3 current 07/10:** Bảo yêu cầu chuyển sang Phase3 từ bản split Phase2 và gửi Vy, xưng tên Bảo–Vy. [Package thư mục thường](../../deliverables/manager-package-v2/2026-10-07/BAT_DAU.html) đã dựng; **PHASE3_PREPARED / BAO_FINAL_REVIEW_PENDING**. Proposal/mail,3điểm đầu tư, demo/library/readers/workbook và actual source/render/formula reviews ghi tại [Phase3](phase3/README.md). Phase1 checkpoint4030d40; Phase2/3 được checkpoint local theo mandate “commit local codex”; xem [phạm vi checkpoint](Checkpoint_Phase2_Phase3_2026-10-07.md). Main/push/live, email transmission và acceptance cuối giữ mandate riêng.
 
 # Package v2 · plan3phase
 
-Trạng thái hiện tại: **PHASE1_PREPARED / BAO_DATA_LOCK_PENDING**. Plan được checkpoint local `7796bc6` theo mandate “commit đi codex, và thực hiện phase 1”. [Skeleton/data Phase 1](phase1/README.md) đã dựng để Bảo chốt; Phase 2–3 chưa bắt đầu. Khi plan được lập/checkpoint, ba phase đều chưa thực thi. [Anchor workflow](Package_V2_Workflow_Anchor_2026-10-07.md) checkpoint `823cc8b`; [inventory 34 mục](Package_V2_Content_Inventory_2026-10-07.md) là phạm vi nguồn cần rà, không phải số câu hỏi.
+Trạng thái hiện tại: **PHASE3_PREPARED / BAO_FINAL_REVIEW_PENDING**. Plan checkpoint7796bc6 và Phase1 checkpoint4030d40 giữ nguyên. Bảo cho phép dùng bản split/3câu Phase2 để làm Phase3; recipient là Vy, xưng tên. Không có response thay Vy/lãnh đạo. Khi plan được lập ban đầu, ba phase chưa thực thi. Workflow/inventory vẫn là source contract, không số câu hỏi.
 
-Mục tiêu: package trình sếp có đề xuất budget rõ, logic dùng tiền và measurement hợp lý để đồng ý/từ chối/góp ý; dữ liệu nguồn đủ integrity, phần quyết định của Bảo và evidence vận hành được giữ ở hồ sơ nội bộ. Bảo có autonomy paid ads và toàn pipeline. Mandate mới kích hoạt Phase 1 draft/offline, không thay quyết định budget hiện hành.
+Mục tiêu: package trình sếp có đề xuất budget rõ, logic dùng tiền và measurement hợp lý để đồng ý/từ chối/góp ý; dữ liệu nguồn đủ integrity, phần quyết định của Bảo và evidence vận hành được giữ ở hồ sơ nội bộ. Bảo có autonomy paid ads và toàn pipeline. Mandate hiện tại kích hoạt Phase3 offline package construction, không thay quyết định budget hiện hành.
 
 ## Phạm vi và nơi lưu
 
@@ -83,4 +83,4 @@ Mục tiêu: package trình sếp có đề xuất budget rõ, logic dùng tiề
 
 Review responsibility không đồng nghĩa có agent độc lập: khai đúng reviewer/independence thực tế; không spawn chỉ vì bảng audit. Execution và audit status ghi ở internal record, không làm claim trong executive package. Việc lập plan không chứng minh các phase đã chạy.
 
-Docs impact tại checkpoint plan: CURRENT_STATE.md, DOCS_IMPACT_MAP, current progress và owned anchor/inventory đã đọc; no canonical update required khi chỉ lập plan. Sau Phase 1: [reconciliation notes](phase1/Reconciliation_Notes.md) ghi source refresh và bounded canonical notices trong checkout package; main worktree không đổi. Phase 1 materials đã chuẩn bị, chờ Bảo chốt data/skeleton; Phase 2–3 **NOT_STARTED**. Main merge/push giữ mandate riêng.
+Docs impact tại checkpoint plan và Phase1 giữ trong Git/source records. Phase2 split/3questions là historical baseline cho mandate Phase3. Phase3 package/current-state/progress/owned README đã sync ở checkout riêng; historical Phase1/2 receipts giữ nguyên. Business/anchor/cap/cadence và frozen scopes không đổi. Bảo final review còn pending; main merge/push/live/email transmission giữ mandate riêng.
