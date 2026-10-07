@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-07",
+  "case": "江苏中科智芯集成科技有限公司",
+  "selected": {
+    "file": "case06-digiwin-visit-2020.jpeg",
+    "sha256": "422461c2803200232816c20af6768a35f99505348a23307ba26af79067d5a006",
+    "dimensions": [
+      1080,
+      656
+    ],
+    "source_page": "https://www.sohu.com/a/420465147_722372",
+    "image_url": "https://p4.itc.cn/q_70/images03/20200924/871179f742d14e1aaa9ead73ed2e5f8a.jpeg",
+    "byline": "鼎捷智造___new",
+    "published": "2020-09-23 18:00",
+    "classification": "AUTHENTIC_EVENT_PHOTO",
+    "identity_evidence": "Article opening names exact customer; image banner bears exact legal entity and Digiwin branding. Visually inspected original downloaded bytes.",
+    "ownership": "Publisher byline and branded event observed; account ownership/license not independently verified",
+    "usage": "Offline internal pilot draft only; public/paid reuse rights UNKNOWN",
+    "crop_or_retouch": "NONE; original bytes embedded, original aspect retained"
+  },
+  "alternatives": [
+    {
+      "source": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+      "finding": "Live rendered case06 panel contains no image; observed after selecting case06 tab."
+    },
+    {
+      "source": "https://www.digiwin.com/solution/SemiconductorBT/SemiconductorBT.html",
+      "image": "https://www.digiwin.com/solution/SemiconductorMF/images/zh.png",
+      "finding": "REJECTED_WRONG_CUSTOMER: 中环领先; not 中科智芯."
+    },
+    {
+      "source": "https://www.zidonghua.com.cn/news/program/71781.html",
+      "image": "https://www.zidonghua.com.cn/uploadfile/2025/0516/20250516022746853.png",
+      "file": "digiwin-attributed-case06-2025.png",
+      "finding": "REJECTED_AS_PHOTO: visual appearance of architectural rendering; no evidence proving real photograph."
+    }
+  ],
+  "fallback": "NOT_NEEDED; authentic exact-case photo found; no ImageGen call",
+  "retrieval": "Sohu HTTP fetch403; ordinary Chrome article navigation succeeded; pageAssets inventory/bundle downloaded displayed photo. No CAPTCHA solved."
+}

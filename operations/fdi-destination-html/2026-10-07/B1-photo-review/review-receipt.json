@@ -1,0 +1,44 @@
+{
+  "revision": "b1-four-language-reader-v2-authentic-photo",
+  "date": "2026-10-07",
+  "reviewer": "root",
+  "independence": "SELF_REVIEW",
+  "scope": "Destination HTML only; historical SVG receipt remains history",
+  "execution_status": "SUCCESS_FOR_OFFLINE_PILOT",
+  "message_anchor": {
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "original_email_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "verdict": "MESSAGE_ANCHOR_PASS",
+    "personas": "O1 Quality + Operations / FDI; VI is translation of FDI persona",
+    "locale": [
+      "en",
+      "vi",
+      "zh-Hans",
+      "zh-Hant"
+    ],
+    "review": "All existing case/mechanism/value/CTA copy retained. New photo and translated captions reviewed: named exact case, China, historical2020 visit; no new result/ROI/customer endorsement claim. Image is not proof of current factory operations or software UI."
+  },
+  "html_anchor": {
+    "id": "FDI-DESTINATION-HTML-ANCHOR",
+    "revision": "1.0",
+    "sha256": "edc0f307ecf6706326ee9204c730a9a8213ce34a6232f40a6cf1551f208f2cf6"
+  },
+  "artifacts": {
+    "deliverables/linkedin-safe-batches/2026-10-06/B1-en-o1-v2/case-reader.html": "ac0e85a8b0f835cd10eef9614ae4a4d291ec226efcdf993ce6d0b09b19047e1e",
+    "operations/fdi-destination-html/2026-10-07/B1-copy-v2.json": "7f3dde0fce9a5f3e52f0105f0528c066d4f792f9b58a942ca084dfc7ba8e385a",
+    "operations/fdi-destination-html/2026-10-07/B1-photo-research/case06-digiwin-visit-2020.jpeg": "422461c2803200232816c20af6768a35f99505348a23307ba26af79067d5a006",
+    "operations/fdi-destination-html/2026-10-07/B1-photo-research/provenance.json": "cbbaf5e6633880625db44673a6e7b38e341f4757a130cd1bdcabe04362928ddc"
+  },
+  "render": "Actual1280 desktop +390 mobile;8 full-page states visually inspected. Image loaded; original aspect; no horizontal overflow; caption/source and alt in all4 locales. Toggle and reload observed in photo-toggle-runtime.json. English hero preview supplied. Source/banner naturally small on mobile; caption exposes case/date/source rather than relying on banner readability.",
+  "rights": "Public/paid reuse UNKNOWN; internal draft only",
+  "whole_journey": "No fresh full-journey certification; historical INSUFFICIENT_EVIDENCE retained",
+  "pending": [
+    "PO acceptance",
+    "native-market/independent review",
+    "public/paid image rights",
+    "live deployment/runtime"
+  ],
+  "docs_impact": "Owned anchor/plan, Public_Source_Register and current trial status updated; global email anchor/harness and historical receipts unchanged. Digiwin VN source collection observed available in Chrome with case06 selected; earlier403 snapshot remains historical."
+}

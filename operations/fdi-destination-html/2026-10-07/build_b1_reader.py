@@ -1,0 +1,130 @@
+"""Bounded B1 reader build; reuses VN CSS and frozen case translation inputs."""
+import json, re, html, base64
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[3]
+OUT = ROOT / 'deliverables/linkedin-safe-batches/2026-10-06/B1-en-o1-v2'
+VN = ROOT / 'deliverables/linkedin-vn-journey/2026-10-06-v3/case-aplus.html'
+source = json.loads((ROOT / 'operations/linkedin-rmk-production-coordination/shared-releases/rmk-case06-harness-freeze-v2/public-content.json').read_text(encoding='utf-8-sig'))
+vn = VN.read_text(encoding='utf-8-sig')
+css = re.search(r'<style>(.*?)</style>', vn, re.S).group(1)
+logo = re.search(r'<img class="logo" src="([^"]+)"', vn).group(1)
+
+# New copy is questions/business-value framing, not additional case outcomes.
+packs = {
+'en': {
+'title':'A shared starting point for quality review', 'edition':'Manufacturing solutions', 'back':'Back to the quality-review journey', 'skip':'Skip to case content', 'langLabel':'Language', 'caseLabel':'Packaging & testing', 'market':'Reference case · China',
+'lead':'An unexpected test result calls for a clear starting point: the lot, the production context and the person who checks the record next. Explore how a named packaging and testing business connects production records with Digiwin ERP + iMES.',
+'figure':'Digiwin’s visit to 江苏中科智芯集成科技有限公司 · September 2020.', 'figureSource':'Source: 鼎捷智造___new on Sohu · original photo contains Chinese text', 'figureAlt':'Group outside the customer building holding a banner bearing Digiwin branding and the name 江苏中科智芯集成科技有限公司.', 'articleLabel':'Production records and quality review',
+'contextIndex':'The business context', 'contextTitle':'Records and processes need to work together', 'contextBody':'According to the case published by Digiwin Vietnam, 江苏中科智芯集成科技有限公司 in China implemented an integrated ERP + iMES solution. The published problems include disorganized records, nonstandard processes and low outsourcing and production efficiency.',
+'mechanismIndex':'Inside the case', 'mechanismTitle':'How the implementation connects information', 'mechanismLead':'The published mechanisms span shopfloor data, production records, parameter changes and exception handling within the integrated solution.',
+'valueIndex':'Review your current setup', 'valueTitle':'Give Quality and Operations a shared basis for the next check', 'valueLead':'Use the case as a reference for these questions about your own review workflow.',
+'v1Title':'Start from the same lot and context', 'v1Body':'When a result needs review, can both teams locate the lot, test time and related production record?', 'v1Prepare':'Prepare one example of a lot record and how it reaches the review team.',
+'v2Title':'Make the next check and owner clear', 'v2Body':'Who confirms the information source, checks missing records and follows up an exception?', 'v2Prepare':'Prepare your current handoff steps and the roles responsible for each check.',
+'v3Title':'Keep changes visible during review', 'v3Body':'Where do teams find the applicable parameter revision and the record of an exception?', 'v3Prepare':'Prepare one parameter-change record and an example of exception follow-up.',
+'prepare':'Information to prepare', 'bridge':'A clear view of records and responsibilities can help your teams identify where coordination needs attention. Start the discussion with one actual review workflow at your company.',
+'consultLabel':'Talk with Digiwin Vietnam', 'consultTitle':'Bring one quality-review workflow to the discussion', 'consultBody':'Describe how Quality and Operations share lot records, confirm changes and assign the next check. We provide digital solutions for manufacturing, from ERP to smart manufacturing.', 'next':'The next step opens Digiwin Vietnam’s consultation request page in Vietnamese.', 'cta':'Discuss records and review ownership',
+'sourceLabel':'Reference source', 'sourceLink':'Read the Chinese case collection', 'sourceHint':'In the source, select 封装测试, then 案例 06 江苏中科智芯集成科技有限公司.', 'sourceLang':'Source: Simplified Chinese · this page summarizes the named case.', 'footer':'Digiwin Vietnam · Enterprise management solutions',
+},
+'vi': {
+'title':'Cùng dữ liệu gốc để rà soát chất lượng', 'edition':'Giải pháp cho sản xuất', 'back':'Quay lại journey rà soát chất lượng', 'skip':'Đến nội dung case', 'langLabel':'Ngôn ngữ', 'caseLabel':'Đóng gói & kiểm thử', 'market':'Case tham khảo · Trung Quốc',
+'lead':'Khi kết quả kiểm thử cần được rà soát, đội ngũ cần xác định lô, bối cảnh sản xuất và người kiểm tra hồ sơ tiếp theo. Cùng chúng tôi xem cách một doanh nghiệp đóng gói, kiểm thử kết nối hồ sơ sản xuất bằng giải pháp Digiwin ERP + iMES.',
+'figure':'Chuyến tham quan của Digiwin tại 江苏中科智芯集成科技有限公司 · tháng 9/2020.', 'figureSource':'Nguồn: 鼎捷智造___new trên Sohu · ảnh gốc có chữ tiếng Trung', 'figureAlt':'Đoàn tham quan trước tòa nhà khách hàng, cầm banner có thương hiệu Digiwin và tên 江苏中科智芯集成科技有限公司.', 'articleLabel':'Hồ sơ sản xuất và rà soát chất lượng',
+'contextIndex':'Bối cảnh doanh nghiệp', 'contextTitle':'Kết nối hồ sơ với quy trình xử lý', 'contextBody':'Theo case do Digiwin Việt Nam công bố, 江苏中科智芯集成科技有限公司 tại Trung Quốc triển khai giải pháp tích hợp ERP + iMES. Các vấn đề được nêu gồm quản lý hồ sơ thiếu tổ chức, quy trình chưa chuẩn hóa và hiệu quả gia công, sản xuất thấp.',
+'mechanismIndex':'Cơ chế trong case', 'mechanismTitle':'Cách giải pháp kết nối thông tin', 'mechanismLead':'Các cơ chế được công bố bao gồm dữ liệu hiện trường, hồ sơ sản xuất, thay đổi thông số và xử lý bất thường trong giải pháp tích hợp.',
+'valueIndex':'Đối chiếu hiện trạng', 'valueTitle':'Tạo cơ sở chung cho Chất lượng và Vận hành kiểm tra tiếp', 'valueLead':'Quý Doanh Nghiệp có thể tham khảo case để đối chiếu quy trình rà soát hiện tại qua các câu hỏi sau.',
+'v1Title':'Bắt đầu từ cùng lô và bối cảnh', 'v1Body':'Khi cần rà soát kết quả, hai bộ phận có cùng tìm được lô, thời điểm kiểm thử và hồ sơ sản xuất liên quan không?', 'v1Prepare':'Một ví dụ hồ sơ lô và cách chuyển hồ sơ đến đội ngũ rà soát.',
+'v2Title':'Làm rõ bước kiểm tra và người phụ trách', 'v2Body':'Ai xác nhận nguồn thông tin, kiểm tra hồ sơ còn thiếu và theo dõi xử lý bất thường?', 'v2Prepare':'Các bước bàn giao hiện tại và vai trò phụ trách từng bước kiểm tra.',
+'v3Title':'Theo dõi thay đổi khi rà soát', 'v3Body':'Đội ngũ tìm phiên bản thông số đang áp dụng và hồ sơ bất thường ở đâu?', 'v3Prepare':'Một hồ sơ thay đổi thông số và ví dụ theo dõi xử lý bất thường.',
+'prepare':'Thông tin có thể chuẩn bị', 'bridge':'Làm rõ hồ sơ và trách nhiệm giúp đội ngũ xác định khâu phối hợp cần chú ý. Quý Doanh Nghiệp có thể bắt đầu cuộc trao đổi từ một quy trình rà soát đang sử dụng.',
+'consultLabel':'Trao đổi cùng Digiwin Việt Nam', 'consultTitle':'Bắt đầu từ một quy trình rà soát chất lượng cụ thể', 'consultBody':'Quý Doanh Nghiệp có thể mô tả cách Chất lượng và Vận hành chia sẻ hồ sơ lô, xác nhận thay đổi và phân công bước kiểm tra tiếp theo. Chúng tôi cung cấp giải pháp số cho sản xuất, từ ERP đến sản xuất thông minh.', 'next':'Bước tiếp theo mở trang yêu cầu tư vấn Digiwin Việt Nam bằng tiếng Việt.', 'cta':'Trao đổi về hồ sơ và trách nhiệm rà soát',
+'sourceLabel':'Nguồn tham khảo', 'sourceLink':'Đọc bộ case bằng tiếng Trung', 'sourceHint':'Tại nguồn, chọn 封装测试, rồi chọn 案例 06 江苏中科智芯集成科技有限公司.', 'sourceLang':'Nguồn: tiếng Trung giản thể · trang này tóm tắt case được nêu tên.', 'footer':'Digiwin Việt Nam · Giải pháp quản trị doanh nghiệp',
+},
+'zh-Hans': {
+'title':'为质量复核建立共同的信息基础', 'edition':'制造业数字化方案', 'back':'返回质量复核阅读流程', 'skip':'跳至案例正文', 'langLabel':'语言', 'caseLabel':'封装测试', 'market':'参考案例 · 中国',
+'lead':'当测试结果需要复核时，先明确批次、生产背景及下一步核对记录的负责人。一起了解一家封装测试企业如何通过Digiwin ERP + iMES关联生产记录。',
+'figure':'鼎捷走进江苏中科智芯集成科技有限公司 · 2020年9月。', 'figureSource':'图片来源：搜狐「鼎捷智造___new」· 原图含中文文字', 'figureAlt':'参访团在客户建筑前合影，横幅带有鼎捷品牌及江苏中科智芯集成科技有限公司名称。', 'articleLabel':'生产记录与质量复核',
+'contextIndex':'企业背景', 'contextTitle':'让记录与业务流程相互衔接', 'contextBody':'根据Digiwin越南发布的案例，中国江苏中科智芯集成科技有限公司实施了ERP + iMES一体化方案。案例披露的问题包括记录管理混乱、业务流程不规范，以及委外与生产效率偏低。',
+'mechanismIndex':'案例中的管理机制', 'mechanismTitle':'一体化方案如何关联信息', 'mechanismLead':'案例披露的机制涵盖车间数据、生产记录、参数变更及异常处理，属于该企业采用的一体化方案。',
+'valueIndex':'对照当前管理方式', 'valueTitle':'为质量与运营团队明确下一步核对依据', 'valueLead':'贵企业可参考该案例，通过以下问题梳理现有复核流程。',
+'v1Title':'从同一批次及生产背景开始', 'v1Body':'复核测试结果时，两支团队能否找到同一批次、测试时间及相关生产记录？', 'v1Prepare':'一份批次记录示例，以及记录如何传递到复核团队。',
+'v2Title':'明确下一步核对与负责人', 'v2Body':'谁确认信息来源、核查缺失记录，并跟进异常处理？', 'v2Prepare':'现有交接步骤，以及每个核对环节的负责岗位。',
+'v3Title':'复核时看清变更记录', 'v3Body':'团队在哪里查询适用的参数版本及异常记录？', 'v3Prepare':'一份参数变更记录及异常跟进示例。',
+'prepare':'可准备的信息', 'bridge':'梳理记录与职责，有助于识别需要关注的协作环节。欢迎从贵企业正在使用的一项复核流程开始交流。',
+'consultLabel':'与Digiwin越南交流', 'consultTitle':'从一项具体的质量复核流程开始', 'consultBody':'贵企业可说明质量与运营团队如何共享批次记录、确认变更及安排下一步核对。我们提供制造业数字化方案，从ERP到智能制造。', 'next':'下一步将打开Digiwin越南的咨询申请页面（越南语）。', 'cta':'交流记录管理与复核职责',
+'sourceLabel':'参考来源', 'sourceLink':'阅读中文案例集', 'sourceHint':'在来源页选择“封装测试”，再选择“案例 06 江苏中科智芯集成科技有限公司”。', 'sourceLang':'来源：简体中文 · 此页为该企业案例的摘要。', 'footer':'Digiwin越南 · 企业管理解决方案',
+},
+'zh-Hant': {
+'title':'為品質複核建立共同的資訊基礎', 'edition':'製造業數位化方案', 'back':'返回品質複核閱讀流程', 'skip':'跳至案例正文', 'langLabel':'語言', 'caseLabel':'封裝測試', 'market':'參考案例 · 中國',
+'lead':'當測試結果需要複核時，先釐清批次、生產背景及下一步核對紀錄的負責人。一起了解一家封裝測試企業如何透過Digiwin ERP + iMES串聯生產紀錄。',
+'figure':'鼎捷走進江苏中科智芯集成科技有限公司 · 2020年9月。', 'figureSource':'圖片來源：搜狐「鼎捷智造___new」· 原圖含中文文字', 'figureAlt':'參訪團在客戶建築前合影，橫幅帶有鼎捷品牌及江苏中科智芯集成科技有限公司名稱。', 'articleLabel':'生產紀錄與品質複核',
+'contextIndex':'企業背景', 'contextTitle':'讓紀錄與業務流程相互銜接', 'contextBody':'根據Digiwin越南發布的案例，中國江苏中科智芯集成科技有限公司導入ERP + iMES整合方案。案例揭露的問題包括紀錄管理紊亂、業務流程不規範，以及委外與生產效率偏低。',
+'mechanismIndex':'案例中的管理機制', 'mechanismTitle':'整合方案如何串聯資訊', 'mechanismLead':'案例揭露的機制涵蓋現場資料、生產紀錄、參數變更與異常處理，屬於該企業採用的整合方案。',
+'valueIndex':'對照現行管理方式', 'valueTitle':'為品質與營運團隊釐清下一步核對依據', 'valueLead':'貴企業可參考該案例，透過以下問題梳理現行複核流程。',
+'v1Title':'從同一批次與生產背景開始', 'v1Body':'複核測試結果時，兩支團隊能否找到同一批次、測試時間及相關生產紀錄？', 'v1Prepare':'一份批次紀錄範例，以及紀錄如何傳遞至複核團隊。',
+'v2Title':'釐清下一步核對與負責人', 'v2Body':'誰確認資訊來源、核查缺漏紀錄，並追蹤異常處理？', 'v2Prepare':'現行交接步驟，以及每個核對環節的負責角色。',
+'v3Title':'複核時掌握變更紀錄', 'v3Body':'團隊在哪裡查詢適用的參數版本與異常紀錄？', 'v3Prepare':'一份參數變更紀錄及異常追蹤範例。',
+'prepare':'可準備的資訊', 'bridge':'梳理紀錄與職責，有助於找出需要關注的協作環節。歡迎從貴企業正在使用的一項複核流程開始交流。',
+'consultLabel':'與Digiwin越南交流', 'consultTitle':'從一項具體的品質複核流程開始', 'consultBody':'貴企業可說明品質與營運團隊如何共享批次紀錄、確認變更及安排下一步核對。我們提供製造業數位化方案，從ERP到智慧製造。', 'next':'下一步將開啟Digiwin越南的諮詢申請頁面（越南語）。', 'cta':'交流紀錄管理與複核職責',
+'sourceLabel':'參考來源', 'sourceLink':'閱讀中文案例集', 'sourceHint':'在來源頁選擇「封装测试」，再選擇「案例 06 江苏中科智芯集成科技有限公司」。', 'sourceLang':'來源：簡體中文 · 此頁為該企業案例的摘要。', 'footer':'Digiwin越南 · 企業管理解決方案',
+}}
+for locale, pack in packs.items():
+    for i, detail in enumerate(source['locales'][locale]['project_details']):
+        pack[f'm{i}Title'] = detail['title']
+        pack[f'm{i}Body'] = detail['text']
+
+def t(key, tag='span', cls='', extra=''):
+    return f'<{tag} data-i18n="{key}"'+(f' class="{cls}"' if cls else '')+f' {extra}>{html.escape(packs["en"][key])}</{tag}>'
+
+arrow = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>'
+back = '<a class="back" href="index.html">'+t('back')+'</a>'
+photo_path = ROOT / 'operations/fdi-destination-html/2026-10-07/B1-photo-research/case06-digiwin-visit-2020.jpeg'
+photo_src = 'data:image/jpeg;base64,' + base64.b64encode(photo_path.read_bytes()).decode('ascii')
+figure = f'<img class="case-photo" src="{photo_src}" width="1080" height="656" alt="{html.escape(packs["en"]["figureAlt"])}" data-i18n-attr="alt:figureAlt" decoding="async">'
+
+
+body = t('skip','a','skip','href="#main"')+f'<header><div class="shell header-inner"><img class="logo" src="{logo}" width="150" height="43" alt="Digiwin">'+t('edition','span','edition')+'</div></header>'
+body += '<nav class="shell language-bar" data-i18n-attr="aria-label:langLabel">'+''.join(f'<button type="button" data-locale="{loc}" lang="{loc}" aria-pressed="{str(loc=="en").lower()}">{name}</button>' for loc,name in [('vi','Tiếng Việt'),('en','English'),('zh-Hans','简体中文'),('zh-Hant','繁體中文')])+'</nav>'
+body += '<main id="main" class="shell"><div class="hero-split"><section class="intro">'+back+'<div class="eyebrow">'+t('caseLabel','strong')+t('market')+'</div>'+t('title','h1')+t('lead','p','lead')+'</section><div class="v-divider" aria-hidden="true"></div><figure class="hero"><div class="bezel"><div class="bezel-inner">'+figure+'</div></div><figcaption>'+t('figure')+t('figureSource','a',extra='href="https://www.sohu.com/a/420465147_722372" target="_blank" rel="noopener noreferrer"')+'</figcaption></figure></div><article data-i18n-attr="aria-label:articleLabel">'
+body += '<section class="section"><p class="section-index"><span>01</span>'+t('contextIndex')+'</p><div>'+t('contextTitle','h2')+t('contextBody','p','body-copy')+'<div class="systems"><span>ERP + iMES</span><span>江苏中科智芯集成科技有限公司</span></div></div></section>'
+body += '<section class="section"><p class="section-index"><span>02</span>'+t('mechanismIndex')+'</p><div>'+t('mechanismTitle','h2')+t('mechanismLead','p','body-copy')+'<ol class="mechanism-details">'+''.join('<li>'+t(f'm{i}Title','h3')+t(f'm{i}Body','p')+'</li>' for i in range(4))+'</ol></div></section>'
+body += '<section class="section value-section"><p class="section-index"><span>03</span>'+t('valueIndex')+'</p><div>'+t('valueTitle','h2')+t('valueLead','p','value-intro')+'<ol class="value-items">'+''.join('<li class="value-item">'+t(f'v{i}Title','h3')+t(f'v{i}Body','p')+'<p class="prepare">'+t('prepare','strong')+t(f'v{i}Prepare')+'</p></li>' for i in range(1,4))+'</ol>'+t('bridge','p','value-bridge')+'</div></section></article>'
+body += '<section class="consult"><div class="consult-inner">'+t('consultLabel','p','section-label')+t('consultTitle','h2')+t('consultBody','p')+t('next','p','next-step')+'<a class="cta" href="https://www.digiwin.com.vn/contact-vn/">'+t('cta','span','btn-label')+'<span class="btn-icon">'+arrow+'</span></a></div></section>'
+body += '<section class="source">'+t('sourceLabel','strong')+'<div>'+t('sourceLink','a',extra='href="'+html.escape(source['source']['url'])+'" target="_blank" rel="noopener noreferrer"')+t('sourceHint','p')+t('sourceLang','p')+'</div></section></main><footer class="footer"><div class="shell footer-inner">'+t('footer')+back+'</div></footer>'
+extra_css = '''
+.i18n-pending body{visibility:hidden}.hero .case-photo{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain}.hero figcaption a{display:block;color:var(--muted);text-underline-offset:3px;padding:8px 0;min-height:44px}.mechanism-details{list-style:none;padding:0;margin:28px 0 0}.mechanism-details li{padding:24px 0;border-top:1px solid var(--hair)}.mechanism-details h3{font-size:21px;line-height:1.45;letter-spacing:-.02em}.mechanism-details p{margin-top:16px;font-size:17px;line-height:1.85}.section-index>span:last-child{color:var(--ink);font:inherit;letter-spacing:normal;text-transform:none;margin:0}.source a{min-height:44px}html[lang^="zh"] body{font-family:'Plus Jakarta Sans','Microsoft JhengHei','Microsoft YaHei','PingFang TC','PingFang SC',sans-serif}html[lang^="zh"] h1,html[lang^="zh"] h2,html[lang^="zh"] h3{letter-spacing:0}html[lang^="zh"] h1{max-width:16em}.systems span{overflow-wrap:anywhere}.source a,.edition{overflow-wrap:anywhere}@media(max-width:800px){}@media(max-width:600px){.mechanism-details h3{font-size:20px}.mechanism-details p{font-size:16px}.section-index>span:last-child{font-size:16px}.header-inner{gap:12px}.edition{max-width:145px}}
+'''
+js = '''
+(() => {
+  const packs = JSON.parse(document.getElementById('reader-copy').textContent);
+  const picker = document.querySelector('.language-bar');
+  const allowed = Object.keys(packs);
+  function apply(locale, persist) {
+    if (!allowed.includes(locale)) locale = 'en';
+    const copy = packs[locale];
+    document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = copy[el.dataset.i18n]; });
+    document.querySelectorAll('[data-i18n-attr]').forEach(el => {
+      const [attr,key] = el.dataset.i18nAttr.split(':'); el.setAttribute(attr, copy[key]);
+    });
+    document.documentElement.lang = locale;
+    document.title = copy.title + ' | Digiwin';
+    picker.querySelectorAll('button').forEach(el => el.setAttribute('aria-pressed', String(el.dataset.locale === locale)));
+    if (persist) { const url = new URL(location.href); url.searchParams.set('lang',locale); history.replaceState(null,'',url); }
+    document.documentElement.classList.remove('i18n-pending');
+  }
+  apply(new URL(location.href).searchParams.get('lang'), false);
+  picker.addEventListener('click', event => {
+    const button = event.target.closest('button[data-locale]');
+    if (!button || !picker.contains(button)) return;
+    const top = scrollY; apply(button.dataset.locale, true); scrollTo({top,behavior:'instant'}); button.focus({preventScroll:true});
+  });
+})();
+'''
+output = '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>'+html.escape(packs['en']['title'])+' | Digiwin</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"><style>'+css+extra_css+'</style><script>document.documentElement.classList.add("i18n-pending")</script></head><body>'+body+'<script type="application/json" id="reader-copy">'+json.dumps(packs,ensure_ascii=False).replace('</','<\\/')+'</script><script>'+js+'</script></body></html>'
+(OUT/'case-reader.html').write_text(output,encoding='utf-8',newline='\n')
+index = (OUT/'index.html').read_text(encoding='utf-8-sig')
+index = index.replace('href="case-reader.html"','href="case-reader.html?lang=en"')
+(OUT/'index.html').write_text(index,encoding='utf-8',newline='\n')
+(Path(__file__).parent/'B1-copy-v2.json').write_text(json.dumps(packs,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
+assert len({frozenset(pack) for pack in packs.values()}) == 1
+print('B1 reader built: four languages; VN CSS; embedded logo; English journey entry; no new raster generation.')

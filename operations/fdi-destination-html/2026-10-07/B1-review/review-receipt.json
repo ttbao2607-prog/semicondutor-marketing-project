@@ -1,0 +1,148 @@
+{
+  "revision": "b1-four-language-reader-v1",
+  "date": "2026-10-07",
+  "branch": "slice/linkedin-fdi-destination-html",
+  "writer": "root",
+  "reviewer": "root",
+  "independence": "SELF_REVIEW",
+  "execution_status": "PARTIAL",
+  "implementation": "COMPLETE_FOR_PILOT",
+  "render_gate": "DESKTOP_VI_FULL_REVIEW_PENDING",
+  "message_anchor": {
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "email_record": "VY-MAIL-USER-20261006",
+    "email_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "stage": "POSTGEN_ARTIFACT",
+    "verdict": "INSUFFICIENT_EVIDENCE"
+  },
+  "scope": {
+    "segment": "FDI",
+    "persona": "Quality/QA with Operations",
+    "journey": "O1/B1",
+    "locales": [
+      "vi",
+      "en",
+      "zh-Hans",
+      "zh-Hant"
+    ],
+    "note": "All four reader languages translate the same FDI journey; VI is not a domestic adaptation. Adjacent selected B1 script reviewed, not a fresh full ten-image journey certification."
+  },
+  "bindings": {
+    "deliverables/linkedin-safe-batches/2026-10-06/B1-en-o1-v2/case-reader.html": "3d67d777839f76ceb56c18384f01132bc42ecadb599e370581eae272d79f3aa7",
+    "deliverables/linkedin-safe-batches/2026-10-06/B1-en-o1-v2/index.html": "ce7af93d3d39b458ae906e81ab4b40507b3b98ce389976b4cbd7c1e3534c9a35",
+    "deliverables/linkedin-safe-batches/2026-10-06/B1-en-o1-v2/selected-copy.json": "e3ed42ce57662e32f1cd194da4ed184c9723493ff8bc42ff954d2c00de1e532c",
+    "deliverables/linkedin-vn-journey/2026-10-06-v3/case-aplus.html": "5e4c57e34c858ccb81e4a49de7bed1ae08a9f06793d0054f92cf8aa31ba18a05",
+    "operations/linkedin-rmk-production-coordination/shared-releases/rmk-case06-harness-freeze-v2/public-content.json": "04f38beb6f41a112b17d1bd8e26abf801632f5888cb4b633dd16e9abcacdb13d",
+    "operations/fdi-destination-html/2026-10-07/B1-copy-v1.json": "f6923858db1eda1403287a042c2084ea0435689b9e9974228f05f37d76549917"
+  },
+  "units": [
+    {
+      "surface": "hero/illustration",
+      "keys": [
+        "title",
+        "lead",
+        "figure",
+        "figureSource"
+      ],
+      "observation": "Unexpected result -> lot/context/next owner. Neutral connected-record vector, visibly labelled conceptual, not a customer site or product screenshot."
+    },
+    {
+      "surface": "business context",
+      "keys": [
+        "contextTitle",
+        "contextBody"
+      ],
+      "observation": "Exact legal name 江苏中科智芯集成科技有限公司, China, integrated ERP+iMES and three source problems retained."
+    },
+    {
+      "surface": "four mechanism entries",
+      "keys": [
+        "m0Title",
+        "m0Body",
+        "m1Title",
+        "m1Body",
+        "m2Title",
+        "m2Body",
+        "m3Title",
+        "m3Body"
+      ],
+      "observation": "All four profiles reuse frozen project_details verbatim. SPC/ECN/linked records/exception escalation, no ERP-only causality or test-result outcome added."
+    },
+    {
+      "surface": "three review questions",
+      "keys": [
+        "v1Title",
+        "v1Body",
+        "v1Prepare",
+        "v2Title",
+        "v2Body",
+        "v2Prepare",
+        "v3Title",
+        "v3Body",
+        "v3Prepare",
+        "bridge"
+      ],
+      "observation": "Clearly reader questions and proposed preparation, not customer outcomes. Value is shared information and review ownership, no invented ROI/payback/quality guarantee."
+    },
+    {
+      "surface": "consultation",
+      "keys": [
+        "consultLabel",
+        "consultTitle",
+        "consultBody",
+        "next",
+        "cta"
+      ],
+      "observation": "Digiwin supplier voice; one workflow as next step; existing external VI contact route disclosed, no form submission."
+    },
+    {
+      "surface": "source/return/toggle",
+      "keys": [
+        "sourceLabel",
+        "sourceLink",
+        "sourceHint",
+        "sourceLang",
+        "back",
+        "langLabel"
+      ],
+      "observation": "Chinese source language disclosed in each profile; proper name and source UI literals retained in original script. English journey return unchanged after language switch; all four buttons title/text/aria/SVG accessible label switch."
+    }
+  ],
+  "A1": "Packaging/testing is explicit reference-case context, not an assertion of all target-account relevance.",
+  "A2": "Local buying/system authority remains unknown; reader asks about actual workflow and does not assert fit of any live account.",
+  "A3": "FDI Quality/QA + Operations throughout all translations; VI Quý Doanh Nghiệp, zh-Hant 品質/營運/紀錄 versus zh-Hans 质量/运营/记录. Legal source name remains Simplified Chinese intentionally.",
+  "A4": "Business-value bridge is shared review basis and responsibilities; no numeric return or universal outcome.",
+  "A5": "N/A: FDI reader in four display languages, not domestic readiness narrative.",
+  "A6": "Mechanisms bound to published integrated case snapshot; no fabricated software UI, charts, metrics or standalone ERP capability.",
+  "A7": "O1 next review -> China linked-record reference -> current-workflow questions -> consultation; source and return navigation are distinct. Browser clicked reader -> original English journey -> reader and observed lang=en.",
+  "editorial": "No internal approval/process language on reader; scope carried by named case, geography, integrated solution and attribution. Existing viewer historical banner not rewritten.",
+  "observed_render": {
+    "desktop_full": [
+      "en at1422x1000",
+      "zh-Hans at1422x1000",
+      "zh-Hant at1280x900"
+    ],
+    "desktop_vi": "Hero observed at1422x1000; full-page/section screenshot attempts repeatedly timed out. Full desktop VI layout review NOT certified.",
+    "mobile_full": "All four observed at434x938; single-column hierarchy, glyphs, CTA wrap and source visible. No horizontal overflow.",
+    "smoke": "Actual320x844 all four valid lang, invalid and missing fallback -> en; zero text/attribute parity mismatch; embedded logo loaded; one pressed button.",
+    "function": "Toggle changes URL through replaceState; reload preserves locale; button focus retained on observed toggle; return index remains English. Actual source journey click reopened English.",
+    "viewport_note": "Browser zoom means requested dimensions differ from actual. Observed1280 achieved via1152 override; observed320 via288; do not label434 as390 certification."
+  },
+  "source_recheck": {
+    "historical_snapshot": "Frozen public-content unchanged; new mechanisms reused, historical rights/scope retained.",
+    "removed_detail_link": "https://www.digiwin.com/erp/15454.html now serves a different MES article (observed web fetch). Removed from new reader only; frozen source and historical receipts not edited.",
+    "collection_live": "web fetch403; browser destination was not revalidated. Source href/snapshot bound only; no live source-navigation certification."
+  },
+  "remaining": [
+    "Full VI desktop visual review",
+    "Independent/native-market review and PO acceptance",
+    "Live source-collection availability",
+    "LadiPage/runtime/deployment scope"
+  ],
+  "preservation": "B1 ten original PNGs, captions, proof scope, frozen core and prior receipt verdicts retained. New reader replaces local B1 path only; index changes just ?lang=en entry.",
+  "git": "Working files only on this slice, no staging/commit/merge/push/live.",
+  "docs_impact": "Current-state/README/build/readiness updated in this slice for new trial, preserve historical PO adoption and MSG verdicts."
+}
