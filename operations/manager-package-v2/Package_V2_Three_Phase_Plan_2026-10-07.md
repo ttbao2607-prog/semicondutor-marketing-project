@@ -1,8 +1,10 @@
+> **Phase1 update07/10:** Budget được ghi chưa thuế; dashboard do Bảo quản lý/coordinate, kế toán xử lý thuế. Tuần1 theo plan/review cuối tuần, tuần2 quyết định theo data matrix và swap đúng đoạn từ nguồn đã chuẩn bị. [Decision record](phase1/PO_Dashboard_Weekly_Decision_2026-10-07.md) thay all-in/cadence pending; không tự bắt đầuPhase2/3.
+
 # Package v2 · plan3phase
 
-Trạng thái: **PLAN_DRAFT / NOT_EXECUTED**. Mandate mới của Bảo07/10: commit anchor, lập plan3phase; Phase1 full integrity data và skeleton, Phase2 tách phần Bảo/phần hỏi sếp, Phase3 finalize. [Anchor workflow](Package_V2_Workflow_Anchor_2026-10-07.md) đã checkpoint local `823cc8b`; [inventory34mục](Package_V2_Content_Inventory_2026-10-07.md) là phạm vi nguồn cần rà, không phải số câu hỏi.
+Trạng thái hiện tại: **PHASE1_PREPARED / BAO_DATA_LOCK_PENDING**. Plan được checkpoint local `7796bc6` theo mandate “commit đi codex, và thực hiện phase 1”. [Skeleton/data Phase 1](phase1/README.md) đã dựng để Bảo chốt; Phase 2–3 chưa bắt đầu. Khi plan được lập/checkpoint, ba phase đều chưa thực thi. [Anchor workflow](Package_V2_Workflow_Anchor_2026-10-07.md) checkpoint `823cc8b`; [inventory 34 mục](Package_V2_Content_Inventory_2026-10-07.md) là phạm vi nguồn cần rà, không phải số câu hỏi.
 
-Mục tiêu: package trình sếp có đề xuất budget rõ, logic dùng tiền và measurement hợp lý để đồng ý/từ chối/góp ý; dữ liệu nguồn đủ integrity, phần quyết định của Bảo và evidence vận hành được giữ ở hồ sơ nội bộ. Bảo có autonomy paid ads và toàn pipeline. Plan này chưa kích hoạt implementation hoặc thay quyết định budget hiện hành.
+Mục tiêu: package trình sếp có đề xuất budget rõ, logic dùng tiền và measurement hợp lý để đồng ý/từ chối/góp ý; dữ liệu nguồn đủ integrity, phần quyết định của Bảo và evidence vận hành được giữ ở hồ sơ nội bộ. Bảo có autonomy paid ads và toàn pipeline. Mandate mới kích hoạt Phase 1 draft/offline, không thay quyết định budget hiện hành.
 
 ## Phạm vi và nơi lưu
 
@@ -81,4 +83,4 @@ Mục tiêu: package trình sếp có đề xuất budget rõ, logic dùng tiề
 
 Review responsibility không đồng nghĩa có agent độc lập: khai đúng reviewer/independence thực tế; không spawn chỉ vì bảng audit. Execution và audit status ghi ở internal record, không làm claim trong executive package. Việc lập plan không chứng minh các phase đã chạy.
 
-Docs impact reviewed: CURRENT_STATE.md, DOCS_IMPACT_MAP, current progress và owned anchor/inventory. Chỉ README/plan nội bộ của package v2 thay đổi, không business/campaign/asset status mới trên main. **Docs impact reviewed: no canonical update required.** Main merge/push giữ mandate riêng. Hiện tại3phase đều **NOT_STARTED**.
+Docs impact tại checkpoint plan: CURRENT_STATE.md, DOCS_IMPACT_MAP, current progress và owned anchor/inventory đã đọc; no canonical update required khi chỉ lập plan. Sau Phase 1: [reconciliation notes](phase1/Reconciliation_Notes.md) ghi source refresh và bounded canonical notices trong checkout package; main worktree không đổi. Phase 1 materials đã chuẩn bị, chờ Bảo chốt data/skeleton; Phase 2–3 **NOT_STARTED**. Main merge/push giữ mandate riêng.

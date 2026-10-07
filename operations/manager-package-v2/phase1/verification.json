@@ -1,0 +1,665 @@
+{
+  "revision": "phase1-verification-1.2",
+  "reviewed_utc": "2026-10-07T08:07:03.595853+00:00",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "bounded_result": "PASS_INTERNAL_DATA_CHECKS",
+  "phase_status": "PHASE1_PREPARED / BAO_DATA_LOCK_PENDING",
+  "phase2": "NOT_STARTED",
+  "phase3": "NOT_STARTED",
+  "checks": [
+    {
+      "check": "Source hashes unchanged since capture",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "check": "Source IDs unique",
+      "pass": true,
+      "evidence": 91
+    },
+    {
+      "check": "All selected PNG and pinned surfaces present and unchanged",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "check": "VN two journeys20 placements",
+      "pass": true,
+      "evidence": 20
+    },
+    {
+      "check": "OSAT B1-B12 exactly120 placements",
+      "pass": true,
+      "evidence": 120
+    },
+    {
+      "check": "OSAT B6-B12 subset70",
+      "pass": true,
+      "evidence": 70
+    },
+    {
+      "check": "O3 three pilots30 separate",
+      "pass": true,
+      "evidence": 30
+    },
+    {
+      "check": "Fabless B13/B14/B15 each11 source candidates",
+      "pass": true,
+      "evidence": 33
+    },
+    {
+      "check": "Partner B22/B23/B24 each10 source candidates",
+      "pass": true,
+      "evidence": 30
+    },
+    {
+      "check": "Partner B25/B26 each10 source placements",
+      "pass": true,
+      "evidence": 20
+    },
+    {
+      "check": "Full selection253 placements",
+      "pass": true,
+      "evidence": 253
+    },
+    {
+      "check": "No input asset copied to v2",
+      "pass": true,
+      "evidence": "Metadata/reference only"
+    },
+    {
+      "check": "10 source redesigns differ from main;four toggles",
+      "pass": true,
+      "evidence": 10
+    },
+    {
+      "check": "Source reader HTML-O1-en",
+      "pass": true,
+      "evidence": "ac0e85a8b0f835cd10eef9614ae4a4d291ec226efcdf993ce6d0b09b19047e1e"
+    },
+    {
+      "check": "Source reader HTML-O1-zh-Hans",
+      "pass": true,
+      "evidence": "6368590c3005f1ce8915f5e2f621e7f7e5a4d20bca2ce633381c7558815dd567"
+    },
+    {
+      "check": "Source reader HTML-O1-zh-Hant",
+      "pass": true,
+      "evidence": "5e8bbcdc5533ac5971b1379635c2a81f15b9534654ded4eaed66bb910012416c"
+    },
+    {
+      "check": "Source reader HTML-O2-en",
+      "pass": true,
+      "evidence": "0a65d3f1d35ae4c572112a52076aa2a070f10d2118111f07c264ba394a9384fb"
+    },
+    {
+      "check": "Source reader HTML-O2-zh-Hans",
+      "pass": true,
+      "evidence": "9bd65ac2395339d864381683dc731c3bce0aee12bc49f0753c775a31df6535da"
+    },
+    {
+      "check": "Source reader HTML-O2-zh-Hant",
+      "pass": true,
+      "evidence": "3ddb2d8d0691f105ac8d4324bde0303c11632925ed4384f41e3a2e9dde4e38a4"
+    },
+    {
+      "check": "Source reader HTML-O3-en",
+      "pass": true,
+      "evidence": "da7bec2c8ecabb81e79ac1e215184aff9d8b8ef67e28ecf2ddd27daadb92b190"
+    },
+    {
+      "check": "Source reader HTML-O3-zh-Hans",
+      "pass": true,
+      "evidence": "cea21a1f5b4be0b8de80c09a00fead9126da84e288bac4c5c4f1b7253c705783"
+    },
+    {
+      "check": "Source reader HTML-O3-zh-Hant",
+      "pass": true,
+      "evidence": "4696a02905a48e183e3f25f70d0904cba7dabb5ae393c926929ba71af9e25f15"
+    },
+    {
+      "check": "Source reader HTML-O4-O-en",
+      "pass": true,
+      "evidence": "246afe1b95a7b0fab9c6259ee45cbf98249bb3818a52dd96a61756709ecbe9f8"
+    },
+    {
+      "check": "40data rows with class/source/usage",
+      "pass": true,
+      "evidence": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19",
+        "D20",
+        "D21",
+        "D22",
+        "D23",
+        "D24",
+        "D25",
+        "D26",
+        "D27",
+        "D28",
+        "D29",
+        "D30",
+        "D31",
+        "D32",
+        "D33",
+        "D34",
+        "D35",
+        "D36",
+        "D37",
+        "D38",
+        "D39",
+        "D40"
+      ]
+    },
+    {
+      "check": "Bound data D01",
+      "pass": true,
+      "evidence": [
+        "SRC-WORKFLOW"
+      ]
+    },
+    {
+      "check": "Bound data D02",
+      "pass": true,
+      "evidence": [
+        "SRC-BUDGET",
+        "SRC-PROGRESS",
+        "SRC-RMK"
+      ]
+    },
+    {
+      "check": "Bound data D03",
+      "pass": true,
+      "evidence": [
+        "SRC-ANCHOR",
+        "SRC-MAIL"
+      ]
+    },
+    {
+      "check": "Bound data D04",
+      "pass": true,
+      "evidence": [
+        "SRC-ANCHOR",
+        "SRC-PROGRESS",
+        "SRC-BACKUP"
+      ]
+    },
+    {
+      "check": "Bound data D05",
+      "pass": true,
+      "evidence": [
+        "SRC-ANCHOR",
+        "SRC-VN-CLOSEOUT"
+      ]
+    },
+    {
+      "check": "Bound data D06",
+      "pass": true,
+      "evidence": [
+        "SRC-ANCHOR",
+        "SRC-PROGRESS"
+      ]
+    },
+    {
+      "check": "Bound data D07",
+      "pass": true,
+      "evidence": [
+        "SRC-RIGHTS",
+        "SRC-PARTNER-ANCHOR"
+      ]
+    },
+    {
+      "check": "Bound data D08",
+      "pass": true,
+      "evidence": [
+        "SRC-BUDGET",
+        "SRC-PO-WEEKLY"
+      ]
+    },
+    {
+      "check": "Bound data D09",
+      "pass": true,
+      "evidence": [
+        "SRC-BUDGET",
+        "SRC-LEGACY-BUDGET"
+      ]
+    },
+    {
+      "check": "Bound data D10",
+      "pass": true,
+      "evidence": [
+        "SRC-BUDGET",
+        "SRC-LEGACY-BUDGET"
+      ]
+    },
+    {
+      "check": "Bound data D11",
+      "pass": true,
+      "evidence": [
+        "SRC-BUDGET",
+        "SRC-LEGACY-BUDGET",
+        "SRC-LEGACY-WORKBOOK"
+      ]
+    },
+    {
+      "check": "Bound data D12",
+      "pass": true,
+      "evidence": [
+        "SRC-BUDGET"
+      ]
+    },
+    {
+      "check": "Bound data D13",
+      "pass": true,
+      "evidence": [
+        "SRC-BUDGET",
+        "SRC-LEGACY-BUDGET"
+      ]
+    },
+    {
+      "check": "Bound data D14",
+      "pass": true,
+      "evidence": [
+        "SRC-BUDGET",
+        "SRC-LEGACY-WORKBOOK"
+      ]
+    },
+    {
+      "check": "Bound data D15",
+      "pass": true,
+      "evidence": [
+        "SRC-PO-WEEKLY"
+      ]
+    },
+    {
+      "check": "Bound data D16",
+      "pass": true,
+      "evidence": [
+        "SRC-PROGRESS",
+        "SRC-S04",
+        "SRC-LEGACY-WORKBOOK"
+      ]
+    },
+    {
+      "check": "Bound data D17",
+      "pass": true,
+      "evidence": [
+        "SRC-COMPANY",
+        "SRC-COMPANY-RESULT"
+      ]
+    },
+    {
+      "check": "Bound data D18",
+      "pass": true,
+      "evidence": [
+        "SRC-COMPANY",
+        "SRC-COMPANY-RESULT"
+      ]
+    },
+    {
+      "check": "Bound data D19",
+      "pass": true,
+      "evidence": [
+        "SRC-COMPANY",
+        "SRC-PROGRESS"
+      ]
+    },
+    {
+      "check": "Bound data D20",
+      "pass": true,
+      "evidence": [
+        "SRC-COMPANY",
+        "SRC-PROGRESS"
+      ]
+    },
+    {
+      "check": "Bound data D21",
+      "pass": true,
+      "evidence": [
+        "SRC-BACKUP-UPLOAD",
+        "SRC-PROGRESS"
+      ]
+    },
+    {
+      "check": "Bound data D22",
+      "pass": true,
+      "evidence": [
+        "SRC-BACKUP",
+        "SRC-BACKUP-UPLOAD"
+      ]
+    },
+    {
+      "check": "Bound data D23",
+      "pass": true,
+      "evidence": [
+        "SRC-BACKUP"
+      ]
+    },
+    {
+      "check": "Bound data D24",
+      "pass": true,
+      "evidence": [
+        "SRC-BACKUP",
+        "SRC-COMPANY"
+      ]
+    },
+    {
+      "check": "Bound data D25",
+      "pass": true,
+      "evidence": [
+        "SRC-VN-CLOSEOUT",
+        "SRC-VN-READERS",
+        "ASSET-VN-W1",
+        "ASSET-VN-W2"
+      ]
+    },
+    {
+      "check": "Bound data D26",
+      "pass": true,
+      "evidence": [
+        "SRC-PROGRESS",
+        "SRC-OSAT-CLOSEOUT",
+        "SRC-O3-ADOPTION",
+        "SRC-O3-HANS-ADOPTION"
+      ]
+    },
+    {
+      "check": "Bound data D27",
+      "pass": true,
+      "evidence": [
+        "SRC-FABLESS-LEDGER",
+        "SRC-FABLESS-B13-REVIEW",
+        "SRC-FABLESS-B14",
+        "SRC-FABLESS-B15",
+        "SRC-FABLESS-B14-REVIEW",
+        "SRC-FABLESS-B15-REVIEW",
+        "ASSET-B13",
+        "ASSET-B14",
+        "ASSET-B15"
+      ]
+    },
+    {
+      "check": "Bound data D28",
+      "pass": true,
+      "evidence": [
+        "SRC-PARTNER-LEDGER",
+        "SRC-PARTNER-B22",
+        "SRC-PARTNER-B23",
+        "SRC-PARTNER-B24",
+        "SRC-PARTNER-B25",
+        "SRC-PARTNER-B26",
+        "SRC-PARTNER-P2-CLOSEOUT"
+      ]
+    },
+    {
+      "check": "Bound data D29",
+      "pass": true,
+      "evidence": [
+        "SRC-FABLESS-LEDGER",
+        "SRC-PARTNER-LEDGER",
+        "SRC-PARTNER-P2-CLOSEOUT",
+        "SRC-PROGRESS"
+      ]
+    },
+    {
+      "check": "Bound data D30",
+      "pass": true,
+      "evidence": [
+        "SRC-READERS-INVENTORY",
+        "SRC-READERS-STATUS"
+      ]
+    },
+    {
+      "check": "Bound data D31",
+      "pass": true,
+      "evidence": [
+        "SRC-TRACKING",
+        "SRC-READINESS",
+        "SRC-S04"
+      ]
+    },
+    {
+      "check": "Bound data D32",
+      "pass": true,
+      "evidence": [
+        "SRC-PROGRESS"
+      ]
+    },
+    {
+      "check": "Bound data D33",
+      "pass": true,
+      "evidence": [
+        "SRC-PLANNER",
+        "SRC-SEARCH"
+      ]
+    },
+    {
+      "check": "Bound data D34",
+      "pass": true,
+      "evidence": [
+        "SRC-S04",
+        "SRC-MAIL",
+        "SRC-TRACKING"
+      ]
+    },
+    {
+      "check": "Bound data D35",
+      "pass": true,
+      "evidence": [
+        "SRC-S04",
+        "SRC-LEGACY-BUDGET",
+        "SRC-RMK"
+      ]
+    },
+    {
+      "check": "Bound data D36",
+      "pass": true,
+      "evidence": [
+        "SRC-PO-WEEKLY",
+        "SRC-WEEK2-MATRIX",
+        "SRC-S04"
+      ]
+    },
+    {
+      "check": "Bound data D37",
+      "pass": true,
+      "evidence": [
+        "SRC-LEGACY-WORKBOOK"
+      ]
+    },
+    {
+      "check": "Bound data D38",
+      "pass": true,
+      "evidence": [
+        "SRC-WORKFLOW",
+        "SRC-PLAN",
+        "SRC-LEGACY-STATUS"
+      ]
+    },
+    {
+      "check": "Bound data D39",
+      "pass": true,
+      "evidence": [
+        "SRC-WORKFLOW",
+        "SRC-ANCHOR",
+        "SRC-COMPANY",
+        "SRC-BACKUP",
+        "SRC-RMK"
+      ]
+    },
+    {
+      "check": "Bound data D40",
+      "pass": true,
+      "evidence": [
+        "SRC-PLAN",
+        "SRC-WORKFLOW"
+      ]
+    },
+    {
+      "check": "34inventory IDs exactly once",
+      "pass": true,
+      "evidence": [
+        "V2-01",
+        "V2-02",
+        "V2-03",
+        "V2-04",
+        "V2-05",
+        "V2-06",
+        "V2-07",
+        "V2-08",
+        "V2-09",
+        "V2-10",
+        "V2-11",
+        "V2-12",
+        "V2-13",
+        "V2-14",
+        "V2-15",
+        "V2-16",
+        "V2-17",
+        "V2-18",
+        "V2-19",
+        "V2-20",
+        "V2-21",
+        "V2-22",
+        "V2-23",
+        "V2-24",
+        "V2-25",
+        "V2-26",
+        "V2-27",
+        "V2-28",
+        "V2-29",
+        "V2-30",
+        "V2-31",
+        "V2-32",
+        "V2-33",
+        "V2-34"
+      ]
+    },
+    {
+      "check": "SkeletonS1-S10 all populated",
+      "pass": true,
+      "evidence": "Markdown internal skeleton"
+    },
+    {
+      "check": "Skeleton Phase1 pending;no Phase2/3 adoption",
+      "pass": true,
+      "evidence": "Bảo data lock required by plan"
+    },
+    {
+      "check": "Independent reference budget arithmetic",
+      "pass": true,
+      "evidence": {
+        "first_vnd": 5600000.0,
+        "optional_search_vnd": 500000.0,
+        "held_vnd": 6100000.0,
+        "media_cap_vnd": 11700000.0
+      }
+    },
+    {
+      "check": "Budget cached cells agree with independent drivers",
+      "pass": true,
+      "evidence": "B6/C6/B23/B24 →G6/G7/G8/G9/G11, cached comparison only"
+    },
+    {
+      "check": "Actuals and approvals not populated in v1",
+      "pass": true,
+      "evidence": "Blank is missing, not zero spend/approval"
+    },
+    {
+      "check": "Workbook exact6sheets29formula cells",
+      "pass": true,
+      "evidence": "NOT_RUN"
+    },
+    {
+      "check": "Research arithmetic and units",
+      "pass": true,
+      "evidence": "Rows vs field changes, original vs backup"
+    },
+    {
+      "check": "Partner counts selected/calls/correctives reconcile",
+      "pass": true,
+      "evidence": "Ledger metadata crosschecked with final manifests/reviews"
+    },
+    {
+      "check": "Partner P2 adds20 placements and16 calls, separate from old totals",
+      "pass": true,
+      "evidence": "P2 pair12new+8reuse; B22-B24 old totals retained"
+    },
+    {
+      "check": "Tracked changes within Phase1docs scope",
+      "pass": true,
+      "evidence": [
+        "CURRENT_STATE.md",
+        "ads/linkedin/LinkedIn_Build_Pack.md",
+        "drafts/S04_Measurement_and_Budget.md",
+        "operations/LinkedIn_Cold_To_RMK_Data_Plan_2026-10-05.md",
+        "operations/LinkedIn_Current_Progress_2026-10-07.md",
+        "operations/LinkedIn_PO_Direction_Budget_Checkpoint_2026-10-06.md",
+        "operations/Pre_Ad_Readiness_Plan.md",
+        "operations/manager-package-v2/Package_V2_Three_Phase_Plan_2026-10-07.md",
+        "operations/manager-package-v2/Package_V2_Workflow_Anchor_2026-10-07.md",
+        "operations/manager-package-v2/README.md"
+      ]
+    },
+    {
+      "check": "Plan commit remains current checkpoint",
+      "pass": true,
+      "evidence": "Local commit; no Phase1commit/mainmerge/push"
+    },
+    {
+      "check": "Stage area empty",
+      "pass": true,
+      "evidence": "New Phase1work not staged"
+    },
+    {
+      "check": "Main checkpoint unchanged since input recovery",
+      "pass": true,
+      "evidence": "196f26b9f3064fca8fe6b3b50b5707c2b54b65af"
+    },
+    {
+      "check": "Authored Markdown local links resolve",
+      "pass": true,
+      "evidence": []
+    },
+    {
+      "check": "PO weekly decision and qualitative matrix pinned",
+      "pass": true,
+      "evidence": "Direct PO decision outranks prior all-in/cadence assumptions"
+    },
+    {
+      "check": "Tax/cadence inputs are decisions; media cap unchanged",
+      "pass": true,
+      "evidence": "D08/D15/D36; independent cap arithmetic above"
+    },
+    {
+      "check": "Historical revision1.0 receipt/bindings preserved",
+      "pass": true,
+      "evidence": "Fresh 1.1 receipt; no historical acceptance rewrite"
+    }
+  ],
+  "limitations": [
+    "No actual campaign/account readback",
+    "No fresh visual/native-market review of reused artifacts",
+    "No native Excel calculation or new workbook",
+    "No PO data lock/new artifact acceptance",
+    "No main merge/push or generation"
+  ]
+}

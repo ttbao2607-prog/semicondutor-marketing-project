@@ -1,0 +1,57 @@
+{
+  "reviewed_utc": "2026-10-07T07:38:42.526275+00:00",
+  "stage": "INTERNAL_CONTENT_REVIEW",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "anchor": {
+    "id": "SRC-ANCHOR",
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "head_at_capture": "196f26b9f3064fca8fe6b3b50b5707c2b54b65af"
+  },
+  "anchor_content_id": "VY-CONTENT-ANCHOR",
+  "anchor_revision": "1.0",
+  "email": {
+    "id": "SRC-MAIL",
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "head_at_capture": "196f26b9f3064fca8fe6b3b50b5707c2b54b65af"
+  },
+  "email_record_id": "VY-MAIL-USER-20261006",
+  "artifact_revision": "package-v2-phase1-1.0",
+  "message_files": [
+    {
+      "path": "operations/manager-package-v2/phase1/Package_V2_Skeleton_Phase1.md",
+      "sha256": "48733aeae8de284fcd3d7c614cfa77de6febd8f29d4d7b99dec9a85b3fbc4e7c"
+    },
+    {
+      "path": "operations/manager-package-v2/phase1/Data_Register.md",
+      "sha256": "c8b1748e5d74d1e1054515ff905ad3dee907c4fb2b2d9aaf7f3a0225c61943df"
+    },
+    {
+      "path": "operations/manager-package-v2/phase1/Claim_Register.md",
+      "sha256": "e2eb96b9f2555c960846ff0bd50a1d62fb252161a14d1ab441c87e30b28dd2fc"
+    },
+    {
+      "path": "operations/manager-package-v2/phase1/Inventory_Disposition.md",
+      "sha256": "a5997ed6099579df3b7671ba97f1cdcb8511ab4a7852df263efe945bc75b47ac"
+    },
+    {
+      "path": "operations/manager-package-v2/phase1/Reconciliation_Notes.md",
+      "sha256": "cc48485111d87061b43d905cb63b0944966c9ca65d194888ca74eeeabff8fd28"
+    }
+  ],
+  "related_notices": [
+    {
+      "path": "CURRENT_STATE.md",
+      "sha256": "f8553a88c9bdc39999dd9d024684c10960dbf9a771b782bd4cb00c05b8b26ef6"
+    },
+    {
+      "path": "operations/LinkedIn_Current_Progress_2026-10-07.md",
+      "sha256": "788198d18660fa4e4ce252b7ce1eba1f474b4545e14ae292d3aa36ef2db085b2"
+    }
+  ],
+  "verdict": "MESSAGE_ANCHOR_PASS_INTERNAL_MARKDOWN_SCOPE",
+  "render_scope": "N/A internal Markdown; no new artwork/UI",
+  "semantic_evidence": "Message_Anchor_Review.md"
+}

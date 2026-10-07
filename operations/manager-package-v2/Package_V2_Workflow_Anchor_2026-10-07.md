@@ -1,6 +1,8 @@
+> **Bảo clarification07/10 — revision1.1:** Package ghi11,7triệu media chưa thuế; Bảo theo dõi/coordinate tiền dashboard, kế toán/pipeline công ty xử lý thuế. Tuần1 chạy đúng plan, review cuối tuần; tuần2 theo data matrix, ghép/swap đúng đoạn bằng VNweek1/week2, assetFDI và audience chính/backup. [Decision record](phase1/PO_Dashboard_Weekly_Decision_2026-10-07.md). Workflow3phase và quyền Bảo giữ nguyên; không mở thêm câu hỏi thuế/kỹ thuật cho sếp.
+
 # Package v2 · anchor workflow và cách viết
 
-Anchor ID: PACKAGE-V2-WORKFLOW · revision1.0 · 07/10/2026. Nguồn: chỉ đạo trực tiếp của Bảo trong phiên. Đây là quyết định về workflow/nội dung package, được ghi nhận **trước khi lập plan**.
+Anchor ID: PACKAGE-V2-WORKFLOW · revision1.1 · 07/10/2026. Nguồn: chỉ đạo trực tiếp của Bảo trong phiên. Đây là quyết định về workflow/nội dung package, được ghi nhận **trước khi lập plan**.
 
 ## Vấn đề v1 cần xử lý
 

@@ -1,0 +1,326 @@
+{
+  "revision": "phase1-data-register-1.0",
+  "source": "Data_Register.md",
+  "data": [
+    {
+      "id": "D01",
+      "type": "DECISION",
+      "value_scope": "Bảo sở hữu paid ads và toàn pipeline; sếp đã giao autonomy. Package hỏi khoảng 3–4 nội dung đầu tư, không xin duyệt kỹ thuật/operator.",
+      "observation_revision": "Anchor workflow 1.0, 07/10",
+      "source_refs": "SRC-WORKFLOW",
+      "skeleton_usage": "S1, S8, S10"
+    },
+    {
+      "id": "D02",
+      "type": "DECISION",
+      "value_scope": "Cold Brand awareness + Single image → member audience từ chính ads mới → Carousel RMK; existing Page/website pool không thuộc nguồn warm của route này.",
+      "observation_revision": "PO 06/10; progress 07/10",
+      "source_refs": "SRC-BUDGET, SRC-PROGRESS, SRC-RMK",
+      "skeleton_usage": "S1, S2, S7"
+    },
+    {
+      "id": "D03",
+      "type": "DECISION",
+      "value_scope": "ICP là chuỗi cung ứng bán dẫn/điện tử: PCB, substrate, linh kiện, vật liệu đóng gói, gia công chính xác cho thiết bị. OSAT/Fabless/Supplier là route nội dung, không tự xác nhận từng account phù hợp.",
+      "observation_revision": "VY anchor 1.0",
+      "source_refs": "SRC-ANCHOR, SRC-MAIL",
+      "skeleton_usage": "S2, S3"
+    },
+    {
+      "id": "D04",
+      "type": "DECISION",
+      "value_scope": "Hai segment VN nội địa và FDI độc lập về persona/thông điệp. Creative vi-VN, en, zh-Hans, zh-Hant; bốn locale không đồng nghĩa bốn targeting pools.",
+      "observation_revision": "VY anchor + PO locale split",
+      "source_refs": "SRC-ANCHOR, SRC-PROGRESS, SRC-BACKUP",
+      "skeleton_usage": "S2, S3"
+    },
+    {
+      "id": "D05",
+      "type": "DECISION",
+      "value_scope": "VN: ERP hỗ trợ chuẩn bị năng lực quản trị để bước vào chuỗi; không cam kết qua audit, thành vendor hay có đơn hàng.",
+      "observation_revision": "Anchor A5; VN accepted revision",
+      "source_refs": "SRC-ANCHOR, SRC-VN-CLOSEOUT",
+      "skeleton_usage": "S2, S4"
+    },
+    {
+      "id": "D06",
+      "type": "DECISION",
+      "value_scope": "FDI: trigger vận hành nối business value/ROI ngầm; không cần ghi chữ ROI hoặc bịa ROI%, payback, tiền tiết kiệm.",
+      "observation_revision": "Anchor A4 + PO clarification",
+      "source_refs": "SRC-ANCHOR, SRC-PROGRESS",
+      "skeleton_usage": "S2, S4"
+    },
+    {
+      "id": "D07",
+      "type": "FACT",
+      "value_scope": "Existing VI case/claim có approval dùng và dịch trong exact scope; claim mới/mở rộng và quyền ảnh riêng cần đối chiếu riêng. Public URL/offline review không là quyền paid mới.",
+      "observation_revision": "Public Source Register 29/09 + revalidation 02/10",
+      "source_refs": "SRC-RIGHTS, SRC-PARTNER-ANCHOR",
+      "skeleton_usage": "S4, S7"
+    },
+    {
+      "id": "D08",
+      "type": "DECISION",
+      "value_scope": "11.700.000 VND, trần media hiện hành; thay 35.000.000 VND. Không phải all-in hoặc actual spend.",
+      "observation_revision": "PO 06/10",
+      "source_refs": "SRC-BUDGET",
+      "skeleton_usage": "S1, S5"
+    },
+    {
+      "id": "D09",
+      "type": "ASSUMPTION",
+      "value_scope": "5.600.000 VND tham chiếu đợt đầu; allocation thực tế chưa được lựa chọn trong Phase 1.",
+      "observation_revision": "Package reference giữ trong PO checkpoint",
+      "source_refs": "SRC-BUDGET, SRC-LEGACY-BUDGET",
+      "skeleton_usage": "S5"
+    },
+    {
+      "id": "D10",
+      "type": "ASSUMPTION",
+      "value_scope": "Tối đa 5.600.000 VND cho một đợt tiếp; RMK chỉ khi đủ điều kiện. Không nhân ngân sách theo số segment/locale/batch.",
+      "observation_revision": "Cùng reference D09",
+      "source_refs": "SRC-BUDGET, SRC-LEGACY-BUDGET",
+      "skeleton_usage": "S5"
+    },
+    {
+      "id": "D11",
+      "type": "ASSUMPTION",
+      "value_scope": "Search tùy chọn tối đa 500.000 VND. V1 giải thích 10% × 5.600.000, làm tròn xuống bước 100.000; đây là policy tham chiếu, không nghiệm tối ưu.",
+      "observation_revision": "V1 budget narrative/workbook; cap reference trong PO checkpoint",
+      "source_refs": "SRC-BUDGET, SRC-LEGACY-BUDGET, SRC-LEGACY-WORKBOOK",
+      "skeleton_usage": "S5"
+    },
+    {
+      "id": "D12",
+      "type": "FACT",
+      "value_scope": "6.100.000 VND giữ lại = 5.600.000 + 500.000, nằm trong tổng 11.700.000. Không cộng thêm hoặc coi đã giải ngân.",
+      "observation_revision": "Phép tính từ D08–D11",
+      "source_refs": "SRC-BUDGET",
+      "skeleton_usage": "S5"
+    },
+    {
+      "id": "D13",
+      "type": "ASSUMPTION",
+      "value_scope": "400.000 VND/ngày là planning reference. Account USD/FX và cấu hình cuối phải được Bảo xử lý khi lập lịch vận hành.",
+      "observation_revision": "V1 + PO checkpoint 06/10",
+      "source_refs": "SRC-BUDGET, SRC-LEGACY-BUDGET",
+      "skeleton_usage": "S5, S7"
+    },
+    {
+      "id": "D14",
+      "type": "ASSUMPTION",
+      "value_scope": "14 ngày là tham chiếu đợt quan sát: 400.000 × 14 = 5.600.000. Không là ngày chạy đã chọn hoặc bằng chứng đủ mẫu/learning.",
+      "observation_revision": "Cùng reference D13",
+      "source_refs": "SRC-BUDGET, SRC-LEGACY-WORKBOOK",
+      "skeleton_usage": "S5, S6"
+    },
+    {
+      "id": "D15",
+      "type": "PENDING",
+      "value_scope": "Thuế/phí, FX, khoản ngoài media và tổng all-in: chưa có giá trị xác nhận. Không dùng phần trăm đệm mặc định.",
+      "observation_revision": "Đầu vào Finance/billing chưa pin",
+      "source_refs": "SRC-BUDGET, SRC-LEGACY-BUDGET",
+      "skeleton_usage": "S5, S10"
+    },
+    {
+      "id": "D16",
+      "type": "PENDING",
+      "value_scope": "Chi, impressions, reach delivery, frequency, CTR/CPC/CPM, phiên paid và effective leads mới: chưa có campaign actuals. Không là 0 và không có forecast performance hợp lệ.",
+      "observation_revision": "Repository snapshot 07/10",
+      "source_refs": "SRC-PROGRESS, SRC-S04, SRC-LEGACY-WORKBOOK",
+      "skeleton_usage": "S5, S6"
+    },
+    {
+      "id": "D17",
+      "type": "FACT",
+      "value_scope": "Tệp gốc 424 dòng đã nghiên cứu đủ: 101 dòng supported identifiers + 323 investigated/blocked; không còn research queue. Không tự loại/re-ICP danh sách công ty cung cấp.",
+      "observation_revision": "Research closeout 06/10",
+      "source_refs": "SRC-COMPANY, SRC-COMPANY-RESULT",
+      "skeleton_usage": "S3"
+    },
+    {
+      "id": "D18",
+      "type": "FACT",
+      "value_scope": "99 website + 6 Page = 105 field changes trên 101 dòng; giữ 424 dòng, 10 headers, thứ tự/duplicates và 8 trường khác. 101 không phải số field changes.",
+      "observation_revision": "Final repair revision; raw CSV không import",
+      "source_refs": "SRC-COMPANY, SRC-COMPANY-RESULT",
+      "skeleton_usage": "S3"
+    },
+    {
+      "id": "D19",
+      "type": "FACT",
+      "value_scope": "Existing Discovery submit đúng 1 lần; saved filename verified. Updating 09:24 ngày 06/10; receipt backup upload 15:36 cùng ngày vẫn Updating.",
+      "observation_revision": "Dated UI/account receipts, không readback mới",
+      "source_refs": "SRC-COMPANY, SRC-PROGRESS",
+      "skeleton_usage": "S3, S7"
+    },
+    {
+      "id": "D20",
+      "type": "PENDING",
+      "value_scope": "Mapping/reach sau sửa tệp gốc chưa có. 80% / 754.538 / 780 là dữ liệu lịch sử; không dùng làm forecast cleaned reach.",
+      "observation_revision": "Processing snapshot D19",
+      "source_refs": "SRC-COMPANY, SRC-PROGRESS",
+      "skeleton_usage": "S3, S6"
+    },
+    {
+      "id": "D21",
+      "type": "FACT",
+      "value_scope": "Backup riêng: 203 researched → R5 giữ 52 distinct supported Pages; 151 loại theo disposition nguồn. Không thay thế hoặc đóng tệp gốc 424.",
+      "observation_revision": "R5 source checkpoint 07/10",
+      "source_refs": "SRC-BACKUP-UPLOAD, SRC-PROGRESS",
+      "skeleton_usage": "S3"
+    },
+    {
+      "id": "D22",
+      "type": "FACT",
+      "value_scope": "R5 Ready / >90% / 444.274 members, reload persisted; Details 0 Companies, Matched(0), Unmatched(0). Contradiction về khả năng kiểm mapping, không chứng minh 0 công ty thực tế hoặc tất cả match đúng.",
+      "observation_revision": "UI 07/10, source backup",
+      "source_refs": "SRC-BACKUP, SRC-BACKUP-UPLOAD",
+      "skeleton_usage": "S3"
+    },
+    {
+      "id": "D23",
+      "type": "FACT",
+      "value_scope": "Unsaved VN+English 8.200; thêm functions 5.000; thêm Manager/Director/VP/CXO 460. Cùng filters chuyển Vietnamese <300. Đây là estimate đúng cấu hình, không delivered reach/qualified buyers.",
+      "observation_revision": "Settled values 07/10; không save",
+      "source_refs": "SRC-BACKUP",
+      "skeleton_usage": "S3, S6"
+    },
+    {
+      "id": "D24",
+      "type": "PENDING",
+      "value_scope": "Backup đề xuất recheck Details một lần sau 24h; tệp gốc đọc mapping sau processing. Không có lịch tự động/re-upload/support message mới.",
+      "observation_revision": "Next-action proposal tại receipts",
+      "source_refs": "SRC-BACKUP, SRC-COMPANY",
+      "skeleton_usage": "S3, S7"
+    },
+    {
+      "id": "D25",
+      "type": "FACT",
+      "value_scope": "VN week1v3 + week2-time-v2: 2 journey, mỗi bộ 10 PNG chọn; main PO offline adopted. Hai reader hiện hành có vi/en/zh-Hans trong một HTML. Không tính VN trial cũ.",
+      "observation_revision": "Current main closeout 07/10",
+      "source_refs": "SRC-VN-CLOSEOUT, SRC-VN-READERS, ASSET-VN-W1, ASSET-VN-W2",
+      "skeleton_usage": "S4"
+    },
+    {
+      "id": "D26",
+      "type": "FACT",
+      "value_scope": "OSAT B1–B12: 12 batch × 10 = 120 PNG chọn theo journey trên main; B6–B12 riêng 7 batch/70. Ba O3 pilots riêng 30 PNG chọn, không batch bổ sung của B1–B12. Không suy ảnh độc nhất.",
+      "observation_revision": "Main selected manifests + adoption receipts",
+      "source_refs": "SRC-PROGRESS, SRC-OSAT-CLOSEOUT, SRC-O3-ADOPTION, SRC-O3-HANS-ADOPTION",
+      "skeleton_usage": "S4"
+    },
+    {
+      "id": "D27",
+      "type": "FACT",
+      "value_scope": "Fabless B13 EN v5: 11 PNG chọn, source commit e3b6578; render gate pending. B14 Hans v1 và B15 Hant v2: mỗi bộ 11 PNG chọn ở working files. B14 13 attempts/2correctives; B15 12 attempts/1corrective. Native findings được ghi là đóng; postgen receipts có native/feed333/main640 và desktop reader SELF_REVIEW. Full mobile và whole-journey acceptance vẫn INSUFFICIENT_EVIDENCE / NOT_READY_NOT_ACCEPTED.",
+      "observation_revision": "Owner working hashes tại capture 07/10, refresh khi ledger mới xuất hiện trong lượt rà",
+      "source_refs": "SRC-FABLESS-LEDGER, SRC-FABLESS-B13-REVIEW, SRC-FABLESS-B14, SRC-FABLESS-B15, SRC-FABLESS-B14-REVIEW, SRC-FABLESS-B15-REVIEW, ASSET-B13, ASSET-B14, ASSET-B15",
+      "skeleton_usage": "S4, S7"
+    },
+    {
+      "id": "D28",
+      "type": "FACT",
+      "value_scope": "Partner B22–B24: 30 PNG chọn, 43 calls = 30original + 13corrective; final root review trong native/feed333/desktop/actual434 scope, 390 không kiểm. Commit local 4a17968 chứa B23/B24; PO asset acceptance chưa được cấp, chưa creative-main.",
+      "observation_revision": "Git/manifest/postgen receipts capture 07/10",
+      "source_refs": "SRC-PARTNER-LEDGER, SRC-PARTNER-B22, SRC-PARTNER-B23, SRC-PARTNER-B24",
+      "skeleton_usage": "S4, S7"
+    },
+    {
+      "id": "D29",
+      "type": "FACT",
+      "value_scope": "Fabless B16–B21 và Partner B25–B30 chưa có execution evidence ở snapshot. Inventory/queue không là lệnh mới cho session này.",
+      "observation_revision": "Owner source records 07/10",
+      "source_refs": "SRC-FABLESS-LEDGER, SRC-PARTNER-LEDGER, SRC-PROGRESS",
+      "skeleton_usage": "S4"
+    },
+    {
+      "id": "D30",
+      "type": "FACT",
+      "value_scope": "10 concrete FDI readers source-only, PO offline checkpoint 5b99984; mỗi HTML vi/en/zh-Hans/zh-Hant. Mapping B1–B7 + 3O3. Cả 10 khác main reader revision. 25 conditional inventory rows là intake/coverage, không quota HTML đã dựng.",
+      "observation_revision": "FDI reader inventory/byte comparison 07/10",
+      "source_refs": "SRC-READERS-INVENTORY, SRC-READERS-STATUS",
+      "skeleton_usage": "S4, S7"
+    },
+    {
+      "id": "D31",
+      "type": "FACT",
+      "value_scope": "Existing 3 landing routes production/four-locale đã có scope acceptance. Tracking Phase5 PASS WITH SCOPE EXCLUSION, consent excluded/native LinkedIn delivery deferred; không nói toàn bộ tracking chưa triển khai. New reader/destination adoption và campaign attribution là phạm vi khác.",
+      "observation_revision": "Tracking prior receipts 26–30/09",
+      "source_refs": "SRC-TRACKING, SRC-READINESS, SRC-S04",
+      "skeleton_usage": "S6, S7"
+    },
+    {
+      "id": "D32",
+      "type": "DECISION",
+      "value_scope": "Harness/anchor tiền–hậu kiểm và process FROZEN_PER_PO; adapter DEVELOPING / NOT_FROZEN. Offline PO approval không nâng thành independent/native-market/live PASS.",
+      "observation_revision": "PO freeze + current progress",
+      "source_refs": "SRC-PROGRESS",
+      "skeleton_usage": "S7"
+    },
+    {
+      "id": "D33",
+      "type": "FACT",
+      "value_scope": "Search Planner đã có scoped query evidence cho OSAT/Fabless/Partner; nhiều metrics không hiển thị, Partner chỉ có estimate lịch sử hạn chế. Không suy search demand bằng 0.",
+      "observation_revision": "Historical Planner configurations/source 09/2026",
+      "source_refs": "SRC-PLANNER, SRC-SEARCH",
+      "skeleton_usage": "S5, S6"
+    },
+    {
+      "id": "D34",
+      "type": "ASSUMPTION",
+      "value_scope": "Measurement theo lớp: đúng target/role → reach/frequency → attention/proof → progression → cost. Brand baseline và verified leads bổ sung nếu có nguồn; test traffic không là campaign result.",
+      "observation_revision": "S04/KPI principles + mail, adapted draft",
+      "source_refs": "SRC-S04, SRC-MAIL, SRC-TRACKING",
+      "skeleton_usage": "S6"
+    },
+    {
+      "id": "D35",
+      "type": "PENDING",
+      "value_scope": "Baseline/target numeric, exact cohort source IDs/rule/lookback/Ready/filtered eligibility và release conditions cần dữ liệu vận hành. Không kế thừa 7/10 clicks, 70% relevance, 20 clicks hoặc mốc ngày thành ngưỡng đạt.",
+      "observation_revision": "Source thresholds chỉ proposal/historical",
+      "source_refs": "SRC-S04, SRC-LEGACY-BUDGET, SRC-RMK",
+      "skeleton_usage": "S6, S7"
+    },
+    {
+      "id": "D36",
+      "type": "ASSUMPTION",
+      "value_scope": "Weekly review; quyết định dùng tiếp phần giữ lại theo mapping/relevance/delivery/attention/chi phí và RMK eligibility. Thiếu mẫu thì giữ chưa kết luận; không mở ICP/keywords chỉ để tiêu tiền. Cadence/stop values do Bảo chốt trước chạy.",
+      "observation_revision": "Evidence principle còn phù hợp, chưa chọn schedule/threshold",
+      "source_refs": "SRC-S04, SRC-MAIL, SRC-LEGACY-BUDGET",
+      "skeleton_usage": "S6, S7, S8"
+    },
+    {
+      "id": "D37",
+      "type": "FACT",
+      "value_scope": "V1 workbook cụ thể đang đọc có 6 sheet, 29 formulas; budget B6=14, C6=400000, B23=0.1, B24=100000; H6:H8/I6:I8 không populated. Cached reference totals khớp phép tính độc lập. Không chạy native Excel hoặc sửa workbook.",
+      "observation_revision": "SRC-LEGACY-WORKBOOK exact hash; XML read-only",
+      "source_refs": "SRC-LEGACY-WORKBOOK",
+      "skeleton_usage": "S6, S9"
+    },
+    {
+      "id": "D38",
+      "type": "DECISION",
+      "value_scope": "Học 3 report/demo/library/workbook/source topology từ v1; không giữ mặc định 22 câu/engine/29formulas/pilot wording. Folder thường, không ZIP; format cuối chưa được chọn.",
+      "observation_revision": "Bảo workflow anchor + prior folder preference",
+      "source_refs": "SRC-WORKFLOW, SRC-PLAN, SRC-LEGACY-STATUS",
+      "skeleton_usage": "S8, S9"
+    },
+    {
+      "id": "D39",
+      "type": "PENDING",
+      "value_scope": "Locale, entity decision rights, use of original vs backup và campaign structure/targeting/schedule cần Bảo/operator xử lý trên current account evidence; không chuyển thành câu xin sếp duyệt.",
+      "observation_revision": "Anchor A2/A3 + operational source records",
+      "source_refs": "SRC-WORKFLOW, SRC-ANCHOR, SRC-COMPANY, SRC-BACKUP, SRC-RMK",
+      "skeleton_usage": "S3, S7, S10"
+    },
+    {
+      "id": "D40",
+      "type": "DECISION",
+      "value_scope": "Phase1 giữ full integrity và skeleton; Bảo chốt data trước Phase2 split, chốt split trước Phase3 polish. Lượt này chưa lọc bộ câu hỏi hoặc làm final package.",
+      "observation_revision": "Mandate 07/10; plan local 7796bc6",
+      "source_refs": "SRC-PLAN, SRC-WORKFLOW",
+      "skeleton_usage": "S1, S8, S10"
+    }
+  ]
+}
