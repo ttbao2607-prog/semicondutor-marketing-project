@@ -1,0 +1,1 @@
+2026-10-07 Bảo: “Commit checkpoint, chạy nốt3html còn lại.” Approval applies current B4/B5 destination local checkpoint; source/archive self-review receipts retain stage-specific PO_PENDING history. No main integration/push/live release.

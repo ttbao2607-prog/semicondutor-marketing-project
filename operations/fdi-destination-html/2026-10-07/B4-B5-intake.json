@@ -1,0 +1,386 @@
+{
+  "source_worktree": "D:\\Digiwin_Semiconducter_Workspace",
+  "source_commit": "b2694b4ea9b556bb28562b1b22f10edefa1493e3",
+  "base_checkpoint": "809dd1a7b3ec7e6ec55ca9d7462987c5796c80c8",
+  "base_reader_sha256": "ac0e85a8b0f835cd10eef9614ae4a4d291ec226efcdf993ce6d0b09b19047e1e",
+  "copy_sha256": "65889d53697c166f29f1e9a1ff95425adacaa9d2af50aeaf27398ceda004f770",
+  "targets": [
+    {
+      "batch": "B4",
+      "locale": "en",
+      "directory": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1",
+      "source_files_sha256": {
+        "case-reader.html": "a6f2229602e264f0e092cec9dc867d717efc5deaa0a747484a4a920f1653dfb2",
+        "index.html": "00af2da27b66d48047d14c3a3a0561ef0865590f8d09312861bab8effad40aca",
+        "manifest.json": "ec547c1410a635e36a10fe0bf2082bfcd180d8e71373c6230f35479d75a5d4ef",
+        "README.md": "0e9fbc4b8a098d1e96aa61333659adf00dd96fe0ecc8016c14ee00d191d46a86",
+        "selected-copy.json": "334b63cc4480f9260e6bd4dfeb566da3bc8c9135dbd5d09cbabb31417400dad2",
+        "selected-prompts.json": "ceab2f4753a5691e8ff1a790171c562adec80834d5b23aa0b5541af1f3f6419e",
+        "assets/01-cold-osat-ops-02-image.png": "db1dc65c7b7155f8bd6e051a18be50750abbecde0d9f7524709bccd173df204f",
+        "assets/02-o2-a1.png": "c74e3c1132218fc410ace898e8e05b49b99d26a856c823b78d942011b5e23362",
+        "assets/03-o2-a2.png": "1c0762de347eda55d806db60370df12471f89096e31486951b420f340429d6ed",
+        "assets/04-o2-a3.png": "3883f1465d3ec16863169c139836f5dd24abfbd5e3dde8f804975451d4890ffa",
+        "assets/05-o2-a4.png": "3572ee61ed6be7847a7ef41c6afa55de5a1374414a1ad995b09527fa56a22c19",
+        "assets/06-o2-a5.png": "53374ea24c17e91b442eb1f209ff3912b2a73e29771d8da0c354fdaaf98d8734",
+        "assets/07-rmk-r4-1.png": "ce19bf68a01533a6e19a05c7f971376ad15b207556a602bcab1bdbcb2d47cdd9",
+        "assets/08-rmk-r4-2.png": "1bb450fedc473bc4e45b6cb6920335e6fe40cbec61f2d9ff40a0ec23faea9172",
+        "assets/09-rmk-r4-3.png": "c67fde5114959a063c2a1dd088e5d2dc0c3acceebeeb0ac80b6e71e3ec5ef1ca",
+        "assets/10-rmk-r4-4.png": "d0c3c8864664f842e16cf8f2f5ff98955111dbad3549667ad10df0e28699ac48"
+      },
+      "ordered_source_cards": [
+        {
+          "card_id": "COLD-OSAT-OPS-02-IMAGE",
+          "headline": "Same lot. Different status reports?",
+          "body": "Check the stage, recording time and record owner before the next handoff.",
+          "source_text": "",
+          "cta": "",
+          "native_headline": "Same lot. Different status reports?",
+          "alt": "Illustration: Same lot. Different status reports?",
+          "artwork_labels": [
+            "PACKAGING & TESTING OPERATIONS",
+            "ERP for manufacturing"
+          ],
+          "stage": "cold",
+          "caption": "We provide manufacturing ERP solutions. Packaging and testing operations teams: align the lot context and record owner before the next handoff.",
+          "image": "assets/01-cold-osat-ops-02-image.png"
+        },
+        {
+          "card_id": "O2-A1",
+          "headline": "Same lot. Different status reports?",
+          "body": "Before deciding what happens next, check which process stage and recording time each report describes.",
+          "source_text": "",
+          "cta": "",
+          "native_headline": "Same lot. Different status reports?",
+          "alt": "Illustration: Same lot. Different status reports?",
+          "artwork_labels": [
+            "ERP · OPERATIONS",
+            "1/5"
+          ],
+          "stage": "explanation",
+          "caption": "We provide manufacturing ERP solutions. Operations teams: compare lot records on the same basis and make handoff responsibilities clear.",
+          "image": "assets/02-o2-a1.png"
+        },
+        {
+          "card_id": "O2-A2",
+          "headline": "Compare reports on the same basis.",
+          "body": "Confirm the lot, process stage and recording time. Two reports may both be right if they describe different stages or times.",
+          "source_text": "",
+          "cta": "",
+          "native_headline": "Compare reports on the same basis.",
+          "alt": "Illustration: Compare reports on the same basis.",
+          "artwork_labels": [
+            "ERP · OPERATIONS",
+            "2/5"
+          ],
+          "stage": "explanation",
+          "caption": "We provide manufacturing ERP solutions. Operations teams: compare lot records on the same basis and make handoff responsibilities clear.",
+          "image": "assets/03-o2-a2.png"
+        },
+        {
+          "card_id": "O2-A3",
+          "headline": "Which record supports the handoff?",
+          "body": "Identify the source record for this handoff and the information the receiving team needs.",
+          "source_text": "",
+          "cta": "",
+          "native_headline": "Which record supports the handoff?",
+          "alt": "Illustration: Which record supports the handoff?",
+          "artwork_labels": [
+            "ERP · OPERATIONS",
+            "3/5"
+          ],
+          "stage": "explanation",
+          "caption": "We provide manufacturing ERP solutions. Operations teams: compare lot records on the same basis and make handoff responsibilities clear.",
+          "image": "assets/04-o2-a3.png"
+        },
+        {
+          "card_id": "O2-A4",
+          "headline": "Who confirms what is still missing?",
+          "body": "Name the missing information, who checks the source and who confirms the next step. Give the receiving team a clear check before a status update.",
+          "source_text": "",
+          "cta": "",
+          "native_headline": "Who confirms what is still missing?",
+          "alt": "Illustration: Who confirms what is still missing?",
+          "artwork_labels": [
+            "ERP · OPERATIONS",
+            "4/5"
+          ],
+          "stage": "explanation",
+          "caption": "We provide manufacturing ERP solutions. Operations teams: compare lot records on the same basis and make handoff responsibilities clear.",
+          "image": "assets/05-o2-a4.png"
+        },
+        {
+          "card_id": "O2-A5",
+          "headline": "Give the handoff a shared basis.",
+          "body": "Bring the lot, stage, recording time, source and confirmation owner into the same discussion. Coordinate the next step with shared information.",
+          "source_text": "Digiwin Taiwan semiconductor solution material:\nERP and MES for management and production.",
+          "cta": "Explore the lot-handoff questions",
+          "native_headline": "Give the handoff a shared basis.",
+          "alt": "Illustration: Give the handoff a shared basis.",
+          "artwork_labels": [
+            "ERP · OPERATIONS",
+            "5/5"
+          ],
+          "stage": "explanation",
+          "caption": "We provide manufacturing ERP solutions. Operations teams: compare lot records on the same basis and make handoff responsibilities clear.",
+          "image": "assets/06-o2-a5.png"
+        },
+        {
+          "card_id": "RMK-R4-1",
+          "headline": "Digital solutions for manufacturing",
+          "body": "We provide digital solutions for manufacturers, from ERP to smart manufacturing.",
+          "source_text": "Digiwin Vietnam · Company introduction",
+          "cta": "",
+          "native_headline": "Digital solutions for manufacturing",
+          "alt": "Illustration: Digital solutions for manufacturing",
+          "artwork_labels": [
+            "SEMICONDUCTOR CASE",
+            "1/4"
+          ],
+          "stage": "proof",
+          "caption": "We provide digital solutions for manufacturing. Explore linked records and exception workflows in a named China packaging and testing case.",
+          "image": "assets/07-rmk-r4-1.png"
+        },
+        {
+          "card_id": "RMK-R4-2",
+          "headline": "A packaging and testing case in China",
+          "body": "江苏中科智芯集成科技有限公司 implemented an integrated Digiwin ERP + iMES solution to address records, processes and production efficiency.",
+          "source_text": "Digiwin Vietnam · Packaging/testing case",
+          "cta": "",
+          "native_headline": "A packaging and testing case in China",
+          "alt": "Illustration: A packaging and testing case in China",
+          "artwork_labels": [
+            "SEMICONDUCTOR CASE",
+            "2/4"
+          ],
+          "stage": "proof",
+          "caption": "We provide digital solutions for manufacturing. Explore linked records and exception workflows in a named China packaging and testing case.",
+          "image": "assets/08-rmk-r4-2.png"
+        },
+        {
+          "card_id": "RMK-R4-3",
+          "headline": "Link the records for the next review.",
+          "body": "In the China case, MES links batches, workstations, operators and products/materials for tracing. The system also records and escalates exceptions.",
+          "source_text": "Case: 江苏中科智芯集成科技有限公司 · China",
+          "cta": "",
+          "native_headline": "Link the records for the next review.",
+          "alt": "Illustration: Link the records for the next review.",
+          "artwork_labels": [
+            "SEMICONDUCTOR CASE",
+            "3/4"
+          ],
+          "stage": "proof",
+          "caption": "We provide digital solutions for manufacturing. Explore linked records and exception workflows in a named China packaging and testing case.",
+          "image": "assets/09-rmk-r4-3.png"
+        },
+        {
+          "card_id": "RMK-R4-4",
+          "headline": "Explore the implementation detail.",
+          "body": "Read how 江苏中科智芯集成科技有限公司 links production records, distributes parameter changes and records exceptions.",
+          "source_text": "Digiwin · Packaging/testing case · China\n江苏中科智芯集成科技有限公司",
+          "cta": "Read the records and exception workflow",
+          "native_headline": "Explore the implementation detail.",
+          "alt": "Illustration: Explore the implementation detail.",
+          "artwork_labels": [
+            "SEMICONDUCTOR CASE",
+            "4/4"
+          ],
+          "stage": "proof",
+          "caption": "We provide digital solutions for manufacturing. Explore linked records and exception workflows in a named China packaging and testing case.",
+          "image": "assets/10-rmk-r4-4.png"
+        }
+      ],
+      "photo_provenance": "B1-photo-research/provenance.json",
+      "reader_after_sha256": "0a65d3f1d35ae4c572112a52076aa2a070f10d2118111f07c264ba394a9384fb",
+      "entry_after_sha256": "82e1baa39f7cb87e52b76b1c173ae0617f1c232b7a011dea67e221bfd5310028"
+    },
+    {
+      "batch": "B5",
+      "locale": "zh-Hans",
+      "directory": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1",
+      "source_files_sha256": {
+        "case-reader.html": "4d22a3fc958f13f7d0b2e43d4cb767d725fccfc8466ac8b8003081e9049cca13",
+        "index.html": "38e3a8b3e0afb2462ffcc518fe770edd6615ddef33944a8eb78597c3bc997b49",
+        "manifest.json": "d11a0678bdfcbb6486ecc780d60b3d492ffd04a01e2045558ef173a78413314d",
+        "README.md": "4702963684aac37d4fcaf5c663cb5fed1bd5c5f757748962cc2c4a20d9133269",
+        "selected-copy.json": "8572848b067cf9a01d03a48df42c955ac7a3e5459a4e75dab09fe75e49cdea6d",
+        "selected-prompts.json": "d7535cc9ae7373fb79efd1654d706258116b04e3d2ee2bb9c3790c2d5f3fd7e4",
+        "assets/01-cold-osat-ops-02-image.png": "7584a8cd1b44d7282e3105892ac74219a00ceb39b81439965837381bc9735eb9",
+        "assets/02-o2-a1.png": "e2c08e266687673ea75932f6ca4f232f702aa3fcab51d803222f00637022226e",
+        "assets/03-o2-a2.png": "c4504f62355059fa2e43ab7a348df629a761b6250f6f1b95f204859c4a270790",
+        "assets/04-o2-a3.png": "67369125b941d189f05da03a3db7b12c90d5c9ce1d9a86033172b7638fe763d9",
+        "assets/05-o2-a4.png": "80a0395135c4d1edd0bd7830198adc42f339d4b0f3247045a50bc256746a1a0d",
+        "assets/06-o2-a5.png": "b4dc6787bac8aa46ea1a108b8944af285e462d33c2aafd72871495137a3e004b",
+        "assets/07-rmk-r4-1.png": "2281c078328ce853104cabc2e78cd995689ca41269ff584f2598edee11586936",
+        "assets/08-rmk-r4-2.png": "7c0cdae5f09f2ad72f8934b7aa9f290adb7df29b44f95135e4651cb92d540649",
+        "assets/09-rmk-r4-3.png": "4b71a3a7e03a4842148bd2d3b6fcfbaac4262f5a00088d96db530060488e9b13",
+        "assets/10-rmk-r4-4.png": "4c73bd9ace014bb03b31d30e1b282726d76195954840675468371a25d47ada7c"
+      },
+      "ordered_source_cards": [
+        {
+          "card_id": "COLD-OSAT-OPS-02-IMAGE",
+          "headline": "同一批次，状态报告为何不同？",
+          "body": "下一次交接前，先核对工序、记录时间与记录责任人。",
+          "source_text": "",
+          "cta": "",
+          "native_headline": "同一批次，状态报告为何不同？",
+          "alt": "示意图：同一批次，状态报告为何不同？",
+          "artwork_labels": [
+            "封装测试运营",
+            "制造业ERP"
+          ],
+          "stage": "cold",
+          "caption": "我们为制造企业提供ERP方案。封装测试运营团队：交接前，先对齐批次背景与记录责任人。",
+          "image": "assets/01-cold-osat-ops-02-image.png"
+        },
+        {
+          "card_id": "O2-A1",
+          "headline": "同一批次，状态报告为何不同？",
+          "body": "决定下一步前，先核对各份报告对应的工序与记录时间。",
+          "source_text": "",
+          "cta": "",
+          "native_headline": "同一批次，状态报告为何不同？",
+          "alt": "示意图：同一批次，状态报告为何不同？",
+          "artwork_labels": [
+            "ERP · 生产运营",
+            "1/5"
+          ],
+          "stage": "explanation",
+          "caption": "我们为制造企业提供ERP方案。生产运营团队：按同一口径比较批次记录，明确交接责任。",
+          "image": "assets/02-o2-a1.png"
+        },
+        {
+          "card_id": "O2-A2",
+          "headline": "按同一口径比较记录。",
+          "body": "确认批次、工序与记录时间。报告若对应不同工序或时间，两份记录可能都正确。",
+          "source_text": "",
+          "cta": "",
+          "native_headline": "按同一口径比较记录。",
+          "alt": "示意图：按同一口径比较记录。",
+          "artwork_labels": [
+            "ERP · 生产运营",
+            "2/5"
+          ],
+          "stage": "explanation",
+          "caption": "我们为制造企业提供ERP方案。生产运营团队：按同一口径比较批次记录，明确交接责任。",
+          "image": "assets/03-o2-a2.png"
+        },
+        {
+          "card_id": "O2-A3",
+          "headline": "交接依据哪份记录？",
+          "body": "明确本次交接的来源记录，以及接收团队需要的信息。",
+          "source_text": "",
+          "cta": "",
+          "native_headline": "交接依据哪份记录？",
+          "alt": "示意图：交接依据哪份记录？",
+          "artwork_labels": [
+            "ERP · 生产运营",
+            "3/5"
+          ],
+          "stage": "explanation",
+          "caption": "我们为制造企业提供ERP方案。生产运营团队：按同一口径比较批次记录，明确交接责任。",
+          "image": "assets/04-o2-a3.png"
+        },
+        {
+          "card_id": "O2-A4",
+          "headline": "缺少的信息，由谁确认？",
+          "body": "明确还缺哪些信息、由谁核对来源，以及由谁确认下一步。更新状态前，让接收团队有清晰的核查依据。",
+          "source_text": "",
+          "cta": "",
+          "native_headline": "缺少的信息，由谁确认？",
+          "alt": "示意图：缺少的信息，由谁确认？",
+          "artwork_labels": [
+            "ERP · 生产运营",
+            "4/5"
+          ],
+          "stage": "explanation",
+          "caption": "我们为制造企业提供ERP方案。生产运营团队：按同一口径比较批次记录，明确交接责任。",
+          "image": "assets/05-o2-a4.png"
+        },
+        {
+          "card_id": "O2-A5",
+          "headline": "让交接有共同依据。",
+          "body": "将批次、工序、记录时间、信息来源与确认责任人放在同一组信息中，协调下一步交接。",
+          "source_text": "Digiwin台湾半导体解决方案资料：\nERP与MES支持管理及生产。",
+          "cta": "了解批次交接问题",
+          "native_headline": "让交接有共同依据。",
+          "alt": "示意图：让交接有共同依据。",
+          "artwork_labels": [
+            "ERP · 生产运营",
+            "5/5"
+          ],
+          "stage": "explanation",
+          "caption": "我们为制造企业提供ERP方案。生产运营团队：按同一口径比较批次记录，明确交接责任。",
+          "image": "assets/06-o2-a5.png"
+        },
+        {
+          "card_id": "RMK-R4-1",
+          "headline": "为制造企业提供数字化方案",
+          "body": "我们为制造企业提供数字化方案，涵盖ERP与智能制造。",
+          "source_text": "Digiwin越南 · 公司介绍",
+          "cta": "",
+          "native_headline": "为制造企业提供数字化方案",
+          "alt": "示意图：为制造企业提供数字化方案",
+          "artwork_labels": [
+            "半导体案例",
+            "1/4"
+          ],
+          "stage": "proof",
+          "caption": "我们为制造企业提供数字化方案。了解中国封装测试企业的记录关联与异常处理流程。",
+          "image": "assets/07-rmk-r4-1.png"
+        },
+        {
+          "card_id": "RMK-R4-2",
+          "headline": "中国封装测试企业的实施案例",
+          "body": "江苏中科智芯集成科技有限公司实施了Digiwin ERP + iMES一体化方案，应对记录管理、业务流程与生产效率问题。",
+          "source_text": "Digiwin越南 · 封装测试案例",
+          "cta": "",
+          "native_headline": "中国封装测试企业的实施案例",
+          "alt": "示意图：中国封装测试企业的实施案例",
+          "artwork_labels": [
+            "半导体案例",
+            "2/4"
+          ],
+          "stage": "proof",
+          "caption": "我们为制造企业提供数字化方案。了解中国封装测试企业的记录关联与异常处理流程。",
+          "image": "assets/08-rmk-r4-2.png"
+        },
+        {
+          "card_id": "RMK-R4-3",
+          "headline": "关联记录，支持下一步复核。",
+          "body": "在该中国案例中，MES关联批次、工位、操作员及产品／物料，支持追溯。系统同时记录异常，并逐级上报。",
+          "source_text": "案例：江苏中科智芯集成科技有限公司 · 中国",
+          "cta": "",
+          "native_headline": "关联记录，支持下一步复核。",
+          "alt": "示意图：关联记录，支持下一步复核。",
+          "artwork_labels": [
+            "半导体案例",
+            "3/4"
+          ],
+          "stage": "proof",
+          "caption": "我们为制造企业提供数字化方案。了解中国封装测试企业的记录关联与异常处理流程。",
+          "image": "assets/09-rmk-r4-3.png"
+        },
+        {
+          "card_id": "RMK-R4-4",
+          "headline": "了解具体实施内容。",
+          "body": "了解江苏中科智芯集成科技有限公司如何关联生产记录、下发工艺参数变更并记录异常。",
+          "source_text": "Digiwin · 封装测试案例 · 中国\n江苏中科智芯集成科技有限公司",
+          "cta": "阅读记录关联与异常处理流程",
+          "native_headline": "了解具体实施内容。",
+          "alt": "示意图：了解具体实施内容。",
+          "artwork_labels": [
+            "半导体案例",
+            "4/4"
+          ],
+          "stage": "proof",
+          "caption": "我们为制造企业提供数字化方案。了解中国封装测试企业的记录关联与异常处理流程。",
+          "image": "assets/10-rmk-r4-4.png"
+        }
+      ],
+      "photo_provenance": "B1-photo-research/provenance.json",
+      "reader_after_sha256": "9bd65ac2395339d864381683dc731c3bce0aee12bc49f0753c775a31df6535da",
+      "entry_after_sha256": "a65ee0382e191eeb8a8f027351956877cb31e2289b53fe92ed92b4eef6584728"
+    }
+  ],
+  "bounded_revision": "VI title corrected from database wording to shared-information basis; other language text/photo/design unchanged. Fresh VI affected-state render follows."
+}
