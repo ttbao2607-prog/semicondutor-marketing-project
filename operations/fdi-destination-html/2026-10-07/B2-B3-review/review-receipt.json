@@ -1,0 +1,624 @@
+{
+  "revision": "B2-B3-four-language-authentic-photo-v1",
+  "date": "2026-10-07",
+  "stage": "POSTGEN_ARTIFACT",
+  "format": "HTML built without ImageGen",
+  "reviewer": "root",
+  "independence": "SELF_REVIEW",
+  "scope": "Two destination HTMLs and adjacent closing-card textual continuity only; not whole-journey certification",
+  "message_anchor": {
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "email_record": "VY-MAIL-USER-20261006",
+    "original_email_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "html_anchor": {
+    "id": "FDI-DESTINATION-HTML-ANCHOR",
+    "revision": "1.0",
+    "sha256": "edc0f307ecf6706326ee9204c730a9a8213ce34a6232f40a6cf1551f208f2cf6"
+  },
+  "persona": "O1 Quality + Operations / FDI manufacturing decision unit; Vietnamese toggle translates same FDI persona",
+  "audience": "Content hypothesis only; live targeting/eligibility not reviewed",
+  "A5": "N/A: FDI operations value, not VN domestic entry-readiness promise",
+  "locale_review": "All four current copies inspected with actual desktop/mobile renders; Hans production/record terms and Hant 製程/紀錄/品質 remain separate. Registered legal entity remains original Simplified name. No independent native-market reviewer claimed.",
+  "unit_review": [
+    {
+      "locale": "en",
+      "unit": "hero",
+      "rules": "A1/A2/A3",
+      "observed": {
+        "title": "A shared starting point for quality review",
+        "caseLabel": "Packaging & testing",
+        "market": "Reference case · China",
+        "lead": "An unexpected test result calls for a clear starting point: the lot, the production context and the person who checks the record next. Explore how a named packaging and testing business connects production records with Digiwin ERP + iMES."
+      },
+      "judgment": "Packaging/testing Quality and Operations review of lot/test context; no nationality stereotype or domestic supply-chain promise.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "en",
+      "unit": "photograph",
+      "rules": "A3/A7",
+      "observed": {
+        "figure": "Digiwin’s visit to 江苏中科智芯集成科技有限公司 · September 2020.",
+        "figureSource": "Source: 鼎捷智造___new on Sohu · original photo contains Chinese text",
+        "figureAlt": "Group outside the customer building holding a banner bearing Digiwin branding and the name 江苏中科智芯集成科技有限公司."
+      },
+      "judgment": "Exact named customer; September2020 historical visit, Sohu byline. Photo is not evidence of current factory conditions or ERP results.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "en",
+      "unit": "context",
+      "rules": "A1/A2/A6",
+      "observed": {
+        "contextTitle": "Records and processes need to work together",
+        "contextBody": "According to the case published by Digiwin Vietnam, 江苏中科智芯集成科技有限公司 in China implemented an integrated ERP + iMES solution. The published problems include disorganized records, nonstandard processes and low outsourcing and production efficiency."
+      },
+      "judgment": "China customer and integrated ERP+iMES remain attributed; records/process/efficiency are published problems, not new outcomes.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "en",
+      "unit": "mechanisms",
+      "rules": "A6",
+      "observed": {
+        "mechanismTitle": "How the implementation connects information",
+        "mechanismLead": "The published mechanisms span shopfloor data, production records, parameter changes and exception handling within the integrated solution.",
+        "m0Title": "Shopfloor information · SPC",
+        "m0Body": "SPC (statistical process control) collects and analyzes shopfloor information in real time.",
+        "m1Title": "Parameter changes · ECN",
+        "m1Body": "ECN (engineering change notice) distributes process parameter changes in real time.",
+        "m2Title": "Linked records",
+        "m2Body": "MES links batches, workstations, operators and products/materials for tracing from different perspectives.",
+        "m3Title": "Exception recording & escalation",
+        "m3Body": "The system automatically opens exception records and escalates them through successive levels."
+      },
+      "judgment": "SPC collection/analysis, ECN parameter distribution, linked records and automatic exception records/escalation preserve integrated solution scope. No ERP-alone or test-equipment substitute claim.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "en",
+      "unit": "lot/context value",
+      "rules": "A3/A4",
+      "observed": {
+        "valueTitle": "Give Quality and Operations a shared basis for the next check",
+        "valueLead": "Use the case as a reference for these questions about your own review workflow.",
+        "v1Title": "Start from the same lot and context",
+        "v1Body": "When a result needs review, can both teams locate the lot, test time and related production record?",
+        "v1Prepare": "Prepare one example of a lot record and how it reaches the review team."
+      },
+      "judgment": "Qualitative common basis for Quality/Operations; asks about lot/test time/context and one current example. No numeric ROI or guaranteed result.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "en",
+      "unit": "handoff value",
+      "rules": "A3/A4/A6",
+      "observed": {
+        "v2Title": "Make the next check and owner clear",
+        "v2Body": "Who confirms the information source, checks missing records and follows up an exception?",
+        "v2Prepare": "Prepare your current handoff steps and the roles responsible for each check."
+      },
+      "judgment": "Source confirmation, missing records and responsible next owner are specific review questions, not measured customer outcomes.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "en",
+      "unit": "change value",
+      "rules": "A4/A6/A7",
+      "observed": {
+        "v3Title": "Keep changes visible during review",
+        "v3Body": "Where do teams find the applicable parameter revision and the record of an exception?",
+        "v3Prepare": "Prepare one parameter-change record and an example of exception follow-up.",
+        "bridge": "A clear view of records and responsibilities can help your teams identify where coordination needs attention. Start the discussion with one actual review workflow at your company."
+      },
+      "judgment": "Applicable revision/exception follow-up connects case mechanisms to the reader workflow; conditional benefit without fabricated savings.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "en",
+      "unit": "consultation",
+      "rules": "A2/A7",
+      "observed": {
+        "consultLabel": "Talk with Digiwin Vietnam",
+        "consultTitle": "Bring one quality-review workflow to the discussion",
+        "consultBody": "Describe how Quality and Operations share lot records, confirm changes and assign the next check. We provide digital solutions for manufacturing, from ERP to smart manufacturing.",
+        "next": "The next step opens Digiwin Vietnam’s consultation request page in Vietnamese.",
+        "cta": "Discuss records and review ownership"
+      },
+      "judgment": "Bring one review workflow; Digiwin manufacturing-solution provider role explicit. Existing external Vietnamese request page and language disclosed; HTML has no form or analytics dispatch.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "en",
+      "unit": "source and return",
+      "rules": "A7",
+      "observed": {
+        "sourceLabel": "Reference source",
+        "sourceLink": "Read the Chinese case collection",
+        "sourceHint": "In the source, select 封装测试, then 案例 06 江苏中科智芯集成科技有限公司.",
+        "sourceLang": "Source: Simplified Chinese · this page summarizes the named case.",
+        "back": "Back to the quality-review journey"
+      },
+      "judgment": "Chinese collection exact case06 selection instructions; no claim external pages translate with toggle. Local index returns to original journey, even after language switch.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "vi",
+      "unit": "hero",
+      "rules": "A1/A2/A3",
+      "observed": {
+        "title": "Cùng dữ liệu gốc để rà soát chất lượng",
+        "caseLabel": "Đóng gói & kiểm thử",
+        "market": "Case tham khảo · Trung Quốc",
+        "lead": "Khi kết quả kiểm thử cần được rà soát, đội ngũ cần xác định lô, bối cảnh sản xuất và người kiểm tra hồ sơ tiếp theo. Cùng chúng tôi xem cách một doanh nghiệp đóng gói, kiểm thử kết nối hồ sơ sản xuất bằng giải pháp Digiwin ERP + iMES."
+      },
+      "judgment": "Packaging/testing Quality and Operations review of lot/test context; no nationality stereotype or domestic supply-chain promise.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "vi",
+      "unit": "photograph",
+      "rules": "A3/A7",
+      "observed": {
+        "figure": "Chuyến tham quan của Digiwin tại 江苏中科智芯集成科技有限公司 · tháng 9/2020.",
+        "figureSource": "Nguồn: 鼎捷智造___new trên Sohu · ảnh gốc có chữ tiếng Trung",
+        "figureAlt": "Đoàn tham quan trước tòa nhà khách hàng, cầm banner có thương hiệu Digiwin và tên 江苏中科智芯集成科技有限公司."
+      },
+      "judgment": "Exact named customer; September2020 historical visit, Sohu byline. Photo is not evidence of current factory conditions or ERP results.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "vi",
+      "unit": "context",
+      "rules": "A1/A2/A6",
+      "observed": {
+        "contextTitle": "Kết nối hồ sơ với quy trình xử lý",
+        "contextBody": "Theo case do Digiwin Việt Nam công bố, 江苏中科智芯集成科技有限公司 tại Trung Quốc triển khai giải pháp tích hợp ERP + iMES. Các vấn đề được nêu gồm quản lý hồ sơ thiếu tổ chức, quy trình chưa chuẩn hóa và hiệu quả gia công, sản xuất thấp."
+      },
+      "judgment": "China customer and integrated ERP+iMES remain attributed; records/process/efficiency are published problems, not new outcomes.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "vi",
+      "unit": "mechanisms",
+      "rules": "A6",
+      "observed": {
+        "mechanismTitle": "Cách giải pháp kết nối thông tin",
+        "mechanismLead": "Các cơ chế được công bố bao gồm dữ liệu hiện trường, hồ sơ sản xuất, thay đổi thông số và xử lý bất thường trong giải pháp tích hợp.",
+        "m0Title": "Thông tin hiện trường · SPC",
+        "m0Body": "SPC (kiểm soát quá trình bằng thống kê) thu thập và phân tích thông tin hiện trường theo thời gian thực.",
+        "m1Title": "Thay đổi thông số · ECN",
+        "m1Body": "ECN (thông báo thay đổi kỹ thuật) phân phối thay đổi thông số công nghệ theo thời gian thực.",
+        "m2Title": "Hồ sơ liên kết",
+        "m2Body": "MES liên kết lô, trạm làm việc, người vận hành và sản phẩm/vật liệu để truy vết theo các góc nhìn.",
+        "m3Title": "Ghi nhận & báo cáo bất thường",
+        "m3Body": "Hệ thống tự mở phiếu bất thường và báo cáo lần lượt lên các cấp."
+      },
+      "judgment": "SPC collection/analysis, ECN parameter distribution, linked records and automatic exception records/escalation preserve integrated solution scope. No ERP-alone or test-equipment substitute claim.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "vi",
+      "unit": "lot/context value",
+      "rules": "A3/A4",
+      "observed": {
+        "valueTitle": "Tạo cơ sở chung cho Chất lượng và Vận hành kiểm tra tiếp",
+        "valueLead": "Quý Doanh Nghiệp có thể tham khảo case để đối chiếu quy trình rà soát hiện tại qua các câu hỏi sau.",
+        "v1Title": "Bắt đầu từ cùng lô và bối cảnh",
+        "v1Body": "Khi cần rà soát kết quả, hai bộ phận có cùng tìm được lô, thời điểm kiểm thử và hồ sơ sản xuất liên quan không?",
+        "v1Prepare": "Một ví dụ hồ sơ lô và cách chuyển hồ sơ đến đội ngũ rà soát."
+      },
+      "judgment": "Qualitative common basis for Quality/Operations; asks about lot/test time/context and one current example. No numeric ROI or guaranteed result.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "vi",
+      "unit": "handoff value",
+      "rules": "A3/A4/A6",
+      "observed": {
+        "v2Title": "Làm rõ bước kiểm tra và người phụ trách",
+        "v2Body": "Ai xác nhận nguồn thông tin, kiểm tra hồ sơ còn thiếu và theo dõi xử lý bất thường?",
+        "v2Prepare": "Các bước bàn giao hiện tại và vai trò phụ trách từng bước kiểm tra."
+      },
+      "judgment": "Source confirmation, missing records and responsible next owner are specific review questions, not measured customer outcomes.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "vi",
+      "unit": "change value",
+      "rules": "A4/A6/A7",
+      "observed": {
+        "v3Title": "Theo dõi thay đổi khi rà soát",
+        "v3Body": "Đội ngũ tìm phiên bản thông số đang áp dụng và hồ sơ bất thường ở đâu?",
+        "v3Prepare": "Một hồ sơ thay đổi thông số và ví dụ theo dõi xử lý bất thường.",
+        "bridge": "Làm rõ hồ sơ và trách nhiệm giúp đội ngũ xác định khâu phối hợp cần chú ý. Quý Doanh Nghiệp có thể bắt đầu cuộc trao đổi từ một quy trình rà soát đang sử dụng."
+      },
+      "judgment": "Applicable revision/exception follow-up connects case mechanisms to the reader workflow; conditional benefit without fabricated savings.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "vi",
+      "unit": "consultation",
+      "rules": "A2/A7",
+      "observed": {
+        "consultLabel": "Trao đổi cùng Digiwin Việt Nam",
+        "consultTitle": "Bắt đầu từ một quy trình rà soát chất lượng cụ thể",
+        "consultBody": "Quý Doanh Nghiệp có thể mô tả cách Chất lượng và Vận hành chia sẻ hồ sơ lô, xác nhận thay đổi và phân công bước kiểm tra tiếp theo. Chúng tôi cung cấp giải pháp số cho sản xuất, từ ERP đến sản xuất thông minh.",
+        "next": "Bước tiếp theo mở trang yêu cầu tư vấn Digiwin Việt Nam bằng tiếng Việt.",
+        "cta": "Trao đổi về hồ sơ và trách nhiệm rà soát"
+      },
+      "judgment": "Bring one review workflow; Digiwin manufacturing-solution provider role explicit. Existing external Vietnamese request page and language disclosed; HTML has no form or analytics dispatch.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "vi",
+      "unit": "source and return",
+      "rules": "A7",
+      "observed": {
+        "sourceLabel": "Nguồn tham khảo",
+        "sourceLink": "Đọc bộ case bằng tiếng Trung",
+        "sourceHint": "Tại nguồn, chọn 封装测试, rồi chọn 案例 06 江苏中科智芯集成科技有限公司.",
+        "sourceLang": "Nguồn: tiếng Trung giản thể · trang này tóm tắt case được nêu tên.",
+        "back": "Quay lại journey rà soát chất lượng"
+      },
+      "judgment": "Chinese collection exact case06 selection instructions; no claim external pages translate with toggle. Local index returns to original journey, even after language switch.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "zh-Hans",
+      "unit": "hero",
+      "rules": "A1/A2/A3",
+      "observed": {
+        "title": "为质量复核建立共同的信息基础",
+        "caseLabel": "封装测试",
+        "market": "参考案例 · 中国",
+        "lead": "当测试结果需要复核时，先明确批次、生产背景及下一步核对记录的负责人。一起了解一家封装测试企业如何通过Digiwin ERP + iMES关联生产记录。"
+      },
+      "judgment": "Packaging/testing Quality and Operations review of lot/test context; no nationality stereotype or domestic supply-chain promise.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "zh-Hans",
+      "unit": "photograph",
+      "rules": "A3/A7",
+      "observed": {
+        "figure": "鼎捷走进江苏中科智芯集成科技有限公司 · 2020年9月。",
+        "figureSource": "图片来源：搜狐「鼎捷智造___new」· 原图含中文文字",
+        "figureAlt": "参访团在客户建筑前合影，横幅带有鼎捷品牌及江苏中科智芯集成科技有限公司名称。"
+      },
+      "judgment": "Exact named customer; September2020 historical visit, Sohu byline. Photo is not evidence of current factory conditions or ERP results.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "zh-Hans",
+      "unit": "context",
+      "rules": "A1/A2/A6",
+      "observed": {
+        "contextTitle": "让记录与业务流程相互衔接",
+        "contextBody": "根据Digiwin越南发布的案例，中国江苏中科智芯集成科技有限公司实施了ERP + iMES一体化方案。案例披露的问题包括记录管理混乱、业务流程不规范，以及委外与生产效率偏低。"
+      },
+      "judgment": "China customer and integrated ERP+iMES remain attributed; records/process/efficiency are published problems, not new outcomes.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "zh-Hans",
+      "unit": "mechanisms",
+      "rules": "A6",
+      "observed": {
+        "mechanismTitle": "一体化方案如何关联信息",
+        "mechanismLead": "案例披露的机制涵盖车间数据、生产记录、参数变更及异常处理，属于该企业采用的一体化方案。",
+        "m0Title": "现场信息 · SPC",
+        "m0Body": "SPC（统计过程控制）实时收集与分析现场信息。",
+        "m1Title": "参数变更 · ECN",
+        "m1Body": "ECN（工程变更通知）实时下发工艺参数变更。",
+        "m2Title": "关联记录",
+        "m2Body": "MES 关联批次、工站、操作工及产品/物料，支持不同视角的追溯。",
+        "m3Title": "异常记录与上报",
+        "m3Body": "系统自动开立异常单，并逐层上报。"
+      },
+      "judgment": "SPC collection/analysis, ECN parameter distribution, linked records and automatic exception records/escalation preserve integrated solution scope. No ERP-alone or test-equipment substitute claim.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "zh-Hans",
+      "unit": "lot/context value",
+      "rules": "A3/A4",
+      "observed": {
+        "valueTitle": "为质量与运营团队明确下一步核对依据",
+        "valueLead": "贵企业可参考该案例，通过以下问题梳理现有复核流程。",
+        "v1Title": "从同一批次及生产背景开始",
+        "v1Body": "复核测试结果时，两支团队能否找到同一批次、测试时间及相关生产记录？",
+        "v1Prepare": "一份批次记录示例，以及记录如何传递到复核团队。"
+      },
+      "judgment": "Qualitative common basis for Quality/Operations; asks about lot/test time/context and one current example. No numeric ROI or guaranteed result.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "zh-Hans",
+      "unit": "handoff value",
+      "rules": "A3/A4/A6",
+      "observed": {
+        "v2Title": "明确下一步核对与负责人",
+        "v2Body": "谁确认信息来源、核查缺失记录，并跟进异常处理？",
+        "v2Prepare": "现有交接步骤，以及每个核对环节的负责岗位。"
+      },
+      "judgment": "Source confirmation, missing records and responsible next owner are specific review questions, not measured customer outcomes.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "zh-Hans",
+      "unit": "change value",
+      "rules": "A4/A6/A7",
+      "observed": {
+        "v3Title": "复核时看清变更记录",
+        "v3Body": "团队在哪里查询适用的参数版本及异常记录？",
+        "v3Prepare": "一份参数变更记录及异常跟进示例。",
+        "bridge": "梳理记录与职责，有助于识别需要关注的协作环节。欢迎从贵企业正在使用的一项复核流程开始交流。"
+      },
+      "judgment": "Applicable revision/exception follow-up connects case mechanisms to the reader workflow; conditional benefit without fabricated savings.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "zh-Hans",
+      "unit": "consultation",
+      "rules": "A2/A7",
+      "observed": {
+        "consultLabel": "与Digiwin越南交流",
+        "consultTitle": "从一项具体的质量复核流程开始",
+        "consultBody": "贵企业可说明质量与运营团队如何共享批次记录、确认变更及安排下一步核对。我们提供制造业数字化方案，从ERP到智能制造。",
+        "next": "下一步将打开Digiwin越南的咨询申请页面（越南语）。",
+        "cta": "交流记录管理与复核职责"
+      },
+      "judgment": "Bring one review workflow; Digiwin manufacturing-solution provider role explicit. Existing external Vietnamese request page and language disclosed; HTML has no form or analytics dispatch.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "zh-Hans",
+      "unit": "source and return",
+      "rules": "A7",
+      "observed": {
+        "sourceLabel": "参考来源",
+        "sourceLink": "阅读中文案例集",
+        "sourceHint": "在来源页选择“封装测试”，再选择“案例 06 江苏中科智芯集成科技有限公司”。",
+        "sourceLang": "来源：简体中文 · 此页为该企业案例的摘要。",
+        "back": "返回质量复核阅读流程"
+      },
+      "judgment": "Chinese collection exact case06 selection instructions; no claim external pages translate with toggle. Local index returns to original journey, even after language switch.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "zh-Hant",
+      "unit": "hero",
+      "rules": "A1/A2/A3",
+      "observed": {
+        "title": "為品質複核建立共同的資訊基礎",
+        "caseLabel": "封裝測試",
+        "market": "參考案例 · 中國",
+        "lead": "當測試結果需要複核時，先釐清批次、生產背景及下一步核對紀錄的負責人。一起了解一家封裝測試企業如何透過Digiwin ERP + iMES串聯生產紀錄。"
+      },
+      "judgment": "Packaging/testing Quality and Operations review of lot/test context; no nationality stereotype or domestic supply-chain promise.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "zh-Hant",
+      "unit": "photograph",
+      "rules": "A3/A7",
+      "observed": {
+        "figure": "鼎捷走進江苏中科智芯集成科技有限公司 · 2020年9月。",
+        "figureSource": "圖片來源：搜狐「鼎捷智造___new」· 原圖含中文文字",
+        "figureAlt": "參訪團在客戶建築前合影，橫幅帶有鼎捷品牌及江苏中科智芯集成科技有限公司名稱。"
+      },
+      "judgment": "Exact named customer; September2020 historical visit, Sohu byline. Photo is not evidence of current factory conditions or ERP results.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "zh-Hant",
+      "unit": "context",
+      "rules": "A1/A2/A6",
+      "observed": {
+        "contextTitle": "讓紀錄與業務流程相互銜接",
+        "contextBody": "根據Digiwin越南發布的案例，中國江苏中科智芯集成科技有限公司導入ERP + iMES整合方案。案例揭露的問題包括紀錄管理紊亂、業務流程不規範，以及委外與生產效率偏低。"
+      },
+      "judgment": "China customer and integrated ERP+iMES remain attributed; records/process/efficiency are published problems, not new outcomes.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "zh-Hant",
+      "unit": "mechanisms",
+      "rules": "A6",
+      "observed": {
+        "mechanismTitle": "整合方案如何串聯資訊",
+        "mechanismLead": "案例揭露的機制涵蓋現場資料、生產紀錄、參數變更與異常處理，屬於該企業採用的整合方案。",
+        "m0Title": "現場資訊 · SPC",
+        "m0Body": "SPC（統計製程管制）即時蒐集與分析現場資訊。",
+        "m1Title": "參數變更 · ECN",
+        "m1Body": "ECN（工程變更通知）即時下發製程參數變更。",
+        "m2Title": "關聯紀錄",
+        "m2Body": "MES 關聯批次、工站、操作人員及產品/物料，支援不同視角的追溯。",
+        "m3Title": "異常紀錄與上報",
+        "m3Body": "系統自動開立異常單，並逐層上報。"
+      },
+      "judgment": "SPC collection/analysis, ECN parameter distribution, linked records and automatic exception records/escalation preserve integrated solution scope. No ERP-alone or test-equipment substitute claim.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "zh-Hant",
+      "unit": "lot/context value",
+      "rules": "A3/A4",
+      "observed": {
+        "valueTitle": "為品質與營運團隊釐清下一步核對依據",
+        "valueLead": "貴企業可參考該案例，透過以下問題梳理現行複核流程。",
+        "v1Title": "從同一批次與生產背景開始",
+        "v1Body": "複核測試結果時，兩支團隊能否找到同一批次、測試時間及相關生產紀錄？",
+        "v1Prepare": "一份批次紀錄範例，以及紀錄如何傳遞至複核團隊。"
+      },
+      "judgment": "Qualitative common basis for Quality/Operations; asks about lot/test time/context and one current example. No numeric ROI or guaranteed result.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "zh-Hant",
+      "unit": "handoff value",
+      "rules": "A3/A4/A6",
+      "observed": {
+        "v2Title": "釐清下一步核對與負責人",
+        "v2Body": "誰確認資訊來源、核查缺漏紀錄，並追蹤異常處理？",
+        "v2Prepare": "現行交接步驟，以及每個核對環節的負責角色。"
+      },
+      "judgment": "Source confirmation, missing records and responsible next owner are specific review questions, not measured customer outcomes.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "zh-Hant",
+      "unit": "change value",
+      "rules": "A4/A6/A7",
+      "observed": {
+        "v3Title": "複核時掌握變更紀錄",
+        "v3Body": "團隊在哪裡查詢適用的參數版本與異常紀錄？",
+        "v3Prepare": "一份參數變更紀錄及異常追蹤範例。",
+        "bridge": "梳理紀錄與職責，有助於找出需要關注的協作環節。歡迎從貴企業正在使用的一項複核流程開始交流。"
+      },
+      "judgment": "Applicable revision/exception follow-up connects case mechanisms to the reader workflow; conditional benefit without fabricated savings.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "zh-Hant",
+      "unit": "consultation",
+      "rules": "A2/A7",
+      "observed": {
+        "consultLabel": "與Digiwin越南交流",
+        "consultTitle": "從一項具體的品質複核流程開始",
+        "consultBody": "貴企業可說明品質與營運團隊如何共享批次紀錄、確認變更及安排下一步核對。我們提供製造業數位化方案，從ERP到智慧製造。",
+        "next": "下一步將開啟Digiwin越南的諮詢申請頁面（越南語）。",
+        "cta": "交流紀錄管理與複核職責"
+      },
+      "judgment": "Bring one review workflow; Digiwin manufacturing-solution provider role explicit. Existing external Vietnamese request page and language disclosed; HTML has no form or analytics dispatch.",
+      "verdict": "MATCH"
+    },
+    {
+      "locale": "zh-Hant",
+      "unit": "source and return",
+      "rules": "A7",
+      "observed": {
+        "sourceLabel": "參考來源",
+        "sourceLink": "閱讀中文案例集",
+        "sourceHint": "在來源頁選擇「封装测试」，再選擇「案例 06 江苏中科智芯集成科技有限公司」。",
+        "sourceLang": "來源：簡體中文 · 此頁為該企業案例的摘要。",
+        "back": "返回品質複核閱讀流程"
+      },
+      "judgment": "Chinese collection exact case06 selection instructions; no claim external pages translate with toggle. Local index returns to original journey, even after language switch.",
+      "verdict": "MATCH"
+    }
+  ],
+  "transitions": [
+    "Closing card record association/parameter changes/exceptions -> hero lot/test review -> attributed integrated case: same O1 problem and entity.",
+    "Case context -> mechanisms: published capability, not unsupported standalone ERP result.",
+    "Mechanisms -> three review questions: qualitative business value and current workflow questions, no invented measurement.",
+    "Review questions -> consultation: actual workflow and responsibility discussion; external Vietnamese language disclosed.",
+    "Attribution -> return: original local journey retained; new toggle language does not change return route."
+  ],
+  "proof": {
+    "entity": "江苏中科智芯集成科技有限公司",
+    "geography": "China",
+    "solution": "integrated ERP + iMES",
+    "metric": "No numeric outcome/ROI claim",
+    "claim_source": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+    "photo": "Digiwin-branded visit September2020, Sohu byline 鼎捷智造___new",
+    "public_paid_rights": "UNKNOWN; internal draft only"
+  },
+  "targets": [
+    {
+      "batch": "B2",
+      "locale": "zh-Hans",
+      "directory": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1",
+      "selected_copy_sha256": "321dd277b82e496115b1d1c586b7b8cc18313d13cc9dfc2af7b7519f8a77a88c",
+      "manifest_sha256": "6a18e5acf362a930801511a61b8bfd05e627b8c293414563214ff4265a1dd8e8",
+      "closing_card": {
+        "card_id": "RMK-R4-4",
+        "headline": "了解具体实施内容。",
+        "body": "了解江苏中科智芯集成科技有限公司如何关联生产记录、下发工艺参数变更并记录异常。",
+        "source_text": "Digiwin · 封装测试案例 · 中国\n江苏中科智芯集成科技有限公司",
+        "cta": "阅读记录关联与异常处理流程",
+        "native_headline": "了解具体实施内容。",
+        "alt": "示意图：了解具体实施内容。",
+        "artwork_labels": [
+          "半导体案例",
+          "4/4"
+        ],
+        "stage": "proof",
+        "caption": "我们为制造企业提供数字化方案。了解中国封装测试企业的记录关联与异常处理流程。",
+        "image": "assets/10-rmk-r4-4.png"
+      },
+      "reader_before_sha256": "59ba05625baa77c4f1df1993e250006519b63160704cb43227798c9ead04c427",
+      "entry_before_sha256": "880088cccab01b834dcacc1c116f16888416d21a6100887aeb1ef9143317e136",
+      "photo_provenance": "B1-photo-research/provenance.json",
+      "reader_after_sha256": "6368590c3005f1ce8915f5e2f621e7f7e5a4d20bca2ce633381c7558815dd567",
+      "entry_after_sha256": "aa648e11f0acb315d8bfb62ef42c0341748fcc1c726b0e61dea385e54c0720cd"
+    },
+    {
+      "batch": "B3",
+      "locale": "zh-Hant",
+      "directory": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1",
+      "selected_copy_sha256": "a79ecae3ed95f9138c1249c51622d7a1229edf09a1cf9cc5ea8eda43fe74ebb0",
+      "manifest_sha256": "07de4794cc0f7d28786ac4513ddc0b082c45ccc79a876acf4f20efe06e61ca80",
+      "closing_card": {
+        "card_id": "RMK-R4-4",
+        "headline": "了解具體導入內容。",
+        "body": "了解江苏中科智芯集成科技有限公司如何關聯生產紀錄、下達製程參數變更並紀錄異常。",
+        "source_text": "Digiwin · 封裝測試案例 · 中國\n江苏中科智芯集成科技有限公司",
+        "cta": "閱讀紀錄關聯與異常處理流程",
+        "native_headline": "了解具體導入內容。",
+        "alt": "示意圖：了解具體導入內容。",
+        "artwork_labels": [
+          "半導體案例",
+          "4/4"
+        ],
+        "stage": "proof",
+        "caption": "我們為製造企業提供數位化方案。了解中國封裝測試企業的紀錄關聯與異常處理流程。",
+        "image": "assets/10-rmk-r4-4.png"
+      },
+      "reader_before_sha256": "eb66615e3c38018c88c688bdcff59e9029fb73ad06bce32b7f12cd2ad48cdcd1",
+      "entry_before_sha256": "cd8595646a660f963684133901a2eccd039584474bc84b3aa0c17afb989e0c57",
+      "photo_provenance": "B1-photo-research/provenance.json",
+      "reader_after_sha256": "5e8bbcdc5533ac5971b1379635c2a81f15b9534654ded4eaed66bb910012416c",
+      "entry_after_sha256": "01c63909e202b5e3b0d369bdd8d61e28b96dc76ca372e18f2d9ac4db3405772f"
+    }
+  ],
+  "evidence": {
+    "B2-desktop-en.png": "47dd426daf83785dd91eef075072bda74a665a3a76c1570aa90bed19c74fc8f5",
+    "B2-desktop-vi.png": "7f44ed03f29c5735bf6434b06d52d02d418019293a62782e87196a32331a2781",
+    "B2-desktop-zh-Hans.png": "c8384b1b28e7c0f7a54aef079712e4ba46e4bd5f82181f98d2793b7cd539a00f",
+    "B2-desktop-zh-Hant.png": "188f782045e9c20270a677a21f2f688e906a4737ec79f2580fb4e136c61f43ab",
+    "B2-mobile-en.png": "af7d727fad425858c8ca14ad5cbd52af1a59156793d01f9527028e27742ab986",
+    "B2-mobile-vi.png": "5eca76442b34346d25bd4e830674e93e70cd1817f540f30715bc5148605461e7",
+    "B2-mobile-zh-Hans.png": "8a1b7097ce67b80c635ac2e5e116355d04a4faa256726206acd631c9a24a5169",
+    "B2-mobile-zh-Hant.png": "dcfd0692e4143c2ffa6a412c53124e7d3b772424c0679f624e753cf42c9ba012",
+    "B2-preview.png": "ff8bcfbdf6cc87c077803148b4cab755976685bf0a29a26d2d907d3c01a67b33",
+    "B3-desktop-en.png": "1cce308f4fc1d45c06216d3866b5178107ab277113298b1f9da81da8db908d1a",
+    "B3-desktop-vi.png": "7f44ed03f29c5735bf6434b06d52d02d418019293a62782e87196a32331a2781",
+    "B3-desktop-zh-Hans.png": "c8384b1b28e7c0f7a54aef079712e4ba46e4bd5f82181f98d2793b7cd539a00f",
+    "B3-desktop-zh-Hant.png": "ede8e1f98ee87e9b1c9773c067f2b11e9782aa2ce8405350623d75275e260029",
+    "B3-mobile-en.png": "af7d727fad425858c8ca14ad5cbd52af1a59156793d01f9527028e27742ab986",
+    "B3-mobile-vi.png": "43a8c6a7d6562e12b6b98c6e7c50bcee15ba71faa423e1b219f2da64569f596b",
+    "B3-mobile-zh-Hans.png": "8a1b7097ce67b80c635ac2e5e116355d04a4faa256726206acd631c9a24a5169",
+    "B3-mobile-zh-Hant.png": "dcfd0692e4143c2ffa6a412c53124e7d3b772424c0679f624e753cf42c9ba012",
+    "B3-preview.png": "043d0273fd2a517f59de6675453fd8dbe887b8fcb65d7a798fc6d911197e462c",
+    "functional-runtime.json": "394144023eb4a5b6fb16d4ecbf5282230169b9b2c8f2bdd77240a16e41c4b593",
+    "render-runtime.json": "88946b88dfbfb69799f608cdc30c2b9f123909763505030ce8148f872a6aa371"
+  },
+  "render": "16 full-page states visually inspected:2routes x4locales x1280desktop/390mobile. All24DOM checks including320smoke pass loaded photo, original ratio, overflow, text/alt/title/aria parity. Intermittent screenshot timeouts resolved by fresh Chrome tab; final16 captures available.",
+  "interaction": "18 observed tests: absent/invalid default per route,4toggles/focus/URL/alt, refresh persistence, actual return click and actual entry link per route. No-JS initial locale inspected in static HTML, not browser JS-disabled runtime. External source/contact clicks not repeated for unchanged B1 links.",
+  "MSG-ANCHOR-01": "MESSAGE_ANCHOR_PASS",
+  "content_status": "SCOPED_SELF_REVIEW_COMPLETE_PO_PENDING",
+  "historical_findings": "B2 proof1-2/B3 proof1 small source and whole-journey INSUFFICIENT_EVIDENCE retained; new reader review does not close those artwork/whole-journey findings.",
+  "pending": [
+    "PO review of new destination revision",
+    "Independent/native-market review",
+    "Public/paid image rights",
+    "Live runtime/deployment"
+  ],
+  "git": "Working files only on dedicated local slice; no commit/main integration/push",
+  "docs_impact": "Reviewed DOCS_IMPACT_MAP, current/README/build/readiness, email+HTML anchors and source register. Updated scoped status and inventory; source rights unchanged, no additional source-register update required. Strategy/budget/tracking/form contracts and frozen core unchanged."
+}
