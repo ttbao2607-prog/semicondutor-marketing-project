@@ -1,0 +1,894 @@
+{
+  "revision": "b2-b3-selected-main-evidence-v1",
+  "instruction": "OKie ổn rồi, làm tiếp batch kế tiếp, duyệt B3 nhé, mấy cái duyệt r merge artifact vào main đi codex, kiểm tránh merge mấy bản faild / corrective làm rối main nhé.",
+  "authority": "PO_OFFLINE_ADOPTION_AND_SELECTED_LOCAL_MAIN_MERGE",
+  "source_checkpoint": "ff0cb4d5222fd34080ed22ef207859abb14389b0",
+  "main_baseline": "26f89d0526cd5d5f255782ce1e79401256b98a4b",
+  "batches": [
+    {
+      "batch": "B2-zh-Hans-o1-v1",
+      "source_checkpoint": "ff0cb4d5222fd34080ed22ef207859abb14389b0",
+      "selected_manifest_sha256": "6a18e5acf362a930801511a61b8bfd05e627b8c293414563214ff4265a1dd8e8",
+      "approval": {
+        "revision": "b2-po-offline-acceptance-20261007",
+        "instruction": "Duyệt B2, làm batch tiếp theo.",
+        "status": "USER_ACCEPTED_CURRENT_OFFLINE_CANDIDATE",
+        "manifest": {
+          "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/manifest.json",
+          "sha256": "6a18e5acf362a930801511a61b8bfd05e627b8c293414563214ff4265a1dd8e8"
+        },
+        "postgen_sha256": "cc3bf7f34c275eb0c4c18be5b5e833276abf67fa603effb4a657c7cd7c340c7f",
+        "scope": "Current B2 selected10 images and reader offline; proceed B3. Existing source hierarchy/fidelity findings and technical verdict not rewritten or certified PASS.",
+        "no_commit_merge_push_authority": true
+      },
+      "postgen_snapshot": {
+        "revision": "b2-postgen-root-review-v1",
+        "execution_status": "PARTIAL",
+        "artifact_status": "CHANGES_REQUIRED",
+        "final_anchor_status": "INSUFFICIENT_EVIDENCE",
+        "reviewer": "/root",
+        "independence": "ROOT_SELF_REVIEW",
+        "native_market_review": "NOT_PERFORMED",
+        "runtime_model_effort": "NOT_OBSERVED",
+        "persona": "Quality/QA Manager coordinating test-record review with Operations at an eligible FDI packaging/testing entity",
+        "route": "offline cold -> O1 quality review -> China linked-record implementation -> Simplified Chinese reader with Chinese sources",
+        "anchor": {
+          "path": "operations/Vy_Email_Content_Anchor.md",
+          "revision": "1.0",
+          "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+        },
+        "email": {
+          "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+          "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+        },
+        "selected_manifest_sha256": "6a18e5acf362a930801511a61b8bfd05e627b8c293414563214ff4265a1dd8e8",
+        "attempt_ledger_sha256": "d0e09b6b5dcd28343eda7b786bb40eacd605de84401780a16d7dc443bdcb8e16",
+        "findings": [
+          {
+            "card_id": "O1-A4",
+            "status": "CLOSED",
+            "finding": "Unapproved check mark in original shield.",
+            "closure": "Selected corrective removes check mark; actual native/feed333/mobile390x844 reviewed. Empty shield and gear/team pictograms preserved."
+          },
+          {
+            "card_id": "RMK-R4-3",
+            "status": "CLOSED",
+            "finding": "Original named China attribution in narrow, small footer.",
+            "closure": "Selected corrective uses two full-width white source lines larger than body; exact legal name and China retained; no exclamation mark. Actual native/feed333/mobile reviewed."
+          },
+          {
+            "card_id": "RMK-R4-1",
+            "status": "OPEN_CHANGES_REQUIRED",
+            "finding": "Digiwin Vietnam provider attribution smaller than body; remains small at feed/mobile.",
+            "next_fix": "Separate white full-width source block, body-sized source; reduce scene to reserve space. No new generation within exhausted cap."
+          },
+          {
+            "card_id": "RMK-R4-2",
+            "status": "OPEN_CHANGES_REQUIRED",
+            "finding": "Provider/case source remains small over photo rather than full-width main text.",
+            "next_fix": "Full-width white source block with body-sized text; preserve exact copy/entity/integrated ERP+iMES scope. Requires later mandate."
+          },
+          {
+            "card_id": "O1-A1",
+            "status": "PO_DISPOSITION_PENDING",
+            "finding": "Photo record/chip-tray scene lacks reviewed pending connector and test-context pictogram.",
+            "meaning": "Visual fidelity observation, no demonstrated message mismatch. B1 PO adoption does not certify B2 storyboard."
+          }
+        ],
+        "units": [
+          {
+            "card_id": "COLD-OSAT-QA-01-IMAGE",
+            "selected_sha256": "9b94c3914309e7e3f4adf5af8474fec4fe77ebd842c76e2c5ff5a0f74a7b4caf",
+            "native_wording_review": "No listed headline/body/category/source/CTA/Chinese glyph mismatch observed; source hierarchy and fidelity assessed separately.",
+            "message_scope": "No listed anchor/persona/proof mismatch observed in selected native artwork."
+          },
+          {
+            "card_id": "O1-A1",
+            "selected_sha256": "b5dfa246ff08f5886ef5b2c7bcbb2138cc0343a7d975ff5f73beb39fd74a2f16",
+            "native_wording_review": "No listed headline/body/category/source/CTA/Chinese glyph mismatch observed; source hierarchy and fidelity assessed separately.",
+            "message_scope": "No listed anchor/persona/proof mismatch observed in selected native artwork."
+          },
+          {
+            "card_id": "O1-A2",
+            "selected_sha256": "4bcd350406ae4f278190c49f46bf861173a3589496712735ad9ea8d6ef5b34bf",
+            "native_wording_review": "No listed headline/body/category/source/CTA/Chinese glyph mismatch observed; source hierarchy and fidelity assessed separately.",
+            "message_scope": "No listed anchor/persona/proof mismatch observed in selected native artwork."
+          },
+          {
+            "card_id": "O1-A3",
+            "selected_sha256": "e37a74c48401d8ba6063b9c3ffdc69a25403a118c15fa43aabe9c2341ab7e0ba",
+            "native_wording_review": "No listed headline/body/category/source/CTA/Chinese glyph mismatch observed; source hierarchy and fidelity assessed separately.",
+            "message_scope": "No listed anchor/persona/proof mismatch observed in selected native artwork."
+          },
+          {
+            "card_id": "O1-A4",
+            "selected_sha256": "b89d9c56c5037696388cf1083e3fb43acb8924339c3af1f8e4d2b7dfb97e2f1d",
+            "native_wording_review": "No listed headline/body/category/source/CTA/Chinese glyph mismatch observed; source hierarchy and fidelity assessed separately.",
+            "message_scope": "No listed anchor/persona/proof mismatch observed in selected native artwork."
+          },
+          {
+            "card_id": "O1-A5",
+            "selected_sha256": "15d966549c4ad377a1f1b0e31a0b7298511c55a913dd047211c23a25ecc81881",
+            "native_wording_review": "No listed headline/body/category/source/CTA/Chinese glyph mismatch observed; source hierarchy and fidelity assessed separately.",
+            "message_scope": "No listed anchor/persona/proof mismatch observed in selected native artwork."
+          },
+          {
+            "card_id": "RMK-R4-1",
+            "selected_sha256": "d57b4df472804b5044ada502634da0e3297753bf647d88855d26a6eb2a28cc1a",
+            "native_wording_review": "No listed headline/body/category/source/CTA/Chinese glyph mismatch observed; source hierarchy and fidelity assessed separately.",
+            "message_scope": "No listed anchor/persona/proof mismatch observed in selected native artwork."
+          },
+          {
+            "card_id": "RMK-R4-2",
+            "selected_sha256": "491f199dd111c50f61c9a478c538d4b8e1a79faee3bb66c6d87b55844e612bfd",
+            "native_wording_review": "No listed headline/body/category/source/CTA/Chinese glyph mismatch observed; source hierarchy and fidelity assessed separately.",
+            "message_scope": "No listed anchor/persona/proof mismatch observed in selected native artwork."
+          },
+          {
+            "card_id": "RMK-R4-3",
+            "selected_sha256": "4b71a3a7e03a4842148bd2d3b6fcfbaac4262f5a00088d96db530060488e9b13",
+            "native_wording_review": "No listed headline/body/category/source/CTA/Chinese glyph mismatch observed; source hierarchy and fidelity assessed separately.",
+            "message_scope": "No listed anchor/persona/proof mismatch observed in selected native artwork."
+          },
+          {
+            "card_id": "RMK-R4-4",
+            "selected_sha256": "4c73bd9ace014bb03b31d30e1b282726d76195954840675468371a25d47ada7c",
+            "native_wording_review": "No listed headline/body/category/source/CTA/Chinese glyph mismatch observed; source hierarchy and fidelity assessed separately.",
+            "message_scope": "No listed anchor/persona/proof mismatch observed in selected native artwork."
+          }
+        ],
+        "anchor_observations": {
+          "revision": "b2-root-script-review-v1",
+          "status": "REVIEWED_DRAFT_NOT_A_DISPATCH_RECEIPT",
+          "reviewer": "/root",
+          "independence": "ROOT_SELF_REVIEW",
+          "anchor": {
+            "path": "operations/Vy_Email_Content_Anchor.md",
+            "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+          },
+          "email": {
+            "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+            "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+          },
+          "draft_manifest_sha256": "1210b3e7fa9c42e96227253d6161f0f6b6429c15be492d6525a6accde42891d0",
+          "A1": "Bounded packaging/testing treatment; wider semiconductor/electronics supply-chain ICP preserved.",
+          "A2": "Eligibility/local ERP authority unverified; no named-account inference or blanket exclusion.",
+          "A3": "FDI Simplified Chinese Quality/QA coordinating review with Operations; language does not establish entity/local ERP authority.",
+          "A4": "Implicit business value from shared records, responsible next check and exception workflow; no required literal ROI or fabricated numbers.",
+          "A5": "N/A FDI-only; no domestic supply-chain-entry promise.",
+          "A6": "Specific lot relation, test time, people/equipment/material/method/environment, missing information and owner; SPC/ECN/MES details confined to published integrated case.",
+          "A7": "Same quality problem and sequence; same attributed China ERP+iMES linked-record case and Chinese reader. No month-close metric. B1 offline adoption does not transfer semantic PASS.",
+          "cards": [
+            {
+              "stage": "cold",
+              "card_id": "COLD-OSAT-QA-01-IMAGE",
+              "reviewed_fields": [
+                "caption",
+                "headline",
+                "body",
+                "source_text",
+                "cta",
+                "native_headline",
+                "alt",
+                "artwork_labels"
+              ],
+              "scene": "A blank lot record, packaged-chip test sample and neutral owner token frame an open review point. No calendar, completed status or result.",
+              "source_scope": "Operational question, no diagnosed cause/yield/result guarantee; Taiwan solution context separate.",
+              "observation": "测试结果异常，先核对哪一批？ | 下一步复核前，先对齐批次、测试时间与记录责任人。 |  | ",
+              "disposition": "ROOT_SELF_REVIEW_SCRIPT_MATCH / POSTGEN_NOT_RUN"
+            },
+            {
+              "stage": "explanation",
+              "card_id": "O1-A1",
+              "reviewed_fields": [
+                "caption",
+                "headline",
+                "body",
+                "source_text",
+                "cta",
+                "native_headline",
+                "alt",
+                "artwork_labels"
+              ],
+              "scene": "Create one square native PNG minimum1080px; native1254 intended. INTERNAL DIRECTIONS ARE NOT PRINTED TEXT. All background papers/records blank, no microglyphs/dates/charts/record labels/fabricated metrics. Only exact approved artwork text/labels and official mark. Bright quality-review surface with packaged-chip test sample and blank record joined by a pending connector. Unlabelled test-context pictogram frames review without fabricated result/dashboard/pass-fail state.",
+              "source_scope": "Operational question, no diagnosed cause/yield/result guarantee; Taiwan solution context separate.",
+              "observation": "测试结果异常，下一步怎么查？ | 复核测试结果时，先确认批次与测试时间。共享记录，让质量与生产运营团队有明确的核查起点。 |  | ",
+              "disposition": "ROOT_SELF_REVIEW_SCRIPT_MATCH / POSTGEN_NOT_RUN"
+            },
+            {
+              "stage": "explanation",
+              "card_id": "O1-A2",
+              "reviewed_fields": [
+                "caption",
+                "headline",
+                "body",
+                "source_text",
+                "cta",
+                "native_headline",
+                "alt",
+                "artwork_labels"
+              ],
+              "scene": "Create one square native PNG minimum1080px; native1254 intended. INTERNAL DIRECTIONS ARE NOT PRINTED TEXT. All background papers/records blank, no microglyphs/dates/charts/record labels/fabricated metrics. Only exact approved artwork text/labels and official mark. Oblique neutral lot carrier branching to blank record panels then rejoining an unlabelled shared node. Material-integrated split/merge relationships only; no identifiers/dates/numerical counts/resolution marks.",
+              "source_scope": "Operational question, no diagnosed cause/yield/result guarantee; Taiwan solution context separate.",
+              "observation": "先确认对应批次。 | 核对批次、工序与测试时间。如果批次发生拆分或合并，先梳理相关记录之间的关联。 |  | ",
+              "disposition": "ROOT_SELF_REVIEW_SCRIPT_MATCH / POSTGEN_NOT_RUN"
+            },
+            {
+              "stage": "explanation",
+              "card_id": "O1-A3",
+              "reviewed_fields": [
+                "caption",
+                "headline",
+                "body",
+                "source_text",
+                "cta",
+                "native_headline",
+                "alt",
+                "artwork_labels"
+              ],
+              "scene": "Create one square native PNG minimum1080px; native1254 intended. INTERNAL DIRECTIONS ARE NOT PRINTED TEXT. All background papers/records blank, no microglyphs/dates/charts/record labels/fabricated metrics. Only exact approved artwork text/labels and official mark. Blank central quality record surrounded by unlabelled contextual pictograms suggesting people/machine/material/method/environment, grounded in white-blue office light. No labels or fixed prop quota. Pending links signal questions, not causal proof.",
+              "source_scope": "Operational question, no diagnosed cause/yield/result guarantee; Taiwan solution context separate.",
+              "observation": "结合背景，读懂批次记录。 | 结合批次记录，核对人员、设备、物料、方法与环境信息。在判断原因前，先用这些背景确定下一步核查。 |  | ",
+              "disposition": "ROOT_SELF_REVIEW_SCRIPT_MATCH / POSTGEN_NOT_RUN"
+            },
+            {
+              "stage": "explanation",
+              "card_id": "O1-A4",
+              "reviewed_fields": [
+                "caption",
+                "headline",
+                "body",
+                "source_text",
+                "cta",
+                "native_headline",
+                "alt",
+                "artwork_labels"
+              ],
+              "scene": "Create one square native PNG minimum1080px; native1254 intended. INTERNAL DIRECTIONS ARE NOT PRINTED TEXT. All background papers/records blank, no microglyphs/dates/charts/record labels/fabricated metrics. Only exact approved artwork text/labels and official mark. An open blank document channel between responsibility pictograms with a secondary semiconductor test fixture. Integrated connectors stop before a next-step space. No approval stamps/ticks/notes or technical conclusions.",
+              "source_scope": "Operational question, no diagnosed cause/yield/result guarantee; Taiwan solution context separate.",
+              "observation": "明确下一步查什么、由谁查。 | 确认信息来源、尚缺哪些资料，以及下一步由谁核实。让质量与生产运营团队依据同一组信息推进复核。 |  | ",
+              "disposition": "ROOT_SELF_REVIEW_SCRIPT_MATCH / POSTGEN_NOT_RUN"
+            },
+            {
+              "stage": "explanation",
+              "card_id": "O1-A5",
+              "reviewed_fields": [
+                "caption",
+                "headline",
+                "body",
+                "source_text",
+                "cta",
+                "native_headline",
+                "alt",
+                "artwork_labels"
+              ],
+              "scene": "Create one square native PNG minimum1080px; native1254 intended. INTERNAL DIRECTIONS ARE NOT PRINTED TEXT. All background papers/records blank, no microglyphs/dates/charts/record labels/fabricated metrics. Only exact approved artwork text/labels and official mark. Accepted B hierarchy with full exact approved body separate from source: headline/body above REDUCED OSAT quality scene/unlabelled pending diagram; exact source once AFTER scene full-width MAIN paragraph SAME SIZE OR LARGER than body, comfortable nozoom317–333px. Photo can shrink drastically before type. CTA separate. No skyline/icon-column/footer, omission/coalescing, added labels/ticks/completed imagery.",
+              "source_scope": "Operational question, no diagnosed cause/yield/result guarantee; Taiwan solution context separate.",
+              "observation": "将记录、背景与责任人对齐。 | 将批次记录、测试背景与复核责任人放在一起，配合技术评估，协调下一步核查。 | Digiwin台湾半导体解决方案资料：ERP与MES支持管理及生产。 | 了解质量复核问题",
+              "disposition": "ROOT_SELF_REVIEW_SCRIPT_MATCH / POSTGEN_NOT_RUN"
+            },
+            {
+              "stage": "proof",
+              "card_id": "RMK-R4-1",
+              "reviewed_fields": [
+                "caption",
+                "headline",
+                "body",
+                "source_text",
+                "cta",
+                "native_headline",
+                "alt",
+                "artwork_labels"
+              ],
+              "scene": "Manufacturing document folio and neutral packaged-chip tray frame provider identity. No software UI or fabricated values.",
+              "source_scope": "Published integrated China ERP+iMES mechanism; provider identity source separate.",
+              "observation": "为制造企业提供数字化方案 | 我们为制造企业提供数字化方案，涵盖ERP与智能制造。 | Digiwin越南 · 公司介绍 | ",
+              "disposition": "ROOT_SELF_REVIEW_SCRIPT_MATCH / POSTGEN_NOT_RUN"
+            },
+            {
+              "stage": "proof",
+              "card_id": "RMK-R4-2",
+              "reviewed_fields": [
+                "caption",
+                "headline",
+                "body",
+                "source_text",
+                "cta",
+                "native_headline",
+                "alt",
+                "artwork_labels"
+              ],
+              "scene": "Blank linked record panels and packaged-chip tray establish China packaging/testing context. No customer facility or customer logo.",
+              "source_scope": "Published integrated China ERP+iMES mechanism; provider identity source separate.",
+              "observation": "中国封装测试企业的实施案例 | 江苏中科智芯集成科技有限公司实施了Digiwin ERP + iMES一体化方案，应对记录管理、业务流程与生产效率问题。 | Digiwin越南 · 封装测试案例 | ",
+              "disposition": "ROOT_SELF_REVIEW_SCRIPT_MATCH / POSTGEN_NOT_RUN"
+            },
+            {
+              "stage": "proof",
+              "card_id": "RMK-R4-3",
+              "reviewed_fields": [
+                "caption",
+                "headline",
+                "body",
+                "source_text",
+                "cta",
+                "native_headline",
+                "alt",
+                "artwork_labels"
+              ],
+              "scene": "A blank lot record connects to neutral workstation, operator and material pictograms; an open record tray suggests exception handoff. No closed-loop resolution or cause conclusion.",
+              "source_scope": "Published integrated China ERP+iMES mechanism; provider identity source separate.",
+              "observation": "关联记录，支持下一步复核。 | 在该中国案例中，MES关联批次、工位、操作员及产品／物料，支持追溯。系统同时记录异常，并逐级上报。 | 案例：江苏中科智芯集成科技有限公司 · 中国 | ",
+              "disposition": "ROOT_SELF_REVIEW_SCRIPT_MATCH / POSTGEN_NOT_RUN"
+            },
+            {
+              "stage": "proof",
+              "card_id": "RMK-R4-4",
+              "reviewed_fields": [
+                "caption",
+                "headline",
+                "body",
+                "source_text",
+                "cta",
+                "native_headline",
+                "alt",
+                "artwork_labels"
+              ],
+              "scene": "Reduced blank folio and neutral linked-record scene, full-width source after scene at least body-sized, separate CTA. No chart, extra labels or completion badge.",
+              "source_scope": "Published integrated China ERP+iMES mechanism; provider identity source separate.",
+              "observation": "了解具体实施内容。 | 了解江苏中科智芯集成科技有限公司如何关联生产记录、下发工艺参数变更并记录异常。 | Digiwin · 封装测试案例 · 中国\n江苏中科智芯集成科技有限公司 | 阅读记录关联与异常处理流程",
+              "disposition": "ROOT_SELF_REVIEW_SCRIPT_MATCH / POSTGEN_NOT_RUN"
+            }
+          ],
+          "reader": {
+            "observation": "Chinese reader inspected: same entity/China/integrated ERP+iMES, three problems, SPC/ECN, tracing and exception escalation, two public Chinese sources. No metric or guaranteed technical outcome."
+          },
+          "transitions": [
+            {
+              "cards": [
+                "O1-A1",
+                "O1-A2"
+              ],
+              "observation": "An unexpected test result. What comes next? -> Start with the right lot.",
+              "verdict": "DRAFT_CONTEXT_MATCH"
+            },
+            {
+              "cards": [
+                "O1-A2",
+                "O1-A3"
+              ],
+              "observation": "Start with the right lot. -> Read the record in context.",
+              "verdict": "DRAFT_CONTEXT_MATCH"
+            },
+            {
+              "cards": [
+                "O1-A3",
+                "O1-A4"
+              ],
+              "observation": "Read the record in context. -> Make the next check and owner clear.",
+              "verdict": "DRAFT_CONTEXT_MATCH"
+            },
+            {
+              "cards": [
+                "O1-A4",
+                "O1-A5"
+              ],
+              "observation": "Make the next check and owner clear. -> Bring records, context and owners together.",
+              "verdict": "DRAFT_CONTEXT_MATCH"
+            },
+            {
+              "cards": [
+                "RMK-R4-1",
+                "RMK-R4-2"
+              ],
+              "observation": "Digital solutions for manufacturing -> A packaging and testing case in China",
+              "verdict": "DRAFT_CONTEXT_MATCH"
+            },
+            {
+              "cards": [
+                "RMK-R4-2",
+                "RMK-R4-3"
+              ],
+              "observation": "A packaging and testing case in China -> Link the records for the next review.",
+              "verdict": "DRAFT_CONTEXT_MATCH"
+            },
+            {
+              "cards": [
+                "RMK-R4-3",
+                "RMK-R4-4"
+              ],
+              "observation": "Link the records for the next review. -> Explore the implementation detail.",
+              "verdict": "DRAFT_CONTEXT_MATCH"
+            },
+            {
+              "stages": [
+                "cold",
+                "explanation"
+              ],
+              "observation": "QA test-result trigger -> lot/test time -> context and owner. No Finance persona switch.",
+              "verdict": "DRAFT_CONTEXT_MATCH"
+            },
+            {
+              "stages": [
+                "explanation",
+                "proof"
+              ],
+              "observation": "Management-record review -> named integrated ERP+iMES record/exception implementation. No abnormal-test performance result inferred.",
+              "verdict": "DRAFT_CONTEXT_MATCH"
+            },
+            {
+              "stages": [
+                "proof",
+                "reader"
+              ],
+              "observation": "Read linked-record/exception workflow -> English details and exact Chinese-source locators.",
+              "verdict": "DRAFT_CONTEXT_MATCH"
+            }
+          ],
+          "findings_closed": [
+            "English locale directives removed in new source input",
+            "Source full-width body-sized role specified before inference",
+            "Chinese typography/punctuation and all surfaces authored separately"
+          ],
+          "open_dependencies": [
+            "Postgen native/render evidence",
+            "PO next-batch review"
+          ],
+          "postgen": "POSTGEN_NOT_RUN",
+          "imagegen_calls": 0
+        },
+        "journey_observation": "Cold QA test-record question -> O1 batch/context/next owner -> attributed China ERP+iMES linked-record/exception implementation -> Chinese reader. Implicit ROI through coordination; no fabricated gain/yield/root-cause promise, no 15-to-5 closing metric; Taiwan solution context separate from China case. Eligibility/local ERP authority unknown.",
+        "render_evidence": {
+          "method": "Actual cua_repl Chrome screenshots, tool results in session; no independently saved screenshot files claimed.",
+          "desktop_css_viewport": [
+            1707,
+            817
+          ],
+          "feed_artwork_width": 333,
+          "desktop_feed_cards": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "mobile_requested_viewport": [
+            351,
+            760
+          ],
+          "mobile_actual_css_viewport": [
+            390,
+            844
+          ],
+          "mobile_artwork_width": 333,
+          "mobile_cards": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "reader": "Desktop/mobile top and overlapping lower screenshot to sources; Chinese content no visible clipping. External sources inspected as hrefs only, not navigated.",
+          "full_viewer": "Mobile cold and proof closing selection/caption/native headline observed; not complete 10-card caption-context render certification.",
+          "limitations": "No desktop640 whole-set review, independent buyer/native-market acceptance or global browser stability PASS. Canary one timeout/recovery retained in canary-review.json.",
+          "additional_desktop640": "Selected proof3 only: actual DOM width640 and full native source screenshot observed after size button. Not whole set."
+        },
+        "neutral_prop_observations": "Paper bands/lines remain as neutral record formatting; no case numerical data/chart/trend observed. Strict all-blank prop fidelity not certified.",
+        "frozen": {
+          "pins_verified": 24,
+          "harness_anchor_process": "FROZEN_PER_PO",
+          "adapter": "DEVELOPING / NOT_FROZEN",
+          "mutated": false
+        },
+        "cause": "Observed image rendering/source hierarchy deviations despite reviewed script. No evidence establishes a general harness or adapter semantic defect. Propose stronger per-card source layout input for future batches; no frozen mutation.",
+        "git": {
+          "b1_source_checkpoint": "88f87ae",
+          "b1_main_integration": "26f89d0",
+          "b2": "LOCAL_WORKING_FILES_UNCOMMITTED",
+          "push": false
+        },
+        "stop": "B3 not started; PO review required under sequential plan. No third corrective.",
+        "authority": "OFFLINE_REVIEW_ONLY_NO_READY_OR_LIVE_ACCEPTANCE",
+        "preview_closeout": {
+          "path": "operations/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/preview-closeout.json",
+          "sha256": "3b38ea2613c668631376e28b05915c047099c974967b0b7f37bbe4fc46dcadce"
+        }
+      },
+      "selected_count": 10,
+      "original_calls": 10,
+      "corrective_calls": 2,
+      "main_selection": "Only10 selected final PNGs. Selected corrected PNG is the PO-approved final; original/rejected/alternate PNGs and correction directories excluded. Sources in manifest/postgen snapshot refer to source-checkpoint provenance, not executable files on main."
+    },
+    {
+      "batch": "B3-zh-Hant-o1-v1",
+      "source_checkpoint": "ff0cb4d5222fd34080ed22ef207859abb14389b0",
+      "selected_manifest_sha256": "07de4794cc0f7d28786ac4513ddc0b082c45ccc79a876acf4f20efe06e61ca80",
+      "approval": {
+        "revision": "b3-po-offline-acceptance-20261007",
+        "instruction": "OKie ổn rồi, làm tiếp batch kế tiếp, duyệt B3 nhé, mấy cái duyệt r merge artifact vào main đi codex, kiểm tránh merge mấy bản faild / corrective làm rối main nhé.",
+        "status": "USER_ACCEPTED_CURRENT_OFFLINE_CANDIDATE",
+        "manifest": {
+          "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/manifest.json",
+          "sha256": "07de4794cc0f7d28786ac4513ddc0b082c45ccc79a876acf4f20efe06e61ca80"
+        },
+        "postgen_sha256": "568bb751324e276498e828087d82555c3dbd2c2b7b8dd25745654b569fc1feb6",
+        "scope": "Current10 selected images + reader accepted offline with previously disclosed findings; explicit selected artifact main merge and next batch. Technical findings unchanged.",
+        "no_live_push_authority": true
+      },
+      "postgen_snapshot": {
+        "revision": "b3-postgen-root-review-v1",
+        "generation_status": "COMPLETE_WITHIN_CAP",
+        "execution_status": "PARTIAL_RENDER_COVERAGE",
+        "artifact_status": "CHANGES_REQUIRED",
+        "final_anchor_status": "INSUFFICIENT_EVIDENCE",
+        "business_message_observation": "No material FDI anchor mismatch observed in selected native wording and desktop context; incomplete render evidence is not semantic approval.",
+        "reviewer": "/root",
+        "independence": "ROOT_SELF_REVIEW",
+        "native_market_review": "NOT_PERFORMED",
+        "runtime_model_effort": "NOT_OBSERVED",
+        "persona": "Quality/QA Manager coordinating test-record review with Operations at an eligible FDI packaging/testing entity",
+        "route": "offline cold -> O1 quality review -> China linked-record implementation -> Traditional Chinese reader with Chinese sources",
+        "anchor": {
+          "path": "operations/Vy_Email_Content_Anchor.md",
+          "revision": "1.0",
+          "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+        },
+        "email": {
+          "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+          "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+        },
+        "original": 10,
+        "corrective": 2,
+        "total_imagegen": 12,
+        "selected": 10,
+        "selected_manifest_sha256": "07de4794cc0f7d28786ac4513ddc0b082c45ccc79a876acf4f20efe06e61ca80",
+        "attempt_ledger_sha256": "8376b0c23f2c7a69526c504ede10fdb7b55b6f5a617a788d85afb64a565aa8ba",
+        "findings": [
+          {
+            "card_id": "RMK-R4-1",
+            "status": "OPEN_CHANGES_REQUIRED",
+            "finding": "Company/provider attribution remains below body size in narrow bottom area at native and actual desktop feed333.",
+            "next_fix": "New authorized correction: reserve full-width white source area, source visibly at least body-sized; reduce scene. No further generation under cap10+2."
+          },
+          {
+            "card_id": "RMK-R4-2",
+            "status": "CLOSED_SCOPED_NATIVE_DESKTOP",
+            "finding": "Original source below body size.",
+            "closure": "Selected one corrective has bold source visibly larger than body; exact provider/case and protected legal name, integrated ERP+iMES wording retained. Native and desktop333 with caption/native headline actually inspected; mobile closure not certified."
+          },
+          {
+            "card_id": "RMK-R4-3",
+            "status": "CLOSED_SCOPED_NATIVE_DESKTOP_CANARY_MOBILE",
+            "finding": "Original legal attribution below body size.",
+            "closure": "Selected one corrective has larger exact named China source; native, final desktop333 with context and earlier canary mobile390x844 artwork333 inspected. One-line rather than requested two-line source retained as fidelity observation."
+          },
+          {
+            "card_id": "O1-A1",
+            "status": "VISUAL_FIDELITY_OBSERVATION",
+            "finding": "Record and chip/test-context icons are both present, unlike B2. Connector uses continuous curve and central dot rather than an open pending gap; no completion checkmark/claim.",
+            "disposition": "No missing-context finding transferred from B2; precise pending-line fidelity remains for PO disposition."
+          },
+          {
+            "card_id": "SCENE_PROPS",
+            "status": "VISUAL_FIDELITY_OBSERVATION",
+            "finding": "Neutral paper bands/lines/grids and unlabelled batch barcode pictogram present despite completely-blank instruction. No invented numeric result/claim observed.",
+            "disposition": "Strict all-blank fidelity not certified; do not promote generic harness/adapter status."
+          },
+          {
+            "card_id": "RENDER_COVERAGE",
+            "status": "INSUFFICIENT_EVIDENCE",
+            "finding": "Final mobile screenshots repeatedly timed out5000ms on cold/A1 and proof/reader retries. New tab and supported full-page/default APIs tried; desktop default recovered on new tab. Viewport reset called; no claimed mobile fulljourney PASS.",
+            "disposition": "Final all10 mobile/caption-context and full viewer640 render gates remain incomplete. Canary A3/proof3 earlier mobile is scoped evidence only."
+          }
+        ],
+        "units": [
+          {
+            "card_id": "COLD-OSAT-QA-01-IMAGE",
+            "stage": "cold",
+            "selected_native_sha256": "dc7eacadab8d167afe99190c42ad409dc24817af21bc25b7c49bb4d608225685",
+            "text_review": "Actual native artwork reviewed against exact approved Traditional headline/body/source/CTA/category/sequence; no added ROI metric, yield guarantee or ERP-only case claim observed. Original legal-name Simplified glyphs deliberately preserved.",
+            "context_review": "Actual desktop333 artwork with stage caption/native headline reviewed; alt reviewed in selected copy. Full mobile not certified.",
+            "anchor_observation": "FDI QA coordinating test-record review with Operations; practical value through aligned lot/test-time/context/ownership and common information. China implementation example remains bounded ERP+iMES; Taiwan solution context separately attributed.",
+            "scene_limit": "Neutral generated illustrative props; precise all-blank/pending connector fidelity not certified.",
+            "findings": [
+              "SCENE_PROPS",
+              "RENDER_COVERAGE"
+            ]
+          },
+          {
+            "card_id": "O1-A1",
+            "stage": "explanation",
+            "selected_native_sha256": "c4a38a6421cd8bc3535acf973226418c13ad28ceadeff35b1be3640e0266221a",
+            "text_review": "Actual native artwork reviewed against exact approved Traditional headline/body/source/CTA/category/sequence; no added ROI metric, yield guarantee or ERP-only case claim observed. Original legal-name Simplified glyphs deliberately preserved.",
+            "context_review": "Actual desktop333 artwork with stage caption/native headline reviewed; alt reviewed in selected copy. Full mobile not certified.",
+            "anchor_observation": "FDI QA coordinating test-record review with Operations; practical value through aligned lot/test-time/context/ownership and common information. China implementation example remains bounded ERP+iMES; Taiwan solution context separately attributed.",
+            "scene_limit": "Neutral generated illustrative props; precise all-blank/pending connector fidelity not certified.",
+            "findings": [
+              "O1-A1",
+              "SCENE_PROPS",
+              "RENDER_COVERAGE"
+            ]
+          },
+          {
+            "card_id": "O1-A2",
+            "stage": "explanation",
+            "selected_native_sha256": "1b252bff20d52f4e03acb45a8d7c8cdfa8d1091a6fbd6bf8ccc80cdc6306f87c",
+            "text_review": "Actual native artwork reviewed against exact approved Traditional headline/body/source/CTA/category/sequence; no added ROI metric, yield guarantee or ERP-only case claim observed. Original legal-name Simplified glyphs deliberately preserved.",
+            "context_review": "Actual desktop333 artwork with stage caption/native headline reviewed; alt reviewed in selected copy. Full mobile not certified.",
+            "anchor_observation": "FDI QA coordinating test-record review with Operations; practical value through aligned lot/test-time/context/ownership and common information. China implementation example remains bounded ERP+iMES; Taiwan solution context separately attributed.",
+            "scene_limit": "Neutral generated illustrative props; precise all-blank/pending connector fidelity not certified.",
+            "findings": [
+              "SCENE_PROPS",
+              "RENDER_COVERAGE"
+            ]
+          },
+          {
+            "card_id": "O1-A3",
+            "stage": "explanation",
+            "selected_native_sha256": "5189d4f1380a42f99e9f1a6df5d0e2d21cbe72a1f2bad8ef62bd08f5b83cae4b",
+            "text_review": "Actual native artwork reviewed against exact approved Traditional headline/body/source/CTA/category/sequence; no added ROI metric, yield guarantee or ERP-only case claim observed. Original legal-name Simplified glyphs deliberately preserved.",
+            "context_review": "Actual desktop333 artwork with stage caption/native headline reviewed; alt reviewed in selected copy. Full mobile not certified.",
+            "anchor_observation": "FDI QA coordinating test-record review with Operations; practical value through aligned lot/test-time/context/ownership and common information. China implementation example remains bounded ERP+iMES; Taiwan solution context separately attributed.",
+            "scene_limit": "Neutral generated illustrative props; precise all-blank/pending connector fidelity not certified.",
+            "findings": [
+              "SCENE_PROPS",
+              "RENDER_COVERAGE"
+            ]
+          },
+          {
+            "card_id": "O1-A4",
+            "stage": "explanation",
+            "selected_native_sha256": "0c1e7a3a6e0ad092778234b94dafe66506edc70d6c1493ef1d8213f52ba8366f",
+            "text_review": "Actual native artwork reviewed against exact approved Traditional headline/body/source/CTA/category/sequence; no added ROI metric, yield guarantee or ERP-only case claim observed. Original legal-name Simplified glyphs deliberately preserved.",
+            "context_review": "Actual desktop333 artwork with stage caption/native headline reviewed; alt reviewed in selected copy. Full mobile not certified.",
+            "anchor_observation": "FDI QA coordinating test-record review with Operations; practical value through aligned lot/test-time/context/ownership and common information. China implementation example remains bounded ERP+iMES; Taiwan solution context separately attributed.",
+            "scene_limit": "Neutral generated illustrative props; precise all-blank/pending connector fidelity not certified.",
+            "findings": [
+              "SCENE_PROPS",
+              "RENDER_COVERAGE"
+            ]
+          },
+          {
+            "card_id": "O1-A5",
+            "stage": "explanation",
+            "selected_native_sha256": "ce2cbbc36b21517a19cffb4ebcb18f7e672ae1d8ad59c5da18889d63ff4b37d0",
+            "text_review": "Actual native artwork reviewed against exact approved Traditional headline/body/source/CTA/category/sequence; no added ROI metric, yield guarantee or ERP-only case claim observed. Original legal-name Simplified glyphs deliberately preserved.",
+            "context_review": "Actual desktop333 artwork with stage caption/native headline reviewed; alt reviewed in selected copy. Full mobile not certified.",
+            "anchor_observation": "FDI QA coordinating test-record review with Operations; practical value through aligned lot/test-time/context/ownership and common information. China implementation example remains bounded ERP+iMES; Taiwan solution context separately attributed.",
+            "scene_limit": "Neutral generated illustrative props; precise all-blank/pending connector fidelity not certified.",
+            "findings": [
+              "SCENE_PROPS",
+              "RENDER_COVERAGE"
+            ]
+          },
+          {
+            "card_id": "RMK-R4-1",
+            "stage": "proof",
+            "selected_native_sha256": "fe1c1009172ab7712a66b0f42968fc6891cb8894299292ea769d59fed4e49576",
+            "text_review": "Actual native artwork reviewed against exact approved Traditional headline/body/source/CTA/category/sequence; no added ROI metric, yield guarantee or ERP-only case claim observed. Original legal-name Simplified glyphs deliberately preserved.",
+            "context_review": "Actual desktop333 artwork with stage caption/native headline reviewed; alt reviewed in selected copy. Full mobile not certified.",
+            "anchor_observation": "FDI QA coordinating test-record review with Operations; practical value through aligned lot/test-time/context/ownership and common information. China implementation example remains bounded ERP+iMES; Taiwan solution context separately attributed.",
+            "scene_limit": "Neutral generated illustrative props; precise all-blank/pending connector fidelity not certified.",
+            "findings": [
+              "RMK-R4-1",
+              "SCENE_PROPS",
+              "RENDER_COVERAGE"
+            ]
+          },
+          {
+            "card_id": "RMK-R4-2",
+            "stage": "proof",
+            "selected_native_sha256": "359d48294e3387cac0a6574efbc41e4a5f0423d7d94e2424e18da4baf604c952",
+            "text_review": "Actual native artwork reviewed against exact approved Traditional headline/body/source/CTA/category/sequence; no added ROI metric, yield guarantee or ERP-only case claim observed. Original legal-name Simplified glyphs deliberately preserved.",
+            "context_review": "Actual desktop333 artwork with stage caption/native headline reviewed; alt reviewed in selected copy. Full mobile not certified.",
+            "anchor_observation": "FDI QA coordinating test-record review with Operations; practical value through aligned lot/test-time/context/ownership and common information. China implementation example remains bounded ERP+iMES; Taiwan solution context separately attributed.",
+            "scene_limit": "Neutral generated illustrative props; precise all-blank/pending connector fidelity not certified.",
+            "findings": [
+              "RMK-R4-2",
+              "SCENE_PROPS",
+              "RENDER_COVERAGE"
+            ]
+          },
+          {
+            "card_id": "RMK-R4-3",
+            "stage": "proof",
+            "selected_native_sha256": "93704ced28fbd45863227e16ac2e275eba837681c8cbca9a870a59766e4ad39f",
+            "text_review": "Actual native artwork reviewed against exact approved Traditional headline/body/source/CTA/category/sequence; no added ROI metric, yield guarantee or ERP-only case claim observed. Original legal-name Simplified glyphs deliberately preserved.",
+            "context_review": "Actual desktop333 artwork with stage caption/native headline reviewed; alt reviewed in selected copy. Full mobile not certified.",
+            "anchor_observation": "FDI QA coordinating test-record review with Operations; practical value through aligned lot/test-time/context/ownership and common information. China implementation example remains bounded ERP+iMES; Taiwan solution context separately attributed.",
+            "scene_limit": "Neutral generated illustrative props; precise all-blank/pending connector fidelity not certified.",
+            "findings": [
+              "RMK-R4-3",
+              "SCENE_PROPS",
+              "RENDER_COVERAGE"
+            ]
+          },
+          {
+            "card_id": "RMK-R4-4",
+            "stage": "proof",
+            "selected_native_sha256": "ae15d4f754cb13b19a0a928fbca9a1341d9e2cfc96073504be1b50def092a3c2",
+            "text_review": "Actual native artwork reviewed against exact approved Traditional headline/body/source/CTA/category/sequence; no added ROI metric, yield guarantee or ERP-only case claim observed. Original legal-name Simplified glyphs deliberately preserved.",
+            "context_review": "Actual desktop333 artwork with stage caption/native headline reviewed; alt reviewed in selected copy. Full mobile not certified.",
+            "anchor_observation": "FDI QA coordinating test-record review with Operations; practical value through aligned lot/test-time/context/ownership and common information. China implementation example remains bounded ERP+iMES; Taiwan solution context separately attributed.",
+            "scene_limit": "Neutral generated illustrative props; precise all-blank/pending connector fidelity not certified.",
+            "findings": [
+              "SCENE_PROPS",
+              "RENDER_COVERAGE"
+            ]
+          }
+        ],
+        "render_evidence": {
+          "desktop_feed": "All10 selected artwork333 with caption/native headline at actual1707x817 desktop screenshots inspected.",
+          "native": "All10 originals plus2 corrections1254x1254; selected native images inspected.",
+          "mobile": "Earlier canary A3 and selected proof3 artwork333 at390x844 inspected; final caption-context mobile attempts unsuccessful.",
+          "reader_desktop": "New default tab actual1707x817, top and overlapping lower screenshots inspected, no horizontal overflow. China/legal entity/ERP+iMES/SPC/ECN/records/exceptions, source Simplified-language disclosure and exact source UI locator quotes visible.",
+          "reader_mobile": "DOM text observed, screenshot failed; layout/readability not certified.",
+          "full_viewer": "DOM cold/navigation/reader return verified, screenshot failed; full640 viewport and all-card main-viewer rendering not certified."
+        },
+        "mechanical": "12 fresh preflight receipts; selected raw byte hashes/dimensions verified, 24frozen pins unchanged. Mechanical PASS is not rendered/anchor PASS.",
+        "learning": {
+          "classification": "POSTGEN_RENDER_COMPLIANCE",
+          "supported": "Specific large main-text source correction improved proof2/3 over original generic source guide. Exact Traditional terminology/script independently reviewed before release. Viewer-only 内容 typo corrected to 內容 without editing bound artifact copy.",
+          "unproven": "Cannot assign generic harness/locale-adapter causality from these rendered source deviations. Browser timeout remains tooling/evidence gap. No lifecycle mutation or adapter freeze."
+        },
+        "authority": "B2 approved current offline candidate; B3 review draft only. Stop before W2. No commit/merge/push/live publication.",
+        "docs_impact": "Six canonical current-state notes synchronized; frozen and history evidence preserved."
+      },
+      "selected_count": 10,
+      "original_calls": 10,
+      "corrective_calls": 2,
+      "main_selection": "Only10 selected final PNGs. Selected corrected PNG is the PO-approved final; original/rejected/alternate PNGs and correction directories excluded. Sources in manifest/postgen snapshot refer to source-checkpoint provenance, not executable files on main."
+    }
+  ],
+  "selected_files": [
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/assets/01-cold-osat-qa-01-image.png",
+      "sha256": "9b94c3914309e7e3f4adf5af8474fec4fe77ebd842c76e2c5ff5a0f74a7b4caf"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/assets/02-o1-a1.png",
+      "sha256": "b5dfa246ff08f5886ef5b2c7bcbb2138cc0343a7d975ff5f73beb39fd74a2f16"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/assets/03-o1-a2.png",
+      "sha256": "4bcd350406ae4f278190c49f46bf861173a3589496712735ad9ea8d6ef5b34bf"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/assets/04-o1-a3.png",
+      "sha256": "e37a74c48401d8ba6063b9c3ffdc69a25403a118c15fa43aabe9c2341ab7e0ba"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/assets/05-o1-a4.png",
+      "sha256": "b89d9c56c5037696388cf1083e3fb43acb8924339c3af1f8e4d2b7dfb97e2f1d"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/assets/06-o1-a5.png",
+      "sha256": "15d966549c4ad377a1f1b0e31a0b7298511c55a913dd047211c23a25ecc81881"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/assets/07-rmk-r4-1.png",
+      "sha256": "d57b4df472804b5044ada502634da0e3297753bf647d88855d26a6eb2a28cc1a"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/assets/08-rmk-r4-2.png",
+      "sha256": "491f199dd111c50f61c9a478c538d4b8e1a79faee3bb66c6d87b55844e612bfd"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/assets/09-rmk-r4-3.png",
+      "sha256": "4b71a3a7e03a4842148bd2d3b6fcfbaac4262f5a00088d96db530060488e9b13"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/assets/10-rmk-r4-4.png",
+      "sha256": "4c73bd9ace014bb03b31d30e1b282726d76195954840675468371a25d47ada7c"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/index.html",
+      "sha256": "880088cccab01b834dcacc1c116f16888416d21a6100887aeb1ef9143317e136"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/case-reader.html",
+      "sha256": "59ba05625baa77c4f1df1993e250006519b63160704cb43227798c9ead04c427"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/selected-copy.json",
+      "sha256": "321dd277b82e496115b1d1c586b7b8cc18313d13cc9dfc2af7b7519f8a77a88c"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/selected-prompts.json",
+      "sha256": "73a115e777a648aadee2815ad246cc43adb83f369b75621d002d30665ec0add6"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/manifest.json",
+      "sha256": "6a18e5acf362a930801511a61b8bfd05e627b8c293414563214ff4265a1dd8e8"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/README.md",
+      "sha256": "43020efa75c1d58647b59217de5684ce59302f46da9a3ef49981f5767367ef1c"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/assets/01-cold-osat-qa-01-image.png",
+      "sha256": "dc7eacadab8d167afe99190c42ad409dc24817af21bc25b7c49bb4d608225685"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/assets/02-o1-a1.png",
+      "sha256": "c4a38a6421cd8bc3535acf973226418c13ad28ceadeff35b1be3640e0266221a"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/assets/03-o1-a2.png",
+      "sha256": "1b252bff20d52f4e03acb45a8d7c8cdfa8d1091a6fbd6bf8ccc80cdc6306f87c"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/assets/04-o1-a3.png",
+      "sha256": "5189d4f1380a42f99e9f1a6df5d0e2d21cbe72a1f2bad8ef62bd08f5b83cae4b"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/assets/05-o1-a4.png",
+      "sha256": "0c1e7a3a6e0ad092778234b94dafe66506edc70d6c1493ef1d8213f52ba8366f"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/assets/06-o1-a5.png",
+      "sha256": "ce2cbbc36b21517a19cffb4ebcb18f7e672ae1d8ad59c5da18889d63ff4b37d0"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/assets/07-rmk-r4-1.png",
+      "sha256": "fe1c1009172ab7712a66b0f42968fc6891cb8894299292ea769d59fed4e49576"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/assets/08-rmk-r4-2.png",
+      "sha256": "359d48294e3387cac0a6574efbc41e4a5f0423d7d94e2424e18da4baf604c952"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/assets/09-rmk-r4-3.png",
+      "sha256": "93704ced28fbd45863227e16ac2e275eba837681c8cbca9a870a59766e4ad39f"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/assets/10-rmk-r4-4.png",
+      "sha256": "ae15d4f754cb13b19a0a928fbca9a1341d9e2cfc96073504be1b50def092a3c2"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/index.html",
+      "sha256": "cd8595646a660f963684133901a2eccd039584474bc84b3aa0c17afb989e0c57"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/case-reader.html",
+      "sha256": "eb66615e3c38018c88c688bdcff59e9029fb73ad06bce32b7f12cd2ad48cdcd1"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/selected-copy.json",
+      "sha256": "a79ecae3ed95f9138c1249c51622d7a1229edf09a1cf9cc5ea8eda43fe74ebb0"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/selected-prompts.json",
+      "sha256": "e012fb9260645d72f20e72b56b5600f896f4307c2675c39b4118d82112376b36"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/manifest.json",
+      "sha256": "07de4794cc0f7d28786ac4513ddc0b082c45ccc79a876acf4f20efe06e61ca80"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/README.md",
+      "sha256": "597c23dce19ee68cdb8c0f5716a4245d4d2a3ba048a6f84746e7c74386a5f266"
+    }
+  ],
+  "total_selected_pngs": 20,
+  "independence": "ROOT_SELF_REVIEW",
+  "excluded": [
+    "failed/original/alternate generation files",
+    "canary files",
+    "corrective directories",
+    "generation contracts/helpers/source inputs",
+    "unrelated research/contingency/VN edits",
+    "ZIP"
+  ],
+  "push": false
+}
