@@ -1,0 +1,48 @@
+{
+  "revision": "b5-actual-root-observations-v1",
+  "artifact_status": "REVIEW_DRAFT_RENDER_GATE_PENDING",
+  "reviewer": "/root",
+  "independence": "ROOT_SELF_REVIEW",
+  "native_market_certification": "NOT_PERFORMED",
+  "findings": [
+    {
+      "card_id": "RMK-R4-2",
+      "original_status": "CHANGES_REQUIRED",
+      "finding": "Original added a China skyline, pagodas, mountains and a bridge outside the reviewed storyboard; the source footer was split by that decorative scene.",
+      "selected_status": "CLOSED_SCOPED_NATIVE_DESKTOP333_MOBILE390",
+      "acceptance": "One corrective removes the cultural skyline and footer divider. Full-width source remains exact and at least body-size; protected Chinese entity, ERP + iMES, headline/body/category/sequence remain exact. Neutral records and packaged-chip trays retain the case context.",
+      "closure": "Selected corrective observed at native1254, actual desktop image333 and actual mobile390 viewport/image333. No whole-mobile or whole-journey PASS inferred. Failed original stays in its attempt folder and is not selected."
+    }
+  ],
+  "render_coverage": {
+    "native1254": "All10 selected PNGs observed: eight new originals/corrective selection via ImageGen image output; two approved B2 reuse PNGs via view_image. Exact copy and meaningful scene elements reviewed against the scripts. Proof1 full-width source, proof2 corrective source, proof3-4 protected legal-name glyphs inspected.",
+    "desktop_image333": "All10 selected cards visually observed in render-review.html with caption and native headline. A4 and proof1 final captures completed after their native receipts. Sources on proof1-4 and A5 are legible in the observed scope.",
+    "mobile390_image333": {
+      "observed": ["O2-A5", "RMK-R4-2 selected corrective", "RMK-R4-4 reuse"],
+      "timeout_not_visual_evidence": ["RMK-R4-3", "COLD-OSAT-OPS-02-IMAGE"],
+      "remaining": "Cold, O2-A1–A4, proof1, proof3 and full reader/mobile journey coverage incomplete. Browser screenshot timeout is not an image defect and did not trigger regeneration. Temporary viewport reset."
+    },
+    "reader_desktop": "Actual screenshots cover overlapping top/lower reader, legal entity, problems, integrated ERP+iMES, SPC/ECN/MES linked records, exception escalation and Chinese source links. Return link actually navigated to index.html. Source destinations inspected in AX; external pages were not visited in this batch.",
+    "main_viewer": "Reader return opens correct B5 viewer. Feed333 selection and Card10 observed visually with caption, native headline, case CTA and reader link. Whole10-card640/mobile viewer coverage incomplete.",
+    "whole_journey_verdict": "INSUFFICIENT_EVIDENCE"
+  },
+  "journey_review": {
+    "method": "Root native-copy/scene and source review, plus scoped actual desktop/mobile rendering; not independent buyer or native-market certification.",
+    "transitions": [
+      "Cold -> A1: same lot, differing status reports, Operations coordinating record context with Quality.",
+      "A1 -> A2: compare the same process stage and record time; differing records can both be correct.",
+      "A2 -> A3: identify the source record used for this handoff and receiving-team information.",
+      "A3 -> A4: identify missing information, who checks its source and who confirms next steps before updating status.",
+      "A4 -> A5: assemble lot, stage, time, source and confirmation responsibility as the common handoff basis.",
+      "A5 -> proof1: attributed Taiwan ERP/MES solution material leads to Digiwin manufacturing digitalization introduction; solution context stays distinct from the China implementation.",
+      "Proof1 -> proof2: named China packaging/testing case with integrated Digiwin ERP + iMES; no Taiwan-case attribution or ERP-only inference.",
+      "Proof2 -> proof3: MES links batch/workstation/operator/product/material records and supports exception recording/escalation; not automatic resolution of conflicting lot status.",
+      "Proof3 -> proof4 -> reader: inspect documented linked records, process-parameter changes and exceptions in a Simplified Chinese summary, with Chinese sources and actual return to the handoff journey."
+    ],
+    "business_message": "FDI operational value is implicit in clearer comparison and handoff responsibility. No mandatory literal ROI term, numerical ROI, financial close claim, yield guarantee or Vietnamese supplier-readiness message added.",
+    "historical_hold": "The historical O2 month-close case-pair hold is separate and remains open; this new qualitative linked-record bridge does not claim to close it.",
+    "open_content_image_finding_in_observed_scope": "NONE",
+    "po_review": "PENDING_B5_REVIEW",
+    "stop": "Stop before B6 for Bảo review."
+  }
+}

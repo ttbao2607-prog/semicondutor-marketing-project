@@ -1,0 +1,5 @@
+> **B4–B5 PO offline adoption / local main · 2026-10-07:** Bảo duyệt và yêu cầu checkpoint + merge hai bộ cuối.20PNG chọn: B4 English O2 và B5 zh-Hans O2, Operations phối hợp Quality; viewer/reader/copy/prompts và evidence riêng. Không nhập ảnh fail/canary/alternate, corrective folders, generation helpers hoặc ZIP. B4-A4 và B5-proof2 sửa đã CLOSED trong scope đã quan sát; mobile/main-viewer640 vẫn INSUFFICIENT_EVIDENCE. PO offline adoption không nâng technical/live PASS; O2 month-close hold giữ riêng. Harness/anchor/process freeze giữ nguyên; adapter DEVELOPING/NOT_FROZEN. Chỉ main local, chưa push. [Selection/evidence](operations/linkedin-safe-batches/2026-10-07/B4-B5-main-integration/approved-selected-evidence.json).
+
+# Safe batch execution plan
+
+Full source plan and attempt history retained under source checkpoint 2252250a84707ffc4461d85b87531ff19f50add0. B4–B5 selected offline adoption only; subsequent batches require their own mandate and review.

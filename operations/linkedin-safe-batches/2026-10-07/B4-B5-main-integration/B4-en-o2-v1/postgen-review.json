@@ -1,0 +1,127 @@
+{
+  "revision": "b4-postgen-root-review-v1",
+  "generation_status": "COMPLETE_WITHIN_CAP",
+  "artifact_status": "REVIEW_DRAFT_RENDER_GATE_PENDING",
+  "final_anchor_status": "INSUFFICIENT_EVIDENCE",
+  "reviewer": "/root",
+  "independence": "ROOT_SELF_REVIEW",
+  "native_market_review": "NOT_PERFORMED",
+  "runtime_model_effort": "NOT_OBSERVED",
+  "persona": "Operations Manager coordinating lot-record handoffs with Quality at an eligible FDI packaging/testing entity",
+  "route": "offline cold -> O2 lot-record handoff -> China linked-record implementation -> English reader with Chinese sources",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "revision": "1.0",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+  },
+  "email": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "original": 6,
+  "corrective": 1,
+  "total_imagegen": 7,
+  "reused_pngs": 4,
+  "selected": 10,
+  "selected_manifest_sha256": "ec547c1410a635e36a10fe0bf2082bfcd180d8e71373c6230f35479d75a5d4ef",
+  "attempt_ledger_sha256": "d0f14451b7aee846fddac7ba123f86e2e06dfecd4e7f9c1286e86866428978e0",
+  "frozen_pins_verified": 24,
+  "adapter_status": "DEVELOPING / NOT_FROZEN",
+  "findings": [
+    {
+      "card_id": "O2-A4",
+      "original": "CHANGES_REQUIRED",
+      "finding": "Checklist ticks suggested completed confirmation; scene also contained an extra question-mark glyph.",
+      "selected": "CLOSED_SCOPED_NATIVE_DESKTOP333",
+      "closure": "One corrective removes ticks and question-mark glyph. Blank receiving record with open gap retains missing-confirmation question; exact headline/body/header kept."
+    }
+  ],
+  "business_message_observation": "No material FDI anchor mismatch observed in selected native text, English copy/caption, desktop333 and reader source review. Implicit operational value comes from comparing stage/time/source and naming the confirmation owner. No numerical ROI or ERP-only outcome assertion.",
+  "source_scope": "Taiwan solution-context attribution is separate from named China ERP+iMES implementation; MES record linkage and escalation are not a guarantee of synchronized lot status. Legacy O2 month-close pairing hold remains historical and is not declared resolved.",
+  "scene_observation": "Neutral paper ruling and unlabelled document-icon strokes carry no record values. No invented result, status stamp, wafer scene or buyer facility evidence in selected artwork.",
+  "render_coverage": {
+    "desktop333": "All10 selected cards with caption/native headline actually observed.",
+    "mobile": "Partial: two canaries at actual434x938; proof1 at434x938 and proof2 at390x844. Proof3 capture timed out. Other mobile cards and main-viewer640 not fully certified.",
+    "reader": "Actual desktop top and lower source/return surfaces inspected; mobile not fully certified."
+  },
+  "card_reviews": [
+    {
+      "card_id": "COLD-OSAT-OPS-02-IMAGE",
+      "native_text": "Exact supplied fields and applicable source/category/sequence observed.",
+      "scene": "Reviewed against specific handoff/proof meaning; no material completed-state claim in selected image.",
+      "source_attribution": "Applicable source retained; protected legal name inspected on proof2-4.",
+      "native_sha256": "db1dc65c7b7155f8bd6e051a18be50750abbecde0d9f7524709bccd173df204f"
+    },
+    {
+      "card_id": "O2-A1",
+      "native_text": "Exact supplied fields and applicable source/category/sequence observed.",
+      "scene": "Reviewed against specific handoff/proof meaning; no material completed-state claim in selected image.",
+      "source_attribution": "Applicable source retained; protected legal name inspected on proof2-4.",
+      "native_sha256": "c74e3c1132218fc410ace898e8e05b49b99d26a856c823b78d942011b5e23362"
+    },
+    {
+      "card_id": "O2-A2",
+      "native_text": "Exact supplied fields and applicable source/category/sequence observed.",
+      "scene": "Reviewed against specific handoff/proof meaning; no material completed-state claim in selected image.",
+      "source_attribution": "Applicable source retained; protected legal name inspected on proof2-4.",
+      "native_sha256": "1c0762de347eda55d806db60370df12471f89096e31486951b420f340429d6ed"
+    },
+    {
+      "card_id": "O2-A3",
+      "native_text": "Exact supplied fields and applicable source/category/sequence observed.",
+      "scene": "Reviewed against specific handoff/proof meaning; no material completed-state claim in selected image.",
+      "source_attribution": "Applicable source retained; protected legal name inspected on proof2-4.",
+      "native_sha256": "3883f1465d3ec16863169c139836f5dd24abfbd5e3dde8f804975451d4890ffa"
+    },
+    {
+      "card_id": "O2-A4",
+      "native_text": "Exact supplied fields and applicable source/category/sequence observed.",
+      "scene": "Reviewed against specific handoff/proof meaning; no material completed-state claim in selected image.",
+      "source_attribution": "Applicable source retained; protected legal name inspected on proof2-4.",
+      "native_sha256": "3572ee61ed6be7847a7ef41c6afa55de5a1374414a1ad995b09527fa56a22c19"
+    },
+    {
+      "card_id": "O2-A5",
+      "native_text": "Exact supplied fields and applicable source/category/sequence observed.",
+      "scene": "Reviewed against specific handoff/proof meaning; no material completed-state claim in selected image.",
+      "source_attribution": "Applicable source retained; protected legal name inspected on proof2-4.",
+      "native_sha256": "53374ea24c17e91b442eb1f209ff3912b2a73e29771d8da0c354fdaaf98d8734"
+    },
+    {
+      "card_id": "RMK-R4-1",
+      "native_text": "Exact supplied fields and applicable source/category/sequence observed.",
+      "scene": "Reviewed against specific handoff/proof meaning; no material completed-state claim in selected image.",
+      "source_attribution": "Applicable source retained; protected legal name inspected on proof2-4.",
+      "native_sha256": "ce19bf68a01533a6e19a05c7f971376ad15b207556a602bcab1bdbcb2d47cdd9"
+    },
+    {
+      "card_id": "RMK-R4-2",
+      "native_text": "Exact supplied fields and applicable source/category/sequence observed.",
+      "scene": "Reviewed against specific handoff/proof meaning; no material completed-state claim in selected image.",
+      "source_attribution": "Applicable source retained; protected legal name inspected on proof2-4.",
+      "native_sha256": "1bb450fedc473bc4e45b6cb6920335e6fe40cbec61f2d9ff40a0ec23faea9172"
+    },
+    {
+      "card_id": "RMK-R4-3",
+      "native_text": "Exact supplied fields and applicable source/category/sequence observed.",
+      "scene": "Reviewed against specific handoff/proof meaning; no material completed-state claim in selected image.",
+      "source_attribution": "Applicable source retained; protected legal name inspected on proof2-4.",
+      "native_sha256": "c67fde5114959a063c2a1dd088e5d2dc0c3acceebeeb0ac80b6e71e3ec5ef1ca"
+    },
+    {
+      "card_id": "RMK-R4-4",
+      "native_text": "Exact supplied fields and applicable source/category/sequence observed.",
+      "scene": "Reviewed against specific handoff/proof meaning; no material completed-state claim in selected image.",
+      "source_attribution": "Applicable source retained; protected legal name inspected on proof2-4.",
+      "native_sha256": "d0c3c8864664f842e16cf8f2f5ff98955111dbad3549667ad10df0e28699ac48"
+    }
+  ],
+  "unknowns": [
+    "Eligibility and local ERP decision authority of a particular target account remain unknown.",
+    "Public proof rights and live campaign/platform delivery are not certified.",
+    "Incomplete full mobile/main-viewer rendering prevents whole-journey technical PASS."
+  ],
+  "po_status": "PENDING_B4_REVIEW",
+  "git_status": "B4 working files only, uncommitted; B2-B3 selective main integration is separate local commit cc904e2; no push.",
+  "stop": "Do not start next batch before Bảo review."
+}
