@@ -1,0 +1,9 @@
+# Final package review and ZIP delivery — 2026-10-08
+
+Mandate: push main for backup; inspect the complete reader-facing VI/Traditional Chinese package for internal language, agent self-certification and contradiction with the approved POV; correct supported findings if necessary and archive the finished package.
+
+Acceptance: retain the approved budget/ownership/three decision questions, VN readiness and FDI business-value nuance, source attribution and dated audience observations. Review all HTML, text downloads and workbook content, including dynamic reader text. Do not include repository/operator documents in delivery. Existing artwork is protected by the approved 170-image manifest; no regenerated art or invented business claims. Private account evidence stays outside Git and is included in the local ZIP.
+
+Sequence: verify and push main; read POV/message sources; extract and semantically review reader text and suspected internal terms; independently check findings against source/context; correct only supported issues in an owned worktree if needed; validate file references and assets; create a normal ZIP with one top-level folder; CRC-test, extract and compare every file hash and decode all images; check the extracted entry page and language/evidence navigation.
+
+Evidence: live remote main SHA after push; reader transcripts and scope-bound review outside the delivery; source and archive manifests; extraction/CRC/image checks. Reviewer is root SELF_REVIEW, not an independent reviewer. Actual browser observations are separate from static checks. Stop only for an unresolved material business contradiction or destructive/unauthorized work. No mail, publication or account action.

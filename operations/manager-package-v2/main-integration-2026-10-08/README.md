@@ -1,3 +1,5 @@
+> **Backup GitHub và gói giao cuối · 08/10/2026:** Main đã push tới `c91633dd`, đối chiếu actual remote cùng SHA. Package VI/phồn thể đã rà câu chữ nội bộ, claim agent và POV: không có finding material cần sửa;233file giữ nguyên. ZIP local kèm12file evidence riêng, CRC và hash sau giải nén khớp toàn bộ. [Hồ sơ giao gói](../final-delivery-2026-10-08/README.md). Các ghi nhận “local/chưa push” bên dưới là snapshot trước lần backup này; mốc nguồn package, tiến độ main và scope acceptance giữ nguyên.
+
 > **Actual main closeout — 08/10/2026:** Merge `698c1638` is on local main, package233files/221tracked+12ignored verified,3704oldmain blobs outside11bounded docs/config unchanged; main clean at readback. [Closeout](Closeout.md) · [Actual evidence](main-readback.json). The subsequent docs-only checkpoint records this result. No push.
 
 # Package v2 · approved local main integration · 08/10/2026

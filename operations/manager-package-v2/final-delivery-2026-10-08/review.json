@@ -1,0 +1,413 @@
+{
+  "date": "2026-10-08",
+  "mandate": "Push main for backup, final reader-facing internal-language/AI-claim/POV review, then ZIP if clear.",
+  "reviewer": "root SELF_REVIEW",
+  "execution_status": "SUCCESS",
+  "editorial_findings_open": 0,
+  "package_files_changed": 0,
+  "backup": {
+    "remote": "origin",
+    "destination": "refs/heads/main",
+    "before": "2cf29d638a6ad212d5e1a583efbd2f3d68fafda2",
+    "pushed": "c91633dde86e540dd955ccc77d835b093fdd73c3",
+    "commits_ahead_before_push": 38,
+    "live_ls_remote_match": true
+  },
+  "binding": {
+    "stage": "INTERNAL_CONTENT_REVIEW",
+    "anchor_id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "anchor_sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "email_id": "VY-MAIL-USER-20261006",
+    "email_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "pov_id": "PACKAGE-V2-WORKFLOW",
+    "pov_revision": "1.1",
+    "pov_sha256": "175819419af849498c6d93e7be29af703acd6aa4b98dac3a443315526091b0a6",
+    "package_manifest_sha256": "0ed8f3a8e37c707c1e52314ab69c3db528de908e7df918eddf48f4e9a3b89f80"
+  },
+  "pov_checks": {
+    "decision_questions": 3,
+    "budget_vnd_before_tax": 11700000,
+    "first_linkedin": 5600000,
+    "retained_inside_cap": 6100000,
+    "next_linkedin_max": 5600000,
+    "optional_search_max": 500000,
+    "ownership": "Bảo decides targeting, content, pacing and pipeline; accounting handles tax/payment; week1 execution then review and week2 data-led action.",
+    "voice": "VI peer names Bảo/Vy; Traditional Chinese first/second person. Source-language artwork and readers remain explicitly labelled as original content.",
+    "message": "VN management-readiness bridge; FDI operating value through time, coordination, responsibility and risk control. No ROI guarantee or unconditional supply-chain/audit acceptance.",
+    "dated_evidence": "Audience processing/mapping and Planner observations remain explicitly dated; no new account readback claimed."
+  },
+  "surface_review": [
+    {
+      "path": "01_De_xuat/de_xuat.html",
+      "sha256": "de8e0f908761f11e98c601db30be4f0b60306373dbfafa1fee70756d77ef735b",
+      "route": "Manager presentation, VN_DOMESTIC + FDI, VI",
+      "observation": "Reader-facing prose/attributes reviewed for internal terminology, agent self-certification and approved investment/message POV; no material finding."
+    },
+    {
+      "path": "01_De_xuat/de_xuat.zh-Hant.html",
+      "sha256": "53f9bc4ccac282e4718b4aaba07b7c98c92fb3277619fd45b2352131bacbb3f4",
+      "route": "Manager presentation, VN_DOMESTIC + FDI, zh-Hant",
+      "observation": "Reader-facing prose/attributes reviewed for internal terminology, agent self-certification and approved investment/message POV; no material finding."
+    },
+    {
+      "path": "01_De_xuat/logic_quang_cao.html",
+      "sha256": "c0b2c8d3266e47ecda649bf572dd426abec814f0c694585f75329a0f46deffe0",
+      "route": "Manager presentation, VN_DOMESTIC + FDI, VI",
+      "observation": "Reader-facing prose/attributes reviewed for internal terminology, agent self-certification and approved investment/message POV; no material finding."
+    },
+    {
+      "path": "01_De_xuat/logic_quang_cao.zh-Hant.html",
+      "sha256": "f314b7ce0c8df4e7206f068eb49f5fdad0ee5f29bbe46021d3b74c6f42de0ba7",
+      "route": "Manager presentation, VN_DOMESTIC + FDI, zh-Hant",
+      "observation": "Reader-facing prose/attributes reviewed for internal terminology, agent self-certification and approved investment/message POV; no material finding."
+    },
+    {
+      "path": "01_De_xuat/mail_gui_Vy.html",
+      "sha256": "3a95cd89f66756a5b143068804c007f32259c31d97cff77ff002648d984a8654",
+      "route": "Manager presentation, VN_DOMESTIC + FDI, VI",
+      "observation": "Reader-facing prose/attributes reviewed for internal terminology, agent self-certification and approved investment/message POV; no material finding."
+    },
+    {
+      "path": "01_De_xuat/mail_gui_Vy.zh-Hant.html",
+      "sha256": "10d48f020c6ea42cba9a5a61730d910cb7d0396dba0c8b7d82c65478bf1434e7",
+      "route": "Manager presentation, VN_DOMESTIC + FDI, zh-Hant",
+      "observation": "Reader-facing prose/attributes reviewed for internal terminology, agent self-certification and approved investment/message POV; no material finding."
+    },
+    {
+      "path": "02_Demo/index.html",
+      "sha256": "babbe58a1794f724c3adf16f047fb57ce16bfdaa86975afb357653789a031ebd",
+      "route": "Manager presentation, VN_DOMESTIC + FDI, VI",
+      "observation": "Reader-facing prose/attributes reviewed for internal terminology, agent self-certification and approved investment/message POV; no material finding."
+    },
+    {
+      "path": "02_Demo/index.zh-Hant.html",
+      "sha256": "5411ecc1aa7968aac12fcfcbb98189098b17a1a8ea8f74f0a82b24aa5cc04aea",
+      "route": "Manager presentation, VN_DOMESTIC + FDI, zh-Hant",
+      "observation": "Reader-facing prose/attributes reviewed for internal terminology, agent self-certification and approved investment/message POV; no material finding."
+    },
+    {
+      "path": "03_Thu_vien/b1/case-reader.html",
+      "sha256": "4f442de5108ddb2a89b912f7ed7158ff69143207f8a6a423ec15182bf274aa8b",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b1/index.html",
+      "sha256": "f2f6553cc9f95bc6f0174345016409768daac37fa2275d76cc4e03cad312087b",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b10/case-reader.html",
+      "sha256": "ff3e4ae7be142a98570edb24dca5d5ffe451b205b3c5a6135c3105539ddf6ea7",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b10/index.html",
+      "sha256": "f54e3249ac80fc324d068a9824a0def61f623d9d06b5cb9801ba627af8bb5642",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b11/case-reader.html",
+      "sha256": "e4a149ff35104c24537cd14bb4961f585ef689eff3ab054dfa9e54d5088bf778",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b11/index.html",
+      "sha256": "1f32611fff2081ea87214cfb615ae3a2bb8a2e55fb0f4cf9d2be028bff62d61b",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b12/case-reader.html",
+      "sha256": "eb66615e3c38018c88c688bdcff59e9029fb73ad06bce32b7f12cd2ad48cdcd1",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b12/index.html",
+      "sha256": "a502b0e17d3ffc689288073bdb26fd24f893673084cabc25278a2c06a40853f6",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b2/case-reader.html",
+      "sha256": "59ba05625baa77c4f1df1993e250006519b63160704cb43227798c9ead04c427",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b2/index.html",
+      "sha256": "6d27ec6d0fa9b8b623b42088241c8ee80988ac51e74bebe1b880df45ffaafbde",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b3/case-reader.html",
+      "sha256": "eb66615e3c38018c88c688bdcff59e9029fb73ad06bce32b7f12cd2ad48cdcd1",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b3/index.html",
+      "sha256": "c91125c0d25149dc2d4c7e46f757f2b214d7554ebf30a468519738e0f6d8724a",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b4/case-reader.html",
+      "sha256": "a6f2229602e264f0e092cec9dc867d717efc5deaa0a747484a4a920f1653dfb2",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b4/index.html",
+      "sha256": "12ca129dd6ee243f98409d744c376986208be5e43bd757316ea55d42f6623df5",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b5/case-reader.html",
+      "sha256": "4d22a3fc958f13f7d0b2e43d4cb767d725fccfc8466ac8b8003081e9049cca13",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b5/index.html",
+      "sha256": "c788ae3de44c074b6fe66d354819b6d72f6986ffd9aa1fd9f8df16e908189bfe",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b6/case-reader.html",
+      "sha256": "9102224c10b45c4d4238947ad492527b7a59cbc402d4eb470c05f2412342901e",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b6/index.html",
+      "sha256": "bbad96712a2d7ef453296358dfc87781c09e607f409587e69a1bb6150130c94d",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b7/case-reader.html",
+      "sha256": "a6f2229602e264f0e092cec9dc867d717efc5deaa0a747484a4a920f1653dfb2",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b7/index.html",
+      "sha256": "b7dbd461e839cb4192eb620ca2cdc98baaece5400387564768e9957e453d70de",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b8/case-reader.html",
+      "sha256": "4d22a3fc958f13f7d0b2e43d4cb767d725fccfc8466ac8b8003081e9049cca13",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b8/index.html",
+      "sha256": "6973b6fc50a1bc76c88ec7afa0050d53c8c8c9dc4a7305e14fc5e022fcd03005",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b9/case-reader.html",
+      "sha256": "9102224c10b45c4d4238947ad492527b7a59cbc402d4eb470c05f2412342901e",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/b9/index.html",
+      "sha256": "bad4a3df450697d862c5ded6bfe7cc7fa9b568a9b56804279b4df934e3bc96a1",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/index.html",
+      "sha256": "9ebff2451ebbf7c1c5f8339f638432f84a6b1f527fe2e9ec48fd20c898740b79",
+      "route": "Manager presentation, VN_DOMESTIC + FDI, VI",
+      "observation": "Reader-facing prose/attributes reviewed for internal terminology, agent self-certification and approved investment/message POV; no material finding."
+    },
+    {
+      "path": "03_Thu_vien/index.zh-Hant.html",
+      "sha256": "0ba156bda86391ca464a6dd2c42bd53f3a605bfc4c5cfa1a48df38ef94da65fd",
+      "route": "Manager presentation, VN_DOMESTIC + FDI, zh-Hant",
+      "observation": "Reader-facing prose/attributes reviewed for internal terminology, agent self-certification and approved investment/message POV; no material finding."
+    },
+    {
+      "path": "03_Thu_vien/o3-en/case-reader.html",
+      "sha256": "c0ecf2f80e9ed4c93fac95b81901759d1b67b545e36e197b6fbb25f8c2e34fc9",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/o3-en/index.html",
+      "sha256": "7170622e4ae579b2b40ed7da467b1f794628836818622bd05593fc2a4a6eb9f4",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/o3-zh-hans/case-reader.html",
+      "sha256": "09df580976db0f7f719b16ec44feccc31229514a20ae6f84fdb8b122ac577a03",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/o3-zh-hans/index.html",
+      "sha256": "85fce75fb20124b44be7cc545c2a891b21b5c26c3956555cc61753ec1ec04ee7",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/o3-zh-hant/case-reader.html",
+      "sha256": "df6fd7c4dcdde9ba9055c4b82b52cddefd42c3dcc8c46590797773d5544808f6",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/o3-zh-hant/index.html",
+      "sha256": "72098e02b5004ebfe380afdcdf0541266615f1644f7ee84827a8ccf89a6eec8a",
+      "route": "FDI/original EN or Chinese persona",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/vn-w1/case-reader.html",
+      "sha256": "54fc78e7c92e9cd2ebf9b1a238a30bfd8aabff1024dffddbdf974aa6cd80b6ee",
+      "route": "VN_DOMESTIC/vi-VN with EN/zh-Hans reader variants",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/vn-w1/index.html",
+      "sha256": "db73d26abb942c795cdf4db75c0e95558fd08006b9b68387bc819712ebf968f6",
+      "route": "VN_DOMESTIC/vi-VN with EN/zh-Hans reader variants",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/vn-w2/case-reader.html",
+      "sha256": "a581effca90104b10ff65495d3b1c22a13798ba9a7ff735fabaecfd987eaa419",
+      "route": "VN_DOMESTIC/vi-VN with EN/zh-Hans reader variants",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "03_Thu_vien/vn-w2/index.html",
+      "sha256": "e6ae68ff121f31a12e142541a59ba7d04965612a2105dd0aa6414c1d708b6efc",
+      "route": "VN_DOMESTIC/vi-VN with EN/zh-Hans reader variants",
+      "observation": "Editorial prose, accessible copy, dynamic captions and case attribution inspected; approved exact source bytes retained. No new technical or native-artwork gate acceptance."
+    },
+    {
+      "path": "05_Evidence/evidence.html",
+      "sha256": "5a214566e079b4215c87df918369d31404fd040c271454f12f94eab55784a43b",
+      "route": "Manager presentation, VN_DOMESTIC + FDI, VI",
+      "observation": "Reader-facing prose/attributes reviewed for internal terminology, agent self-certification and approved investment/message POV; no material finding."
+    },
+    {
+      "path": "05_Evidence/evidence.zh-Hant.html",
+      "sha256": "f24b96804106ddb7bf1379e9214b514d8fa2aa9b4749172543b0d1c05a026c02",
+      "route": "Manager presentation, VN_DOMESTIC + FDI, zh-Hant",
+      "observation": "Reader-facing prose/attributes reviewed for internal terminology, agent self-certification and approved investment/message POV; no material finding."
+    },
+    {
+      "path": "BAT_DAU.html",
+      "sha256": "8ae259fa2dd8fc5a3c2a7fb486c4d27ff2416553dd3db10e412ec45b1a90b406",
+      "route": "Manager presentation, VN_DOMESTIC + FDI, VI",
+      "observation": "Reader-facing prose/attributes reviewed for internal terminology, agent self-certification and approved investment/message POV; no material finding."
+    },
+    {
+      "path": "BAT_DAU.zh-Hant.html",
+      "sha256": "a474dae86a302137600551e2493c19002c950447f163e7580d665eed974c771a",
+      "route": "Manager presentation, VN_DOMESTIC + FDI, zh-Hant",
+      "observation": "Reader-facing prose/attributes reviewed for internal terminology, agent self-certification and approved investment/message POV; no material finding."
+    },
+    {
+      "path": "01_De_xuat/De_xuat_paid_ads.md",
+      "sha256": "3eea25db215e66cd7e12800c4951443cdebce559f2db8595953394ae7ad95de6",
+      "route": "Manager presentation, VN_DOMESTIC + FDI, VI",
+      "observation": "Reader-facing prose/attributes reviewed for internal terminology, agent self-certification and approved investment/message POV; no material finding."
+    },
+    {
+      "path": "01_De_xuat/Logic_quang_cao.md",
+      "sha256": "24f5077d926f5d090a57996a8af367c3bca32227e9b01ad82f663ef8a064ff4a",
+      "route": "Manager presentation, VN_DOMESTIC + FDI, VI",
+      "observation": "Reader-facing prose/attributes reviewed for internal terminology, agent self-certification and approved investment/message POV; no material finding."
+    },
+    {
+      "path": "01_De_xuat/Mail_gui_Vy.md",
+      "sha256": "351d6b6098f0a4774736deed3fc0939ecc717c6c59d290b3fcb825e2c0ff8499",
+      "route": "Manager presentation, VN_DOMESTIC + FDI, VI",
+      "observation": "Reader-facing prose/attributes reviewed for internal terminology, agent self-certification and approved investment/message POV; no material finding."
+    },
+    {
+      "path": "DOC_TRUOC.txt",
+      "sha256": "047c69e56508a78b106fe29fe4553291980b7e68e3afb13cb8ee6fa156e6daec",
+      "route": "Manager presentation, VN_DOMESTIC + FDI, VI",
+      "observation": "Reader-facing prose/attributes reviewed for internal terminology, agent self-certification and approved investment/message POV; no material finding."
+    },
+    {
+      "path": "04_Theo_doi/Theo_doi_paid_ads.xlsx",
+      "sha256": "eb8de3fff09f8acf6e5b2ef22dc94a42f2cde2c669854e6c6deba9fd4e319aa7",
+      "route": "Paid investment/measurement, VI",
+      "observation": "Both visible sheets, text cells, comments and hyperlinks inspected. Cap/allocation/dashboard/accounting/week1-review-week2 consistent. Producer metadata is not reader-facing prose."
+    }
+  ],
+  "suspected_term_disposition": [
+    {
+      "path": "03_Thu_vien/vn-w2/case-reader.html",
+      "term": "audit pass",
+      "disposition": "Not an internal PASS status. English source-scope sentence says the case does not report an audit pass; retained to avoid inventing an outcome."
+    }
+  ],
+  "protected_artwork": {
+    "placements": 170,
+    "unchanged_approved_manifest": true,
+    "new_generation": false,
+    "fresh_native_visual_reaudit": false,
+    "note": "Previously PO-approved artwork is reused byte-identically. Text/captions/case scope checked here; prior source technical limitations and acceptance scope are preserved."
+  },
+  "archive": {
+    "archive_sha256": "a025915d39bb85197d6fa2f317daa9a8a089f8fc0bf81b248c388599b4cd0d9b",
+    "archive_bytes": 298859513,
+    "top_level_folder": "LinkedIn_Package_V2",
+    "file_count": 233,
+    "all_extracted_file_hashes_match": true,
+    "approved_manifest_match": true,
+    "crc_check": "PASS",
+    "dynamic_image_links_checked": 170,
+    "physical_images_decoded": 180,
+    "embedded_images_decoded": 24
+  },
+  "browser_smoke": {
+    "extracted_bundle": true,
+    "home_toggle_vi_to_zh_Hant": true,
+    "evidence_images_loaded": true,
+    "evidence_zoom_observed": true,
+    "demo_to_english_journey": true,
+    "cold_image_loaded": true,
+    "case_stage_image_loaded": true,
+    "case_reader_opened": true,
+    "home_css_width": 1707,
+    "home_horizontal_overflow": false,
+    "scope": "Desktop extracted-ZIP smoke check only; no new full mobile/native/live certification."
+  },
+  "privacy": "221 tracked presentation files on GitHub. Twelve ignored private evidence companion files included only in local folder/ZIP. No raw screenshots, embedded account-image HTML, local private paths or ZIP added to Git.",
+  "docs_impact": "Only current backup/delivery notices added to CURRENT_STATE, DOCS_IMPACT_MAP, root README and package/integration README. Historical local-only/no-push receipts are dated history. Business/source-clock/progress/frozen scopes unchanged.",
+  "message_review_scope": {
+    "presentation": "INTERNAL_CONTENT_REVIEW: fresh anchor/POV binding, approved exact bytes; message consistency of the investment narrative reviewed. Source-specific old technical/artwork gates are not replaced.",
+    "A1": "Proposal and logic enumerate PCB, substrate, components, packaging materials and equipment precision machining; factory/quality examples remain scoped to the selected supply-chain segments.",
+    "A2": "Logic explicitly considers where system decision authority sits; no company-level exclusion or confirmed fit is invented.",
+    "A3": "VI proposal separates Nội địa, tiếng Việt and FDI, English/Chinese; Chinese uses 本土企業/外資企業. Library and original readers label persona/language; no nationality=buyer inference.",
+    "A4": "FDI proposal: thời gian, phối hợp, trách nhiệm và kiểm soát rủi ro. Quality examples link lot records/test context/ownership; Operations examples link handoff and repeated reconciliation. The15→5day outcome stays attributed to the named China case. No invented ROI percentage.",
+    "A5": "VI proposal: ERP là bước chuẩn bị năng lực quản trị, hồ sơ, quy trình và dữ liệu. VN Aplus readers retain source scope and do not promise an audit pass or vendor acceptance. Chinese wrapper preserves the preparation meaning.",
+    "A6": "Logic names Aplus/DigiHua iMES+TOP GP and the China ERP+iMES case. Readers keep SPC/ECN/serial/MES mechanisms attributed to integrated solutions, not generic standalone ERP. Home/mail/library contain no new technical capability claim.",
+    "A7": "Cold single → interaction with these new ads when eligible → explanatory carousel → case reader. Week2 swaps preserve persona, locale and problem; manager demo is labelled illustrative. ZIP smoke check followed extracted English demo through case stage to reader.",
+    "verdict": "NO_MATERIAL_MESSAGE_MISMATCH_IN_EDITORIAL_REVIEW",
+    "not_claimed": "No new whole-journey technical PASS, independent reviewer or live readiness."
+  }
+}
