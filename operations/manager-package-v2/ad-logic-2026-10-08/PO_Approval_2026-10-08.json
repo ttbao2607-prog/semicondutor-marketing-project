@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-08",
+  "recorded_utc": "2026-10-08T02:48:17.548622+00:00",
+  "decision_owner": "Bảo",
+  "user_instruction": "OKie bản này đạt đủ dễ hiểu rồi. Duyệt bản này, commit checkpoint. Sau đó tạo 1 thư mục evidence, gom các evidence lại (để truy xxuất khi Vy cần, k cần link với package hiện tại, chỉ cần sắp xếp thư mục cho dễ đọc evidence, gọn gàng là được. Confirm hiểu ý Bảo r líst danh sách evidence liên quan cần đưa vào.",
+  "scope": "Approve current offline package v2 presentation including ad-logic extension; create local checkpoint on the current branch. Evidence collection follows as a separate ordinary folder without changes/links in the approved package.",
+  "status": "PO_APPROVED_OFFLINE / LOCAL_CHECKPOINT_AUTHORIZED",
+  "baseline_local_commit": "ecf87adc28cac2e39279824022ce98979efef142",
+  "package_manifest_sha256": "fe7bdfdc979cf7a5b6e17acb5f31f3e7c20040678ff169de17cfd81a0072b7a5",
+  "post_assembly_review_sha256": "28c90edd509531ec9faed2e2c8612e48400f01cc17d6bc1562df83dc3e113db6",
+  "final_closeout_check_sha256": "5abdda16d85ae6a7711ba85c75923817ab794f4f8c46f865b14950e54952e4d6",
+  "package_files": 215,
+  "protected_files_unchanged": 205,
+  "message_anchor_verdict": "MESSAGE_ANCHOR_PASS for the reviewed extension",
+  "technical_scope": "Prior SELF_REVIEW and physical-mobile/native-market/live limitations retained; PO approval does not upgrade them.",
+  "git_authorization": {
+    "commit_current_checkpoint": true,
+    "merge_main": false,
+    "push": false
+  },
+  "evidence_folder": "Separate later output; excluded from this first checkpoint."
+}

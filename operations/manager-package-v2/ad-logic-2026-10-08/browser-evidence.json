@@ -1,0 +1,437 @@
+{
+  "revision": "package-v2-ad-logic-1.1",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "raw_attempts_file": "browser-evidence-working.json",
+  "raw_attempts_sha256": "972d0b5b4008cf5088908021ea686f714f556761e99ee99d9f484d86f965abdf",
+  "capture_selection": "Latest observation for duplicate names; PNG files are final captures. Failed/ambiguous attempts excluded from navigation PASS.",
+  "layout_scope": {
+    "desktop_viewport": {
+      "width": 1707,
+      "height": 817,
+      "content_width": 1690
+    },
+    "responsive_viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "horizontal_overflow_observed": false,
+    "logic_images_loaded": 6,
+    "logic_images_total": 6
+  },
+  "navigation_observations": [
+    {
+      "name": "desktop-vn-reader-link",
+      "url": "http://127.0.0.1:8765/03_Thu_vien/vn-w1/case-reader.html",
+      "status": "DESTINATION_OBSERVED",
+      "input_scope": "desktop pointer"
+    },
+    {
+      "name": "desktop-vn-reader-return",
+      "url": "http://127.0.0.1:8765/03_Thu_vien/vn-w1/index.html",
+      "status": "DESTINATION_OBSERVED",
+      "input_scope": "desktop pointer"
+    },
+    {
+      "name": "desktop-vn-journey-link",
+      "url": "http://127.0.0.1:8765/03_Thu_vien/vn-w1/index.html",
+      "status": "DESTINATION_OBSERVED",
+      "input_scope": "desktop pointer"
+    },
+    {
+      "name": "desktop-fdi-journey-link",
+      "url": "http://127.0.0.1:8765/03_Thu_vien/b1/index.html",
+      "status": "DESTINATION_OBSERVED",
+      "input_scope": "desktop pointer"
+    },
+    {
+      "name": "proposal-to-logic-link",
+      "url": "http://127.0.0.1:8765/01_De_xuat/logic_quang_cao.html",
+      "status": "DESTINATION_OBSERVED",
+      "input_scope": "desktop pointer"
+    },
+    {
+      "name": "375px-desktop-input-fdi-reader",
+      "url": "http://127.0.0.1:8765/03_Thu_vien/b1/case-reader.html",
+      "touchDevice": false,
+      "status": "DESTINATION_OBSERVED",
+      "input_scope": "desktop pointer at 375px; mobile:false"
+    },
+    {
+      "name": "375px-fdi-reader-return",
+      "url": "http://127.0.0.1:8765/03_Thu_vien/b1/index.html",
+      "touchDevice": false,
+      "status": "DESTINATION_OBSERVED",
+      "input_scope": "desktop pointer at 375px; mobile:false"
+    },
+    {
+      "name": "375px-vn-reader-link",
+      "url": "http://127.0.0.1:8765/03_Thu_vien/vn-w1/case-reader.html",
+      "touchDevice": false,
+      "status": "DESTINATION_OBSERVED",
+      "input_scope": "desktop pointer at 375px; mobile:false"
+    },
+    {
+      "name": "375px-vn-reader-return",
+      "url": "http://127.0.0.1:8765/03_Thu_vien/vn-w1/index.html",
+      "touchDevice": false,
+      "status": "DESTINATION_OBSERVED",
+      "input_scope": "desktop pointer at 375px; mobile:false"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "demo-desktop.png",
+      "sha256": "58474df1f447b726ebbb01fe20642537b268971e6b2ca31ba5484a169987c523",
+      "observation": {
+        "name": "demo-desktop",
+        "clientWidth": 1690,
+        "height": 817,
+        "loadedImages": 2,
+        "scrollWidth": 1690,
+        "scrollY": 0,
+        "totalImages": 2,
+        "url": "http://127.0.0.1:8765/02_Demo/index.html",
+        "width": 1707
+      }
+    },
+    {
+      "file": "demo-mobile.png",
+      "sha256": "960d62f08672d878fe21a6712ab616c5f3b7a5955f4d542693d33846ff17c247",
+      "observation": {
+        "name": "demo-mobile",
+        "clientWidth": 375,
+        "height": 812,
+        "loadedImages": 2,
+        "scrollWidth": 375,
+        "scrollY": 0,
+        "totalImages": 2,
+        "url": "http://127.0.0.1:8765/02_Demo/index.html",
+        "width": 375
+      }
+    },
+    {
+      "file": "fdi-reader-desktop.png",
+      "sha256": "3b8866d93d03dca83e01ebeabf5bea519a00dd616b05b264a6ab88bb15e31059",
+      "observation": {
+        "name": "fdi-reader-desktop",
+        "clientWidth": 1690,
+        "height": 817,
+        "loadedImages": 0,
+        "scrollWidth": 1690,
+        "scrollY": 0,
+        "totalImages": 0,
+        "url": "http://127.0.0.1:8765/03_Thu_vien/b1/case-reader.html",
+        "width": 1707
+      }
+    },
+    {
+      "file": "home-desktop.png",
+      "sha256": "dc0cd133b58a736491c53071d30ace03d46355cfb304028b7c4321301b529858",
+      "observation": {
+        "name": "home-desktop",
+        "clientWidth": 1690,
+        "height": 817,
+        "loadedImages": 0,
+        "scrollWidth": 1690,
+        "scrollY": 0,
+        "totalImages": 0,
+        "url": "http://127.0.0.1:8765/BAT_DAU.html",
+        "width": 1707
+      }
+    },
+    {
+      "file": "home-mobile.png",
+      "sha256": "1bd276fa7581f2c44a402a70a720a723009d9ee19fde536b811fcb727f194dc0",
+      "observation": {
+        "name": "home-mobile",
+        "clientWidth": 375,
+        "height": 812,
+        "loadedImages": 0,
+        "scrollWidth": 375,
+        "scrollY": 0,
+        "totalImages": 0,
+        "url": "http://127.0.0.1:8765/BAT_DAU.html",
+        "width": 375
+      }
+    },
+    {
+      "file": "library-desktop.png",
+      "sha256": "28f348430b7f3a4782753e9122da2ddece458af9dc40027d57679f2cb10dabaf",
+      "observation": {
+        "name": "library-desktop",
+        "clientWidth": 1690,
+        "height": 817,
+        "loadedImages": 9,
+        "scrollWidth": 1690,
+        "scrollY": 0,
+        "totalImages": 17,
+        "url": "http://127.0.0.1:8765/03_Thu_vien/index.html",
+        "width": 1707
+      }
+    },
+    {
+      "file": "library-mobile.png",
+      "sha256": "b5f841e743cfc73f9abd6cd9f3cfd496ad404dc27c55bce05691a0a0c403e7e3",
+      "observation": {
+        "name": "library-mobile",
+        "clientWidth": 375,
+        "height": 812,
+        "loadedImages": 3,
+        "scrollWidth": 375,
+        "scrollY": 0,
+        "totalImages": 17,
+        "url": "http://127.0.0.1:8765/03_Thu_vien/index.html",
+        "width": 375
+      }
+    },
+    {
+      "file": "logic-desktop-fdi.png",
+      "sha256": "6a4c44b866ae47373ba3ffdce5b4401839518d7c4eeb7c75615cd27c3f8939eb",
+      "observation": {
+        "name": "logic-desktop-fdi",
+        "clientWidth": 1690,
+        "height": 817,
+        "loadedImages": 6,
+        "scrollWidth": 1690,
+        "scrollY": 2991.111083984375,
+        "totalImages": 6,
+        "url": "http://127.0.0.1:8765/01_De_xuat/logic_quang_cao.html#vi-du-fdi",
+        "width": 1707
+      }
+    },
+    {
+      "file": "logic-desktop-hypotheses.png",
+      "sha256": "654eba04b98acc7b723c18b1ae614c76a98a260801dd9b4106ca3f751659c8fa",
+      "observation": {
+        "name": "logic-desktop-hypotheses",
+        "clientWidth": 1690,
+        "height": 817,
+        "loadedImages": 6,
+        "scrollWidth": 1690,
+        "scrollY": 1297.77783203125,
+        "totalImages": 6,
+        "url": "http://127.0.0.1:8765/01_De_xuat/logic_quang_cao.html#gia-thuyet",
+        "width": 1707
+      }
+    },
+    {
+      "file": "logic-desktop-matrix.png",
+      "sha256": "0a0bfc27a14e705e6018123363b31375309082696e13b78d757a894c93ce8fa0",
+      "observation": {
+        "name": "logic-desktop-matrix",
+        "clientWidth": 1690,
+        "height": 817,
+        "loadedImages": 6,
+        "scrollWidth": 1690,
+        "scrollY": 4191.111328125,
+        "totalImages": 6,
+        "url": "http://127.0.0.1:8765/01_De_xuat/logic_quang_cao.html#du-lieu",
+        "width": 1707
+      }
+    },
+    {
+      "file": "logic-desktop-top.png",
+      "sha256": "089f1591292827646cc910927de5fe6d0b5e654f807e52bb0e3cba222fa4568b",
+      "observation": {
+        "name": "logic-desktop-top",
+        "width": 1707,
+        "height": 817,
+        "url": "http://127.0.0.1:8765/01_De_xuat/logic_quang_cao.html",
+        "metrics_record": "Initial screenshot was visually reviewed; separate DOM dimensions not saved for this capture."
+      }
+    },
+    {
+      "file": "logic-desktop-vn.png",
+      "sha256": "c1a1b15da1fb4b14b07c7587f962c3c1b63f57062a5d2b340a3ce5f8485d5690",
+      "observation": {
+        "name": "logic-desktop-vn",
+        "clientWidth": 1690,
+        "height": 817,
+        "loadedImages": 6,
+        "scrollWidth": 1690,
+        "scrollY": 2112,
+        "totalImages": 6,
+        "url": "http://127.0.0.1:8765/01_De_xuat/logic_quang_cao.html#vi-du-vn",
+        "width": 1707
+      }
+    },
+    {
+      "file": "logic-mobile-audience.png",
+      "sha256": "36b08246ddc59c5d389831f469467c8d6cf8c69b9dc9e6e6629658780e59e065",
+      "observation": {
+        "name": "logic-mobile-audience",
+        "clientWidth": 375,
+        "height": 812,
+        "loadedImages": 6,
+        "scrollWidth": 375,
+        "scrollY": 724,
+        "totalImages": 6,
+        "url": "http://127.0.0.1:8765/01_De_xuat/logic_quang_cao.html#tep",
+        "width": 375
+      }
+    },
+    {
+      "file": "logic-mobile-fdi-proof.png",
+      "sha256": "ea94e04c351c6032286198b5e88f90e6885f6c8db68d2a735856c80ab34bfedf",
+      "observation": {
+        "name": "logic-mobile-fdi-proof",
+        "clientWidth": 375,
+        "height": 812,
+        "loadedImages": 6,
+        "scrollWidth": 375,
+        "scrollY": 7817.60009765625,
+        "totalImages": 6,
+        "url": "http://127.0.0.1:8765/01_De_xuat/logic_quang_cao.html#vi-du-fdi",
+        "width": 375
+      }
+    },
+    {
+      "file": "logic-mobile-fdi.png",
+      "sha256": "01712864709ff8db4bb52d558966b105ad888441316d0545023c8e19f68959db",
+      "observation": {
+        "name": "logic-mobile-fdi",
+        "clientWidth": 375,
+        "height": 812,
+        "loadedImages": 6,
+        "scrollWidth": 375,
+        "scrollY": 6559.2001953125,
+        "totalImages": 6,
+        "url": "http://127.0.0.1:8765/01_De_xuat/logic_quang_cao.html#vi-du-fdi",
+        "width": 375
+      }
+    },
+    {
+      "file": "logic-mobile-hypotheses.png",
+      "sha256": "9bf0cd631d57dce4859765e4e768463540ec74f66d2624347289638574fc9272",
+      "observation": {
+        "name": "logic-mobile-hypotheses",
+        "clientWidth": 375,
+        "height": 812,
+        "loadedImages": 6,
+        "scrollWidth": 375,
+        "scrollY": 2710.39990234375,
+        "totalImages": 6,
+        "url": "http://127.0.0.1:8765/01_De_xuat/logic_quang_cao.html#gia-thuyet",
+        "width": 375
+      }
+    },
+    {
+      "file": "logic-mobile-matrix.png",
+      "sha256": "244281768422f0ad399181ccb655f7ace3387b0cf9bb0fcf7eac3acf4d9c107a",
+      "observation": {
+        "name": "logic-mobile-matrix",
+        "captionWidth": 343.20001220703125,
+        "clientWidth": 375,
+        "height": 812,
+        "scrollWidth": 375,
+        "scrollY": 9409.599609375,
+        "url": "http://127.0.0.1:8765/01_De_xuat/logic_quang_cao.html#du-lieu",
+        "width": 375
+      }
+    },
+    {
+      "file": "logic-mobile-vn.png",
+      "sha256": "266d218956a18fe598bb79b496081fef38a814cf660584eb38ff269eafa20747",
+      "observation": {
+        "name": "logic-mobile-vn",
+        "clientWidth": 375,
+        "height": 812,
+        "loadedImages": 6,
+        "scrollWidth": 375,
+        "scrollY": 4435.2001953125,
+        "totalImages": 6,
+        "url": "http://127.0.0.1:8765/01_De_xuat/logic_quang_cao.html#vi-du-vn",
+        "width": 375
+      }
+    },
+    {
+      "file": "mail-desktop.png",
+      "sha256": "e48e6ded1b0e681471b4cb269214c1dc6b497725f2d7d279d24d9ead09e6a81d",
+      "observation": {
+        "name": "mail-desktop",
+        "clientWidth": 1690,
+        "height": 817,
+        "loadedImages": 0,
+        "scrollWidth": 1690,
+        "scrollY": 0,
+        "totalImages": 0,
+        "url": "http://127.0.0.1:8765/01_De_xuat/mail_gui_Vy.html",
+        "width": 1707
+      }
+    },
+    {
+      "file": "mail-mobile.png",
+      "sha256": "7ce9c61978421579341dc685ec02f474841829e91ea35330b287cdfd24fbb54a",
+      "observation": {
+        "name": "mail-mobile",
+        "clientWidth": 375,
+        "height": 812,
+        "loadedImages": 0,
+        "scrollWidth": 375,
+        "scrollY": 0,
+        "totalImages": 0,
+        "url": "http://127.0.0.1:8765/01_De_xuat/mail_gui_Vy.html",
+        "width": 375
+      }
+    },
+    {
+      "file": "proposal-desktop-logic-summary.png",
+      "sha256": "9165534913709bd24e985e7a0ba72d4a437d057ae8c9f7884f13a77a27f111cb",
+      "observation": {
+        "name": "proposal-desktop-logic-summary",
+        "clientWidth": 1690,
+        "height": 817,
+        "loadedImages": 0,
+        "scrollWidth": 1690,
+        "scrollY": 907.5555419921876,
+        "totalImages": 0,
+        "url": "http://127.0.0.1:8765/01_De_xuat/de_xuat.html",
+        "width": 1707
+      }
+    },
+    {
+      "file": "proposal-desktop.png",
+      "sha256": "f6ed7de88d51403bb65d4a1b1febb01189ea682252e6d3e594c1377920662abc",
+      "observation": {
+        "name": "proposal-desktop",
+        "clientWidth": 1690,
+        "height": 817,
+        "loadedImages": 0,
+        "scrollWidth": 1690,
+        "scrollY": 0,
+        "totalImages": 0,
+        "url": "http://127.0.0.1:8765/01_De_xuat/de_xuat.html",
+        "width": 1707
+      }
+    },
+    {
+      "file": "proposal-mobile.png",
+      "sha256": "6b55dd130d1aac44c3d550f149386b1b664bec08c9dd1a11d694af1e4aef5a53",
+      "observation": {
+        "name": "proposal-mobile",
+        "clientWidth": 375,
+        "height": 812,
+        "loadedImages": 0,
+        "scrollWidth": 375,
+        "scrollY": 0,
+        "totalImages": 0,
+        "url": "http://127.0.0.1:8765/01_De_xuat/de_xuat.html",
+        "width": 375
+      }
+    }
+  ],
+  "excluded_navigation_attempts": [
+    {
+      "name": "mobile-fdi-reader-link",
+      "url": "http://127.0.0.1:8765/01_De_xuat/logic_quang_cao.html#vi-du-fdi"
+    },
+    {
+      "name": "mobile-fdi-reader-link-final",
+      "url": "http://127.0.0.1:8765/01_De_xuat/logic_quang_cao.html#vi-du-fdi"
+    }
+  ],
+  "touch_input_status": "NOT_VERIFIED: mobile:true input attempts remained on the logic page. Same hrefs navigated at desktop and with desktop input at 375px. No real-device/touch certification.",
+  "product_correction": "Mobile matrix caption display:block and width:100%; final caption 343.2px inside 375px viewport.",
+  "lazy_images_scope": "Library is lazy-loaded; initial screenshot image counts do not certify every thumbnail. Existing 205 protected files and relative dependencies independently checked."
+}

@@ -2,7 +2,7 @@
 
 **Gửi:** Vy  
 **Phụ trách paid:** Bảo  
-**Ngày:** 07/10/2026
+**Ngày:** 08/10/2026
 
 Bảo đề xuất ngân sách tối đa **11,7 triệu đồng, chưa thuế**, để tiếp cận đúng doanh nghiệp trong chuỗi cung ứng bán dẫn và điện tử, tạo sự quan tâm đến bài toán quản trị và dẫn người đọc vào nội dung giải thích, case và giải pháp Digiwin. Vy xem giúp Bảo phương án và ba điểm ở cuối để tổng hợp, trình lãnh đạo.
 
@@ -14,6 +14,16 @@ Tập trung vào doanh nghiệp làm PCB, substrate, linh kiện, vật liệu �
 - **FDI, English/Chinese:** mở bằng vấn đề vận hành của người phụ trách, rồi làm rõ giá trị về thời gian, phối hợp, trách nhiệm và kiểm soát rủi ro. Bảo chọn ngôn ngữ theo nhóm người đọc.
 
 LinkedIn bắt đầu bằng ảnh đơn cho người đọc mới. Khi tệp người đã tương tác với chính các quảng cáo mới đủ điều kiện, carousel giúp giải thích sâu hơn. Trang đọc case nối vấn đề của người đọc với cơ chế giải pháp và lời mời trao đổi nhu cầu.
+
+## Logic quảng cáo và cách điều chỉnh
+
+Bảo chuẩn bị tệp chính từ 424 dòng công ty cung cấp và một tệp dự phòng gồm 52 Company Pages được nghiên cứu riêng. Cách tiếp cận đi từ đúng công ty tới phạm vi Việt Nam, chức năng công việc và cấp bậc phù hợp. Mapping và quy mô sau lọc là cơ sở để chọn tệp khi chạy.
+
+Giả thuyết VN nối yêu cầu của khách hàng trong chuỗi với năng lực quản trị cần chuẩn bị. Giả thuyết FDI mở từ tình huống vận hành, rồi làm rõ giá trị của dữ liệu và phối hợp. Hình ảnh, phần giải thích và case cùng giữ một bài toán để xây liên tưởng về Digiwin.
+
+Review cuối tuần 1 giúp Bảo phân biệt vấn đề ở đo lường, tệp, phân phối hay nội dung. Tuần 2 thay đúng khâu cần cải thiện, giữ phần hiệu quả và chọn RMK khi tệp tương tác với chính quảng cáo mới đủ điều kiện.
+
+[Xem logic quảng cáo, hai ví dụ hình ảnh và matrix tuần 2](logic_quang_cao.html).
 
 ## Ngân sách chưa thuế
 

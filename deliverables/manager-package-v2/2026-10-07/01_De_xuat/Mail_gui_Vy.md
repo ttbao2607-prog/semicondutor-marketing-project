@@ -10,7 +10,9 @@ Bảo đề xuất tổng ngân sách tối đa **11,7 triệu đồng, chưa th
 
 Tuần 1 Bảo chạy đúng plan, review cuối tuần rồi chọn hướng tuần 2 theo dữ liệu. Bảo đã có hai luồng VN, thư viện FDI và tệp chính/dự phòng để thay đúng đoạn cần cải thiện, giữ phần đang hiệu quả.
 
-Vy mở **BAT_DAU.html** trong thư mục để xem đề xuất, demo nội dung và file theo dõi. Bảo nhờ Vy xem giúp ba điểm để tổng hợp, trình lãnh đạo:
+Bảo bổ sung phần logic quảng cáo để Vy xem cách chọn tệp chính/dự phòng, giả thuyết riêng cho VN–FDI và hai ví dụ nối hình ảnh với thông điệp. Phần này cũng chỉ rõ dữ liệu nào dẫn đến điều chỉnh tuần 2.
+
+Vy mở **BAT_DAU.html** trong thư mục để xem đề xuất, logic quảng cáo, demo nội dung và file theo dõi. Bảo nhờ Vy xem giúp ba điểm để tổng hợp, trình lãnh đạo:
 
 1. Trần đầu tư 11,7 triệu đồng, chưa thuế.
 2. Cơ cấu 5,6 triệu đợt đầu và 6,1 triệu giữ lại trong cùng tổng ngân sách.
