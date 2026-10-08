@@ -1,0 +1,38 @@
+{
+  "scope_decision": "APPROVED",
+  "po_response": "OKie đồng ý",
+  "approval_scope": "Temporarily quarantine exactly15 known-wrong rows without exact replacement Pages; preserve master424; prepare409 exact-file handoff.",
+  "upload_permission": "NOT_GRANTED; STOP_BEFORE_UPLOAD",
+  "master424_sha256": "cf8cef65cc3e84f69cdd551798182fbd1bc7834c4311037bb1c4774460cee83c",
+  "file_locked_for_handoff_only": true,
+  "candidate409": {
+    "filename": "linkedin_discovery409_approved_quarantine_20261008_HANDOFF_ONLY.csv",
+    "rows": 409,
+    "columns": 10,
+    "bytes": 27163,
+    "sha256": "ca12a1c8a7a0439b5fd9f755f8400814910c90e4f92b78041dea27a150c40985",
+    "encoding": "UTF-8 BOM",
+    "record_format": "Original complete byte records copied in source order; header/quoting/embedded newlines/CRLF preserved"
+  },
+  "quarantine15": {
+    "filename": "linkedin_discovery15_quarantine_20261008_NOT_FOR_UPLOAD.csv",
+    "rows": 15,
+    "columns": 10,
+    "bytes": 1253,
+    "sha256": "ed4cfc21374bff8a0c7529b860b703f7cc152c98c0b6ce7aa495e443f9afd399",
+    "encoding": "UTF-8 BOM",
+    "record_format": "Original complete byte records copied in source order; header/quoting/embedded newlines/CRLF preserved"
+  },
+  "historical_mapping150": {
+    "correct": 11,
+    "wrong": 18,
+    "insufficient": 121
+  },
+  "historical_retained_capture135_BEFORE_UPLOAD": {
+    "INSUFFICIENT_EVIDENCE": 121,
+    "CORRECT_ENTITY_WITH_EVIDENCE": 11,
+    "WRONG_ENTITY_WITH_EVIDENCE": 3
+  },
+  "quality": "CHANGES_REQUIRED; not clean/all matched",
+  "next_action": "Parent separate audit, then exact-file review; any later upload requires explicit authorization and settled-output audit."
+}

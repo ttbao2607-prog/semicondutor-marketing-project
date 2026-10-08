@@ -1,0 +1,70 @@
+{
+  "master424_sha256": "cf8cef65cc3e84f69cdd551798182fbd1bc7834c4311037bb1c4774460cee83c",
+  "candidate409": {
+    "filename": "linkedin_discovery409_approved_quarantine_20261008_HANDOFF_ONLY.csv",
+    "rows": 409,
+    "columns": 10,
+    "bytes": 27163,
+    "sha256": "ca12a1c8a7a0439b5fd9f755f8400814910c90e4f92b78041dea27a150c40985",
+    "encoding": "UTF-8 BOM",
+    "record_format": "Original complete byte records copied in source order; header/quoting/embedded newlines/CRLF preserved"
+  },
+  "quarantine15": {
+    "filename": "linkedin_discovery15_quarantine_20261008_NOT_FOR_UPLOAD.csv",
+    "rows": 15,
+    "columns": 10,
+    "bytes": 1253,
+    "sha256": "ed4cfc21374bff8a0c7529b860b703f7cc152c98c0b6ce7aa495e443f9afd399",
+    "encoding": "UTF-8 BOM",
+    "record_format": "Original complete byte records copied in source order; header/quoting/embedded newlines/CRLF preserved"
+  },
+  "private_artifacts": [
+    {
+      "file": "canonical-body-preservation.json",
+      "sha256": "fa4e8ded8f4ba90d66cf4d4b7170481116e15d0bb9a52635efe23e302eff3e74",
+      "bytes": 2119
+    },
+    {
+      "file": "exception-disposition.json",
+      "sha256": "a67dbda3b737c882969f0aceca49b4c05c8f38721e8c8a75bba6378790ae2de9",
+      "bytes": 337192
+    },
+    {
+      "file": "HANDOFF_VI.md",
+      "sha256": "0e982ab920f58da162291943c3f09505aea186d3555d3e298f3f66ced143173a",
+      "bytes": 2519
+    },
+    {
+      "file": "linkedin_discovery15_quarantine_20261008_NOT_FOR_UPLOAD.csv",
+      "sha256": "ed4cfc21374bff8a0c7529b860b703f7cc152c98c0b6ce7aa495e443f9afd399",
+      "bytes": 1253
+    },
+    {
+      "file": "linkedin_discovery409_approved_quarantine_20261008_HANDOFF_ONLY.csv",
+      "sha256": "ca12a1c8a7a0439b5fd9f755f8400814910c90e4f92b78041dea27a150c40985",
+      "bytes": 27163
+    },
+    {
+      "file": "old-artifact-preservation.json",
+      "sha256": "a59a13dd6898db841b1f76005b6757a620fdff80533024d5b430b6048a353d32",
+      "bytes": 8919
+    },
+    {
+      "file": "quarantine-reason-ledger15.json",
+      "sha256": "17da8eed8071ac4e80bbfc258a5c44789920fe1e35b1de67321253038a28b851",
+      "bytes": 14785
+    },
+    {
+      "file": "self-validation.json",
+      "sha256": "9282a8ead371531bb434786e92efab61b8458cfc30569f54975585e72aefe65a",
+      "bytes": 1050
+    },
+    {
+      "file": "source-row-index-map.json",
+      "sha256": "dda2591a039d013718348f47c81d58788e223cf7af64c660e184ac16950bc1e6",
+      "bytes": 33919
+    }
+  ],
+  "old_artifacts_preserved": 38,
+  "note": "Hashes lock file handoff, not upload authorization or audience quality."
+}
