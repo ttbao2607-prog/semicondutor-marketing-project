@@ -77,7 +77,7 @@ tpl, n = re.subn(r'<section class="consult">.*?</section>', '<section class="con
 assert n == 1
 tpl, n = re.subn(r'(<img class="case-photo" src=")[^"]+(" width=")1080(" height=")656(")', lambda m: m[1] + uri + m[2] + '1536' + m[3] + '1024' + m[4], tpl, count=1)
 assert n == 1
-tpl, n = re.subn(r'<a data-i18n="figureSource"[^>]*>(.*?)</a>', r'<span data-i18n="figureSource">\1</span>', tpl, count=1, flags=re.S)
+tpl, n = re.subn(r'<a data-i18n="figureSource"[^>]*>.*?</a>', '', tpl, count=1, flags=re.S)  # illustration pages keep only the figure caption line
 assert n == 1
 assert not re.search(r'data-i18n="m[0-9]', tpl)
 
@@ -99,6 +99,7 @@ for batch, t, locale, folder in TARGETS:
         old = next(x for x in PREV['targets'] if x['batch'] == batch)
         rec['reader_before_sha256'], rec['index_before_sha256'] = old['reader_before_sha256'], old['index_before_sha256']
         rec['rebuilt_after_label_fix'] = True
+        rec['rebuilt_after_caption_fix'] = True
     packs = {lang: pack(t, lang) for lang in LANGS}
     u1, u2 = urls(t)
     cur = re.sub(r'<section class="source">.*?</section>', lambda m: SRC_ANCHOR % (u1, u2), tpl, count=1, flags=re.S)

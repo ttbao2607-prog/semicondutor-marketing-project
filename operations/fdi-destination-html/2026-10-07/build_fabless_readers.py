@@ -18,8 +18,7 @@ TARGETS = [('B13', 'F1', 'en', 'B13-en-f1-v5'), ('B14', 'F1', 'zh-Hans', 'B14-zh
            ('B19', 'F3', 'en', 'B19-en-f3-v1'), ('B20', 'F3', 'zh-Hans', 'B20-zh-Hans-f3-v3'), ('B21', 'F3', 'zh-Hant', 'B21-zh-Hant-f3-v1')]
 LANGS = ['vi', 'en', 'zh-Hans', 'zh-Hant']
 sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
-if (PACKET / 'B13-B21-intake.json').exists():
-    raise SystemExit('Intake exists; preserve original pins.')
+PREV = json.loads((PACKET / 'B13-B21-intake.json').read_text(encoding='utf-8')) if (PACKET / 'B13-B21-intake.json').exists() else None  # rerun keeps original before-pins
 COPY_RE = re.compile(r'(<script type="application/json" id="reader-copy">)(.*?)(</script>)', re.S)
 base = BASE.read_text(encoding='utf-8')
 b7 = json.loads(COPY_RE.search(base)[2])
@@ -34,6 +33,7 @@ def packs_for(t):
         p = dict(b7[lang])
         p.update(common[lang])
         p.update(treat[t][lang])
+        p.pop('figureSource', None)
         p.pop('m3Title', None)
         p.pop('m3Body', None)
         out[lang] = p
@@ -49,7 +49,7 @@ assert n == 1
 tpl, n = re.subn(r'(<img class="case-photo" src=")[^"]+(" width=")1080(" height=")656(")',
                  lambda m: m[1] + uri + m[2] + '1536' + m[3] + '1024' + m[4], tpl, count=1)
 assert n == 1
-tpl, n = re.subn(r'<a data-i18n="figureSource"[^>]*>(.*?)</a>', r'<span data-i18n="figureSource">\1</span>', tpl, count=1, flags=re.S)
+tpl, n = re.subn(r'<a data-i18n="figureSource"[^>]*>.*?</a>', '', tpl, count=1, flags=re.S)  # illustration pages keep only the figure caption line
 assert n == 1
 assert 'data-i18n="m3Title"' not in tpl
 
@@ -66,6 +66,10 @@ for batch, t, locale, folder in TARGETS:
     rec = {'batch': batch, 'treatment': t, 'locale': locale, 'directory': target.relative_to(ROOT).as_posix(),
            'reader_before_sha256': sha(target / 'case-reader.html'), 'index_before_sha256': sha(target / 'index.html'),
            'selected_copy_sha256': sha(target / 'selected-copy.json')}
+    if PREV:
+        old = next(x for x in PREV['targets'] if x['batch'] == batch)
+        rec['reader_before_sha256'], rec['index_before_sha256'] = old['reader_before_sha256'], old['index_before_sha256']
+        rec['rebuilt_after_caption_fix'] = True
     packs = packs_for(t)
     pack = packs[locale]
     out = COPY_RE.sub(lambda m: m[1] + json.dumps(packs, ensure_ascii=False) + m[3], tpl)
@@ -83,7 +87,8 @@ for batch, t, locale, folder in TARGETS:
     out = BTN.sub(lambda m: m[1] + str(m[2] == locale).lower() + m[3], out)
     assert FALLBACK in out
     out = out.replace(FALLBACK, "if (!allowed.includes(locale)) locale = '" + locale + "';")
-    assert 'sohu' not in out.lower() and 'm3Title' not in out
+    plain = re.sub(r'data:image/[a-z]+;base64,[A-Za-z0-9+/=]+', '', out).lower()
+    assert 'sohu' not in plain and 'm3title' not in plain
     (target / 'case-reader.html').write_text(out, encoding='utf-8')
     idx = target / 'index.html'
     new, c = re.subn(r'href="case-reader\.html(?:\?lang=[^"]+)?"', 'href="case-reader.html?lang=' + locale + '"', idx.read_text(encoding='utf-8-sig'))
