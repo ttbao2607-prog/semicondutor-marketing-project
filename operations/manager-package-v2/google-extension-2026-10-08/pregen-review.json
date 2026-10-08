@@ -1,0 +1,137 @@
+{
+  "stage": "PREGEN_SCRIPT",
+  "date": "2026-10-08",
+  "reviewer": "Codex root",
+  "independence": "SELF_REVIEW; no PO/native-market/independent certification",
+  "scope": "Manager package Google extension only. VI+zh-Hant manager prose; vi/en/zh-Hans/zh-Hant keyword references; existing destinations used as references, not newly accepted source ads/landing claims. No image generation or live actions.",
+  "branch": "slice/linkedin-package-v2-google-2026-10-08",
+  "binding": {
+    "anchor": {
+      "id": "VY-CONTENT-ANCHOR",
+      "revision": "1.0",
+      "path": "operations/Vy_Email_Content_Anchor.md",
+      "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+    },
+    "email": {
+      "id": "VY-MAIL-USER-20261006",
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+    },
+    "pov": {
+      "id": "PACKAGE-V2-WORKFLOW",
+      "revision": "1.1",
+      "sha256": "175819419af849498c6d93e7be29af703acd6aa4b98dac3a443315526091b0a6"
+    }
+  },
+  "copy_script_sha256": "fa0efc7791ded130c2d911873a92033c95470ab2077e2e223d2fb32dadf29f99",
+  "observations": [
+    {
+      "unit": "hero/budget",
+      "rules": [
+        "A1",
+        "A3",
+        "A7"
+      ],
+      "observed": "Đón người đang tìm giải pháp cho nhà máy / 接住正在尋找工廠管理解決方案的人; optional <=500000 inside11700000, no new executive question",
+      "disposition": "MATCH"
+    },
+    {
+      "unit": "hypothesis, both locales",
+      "rules": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ],
+      "observed": "VN ERP/hồ sơ/quy trình/dữ liệu prepares for supply-chain customer requirements; FDI lot/WIP/quality/outsource -> time/responsibility/risk; Search query intent separated from LinkedIn company lists and nationality",
+      "disposition": "MATCH"
+    },
+    {
+      "unit": "OSAT card + actual screenshot",
+      "rules": [
+        "A1",
+        "A4",
+        "A6",
+        "A7"
+      ],
+      "observed": "Truy xuất lot, dữ liệu kiểm thử và tiến độ WIP; ERP vs iMES explicitly scoped; screenshot operational questions, no invented metric/proof",
+      "disposition": "MATCH"
+    },
+    {
+      "unit": "Fabless card + actual screenshot",
+      "rules": [
+        "A1",
+        "A4",
+        "A6",
+        "A7"
+      ],
+      "observed": "WIP gia công ngoài, lịch giao, lot và phối hợp giá thành; screenshot Goods are not yet in stock. Decisions still need to be made.",
+      "disposition": "MATCH"
+    },
+    {
+      "unit": "Supplier card + actual screenshot",
+      "rules": [
+        "A1",
+        "A3",
+        "A4",
+        "A6",
+        "A7"
+      ],
+      "observed": "PCB, linh kiện, vật liệu / 工業供應商; ERP/MES/equipment layers scoped. Screenshot audience-context of existing route, industrial scope explicit despite broader source header",
+      "disposition": "MATCH_WITH_SOURCE_SCOPE"
+    },
+    {
+      "unit": "keyword panels +8locale text files",
+      "rules": [
+        "A1",
+        "A3",
+        "A6",
+        "A7"
+      ],
+      "observed": "VI proposed terms unqueried; EN/Hans/Hant first4+brand exactly backed by30Sep receipt;8Supplier terms newly proposed and unqueried; SI partner terms omitted; brand separate; negatives context-reviewed",
+      "disposition": "MATCH_AFTER_PREGEN_CORRECTION"
+    },
+    {
+      "unit": "tracking",
+      "rules": [
+        "A6",
+        "A7"
+      ],
+      "observed": "Existing section_view/time distinguished from planned new-probe attribution checks; consultation click distinct from valid lead; no invented success event or bidding configuration",
+      "disposition": "MATCH"
+    },
+    {
+      "unit": "probe/measurement/decision",
+      "rules": [
+        "A3",
+        "A4",
+        "A7"
+      ],
+      "observed": "One group/locale at a time; visible query click-weighted relevance plus coverage, unclear bucket; same cohort GA4, no per-user query attribution; no sample threshold, forecast or zero-demand inference",
+      "disposition": "MATCH"
+    },
+    {
+      "unit": "12wrapper changes +3MD+readme",
+      "rules": [
+        "A1",
+        "A3",
+        "A7"
+      ],
+      "observed": "Light Google link and short hypothesis preserve3budgetquestions, original17journeys170PNGs/workbook/evidence and existing VI peer / zh-Hant 我你 voice",
+      "disposition": "MATCH"
+    },
+    {
+      "unit": "transitions",
+      "rules": [
+        "A7"
+      ],
+      "observed": "Hypothesis -> relevant intent -> route and4locale link -> tracking -> measurement -> decision -> existing3budgetquestions. Documentary screenshots and online links not new full landing release",
+      "disposition": "MATCH_SCOPED"
+    }
+  ],
+  "proof": "No new customer outcome claims. Screenshots are actual public operational sections captured08Oct; full landing sources immutable and prior acceptance remains separately scoped.",
+  "postgen": "POSTGEN_NOT_RUN",
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "content_status": "SCRIPT_REVIEW_PASS_SCOPED_OFFLINE"
+}

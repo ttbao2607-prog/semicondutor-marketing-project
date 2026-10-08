@@ -139,3 +139,10 @@ Mỗi lần điều chỉnh, Bảo ghi rõ tín hiệu, phần thay và kết qu
 Bảo quyết định tệp, nội dung và nhịp chạy trong phạm vi được giao. Phần đầu tư giữ ba điểm Vy xem giúp: mức ngân sách, cơ cấu chi và cách đánh giá hiệu quả.
 
 [Xem 3 điểm đầu tư](de_xuat.html#ba-diem) · [Mở demo](../02_Demo/index.html)
+
+
+## 6. Search · nối với nhu cầu đang có
+
+LinkedIn xây liên tưởng về Digiwin và bài toán quản trị; Search quan sát người đang chủ động tìm giải pháp cho bài toán đó. Bảo dùng truy vấn thực tế, độ bao phủ, hành vi đọc và chi phí để chọn tiếp tục hay điều chỉnh từng nhóm nhỏ.
+
+[Xem ba trang đích, từ khóa theo ngôn ngữ, tracking và cách đo probe](../06_Google/index.html).

@@ -12,6 +12,8 @@ Tuần 1 Bảo chạy đúng plan, review cuối tuần rồi chọn hướng tu
 
 Bảo bổ sung phần logic quảng cáo để Vy xem cách chọn tệp chính/dự phòng, giả thuyết riêng cho VN–FDI và hai ví dụ nối hình ảnh với thông điệp. Phần này cũng chỉ rõ dữ liệu nào dẫn đến điều chỉnh tuần 2.
 
+Bảo cũng bổ sung tab Google Search: ba trang đích, bộ từ khóa theo ngôn ngữ, tracking và cách đo probe, để Vy thấy cách sử dụng phần Search tùy chọn 500.000 đồng.
+
 Vy mở **BAT_DAU.html** trong thư mục để xem đề xuất, logic quảng cáo, demo nội dung và file theo dõi. Bảo nhờ Vy xem giúp ba điểm để tổng hợp, trình lãnh đạo:
 
 1. Trần đầu tư 11,7 triệu đồng, chưa thuế.

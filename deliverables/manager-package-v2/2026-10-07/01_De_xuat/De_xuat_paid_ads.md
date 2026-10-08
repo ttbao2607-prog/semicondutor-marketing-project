@@ -25,6 +25,12 @@ Review cuối tuần 1 giúp Bảo phân biệt vấn đề ở đo lường, t�
 
 [Xem logic quảng cáo, hai ví dụ hình ảnh và matrix tuần 2](logic_quang_cao.html).
 
+## Google Search · bắt nhu cầu tìm giải pháp
+
+Search dùng phép thử nhỏ để đón người chủ động tìm giải pháp quản lý nhà máy. OSAT, Fabless và Supplier có ba trang đích với bốn ngôn ngữ; Bảo chọn từng nhóm từ khóa, đọc truy vấn thực tế, mức đọc và chi phí. Tối đa 500.000 đồng nằm trong tổng ngân sách.
+
+[Xem ba trang đích, từ khóa, tracking và cách đo Search probe](../06_Google/index.html).
+
 ## Ngân sách chưa thuế
 
 | Khoản | Mức đề xuất | Cách sử dụng |
