@@ -1,0 +1,24 @@
+{
+  "review_type": "ROOT_SELF_REVIEW",
+  "receipt_consistency": "PASS_SELF_REVIEW",
+  "audience_quality": "Discovery CHANGES_REQUIRED; R5 INSUFFICIENT_EVIDENCE; Master203 NOT_FULLY_AUDITED",
+  "overall_audit": "INSUFFICIENT_EVIDENCE",
+  "verified_canonical_notices": [
+    "CURRENT_STATE.md",
+    "README.md",
+    "DOCS_IMPACT_MAP.md",
+    "ads/linkedin/LinkedIn_Build_Pack.md",
+    "drafts/S03_LinkedIn_Audience_Research.md",
+    "operations/Pre_Ad_Readiness_Plan.md",
+    "operations/LinkedIn_Current_Progress_2026-10-07.md"
+  ],
+  "historical_content_preserved": "PASS; body equal HEAD after CRLF/LF normalization",
+  "private_evidence_hashes_verified": 49,
+  "public_raw_account_company_identifiers": "NONE_IN_NEW_RECEIPT",
+  "link_targets": "VERIFIED",
+  "git": "working files only; not staged/committed/merged/pushed",
+  "reviewed_files_sha256": {
+    "README.md": "15275b70ad21568da2ac165edee6f13a7734554b5de5a7e1f0e0055451a44864",
+    "readback.json": "b406510432ba80783328644ce8c3d381888290b94fafe931c6cf8e9aa87c0633"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "state": "SUBMITTED_ONCE_UPDATE_SUCCESS_SAVED_FILENAME_VERIFIED",
+  "submitted": true,
+  "file_rows": 52,
+  "file_bytes": 5302,
+  "file_sha256": "fe730e1bff87c0295d820ebbf8763f5e42e64c48d0d1dc72c07409083c4bbb34",
+  "target": "existing_R5",
+  "upload_validation": "Processing complete. Company list ready for upload.",
+  "last_action": "Returned to Matched table,4 preexisting audiences retained",
+  "recovery_sequence": "Re-upload first, Support only after settled failure",
+  "private_evidence": [
+    {
+      "file": "01-existing-edit.png",
+      "bytes": 73420,
+      "sha256": "036aaee61d905434d10d410894ac4d03720a2e299271cc7561d7709aeb03c13b"
+    },
+    {
+      "file": "01-existing-edit.txt",
+      "bytes": 8726,
+      "sha256": "e08f0fe4ada22af0b0e23525e9727ca9d97cad534144d3cbf75dc80b0cdfb8b1"
+    },
+    {
+      "file": "02-ready-for-update.png",
+      "bytes": 85535,
+      "sha256": "cead9735cbd80c54fea86f2c2446bdf7c7e382585cfb0d573e068d22ab1a7103"
+    },
+    {
+      "file": "02-ready-for-update.txt",
+      "bytes": 9078,
+      "sha256": "0f317cc2e1e21c7385e21e4870f14b8fb6fe23a3cd25f2232f144596ca661a7a"
+    },
+    {
+      "file": "03-after-submit.png",
+      "bytes": 87290,
+      "sha256": "9a88c4a2c12384f5419a0e5c52cd3c0694da0646d31a8ad7549606a98041a321"
+    },
+    {
+      "file": "03-after-submit.txt",
+      "bytes": 7147,
+      "sha256": "443eacf4b7d3a5844d769058117a4bdf735b5f061b99727cea89240c62a543e1"
+    },
+    {
+      "file": "04-reload.png",
+      "bytes": 84127,
+      "sha256": "1e2e1f42e65c705b135f27432567a2e4a65cedccb356408a65ed54b9875daa6a"
+    },
+    {
+      "file": "04-reload.txt",
+      "bytes": 10259,
+      "sha256": "8bacdd5534f6c9ea2d7725e4ceb18dc627c51c3dd8e2055f95c0b8c94887bc1f"
+    },
+    {
+      "file": "05-saved-filename.png",
+      "bytes": 73420,
+      "sha256": "036aaee61d905434d10d410894ac4d03720a2e299271cc7561d7709aeb03c13b"
+    },
+    {
+      "file": "05-saved-filename.txt",
+      "bytes": 8643,
+      "sha256": "baf512122ef1a720dadb0fe21c023406b58ee98a484e4c3819e2cb57be40e50b"
+    },
+    {
+      "file": "06-postupdate-matched.png",
+      "bytes": 75110,
+      "sha256": "bd2ed48e4011746b972b9233d3a5900a5da340306e94a5407929b8f8deb746b4"
+    },
+    {
+      "file": "06-postupdate-matched.txt",
+      "bytes": 6285,
+      "sha256": "15c3ad6159ee007a52534d3d0337885790b9254bc64c46dee1650ab089e200f3"
+    },
+    {
+      "file": "07-postupdate-details.png",
+      "bytes": 74922,
+      "sha256": "83e1759c82b60d7f828cf4132a2c694cd27b6e43101ff97893b9a249591b523d"
+    },
+    {
+      "file": "07-postupdate-details.txt",
+      "bytes": 3721,
+      "sha256": "5ade53920a8994755d940fa4872fd743d21042b886b88c62c60d58d4a0e5da89"
+    },
+    {
+      "file": "08-final-summary.png",
+      "bytes": 36017,
+      "sha256": "705424717c0408fb29e8222ac25cc99864b32faaf16d899a4382be1214ccd364"
+    },
+    {
+      "file": "08-final-summary.txt",
+      "bytes": 6773,
+      "sha256": "57c4841e3c2ceddd295616e124485c832f410b320aadec7ba5793fc9a82b1cff"
+    }
+  ],
+  "execution_status": "PARTIAL; re-upload complete, mapping unresolved",
+  "mapping_audit": "INSUFFICIENT_EVIDENCE",
+  "git": "working files only, no stage/commit/merge/push",
+  "submit_clicks": 1,
+  "ads_agreement": "EXPLICIT_ACTION_TIME_PO_CONFIRMATION_RECEIVED",
+  "submission_observed_at": "2026-10-08 14:25 Asia/Saigon approximately",
+  "success_toast": "Your audience has been successfully updated.",
+  "reload_status": "Ready",
+  "reload_match_rate": ">90%",
+  "reload_member_count": 444274,
+  "reload_last_modified": "2026-10-08",
+  "saved_filename_verified": true,
+  "edit_readback_exit": "Cancel; no second submit",
+  "post_retry_details": {
+    "companies": 0,
+    "matched": 0,
+    "unmatched": 0,
+    "quality": "INSUFFICIENT_EVIDENCE"
+  },
+  "new_audiences": 0,
+  "deletion": false,
+  "campaign_attachment": false,
+  "targeting_save": false,
+  "enable": false,
+  "spend": false,
+  "support_message_sent": false,
+  "next_read_only_checkpoint": "2026-10-09 at or after14:25 Asia/Saigon; proposed, not scheduled",
+  "retry_failure_rule": "Evaluate settled mapping at checkpoint; processing ongoing remains pending. Support only if recovery still fails."
+}
