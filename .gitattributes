@@ -102,3 +102,18 @@ operations/linkedin-safe-batches/parallel-partner-2026-10-07/B24-v2-main-integra
 
 # Preserve mixed historical newline bytes during bounded Partner row update
 operations/LinkedIn_Current_Progress_2026-10-07.md -text
+
+
+# Package v2: preserve reviewed delivery and internal evidence SHA256 bytes.
+# Local checkpoint only; no main adoption or lifecycle promotion.
+deliverables/manager-package-v2/** -text
+operations/manager-package-v2/phase2/** -text
+operations/manager-package-v2/phase3/** -text
+
+# Preserve current ad-logic review bindings; no lifecycle promotion.
+operations/manager-package-v2/ad-logic-2026-10-08/** -text
+
+# Preserve the separate evidence collection source/copy bytes.
+deliverables/manager-package-v2-evidence/** -text
+operations/manager-package-v2/evidence-collection-2026-10-08/** -text
+operations/manager-package-v2/zh-hant-2026-10-08/** -text

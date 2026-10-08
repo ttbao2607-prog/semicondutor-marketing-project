@@ -1,0 +1,19 @@
+# Source and logic disposition · 2026-10-08
+
+Phase 1 of the authorized extension. Source paths/hashes are captured in source-bindings.json before assembly. Dates below describe repository evidence, not fresh live observations.
+
+| Item | Source truth | Executive treatment |
+|---|---|---|
+| Original company list | Company-provided 424 rows retained. Research completed; identifiers supported on101 rows,105 field changes. Existing Discovery submitted once06Oct; postrepair mapping/reach pending. | Show preparation by identity repair, not a claim that all424 are newly ICP-qualified. No restart cleanup or stale780 reach forecast. |
+| Backup | Independent203 researched→52 distinct supported Company Pages. Ready/>90%07Oct; Details empty, row mapping not inspectable. | Explain fallback purpose and selection conditions; 52 refers to Pages. Brief dated operational next step: check mapping/filtered reach before use. No READY-as-buyer-quality claim. |
+| Filters | Temporary R5 estimates: Vietnam + English8200; +Engineering/IT/Operations/QA5000; +Manager/Director/VP/CXO460. Within each function/seniority layer OR, across layers AND. Vietnamese <300. | Explain narrowing logic. Keep transient counts and UI mechanics internal; no forecast, nationality inference or four audience pools. Finance creative does not justify adding Finance to the observed filters. |
+| Market/content | Vy anchor A1–A7; industrial supplier scope, VN readiness, FDI operational business value. | VN/FDI are separate hypotheses; language adapts expression, not customer qualification. |
+| Awareness | Category/buying-cue hypothesis and Digiwin association in carousel/optimization anchors. Current route is cold Single image→new-ad member cohort→Carousel RMK when eligible. | State desired memory as a goal. Attention/progression are observed signals; memory requires relevant feedback/measurement. Each touchpoint remains meaningful independently. |
+| Visual | R2 campaign kit and PO freeze: light white/blue/navy, natural material depth, shared brand treatment, semantic scene variation. | Explain that objects/relations express the operating question; reuse actual VN and B1 frames. No claim that consistency has proved brand recognition. |
+| Example proof | VN Aplus China, DigiHua iMES+TOP GP; B1 江苏中科智芯集成科技有限公司 China, integrated Digiwin ERP+iMES with MES tracing/exception mechanisms. | Keep named case/geography/solution beside the example. No ERP-only/general-local outcome or guarantee. No new quantitative claim in explanatory copy. |
+| Data matrix | Week1_Review_Week2_Data_Matrix.md and PO weekly decision. | Week1 follows plan; week2 changes the affected stage after end-week review. Measure before diagnosing creative; separate audience, delivery, cold, progression and thin data. Keep cap and Bảo autonomy. |
+| Main advanced | 08Oct main adopts Partner80PNG (B24held) and FablessB16only. | Current evidence is acknowledged internally; this bounded logic extension illustrates the existing accepted package VN/B1, not an asset-library expansion. No copying failed/held source selections. |
+
+Phase 2 split: budget/allocation/measurement remain the existing three questions for Vy. Hypothesis, filters, backup choice, creative swap, measurement diagnosis and pacing are Bảo's operating logic; they are explained to show preparation, not converted into extra approval requests. Integrity records, runtime model names, hashes, source statuses and raw account/company data stay outside delivery.
+
+Phase 3 voice: Bảo–Vy names; assert clear preparation and intended decisions, mark hypotheses as hypotheses, use a single dated operational note where needed. Do not dilute every sentence with defensive claims. The phrase “magic data” is interpreted as the already-discussed data matrix; the delivered label is “Dữ liệu dẫn đến quyết định nào?”.

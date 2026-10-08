@@ -1,0 +1,163 @@
+{
+  "revision": "package-v2-ad-logic-1.1",
+  "stage": "POSTGEN_ARTIFACT / POST_ASSEMBLY",
+  "reviewed_utc": "2026-10-08T02:35:32.905290+00:00",
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "anchor_id": "VY-CONTENT-ANCHOR",
+  "anchor_revision": "1.0",
+  "anchor_sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+  "email_record_id": "VY-MAIL-USER-20261006",
+  "email_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+  "workflow_revision": "1.1",
+  "workflow_sha256": "7fa12f6a362c437e032975e5ca5193791ed48d5dd35c4316cc7d9d34093dca93",
+  "branch": "slice/linkedin-package-v2-inventory",
+  "presentation_locale": "vi-VN",
+  "personas": [
+    "VN_DOMESTIC factory/quality readiness",
+    "FDI_OSAT Quality with Operations"
+  ],
+  "bindings": {
+    "prepared-copy.json": "743f7793c19f2c9c111d4c72e2c442f67b893a9ea8b144f1e0508966be1b5c93",
+    "build_extension.py": "6ec777289e2f53b3e22bfe9c1a816ba5930844747cb5ce5a1e9324c5f1c4e200",
+    "verify_extension.py": "4fe6bbfad3514aed12ae77fa72f1aca589771a39b1f1140fbf9b86ef3af1f9fa",
+    "source-bindings.json": "8214c88dcb9219e741f8a1903491a9ab3ed13aca28a8301a3165dbce87285cf6",
+    "pregen-review.json": "6d9f51e1d03c8b292a3e5c27c593a483ca6e3573e92e012d9ea2450809da63f3",
+    "final-file-manifest.json": "fe7bdfdc979cf7a5b6e17acb5f31f3e7c20040678ff169de17cfd81a0072b7a5",
+    "verification.json": "59a85409605e811df8cb9e498d53b8dd7a83f0ad963120e1153067a75d2c17f4",
+    "browser-evidence.json": "d50502b3744bd1ce2d70e64154716e4a9ac9573fba653e69ac905088c74d0125",
+    "browser-applicability.json": "8cf7f1d427133a96e4ddf8f80916de7f168461303cf96e55b258d4f8da42dd0b",
+    "main-source-reconciliation.json": "7d1ae838ddf255c3da5f316d8024f529365c971b64963265699586cb22e60a0e",
+    "Browser_Review_Notes.md": "46afc6f6b5127b83074759919bda491574c1e6822761a1e117679e85df93d972",
+    "Review_Receipt.md": "61b1a526c9845b73128b3714c07fbd184a3c8502a10760232466c5dbccd8d9e9"
+  },
+  "units": [
+    {
+      "id": "L1",
+      "description": "Audience identity, primary/backup and four filters",
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "id": "L2-VN",
+      "description": "Domestic ERP/readiness hypothesis",
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "id": "L2-FDI",
+      "description": "FDI implicit operating business value hypothesis",
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "id": "L3",
+      "description": "Visual consistency and semantic scene roles",
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "id": "VN-1",
+      "description": "Cold management readiness",
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "id": "VN-2",
+      "description": "Audit-record trigger",
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "id": "VN-3",
+      "description": "Aplus China / DigiHua iMES + TOP GP",
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "id": "FDI-1",
+      "description": "Unexpected test / lot / owner",
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "id": "FDI-2",
+      "description": "Split/merge record relation",
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "id": "FDI-3",
+      "description": "China integrated ERP + iMES / MES mechanism",
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "id": "L4",
+      "description": "Independent-context touchpoints and conditional new-ad RMK route",
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "id": "L5",
+      "description": "Seven-row week-2 matrix and measurement interpretation",
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "id": "HOME",
+      "description": "New entrypoint summary/navigation",
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "id": "PROPOSAL",
+      "description": "Logic summary + unchanged three investment points",
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "id": "MAIL",
+      "description": "Bảo–Vy preparation paragraph",
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "id": "DEMO",
+      "description": "Contextual logic link",
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "id": "LIBRARY",
+      "description": "Contextual logic link",
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "id": "INSTRUCTIONS",
+      "description": "Portable-folder instructions",
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    }
+  ],
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "content_status": "AD_LOGIC_PREPARED / BAO_REVIEW_PENDING",
+  "execution_status": "SUCCESS",
+  "independent_audit_status": "NOT_PERFORMED",
+  "scope_limitations": [
+    "No new ad-artwork or native-market certification",
+    "No retroactive upgrade of protected-source technical/live verdicts",
+    "375px responsive layout verified; physical/mobile:true touch input not certified",
+    "No source-library expansion"
+  ],
+  "delivery_files": 215,
+  "protected_files": 205,
+  "protected_png": 170,
+  "protected_journeys": 17,
+  "protected_readers": 17,
+  "protected_workbooks": 1,
+  "three_investment_questions_preserved": true,
+  "budget_before_tax_vnd": 11700000,
+  "new_image_generation": false,
+  "preview_cleanup": {
+    "tab_id": "1367561487",
+    "tab_closed": true,
+    "owned_pid": 22168,
+    "stopped": true,
+    "port": 8765,
+    "port_free": true
+  },
+  "git_delivery": {
+    "baseline_local_commit": "ecf87adc28cac2e39279824022ce98979efef142",
+    "new_extension": "working files only",
+    "staged": false,
+    "committed": false,
+    "merged_main": false,
+    "pushed": false,
+    "live_remote_checked": false
+  }
+}

@@ -1,0 +1,729 @@
+{
+  "date": "2026-10-07",
+  "remote_note": "Tracking refs after earlier recovery fetch; not a live GitHub verification or push.",
+  "repositories": {
+    "package": {
+      "path": "D:/LinkedIn_Package_V2_2026-10-07",
+      "head": "7796bc60df71c9795cbc0a06aa92ecff4dc1d957",
+      "branch": "slice/linkedin-package-v2-inventory",
+      "dirty_status": "M CURRENT_STATE.md\n M ads/linkedin/LinkedIn_Build_Pack.md\n M drafts/S04_Measurement_and_Budget.md\n M operations/LinkedIn_Cold_To_RMK_Data_Plan_2026-10-05.md\n M operations/LinkedIn_Current_Progress_2026-10-07.md\n M operations/LinkedIn_PO_Direction_Budget_Checkpoint_2026-10-06.md\n M operations/Pre_Ad_Readiness_Plan.md\n M operations/manager-package-v2/Package_V2_Three_Phase_Plan_2026-10-07.md\n M operations/manager-package-v2/Package_V2_Workflow_Anchor_2026-10-07.md\n M operations/manager-package-v2/README.md\n?? operations/manager-package-v2/phase1/",
+      "captured_utc": "2026-10-07T08:03:39.636452+00:00"
+    },
+    "main": {
+      "path": "D:/Digiwin_Semiconducter_Workspace",
+      "head": "196f26b9f3064fca8fe6b3b50b5707c2b54b65af",
+      "branch": "main",
+      "dirty_status": "",
+      "captured_utc": "2026-10-07T08:03:39.636452+00:00",
+      "remote_tracking_main": "2cf29d638a6ad212d5e1a583efbd2f3d68fafda2",
+      "ahead_behind_tracking": "22\t0"
+    },
+    "company": {
+      "path": "D:/optimize-awareness-LinkedIn-adcopy",
+      "head": "f2883d1c9db7c4abb72afa8998d2bde0cc192b74",
+      "branch": "slice/linkedin-audience-ready-research",
+      "dirty_status": "M CURRENT_STATE.md\n M DOCS_IMPACT_MAP.md\n M README.md\n M ads/linkedin/LinkedIn_Build_Pack.md\n M drafts/S03_LinkedIn_Audience_Research.md\n M operations/LinkedIn_Safe_Batch_Execution_Plan_2026-10-06.md\n M operations/Pre_Ad_Readiness_Plan.md\n M operations/linkedin-closeout/2026-10-05/STATE.md\n M operations/linkedin-locale-adapter/README.md\n?? .tmp-b1-review/\n?? .tmp-b2-b3-review/\n?? .tmp-b4-b5-review/\n?? .tmp-b67-html-review/\n?? .tmp-o3-html-review/\n?? deliverables/linkedin-locale-dogfood/2026-10-06/Digiwin_Traditional_Chinese_Candidate3_Dogfood_v1.zip\n?? operations/LinkedIn_Contingency_Master203_Upload_2026-10-06.md\n?? operations/linkedin-safe-batches/2026-10-07/B2-B3-main-integration/\n?? operations/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/po-acceptance-2026-10-07.json\n?? operations/linkedin-safe-batches/parallel-handoff-2026-10-07/",
+      "captured_utc": "2026-10-07T08:03:39.636452+00:00"
+    },
+    "backup": {
+      "path": "D:/Digiwin_LinkedIn_Contingency_Audience",
+      "head": "910923c17561ccad1a30eb78aa910cc7a4489a5b",
+      "branch": "slice/linkedin-contingency-audience",
+      "dirty_status": "",
+      "captured_utc": "2026-10-07T08:03:39.636452+00:00"
+    },
+    "fabless": {
+      "path": "D:/LinkedIn_Safe_Fabless_2026-10-07",
+      "head": "461a752f1aab7add8f21dfb5652d5e1097aa2247",
+      "branch": "slice/linkedin-safe-fabless-parallel",
+      "dirty_status": "?? operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/\n?? operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/\n?? operations/linkedin-safe-batches/parallel-fabless-2026-10-07/f2-authored-input.json\n?? operations/linkedin-safe-batches/parallel-fabless-2026-10-07/prepare_f2_batches.py",
+      "captured_utc": "2026-10-07T08:03:39.636452+00:00"
+    },
+    "partner": {
+      "path": "D:/LinkedIn_Safe_Partner_2026-10-07",
+      "head": "a09035d2887340cc63cc09fa4925481454c37e1a",
+      "branch": "slice/linkedin-safe-partner-parallel",
+      "dirty_status": "?? deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/\n?? deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/\n?? operations/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/\n?? operations/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/\n?? operations/linkedin-safe-batches/parallel-partner-2026-10-07/author_b27_b28.py\n?? operations/linkedin-safe-batches/parallel-partner-2026-10-07/b27-b28-execution-authority-v1.json\n?? operations/linkedin-safe-batches/parallel-partner-2026-10-07/b27-b28-intake-disposition-v1.json\n?? operations/linkedin-safe-batches/parallel-partner-2026-10-07/b27-b28-preview-start.json\n?? operations/linkedin-safe-batches/parallel-partner-2026-10-07/b27-b28-viewport-authority-v1.json\n?? operations/linkedin-safe-batches/parallel-partner-2026-10-07/build_b27_b28_viewers.py\n?? operations/linkedin-safe-batches/parallel-partner-2026-10-07/git-state-b27-b28-resume.txt\n?? operations/linkedin-safe-batches/parallel-partner-2026-10-07/review_release_b27_b28.py",
+      "captured_utc": "2026-10-07T08:03:39.636452+00:00"
+    },
+    "readers": {
+      "path": "D:/LinkedIn_FDI_Destination_HTML_2026-10-07",
+      "head": "5b99984b142c9799c4e03e4da9ae34509b6ea926",
+      "branch": "slice/linkedin-fdi-destination-html",
+      "dirty_status": "",
+      "captured_utc": "2026-10-07T08:03:39.636452+00:00"
+    },
+    "osat": {
+      "path": "D:/LinkedIn_Safe_OSAT_2026-10-07",
+      "head": "9adc1ce364e0e7b0f49900bce38004081a889f1a",
+      "branch": "slice/linkedin-safe-osat-parallel",
+      "dirty_status": "",
+      "captured_utc": "2026-10-07T08:03:39.636452+00:00"
+    }
+  },
+  "local_branches": [
+    {
+      "name": "main",
+      "commit": "196f26b9f3064fca8fe6b3b50b5707c2b54b65af",
+      "upstream": "origin/main",
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/ad-asset-inventory-workbook",
+      "commit": "4ce0189b8afd4b3c423c1edb86b40ab36fb41143",
+      "upstream": "origin/slice/ad-asset-inventory-workbook",
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main",
+        "  origin/slice/ad-asset-inventory-workbook",
+        "  origin/slice/google-planning-refresh",
+        "  origin/slice/landing-pagespeed-optimization",
+        "  origin/slice/linkedin-b2b-carousel-assets"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/audit-automation-artifacts",
+      "commit": "608f17fb0680d3360ca7c4ef34f7c8f7c7d5333b",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/awareness-tracking-plan",
+      "commit": "8e175bde4f56ac2102d5fb67fae0a1ea11eb3ca6",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main",
+        "  origin/slice/landing-pagespeed-optimization"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/budget-suggestion-canonical",
+      "commit": "ff493a72f8dcaf8af92a78729bc2823d910584d7",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/crm-audience-discovery",
+      "commit": "e747cdda81bf9d3d3d8c91aa79523eba49cc0021",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/docs-sync",
+      "commit": "2bc6f0b315ee751d093d91f5316d79be7ac3c032",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main",
+        "  origin/slice/landing-pagespeed-optimization"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/executive-budget-report",
+      "commit": "652317a3d5c1634771cbd38092a84f7cc027bc3c",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main",
+        "  origin/slice/landing-pagespeed-optimization",
+        "  origin/slice/linkedin-b2b-carousel-assets"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/executive-reporting-pack",
+      "commit": "ffc643fc8f02d5407e568d3f418408dd16ae5a6c",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/fabless-interaction-fix",
+      "commit": "8f94184288d5f3da8a7b8b796b8dbe7a11f0714d",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/fabless-ldp-canonical",
+      "commit": "37ea3e92c8bf52761814c7d939fde1f085e72eb9",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/git-consolidation-closeout",
+      "commit": "e00bf645f7b381b8b7932254ee783775dd926c03",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/google-planner-cluster-completion",
+      "commit": "b26051a3921b8cb6b9f52a141d0f901822073bd2",
+      "upstream": "origin/main",
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main",
+        "  origin/slice/landing-pagespeed-optimization",
+        "  origin/slice/linkedin-b2b-carousel-assets"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/google-planning-refresh",
+      "commit": "0839dc6114b82f44e855fe24b0f9e192d6f9dc62",
+      "upstream": "origin/slice/google-planning-refresh",
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main",
+        "  origin/slice/google-planning-refresh",
+        "  origin/slice/landing-pagespeed-optimization",
+        "  origin/slice/linkedin-b2b-carousel-assets"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/ladipage-osat-draft-import-retry",
+      "commit": "141118e974f2304c0ad0ca6c416808cea378eadf",
+      "upstream": "origin/slice/ladipage-osat-draft-import-retry",
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main",
+        "  origin/slice/ad-asset-inventory-workbook",
+        "  origin/slice/google-planning-refresh",
+        "  origin/slice/ladipage-osat-draft-import-retry",
+        "  origin/slice/landing-pagespeed-optimization",
+        "  origin/slice/linkedin-b2b-carousel-assets"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/landing-pagespeed-optimization",
+      "commit": "378fdebec8635e0ef48469c96c6e3b03b79195e4",
+      "upstream": "origin/slice/landing-pagespeed-optimization",
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main",
+        "  origin/slice/landing-pagespeed-optimization"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-anchor-adapter-main",
+      "commit": "e8ae1e453980381e3dd0215b83d165f966d98b86",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-audience-ready-research",
+      "commit": "f2883d1c9db7c4abb72afa8998d2bde0cc192b74",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-awareness-f1-progress",
+      "commit": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-awareness-operations-delivery",
+      "commit": "052b88bc0930729dab7b95493aaac4fcf8739ac7",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-awareness-operations-plan",
+      "commit": "052b88bc0930729dab7b95493aaac4fcf8739ac7",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-awareness-remaining-scenarios",
+      "commit": "dc7f3f747e43f1cae6872a3c87eb64e01ad3cdce",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-b1-v2-main",
+      "commit": "26f89d0526cd5d5f255782ce1e79401256b98a4b",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-b10-b12-approved-main",
+      "commit": "b985009b8cafab6bc76ba0930ce03bc3cf2d309b",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-b2-b3-approved-main",
+      "commit": "cc904e2c25bfbc191a2027916601d10a4a6ddf21",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-b2b-carousel-assets",
+      "commit": "c1fd9618d24d445c97b9d396b6273e08fd390ffc",
+      "upstream": "origin/slice/linkedin-b2b-carousel-assets",
+      "remote_tracking_refs_containing_tip": [
+        "origin/slice/linkedin-b2b-carousel-assets"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-b4-b5-approved-main",
+      "commit": "b2694b4ea9b556bb28562b1b22f10edefa1493e3",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-b6-b7-approved-main",
+      "commit": "65e06e8c82461664bc1ffd06853a277f1582a2a2",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-b8-b9-approved-main",
+      "commit": "568a16f2358c1f28fa6b34827ba6c82022045732",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-candidate2-main",
+      "commit": "e162eff2ee60d7292b0dfcbb864796a245f9462f",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-carousel-governance",
+      "commit": "505dc1e093c990717f489cdef66b8b8e493bc739",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main",
+        "  origin/slice/landing-pagespeed-optimization"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-carousel-pregen-brief",
+      "commit": "c06bfb1ab06d305d2c2d9bbfd68394885e9b75ec",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main",
+        "  origin/slice/landing-pagespeed-optimization"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-carousel-proof-requirement",
+      "commit": "db0f9ed20da4b4be7d43fca7a6c0e299d3d22582",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main",
+        "  origin/slice/landing-pagespeed-optimization"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-closeout-parallel",
+      "commit": "97cde8848b860aada82941f806cf3504bbf75ce5",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-contingency-audience",
+      "commit": "910923c17561ccad1a30eb78aa910cc7a4489a5b",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-current-docs-reconciliation",
+      "commit": "196f26b9f3064fca8fe6b3b50b5707c2b54b65af",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-fdi-destination-html",
+      "commit": "5b99984b142c9799c4e03e4da9ae34509b6ea926",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-harness-redesign-plan",
+      "commit": "52a2d4d8a0cf34a97bc4608fb4d36c55abbb71d9",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-locale-approved-main",
+      "commit": "efde2357efd5d9c8f97552ca1855b50afe7c5ba6",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-package-v2-inventory",
+      "commit": "7796bc60df71c9795cbc0a06aa92ecff4dc1d957",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-pivot-main",
+      "commit": "a563117a61c0462df7c74afcf0e8e29777013f3b",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-rmk-fulfillment",
+      "commit": "0bc00fb3ab885c854a4621ccf5d4e582356cc6ef",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-rmk-mobile-adapter",
+      "commit": "e375cf359ba91d774e4492f4ffd80bf8ec7eb34c",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-rmk-proof-plan",
+      "commit": "b70ee5a3c1b76bf6a1e29853b5698828915ca691",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-safe-fabless-parallel",
+      "commit": "461a752f1aab7add8f21dfb5652d5e1097aa2247",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-safe-osat-parallel",
+      "commit": "9adc1ce364e0e7b0f49900bce38004081a889f1a",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-safe-partner-parallel",
+      "commit": "a09035d2887340cc63cc09fa4925481454c37e1a",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-sanitized-validation-sync",
+      "commit": "dbb5ff1d32264c68aec8a52e9f202a95ab459ea9",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main",
+        "  origin/slice/landing-pagespeed-optimization"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-vn-journey-rebuild",
+      "commit": "4dda8694f10a7ae93b8574d781a0bb8498a193af",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-vn-v3-main",
+      "commit": "f362294c52dfe5be2b8aa3b0751dd1d036a6ee05",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-vn-value-main",
+      "commit": "5b31285beb854771b765cb38d4a7246553b18d7e",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/linkedin-vn-week2-main",
+      "commit": "e3bb7cd2cdb103b033048f72db5b106fd22298c3",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/manager-package-plan",
+      "commit": "b75d36381ce6ed189c9e4d319a970445d96f1a00",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/measurement-budget-scenarios",
+      "commit": "8c4d63fee689ad1f4d42be9b233f196582c8a59f",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main",
+        "  origin/slice/landing-pagespeed-optimization",
+        "  origin/slice/linkedin-b2b-carousel-assets"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/mobile-landing-compact-plan",
+      "commit": "11a3372041b628e3de2ff24b06f758a1191c15ab",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main",
+        "  origin/slice/landing-pagespeed-optimization"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/mobile-ldp-deploy-docs",
+      "commit": "bf6038d78fd32523dd7f7527b28db33a5075ead6",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main",
+        "  origin/slice/landing-pagespeed-optimization"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/optimize-awareness-linkedin-adcopy",
+      "commit": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/osat-document-ad-copy-corrective",
+      "commit": "304e1dc266bafc01365b9d399952434ec5d0b43d",
+      "upstream": "origin/slice/osat-document-ad-copy-corrective",
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main",
+        "  origin/slice/ad-asset-inventory-workbook",
+        "  origin/slice/google-planning-refresh",
+        "  origin/slice/ladipage-osat-draft-import-retry",
+        "  origin/slice/landing-pagespeed-optimization",
+        "  origin/slice/linkedin-b2b-carousel-assets",
+        "  origin/slice/osat-document-ad-copy-corrective"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/osat-ldp-canonical",
+      "commit": "bb892e2da535cd017c1347aa380b5aa1cbfaba1c",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main",
+        "  origin/slice/landing-pagespeed-optimization"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/partner-ambiguity-docs-main",
+      "commit": "d6eda95afaf9a81a5dc5bdde29c6eff2e749a928",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/reconciliation-offline-fix",
+      "commit": "f49ce83aab18779228fbe5f696d0bafab5cb770e",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/search-multilingual-rsa",
+      "commit": "54e80bca7bb08dcf6e9426b03210d0f2577d6e16",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/vy-docs-sync",
+      "commit": "9f45dd50935b2646dbc5601d39fb770927b9d8a1",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/vy-email-strategy-plan",
+      "commit": "c389c64fa1124a7fe91d2e9f8014f45e8b125cdd",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/vy-fabless-locales",
+      "commit": "7e15b40fe4b533b090989439751db7c4a425e5bf",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/vy-icp-segments",
+      "commit": "dd8aea268bbbe4c3261bfcf07887cd5d697c8120",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/vy-integration-candidate",
+      "commit": "2099d9e3402186e37fa0322372efdf8a023d825d",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [
+        "origin/HEAD -> origin/main",
+        "  origin/main"
+      ],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/vy-kpi-budget",
+      "commit": "6bdb42da26d8b2d710727a0c6e6f30f5528e5f8f",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/vy-language-spec",
+      "commit": "e324f1182c5352c50a810afd98b12badb72a06ac",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/vy-linkedin-locales",
+      "commit": "07237eb966011d49b6da159b50caeacd3e61ccef",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/vy-osat-locales",
+      "commit": "c391200af58b38638f524a21557c48c90e4bef5c",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/vy-search-keywords",
+      "commit": "08b92f7dcc598ca4996e3106cf803c5c8faba8af",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/vy-supplier-locales",
+      "commit": "933a6bbd2cfc56c37f63fdf829e4f998c63c75ca",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/vy-workbook-kpi",
+      "commit": "68a93058ffa8788b06ab4c13ae27e12b18dfc4fd",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    },
+    {
+      "name": "slice/word-polish-gemini",
+      "commit": "ddf06dc058056745e82bee9eb1bf2beab95d13bb",
+      "upstream": null,
+      "remote_tracking_refs_containing_tip": [],
+      "actual_remote_live_verified": false
+    }
+  ],
+  "worktrees_porcelain": "worktree D:/Digiwin_Semiconducter_Workspace\nHEAD 196f26b9f3064fca8fe6b3b50b5707c2b54b65af\nbranch refs/heads/main\n\nworktree D:/Digiwin_Fabless_Interaction_Fix\nHEAD 8f94184288d5f3da8a7b8b796b8dbe7a11f0714d\nbranch refs/heads/slice/fabless-interaction-fix\n\nworktree D:/Digiwin_LinkedIn_Contingency_Audience\nHEAD 910923c17561ccad1a30eb78aa910cc7a4489a5b\nbranch refs/heads/slice/linkedin-contingency-audience\n\nworktree D:/Digiwin_Reconciliation_Offline_Fix\nHEAD f49ce83aab18779228fbe5f696d0bafab5cb770e\nbranch refs/heads/slice/reconciliation-offline-fix\n\nworktree D:/LinkedIn_B10_B12_Approved_Main_2026-10-07\nHEAD b985009b8cafab6bc76ba0930ce03bc3cf2d309b\nbranch refs/heads/slice/linkedin-b10-b12-approved-main\n\nworktree D:/LinkedIn_B1_V2_Main_2026-10-06\nHEAD 26f89d0526cd5d5f255782ce1e79401256b98a4b\nbranch refs/heads/slice/linkedin-b1-v2-main\n\nworktree D:/LinkedIn_B2_B3_Approved_Main_2026-10-07\nHEAD cc904e2c25bfbc191a2027916601d10a4a6ddf21\nbranch refs/heads/slice/linkedin-b2-b3-approved-main\n\nworktree D:/LinkedIn_B4_B5_Approved_Main_2026-10-07\nHEAD b2694b4ea9b556bb28562b1b22f10edefa1493e3\nbranch refs/heads/slice/linkedin-b4-b5-approved-main\n\nworktree D:/LinkedIn_B6_B7_Approved_Main_2026-10-07\nHEAD 65e06e8c82461664bc1ffd06853a277f1582a2a2\nbranch refs/heads/slice/linkedin-b6-b7-approved-main\n\nworktree D:/LinkedIn_B8_B9_Approved_Main_2026-10-07\nHEAD 568a16f2358c1f28fa6b34827ba6c82022045732\nbranch refs/heads/slice/linkedin-b8-b9-approved-main\n\nworktree D:/LinkedIn_Candidate2_Main_2026-10-06\nHEAD e162eff2ee60d7292b0dfcbb864796a245f9462f\nbranch refs/heads/slice/linkedin-candidate2-main\n\nworktree D:/LinkedIn_Current_Docs_2026-10-07\nHEAD 196f26b9f3064fca8fe6b3b50b5707c2b54b65af\nbranch refs/heads/slice/linkedin-current-docs-reconciliation\n\nworktree D:/LinkedIn_FDI_Destination_HTML_2026-10-07\nHEAD 5b99984b142c9799c4e03e4da9ae34509b6ea926\nbranch refs/heads/slice/linkedin-fdi-destination-html\n\nworktree D:/LinkedIn_Locale_Approved_Main_Integration_2026-10-06\nHEAD efde2357efd5d9c8f97552ca1855b50afe7c5ba6\nbranch refs/heads/slice/linkedin-locale-approved-main\n\nworktree D:/LinkedIn_Package_V2_2026-10-07\nHEAD 7796bc60df71c9795cbc0a06aa92ecff4dc1d957\nbranch refs/heads/slice/linkedin-package-v2-inventory\n\nworktree D:/LinkedIn_Partner_Ambiguity_Main_2026-10-07\nHEAD d6eda95afaf9a81a5dc5bdde29c6eff2e749a928\nbranch refs/heads/slice/partner-ambiguity-docs-main\n\nworktree D:/LinkedIn_Safe_Fabless_2026-10-07\nHEAD 461a752f1aab7add8f21dfb5652d5e1097aa2247\nbranch refs/heads/slice/linkedin-safe-fabless-parallel\n\nworktree D:/LinkedIn_Safe_OSAT_2026-10-07\nHEAD 9adc1ce364e0e7b0f49900bce38004081a889f1a\nbranch refs/heads/slice/linkedin-safe-osat-parallel\n\nworktree D:/LinkedIn_Safe_Partner_2026-10-07\nHEAD a09035d2887340cc63cc09fa4925481454c37e1a\nbranch refs/heads/slice/linkedin-safe-partner-parallel\n\nworktree D:/LinkedIn_VN_V3_Main_Integration_2026-10-06\nHEAD f362294c52dfe5be2b8aa3b0751dd1d036a6ee05\nbranch refs/heads/slice/linkedin-vn-v3-main\n\nworktree D:/LinkedIn_VN_Week2_Main_2026-10-06\nHEAD e3bb7cd2cdb103b033048f72db5b106fd22298c3\nbranch refs/heads/slice/linkedin-vn-week2-main\n\nworktree D:/optimize-awareness-LinkedIn-adcopy\nHEAD f2883d1c9db7c4abb72afa8998d2bde0cc192b74\nbranch refs/heads/slice/linkedin-audience-ready-research",
+  "package_at_audit": {
+    "head": "7796bc60df71c9795cbc0a06aa92ecff4dc1d957",
+    "staged": "",
+    "changed_tracked": "CURRENT_STATE.md\nads/linkedin/LinkedIn_Build_Pack.md\ndrafts/S04_Measurement_and_Budget.md\noperations/LinkedIn_Cold_To_RMK_Data_Plan_2026-10-05.md\noperations/LinkedIn_Current_Progress_2026-10-07.md\noperations/LinkedIn_PO_Direction_Budget_Checkpoint_2026-10-06.md\noperations/Pre_Ad_Readiness_Plan.md\noperations/manager-package-v2/Package_V2_Three_Phase_Plan_2026-10-07.md\noperations/manager-package-v2/Package_V2_Workflow_Anchor_2026-10-07.md\noperations/manager-package-v2/README.md"
+  }
+}

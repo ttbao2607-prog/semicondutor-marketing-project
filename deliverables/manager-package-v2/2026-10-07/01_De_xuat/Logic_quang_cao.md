@@ -1,0 +1,141 @@
+# Logic quảng cáo và cách điều chỉnh theo dữ liệu
+
+**Bảo gửi Vy · Cập nhật 08/10/2026**
+
+Bảo bắt đầu từ đúng doanh nghiệp và người phụ trách, chọn một vấn đề họ cần giải quyết, rồi nối quảng cáo với phần giải thích và case. Mục tiêu awareness là để Digiwin được nhớ đến khi doanh nghiệp cân nhắc giải pháp quản trị cho bài toán đó.
+
+## 1. Chọn doanh nghiệp, rồi chọn người cần tiếp cận
+
+Ưu tiên chuỗi cung ứng bán dẫn và điện tử: PCB, substrate, linh kiện, vật liệu đóng gói và gia công chính xác cho thiết bị. Với mỗi nhóm, Bảo xét bài toán quản trị và nơi có quyền quyết định hệ thống để chọn hướng tiếp cận.
+
+1. **Doanh nghiệp:** Đối chiếu tên, website và Company Page để giảm nhầm định danh.
+
+2. **Việt Nam:** Khoanh phạm vi người làm việc tại thị trường cần tiếp cận.
+
+3. **Chức năng:** Chọn nhóm có trách nhiệm với vấn đề: vận hành, chất lượng, kỹ thuật hoặc IT.
+
+4. **Cấp bậc:** Thu hẹp tới nhóm quản lý có ảnh hưởng đến việc đánh giá giải pháp.
+
+### Tệp chính · 424 dòng công ty cung cấp
+
+Bảo giữ danh sách nguồn, nghiên cứu và bổ sung định danh website/Page nhằm giúp LinkedIn nhận diện đúng công ty. Độ phù hợp với từng hướng quảng cáo được xét cùng hoạt động, vai trò và phân phối thực tế.
+
+### Tệp dự phòng · 52 Company Pages
+
+Từ 203 đơn vị được nghiên cứu riêng, Bảo giữ 52 Company Pages có căn cứ định danh. Đây là phương án bổ sung khi tệp chính gặp vấn đề về mapping hoặc quy mô tiếp cận sau lọc. Bảo chọn tệp theo chất lượng mapping, quy mô và phân phối thực tế.
+
+Theo lần kiểm gần nhất 6–7/10, tệp chính đã gửi bản sửa và chờ đọc lại mapping/quy mô; backup hiển thị Ready, phần mapping chi tiết cần kiểm tiếp. Bước trước khi dùng là xác nhận đúng công ty và quy mô sau lọc.
+
+Ngôn ngữ nội dung được chọn theo nhóm người đọc. Nhóm nội địa/FDI và vai trò công việc được đối chiếu riêng; ngôn ngữ hồ sơ LinkedIn chỉ là một phần của cấu hình tiếp cận.
+
+## 2. Hai nhóm, hai giả thuyết nội dung
+
+### Nội địa · Chuẩn bị đáp ứng khách hàng trong chuỗi
+
+Giả thuyết: khi doanh nghiệp cần chuẩn bị cho yêu cầu đánh giá của khách hàng, nội dung về hồ sơ, quy trình và dữ liệu sẽ có ý nghĩa với người phụ trách. Bảo dùng ERP như cầu nối để chuẩn bị năng lực quản trị, rồi giải thích bằng cơ chế và case phù hợp.
+
+Liên tưởng muốn xây: Digiwin hiểu việc chuẩn bị năng lực quản trị để doanh nghiệp Việt từng bước tham gia chuỗi cung ứng bán dẫn.
+
+### FDI · Giải quyết vấn đề vận hành cụ thể
+
+Giả thuyết: người phụ trách sẽ quan tâm hơn khi quảng cáo bắt đầu từ tình huống họ nhận ra, như kết quả test bất thường hoặc các bộ phận nhìn trạng thái lot khác nhau. Phần tiếp theo làm rõ dữ liệu cần đối chiếu, trách nhiệm và giá trị phối hợp.
+
+Liên tưởng muốn xây: khi cần đánh giá giải pháp quản trị cho bài toán vận hành này, nghĩ đến Digiwin. Giá trị thể hiện qua thời gian, phối hợp và kiểm soát rủi ro.
+
+English và Chinese giữ cùng bài toán, mạch kể và phạm vi case; cách đặt câu, thuật ngữ và lời mời đọc tiếp được điều chỉnh cho người đọc của từng bản.
+
+## 3. Hình ảnh cùng kể một logic
+
+Logo Digiwin, nền sáng, xanh–navy và chất liệu có chiều sâu tạo sự nhất quán giữa các điểm chạm. Hồ sơ, linh kiện và đường nối dữ liệu giúp thể hiện câu hỏi vận hành: cần chuẩn bị gì, đối chiếu gì và ai chịu trách nhiệm. Cảnh thay đổi theo ý cần giải thích.
+
+Điểm xuyên suốt là chuyên môn quản trị gắn với ngành: mỗi quảng cáo giúp người đọc nhìn rõ một vấn đề và cách tiếp cận của Digiwin. Thông điệp, hình ảnh, case và trang đọc cùng phục vụ một người đọc và một bài toán.
+
+### Ví dụ VN · Từ năng lực quản trị đến hồ sơ đánh giá
+
+Người đọc: quản lý nhà máy hoặc chất lượng tại doanh nghiệp nội địa đang chuẩn bị đáp ứng khách hàng trong chuỗi. Mạch nội dung đi từ lời mời chuẩn bị năng lực quản trị tới hồ sơ cần đối chiếu, rồi case có cơ chế cụ thể.
+
+![Quảng cáo VN mở đầu: Digiwin đồng hành cùng doanh nghiệp Việt chuẩn bị năng lực quản trị để bước vào chuỗi bán dẫn.](../03_Thu_vien/vn-w1/assets/vn-cold-v4.png)
+
+**Mở đầu · Vì sao Digiwin liên quan?**
+
+Hồ sơ và linh kiện công nghiệp nối kinh nghiệm Digiwin với nhu cầu chuẩn bị quản trị của doanh nghiệp Việt.
+
+![Quảng cáo VN đặt câu hỏi: Khách hàng yêu cầu audit. Hồ sơ đã sẵn sàng?](../03_Thu_vien/vn-w1/assets/vn-r2-v4.png)
+
+**Giải thích · Chuẩn bị cho yêu cầu nào?**
+
+Câu hỏi về hồ sơ audit đưa mục tiêu tham gia chuỗi về một tình huống quản trị người phụ trách cần chuẩn bị.
+
+![Ảnh case Aplus tại Trung Quốc: báo công theo serial hỗ trợ truy xuất lịch sử từng sản phẩm.](../03_Thu_vien/vn-w1/assets/vn-e2-v4.png)
+
+**Case · Cơ chế được minh họa ra sao?**
+
+Case Aplus Semiconductor tại Trung Quốc minh họa truy xuất lịch sử theo serial, trong giải pháp DigiHua iMES + TOP GP.
+
+Ý muốn người đọc giữ lại: chuẩn bị đáp ứng khách hàng bắt đầu từ khả năng tổ chức và đối chiếu dữ liệu. ERP hỗ trợ năng lực quản trị; việc đánh giá nhà cung ứng theo yêu cầu cụ thể của khách hàng.
+
+[Xem toàn luồng](../03_Thu_vien/vn-w1/index.html) · [Đọc case](../03_Thu_vien/vn-w1/case-reader.html)
+
+### Ví dụ FDI · Đối chiếu kết quả theo lot
+
+Người đọc: Quality phối hợp Operations tại nhà máy đóng gói và kiểm thử. Giả thuyết là một câu hỏi sát công việc sẽ tạo chú ý; phần giải thích và case giúp người quan tâm hiểu giá trị của việc nối dữ liệu và trách nhiệm.
+
+![Quảng cáo English cho Quality: Unexpected test result? Start with the lot.](../03_Thu_vien/b1/assets/01-cold-osat-qa-01-image.png)
+
+**Mở đầu · Gọi đúng tình huống**
+
+Kết quả test bất thường dẫn tới câu hỏi về lot, thời điểm test và người phụ trách hồ sơ.
+
+![Card English Start with the right lot, minh họa các quan hệ giữa lot và hồ sơ liên quan.](../03_Thu_vien/b1/assets/03-o1-a2.png)
+
+**Giải thích · Chỉ rõ bước đối chiếu**
+
+Hình lot nối với các hồ sơ giải thích quan hệ dữ liệu cần kiểm khi lot được tách hoặc gộp.
+
+![Card case Trung Quốc nêu cơ chế MES nối batch, workstation, operator và product/material để truy vết.](../03_Thu_vien/b1/assets/09-rmk-r4-3.png)
+
+**Case · Đưa cơ chế vào bối cảnh thực**
+
+Case 江苏中科智芯集成科技有限公司 tại Trung Quốc dùng Digiwin ERP + iMES; phần MES nối dữ liệu truy vết và ghi nhận ngoại lệ.
+
+Giá trị muốn làm rõ: Quality và Operations có cơ sở chung để phối hợp bước kiểm tiếp theo. Case giúp giải thích cơ chế trong bối cảnh triển khai cụ thể.
+
+[Xem toàn luồng](../03_Thu_vien/b1/index.html) · [Đọc case](../03_Thu_vien/b1/case-reader.html)
+
+## 4. Mỗi điểm chạm có một nhiệm vụ
+
+**Ảnh đơn · Tạo chú ý**
+
+Đặt một vấn đề rõ với người đọc mới; nhận diện Digiwin và bài toán ngay trong quảng cáo.
+
+**Carousel · Giải thích sâu**
+
+Khi tệp tương tác với chính quảng cáo mới đủ điều kiện, nối câu hỏi ban đầu với cách đối chiếu và case phù hợp.
+
+**Trang đọc · Củng cố cơ sở**
+
+Giúp người muốn tìm hiểu xem bối cảnh triển khai, cơ chế giải pháp và bước trao đổi nhu cầu.
+
+Mỗi điểm chạm tự có ngữ cảnh; các phần cùng giữ người đọc, vấn đề và nhận diện Digiwin. Hai luồng VN và thư viện FDI cho phép Bảo thay đúng đoạn cần cải thiện, giữ mạch nội dung của cả luồng.
+
+## 5. Dữ liệu dẫn đến quyết định nào?
+
+Tuần 1 chạy đúng plan. Cuối tuần, Bảo đọc dữ liệu theo tệp, quảng cáo và cùng kỳ quan sát để chọn hướng tuần 2 trong trần ngân sách. Thay đổi bám vào nguyên nhân của từng khâu.
+
+| Tín hiệu quan sát | Hướng xử lý của Bảo |
+|---|---|
+| Đo lường thiếu hoặc lệch nguồn | Đối soát cách đo và nguồn dữ liệu trước khi đánh giá nội dung. |
+| Phân phối lệch công ty hoặc vai trò | Rà mapping và bộ lọc; cân nhắc tệp chính/backup theo dữ liệu tương ứng. |
+| Reach thấp, lặp lại hoặc nhịp chi chưa phù hợp | Kiểm quy mô sau lọc, cấu hình và pacing; điều chỉnh phân phối trong ngân sách. |
+| Đúng tệp, quảng cáo mở đầu ít tạo chú ý | Thay hook hoặc visual mở đầu phù hợp cùng persona và ngôn ngữ. |
+| Có quan tâm ban đầu, bước tìm hiểu tiếp yếu | Rà mạch chuyển tiếp; thay đúng phần giải thích, case hoặc trang đọc cần cải thiện. |
+| Tín hiệu tốt và tệp tương tác đủ điều kiện | Tiếp tục phần hiệu quả; dùng carousel RMK phù hợp với nhóm đã tương tác. |
+| Dữ liệu còn mỏng hoặc độ phủ hạn chế | Quan sát thêm, thu hẹp phép thử hoặc giữ lại ngân sách theo chất lượng tín hiệu. |
+
+Reach và tần suất cho biết cơ hội tiếp xúc; CTR, engagement và hành vi đi tiếp giúp đọc mức quan tâm. Liên tưởng về Digiwin là mục tiêu awareness cần được đánh giá riêng qua phản hồi hoặc phép đo phù hợp. Lead đã xác minh bổ sung tín hiệu thương mại.
+
+Mỗi lần điều chỉnh, Bảo ghi rõ tín hiệu, phần thay và kết quả lần review sau. Khi đổi hook, Bảo ưu tiên giữ cùng tệp, thông điệp và phần giải thích để đọc tác động; đổi nhiều yếu tố cùng lúc được đánh giá theo toàn bộ thay đổi.
+
+Bảo quyết định tệp, nội dung và nhịp chạy trong phạm vi được giao. Phần đầu tư giữ ba điểm Vy xem giúp: mức ngân sách, cơ cấu chi và cách đánh giá hiệu quả.
+
+[Xem 3 điểm đầu tư](de_xuat.html#ba-diem) · [Mở demo](../02_Demo/index.html)

@@ -1,0 +1,121 @@
+{
+  "revision": "evidence-v1",
+  "stage": "POST_ASSEMBLY / INTERNAL_REFERENCE_REVIEW",
+  "reviewed_utc": "2026-10-08T02:56:06.297302+00:00",
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "anchor_id": "VY-CONTENT-ANCHOR",
+  "anchor_revision": "1.0",
+  "anchor_sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+  "email_record_id": "VY-MAIL-USER-20261006",
+  "email_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+  "scope": "Six internal reference groups: source archives, labeled excerpts, short factual guides and three unchanged screenshot copies. No new ad, native image, landing UI or package revision.",
+  "unit_observations": [
+    {
+      "unit": "01 direction",
+      "observation": "Guide says VN ERP bridge to management readiness, FDI operating/time/coordination/risk value; original mail proposals are read through anchor classification.",
+      "rules": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7"
+      ],
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "unit": "02 audience",
+      "observation": "424 identity-repair report separated from independent 203→52 backup. Ready/empty Details and exact temporary estimates kept dated 06–07Oct; no buyers/FDI four-pool inference.",
+      "rules": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "unit": "03 budget/measurement",
+      "observation": "11.7m before-tax cap; 6.1m held inside cap; dashboard/accounting split; source matrix is preparation, not observed performance. KPI extract keeps provisional/event-source limits.",
+      "rules": [
+        "A3",
+        "A7"
+      ],
+      "verdict": "MESSAGE_ANCHOR_PASS; A4/A5/A6 N/A for purely operational reference, no product/outcome claim"
+    },
+    {
+      "unit": "04 approved logic/visual",
+      "observation": "Text matches approved VN/FDI logic, excluding local-link dependencies; meaningful material/records/relations and association goal retained. Visual R2 source is dated research.",
+      "rules": [
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7"
+      ],
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "unit": "05 cases/claims",
+      "observation": "700 consulting experience, not audit-success/local deployment count; Aplus China iMES + TOP GP with whole-project 3-month result; China case06 integrated solution and publisher outcome kept within source scope. Source status is historical.",
+      "rules": [
+        "A1",
+        "A2",
+        "A4",
+        "A5",
+        "A6",
+        "A7"
+      ],
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    },
+    {
+      "unit": "06 approval/version",
+      "observation": "Real user approval recorded; three existing screenshots and 215-file manifest identify exact approved offline presentation. No technical/native-market/touch/live scope upgrade.",
+      "rules": [
+        "A3",
+        "A7"
+      ],
+      "verdict": "MESSAGE_ANCHOR_PASS; no new ad outcome claim"
+    },
+    {
+      "unit": "topical navigation",
+      "observation": "Six group guides and 23 catalog targets exist within evidence folder; package dependencies removed from explanatory-text copy; archived raw TXT refs remain historical source references.",
+      "rules": [
+        "A7"
+      ],
+      "verdict": "MESSAGE_ANCHOR_PASS"
+    }
+  ],
+  "verdict": "MESSAGE_ANCHOR_PASS for this internal reference collection",
+  "execution_status": "SUCCESS",
+  "independent_audit_status": "NOT_PERFORMED",
+  "critical_checks": {
+    "23_evidence_entries": true,
+    "19_exact_copies": true,
+    "4_labeled_excerpts": true,
+    "all_copy_and_excerpt_hashes_match": true,
+    "six_group_guides": true,
+    "all_catalog_targets_resolve": true,
+    "package_215_files_unchanged": true,
+    "no_new_package_links": true,
+    "sensitive_pattern_scan": "no matches",
+    "zip_files": 0
+  },
+  "bindings": {
+    "pregen-review.json": "d5986a476b832feca9d5af92ec4dfdf6f43790a97847d8ba3ce5208bbb4f627a",
+    "final-files-manifest.json": "286ce393dae96f96295efef43ba4d9f5ae1655191fc073768fae788c85547e7c",
+    "_truy_xuat_nguon.json": "69c3ee676016d0470e946079a3fdbd6fb91ee4a539e3f3e4e285465614d6fab7"
+  },
+  "package_checkpoint": "d521c5fdd6c4c29cc55bebdabb9edeea395c588b",
+  "package_checkpoint_clean_before_collection": true,
+  "new_evidence_work": "local working files; not staged/committed",
+  "main_merge_or_push": false,
+  "new_account_or_public_web_observation": false,
+  "limitations": [
+    "Archived source references preserve original dates/revisions; no new verification of account readiness, rights or outcomes",
+    "Private company/account datasets and account screenshots are not copied into this sanitized collection",
+    "No independent audit or new mobile/native-market/live certification"
+  ]
+}

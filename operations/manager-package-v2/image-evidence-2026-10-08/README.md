@@ -1,0 +1,13 @@
+# Bổ sung ảnh bằng chứng · 08/10/2026
+
+Bảo yêu cầu có ảnh evidence thực trong kho nguồn. Đã xem và chọn 10 ảnh chụp đã lưu: 2 ảnh tệp chính 424 ngày 06/10, 5 ảnh backup 52/bộ lọc ngày 07/10, 3 ảnh Planner ngày 30/09. Không truy cập tài khoản hoặc tạo/chỉnh ảnh mới.
+
+- Kho repo: [ảnh Planner và chú thích](../../../deliverables/manager-package-v2-evidence/2026-10-08/00_ANH_BANG_CHUNG.md), 27 evidence entries/42 file nội dung. 23 entries của lần gom đầu giữ nguyên; bổ sung 3 ảnh và 1 biên bản Planner.
+- Bản đầy đủ: `D:/LinkedIn_Package_V2_Evidence_2026-10-08/00_ANH_BANG_CHUNG.md`, 34 entries/51 file. Thư mục thường ngoài Git, gồm nguồn văn bản và 10 ảnh thực; 7 ảnh LinkedIn có thông tin tài khoản nên chỉ nằm tại đây. Ba ảnh package ở nhóm 06 vẫn là bằng chứng trình bày offline, tách rõ với ảnh tài khoản/Planner.
+- Mỗi ảnh giữ nguyên byte. Caption phân biệt dữ kiện nhìn thấy với dữ kiện từ biên bản; 8.200/5.000 và toàn bộ seniority không hiển thị đủ trên ảnh tương ứng. Ready/>90% không chứng minh mapping đúng; 80% ở ảnh 06/10 là số cũ; estimate không phải delivered reach; Planner dấu gạch ngang không phải demand bằng 0.
+
+[Execution contract](Execution_Contract.md), [tiền kiểm](pregen-review.json), [hậu kiểm](review.json), [kết quả](collection-result.json), [manifest kho repo](public-files-manifest.json), [final checks](final-check.json). Root SELF_REVIEW trên pixels đã xem, caption/file thực và biên bản có ngày; không phải independent/native-market/live/mapping acceptance mới. Ảnh PDF page16 được loại vì thiếu nhãn Chinese và khác phạm vi nguồn BPS chưa giải quyết.
+
+Package Bảo duyệt tại d521c5fd vẫn 215 file đúng manifest, không thêm link. Receipts và 34 file nội dung evidence-v1 giữ nguyên; chỉ bổ sung entrypoints/catalog mới. File khóa ứng dụng `.~lock.*` không tính vào payload/manifest và có ignore rule riêng trong repo. Một file metadata khóa bị copy ở lượt đầu vẫn nằm ngoài Git, không được dùng làm evidence; không sửa file khóa gốc. Các thao tác ghi index đang mở không thành công; giữ snapshot gốc và thêm entrypoint mới, không đóng ứng dụng của Bảo. Bản đầy đủ có mục lục/chú thích cập nhật riêng. Các số 42/51 là số file nội dung, không tính metadata ứng dụng.
+
+Docs impact: cập nhật scoped notices của CURRENT_STATE, DOCS_IMPACT_MAP, current progress và package README; ignore rule chỉ bảo vệ metadata khóa local của kho evidence. Không thay anchor/harness/adapter, ngân sách, campaign/targeting hoặc technical/live verdict. Kho/notices còn working files local, chưa commit/main/push. collect.py là tiện ích một lần, từ chối ghi đè bản đầy đủ đã tồn tại; lần chạy mới loại metadata khóa ngay khi copy.

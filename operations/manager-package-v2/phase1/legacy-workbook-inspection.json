@@ -1,0 +1,3092 @@
+{
+  "source_id": "SRC-LEGACY-WORKBOOK",
+  "analysis": "READ_ONLY_ZIP_XML_EXTRACTION",
+  "native_excel_recalculation": "NOT_RUN",
+  "sheets": [
+    {
+      "name": "00_Tong_quan",
+      "dimension": null,
+      "cells": [
+        {
+          "cell": "A2",
+          "value": "Chiến dịch bán dẫn · Báo cáo Bảo",
+          "type": "str"
+        },
+        {
+          "cell": "A5",
+          "value": "Nội dung",
+          "type": "str"
+        },
+        {
+          "cell": "B5",
+          "value": "Tình trạng / quyết định tiếp theo",
+          "type": "str"
+        },
+        {
+          "cell": "A6",
+          "value": "Ngày cập nhật",
+          "type": "str"
+        },
+        {
+          "cell": "B6",
+          "value": "2026-10-05T00:00:00.000Z",
+          "type": "d"
+        },
+        {
+          "cell": "A7",
+          "value": "Hướng tiếp cận",
+          "type": "str"
+        },
+        {
+          "cell": "B7",
+          "value": "Cold Brand awareness + Single image → Carousel RMK từ ads mới. Pilot nhận diện/evidence, không lấy lead/CPL/ROI làm điều kiện thành công.",
+          "type": "str"
+        },
+        {
+          "cell": "A8",
+          "value": "Cold",
+          "type": "str"
+        },
+        {
+          "cell": "B8",
+          "value": "Ba concept cold Single image; một bản thử OSAT còn cần chỉnh, chưa nghiệm thu bộ ảnh cold mới.",
+          "type": "str"
+        },
+        {
+          "cell": "A9",
+          "value": "Tiếp thị lại",
+          "type": "str"
+        },
+        {
+          "cell": "B9",
+          "value": "11 Carousel giải thích/55 ảnh + 4 case chứng minh/16 ảnh; 2 trang chi tiết xem thử. Giữ phiên bản thư viện hiện có, không bảo đảm phân phối tuần tự.",
+          "type": "str"
+        },
+        {
+          "cell": "A10",
+          "value": "Đối tượng",
+          "type": "str"
+        },
+        {
+          "cell": "B10",
+          "value": "Giữ 424 dòng công ty cung cấp; sửa ghép Company Page/bổ sung định danh rồi đo lại. Ready/80% không chứng minh đúng mapping;780 là trước sửa, English không chỉ hồ sơ Anh.",
+          "type": "str"
+        },
+        {
+          "cell": "A11",
+          "value": "Trần media đề xuất",
+          "type": "str"
+        },
+        {
+          "cell": "B11",
+          "value": "11700000",
+          "type": "n"
+        },
+        {
+          "cell": "A12",
+          "value": "Đợt media đầu tham chiếu",
+          "type": "str"
+        },
+        {
+          "cell": "B12",
+          "value": "5600000",
+          "type": "n"
+        },
+        {
+          "cell": "A13",
+          "value": "Mức duyệt đã ghi nhận",
+          "type": "str"
+        },
+        {
+          "cell": "B13",
+          "value": "Chưa xác nhận",
+          "type": "str"
+        },
+        {
+          "cell": "A14",
+          "value": "Thực chi đã ghi nhận đến nay",
+          "type": "str"
+        },
+        {
+          "cell": "B14",
+          "value": "Chưa có dữ liệu",
+          "type": "str"
+        },
+        {
+          "cell": "A15",
+          "value": "Giữ lại, chưa giải ngân",
+          "type": "str"
+        },
+        {
+          "cell": "B15",
+          "value": "6100000",
+          "type": "n"
+        },
+        {
+          "cell": "A16",
+          "value": "Thuế/phí",
+          "type": "str"
+        },
+        {
+          "cell": "B16",
+          "value": "Media + thuế/phí từng kênh được Finance xác nhận + khoản khác đúng phạm vi. Tổng all-in chưa chốt; mỗi khoản một lần.",
+          "type": "str"
+        },
+        {
+          "cell": "A17",
+          "value": "Việc cần thống nhất 1",
+          "type": "str"
+        },
+        {
+          "cell": "B17",
+          "value": "Nội dung, ngôn ngữ và cấu hình nhóm mục tiêu chạy đầu",
+          "type": "str"
+        },
+        {
+          "cell": "A18",
+          "value": "Việc cần thống nhất 2",
+          "type": "str"
+        },
+        {
+          "cell": "B18",
+          "value": "5,6M quan sát reach đúng tệp, frequency, delivery và phản ứng thông điệp. 400k/ngày tham chiếu; daily cuối sau sửa matching + forecast Single image, kiểm USD/minimum;14 ngày quản lý.",
+          "type": "str"
+        },
+        {
+          "cell": "A19",
+          "value": "Việc cần thống nhất 3",
+          "type": "str"
+        },
+        {
+          "cell": "B19",
+          "value": "Nguồn Single image được hỗ trợ nhưng tệp ads mới chưa tạo/Ready; kiểm lọc≥300 matched trước RMK. Finance và Search scope/cost/coverage còn chờ.",
+          "type": "str"
+        },
+        {
+          "cell": "A20",
+          "value": "Cách cập nhật",
+          "type": "str"
+        },
+        {
+          "cell": "B20",
+          "value": "Đọc đề xuất tại trang 22 câu hỏi; chọn Ghi ý kiến khi cần, xem lại rồi xác nhận và Lưu biên bản. Bảo đối chiếu vào 01_Quyet_dinh bằng tay; câu chưa trả lời giữ Chưa quyết định.",
+          "type": "str"
+        },
+        {
+          "cell": "A21",
+          "value": "Đọc báo cáo",
+          "type": "str"
+        },
+        {
+          "cell": "B21",
+          "value": "Bảo phụ trách paid, gửi căn cứ và đề xuất cho Vy review, tổng hợp và trình lãnh đạo.",
+          "type": "str"
+        },
+        {
+          "cell": "A23",
+          "value": "Phiên bản đề xuất",
+          "type": "str"
+        },
+        {
+          "cell": "B23",
+          "value": "2026-10-06-quyet-dinh-6",
+          "type": "str"
+        },
+        {
+          "cell": "A26",
+          "value": "Nhóm 1 · Trần chương trình và khoản đầu",
+          "type": "str"
+        },
+        {
+          "cell": "B26",
+          "value": "11,7 triệu media đề xuất; 5,6 triệu đợt đầu; 6,1 triệu giữ lại. Thuế/phí chờ Finance. · Q1, Q2, Q3, Q5",
+          "type": "str"
+        },
+        {
+          "cell": "A27",
+          "value": "Nhóm 2 · Quan sát và căn cứ chi tiếp",
+          "type": "str"
+        },
+        {
+          "cell": "B27",
+          "value": "14 ngày quan sát tệp, reach, delivery và phản ứng thông điệp để review tiếp tục/điều chỉnh/dừng; tỷ lệ lịch sử và lead chỉ là dữ liệu phụ. · Q4, Q7, Q8, Q9, Q10, Q11, Q14, Q15",
+          "type": "str"
+        },
+        {
+          "cell": "A28",
+          "value": "Nhóm 3 · Tệp mục tiêu",
+          "type": "str"
+        },
+        {
+          "cell": "B28",
+          "value": "Sửa ghép Company Page, giữ danh sách công ty cung cấp; đo lại quy mô/forecast trước chốt daily budget. · Q16, Q17",
+          "type": "str"
+        },
+        {
+          "cell": "A29",
+          "value": "Nhóm 4 · Awareness trước, tiếp thị lại sau",
+          "type": "str"
+        },
+        {
+          "cell": "B29",
+          "value": "Cold Brand awareness + Single image trước; Carousel giải thích và case chứng minh cho RMK sau. Creative cold và tệp từ ads mới chưa sẵn sàng. · Q18",
+          "type": "str"
+        },
+        {
+          "cell": "A30",
+          "value": "Nhóm 5 · Thử nhu cầu Search có trần chi",
+          "type": "str"
+        },
+        {
+          "cell": "B30",
+          "value": "Thử truy vấn phù hợp với trần ≤500.000đ, không cam kết chi tối thiểu; dừng khi hết trần/thời hạn hoặc lỗi. Tiền chưa tiêu giữ lại, không mở rộng để ép chi. · Q6, Q12, Q13, Q19, Q20",
+          "type": "str"
+        },
+        {
+          "cell": "A31",
+          "value": "Nhóm 6 · Ngôn ngữ, trang đích và đo lường",
+          "type": "str"
+        },
+        {
+          "cell": "B31",
+          "value": "Chọn phạm vi dùng đầu tiên và có xác nhận chuyên môn/hiện trạng riêng. · Q21, Q22",
+          "type": "str"
+        }
+      ],
+      "formulas": [
+        {
+          "cell": "B11",
+          "formula": "'03_Ngan_sach'!B13",
+          "cached_value": "11700000"
+        },
+        {
+          "cell": "B12",
+          "formula": "'03_Ngan_sach'!G6",
+          "cached_value": "5600000"
+        },
+        {
+          "cell": "B13",
+          "formula": "'03_Ngan_sach'!H11",
+          "cached_value": "Chưa xác nhận"
+        },
+        {
+          "cell": "B14",
+          "formula": "'03_Ngan_sach'!I11",
+          "cached_value": "Chưa có dữ liệu"
+        },
+        {
+          "cell": "B15",
+          "formula": "'03_Ngan_sach'!B15",
+          "cached_value": "6100000"
+        },
+        {
+          "cell": "B16",
+          "formula": "'03_Ngan_sach'!B14",
+          "cached_value": "Media + thuế/phí từng kênh được Finance xác nhận + khoản khác đúng phạm vi. Tổng all-in chưa chốt; mỗi khoản một lần."
+        }
+      ]
+    },
+    {
+      "name": "01_Quyet_dinh",
+      "dimension": null,
+      "cells": [
+        {
+          "cell": "A2",
+          "value": "Các nội dung cần thống nhất · 05/10/2026",
+          "type": "str"
+        },
+        {
+          "cell": "A5",
+          "value": "Mã câu",
+          "type": "str"
+        },
+        {
+          "cell": "B5",
+          "value": "Câu hỏi",
+          "type": "str"
+        },
+        {
+          "cell": "C5",
+          "value": "Đề xuất hiện tại / phạm vi",
+          "type": "str"
+        },
+        {
+          "cell": "D5",
+          "value": "Người phụ trách / quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "E5",
+          "value": "Hạn dự kiến",
+          "type": "str"
+        },
+        {
+          "cell": "F5",
+          "value": "Trạng thái",
+          "type": "str"
+        },
+        {
+          "cell": "G5",
+          "value": "Ý kiến / kết quả",
+          "type": "str"
+        },
+        {
+          "cell": "H5",
+          "value": "Ngày ghi nhận",
+          "type": "str"
+        },
+        {
+          "cell": "I5",
+          "value": "Nguồn",
+          "type": "str"
+        },
+        {
+          "cell": "A6",
+          "value": "1",
+          "type": "n"
+        },
+        {
+          "cell": "B6",
+          "value": "Thống nhất đề xuất trần tiền quảng cáo 11,7 triệu đồng để Vy tổng hợp trình lãnh đạo",
+          "type": "str"
+        },
+        {
+          "cell": "C6",
+          "value": "Trần media đề xuất 11,7 triệu = đợt đầu 5,6 triệu + tối đa một đợt tiếp theo 5,6 triệu + Search tối đa 500.000đ. Trong đó 6,1 triệu giữ lại, chưa phân bổ triển khai/giải ngân, chỉ xét sau dữ liệu đợt đầu. Giới hạn hai đợt quan sát và một probe nhằm khống chế rủi ro chi; đây là mức tham chiếu lập kế hoạch, chưa phải ngân sách tối ưu. Thuế/phí tính riêng sau đối soát Finance. Bảo gửi căn cứ và đề xuất cho Vy review, tổng hợp và trình lãnh đạo.",
+          "type": "str"
+        },
+        {
+          "cell": "D6",
+          "value": "Bảo chuẩn bị; Vy góp ý và tổng hợp trình lãnh đạo",
+          "type": "str"
+        },
+        {
+          "cell": "E6",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F6",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I6",
+          "value": "Đề xuất v6 · Q1 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A7",
+          "value": "2",
+          "type": "n"
+        },
+        {
+          "cell": "B7",
+          "value": "Xác nhận cách tính ngân sách, thuế và phí NET/GROSS với Finance",
+          "type": "str"
+        },
+        {
+          "cell": "C7",
+          "value": "11,7 triệu chỉ là tiền quảng cáo; tổng chi = media + thuế/phí đã được Finance xác nhận + khoản khác thực sự thuộc phạm vi, mỗi khoản tính một lần. Finance đối soát billing từng kênh để chốt tổng chi trước triển khai; tỷ lệ thuế/phí, tổng all-in và ngày chi còn cần xác nhận.",
+          "type": "str"
+        },
+        {
+          "cell": "D7",
+          "value": "Finance đối soát; Bảo quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "E7",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F7",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I7",
+          "value": "Đề xuất v6 · Q2 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A8",
+          "value": "3",
+          "type": "n"
+        },
+        {
+          "cell": "B8",
+          "value": "Phân kỳ chi: đợt LinkedIn đầu và phần giữ lại có điều kiện",
+          "type": "str"
+        },
+        {
+          "cell": "C8",
+          "value": "Đợt đầu tham chiếu 400.000đ/ngày × 14 ngày = 5,6 triệu media cho cold Brand awareness + Single image, tập trung một nhóm đã xác minh và ít mẫu đại diện. Daily budget cuối chỉ chốt sau làm sạch tệp + forecast đúng cấu hình + kiểm tra minimum/currency/bidding; đủ delivery để quan sát nhưng không ép spend/frequency. Không chia sẵn FDI/nội địa. Đợt tiếp theo ≤5,6 triệu và Search ≤500.000đ nằm trong 6,1 triệu giữ lại, chỉ xét phân bổ sau dữ liệu đợt đầu. Đổi mức/ngày hoặc thời lượng cần tính lại toàn bảng và review lại đề xuất. Tài khoản kiểm tra 05/10 dùng USD; cần quy đổi và kiểm minimum trên forecast mới, không suy mức VND tham chiếu là setting đã khả dụng.",
+          "type": "str"
+        },
+        {
+          "cell": "D8",
+          "value": "Bảo; Vy cùng thống nhất phương án",
+          "type": "str"
+        },
+        {
+          "cell": "E8",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F8",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I8",
+          "value": "Đề xuất v6 · Q3 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A9",
+          "value": "4",
+          "type": "n"
+        },
+        {
+          "cell": "B9",
+          "value": "Cửa sổ quản lý 56 ngày và đợt quan sát đầu 14 ngày liên tục",
+          "type": "str"
+        },
+        {
+          "cell": "C9",
+          "value": "14 ngày là cửa sổ quan sát đề xuất để quản lý hai chu kỳ tuần: ngày 3 kiểm tra vận hành, ngày 7 review ban đầu, cuối ngày 14 Bảo tổng hợp evidence/recommendation gửi Vy. Review không đồng nghĩa pause; đối soát song song, không lịch nghỉ cố định. Không coi 14 ngày là yêu cầu learning, ý nghĩa thống kê hoặc bảo đảm đủ mẫu. 15 ngày chỉ xét nếu thực sự chọn Cost Cap theo guidance tương ứng; phải tính lại và review ngân sách. 56 ngày là cửa sổ quản lý, ngày bắt đầu chưa chốt; RMK chỉ mở khi nguồn ads mới và điều kiện sử dụng đủ.",
+          "type": "str"
+        },
+        {
+          "cell": "D9",
+          "value": "Bảo; Vy cùng thống nhất phương án",
+          "type": "str"
+        },
+        {
+          "cell": "E9",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F9",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I9",
+          "value": "Đề xuất v6 · Q4 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A10",
+          "value": "5",
+          "type": "n"
+        },
+        {
+          "cell": "B10",
+          "value": "Điều kiện xét đợt tiếp theo và đề xuất mở rộng riêng",
+          "type": "str"
+        },
+        {
+          "cell": "C10",
+          "value": "Sau đợt đầu, Bảo tổng hợp chi thực, reach/frequency, chất lượng tệp và độ bao phủ dữ liệu để Vy review, tổng hợp trình lãnh đạo. Tối đa một đợt tiếp theo ≤5,6 triệu media trong trần 11,7 triệu; awareness/RMK dùng chung giới hạn đó khi đủ điều kiện, không nhân theo phân khúc hay bộ mẫu. Khoản này hiện giữ lại; Bảo đề xuất tiền, thời lượng và phạm vi dựa trên dữ liệu đợt đầu. Mở rộng ngoài chương trình cần đề xuất mới.",
+          "type": "str"
+        },
+        {
+          "cell": "D10",
+          "value": "Bảo đề xuất; Vy tổng hợp ý kiến quản lý",
+          "type": "str"
+        },
+        {
+          "cell": "E10",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F10",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I10",
+          "value": "Đề xuất v6 · Q5 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A11",
+          "value": "6",
+          "type": "n"
+        },
+        {
+          "cell": "B11",
+          "value": "Quan sát độ phù hợp và độ bao phủ truy vấn Search",
+          "type": "str"
+        },
+        {
+          "cell": "C11",
+          "value": "Ghi clicks từ truy vấn hiển thị đã phân loại phù hợp / tổng clicks từ truy vấn hiển thị đã phân loại, cùng quy tắc/kỳ; kèm clicks phân loại/tổng clicks quảng cáo để thấy coverage. ≥70% và 20 clicks là giả thuyết lịch sử chưa kiểm chứng, không ngưỡng đạt hoặc mẫu bắt buộc. Mẫu số 0 không tính; thiếu mẫu/coverage thì chưa kết luận. Chốt scope, quy tắc phù hợp và giới hạn chi trước probe; không vượt trần để đạt mẫu.",
+          "type": "str"
+        },
+        {
+          "cell": "D11",
+          "value": "Bảo",
+          "type": "str"
+        },
+        {
+          "cell": "E11",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F11",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I11",
+          "value": "Đề xuất v6 · Q6 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A12",
+          "value": "7",
+          "type": "n"
+        },
+        {
+          "cell": "B12",
+          "value": "Quan sát tỷ lệ phiên tương tác trên website trong GA4",
+          "type": "str"
+        },
+        {
+          "cell": "C12",
+          "value": "Ghi phiên từ quảng cáo có tương tác / tổng phiên từ quảng cáo, cùng trang đích/nguồn/ngôn ngữ/kỳ trong GA4. ≥80% mức nền và 100 sessions mỗi nhóm là giả thuyết lịch sử chưa kiểm chứng, không điều kiện thành công/duyệt chi hoặc mẫu bắt buộc. Chưa có baseline; thiếu hoặc 0 mẫu số không tính. Chỉ số website phụ, không thay tương tác ngay trên LinkedIn.",
+          "type": "str"
+        },
+        {
+          "cell": "D12",
+          "value": "Bảo; người kiểm tra đo lường xác nhận dữ liệu",
+          "type": "str"
+        },
+        {
+          "cell": "E12",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F12",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I12",
+          "value": "Đề xuất v6 · Q7 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A13",
+          "value": "8",
+          "type": "n"
+        },
+        {
+          "cell": "B13",
+          "value": "Quan sát thay đổi tương đối khi có baseline phù hợp",
+          "type": "str"
+        },
+        {
+          "cell": "C13",
+          "value": "Giữ phương pháp (chỉ số kỳ so sánh − chỉ số nền) / chỉ số nền, cùng chỉ số/nguồn/nhóm dữ liệu, chiều tăng là tốt; chi phí chiều giảm đo riêng Q9. ≥20% là giả thuyết lịch sử chưa kiểm chứng, không ngưỡng thành công/duyệt chi. Baseline thiếu/0 hoặc thiếu mẫu/coverage: không kết luận mức cải thiện. LinkedIn dùng Campaign Manager, website dùng GA4 với đúng mẫu số. Quyết định đợt tiếp dựa trên dữ liệu tệp, delivery, reach và chất lượng đo lường thực tế, không bắt buộc đạt tỷ lệ này.",
+          "type": "str"
+        },
+        {
+          "cell": "D13",
+          "value": "Bảo",
+          "type": "str"
+        },
+        {
+          "cell": "E13",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F13",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I13",
+          "value": "Đề xuất v6 · Q8 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A14",
+          "value": "9",
+          "type": "n"
+        },
+        {
+          "cell": "B14",
+          "value": "Quan sát chi phí mỗi phiên tương tác trên website",
+          "type": "str"
+        },
+        {
+          "cell": "C14",
+          "value": "Chi media đã đối soát của cùng nhóm dữ liệu trả phí / số phiên từ quảng cáo có tương tác trong GA4 của nhóm đó. Giảm ≥15% là giả thuyết lịch sử chưa kiểm chứng, không ngưỡng thành công/duyệt chi. Chưa có baseline; thiếu hoặc 0 phiên có tương tác không tính; nguồn quy gán không khớp báo riêng. Chỉ so sánh khi chất lượng tương đương; không thay dữ liệu awareness/tương tác trên nền tảng.",
+          "type": "str"
+        },
+        {
+          "cell": "D14",
+          "value": "Bảo",
+          "type": "str"
+        },
+        {
+          "cell": "E14",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F14",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I14",
+          "value": "Đề xuất v6 · Q9 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A15",
+          "value": "10",
+          "type": "n"
+        },
+        {
+          "cell": "B15",
+          "value": "Quan sát biến động giữa các kỳ có thể so sánh",
+          "type": "str"
+        },
+        {
+          "cell": "C15",
+          "value": "So sánh cùng chỉ số/nguồn/nhóm dữ liệu và kỳ phù hợp, ghi baseline, cỡ mẫu và coverage. Mốc suy giảm ≤10% là giả thuyết lịch sử chưa kiểm chứng, không điều kiện chi tiếp. Thiếu dữ liệu không kết luận đạt/không đạt; không mặc định hai chu kỳ G3. Review tiếp tục/điều chỉnh/dừng dựa trên evidence thực tế; khoản chi tiếp cần tiền, thời lượng và phạm vi riêng.",
+          "type": "str"
+        },
+        {
+          "cell": "D15",
+          "value": "Bảo",
+          "type": "str"
+        },
+        {
+          "cell": "E15",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F15",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I15",
+          "value": "Đề xuất v6 · Q10 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A16",
+          "value": "11",
+          "type": "n"
+        },
+        {
+          "cell": "B16",
+          "value": "Ngưỡng cảnh báo chi phí LinkedIn để báo cáo và xem xét",
+          "type": "str"
+        },
+        {
+          "cell": "C16",
+          "value": "Chi phí theo forecast đúng tệp/cấu hình cuối là tham chiếu trước launch; chưa có forecast đó hoặc dữ liệu thực. CPM = chi media/impressions ×1.000; CPC = chi media/clicks quảng cáo đã chọn loại, cùng chiến dịch/kỳ; mẫu số thiếu/0 không tính. CPM 250k/CPC 120k là mốc đề xuất cũ chưa kiểm chứng, không benchmark tối ưu hoặc quy tắc dừng tự động. Reach unique cùng scope/kỳ là chỉ số chính; frequency = impressions/reach cùng scope, không chia cho estimated audience hoặc cộng unique reach các ngày.",
+          "type": "str"
+        },
+        {
+          "cell": "D16",
+          "value": "Bảo",
+          "type": "str"
+        },
+        {
+          "cell": "E16",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F16",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I16",
+          "value": "Đề xuất v6 · Q11 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A17",
+          "value": "12",
+          "type": "n"
+        },
+        {
+          "cell": "B17",
+          "value": "Tiêu chí chi phí và dừng/tiếp tục Search probe",
+          "type": "str"
+        },
+        {
+          "cell": "C17",
+          "value": "Search probe media ≤500.000đ; trước sử dụng phải chốt giới hạn chi phí chấp nhận được theo scope/forecast, loại clicks và CTR = clicks quảng cáo/impressions cùng kỳ. CPC 35k/CTR 3,5%, bid 25k và mốc 48h/CPC45k trong hồ sơ cũ chưa được kiểm chứng; không dùng làm cấu hình tối ưu hoặc kết luận sẵn. Tới trần/cửa sổ hoặc sai route/đo lường/query thì dừng để review/sửa; chỉ xét tiếp nếu dữ liệu tin cậy, query phù hợp theo tiêu chí đã chốt và còn ngân sách, thời gian trong phương án đã chốt. Thiếu mẫu không tự kéo dài hoặc tăng ngân sách.",
+          "type": "str"
+        },
+        {
+          "cell": "D17",
+          "value": "Bảo",
+          "type": "str"
+        },
+        {
+          "cell": "E17",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F17",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I17",
+          "value": "Đề xuất v6 · Q12 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A18",
+          "value": "13",
+          "type": "n"
+        },
+        {
+          "cell": "B18",
+          "value": "Search demand probe có trần chi và giữ tiền chưa tiêu",
+          "type": "str"
+        },
+        {
+          "cell": "C18",
+          "value": "Câu hỏi: trong scope từ khóa/địa lý/ngôn ngữ đã chọn, có truy vấn liên quan tạo clicks vào đúng trang đích với chi phí chấp nhận được để xét tiếp Search không? Đề xuất tối đa 500.000đ media từ 6,1 triệu giữ lại, sau review dữ liệu đợt đầu; cửa sổ tối đa 14 ngày từ ngày bắt đầu probe, ngày cụ thể chưa chốt. Chốt scope/keywords/landing, cost/relevance/coverage criteria trước sử dụng. Tới trần/cuối window review; sai route/đo lường/query thì dừng sửa. Thiếu dữ liệu giữ chưa kết luận; underspend giữ lại, không ép tiêu, tăng bid/mở rộng ngoài scope hoặc tự điều chuyển. Planner dấu gạch ngang không chứng minh nhu cầu bằng 0. Đây là trần toàn probe, không cam kết chi tối thiểu. Ít hoặc không có traffic đủ điều kiện có thể khiến chi thấp hơn trần; tiền còn lại giữ lại, chỉ xét phân bổ lại sau review và ghi quyết định trong giới hạn chương trình, không tự điều chuyển.",
+          "type": "str"
+        },
+        {
+          "cell": "D18",
+          "value": "Bảo",
+          "type": "str"
+        },
+        {
+          "cell": "E18",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F18",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I18",
+          "value": "Đề xuất v6 · Q13 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A19",
+          "value": "14",
+          "type": "n"
+        },
+        {
+          "cell": "B19",
+          "value": "Ghi nhận và xác minh tín hiệu thương mại nếu phát sinh",
+          "type": "str"
+        },
+        {
+          "cell": "C19",
+          "value": "Lead là tín hiệu chẩn đoán thương mại phụ, không điều kiện thành công/duyệt chi của awareness. Nếu phát sinh, người/bộ phận tiếp nhận xác nhận đúng doanh nghiệp/chân dung mục tiêu; báo riêng lead thô, dữ liệu thử/trùng và lead chờ xác minh. Click CTA/form không tự chứng minh lead đã xác minh; không cam kết số lead, CPL hoặc ROI.",
+          "type": "str"
+        },
+        {
+          "cell": "D19",
+          "value": "Bảo/người phụ trách xác minh lead",
+          "type": "str"
+        },
+        {
+          "cell": "E19",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F19",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I19",
+          "value": "Đề xuất v6 · Q14 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A20",
+          "value": "15",
+          "type": "n"
+        },
+        {
+          "cell": "B20",
+          "value": "Quan sát tỷ lệ lead được xác minh — tín hiệu phụ",
+          "type": "str"
+        },
+        {
+          "cell": "C20",
+          "value": "Nếu có dữ liệu, ghi lead đã xác minh/lead thô cùng nguồn/kỳ, xử lý thử/trùng theo quy tắc và báo pending riêng. Mốc ≥40% trong hồ sơ trước là giả thuyết lịch sử chưa có baseline, không mục tiêu hiện tại hoặc ngưỡng thành công/duyệt chi. Lead thô=0 không tính; mẫu nhỏ/thiếu xác nhận giữ chưa kết luận. Không dùng tỷ lệ này để phán hiệu quả awareness.",
+          "type": "str"
+        },
+        {
+          "cell": "D20",
+          "value": "Bảo/người phụ trách xác minh lead",
+          "type": "str"
+        },
+        {
+          "cell": "E20",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F20",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I20",
+          "value": "Đề xuất v6 · Q15 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A21",
+          "value": "16",
+          "type": "n"
+        },
+        {
+          "cell": "B21",
+          "value": "Định hướng loại trừ 4 tập đoàn lớn (Intel, Samsung, Hana Micron, Amkor - Giả thuyết D1)",
+          "type": "str"
+        },
+        {
+          "cell": "C21",
+          "value": "Đề xuất loại trừ Intel, Samsung, Hana Micron, Amkor theo giả thuyết D1. Chốt danh sách loại trừ khi làm sạch và xác minh tệp doanh nghiệp mục tiêu.",
+          "type": "str"
+        },
+        {
+          "cell": "D21",
+          "value": "Bảo chuẩn bị; Vy tổng hợp ý kiến định hướng của lãnh đạo",
+          "type": "str"
+        },
+        {
+          "cell": "E21",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F21",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I21",
+          "value": "Đề xuất v6 · Q16 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A22",
+          "value": "17",
+          "type": "n"
+        },
+        {
+          "cell": "B22",
+          "value": "Kế hoạch làm sạch và đo lại quy mô tệp đối tượng thực tế tại Việt Nam",
+          "type": "str"
+        },
+        {
+          "cell": "C22",
+          "value": "Ready/80% ngày 05/10 là trạng thái xử lý, không chứng minh đúng doanh nghiệp. Cấu hình VN + chọn English + chức năng/cấp quản lý hiển thị khoảng 780 thành viên trước sửa matching; English không chỉ nhắm hồ sơ tiếng Anh. Cấu hình chọn Vietnamese tương ứng báo quá nhỏ. Hai kết quả ghép sai pháp nhân đã được xác minh, nhưng không vì vậy loại công ty nguồn. Làm sạch tệp ở đây là sửa việc ghép công ty với Company Page LinkedIn: đối chiếu đúng doanh nghiệp, sửa ghép nhầm và bổ sung định danh đã xác minh cho trường hợp chưa ghép, rồi đo lại quy mô. Giữ danh sách 424 dòng doanh nghiệp do công ty cung cấp; không tự đánh giá lại toàn bộ ICP hoặc loại doanh nghiệp chỉ vì thiếu nguồn công khai. Chi tiết và mẫu số chưa đối soát tại §3.1 Kế hoạch; sửa matching chưa thực hiện trong revision này.",
+          "type": "str"
+        },
+        {
+          "cell": "D22",
+          "value": "Bảo",
+          "type": "str"
+        },
+        {
+          "cell": "E22",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F22",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I22",
+          "value": "Đề xuất v6 · Q17 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A23",
+          "value": "18",
+          "type": "n"
+        },
+        {
+          "cell": "B23",
+          "value": "Cold Single image và hai vai trò nội dung Carousel tiếp thị lại",
+          "type": "str"
+        },
+        {
+          "cell": "C23",
+          "value": "Cold giữ objective Brand awareness, dùng Single image trước; tiếp thị lại bằng Carousel từ người tương tác với chính ads Single image mới. 11 Carousel/55 ảnh hiện có chuyển thành thư viện giải thích cho RMK; bốn bộ case/16 ảnh là lớp nội dung chứng minh. Hai vai trò nội dung không bảo đảm mỗi người sẽ xem theo thứ tự. Cold Single image mới có ba concept OSAT, Fabless, Supplier/Partner và một bản thử OSAT còn cần chỉnh, chưa có bộ ảnh cold mới được nghiệm thu. Chọn và hoàn thiện ít mẫu đại diện trước triển khai. Quality/case06 vẫn là case Bảo đã chọn trong thư viện hiện có. Kiểm tra 05/10 không có nguồn Carousel trong menu; bộ chọn Single image không nhận ad set Carousel, nên route Carousel cold → tệp thành viên tương tác không khả dụng trong cấu hình đã kiểm tra. Nguồn Single image được hỗ trợ, nhưng tệp từ ads mới chưa được tạo hoặc xác nhận Ready. Trước RMK cần chọn đúng ad set mới, loại tương tác, lookback, kiểm trạng thái và ít nhất 300 tài khoản thành viên matched sau lọc; 300 lượt tương tác không đồng nghĩa 300 thành viên. Không lấy Page pool có sẵn hoặc hồi tố tương tác Carousel cũ thành nguồn Single image. Ghi nhớ thương hiệu khác tệp kỹ thuật có thể target lại; không cam kết giữ audience cho năm sau. Thông điệp hỗ trợ chuẩn bị dữ liệu, không bảo đảm đạt điều kiện nhà cung cấp hoặc vượt đánh giá.",
+          "type": "str"
+        },
+        {
+          "cell": "D23",
+          "value": "Bảo; Vy cùng thống nhất định hướng; bộ phận sản phẩm/người thẩm định bản ngữ kiểm tra riêng",
+          "type": "str"
+        },
+        {
+          "cell": "E23",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F23",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I23",
+          "value": "Đề xuất v6 · Q18 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A24",
+          "value": "19",
+          "type": "n"
+        },
+        {
+          "cell": "B24",
+          "value": "Quy trình rà soát tiêu đề & mô tả quảng cáo Google Search (RSA)",
+          "type": "str"
+        },
+        {
+          "cell": "C24",
+          "value": "144 tiêu đề/48 mô tả là bộ ứng viên đã kiểm tra độ dài. Bảo sẽ rà soát thuật ngữ ở lần xuất hiện đầu trong từng quảng cáo, bản dịch, nội dung khẳng định, nguồn và trang đích; diễn giải ngắn gọn trong giới hạn ký tự. Bộ hiện có chưa được xác nhận đã hoàn tất các bước này hoặc sẵn sàng nhập lên nền tảng.",
+          "type": "str"
+        },
+        {
+          "cell": "D24",
+          "value": "Bảo; bộ phận sản phẩm/người thẩm định bản ngữ kiểm tra từng phiên bản",
+          "type": "str"
+        },
+        {
+          "cell": "E24",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F24",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I24",
+          "value": "Đề xuất v6 · Q19 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A25",
+          "value": "20",
+          "type": "n"
+        },
+        {
+          "cell": "B25",
+          "value": "Danh mục từ khóa phủ định (Negative Keywords) cho kênh Google Search",
+          "type": "str"
+        },
+        {
+          "cell": "C25",
+          "value": "Giữ danh mục phân loại ứng viên; kiểu đối sánh/ý định tìm kiếm/phần chồng lấn cần kiểm tra trước khi nhập vào nền tảng. Không loại trừ toàn bộ pdf/download/investment hoặc thuật ngữ kỹ thuật; đây chưa phải bộ từ khóa nhập cuối cùng.",
+          "type": "str"
+        },
+        {
+          "cell": "D25",
+          "value": "Bảo; người triển khai kiểm tra theo phạm vi được giao",
+          "type": "str"
+        },
+        {
+          "cell": "E25",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F25",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I25",
+          "value": "Đề xuất v6 · Q20 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A26",
+          "value": "21",
+          "type": "n"
+        },
+        {
+          "cell": "B26",
+          "value": "Thẩm định thuật ngữ và nội dung Hans/Hant; lựa chọn cấu hình phân phối riêng",
+          "type": "str"
+        },
+        {
+          "cell": "C26",
+          "value": "Xác nhận thuật ngữ và nội dung Hans/Hant theo đúng nguồn, giữ phê duyệt VI còn phù hợp. Với quảng cáo nội dung này, chọn English không giới hạn ở hồ sơ tiếng Anh: LinkedIn vẫn xét thành viên trong địa lý và các bộ lọc đã chọn, bất kể ngôn ngữ hồ sơ. Sponsored Messaging là ngoại lệ. Ngôn ngữ nội dung cần lựa chọn và kiểm tra riêng; bốn bản nội dung không đồng nghĩa bốn cấu hình targeting đã sẵn sàng. Menu kiểm tra có English/Vietnamese, chưa thấy Chinese; cấu hình cuối và bản cold mới cần kiểm riêng.",
+          "type": "str"
+        },
+        {
+          "cell": "D26",
+          "value": "Bộ phận sản phẩm/người thẩm định bản ngữ theo phạm vi Bảo giao",
+          "type": "str"
+        },
+        {
+          "cell": "E26",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F26",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I26",
+          "value": "Đề xuất v6 · Q21 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A27",
+          "value": "22",
+          "type": "n"
+        },
+        {
+          "cell": "B27",
+          "value": "Rà soát hiện trạng trang đích, hành trình và tracking trước khi sử dụng",
+          "type": "str"
+        },
+        {
+          "cell": "C27",
+          "value": "Biên bản 30/09 ghi ba trang đích theo phân khúc đã xuất bản bốn ngôn ngữ và kiểm tra theo phạm vi ghi nhận. Nội dung case06/Pressway phục vụ tiếp thị lại đã có bản xem thử; Bright/Phẩm Thuyên còn cần hoàn thiện bản mở rộng. Cần kiểm tra lại trang/ngôn ngữ, hành trình từ ads và đo lường trước khi dùng; bản xem case chưa đồng nghĩa trang đó đã xuất bản. Cold Single image mới còn cần hoàn thiện/kiểm bản thử riêng; không coi đổi vai trò Carousel cũ là nghiệm thu creative mới.",
+          "type": "str"
+        },
+        {
+          "cell": "D27",
+          "value": "Bảo",
+          "type": "str"
+        },
+        {
+          "cell": "E27",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F27",
+          "value": "Chưa quyết định",
+          "type": "str"
+        },
+        {
+          "cell": "I27",
+          "value": "Đề xuất v6 · Q22 · Đọc/ghi ý kiến tại trang trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "A29",
+          "value": "Đối chiếu biên bản",
+          "type": "str"
+        },
+        {
+          "cell": "C29",
+          "value": "Phiên bản 2026-10-06-quyet-dinh-6. Bảo đối chiếu thủ công; ý kiến bản trước cần đối chiếu lại theo nội dung hiện tại.",
+          "type": "str"
+        },
+        {
+          "cell": "A30",
+          "value": "Cách ghi nhận",
+          "type": "str"
+        },
+        {
+          "cell": "B30",
+          "value": "Đọc đề xuất, chọn Ghi ý kiến khi cần, xem lại rồi xác nhận và Lưu biên bản. Bảo đối chiếu vào bảng bằng tay.",
+          "type": "str"
+        },
+        {
+          "cell": "A31",
+          "value": "Đối chiếu bằng tay",
+          "type": "str"
+        },
+        {
+          "cell": "B31",
+          "value": "Tại F/G/H, ghi trạng thái, nội dung điều kiện hoặc thay đổi, và ngày theo biên bản. Giữ mã biên bản trong ô Ý kiến / kết quả.",
+          "type": "str"
+        },
+        {
+          "cell": "A32",
+          "value": "Câu chưa trả lời",
+          "type": "str"
+        },
+        {
+          "cell": "B32",
+          "value": "Giữ Chưa quyết định; không suy ra đồng ý từ ô trống.",
+          "type": "str"
+        },
+        {
+          "cell": "A33",
+          "value": "Câu 2,17,19–22",
+          "type": "str"
+        },
+        {
+          "cell": "B33",
+          "value": "Đồng ý là thống nhất công việc cần xác nhận. Kết quả Finance, chuyên môn và kiểm tra hiện trạng phải ghi riêng.",
+          "type": "str"
+        },
+        {
+          "cell": "A34",
+          "value": "Phạm vi",
+          "type": "str"
+        },
+        {
+          "cell": "B34",
+          "value": "Kết quả đối soát và xác nhận chuyên môn được Bảo cập nhật trong bảng theo dõi.",
+          "type": "str"
+        }
+      ],
+      "formulas": []
+    },
+    {
+      "name": "02_Tien_do",
+      "dimension": null,
+      "cells": [
+        {
+          "cell": "A2",
+          "value": "Tiến độ và bước tiếp theo · 06/10/2026; kiểm tài khoản05/10",
+          "type": "str"
+        },
+        {
+          "cell": "A5",
+          "value": "Mã việc",
+          "type": "str"
+        },
+        {
+          "cell": "B5",
+          "value": "Nhóm",
+          "type": "str"
+        },
+        {
+          "cell": "C5",
+          "value": "Kết quả cần có",
+          "type": "str"
+        },
+        {
+          "cell": "D5",
+          "value": "Phụ trách",
+          "type": "str"
+        },
+        {
+          "cell": "E5",
+          "value": "Hạn dự kiến",
+          "type": "str"
+        },
+        {
+          "cell": "F5",
+          "value": "Trạng thái",
+          "type": "str"
+        },
+        {
+          "cell": "G5",
+          "value": "Bước tiếp theo",
+          "type": "str"
+        },
+        {
+          "cell": "H5",
+          "value": "Nguồn / nội dung",
+          "type": "str"
+        },
+        {
+          "cell": "A6",
+          "value": "TD01",
+          "type": "str"
+        },
+        {
+          "cell": "B6",
+          "value": "Nội dung",
+          "type": "str"
+        },
+        {
+          "cell": "C6",
+          "value": "Cold Single image:3concept/1bản thử; thư viện RMK11Carousel/55ảnh giữ nguyên",
+          "type": "str"
+        },
+        {
+          "cell": "D6",
+          "value": "Bảo",
+          "type": "str"
+        },
+        {
+          "cell": "E6",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F6",
+          "value": "Cold mới còn cần hoàn thiện",
+          "type": "str"
+        },
+        {
+          "cell": "G6",
+          "value": "Chọn concept; chỉnh/kiểm ảnh cold mới trước nghiệm thu; không coi Carousel cũ là cold hoàn thiện",
+          "type": "str"
+        },
+        {
+          "cell": "H6",
+          "value": "Mở nội dung liên quan",
+          "type": "str"
+        },
+        {
+          "cell": "A7",
+          "value": "TD02",
+          "type": "str"
+        },
+        {
+          "cell": "B7",
+          "value": "Tiếp thị lại",
+          "type": "str"
+        },
+        {
+          "cell": "C7",
+          "value": "4 bộ / 16 ảnh; 2 trang chi tiết",
+          "type": "str"
+        },
+        {
+          "cell": "D7",
+          "value": "Bảo",
+          "type": "str"
+        },
+        {
+          "cell": "E7",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F7",
+          "value": "Bản xem thử",
+          "type": "str"
+        },
+        {
+          "cell": "G7",
+          "value": "Hoàn thiện Bright/Phẩm Thuyên và kiểm tra đường dẫn",
+          "type": "str"
+        },
+        {
+          "cell": "H7",
+          "value": "Mở nội dung liên quan",
+          "type": "str"
+        },
+        {
+          "cell": "A8",
+          "value": "TD03",
+          "type": "str"
+        },
+        {
+          "cell": "B8",
+          "value": "Đối tượng",
+          "type": "str"
+        },
+        {
+          "cell": "C8",
+          "value": "Giữ424dòng nguồn; sửa ghép Company Page và bổ sung định danh, đo lại",
+          "type": "str"
+        },
+        {
+          "cell": "D8",
+          "value": "Bảo",
+          "type": "str"
+        },
+        {
+          "cell": "E8",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F8",
+          "value": "Sửa matching chưa thực hiện",
+          "type": "str"
+        },
+        {
+          "cell": "G8",
+          "value": "2ghép sai đã xác minh;75/8là triage. Không loại công ty do thiếu nguồn công khai hoặc thay bằng subset",
+          "type": "str"
+        },
+        {
+          "cell": "H8",
+          "value": "Mở nội dung liên quan",
+          "type": "str"
+        },
+        {
+          "cell": "A9",
+          "value": "TD04",
+          "type": "str"
+        },
+        {
+          "cell": "B9",
+          "value": "Ngân sách",
+          "type": "str"
+        },
+        {
+          "cell": "C9",
+          "value": "Chốt daily/window/cap sau sửa matching + forecast Single image; kiểmUSD/minimum; Finance tổng chi;Vy review",
+          "type": "str"
+        },
+        {
+          "cell": "D9",
+          "value": "Bảo; Vy",
+          "type": "str"
+        },
+        {
+          "cell": "E9",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F9",
+          "value": "Đề xuất",
+          "type": "str"
+        },
+        {
+          "cell": "G9",
+          "value": "11,7M media đề xuất; 5,6M đợt đầu, 6,1M giữ lại xét sau dữ liệu đầu",
+          "type": "str"
+        },
+        {
+          "cell": "H9",
+          "value": "Mở nội dung liên quan",
+          "type": "str"
+        },
+        {
+          "cell": "A10",
+          "value": "TD05",
+          "type": "str"
+        },
+        {
+          "cell": "B10",
+          "value": "Thuế/phí",
+          "type": "str"
+        },
+        {
+          "cell": "C10",
+          "value": "Finance xác nhận thuế/phí billing từng kênh và tổng chi ngoài media đề xuất",
+          "type": "str"
+        },
+        {
+          "cell": "D10",
+          "value": "Finance",
+          "type": "str"
+        },
+        {
+          "cell": "E10",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F10",
+          "value": "Chờ xác nhận",
+          "type": "str"
+        },
+        {
+          "cell": "G10",
+          "value": "Ghi kết quả xác nhận riêng",
+          "type": "str"
+        },
+        {
+          "cell": "H10",
+          "value": "Mở nội dung liên quan",
+          "type": "str"
+        },
+        {
+          "cell": "A11",
+          "value": "TD06",
+          "type": "str"
+        },
+        {
+          "cell": "B11",
+          "value": "Tiếp thị lại",
+          "type": "str"
+        },
+        {
+          "cell": "C11",
+          "value": "Chọn đúng ad set Single image mới,loại tương tác/lookback;kiểm trạng thái và≥300matched sau lọc",
+          "type": "str"
+        },
+        {
+          "cell": "D11",
+          "value": "Bảo",
+          "type": "str"
+        },
+        {
+          "cell": "E11",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F11",
+          "value": "Chờ xác nhận",
+          "type": "str"
+        },
+        {
+          "cell": "G11",
+          "value": "Nguồn hỗ trợ, tệp chưa tạo/Ready;khôngPagepool hoặc hồi tốCarousel. Chốt window khi cấu hình",
+          "type": "str"
+        },
+        {
+          "cell": "H11",
+          "value": "Mở nội dung liên quan",
+          "type": "str"
+        },
+        {
+          "cell": "A12",
+          "value": "TD07",
+          "type": "str"
+        },
+        {
+          "cell": "B12",
+          "value": "Trang đích",
+          "type": "str"
+        },
+        {
+          "cell": "C12",
+          "value": "Kiểm tra trang/ngôn ngữ, hành trình ads và đo lường",
+          "type": "str"
+        },
+        {
+          "cell": "D12",
+          "value": "Bảo",
+          "type": "str"
+        },
+        {
+          "cell": "E12",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F12",
+          "value": "Chờ kiểm tra lại",
+          "type": "str"
+        },
+        {
+          "cell": "G12",
+          "value": "Căn cứ biên bản trang đích 30/09; đối soát trang/ngôn ngữ, hành trình ads và tracking trước triển khai",
+          "type": "str"
+        },
+        {
+          "cell": "H12",
+          "value": "Mở nội dung liên quan",
+          "type": "str"
+        },
+        {
+          "cell": "A13",
+          "value": "TD08",
+          "type": "str"
+        },
+        {
+          "cell": "B13",
+          "value": "Search",
+          "type": "str"
+        },
+        {
+          "cell": "C13",
+          "value": "Chốt probe question/scope/cap ≤500k/window/criteria và rà RSA/từ khóa/bản ngữ",
+          "type": "str"
+        },
+        {
+          "cell": "D13",
+          "value": "Bảo; bộ phận sản phẩm",
+          "type": "str"
+        },
+        {
+          "cell": "E13",
+          "value": "Chưa chốt",
+          "type": "str"
+        },
+        {
+          "cell": "F13",
+          "value": "Đang hoàn thiện",
+          "type": "str"
+        },
+        {
+          "cell": "G13",
+          "value": "Search chưa launch-ready; sau evidence đầu mới xét dùng phần giữ lại, underspend giữ lại",
+          "type": "str"
+        },
+        {
+          "cell": "H13",
+          "value": "Mở nội dung liên quan",
+          "type": "str"
+        }
+      ],
+      "formulas": []
+    },
+    {
+      "name": "03_Ngan_sach",
+      "dimension": null,
+      "cells": [
+        {
+          "cell": "A2",
+          "value": "Ngân sách đề xuất · VNĐ",
+          "type": "str"
+        },
+        {
+          "cell": "A5",
+          "value": "Khoản media",
+          "type": "str"
+        },
+        {
+          "cell": "B5",
+          "value": "Ngày tham chiếu",
+          "type": "str"
+        },
+        {
+          "cell": "C5",
+          "value": "Mức/ngày tham chiếu",
+          "type": "str"
+        },
+        {
+          "cell": "D5",
+          "value": "Daily cuối",
+          "type": "str"
+        },
+        {
+          "cell": "E5",
+          "value": "Thuế/phí",
+          "type": "str"
+        },
+        {
+          "cell": "F5",
+          "value": "Tham chiếu/ngày",
+          "type": "str"
+        },
+        {
+          "cell": "G5",
+          "value": "Trần đề xuất",
+          "type": "str"
+        },
+        {
+          "cell": "H5",
+          "value": "Được duyệt",
+          "type": "str"
+        },
+        {
+          "cell": "I5",
+          "value": "Thực chi media",
+          "type": "str"
+        },
+        {
+          "cell": "J5",
+          "value": "Còn theo duyệt",
+          "type": "str"
+        },
+        {
+          "cell": "K5",
+          "value": "Nguồn / điều kiện",
+          "type": "str"
+        },
+        {
+          "cell": "A6",
+          "value": "B1 · LinkedIn đầu",
+          "type": "str"
+        },
+        {
+          "cell": "B6",
+          "value": "14",
+          "type": "n"
+        },
+        {
+          "cell": "C6",
+          "value": "400000",
+          "type": "n"
+        },
+        {
+          "cell": "E6",
+          "value": "Chờ Finance",
+          "type": "str"
+        },
+        {
+          "cell": "F6",
+          "value": "400000",
+          "type": "n"
+        },
+        {
+          "cell": "G6",
+          "value": "5600000",
+          "type": "n"
+        },
+        {
+          "cell": "J6",
+          "value": "Chưa đủ dữ liệu",
+          "type": "str"
+        },
+        {
+          "cell": "K6",
+          "value": "Cold Brand awareness + Single image;400k/ngày là tham chiếuVND. Daily cuối sau sửa matching/forecast Single image,quy đổiUSD và minimum/bidding,không ép spend/frequency.",
+          "type": "str"
+        },
+        {
+          "cell": "A7",
+          "value": "B2 · Một đợt tiếp theo",
+          "type": "str"
+        },
+        {
+          "cell": "E7",
+          "value": "Chờ Finance",
+          "type": "str"
+        },
+        {
+          "cell": "G7",
+          "value": "5600000",
+          "type": "n"
+        },
+        {
+          "cell": "J7",
+          "value": "Chưa đủ dữ liệu",
+          "type": "str"
+        },
+        {
+          "cell": "K7",
+          "value": "≤B1; chưa phân bổ/giải ngân. Review evidence B1 và quyết định tiền/thời gian riêng. Awareness/RMK cùng giới hạn.",
+          "type": "str"
+        },
+        {
+          "cell": "A8",
+          "value": "S · Probe Search",
+          "type": "str"
+        },
+        {
+          "cell": "E8",
+          "value": "Chờ Finance",
+          "type": "str"
+        },
+        {
+          "cell": "G8",
+          "value": "500000",
+          "type": "n"
+        },
+        {
+          "cell": "J8",
+          "value": "Chưa đủ dữ liệu",
+          "type": "str"
+        },
+        {
+          "cell": "K8",
+          "value": "≤500k toàn probe, không minimum spend. Ít/không có traffic đủ điều kiện có thể underspend; tiền chưa tiêu giữ lại, chỉ xét phân bổ lại sau review có ghi quyết định, không ép chi.",
+          "type": "str"
+        },
+        {
+          "cell": "A9",
+          "value": "Giữ lại B2 + S",
+          "type": "str"
+        },
+        {
+          "cell": "G9",
+          "value": "6100000",
+          "type": "n"
+        },
+        {
+          "cell": "K9",
+          "value": "Đã nằm trong trần; chưa phân bổ triển khai/giải ngân; không cộng thêm vào tổng.",
+          "type": "str"
+        },
+        {
+          "cell": "A11",
+          "value": "Trần media đề xuất",
+          "type": "str"
+        },
+        {
+          "cell": "G11",
+          "value": "11700000",
+          "type": "n"
+        },
+        {
+          "cell": "H11",
+          "value": "Chưa xác nhận",
+          "type": "str"
+        },
+        {
+          "cell": "I11",
+          "value": "Chưa có dữ liệu",
+          "type": "str"
+        },
+        {
+          "cell": "K11",
+          "value": "Phạm vi đã nhập: duyệt 0/3 khoản; chi 0/3 khoản. Tổng có dữ liệu chưa đại diện đủ cả chương trình.",
+          "type": "str"
+        },
+        {
+          "cell": "A13",
+          "value": "Trần media chương trình",
+          "type": "str"
+        },
+        {
+          "cell": "B13",
+          "value": "11700000",
+          "type": "n"
+        },
+        {
+          "cell": "A14",
+          "value": "Tổng chi all-in / thuế phí",
+          "type": "str"
+        },
+        {
+          "cell": "B14",
+          "value": "Media + thuế/phí từng kênh được Finance xác nhận + khoản khác đúng phạm vi. Tổng all-in chưa chốt; mỗi khoản một lần.",
+          "type": "str"
+        },
+        {
+          "cell": "A15",
+          "value": "Giữ lại có điều kiện",
+          "type": "str"
+        },
+        {
+          "cell": "B15",
+          "value": "6100000",
+          "type": "n"
+        },
+        {
+          "cell": "A16",
+          "value": "Khoản media đợt đầu",
+          "type": "str"
+        },
+        {
+          "cell": "B16",
+          "value": "5600000",
+          "type": "n"
+        },
+        {
+          "cell": "A17",
+          "value": "Điều kiện thay reference",
+          "type": "str"
+        },
+        {
+          "cell": "B17",
+          "value": "Đổi mức/ngày, thời lượng hoặc thực sự chọn Cost Cap: tính lại B1/B2/S/M/H và review lại đề xuất.",
+          "type": "str"
+        },
+        {
+          "cell": "A18",
+          "value": "Cách chọn nhóm đầu",
+          "type": "str"
+        },
+        {
+          "cell": "B18",
+          "value": "Một nhóm đã xác minh, ít mẫu đại diện; không chia sẵn FDI/nội địa hoặc mở rộng ICP để tiêu đủ.",
+          "type": "str"
+        },
+        {
+          "cell": "A19",
+          "value": "Quy tắc khống chế rủi ro",
+          "type": "str"
+        },
+        {
+          "cell": "B19",
+          "value": "Tối đa hai đợt quan sát + một probe trước review tiếp. Chính sách đề xuất, chưa là ngân sách tối ưu theo delivery.",
+          "type": "str"
+        },
+        {
+          "cell": "A20",
+          "value": "Cửa sổ quản lý và phối hợp",
+          "type": "str"
+        },
+        {
+          "cell": "B20",
+          "value": "56 ngày; ngày bắt đầu sẽ chốt cùng ngân sách và việc chuẩn bị. Bảo gửi căn cứ và khuyến nghị cho Vy review, tổng hợp và trình lãnh đạo.",
+          "type": "str"
+        },
+        {
+          "cell": "A22",
+          "value": "Thông số đề xuất",
+          "type": "str"
+        },
+        {
+          "cell": "B22",
+          "value": "Giá trị",
+          "type": "str"
+        },
+        {
+          "cell": "C22",
+          "value": "Phạm vi",
+          "type": "str"
+        },
+        {
+          "cell": "A23",
+          "value": "Tỷ lệ loss limit Search",
+          "type": "str"
+        },
+        {
+          "cell": "B23",
+          "value": "0.1",
+          "type": "n"
+        },
+        {
+          "cell": "C23",
+          "value": "Chính sách đề xuất ≤10% B1, không empirical optimum",
+          "type": "str"
+        },
+        {
+          "cell": "A24",
+          "value": "Bước làm tròn Search (VNĐ)",
+          "type": "str"
+        },
+        {
+          "cell": "B24",
+          "value": "100000",
+          "type": "n"
+        },
+        {
+          "cell": "C24",
+          "value": "Làm tròn xuống; cap toàn probe, không ngân sách/ngày",
+          "type": "str"
+        },
+        {
+          "cell": "A25",
+          "value": "Cửa sổ probe tối đa (ngày)",
+          "type": "str"
+        },
+        {
+          "cell": "B25",
+          "value": "14",
+          "type": "n"
+        },
+        {
+          "cell": "C25",
+          "value": "14 ngày từ đầu probe; kết thúc sớm khi chạm trần",
+          "type": "str"
+        }
+      ],
+      "formulas": [
+        {
+          "cell": "F6",
+          "formula": "IF(COUNT(C6)=0,\"Chưa đủ dữ liệu\",C6)",
+          "cached_value": "400000"
+        },
+        {
+          "cell": "G6",
+          "formula": "IF(OR(COUNT(B6,C6)<2,B6<=0,C6<=0),\"Chưa đủ dữ liệu\",B6*C6)",
+          "cached_value": "5600000"
+        },
+        {
+          "cell": "J6",
+          "formula": "IF(COUNT(H6:I6)<2,\"Chưa đủ dữ liệu\",H6-I6)",
+          "cached_value": "Chưa đủ dữ liệu"
+        },
+        {
+          "cell": "G7",
+          "formula": "G6",
+          "cached_value": "5600000"
+        },
+        {
+          "cell": "J7",
+          "formula": "IF(COUNT(H7:I7)<2,\"Chưa đủ dữ liệu\",H7-I7)",
+          "cached_value": "Chưa đủ dữ liệu"
+        },
+        {
+          "cell": "G8",
+          "formula": "IF(OR(COUNT(G6,B23:B24)<3,B24<=0),\"Chưa đủ dữ liệu\",FLOOR(G6*B23,B24))",
+          "cached_value": "500000"
+        },
+        {
+          "cell": "J8",
+          "formula": "IF(COUNT(H8:I8)<2,\"Chưa đủ dữ liệu\",H8-I8)",
+          "cached_value": "Chưa đủ dữ liệu"
+        },
+        {
+          "cell": "G9",
+          "formula": "IF(COUNT(G7:G8)<2,\"Chưa đủ dữ liệu\",SUM(G7:G8))",
+          "cached_value": "6100000"
+        },
+        {
+          "cell": "G11",
+          "formula": "IF(COUNT(G6:G8)<3,\"Chưa đủ dữ liệu\",SUM(G6:G8))",
+          "cached_value": "11700000"
+        },
+        {
+          "cell": "H11",
+          "formula": "IF(COUNT(H6:H8)=0,\"Chưa xác nhận\",SUM(H6:H8))",
+          "cached_value": "Chưa xác nhận"
+        },
+        {
+          "cell": "I11",
+          "formula": "IF(COUNT(I6:I8)=0,\"Chưa có dữ liệu\",SUM(I6:I8))",
+          "cached_value": "Chưa có dữ liệu"
+        },
+        {
+          "cell": "K11",
+          "formula": "\"Phạm vi đã nhập: duyệt \"&COUNT(H6:H8)&\"/3 khoản; chi \"&COUNT(I6:I8)&\"/3 khoản. Tổng có dữ liệu chưa đại diện đủ cả chương trình.\"",
+          "cached_value": "Phạm vi đã nhập: duyệt 0/3 khoản; chi 0/3 khoản. Tổng có dữ liệu chưa đại diện đủ cả chương trình."
+        },
+        {
+          "cell": "B13",
+          "formula": "G11",
+          "cached_value": "11700000"
+        },
+        {
+          "cell": "B15",
+          "formula": "G9",
+          "cached_value": "6100000"
+        },
+        {
+          "cell": "B16",
+          "formula": "G6",
+          "cached_value": "5600000"
+        }
+      ]
+    },
+    {
+      "name": "04_Ket_qua",
+      "dimension": null,
+      "cells": [
+        {
+          "cell": "A2",
+          "value": "Kết quả thực tế · Chưa có dữ liệu phân phối",
+          "type": "str"
+        },
+        {
+          "cell": "A5",
+          "value": "Kênh",
+          "type": "str"
+        },
+        {
+          "cell": "B5",
+          "value": "Kỳ / ngày",
+          "type": "str"
+        },
+        {
+          "cell": "C5",
+          "value": "Campaign / nguồn",
+          "type": "str"
+        },
+        {
+          "cell": "D5",
+          "value": "Chi phí VNĐ",
+          "type": "str"
+        },
+        {
+          "cell": "E5",
+          "value": "Impressions",
+          "type": "str"
+        },
+        {
+          "cell": "F5",
+          "value": "Clicks quảng cáo",
+          "type": "str"
+        },
+        {
+          "cell": "G5",
+          "value": "Sessions",
+          "type": "str"
+        },
+        {
+          "cell": "H5",
+          "value": "Phiên có tương tác",
+          "type": "str"
+        },
+        {
+          "cell": "I5",
+          "value": "CPC VNĐ",
+          "type": "str"
+        },
+        {
+          "cell": "J5",
+          "value": "CPM VNĐ",
+          "type": "str"
+        },
+        {
+          "cell": "K5",
+          "value": "CTR clicks quảng cáo",
+          "type": "str"
+        },
+        {
+          "cell": "L5",
+          "value": "Tình trạng dữ liệu",
+          "type": "str"
+        },
+        {
+          "cell": "M5",
+          "value": "Reach unique nền tảng",
+          "type": "str"
+        },
+        {
+          "cell": "N5",
+          "value": "Frequency",
+          "type": "str"
+        },
+        {
+          "cell": "O5",
+          "value": "Engagement nền tảng",
+          "type": "str"
+        },
+        {
+          "cell": "P5",
+          "value": "Engagement / impressions",
+          "type": "str"
+        },
+        {
+          "cell": "Q5",
+          "value": "Loại clicks / scope / coverage",
+          "type": "str"
+        },
+        {
+          "cell": "A6",
+          "value": "LinkedIn",
+          "type": "str"
+        },
+        {
+          "cell": "I6",
+          "value": "Chưa đủ dữ liệu",
+          "type": "str"
+        },
+        {
+          "cell": "J6",
+          "value": "Chưa đủ dữ liệu",
+          "type": "str"
+        },
+        {
+          "cell": "K6",
+          "value": "Chưa đủ dữ liệu",
+          "type": "str"
+        },
+        {
+          "cell": "L6",
+          "value": "Chưa thu thập; không phải số 0",
+          "type": "str"
+        },
+        {
+          "cell": "N6",
+          "value": "Chưa đủ dữ liệu",
+          "type": "str"
+        },
+        {
+          "cell": "P6",
+          "value": "Chưa đủ dữ liệu",
+          "type": "str"
+        },
+        {
+          "cell": "Q6",
+          "value": "Ghi loại clicks; cùng campaign/configuration/kỳ. Reach unique không cộng ngày; nếu bị ẩn ghi chưa xác định.",
+          "type": "str"
+        },
+        {
+          "cell": "A7",
+          "value": "Google Search",
+          "type": "str"
+        },
+        {
+          "cell": "I7",
+          "value": "Chưa đủ dữ liệu",
+          "type": "str"
+        },
+        {
+          "cell": "J7",
+          "value": "Chưa đủ dữ liệu",
+          "type": "str"
+        },
+        {
+          "cell": "K7",
+          "value": "Chưa đủ dữ liệu",
+          "type": "str"
+        },
+        {
+          "cell": "L7",
+          "value": "Chưa thu thập; không phải số 0",
+          "type": "str"
+        },
+        {
+          "cell": "M7",
+          "value": "Không áp dụng",
+          "type": "str"
+        },
+        {
+          "cell": "N7",
+          "value": "Không áp dụng",
+          "type": "str"
+        },
+        {
+          "cell": "O7",
+          "value": "Không áp dụng",
+          "type": "str"
+        },
+        {
+          "cell": "P7",
+          "value": "Không áp dụng",
+          "type": "str"
+        },
+        {
+          "cell": "Q7",
+          "value": "Ghi loại clicks; Search query coverage = clicks phân loại/tổng clicks quảng cáo cùng kỳ.",
+          "type": "str"
+        },
+        {
+          "cell": "A8",
+          "value": "Website / GA4",
+          "type": "str"
+        },
+        {
+          "cell": "I8",
+          "value": "Không áp dụng",
+          "type": "str"
+        },
+        {
+          "cell": "J8",
+          "value": "Không áp dụng",
+          "type": "str"
+        },
+        {
+          "cell": "K8",
+          "value": "Không áp dụng",
+          "type": "str"
+        },
+        {
+          "cell": "L8",
+          "value": "Chưa thu thập; cần đối soát cùng nhóm dữ liệu",
+          "type": "str"
+        },
+        {
+          "cell": "M8",
+          "value": "Không áp dụng",
+          "type": "str"
+        },
+        {
+          "cell": "N8",
+          "value": "Không áp dụng",
+          "type": "str"
+        },
+        {
+          "cell": "O8",
+          "value": "Không áp dụng",
+          "type": "str"
+        },
+        {
+          "cell": "P8",
+          "value": "Không áp dụng",
+          "type": "str"
+        },
+        {
+          "cell": "Q8",
+          "value": "Website GA4 riêng; key event/lead xác minh ghi riêng, không thay engagement LinkedIn.",
+          "type": "str"
+        },
+        {
+          "cell": "A11",
+          "value": "Cách đọc",
+          "type": "str"
+        },
+        {
+          "cell": "B11",
+          "value": "LinkedIn: reach unique chính; frequency = impressions/reach cùng scope/kỳ, không estimated audience. CPC dùng loại clicks quảng cáo đã chọn; CPM cùng chi media/impressions.",
+          "type": "str"
+        },
+        {
+          "cell": "A12",
+          "value": "Website",
+          "type": "str"
+        },
+        {
+          "cell": "B12",
+          "value": "Website/GA4 riêng; không cộng unique reach các ngày/kênh. Missing/0 mẫu số không thành kết quả giả.",
+          "type": "str"
+        },
+        {
+          "cell": "A13",
+          "value": "Nguồn",
+          "type": "str"
+        },
+        {
+          "cell": "B13",
+          "value": "Bảo gửi evidence/recommendation để Vy review/tổng hợp/trình lãnh đạo. Tỷ lệ lịch sử chưa có baseline không là ngưỡng thành công/duyệt chi; lead/CPL/ROI chỉ là tín hiệu phụ nếu có dữ liệu.",
+          "type": "str"
+        }
+      ],
+      "formulas": [
+        {
+          "cell": "I6",
+          "formula": "IF(OR(COUNT(D6,F6)<2,F6<=0),\"Chưa đủ dữ liệu\",D6/F6)",
+          "cached_value": "Chưa đủ dữ liệu"
+        },
+        {
+          "cell": "J6",
+          "formula": "IF(OR(COUNT(D6:E6)<2,E6<=0),\"Chưa đủ dữ liệu\",D6/E6*1000)",
+          "cached_value": "Chưa đủ dữ liệu"
+        },
+        {
+          "cell": "K6",
+          "formula": "IF(OR(COUNT(E6:F6)<2,E6<=0),\"Chưa đủ dữ liệu\",F6/E6)",
+          "cached_value": "Chưa đủ dữ liệu"
+        },
+        {
+          "cell": "N6",
+          "formula": "IF(OR(COUNT(E6,M6)<2,M6<=0),\"Chưa đủ dữ liệu\",E6/M6)",
+          "cached_value": "Chưa đủ dữ liệu"
+        },
+        {
+          "cell": "P6",
+          "formula": "IF(OR(COUNT(E6,O6)<2,E6<=0),\"Chưa đủ dữ liệu\",O6/E6)",
+          "cached_value": "Chưa đủ dữ liệu"
+        },
+        {
+          "cell": "I7",
+          "formula": "IF(OR(COUNT(D7,F7)<2,F7<=0),\"Chưa đủ dữ liệu\",D7/F7)",
+          "cached_value": "Chưa đủ dữ liệu"
+        },
+        {
+          "cell": "J7",
+          "formula": "IF(OR(COUNT(D7:E7)<2,E7<=0),\"Chưa đủ dữ liệu\",D7/E7*1000)",
+          "cached_value": "Chưa đủ dữ liệu"
+        },
+        {
+          "cell": "K7",
+          "formula": "IF(OR(COUNT(E7:F7)<2,E7<=0),\"Chưa đủ dữ liệu\",F7/E7)",
+          "cached_value": "Chưa đủ dữ liệu"
+        }
+      ]
+    },
+    {
+      "name": "05_Noi_dung",
+      "dimension": null,
+      "cells": [
+        {
+          "cell": "A2",
+          "value": "Danh mục nội dung · Chưa đồng nghĩa được chọn chạy",
+          "type": "str"
+        },
+        {
+          "cell": "A5",
+          "value": "Mã nội dung",
+          "type": "str"
+        },
+        {
+          "cell": "B5",
+          "value": "Phân khúc / case",
+          "type": "str"
+        },
+        {
+          "cell": "C5",
+          "value": "Bài toán / vai trò",
+          "type": "str"
+        },
+        {
+          "cell": "D5",
+          "value": "Loại",
+          "type": "str"
+        },
+        {
+          "cell": "E5",
+          "value": "Ngôn ngữ",
+          "type": "str"
+        },
+        {
+          "cell": "F5",
+          "value": "Trạng thái",
+          "type": "str"
+        },
+        {
+          "cell": "G5",
+          "value": "Lựa chọn chạy",
+          "type": "str"
+        },
+        {
+          "cell": "H5",
+          "value": "Đường xem trong gói",
+          "type": "str"
+        },
+        {
+          "cell": "I5",
+          "value": "Nguồn",
+          "type": "str"
+        },
+        {
+          "cell": "A6",
+          "value": "O1",
+          "type": "str"
+        },
+        {
+          "cell": "B6",
+          "value": "OSAT",
+          "type": "str"
+        },
+        {
+          "cell": "C6",
+          "value": "Rà soát kiểm thử bất thường",
+          "type": "str"
+        },
+        {
+          "cell": "D6",
+          "value": "Carousel giải thích RMK",
+          "type": "str"
+        },
+        {
+          "cell": "E6",
+          "value": "VI",
+          "type": "str"
+        },
+        {
+          "cell": "F6",
+          "value": "Bản minh họa hiện có; chưa chọn RMK",
+          "type": "str"
+        },
+        {
+          "cell": "G6",
+          "value": "Chưa chọn",
+          "type": "str"
+        },
+        {
+          "cell": "H6",
+          "value": "Xem OSAT: Rà soát kiểm thử bất thường",
+          "type": "str"
+        },
+        {
+          "cell": "I6",
+          "value": "Thư viện cũ05/10;đổi vai trò06/10,giữ phiên bản ảnh",
+          "type": "str"
+        },
+        {
+          "cell": "A7",
+          "value": "O2",
+          "type": "str"
+        },
+        {
+          "cell": "B7",
+          "value": "OSAT",
+          "type": "str"
+        },
+        {
+          "cell": "C7",
+          "value": "Một lô, nhiều góc nhìn",
+          "type": "str"
+        },
+        {
+          "cell": "D7",
+          "value": "Carousel giải thích RMK",
+          "type": "str"
+        },
+        {
+          "cell": "E7",
+          "value": "VI",
+          "type": "str"
+        },
+        {
+          "cell": "F7",
+          "value": "Bản minh họa hiện có; chưa chọn RMK",
+          "type": "str"
+        },
+        {
+          "cell": "G7",
+          "value": "Chưa chọn",
+          "type": "str"
+        },
+        {
+          "cell": "H7",
+          "value": "Xem OSAT: Một lô, nhiều góc nhìn",
+          "type": "str"
+        },
+        {
+          "cell": "I7",
+          "value": "Thư viện cũ05/10;đổi vai trò06/10,giữ phiên bản ảnh",
+          "type": "str"
+        },
+        {
+          "cell": "A8",
+          "value": "O3",
+          "type": "str"
+        },
+        {
+          "cell": "B8",
+          "value": "OSAT",
+          "type": "str"
+        },
+        {
+          "cell": "C8",
+          "value": "Dữ liệu xưởng và chi phí",
+          "type": "str"
+        },
+        {
+          "cell": "D8",
+          "value": "Carousel giải thích RMK",
+          "type": "str"
+        },
+        {
+          "cell": "E8",
+          "value": "VI",
+          "type": "str"
+        },
+        {
+          "cell": "F8",
+          "value": "Bản minh họa hiện có; chưa chọn RMK",
+          "type": "str"
+        },
+        {
+          "cell": "G8",
+          "value": "Chưa chọn",
+          "type": "str"
+        },
+        {
+          "cell": "H8",
+          "value": "Xem OSAT: Dữ liệu xưởng và chi phí",
+          "type": "str"
+        },
+        {
+          "cell": "I8",
+          "value": "Thư viện cũ05/10;đổi vai trò06/10,giữ phiên bản ảnh",
+          "type": "str"
+        },
+        {
+          "cell": "A9",
+          "value": "O4-O",
+          "type": "str"
+        },
+        {
+          "cell": "B9",
+          "value": "OSAT",
+          "type": "str"
+        },
+        {
+          "cell": "C9",
+          "value": "Câu hỏi vận hành",
+          "type": "str"
+        },
+        {
+          "cell": "D9",
+          "value": "Carousel giải thích RMK",
+          "type": "str"
+        },
+        {
+          "cell": "E9",
+          "value": "VI",
+          "type": "str"
+        },
+        {
+          "cell": "F9",
+          "value": "Bản minh họa hiện có; chưa chọn RMK",
+          "type": "str"
+        },
+        {
+          "cell": "G9",
+          "value": "Chưa chọn",
+          "type": "str"
+        },
+        {
+          "cell": "H9",
+          "value": "Xem OSAT: Câu hỏi vận hành",
+          "type": "str"
+        },
+        {
+          "cell": "I9",
+          "value": "Thư viện cũ05/10;đổi vai trò06/10,giữ phiên bản ảnh",
+          "type": "str"
+        },
+        {
+          "cell": "A10",
+          "value": "O4-Q",
+          "type": "str"
+        },
+        {
+          "cell": "B10",
+          "value": "OSAT",
+          "type": "str"
+        },
+        {
+          "cell": "C10",
+          "value": "Câu hỏi chất lượng",
+          "type": "str"
+        },
+        {
+          "cell": "D10",
+          "value": "Carousel giải thích RMK",
+          "type": "str"
+        },
+        {
+          "cell": "E10",
+          "value": "VI",
+          "type": "str"
+        },
+        {
+          "cell": "F10",
+          "value": "Bản minh họa hiện có; chưa chọn RMK",
+          "type": "str"
+        },
+        {
+          "cell": "G10",
+          "value": "Chưa chọn",
+          "type": "str"
+        },
+        {
+          "cell": "H10",
+          "value": "Xem OSAT: Câu hỏi chất lượng",
+          "type": "str"
+        },
+        {
+          "cell": "I10",
+          "value": "Thư viện cũ05/10;đổi vai trò06/10,giữ phiên bản ảnh",
+          "type": "str"
+        },
+        {
+          "cell": "A11",
+          "value": "F1",
+          "type": "str"
+        },
+        {
+          "cell": "B11",
+          "value": "Fabless",
+          "type": "str"
+        },
+        {
+          "cell": "C11",
+          "value": "Tiến độ sản phẩm và lô",
+          "type": "str"
+        },
+        {
+          "cell": "D11",
+          "value": "Carousel giải thích RMK",
+          "type": "str"
+        },
+        {
+          "cell": "E11",
+          "value": "VI",
+          "type": "str"
+        },
+        {
+          "cell": "F11",
+          "value": "Bản minh họa hiện có; chưa chọn RMK",
+          "type": "str"
+        },
+        {
+          "cell": "G11",
+          "value": "Chưa chọn",
+          "type": "str"
+        },
+        {
+          "cell": "H11",
+          "value": "Xem Fabless: Tiến độ sản phẩm và lô",
+          "type": "str"
+        },
+        {
+          "cell": "I11",
+          "value": "Thư viện cũ05/10;đổi vai trò06/10,giữ phiên bản ảnh",
+          "type": "str"
+        },
+        {
+          "cell": "A12",
+          "value": "F2",
+          "type": "str"
+        },
+        {
+          "cell": "B12",
+          "value": "Fabless",
+          "type": "str"
+        },
+        {
+          "cell": "C12",
+          "value": "Forecast và dữ liệu lô",
+          "type": "str"
+        },
+        {
+          "cell": "D12",
+          "value": "Carousel giải thích RMK",
+          "type": "str"
+        },
+        {
+          "cell": "E12",
+          "value": "VI",
+          "type": "str"
+        },
+        {
+          "cell": "F12",
+          "value": "Bản minh họa hiện có; chưa chọn RMK",
+          "type": "str"
+        },
+        {
+          "cell": "G12",
+          "value": "Chưa chọn",
+          "type": "str"
+        },
+        {
+          "cell": "H12",
+          "value": "Xem Fabless: Forecast và dữ liệu lô",
+          "type": "str"
+        },
+        {
+          "cell": "I12",
+          "value": "Thư viện cũ05/10;đổi vai trò06/10,giữ phiên bản ảnh",
+          "type": "str"
+        },
+        {
+          "cell": "A13",
+          "value": "F3",
+          "type": "str"
+        },
+        {
+          "cell": "B13",
+          "value": "Fabless",
+          "type": "str"
+        },
+        {
+          "cell": "C13",
+          "value": "Bàn giao đối tác",
+          "type": "str"
+        },
+        {
+          "cell": "D13",
+          "value": "Carousel giải thích RMK",
+          "type": "str"
+        },
+        {
+          "cell": "E13",
+          "value": "VI",
+          "type": "str"
+        },
+        {
+          "cell": "F13",
+          "value": "Bản minh họa hiện có; chưa chọn RMK",
+          "type": "str"
+        },
+        {
+          "cell": "G13",
+          "value": "Chưa chọn",
+          "type": "str"
+        },
+        {
+          "cell": "H13",
+          "value": "Xem Fabless: Bàn giao đối tác",
+          "type": "str"
+        },
+        {
+          "cell": "I13",
+          "value": "Thư viện cũ05/10;đổi vai trò06/10,giữ phiên bản ảnh",
+          "type": "str"
+        },
+        {
+          "cell": "A14",
+          "value": "P1",
+          "type": "str"
+        },
+        {
+          "cell": "B14",
+          "value": "Supplier/Partner",
+          "type": "str"
+        },
+        {
+          "cell": "C14",
+          "value": "Người chịu trách nhiệm",
+          "type": "str"
+        },
+        {
+          "cell": "D14",
+          "value": "Carousel giải thích RMK",
+          "type": "str"
+        },
+        {
+          "cell": "E14",
+          "value": "VI",
+          "type": "str"
+        },
+        {
+          "cell": "F14",
+          "value": "Bản minh họa hiện có; chưa chọn RMK",
+          "type": "str"
+        },
+        {
+          "cell": "G14",
+          "value": "Chưa chọn",
+          "type": "str"
+        },
+        {
+          "cell": "H14",
+          "value": "Xem Supplier/Partner: Người chịu trách nhiệm",
+          "type": "str"
+        },
+        {
+          "cell": "I14",
+          "value": "Thư viện cũ05/10;đổi vai trò06/10,giữ phiên bản ảnh",
+          "type": "str"
+        },
+        {
+          "cell": "A15",
+          "value": "P2",
+          "type": "str"
+        },
+        {
+          "cell": "B15",
+          "value": "Supplier/Partner",
+          "type": "str"
+        },
+        {
+          "cell": "C15",
+          "value": "Ranh giới trước tích hợp",
+          "type": "str"
+        },
+        {
+          "cell": "D15",
+          "value": "Carousel giải thích RMK",
+          "type": "str"
+        },
+        {
+          "cell": "E15",
+          "value": "VI",
+          "type": "str"
+        },
+        {
+          "cell": "F15",
+          "value": "Bản minh họa hiện có; chưa chọn RMK",
+          "type": "str"
+        },
+        {
+          "cell": "G15",
+          "value": "Chưa chọn",
+          "type": "str"
+        },
+        {
+          "cell": "H15",
+          "value": "Xem Supplier/Partner: Ranh giới trước tích hợp",
+          "type": "str"
+        },
+        {
+          "cell": "I15",
+          "value": "Thư viện cũ05/10;đổi vai trò06/10,giữ phiên bản ảnh",
+          "type": "str"
+        },
+        {
+          "cell": "A16",
+          "value": "P3",
+          "type": "str"
+        },
+        {
+          "cell": "B16",
+          "value": "Supplier/Partner",
+          "type": "str"
+        },
+        {
+          "cell": "C16",
+          "value": "Hồ sơ khách hàng",
+          "type": "str"
+        },
+        {
+          "cell": "D16",
+          "value": "Carousel giải thích RMK",
+          "type": "str"
+        },
+        {
+          "cell": "E16",
+          "value": "VI",
+          "type": "str"
+        },
+        {
+          "cell": "F16",
+          "value": "Bản minh họa hiện có; chưa chọn RMK",
+          "type": "str"
+        },
+        {
+          "cell": "G16",
+          "value": "Chưa chọn",
+          "type": "str"
+        },
+        {
+          "cell": "H16",
+          "value": "Xem Supplier/Partner: Hồ sơ khách hàng",
+          "type": "str"
+        },
+        {
+          "cell": "I16",
+          "value": "Thư viện cũ05/10;đổi vai trò06/10,giữ phiên bản ảnh",
+          "type": "str"
+        },
+        {
+          "cell": "A17",
+          "value": "RMK-01",
+          "type": "str"
+        },
+        {
+          "cell": "B17",
+          "value": "Đóng gói và kiểm thử tại Trung Quốc",
+          "type": "str"
+        },
+        {
+          "cell": "C17",
+          "value": "Kinh nghiệm triển khai liên quan",
+          "type": "str"
+        },
+        {
+          "cell": "D17",
+          "value": "Carousel case chứng minh RMK",
+          "type": "str"
+        },
+        {
+          "cell": "E17",
+          "value": "VI",
+          "type": "str"
+        },
+        {
+          "cell": "F17",
+          "value": "Bản xem thử",
+          "type": "str"
+        },
+        {
+          "cell": "G17",
+          "value": "Đã chọn nội dung",
+          "type": "str"
+        },
+        {
+          "cell": "H17",
+          "value": "Xem Đóng gói và kiểm thử tại Trung Quốc: Kinh nghiệm triển khai liên quan",
+          "type": "str"
+        },
+        {
+          "cell": "I17",
+          "value": "Nguồn case được dẫn trong bản xem",
+          "type": "str"
+        },
+        {
+          "cell": "A18",
+          "value": "RMK-02",
+          "type": "str"
+        },
+        {
+          "cell": "B18",
+          "value": "Pressway Việt Nam",
+          "type": "str"
+        },
+        {
+          "cell": "C18",
+          "value": "Kinh nghiệm triển khai liên quan",
+          "type": "str"
+        },
+        {
+          "cell": "D18",
+          "value": "Carousel case chứng minh RMK",
+          "type": "str"
+        },
+        {
+          "cell": "E18",
+          "value": "VI",
+          "type": "str"
+        },
+        {
+          "cell": "F18",
+          "value": "Bản xem thử",
+          "type": "str"
+        },
+        {
+          "cell": "G18",
+          "value": "Chưa chọn",
+          "type": "str"
+        },
+        {
+          "cell": "H18",
+          "value": "Xem Pressway Việt Nam: Kinh nghiệm triển khai liên quan",
+          "type": "str"
+        },
+        {
+          "cell": "I18",
+          "value": "Nguồn case được dẫn trong bản xem",
+          "type": "str"
+        },
+        {
+          "cell": "A19",
+          "value": "RMK-03",
+          "type": "str"
+        },
+        {
+          "cell": "B19",
+          "value": "Thiết kế chip tại Trung Quốc",
+          "type": "str"
+        },
+        {
+          "cell": "C19",
+          "value": "Kinh nghiệm triển khai liên quan",
+          "type": "str"
+        },
+        {
+          "cell": "D19",
+          "value": "Carousel case chứng minh RMK",
+          "type": "str"
+        },
+        {
+          "cell": "E19",
+          "value": "VI",
+          "type": "str"
+        },
+        {
+          "cell": "F19",
+          "value": "Bản xem thử",
+          "type": "str"
+        },
+        {
+          "cell": "G19",
+          "value": "Chưa chọn",
+          "type": "str"
+        },
+        {
+          "cell": "H19",
+          "value": "Xem Thiết kế chip tại Trung Quốc: Kinh nghiệm triển khai liên quan",
+          "type": "str"
+        },
+        {
+          "cell": "I19",
+          "value": "Nguồn case được dẫn trong bản xem",
+          "type": "str"
+        },
+        {
+          "cell": "A20",
+          "value": "RMK-04",
+          "type": "str"
+        },
+        {
+          "cell": "B20",
+          "value": "Phẩm Thuyên Việt Nam",
+          "type": "str"
+        },
+        {
+          "cell": "C20",
+          "value": "Kinh nghiệm triển khai liên quan",
+          "type": "str"
+        },
+        {
+          "cell": "D20",
+          "value": "Carousel case chứng minh RMK",
+          "type": "str"
+        },
+        {
+          "cell": "E20",
+          "value": "VI",
+          "type": "str"
+        },
+        {
+          "cell": "F20",
+          "value": "Bản xem thử",
+          "type": "str"
+        },
+        {
+          "cell": "G20",
+          "value": "Chưa chọn",
+          "type": "str"
+        },
+        {
+          "cell": "H20",
+          "value": "Xem Phẩm Thuyên Việt Nam: Kinh nghiệm triển khai liên quan",
+          "type": "str"
+        },
+        {
+          "cell": "I20",
+          "value": "Nguồn case được dẫn trong bản xem",
+          "type": "str"
+        },
+        {
+          "cell": "A21",
+          "value": "CT-case06",
+          "type": "str"
+        },
+        {
+          "cell": "B21",
+          "value": "Case đóng gói và kiểm thử tại Trung Quốc",
+          "type": "str"
+        },
+        {
+          "cell": "C21",
+          "value": "Nội dung chi tiết",
+          "type": "str"
+        },
+        {
+          "cell": "D21",
+          "value": "Trang case",
+          "type": "str"
+        },
+        {
+          "cell": "E21",
+          "value": "VI/EN/Hans/Hant",
+          "type": "str"
+        },
+        {
+          "cell": "F21",
+          "value": "Bản xem thử",
+          "type": "str"
+        },
+        {
+          "cell": "G21",
+          "value": "Chưa quyết định sử dụng",
+          "type": "str"
+        },
+        {
+          "cell": "H21",
+          "value": "Xem Case đóng gói và kiểm thử tại Trung Quốc: Nội dung chi tiết",
+          "type": "str"
+        },
+        {
+          "cell": "I21",
+          "value": "Nguồn case được dẫn trong bản xem",
+          "type": "str"
+        },
+        {
+          "cell": "A22",
+          "value": "CT-pressway",
+          "type": "str"
+        },
+        {
+          "cell": "B22",
+          "value": "Pressway Việt Nam",
+          "type": "str"
+        },
+        {
+          "cell": "C22",
+          "value": "Nội dung chi tiết",
+          "type": "str"
+        },
+        {
+          "cell": "D22",
+          "value": "Trang case",
+          "type": "str"
+        },
+        {
+          "cell": "E22",
+          "value": "VI/EN/Hans/Hant",
+          "type": "str"
+        },
+        {
+          "cell": "F22",
+          "value": "Bản xem thử",
+          "type": "str"
+        },
+        {
+          "cell": "G22",
+          "value": "Chưa quyết định sử dụng",
+          "type": "str"
+        },
+        {
+          "cell": "H22",
+          "value": "Xem Pressway Việt Nam: Nội dung chi tiết",
+          "type": "str"
+        },
+        {
+          "cell": "I22",
+          "value": "Nguồn case được dẫn trong bản xem",
+          "type": "str"
+        }
+      ],
+      "formulas": []
+    }
+  ]
+}

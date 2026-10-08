@@ -1,0 +1,124 @@
+"""Prepare one bounded package extension; does not write delivered files."""
+import hashlib, json, pathlib, subprocess
+from datetime import datetime, timezone
+
+ROOT = pathlib.Path(__file__).resolve().parents[3]
+REC = pathlib.Path(__file__).parent
+OUT = ROOT / 'deliverables/manager-package-v2/2026-10-07'
+sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
+
+COPY = {
+    'title': 'Logic quảng cáo và cách điều chỉnh theo dữ liệu',
+    'lead': 'Bảo bắt đầu từ đúng doanh nghiệp và người phụ trách, chọn một vấn đề họ cần giải quyết, rồi nối quảng cáo với phần giải thích và case. Mục tiêu awareness là để Digiwin được nhớ đến khi doanh nghiệp cân nhắc giải pháp quản trị cho bài toán đó.',
+    'audience': {
+        'title': '1. Chọn doanh nghiệp, rồi chọn người cần tiếp cận',
+        'intro': 'Ưu tiên chuỗi cung ứng bán dẫn và điện tử: PCB, substrate, linh kiện, vật liệu đóng gói và gia công chính xác cho thiết bị. Với mỗi nhóm, Bảo xét bài toán quản trị và nơi có quyền quyết định hệ thống để chọn hướng tiếp cận.',
+        'steps': [
+            ['Doanh nghiệp', 'Đối chiếu tên, website và Company Page để giảm nhầm định danh.'],
+            ['Việt Nam', 'Khoanh phạm vi người làm việc tại thị trường cần tiếp cận.'],
+            ['Chức năng', 'Chọn nhóm có trách nhiệm với vấn đề: vận hành, chất lượng, kỹ thuật hoặc IT.'],
+            ['Cấp bậc', 'Thu hẹp tới nhóm quản lý có ảnh hưởng đến việc đánh giá giải pháp.'],
+        ],
+        'primary': ['Tệp chính · 424 dòng công ty cung cấp', 'Bảo giữ danh sách nguồn, nghiên cứu và bổ sung định danh website/Page nhằm giúp LinkedIn nhận diện đúng công ty. Độ phù hợp với từng hướng quảng cáo được xét cùng hoạt động, vai trò và phân phối thực tế.'],
+        'backup': ['Tệp dự phòng · 52 Company Pages', 'Từ 203 đơn vị được nghiên cứu riêng, Bảo giữ 52 Company Pages có căn cứ định danh. Đây là phương án bổ sung khi tệp chính gặp vấn đề về mapping hoặc quy mô tiếp cận sau lọc. Bảo chọn tệp theo chất lượng mapping, quy mô và phân phối thực tế.'],
+        'dated': 'Theo lần kiểm gần nhất 6–7/10, tệp chính đã gửi bản sửa và chờ đọc lại mapping/quy mô; backup hiển thị Ready, phần mapping chi tiết cần kiểm tiếp. Bước trước khi dùng là xác nhận đúng công ty và quy mô sau lọc.',
+        'locale': 'Ngôn ngữ nội dung được chọn theo nhóm người đọc. Nhóm nội địa/FDI và vai trò công việc được đối chiếu riêng; ngôn ngữ hồ sơ LinkedIn chỉ là một phần của cấu hình tiếp cận.',
+    },
+    'hypotheses': {
+        'title': '2. Hai nhóm, hai giả thuyết nội dung',
+        'vn': ['Nội địa · Chuẩn bị đáp ứng khách hàng trong chuỗi', 'Giả thuyết: khi doanh nghiệp cần chuẩn bị cho yêu cầu đánh giá của khách hàng, nội dung về hồ sơ, quy trình và dữ liệu sẽ có ý nghĩa với người phụ trách. Bảo dùng ERP như cầu nối để chuẩn bị năng lực quản trị, rồi giải thích bằng cơ chế và case phù hợp.', 'Liên tưởng muốn xây: Digiwin hiểu việc chuẩn bị năng lực quản trị để doanh nghiệp Việt từng bước tham gia chuỗi cung ứng bán dẫn.'],
+        'fdi': ['FDI · Giải quyết vấn đề vận hành cụ thể', 'Giả thuyết: người phụ trách sẽ quan tâm hơn khi quảng cáo bắt đầu từ tình huống họ nhận ra, như kết quả test bất thường hoặc các bộ phận nhìn trạng thái lot khác nhau. Phần tiếp theo làm rõ dữ liệu cần đối chiếu, trách nhiệm và giá trị phối hợp.', 'Liên tưởng muốn xây: khi cần đánh giá giải pháp quản trị cho bài toán vận hành này, nghĩ đến Digiwin. Giá trị thể hiện qua thời gian, phối hợp và kiểm soát rủi ro.'],
+        'localization': 'English và Chinese giữ cùng bài toán, mạch kể và phạm vi case; cách đặt câu, thuật ngữ và lời mời đọc tiếp được điều chỉnh cho người đọc của từng bản.',
+    },
+    'visual': {
+        'title': '3. Hình ảnh cùng kể một logic',
+        'intro': 'Logo Digiwin, nền sáng, xanh–navy và chất liệu có chiều sâu tạo sự nhất quán giữa các điểm chạm. Hồ sơ, linh kiện và đường nối dữ liệu giúp thể hiện câu hỏi vận hành: cần chuẩn bị gì, đối chiếu gì và ai chịu trách nhiệm. Cảnh thay đổi theo ý cần giải thích.',
+        'anchor': 'Điểm xuyên suốt là chuyên môn quản trị gắn với ngành: mỗi quảng cáo giúp người đọc nhìn rõ một vấn đề và cách tiếp cận của Digiwin. Thông điệp, hình ảnh, case và trang đọc cùng phục vụ một người đọc và một bài toán.',
+        'examples': [
+            {
+                'id': 'vn', 'title': 'Ví dụ VN · Từ năng lực quản trị đến hồ sơ đánh giá',
+                'intro': 'Người đọc: quản lý nhà máy hoặc chất lượng tại doanh nghiệp nội địa đang chuẩn bị đáp ứng khách hàng trong chuỗi. Mạch nội dung đi từ lời mời chuẩn bị năng lực quản trị tới hồ sơ cần đối chiếu, rồi case có cơ chế cụ thể.',
+                'frames': [
+                    {'image': '../03_Thu_vien/vn-w1/assets/vn-cold-v4.png', 'label': 'Mở đầu · Vì sao Digiwin liên quan?', 'text': 'Hồ sơ và linh kiện công nghiệp nối kinh nghiệm Digiwin với nhu cầu chuẩn bị quản trị của doanh nghiệp Việt.', 'alt': 'Quảng cáo VN mở đầu: Digiwin đồng hành cùng doanh nghiệp Việt chuẩn bị năng lực quản trị để bước vào chuỗi bán dẫn.'},
+                    {'image': '../03_Thu_vien/vn-w1/assets/vn-r2-v4.png', 'label': 'Giải thích · Chuẩn bị cho yêu cầu nào?', 'text': 'Câu hỏi về hồ sơ audit đưa mục tiêu tham gia chuỗi về một tình huống quản trị người phụ trách cần chuẩn bị.', 'alt': 'Quảng cáo VN đặt câu hỏi: Khách hàng yêu cầu audit. Hồ sơ đã sẵn sàng?'},
+                    {'image': '../03_Thu_vien/vn-w1/assets/vn-e2-v4.png', 'label': 'Case · Cơ chế được minh họa ra sao?', 'text': 'Case Aplus Semiconductor tại Trung Quốc minh họa truy xuất lịch sử theo serial, trong giải pháp DigiHua iMES + TOP GP.', 'alt': 'Ảnh case Aplus tại Trung Quốc: báo công theo serial hỗ trợ truy xuất lịch sử từng sản phẩm.'},
+                ],
+                'value': 'Ý muốn người đọc giữ lại: chuẩn bị đáp ứng khách hàng bắt đầu từ khả năng tổ chức và đối chiếu dữ liệu. ERP hỗ trợ năng lực quản trị; việc đánh giá nhà cung ứng theo yêu cầu cụ thể của khách hàng.',
+                'journey': '../03_Thu_vien/vn-w1/index.html', 'reader': '../03_Thu_vien/vn-w1/case-reader.html',
+            },
+            {
+                'id': 'fdi', 'title': 'Ví dụ FDI · Đối chiếu kết quả theo lot',
+                'intro': 'Người đọc: Quality phối hợp Operations tại nhà máy đóng gói và kiểm thử. Giả thuyết là một câu hỏi sát công việc sẽ tạo chú ý; phần giải thích và case giúp người quan tâm hiểu giá trị của việc nối dữ liệu và trách nhiệm.',
+                'frames': [
+                    {'image': '../03_Thu_vien/b1/assets/01-cold-osat-qa-01-image.png', 'label': 'Mở đầu · Gọi đúng tình huống', 'text': 'Kết quả test bất thường dẫn tới câu hỏi về lot, thời điểm test và người phụ trách hồ sơ.', 'alt': 'Quảng cáo English cho Quality: Unexpected test result? Start with the lot.'},
+                    {'image': '../03_Thu_vien/b1/assets/03-o1-a2.png', 'label': 'Giải thích · Chỉ rõ bước đối chiếu', 'text': 'Hình lot nối với các hồ sơ giải thích quan hệ dữ liệu cần kiểm khi lot được tách hoặc gộp.', 'alt': 'Card English Start with the right lot, minh họa các quan hệ giữa lot và hồ sơ liên quan.'},
+                    {'image': '../03_Thu_vien/b1/assets/09-rmk-r4-3.png', 'label': 'Case · Đưa cơ chế vào bối cảnh thực', 'text': 'Case 江苏中科智芯集成科技有限公司 tại Trung Quốc dùng Digiwin ERP + iMES; phần MES nối dữ liệu truy vết và ghi nhận ngoại lệ.', 'alt': 'Card case Trung Quốc nêu cơ chế MES nối batch, workstation, operator và product/material để truy vết.'},
+                ],
+                'value': 'Giá trị muốn làm rõ: Quality và Operations có cơ sở chung để phối hợp bước kiểm tiếp theo. Case giúp giải thích cơ chế trong bối cảnh triển khai cụ thể.',
+                'journey': '../03_Thu_vien/b1/index.html', 'reader': '../03_Thu_vien/b1/case-reader.html',
+            },
+        ],
+    },
+    'journey': {
+        'title': '4. Mỗi điểm chạm có một nhiệm vụ',
+        'steps': [
+            ['Ảnh đơn · Tạo chú ý', 'Đặt một vấn đề rõ với người đọc mới; nhận diện Digiwin và bài toán ngay trong quảng cáo.'],
+            ['Carousel · Giải thích sâu', 'Khi tệp tương tác với chính quảng cáo mới đủ điều kiện, nối câu hỏi ban đầu với cách đối chiếu và case phù hợp.'],
+            ['Trang đọc · Củng cố cơ sở', 'Giúp người muốn tìm hiểu xem bối cảnh triển khai, cơ chế giải pháp và bước trao đổi nhu cầu.'],
+        ],
+        'continuity': 'Mỗi điểm chạm tự có ngữ cảnh; các phần cùng giữ người đọc, vấn đề và nhận diện Digiwin. Hai luồng VN và thư viện FDI cho phép Bảo thay đúng đoạn cần cải thiện, giữ mạch nội dung của cả luồng.',
+    },
+    'matrix': {
+        'title': '5. Dữ liệu dẫn đến quyết định nào?',
+        'intro': 'Tuần 1 chạy đúng plan. Cuối tuần, Bảo đọc dữ liệu theo tệp, quảng cáo và cùng kỳ quan sát để chọn hướng tuần 2 trong trần ngân sách. Thay đổi bám vào nguyên nhân của từng khâu.',
+        'rows': [
+            ['Đo lường thiếu hoặc lệch nguồn', 'Đối soát cách đo và nguồn dữ liệu trước khi đánh giá nội dung.'],
+            ['Phân phối lệch công ty hoặc vai trò', 'Rà mapping và bộ lọc; cân nhắc tệp chính/backup theo dữ liệu tương ứng.'],
+            ['Reach thấp, lặp lại hoặc nhịp chi chưa phù hợp', 'Kiểm quy mô sau lọc, cấu hình và pacing; điều chỉnh phân phối trong ngân sách.'],
+            ['Đúng tệp, quảng cáo mở đầu ít tạo chú ý', 'Thay hook hoặc visual mở đầu phù hợp cùng persona và ngôn ngữ.'],
+            ['Có quan tâm ban đầu, bước tìm hiểu tiếp yếu', 'Rà mạch chuyển tiếp; thay đúng phần giải thích, case hoặc trang đọc cần cải thiện.'],
+            ['Tín hiệu tốt và tệp tương tác đủ điều kiện', 'Tiếp tục phần hiệu quả; dùng carousel RMK phù hợp với nhóm đã tương tác.'],
+            ['Dữ liệu còn mỏng hoặc độ phủ hạn chế', 'Quan sát thêm, thu hẹp phép thử hoặc giữ lại ngân sách theo chất lượng tín hiệu.'],
+        ],
+        'learning': 'Reach và tần suất cho biết cơ hội tiếp xúc; CTR, engagement và hành vi đi tiếp giúp đọc mức quan tâm. Liên tưởng về Digiwin là mục tiêu awareness cần được đánh giá riêng qua phản hồi hoặc phép đo phù hợp. Lead đã xác minh bổ sung tín hiệu thương mại.',
+        'change': 'Mỗi lần điều chỉnh, Bảo ghi rõ tín hiệu, phần thay và kết quả lần review sau. Khi đổi hook, Bảo ưu tiên giữ cùng tệp, thông điệp và phần giải thích để đọc tác động; đổi nhiều yếu tố cùng lúc được đánh giá theo toàn bộ thay đổi.',
+        'close': 'Bảo quyết định tệp, nội dung và nhịp chạy trong phạm vi được giao. Phần đầu tư giữ ba điểm Vy xem giúp: mức ngân sách, cơ cấu chi và cách đánh giá hiệu quả.',
+    },
+    'proposal_summary': 'Bảo chuẩn bị tệp chính từ 424 dòng công ty cung cấp và một tệp dự phòng gồm 52 Company Pages được nghiên cứu riêng. Cách tiếp cận đi từ đúng công ty tới phạm vi Việt Nam, chức năng công việc và cấp bậc phù hợp. Mapping và quy mô sau lọc là cơ sở để chọn tệp khi chạy.',
+    'proposal_hypothesis': 'Giả thuyết VN nối yêu cầu của khách hàng trong chuỗi với năng lực quản trị cần chuẩn bị. Giả thuyết FDI mở từ tình huống vận hành, rồi làm rõ giá trị của dữ liệu và phối hợp. Hình ảnh, phần giải thích và case cùng giữ một bài toán để xây liên tưởng về Digiwin.',
+    'proposal_matrix': 'Review cuối tuần 1 giúp Bảo phân biệt vấn đề ở đo lường, tệp, phân phối hay nội dung. Tuần 2 thay đúng khâu cần cải thiện, giữ phần hiệu quả và chọn RMK khi tệp tương tác với chính quảng cáo mới đủ điều kiện.',
+    'mail_line': 'Bảo bổ sung phần logic quảng cáo để Vy xem cách chọn tệp chính/dự phòng, giả thuyết riêng cho VN–FDI và hai ví dụ nối hình ảnh với thông điệp. Phần này cũng chỉ rõ dữ liệu nào dẫn đến điều chỉnh tuần 2.',
+    'home_line': 'Tệp chính và dự phòng, hai giả thuyết VN–FDI, hình ảnh minh họa và cách Bảo chọn hành động tuần 2 được trình bày trong một mạch.',
+}
+
+SOURCES = {
+    'anchor': ROOT/'operations/Vy_Email_Content_Anchor.md',
+    'vy_email': ROOT/'operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md',
+    'workflow': ROOT/'operations/manager-package-v2/Package_V2_Workflow_Anchor_2026-10-07.md',
+    'primary_state': pathlib.Path('D:/optimize-awareness-LinkedIn-adcopy/operations/linkedin-closeout/2026-10-05/STATE.md'),
+    'primary_result': pathlib.Path('D:/optimize-awareness-LinkedIn-adcopy/operations/linkedin-closeout/2026-10-05/slice-a/FULL_MATCHING_RESEARCH_RESULT_20261006.md'),
+    'backup': pathlib.Path('D:/Digiwin_LinkedIn_Contingency_Audience/operations/LinkedIn_Contingency_R5_PostMatch_Check_2026-10-07.md'),
+    'backup_upload': pathlib.Path('D:/Digiwin_LinkedIn_Contingency_Audience/operations/LinkedIn_Contingency_R5_52_Upload_2026-10-07.md'),
+    'matrix': ROOT/'operations/manager-package-v2/phase1/Week1_Review_Week2_Data_Matrix.md',
+    'weekly_decision': ROOT/'operations/manager-package-v2/phase1/PO_Dashboard_Weekly_Decision_2026-10-07.md',
+    'positioning': ROOT/'operations/LinkedIn_Carousel_Constraints_and_Awareness_Anchor.md',
+    'hypotheses': ROOT/'operations/LinkedIn_Awareness_Adcopy_Optimization_Plan.md',
+    'visual': ROOT/'operations/LinkedIn_Awareness_Campaign_Visual_Kit_R2.md',
+    'main_current': pathlib.Path('D:/Digiwin_Semiconducter_Workspace/CURRENT_STATE.md'),
+    'prior_manifest': ROOT/'operations/manager-package-v2/phase3/final-file-manifest.json',
+    'prior_prepared': ROOT/'operations/manager-package-v2/phase3/prepared-copy.json',
+    'historical_builder': ROOT/'operations/manager-package-v2/phase3/build_package.py',
+}
+
+if __name__ == '__main__':
+    data = {'revision': 'package-v2-ad-logic-1.1', 'prepared_utc': datetime.now(timezone.utc).isoformat(), 'copy': COPY}
+    (REC/'prepared-copy.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
+    pins = [{'id':k,'path':str(p).replace('\\','/'),'sha256':sha(p)} for k,p in SOURCES.items()]
+    pictures=[]
+    for example in COPY['visual']['examples']:
+        for frame in example['frames']:
+            p=(OUT/'01_De_xuat'/frame['image']).resolve()
+            pictures.append({'path':str(p.relative_to(OUT)).replace('\\','/'),'sha256':sha(p),'observation':frame['alt'],'native_viewed':True})
+    state={'package_head':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT).decode().strip(),'main_head':subprocess.check_output(['git','rev-parse','main'],cwd=ROOT).decode().strip(),'fetch_or_remote_query':False}
+    (REC/'source-bindings.json').write_text(json.dumps({'captured_utc':data['prepared_utc'],'git':state,'sources':pins,'illustrations':pictures},ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
+    print('Prepared copy and source bindings; delivery unchanged.')

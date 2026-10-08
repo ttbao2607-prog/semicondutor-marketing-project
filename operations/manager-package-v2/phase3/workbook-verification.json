@@ -1,0 +1,83 @@
+{
+  "engine": "artifact-tool",
+  "nativeExcelTest": false,
+  "tests": [
+    {
+      "label": "held inside cap",
+      "expected": 6100000,
+      "actual": 6100000
+    },
+    {
+      "label": "allocation total",
+      "expected": 11700000,
+      "actual": 11700000
+    },
+    {
+      "label": "missing spend is blank",
+      "expected": "",
+      "actual": ""
+    },
+    {
+      "label": "recorded spend updates",
+      "expected": 200000,
+      "actual": 200000
+    },
+    {
+      "label": "weighted CTR",
+      "expected": 0.01,
+      "actual": 0.01
+    },
+    {
+      "label": "verified lead ratio",
+      "expected": 0.25,
+      "actual": 0.25
+    },
+    {
+      "label": "CPM",
+      "expected": 20000,
+      "actual": 20000
+    },
+    {
+      "label": "CPC",
+      "expected": 2000,
+      "actual": 2000
+    },
+    {
+      "label": "campaign frequency",
+      "expected": 5,
+      "actual": 5
+    },
+    {
+      "label": "observed zero click yields zero CTR",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "label": "zero-click CPC unavailable",
+      "expected": "",
+      "actual": ""
+    },
+    {
+      "label": "missing click keeps CTR unavailable",
+      "expected": "",
+      "actual": ""
+    },
+    {
+      "label": "incomplete campaign measure keeps week total unavailable",
+      "expected": "",
+      "actual": ""
+    },
+    {
+      "label": "sample spend restored",
+      "expected": "",
+      "actual": ""
+    },
+    {
+      "label": "weekly actuals restored",
+      "expected": "",
+      "actual": ""
+    }
+  ],
+  "errorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "finalActuals": "blank; all sample inputs removed"
+}

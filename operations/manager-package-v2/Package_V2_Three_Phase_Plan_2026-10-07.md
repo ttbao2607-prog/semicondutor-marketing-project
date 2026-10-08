@@ -1,0 +1,100 @@
+> **Package v2 VI / 繁體中文 · PO approved / local main · 08/10/2026:** [Bản đã duyệt](../../deliverables/manager-package-v2/2026-10-07/BAT_DAU.html) được nhập với **snapshot nguồn tách `196f26b9` (07/10/2026 13:41 +07:00)**:17luồng VN/OSAT,170PNG,17reader và workbook; bản trình bày gồm toggle Việt/phồn thể và evidence. Thư viện package là phần chọn ở snapshot này, không phải toàn bộ thư viện main hiện tại. [Mốc nguồn, phạm vi và kiểm đối soát](main-integration-2026-10-08/README.md).
+
+> **Tiến độ toàn repo tại lúc nhập — mốc `c5e71913` (08/10/2026 10:18 +07:00):** PartnerB22–B30 **COMPLETE,9batch/90PNG**; FablessB13–B17 đã nhập **5batch/55PNG**, B18–B21 **NOT_RUN**. Tiến độ/asset/evidence mới trên main được giữ nguyên. Tệp chính/backup giữ ngày quan sát riêng; không có live readback mới. Package giữ cap **11,7triệu chưa thuế** (5,6triệu đầu +6,1triệu giữ lại trong tổng); Bảo quản lý số dashboard, kế toán xử lý thuế/thanh toán; tuần1→review→tuần2 theo [quyết định Bảo](phase1/PO_Dashboard_Weekly_Decision_2026-10-07.md). PO approval áp dụng package offline, không nâng source technical/live verdict; adapter DEVELOPING/NOT_FROZEN và frozen scopes giữ nguyên. Chỉ local, chưa push.
+
+> **Package v2 VI / 繁體中文 · PO approved 08/10/2026:** Bảo duyệt bản hiện tại và yêu cầu merge main sau đối chiếu snapshot. Gói233file/17luồng VN–OSAT/170PNG giữ nguyên; nguồn tách `196f26b9` lúc13:41ngày07/10. Main đã tới `c5e71913`: Partner9batch/90PNG complete, Fabless5batch/55PNG đã nhập,cònB18–B21 NOT_RUN. Gói không mở rộng bằng asset mới. [Approval và integration](main-integration-2026-10-08/PO_Approval.md). Checkpoint/merge đang thực hiện local; chưa push. Receipt pending trước bên dưới là snapshot, không current PO status; frozen scopes/adapter DEVELOPING giữ nguyên.
+
+> **Package v2 · chuyển Việt / 繁體中文 — 08/10/2026:** Checkpoint evidence đã lưu local `686f55f7` trên nhánh package, chưa merge/push. Bảy trang trình bày có toggle và bản phồn thể xưng 我／你; [bắt đầu](../../deliverables/manager-package-v2/2026-10-07/BAT_DAU.html), [hồ sơ kiểm](zh-hant-2026-10-08/README.md). **ZH_HANT_PRESENTATION_PREPARED / BAO_REVIEW_PENDING**; bản dịch là working files chưa commit. Package233file;219file cũ ngoài7wrapper giữ nguyên, gồm170PNG/17journey/17reader/workbook/10ảnh evidence. Artifact gốc giữ ngôn ngữ, link Chinese ghi rõ nguyên văn; không mở rộng thư viện từ main mới. Evidence12file local/ignored. Desktop1707 và narrow417CSSpx đã kiểm; không chứng nhận375px/full-page/native-market hay live. Anchor1.0 fresh PREGEN/POSTGEN SELF_REVIEW; adapter DEVELOPING/NOT_FROZEN và frozen scopes giữ nguyên. Notice cũ bên dưới là snapshot trước checkpoint/localization.
+
+> **Evidence link extension — PO 08/10/2026:** Bảo duyệt reader và yêu cầu ghép vào package worktree, đổi tên `evidence.html`, thêm link nhẹ tại BAT_DAU. Đã copy vào05_Evidence và thêm đúng một link cuối trang; [scope/review/manifest226file](evidence-integration-2026-10-08/README.md). Mandate mới thay duy nhất phần “không sửa/không thêm link evidence” ở snapshot approval bên dưới;214file khác/205protected assets và ba câu hỏi/cap giữ nguyên. Attachment ảnh tài khoản local/ignored; chưa commit/main/push, không live release.
+
+> **PO approved / checkpoint — 08/10/2026:** Bảo duyệt kết quả package + ad logic và yêu cầu commit local. [Approval record](ad-logic-2026-10-08/PO_Approval_2026-10-08.md), **PO_APPROVED_OFFLINE**. Kho evidence riêng là đầu việc tiếp theo; không sửa package đã duyệt. Pending notices bên dưới là snapshot trước quyết định này. Main/push/live giữ mandate riêng.
+
+> **Extension execution complete — 08/10/2026:** Theo Bảo “OKie tiến hành làm theo plan”, đã làm ba bước cho phần logic quảng cáo: đối chiếu source → tách phần giải thích của Bảo khỏi ba câu hỏi đầu tư → dựng/polish và hậu kiểm package. [Kết quả và review](ad-logic-2026-10-08/README.md), **AD_LOGIC_PREPARED / BAO_REVIEW_PENDING**. Baseline Phase 2–3 ecf87ad đã checkpoint local; phần bổ sung chưa commit/main/GitHub. Plan/receipts gốc bên dưới giữ phạm vi lịch sử; current presentation/review của phần bổ sung dùng hồ sơ mới. Không đổi quyết định budget hoặc frozen scopes.
+
+> **Phase 3 current 07/10:** Bảo yêu cầu chuyển sang Phase3 từ bản split Phase2 và gửi Vy, xưng tên Bảo–Vy. [Package thư mục thường](../../deliverables/manager-package-v2/2026-10-07/BAT_DAU.html) đã dựng; **PHASE3_PREPARED / BAO_FINAL_REVIEW_PENDING**. Proposal/mail,3điểm đầu tư, demo/library/readers/workbook và actual source/render/formula reviews ghi tại [Phase3](phase3/README.md). Phase1 checkpoint4030d40; Phase2/3 được checkpoint local theo mandate “commit local codex”; xem [phạm vi checkpoint](Checkpoint_Phase2_Phase3_2026-10-07.md). Main/push/live, email transmission và acceptance cuối giữ mandate riêng.
+
+# Package v2 · plan3phase
+
+Trạng thái hiện tại: **PHASE3_PREPARED / BAO_FINAL_REVIEW_PENDING**. Plan checkpoint7796bc6 và Phase1 checkpoint4030d40 giữ nguyên. Bảo cho phép dùng bản split/3câu Phase2 để làm Phase3; recipient là Vy, xưng tên. Không có response thay Vy/lãnh đạo. Khi plan được lập ban đầu, ba phase chưa thực thi. Workflow/inventory vẫn là source contract, không số câu hỏi.
+
+Mục tiêu: package trình sếp có đề xuất budget rõ, logic dùng tiền và measurement hợp lý để đồng ý/từ chối/góp ý; dữ liệu nguồn đủ integrity, phần quyết định của Bảo và evidence vận hành được giữ ở hồ sơ nội bộ. Bảo có autonomy paid ads và toàn pipeline. Mandate hiện tại kích hoạt Phase3 offline package construction, không thay quyết định budget hiện hành.
+
+## Phạm vi và nơi lưu
+
+- Worktree/branch: `D:/LinkedIn_Package_V2_2026-10-07` / `slice/linkedin-package-v2-inventory`.
+- Owner điều phối và quyết định: Bảo. Agent hiện tại lập plan/kiểm trong scope được giao; không spawn hoặc điều phối agent khác từ plan này.
+- Read: main canonical, source worktrees liên quan, package v1 và receipts đã sanitize. Các snapshot/progress phải có ngày và revision; worktrees đang làm có thể tiến thêm.
+- Internal outputs dự kiến: `operations/manager-package-v2/phase1/`, `phase2/`, `phase3/`. Package để trình sếp dự kiến: `deliverables/manager-package-v2/`; cấu trúc trang/format chi tiết được xác định theo steering của Bảo trong khi dựng skeleton.
+- Học topology/content hữu ích từ v1; không clone mặc định22questions, engine, formulas, pilot wording, filename count hoặc layout cũ. Bảo quyết định các thay đổi business; dữ kiện hiện hành không tự bị hủy vì viết v2.
+- Phạm vi thực thi sau này là draft/offline. Main merge, push, live-account readback/mutation, campaign/spend và deployment giữ theo mandate riêng.
+
+## Phase1 — Data chuẩn, full integrity, skeleton
+
+**Kết quả cần đạt:** một bộ data có thể truy về nguồn, kèm skeleton đủ nội dung để Bảo chốt dữ liệu. Đây là bản làm việc nội bộ, còn thể hiện đầy đủ status/assumptions/constraints; chưa polish thành bản trình sếp.
+
+**Các việc thực hiện:**
+
+1. Recovery main và worktrees, refresh tiến độ cần dùng; rà34mục theo inventory. Đánh dấu phần sử dụng, không sử dụng hoặc cần Bảo bổ sung, có lý do và nguồn.
+2. Lập source register và data register. Mỗi dữ kiện cần source path/commit hoặc working-file hash, ngày observation, scope/revision, giá trị/đơn vị, loại fact/decision/assumption/pending, và nơi dùng trong skeleton. Bản observed/account snapshot không được trình như realtime.
+3. Đối chiếu quyết định hiện hành, số liệu và tính toán. Tách Discovery424 gốc với contingency backup; không mở lại cleanup đã hoàn tất. Tách selected final khỏi raw attempt, main khỏi source-only, offline approval khỏi technical/live scope. Budget/media cap, tiền giữ lại, giải ngân và thuế/phí có đơn vị/ý nghĩa riêng.
+4. Pin manifest/receipt và kiểm file cần reuse. Nếu copy asset thì kiểm byte/hash và completeness của dependencies; xử lý newline khác biệt minh bạch. Case/claim/entity/locale/reader/return mapping giữ scope nguồn. Không import private account/company/lead data vào public package.
+5. Dựng skeleton từ data đã đối chiếu: đề xuất investment/pipeline; audience; creative/reader; budget/logic; measurement; những quyết định cần cân nhắc. V1 là nguồn học về cách đưa report/demo/library/workbook/căn cứ vào cùng gói, không quyết định cấu trúc v2.
+6. Tổng hợp contradictions và assumptions ảnh hưởng decision. Chỗ chưa có dữ kiện được ghi trong internal register và đưa Bảo chốt, không tự bịa số hay chuyển hết thành câu hỏi hỏi sếp.
+
+**Outputs:** `source-register`, `data-register`, `asset/claim-register`, `reconciliation-notes` và skeleton nội bộ. Định dạng cụ thể dùng mức tối giản phù hợp dữ liệu; không dựng framework/scheduler.
+
+**Điều kiện hoàn tất:** mọi số liệu/claim/decision được dùng có nguồn và scope; phép tính kiểm lại; input reuse đúng revision;34mục có disposition; material contradiction có resolution hoặc được Bảo chấp nhận như assumption rõ ràng. **Bảo chốt data và skeleton trước Phase2.** Skeleton đủ integrity không được tự gọi là package final hoặc acceptance của artifact mới.
+
+## Phase2 — Phần Bảo và phần hỏi sếp
+
+**Kết quả cần đạt:** bản trình sếp chỉ giữ khoảng3–4câu duyệt cần thiết, với budget + logic + measurement đủ quyết định; phần thuộc Bảo và operator nằm ở hồ sơ riêng.
+
+**Các việc thực hiện:**
+
+1. Rà từng đoạn, câu hỏi, control và dữ liệu trong skeleton, gán disposition vào một bảng content split:
+
+| Nhóm | Xử lý trong bản trình sếp | Nơi giữ |
+|---|---|---|
+| **Sếp quyết định budget/đầu tư** | Giữ câu hỏi, đề xuất của Bảo, lý do và cách đo | Executive package |
+| **Bảo quyết định execution/pipeline** | Bỏ câu hỏi xin duyệt; chỉ giữ phần giải thích cần thiết cho investment logic, viết thành phương án Bảo đề xuất | Decision/action register nội bộ; business rationale cần thiết còn ở executive package |
+| **Agent/operator integrity và kỹ thuật** | Loại khỏi phần trình sếp | Source/evidence/QA records nội bộ |
+| **Data thiếu hoặc mâu thuẫn** | Xử lý với Bảo trước; chỉ giữ tác động kinh doanh material và cách xử lý khi cần cho người duyệt | Internal issues register, với executive note ngắn nếu thực sự ảnh hưởng decision |
+
+2. Gộp còn khoảng3–4câu về khoản đầu tư: mức chi/envelope; logic sử dụng hoặc giải ngân; measurement để đánh giá và ra quyết định tiếp theo. Đây là các chủ đề để viết câu hỏi từ data chốt, không phải câu hỏi hay allocation đã chọn sẵn. Mỗi câu có đề xuất, căn cứ ngắn và phản hồi đồng ý/từ chối/góp ý.
+3. Bảo review content split và bộ câu hỏi. Không hỏi sếp chọn locale/asset/rule/lookback/tag/tracking setting, chấp nhận self-review/hash/Git status hoặc cấp quyền thao tác agent. Các chi tiết đó do Bảo xử lý trong quyền đã giao.
+4. Tạo bản executive tách khỏi internal source. “Ẩn/xóa phần Bảo” nghĩa là loại khỏi nội dung bàn giao: không chỉ CSS-hide hoặc giấu tab nhưng vẫn để câu hỏi/agent notes trong DOM, JavaScript/JSON payload, hidden sheets, exports hay package files. Hồ sơ gốc vẫn được giữ ngoài deliverable để bảo toàn integrity.
+5. Loại approval/answers cũ nếu reuse engine hoặc form của v1. Internal34mục không được xuất thành34câu hỏi;22propositions v1 không làm acceptance contract của v2.
+
+**Outputs:** content-split register, decision/action register của Bảo, bản executive có3–4câu hỏi và source mapping từ bản này về Phase1.
+
+**Điều kiện hoàn tất:** mỗi câu thực sự đổi quyết định đầu tư; executive đủ budget/logic/measurement; không có execution approvals thuộc Bảo hoặc agent integrity claims lọt vào package/payload/exports; vật chứng và assumptions material vẫn được giữ đúng mức. **Bảo chốt phần tách và câu hỏi trước Phase3.**
+
+## Phase3 — Polish và finalize
+
+**Kết quả cần đạt:** package tự nhiên, có lập trường, dễ xem và dễ quyết định, với nội dung/số liệu giữ đúng bản đã chốt.
+
+**Các việc thực hiện:**
+
+1. Viết lại theo giọng Bảo trình phương án paid ads: đề xuất → lý do → cách đo → quyết định cần người duyệt. Câu ngắn, business language, tránh jargon và chuỗi “chưa/không/insufficient evidence” của agent.
+2. Kiểm semantic toàn gói và từng surface: headline/report/questions/captions/CTA/demo/workbook hoặc export được chọn. Bất định material nêu ngắn, có hệ quả/cách xử lý; không polish thành kết quả đã xác minh, số ROI hoặc cam kết vượt scope.
+3. Đối chiếu final text/numbers/claims với data chốt Phase1 và split chốt Phase2. Nếu polish đổi số liệu, phạm vi claim hoặc decision thì trả phần đó về bước chốt tương ứng; không hợp thức hóa bằng việc viết hay hơn.
+4. Hoàn thiện các format Bảo chọn, dùng folder thường. Kiểm link/assets/locale/reader/return, budget totals và formula nếu có workbook, export parity và hành vi decision UI nếu có. Dùng skill phù hợp khi thực sự dựng/QA HTML, tài liệu hoặc spreadsheet.
+5. Review bản render thực ở desktop và màn hình hẹp cho các surface được giao; kiểm cả export/share bundle, không chỉ source. Rà lần cuối để agent notes/internal claims/questions không lọt qua metadata hoặc file đi kèm. Kiểm grammar/ngữ nghĩa bằng đọc thực tế, không chỉ keyword scan chữ “chưa/không”.
+6. Ghi final selection/provenance/review trong hồ sơ nội bộ, review DOCS_IMPACT_MAP và sync docs liên quan theo state thật; handoff Bảo duyệt package final. Không đưa các claim nội bộ này thành nội dung xin sếp đồng ý.
+
+**Outputs:** executive package final trong thư mục thường, internal review/change record, selected-file manifest và hướng mở gói ngắn gọn.
+
+**Điều kiện hoàn tất:** business narrative tự nhiên;3–4câu có thể trả lời; data/decision fidelity đúng; package thể hiện autonomy của Bảo; rendered/export checks đủ theo format thực; không internal contamination; Bảo duyệt final. Lỗi render/wording quay về corrective trong Phase3; material data/decision change quay về phần chốt tương ứng.
+
+## Audit target và trạng thái
+
+| Phase | Bằng chứng cần kiểm | Nội dung audit |
+|---|---|---|
+|1| Registers + source pins + skeleton + record Bảo chốt | Full integrity, scope/units/current decisions, contradictions và completeness |
+|2| Content split + executive questions + actual deliverable/payload | Đúng quyền Bảo/sếp, khoảng3–4câu, không rò phần đã ẩn/xóa, vẫn đủ căn cứ đầu tư |
+|3| Final renders/exports + data comparison + review record | Natural semantics, factual fidelity, journey/links/calculations và bundle đúng selection |
+
+Review responsibility không đồng nghĩa có agent độc lập: khai đúng reviewer/independence thực tế; không spawn chỉ vì bảng audit. Execution và audit status ghi ở internal record, không làm claim trong executive package. Việc lập plan không chứng minh các phase đã chạy.
+
+Docs impact tại checkpoint plan và Phase1 giữ trong Git/source records. Phase2 split/3questions là historical baseline cho mandate Phase3. Phase3 package/current-state/progress/owned README đã sync ở checkout riêng; historical Phase1/2 receipts giữ nguyên. Business/anchor/cap/cadence và frozen scopes không đổi. Bảo final review còn pending; main merge/push/live/email transmission giữ mandate riêng.

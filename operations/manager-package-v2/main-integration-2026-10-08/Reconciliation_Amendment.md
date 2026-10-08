@@ -1,0 +1,5 @@
+# Bounded reconciliation amendment · before integration commit
+
+The first preservation check correctly identified three more existing canonical files changed by the source branch: S04 measurement/budget, Cold-to-RMK data plan and the06Oct direction/budget checkpoint. Independent diff against the fork shows only the07Oct PO budget/dashboard/week-review notice was added in each. This is authorized package-budget documentation, not an asset/frozen-core change.
+
+The source notice still says package-checkout/uncommitted. Reconcile these three exactly as the six current shared docs: retain the complete preintegration-main body and prepend the current source-clock/package-adoption/budget notice. The existing-main exception set is therefore11paths: nine canonical docs plus.gitattributes/.gitignore. Other3704oldmain blobs must remain exact. No change to source artwork, business policy, budgets or acceptance criterion; explicit coverage is expanded to include the actual source diff. Historical bodies/receipts stay intact.

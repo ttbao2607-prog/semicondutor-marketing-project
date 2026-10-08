@@ -1,0 +1,367 @@
+{
+  "readers": [
+    {
+      "id": "HTML-O1-en",
+      "treatment": "O1",
+      "incoming_locale": "en",
+      "toggle_languages": [
+        "vi",
+        "en",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "source": {
+        "id": "HTML-O1-en",
+        "owner": "readers",
+        "path": "deliverables/linkedin-safe-batches/2026-10-06/B1-en-o1-v2/case-reader.html",
+        "absolute_path": "D:/LinkedIn_FDI_Destination_HTML_2026-10-07/deliverables/linkedin-safe-batches/2026-10-06/B1-en-o1-v2/case-reader.html",
+        "head_at_capture": "5b99984b142c9799c4e03e4da9ae34509b6ea926",
+        "captured_utc": "2026-10-07T08:03:39.636452+00:00",
+        "bytes": 192663,
+        "sha256": "ac0e85a8b0f835cd10eef9614ae4a4d291ec226efcdf993ce6d0b09b19047e1e",
+        "purpose": "Four-language redesigned destination, PO offline source checkpoint only",
+        "state": "COMMITTED_BYTES",
+        "git_blob_sha256": "ac0e85a8b0f835cd10eef9614ae4a4d291ec226efcdf993ce6d0b09b19047e1e",
+        "last_path_commit": "ac7df75d793bb5ad2ec1b7173a90121d58fe6204"
+      },
+      "main_revision": {
+        "path": "deliverables/linkedin-safe-batches/2026-10-06/B1-en-o1-v2/case-reader.html",
+        "exists": true,
+        "bytes": 3245,
+        "sha256": "4f442de5108ddb2a89b912f7ed7158ff69143207f8a6a423ec15182bf274aa8b",
+        "expected_sha256": null,
+        "pin_result": "NO_EXPECTED_HASH"
+      },
+      "source_differs_from_main": true,
+      "adoption": "SOURCE_PO_OFFLINE_CHECKPOINT_NOT_MAIN",
+      "same_case_photo_paid_rights": "Not inferred from URL/public source or offline design approval"
+    },
+    {
+      "id": "HTML-O1-zh-Hans",
+      "treatment": "O1",
+      "incoming_locale": "zh-Hans",
+      "toggle_languages": [
+        "vi",
+        "en",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "source": {
+        "id": "HTML-O1-zh-Hans",
+        "owner": "readers",
+        "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/case-reader.html",
+        "absolute_path": "D:/LinkedIn_FDI_Destination_HTML_2026-10-07/deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/case-reader.html",
+        "head_at_capture": "5b99984b142c9799c4e03e4da9ae34509b6ea926",
+        "captured_utc": "2026-10-07T08:03:39.636452+00:00",
+        "bytes": 192276,
+        "sha256": "6368590c3005f1ce8915f5e2f621e7f7e5a4d20bca2ce633381c7558815dd567",
+        "purpose": "Four-language redesigned destination, PO offline source checkpoint only",
+        "state": "COMMITTED_BYTES",
+        "git_blob_sha256": "6368590c3005f1ce8915f5e2f621e7f7e5a4d20bca2ce633381c7558815dd567",
+        "last_path_commit": "809dd1a7b3ec7e6ec55ca9d7462987c5796c80c8"
+      },
+      "main_revision": {
+        "path": "deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/case-reader.html",
+        "exists": true,
+        "bytes": 2953,
+        "sha256": "59ba05625baa77c4f1df1993e250006519b63160704cb43227798c9ead04c427",
+        "expected_sha256": null,
+        "pin_result": "NO_EXPECTED_HASH"
+      },
+      "source_differs_from_main": true,
+      "adoption": "SOURCE_PO_OFFLINE_CHECKPOINT_NOT_MAIN",
+      "same_case_photo_paid_rights": "Not inferred from URL/public source or offline design approval"
+    },
+    {
+      "id": "HTML-O1-zh-Hant",
+      "treatment": "O1",
+      "incoming_locale": "zh-Hant",
+      "toggle_languages": [
+        "vi",
+        "en",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "source": {
+        "id": "HTML-O1-zh-Hant",
+        "owner": "readers",
+        "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/case-reader.html",
+        "absolute_path": "D:/LinkedIn_FDI_Destination_HTML_2026-10-07/deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/case-reader.html",
+        "head_at_capture": "5b99984b142c9799c4e03e4da9ae34509b6ea926",
+        "captured_utc": "2026-10-07T08:03:39.636452+00:00",
+        "bytes": 192270,
+        "sha256": "5e8bbcdc5533ac5971b1379635c2a81f15b9534654ded4eaed66bb910012416c",
+        "purpose": "Four-language redesigned destination, PO offline source checkpoint only",
+        "state": "COMMITTED_BYTES",
+        "git_blob_sha256": "5e8bbcdc5533ac5971b1379635c2a81f15b9534654ded4eaed66bb910012416c",
+        "last_path_commit": "809dd1a7b3ec7e6ec55ca9d7462987c5796c80c8"
+      },
+      "main_revision": {
+        "path": "deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/case-reader.html",
+        "exists": true,
+        "bytes": 2989,
+        "sha256": "eb66615e3c38018c88c688bdcff59e9029fb73ad06bce32b7f12cd2ad48cdcd1",
+        "expected_sha256": null,
+        "pin_result": "NO_EXPECTED_HASH"
+      },
+      "source_differs_from_main": true,
+      "adoption": "SOURCE_PO_OFFLINE_CHECKPOINT_NOT_MAIN",
+      "same_case_photo_paid_rights": "Not inferred from URL/public source or offline design approval"
+    },
+    {
+      "id": "HTML-O2-en",
+      "treatment": "O2",
+      "incoming_locale": "en",
+      "toggle_languages": [
+        "vi",
+        "en",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "source": {
+        "id": "HTML-O2-en",
+        "owner": "readers",
+        "path": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/case-reader.html",
+        "absolute_path": "D:/LinkedIn_FDI_Destination_HTML_2026-10-07/deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/case-reader.html",
+        "head_at_capture": "5b99984b142c9799c4e03e4da9ae34509b6ea926",
+        "captured_utc": "2026-10-07T08:03:39.636452+00:00",
+        "bytes": 193767,
+        "sha256": "0a65d3f1d35ae4c572112a52076aa2a070f10d2118111f07c264ba394a9384fb",
+        "purpose": "Four-language redesigned destination, PO offline source checkpoint only",
+        "state": "COMMITTED_NEWLINE_ONLY",
+        "git_blob_sha256": "87c951e71dd050ff036b8248686bf467d23f01a08e77a23a3f19d267b5e5b124",
+        "last_path_commit": "9bc0bc6b413a6dfc06e108da82236f613d000f8d"
+      },
+      "main_revision": {
+        "path": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/case-reader.html",
+        "exists": true,
+        "bytes": 3284,
+        "sha256": "a6f2229602e264f0e092cec9dc867d717efc5deaa0a747484a4a920f1653dfb2",
+        "expected_sha256": null,
+        "pin_result": "NO_EXPECTED_HASH"
+      },
+      "source_differs_from_main": true,
+      "adoption": "SOURCE_PO_OFFLINE_CHECKPOINT_NOT_MAIN",
+      "same_case_photo_paid_rights": "Not inferred from URL/public source or offline design approval"
+    },
+    {
+      "id": "HTML-O2-zh-Hans",
+      "treatment": "O2",
+      "incoming_locale": "zh-Hans",
+      "toggle_languages": [
+        "vi",
+        "en",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "source": {
+        "id": "HTML-O2-zh-Hans",
+        "owner": "readers",
+        "path": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/case-reader.html",
+        "absolute_path": "D:/LinkedIn_FDI_Destination_HTML_2026-10-07/deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/case-reader.html",
+        "head_at_capture": "5b99984b142c9799c4e03e4da9ae34509b6ea926",
+        "captured_utc": "2026-10-07T08:03:39.636452+00:00",
+        "bytes": 193235,
+        "sha256": "9bd65ac2395339d864381683dc731c3bce0aee12bc49f0753c775a31df6535da",
+        "purpose": "Four-language redesigned destination, PO offline source checkpoint only",
+        "state": "COMMITTED_NEWLINE_ONLY",
+        "git_blob_sha256": "98940ffedfa566c4e41a3ac7c7ea3a373060e36121b88edb1a07a834e06c0afb",
+        "last_path_commit": "9bc0bc6b413a6dfc06e108da82236f613d000f8d"
+      },
+      "main_revision": {
+        "path": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/case-reader.html",
+        "exists": true,
+        "bytes": 2980,
+        "sha256": "4d22a3fc958f13f7d0b2e43d4cb767d725fccfc8466ac8b8003081e9049cca13",
+        "expected_sha256": null,
+        "pin_result": "NO_EXPECTED_HASH"
+      },
+      "source_differs_from_main": true,
+      "adoption": "SOURCE_PO_OFFLINE_CHECKPOINT_NOT_MAIN",
+      "same_case_photo_paid_rights": "Not inferred from URL/public source or offline design approval"
+    },
+    {
+      "id": "HTML-O2-zh-Hant",
+      "treatment": "O2",
+      "incoming_locale": "zh-Hant",
+      "toggle_languages": [
+        "vi",
+        "en",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "source": {
+        "id": "HTML-O2-zh-Hant",
+        "owner": "readers",
+        "path": "deliverables/linkedin-safe-batches/parallel-osat-2026-10-07/B6-zh-Hant-o2-v1/case-reader.html",
+        "absolute_path": "D:/LinkedIn_FDI_Destination_HTML_2026-10-07/deliverables/linkedin-safe-batches/parallel-osat-2026-10-07/B6-zh-Hant-o2-v1/case-reader.html",
+        "head_at_capture": "5b99984b142c9799c4e03e4da9ae34509b6ea926",
+        "captured_utc": "2026-10-07T08:03:39.636452+00:00",
+        "bytes": 193237,
+        "sha256": "3ddb2d8d0691f105ac8d4324bde0303c11632925ed4384f41e3a2e9dde4e38a4",
+        "purpose": "Four-language redesigned destination, PO offline source checkpoint only",
+        "state": "COMMITTED_NEWLINE_ONLY",
+        "git_blob_sha256": "26dea126b87c111bf588f1c9805213da26d7b7ad063c3559cdeffc11b82e6277",
+        "last_path_commit": "5b99984b142c9799c4e03e4da9ae34509b6ea926"
+      },
+      "main_revision": {
+        "path": "deliverables/linkedin-safe-batches/parallel-osat-2026-10-07/B6-zh-Hant-o2-v1/case-reader.html",
+        "exists": true,
+        "bytes": 2989,
+        "sha256": "9102224c10b45c4d4238947ad492527b7a59cbc402d4eb470c05f2412342901e",
+        "expected_sha256": null,
+        "pin_result": "NO_EXPECTED_HASH"
+      },
+      "source_differs_from_main": true,
+      "adoption": "SOURCE_PO_OFFLINE_CHECKPOINT_NOT_MAIN",
+      "same_case_photo_paid_rights": "Not inferred from URL/public source or offline design approval"
+    },
+    {
+      "id": "HTML-O3-en",
+      "treatment": "O3",
+      "incoming_locale": "en",
+      "toggle_languages": [
+        "vi",
+        "en",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "source": {
+        "id": "HTML-O3-en",
+        "owner": "readers",
+        "path": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/case-reader.html",
+        "absolute_path": "D:/LinkedIn_FDI_Destination_HTML_2026-10-07/deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/case-reader.html",
+        "head_at_capture": "5b99984b142c9799c4e03e4da9ae34509b6ea926",
+        "captured_utc": "2026-10-07T08:03:39.636452+00:00",
+        "bytes": 195978,
+        "sha256": "da7bec2c8ecabb81e79ac1e215184aff9d8b8ef67e28ecf2ddd27daadb92b190",
+        "purpose": "Four-language redesigned destination, PO offline source checkpoint only",
+        "state": "COMMITTED_BYTES",
+        "git_blob_sha256": "da7bec2c8ecabb81e79ac1e215184aff9d8b8ef67e28ecf2ddd27daadb92b190",
+        "last_path_commit": "4317610d7d0d36b1f87f5a9362dbe488ed590362"
+      },
+      "main_revision": {
+        "path": "deliverables/linkedin-locale-dogfood/2026-10-06/en-osat-candidate1-v4/case-reader.html",
+        "exists": true,
+        "bytes": 2768,
+        "sha256": "ab58fa2f6321a732ed15a703499ec22b85523f7f3298555dfb06ef21e748192a",
+        "expected_sha256": null,
+        "pin_result": "NO_EXPECTED_HASH"
+      },
+      "source_differs_from_main": true,
+      "adoption": "SOURCE_PO_OFFLINE_CHECKPOINT_NOT_MAIN",
+      "same_case_photo_paid_rights": "Not inferred from URL/public source or offline design approval"
+    },
+    {
+      "id": "HTML-O3-zh-Hans",
+      "treatment": "O3",
+      "incoming_locale": "zh-Hans",
+      "toggle_languages": [
+        "vi",
+        "en",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "source": {
+        "id": "HTML-O3-zh-Hans",
+        "owner": "readers",
+        "path": "deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v2/case-reader.html",
+        "absolute_path": "D:/LinkedIn_FDI_Destination_HTML_2026-10-07/deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v2/case-reader.html",
+        "head_at_capture": "5b99984b142c9799c4e03e4da9ae34509b6ea926",
+        "captured_utc": "2026-10-07T08:03:39.636452+00:00",
+        "bytes": 195425,
+        "sha256": "cea21a1f5b4be0b8de80c09a00fead9126da84e288bac4c5c4f1b7253c705783",
+        "purpose": "Four-language redesigned destination, PO offline source checkpoint only",
+        "state": "COMMITTED_BYTES",
+        "git_blob_sha256": "cea21a1f5b4be0b8de80c09a00fead9126da84e288bac4c5c4f1b7253c705783",
+        "last_path_commit": "4317610d7d0d36b1f87f5a9362dbe488ed590362"
+      },
+      "main_revision": {
+        "path": "deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hans-osat-candidate2-v2/case-reader.html",
+        "exists": true,
+        "bytes": 2353,
+        "sha256": "09df580976db0f7f719b16ec44feccc31229514a20ae6f84fdb8b122ac577a03",
+        "expected_sha256": null,
+        "pin_result": "NO_EXPECTED_HASH"
+      },
+      "source_differs_from_main": true,
+      "adoption": "SOURCE_PO_OFFLINE_CHECKPOINT_NOT_MAIN",
+      "same_case_photo_paid_rights": "Not inferred from URL/public source or offline design approval"
+    },
+    {
+      "id": "HTML-O3-zh-Hant",
+      "treatment": "O3",
+      "incoming_locale": "zh-Hant",
+      "toggle_languages": [
+        "vi",
+        "en",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "source": {
+        "id": "HTML-O3-zh-Hant",
+        "owner": "readers",
+        "path": "deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/case-reader.html",
+        "absolute_path": "D:/LinkedIn_FDI_Destination_HTML_2026-10-07/deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/case-reader.html",
+        "head_at_capture": "5b99984b142c9799c4e03e4da9ae34509b6ea926",
+        "captured_utc": "2026-10-07T08:03:39.636452+00:00",
+        "bytes": 195410,
+        "sha256": "4696a02905a48e183e3f25f70d0904cba7dabb5ae393c926929ba71af9e25f15",
+        "purpose": "Four-language redesigned destination, PO offline source checkpoint only",
+        "state": "COMMITTED_BYTES",
+        "git_blob_sha256": "4696a02905a48e183e3f25f70d0904cba7dabb5ae393c926929ba71af9e25f15",
+        "last_path_commit": "4317610d7d0d36b1f87f5a9362dbe488ed590362"
+      },
+      "main_revision": {
+        "path": "deliverables/linkedin-locale-dogfood/2026-10-06/zh-Hant-osat-candidate3-v1/case-reader.html",
+        "exists": true,
+        "bytes": 2336,
+        "sha256": "df6fd7c4dcdde9ba9055c4b82b52cddefd42c3dcc8c46590797773d5544808f6",
+        "expected_sha256": null,
+        "pin_result": "NO_EXPECTED_HASH"
+      },
+      "source_differs_from_main": true,
+      "adoption": "SOURCE_PO_OFFLINE_CHECKPOINT_NOT_MAIN",
+      "same_case_photo_paid_rights": "Not inferred from URL/public source or offline design approval"
+    },
+    {
+      "id": "HTML-O4-O-en",
+      "treatment": "O4-O",
+      "incoming_locale": "en",
+      "toggle_languages": [
+        "vi",
+        "en",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "source": {
+        "id": "HTML-O4-O-en",
+        "owner": "readers",
+        "path": "deliverables/linkedin-safe-batches/parallel-osat-2026-10-07/B7-en-o4-o-v1/case-reader.html",
+        "absolute_path": "D:/LinkedIn_FDI_Destination_HTML_2026-10-07/deliverables/linkedin-safe-batches/parallel-osat-2026-10-07/B7-en-o4-o-v1/case-reader.html",
+        "head_at_capture": "5b99984b142c9799c4e03e4da9ae34509b6ea926",
+        "captured_utc": "2026-10-07T08:03:39.636452+00:00",
+        "bytes": 194042,
+        "sha256": "246afe1b95a7b0fab9c6259ee45cbf98249bb3818a52dd96a61756709ecbe9f8",
+        "purpose": "Four-language redesigned destination, PO offline source checkpoint only",
+        "state": "COMMITTED_NEWLINE_ONLY",
+        "git_blob_sha256": "be632f6c69e77588f21230591af4585ccd6f2491e5ae053e80d6199639ec72ff",
+        "last_path_commit": "5b99984b142c9799c4e03e4da9ae34509b6ea926"
+      },
+      "main_revision": {
+        "path": "deliverables/linkedin-safe-batches/parallel-osat-2026-10-07/B7-en-o4-o-v1/case-reader.html",
+        "exists": true,
+        "bytes": 3284,
+        "sha256": "a6f2229602e264f0e092cec9dc867d717efc5deaa0a747484a4a920f1653dfb2",
+        "expected_sha256": null,
+        "pin_result": "NO_EXPECTED_HASH"
+      },
+      "source_differs_from_main": true,
+      "adoption": "SOURCE_PO_OFFLINE_CHECKPOINT_NOT_MAIN",
+      "same_case_photo_paid_rights": "Not inferred from URL/public source or offline design approval"
+    }
+  ],
+  "concrete_count": 10,
+  "conditional_inventory_rows": 25,
+  "note": "Conditional rows are coverage/intake slots, not mandatory output count; no reader copy/adoption in v2."
+}
