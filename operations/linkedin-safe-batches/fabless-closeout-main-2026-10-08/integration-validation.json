@@ -1,0 +1,140 @@
+{
+  "status": "VERIFIED_SELECTION_FOR_LOCAL_MAIN",
+  "source_checkpoint": "2307a0fa2e78ad69f883bfc6d35e48b6458f3c79",
+  "main_baseline": "581f79b33223becad7d0a3cb97001342482599c8",
+  "exact_imports": 252,
+  "selected_raw_png": 44,
+  "actual_capture_png": 148,
+  "all_imports_match_source_committed_blobs": true,
+  "source_frozen_pins_unchanged": 24,
+  "main_preexisting_files": [
+    {
+      "path": "scripts/verify_imagegen_preflight.py",
+      "main_sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+      "matches_source_pin": true
+    },
+    {
+      "path": "tests/test_imagegen_preflight.py",
+      "main_sha256": "2c383a475ecc44cfd72825d4a825b2aec1a90da49e42d856928c2dec878f97c2",
+      "matches_source_pin": true
+    },
+    {
+      "path": "operations/linkedin-journey-demo/2026-10-06/inputs/verify_single_image_trial.py",
+      "main_sha256": "aa71327c78dd2db4cf436bd9454003960492657b627a3bf36901a467bb75b72c",
+      "matches_source_pin": true
+    },
+    {
+      "path": "operations/Vy_Email_Content_Anchor.md",
+      "main_sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+      "matches_source_pin": true
+    },
+    {
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "main_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+      "matches_source_pin": true
+    },
+    {
+      "path": "operations/Ad_Artifact_Editorial_QA_Gate.md",
+      "main_sha256": "e2e2833e74986ecb1df546ea489e93b6c1ea9d13ac7560a108427a8e1d10f9e7",
+      "matches_source_pin": false
+    },
+    {
+      "path": "operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md",
+      "main_sha256": "21c6e60d75b3e57a5d0d0a1f07bbe60821011055a24ccd441dc8e0841c8d0f91",
+      "matches_source_pin": false
+    },
+    {
+      "path": "operations/LinkedIn_Awareness_Execution_Plan.md",
+      "main_sha256": "d28f03494d5079af8f82edbe7523702ff44ed363abe6d3bd5681e02c1d69d3b7",
+      "matches_source_pin": false
+    },
+    {
+      "path": "operations/LinkedIn_ImageGen_Preflight_Schema.md",
+      "main_sha256": "2e4a574ffaafed8580843e2d606762eb485269438655cc077e87fc2dee0a0ee5",
+      "matches_source_pin": false
+    },
+    {
+      "path": "operations/LinkedIn_ImageGen_Visual_Instructions.md",
+      "main_sha256": "e3d287c86a77131ec200e9de839bf127dc43412d3f9cdf028dc3909fea0c1b25",
+      "matches_source_pin": false
+    },
+    {
+      "path": "operations/templates/Message_Anchor_Review_Receipt_Template.md",
+      "main_sha256": "0a6830fdb982e7789051188a815d41e558d30a8cadf9c8f8f63253ef50fa8315",
+      "matches_source_pin": false
+    },
+    {
+      "path": "operations/templates/Message_Anchor_Artifact_Brief_Template.md",
+      "main_sha256": "934aab374547aeb1e8052b3d92b74f9c1053f753a39397728c9c961fce6358a6",
+      "matches_source_pin": true
+    },
+    {
+      "path": "scripts/prepare_linkedin_locale.py",
+      "main_sha256": "b35e517c3128b72e66ade40135d555f34daef1666ef923616f9ac9fd4d257a51",
+      "matches_source_pin": true
+    },
+    {
+      "path": "tests/test_linkedin_locale_adapter.py",
+      "main_sha256": "815577a741221ce5e5c37429c553499247de2b320c58a7e15925c356dcabaf4b",
+      "matches_source_pin": true
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/profiles.json",
+      "main_sha256": "1b0105ed92ef866fb7a5796aefcdfb9d8e9d9683c72f4257295e80a06653a6cd",
+      "matches_source_pin": true
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/development-status.json",
+      "main_sha256": "a28b01afb5b03d46127ad717c4eae7f3389c9dda0cec6681e6b9678a0b95f887",
+      "matches_source_pin": true
+    }
+  ],
+  "source_runtime_files_absent_main": [
+    "scripts/verify_imagegen_anchor_preflight.py",
+    "tests/test_imagegen_anchor_preflight.py",
+    "operations/message-anchor/Pregen_Script_Guard.md",
+    "operations/templates/Message_Anchor_Pregen_Receipt_Template.json",
+    "operations/LinkedIn_ImageGen_Anchor_Freeze_2026-10-06.md",
+    "operations/LinkedIn_Locale_Batch_Preparation_2026-10-06.md",
+    "operations/message-anchor/freeze-2026-10-06/status.json",
+    "operations/message-anchor/freeze-2026-10-06/batch-intake-template.json"
+  ],
+  "frozen_main_changes": 0,
+  "note": "Main is a selective artifact checkout, not the source generation runtime. Six preexisting canonical process docs differ from source freeze snapshot; verified unchanged against actual main baseline. Missing runtime stays absent. Source24pins exact. Do not equate source frozen manifest with main file inventory.",
+  "current_anchor_and_email_match_source": true,
+  "other_progress_rows_byte_preserved": true,
+  "other_canonical_bodies_preserved": true,
+  "source_review": "PASS_SELF_REVIEW; independent audit NOT_PERFORMED",
+  "push": false,
+  "live": false,
+  "canonical_review": [
+    {
+      "path": "CURRENT_STATE.md",
+      "working_sha256": "9e83ea4accdcefbaaeb9b16228987d3ff2822400c7d1819dd038f3cd81bdf366"
+    },
+    {
+      "path": "README.md",
+      "working_sha256": "51549029ca61c375bf5dbda9106a390cf3b5d3b62e0c67b30bb060f163d43174"
+    },
+    {
+      "path": "ads/linkedin/LinkedIn_Build_Pack.md",
+      "working_sha256": "8f5b36d762164edff78b4c08760163c405b58a6b010c439f44a6c17fc15412d7"
+    },
+    {
+      "path": "operations/Pre_Ad_Readiness_Plan.md",
+      "working_sha256": "d7d635558d38668523c83d12ec5aafc811324ea8f315217efb5c492a8a606f71"
+    },
+    {
+      "path": "operations/LinkedIn_Current_Progress_2026-10-07.md",
+      "working_sha256": "7c267ed2a8d24f115709e462ad84b19e43af7d835f1eddab0deb591dc12c26b8"
+    },
+    {
+      "path": "operations/LinkedIn_Report_Artifact_Index_2026-10-05.md",
+      "working_sha256": "f97fd254286ba955a56664bfa47e555efaf88eccd51870ceb1f9d328a1078d1b"
+    },
+    {
+      "path": "drafts/S03_LinkedIn_Audience_Research.md",
+      "working_sha256": "deb8d82cd46ad39dbc1100e49c0e7fde8307174f8590f012d79d71562c8c5f43"
+    }
+  ]
+}
