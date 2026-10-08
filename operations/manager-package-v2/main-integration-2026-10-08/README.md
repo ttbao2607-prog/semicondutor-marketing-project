@@ -1,3 +1,5 @@
+> **Actual main closeout — 08/10/2026:** Merge `698c1638` is on local main, package233files/221tracked+12ignored verified,3704oldmain blobs outside11bounded docs/config unchanged; main clean at readback. [Closeout](Closeout.md) · [Actual evidence](main-readback.json). The subsequent docs-only checkpoint records this result. No push.
+
 # Package v2 · approved local main integration · 08/10/2026
 
 Bảo approved the VI/Traditional-Chinese result and requested local main integration, explicitly asking to compare progress with the worktree split first. [PO instruction](PO_Approval.md), [execution contract](Execution_Contract.md), [recovered Git state](git-state-recovery.txt), [preintegration state](preintegration-state.json).

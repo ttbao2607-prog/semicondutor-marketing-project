@@ -1,0 +1,58 @@
+{
+  "stage": "COMMITTED_TARGET_VERIFIED",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "fork": "196f26b9f3064fca8fe6b3b50b5707c2b54b65af",
+  "source_checkpoint": "5569ca4ea477c4826f2c9adf00e4a91d4c133923",
+  "main_before": "c5e719137fcdfdcfb6637d3012219d3ff11ade53",
+  "verified_target": "HEAD",
+  "main_existing_tracked_files": 3715,
+  "main_existing_blobs_unchanged_outside_bounded_docs_config": 3704,
+  "changed_existing_paths": [
+    ".gitattributes",
+    ".gitignore",
+    "CURRENT_STATE.md",
+    "DOCS_IMPACT_MAP.md",
+    "README.md",
+    "ads/linkedin/LinkedIn_Build_Pack.md",
+    "drafts/S04_Measurement_and_Budget.md",
+    "operations/LinkedIn_Cold_To_RMK_Data_Plan_2026-10-05.md",
+    "operations/LinkedIn_Current_Progress_2026-10-07.md",
+    "operations/LinkedIn_PO_Direction_Budget_Checkpoint_2026-10-06.md",
+    "operations/Pre_Ad_Readiness_Plan.md"
+  ],
+  "deleted_old_main_files": [],
+  "source_new_blobs_preserved": true,
+  "exact_approved_package_files": 233,
+  "git_package_files": 221,
+  "private_companion_ignored_files": 12,
+  "unmerged": [],
+  "unexpected_paths": [],
+  "package_source_png_fork_hash_match": 170,
+  "anchor_binding": {
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+  },
+  "email_binding": {
+    "id": "VY-MAIL-USER-20261006",
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "po_approval": "PO_APPROVED_OFFLINE",
+  "source_semantic_render_review": "Prior exact-byte locale review reused; no changed copy/artwork/locale/persona/destination. No new independent/native-market/live claim.",
+  "main_ref_advance": "698c1638e71853ae79c8b417f75a3ffd417f3c44",
+  "push": false,
+  "execution_status": "SUCCESS",
+  "actual_local_main_merge": "698c1638e71853ae79c8b417f75a3ffd417f3c44",
+  "actual_main_clean_at_readback": true,
+  "package_files_verified_on_main": 233,
+  "main_package_links_checked": "14HTML pairs/surfaces relative targets/fragments, zero missing",
+  "merge_parents": [
+    "c5e719137fcdfdcfb6637d3012219d3ff11ade53",
+    "5569ca4ea477c4826f2c9adf00e4a91d4c133923"
+  ],
+  "closeout": "This record captures actual main at the merge checkpoint; the following docs-only checkpoint records this readback.",
+  "remote": "No push/fetch; actual GitHub state unverified."
+}
