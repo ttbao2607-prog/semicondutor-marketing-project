@@ -8,6 +8,8 @@ Fill one row per **source cohort** at the moment the exact cold release exists, 
 |---|---|---|
 | `source_id` | Short local label for the cohort (e.g. `COLD-W1-A`) | Unique, no PII |
 | `campaign_id`, `ad_set_id`, `creative_ids` | IDs of the new cold release copied from the platform | Only exact new cold IDs; never Page, organic or unrelated campaigns |
+| `stage` | `cold` for the source cohort; `rmk` for a derived RMK audience, with the originating cold `source_id` in `notes` | Keeps stages apart |
+| `utm_campaign_value`, `utm_content_values` | The exact UTM values used on the reader links of these ads (see [04](04_Reader_Entry_Mapping_Draft.md)) | Links ad IDs to reader sessions; no cohort or company detail in URLs |
 | `format` | Single image (Brand awareness) | Must match the decided route |
 | `content_revision` | Journey/creative revision and treatment (O1…P3, locale) | Pin so slices with different scope are not merged |
 | `targeting_revision` | Company list file name/hash revision, location, functions, seniority | Record the version actually used |

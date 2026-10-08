@@ -4,6 +4,13 @@ Status: TEMPLATE / NOT FILLED. [05_Week1_Readback_Template.csv](05_Week1_Readbac
 
 Purpose: one consistent record at each check so the end-of-week-1 review in the sent package (week 1 → review → week 2, measured by right audience, interest, onward behaviour and cost) can be answered from evidence. Cadence from the data plan: daily integrity/pacing note once delivery is authorized, checks at eligible delivery day 3 and 7, then weekly. It is a sampling proposal, not a scheduler.
 
+## How rows are structured (so a weak creative can be found)
+Use **two row levels** in the same sheet (`row_level`):
+- `cohort`: one row per source cohort and check. Holds the RMK pool fields (rule, lookback, status, displayed members, filtered reachable, eligible) and cohort totals.
+- `ad`: one row per ad (`ad_id` and `creative_id`, with `treatment`, `locale`, `stage`) and check. Holds reach, impressions, frequency, CTR, engagement, spend and reader sessions for that ad only. A cohort total cannot say which creative caused a result, so decisions about replacing a creative are read from `ad` rows.
+
+Every row carries `report_period_start`, `report_period_end` and `value_basis` (`daily` or `cumulative`). Never add a daily row to a cumulative one and never compare rows with different bases or periods. `stage` is `cold` or `rmk`, and `source_cohort_id` always names the cold cohort an RMK row came from.
+
 ## What to record per check
 | Group | Fields | Why |
 |---|---|---|
@@ -11,7 +18,7 @@ Purpose: one consistent record at each check so the end-of-week-1 review in the 
 | Right audience | distribution by company, function and seniority as the platform reports it | Did the ads reach the intended group (matched mapping quality is separate and may be CHANGES_REQUIRED) |
 | Opportunity | reach, impressions, frequency | Exposure |
 | Interest | CTR, engagement counts (by the platform's own metric definition) | Interest in the opening ad |
-| Onward behaviour | reader sessions with interaction, by source/medium/campaign, after processing | Did interested people go on to the reader |
+| Onward behaviour | reader sessions with interaction, split by `utm_campaign` (stage) and `utm_content` (creative), after processing | Did interested people go on to the reader, and from which ad |
 | Cost | spend (currency, before tax), CPM, CPC, budget remaining | Is the use of money reasonable |
 | RMK pool | source rule, lookback, audience status, displayed members, filtered reachable, eligible | Feeds [03 decision tree](03_RMK_Fallback_Decision_Tree.md) |
 | Integrity | tracking present, UTM preserved, any delivery change or pause, notes | Separate measurement problems from content problems |
