@@ -1,0 +1,38 @@
+{
+  "observed_utc": "2026-10-08T06:48:24.424825+00:00",
+  "execution_status": "SUCCESS",
+  "scope": "Authorized selected main merge/canonical sync/Fabless generation closeout/remote file backup",
+  "remote": "origin",
+  "remote_host": "github.com",
+  "actual_remote_refs": {
+    "refs/heads/main": "4d085bf25ddcb15c31a748a92ac4c49f6052bd57",
+    "refs/heads/slice/linkedin-fabless-checkpoint-backup-2026-10-08": "c037b81f2a6f3f01d13ebc83d7a7809f4bd9e820"
+  },
+  "main_selected_integration": "4d085bf25ddcb15c31a748a92ac4c49f6052bd57",
+  "final_production_checkpoint_local": "39a3abdef3c5eb9bcd2b174d8fbc704529bc2002",
+  "source_closeout_commit_local": "10a94d37ec9b28d91b2d2860202497feea4bf494",
+  "source_original_history_remote": false,
+  "source_history_note": "Retained locally unchanged;13historical ancestral blobs >100MiB preclude ordinary GitHub push; no rewrite attempted. Full owned file snapshot/context separately pushed on archive branch.",
+  "archive_file_verification": {
+    "owned_files": 2334,
+    "mapped_context_files": 47,
+    "source_blob_identity": "All2334owned+47context staged Git blob IDs matched original source; source SHA256 verified before commit",
+    "archive_manifest_git_path": "operations/linkedin-safe-batches/fabless-checkpoint-backup-2026-10-08/archive-files.json",
+    "archive_commit": "c037b81f2a6f3f01d13ebc83d7a7809f4bd9e820",
+    "max_source_owned_file_MiB": 1.8
+  },
+  "main_verification": {
+    "imported_current_files": 386,
+    "new_selected_png": 44,
+    "selected_batches_total": 9,
+    "selected_positions_including_reuse": 99,
+    "remaining_generation_batches": 0,
+    "imported_git_blob_sha256": "All386matched source checkpoint after local main merge",
+    "source_frozen_pins": 24,
+    "main_existing_protected_files": "Unchanged from base; absent runtime stayed absent",
+    "other_lane_assets_and_history": "Preserved; approved Google commits were included by main push"
+  },
+  "acceptance_unchanged": "B18-B21 full mobile visual INSUFFICIENT_EVIDENCE/PARTIAL; B15 proof2 CHANGES_REQUIRED; no independent/native-market/live PASS.",
+  "live_actions": false,
+  "receipt_revision_note": "This receipt observes the first successful push (main4d085bf2/archivec037b81f). Its containing documentation commit is pushed afterward; final exact SHA is verified separately, avoiding a self-referential hash claim."
+}
