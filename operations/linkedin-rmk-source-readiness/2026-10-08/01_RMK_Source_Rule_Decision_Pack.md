@@ -12,7 +12,7 @@ Status: DRAFT_FOR_PO_DECISION. No live action. Source of the facts below: [data 
 
 | # | Decision | Options | Proposed |
 |---|---|---|---|
-| R1 | Interaction rule | **A** Any interactions (proposed default in the data plan) · **B** Chargeable clicks only · **C** Document view/download (only if Document is chosen; Bảo did not choose Document, so not applicable) | **A** for week 1 |
+| R1 | Interaction rule | **A** Any interactions (proposed default in the data plan) · **B** Chargeable clicks only · **C** Document view/download (only if Document is chosen; PO scope of 2026-10-05 records "Bảo không chọn Document" in CURRENT_STATE, and the route is Single image, so not applicable) | **A** for week 1 |
 | R2 | Lookback window | **30 days** (data plan default) · longer window | **30 days**; longer windows only after checking which options the UI offers (not verified) |
 | R3 | Pool structure | One pool per compatible source cohort · one pool per creative or scenario | **One pool per compatible cohort**; keep per-creative metrics for reading, do not split into 11 tiny pools at the start |
 | R4 | RMK objective | Engagement · click to the reader | Decide at release; both recorded as reasonable, neither verified as releasable |

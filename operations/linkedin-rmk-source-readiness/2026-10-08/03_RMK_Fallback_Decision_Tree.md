@@ -1,6 +1,6 @@
 # 03 · RMK fallback decision tree
 
-Status: DRAFT_FOR_PO_DECISION. Every action below needs Bảo's decision or an operational mandate; nothing here is automatic and no scheduler is created. Budget numbers come only from the approved envelope: **11.7 million VND before tax**, of which 5.6 million is the first wave and 6.1 million is held inside the same total (up to 5.6 million for the next LinkedIn wave and up to 0.5 million for optional Search). Unused money stays held; RMK has no separate budget line.
+Status: DRAFT_FOR_PO_DECISION. Every action below needs Bảo's decision or an operational mandate; nothing here is automatic and no scheduler is created. Budget numbers come only from the approved envelope: **11.7 million VND before tax**, of which 5.6 million is the first wave and 6.1 million is held inside the same total (up to 5.6 million for the next LinkedIn wave and up to 0.5 million for optional Search). The package budget table has no separate RMK line (remarketing sits inside "LinkedIn tiếp theo", `De_xuat_paid_ads.md` line 39) and says thin data may lead to holding budget (line 51).
 
 Release gate from the [data plan](../../LinkedIn_Cold_To_RMK_Data_Plan_2026-10-05.md): exact new-cold source cohort + rule/window chosen by Bảo + actual Ready/eligible + **at least 300 reachable members after UI filters** + proof, destination/HTML, tracking, pacing and budget gates. No calendar-based release, no Page users substituted.
 
