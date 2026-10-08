@@ -10,6 +10,8 @@
 
 **Status:** offline production draft; no remote campaign creation, enablement or spend. Campaign target state remains paused. Vietnamese-first OSAT, Fabless and ERP–MES–OT/partner seed research was completed in Keyword Planner on 2026-09-14 under the recorded configuration. OSAT and Fabless showed no displayed metrics; Partner had one row with limited displayed historical estimates and seven rows with dashes. These observations do not establish demand, campaign eligibility or performance. Each query automatically created a draft plan entry; no explicit save was clicked. These are Planner drafts, not campaigns.
 
+> **Superseded budget note · 08/10/2026:** Các ngưỡng "Search 250k/ngày", "LI 600k / dự phòng 150k" và nhịp 1.000.000 VND/ngày trong sheet này là đề xuất lịch sử. Ngân sách Search hiện hành là phần **tùy chọn tối đa 0,5 triệu VND** nằm trong trần media 11,7 triệu VND chưa thuế (xem [Current_Progress](../../operations/LinkedIn_Current_Progress_2026-10-07.md)); Search probe cần mandate riêng. Max CPC 25.000 VND và các ngưỡng CPC/CTR vẫn là bản nháp, không phải quy tắc tự dừng.
+
 ## Campaign structure
 
 - One campaign; status **paused**.

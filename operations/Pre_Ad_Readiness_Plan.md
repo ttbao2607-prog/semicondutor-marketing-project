@@ -282,6 +282,8 @@ This plan authorizes preparation of the approved assets/routes and progression t
 
 ### Deferred mandatory manager decisions (L2 before launch)
 
+> **Superseded budget basis · 08/10/2026:** Mức trần 35 triệu (Scale 1), 8,75 triệu (Scale 2), nhịp 1.000.000 VND/ngày và tách 600k/250k/150k trong mục này là **lịch sử/đề xuất cũ**, không phải ngân sách hiện hành. Trần media hiện hành là **11.700.000 VND chưa thuế**: 5,6 triệu đợt LinkedIn đầu; 6,1 triệu giữ lại nằm trong cùng tổng (tối đa 5,6 triệu LinkedIn tiếp theo + tối đa 0,5 triệu Search). Nguồn: [LinkedIn_Current_Progress_2026-10-07](LinkedIn_Current_Progress_2026-10-07.md) và `De_xuat_paid_ads.md` trong package v2 đã gửi 08/10. 11,7 triệu là trần, không phải chi đã duyệt giải ngân; lịch, thuế/phí, pacing và release vẫn cần mandate vận hành. Nội dung 35m bên dưới giữ nguyên làm lịch sử, không dùng làm quyền chi. Docs impact reviewed: chỉ ghi chú thay thế, không đổi quyết định.
+
 - Spend authority, tax/fee basis and the paid-day/phase schedule within Bảo's 35m Scale 1 ceiling; separate approval for Scale 2.
 - Campaign date window and timezone/currency confirmation for live delivery.
 
@@ -446,6 +448,8 @@ Tracking rules:
 - Validate consent, redirect, attribution choice, timezone/currency, missing data and receiver reconciliation before implementation.
 
 ## 8. Budget and schedule gate
+
+> **Superseded budget basis · 08/10/2026:** Mức trần 35 triệu (Scale 1), 8,75 triệu (Scale 2), nhịp 1.000.000 VND/ngày và tách 600k/250k/150k trong mục này là **lịch sử/đề xuất cũ**, không phải ngân sách hiện hành. Trần media hiện hành là **11.700.000 VND chưa thuế**: 5,6 triệu đợt LinkedIn đầu; 6,1 triệu giữ lại nằm trong cùng tổng (tối đa 5,6 triệu LinkedIn tiếp theo + tối đa 0,5 triệu Search). Nguồn: [LinkedIn_Current_Progress_2026-10-07](LinkedIn_Current_Progress_2026-10-07.md) và `De_xuat_paid_ads.md` trong package v2 đã gửi 08/10. 11,7 triệu là trần, không phải chi đã duyệt giải ngân; lịch, thuế/phí, pacing và release vẫn cần mandate vận hành. Nội dung 35m bên dưới giữ nguyên làm lịch sử, không dùng làm quyền chi. Docs impact reviewed: chỉ ghi chú thay thế, không đổi quyết định.
 
 **Current Bảo decision (2026-09-29):** The ceiling **through Scale 1 is 35,000,000 VND across eight calendar weeks (56 calendar days)**. At the historical 1,000,000 VND/eligible paid day planning rate, full use permits at most 35 paid days; 56 calendar days are not 56 paid days. The phase-by-phase paid-day schedule, reserve allocation and tax/fee basis remain to design/approve. Scale 2's 8,750,000 VND remains separately gated. This ceiling is a planning limit, not approval to enable or spend. The daily channel split below is an older proposal; the previous 28m + 8.75m main scenario and local-only workbook 35m + 8.75m scenario are historical alternatives, not additive authority.
 
