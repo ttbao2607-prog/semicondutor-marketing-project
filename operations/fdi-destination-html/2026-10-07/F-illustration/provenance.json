@@ -1,0 +1,19 @@
+{
+ "asset": "bright-power-illustration-v1.png",
+ "purpose": "Hero illustration for the nine Fabless (F1-F3) destination readers B13-B21 (Bright Power case). Replaces a photo because no authentic photo was found (Wave0-README findings 1 and 6).",
+ "classification": "ILLUSTRATION (AI generated). Not a photo of the customer, its people, sites or software. Not proof of any claim.",
+ "generated_by": "codex CLI 0.160.1 non-interactive (codex exec, built-in image generation tool, one call), model gpt-6.1-sol, reasoning effort low override",
+ "codex_session": "01a11aa0-4b85-7282-9687-ca7b9adbf9a9",
+ "generated_on": "2026-10-08",
+ "png_sha256": "20d871c07900d03d1ee815872cea41d819de3f4659f7db373c7d3ec85a94b217",
+ "png_size": "1536x1024",
+ "embedded_derivative": "bright-power-illustration-v1.jpg (JPEG q86, same pixels, for single-file HTML embedding)",
+ "prompt_summary": "Editorial illustration, 3:2: abstract chip-layout drawing on a drafting table, three generic separate production buildings linked by data lines to a stack of record sheets with a tag. Soft structuralism, off-white background, Digiwin blue/navy, one orange accent. Hard constraints: no text/letters/numbers/logos/watermarks/people/faces/screenshots; must read as illustration.",
+ "content_review": {
+  "inspected": "Image viewed directly. No text, numbers, logos, people or screenshots found. Buildings are generic; none carries identifiable branding. The orange tag is a record tag, not a claim.",
+  "message_scope": "Shows design desk, outsourced sites and records only (the topics named in the case: outsourcing coordination and information). Does not show ERP/MES screens, outcomes, numbers or any product capability.",
+  "caption_requirement": "Every locale labels it as an illustration made for this page and not a customer photo (keys figure/figureSource/figureAlt)."
+ },
+ "guard_status": "The frozen PREGEN guard (scripts/verify_imagegen_preflight.py) was NOT run: it validates ad-card ImageGen specs/releases, and this is a reader hero illustration generated at Bảo's direction (2026-10-08: use codex CLI as fallback). No PREGEN receipt exists; no generation authority is inferred for ad cards. Adapter DEVELOPING/NOT_FROZEN.",
+ "rights": "Generated asset for internal draft; public/paid usage rights follow the project's general rule (unknown until Bảo confirms)."
+}

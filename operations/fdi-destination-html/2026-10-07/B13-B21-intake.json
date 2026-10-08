@@ -1,0 +1,109 @@
+{
+  "base_checkpoint": "7821c66209bbc440c0e45d72c6fe6b7a43a74a1c",
+  "template": "B7-en-o4-o-v1/case-reader.html",
+  "template_sha256": "be632f6c69e77588f21230591af4585ccd6f2491e5ae053e80d6199639ec72ff",
+  "illustration_jpg_sha256": "a1e638589529d82bdda9b951262a5562a14ddcdde8e919a4701db1d86b05d32e",
+  "common_sha256": "5b15a4f137cf8344cb7e3ed9a7bf48aa0a73c6ec937a5b78dcb34cb70f999371",
+  "treatments_sha256": "be3e761d18db35c86ebb5279fc78433a2db50a1eb0208d6f90758dd2d5663461",
+  "targets": [
+    {
+      "batch": "B13",
+      "treatment": "F1",
+      "locale": "en",
+      "directory": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5",
+      "reader_before_sha256": "3fea87b86c26a74085172d358b95957e07bb7a6d8c435180f58828c4b322eac3",
+      "index_before_sha256": "a712edbba73879c50cd086b8489be913a4243f549092bfc1914a7a1416775104",
+      "selected_copy_sha256": "dd81344218d7c39669e134ffdd6f6e971ef63415133b1f094340cc7c2fa87f1d",
+      "reader_after_sha256": "59607b6f3fba6f58af72daa0c3102899786f7cca389c2960a6fdc69e99d53e2b",
+      "index_after_sha256": "8dc25b313f4485174893fc8e1f2f66ed7d1cb9c5cd6adaef22f4af38fbfd24f9"
+    },
+    {
+      "batch": "B14",
+      "treatment": "F1",
+      "locale": "zh-Hans",
+      "directory": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1",
+      "reader_before_sha256": "2aa89eb31794afb50d2691847903d7ea198b7ffc9bfb9d91b7d4705f0e592541",
+      "index_before_sha256": "1227f77a0d9701adb19198a0e1712011e560e7a0a43f6ca7b4ed9a4a9ee67e22",
+      "selected_copy_sha256": "1002e6b56cb8fc7e742e09d6d215320fce553fb84af9234e3aac555b80196a89",
+      "reader_after_sha256": "f287a8178aff4dab3bc793b5585ffb52250fef122cd1c3d8f443527bf6966eac",
+      "index_after_sha256": "ac35a203c9a951f1ed895ee4e9802ccb14b88d603c827e65c985e6310b09d545"
+    },
+    {
+      "batch": "B15",
+      "treatment": "F1",
+      "locale": "zh-Hant",
+      "directory": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v3",
+      "reader_before_sha256": "cc5497e1bebaadb6cfcf18a0e62f05a1c355307c972ae73dcc3c4f24898391a8",
+      "index_before_sha256": "34a8217fda9cf7729ce8a9867a500ead6e38669120b07ec8c7e85da871b9300c",
+      "selected_copy_sha256": "30b4cbc0310ddd4dbb20d705f0d5a89ce53ea856a88c8d2e6b42560742ca9f39",
+      "reader_after_sha256": "7dbd5234aeb8ecccb49914306c79d403fcfe7e14bbd200b17ca01d43293f5933",
+      "index_after_sha256": "43763c8cd353699a8a197f7527d63124b09d225355ef82754ac240ef2f1ef038"
+    },
+    {
+      "batch": "B16",
+      "treatment": "F2",
+      "locale": "en",
+      "directory": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2",
+      "reader_before_sha256": "52dd815ef40d1cabc8f7f74173b7625181c298836e2da72bed61b09fa9edf3d2",
+      "index_before_sha256": "8d8a150029ee63c5613ad4758a4ddc07a6293c3a41d285eade694d96dc8df16e",
+      "selected_copy_sha256": "d5cc4ac186b8c44f73e3873a1f14ce0a03cb9568692e79e677a502c4a915edc3",
+      "reader_after_sha256": "f720f5ccc505fcac7f4ce0e9406957152745883c410c878d730ada11f8f46181",
+      "index_after_sha256": "1041e552b10cd42c40dd96de1181c14c4a65c5b0e52863218191b92060ff530a"
+    },
+    {
+      "batch": "B17",
+      "treatment": "F2",
+      "locale": "zh-Hans",
+      "directory": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v2",
+      "reader_before_sha256": "8198ac3e6785e96f751bfd85d5f1eb73b2f723f4dd6745036876730d306dc7d6",
+      "index_before_sha256": "74ca2aa71afc5c056d0fb1b70f8ef37f9d567936d4f0e5c516fd709f4094c8f2",
+      "selected_copy_sha256": "e1a8780cf334246f1d64ea0af49c5cace71d71f5dcb0cad7ff187a1e15f6b839",
+      "reader_after_sha256": "2da0c923edd1589acf927dc2044a2087749961f53585084afa4e86716aa19ba3",
+      "index_after_sha256": "f8bb76c4813aff287f03335e446716a9321be2fe7f140b7bf2110dd380344d6f"
+    },
+    {
+      "batch": "B18",
+      "treatment": "F2",
+      "locale": "zh-Hant",
+      "directory": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4",
+      "reader_before_sha256": "848fc36cfc3a6e44421e3e341522120937c6ee8febb1ac80dfae20581856668f",
+      "index_before_sha256": "19ab47ed21c8ad1b98b66f771f32202e253530f4ed9d8455ec0fabb84dd77cfc",
+      "selected_copy_sha256": "268363c25f08d8ba2af7ce5ee095348d2faf2da439b532140386ec0254737e21",
+      "reader_after_sha256": "36ecf634b1aa6eb3c2e3ec98c081389b00d824891b3f1c1ca2d50cfc76edfe03",
+      "index_after_sha256": "35a4d4fd57aaf01c2905bfbbf8e323952c45968e704fd3d40906ef88dc251b3e"
+    },
+    {
+      "batch": "B19",
+      "treatment": "F3",
+      "locale": "en",
+      "directory": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1",
+      "reader_before_sha256": "1c58de31bf913f3d7116d4a04287b2bd7b662d630b21831e1ef9f68d8220a949",
+      "index_before_sha256": "c13e13a0c0c1dc92d6704a3f93cb38bcc42a59cf1a9882237f09d82e5749330a",
+      "selected_copy_sha256": "3128c6cf7589b50c37cfd61c36ccfabfebb31f2b561d2e275c613d520a543e58",
+      "reader_after_sha256": "f56c03ac6ed0c626a844fc88d3df6612d61be545075a98d967e1c39f294d508d",
+      "index_after_sha256": "818e9ab3e1e8fb09763a816dcc8fd2d981ae2b963119d85022d73ad5f66b14ec"
+    },
+    {
+      "batch": "B20",
+      "treatment": "F3",
+      "locale": "zh-Hans",
+      "directory": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v3",
+      "reader_before_sha256": "ae3d9f952443b3eff759b252a5051b56a32e3b8bc9686a873cfd551e9c1e9a35",
+      "index_before_sha256": "cf73db6f895edd808930bb8a89d09c7ce8ce50c94fe6a992adee79be004c20b0",
+      "selected_copy_sha256": "0f543fc92d52f0a7e6d590c690146ad4ee0a5c8e53c59f260058792d431b6f0b",
+      "reader_after_sha256": "797a784d31bf85bfa677e0e5b22c17878149d668ce914033034c0b917cd1df79",
+      "index_after_sha256": "c1b62293b8ccc7ad5d529665b7bbfde1d547091892cf566cfb93b3c729331038"
+    },
+    {
+      "batch": "B21",
+      "treatment": "F3",
+      "locale": "zh-Hant",
+      "directory": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1",
+      "reader_before_sha256": "1c037603baaac449483d4d0372be044ae22af26f5c4184f5bc09d7c060825e94",
+      "index_before_sha256": "c2324585e11202f91b06c1db0da16af27eeaf17fa4dc96a07a542e2b5ba5dc2f",
+      "selected_copy_sha256": "80bf3a6afa55734dd2f3fd88d9fb3337102afea452432fc1dee09c4f0f95b633",
+      "reader_after_sha256": "73b9d8409f8beec239a8219146279e10f47010772ee8aee86de73c645b73a88b",
+      "index_after_sha256": "efdcb78d864ab627ca6585b8c5ea77fb836abe86260feb580165aec97bfc583a"
+    }
+  ]
+}
