@@ -1,28 +1,36 @@
 {
  "ads": 99,
+ "ad_cards": 339,
  "roles": {
   "COLD_SINGLE_IMAGE": 33,
   "EXPLAIN_CAROUSEL": 33,
   "PROOF_CAROUSEL": 33
  },
+ "cards_where_native_headline_differs_from_artwork_headline": 68,
  "intro_chars_min": 38,
  "intro_chars_median": 61,
  "intro_chars_max": 230,
  "stages_with_more_than_one_caption": 0,
- "review_items": 1699,
+ "review_items": 2000,
+ "review_occurrences": 8493,
  "review_items_by_locale": {
-  "en": 482,
+  "en": 582,
   "vi": 241,
-  "zh-Hans": 489,
-  "zh-Hant": 487
+  "zh-Hans": 590,
+  "zh-Hant": 587
  },
- "review_items_by_surface": {
-  "journey caption": 78,
-  "card headline": 230,
-  "card body": 236,
-  "artwork label": 92,
-  "card source line": 56,
-  "card CTA": 45,
-  "reader": 962
- }
+ "occurrences_by_surface": {
+  "journey caption": 339,
+  "card headline (artwork)": 339,
+  "card native headline": 339,
+  "card body": 339,
+  "card alt text": 339,
+  "artwork label": 669,
+  "card source line": 174,
+  "card CTA": 75,
+  "reader": 5880
+ },
+ "items_in_more_than_one_treatment": 577,
+ "responses": 0,
+ "orphan_responses": 0
 }
