@@ -1,0 +1,169 @@
+{
+  "checkpoint_commit": "c5c38c93f1400f076a369c2b7c75920ac2d3b80a",
+  "post_checkpoint_preparation": "LOCAL_UNCOMMITTED",
+  "summary": {
+    "execution_status": "SUCCESS",
+    "execution_scope": "Steps1-3 internal preparation only",
+    "recovery_status": "PARTIAL",
+    "review_kind": "ROOT_SELF_REVIEW",
+    "independent_audit": "NOT_RUN",
+    "audience_quality": "CHANGES_REQUIRED",
+    "upload_readiness": "HOLD",
+    "source_sha256": "69b9209e27baee4f4e527a686fd2497836bb7b7f1dfdcdcc6c5cc45648ae3e0c",
+    "proposed_csv_sha256": "2d34fb975c20ec30ab769b8ebcb217a9e8806c159767106bc975d7170e304fe5",
+    "source_rows": 424,
+    "matched_capture_entries": 150,
+    "unmatched_capture_entries": 93,
+    "mapping_classifications": {
+      "INSUFFICIENT_EVIDENCE": 141,
+      "WRONG_ENTITY_WITH_EVIDENCE": 3,
+      "CORRECT_ENTITY_WITH_EVIDENCE": 6
+    },
+    "supported_entity_pairs_with_numeric_alias_verified": 6,
+    "coverage": {
+      "NOT_OBSERVED_IN_CAPTURE": 210,
+      "MATCHED_OBSERVED": 139,
+      "BOTH_MATCHED_UNMATCHED": 11,
+      "NAME_ONLY_VERSION_UNRESOLVED": 9,
+      "UNMATCHED_OBSERVED": 55
+    },
+    "matched_join": {
+      "UNIQUE_EXACT": 150
+    },
+    "unmatched_join": {
+      "UNIQUE_EXACT": 64,
+      "NAME_ONLY_VERSION_UNRESOLVED": 28,
+      "AMBIGUOUS_EXACT_DUPLICATES": 1
+    },
+    "enriched101_coverage": {
+      "MATCHED_OBSERVED": 61,
+      "NAME_ONLY_VERSION_UNRESOLVED": 9,
+      "NOT_OBSERVED_IN_CAPTURE": 24,
+      "UNMATCHED_OBSERVED": 7
+    },
+    "proposed_changed_rows": 2,
+    "proposed_changed_cells": 3,
+    "protected_columns": [
+      "companyname",
+      "companyemaildomain",
+      "stocksymbol",
+      "industry",
+      "city",
+      "state",
+      "companycountry",
+      "zipcode"
+    ],
+    "input_capture_orphans": 0,
+    "limitations": [
+      "No full mapping PASS: three confirmed wrong output pairs;141 entries lack complete mapping proof. Six pairs supported by source identity and fresh browser numeric redirect.",
+      "Source coverage is not a platform match rate; older versions, duplicates and platform aggregation not fully reconciled.",
+      "No verified exact local replacement for F01/F02. Remaining unmatched and unobserved rows retained unchanged.",
+      "No Discovery upload, campaign action, R5 recheck or Support message in this preparation."
+    ],
+    "anchor": {
+      "id": "VY-CONTENT-ANCHOR",
+      "revision": "1.0",
+      "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+      "email_id": "VY-MAIL-USER-20261006",
+      "email_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+    }
+  },
+  "validation": {
+    "structural_verdict": "PASS_SELF_CHECK",
+    "independent_audit": "NOT_RUN",
+    "rows_headers_order_and_duplicates_preserved": true,
+    "eight_protected_fields_match_immutable_original": true,
+    "changed_cells": 3,
+    "changed_rows": 2,
+    "all_changes_have_row_bound_primary_evidence": true,
+    "all150_matched_entries_have_unique_full_input_projection_join": true,
+    "source424_and_enriched101_coverage_complete_as_ledgers": true,
+    "exact_local_replacement_unresolved_for_priority_two": true,
+    "csv_bytes": 27808,
+    "csv_sha256": "2d34fb975c20ec30ab769b8ebcb217a9e8806c159767106bc975d7170e304fe5",
+    "quality_verdict": "CHANGES_REQUIRED",
+    "upload_readiness": "HOLD"
+  },
+  "private_evidence_manifest": [
+    {
+      "file": "build_recovery.py",
+      "bytes": 15062,
+      "sha256": "9a5dfcf36fe566d2de4ba774a6b1e79c3a07ec55587a1dfaca1ec2c6f98ef68b"
+    },
+    {
+      "file": "enriched101-priority-review.json",
+      "bytes": 55711,
+      "sha256": "bc7f7445826a50c2f8a7011a5eaf58d1fe7e0e94391a471208bfa44480e513d7"
+    },
+    {
+      "file": "finalize_records.py",
+      "bytes": 3080,
+      "sha256": "a8fff7b5a287e3e43d2c1f701809c1f77f20e5cf46e47e203cacdc45eb0a5537"
+    },
+    {
+      "file": "identifier-change-log.json",
+      "bytes": 911,
+      "sha256": "5d4648a62a247e71255ff82bd69eb3298a2ee0f73296cfa3378b8c9b3dafe29e"
+    },
+    {
+      "file": "linkedin_discovery424_proposed_correction_20261008_DRAFT_NOT_UPLOADED.csv",
+      "bytes": 27808,
+      "sha256": "2d34fb975c20ec30ab769b8ebcb217a9e8806c159767106bc975d7170e304fe5"
+    },
+    {
+      "file": "matched-adjudication-150.json",
+      "bytes": 235171,
+      "sha256": "d13309c5b466cee14b1a748c3ca12bda82b25b91df0c2b384a5437d605870170"
+    },
+    {
+      "file": "matched-initial-join.json",
+      "bytes": 94394,
+      "sha256": "dbd414832759ff13dbd1bc4591f6b3fd32374147de2a3670ada72ab0dd0c9674"
+    },
+    {
+      "file": "page-alias-readback.json",
+      "bytes": 1260,
+      "sha256": "837dc012bc9898f9c13507c046acead78957530ecd40850d3280f893180f99a6"
+    },
+    {
+      "file": "primary-evidence-registry.json",
+      "bytes": 6398,
+      "sha256": "f2851ff50e507b242c15b34ad77befc807e5200e6adac5ff27a6ac7553437418"
+    },
+    {
+      "file": "priority-page-readback.json",
+      "bytes": 1229,
+      "sha256": "70b5896f3e84090d6877904b525eab1fd68a84ece00d2bfcc5e31578c2bb8fe6"
+    },
+    {
+      "file": "source-reconciliation-424.json",
+      "bytes": 220747,
+      "sha256": "6db149e8275e884bb20ca7d605c2a142a6c2469f68f1e278c4dc3e248cd45e4e"
+    },
+    {
+      "file": "summary.json",
+      "bytes": 2426,
+      "sha256": "3b772242a45aef25b3b2ab9a3af40bb763cf042eada11827344ca28ed35b8766"
+    },
+    {
+      "file": "unmatched-reconciliation-93.json",
+      "bytes": 80894,
+      "sha256": "56437c9f2528f4907a6d8e4c2e6ec27fd64dd3f6cd0991d10618ee87ef96f1db"
+    },
+    {
+      "file": "validation.json",
+      "bytes": 687,
+      "sha256": "350ddac248919e52b8e900948811bd27ec9d69f94daf13b2a3a915041280bda9"
+    },
+    {
+      "file": "verify_recovery.py",
+      "bytes": 3297,
+      "sha256": "5c0623d663aca2e83f41587f15f73eddfb7de75bfa125530cf80561e61507db9"
+    }
+  ],
+  "manifest_sha256": "f795a1b3607bbca7410887bcb28685165afee01ceef46951bc2e47381c38f9cc",
+  "browser_actions": "Read-only numeric Page navigation and organization About inspection; research tab closed. No account mutation.",
+  "source_data_handling": "Raw company names, rows, mapping tables, Page readbacks and CSV outside Git; only sanitized status and hashes here.",
+  "review": "ROOT_SELF_REVIEW; NOT_INDEPENDENT",
+  "docs_impact": "Seven current canonical/owned entrypoints synchronized; historical capture receipts unchanged."
+}

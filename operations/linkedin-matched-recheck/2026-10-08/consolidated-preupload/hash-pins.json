@@ -1,0 +1,76 @@
+{
+  "accepted_source_sha256": "69b9209e27baee4f4e527a686fd2497836bb7b7f1dfdcdcc6c5cc45648ae3e0c",
+  "immutable_original_sha256": "6e51d24c8e273007cff0a57beec8fd22d8292427267d522bfbf45bbb840fb982",
+  "candidate": {
+    "filename": "linkedin_discovery424_consolidated_20261008_PREUPLOAD_NOT_APPROVED.csv",
+    "sha256": "cf8cef65cc3e84f69cdd551798182fbd1bc7834c4311037bb1c4774460cee83c",
+    "bytes": 28288,
+    "rows": 424,
+    "columns": 10
+  },
+  "private_artifacts": [
+    {
+      "file": "cell-change-log.json",
+      "bytes": 5658,
+      "sha256": "a6029bf49a98dbd77064de553ed892bd5108678a34cf8f07c6b93567789d9dec"
+    },
+    {
+      "file": "coverage.json",
+      "bytes": 236909,
+      "sha256": "da1d887b10d76789c9947ad7524a6b8135ee76a765f640540763aeeefd823a0f"
+    },
+    {
+      "file": "decision-exceptions.json",
+      "bytes": 429098,
+      "sha256": "e9842592765477fdd33f7406c2006be5085c85315a34e57bce184153e609a79f"
+    },
+    {
+      "file": "DECISION_PACK.md",
+      "bytes": 10939,
+      "sha256": "0ff1ffc743c5b24076c080375949438bc3f991f3915081303617ecf58a099f8c"
+    },
+    {
+      "file": "evidence.json",
+      "bytes": 1371714,
+      "sha256": "292c176496012236b231162af951a365fd3ccd9eddbef04ca006c590ae4750ea"
+    },
+    {
+      "file": "ledger424.json",
+      "bytes": 1265963,
+      "sha256": "d63bfd029ffd8b0fb8302af4d3b7a6ef3cdab6e8157ab072ffcd7fa560a9ed83"
+    },
+    {
+      "file": "linkedin_discovery424_consolidated_20261008_PREUPLOAD_NOT_APPROVED.csv",
+      "bytes": 28288,
+      "sha256": "cf8cef65cc3e84f69cdd551798182fbd1bc7834c4311037bb1c4774460cee83c"
+    },
+    {
+      "file": "mapping150.json",
+      "bytes": 186320,
+      "sha256": "ae905ec077359563745c5cd8fb7df26f46a42d2c01d80caf944e81e9358249fb"
+    },
+    {
+      "file": "public-body-preservation.json",
+      "bytes": 2119,
+      "sha256": "3d8a5252c92778c5b883eeaf74bb08d257d39e8d83dee42a3be3a6c551c9f8f6"
+    },
+    {
+      "file": "summary.json",
+      "bytes": 3898,
+      "sha256": "0d08a10d4768e54605dcc4b7fe315acc5bafc4a67ef8747ad96bc7b58c4af725"
+    },
+    {
+      "file": "unmatched93.json",
+      "bytes": 388257,
+      "sha256": "93d64c05c4d7e0aaeb855d0e70606357e32760cf55ce341f41340f719499953e"
+    },
+    {
+      "file": "validation.json",
+      "bytes": 918,
+      "sha256": "cc2a3b3a54279b644895714c8f00a6e86962a741612f1e382d10aeceb8e69160"
+    }
+  ],
+  "original_plan_sha256_preserved": "77af68acf3a44dbc925cbd14b1df5a65167c98b1ac32e5877d2b4e9d2c6907fb",
+  "note": "Private company/account ledgers are not copied into the public repository.",
+  "control_record_policy": "Mutable orchestration release/runtime gate records are referenced by parent AUDIT and excluded from immutable candidate payload pins."
+}
