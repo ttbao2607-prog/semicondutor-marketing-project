@@ -1,0 +1,13 @@
+{
+  "revision": "b20-f3-a5-source-regression-c2-actual-review",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "anchor_verdict": "MESSAGE_ANCHOR_PASS",
+  "independence": "SELF_REVIEW",
+  "reviewer": "/root",
+  "original_sha256": "91e4baa96150586032c4d9cfd23a0dd1168830d6d0d1b62108eabc031911b37e",
+  "po_authorization": "Cho thêm 1 lượt A5",
+  "observation": "C1 actually inspected at native1254: approved body became two large lines but complete Taiwan source is visibly smaller than body. Corrective script preserves exact Chinese copy, source scope, persona, 5/6 and CTA. Current user explicitly authorized one additional A5 corrective. Previous attempt remains CHANGES_REQUIRED.",
+  "edit_instructions": "CRITICAL BOUNDED C2: Keep the body exactly as current two lines, do NOT enlarge it further. All source characters MUST be LARGER than the body characters. Body approximately 54-58px native. Complete source approximately 68-72px native, visually obviously larger. Reflow source into three lines: Digiwin 台湾半导体方案资料： / ERP 经营管理与 / MES(制造执行系统) 生产制造。 Preserve every character including Digiwin, ERP, MES definition. Place source in a LARGE WHITE PANEL occupying the lower 30 percent. Shrink center scene to a small band occupying at most 15 percent of the card height. Shrink headline slightly if needed; never shrink body or source. Preserve exact headline 为交接讨论建立共同依据。, body 把批次范围、记录来源与确认责任放进同一次协调讨论。, source text, CTA 探讨委外生产交接问题, ERP · 芯片运营 and 5/6. Keep Digiwin logo. Two blank pale blue tiles and sealed chip carrier are illustrative only. No report glyphs or extra wording. Exact approved text is authoritative; whitespace and line breaks may change. Native body and full source must both remain readable at feed333.",
+  "semantic_review": "MSG-ANCHOR-01 PASS for script only: Taiwan ERP经营管理/MES生产制造 distinct, no outcome or ERP-only claim; handoff coordination and consultation intent unchanged. Artifact verdict pending fresh actual review.",
+  "authority": "User reply this turn: Cho thêm 1 lượt A5. B20 F3-A5 second corrective only; no further per-card exceptions inferred."
+}

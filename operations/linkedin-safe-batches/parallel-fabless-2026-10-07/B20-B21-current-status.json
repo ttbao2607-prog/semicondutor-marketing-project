@@ -1,0 +1,51 @@
+{
+  "revision": "fabless-b20-b21-20261008-v1",
+  "owner": "/root",
+  "batches": [
+    {
+      "batch": "B20",
+      "selected": "B20-zh-Hans-f3-v3",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "postgen": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/postgen-review.json",
+        "sha256": "c25347e757ccbd70c4a65a810271ef8ce38aa3c4eadffd135e8e81838c2c56eb"
+      },
+      "counts": {
+        "selected": 11,
+        "original": 6,
+        "corrective": 2,
+        "actual_calls": 8,
+        "same_locale_raw_reuse": 5
+      }
+    },
+    {
+      "batch": "B21",
+      "selected": "B21-zh-Hant-f3-v1",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "postgen": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/postgen-review.json",
+        "sha256": "dac20b680e6a85100aef4f8c89ab85f695efc0c9f3442d9552fd7691c5b52861"
+      },
+      "counts": {
+        "selected": 11,
+        "original": 6,
+        "corrective": 0,
+        "actual_calls": 6,
+        "same_locale_raw_reuse": 5
+      }
+    }
+  ],
+  "generation_remaining_queue": [],
+  "lane_generated_batches": 9,
+  "lane_selected_png_positions": 99,
+  "full_lane_acceptance": "NOT_COMPLETE; B18-B21 mobile visual insufficient; B15 proof2 current acceptance qualification retained separately.",
+  "pre_checkpoint_git_snapshot": "B18/B19 local checkpoint b83d061b; B20/B21 uncommitted owned working files; no new main/push/live.",
+  "checkpoint": {
+    "authorization": "commit checkpoint, hết batch rồi phải k codex.",
+    "scope": "Current B20/B21 files and owned audit history in containing local source commit",
+    "new_main_merge": false,
+    "new_push": false,
+    "live": false,
+    "acceptance_unchanged": true
+  }
+}

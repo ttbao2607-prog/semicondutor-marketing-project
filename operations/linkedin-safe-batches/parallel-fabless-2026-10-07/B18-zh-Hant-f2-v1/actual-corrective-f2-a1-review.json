@@ -1,0 +1,13 @@
+{
+  "revision": "b18-f2-a1-feed-body-repair-v1",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "anchor_verdict": "MESSAGE_ANCHOR_PASS",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "original_sha256": "a940916e6ae5a4c4181415bc9143ab3e461a8c776e5ec53abfd55f6e1f271e93",
+  "po_authorization": "Cho thêm 2 lượt sửa A1/A5",
+  "observation": "Root observed actual feed333: exact body compressed into one undersized line, unlike readable neighbouring body. Content/source/persona unchanged; edit hierarchy only.",
+  "edit_instructions": "TARGETED BODY TYPOGRAPHY REPAIR ONLY. Actual edit target is reference1. Preserve exact approved headline, category, counter, brand and blue-white scene family. Body currently too small on one line. Enlarge body Chinese glyph height to approximately56px or larger on1254canvas and wrap into2or3 lines; never compress to one line. Exact complete body: 先釐清需求變化涉及哪些委外批次，再與生產合作夥伴討論計畫。 Rebalance/reduce lower illustration only to make room. No added/deleted words, no simplification of Traditional glyphs, no data/values/UI/extra decorations. Preserve1/6, wafer carrier and neutral blank report props. Full headline 需求預測變了，哪些批次相關？ Keep readable margins and whole text.",
+  "acceptance": "Exact text and all identity/source/CTA retained; comfortably readable2or3line body at native/feed333; actual render reinspection required.",
+  "postgen": "POSTGEN_NOT_RUN"
+}

@@ -1,0 +1,30 @@
+{
+  "anchor_id": "VY-CONTENT-ANCHOR",
+  "anchor_revision": "1.0",
+  "source_checkpoint": "39a3abdef3c5eb9bcd2b174d8fbc704529bc2002",
+  "main_base": "e0c84d30e9653560817d8ed8249e84436c8cd611",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "pins": [
+    {
+      "path": "operations/Vy_Email_Content_Anchor.md",
+      "main_sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+      "source_checkpoint_sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+      "semantic_identity": "Exact bytes or newline-only; no anchor/source content change."
+    },
+    {
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "main_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+      "source_checkpoint_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+      "semantic_identity": "Exact bytes or newline-only; no anchor/source content change."
+    }
+  ],
+  "personas": "Operations/SCM decision influencer at eligible commercial outsourced-production Fabless FDI entity; local decision authority/eligibility not inferred from language.",
+  "locales": [
+    "zh-Hant",
+    "en",
+    "zh-Hans",
+    "zh-Hant"
+  ],
+  "scope": "Integration/provenance binding only; existing scoped source judgments retained. Full artifact/message gate remains INSUFFICIENT_EVIDENCE due mobile visual gap. No generation, new semantic PASS or independent/live certification."
+}

@@ -1,0 +1,174 @@
+{
+  "execution_status": "SUCCESS_PREMERGE_LOCAL_PREPARATION",
+  "verification": "ROOT_BYTE_AND_STATE_SELF_INSPECTION",
+  "independent_agent_audit": "NOT_RUN",
+  "source_checkpoint": "39a3abdef3c5eb9bcd2b174d8fbc704529bc2002",
+  "main_base": "e0c84d30e9653560817d8ed8249e84436c8cd611",
+  "imported_files_verified": 386,
+  "selected_native_png": 44,
+  "png_size": [
+    1254,
+    1254
+  ],
+  "png_transformations": 0,
+  "source_imagegen_attempts_fresh_guard_release_hashes_verified": 33,
+  "accepted_desktop_feed_reader_screenshots": 140,
+  "accepted_mobile_cold_screenshots": 1,
+  "other_mobile_reader_visual": 0,
+  "selected_total_on_main": 99,
+  "generation_batches": 9,
+  "remaining_generation_batches": 0,
+  "technical_acceptance": "B18-B21 INSUFFICIENT_EVIDENCE/PARTIAL; B15 proof2 CHANGES_REQUIRED; no full/independent/live PASS",
+  "protected_inventory": [
+    {
+      "path": "scripts/verify_imagegen_preflight.py",
+      "main_state": "EXISTING_UNCHANGED",
+      "main_working_sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+      "main_git_blob_sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+      "checkout_newlines_only": false
+    },
+    {
+      "path": "tests/test_imagegen_preflight.py",
+      "main_state": "EXISTING_UNCHANGED",
+      "main_working_sha256": "2c383a475ecc44cfd72825d4a825b2aec1a90da49e42d856928c2dec878f97c2",
+      "main_git_blob_sha256": "2c383a475ecc44cfd72825d4a825b2aec1a90da49e42d856928c2dec878f97c2",
+      "checkout_newlines_only": false
+    },
+    {
+      "path": "scripts/verify_imagegen_anchor_preflight.py",
+      "main_state": "ABSENT_REMAINS_ABSENT"
+    },
+    {
+      "path": "tests/test_imagegen_anchor_preflight.py",
+      "main_state": "ABSENT_REMAINS_ABSENT"
+    },
+    {
+      "path": "operations/linkedin-journey-demo/2026-10-06/inputs/verify_single_image_trial.py",
+      "main_state": "EXISTING_UNCHANGED",
+      "main_working_sha256": "aa71327c78dd2db4cf436bd9454003960492657b627a3bf36901a467bb75b72c",
+      "main_git_blob_sha256": "aa71327c78dd2db4cf436bd9454003960492657b627a3bf36901a467bb75b72c",
+      "checkout_newlines_only": false
+    },
+    {
+      "path": "operations/Vy_Email_Content_Anchor.md",
+      "main_state": "EXISTING_UNCHANGED",
+      "main_working_sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+      "main_git_blob_sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+      "checkout_newlines_only": false
+    },
+    {
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "main_state": "EXISTING_UNCHANGED",
+      "main_working_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+      "main_git_blob_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+      "checkout_newlines_only": false
+    },
+    {
+      "path": "operations/message-anchor/Pregen_Script_Guard.md",
+      "main_state": "ABSENT_REMAINS_ABSENT"
+    },
+    {
+      "path": "operations/Ad_Artifact_Editorial_QA_Gate.md",
+      "main_state": "EXISTING_UNCHANGED",
+      "main_working_sha256": "e2e2833e74986ecb1df546ea489e93b6c1ea9d13ac7560a108427a8e1d10f9e7",
+      "main_git_blob_sha256": "88d562ce5b02c2b4151de319b36078b8c151f6ae3bf655d2186c763dc05d5cd2",
+      "checkout_newlines_only": true
+    },
+    {
+      "path": "operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md",
+      "main_state": "EXISTING_UNCHANGED",
+      "main_working_sha256": "21c6e60d75b3e57a5d0d0a1f07bbe60821011055a24ccd441dc8e0841c8d0f91",
+      "main_git_blob_sha256": "bfb3ef76c23d48d107ffdc37c3fdde199ecdc97f2b0bcdf14219b0b096ac7ade",
+      "checkout_newlines_only": true
+    },
+    {
+      "path": "operations/LinkedIn_Awareness_Execution_Plan.md",
+      "main_state": "EXISTING_UNCHANGED",
+      "main_working_sha256": "d28f03494d5079af8f82edbe7523702ff44ed363abe6d3bd5681e02c1d69d3b7",
+      "main_git_blob_sha256": "46226d80084127981108d5545a814f0e74cbf801048dfab8f529e5d1f890673f",
+      "checkout_newlines_only": true
+    },
+    {
+      "path": "operations/LinkedIn_ImageGen_Preflight_Schema.md",
+      "main_state": "EXISTING_UNCHANGED",
+      "main_working_sha256": "2e4a574ffaafed8580843e2d606762eb485269438655cc077e87fc2dee0a0ee5",
+      "main_git_blob_sha256": "2e4a574ffaafed8580843e2d606762eb485269438655cc077e87fc2dee0a0ee5",
+      "checkout_newlines_only": false
+    },
+    {
+      "path": "operations/LinkedIn_ImageGen_Visual_Instructions.md",
+      "main_state": "EXISTING_UNCHANGED",
+      "main_working_sha256": "e3d287c86a77131ec200e9de839bf127dc43412d3f9cdf028dc3909fea0c1b25",
+      "main_git_blob_sha256": "e3d287c86a77131ec200e9de839bf127dc43412d3f9cdf028dc3909fea0c1b25",
+      "checkout_newlines_only": false
+    },
+    {
+      "path": "operations/templates/Message_Anchor_Pregen_Receipt_Template.json",
+      "main_state": "ABSENT_REMAINS_ABSENT"
+    },
+    {
+      "path": "operations/templates/Message_Anchor_Review_Receipt_Template.md",
+      "main_state": "EXISTING_UNCHANGED",
+      "main_working_sha256": "0a6830fdb982e7789051188a815d41e558d30a8cadf9c8f8f63253ef50fa8315",
+      "main_git_blob_sha256": "0a6830fdb982e7789051188a815d41e558d30a8cadf9c8f8f63253ef50fa8315",
+      "checkout_newlines_only": false
+    },
+    {
+      "path": "operations/templates/Message_Anchor_Artifact_Brief_Template.md",
+      "main_state": "EXISTING_UNCHANGED",
+      "main_working_sha256": "934aab374547aeb1e8052b3d92b74f9c1053f753a39397728c9c961fce6358a6",
+      "main_git_blob_sha256": "934aab374547aeb1e8052b3d92b74f9c1053f753a39397728c9c961fce6358a6",
+      "checkout_newlines_only": false
+    },
+    {
+      "path": "operations/LinkedIn_ImageGen_Anchor_Freeze_2026-10-06.md",
+      "main_state": "ABSENT_REMAINS_ABSENT"
+    },
+    {
+      "path": "operations/LinkedIn_Locale_Batch_Preparation_2026-10-06.md",
+      "main_state": "ABSENT_REMAINS_ABSENT"
+    },
+    {
+      "path": "operations/message-anchor/freeze-2026-10-06/status.json",
+      "main_state": "ABSENT_REMAINS_ABSENT"
+    },
+    {
+      "path": "operations/message-anchor/freeze-2026-10-06/batch-intake-template.json",
+      "main_state": "ABSENT_REMAINS_ABSENT"
+    },
+    {
+      "path": "scripts/prepare_linkedin_locale.py",
+      "main_state": "EXISTING_UNCHANGED",
+      "main_working_sha256": "b35e517c3128b72e66ade40135d555f34daef1666ef923616f9ac9fd4d257a51",
+      "main_git_blob_sha256": "b35e517c3128b72e66ade40135d555f34daef1666ef923616f9ac9fd4d257a51",
+      "checkout_newlines_only": false
+    },
+    {
+      "path": "tests/test_linkedin_locale_adapter.py",
+      "main_state": "EXISTING_UNCHANGED",
+      "main_working_sha256": "815577a741221ce5e5c37429c553499247de2b320c58a7e15925c356dcabaf4b",
+      "main_git_blob_sha256": "815577a741221ce5e5c37429c553499247de2b320c58a7e15925c356dcabaf4b",
+      "checkout_newlines_only": false
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/profiles.json",
+      "main_state": "EXISTING_UNCHANGED",
+      "main_working_sha256": "1b0105ed92ef866fb7a5796aefcdfb9d8e9d9683c72f4257295e80a06653a6cd",
+      "main_git_blob_sha256": "1b0105ed92ef866fb7a5796aefcdfb9d8e9d9683c72f4257295e80a06653a6cd",
+      "checkout_newlines_only": false
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/development-status.json",
+      "main_state": "EXISTING_UNCHANGED",
+      "main_working_sha256": "a28b01afb5b03d46127ad717c4eae7f3389c9dda0cec6681e6b9678a0b95f887",
+      "main_git_blob_sha256": "a28b01afb5b03d46127ad717c4eae7f3389c9dda0cec6681e6b9678a0b95f887",
+      "checkout_newlines_only": false
+    }
+  ],
+  "source_frozen_pins_verified": 24,
+  "canonical_updates": 8,
+  "non_fabless_progress_rows_and_other_doc_bodies_unchanged": true,
+  "unrelated_main_files_unchanged": true,
+  "viewers_local_assets_reader_return_targets": "All exist; mechanical dependency check only, no new browser render claim",
+  "push_status": "NOT_YET_PERFORMED; actual remote readback required after authorized merge/push"
+}

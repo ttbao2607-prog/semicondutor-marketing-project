@@ -1,0 +1,1117 @@
+{
+  "revision": "b18-postgen-2026-10-08-v1",
+  "stage": "POSTGEN_ARTIFACT",
+  "gate_id": "MSG-ANCHOR-01 + AD-ED-01",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "artifact_verdict": "INSUFFICIENT_EVIDENCE",
+  "editorial_verdict": "INSUFFICIENT_EVIDENCE",
+  "message_anchor": "INSUFFICIENT_EVIDENCE",
+  "execution": "PARTIAL",
+  "independent_audit": "NOT_RUN",
+  "locale": "zh-Hant",
+  "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+  },
+  "anchor_revision": "1.0",
+  "original_email": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "semantic_input": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/semantic-review.json",
+    "sha256": "970fc7459a034626d1efeba818017de16bec91aca75005f9a40810d52d8bed7e"
+  },
+  "subjects": {
+    "manifest.json": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/manifest.json",
+      "sha256": "9249b8f6931a5ddb7d23451ac2dbd19a78edae12da69bd4f905d5073e6afab89"
+    },
+    "selected-copy.json": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/selected-copy.json",
+      "sha256": "268363c25f08d8ba2af7ce5ee095348d2faf2da439b532140386ec0254737e21"
+    },
+    "selected-prompts.json": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/selected-prompts.json",
+      "sha256": "18e088a2735c3e6701e396bc80464308b336da3e503fe84ca23037cca330195e"
+    },
+    "index.html": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/index.html",
+      "sha256": "19ab47ed21c8ad1b98b66f771f32202e253530f4ed9d8455ec0fabb84dd77cfc"
+    },
+    "case-reader.html": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/case-reader.html",
+      "sha256": "848fc36cfc3a6e44421e3e341522120937c6ee8febb1ac80dfae20581856668f"
+    },
+    "explanation-vi.md": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/explanation-vi.md",
+      "sha256": "f63f4cb96dcdcfc40eb2ebcd2f470efe2c8694b9d6ad784cdfbbfeb90461d04a"
+    }
+  },
+  "unit_review": [
+    {
+      "card_id": "COLD-FABLESS-B18",
+      "native": {
+        "card_id": "COLD-FABLESS-B18",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/assets/01-cold-fabless-b18.png",
+        "sha256": "da8059946a31550687587570d724a43e3699f6f979038639f491ece7c8ab9bb4",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/cold-fabless-b18/native/cold-fabless-b18-zh-Hant-v1.png",
+        "transformation": false
+      },
+      "exact_copy": {
+        "card_id": "COLD-FABLESS-B18",
+        "headline": "需求預測變了，先看哪些批次？",
+        "body": "調整計畫前，先核對產品、計畫期間與合作夥伴的批次回報。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "需求預測變了，先看哪些批次？",
+        "alt": "示意圖：需求預測變了，先看哪些批次？",
+        "artwork_labels": [
+          "晶片委外計畫",
+          "製造業 ERP"
+        ],
+        "stage": "cold",
+        "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。委外生產的晶片設計計畫團隊：需求預測變了，調整計畫前先核對哪些批次回報？",
+        "image": "assets/01-cold-fabless-b18.png"
+      },
+      "native_content": "PASS_SELF_REVIEW",
+      "desktop640": "PASS_SELF_REVIEW",
+      "feed333": "PASS_SELF_REVIEW",
+      "mobile390_visual": "INSUFFICIENT_EVIDENCE",
+      "observation": "Root inspected actual text/glyph/category/counter/source/CTA and scene. No legible invented report values, numeric outcomes or expanded case claim. Full scoped verdict excludes missing mobile visual."
+    },
+    {
+      "card_id": "F2-A1",
+      "native": {
+        "card_id": "F2-A1",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/assets/02-f2-a1.png",
+        "sha256": "fcfe476193c92617341679b8b30d5bb7858d5db8ae760acb7be98edb53da5932",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/f2-a1/native/f2-a1-zh-Hant-c1.png",
+        "transformation": false
+      },
+      "exact_copy": {
+        "card_id": "F2-A1",
+        "headline": "需求預測變了，哪些批次相關？",
+        "body": "先釐清需求變化涉及哪些委外批次，再與生產合作夥伴討論計畫。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "需求預測變了，哪些批次相關？",
+        "alt": "示意圖：需求預測變了，哪些批次相關？",
+        "artwork_labels": [
+          "ERP · 晶片營運",
+          "1/6"
+        ],
+        "stage": "explanation",
+        "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠晶片設計模式)計畫團隊：核對需求變化與委外批次回報，為下一步計畫討論準備共同依據。",
+        "image": "assets/02-f2-a1.png"
+      },
+      "native_content": "PASS_SELF_REVIEW",
+      "desktop640": "PASS_SELF_REVIEW",
+      "feed333": "PASS_SELF_REVIEW",
+      "mobile390_visual": "INSUFFICIENT_EVIDENCE",
+      "observation": "Root inspected actual text/glyph/category/counter/source/CTA and scene. No legible invented report values, numeric outcomes or expanded case claim. Full scoped verdict excludes missing mobile visual."
+    },
+    {
+      "card_id": "F2-A2",
+      "native": {
+        "card_id": "F2-A2",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/assets/03-f2-a2.png",
+        "sha256": "570d536e2ab870b45b4eb8aa570368f01cb57d0203831e0d8f038b0b3bb16194",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a2/native/f2-a2-zh-Hant-v1.png",
+        "transformation": false
+      },
+      "exact_copy": {
+        "card_id": "F2-A2",
+        "headline": "先核對產品與計畫期間。",
+        "body": "釐清需求變化涉及的產品、計畫期間與委外批次範圍。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "先核對產品與計畫期間。",
+        "alt": "示意圖：先核對產品與計畫期間。",
+        "artwork_labels": [
+          "ERP · 晶片營運",
+          "2/6"
+        ],
+        "stage": "explanation",
+        "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠晶片設計模式)計畫團隊：核對需求變化與委外批次回報，為下一步計畫討論準備共同依據。",
+        "image": "assets/03-f2-a2.png"
+      },
+      "native_content": "PASS_SELF_REVIEW",
+      "desktop640": "PASS_SELF_REVIEW",
+      "feed333": "PASS_SELF_REVIEW",
+      "mobile390_visual": "INSUFFICIENT_EVIDENCE",
+      "observation": "Root inspected actual text/glyph/category/counter/source/CTA and scene. No legible invented report values, numeric outcomes or expanded case claim. Full scoped verdict excludes missing mobile visual."
+    },
+    {
+      "card_id": "F2-A3",
+      "native": {
+        "card_id": "F2-A3",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/assets/04-f2-a3.png",
+        "sha256": "b14d594dc84b5a4093f747d2badf0e5f171920ef72d75bade8c1bef552e88016",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a3/native/f2-a3-zh-Hant-v1.png",
+        "transformation": false
+      },
+      "exact_copy": {
+        "card_id": "F2-A3",
+        "headline": "這個批次狀態何時紀錄？",
+        "body": "結合回報時間與來源核對批次狀態，再作為計畫討論的依據。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "這個批次狀態何時紀錄？",
+        "alt": "示意圖：這個批次狀態何時紀錄？",
+        "artwork_labels": [
+          "ERP · 晶片營運",
+          "3/6"
+        ],
+        "stage": "explanation",
+        "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠晶片設計模式)計畫團隊：核對需求變化與委外批次回報，為下一步計畫討論準備共同依據。",
+        "image": "assets/04-f2-a3.png"
+      },
+      "native_content": "PASS_SELF_REVIEW",
+      "desktop640": "PASS_SELF_REVIEW",
+      "feed333": "PASS_SELF_REVIEW",
+      "mobile390_visual": "INSUFFICIENT_EVIDENCE",
+      "observation": "Root inspected actual text/glyph/category/counter/source/CTA and scene. No legible invented report values, numeric outcomes or expanded case claim. Full scoped verdict excludes missing mobile visual."
+    },
+    {
+      "card_id": "F2-A4",
+      "native": {
+        "card_id": "F2-A4",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/assets/05-f2-a4.png",
+        "sha256": "80889fc925ed8282893984a4cd3adc7714057fa3c202b46b2997275da763c401",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a4/native/f2-a4-zh-Hant-v1.png",
+        "transformation": false
+      },
+      "exact_copy": {
+        "card_id": "F2-A4",
+        "headline": "還需向合作夥伴確認什麼？",
+        "body": "列出缺漏資訊，以及負責向各生產合作夥伴確認的人員，再討論調整。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "還需向合作夥伴確認什麼？",
+        "alt": "示意圖：還需向合作夥伴確認什麼？",
+        "artwork_labels": [
+          "ERP · 晶片營運",
+          "4/6"
+        ],
+        "stage": "explanation",
+        "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠晶片設計模式)計畫團隊：核對需求變化與委外批次回報，為下一步計畫討論準備共同依據。",
+        "image": "assets/05-f2-a4.png"
+      },
+      "native_content": "PASS_SELF_REVIEW",
+      "desktop640": "PASS_SELF_REVIEW",
+      "feed333": "PASS_SELF_REVIEW",
+      "mobile390_visual": "INSUFFICIENT_EVIDENCE",
+      "observation": "Root inspected actual text/glyph/category/counter/source/CTA and scene. No legible invented report values, numeric outcomes or expanded case claim. Full scoped verdict excludes missing mobile visual."
+    },
+    {
+      "card_id": "F2-A5",
+      "native": {
+        "card_id": "F2-A5",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/assets/06-f2-a5.png",
+        "sha256": "f10cb9163e968501f84a32fd9ff597cd80f77049400a3ba2952d1dde9751fbd7",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v2/f2-a5/native/f2-a5-zh-Hant-c2.png",
+        "transformation": false
+      },
+      "exact_copy": {
+        "card_id": "F2-A5",
+        "headline": "讓計畫調整有共同依據。",
+        "body": "把批次範圍、回報來源與確認權責放進同一次計畫討論。",
+        "source_text": "Digiwin 台灣半導體方案資料：\nERP 經營管理與 MES(製造執行系統) 生產製造。",
+        "cta": "探討委外生產計畫問題",
+        "native_headline": "讓計畫調整有共同依據。",
+        "alt": "示意圖：讓計畫調整有共同依據。",
+        "artwork_labels": [
+          "ERP · 晶片營運",
+          "5/6"
+        ],
+        "stage": "explanation",
+        "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠晶片設計模式)計畫團隊：核對需求變化與委外批次回報，為下一步計畫討論準備共同依據。",
+        "image": "assets/06-f2-a5.png"
+      },
+      "native_content": "PASS_SELF_REVIEW",
+      "desktop640": "PASS_SELF_REVIEW",
+      "feed333": "PASS_SELF_REVIEW",
+      "mobile390_visual": "INSUFFICIENT_EVIDENCE",
+      "observation": "Root inspected actual text/glyph/category/counter/source/CTA and scene. No legible invented report values, numeric outcomes or expanded case claim. Full scoped verdict excludes missing mobile visual."
+    },
+    {
+      "card_id": "F2-A6",
+      "native": {
+        "card_id": "F2-A6",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/assets/07-f2-a6.png",
+        "sha256": "6e525120e83ff0ed1dd367628580163a2a214ac55f9c2d2e0c9fb182e81d2816",
+        "source": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v3/assets/07-f1-a6.png",
+        "transformation": false
+      },
+      "exact_copy": {
+        "card_id": "F2-A6",
+        "headline": "越南在地顧問與導入服務",
+        "body": "與我們在越南的團隊討論 ERP 顧問與導入服務。從回報流程、更新權責與專案優先順序開始。",
+        "source_text": "Digiwin 越南 · ERP 顧問與導入",
+        "cta": "",
+        "native_headline": "越南在地顧問與導入服務",
+        "alt": "示意圖：越南在地顧問與導入服務",
+        "artwork_labels": [
+          "ERP · 晶片營運",
+          "6/6"
+        ],
+        "stage": "explanation",
+        "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠晶片設計模式)計畫團隊：核對需求變化與委外批次回報，為下一步計畫討論準備共同依據。",
+        "image": "assets/07-f2-a6.png"
+      },
+      "native_content": "PASS_SELF_REVIEW",
+      "desktop640": "PASS_SELF_REVIEW",
+      "feed333": "PASS_SELF_REVIEW",
+      "mobile390_visual": "INSUFFICIENT_EVIDENCE",
+      "observation": "Root inspected actual text/glyph/category/counter/source/CTA and scene. No legible invented report values, numeric outcomes or expanded case claim. Full scoped verdict excludes missing mobile visual."
+    },
+    {
+      "card_id": "RMK-BRIGHT-1",
+      "native": {
+        "card_id": "RMK-BRIGHT-1",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/assets/08-rmk-bright-1.png",
+        "sha256": "d19d2d052cbf321535f8cdd0f618d275a68781ccbcc543cc486bac85dc95bba7",
+        "source": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v3/assets/08-rmk-bright-1.png",
+        "transformation": false
+      },
+      "exact_copy": {
+        "card_id": "RMK-BRIGHT-1",
+        "headline": "製造業數位解決方案",
+        "body": "我們開發並提供製造業數位解決方案，從 ERP 到智慧製造。",
+        "source_text": "Digiwin 越南 · 公司介紹",
+        "cta": "",
+        "native_headline": "製造業數位解決方案",
+        "alt": "示意圖：製造業數位解決方案",
+        "artwork_labels": [
+          "晶片設計案例",
+          "1/4"
+        ],
+        "stage": "proof",
+        "caption": "我們提供製造業數位解決方案，包括 ERP(企業資源規劃)。了解一份中國晶片設計企業案例中的委外管理挑戰。",
+        "image": "assets/08-rmk-bright-1.png"
+      },
+      "native_content": "PASS_SELF_REVIEW",
+      "desktop640": "PASS_SELF_REVIEW",
+      "feed333": "PASS_SELF_REVIEW",
+      "mobile390_visual": "INSUFFICIENT_EVIDENCE",
+      "observation": "Root inspected actual text/glyph/category/counter/source/CTA and scene. No legible invented report values, numeric outcomes or expanded case claim. Full scoped verdict excludes missing mobile visual."
+    },
+    {
+      "card_id": "RMK-BRIGHT-2",
+      "native": {
+        "card_id": "RMK-BRIGHT-2",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/assets/09-rmk-bright-2.png",
+        "sha256": "46dc2caabab9e71a057c8af6c2f977aeb11b8c3ea594c9d2c671ffc9d9bd9928",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/rmk-bright-2/native/rmk-bright-2-zh-Hant-c1.png",
+        "transformation": false
+      },
+      "exact_copy": {
+        "card_id": "RMK-BRIGHT-2",
+        "headline": "來自中國的晶片設計案例",
+        "body": "晶豐明源是中國的晶片設計企業。了解其數位解決方案導入背景。",
+        "source_text": "Digiwin 越南 · 半導體案例集\n上海晶丰明源半导体股份有限公司",
+        "cta": "",
+        "native_headline": "來自中國的晶片設計案例",
+        "alt": "示意圖：來自中國的晶片設計案例",
+        "artwork_labels": [
+          "晶片設計案例",
+          "2/4"
+        ],
+        "stage": "proof",
+        "caption": "我們提供製造業數位解決方案，包括 ERP(企業資源規劃)。了解一份中國晶片設計企業案例中的委外管理挑戰。",
+        "image": "assets/09-rmk-bright-2.png"
+      },
+      "native_content": "PASS_SELF_REVIEW",
+      "desktop640": "PASS_SELF_REVIEW",
+      "feed333": "PASS_SELF_REVIEW",
+      "mobile390_visual": "INSUFFICIENT_EVIDENCE",
+      "observation": "Root inspected actual text/glyph/category/counter/source/CTA and scene. No legible invented report values, numeric outcomes or expanded case claim. Full scoped verdict excludes missing mobile visual."
+    },
+    {
+      "card_id": "RMK-BRIGHT-3",
+      "native": {
+        "card_id": "RMK-BRIGHT-3",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/assets/10-rmk-bright-3.png",
+        "sha256": "fdefa72e871dc87f5e310dbc3ea5d42f0f3812de7d7652ae3688b001876aa358",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/rmk-bright-3/native/rmk-bright-3-zh-Hant-c1.png",
+        "transformation": false
+      },
+      "exact_copy": {
+        "card_id": "RMK-BRIGHT-3",
+        "headline": "從委外管理問題切入",
+        "body": "案例提出委外管理效率不足等挑戰，並介紹整合式數位解決方案。",
+        "source_text": "Digiwin 越南 · 中國案例04\n上海晶丰明源半导体股份有限公司",
+        "cta": "",
+        "native_headline": "從委外管理問題切入",
+        "alt": "示意圖：從委外管理問題切入",
+        "artwork_labels": [
+          "晶片設計案例",
+          "3/4"
+        ],
+        "stage": "proof",
+        "caption": "我們提供製造業數位解決方案，包括 ERP(企業資源規劃)。了解一份中國晶片設計企業案例中的委外管理挑戰。",
+        "image": "assets/10-rmk-bright-3.png"
+      },
+      "native_content": "PASS_SELF_REVIEW",
+      "desktop640": "PASS_SELF_REVIEW",
+      "feed333": "PASS_SELF_REVIEW",
+      "mobile390_visual": "INSUFFICIENT_EVIDENCE",
+      "observation": "Root inspected actual text/glyph/category/counter/source/CTA and scene. No legible invented report values, numeric outcomes or expanded case claim. Full scoped verdict excludes missing mobile visual."
+    },
+    {
+      "card_id": "RMK-BRIGHT-4",
+      "native": {
+        "card_id": "RMK-BRIGHT-4",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/assets/11-rmk-bright-4.png",
+        "sha256": "c4cc8c953af17436f7d4106acfa6a0d41dfd730df92ba13ae442749e39ca1c6b",
+        "source": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v3/assets/11-rmk-bright-4.png",
+        "transformation": false
+      },
+      "exact_copy": {
+        "card_id": "RMK-BRIGHT-4",
+        "headline": "閱讀晶片設計案例",
+        "body": "了解這份中國企業案例中的營運挑戰與整合式數位解決方案背景。",
+        "source_text": "Digiwin 越南 · digiwin.com.vn\n半導體案例04\n上海晶丰明源半导体股份有限公司",
+        "cta": "閱讀中國案例",
+        "native_headline": "閱讀晶片設計案例",
+        "alt": "示意圖：閱讀晶片設計案例",
+        "artwork_labels": [
+          "晶片設計案例",
+          "4/4"
+        ],
+        "stage": "proof",
+        "caption": "我們提供製造業數位解決方案，包括 ERP(企業資源規劃)。了解一份中國晶片設計企業案例中的委外管理挑戰。",
+        "image": "assets/11-rmk-bright-4.png"
+      },
+      "native_content": "PASS_SELF_REVIEW",
+      "desktop640": "PASS_SELF_REVIEW",
+      "feed333": "PASS_SELF_REVIEW",
+      "mobile390_visual": "INSUFFICIENT_EVIDENCE",
+      "observation": "Root inspected actual text/glyph/category/counter/source/CTA and scene. No legible invented report values, numeric outcomes or expanded case claim. Full scoped verdict excludes missing mobile visual."
+    }
+  ],
+  "journey_review": {
+    "observed_scope": "Native + desktop/feed cards and desktop reader/return; mobile layout/reader-return DOM only.",
+    "observation": "Cold -> six explanation cards (including Vietnam consulting/implementation) -> four qualitative China proof cards -> source-bounded localized reader. Same Operations/SCM influence persona. F2 demand-change reconciliation vs F3 partner handoff questions. Taiwan ERP management/MES production, Vietnam services and China customer context are distinct. Eligibility, ERP-only outcomes and local Fabless deployment not inferred.",
+    "full_verdict": "INSUFFICIENT_EVIDENCE"
+  },
+  "counts": {
+    "selected": 11,
+    "original": 8,
+    "corrective": 5,
+    "actual_calls": 13,
+    "same_locale_raw_reuse": 3
+  },
+  "attempt_verification": [
+    {
+      "call_id": "B18_F2_A5_V1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a5/native/f2-a5-zh-Hant-v1.png",
+        "sha256": "a76fbd94751871992071339d09dba346e520462fff8dcb205cb5cf85ebc393bb"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a5/dispatch/B18_F2_A5_V1-fresh-preflight.json",
+        "sha256": "aa60822adfd0b84e18e75f3f9272e3ae5e7676aa0b8dc5bb35ffa0b342e67203"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a5/release.json",
+        "sha256": "374ee41192ff93b7d1d5f9d1294c8ff7e497a9a9e40db9c5796ec17d812f43a0"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a5/anchor-review.json",
+        "sha256": "03556a38ac8a9ae729b73a283b4752dbdc274f0358053e54a5b3a70c57950174"
+      }
+    },
+    {
+      "call_id": "B18_F2_A3_V1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a3/native/f2-a3-zh-Hant-v1.png",
+        "sha256": "b14d594dc84b5a4093f747d2badf0e5f171920ef72d75bade8c1bef552e88016"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a3/dispatch/B18_F2_A3_V1-fresh-preflight.json",
+        "sha256": "0fb49713dd1a8890ecde43c20608315ecfe0bcac8b0e649ed86906d967a89021"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a3/release.json",
+        "sha256": "85743f757f4340e505771df72533290d1c8c908c21e322cee10c4ed4c7d74597"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a3/anchor-review.json",
+        "sha256": "bffe93a5283320a77bab831d39f13709d99297f492dd4a3c8246168deff08c4c"
+      }
+    },
+    {
+      "call_id": "B18_COLD_FABLESS_B18_V1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/cold-fabless-b18/native/cold-fabless-b18-zh-Hant-v1.png",
+        "sha256": "da8059946a31550687587570d724a43e3699f6f979038639f491ece7c8ab9bb4"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/cold-fabless-b18/dispatch/B18_COLD_FABLESS_B18_V1-fresh-preflight.json",
+        "sha256": "589f654283654bf8f4eea0d13f2b69dd9f3e48c6a21bb468e1781077de37b18d"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/cold-fabless-b18/release.json",
+        "sha256": "bba810d2c6b5f9ead60bdf0c884b7b9dc0d90976653767fe41005e48b2b1f13b"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/cold-fabless-b18/anchor-review.json",
+        "sha256": "6c6ee0546f615ba9be034c0488a50d07dbb981e8bdedadc33bd4017beb0c83b4"
+      }
+    },
+    {
+      "call_id": "B18_F2_A1_V1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a1/native/f2-a1-zh-Hant-v1.png",
+        "sha256": "a940916e6ae5a4c4181415bc9143ab3e461a8c776e5ec53abfd55f6e1f271e93"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a1/dispatch/B18_F2_A1_V1-fresh-preflight.json",
+        "sha256": "37aeb30e7ac9ee2ebc959b7b82839a0154806f589babba65586f632b13bf5b94"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a1/release.json",
+        "sha256": "6301d5938a3551af40dce90a6d809fb950bf523d39f6b4d7d12594c7b86bd9f2"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a1/anchor-review.json",
+        "sha256": "d1017e76fe721e16fc8f959cacf10d00b6e6552877d181ffa86763632c179d93"
+      }
+    },
+    {
+      "call_id": "B18_F2_A2_V1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a2/native/f2-a2-zh-Hant-v1.png",
+        "sha256": "570d536e2ab870b45b4eb8aa570368f01cb57d0203831e0d8f038b0b3bb16194"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a2/dispatch/B18_F2_A2_V1-fresh-preflight.json",
+        "sha256": "a22129f8a9e3451816b592a95cabd67a4098b603564decb22f1f422f23e009e9"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a2/release.json",
+        "sha256": "412b116cec479ec78a95a3ec24b99a3514d2247c4321992bbec798f2198d050d"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a2/anchor-review.json",
+        "sha256": "bacfa2eb908df99e2171f8f40583bda1846ed5e02862d3ce34a26dd1d9bb534e"
+      }
+    },
+    {
+      "call_id": "B18_F2_A4_V1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a4/native/f2-a4-zh-Hant-v1.png",
+        "sha256": "80889fc925ed8282893984a4cd3adc7714057fa3c202b46b2997275da763c401"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a4/dispatch/B18_F2_A4_V1-fresh-preflight.json",
+        "sha256": "f7466aa2c0aaf40f624b4b744239b503f4d15700f4de0154d2e79f932f23e6ef"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a4/release.json",
+        "sha256": "ffb3136da1a96e08a9d7ba866888db870f1bbdf75a50f987859b6c8840bed8f6"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a4/anchor-review.json",
+        "sha256": "d16948aefefee289de466dd2528ab4812acedb8360e18410b82c4d19014eec3f"
+      }
+    },
+    {
+      "call_id": "B18_RMK_BRIGHT_2_V1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/rmk-bright-2/native/rmk-bright-2-zh-Hant-v1.png",
+        "sha256": "5fe67b4bbd9d23c0832dc22798514b8890946bb43d62ccdb7a8a336e1e3940ef"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/rmk-bright-2/dispatch/B18_RMK_BRIGHT_2_V1-fresh-preflight.json",
+        "sha256": "53eeefb95775c6651cfa75eda4a8aa09bd0c7fc53c2657256e9f5b62a7138545"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/rmk-bright-2/release.json",
+        "sha256": "c39adc57781cd66d32b17f0ce78bac6712241ea9deb8ff901934735fe809aee5"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/rmk-bright-2/anchor-review.json",
+        "sha256": "4551054dcb2aa3a15fff993526ee571626d820e01cd35928dbcafe23e0d5d55d"
+      }
+    },
+    {
+      "call_id": "B18_RMK_BRIGHT_3_V1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/rmk-bright-3/native/rmk-bright-3-zh-Hant-v1.png",
+        "sha256": "7de195f3534f2639d04873c69ce56a798f843baea5ab18eccd70d2b050bd0db4"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/rmk-bright-3/dispatch/B18_RMK_BRIGHT_3_V1-fresh-preflight.json",
+        "sha256": "b122c98d5a938c4a262b7c0ce0a208d305f1a131ba7526ff1c480716ae364bf2"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/rmk-bright-3/release.json",
+        "sha256": "12c1108a5849f1794a2d878168a837a28789e4c9152a929fcc318c69fb2c60fb"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/rmk-bright-3/anchor-review.json",
+        "sha256": "d6caed7a857f154912cbb522aed3c20bd0f9905c0fbbff5fb3422c5b105deec6"
+      }
+    },
+    {
+      "call_id": "B18_RMK_BRIGHT_2_C1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/rmk-bright-2/native/rmk-bright-2-zh-Hant-c1.png",
+        "sha256": "46dc2caabab9e71a057c8af6c2f977aeb11b8c3ea594c9d2c671ffc9d9bd9928"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/rmk-bright-2/dispatch/B18_RMK_BRIGHT_2_C1-fresh-preflight.json",
+        "sha256": "0744e3b71301b7ac173e6dbe3bde40717c18f09fe7cd1e04a8dd4259fadda5f9"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/rmk-bright-2/release.json",
+        "sha256": "9d16a325fbbd544eb42c081c7430543b705e2caaa4679d4e0e97eb2a7a3992c8"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/rmk-bright-2/anchor-review.json",
+        "sha256": "c5b369a00d5d958cea9a55e49cc31966d5135142d32627475b30552106bdbdfb"
+      }
+    },
+    {
+      "call_id": "B18_RMK_BRIGHT_3_C1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/rmk-bright-3/native/rmk-bright-3-zh-Hant-c1.png",
+        "sha256": "fdefa72e871dc87f5e310dbc3ea5d42f0f3812de7d7652ae3688b001876aa358"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/rmk-bright-3/dispatch/B18_RMK_BRIGHT_3_C1-fresh-preflight.json",
+        "sha256": "e6297df80333d4fa4064185518ebfb9c32d0f2b9322a3f26608db27012118ec0"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/rmk-bright-3/release.json",
+        "sha256": "9a1c4f4cc7607f530ed9cbe089a3b6026b5d16636a5ded33ea7a53e7d7d00ddf"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/rmk-bright-3/anchor-review.json",
+        "sha256": "f345464ddaae5c4989b24470a91de75fe407fa0459b54375949dc8da46c4ed54"
+      }
+    },
+    {
+      "call_id": "B18_F2_A1_C1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/f2-a1/native/f2-a1-zh-Hant-c1.png",
+        "sha256": "fcfe476193c92617341679b8b30d5bb7858d5db8ae760acb7be98edb53da5932"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/f2-a1/dispatch/B18_F2_A1_C1-fresh-preflight.json",
+        "sha256": "67b2ffb2893cacc7f9fab45ef8ccd72d3910d5654a01297efb43a4f266cd15d5"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/f2-a1/release.json",
+        "sha256": "e7ee5ed926925128e0c9eb4b40c98364f8c28fd90e0cfc7b6cbb918bf93825ec"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/f2-a1/anchor-review.json",
+        "sha256": "a92a600b8e98072e0eb16f1adbd4b39a505be28d4a96845c9337eb8e2c2d0dd6"
+      }
+    },
+    {
+      "call_id": "B18_F2_A5_C1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/f2-a5/native/f2-a5-zh-Hant-c1.png",
+        "sha256": "28703003c09b1e2d4b66a1caf383043201c598118b2e289ec915c9c037b2929e"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/f2-a5/dispatch/B18_F2_A5_C1-fresh-preflight.json",
+        "sha256": "4fb7940f8807c5af57d1c6f5a2103564417a4cfa5868e39b323f6ee5bdafaada"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/f2-a5/release.json",
+        "sha256": "92b4c267d567a2ac9f6c34d8edfc8026fe7ae163fb1bc76d2fed5a8a2543cab5"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/f2-a5/anchor-review.json",
+        "sha256": "1612626087017c97e9506ec1d185af174c88aca65a8f8fd48f9164ebffe467aa"
+      }
+    },
+    {
+      "call_id": "B18_F2_A5_C2",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v2/f2-a5/native/f2-a5-zh-Hant-c2.png",
+        "sha256": "f10cb9163e968501f84a32fd9ff597cd80f77049400a3ba2952d1dde9751fbd7"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v2/f2-a5/dispatch/B18_F2_A5_C2-fresh-preflight.json",
+        "sha256": "aa98cd81ea4bf596e3609ab5028feb880306e93fafb911b189ce21061c9623f9"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v2/f2-a5/release.json",
+        "sha256": "ca7d98f2d67c412b7ef0afb80d3c962ed3356ef7cc1c054721c4cd4d938bdba6"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v2/f2-a5/anchor-review.json",
+        "sha256": "7ca7e4a8c37e59078a8993de5f4d33653ae3f61b18667843eb085fa3c6beb6df"
+      }
+    }
+  ],
+  "render": {
+    "desktop640": 11,
+    "feed333": 11,
+    "mobile390_visual": 0,
+    "mobile390_dom": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/mobile390-dom.json",
+      "sha256": "8c8e9c3c7785c129a2649d6721c132df4bcb7a5209f9f2cc8a9b5d100f83a501"
+    },
+    "reader_mobile_dom": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/reader-mobile390-dom.json",
+      "sha256": "c8aa533c9105cca917a0aa4f9a007fd93187a7f0f6b09fafb8a12d12d19887d7"
+    },
+    "reader_desktop_return": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/reader-return.json",
+      "sha256": "68c316ad2ca35e70bec1ff7a42eb6d7b11a63dcaa31e977f7c9bbf6e96e3fc09"
+    },
+    "reader_mobile_return": "Actual click observed to current index, counter1/11; no screenshot PASS.",
+    "dom": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-01.json",
+        "sha256": "2d10f67586198cb02cb3e9ff7549fe5af9c0b21a1d2fedfad66f73126f74f99b"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-02.json",
+        "sha256": "897662d68add52194a1141db4cb4b9ff1c01aecf731993d261256276e989a97e"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-03.json",
+        "sha256": "45e8b12206fd9a08c4d444906272d1407b6d5f1c8db9c8ad82213de3721e612f"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-04.json",
+        "sha256": "859a718c5e0f828301e2f29f8cf9360a96495d8ebbf604eb38f662c6f341422d"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-05.json",
+        "sha256": "b90e1233a9fed8f32ccd212b21e0eff11c2d098e68c8299fcc82cabf2d72a4a0"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-06.json",
+        "sha256": "c5af212aed1258169664b1e129b3c8954c20ed156e1f38940405843d6da190df"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-07.json",
+        "sha256": "f4d2c455980f13cf6c8dc9ec44b0ee0ae16a21a044832395b68bc1bd84f32080"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-08.json",
+        "sha256": "6d6b8b6bbb516047ec823aff9c37f58015871ddb83573f3112ed92cca4ba27ba"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-09.json",
+        "sha256": "03caaeb4749d1be76100b6f4df79242ba6b9ad86ee7619d349355ef6d7823ac0"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-10.json",
+        "sha256": "4890c40352ed13e041d218ffa52d24601d5090f37126b13746cb3d8483888b4d"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-11.json",
+        "sha256": "2361a1f3b713ecaceb857baf95a81681016d062f6968859ad56a7c5d49f5b2fa"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-01.json",
+        "sha256": "a7ae4c7b119273362c7d98fe2ad311a0ea7b0d63192a5212854d3230191f4a05"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-02.json",
+        "sha256": "34aacb98c8c08e7bb1cfbb16aae4deacbc2eae2a273e03e07b3315151b306375"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-03.json",
+        "sha256": "21e1d2435271c17f29a2cb04298c6583ff3dddf0d74f3285c77692e5db21ee8d"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-04.json",
+        "sha256": "d3b3e488a3ff32ae6fb5b1cb2bcc6705d5f37a66b84d5ec98e37fcb5f1a43721"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-05.json",
+        "sha256": "1e3c3546bdbeb8f44cb2fd7f5e01c782623f01a4afa6883312de4d5b47e56a3c"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-06.json",
+        "sha256": "8bb907b6e44e4594cdf33d049d1039cdea0be9aa210049882242260047117c24"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-07.json",
+        "sha256": "cb737ff3822e2ffc3502d2d6d821aa21d7765cdaaa584c62bb134e9814d9651c"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-08.json",
+        "sha256": "4ca4a78304b131ece12e584fa464bcdba866afcdd36f19724c44fc655b92700e"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-09.json",
+        "sha256": "f2abc3f8e92bd873173a566ade5a86f7e95c74afcdf634dbc14e62ca8a089539"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-10.json",
+        "sha256": "ef2174cfb397fdd729aa57cf17b02905754cb783f5d907982d1f48ae007c7f8c"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-11.json",
+        "sha256": "32e62856c5fefe75c2deddb0d0b1f71b21802da605364f52460a080759e15615"
+      }
+    ],
+    "screenshots": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-01-top.png",
+        "sha256": "59b02558267387bb160f824507f523871d66f432530929f1b75bc1364051a9fc",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-01-bottom.png",
+        "sha256": "68ec715abe4e59e6f763d2fd26af81d0df74df30c7e471a32f7588262a41412b",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-02-top.png",
+        "sha256": "d3349a570f398d22dce916a22d71d0846a3c21a0628d2271cef9385508f656ab",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-02-bottom.png",
+        "sha256": "e77b3d30612754f3f5c4f206d9478ed0c47b9099312767738304247fb2e81b4d",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-03-top.png",
+        "sha256": "c0719fed22f322d172eb3556b4bcda2d5a3d815ecd3bea30fa17f680cf4317be",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-03-bottom.png",
+        "sha256": "a16bf41a36bb5872c19f79877a760cca82933038b055b1970d1038cf714fa527",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-04-top.png",
+        "sha256": "7c6c1e970de5e863412d7e442f29a1d1c5ab3c98b3adba6991b891fcd7365697",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-04-bottom.png",
+        "sha256": "8431d11e514a577e43e9b29c32a189be906594323900b5285a5a7e5db9825c90",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-05-top.png",
+        "sha256": "13f611f91cdfaa6a34d34d246cb153d888242f02337eea29dece61655235e9c7",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-05-bottom.png",
+        "sha256": "8144226a25f1a180380e299dffd72469a6de73a23b19f96257b7c1332513de63",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-06-top.png",
+        "sha256": "1b0244cb04cf5bf122afc6ae8ddf24b1664befdce520b18c4ab5ae499057dd01",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-06-bottom.png",
+        "sha256": "65e6669978839ce303dc54c07c92bf424bce24ac61263315f0df22b04a9a4471",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-07-top.png",
+        "sha256": "0be8bc336a470fd3578b1c6f8289cbcded2cba4631a96b3c510385611c3e93a9",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-07-bottom.png",
+        "sha256": "7636191ddddb2fa386697bf4b9b6f94aa83b7ddf7b78b7857297036e8cf205d6",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-08-top.png",
+        "sha256": "66be7c804c20f45fbe47efb93163a75e5e1407d6708d0e6f9b859be165c9ea1c",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-08-bottom.png",
+        "sha256": "0f686fd6575b1bdac0273ae7f4a326894c2dd48771b1dc7cade189f13c9b4ad4",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-09-top.png",
+        "sha256": "ae053e4daeb5c3d03dcee78d93000cbe52d3ff375fe9560ca8c9e145835a3d16",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-09-bottom.png",
+        "sha256": "932c9a5c16cd0d35de9ecd3f449c2995cea6afd4e8df89ff4552e947306b7eba",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-10-top.png",
+        "sha256": "0afaca7f5ac8981dac2c341a3a989f54d88d3cf45273f81c8fde1cbf91a9ddc6",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-10-bottom.png",
+        "sha256": "ea79c5a97c5fe52068e7df906191d2fb5bdf145d9087c915e553be776073d3d8",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-11-top.png",
+        "sha256": "637a1d24a482e340512b0e4cf93d0b8567a78b3bc32f6362fef2bba2fc9e0bca",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/desktop640-11-bottom.png",
+        "sha256": "58dce6092d0b696ba7cd100e6ebfeecfd7b5f39dec5bcc608d2bc56b5c8a6b12",
+        "bitmap_size": [
+          1690,
+          871
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-01-top.png",
+        "sha256": "6016bb3f7ed18596cdeb83484a61e196325b110aa5e88a8be16f2cf7decd7dc3",
+        "bitmap_size": [
+          1706,
+          879
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-02-top.png",
+        "sha256": "f334c5927997bae4f438627e39e69dc1ba3852e4d01bcf2cf27218cda74d4a08",
+        "bitmap_size": [
+          1706,
+          879
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-03-top.png",
+        "sha256": "3510b7a96ff5b2efab9cbbe91320ad3b1998bbb0853b7d1ad4109f7c72e408d6",
+        "bitmap_size": [
+          1706,
+          879
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-04-top.png",
+        "sha256": "390faba6336b8bf37e7e2c4a629ee502340a18eae4cb8f82beb35f56b54ef860",
+        "bitmap_size": [
+          1706,
+          879
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-05-top.png",
+        "sha256": "2f682e9e60a902c9dba5ae20d69f51cb2b8420a40194bd9be71079cb3e9fb9c0",
+        "bitmap_size": [
+          1706,
+          879
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-06-top.png",
+        "sha256": "187e9c7c144f933c69bd3113449b8fa93dd32c63cdbb4b4e578fa17951b2c42a",
+        "bitmap_size": [
+          1706,
+          879
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-07-top.png",
+        "sha256": "1209f5b8bb2b75082f852449eaa53256dda5420774b1588aac3948fff0c730b6",
+        "bitmap_size": [
+          1706,
+          879
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-08-top.png",
+        "sha256": "8274fa53e0b4a0e49f6d7860485365ccddd4eb3bbc667da29c2097eb0db53f4f",
+        "bitmap_size": [
+          1706,
+          879
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-09-top.png",
+        "sha256": "fc3d22d7db2b7800c547c40386e43c0a30c6740834c609588c11a7b88d098619",
+        "bitmap_size": [
+          1706,
+          879
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-10-top.png",
+        "sha256": "aa9474e3314ca072a0bb20660ca6e0b111d59e36a2571e04b3931f80a7822564",
+        "bitmap_size": [
+          1706,
+          879
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-11-top.png",
+        "sha256": "904828e88caaa5b6e59cc55822fbe6375879aa17f02167661294c5a86a7d51ce",
+        "bitmap_size": [
+          1706,
+          879
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/reader-desktop-top.png",
+        "sha256": "9147e776cbf1e67f60570ca3bbc84337dbce1025f5d90ba480a1f72bd4506d76",
+        "bitmap_size": [
+          1706,
+          879
+        ]
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/reader-desktop-bottom.png",
+        "sha256": "32fa04d38b4fa91a1849135af1d6e443cfb6baa10727d46749e58b484240a74f",
+        "bitmap_size": [
+          1706,
+          879
+        ]
+      }
+    ],
+    "precision": "Per-capture DOM records actual browser viewport; observed art640/333; bitmap and CSS sizes differ under zoom. Mobile actualCSS390x800; no physical-device/raster mapping certification. Failed/stale probe images excluded from accepted coverage."
+  },
+  "findings": [
+    {
+      "id": "B18-FEED-A1",
+      "card_id": "F2-A1",
+      "status": "CLOSED_NATIVE_DESKTOP_FEED",
+      "observation": "PO-authorized C1 retains exact body in two large lines; native, desktop640 and feed333 actually inspected.",
+      "evidence": [
+        {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-02-top.png",
+          "sha256": "f334c5927997bae4f438627e39e69dc1ba3852e4d01bcf2cf27218cda74d4a08"
+        }
+      ],
+      "decision": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/feed-repair-decision.md",
+        "sha256": "1c452b28f70366697e5b719eb6eadcf0722f7c06f1652b721d7765fd82af1834"
+      }
+    },
+    {
+      "id": "B18-FEED-A5",
+      "card_id": "F2-A5",
+      "status": "CLOSED_NATIVE_DESKTOP_FEED",
+      "observation": "C1 enlarged body but regressed source hierarchy and remains failed history. PO-authorized C2 retains exact two-line body, enlarges complete Taiwan source above body size, reduces illustration; native, desktop640 and feed333 actually inspected.",
+      "evidence": [
+        {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/render-current/feed333-06-top.png",
+          "sha256": "187e9c7c144f933c69bd3113449b8fa93dd32c63cdbb4b4e578fa17951b2c42a"
+        }
+      ],
+      "decision": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/a5-source-regression-decision.md",
+        "sha256": "36f141b8192eb48ba0cf5557af6f817302dfed2cc2aec578926bbc36d3343ae0"
+      }
+    },
+    {
+      "id": "B18-MOBILE-VISUAL",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "observation": "Browser CSS390/800 layout, native image loads and localized reader/return clicked. Page.captureScreenshot times out after responsive reflow, including bounded final probe; alternate fromSurface:false is explicitly refused by the browser. No valid mobile visual acceptance; DOM does not replace screenshot inspection."
+    }
+  ],
+  "source_reuse_exclusions": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/source-reuse-exclusions.json",
+    "sha256": "d1bedf5f2d3cedb3446144b9f6b77f2068b987d947eae2ec2c53028e5281142e"
+  },
+  "proof_source_mapping": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/proof-source-mapping.json",
+    "sha256": "6cd930b39b6da9c831fe4fd0f59767d3c928260219b9a0b8cd26847946d7ac96"
+  },
+  "vietnam_team_scope": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/vietnam-team-source.json",
+    "sha256": "0e85463a057135d51c232e52ae4ec35f7b6aededf3a18ef84cf9719d904d93fd"
+  },
+  "frozen_pins_unchanged": 24,
+  "png_transformations": 0,
+  "ready": false,
+  "adoption": "Working files only on owned source branch; no new commit/main integration/push/live. B20/B21 not run.",
+  "repair_closure": [
+    {
+      "card_id": "RMK-BRIGHT-2",
+      "scope": "CLOSED_NATIVE_DESKTOP_FEED",
+      "mobile": "INSUFFICIENT_EVIDENCE",
+      "observation": "Current corrective enlarged full publisher/legal-name source; selected native/desktop/feed actually inspected. Original small-source finding preserved in attempt ledger."
+    },
+    {
+      "card_id": "RMK-BRIGHT-3",
+      "scope": "CLOSED_NATIVE_DESKTOP_FEED",
+      "mobile": "INSUFFICIENT_EVIDENCE",
+      "observation": "Current corrective enlarged full publisher/legal-name source; selected native/desktop/feed actually inspected. Original small-source finding preserved in attempt ledger."
+    }
+  ]
+}
