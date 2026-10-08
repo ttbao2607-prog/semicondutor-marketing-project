@@ -53,7 +53,7 @@ for f in (PACK/'06_Google/Anh').glob('*.png'):
 questions=[]
 for suf in ['', '.zh-Hant']:
  rel='deliverables/manager-package-v2/2026-10-07/01_De_xuat/de_xuat'+suf+'.html'
- old=subprocess.check_output(['git','show','HEAD:'+rel],cwd=ROOT).decode('utf-8-sig');cur=(ROOT/rel).read_text(encoding='utf-8-sig')
+ old=subprocess.check_output(['git','show','ff95e9f86cc5f9ce99e14dcf70988ae49bd3391d:'+rel],cwd=ROOT).decode('utf-8-sig');cur=(ROOT/rel).read_text(encoding='utf-8-sig')
  pat=r'<h2[^>]*id="ba-diem".*?</article>'
  a=re.search(pat,old,re.S);b=re.search(pat,cur,re.S)
  assert a and b,rel

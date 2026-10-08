@@ -1,3 +1,5 @@
+> **PO approved / integrated local main · 08/10/2026:** Bảo: “ổn r codex, merge main nhé.” Artifact checkpoint `78bc183f` đã nhập main bằng fast-forward và đối chiếu đủ246file. Chưa push. [Approval](po-approval.json) · [Merge verification](main-integration-review.json). Giới hạn technical/narrow screenshot giữ nguyên. Phần candidate bên dưới là snapshot trước duyệt.
+
 # Google Search extension · 08/10/2026
 
 Local candidate on `slice/linkedin-package-v2-google-2026-10-08`, based on main `ff95e9f8`. Not committed, merged or pushed in this work unit. Main/previous approved ZIP unchanged.
