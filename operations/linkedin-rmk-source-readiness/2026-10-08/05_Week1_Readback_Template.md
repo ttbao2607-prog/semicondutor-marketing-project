@@ -9,7 +9,7 @@ Use **two row levels** in the same sheet (`row_level`):
 - `cohort`: one row per source cohort and check. Holds the RMK pool fields (rule, lookback, status, displayed members, filtered reachable, eligible) and cohort totals.
 - `ad`: one row per ad (`ad_id` and `creative_id`, with `treatment`, `locale`, `stage`) and check. Holds reach, impressions, frequency, CTR, engagement, spend and reader sessions for that ad only. A cohort total cannot say which creative caused a result, so decisions about replacing a creative are read from `ad` rows.
 
-Every row carries `report_period_start`, `report_period_end` and `value_basis` (`daily` or `cumulative`). Never add a daily row to a cumulative one and never compare rows with different bases or periods. `stage` is `cold` or `rmk`, and `source_cohort_id` always names the cold cohort an RMK row came from.
+Every row carries `report_period_start`, `report_period_end` and `value_basis` (`daily` or `cumulative`). Never add a daily row to a cumulative one, and never add cumulative rows together (that counts the same impressions twice). To compare, use rows with the same `value_basis` and periods of equal length (day vs day, week vs week, or cumulative to the same cut-off). Judge a change by comparing equal-length windows before and after it; a different-length window is read only as context, not as a before/after result. `stage` is `cold` or `rmk`, and `source_cohort_id` always names the cold cohort an RMK row came from.
 
 ## What to record per check
 | Group | Fields | Why |

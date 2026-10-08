@@ -14,6 +14,7 @@ Route fixed by earlier PO decisions (not reopened here): **Cold Brand awareness 
 | 4 | [04_Reader_Entry_Mapping_Draft.md](04_Reader_Entry_Mapping_Draft.md) + [csv](04_Reader_Entry_Mapping_Draft.csv) | 33 reader routes: language entry, proposed UTM pattern, open hosting/return questions |
 | 5 | [05_Week1_Readback_Template.md](05_Week1_Readback_Template.md) + [csv](05_Week1_Readback_Template.csv) | What to record at day 3, day 7 and weekly; no zero-filling |
 | 6 | [06_Operational_Mandate_Checklist.md](06_Operational_Mandate_Checklist.md) | What needs Bảo's operational mandate before any live step |
+| 7 | [07_RMK_Delivery_Mapping_Template.md](07_RMK_Delivery_Mapping_Template.md) + [csv](07_RMK_Delivery_Mapping_Template.csv) | RMK ads and audiences, linked to a cold registry row by `source_id`; header only |
 
 Boundaries: everything below is a proposal until Bảo decides; "UNKNOWN" means no direct evidence in the repository. The package already sent to leadership is a snapshot and is not changed by this pack. The matched-audience work belongs to another agent; it is already merged on main (f53e7d96) and this pack does not touch it.
 
