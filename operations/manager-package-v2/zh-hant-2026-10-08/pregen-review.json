@@ -1,0 +1,116 @@
+{
+  "stage": "PREGEN_SCRIPT",
+  "revision": "package-presentation-zh-Hant-r1",
+  "date": "2026-10-08",
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "anchor": {
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+  },
+  "email": {
+    "id": "VY-MAIL-USER-20261006",
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "copy_deck_sha256": "cb3fa389f7c580e1f6c1fd2cafa2d3a0915699bfafa4bd136b7680be78b03652",
+  "source_checkpoint": "686f55f733dcb510735a137315973bfebdc94b9b",
+  "scope": "Internal manager presentation, cross-segment VN_DOMESTIC and FDI; interface vi/zh-Hant. Presentation language is not audience targeting. Ad PNGs/journeys/case destinations are protected originals, labeled 原文 in Chinese links.",
+  "persona": "Paid owner explains investment hypothesis to a peer colleague for management consolidation; sample VN factory/quality readiness and FDI OSAT Quality/Operations remain distinct.",
+  "surfaces": [
+    {
+      "path": "BAT_DAU.html",
+      "observations": [
+        "我建議先鎖定合適的企業與負責人",
+        "本土企業: 管理能力、文件與數據準備",
+        "外資企業: 時間、協作、責任分工與風險控管",
+        "1,170 / 560 / 610 萬越南盾",
+        "與這批新廣告互動的受眾達到投放條件"
+      ],
+      "disposition": "A1/A3/A4/A5/A7 aligned; summary does not add A2 fit or A6 capability claims"
+    },
+    {
+      "path": "01_De_xuat/de_xuat.html",
+      "observations": [
+        "PCB、載板、零組件、封裝材料，以及設備精密加工",
+        "主要424筆 / 備用52專頁",
+        "11,700,000 越南盾（未稅）",
+        "我負責管理及協調後台金額；稅務與付款由會計依公司流程處理",
+        "three investment questions only"
+      ],
+      "disposition": "A1-A7 aligned in internal proposal; source uncertainty/time-bounded status retained, no new permission chain"
+    },
+    {
+      "path": "01_De_xuat/logic_quang_cao.html",
+      "observations": [
+        "系統決策權所在",
+        "203研究→52專頁",
+        "語言依實際讀者 / 本土外資身分與工作角色分別核對",
+        "ERP 作為建立管理能力的橋梁",
+        "供應商評估則依各客戶的具體要求",
+        "DigiHua iMES + TOP GP / China Aplus",
+        "江苏中科智芯集成科技有限公司 / China Digiwin ERP + iMES",
+        "MES串連追溯數據並記錄異常",
+        "品牌聯想另行衡量 / 經確認潛客為補充"
+      ],
+      "disposition": "All A1-A7 inspected. FDI business value implicit, no numeric ROI. ERP is not substituted for MES. Legal customer name retained exactly; China cases not generalized to Vietnam. 图/说明/案例→original destinations maintain context."
+    },
+    {
+      "path": "01_De_xuat/mail_gui_Vy.html",
+      "observations": [
+        "你好",
+        "我把…整理給你參考",
+        "麻煩你…同意…或建議",
+        "第一週執行→檢視→第二週",
+        "same cap/allocation and three questions"
+      ],
+      "disposition": "A1/A3/A4/A5/A7 aligned; no Bảo–Vy narration/signature in Chinese; no new technical/capability claims"
+    },
+    {
+      "path": "02_Demo/index.html",
+      "observations": [
+        "越南文: 管理能力準備",
+        "外資: 品質數據核對",
+        "原文廣告素材"
+      ],
+      "disposition": "A3/A4/A5/A7 preserved at wrapper level; artwork/proof not reapproved"
+    },
+    {
+      "path": "03_Thu_vien/index.html",
+      "observations": [
+        "越南文第一週/第二週",
+        "外資OSAT主題",
+        "素材保留原文",
+        "品質/營運/財務協作 roles distinguished"
+      ],
+      "disposition": "A3/A7 preserved. Filters classify source artwork language, do not change persona or destination acceptance. No new A1/A2/A6 claims."
+    },
+    {
+      "path": "05_Evidence/evidence.html",
+      "observations": [
+        "424 source vs 52 backup distinct",
+        "Updating 80% earlier value",
+        "Ready >90% but details0",
+        "English 460 vs Vietnamese <300 dated07Oct",
+        "Planner dashes ≠ zero demand",
+        "截圖保留原始介面語言"
+      ],
+      "disposition": "A2/A3 source classification retained, no live eligibility inference. A4/A5/A6 not new ad messaging in dated screenshot captions; A7 source context/link continuity."
+    }
+  ],
+  "proof_scope": "Original marketing/source facts unchanged. 200+ alt is explanatory rendering of existing approved artwork, not new claim adoption. China case entities/solutions/geography preserved. No new proof rights, ROI metrics or universal results.",
+  "brand_role": "Digiwin advertiser identity unchanged. Manager 我/你 voice is internal correspondence, not a new customer-ad voice policy.",
+  "transitions": [
+    "VI↔zh-Hant same presentation surface",
+    "home→proposal→logic→demo/library",
+    "logic→original VN/FDI sample→browser return",
+    "home→private dated evidence→matching locale homepage"
+  ],
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "content_status": "SCRIPT_REVIEW_PASS",
+  "postgen": "POSTGEN_NOT_RUN",
+  "authorization": "Local package presentation only; no artwork generation/freeze/live/push."
+}
