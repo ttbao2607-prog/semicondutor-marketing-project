@@ -1,0 +1,13 @@
+{
+  "goal": "Local main contains only approved B16 English F2 v2 finals and bounded review evidence, with synchronized current canonical status.",
+  "authority": "Bao: approve and merge artifacts on this branch into main; select only artifacts meeting standards.",
+  "owner": "/root; no delegation",
+  "scope": "11 selected PNGs, viewer/reader/copy/prompts/manifest, current review and captures, provenance and bounded canonical docs. Preserve source branch and frozen core; no push/live.",
+  "measurement": [
+    "Every imported byte matches source checkpoint d622287",
+    "11 PNGs and exact current receipt bindings verified",
+    "B13-B15 and B17 excluded",
+    "Only allowlisted files changed; main clean after fast-forward"
+  ],
+  "audit_target": "Independently inspect staged Git blobs and final main tree against immutable source; integration audit is self-inspection, not independent creative certification."
+}

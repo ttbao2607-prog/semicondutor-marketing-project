@@ -1,0 +1,13 @@
+{
+  "revision": "b16-f2-a5-c3-po-repair-review",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "anchor_verdict": "MESSAGE_ANCHOR_PASS",
+  "card_id": "F2-A5",
+  "original_sha256": "1272471f452cc974af776f02476d3db1e17df3c757bf8e4f5f96bb5ae5f779d8",
+  "po_authorization": "Chạy sửa để hậu kiểm cho B16 pass đi codex",
+  "finding": "SOURCE_SMALLER_THAN_BODY_C2",
+  "observation": "Actual C2 retained roughly36px source versus43px body and tall scene. New PO mandate authorizes required B16 repair beyond old corrective cap. Same exact anchor/copy/persona/source; restructure source typography and reduce scene, no meaning change.",
+  "edit_instructions": "LAYOUT REBUILD OF THIS SAME CARD. Reference is identity/material guidance only, NOT a position or font-size lock. Keep all approved wording exactly. Use a MUCH SMALLER photographic scene, a shallow band only 160 pixels tall, between body and source. Put the source in the middle-lower HALF of card, starting around y650. Source text must be 55px navy type, visibly larger than 40px body. Wrap exact source into FIVE lines: Digiwin Taiwan semiconductor / solution context: / ERP business management and / MES (manufacturing execution system) / production context. Full width pure white background, no box or icons or divider. Do not keep previous three-line small source footer. Headline may be slightly reduced to make space. Source must dominate lower half. CTA bottom: Discuss outsourced-production planning, no arrow. Official logo once, ERP · CHIP OPERATIONS and5/6 exact. Blank paper, solid unlabelled diagram nodes, neutral chip scene, no data or new words."
+}

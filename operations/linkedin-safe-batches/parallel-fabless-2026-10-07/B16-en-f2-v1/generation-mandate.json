@@ -1,0 +1,10 @@
+{
+  "revision": "b16-f2-mandate-v1",
+  "instruction": "commit đi codex, r chạy 2 batch kế.",
+  "scope": "B16 F2 English and B17 F2 Simplified Chinese; same anchor/persona/Vietnam nuance.11selected positions with reviewed same-locale reuse, not11new calls.",
+  "original_cap": 10,
+  "corrective_cap": 2,
+  "per_card_corrective_cap": 1,
+  "stop": "Stop before B18; new Git mutation after B14/B15 checkpoint not included.",
+  "trust": "SELF_REVIEW; no inherited PASS or native-market certification"
+}

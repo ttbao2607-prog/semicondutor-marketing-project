@@ -1,0 +1,21 @@
+{
+  "execution": "SUCCESS",
+  "integration_audit": "AUDIT_PASS",
+  "independence": "ROOT_SELF_INSPECTION; not independent creative certification",
+  "sha256_checks": 130,
+  "imported_files": 64,
+  "selected_pngs": 11,
+  "source_only_pinned_references": [
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/postgen-review.json"
+  ],
+  "artifact_verdict": "PASS_SELF_REVIEW unchanged",
+  "anchor_main_binding": "Exact current SHA match to review revision 1.0",
+  "excluded_batches": [
+    "B13",
+    "B14",
+    "B15",
+    "B17"
+  ],
+  "scope": "Git byte integrity, exact receipt/provenance and viewer link completeness. Semantic/visual result relies on byte-identical source actual SELF_REVIEW.",
+  "push": false
+}
