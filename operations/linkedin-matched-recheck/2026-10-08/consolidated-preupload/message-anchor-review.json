@@ -1,0 +1,90 @@
+{
+  "stage": "INTERNAL_CONTENT_REVIEW",
+  "date": "2026-10-08",
+  "writer": "discovery_unmatched integration leaf",
+  "reviewer": "same writer",
+  "independence": "SELF_REVIEW; parent artifact audit separate",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+  },
+  "email": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "id": "VY-MAIL-USER-20261006",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "artifact_bindings": [
+    {
+      "file": "README.md",
+      "sha256": "6e8160e30bb82f8e1a2f9741c950df12e471c88510a88dc7f064544e6735e23d"
+    },
+    {
+      "file": "execution-record.json",
+      "sha256": "366798d871d06b8021401020467a2074ac35170ee58b9454cc4fd5335c14ca19"
+    },
+    {
+      "file": "hash-pins.json",
+      "sha256": "944307e242c2c9256b151dd24bba8416b38d5ac85420b063bba17bf07779230b"
+    },
+    {
+      "file": "PRIVATE_FINAL/DECISION_PACK.md",
+      "sha256": "0ff1ffc743c5b24076c080375949438bc3f991f3915081303617ecf58a099f8c",
+      "public_copy": false
+    }
+  ],
+  "scope": "Internal identity/mapping/decision report only; mixed source list, branch/persona/locale UNASSIGNED. No ad/script/artwork/customer journey created.",
+  "surfaces": [
+    {
+      "unit": "README counts and version/coverage explanation",
+      "observation": "Different evidence units kept separate; unknown backend reasons preserved; no demand or fit inference."
+    },
+    {
+      "unit": "README decision/identity boundaries",
+      "exact_text": "Identity evidence is separate from supply-chain ICP, FDI/domestic classification, persona/locale and local ERP purchasing authority.",
+      "observation": "Separates A1-A3 suitability and authority from identifier correctness; no group exclusion."
+    },
+    {
+      "unit": "execution record and hash pins",
+      "observation": "Preparation scope and upload HOLD explicit; hashes are provenance, not semantic or audience PASS."
+    },
+    {
+      "unit": "Private Vietnamese DECISION_PACK.md",
+      "observation": "All18 wrong outputs retained,3replacement proposals and15missing distinguished; exact local company identity evidence specified; ICP/FDI/purchasing authority unknown, no upload or match guarantee."
+    }
+  ],
+  "A1": {
+    "disposition": "MATCH_IN_INTERNAL_CLASSIFICATION_SCOPE",
+    "observation": "Report explicitly separates supply-chain ICP from identity; company activities used for entity disambiguation only."
+  },
+  "A2": {
+    "disposition": "MATCH_IN_INTERNAL_CLASSIFICATION_SCOPE",
+    "observation": "ERP purchasing authority remains unknown; no blanket exclusion of groups."
+  },
+  "A3": {
+    "disposition": "MATCH_IN_INTERNAL_CLASSIFICATION_SCOPE",
+    "observation": "No FDI/domestic/persona/locale inference from names, language or group."
+  },
+  "A4": {
+    "disposition": "N/A",
+    "reason": "No FDI creative/business-value/ROI statement authored."
+  },
+  "A5": {
+    "disposition": "N/A",
+    "reason": "No VN readiness/ERP bridge creative authored."
+  },
+  "A6": {
+    "disposition": "N/A",
+    "reason": "No Digiwin product capability or technical-depth claim authored."
+  },
+  "A7": {
+    "disposition": "N/A",
+    "reason": "No hook/proof/CTA/destination or creative journey; whole customer journey NOT_RUN."
+  },
+  "PREGEN_SCRIPT": "N/A: no script or generation",
+  "POSTGEN_ARTIFACT": "N/A artwork/render; actual internal report text inspected",
+  "MSG-ANCHOR-01": "MESSAGE_ANCHOR_PASS_INTERNAL_REPORT_CLASSIFICATION_ONLY",
+  "content_acceptance": "No creative/script/generation/live/audience-ready handoff implied; audience CHANGES_REQUIRED remains.",
+  "handoff_correction": "Timeless audit attribution and private Vietnamese decision-pack summary; unchanged CSV, adjudication ledgers and evidence. Private decision content has no new marketing claims or persona/locale inference."
+}

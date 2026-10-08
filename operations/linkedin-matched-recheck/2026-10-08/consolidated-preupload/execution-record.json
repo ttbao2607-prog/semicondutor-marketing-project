@@ -1,0 +1,52 @@
+{
+  "record_date": "2026-10-08",
+  "execution_status": "SUCCESS_PREUPLOAD_PREPARATION",
+  "recovery": "PARTIAL",
+  "audience_quality": "CHANGES_REQUIRED",
+  "upload": "HOLD / NOT_PERFORMED",
+  "original_plan": "../PLAN_SINGLE_UPLOAD_2026-10-08.md",
+  "original_plan_sha256": "77af68acf3a44dbc925cbd14b1df5a65167c98b1ac32e5877d2b4e9d2c6907fb",
+  "plan_status_boundary": "Original PLAN_PROPOSED/no-execution text is retained as dated history; this separate record supersedes only current stepsA-D preparation state under fresh PO mandate. No upload stepE execution or operational release.",
+  "authorization": "PO authorized exactly2 native leaf children and consolidated steps1-4; parent independently runtime-gated current turns. Sequential integration leaf is sole final-output writer; parent owns AUDIT.json.",
+  "requested_runtime": "gpt-6.1-sol/medium scope override",
+  "effective_runtime_evidence": "Parent-owned skill admission/acceptance records; not inferred from writer identity or prompt.",
+  "reviewer_roles": {
+    "writer": "discovery_unmatched leaf",
+    "audit": "parent coordinator; AUDIT_MODE SELF",
+    "audit_status": "PENDING_AT_WRITER_HANDOFF"
+  },
+  "counts": {
+    "source_rows": 424,
+    "captured_matched_entries": 150,
+    "mapping_entry_verdicts": {
+      "INSUFFICIENT_EVIDENCE": 121,
+      "WRONG_ENTITY_WITH_EVIDENCE": 18,
+      "CORRECT_ENTITY_WITH_EVIDENCE": 11
+    },
+    "captured_unmatched_entries": 93,
+    "identifier_cells_changed": 12
+  },
+  "quality_limits": [
+    "Source-row verdict totals are424; mapping-entry verdict totals are150. They are different units and must not be added.",
+    "93 capture entries are not93 distinct companies. 28 older/different projections all dated30Sep and11 identical-current projections both matched/unmatched remain backend/version/coverage unresolved.",
+    "210 source rows not observed in capture are not declared unmatched, dropped or absent from server.",
+    "Accepted local CSV submission/filename history is supported; server bytes were not downloaded and backend aggregation cause is unresolved.",
+    "A correct company/Page mapping does not establish supply-chain ICP, FDI/domestic classification, persona/locale, ERP purchase authority or delivery eligibility.",
+    "No new live readback, upload, account settings, campaign, budget, spend or Git mutation in this preparation.",
+    "All supported identifiers remain proposals until consolidated decision and exact-file authorization; no guaranteed match rate."
+  ],
+  "protected_scopes": "Core/locale adapter/budget/R5/Master203/creative/landing/tracking unchanged.",
+  "git": "LOCAL_WORKING_FILES_ONLY; not staged/committed/merged/pushed",
+  "docs_impact": {
+    "reviewed_updated": [
+      "CURRENT_STATE.md",
+      "DOCS_IMPACT_MAP.md",
+      "README.md",
+      "ads/linkedin/LinkedIn_Build_Pack.md",
+      "drafts/S03_LinkedIn_Audience_Research.md",
+      "operations/LinkedIn_Current_Progress_2026-10-07.md",
+      "operations/Pre_Ad_Readiness_Plan.md"
+    ],
+    "method": "Add current scoped notice with dated body preserved; original plan and all earlier receipts unchanged."
+  }
+}

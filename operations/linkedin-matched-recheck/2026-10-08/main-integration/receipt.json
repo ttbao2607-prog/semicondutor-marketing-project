@@ -1,0 +1,251 @@
+{
+  "recorded_at": "2026-10-08T09:25:28.956523+00:00",
+  "source_branch": "slice/linkedin-matched-recheck-2026-10-08",
+  "source_head": "d478d12cef6318844529a64f634aedb342b39d3a",
+  "target_main_before": "ef183ffb706b5e9387c4dedd353c1a160ed71836",
+  "common_base": "3cb1b3f7e697ab4df645957ee47edce75f19f10e",
+  "integration_branch": "slice/linkedin-matched-main-2026-10-08",
+  "contract": {
+    "goal": "Main local contains all four source commits and29 exact sanitized records;seven current documents reconcile Discovery409/R5 without losing newer main content.",
+    "authority": "Bao requests merge main tasks/history/docs of just-completed branch.",
+    "protected": "Existing main documents/content, source evidence bytes, private company/account data; no remote push or new live action.",
+    "checks": "Git ancestry, exact29 Git blob hashes, unchanged prior main document suffixes, intended-only diff, JSON/link/privacy/diff checks.",
+    "audit_mode": "SELF; parent inspects actual result, no independent child certification."
+  },
+  "source_commits": [
+    "c5c38c93f1400f076a369c2b7c75920ac2d3b80a",
+    "db8b0ddd6c2f2556cc17dfb38ebf0eb7893d122e",
+    "811c34ad29dbcc98c693260bd2c0ea9c18c6e4db",
+    "d478d12cef6318844529a64f634aedb342b39d3a"
+  ],
+  "source_evidence": [
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/CHECKPOINT.md",
+      "git_blob_sha256": "a9306c0cf681d8d76dcb00baa48cee23b7abd29819c81878c6a0d314b9cb4642",
+      "bytes": 1994
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/CONSOLIDATED_CHECKPOINT.md",
+      "git_blob_sha256": "8e991973a93f2c4e226669251b9caf7e612eeac02fcd39d29a81cf85922b6bcf",
+      "bytes": 2014
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/PLAN_SINGLE_UPLOAD_2026-10-08.md",
+      "git_blob_sha256": "77af68acf3a44dbc925cbd14b1df5a65167c98b1ac32e5877d2b4e9d2c6907fb",
+      "bytes": 13611
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/README.md",
+      "git_blob_sha256": "15275b70ad21568da2ac165edee6f13a7734554b5de5a7e1f0e0055451a44864",
+      "bytes": 5336
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/UPLOAD_AUTHORIZATION_CHECKPOINT.json",
+      "git_blob_sha256": "ef4057137743c0f0422a14ce6045b67b211c9c5e23ee70173dee396766558085",
+      "bytes": 2320
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/approved-quarantine409/AUDIT.json",
+      "git_blob_sha256": "1c813f8076015055098c3b0d7aa5b472ec73341db2129b83258b886b444d2efe",
+      "bytes": 5894
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/approved-quarantine409/README.md",
+      "git_blob_sha256": "c5a5c1cbfea5520b8b7b7d4d1fd8a55db215133b603646aaa806cdbfb08bc9af",
+      "bytes": 1984
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/approved-quarantine409/hash-pins.json",
+      "git_blob_sha256": "758ab7371bd8617a46440220880de3f66a60f82ee5212759320bc581d22341b1",
+      "bytes": 2563
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/approved-quarantine409/message-anchor-review.json",
+      "git_blob_sha256": "6b9691c7fcb253ea50f07af2823fde51e05766a78c44637637ddb57a57855d81",
+      "bytes": 2055
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/approved-quarantine409/scope-decision.json",
+      "git_blob_sha256": "ab380a54a1a164c7b3df010525ee27809ddfba0105535a9903411e8273de607b",
+      "bytes": 1675
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/consolidated-checkpoint-review.json",
+      "git_blob_sha256": "921d301af215c8067ac6ef6460cdbd37e426a10edebb3983c6ca59a9564eca37",
+      "bytes": 6183
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/consolidated-preupload/AUDIT.json",
+      "git_blob_sha256": "ceb31708a91e278c7534648f958a6865fd24659117ff4ce114c7a8d7418257c6",
+      "bytes": 7720
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/consolidated-preupload/README.md",
+      "git_blob_sha256": "e2f0415dc8be63dcb42f0e95226b5b5678ccf11a155a32b85b31ac61c7d3a8a7",
+      "bytes": 4573
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/consolidated-preupload/execution-record.json",
+      "git_blob_sha256": "a73ab61d258499c5b46f9d143db0f2ae15686a211f864d6c372c75fc1eda1afe",
+      "bytes": 3131
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/consolidated-preupload/hash-pins.json",
+      "git_blob_sha256": "0e6d1ba1129c3522a8f9cbb14a4e40e6a233c27e2255b828e1ea36e467215ff4",
+      "bytes": 2724
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/consolidated-preupload/message-anchor-review.json",
+      "git_blob_sha256": "dd31e9fe2e7bd4c9427da620ffc75a32d3011e0697a5b01ed502e1fbf971d103",
+      "bytes": 4010
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/discovery-recovery/README.md",
+      "git_blob_sha256": "50fce4b8ba9f77ff75278280f394475b292897672db8a6bfdc80a086de45c680",
+      "bytes": 4899
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/discovery-recovery/anchor-review.md",
+      "git_blob_sha256": "0db5bcedf53422db1bfe848f4d6ab5cc25be444cb3976e8aca766d1f74b8a57d",
+      "bytes": 3220
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/discovery-recovery/contract.md",
+      "git_blob_sha256": "6f323c0c5fb9b3271abcd2da25123efdb888811314e3cf31a5beb7aba13c95ee",
+      "bytes": 2066
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/discovery-recovery/evidence.json",
+      "git_blob_sha256": "35c2c97e9d65eee2d84bcb713d25154c6c11a8693923f14fe3da6680a62aa7f9",
+      "bytes": 6358
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/discovery-recovery/self-review.json",
+      "git_blob_sha256": "7109a97cbd6ef571e4f1682ff0e14a469dcfcb23fcb5dd959c1418b81ea5db16",
+      "bytes": 1065
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/r5-reupload-self-review.json",
+      "git_blob_sha256": "6352aed5f9999e2cf57e08dbf826ca8682d43fadcb2ed417993c33b845c9d1e5",
+      "bytes": 596
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/r5-reupload.json",
+      "git_blob_sha256": "1864f74a0d248ad4ca827dccb393aae034931b47c5b2b89f3086ac6d67354139",
+      "bytes": 4175
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/r5-reupload.md",
+      "git_blob_sha256": "e21e0267d1df83315a58b5fbe8bd2e122dc401567333d521feb0df95fbe666e8",
+      "bytes": 4354
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/readback.json",
+      "git_blob_sha256": "92d72a7719f6cb9732f8df3380947063b06e96ec65ac638fe009485970232fe9",
+      "bytes": 12822
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/self-review.json",
+      "git_blob_sha256": "005149ec592df4b138ce46c8df47d9119be993413d47e14e8107ab1d010e915e",
+      "bytes": 1033
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/single-upload-plan-review.json",
+      "git_blob_sha256": "bc58ecf1807dfee931b37f729cd6073d82990a0a55683a8e04d1e50f1f434fdb",
+      "bytes": 2884
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/upload409/README.md",
+      "git_blob_sha256": "272223cee90f4d1f222688989ef3b56d3d0b30f5a2625525248b4b13fe159f3a",
+      "bytes": 2037
+    },
+    {
+      "file": "operations/linkedin-matched-recheck/2026-10-08/upload409/receipt.json",
+      "git_blob_sha256": "1ccafab222c906a7a304cf91dc9e2088aa2405bab45e90088901682ebfd6edf2",
+      "bytes": 4539
+    }
+  ],
+  "canonical_preservation": [
+    {
+      "file": "CURRENT_STATE.md",
+      "main_working_body_sha256": "fc21b4871d909184f72e80c80ddf6d391879bb17179f9ad5d3a253dde076748a",
+      "main_body_bytes": 124240,
+      "source_notice_prefix_sha256": "e0bf858fddfa7987cfdbc29c26fb289e0354fdbb082444b33ea157d48b216481",
+      "source_notice_prefix_bytes": 7685,
+      "new_current_notice_bytes": 1328,
+      "prior_main_body_preserved": true
+    },
+    {
+      "file": "DOCS_IMPACT_MAP.md",
+      "main_working_body_sha256": "c95867593c63776c055b7c31eec86d5440d4972c08ccb0629e0ec400b4a00cc5",
+      "main_body_bytes": 17007,
+      "source_notice_prefix_sha256": "e0bf858fddfa7987cfdbc29c26fb289e0354fdbb082444b33ea157d48b216481",
+      "source_notice_prefix_bytes": 7685,
+      "new_current_notice_bytes": 1328,
+      "prior_main_body_preserved": true
+    },
+    {
+      "file": "README.md",
+      "main_working_body_sha256": "67efbe1a0b8c11bf56dd6d881e3513a396bbdda73aff71b85dc293f8fcd26c25",
+      "main_body_bytes": 93180,
+      "source_notice_prefix_sha256": "e0bf858fddfa7987cfdbc29c26fb289e0354fdbb082444b33ea157d48b216481",
+      "source_notice_prefix_bytes": 7685,
+      "new_current_notice_bytes": 1328,
+      "prior_main_body_preserved": true
+    },
+    {
+      "file": "ads/linkedin/LinkedIn_Build_Pack.md",
+      "main_working_body_sha256": "09a093ae9078e98427c66433bb8392311df5ea0fe801b5e3a1cb333b5e11516b",
+      "main_body_bytes": 114856,
+      "source_notice_prefix_sha256": "c92f1433fe9915ba5c09d46987a754c55f783920502ff6e16410145f23674f0b",
+      "source_notice_prefix_bytes": 7733,
+      "new_current_notice_bytes": 1334,
+      "prior_main_body_preserved": true
+    },
+    {
+      "file": "drafts/S03_LinkedIn_Audience_Research.md",
+      "main_working_body_sha256": "44113edcf21c2d9f691f0069095c2627b459595145780b069f94862a29b55bad",
+      "main_body_bytes": 22858,
+      "source_notice_prefix_sha256": "3fbaf5ec2fb9583a2bc81f8bec5b80af2c045dd22306f33f709f195ebda80ef8",
+      "source_notice_prefix_bytes": 7709,
+      "new_current_notice_bytes": 1331,
+      "prior_main_body_preserved": true
+    },
+    {
+      "file": "operations/LinkedIn_Current_Progress_2026-10-07.md",
+      "main_working_body_sha256": "8d860af09ac656f748ebef1a9e6efc81abff99567fc2713ac74a765e8e15be58",
+      "main_body_bytes": 27310,
+      "source_notice_prefix_sha256": "395e9ffdf0edbf08c2a496ec12be3b3df7644815b8e884f4c46d88f7989d7b9c",
+      "source_notice_prefix_bytes": 7625,
+      "new_current_notice_bytes": 1317,
+      "prior_main_body_preserved": true
+    },
+    {
+      "file": "operations/Pre_Ad_Readiness_Plan.md",
+      "main_working_body_sha256": "764689610c5637c04644b2050c2fe4d601af33d7ab4c1e57134104b612b7dbf3",
+      "main_body_bytes": 122901,
+      "source_notice_prefix_sha256": "395e9ffdf0edbf08c2a496ec12be3b3df7644815b8e884f4c46d88f7989d7b9c",
+      "source_notice_prefix_bytes": 7625,
+      "new_current_notice_bytes": 1317,
+      "prior_main_body_preserved": true
+    }
+  ],
+  "current_truth": {
+    "discovery409": "Submitted once08Oct16:20;success+reload Updating+filename persistence;CHANGES_REQUIRED pending settled-output audit",
+    "r5": "Retry submitted once08Oct~14:25;immediate Details0/0/0;INSUFFICIENT_EVIDENCE;followup09Oct>=14:25",
+    "recheck_discovery": "10Oct>=16:20Vietnam(T+48h),T+72hread-only if processing",
+    "scheduled": false,
+    "main_integration": "Containing integration commit retains source ancestry; local only, no push"
+  },
+  "history_policy": "Source29documents byte-preserved; capture-time no-upload/no-merge and old PASS bounds retained. Seven imported historical notice prefixes precede prior main bodies, with new scope-specific current notice above all. No retroactive audience-quality PASS.",
+  "anchor": {
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "scope": "Internal operational status, not creative/locale/persona adaptation. A1-A3: identity/mapping separated from ICP/FDI/persona/local ERP authority; A4-A7 not applicable to operational receipt.",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "source_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "docs_impact": "Reviewed and synchronized seven canonical/owned entrypoints; preserve all prior main body bytes and other task progress. Historical progress tables are dated snapshots; current status notice/README governs only Matched Audience.",
+  "execution_status": "SUCCESS for integration candidate checks; main adoption verified separately after merge",
+  "audience_quality": "CHANGES_REQUIRED; R5 mapping INSUFFICIENT_EVIDENCE"
+}

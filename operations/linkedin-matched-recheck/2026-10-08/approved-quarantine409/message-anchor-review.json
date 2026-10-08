@@ -1,0 +1,43 @@
+{
+  "stage": "INTERNAL_REPORT_EXACT_FILE_HANDOFF",
+  "reviewer": "discovery_unmatched native leaf writer",
+  "independence": "SELF; parent audit separate",
+  "anchor": {
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+  },
+  "email": {
+    "id": "VY-MAIL-USER-20261006",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "branch_persona_locale": "Mixed list; UNASSIGNED. Internal Vietnamese handoff, no creative/persona/locale adoption.",
+  "artifact_bindings": [
+    {
+      "file": "hash-pins.json",
+      "sha256": "4b0a94e2ddce494a3413b40706863e477087322a56b55f6eec1169702479fea3"
+    },
+    {
+      "file": "README.md",
+      "sha256": "b351fa59ff4e850d0b3ed3c7d4df267795ae13f6b9efa364d010f42dae87e511"
+    },
+    {
+      "file": "scope-decision.json",
+      "sha256": "7811decdcfeeb8ac970494b3291467e0ad0d06d7a0b83e737434973295529704"
+    },
+    {
+      "file": "PRIVATE/HANDOFF_VI.md",
+      "sha256": "0e982ab920f58da162291943c3f09505aea186d3555d3e298f3f66ced143173a"
+    }
+  ],
+  "A1": "Identity/partition does not establish supply-chain ICP; explicit boundary in README and handoff.",
+  "A2": "Local ERP purchasing authority unknown; no group-wide exclusion.",
+  "A3": "No FDI/domestic or persona inference; quarantine based solely on observed wrong mapping and approved scope.",
+  "A4_A5_A6_A7": "N/A no creative, business-value/product proof/CTA/journey authored.",
+  "exact_observation": "Audience vẫn CHANGES_REQUIRED, không gọi409 là sạch hoặc all matched, không bảo đảm tỷ lệ match. Identity không chứng minh ICP/FDI/persona/quyền mua ERP.",
+  "PREGEN_SCRIPT": "N/A no generation",
+  "POSTGEN_ARTIFACT": "Actual internal README/HANDOFF and scope record reviewed; no artwork",
+  "whole_journey": "N/A no customer journey created",
+  "MSG-ANCHOR-01": "MESSAGE_ANCHOR_PASS",
+  "acceptance_boundary": "Internal report source classification only; no audience-ready/creative/live acceptance."
+}

@@ -1,0 +1,108 @@
+{
+  "AUDIT_SCOPE": "Consolidated steps1-4 PREUPLOAD preparation only:424-row proposed CSV,150 captured mapping-entry classifications,93 unmatched reconciliations, one exception pack and sanitized documentation. This is not full mapping recovery or upload/campaign readiness.",
+  "CONTRACT_REF": "allocation-baseline.json AC-01 through AC-07; PO current mandate exactly2 native leaf Sol6.1/medium, parent coordinator/auditor, STOP BEFORE UPLOAD",
+  "BASELINE_REF": {
+    "local_commit": "c5c38c93f1400f076a369c2b7c75920ac2d3b80a",
+    "accepted_source_sha256": "69b9209e27baee4f4e527a686fd2497836bb7b7f1dfdcdcc6c5cc45648ae3e0c",
+    "immutable_original_sha256": "6e51d24c8e273007cff0a57beec8fd22d8292427267d522bfbf45bbb840fb982",
+    "preserved_private_baseline_pins": 18,
+    "original_plan_bytes_preserved": true
+  },
+  "CANDIDATE_REF": {
+    "candidate": {
+      "filename": "linkedin_discovery424_consolidated_20261008_PREUPLOAD_NOT_APPROVED.csv",
+      "sha256": "cf8cef65cc3e84f69cdd551798182fbd1bc7834c4311037bb1c4774460cee83c",
+      "bytes": 28288,
+      "rows": 424,
+      "columns": 10
+    },
+    "private_manifest_sha256": "f6d068a450f2ccc42ac86defc162c30db1c8bae92d5a4bb6c91d5e852423d25f",
+    "parent_verifier_sha256": "8d08d21fd72ab08049703e042675fa5d1842bb9ce7d4de036819abd395af492c",
+    "parent_verification_result_sha256": "f0942aaffc20b03cbe0885beb6358ad88fa27f2b9bb3747b0062a88c87fdd7eb",
+    "primary_identity_review_sha256": "c3f46ecc4304b88ff04032909d9663f0da44135e1250ccb323f2c3d15b09fa25",
+    "numeric_alias_reviews_sha256": {
+      "parent-page-checks.json": "30495fd0317b83558ecd617c1b683047b8b91e2e98b72bf629bfd9c1bbec33e2",
+      "parent-additional-aliases.json": "a52449c02f52a6325279170d57d15bc8c7b36287aa52a947d1073697d67103db",
+      "parent-six-aliases.json": "90dbfa2bb31da3bdab3727682c04147c7342fc8018d1f03acb419097051c7d64"
+    },
+    "public_hash_pins_sha256": "944307e242c2c9256b151dd24bba8416b38d5ac85420b063bba17bf07779230b",
+    "public_anchor_review_sha256": "40e881fc0be00fe3a59fc0d2d0cb3cd0a896c1ea6316bff4c9306d8f9c2c0aff",
+    "private_decision_pack_sha256": "0ff1ffc743c5b24076c080375949438bc3f991f3915081303617ecf58a099f8c"
+  },
+  "VERDICT": "PASS",
+  "COVERAGE": {
+    "AC-01": "PASS — STRUCTURAL/CONTRACT — parent-verification.json:424 unique source dispositions;150 unique capture IDs;93 entries with source/version/duplicate provenance",
+    "AC-02": "PASS — STRUCTURAL/CONTRACT — parent_verify.py:CSV reread424x10 BOM;protected8/order/duplicates equal accepted and immutable originals;12 changes exactly equal cell-change-log",
+    "AC-03": "PASS — STRUCTURAL/CONTRACT — parent-primary-source-audit.json and numeric alias readbacks; all12 proposed cells inspected against exact company/domain/Page scope; unsupported mappings retained unknown",
+    "AC-04": "PASS — BEHAVIORAL/RUNTIME — both canonical skill admission receipts; paired acceptance gates exit0 after final correction; effective gpt-6.1-sol/medium, first-generation leaf binding",
+    "AC-05": "PASS — STRUCTURAL/CONTRACT — candidate SHA, final manifests, DECISION_PACK.md and decision-exceptions.json; one full424 proposal;18 known wrong retained; no clean/upload acceptance",
+    "AC-06": "PASS — STRUCTURAL/CONTRACT — public privacy scan/hash and anchor checks; seven prior canonical bodies byte-preserved;18 older evidence pins and plan preserved",
+    "AC-07": "PASS — BEHAVIORAL/RUNTIME — observed task tool trace read-only browser identity checks; Git HEAD unchanged/index empty/exact7tracked docs scope; no new audience upload/account/campaign/Git mutation"
+  },
+  "FINDINGS": {
+    "FAILED_AC": [],
+    "EXPECTED": "Reviewable consolidated preparation with explicit unresolved quality/coverage, exact protected-source preservation and no upload.",
+    "OBSERVED": "Verified424-row proposal changes12 identifier cells on11rows. Mapping150:11correct/18wrong/121insufficient;3wrong have replacement proposals,15do not. All93 reconciled. Audience remains CHANGES_REQUIRED/uploadHOLD.",
+    "EVIDENCE": "Candidate and parent verifier result SHA bindings in CANDIDATE_REF; parent primary observations08Oct2026 and paired final acceptance gates same active child threads.",
+    "EVIDENCE_GAP": "No post-upload output; backend causes for210unobserved/28olderprojections/11bothstatuses unresolved.121captured mappings not established. These gaps are explicit limitations of the preparation, not failed claims of recovery.",
+    "RESTORE_CONDITION": "For audience-ready acceptance: resolve consolidated PO exceptions and permitted scope, lock a concrete file, obtain authorized upload, then verify settled actual output. No such acceptance is granted here.",
+    "REQUIRED_RECHECK": "Any candidate/identifier/source/scope revision requires affected protected/source/anchor checks again; later actual upload needs separate output audit."
+  },
+  "recorded_at": "2026-10-08T08:36:07.341513+00:00",
+  "reviewer": "parent Coordinator/Auditor",
+  "AUDIT_MODE": "SELF",
+  "mode_reason": "Both authorized children own implementation slices; neither is independent of the complete candidate. Two-child ceiling preserved. Parent has sufficient primary-source/browser/filesystem/runtime verification capability; no third auditor spawned.",
+  "typed_acceptance": {
+    "STRUCTURAL/CONTRACT": "PASS for bounded internal preparation",
+    "BEHAVIORAL/RUNTIME": "PASS for exact child model/effort gates and observed mutation boundaries",
+    "VISUAL": "Not assigned; no creative/render or Campaign Manager visual-readiness claim"
+  },
+  "parent_disposition": "ACCEPT_INTERNAL_PREUPLOAD_PACKAGE_ONLY",
+  "audience_quality": "CHANGES_REQUIRED",
+  "recovery": "PARTIAL",
+  "upload": "HOLD / NOT_PERFORMED",
+  "runtime": [
+    {
+      "slice": "A",
+      "effective_model": "gpt-6.1-sol",
+      "effective_reasoning_effort": "medium",
+      "admission": "ADMITTED exit0",
+      "final_acceptance": "ACCEPTED exit0",
+      "receipt_sha256": "9da3a4ad8e0040bd971b44400463f198ee7711492fd6266aef6f49b056c90492"
+    },
+    {
+      "slice": "B",
+      "effective_model": "gpt-6.1-sol",
+      "effective_reasoning_effort": "medium",
+      "admission": "ADMITTED exit0",
+      "final_acceptance": "ACCEPTED exit0",
+      "receipt_sha256": "d3919b6f54caee282d45cdcc5742742e2bdd922a188ec2d5c9834893ee4bec71"
+    }
+  ],
+  "correction_history": [
+    {
+      "level": "L1",
+      "count": 1,
+      "scope": "Timeless audit attribution in current notices; human-readable private Vietnamese consolidated decision pack;refresh affected hash/anchor bindings",
+      "core_csv_and_adjudication_unchanged": true
+    }
+  ],
+  "git": {
+    "owned_branch": "slice/linkedin-matched-recheck-2026-10-08",
+    "existing_local_checkpoint": "c5c38c93",
+    "new_work": "Working-tree files only; not staged or committed, not merged into main, not pushed",
+    "canonical_main": "Separate checkout advanced independently; not merged or modified by this task",
+    "state_recovery": "global git-state-recovery helper with Fetch completed; private full report retained",
+    "tracked_delta_scope": [
+      "CURRENT_STATE.md",
+      "DOCS_IMPACT_MAP.md",
+      "README.md",
+      "ads/linkedin/LinkedIn_Build_Pack.md",
+      "drafts/S03_LinkedIn_Audience_Research.md",
+      "operations/LinkedIn_Current_Progress_2026-10-07.md",
+      "operations/Pre_Ad_Readiness_Plan.md"
+    ]
+  },
+  "docs_impact": "Seven current scoped notices updated; prior bodies/dated plans/receipts preserved. Anchor classification boundaries reviewed; no ICP/FDI/ERPauthority inference.",
+  "limits": "Parent artifact audit does not certify platform backend correctness, hidden other-session activity, operational eligibility or live performance."
+}

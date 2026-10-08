@@ -1,0 +1,69 @@
+{
+  "AUDIT_SCOPE": "PO-approved exact15-row temporary quarantine and409-row file/handoff preparation only. No upload and no clean audience acceptance.",
+  "CONTRACT_REF": {
+    "file": "quarantine409-contract.json",
+    "sha256": "cf16df5b431e633fd1debfe93b8ae20ce4b219b35240cdd54cc7913306f2f12c",
+    "user_decision": "OKie đồng ý to preserve master424, quarantine exact15 known-wrong-without-replacement rows, prepare409 for one later upload",
+    "stop": "STOP_BEFORE_UPLOAD"
+  },
+  "BASELINE_REF": {
+    "local_commit": "db8b0ddd6c2f2556cc17dfb38ebf0eb7893d122e",
+    "master424_sha256": "cf8cef65cc3e84f69cdd551798182fbd1bc7834c4311037bb1c4774460cee83c",
+    "old_private_public_source_pins": 56,
+    "all_old_pins_preserved": true
+  },
+  "CANDIDATE_REF": {
+    "candidate409_sha256": "ca12a1c8a7a0439b5fd9f755f8400814910c90e4f92b78041dea27a150c40985",
+    "candidate409_bytes": 27163,
+    "candidate409_rows": 409,
+    "columns": 10,
+    "quarantine15_sha256": "ed4cfc21374bff8a0c7529b860b703f7cc152c98c0b6ce7aa495e443f9afd399",
+    "manifest_sha256": "25117a0d862be9ed3b5fd08e058beaf1c152bdf03b1de4236c9e53757b3c6508",
+    "public_hash_pins_sha256": "4b0a94e2ddce494a3413b40706863e477087322a56b55f6eec1169702479fea3",
+    "anchor_review_sha256": "026248bb9f1a81335a837f1dddf87b0e7cf562e1926ea64dbe6e84c1b0a7c5c0",
+    "private_handoff_sha256": "0e982ab920f58da162291943c3f09505aea186d3555d3e298f3f66ced143173a",
+    "source_row_index_map_sha256": "dda2591a039d013718348f47c81d58788e223cf7af64c660e184ac16950bc1e6",
+    "parent_verifier_sha256": "668c17da05b6636e34c8087ec43a171e0f86fdc9a16118a26ae07a9ec0b43d60",
+    "parent_verification_result_sha256": "08910ec0fb85f81ab398fb137844a0f826a3152ab7a11678a0aac3c86ba8875f"
+  },
+  "VERDICT": "PASS",
+  "COVERAGE": {
+    "AC-409-01": "PASS — STRUCTURAL/CONTRACT — parent independent CSV/raw-record reread;409+15 reconstruct approved424 byte-for-byte;exact approved15 omissions, original order/duplicates and header preserved",
+    "AC-409-02": "PASS — STRUCTURAL/CONTRACT —56prior pins unchanged;protected8 equal accepted and immutable sources;retained deltas exactly prior12 cells/11rows, no new edits",
+    "AC-409-03": "PASS — STRUCTURAL/CONTRACT — bothCSVs/company reasons private;public privacy/hash/anchor checks;7canonical prefixes preserve old bodies and record approved scope",
+    "AC-409-04": "PASS — BEHAVIORAL/RUNTIME — existing first-generationA child skill-bound admission receipt and current-turn paired gates exit0;effective gpt-6.1-sol/medium confirmed independently",
+    "AC-409-05": "PASS — STRUCTURAL/CONTRACT — exact409hash pinned, scopeapprovaldistinctfromupload;135historical subset correctly labeled BEFORE_UPLOAD;3remaining wrong/121unknown/210unobserved limits explicit",
+    "AC-409-06": "PASS — BEHAVIORAL/RUNTIME — observed task trace contains no browser/upload/account/campaign/Git mutation;GitHEADdb8b0ddd unchanged,index empty;only7tracked canonicaldocs and ownednewfolder changed"
+  },
+  "FINDINGS": {
+    "FAILED_AC": [],
+    "EXPECTED": "Exact approved409/15 partition and reviewable locked409file, protected originals preserved, scope decision closed, stop before upload.",
+    "OBSERVED": "409x10 UTF8BOM/27163bytes;15quarantined records retained;byte-exact master reconstruction, all12priorcellchanges retained. Both CSVs private. ScopeAPPROVED; file locked for handoff.",
+    "EVIDENCE": "CANDIDATE_REF hashes and parent-verification result; independent checks08Oct2026; paired runtime gate exit0 for sameexistingA child after terminal.",
+    "EVIDENCE_GAP": "No new live output. Retained historical135contains11correct/3wrong/121insufficient;3wrong have replacement identifiers only.210source rows not observed;coverage/version backend unexplained.",
+    "RESTORE_CONDITION": "Later upload authorization/exactfile submission plus settled-output audit required for any recovery or audience acceptance. No further quarantine scope decision remains pending for this409file.",
+    "REQUIRED_RECHECK": "Any file/scope/hash revision needs affected partition/source/docs checks again. After authorized one-time upload, inspect actual output; Ready alone insufficient."
+  },
+  "recorded_at": "2026-10-08T08:52:41.532190+00:00",
+  "reviewer": "parent Coordinator/Auditor",
+  "AUDIT_MODE": "SELF",
+  "audit_reason": "One deterministic partition writer; parent has sufficient independent raw-record, source, runtime and docs verification capability. Existing two-child maximum retained, no new spawn.",
+  "EXECUTION_STATUS": "SUCCESS",
+  "parent_disposition": "ACCEPT_EXACT409_PREUPLOAD_HANDOFF_ONLY",
+  "scope_decision": "APPROVED",
+  "file_locked_for_handoff_only": true,
+  "upload": "NOT_PERFORMED / STOP_BEFORE_UPLOAD",
+  "audience_quality": "CHANGES_REQUIRED",
+  "runtime": {
+    "writer": "/root/discovery_unmatched",
+    "effective_model": "gpt-6.1-sol",
+    "effective_reasoning_effort": "medium",
+    "admission": "ADMITTED exit0 bound existing first-generation leaf",
+    "current_turn_release_gate": "paired acceptance exit0 before mutation release",
+    "final_acceptance_gate": "ACCEPTED exit0 after writer ready",
+    "receipt_sha256": "9da3a4ad8e0040bd971b44400463f198ee7711492fd6266aef6f49b056c90492"
+  },
+  "docs_impact": "Seven canonical current notices now record approved15quarantine/409prepared state; older pending-scope notices preserved as history. Prior plan, checkpoint and all old public/private evidence byte-preserved. Anchor identity/ICP/FDI/ERPauthority boundaries unchanged.",
+  "git": "New409preparation is local working files on ownedbranch, not staged/committed/merged/pushed. Existing checkpointdb8b0ddd remains.",
+  "reconciliation": "Writer message described contract hash as pre-supplementary18pins; direct output hash equals current full parent contract. Primary file binding accepted; no stale control reference or artifact change found."
+}

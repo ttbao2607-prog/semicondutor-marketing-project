@@ -1,0 +1,56 @@
+{
+  "recorded_at": "2026-10-08T08:59:33.599613+00:00",
+  "user_authorization": "commit va upload di codex",
+  "scope": "Commit approved409 preparation and update existing Discovery once with exact pinned409 CSV. No push/merge or other audience/campaign action.",
+  "file": "linkedin_discovery409_approved_quarantine_20261008_HANDOFF_ONLY.csv",
+  "sha256": "ca12a1c8a7a0439b5fd9f755f8400814910c90e4f92b78041dea27a150c40985",
+  "rows": 409,
+  "bytes": 27163,
+  "upload_status": "AUTHORIZED_NOT_YET_PERFORMED",
+  "quality": "CHANGES_REQUIRED pending settled mapping audit",
+  "historical_evidence": "Existing approved-quarantine409 files unchanged; STOP_BEFORE_UPLOAD and uncommitted states are capture-time snapshots superseded only by this new authorization/checkpoint.",
+  "docs_preservation": [
+    {
+      "file": "CURRENT_STATE.md",
+      "prior_body_sha256": "3c75bb892fa44dcd036d52a28c6169f7a82495eb12aec92ffaa603a306b85ea0",
+      "prefix_bytes": 634,
+      "prior_body_preserved": true
+    },
+    {
+      "file": "DOCS_IMPACT_MAP.md",
+      "prior_body_sha256": "3e8ab6f08ffebb5820ef0e817761d3029ed540d946a6e3e9fb8a65e2e4caa549",
+      "prefix_bytes": 634,
+      "prior_body_preserved": true
+    },
+    {
+      "file": "README.md",
+      "prior_body_sha256": "b571a27c9ba422691ae86d15be5eeca37ce2c3852a3941eaa4bb286de114f9c6",
+      "prefix_bytes": 634,
+      "prior_body_preserved": true
+    },
+    {
+      "file": "ads/linkedin/LinkedIn_Build_Pack.md",
+      "prior_body_sha256": "a1d8d5cf0e7635bab6fee9cabbce02b08e15aa90ec110fbb7310bd7ed482ca4e",
+      "prefix_bytes": 634,
+      "prior_body_preserved": true
+    },
+    {
+      "file": "drafts/S03_LinkedIn_Audience_Research.md",
+      "prior_body_sha256": "62a041b63b74192089a4ece72d44a6bf59cbeebef4869a7969b48cc1fca85523",
+      "prefix_bytes": 634,
+      "prior_body_preserved": true
+    },
+    {
+      "file": "operations/LinkedIn_Current_Progress_2026-10-07.md",
+      "prior_body_sha256": "0dc0f29571da99d25ae5508d5786e060d25666031b6ede0b50a29a1afefeac21",
+      "prefix_bytes": 632,
+      "prior_body_preserved": true
+    },
+    {
+      "file": "operations/Pre_Ad_Readiness_Plan.md",
+      "prior_body_sha256": "3774d916d7cc7a07eb6e2df92ffabee57dc97165dad6b82ebdaf59a092473795",
+      "prefix_bytes": 634,
+      "prior_body_preserved": true
+    }
+  ]
+}

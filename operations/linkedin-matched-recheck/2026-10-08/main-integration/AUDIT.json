@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-10-08T09:26:16.878275+00:00",
+  "audit_mode": "SELF",
+  "reviewer": "parent",
+  "scope": "Main integration candidate only; no audience-quality certification",
+  "verdict": "AUDIT_PASS",
+  "checks": {
+    "source29_git_blobs": "EXACT_MATCH",
+    "seven_prior_main_working_bodies": "BYTE_PRESERVED",
+    "seven_source_notice_prefixes": "BYTE_PRESERVED",
+    "current_notice_relative_links": "RESOLVE",
+    "new_status_readme_links": "RESOLVE",
+    "new_scope_privacy": "PASS",
+    "JSON": "PARSE_PASS",
+    "unresolved_conflicts": 0,
+    "intended_changed_files": 38,
+    "staged_diff_check": "PASS",
+    "source_commits": 4,
+    "anchor_and_source": "HASH_BOUND_UNCHANGED"
+  },
+  "audience_quality": "Discovery CHANGES_REQUIRED / R5 INSUFFICIENT_EVIDENCE",
+  "history": "Capture-time statements preserved, current status explicitly supersedes old matched-audience-only states. Other main tasks unchanged.",
+  "execution_status": "SUCCESS for checked candidate; final main ancestry to be read back after adoption"
+}

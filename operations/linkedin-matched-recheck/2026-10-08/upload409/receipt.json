@@ -1,0 +1,112 @@
+{
+  "scope": "One exact409 update of existing Discovery only",
+  "preparation_commit": "811c34ad29dbcc98c693260bd2c0ea9c18c6e4db",
+  "user_authorization": "commit va upload; action-time Ads Agreement confirmed by subsequent Xac nhan",
+  "submitted_at_utc": "2026-10-08T09:20:32.503Z",
+  "submitted_at_vietnam": "2026-10-08T16:20:32.503000+07:00",
+  "file": "linkedin_discovery409_approved_quarantine_20261008_HANDOFF_ONLY.csv",
+  "rows": 409,
+  "columns": 10,
+  "bytes": 27163,
+  "sha256": "ca12a1c8a7a0439b5fd9f755f8400814910c90e4f92b78041dea27a150c40985",
+  "final_update_clicks": 1,
+  "success_message": "Your audience has been successfully updated.",
+  "after_reload_status": "Updating",
+  "filename_persisted_after_reload": true,
+  "readback_edit_closed_without_save": true,
+  "execution": "SUCCESS: update persisted; matching not yet complete",
+  "audience_quality": "CHANGES_REQUIRED pending settled-output audit; historical135=11correct/3wrong/121insufficient is BEFORE_UPLOAD only",
+  "limitations": "UI persistence proves saved filename, not backend CSV bytes or correct matching. Existing displayed match rate/reach are not new settled results. Identity does not establish ICP/FDI/local ERP authority.",
+  "proposed_readonly_recheck_vietnam": "2026-10-10T16:20:32.503000+07:00",
+  "if_still_processing": "Read-only T+72h; do not automatically reupload",
+  "scheduled": false,
+  "git": "Owned local branch only, no main merge or remote push",
+  "evidence_private": [
+    {
+      "file": "01-agreement-pending.json",
+      "sha256": "3066df98a6f17ad385444934441b41890f57af37550184c250fa89cd6f908a6e"
+    },
+    {
+      "file": "01-agreement-pending.png",
+      "sha256": "e53490386fa9fa0fccc1f02be530be7072c9bae9811939104aa744afde31e6ad"
+    },
+    {
+      "file": "02-submit-readback.txt",
+      "sha256": "0c22d581f4b9923431ecb979df63a6812cf4bbe6196f6979d52648f0ca99e133"
+    },
+    {
+      "file": "03-saved-readback.txt",
+      "sha256": "f58cdf44a84f539c6296d1794feeb933468c54785299f094c74699d9257f1af1"
+    },
+    {
+      "file": "03-success-toast.png",
+      "sha256": "9a88c4a2c12384f5419a0e5c52cd3c0694da0646d31a8ad7549606a98041a321"
+    },
+    {
+      "file": "04-after-reload.txt",
+      "sha256": "5b344ea0fd22eaf1534b15fe644c216fbe6ea8366f6ab158065fd01e4d4e390c"
+    },
+    {
+      "file": "04-updating-after-reload.png",
+      "sha256": "e4d0e228fe8769de25b41709e1305a724bcb1c9d7f518f885d75ad82af69bc08"
+    },
+    {
+      "file": "05-persisted-filename.png",
+      "sha256": "267b354fc2f93e9f586dae27de9e1027228609b0159228080305339f5764b523"
+    },
+    {
+      "file": "05-persisted-filename.txt",
+      "sha256": "e8f6f08585bd4cc59de3cba30ffdbfc2e313f8c49e54cf3459eb6e138e651863"
+    },
+    {
+      "file": "06-outcome.json",
+      "sha256": "7c82e9e7b3b0566da6f0e9a597cb400ffa1e1b9b3bef697ac7f2a4035a734ac7"
+    }
+  ],
+  "docs_body_preservation": [
+    {
+      "file": "CURRENT_STATE.md",
+      "prior_body_sha256": "7b09d70c23d5bd5ae07a251fc30e832779cb290ab6275343f6f1ad84f5bb2cba",
+      "prefix_bytes": 773,
+      "prior_body_preserved": true
+    },
+    {
+      "file": "DOCS_IMPACT_MAP.md",
+      "prior_body_sha256": "9afb795e67838f9a596f9f70d9469a315de80177cbb739c01fcfd4d96a66d129",
+      "prefix_bytes": 773,
+      "prior_body_preserved": true
+    },
+    {
+      "file": "README.md",
+      "prior_body_sha256": "65cc64a79ded9e70e00ad86ce9100208a6457323c1297597e38281535ac760b7",
+      "prefix_bytes": 773,
+      "prior_body_preserved": true
+    },
+    {
+      "file": "ads/linkedin/LinkedIn_Build_Pack.md",
+      "prior_body_sha256": "a8cc5de90c9c7c2b55e5ab36fa346716702cadee70c7658e7c428d645db018a7",
+      "prefix_bytes": 773,
+      "prior_body_preserved": true
+    },
+    {
+      "file": "drafts/S03_LinkedIn_Audience_Research.md",
+      "prior_body_sha256": "ecc3f1362a9aa2821cc50689bcb08ed95749b32a2321f7aa0a2be176d120310c",
+      "prefix_bytes": 773,
+      "prior_body_preserved": true
+    },
+    {
+      "file": "operations/LinkedIn_Current_Progress_2026-10-07.md",
+      "prior_body_sha256": "748aa26d5454bdf01a21193b64caf012a0fc72e0ab58295c805f989e247a4c2c",
+      "prefix_bytes": 773,
+      "prior_body_preserved": true
+    },
+    {
+      "file": "operations/Pre_Ad_Readiness_Plan.md",
+      "prior_body_sha256": "9b6c412af3e34793be7dc5a4227441e9a013faea71978308df60bf94addb1d34",
+      "prefix_bytes": 773,
+      "prior_body_preserved": true
+    }
+  ],
+  "audit_mode": "SELF",
+  "audit_outcome": "PASS for authorized single submission and filename persistence only; no audience-quality PASS"
+}
