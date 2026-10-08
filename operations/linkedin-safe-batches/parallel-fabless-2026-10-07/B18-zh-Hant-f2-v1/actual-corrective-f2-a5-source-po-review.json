@@ -1,0 +1,13 @@
+{
+  "revision": "b18-f2-a5-source-regression-actual-review-c2",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "anchor_verdict": "MESSAGE_ANCHOR_PASS",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "original_sha256": "28703003c09b1e2d4b66a1caf383043201c598118b2e289ec915c9c037b2929e",
+  "po_authorization": "Cho thêm 1 lượt A5",
+  "observation": "Actual C1 native/desktop/feed body now clear two lines; source remained smaller than enlarged body. Source hierarchy CHANGES_REQUIRED. Target exact same copy/persona/source, change hierarchy only.",
+  "edit_instructions": "SOURCE HIERARCHY REPAIR ONLY. Reference1 is actual C1 target. PRESERVE its exact headline, two-line readable body, ERP · 晶片營運,5/6, logo once and exact CTA. ENLARGE EVERY Taiwan source glyph to70–76nativepx, visibly AT LEAST AS LARGE AS BODY, ideally larger. Source is main reading text, never footer. Exact complete source: Digiwin 台灣半導體方案資料： ERP 經營管理與 MES(製造執行系統) 生產製造。 Reflow source into3or4large lines on plain white; whole source block can occupy bottom360px. Keep body at existing size. SHRINK chip/pale-blue-block scene to shallow strip around130px high and move it upward as needed. Source must win space over scene. Never put the entire ERP/MES source on one squeezed line. Never omit MES expansion or substitute glyphs. CTA 探討委外生產計畫問題 remains fully readable. No arrow, panel, new text, data, glyph or claim. All content retained; only source linebreaks/size and scene area change.",
+  "acceptance": "Every publisher/legal attribution line at least body-sized at native/feed; all exact wording/brand/category/counter/CTA retained; actual reinspection before any PASS.",
+  "postgen": "POSTGEN_NOT_RUN"
+}

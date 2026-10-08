@@ -1,0 +1,155 @@
+{
+  "revision": "b5-postgen-root-review-v1",
+  "generation_status": "COMPLETE_WITHIN_CAP",
+  "execution_status": "PARTIAL",
+  "audit_verdict": "INSUFFICIENT_EVIDENCE",
+  "artifact_status": "REVIEW_DRAFT_RENDER_GATE_PENDING",
+  "final_anchor_status": "INSUFFICIENT_EVIDENCE",
+  "reviewer": "/root",
+  "independence": "ROOT_SELF_REVIEW",
+  "native_market_review": "NOT_PERFORMED",
+  "runtime_model_effort": "NOT_OBSERVED",
+  "locale": "zh-Hans",
+  "persona": "Operations Manager coordinating lot-record handoffs with Quality at an eligible FDI packaging/testing entity",
+  "route": "offline cold -> O2 lot-record handoff -> China linked-record implementation -> Simplified Chinese reader with Chinese sources",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "revision": "1.0",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+  },
+  "email": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "original": 8,
+  "corrective": 1,
+  "total_imagegen": 9,
+  "reused_pngs": 2,
+  "selected": 10,
+  "selected_manifest_sha256": "d11a0678bdfcbb6486ecc780d60b3d492ffd04a01e2045558ef173a78413314d",
+  "attempt_ledger_sha256": "8e90e245853065fec0cf72c7ef1e14147f2febf913fd139b61b995d115c8d4ce",
+  "actual_review_observations_sha256": "0fb2683c78e7d1ff119f2964227c8b2ec89e88f54941a96d77036df556277495",
+  "frozen_pins_verified": 24,
+  "adapter_status": "DEVELOPING / NOT_FROZEN",
+  "business_message_observation": "FDI Operations coordinates with Quality. 同一口径 means compare the same lot/process-stage/record-time basis; 来源记录 and 确认责任人 give source and responsibility before handoff. Implicit operational value; no invented ROI percentage, yield, finance result, synchronized state or ERP-only outcome.",
+  "source_scope": "Taiwan solution material is separate from named China integrated ERP+iMES implementation. MES linked records/exception escalation support inquiry, not a guarantee that this case solved conflicting lot status. Historical O2 month-close pair hold remains separate.",
+  "scene_disposition": "Neutral ruled papers/icon document strokes have no values, axes, trend or record identity. No wafer processing/customer facility/finished confirmation claim in selected scenes; header divider is decorative, not a new printed category.",
+  "card_reviews": [
+    {
+      "card_id": "COLD-OSAT-OPS-02-IMAGE",
+      "selected_sha256": "7584a8cd1b44d7282e3105892ac74219a00ceb39b81439965837381bc9735eb9",
+      "exact_text": "Headline/body/category/sequence/applicable source/CTA checked against selected-copy; legal-name glyphs inspected on proof2-4.",
+      "scene": "Specific meaning reviewed: comparison records/source/owner/shared basis or attributed linked-record example; no inherited English artifact PASS."
+    },
+    {
+      "card_id": "O2-A1",
+      "selected_sha256": "e2c08e266687673ea75932f6ca4f232f702aa3fcab51d803222f00637022226e",
+      "exact_text": "Headline/body/category/sequence/applicable source/CTA checked against selected-copy; legal-name glyphs inspected on proof2-4.",
+      "scene": "Specific meaning reviewed: comparison records/source/owner/shared basis or attributed linked-record example; no inherited English artifact PASS."
+    },
+    {
+      "card_id": "O2-A2",
+      "selected_sha256": "c4504f62355059fa2e43ab7a348df629a761b6250f6f1b95f204859c4a270790",
+      "exact_text": "Headline/body/category/sequence/applicable source/CTA checked against selected-copy; legal-name glyphs inspected on proof2-4.",
+      "scene": "Specific meaning reviewed: comparison records/source/owner/shared basis or attributed linked-record example; no inherited English artifact PASS."
+    },
+    {
+      "card_id": "O2-A3",
+      "selected_sha256": "67369125b941d189f05da03a3db7b12c90d5c9ce1d9a86033172b7638fe763d9",
+      "exact_text": "Headline/body/category/sequence/applicable source/CTA checked against selected-copy; legal-name glyphs inspected on proof2-4.",
+      "scene": "Specific meaning reviewed: comparison records/source/owner/shared basis or attributed linked-record example; no inherited English artifact PASS."
+    },
+    {
+      "card_id": "O2-A4",
+      "selected_sha256": "80a0395135c4d1edd0bd7830198adc42f339d4b0f3247045a50bc256746a1a0d",
+      "exact_text": "Headline/body/category/sequence/applicable source/CTA checked against selected-copy; legal-name glyphs inspected on proof2-4.",
+      "scene": "Specific meaning reviewed: comparison records/source/owner/shared basis or attributed linked-record example; no inherited English artifact PASS."
+    },
+    {
+      "card_id": "O2-A5",
+      "selected_sha256": "b4dc6787bac8aa46ea1a108b8944af285e462d33c2aafd72871495137a3e004b",
+      "exact_text": "Headline/body/category/sequence/applicable source/CTA checked against selected-copy; legal-name glyphs inspected on proof2-4.",
+      "scene": "Specific meaning reviewed: comparison records/source/owner/shared basis or attributed linked-record example; no inherited English artifact PASS."
+    },
+    {
+      "card_id": "RMK-R4-1",
+      "selected_sha256": "2281c078328ce853104cabc2e78cd995689ca41269ff584f2598edee11586936",
+      "exact_text": "Headline/body/category/sequence/applicable source/CTA checked against selected-copy; legal-name glyphs inspected on proof2-4.",
+      "scene": "Specific meaning reviewed: comparison records/source/owner/shared basis or attributed linked-record example; no inherited English artifact PASS."
+    },
+    {
+      "card_id": "RMK-R4-2",
+      "selected_sha256": "7c0cdae5f09f2ad72f8934b7aa9f290adb7df29b44f95135e4651cb92d540649",
+      "exact_text": "Headline/body/category/sequence/applicable source/CTA checked against selected-copy; legal-name glyphs inspected on proof2-4.",
+      "scene": "Specific meaning reviewed: comparison records/source/owner/shared basis or attributed linked-record example; no inherited English artifact PASS."
+    },
+    {
+      "card_id": "RMK-R4-3",
+      "selected_sha256": "4b71a3a7e03a4842148bd2d3b6fcfbaac4262f5a00088d96db530060488e9b13",
+      "exact_text": "Headline/body/category/sequence/applicable source/CTA checked against selected-copy; legal-name glyphs inspected on proof2-4.",
+      "scene": "Specific meaning reviewed: comparison records/source/owner/shared basis or attributed linked-record example; no inherited English artifact PASS."
+    },
+    {
+      "card_id": "RMK-R4-4",
+      "selected_sha256": "4c73bd9ace014bb03b31d30e1b282726d76195954840675468371a25d47ada7c",
+      "exact_text": "Headline/body/category/sequence/applicable source/CTA checked against selected-copy; legal-name glyphs inspected on proof2-4.",
+      "scene": "Specific meaning reviewed: comparison records/source/owner/shared basis or attributed linked-record example; no inherited English artifact PASS."
+    }
+  ],
+  "findings": [
+    {
+      "card_id": "RMK-R4-2",
+      "original_status": "CHANGES_REQUIRED",
+      "finding": "Original added a China skyline, pagodas, mountains and a bridge outside the reviewed storyboard; the source footer was split by that decorative scene.",
+      "selected_status": "CLOSED_SCOPED_NATIVE_DESKTOP333_MOBILE390",
+      "acceptance": "One corrective removes the cultural skyline and footer divider. Full-width source remains exact and at least body-size; protected Chinese entity, ERP + iMES, headline/body/category/sequence remain exact. Neutral records and packaged-chip trays retain the case context.",
+      "closure": "Selected corrective observed at native1254, actual desktop image333 and actual mobile390 viewport/image333. No whole-mobile or whole-journey PASS inferred. Failed original stays in its attempt folder and is not selected."
+    }
+  ],
+  "render_coverage": {
+    "native1254": "All10 selected PNGs observed: eight new originals/corrective selection via ImageGen image output; two approved B2 reuse PNGs via view_image. Exact copy and meaningful scene elements reviewed against the scripts. Proof1 full-width source, proof2 corrective source, proof3-4 protected legal-name glyphs inspected.",
+    "desktop_image333": "All10 selected cards visually observed in render-review.html with caption and native headline. A4 and proof1 final captures completed after their native receipts. Sources on proof1-4 and A5 are legible in the observed scope.",
+    "mobile390_image333": {
+      "observed": [
+        "O2-A5",
+        "RMK-R4-2 selected corrective",
+        "RMK-R4-4 reuse"
+      ],
+      "timeout_not_visual_evidence": [
+        "RMK-R4-3",
+        "COLD-OSAT-OPS-02-IMAGE"
+      ],
+      "remaining": "Cold, O2-A1–A4, proof1, proof3 and full reader/mobile journey coverage incomplete. Browser screenshot timeout is not an image defect and did not trigger regeneration. Temporary viewport reset."
+    },
+    "reader_desktop": "Actual screenshots cover overlapping top/lower reader, legal entity, problems, integrated ERP+iMES, SPC/ECN/MES linked records, exception escalation and Chinese source links. Return link actually navigated to index.html. Source destinations inspected in AX; external pages were not visited in this batch.",
+    "main_viewer": "Reader return opens correct B5 viewer. Feed333 selection and Card10 observed visually with caption, native headline, case CTA and reader link. Whole10-card640/mobile viewer coverage incomplete.",
+    "whole_journey_verdict": "INSUFFICIENT_EVIDENCE"
+  },
+  "journey_review": {
+    "method": "Root native-copy/scene and source review, plus scoped actual desktop/mobile rendering; not independent buyer or native-market certification.",
+    "transitions": [
+      "Cold -> A1: same lot, differing status reports, Operations coordinating record context with Quality.",
+      "A1 -> A2: compare the same process stage and record time; differing records can both be correct.",
+      "A2 -> A3: identify the source record used for this handoff and receiving-team information.",
+      "A3 -> A4: identify missing information, who checks its source and who confirms next steps before updating status.",
+      "A4 -> A5: assemble lot, stage, time, source and confirmation responsibility as the common handoff basis.",
+      "A5 -> proof1: attributed Taiwan ERP/MES solution material leads to Digiwin manufacturing digitalization introduction; solution context stays distinct from the China implementation.",
+      "Proof1 -> proof2: named China packaging/testing case with integrated Digiwin ERP + iMES; no Taiwan-case attribution or ERP-only inference.",
+      "Proof2 -> proof3: MES links batch/workstation/operator/product/material records and supports exception recording/escalation; not automatic resolution of conflicting lot status.",
+      "Proof3 -> proof4 -> reader: inspect documented linked records, process-parameter changes and exceptions in a Simplified Chinese summary, with Chinese sources and actual return to the handoff journey."
+    ],
+    "business_message": "FDI operational value is implicit in clearer comparison and handoff responsibility. No mandatory literal ROI term, numerical ROI, financial close claim, yield guarantee or Vietnamese supplier-readiness message added.",
+    "historical_hold": "The historical O2 month-close case-pair hold is separate and remains open; this new qualitative linked-record bridge does not claim to close it.",
+    "open_content_image_finding_in_observed_scope": "NONE",
+    "po_review": "PENDING_B5_REVIEW",
+    "stop": "Stop before B6 for Bảo review."
+  },
+  "unknowns": [
+    "Target entity/local ERP decision authority not verified.",
+    "Public proof rights and platform/live delivery not certified.",
+    "Incomplete whole-mobile/main-viewer640 prevents whole-journey technical PASS."
+  ],
+  "po_status": "PENDING_B5_REVIEW",
+  "git_status": "B5 working files local, uncommitted; B4 PO offline adoption receipt separate. No commit/merge/push this turn.",
+  "stop": "Do not start B6 before Bảo review."
+}

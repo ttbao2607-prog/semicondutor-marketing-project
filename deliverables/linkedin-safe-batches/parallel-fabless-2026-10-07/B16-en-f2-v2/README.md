@@ -1,0 +1,3 @@
+# B16 F2 English v2
+
+11 selected native1254PNG:7original+4same-locale reuse;10ImageGen calls=7original+3corrective. C3 F2-A5 source hierarchy closed native/feed/main/mobile. Root content/artwork MESSAGE_ANCHOR_PASS / EDITORIAL_QA_PASS / PASS_SELF_REVIEW. All11 current feed333/main640/mobileCSS390 and reader desktop/mobile/return observed. Mobile heights vary844/900,reader923; exact physical pixel mapping/native-market/independent/PO/live certification not asserted. Historical holds retained. Canonical status sync/adoption pending; uncommitted local files, no main/push. See owned postgen-review-repair-v3.json, selected-copy.json and selected-prompts.json; built-in ImageGen only, raw PNG unchanged.

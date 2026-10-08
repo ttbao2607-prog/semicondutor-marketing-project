@@ -1,0 +1,12 @@
+{
+  "revision": "b18-rmk-bright-3-source-size-actual-review-v1",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "anchor_verdict": "MESSAGE_ANCHOR_PASS",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "original_sha256": "7de195f3534f2639d04873c69ce56a798f843baea5ab18eccd70d2b050bd0db4",
+  "observation": "Actual original native legal-name source is smaller than body, even though wording, Traditional headline/category and source proper-name preservation are correct. Source must be main text, not footnote. Same source/meaning/persona/scene; no added claim.",
+  "edit_instructions": "TARGETED SOURCE HIERARCHY EDIT ONLY. Reference1 is the actual defective target. Preserve exact approved Traditional headline/body/category/3/4 and logo once, exact original Simplified legal entity 上海晶丰明源半导体股份有限公司. ENLARGE both publisher and full legal-name source to at least body glyph height; full legal name MUST be 56px or more on1254canvas and use whole1120px text width. Put source on TWO full-width plain-white large paragraph lines below a much smaller scene; reserve bottom200px. Reduce scene to fit, never shrink legal name. Keep entire source visible and at least as large as body. No skyline/divider/icon/source box/ticks/data/new text/claims. Do not change any legal-name glyph to Traditional. Do not revert headline to 来自中国的.",
+  "acceptance": "Publisher and legal name at least body-sized, exact approved wording/category/counter/legal entity, no crop/regression; actual native and rendered reinspection required.",
+  "postgen": "POSTGEN_NOT_RUN"
+}

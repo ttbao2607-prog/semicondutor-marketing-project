@@ -1,0 +1,44 @@
+{
+  "revision": "fabless-b18-b19-20261008-v1",
+  "owner": "/root",
+  "batches": [
+    {
+      "batch": "B18",
+      "selected": "B18-zh-Hant-f2-v4",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "postgen": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/postgen-review.json",
+        "sha256": "aaf7812a3956c2f66426f530d604e89c55788eb9b8bbed2e09dc4bb1e7f0f6bc"
+      },
+      "counts": {
+        "selected": 11,
+        "original": 8,
+        "corrective": 5,
+        "actual_calls": 13,
+        "same_locale_raw_reuse": 3
+      }
+    },
+    {
+      "batch": "B19",
+      "selected": "B19-en-f3-v1",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "postgen": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/postgen-review.json",
+        "sha256": "d820edc3ca613da1f33265bfc062aaab3b804fa89ab59a3b2cd4520b4cc3f8ec"
+      },
+      "counts": {
+        "selected": 11,
+        "original": 6,
+        "corrective": 0,
+        "actual_calls": 6,
+        "same_locale_raw_reuse": 5
+      }
+    }
+  ],
+  "generation_remaining_queue": [
+    "B20",
+    "B21"
+  ],
+  "new_git": "Unstaged working files on owned source branch; no new commit/main/push/live.",
+  "source_reuse_followup": "B15 proof2 native confirmed Simplified headline contradicts prior Hant PASS; proof3 legal-name suspicion not confirmed on fresh native reinspection. Old/main bytes and historical receipts preserved."
+}

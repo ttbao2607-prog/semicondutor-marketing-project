@@ -1,0 +1,99 @@
+{
+  "artifact_status": "NATIVE_CONTENT_REVIEWED_RENDER_PARTIAL",
+  "business_message_observation": "FDI Operations coordinates with Quality using the lot, process stage, recording time, source record and confirmation owner before handoff. Implicit operational value, without ROI percentages, yield results, ERP-only outcome or synchronized-status promise. Traditional Chinese wording uses separately reviewed Taiwan operational terms; legal entity retains source Simplified glyphs.",
+  "card_reviews": [
+    {
+      "card_id": "COLD-OSAT-OPS-02-IMAGE",
+      "exact_text": "Observed native headline/body/header/sequence/applicable source and CTA checked against supplied script; no added printed data or exclamation.",
+      "scene": "Two neutral report folders and an owner pictogram around packaged chips; no record values or finished status."
+    },
+    {
+      "card_id": "O2-A1",
+      "exact_text": "Observed native headline/body/header/sequence/applicable source and CTA checked against supplied script; no added printed data or exclamation.",
+      "scene": "Shared lot and separate report perspectives, no root-cause diagnosis."
+    },
+    {
+      "card_id": "O2-A2",
+      "exact_text": "Observed native headline/body/header/sequence/applicable source and CTA checked against supplied script; no added printed data or exclamation.",
+      "scene": "Lot/process-stage/time pictograms compare basis; process icon shows a packaged chip, no wafer fab."
+    },
+    {
+      "card_id": "O2-A3",
+      "exact_text": "Observed native headline/body/header/sequence/applicable source and CTA checked against supplied script; no added printed data or exclamation.",
+      "scene": "Source document and handoff path, no data values or resolved state."
+    },
+    {
+      "card_id": "O2-A4",
+      "exact_text": "Observed native headline/body/header/sequence/applicable source and CTA checked against supplied script; no added printed data or exclamation.",
+      "scene": "Blank dashed confirmation gap stays pending; no tick or approval result."
+    },
+    {
+      "card_id": "O2-A5",
+      "exact_text": "Observed native headline/body/header/sequence/applicable source and CTA checked against supplied script; no added printed data or exclamation.",
+      "scene": "Five context/owner pictograms share a basis; source paragraph and CTA separate."
+    },
+    {
+      "card_id": "RMK-R4-1",
+      "exact_text": "Observed native headline/body/header/sequence/applicable source and CTA checked against supplied script; no added printed data or exclamation.",
+      "scene": "Generic company-introduction scene, no customer facility evidence."
+    },
+    {
+      "card_id": "RMK-R4-2",
+      "exact_text": "Observed native headline/body/header/sequence/applicable source and CTA checked against supplied script; no added printed data or exclamation.",
+      "scene": "China ERP+iMES scope preserved; packaged chip trays and neutral records, no geographic motifs."
+    },
+    {
+      "card_id": "RMK-R4-3",
+      "exact_text": "Observed native headline/body/header/sequence/applicable source and CTA checked against supplied script; no added printed data or exclamation.",
+      "scene": "Reused linked-record scene inspected in new O2 context; no inherited PASS."
+    },
+    {
+      "card_id": "RMK-R4-4",
+      "exact_text": "Observed native headline/body/header/sequence/applicable source and CTA checked against supplied script; no added printed data or exclamation.",
+      "scene": "Reused implementation reading CTA and China entity inspected in new O2 context."
+    }
+  ],
+  "findings": [
+    {
+      "card_id": "RMK-R4-1",
+      "severity": "OBSERVED_LAYOUT_VARIANCE",
+      "finding": "Source rendered white on blue lower band rather than requested white source block; source remains large, exact and readable in actual333px capture.",
+      "disposition": "No readability/anchor corrective triggered; layout variance retained, no claim of complete prompt-layout compliance."
+    }
+  ],
+  "render_coverage": {
+    "native_pngs": 10,
+    "desktop_feed333_cards": [
+      "COLD-OSAT-OPS-02-IMAGE",
+      "O2-A1",
+      "O2-A2",
+      "O2-A3",
+      "O2-A4",
+      "O2-A5",
+      "RMK-R4-1",
+      "RMK-R4-2",
+      "RMK-R4-3",
+      "RMK-R4-4"
+    ],
+    "desktop640": "Main-viewer cold top observed only; all-card coverage incomplete.",
+    "mobile": {
+      "actual_width": 390,
+      "actual_height": 844,
+      "reader": "Head, middle and source/return footer observed legible; source disclosure preserved.",
+      "main_viewer": "Cold top observed; all-card coverage incomplete.",
+      "additional_narrow_width": 434,
+      "additional_narrow_cards": [
+        "O2-A5",
+        "RMK-R4-2"
+      ]
+    },
+    "initial_failure": "Initial proof4 mobile screenshot timed out; later scoped captures succeeded. Timeout is not an image-content defect.",
+    "screenshots": "Actual CUA screenshots inspected in this session; no screenshot file artifact claimed."
+  },
+  "journey_review": {
+    "copy": "Cold/explanation captions/native headlines/alts and proof/reader source wording read in full.",
+    "transitions": "Nine Next actions observed counters2/10 through10/10; case-reader navigation and Traditional Chinese return observed.",
+    "source": "China linked-record/parameter-change/exception case supports inquiry, not proof of resolving conflicting status reports.",
+    "verdict": "Scoped semantic review; whole-render technical gate INSUFFICIENT_EVIDENCE."
+  }
+}

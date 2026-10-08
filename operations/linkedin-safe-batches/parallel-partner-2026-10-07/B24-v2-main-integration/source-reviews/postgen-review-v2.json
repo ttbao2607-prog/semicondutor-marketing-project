@@ -1,0 +1,299 @@
+{
+  "revision": "b24-postgen-v2",
+  "stage": "POSTGEN_ARTIFACT",
+  "reviewed_utc": "2026-10-08T02:19:42.057353+00:00",
+  "status": "PASS_ROOT_SCOPED_SELF_REVIEW",
+  "execution_status": "SUCCESS",
+  "MESSAGE_ANCHOR": "MESSAGE_ANCHOR_PASS",
+  "EDITORIAL_QA": "EDITORIAL_QA_PASS",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "branch": "slice/linkedin-safe-partner-parallel",
+  "persona": "Operations Manager, Vietnam FDI precision-component supplier for semiconductor equipment",
+  "locale": "zh-Hant",
+  "route": "Cold lot status -> five records/decision handoff explanation -> four Wafer Works silicon-materials case cards -> factory discussion reader",
+  "anchor_id": "VY-CONTENT-ANCHOR",
+  "anchor_revision": "1.0",
+  "anchors": [
+    {
+      "path": "operations/Vy_Email_Content_Anchor.md",
+      "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+    },
+    {
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-worktree-content-anchor-v2.md",
+      "sha256": "221e5a5facce74ae861a3874524b1c2814dac15cacafc580ddb6a34174fc88af"
+    },
+    {
+      "path": "landing/partner-route/supplier-ecosystem-flat.html",
+      "sha256": "d69c06b2a1f78e11b6087e6cd8580cab7d3bcd3c72ea71ce3dc1ec8964538f14"
+    }
+  ],
+  "A1_A7": {
+    "A1": "Industrial equipment-component supplier, not SI/software partner",
+    "A2": "Operations decision role explicit; actual prospect entity/system buying authority unknown",
+    "A3": "Separate FDI Traditional Taiwan voice, not domestic entry-to-chain translation",
+    "A4": "Record scope/source/reviewer/receiving decision supports useful planning; no numeric ROI/order/audit guarantee",
+    "A5": "N/A FDI, no domestic entry promise",
+    "A6": "ERP order/materials/planning/cost distinct from execution/lot/quality; source single silicon-materials case only, no connector certification",
+    "A7": "Cold question -> source/scope/responsibility -> local advice/transfer -> single Wafer Works international context -> own factory fit discussion. Vietnam local role not attributed as implementing Wafer Works."
+  },
+  "cards": [
+    {
+      "card_id": "B24-C1",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/assets/01-b24-c1.png",
+        "sha256": "ac56fffa00014f9ed369a59e0d6626a4c6167e969614508595f382daef7f8312"
+      },
+      "actual_native": "PASS_ROOT_SELF_REVIEW",
+      "exact_fields_reviewed": [
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "artwork_labels",
+        "scene"
+      ],
+      "observation": "C1 actual flange + blank records + tray, approved cold headline/body/供應商營運/CTA arrow; supplier planning trigger, no fake UI/data."
+    },
+    {
+      "card_id": "B24-E1",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/assets/02-b24-e1.png",
+        "sha256": "fa1f915d8abe9848a0fd7de18330b1cb5bae77e82e1ca84e3ed64d8b9814660e"
+      },
+      "actual_native": "PASS_ROOT_SELF_REVIEW",
+      "exact_fields_reviewed": [
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "artwork_labels",
+        "scene"
+      ],
+      "observation": "E1 一個批次。一項決策。 / 1/5: scope and receiving-team action; blank flange/folder/frame, no invented values."
+    },
+    {
+      "card_id": "B24-E2",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/assets/03-b24-e2.png",
+        "sha256": "0e7d0347fa66e81cbae2c3df0b792aa7208b11f361cec96983f56c75ff36a199"
+      },
+      "actual_native": "PASS_ROOT_SELF_REVIEW",
+      "exact_fields_reviewed": [
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "artwork_labels",
+        "scene"
+      ],
+      "observation": "E2 先核對來源，再確認狀態。 / 2/5: source/update/production scope; blank folios and declared arrows, no claimed integration outcome."
+    },
+    {
+      "card_id": "B24-E3",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/assets/04-b24-e3.png",
+        "sha256": "086d6dd6c05f3954376550ddbe475c8799c659454174eddc73e02d26cde1f6a1"
+      },
+      "actual_native": "PASS_ROOT_SELF_REVIEW",
+      "exact_fields_reviewed": [
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "artwork_labels",
+        "scene"
+      ],
+      "observation": "E3 誰核對？誰接收？ / 3/5: reviewer/receiver responsibility; Digiwin 越南團隊盤點工廠營運，並提供業務流程建議。 Separate local delivery role; frames/folder/flange."
+    },
+    {
+      "card_id": "B24-E4",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/assets/05-b24-e4.png",
+        "sha256": "dc53614a5d30020066937c24a0ed581229e93dee9ce8f42ed267ba76f12ad8e5"
+      },
+      "actual_native": "PASS_ROOT_SELF_REVIEW",
+      "exact_fields_reviewed": [
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "artwork_labels",
+        "scene"
+      ],
+      "observation": "E4 交接要有紀錄與分工。 / 4/5: evidence/responsibility, Digiwin Vietnam on-site solution transfer/factory acceptance; blank folio/tray/frame, no acceptance guarantee."
+    },
+    {
+      "card_id": "B24-E5",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/assets/06-b24-e5.png",
+        "sha256": "34127ae7d5aeb76df37ee677bbc71a626a6269a6b19bfb72912df2712b6ed95f"
+      },
+      "actual_native": "PASS_ROOT_SELF_REVIEW",
+      "exact_fields_reviewed": [
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "artwork_labels",
+        "scene"
+      ],
+      "observation": "E5 產業經驗。廠內流程適配。 / 5/5: Wafer Works evidence to own factory discussion; separate Digiwin semiconductor and Vietnam local service source lines; approved CTA with arrow."
+    },
+    {
+      "card_id": "B24-P1",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/assets/07-b24-p1.png",
+        "sha256": "95515f8dc921e08a38f4d49434a6bc3d3ea1e3536134c7532d4eeaef99e87a77"
+      },
+      "actual_native": "PASS_ROOT_SELF_REVIEW",
+      "exact_fields_reviewed": [
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "artwork_labels",
+        "scene"
+      ],
+      "observation": "P1 Wafer Works：半導體材料 / 半導體案例 1/4: crystal growth/wafer processing/epitaxy, 合晶科技 and 台灣 / 上海, single case, raw crystal/two wafer discs."
+    },
+    {
+      "card_id": "B24-P2",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/assets/08-b24-p2.png",
+        "sha256": "902f7e0337b3f94b9dffbe41723fb32bb71d893dcef9221343680e156b3eb1f3"
+      },
+      "actual_native": "PASS_ROOT_SELF_REVIEW",
+      "exact_fields_reviewed": [
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "artwork_labels",
+        "scene"
+      ],
+      "observation": "P2 追溯生產批次的脈絡。 / 半導體案例 2/4: silicon crystal linked to wafer lots, blank genealogy scene, two exact source lines."
+    },
+    {
+      "card_id": "B24-P3",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/assets/09-b24-p3.png",
+        "sha256": "4cf281103abaf979073492e21a076553743d017c498403a3a669e7aaa524485b"
+      },
+      "actual_native": "PASS_ROOT_SELF_REVIEW",
+      "exact_fields_reviewed": [
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "artwork_labels",
+        "scene"
+      ],
+      "observation": "P3 掌握進度與品質。 / 半導體案例 3/4: full approved body on progress/equipment/epitaxy history/quality parameter limits/risk alerts and exact two source lines. Wafer/history-folder/empty equipment frame/transparent sleeve only. Actual labels now present; no invented alert dashboard/data."
+    },
+    {
+      "card_id": "B24-P4",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/assets/10-b24-p4.png",
+        "sha256": "9720fbf1d1b679f35439d95ce09e24db71339a13d54139fc3ebd050f75e2bb90"
+      },
+      "actual_native": "PASS_ROOT_SELF_REVIEW",
+      "exact_fields_reviewed": [
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "artwork_labels",
+        "scene"
+      ],
+      "observation": "P4 將問題帶回廠內。 / 半導體案例 4/4: source Digiwin 半導體解決方案 / Wafer Works / 台灣 / 上海; own factory lot/decision/process discussion; 閱讀工廠討論指南 CTA, declared wafer/blank records/tray."
+    }
+  ],
+  "transitions": [
+    "C1->E1: shared status needs scope/decision",
+    "E1->E2: selected lot/decision needs source/update",
+    "E2->E3: source needs reviewer/receiver",
+    "E3->E4: roles need handoff evidence",
+    "E4->E5: local fit linked to industry experience",
+    "E5->P1: explicit silicon-materials case context",
+    "P1->P2: production context to lot genealogy",
+    "P2->P3: genealogy to execution/equipment/epitaxy quality context",
+    "P3->P4: case questions brought back to own factory",
+    "P4->reader: same supplier Operations role, local factory scope, correct locale, source/return/reload"
+  ],
+  "native_review": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/native-review-v2.json",
+    "sha256": "e8c8749aaa59872903587a0e089c98532f97124295eb193cf32e1a5ce752ff95"
+  },
+  "render_review": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/render-review-v2.json",
+    "sha256": "9ee42122b9fc8f181df69695f2c73c875d569f39c760d7a7a8398261bb9c1c13"
+  },
+  "repair_contract": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/repair-contract-v2.json",
+    "sha256": "7298d2d674b6c75aeb7587a20e4c40fb8772b69a38bf905ae9631118f9007839"
+  },
+  "binding": [
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/index.html",
+      "sha256": "0792c5861b77f23356d82d3b6c174d80c3c6b8d656d40326464bdedfce021110"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/case-reader.html",
+      "sha256": "faa6bb40df312e38e56985682950746601e997cde07848d100900eec2877e247"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/render-review.html",
+      "sha256": "ad3c369779f2a19dffbe832bf4e1dcd329f61fc61e68c101cdb7c8c92757904f"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/selected-copy.json",
+      "sha256": "4e5c8c351833e751eac5a66ce0be3d00501c67322a84d0aaca89598cd5717fe4"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/reader-copy.json",
+      "sha256": "6121bb7980c3438b12f8a9f400108b756709c384af6894172c6a9eb9ff4869dc"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/selected-origin-manifest.json",
+      "sha256": "08c2e26b0579d22b6a9b664886929537b058ab0a610508d8c9f0250bd3a47991"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v2/selected-prompts.json",
+      "sha256": "8598fd71466a5220dca44a8d557944fd5e7b00b4b53c07ed30df4182c90115ae"
+    }
+  ],
+  "finding": {
+    "known_B24_v1": "P3 missing mandatory category/sequence; old PASS contradicted actual image",
+    "current_v2": "CLOSED_SELECTED_V2_ONLY: exact B27 corrected P3 matches B24 approved text/labels/scene, reread in B24 full journey",
+    "source": {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/09-b27-p3.png",
+      "sha256": "4cf281103abaf979073492e21a076553743d017c498403a3a669e7aaa524485b"
+    },
+    "historical_receipt": {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v1/postgen-review-final-v1.json",
+      "sha256": "b69ef83b9f52eeb6a33acff425b6ae2b7a38deefeb3dde1bf6cf869c44b1ac19"
+    },
+    "historical_finding": {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/b27-b28-finding-closure-final-v1.json",
+      "sha256": "af8b1b26bd00860543cff0f4eee7419143f20df0b0b43eb61f71aa9c2e7c65ee"
+    },
+    "historical_policy": "No old image/receipt edits or retrospective v1 PASS"
+  },
+  "repair_calls": 0,
+  "repair_reuse_images": 1,
+  "unchanged_images": 9,
+  "exact390": "NOT_VERIFIED_APPROVED434_SUBSTITUTE",
+  "open_material_findings": [],
+  "open_scope_evidence_gaps": [],
+  "limits": [
+    "Root self-review, not independent/native-market certification",
+    "Not PO acceptance of new revision or live readiness",
+    "Working files only, not committed or merged; main still eight selected journeys",
+    "Proof rights/prospect authority/live operational gates remain separate"
+  ]
+}

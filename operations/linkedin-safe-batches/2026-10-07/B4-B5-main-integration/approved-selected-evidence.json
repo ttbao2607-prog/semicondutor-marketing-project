@@ -1,0 +1,264 @@
+{
+  "instruction": "commit checkpoint, merge B4-5 vào main.",
+  "authority": "PO_OFFLINE_SELECTED_LOCAL_MAIN_ADOPTION",
+  "source_checkpoint": "2252250a84707ffc4461d85b87531ff19f50add0",
+  "main_baseline": "8895a3ebce7ab3b815be4e005be03f571fd96d92",
+  "batches": [
+    {
+      "batch": "B4-en-o2-v1",
+      "manifest_sha256": "ec547c1410a635e36a10fe0bf2082bfcd180d8e71373c6230f35479d75a5d4ef",
+      "original_calls": 6,
+      "corrective_calls": 1,
+      "reused_pngs": 4,
+      "approval": {
+        "instruction": "commit checkpoint, merge B4-5 vào main.",
+        "status": "USER_ACCEPTED_CURRENT_OFFLINE_SELECTION_FOR_LOCAL_MAIN",
+        "manifest_sha256": "ec547c1410a635e36a10fe0bf2082bfcd180d8e71373c6230f35479d75a5d4ef",
+        "postgen_sha256": "6bf4cae57dff11f04732f98d6d2327ba35da9a6c8795b0f9c35760de12fb08c5",
+        "scope": "Checkpoint full local attempts; integrate selected10 final PNGs and viewer/reader/evidence only. Preserve original postcheck and rendering gaps.",
+        "technical_status": "REVIEW_DRAFT_RENDER_GATE_PENDING / INSUFFICIENT_EVIDENCE",
+        "push": false
+      },
+      "archival_review": "operations/linkedin-safe-batches/2026-10-07/B4-B5-main-integration/B4-en-o2-v1/postgen-review.json",
+      "selection": "10 final native PNGs; repaired selected files retained, attempt folders excluded"
+    },
+    {
+      "batch": "B5-zh-Hans-o2-v1",
+      "manifest_sha256": "d11a0678bdfcbb6486ecc780d60b3d492ffd04a01e2045558ef173a78413314d",
+      "original_calls": 8,
+      "corrective_calls": 1,
+      "reused_pngs": 2,
+      "approval": {
+        "instruction": "commit checkpoint, merge B4-5 vào main.",
+        "status": "USER_ACCEPTED_CURRENT_OFFLINE_SELECTION_FOR_LOCAL_MAIN",
+        "manifest_sha256": "d11a0678bdfcbb6486ecc780d60b3d492ffd04a01e2045558ef173a78413314d",
+        "postgen_sha256": "5f59275bd9c9fc67ab632069b44e99090c3b8a9f3842c926d1560b04dd04c2c5",
+        "scope": "Checkpoint full local attempts; integrate selected10 final PNGs and viewer/reader/evidence only. Preserve original postcheck and rendering gaps.",
+        "technical_status": "REVIEW_DRAFT_RENDER_GATE_PENDING / INSUFFICIENT_EVIDENCE",
+        "push": false
+      },
+      "archival_review": "operations/linkedin-safe-batches/2026-10-07/B4-B5-main-integration/B5-zh-Hans-o2-v1/postgen-review.json",
+      "selection": "10 final native PNGs; repaired selected files retained, attempt folders excluded"
+    }
+  ],
+  "total_selected_pngs": 20,
+  "selected_files": [
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/assets/01-cold-osat-ops-02-image.png",
+      "sha256": "db1dc65c7b7155f8bd6e051a18be50750abbecde0d9f7524709bccd173df204f",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/assets/02-o2-a1.png",
+      "sha256": "c74e3c1132218fc410ace898e8e05b49b99d26a856c823b78d942011b5e23362",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/assets/03-o2-a2.png",
+      "sha256": "1c0762de347eda55d806db60370df12471f89096e31486951b420f340429d6ed",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/assets/04-o2-a3.png",
+      "sha256": "3883f1465d3ec16863169c139836f5dd24abfbd5e3dde8f804975451d4890ffa",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/assets/05-o2-a4.png",
+      "sha256": "3572ee61ed6be7847a7ef41c6afa55de5a1374414a1ad995b09527fa56a22c19",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/assets/06-o2-a5.png",
+      "sha256": "53374ea24c17e91b442eb1f209ff3912b2a73e29771d8da0c354fdaaf98d8734",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/assets/07-rmk-r4-1.png",
+      "sha256": "ce19bf68a01533a6e19a05c7f971376ad15b207556a602bcab1bdbcb2d47cdd9",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/assets/08-rmk-r4-2.png",
+      "sha256": "1bb450fedc473bc4e45b6cb6920335e6fe40cbec61f2d9ff40a0ec23faea9172",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/assets/09-rmk-r4-3.png",
+      "sha256": "c67fde5114959a063c2a1dd088e5d2dc0c3acceebeeb0ac80b6e71e3ec5ef1ca",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/assets/10-rmk-r4-4.png",
+      "sha256": "d0c3c8864664f842e16cf8f2f5ff98955111dbad3549667ad10df0e28699ac48",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/index.html",
+      "sha256": "00af2da27b66d48047d14c3a3a0561ef0865590f8d09312861bab8effad40aca",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/case-reader.html",
+      "sha256": "a6f2229602e264f0e092cec9dc867d717efc5deaa0a747484a4a920f1653dfb2",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/selected-copy.json",
+      "sha256": "334b63cc4480f9260e6bd4dfeb566da3bc8c9135dbd5d09cbabb31417400dad2",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/selected-prompts.json",
+      "sha256": "ceab2f4753a5691e8ff1a790171c562adec80834d5b23aa0b5541af1f3f6419e",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/manifest.json",
+      "sha256": "ec547c1410a635e36a10fe0bf2082bfcd180d8e71373c6230f35479d75a5d4ef",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "operations/linkedin-safe-batches/2026-10-07/B4-B5-main-integration/B4-en-o2-v1/postgen-review.json",
+      "sha256": "6bf4cae57dff11f04732f98d6d2327ba35da9a6c8795b0f9c35760de12fb08c5",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "operations/linkedin-safe-batches/2026-10-07/B4-B5-main-integration/B4-en-o2-v1/po-main-acceptance-2026-10-07.json",
+      "sha256": "fe564ca44bd98ce3a21c55cad515d3a83a48774609b6c25a4858bc17c8cb7b3c",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "operations/linkedin-safe-batches/2026-10-07/B4-B5-main-integration/B4-en-o2-v1/preview-closeout.json",
+      "sha256": "e2d4e17980669dd74ea8f951b258438b7c590cd58c966203fa8419cf335371e8",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/README.md",
+      "sha256": "0e9fbc4b8a098d1e96aa61333659adf00dd96fe0ecc8016c14ee00d191d46a86",
+      "preserved_source_bytes": false
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/assets/01-cold-osat-ops-02-image.png",
+      "sha256": "7584a8cd1b44d7282e3105892ac74219a00ceb39b81439965837381bc9735eb9",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/assets/02-o2-a1.png",
+      "sha256": "e2c08e266687673ea75932f6ca4f232f702aa3fcab51d803222f00637022226e",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/assets/03-o2-a2.png",
+      "sha256": "c4504f62355059fa2e43ab7a348df629a761b6250f6f1b95f204859c4a270790",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/assets/04-o2-a3.png",
+      "sha256": "67369125b941d189f05da03a3db7b12c90d5c9ce1d9a86033172b7638fe763d9",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/assets/05-o2-a4.png",
+      "sha256": "80a0395135c4d1edd0bd7830198adc42f339d4b0f3247045a50bc256746a1a0d",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/assets/06-o2-a5.png",
+      "sha256": "b4dc6787bac8aa46ea1a108b8944af285e462d33c2aafd72871495137a3e004b",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/assets/07-rmk-r4-1.png",
+      "sha256": "2281c078328ce853104cabc2e78cd995689ca41269ff584f2598edee11586936",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/assets/08-rmk-r4-2.png",
+      "sha256": "7c0cdae5f09f2ad72f8934b7aa9f290adb7df29b44f95135e4651cb92d540649",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/assets/09-rmk-r4-3.png",
+      "sha256": "4b71a3a7e03a4842148bd2d3b6fcfbaac4262f5a00088d96db530060488e9b13",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/assets/10-rmk-r4-4.png",
+      "sha256": "4c73bd9ace014bb03b31d30e1b282726d76195954840675468371a25d47ada7c",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/index.html",
+      "sha256": "38e3a8b3e0afb2462ffcc518fe770edd6615ddef33944a8eb78597c3bc997b49",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/case-reader.html",
+      "sha256": "4d22a3fc958f13f7d0b2e43d4cb767d725fccfc8466ac8b8003081e9049cca13",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/selected-copy.json",
+      "sha256": "8572848b067cf9a01d03a48df42c955ac7a3e5459a4e75dab09fe75e49cdea6d",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/selected-prompts.json",
+      "sha256": "d7535cc9ae7373fb79efd1654d706258116b04e3d2ee2bb9c3790c2d5f3fd7e4",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/manifest.json",
+      "sha256": "d11a0678bdfcbb6486ecc780d60b3d492ffd04a01e2045558ef173a78413314d",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "operations/linkedin-safe-batches/2026-10-07/B4-B5-main-integration/B5-zh-Hans-o2-v1/postgen-review.json",
+      "sha256": "5f59275bd9c9fc67ab632069b44e99090c3b8a9f3842c926d1560b04dd04c2c5",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "operations/linkedin-safe-batches/2026-10-07/B4-B5-main-integration/B5-zh-Hans-o2-v1/po-main-acceptance-2026-10-07.json",
+      "sha256": "4417ce995c7204e729a3e001d9fc8ef566f809180c487f9d22aad6be823f678d",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "operations/linkedin-safe-batches/2026-10-07/B4-B5-main-integration/B5-zh-Hans-o2-v1/preview-closeout.json",
+      "sha256": "c1d604339abe0ccde378304fd8b826716dbe86eed623562789406325cff07531",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "operations/linkedin-safe-batches/2026-10-07/B4-B5-main-integration/B5-zh-Hans-o2-v1/actual-review-observations.json",
+      "sha256": "0fb2683c78e7d1ff119f2964227c8b2ec89e88f54941a96d77036df556277495",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "operations/linkedin-safe-batches/2026-10-07/B4-B5-main-integration/B5-zh-Hans-o2-v1/Bao_Review_Vietnamese.md",
+      "sha256": "5c4c9fab2a10b8416c052053a0dfbc1968742fab797bcafa566513a252212457",
+      "preserved_source_bytes": true
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/README.md",
+      "sha256": "4702963684aac37d4fcaf5c663cb5fed1bd5c5f757748962cc2c4a20d9133269",
+      "preserved_source_bytes": false
+    }
+  ],
+  "current_main_anchor_binding": [
+    {
+      "path": "operations/Vy_Email_Content_Anchor.md",
+      "source_sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+      "main_sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+      "semantic_compare": "UTF8/newline-normalized identical; no anchor content change"
+    },
+    {
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "source_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+      "main_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+      "semantic_compare": "UTF8/newline-normalized identical; no anchor content change"
+    }
+  ],
+  "technical_verdict": "INSUFFICIENT_EVIDENCE",
+  "independence": "ROOT_SELF_REVIEW",
+  "push": false
+}

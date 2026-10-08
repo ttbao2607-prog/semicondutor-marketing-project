@@ -1,0 +1,27 @@
+{
+  "canonical_updated": [
+    "CURRENT_STATE.md",
+    "README.md",
+    "DOCS_IMPACT_MAP.md",
+    "ads/linkedin/LinkedIn_Build_Pack.md",
+    "operations/Pre_Ad_Readiness_Plan.md",
+    "operations/LinkedIn_Safe_Batch_Execution_Plan_2026-10-06.md"
+  ],
+  "source_checkpoint": "f987a5035847980fc35275243d05893b864ccb73",
+  "main_baseline": "b2694b4ea9b556bb28562b1b22f10edefa1493e3",
+  "scope": "Current offline adoption only. Existing VN/account/measurement bodies preserved. Historical findings and adapter/freeze truth unchanged.",
+  "anchor_binding": [
+    {
+      "path": "operations/Vy_Email_Content_Anchor.md",
+      "source_sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+      "main_sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+      "semantic_compare": "UTF8/newline-normalized identical; no anchor content change"
+    },
+    {
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "source_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+      "main_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+      "semantic_compare": "UTF8/newline-normalized identical; no anchor content change"
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+> **B16 Vietnam service source registration - 2026-10-08:** Official Huakun Vietnam ERP case page https://www.digiwin.com.vn/casestudies/huakun-electronic-viet-nam-san-xuat-thong-minh-digiwin-erp/ supports Vietnam consulting/implementation service context only. [Pinned source review](linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/vietnam-team-source.json) preserved from d622287; no fresh web retrieval asserted in this merge. Not evidence of team size, local Fabless delivery, semiconductor deployment or forecast/ROI outcome. Existing paid-use and live gates remain separate.
+
 # Public Source Register
 
 **Access date:** 2026-09-11 (Asia/Ho_Chi_Minh)

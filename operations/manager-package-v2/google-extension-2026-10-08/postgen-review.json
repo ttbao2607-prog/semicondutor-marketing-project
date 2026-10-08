@@ -1,0 +1,170 @@
+{
+  "stage": "POSTGEN_ARTIFACT",
+  "date": "2026-10-08",
+  "reviewer": "Codex root",
+  "independence": "SELF_REVIEW; no PO/native-market/independent certification",
+  "scope": "Manager package Google extension only. VI+zh-Hant manager prose; vi/en/zh-Hans/zh-Hant keyword references; existing destinations used as references, not newly accepted source ads/landing claims. No image generation or live actions.",
+  "branch": "slice/linkedin-package-v2-google-2026-10-08",
+  "binding": {
+    "anchor": {
+      "id": "VY-CONTENT-ANCHOR",
+      "revision": "1.0",
+      "path": "operations/Vy_Email_Content_Anchor.md",
+      "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+    },
+    "email": {
+      "id": "VY-MAIL-USER-20261006",
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+    },
+    "pov": {
+      "id": "PACKAGE-V2-WORKFLOW",
+      "revision": "1.1",
+      "sha256": "175819419af849498c6d93e7be29af703acd6aa4b98dac3a443315526091b0a6"
+    }
+  },
+  "copy_script_sha256": "d660d9c1931c526394c75a3187aa756c42d8e12b46ed31d6948b65872c62c3da",
+  "observations": [
+    {
+      "unit": "hero/budget",
+      "rules": [
+        "A1",
+        "A3",
+        "A7"
+      ],
+      "observed": "Đón người đang tìm giải pháp cho nhà máy / 接住正在尋找工廠管理解決方案的人; optional <=500000 inside11700000, no new executive question",
+      "disposition": "MATCH"
+    },
+    {
+      "unit": "hypothesis, both locales",
+      "rules": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ],
+      "observed": "VN ERP/hồ sơ/quy trình/dữ liệu prepares for supply-chain customer requirements; FDI lot/WIP/quality/outsource -> time/responsibility/risk; Search query intent separated from LinkedIn company lists and nationality",
+      "disposition": "MATCH"
+    },
+    {
+      "unit": "OSAT card + actual screenshot",
+      "rules": [
+        "A1",
+        "A4",
+        "A6",
+        "A7"
+      ],
+      "observed": "Truy xuất lot, dữ liệu kiểm thử và tiến độ WIP; ERP vs iMES explicitly scoped; screenshot operational questions, no invented metric/proof",
+      "disposition": "MATCH"
+    },
+    {
+      "unit": "Fabless card + actual screenshot",
+      "rules": [
+        "A1",
+        "A4",
+        "A6",
+        "A7"
+      ],
+      "observed": "WIP gia công ngoài, lịch giao, lot và phối hợp giá thành; screenshot Goods are not yet in stock. Decisions still need to be made.",
+      "disposition": "MATCH"
+    },
+    {
+      "unit": "Supplier card + actual screenshot",
+      "rules": [
+        "A1",
+        "A3",
+        "A4",
+        "A6",
+        "A7"
+      ],
+      "observed": "PCB, linh kiện, vật liệu / 工業供應商; ERP/MES/equipment layers scoped. Screenshot audience-context of existing route, industrial scope explicit despite broader source header",
+      "disposition": "MATCH_WITH_SOURCE_SCOPE"
+    },
+    {
+      "unit": "keyword panels +8locale text files",
+      "rules": [
+        "A1",
+        "A3",
+        "A6",
+        "A7"
+      ],
+      "observed": "All7VIterms proposed/unqueried; EN/Hans/Hant first4+brand backed by30Sep receipt;8Supplier terms newly proposed/unqueried; no SI partner default. VI WIP wording corrected to quản lý WIP gia công ngoài bán dẫn. Download8files read. No borrowed volume.",
+      "disposition": "MATCH_AFTER_PREGEN_CORRECTION"
+    },
+    {
+      "unit": "tracking",
+      "rules": [
+        "A6",
+        "A7"
+      ],
+      "observed": "Existing section_view/time distinguished from planned new-probe attribution checks; consultation click distinct from valid lead; no invented success event or bidding configuration",
+      "disposition": "MATCH"
+    },
+    {
+      "unit": "probe/measurement/decision",
+      "rules": [
+        "A3",
+        "A4",
+        "A7"
+      ],
+      "observed": "All visible queries in samecohort reviewed; clickweighted intent + coverage; unclear bucket; cost/engagedsession explicitdivision; GA4 compared by cohort, not deterministic query-to-user join; thin-data holdbudget option.",
+      "disposition": "MATCH"
+    },
+    {
+      "unit": "12wrapper changes +3MD+readme",
+      "rules": [
+        "A1",
+        "A3",
+        "A7"
+      ],
+      "observed": "Light Google link and short hypothesis preserve3budgetquestions, original17journeys170PNGs/workbook/evidence and existing VI peer / zh-Hant 我你 voice",
+      "disposition": "MATCH"
+    },
+    {
+      "unit": "transitions",
+      "rules": [
+        "A7"
+      ],
+      "observed": "Hypothesis -> relevant intent -> route and4locale link -> tracking -> measurement -> decision -> existing3budgetquestions. Documentary screenshots and online links not new full landing release",
+      "disposition": "MATCH_SCOPED"
+    }
+  ],
+  "proof": "No new customer outcome claims. Screenshots are actual public operational sections captured08Oct; full landing sources immutable and prior acceptance remains separately scoped.",
+  "postgen": "Actual246files reviewed;12wrappers+3MD+DOC_TRUOC changed;13newGooglefiles;217oldfiles byte-preserved.",
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "content_status": "DRAFT_READY_FOR_PO_REVIEW",
+  "artifact_manifest": "package-manifest.json",
+  "artifact_manifest_sha256": "c491abb9fd2a8af9525d0e1a84586d14bf12997620db5b9b9d031c4d37721d93",
+  "refinement": "After initial rendering, VI WIP wording was made natural; probe explicitly reviews all visible queries; cost/engaged-session formula made explicit in both locales. These are actual finished-copy observations, not retroactive PREGEN acceptance. Original PREGEN receipt preserved.",
+  "browser": {
+    "desktop": {
+      "actual_css_width": 1707,
+      "images_loaded": 3,
+      "screenshot_review": [
+        "google-tab-vi-desktop.png",
+        "google-tab-final-desktop.png",
+        "google-tab-zh-measurement-desktop.png"
+      ],
+      "observed": "3routecards readable, screenshots load, locale switch carries #landing; Chinese measurement reviewed from actual saved screenshot."
+    },
+    "narrow": {
+      "actual_css_widths": [
+        417,
+        667
+      ],
+      "document_widths": [
+        400,
+        650
+      ],
+      "observed": "Actual browser DOM/layout shows one-column cards and stacked labeled table cells; English details opened from Chinese page; no horizontal document overflow.",
+      "visual_screenshot_status": "INSUFFICIENT_EVIDENCE: Page.captureScreenshot timed out under viewport override. Not a mobile screenshot PASS.",
+      "override": "Reset and reload confirmed1707px."
+    },
+    "interaction": "Home -> Google works; vi -> zh-Hant -> vi works; English keyword accordion opens. Downloads and relative references resolved statically.",
+    "boundary": "No live account, CTA or form actions. Screenshots of existing public pages only; source claims and all12publiclocale runtime combinations not re-certified."
+  },
+  "editorial": "Manager prose keeps Bảo/Vy peers inVI, 我/你 inTraditionalChinese. No Git/agent integrity words in changed reader surfaces or keyword text. No extra budget questions. No new demand/CPC/ROI/lead-performance claims.",
+  "technical_scope": "Desktop visual, source/semantic and narrow DOM observations. Full narrow visual screenshot check remains limited. Old creative/runtime verdicts not upgraded.",
+  "diff_check": "PASS; original unchanged lines retained, revised/inserted lines LF. No semantic content change from reviewed browser render."
+}

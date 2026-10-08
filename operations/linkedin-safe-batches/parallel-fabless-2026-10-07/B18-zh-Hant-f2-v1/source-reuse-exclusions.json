@@ -1,0 +1,19 @@
+{
+  "revision": "b18-source-reuse-exclusions-v1",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "findings": [
+    {
+      "source": "B15-zh-Hant-f1-v3/assets/09-rmk-bright-2.png",
+      "observed": "Headline 来自中国的 is Simplified instead of approved 來自中國的; category/body Traditional. Reject exact reuse. Historical PASS is contradicted for this source unit.",
+      "status": "CONFIRMED_NATIVE"
+    },
+    {
+      "source": "B15-zh-Hant-f1-v3/assets/10-rmk-bright-3.png",
+      "observed": "Suspected legal-name glyph normalization in raster; original source must stay 上海晶丰明源半导体股份有限公司. Do not inherit old PASS; rebuild with explicit exact-name instruction.",
+      "status": "NOT_CONFIRMED_ON_FRESH_NATIVE_REINSPECTION",
+      "reinspection": "Fresh full original1254 raster shows 上海晶丰明源半导体股份有限公司 matching source literal; earlier verbal claim of wrong glyph was too certain and is withdrawn. New B18 proof3 remains valid independently generated source-size repair."
+    }
+  ],
+  "action": "Create new B18 proofs2/3 within11original cap; preserve source/history and flag coordinator. No B15 mutation/main change in this task."
+}

@@ -1,0 +1,147 @@
+{
+  "revision": "osat-postgen-root-review-v1",
+  "batch": "B8-zh-Hans-o4-o-v1",
+  "generation_status": "COMPLETE_WITHIN_CAP",
+  "execution_status": "PARTIAL",
+  "audit_verdict": "INSUFFICIENT_EVIDENCE",
+  "artifact_status": "NATIVE_CONTENT_REVIEWED_RENDER_PARTIAL",
+  "final_anchor_status": "INSUFFICIENT_EVIDENCE",
+  "reviewer": "/root",
+  "independence": "ROOT_SELF_REVIEW",
+  "native_market_review": "NOT_PERFORMED",
+  "runtime_model_effort": "NOT_OBSERVED",
+  "persona": "Operations Manager coordinating lot-record handoffs with Quality at an eligible FDI packaging/testing entity",
+  "route": "offline cold -> O4-O three handoff questions -> China linked-record implementation -> zh-Hans reader with Chinese sources",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "revision": "1.0",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+  },
+  "email": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "original": 3,
+  "corrective": 0,
+  "total_imagegen": 3,
+  "reused_pngs": 7,
+  "selected": 10,
+  "selected_manifest_sha256": "65962b50a966a02e93ab66250e837982b0e17afd2ac57f7fc90376144e1137a9",
+  "attempt_ledger_sha256": "d845984c9e2424670a4d0e2b13d06243076ba6dad75a768288c72a3c335d09ac",
+  "actual_review_observations_sha256": "54ee289545d6870455f4a1f9d3606942805ceb551675ac1147fe515c486ee18e",
+  "frozen_pins_verified": 24,
+  "adapter_status": "DEVELOPING / NOT_FROZEN",
+  "business_message_observation": "FDI Operations with Quality: three questions check report scope, source record and missing-information owner before handoff. Implicit operational value matches Vy anchor; no mandatory literal ROI, numeric ROI, yield result, ERP-only outcome or automatic status synchronization. Locale terminology reviewed separately; named China legal entity retains original Simplified glyphs.",
+  "source_scope": "Taiwan solution material remains distinct from the named China integrated ERP+iMES case. MES linked records and exception escalation support inquiry, not a guarantee of resolving conflicting lot status. Historical O2 month-close case-pair HOLD remains separate.",
+  "card_reviews": [
+    {
+      "card_id": "COLD-OSAT-OPS-02-IMAGE",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Neutral folders, packaged chips and owner/handoff context; no finished lot status.",
+      "selected_sha256": "7584a8cd1b44d7282e3105892ac74219a00ceb39b81439965837381bc9735eb9"
+    },
+    {
+      "card_id": "O4-O-B1",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Shared packaged-chip lot with separate report perspectives; no root-cause claim.",
+      "selected_sha256": "e2c08e266687673ea75932f6ca4f232f702aa3fcab51d803222f00637022226e"
+    },
+    {
+      "card_id": "O4-O-B2",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Lot/process/time comparison symbols and neutral report folders; no printed record values.",
+      "selected_sha256": "6902a760d7afde99e8cc2d789b49370f542cda1d19eb53c6cdf3b09549211d4d"
+    },
+    {
+      "card_id": "O4-O-B3",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Source document points to receiving folder; no resolved-state promise.",
+      "selected_sha256": "53420c245feab575eda1a245e7b0b0e4fe4d99845124b95676c05922c0dba725"
+    },
+    {
+      "card_id": "O4-O-B4",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Blank confirmation area and shipment context stay pending; no approval tick.",
+      "selected_sha256": "b13c68ea41df95032a08b1dfa1b5a7aabfa3217c9e62609721af1ba67ec22ceb"
+    },
+    {
+      "card_id": "O4-O-B5",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Context/source/owner symbols support handoff; Taiwan solution source separate from China proof.",
+      "selected_sha256": "b4dc6787bac8aa46ea1a108b8944af285e462d33c2aafd72871495137a3e004b"
+    },
+    {
+      "card_id": "RMK-R4-1",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Generic Digiwin company introduction; no customer facility claim.",
+      "selected_sha256": "2281c078328ce853104cabc2e78cd995689ca41269ff584f2598edee11586936"
+    },
+    {
+      "card_id": "RMK-R4-2",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Named China ERP+iMES case; packaged-chip/record scene, no case-location embellishment.",
+      "selected_sha256": "7c0cdae5f09f2ad72f8934b7aa9f290adb7df29b44f95135e4651cb92d540649"
+    },
+    {
+      "card_id": "RMK-R4-3",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Linked-record inquiry scene; does not promise automatic reconciliation of conflicting status.",
+      "selected_sha256": "4b71a3a7e03a4842148bd2d3b6fcfbaac4262f5a00088d96db530060488e9b13"
+    },
+    {
+      "card_id": "RMK-R4-4",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Read implementation CTA, exact source legal entity and China scope.",
+      "selected_sha256": "4c73bd9ace014bb03b31d30e1b282726d76195954840675468371a25d47ada7c"
+    }
+  ],
+  "findings": [],
+  "render_coverage": {
+    "native_pngs": 10,
+    "desktop_feed333_cards": [
+      "COLD-OSAT-OPS-02-IMAGE",
+      "O4-O-B1",
+      "O4-O-B2",
+      "O4-O-B3",
+      "O4-O-B4",
+      "O4-O-B5",
+      "RMK-R4-1",
+      "RMK-R4-2",
+      "RMK-R4-3",
+      "RMK-R4-4"
+    ],
+    "desktop640": "Whole-card coverage not captured.",
+    "mobile": {
+      "status": "INCOMPLETE",
+      "reason": "Screenshot capture timed out; DOM dimensions alone do not establish visual readability.",
+      "actual_width": 390,
+      "actual_height": 844,
+      "actual_art_width": 347.5556
+    },
+    "reader": "Desktop head observed. Footer screenshot coverage not established."
+  },
+  "journey_review": {
+    "next_counters": [
+      "2 / 10",
+      "3 / 10",
+      "4 / 10",
+      "5 / 10",
+      "6 / 10",
+      "7 / 10",
+      "8 / 10",
+      "9 / 10",
+      "10 / 10"
+    ],
+    "reader_navigation": "Actual link clicked; correct locale reader observed.",
+    "reader_return": "Actual locale return link clicked; index URL observed.",
+    "live_platform": "NOT_TESTED"
+  },
+  "unknowns": [
+    "Target entity and local ERP decision authority not verified.",
+    "Public proof rights and live-platform readiness not certified.",
+    "Incomplete whole-mobile/desktop640 evidence prevents whole-journey technical PASS."
+  ],
+  "po_status": "PENDING_REVIEW",
+  "git_status": "Owned OSAT working files only; uncommitted, not merged, not pushed.",
+  "stop": "Two-batch mandate; stop before B10."
+}

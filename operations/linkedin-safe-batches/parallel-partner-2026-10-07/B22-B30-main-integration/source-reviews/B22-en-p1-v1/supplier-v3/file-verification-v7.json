@@ -1,0 +1,157 @@
+{
+  "revision": "b22-file-verification-v7",
+  "verified_utc": "2026-10-07T05:34:54.399183+00:00",
+  "status": "PASS",
+  "actual_calls": 18,
+  "original_calls": 10,
+  "corrective_calls": 8,
+  "additional_corrective_calls": 6,
+  "new_raw_outputs": 18,
+  "selected_candidates": 10,
+  "selected_new_in_additional_correction": 5,
+  "retained_from_prior_b22": 5,
+  "reused_external_assets": 0,
+  "po_accepted_assets": 0,
+  "native_outputs": 18,
+  "native_dimensions": [
+    1254,
+    1254
+  ],
+  "native_png_byte_preserved": true,
+  "selected_copies_exact_origin_bytes": true,
+  "frozen_files": 24,
+  "original_protected_files": 198,
+  "protected_unchanged": true,
+  "AGENTS_original_bytes_preserved": true,
+  "fresh_guard_receipts": [
+    {
+      "call_id": "B22-E5_ORIGINAL_V3",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/explanation/release-v3/closing/dispatch/B22-E5_ORIGINAL_V3-preflight.json",
+      "sha256": "075dac57f349f4ed1f3a160c775b7c12ded1ff15d3985c26410e71ba7eb938da",
+      "status": "PREGEN_INPUTS_VERIFIED"
+    },
+    {
+      "call_id": "B22-E5_CORRECTIVE_V4",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/explanation/release-v4/closing/dispatch/B22-E5_CORRECTIVE_V4-preflight.json",
+      "sha256": "90cb712a440043de3f1ae73c0b6d8e9b5c5c90bb019075f999ad779faeb78152",
+      "status": "PREGEN_INPUTS_VERIFIED"
+    },
+    {
+      "call_id": "B22-P4_ORIGINAL_V4",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/proof/release-v4/closing/dispatch/B22-P4_ORIGINAL_V4-preflight.json",
+      "sha256": "781012a79e7153d4f3dbadd7b96c4d725ec5caec25e413f731bb58df93f07030",
+      "status": "PREGEN_INPUTS_VERIFIED"
+    },
+    {
+      "call_id": "B22-C1_ORIGINAL_V4",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/cold/release-v4/campaign/dispatch/B22-C1_ORIGINAL_V4-preflight.json",
+      "sha256": "36862136deba0c3839d90da0b686990bd4cb93ad4306cb770dc3e53daea39944",
+      "status": "PREGEN_INPUTS_VERIFIED"
+    },
+    {
+      "call_id": "B22-E1_ORIGINAL_V4",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/explanation/release-v4/campaign/dispatch/B22-E1_ORIGINAL_V4-preflight.json",
+      "sha256": "21445a2a17740e5f6ca89ed0bf2a5dbdc628317fbb933c1b8dc0740e95447446",
+      "status": "PREGEN_INPUTS_VERIFIED"
+    },
+    {
+      "call_id": "B22-E2_ORIGINAL_V4",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/explanation/release-v4/campaign/dispatch/B22-E2_ORIGINAL_V4-preflight.json",
+      "sha256": "cd90757695b958f41119e613f29981ed99e122c437de2fa426b7cd38808a290e",
+      "status": "PREGEN_INPUTS_VERIFIED"
+    },
+    {
+      "call_id": "B22-E3_ORIGINAL_V4",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/explanation/release-v4/campaign/dispatch/B22-E3_ORIGINAL_V4-preflight.json",
+      "sha256": "731260e28412d9dbca0fee8a057fd9355e55fce7855d755d2d11391018718e6c",
+      "status": "PREGEN_INPUTS_VERIFIED"
+    },
+    {
+      "call_id": "B22-E3_CORRECTIVE_V5",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/explanation/release-v5/campaign/dispatch/B22-E3_CORRECTIVE_V5-preflight.json",
+      "sha256": "b7ad4fc1374ec4d3b71ec26552b0aa9ba1a7d91482c79a2ce304c23a232c65e7",
+      "status": "PREGEN_INPUTS_VERIFIED"
+    },
+    {
+      "call_id": "B22-E4_ORIGINAL_V5",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/explanation/release-v5/campaign/dispatch/B22-E4_ORIGINAL_V5-preflight.json",
+      "sha256": "e2dd5f66dac6519647f199eb36890a5aad176146e1d90eed2b46cc08c95b5640",
+      "status": "PREGEN_INPUTS_VERIFIED"
+    },
+    {
+      "call_id": "B22-P1_ORIGINAL_V4",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/proof/release-v4/campaign/dispatch/B22-P1_ORIGINAL_V4-preflight.json",
+      "sha256": "f6f02caeecce82c2d8d49ca361668e19d08fff6f23a2975c3a61561ca7cd8610",
+      "status": "PREGEN_INPUTS_VERIFIED"
+    },
+    {
+      "call_id": "B22-P2_ORIGINAL_V4",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/proof/release-v4/campaign/dispatch/B22-P2_ORIGINAL_V4-preflight.json",
+      "sha256": "159e550fe3d9b0681c1ab4c4812d4523b5c4b910dc671a0071e9ff7ed2a4b83c",
+      "status": "PREGEN_INPUTS_VERIFIED"
+    },
+    {
+      "call_id": "B22-P3_ORIGINAL_V6",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/proof/release-v6/campaign/dispatch/B22-P3_ORIGINAL_V6-preflight.json",
+      "sha256": "dfbc32706498bcc0b20c2f8d3538cb131fef988a8004bc056c9833d3e12dfafb",
+      "status": "PREGEN_INPUTS_VERIFIED"
+    },
+    {
+      "call_id": "B22-E2_CORRECTIVE_V7",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/explanation/release-v7/campaign/dispatch/B22-E2_CORRECTIVE_V7-preflight.json",
+      "sha256": "f8f39656996f167b5cfdef7357bf3aaa78f273c6c49d17110beb607ce83b3ff3",
+      "status": "PREGEN_INPUTS_VERIFIED"
+    },
+    {
+      "call_id": "B22-E4_CORRECTIVE_V7",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/explanation/release-v7/campaign/dispatch/B22-E4_CORRECTIVE_V7-preflight.json",
+      "sha256": "eacfd77c771c144cc3e9b23bd974b6c02ed9025dbc804b857914aa020aa6f48f",
+      "status": "PREGEN_INPUTS_VERIFIED"
+    },
+    {
+      "call_id": "B22-P1_CORRECTIVE_V7",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/proof/release-v7/campaign/dispatch/B22-P1_CORRECTIVE_V7-preflight.json",
+      "sha256": "cdd249e36c42b670090f7f03e14fae4c8c91eb0e6b704bd25d1bb0f857fc05d1",
+      "status": "PREGEN_INPUTS_VERIFIED"
+    },
+    {
+      "call_id": "B22-P2_CORRECTIVE_V7",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/proof/release-v7/campaign/dispatch/B22-P2_CORRECTIVE_V7-preflight.json",
+      "sha256": "c0633136860b6336fb2fb4f69e67bd5f6832e5bbca0775159cf2180b19c432e0",
+      "status": "PREGEN_INPUTS_VERIFIED"
+    },
+    {
+      "call_id": "B22-E1_CORRECTIVE_V7",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/explanation/release-v7/campaign/dispatch/B22-E1_CORRECTIVE_V7-preflight.json",
+      "sha256": "f297866271a50589df2f9ebbd6b787a1d1a0be0a8c1261d1ac8a611e9d5f62bb",
+      "status": "PREGEN_INPUTS_VERIFIED"
+    },
+    {
+      "call_id": "B22-E1_CORRECTIVE_V8",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/explanation/release-v8/campaign/dispatch/B22-E1_CORRECTIVE_V8-preflight.json",
+      "sha256": "3d9a2d4778c7f310eef267239d68da43367d18fb5eaa767234ac4a38bbc226c1",
+      "status": "PREGEN_INPUTS_VERIFIED"
+    }
+  ],
+  "guard_input_hashes_still_match": true,
+  "semantic_automatic_assessment": false,
+  "blocked_before_inference": "E2_V7 unexpected extra receipt fields: blocked shape record retained, not an ImageGen call; schema/core unchanged",
+  "historical_receipts": [
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/postgen-review.json",
+      "sha256": "c02a2381ce6ed1520dca49eca8bf95c17b80d8d698c73ef7f0b94168c11d2d28"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/native-review-observations.json",
+      "sha256": "6600bfddad51222ce9b5f813a2e04b1a5c91a934d855b2c6d4448c7c2406e59d"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/render-review-observations.json",
+      "sha256": "63cae5ed11632cca455cba0d92009bb0961e24102773fc27d3e674b013145cc6"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/file-verification.json",
+      "sha256": "971c8f0a3fd46ef7a5aa3d0d6e42b6f6097873cfef3574fc684d5c985a79a5eb"
+    }
+  ]
+}

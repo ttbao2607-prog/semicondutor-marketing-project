@@ -1,0 +1,15 @@
+{
+  "instruction": "commit local và merge B6-7 vào main, sau đó chhayj teieps 2 batch kế.",
+  "authority": "PO_OFFLINE_SELECTED_LOCAL_MAIN_ADOPTION",
+  "batch": "B6-zh-Hant-o2-v1",
+  "manifest_sha256": "aa33be0973fbb4119b7b26d534c81e9bf7e4cb8005a4d0b2d939b2b20772db52",
+  "postgen_sha256": "ac273eeb018e5cd1fd1a89e5469d62122a13b018c4100feda472424c338a2e3a",
+  "technical_verdict": "INSUFFICIENT_EVIDENCE",
+  "does_not_upgrade_technical_or_live": true,
+  "approved_selection": "10 native PNGs plus viewer/reader/copy/prompts; no attempt/helper/corrective directories on main",
+  "next_batches": [
+    "B8-zh-Hans-o4-o-v1",
+    "B9-zh-Hant-o4-o-v1"
+  ],
+  "push": false
+}

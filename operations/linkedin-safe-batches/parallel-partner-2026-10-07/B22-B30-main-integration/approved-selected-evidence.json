@@ -1,0 +1,2086 @@
+{
+  "revision": "partner-approved-main-selection-v1",
+  "date": "2026-10-08",
+  "execution_status": "SUCCESS",
+  "audit": "ROOT_SELF_AUDIT_EXACT_SOURCE_REPRODUCTION",
+  "authority": "Bảo: commit nhánh và merge các artifact đạt chuẩn vào main; current session",
+  "source_branch": "slice/linkedin-safe-partner-parallel",
+  "source_checkpoint": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9",
+  "main_baseline": "196f26b9f3064fca8fe6b3b50b5707c2b54b65af",
+  "selected_batches": [
+    {
+      "batch": "B22-en-p1-v1",
+      "selected_root": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7",
+      "selected_png": 10,
+      "source_verdict": "PASS",
+      "source_final_review": {
+        "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/postgen-review-v7.json",
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B22-en-p1-v1/supplier-v3/postgen-review-v7.json",
+        "sha256": "8f1a55813ad73297dd271c35dadd777fa7697c104bc986ec8ed6ca23d4965b16",
+        "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+      },
+      "viewer": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/index.html",
+      "reader": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/case-reader.html"
+    },
+    {
+      "batch": "B23-zh-Hans-p1-v1",
+      "selected_root": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1",
+      "selected_png": 10,
+      "source_verdict": "PASS_APPROVED_SCOPE",
+      "source_final_review": {
+        "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/postgen-review-final-v1.json",
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B23-zh-Hans-p1-v1/postgen-review-final-v1.json",
+        "sha256": "ab5fa4e91b2290a47c721c3c949cb827b4c167f8a7e09c9984bab87ce97fb6d3",
+        "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+      },
+      "viewer": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/index.html",
+      "reader": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/case-reader.html"
+    },
+    {
+      "batch": "B25-en-p2-v1",
+      "selected_root": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1",
+      "selected_png": 10,
+      "source_verdict": "PASS_APPROVED_SCOPE",
+      "source_final_review": {
+        "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/postgen-review-final-v1.json",
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B25-en-p2-v1/postgen-review-final-v1.json",
+        "sha256": "d4b7a33fb6af2819378ece6e4c9cd2234174d1d5cad33eb024e31cb1411df041",
+        "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+      },
+      "viewer": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html",
+      "reader": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/case-reader.html"
+    },
+    {
+      "batch": "B26-zh-Hans-p2-v1",
+      "selected_root": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1",
+      "selected_png": 10,
+      "source_verdict": "PASS_APPROVED_SCOPE",
+      "source_final_review": {
+        "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/postgen-review-final-v1.json",
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B26-zh-Hans-p2-v1/postgen-review-final-v1.json",
+        "sha256": "7d4a085f40a8a3ae96fcbb1d73f3347bab167310e18534a09d3cfabbbb4a7b1a",
+        "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+      },
+      "viewer": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/index.html",
+      "reader": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/case-reader.html"
+    },
+    {
+      "batch": "B27-zh-Hant-p2-v1",
+      "selected_root": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1",
+      "selected_png": 10,
+      "source_verdict": "PASS_ROOT_SELF_REVIEW_APPROVED_SCOPE",
+      "source_final_review": {
+        "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/postgen-review-final-v1.json",
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B27-zh-Hant-p2-v1/postgen-review-final-v1.json",
+        "sha256": "e3fbb5eeb220b94d3e94c3abf0c858be9d8c24352bb648635be28cb370d4ecfc",
+        "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+      },
+      "viewer": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/index.html",
+      "reader": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/case-reader.html"
+    },
+    {
+      "batch": "B28-en-p3-v1",
+      "selected_root": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1",
+      "selected_png": 10,
+      "source_verdict": "PASS_ROOT_SELF_REVIEW_APPROVED_SCOPE",
+      "source_final_review": {
+        "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/postgen-review-final-v1.json",
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B28-en-p3-v1/postgen-review-final-v1.json",
+        "sha256": "71671b22a52ae9e4999a28439581d3eef784ddacf83554c4077304c96855e19b",
+        "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+      },
+      "viewer": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/index.html",
+      "reader": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/case-reader.html"
+    },
+    {
+      "batch": "B29-zh-Hans-p3-v1",
+      "selected_root": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1",
+      "selected_png": 10,
+      "source_verdict": "PASS_ROOT_SCOPED_SELF_REVIEW",
+      "source_final_review": {
+        "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/postgen-review-final-v1.json",
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B29-zh-Hans-p3-v1/postgen-review-final-v1.json",
+        "sha256": "a75ebc731f01ae51fe348cceb150cd17878ecb9d9429108f6d76993b8515fa56",
+        "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+      },
+      "viewer": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/index.html",
+      "reader": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/case-reader.html"
+    },
+    {
+      "batch": "B30-zh-Hant-p3-v1",
+      "selected_root": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1",
+      "selected_png": 10,
+      "source_verdict": "PASS_ROOT_SCOPED_SELF_REVIEW",
+      "source_final_review": {
+        "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/postgen-review-final-v1.json",
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B30-zh-Hant-p3-v1/postgen-review-final-v1.json",
+        "sha256": "8d9b39860acff6cfef63a4a69d7ae81808d158e8d765f66b65ea6d2843d8c8de",
+        "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+      },
+      "viewer": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/index.html",
+      "reader": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/case-reader.html"
+    }
+  ],
+  "selected_png": 80,
+  "reader_count": 8,
+  "held": {
+    "batch": "B24-zh-Hant-p1-v1",
+    "status": "CHANGES_REQUIRED_EXCLUDED_FROM_MAIN",
+    "reason": "Actual P3 lacks mandatory category and sequence; old B24 PASS conflicts with later B27 finding. Corrective closure selected B27 only, not retrospective B24 acceptance.",
+    "finding_archive": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/b27-b28-finding-closure-final-v1.json"
+  },
+  "anchors": [
+    {
+      "path": "operations/Vy_Email_Content_Anchor.md",
+      "anchor_id": "VY-CONTENT-ANCHOR",
+      "revision": "1.0",
+      "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+      "source_main_identical": true
+    },
+    {
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "anchor_id": "VY-MAIL-USER-20261006",
+      "revision": "source",
+      "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+      "source_main_identical": true
+    },
+    {
+      "path": "landing/partner-route/supplier-ecosystem-flat.html",
+      "anchor_id": "PARTNER-LDP",
+      "revision": "approved-source",
+      "sha256": "d69c06b2a1f78e11b6087e6cd8580cab7d3bcd3c72ea71ce3dc1ec8964538f14",
+      "source_main_identical": true
+    }
+  ],
+  "message_anchor_review": {
+    "stage": "MAIN_INTEGRATION_EXACT_REPRODUCTION",
+    "verdict": "MESSAGE_ANCHOR_PASS_SOURCE_BINDING_PRESERVED",
+    "reviewer": "/root",
+    "independence": "SELF_REVIEW",
+    "personas": "FDI P1 supplier Operations; P2 factory IT; P3 PCB Quality",
+    "locales": [
+      "en",
+      "zh-Hans",
+      "zh-Hant"
+    ],
+    "artifact_surface_scope": "All eight current selected image/copy/headline/alt/reader/viewer journeys bound to source final reviews and exact committed bytes; no new content/order/destination revision.",
+    "A1": "Industrial semiconductor/electronics suppliers, not software/SI channels",
+    "A2": "Factory roles explicit; actual prospect entity and buying authority unknown",
+    "A3": "FDI roles and locale-specific journeys, no domestic admission promise",
+    "A4": "Operating responsibility/planning/information/quality value; no invented ROI",
+    "A5": "N/A FDI",
+    "A6": "ERP enterprise roles and MES execution/quality boundaries, single silicon-materials case Taiwan/Shanghai",
+    "A7": "Supplier trigger -> explanation -> Wafer Works case -> own factory discussion; Vietnam consulting/implementation separately attributed",
+    "limitations": "Source scoped actual visual reviews preserved, not a new independent/native-market certification. Exact unchanged main anchors and artifact bytes preserve bindings; hash checks alone do not establish semantic PASS."
+  },
+  "render_scope": "Source actual native/desktop/434/feed333 approved substitutes; 390 NOT_VERIFIED. No fresh Browser action for exact-byte Git integration.",
+  "archival_reference_policy": "Copied receipts/README/manifests preserve historical paths and status fields. References absent on main resolve at source_checkpoint on retained Partner branch; they are archival provenance, not main runtime dependencies. Final reviewed receipts supersede pending manifest snapshots without rewriting history.",
+  "runtime_dependencies": [
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/01-b22-c1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/case-reader.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/03-b22-e2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/06-b22-e5.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/07-b22-p1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/10-b22-p4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/02-b22-e1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/05-b22-e4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/09-b22-p3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/04-b22-e3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/08-b22-p2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/case-reader.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/index.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/01-b22-c1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/index.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/case-reader.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/03-b22-e2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/06-b22-e5.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/07-b22-p1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/10-b22-p4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/02-b22-e1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/05-b22-e4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/09-b22-p3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/04-b22-e3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/08-b22-p2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/case-reader.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/01-b23-c1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/09-b23-p3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/10-b23-p4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/06-b23-e5.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/08-b23-p2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/02-b23-e1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/03-b23-e2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/05-b23-e4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/04-b23-e3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/07-b23-p1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/case-reader.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/index.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/index.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/case-reader.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/01-b23-c1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/09-b23-p3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/10-b23-p4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/06-b23-e5.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/08-b23-p2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/02-b23-e1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/03-b23-e2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/05-b23-e4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/04-b23-e3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/07-b23-p1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/case-reader.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/04-b25-e3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/02-b25-e1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/08-b25-p2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/03-b25-e2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/10-b25-p4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/06-b25-e5.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/09-b25-p3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/01-b25-c1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/05-b25-e4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/07-b25-p1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/case-reader.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/02-b25-e1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/case-reader.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/04-b25-e3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/08-b25-p2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/03-b25-e2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/10-b25-p4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/06-b25-e5.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/09-b25-p3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/01-b25-c1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/05-b25-e4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/07-b25-p1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/10-b26-p4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/case-reader.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/09-b26-p3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/01-b26-c1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/02-b26-e1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/04-b26-e3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/08-b26-p2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/06-b26-e5.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/03-b26-e2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/07-b26-p1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/05-b26-e4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/case-reader.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/index.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/10-b26-p4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/index.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/case-reader.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/09-b26-p3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/01-b26-c1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/02-b26-e1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/04-b26-e3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/08-b26-p2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/06-b26-e5.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/03-b26-e2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/07-b26-p1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/05-b26-e4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/03-b27-e2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/01-b27-c1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/case-reader.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/09-b27-p3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/08-b27-p2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/04-b27-e3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/07-b27-p1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/02-b27-e1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/05-b27-e4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/10-b27-p4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/06-b27-e5.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/case-reader.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/index.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/03-b27-e2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/01-b27-c1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/index.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/case-reader.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/09-b27-p3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/08-b27-p2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/04-b27-e3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/07-b27-p1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/02-b27-e1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/05-b27-e4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/10-b27-p4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/06-b27-e5.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/05-b28-e4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/case-reader.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/04-b28-e3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/09-b28-p3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/01-b28-c1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/06-b28-e5.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/07-b28-p1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/02-b28-e1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/10-b28-p4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/03-b28-e2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/08-b28-p2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/case-reader.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/index.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/05-b28-e4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/index.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/case-reader.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/04-b28-e3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/09-b28-p3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/01-b28-c1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/06-b28-e5.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/07-b28-p1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/02-b28-e1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/10-b28-p4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/03-b28-e2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/08-b28-p2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/case-reader.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/07-b29-p1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/02-b29-e1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/10-b29-p4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/04-b29-e3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/09-b29-p3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/03-b29-e2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/05-b29-e4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/06-b29-e5.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/01-b29-c1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/08-b29-p2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/case-reader.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/index.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/index.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/case-reader.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/02-b29-e1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/07-b29-p1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/10-b29-p4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/04-b29-e3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/09-b29-p3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/03-b29-e2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/05-b29-e4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/06-b29-e5.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/01-b29-c1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/08-b29-p2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/case-reader.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/02-b30-e1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/04-b30-e3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/10-b30-p4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/09-b30-p3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/06-b30-e5.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/07-b30-p1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/05-b30-e4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/03-b30-e2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/01-b30-c1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/index.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/08-b30-p2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/case-reader.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/index.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/index.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/case-reader.html"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/02-b30-e1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/04-b30-e3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/10-b30-p4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/09-b30-p3.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/06-b30-e5.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/07-b30-p1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/05-b30-e4.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/03-b30-e2.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/01-b30-c1.png"
+    },
+    {
+      "html": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/render-review.html",
+      "target": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/08-b30-p2.png"
+    }
+  ],
+  "copied_files": [
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/01-b22-c1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/01-b22-c1.png",
+      "sha256": "d4c55e05cc8e1758241b76d8addff31991e4a0e437c598685084c944f9e0edca",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/02-b22-e1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/02-b22-e1.png",
+      "sha256": "5aade157eae9e0617df0305b89c4aef4bf52fe68e577309412fdd0d686e31bcf",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/03-b22-e2.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/03-b22-e2.png",
+      "sha256": "dfb20d6f069f7cb9bc245a0742d6bab021d02a3fbaddf3377fdfc137371d1811",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/04-b22-e3.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/04-b22-e3.png",
+      "sha256": "bf14ee84d07cc0e42959ad5a2eb520f8514ad7dbdb09ff9c160ac90733969e42",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/05-b22-e4.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/05-b22-e4.png",
+      "sha256": "e1a0682db93358d7c1ad29faaaf8a8a83009d04ebd0a2e524bd4db954303a800",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/06-b22-e5.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/06-b22-e5.png",
+      "sha256": "839553931b3325c5b1770ea03e1675e442f288862ddacae46a4c440e6c084a12",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/07-b22-p1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/07-b22-p1.png",
+      "sha256": "062e5f3095b591a462912cc8a5cb5fbf975b27303c60ca20f99b52f72ef8eff7",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/08-b22-p2.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/08-b22-p2.png",
+      "sha256": "b43e06a74a5f29198cc684e30cd2904f9705939e7fbeaf90e39c57d7a6dee668",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/09-b22-p3.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/09-b22-p3.png",
+      "sha256": "b2a11e9a9e9604c80558c3ec89ada4cc3c876602dcbec65e119ad81d4e3648af",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/10-b22-p4.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/10-b22-p4.png",
+      "sha256": "e044420d6293524db3d010c2a9616f8f8c62621d64a04ea624f9fc8d5ba6083b",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/index.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/index.html",
+      "sha256": "ecc3e9b7e8e98cc1f823154e3c4e1a4a568696b29fe86e5d6e3c352211ebe178",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/case-reader.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/case-reader.html",
+      "sha256": "3e8a40c72ee54ad013cf1c63bdcc6b6f523a3c2f4e50e72b643039096fbd80c0",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/render-review.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/render-review.html",
+      "sha256": "ab9b40912b4adbfb2c6eafec485ad0df01de135324f5b53bfc4282cd3d300d2b",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/selected-copy.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/selected-copy.json",
+      "sha256": "ca958deabb5d3e04009192c2f2d5f59efe087b5fd963ea27b5be993aa5b34658",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/selected-origin-manifest.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/selected-origin-manifest.json",
+      "sha256": "68fe17dee7212456dc111cca3b5e8c1ef21e8177faec4caef98299aa0867309e",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/selected-prompts.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/selected-prompts.json",
+      "sha256": "c49ef9e7b262e90d5b0eaa2ba1e9700f42dd9abb62110a3030500ac021c930b4",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/reader-copy.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/reader-copy.json",
+      "sha256": "1b3acb58204a700812e9a4f589035bc771c7517d1e2bc9d4805aba822e96c1b9",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/README.md",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/README.md",
+      "sha256": "81964319b7a96a40bd4da0c48be73fec6f10fec78832bd480817418d85fcfadc",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/postgen-review-v7.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B22-en-p1-v1/supplier-v3/postgen-review-v7.json",
+      "sha256": "8f1a55813ad73297dd271c35dadd777fa7697c104bc986ec8ed6ca23d4965b16",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/native-review-v7.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B22-en-p1-v1/supplier-v3/native-review-v7.json",
+      "sha256": "312c170f0db55052d424deab48ae05243f893a20c726935c1cefecf8b9ad592f",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/render-review-v7.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B22-en-p1-v1/supplier-v3/render-review-v7.json",
+      "sha256": "19fbc35f1650a44b776dbff6e104b438e05cb993d2433754b543a3676d0469fa",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/file-verification-v7.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B22-en-p1-v1/supplier-v3/file-verification-v7.json",
+      "sha256": "1dc53b873a3d899d7114cb7b749a8ceba5bed36c2bcbdd192e54d3911b47c2f4",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/corrective-v7/authority.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B22-en-p1-v1/supplier-v3/corrective-v7/authority.json",
+      "sha256": "f7de9e49f547ec2ed87f288d1b325880baa120df605c74e384b7a58d1aee0289",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/corrective-v7/viewport-scope-po-decision.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B22-en-p1-v1/supplier-v3/corrective-v7/viewport-scope-po-decision.json",
+      "sha256": "2c2ed4ae16d4cb19e699c3cd5f83e37831debaf7d0488042ac1560ff037d354a",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/01-b23-c1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/01-b23-c1.png",
+      "sha256": "da7403d95758e7cad27c6d3162ba05d5549ec457c14a91a6a1d9c0db2e04877b",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/02-b23-e1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/02-b23-e1.png",
+      "sha256": "41ff9f0c7ebb1b72a267ce48e6b3e2124d4f3c77c95d9e36af0e3dbbb4a595a9",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/03-b23-e2.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/03-b23-e2.png",
+      "sha256": "6de0b73ad0a393a91ed6489d22126c4f65fd2852e089d162ced84f20f344b943",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/04-b23-e3.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/04-b23-e3.png",
+      "sha256": "46fd6e386a9bc89f089b2964dceb16825649d7451cde229f40049de94acbbe97",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/05-b23-e4.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/05-b23-e4.png",
+      "sha256": "9b6a73272234489e4ea10e4e391f664d0709891d99e3667c0551baed30771c46",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/06-b23-e5.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/06-b23-e5.png",
+      "sha256": "089ad8ad98c6d46ba55b4adc551f88e916ef20989a2ebab378014acc7ddfe7ff",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/07-b23-p1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/07-b23-p1.png",
+      "sha256": "42b6153483e913edc7dc71d6a907abd9aec896c774d5810c268d84cbebba194c",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/08-b23-p2.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/08-b23-p2.png",
+      "sha256": "7cd5f969ae237f784d9281e0dccaadcaf80e3d5977203bb56ded50a5a9a75a3f",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/09-b23-p3.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/09-b23-p3.png",
+      "sha256": "492a0cd34dfaac2dfaa5f432f9ae2d4b677cf21276bfb343fed38585763af3ab",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/10-b23-p4.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/10-b23-p4.png",
+      "sha256": "64eb6a2c6fedd625462328794fd533a37ab63ee252edc86596845443c81e805e",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/index.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/index.html",
+      "sha256": "c37e8b60187bac09cdf13d15a8d3006b38879acd50041904b08ae90463e0a655",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/case-reader.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/case-reader.html",
+      "sha256": "47f5c6594e87007edf45f54efe2e9b97705d72aaece4f8d950703d1381b094a3",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/render-review.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/render-review.html",
+      "sha256": "ac63431816ccf75c20ed34035366562b8b333553cc68a25a2d76c0706ed5ab92",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/selected-copy.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/selected-copy.json",
+      "sha256": "0d37aa1ef9251cdc39dec7b2bf4bdd5961624ece13731353b002fd77652ee941",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/selected-origin-manifest.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/selected-origin-manifest.json",
+      "sha256": "b48cefce37720122802aa5cb0c3d237e9e50fb4ee5982ac6fad7d144cdcc49a6",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/selected-prompts.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/selected-prompts.json",
+      "sha256": "fe70cef49f1771867a85bf50887dc57750cee87f62a3495e6477f19f0a098a27",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/reader-copy.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/reader-copy.json",
+      "sha256": "08c407e51803ee53a1a0b1cfcfc339bed8984c32a524010c02caa048fa138fef",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/README.md",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/README.md",
+      "sha256": "1150eedb7727e68e69dfac6b9d1d46687d5257a023d0ca8b99609686296516f2",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/dien-giai-vi.md",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/dien-giai-vi.md",
+      "sha256": "1c842394768a14cb3c1e57ea0f1115afe8f306a9e3e3e6c0057d729b32c427e0",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/postgen-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B23-zh-Hans-p1-v1/postgen-review-final-v1.json",
+      "sha256": "ab5fa4e91b2290a47c721c3c949cb827b4c167f8a7e09c9984bab87ce97fb6d3",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/native-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B23-zh-Hans-p1-v1/native-review-final-v1.json",
+      "sha256": "70ce4538feefaf61a69e3721e367bbce9e4ff627d0eb6370f86bdc52641690f7",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/render-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B23-zh-Hans-p1-v1/render-review-final-v1.json",
+      "sha256": "69183106747c17321ebe8271b7cacddd0582f745a2631325cb9618d3decc0b79",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/01-b25-c1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/01-b25-c1.png",
+      "sha256": "c7e3ba8b8b90a57cc4368b34d250e2903784c88d70207f89712490cb4d4c1a07",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/02-b25-e1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/02-b25-e1.png",
+      "sha256": "cbebbd4f32a24b44b7d790371d94f943bb5c623f4d7bd8aab842e841bef89e6a",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/03-b25-e2.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/03-b25-e2.png",
+      "sha256": "3cd60c760ae30a52c40d12dfb3ec69053ac0cf3c76418beb76f495b13b1cfb97",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/04-b25-e3.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/04-b25-e3.png",
+      "sha256": "d2206c62d32358dbec15dfac1834a2017f347acf88638f5dbbf1925f9f962f5e",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/05-b25-e4.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/05-b25-e4.png",
+      "sha256": "963ca21112f3e0d4871720d8a7f28aead336021d3adb010ac3f8b153dcc1661d",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/06-b25-e5.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/06-b25-e5.png",
+      "sha256": "e1e96d94daa062f94f43c20dfbc0ea82c98a45aa127a0e8acae595e44472ac91",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/07-b25-p1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/07-b25-p1.png",
+      "sha256": "062e5f3095b591a462912cc8a5cb5fbf975b27303c60ca20f99b52f72ef8eff7",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/08-b25-p2.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/08-b25-p2.png",
+      "sha256": "b43e06a74a5f29198cc684e30cd2904f9705939e7fbeaf90e39c57d7a6dee668",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/09-b25-p3.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/09-b25-p3.png",
+      "sha256": "b2a11e9a9e9604c80558c3ec89ada4cc3c876602dcbec65e119ad81d4e3648af",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/10-b25-p4.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/10-b25-p4.png",
+      "sha256": "e044420d6293524db3d010c2a9616f8f8c62621d64a04ea624f9fc8d5ba6083b",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html",
+      "sha256": "d9605e6a6838ba9745550455245010c669c9620377ce9e8ab9cbd659202a8f4f",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/case-reader.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/case-reader.html",
+      "sha256": "a0032c2f49905ea1151ede63289978d24ab82acb131886a6ee9fe5e598cc6033",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/render-review.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/render-review.html",
+      "sha256": "c14091fe4fc8921b326891ba2739c4607f0e374ca7095e859e2f4dd5863db18d",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/selected-copy.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/selected-copy.json",
+      "sha256": "c7b6b42fb669eca72406c8e7e0b465f514ec913d8e8c81a640487674bd334b05",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/selected-origin-manifest.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/selected-origin-manifest.json",
+      "sha256": "a565d553e99f6f09d6ad7f18d975045afa8d9a079aa4a830ec99cdf6da8dcead",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/selected-prompts.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/selected-prompts.json",
+      "sha256": "8a3cc80881cc29da3ee22219a3141548d663e2d51e39fc91aacfeb30f5a01d5d",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/reader-copy.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/reader-copy.json",
+      "sha256": "50f16c248a962185e584ca10130f68d50432e3bb62683af1a70e836290b438a0",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/README.md",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/README.md",
+      "sha256": "89f407355b43bacc32313401f09ee15edeea09924d75447c7bbf1507f0acdf16",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/dien-giai-vi.md",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/dien-giai-vi.md",
+      "sha256": "7fa07b88eb830dd5ddde994912aac636a8d990f37a3c28a409dbb3ad0691fcdc",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/postgen-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B25-en-p2-v1/postgen-review-final-v1.json",
+      "sha256": "d4b7a33fb6af2819378ece6e4c9cd2234174d1d5cad33eb024e31cb1411df041",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/native-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B25-en-p2-v1/native-review-final-v1.json",
+      "sha256": "e9e9e2e85368fe9e5b8c61e5e8ec9a9a89f26510a75564138420f262fe4ca028",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/render-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B25-en-p2-v1/render-review-final-v1.json",
+      "sha256": "a735efc5913bb6ab2c5109d5a5df20061fc6b07c81995a35d5f52bd4ca1a591c",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/01-b26-c1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/01-b26-c1.png",
+      "sha256": "570f41e26b5d8ca21933d8e483de7937a509d6cfce876a59f521413349d0c90a",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/02-b26-e1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/02-b26-e1.png",
+      "sha256": "42d9670e0843f988a88f53b801f5b8a227681bcd35b3b6aef18ca41f3bd6e520",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/03-b26-e2.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/03-b26-e2.png",
+      "sha256": "b3ad096e5f9c40e2c7c948238018e9e96e0fca5648bad239327e2fce3b601226",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/04-b26-e3.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/04-b26-e3.png",
+      "sha256": "905bc57932b34f80db5a458d728beb866a5ec60643f11a6f76072fbeb501c283",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/05-b26-e4.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/05-b26-e4.png",
+      "sha256": "82d75b68c229843bbcb3051f10dd9c4dad6c1385237e21588ee7c3e455516353",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/06-b26-e5.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/06-b26-e5.png",
+      "sha256": "b058bb2d31948bbe50bb22094e288c8c4c3b030a1b3e670162e64cf3a871d706",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/07-b26-p1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/07-b26-p1.png",
+      "sha256": "42b6153483e913edc7dc71d6a907abd9aec896c774d5810c268d84cbebba194c",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/08-b26-p2.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/08-b26-p2.png",
+      "sha256": "7cd5f969ae237f784d9281e0dccaadcaf80e3d5977203bb56ded50a5a9a75a3f",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/09-b26-p3.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/09-b26-p3.png",
+      "sha256": "492a0cd34dfaac2dfaa5f432f9ae2d4b677cf21276bfb343fed38585763af3ab",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/10-b26-p4.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/assets/10-b26-p4.png",
+      "sha256": "64eb6a2c6fedd625462328794fd533a37ab63ee252edc86596845443c81e805e",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/index.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/index.html",
+      "sha256": "a888553a9b822099e4ec20a879e2583b457c589c776aea62048ffc89fe597f5f",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/case-reader.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/case-reader.html",
+      "sha256": "d78c8b18811960551571505820e80742d4e51cb764e319f6a4df8b55b326f452",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/render-review.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/render-review.html",
+      "sha256": "c85e1fea68ff179abaebb5e5f60e1a25b56b51c861ab505888c710665339ba2a",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/selected-copy.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/selected-copy.json",
+      "sha256": "76905ce0b92e88e8d3bb81460b7b6fa94e145e218e08b9ee1e783391bcf50940",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/selected-origin-manifest.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/selected-origin-manifest.json",
+      "sha256": "0aba77262f45bc093869c89bab54e9307f177b56fd1b38511e7739a6986ba95d",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/selected-prompts.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/selected-prompts.json",
+      "sha256": "364764a69a94be0f3f2aa148bd2d55bafd55eca92edcca677888638ac94134a9",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/reader-copy.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/reader-copy.json",
+      "sha256": "64d23c5c6328c5f468a02a88ef72179c9be7e28e9be9518dd2600797cfaca144",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/README.md",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/README.md",
+      "sha256": "f96c5eb5010a42bf99fdfe64a46d51e044a26206b127aeef264ed5fd4b09bd22",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/dien-giai-vi.md",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/dien-giai-vi.md",
+      "sha256": "4c63940f1f5797cca2dd69c854f415af1ade6a4efa12543bb6de6f9e92bf65d5",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/postgen-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B26-zh-Hans-p2-v1/postgen-review-final-v1.json",
+      "sha256": "7d4a085f40a8a3ae96fcbb1d73f3347bab167310e18534a09d3cfabbbb4a7b1a",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/native-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B26-zh-Hans-p2-v1/native-review-final-v1.json",
+      "sha256": "9635e11528d6f23bf218eb32cfb2b417a56b7d2df38482275ecf5897af5870e7",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B26-zh-Hans-p2-v1/render-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B26-zh-Hans-p2-v1/render-review-final-v1.json",
+      "sha256": "4696d3c8924ef163031fbfa5fccf433cafe607e426d06ad5075eeb9a35f2136f",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/01-b27-c1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/01-b27-c1.png",
+      "sha256": "c91e8694b3390d04c226c01c34c2d20b17cd103ad56c0ef76663847315161f93",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/02-b27-e1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/02-b27-e1.png",
+      "sha256": "be306819c24c5ee1914e279faf554d2ee1b71a9b4577368dd25d4ffe4fd0edd5",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/03-b27-e2.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/03-b27-e2.png",
+      "sha256": "9a18050ef0bcc9fc03e933f106f3291a5e9a5e993f266cda8a299ee84cf85c03",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/04-b27-e3.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/04-b27-e3.png",
+      "sha256": "94ecdbb5980f4c3752887ff9e1a06f285348a05609d6851a184dc9a5d39e21db",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/05-b27-e4.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/05-b27-e4.png",
+      "sha256": "c4a3cd2c1f546cd9878980c270a88a513efe3e302495b7c3be8ef09363260f2b",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/06-b27-e5.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/06-b27-e5.png",
+      "sha256": "e90d1d606b2c2bc0457afc3fe70f3c78d30b6b314a67e59ce97dc00fcd364c7b",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/07-b27-p1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/07-b27-p1.png",
+      "sha256": "95515f8dc921e08a38f4d49434a6bc3d3ea1e3536134c7532d4eeaef99e87a77",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/08-b27-p2.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/08-b27-p2.png",
+      "sha256": "902f7e0337b3f94b9dffbe41723fb32bb71d893dcef9221343680e156b3eb1f3",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/09-b27-p3.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/09-b27-p3.png",
+      "sha256": "4cf281103abaf979073492e21a076553743d017c498403a3a669e7aaa524485b",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/10-b27-p4.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/assets/10-b27-p4.png",
+      "sha256": "9720fbf1d1b679f35439d95ce09e24db71339a13d54139fc3ebd050f75e2bb90",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/index.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/index.html",
+      "sha256": "fdf615677bf138dfb88c4fe0924bad6da4b1384b405a818600ef681d6208c906",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/case-reader.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/case-reader.html",
+      "sha256": "4c427123a0aebb28ce097bfc9d81a9b8ef18a28cc9dba2b5a246a95bfb1c16e1",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/render-review.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/render-review.html",
+      "sha256": "ef8b69986ff637fcf669802996069be6b3ea3a15736c876ad98946c74656a713",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/selected-copy.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/selected-copy.json",
+      "sha256": "59d65ee74c690bc4134c4b36f599fe084cfbaca271fa17387c41f0b94dc409cb",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/selected-origin-manifest.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/selected-origin-manifest.json",
+      "sha256": "714d2af71ecdb44049466ad5b88f8c051503c33282a504f8f619f92ce97398f9",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/selected-prompts.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/selected-prompts.json",
+      "sha256": "c4eb3184a9c237226bb953bd7effc976dd65f7d5ca21c9828bc2a60f8eedaa5e",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/reader-copy.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/reader-copy.json",
+      "sha256": "caa00757f0b62a2f2c57d2ebca1583e118cc768cbebf81cec3e2e3606b70f192",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/README.md",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/README.md",
+      "sha256": "7f7d7256a325a273051a425f3a0bc28cc7a71c1a7d2811088049040dc169d3bc",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/dien-giai-vi.md",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/dien-giai-vi.md",
+      "sha256": "7f7d7256a325a273051a425f3a0bc28cc7a71c1a7d2811088049040dc169d3bc",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/postgen-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B27-zh-Hant-p2-v1/postgen-review-final-v1.json",
+      "sha256": "e3fbb5eeb220b94d3e94c3abf0c858be9d8c24352bb648635be28cb370d4ecfc",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/native-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B27-zh-Hant-p2-v1/native-review-final-v1.json",
+      "sha256": "f8b16e1b22664bb3bef18fc7f230ff9897e7f2e57660d2f40c332212977a4a63",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/render-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B27-zh-Hant-p2-v1/render-review-final-v1.json",
+      "sha256": "eda07b678bee5ed1a9dee4de36bbb9181c8500437e6bbb7e51a6705f2ce52682",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/01-b28-c1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/01-b28-c1.png",
+      "sha256": "ca771aee3cb77d9cc974aa6cf69289ec84af3fb56dc91758c3e65cd43462ca9f",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/02-b28-e1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/02-b28-e1.png",
+      "sha256": "a330feb94d9af058a91c6cc07c442c3900765f1da2282c66c3ec30fa3676db99",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/03-b28-e2.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/03-b28-e2.png",
+      "sha256": "0c478e866f3bf6b74a2ab83e5ec29cb7bd86d588929c18e2182e866ccf87807e",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/04-b28-e3.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/04-b28-e3.png",
+      "sha256": "13e9ca111de4ef04fe32b47adc3049ad4381928083f1428a0ddb05ffa87e7322",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/05-b28-e4.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/05-b28-e4.png",
+      "sha256": "0aed0581c1ae2a85ca0b93d63ff6c49bd58a74d670bfcfd5442511eeb7afcaf2",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/06-b28-e5.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/06-b28-e5.png",
+      "sha256": "bdc37ddc0ff2b5b690641976a72380d1315e163375768227d1ee753ff313074d",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/07-b28-p1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/07-b28-p1.png",
+      "sha256": "062e5f3095b591a462912cc8a5cb5fbf975b27303c60ca20f99b52f72ef8eff7",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/08-b28-p2.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/08-b28-p2.png",
+      "sha256": "b43e06a74a5f29198cc684e30cd2904f9705939e7fbeaf90e39c57d7a6dee668",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/09-b28-p3.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/09-b28-p3.png",
+      "sha256": "b2a11e9a9e9604c80558c3ec89ada4cc3c876602dcbec65e119ad81d4e3648af",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/10-b28-p4.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/10-b28-p4.png",
+      "sha256": "e044420d6293524db3d010c2a9616f8f8c62621d64a04ea624f9fc8d5ba6083b",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/index.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/index.html",
+      "sha256": "6b291665d0d22679ddc415d71d3023c3a6cf721090c33bf67244199fcf920681",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/case-reader.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/case-reader.html",
+      "sha256": "3391e98c9d2ca245870a155fe9cf32a6c7abf272c592f1f97dece24262778cb1",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/render-review.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/render-review.html",
+      "sha256": "14ed3b1069a8b75799f0b3168a3436b80032bb67ec59b8365e6534e1f4a1b350",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/selected-copy.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/selected-copy.json",
+      "sha256": "cb1faa41829b75e14d873debdc69bd40285e3629b1fa4fd4273d0eb3bbad696b",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/selected-origin-manifest.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/selected-origin-manifest.json",
+      "sha256": "a16482c42642d7e3d9041d14a4c5b8cb295244d9f760b1bc9239afea95ea5dc7",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/selected-prompts.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/selected-prompts.json",
+      "sha256": "69080f6dbae56a89298cf8eb98e27769f547b185eaad1bf5c05c13c55a3d7f2b",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/reader-copy.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/reader-copy.json",
+      "sha256": "adcea2274515886a758e16d3ca3e4362c14e2b7b8bc5e4488ae97c7b94134d76",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/README.md",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/README.md",
+      "sha256": "bd822ee7b16c3cbbef0cf52af51c692af6843f822d884c19e85764df6e0b6ace",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/dien-giai-vi.md",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/dien-giai-vi.md",
+      "sha256": "bd822ee7b16c3cbbef0cf52af51c692af6843f822d884c19e85764df6e0b6ace",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/postgen-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B28-en-p3-v1/postgen-review-final-v1.json",
+      "sha256": "71671b22a52ae9e4999a28439581d3eef784ddacf83554c4077304c96855e19b",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/native-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B28-en-p3-v1/native-review-final-v1.json",
+      "sha256": "ca046fa2cee755a83828c76cbad93e5d7d04fb86355de1b3eafcbc43c39606cc",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/render-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B28-en-p3-v1/render-review-final-v1.json",
+      "sha256": "ae5f8fdeb5cce6dd7ecc19be39d7c6bfdaed087438075b9c4904e15a4cf6a5e4",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/01-b29-c1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/01-b29-c1.png",
+      "sha256": "b7c5070d09e41c96ddefcbb949ac4072744c656f1696ab884a244a1e9ebefad9",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/02-b29-e1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/02-b29-e1.png",
+      "sha256": "e8d1f3bc8aaf28e18e8b11b37dda72dfafd7cdfd1f57733860a2719879d4f074",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/03-b29-e2.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/03-b29-e2.png",
+      "sha256": "317dee5d9ef3403040a0b7fe9680cdad5570d6cff8ebf76f39b257dd694beebd",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/04-b29-e3.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/04-b29-e3.png",
+      "sha256": "4a996604527c32f8ab2cc8145506426f319f84425205c526ad4216eef0973574",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/05-b29-e4.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/05-b29-e4.png",
+      "sha256": "813c4aeb9ccd7d8ff37896dd1b1b9abf57dce91daf9f7c886258b556dcd381c7",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/06-b29-e5.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/06-b29-e5.png",
+      "sha256": "bd4b68a0283da546f2bc86a2df1a891f385c60e6a3bae05c97b0ec49b2a3a11b",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/07-b29-p1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/07-b29-p1.png",
+      "sha256": "42b6153483e913edc7dc71d6a907abd9aec896c774d5810c268d84cbebba194c",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/08-b29-p2.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/08-b29-p2.png",
+      "sha256": "7cd5f969ae237f784d9281e0dccaadcaf80e3d5977203bb56ded50a5a9a75a3f",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/09-b29-p3.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/09-b29-p3.png",
+      "sha256": "492a0cd34dfaac2dfaa5f432f9ae2d4b677cf21276bfb343fed38585763af3ab",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/10-b29-p4.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/10-b29-p4.png",
+      "sha256": "64eb6a2c6fedd625462328794fd533a37ab63ee252edc86596845443c81e805e",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/index.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/index.html",
+      "sha256": "b49a533bcf12c93794af5f4913c856581077fdd4a5becd74b6898fc0ebaaa4fa",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/case-reader.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/case-reader.html",
+      "sha256": "b5868e0a1b971a322888742a963c3b56714c649ab1c1a5a2b9567e55d2ed4130",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review.html",
+      "sha256": "cb6d31f9a1a0b42feb999b35227fe4f81dfc89d2846feca347d2590927d5e934",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/selected-copy.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/selected-copy.json",
+      "sha256": "6413ffe1dc5be8b07d30bc436ff03454d3495f76856ad912e39a0f6c3edad2d7",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/selected-origin-manifest.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/selected-origin-manifest.json",
+      "sha256": "6e686d644dbfe2bf02b2b51cf203ec840016275e71f12e21254d40153d27e7b3",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/selected-prompts.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/selected-prompts.json",
+      "sha256": "30086b9737099ffa99fafd549315132dc530584f41ebc118b8be8b09a6c9200a",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/reader-copy.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/reader-copy.json",
+      "sha256": "76a4fd3b5f56c0a1425317d047f17b25d67d9b2dd450be7008f17d40c981d7ef",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/README.md",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/README.md",
+      "sha256": "487bfe3782a40294c6737504daf5be4cc1c2d9b25fdae111cfeca7f3e90ab794",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/dien-giai-vi.md",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/dien-giai-vi.md",
+      "sha256": "7466bdffff6232a6f700f737922e27e2e808c69de16c842f230e398790d86402",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/postgen-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B29-zh-Hans-p3-v1/postgen-review-final-v1.json",
+      "sha256": "a75ebc731f01ae51fe348cceb150cd17878ecb9d9429108f6d76993b8515fa56",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B29-zh-Hans-p3-v1/render-review-final-v1.json",
+      "sha256": "4689dec5532c933e8c2a92d1ecaab2ec6d05146302caea9dc3a03daea61d49e5",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/native-review-current-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B29-zh-Hans-p3-v1/native-review-current-v1.json",
+      "sha256": "8cc9349fbbb5b58ab8a07acad3ae653410f6a81ae1d158e04595756135575543",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/01-b30-c1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/01-b30-c1.png",
+      "sha256": "3350674d7d261527de1fc41c96f28286ccb546c1a440a184916fcbf925e8a86b",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/02-b30-e1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/02-b30-e1.png",
+      "sha256": "bc3beb9ce7ae23fb8f508546108d623a43afd8aa52d2300c94c1b603f7621c4b",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/03-b30-e2.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/03-b30-e2.png",
+      "sha256": "6992763e98a88da67228c3c4ad8d5a695ce9b1c1ff3cd9b89eb60fe35712c95d",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/04-b30-e3.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/04-b30-e3.png",
+      "sha256": "886ee58ccbb7ae23bcc3ce0fd51a08746ade4bea81a8c4b5e48345e7825f1735",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/05-b30-e4.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/05-b30-e4.png",
+      "sha256": "bf8d38050ae407100ee93b6999235f6da7ea493b4aba50d90f2261f6116c3baf",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/06-b30-e5.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/06-b30-e5.png",
+      "sha256": "4c87644228b45b8e7dc4517f2670e98aab25d9f85d99138dcfb6c872a4139754",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/07-b30-p1.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/07-b30-p1.png",
+      "sha256": "95515f8dc921e08a38f4d49434a6bc3d3ea1e3536134c7532d4eeaef99e87a77",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/08-b30-p2.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/08-b30-p2.png",
+      "sha256": "902f7e0337b3f94b9dffbe41723fb32bb71d893dcef9221343680e156b3eb1f3",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/09-b30-p3.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/09-b30-p3.png",
+      "sha256": "4cf281103abaf979073492e21a076553743d017c498403a3a669e7aaa524485b",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/10-b30-p4.png",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/assets/10-b30-p4.png",
+      "sha256": "9720fbf1d1b679f35439d95ce09e24db71339a13d54139fc3ebd050f75e2bb90",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/index.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/index.html",
+      "sha256": "9e4600b98c04a256b58b6d265e9dd11241a13e8dbc28d0d5a04b003188897dd4",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/case-reader.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/case-reader.html",
+      "sha256": "9a8218d256bebf75579fdb8f90ec9e24f92ed4f7b2e567b44ed9c4e53938e810",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/render-review.html",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/render-review.html",
+      "sha256": "68ddae979ef13c184e65a3e88ead281f70898188fa4426e21c0b86e554471ffb",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/selected-copy.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/selected-copy.json",
+      "sha256": "9c57eeb033ae3db65f902e482740ccc0b886fcab6301a1d573184df6b0db8d8f",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/selected-origin-manifest.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/selected-origin-manifest.json",
+      "sha256": "f409b708efcbe970d4ba65f29a2d4c7cb1e6e1a4b9945acd4271047de7c0fe83",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/selected-prompts.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/selected-prompts.json",
+      "sha256": "83d4dc677159050766bd083723cf3f20939a7052f2b5efbe25582d56b3ceb2e4",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/reader-copy.json",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/reader-copy.json",
+      "sha256": "9d5400fc47ff3200bbf9677ae0aa01096d58045d91d4ee535dc58af7452ad415",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/README.md",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/README.md",
+      "sha256": "981f3e1fa65028702b51d09461d0ac500df07e2f54e2751e8ce98b345becc3db",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/dien-giai-vi.md",
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/dien-giai-vi.md",
+      "sha256": "2630ca0a210ff325bc4fdb536d70abb509b2a49f4290c76b67c52592579f8a55",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/postgen-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B30-zh-Hant-p3-v1/postgen-review-final-v1.json",
+      "sha256": "8d9b39860acff6cfef63a4a69d7ae81808d158e8d765f66b65ea6d2843d8c8de",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/render-review-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B30-zh-Hant-p3-v1/render-review-final-v1.json",
+      "sha256": "9d5e0c8e12464fc867e35f71c09627a03e832d1e4751ae8b64a8a5da1adede91",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B30-zh-Hant-p3-v1/native-review-current-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B30-zh-Hant-p3-v1/native-review-current-v1.json",
+      "sha256": "21f3cd0df748a1dfa8149699a3419823830722f1b260180f8d4057234667a348",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-worktree-content-anchor-v2.md",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/partner-worktree-content-anchor-v2.md",
+      "sha256": "221e5a5facce74ae861a3874524b1c2814dac15cacafc580ddb6a34174fc88af",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/b27-b28-finding-closure-final-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/b27-b28-finding-closure-final-v1.json",
+      "sha256": "af8b1b26bd00860543cff0f4eee7419143f20df0b0b43eb61f71aa9c2e7c65ee",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/p3-reuse-finding-review-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/B27-zh-Hant-p2-v1/p3-reuse-finding-review-v1.json",
+      "sha256": "408a5beca6f021780e615f36bda1339ce8147826f0afb3934917a8afc2b07454",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/b29-b30-viewport-authority-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/b29-b30-viewport-authority-v1.json",
+      "sha256": "1c2e68b21be6fada24a60549e56b86ddb597cec5441f7ae1e4fc5b8ea31e29f8",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/b29-b30-execution-authority-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/b29-b30-execution-authority-v1.json",
+      "sha256": "c459d799bf6577a6f9292897dcf6f9e134f81211a28e3e2bc8130419805ec024",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    },
+    {
+      "source_path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/selected-main-integration-preflight-v1.json",
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/source-reviews/selected-main-integration-preflight-v1.json",
+      "sha256": "c91e7c6f4d4d73326d5e0a1885a1b28a9fae4ddc74ffd874af3baf4bf43b12f9",
+      "source_commit": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9"
+    }
+  ],
+  "docs_impact": {
+    "updated": [
+      "CURRENT_STATE.md",
+      "README.md",
+      "DOCS_IMPACT_MAP.md",
+      "Semiconductor_Work_Kickoff.md",
+      "ads/linkedin/LinkedIn_Build_Pack.md",
+      "operations/Pre_Ad_Readiness_Plan.md",
+      "drafts/S03_LinkedIn_Audience_Research.md",
+      "operations/LinkedIn_Report_Artifact_Index_2026-10-05.md",
+      "operations/LinkedIn_Safe_Batch_Execution_Plan_2026-10-06.md",
+      "operations/LinkedIn_Current_Progress_2026-10-07.md",
+      ".gitattributes"
+    ],
+    "reviewed_no_change": [
+      "Semiconductor - Website & Ads.md",
+      "drafts/S01_Proof_and_Message.md",
+      "operations/Vy_Email_Content_Anchor.md",
+      "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "operations/Ad_Artifact_Editorial_QA_Gate.md",
+      "operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md",
+      "operations/LinkedIn_Awareness_Execution_Plan.md"
+    ],
+    "frozen_core": "ALL_EXISTING_FROZEN_FILES_BYTE_UNCHANGED",
+    "unrelated_main_files": "All baseline files outside explicit docs allowlist required byte-identical"
+  },
+  "limits": [
+    "Local Git only, no push",
+    "No live advertising, landing publication or proof-rights release",
+    "No B24 or failed/raw generation outputs imported",
+    "Locale adapter DEVELOPING/NOT_FROZEN"
+  ]
+}

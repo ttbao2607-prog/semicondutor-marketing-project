@@ -1,0 +1,146 @@
+{
+  "revision": "osat-postgen-root-review-v1",
+  "batch": "B7-en-o4-o-v1",
+  "generation_status": "COMPLETE_WITHIN_CAP",
+  "execution_status": "PARTIAL",
+  "audit_verdict": "INSUFFICIENT_EVIDENCE",
+  "artifact_status": "NATIVE_CONTENT_REVIEWED_RENDER_PARTIAL",
+  "final_anchor_status": "INSUFFICIENT_EVIDENCE",
+  "reviewer": "/root",
+  "independence": "ROOT_SELF_REVIEW",
+  "native_market_review": "NOT_PERFORMED",
+  "runtime_model_effort": "NOT_OBSERVED",
+  "persona": "Operations Manager coordinating lot-record handoffs with Quality at an eligible FDI packaging/testing entity",
+  "route": "offline cold -> O4-O three handoff questions -> China linked-record implementation -> English reader with Chinese sources",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "revision": "1.0",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+  },
+  "email": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "original": 3,
+  "corrective": 0,
+  "total_imagegen": 3,
+  "reused_pngs": 7,
+  "selected": 10,
+  "selected_manifest_sha256": "9a33d01c6ec22a05272dcd8298e2b2717b23fbb8894c18aff0a831c8d962894e",
+  "attempt_ledger_sha256": "422fc3029cd01f06b67eb9da4b0130fde595303692a998c73390240e29a7d381",
+  "actual_review_observations_sha256": "917e9fd3c742e2fe296391d2f0881fa362fb73e1ab50e8ffd74e68ebb573062d",
+  "frozen_pins_verified": 24,
+  "adapter_status": "DEVELOPING / NOT_FROZEN",
+  "business_message_observation": "FDI Operations with Quality uses three questions: same lot/process-stage/record-time scope, source record needed for handoff, and who checks missing information/confirms next step. English professional operational wording, implicit coordination value; no invented ROI%, yield result or ERP-only synchronized-status outcome.",
+  "source_scope": "Taiwan solution material remains distinct from the named China integrated ERP+iMES case. MES linked records and exception escalation support inquiry, not a guarantee of resolving conflicting lot status. Historical O2 month-close case-pair HOLD remains separate.",
+  "card_reviews": [
+    {
+      "card_id": "COLD-OSAT-OPS-02-IMAGE",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "B4 final cold inspected anew: two record owners, shared lot and neutral handoff path; no completed result.",
+      "selected_sha256": "db1dc65c7b7155f8bd6e051a18be50750abbecde0d9f7524709bccd173df204f"
+    },
+    {
+      "card_id": "O4-O-B1",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "B4 final entry inspected anew: lot reports from different perspectives, no root-cause diagnosis.",
+      "selected_sha256": "c74e3c1132218fc410ace898e8e05b49b99d26a856c823b78d942011b5e23362"
+    },
+    {
+      "card_id": "O4-O-B2",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "New question1: unlabelled barcode/process/calendar-time pictograms; no date/record values, chart, or result.",
+      "selected_sha256": "b27eb5b74cf3c10917343014a21c3a237cc271292bff6d0435a4a1547f9cff58"
+    },
+    {
+      "card_id": "O4-O-B3",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "New question2: source paper to receiving folder, no completed confirmation badge or invented record contents.",
+      "selected_sha256": "be7e5c5094b2de15aa58c50f9c0d2cb23ad79b76d5d915ca0d15c2d0bc9367ec"
+    },
+    {
+      "card_id": "O4-O-B4",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "New question3: neutral receiving chips, blank records and shipping containers; no ticks, approval or resolved exception.",
+      "selected_sha256": "a7a2dede76a2e0f8b704d9194d2467e44c41dfffaa6fb5bd63055d87d30c97ae"
+    },
+    {
+      "card_id": "O4-O-B5",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "B4 final closing inspected anew: shared basis, source distinct from CTA; no automatic synchronization.",
+      "selected_sha256": "53374ea24c17e91b442eb1f209ff3912b2a73e29771d8da0c354fdaaf98d8734"
+    },
+    {
+      "card_id": "RMK-R4-1",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "B4 final company-introduction proof inspected anew: manufacturing solutions scope, no case outcome.",
+      "selected_sha256": "ce19bf68a01533a6e19a05c7f971376ad15b207556a602bcab1bdbcb2d47cdd9"
+    },
+    {
+      "card_id": "RMK-R4-2",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "B4 final China case proof inspected anew: legal entity exact, integrated ERP+iMES scope, no national scenery.",
+      "selected_sha256": "1bb450fedc473bc4e45b6cb6920335e6fe40cbec61f2d9ff40a0ec23faea9172"
+    },
+    {
+      "card_id": "RMK-R4-3",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "B4 final linked-record proof inspected anew: batch/workstation/operator/material links, no fabricated data/results.",
+      "selected_sha256": "c67fde5114959a063c2a1dd088e5d2dc0c3acceebeeb0ac80b6e71e3ec5ef1ca"
+    },
+    {
+      "card_id": "RMK-R4-4",
+      "exact_text": "Native headline/body/category/sequence/applicable source and CTA checked; English question numbers1/2/3 occur only in scripted headlines. External native headlines omit numbers as approved; no inherited B4 artifact PASS.",
+      "scene": "B4 final implementation reading proof inspected anew: China entity/source/CTA exact; no Vietnam case or qualification promise.",
+      "selected_sha256": "d0c3c8864664f842e16cf8f2f5ff98955111dbad3549667ad10df0e28699ac48"
+    }
+  ],
+  "findings": [
+    {
+      "card_id": "VIEWER_METADATA",
+      "severity": "RESOLVED_HELPER_LABEL",
+      "finding": "Copied preview helper initially displayed O2 instead of O4-O in the page title/heading.",
+      "disposition": "Owned delivery helpers corrected to O4-O before final selected manifest; refreshed CUA screenshots observed correct title. Released generation inputs and frozen adapter/harness unchanged."
+    }
+  ],
+  "render_coverage": {
+    "native_pngs": 10,
+    "desktop_feed333_cards": [
+      "COLD-OSAT-OPS-02-IMAGE",
+      "O4-O-B1",
+      "O4-O-B2",
+      "O4-O-B3",
+      "O4-O-B4",
+      "O4-O-B5",
+      "RMK-R4-1",
+      "RMK-R4-2",
+      "RMK-R4-3",
+      "RMK-R4-4"
+    ],
+    "desktop640": "Cold top in main viewer observed; all-card coverage incomplete.",
+    "mobile": {
+      "actual_width": 390,
+      "actual_height": 844,
+      "art_width": 333,
+      "status": "INSUFFICIENT_EVIDENCE",
+      "failure": "Question1 screenshot timed out; no successful B7 mobile screenshot counted."
+    },
+    "reader": "Desktop head through SPC/ECN observed; bottom source content DOM read but footer screenshot timed out, not visual PASS. Mobile reader not observed.",
+    "screenshots": "Actual CUA screenshots inspected in this session; no screenshot file artifact claimed."
+  },
+  "journey_review": {
+    "copy": "All captions/native headlines/alts, artwork text and reader-source copy read in full before generation; native7reused+3new inspected in new context.",
+    "transitions": "Nine Next actions observed counters2/10 through10/10; reader navigation observed. Return links observed in DOM, return action not executed.",
+    "source": "Named China case supports linked-record/parameter-change/exception workflow inquiry, not a guarantee of resolving conflicting status reports.",
+    "experiment": "Three-question treatment versus B4 narrative; cold/entry/closing/proof controlled by byte-identical reuse. No winner or clean factorial claim.",
+    "verdict": "Scoped semantic review; whole-render technical gate INSUFFICIENT_EVIDENCE."
+  },
+  "unknowns": [
+    "Target entity and local ERP decision authority not verified.",
+    "Public proof rights and live-platform readiness not certified.",
+    "Incomplete whole-mobile/desktop640 evidence prevents whole-journey technical PASS."
+  ],
+  "po_status": "PENDING_REVIEW",
+  "git_status": "Owned OSAT working files only; uncommitted, not merged, not pushed.",
+  "stop": "Two-batch mandate B6 then B7; stop before B8."
+}

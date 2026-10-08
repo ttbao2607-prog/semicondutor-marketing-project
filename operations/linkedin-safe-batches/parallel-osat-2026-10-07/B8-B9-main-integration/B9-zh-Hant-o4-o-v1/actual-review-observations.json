@@ -1,0 +1,81 @@
+{
+  "artifact_status": "NATIVE_CONTENT_REVIEWED_RENDER_PARTIAL",
+  "business_message_observation": "FDI Operations with Quality: three questions check report scope, source record and missing-information owner before handoff. Implicit operational value matches Vy anchor; no mandatory literal ROI, numeric ROI, yield result, ERP-only outcome or automatic status synchronization. Locale terminology reviewed separately; named China legal entity retains original Simplified glyphs.",
+  "card_reviews": [
+    {
+      "card_id": "COLD-OSAT-OPS-02-IMAGE",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Neutral folders, packaged chips and owner/handoff context; no finished lot status."
+    },
+    {
+      "card_id": "O4-O-B1",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Shared packaged-chip lot with separate report perspectives; no root-cause claim."
+    },
+    {
+      "card_id": "O4-O-B2",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Lot/process/time comparison symbols and neutral report folders; no printed record values."
+    },
+    {
+      "card_id": "O4-O-B3",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Source-record pictogram points to package context with a handoff arrow; no resolved state or invented record values."
+    },
+    {
+      "card_id": "O4-O-B4",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Unlabelled source-record, confirmation-owner and package icons around packaged-chip trays; no filled approval or finished-status tick."
+    },
+    {
+      "card_id": "O4-O-B5",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Context/source/owner symbols support handoff; Taiwan solution source separate from China proof."
+    },
+    {
+      "card_id": "RMK-R4-1",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Generic Digiwin company introduction; no customer facility claim."
+    },
+    {
+      "card_id": "RMK-R4-2",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Named China ERP+iMES case; packaged-chip/record scene, no case-location embellishment."
+    },
+    {
+      "card_id": "RMK-R4-3",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Linked-record inquiry scene; does not promise automatic reconciliation of conflicting status."
+    },
+    {
+      "card_id": "RMK-R4-4",
+      "exact_text": "Native headline/body/header/sequence/applicable source and CTA visually compared with current selected script. No extra printed claim, data or exclamation observed.",
+      "scene": "Read implementation CTA, exact source legal entity and China scope."
+    }
+  ],
+  "findings": [
+    {
+      "card_id": "RMK-R4-1",
+      "severity": "OBSERVED_LAYOUT_VARIANCE",
+      "finding": "Native reused source line is white on blue band rather than requested white source block; exact and large at native size. B9 feed333 not observed.",
+      "disposition": "No native anchor defect found; readability at B9 feed/mobile remains unverified. No claim of full prompt-layout compliance."
+    }
+  ],
+  "render_coverage": {
+    "native_pngs": 10,
+    "desktop_feed333_cards": [],
+    "desktop640": "NOT_OBSERVED_IN_CURRENT_B9",
+    "mobile": {
+      "status": "NOT_OBSERVED",
+      "reason": "Shared browser lock held by FDI-HTML; no B9 browser actions performed."
+    },
+    "reader": "Full localized reader script/source scope reviewed; no current B9 browser screenshot."
+  },
+  "journey_review": {
+    "next_counters": [],
+    "reader_navigation": "NOT_OBSERVED_IN_CURRENT_B9",
+    "reader_return": "NOT_OBSERVED_IN_CURRENT_B9",
+    "live_platform": "NOT_TESTED",
+    "source_review": "Viewer and reader inspected in local source only; historical B6 interactions not inherited."
+  }
+}

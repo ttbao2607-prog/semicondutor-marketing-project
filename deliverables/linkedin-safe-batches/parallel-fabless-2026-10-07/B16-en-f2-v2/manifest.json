@@ -1,0 +1,105 @@
+{
+  "revision": "b16-review-manifest-v2",
+  "locale": "en",
+  "status": "PASS_SELF_REVIEW",
+  "planned_units": 11,
+  "generated_selected": 11,
+  "imagegen_original": 7,
+  "imagegen_corrective": 3,
+  "reused_pngs": 4,
+  "tool": "built-in image_gen",
+  "artwork": [
+    {
+      "card_id": "COLD-FABLESS-B16",
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/assets/01-cold-fabless-b16.png",
+      "sha256": "829bdd6e8db494c2ca3dd43e0fdbebc8ec29aabcc512599ea429690efdf0de2b",
+      "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/cold-fabless-b16/native/cold-fabless-b16-en-v1.png",
+      "transformation": false
+    },
+    {
+      "card_id": "F2-A1",
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/assets/02-f2-a1.png",
+      "sha256": "286a58fb0cfab9b901aaf408c6748aec38effb42a2b6cec4fa5b0e7671b064b2",
+      "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a1/native/f2-a1-en-v1.png",
+      "transformation": false
+    },
+    {
+      "card_id": "F2-A2",
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/assets/03-f2-a2.png",
+      "sha256": "1a00d0924f18f68fcc9f884b6c568a416d2e0d576ae85e631e233c70282a2765",
+      "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a2/native/f2-a2-en-v1.png",
+      "transformation": false
+    },
+    {
+      "card_id": "F2-A3",
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/assets/04-f2-a3.png",
+      "sha256": "0f326c5d7bae63e819802d380a56295c4557c9f247bb71f05397e120ac881ab0",
+      "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a3/native/f2-a3-en-v1.png",
+      "transformation": false
+    },
+    {
+      "card_id": "F2-A4",
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/assets/05-f2-a4.png",
+      "sha256": "b27ee9f83885ac7d7508add7f46db519cbc831caf1edbd0d793f7a4112d109c5",
+      "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a4/native/f2-a4-en-v1.png",
+      "transformation": false
+    },
+    {
+      "card_id": "F2-A5",
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/assets/06-f2-a5.png",
+      "sha256": "19229ce74360a126c1fb8405ec45b6d0f25283cd452527a9dafa3ccc184c721b",
+      "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v3/f2-a5/native/f2-a5-en-c3.png",
+      "transformation": false
+    },
+    {
+      "card_id": "F2-A6",
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/assets/07-f2-a6.png",
+      "sha256": "8d2d935bfe766b8e127ad27a249ff1e9796a043c11dc5d448f213ae67ef35c5c",
+      "source": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/07-f1-a6.png",
+      "transformation": false
+    },
+    {
+      "card_id": "RMK-BRIGHT-1",
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/assets/08-rmk-bright-1.png",
+      "sha256": "07d462c49809ad50480cea660aaca802df9492290ec5aec5092c9e2796c6e61b",
+      "source": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/08-rmk-bright-1.png",
+      "transformation": false
+    },
+    {
+      "card_id": "RMK-BRIGHT-2",
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/assets/09-rmk-bright-2.png",
+      "sha256": "a8f0a88c9b15676f846ce87a07f0f4554c6b764d6a13232839459cdd569bda83",
+      "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/rmk-bright-2/native/rmk-bright-2-en-v1.png",
+      "transformation": false
+    },
+    {
+      "card_id": "RMK-BRIGHT-3",
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/assets/10-rmk-bright-3.png",
+      "sha256": "76cc1590a43671027c909684c86263c4fbb8f3fbb95b057cd0cbba102fa52366",
+      "source": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/10-rmk-bright-3.png",
+      "transformation": false
+    },
+    {
+      "card_id": "RMK-BRIGHT-4",
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/assets/11-rmk-bright-4.png",
+      "sha256": "0d045bd1f76534832e9fb8b376a737cb208a29a0106c2aa87d75ac83a9bb1fe9",
+      "source": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/11-rmk-bright-4.png",
+      "transformation": false
+    }
+  ],
+  "viewer_sha256": "8d8a150029ee63c5613ad4758a4ddc07a6293c3a41d285eade694d96dc8df16e",
+  "reader_sha256": "52dd815ef40d1cabc8f7f74173b7625181c298836e2da72bed61b09fa9edf3d2",
+  "raster_transformation": false,
+  "zip": false,
+  "release_status": "CANONICAL_SYNC_AND_PO_ADOPTION_PENDING",
+  "current_findings": [],
+  "postgen_review": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/postgen-review-repair-v3.json",
+  "actual_render": {
+    "feed333": 11,
+    "main640": 11,
+    "mobile390CSS": 11,
+    "reader_desktop": true,
+    "reader_mobile": true
+  },
+  "qualification": "Browser CSS-width390 review, not physical-device/native-market/independent/PO/live certification. Screenshot bitmap bounds do not equal CSS viewport; exact pixel mapping not certified."
+}

@@ -67,3 +67,53 @@ operations/linkedin-safe-batches/2026-10-06/B1-en-o1-v1/proof23-postgen-review-v
 deliverables/linkedin-safe-batches/2026-10-06/B2-zh-Hans-o1-v1/** -text
 deliverables/linkedin-safe-batches/2026-10-07/B3-zh-Hant-o1-v1/** -text
 operations/linkedin-safe-batches/2026-10-07/B2-B3-main-integration/** -text
+
+# Preserve approved B4/B5 selection and evidence byte pins.
+deliverables/linkedin-safe-batches/2026-10-07/B4-en-o2-v1/** -text
+deliverables/linkedin-safe-batches/2026-10-07/B5-zh-Hans-o2-v1/** -text
+operations/linkedin-safe-batches/2026-10-07/B4-B5-main-integration/** -text
+
+# Preserve approved B6/B7 selection and evidence byte pins.
+deliverables/linkedin-safe-batches/parallel-osat-2026-10-07/B6-zh-Hant-o2-v1/** -text
+deliverables/linkedin-safe-batches/parallel-osat-2026-10-07/B7-en-o4-o-v1/** -text
+operations/linkedin-safe-batches/parallel-osat-2026-10-07/B6-B7-main-integration/** -text
+
+# B8/B9 selected byte preservation
+deliverables/linkedin-safe-batches/parallel-osat-2026-10-07/B8-zh-Hans-o4-o-v1/** -text
+deliverables/linkedin-safe-batches/parallel-osat-2026-10-07/B9-zh-Hant-o4-o-v1/** -text
+operations/linkedin-safe-batches/parallel-osat-2026-10-07/B8-B9-main-integration/** -text
+
+# OSAT final Quality selection byte preservation
+deliverables/linkedin-safe-batches/parallel-osat-2026-10-07/B10-en-o4-q-v1/** -text
+deliverables/linkedin-safe-batches/parallel-osat-2026-10-07/B11-zh-Hans-o4-q-v1/** -text
+deliverables/linkedin-safe-batches/parallel-osat-2026-10-07/B12-zh-Hant-o4-q-v1/** -text
+operations/linkedin-safe-batches/parallel-osat-2026-10-07/B10-B12-main-integration/** -text
+
+# LinkedIn progress snapshot and receipt byte preservation
+operations/LinkedIn_Current_Progress_2026-10-07.md -text
+operations/linkedin-progress-reconciliation/2026-10-07/** -text
+
+# Partner approved selection and immutable review archive byte preservation
+deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/** -text
+operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-B30-main-integration/** -text
+
+# B24 v2 immutable selected-review evidence
+operations/linkedin-safe-batches/parallel-partner-2026-10-07/B24-v2-main-integration/** -text
+
+# Preserve mixed historical newline bytes during bounded Partner row update
+operations/LinkedIn_Current_Progress_2026-10-07.md -text
+
+
+# Package v2: preserve reviewed delivery and internal evidence SHA256 bytes.
+# Local checkpoint only; no main adoption or lifecycle promotion.
+deliverables/manager-package-v2/** -text
+operations/manager-package-v2/phase2/** -text
+operations/manager-package-v2/phase3/** -text
+
+# Preserve current ad-logic review bindings; no lifecycle promotion.
+operations/manager-package-v2/ad-logic-2026-10-08/** -text
+
+# Preserve the separate evidence collection source/copy bytes.
+deliverables/manager-package-v2-evidence/** -text
+operations/manager-package-v2/evidence-collection-2026-10-08/** -text
+operations/manager-package-v2/zh-hant-2026-10-08/** -text

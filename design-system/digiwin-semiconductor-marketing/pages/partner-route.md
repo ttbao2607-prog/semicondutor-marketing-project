@@ -1,3 +1,5 @@
+> **Partner / Supplier — PO clarification 2026-10-07 · docs checkpoint trên main local.** Partner trong paid scope hiện hành là **nhà cung ứng công nghiệp trong chuỗi bán dẫn/điện tử** (PCB, substrate, linh kiện, vật liệu đóng gói, gia công chính xác cho thiết bị), không mặc định là SI/đối tác phần mềm. [LDP Partner Google Ads đã được duyệt là content anchor](../../../operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-ldp-content-anchor-v1.md); giữ đúng audience, bài toán nhà máy, vai trò ERP/iMES/dữ liệu thiết bị và scope từng claim/case. P1/P2 hiện là nguồn persona SI, P3 là nguồn nội địa: phải adapt và review mới trước FDI generation, không kế thừa PASS. Snapshot cũ giữ nghĩa lịch sử. Scope docs ambiguity từ source checkpoint 8d94be6 được tích hợp chọn lọc; chưa push.
+
 # Partner Route Page Overrides
 
 > **PROJECT:** Digiwin Semiconductor Marketing

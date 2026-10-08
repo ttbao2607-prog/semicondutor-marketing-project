@@ -1,0 +1,115 @@
+{
+  "presentation_pairs": 7,
+  "protected_baseline_files_unchanged": 219,
+  "changed_old_wrappers": [
+    "01_De_xuat/de_xuat.html",
+    "01_De_xuat/logic_quang_cao.html",
+    "01_De_xuat/mail_gui_Vy.html",
+    "02_Demo/index.html",
+    "03_Thu_vien/index.html",
+    "05_Evidence/evidence.html",
+    "BAT_DAU.html"
+  ],
+  "old_package_files": 226,
+  "current_package_files": 233,
+  "approved_pngs_unchanged": 170,
+  "journeys_unchanged": 17,
+  "case_readers_unchanged": 17,
+  "workbook_unchanged": true,
+  "source_images_unchanged": 10,
+  "html_checks": [
+    {
+      "path": "BAT_DAU.html",
+      "links": 16,
+      "images": 0,
+      "sha256": "8ae259fa2dd8fc5a3c2a7fb486c4d27ff2416553dd3db10e412ec45b1a90b406"
+    },
+    {
+      "path": "BAT_DAU.zh-Hant.html",
+      "links": 16,
+      "images": 0,
+      "sha256": "a474dae86a302137600551e2493c19002c950447f163e7580d665eed974c771a"
+    },
+    {
+      "path": "01_De_xuat/de_xuat.html",
+      "links": 7,
+      "images": 0,
+      "sha256": "de8e0f908761f11e98c601db30be4f0b60306373dbfafa1fee70756d77ef735b"
+    },
+    {
+      "path": "01_De_xuat/de_xuat.zh-Hant.html",
+      "links": 7,
+      "images": 0,
+      "sha256": "53f9bc4ccac282e4718b4aaba07b7c98c92fb3277619fd45b2352131bacbb3f4"
+    },
+    {
+      "path": "01_De_xuat/logic_quang_cao.html",
+      "links": 23,
+      "images": 6,
+      "sha256": "c0b2c8d3266e47ecda649bf572dd426abec814f0c694585f75329a0f46deffe0"
+    },
+    {
+      "path": "01_De_xuat/logic_quang_cao.zh-Hant.html",
+      "links": 23,
+      "images": 6,
+      "sha256": "f314b7ce0c8df4e7206f068eb49f5fdad0ee5f29bbe46021d3b74c6f42de0ba7"
+    },
+    {
+      "path": "01_De_xuat/mail_gui_Vy.html",
+      "links": 6,
+      "images": 0,
+      "sha256": "3a95cd89f66756a5b143068804c007f32259c31d97cff77ff002648d984a8654"
+    },
+    {
+      "path": "01_De_xuat/mail_gui_Vy.zh-Hant.html",
+      "links": 7,
+      "images": 0,
+      "sha256": "10d48f020c6ea42cba9a5a61730d910cb7d0396dba0c8b7d82c65478bf1434e7"
+    },
+    {
+      "path": "02_Demo/index.html",
+      "links": 10,
+      "images": 2,
+      "sha256": "babbe58a1794f724c3adf16f047fb57ce16bfdaa86975afb357653789a031ebd"
+    },
+    {
+      "path": "02_Demo/index.zh-Hant.html",
+      "links": 10,
+      "images": 2,
+      "sha256": "5411ecc1aa7968aac12fcfcbb98189098b17a1a8ea8f74f0a82b24aa5cc04aea"
+    },
+    {
+      "path": "03_Thu_vien/index.html",
+      "links": 24,
+      "images": 17,
+      "sha256": "9ebff2451ebbf7c1c5f8339f638432f84a6b1f527fe2e9ec48fd20c898740b79"
+    },
+    {
+      "path": "03_Thu_vien/index.zh-Hant.html",
+      "links": 24,
+      "images": 17,
+      "sha256": "0ba156bda86391ca464a6dd2c42bd53f3a605bfc4c5cfa1a48df38ef94da65fd"
+    },
+    {
+      "path": "05_Evidence/evidence.html",
+      "links": 5,
+      "images": 10,
+      "sha256": "5a214566e079b4215c87df918369d31404fd040c271454f12f94eab55784a43b"
+    },
+    {
+      "path": "05_Evidence/evidence.zh-Hant.html",
+      "links": 5,
+      "images": 10,
+      "sha256": "f24b96804106ddb7bf1379e9214b514d8fa2aa9b4749172543b0d1c05a026c02"
+    }
+  ],
+  "missing_targets": [],
+  "budget_vnd": {
+    "cap_before_tax": 11700000,
+    "first": 5600000,
+    "retained": 6100000,
+    "next_max": 5600000,
+    "search_max": 500000
+  },
+  "scope": "Static checks only; browser/semantic review separate."
+}

@@ -1,0 +1,29 @@
+{
+  "execution_status": "SUCCESS",
+  "verification": "ROOT_SELF_VERIFICATION",
+  "source_commit": "2acc5dd27eb154a011810ea2a87bd41046327ead",
+  "main_baseline": "648cde944740224b4ac350ef86afb193654ce682",
+  "exact_source_copies": 27,
+  "selected_png": 10,
+  "final_partner_png": 90,
+  "final_partner_batches": 9,
+  "final_partner_readers": 9,
+  "outside_allowlist_changes": 0,
+  "v1_defective_p3": "EXCLUDED",
+  "anchors": "main Git blobs identical to reviewed source",
+  "frozen_and_other_lanes": "UNCHANGED",
+  "docs_reviewed_and_updated": [
+    "CURRENT_STATE.md",
+    "README.md",
+    "DOCS_IMPACT_MAP.md",
+    "Semiconductor_Work_Kickoff.md",
+    "ads/linkedin/LinkedIn_Build_Pack.md",
+    "operations/Pre_Ad_Readiness_Plan.md",
+    "drafts/S03_LinkedIn_Audience_Research.md",
+    "operations/LinkedIn_Report_Artifact_Index_2026-10-05.md",
+    "operations/LinkedIn_Safe_Batch_Execution_Plan_2026-10-06.md",
+    "operations/LinkedIn_Current_Progress_2026-10-07.md"
+  ],
+  "scope": "Byte-preserving integration of previously reviewed final; no new visual PASS or generation",
+  "remote": "No push"
+}

@@ -1,0 +1,15 @@
+{
+  "revision": "b22-po-additional-corrections-v7",
+  "owner": "Bao",
+  "instruction": "Sửa đi codex, cấp lượt sửa. Chừng nào vượt hết hậu kiểm mới dừng report.",
+  "date": "2026-10-07",
+  "scope": "Correct B22 open/newly observed findings until required native/render/journey postchecks pass; offline only, owned Partner worktree",
+  "supersedes": "Prior total2/per-card1 correction caps only for this additional B22 corrective mandate; preserve actual prior counts/receipts",
+  "does_not_authorize": [
+    "B23",
+    "Git commit/merge/push",
+    "live publish/accounts",
+    "frozen-core or adapter changes"
+  ],
+  "stop": "All critical B22 postchecks evidenced, no listed open fidelity finding; do not end at generation or pending render"
+}

@@ -1,0 +1,13 @@
+{
+  "revision": "b20-f3-a5-actual-feed-corrective-v1",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "anchor_verdict": "MESSAGE_ANCHOR_PASS",
+  "independence": "SELF_REVIEW",
+  "reviewer": "/root",
+  "original_sha256": "ade7cef38489d0b21e020cce6e7790a0dda273394355ebf94b792f140f7c745e",
+  "observation": "Actual native and browser feed333 render: A5 exact approved body is squeezed into one line with visibly smaller characters than the nearby A3 multiline body. Taiwan source remains at least body-sized and exact. Finding independently confirmed on current B20 PNG, not inherited from B18. Preserve original and canary evidence.",
+  "evidence": ["render-canary/feed333-06-top.png", "render-canary/feed333-04-top.png"],
+  "edit_instructions": "BOUND EDIT: preserve every approved Chinese character, logo, category, 5/6, headline, source and CTA. Enlarge the complete body to at least 58px at 1254px canvas and wrap in exactly two large lines: 把批次范围、记录来源与确认责任 / 放进同一次协调讨论。 No single-line shrinking. Keep the ENTIRE Taiwan source at least as large as body, including ERP/MES explanation. Shrink the middle illustration substantially to provide whitespace for the two body lines and the complete source. Preserve small sealed chip carrier and two blank pale-blue tiles. No invented printed values or UI. Source remains qualitative ERP management / MES production context, no outcome or ERP-only claim.",
+  "authority": "Current user mandate to complete B20/B21; first corrective for this card and within default two-corrective batch cap. No B18 exceptions carried forward.",
+  "semantic_review": "Exact words, persona, handoff coordination, service CTA and Taiwan scope unchanged. Body readability only. MESSAGE_ANCHOR_PASS for corrective script; artifact remains pending."
+}

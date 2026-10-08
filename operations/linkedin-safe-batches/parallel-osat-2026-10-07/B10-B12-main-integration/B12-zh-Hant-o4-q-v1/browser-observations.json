@@ -1,0 +1,12 @@
+{
+  "reviewer": "/root SELF_REVIEW",
+  "desktop_feed333_cards": ["COLD-OSAT-QUALITY-01-IMAGE", "O4-Q-B1", "O4-Q-B2", "O4-Q-B3", "O4-Q-B4", "O4-Q-B5", "RMK-R4-1", "RMK-R4-2", "RMK-R4-3", "RMK-R4-4"],
+  "desktop_feed333_observation": "All ten selected cards actually rendered and screenshot-inspected in compact render-review. 1707x879 DOM viewport, artwork333px, captions/native headlines present; no material clipping or selected image defect observed. Main journey cold feed333 screenshot also inspected.",
+  "desktop640_cards": [],
+  "reader": {"desktop_top_screenshot": "OBSERVED_NO_MATERIAL_LAYOUT_ISSUE", "full_dom": "OBSERVED", "bottom_scrolled_screenshot": "CAPTURE_TIMEOUT_NO_VISUAL_VERDICT", "source_links": "DOM destinations match bound script; external pages not visited", "source_language": "Simplified source disclosed; Traditional summary; legal company name preserves source glyphs"},
+  "mobile": {"requested_override": {"width":351,"height":760}, "actual_dom": {"width":390,"height":844,"scrollWidth":373}, "screenshot": "NO_USABLE_SCREENSHOT_RETURNED", "verdict": "NOT_VISUALLY_VERIFIED", "override_reset": true},
+  "journey": {"status": "ACTUAL_DESKTOP_INTERACTIONS_OBSERVED_RENDER_PARTIAL", "next_transitions":9, "observed_order":"cold → five explanation cards → four proof cards", "next_disabled_on_card10":true, "reader_open":true, "return_link_clicked":true, "return_result":"index.html cold card1 observed", "full_visual_mobile_desktop640":"NOT_OBSERVED"},
+  "cleanup": {"own_tab_closed":true,"viewport_reset":true,"own_server_pid":43156,"own_server_stopped":true,"port8765_free":true,"own_lock_released":true},
+  "technical_verdict":"INSUFFICIENT_EVIDENCE",
+  "limits":"Root self-review, no independent/native-market/runtime model-effort certification. Screenshot timeout does not imply an image fault or technical PASS."
+}

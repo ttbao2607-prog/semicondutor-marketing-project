@@ -1,0 +1,243 @@
+{
+  "revision": "partner-ambiguity-correction-v1",
+  "execution_status": "SUCCESS",
+  "review": "SELF_REVIEW; no independent certification",
+  "inventory_dispositions": 14,
+  "closures": [
+    {
+      "item": "Kickoff mixed grouping",
+      "disposition": "EDITED",
+      "paths": [
+        "Semiconductor_Work_Kickoff.md"
+      ]
+    },
+    {
+      "item": "Website/Ads mixed audience and CTA",
+      "disposition": "EDITED",
+      "paths": [
+        "Semiconductor - Website & Ads.md"
+      ]
+    },
+    {
+      "item": "S01 route axes and message row",
+      "disposition": "EDITED",
+      "paths": [
+        "drafts/S01_Proof_and_Message.md"
+      ]
+    },
+    {
+      "item": "S03 mixed role pool",
+      "disposition": "EDITED",
+      "paths": [
+        "drafts/S03_LinkedIn_Audience_Research.md"
+      ]
+    },
+    {
+      "item": "Google internal group alias",
+      "disposition": "CLARIFIED_ALIAS_RETAINED",
+      "paths": [
+        "ads/google/Google_Search_Build_Sheet.md"
+      ]
+    },
+    {
+      "item": "LDP title/header",
+      "disposition": "APPROVED_LDP_PRESERVED_CONTEXT_CLARIFIED",
+      "paths": [
+        "operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-ldp-content-anchor-v1.md"
+      ]
+    },
+    {
+      "item": "LDP integration audience card",
+      "disposition": "APPROVED_LDP_PRESERVED_CONTEXT_CLARIFIED",
+      "paths": [
+        "operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-ldp-content-anchor-v1.md"
+      ]
+    },
+    {
+      "item": "Design architecture scope",
+      "disposition": "CLARIFIED",
+      "paths": [
+        "design-system/digiwin-semiconductor-marketing/pages/partner-route.md"
+      ]
+    },
+    {
+      "item": "Historical P1 source cohort",
+      "disposition": "BYTES_PRESERVED_REUSE_NOTICE",
+      "paths": [
+        "operations/linkedin-awareness-execution/p1-owner-imagegen-r1/READ_BEFORE_REUSE.md"
+      ]
+    },
+    {
+      "item": "Historical P1 caption",
+      "disposition": "BYTES_PRESERVED_REUSE_NOTICE",
+      "paths": [
+        "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/P1/READ_BEFORE_REUSE.md"
+      ]
+    },
+    {
+      "item": "Historical P2 caption",
+      "disposition": "BYTES_PRESERVED_REUSE_NOTICE",
+      "paths": [
+        "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/P2/READ_BEFORE_REUSE.md"
+      ]
+    },
+    {
+      "item": "Historical P3 domestic persona",
+      "disposition": "BYTES_PRESERVED_REUSE_NOTICE",
+      "paths": [
+        "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/P3/READ_BEFORE_REUSE.md"
+      ]
+    },
+    {
+      "item": "Handoff unresolved SI choice",
+      "disposition": "LOCAL_CANDIDATE_CORRECTED",
+      "paths": [
+        "operations/linkedin-safe-batches/parallel-handoff-2026-10-07/Partner.md",
+        "operations/linkedin-safe-batches/parallel-handoff-2026-10-07/README.md"
+      ]
+    },
+    {
+      "item": "Root SI proposal v2",
+      "disposition": "WITHDRAWN_CURRENT_STATE_SUPERSEDED",
+      "paths": [
+        "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/partner-meaning-reconciliation-v3.md"
+      ]
+    }
+  ],
+  "protected_files_unchanged": 198,
+  "frozen_pins_unchanged": 24,
+  "tracked_docs_changed": [
+    "CURRENT_STATE.md",
+    "DOCS_IMPACT_MAP.md",
+    "README.md",
+    "Semiconductor - Website & Ads.md",
+    "Semiconductor_Work_Kickoff.md",
+    "ads/google/Google_Search_Build_Sheet.md",
+    "ads/linkedin/LinkedIn_Build_Pack.md",
+    "design-system/digiwin-semiconductor-marketing/pages/partner-route.md",
+    "drafts/S01_Proof_and_Message.md",
+    "drafts/S03_LinkedIn_Audience_Research.md",
+    "operations/LinkedIn_Safe_Batch_Execution_Plan_2026-10-06.md",
+    "operations/Pre_Ad_Readiness_Plan.md"
+  ],
+  "candidate_new_files": [
+    "operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-ldp-content-anchor-v1.md",
+    "operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-ldp-anchor-source.json",
+    "operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-ambiguity-inventory-v1.md",
+    "operations/linkedin-safe-batches/parallel-partner-2026-10-07/ambiguity-correction-contract.md",
+    "operations/linkedin-awareness-execution/p1-owner-imagegen-r1/READ_BEFORE_REUSE.md",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/P1/READ_BEFORE_REUSE.md",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/P2/READ_BEFORE_REUSE.md",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/P3/READ_BEFORE_REUSE.md",
+    "operations/linkedin-safe-batches/parallel-handoff-2026-10-07/Partner.md",
+    "operations/linkedin-safe-batches/parallel-handoff-2026-10-07/README.md"
+  ],
+  "files": [
+    {
+      "path": "CURRENT_STATE.md",
+      "sha256": "7379b058fe24d58b8badd385341f8042679c3b5bec465bff7277b500cea82ed9"
+    },
+    {
+      "path": "DOCS_IMPACT_MAP.md",
+      "sha256": "0ad178709f6a5a69dada9a970e5489a3dae02f713caf6b4b3ae4dd69e96e38ae"
+    },
+    {
+      "path": "README.md",
+      "sha256": "5527b66a002e5caff34c73bb355eabe59d4182123f1f10153c27d7267e2c9d50"
+    },
+    {
+      "path": "Semiconductor - Website & Ads.md",
+      "sha256": "e69fd22d409983e858d2c547fcc16cb2d68652ded9ace6246c84ff35e923348f"
+    },
+    {
+      "path": "Semiconductor_Work_Kickoff.md",
+      "sha256": "db10b9dc5b35b6ee0e0cab397fd30f8f8eb858f90d5355ed9a5dbe0ba1321fb6"
+    },
+    {
+      "path": "ads/google/Google_Search_Build_Sheet.md",
+      "sha256": "c8cf48098c4d9f5488d3d4dff7a6108fdc9e4f3d3f9e2e2447758f0f7228b03a"
+    },
+    {
+      "path": "ads/linkedin/LinkedIn_Build_Pack.md",
+      "sha256": "cbc016497409503331a9a481526ea0c1eaab89a58b29d077749eaf23faea4065"
+    },
+    {
+      "path": "design-system/digiwin-semiconductor-marketing/pages/partner-route.md",
+      "sha256": "11b259379efd53134d5da6483274cd7505ab205eb2b259356c3964b4c6be1cc4"
+    },
+    {
+      "path": "drafts/S01_Proof_and_Message.md",
+      "sha256": "8e6951105bfba6d083db10af9ce589d68f6a73ee3d0da10f78dfa35e1db73d6a"
+    },
+    {
+      "path": "drafts/S03_LinkedIn_Audience_Research.md",
+      "sha256": "a0befdae273a3e4fa0d8dd5b5950836ca7738a641b8acb56a7c296900b9daf85"
+    },
+    {
+      "path": "operations/LinkedIn_Safe_Batch_Execution_Plan_2026-10-06.md",
+      "sha256": "80f396578dba64bdfe8ac6ad55591e84eb99a77700cc57b7c2e7913fa77dff3b"
+    },
+    {
+      "path": "operations/Pre_Ad_Readiness_Plan.md",
+      "sha256": "ccd27357deccd9589d2dd691c10ed7b8b78578b7cc50984c05042db2f7712f9b"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-ldp-content-anchor-v1.md",
+      "sha256": "6f2871ad24307c9daad8a5785cfec52a084c0bc05084ccda7d5634a054d7db37"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-ldp-anchor-source.json",
+      "sha256": "03105eb4d238742999dc56661de83d0b18f23099d8f85e8e3e686c6ae6a55b86"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-ambiguity-inventory-v1.md",
+      "sha256": "83da928df8863c1bd0f0f3a2df5ec4797ab33abd14fd3d2c1824bece75ecb0bd"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/ambiguity-correction-contract.md",
+      "sha256": "68eecc558171f63d3837449c5326fd12ddddccbe6ae2c5beb506470384c5afaf"
+    },
+    {
+      "path": "operations/linkedin-awareness-execution/p1-owner-imagegen-r1/READ_BEFORE_REUSE.md",
+      "sha256": "9fabec0d1468925e526c2ad3c216d538f854e1cef6de8de560b40ddfec9dc34b"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/P1/READ_BEFORE_REUSE.md",
+      "sha256": "22712ef0f9da26c25ac67c170b3c13733c0a72b09a2604e674b44e5575f718a6"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/P2/READ_BEFORE_REUSE.md",
+      "sha256": "22712ef0f9da26c25ac67c170b3c13733c0a72b09a2604e674b44e5575f718a6"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/P3/READ_BEFORE_REUSE.md",
+      "sha256": "163946c804ae6d66d7a2a55bf20f903cbde3f193f7c09968b4aee290776bb2da"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-handoff-2026-10-07/Partner.md",
+      "sha256": "38c0947aa38d8ea178cb60f0e493fa23d47e3d9fa0842ac273fe331ed2c2446c"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-handoff-2026-10-07/README.md",
+      "sha256": "eb06828e8db98254a3d16cd10758c001135e628cbdfdcfd0d914b730187f1493"
+    }
+  ],
+  "source_handoff_pins": [
+    {
+      "path": "D:\\optimize-awareness-LinkedIn-adcopy\\operations\\linkedin-safe-batches\\parallel-handoff-2026-10-07\\README.md",
+      "sha256": "8fd805840c84b3b6fd5b5c169842581aa373b6637b57ce9dc973197f8cce7a34"
+    },
+    {
+      "path": "D:\\optimize-awareness-LinkedIn-adcopy\\operations\\linkedin-safe-batches\\parallel-handoff-2026-10-07\\Partner.md",
+      "sha256": "afd25f4ae2e146506c2dcd2f74562e2799b131c0542660bdd3a3cf435e2e8664"
+    }
+  ],
+  "head": "f2883d1c9db7c4abb72afa8998d2bde0cc192b74",
+  "staged": false,
+  "committed": false,
+  "merged": false,
+  "pushed": false,
+  "imagegen_calls": 0,
+  "B22_status": "HOLD_PENDING_LDP_ANCHORED_SUPPLIER_SCRIPT_REVIEW",
+  "integration_note": "Selective candidate only; source handoff has uncommitted counterparts; reconcile them and newer main docs before integration. Do not merge entire source research branch or pre-existing preparation/debug evidence."
+}

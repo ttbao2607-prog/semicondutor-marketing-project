@@ -1,0 +1,205 @@
+{
+  "revision": "b16-c3-complete-mechanical-verification-v1",
+  "frozen_pins_unchanged": 24,
+  "raw_selected_verified": 11,
+  "attempts": [
+    {
+      "call_id": "B16_F2_A5_V1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a5/native/f2-a5-en-v1.png",
+        "sha256": "3fb88fe856b77b7c5d714555148b560e979af93870aca97bcc06fc9754902c71"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a5/dispatch/B16_F2_A5_V1-fresh-preflight.json",
+        "sha256": "402a42579c0e87265169df68d8b118d952ace91fc758d9e75f2dc7492609ae39"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a5/release.json",
+        "sha256": "079d3444236042b0a6ce4f01b543aaac035d3945a0d963902e2e8b1607e9017d"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a5/anchor-review.json",
+        "sha256": "c531499dbd937bb28e66184ec4bdbf34cff8131f9e974323d8f1f3e935b7ba0b"
+      }
+    },
+    {
+      "call_id": "B16_F2_A3_V1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a3/native/f2-a3-en-v1.png",
+        "sha256": "0f326c5d7bae63e819802d380a56295c4557c9f247bb71f05397e120ac881ab0"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a3/dispatch/B16_F2_A3_V1-fresh-preflight.json",
+        "sha256": "9bfe190911dedf6767289a76cbca0292682adb5096e87578ceeb1a5069e3caae"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a3/release.json",
+        "sha256": "6fb9bb4498d9b1da9ee7ad3b8c2da6a414311ef08fd34ce746ebcae7849bf4da"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a3/anchor-review.json",
+        "sha256": "3c8550042c2d1b4d0179e296d8bd243a69b377c9e2c4a6af37acf44303912e6a"
+      }
+    },
+    {
+      "call_id": "B16_F2_A5_C1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v1/f2-a5/native/f2-a5-en-c1.png",
+        "sha256": "ea34f6eec40f394f7ace9efb984212e52bad8ffbb2b296eed4796365cf0bd3a0"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v1/f2-a5/dispatch/B16_F2_A5_C1-fresh-preflight.json",
+        "sha256": "05dc86509c78bc7c96002f4c9868a441da0af572b9d36db1744d1a6527d226d7"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v1/f2-a5/release.json",
+        "sha256": "301d4d4948683ac682674e35a0db773cd735a35d04a93aef1e51b72fdc5e2d49"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v1/f2-a5/anchor-review.json",
+        "sha256": "a81395b367847f846d34af4e04fdacdbfb8523c08ac07ffbc63cdec83a05fb1d"
+      }
+    },
+    {
+      "call_id": "B16_F2_A5_C2",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v2/f2-a5/native/f2-a5-en-c2.png",
+        "sha256": "1272471f452cc974af776f02476d3db1e17df3c757bf8e4f5f96bb5ae5f779d8"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v2/f2-a5/dispatch/B16_F2_A5_C2-fresh-preflight.json",
+        "sha256": "13c5c6ed39df5b5584da49d7b9d3ba5f42d79a6ad38898da0e04ebe5c1148183"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v2/f2-a5/release.json",
+        "sha256": "a62b697cbd247e16d1249f928d29709ca67d7399763640b81e617c14ceb2ebbf"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v2/f2-a5/anchor-review.json",
+        "sha256": "ebd2f46f59fc9c88e8104dbd47b119263ae8b73f0793b36513675cf91c5ee3b4"
+      }
+    },
+    {
+      "call_id": "B16_F2_A5_C3",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v3/f2-a5/native/f2-a5-en-c3.png",
+        "sha256": "19229ce74360a126c1fb8405ec45b6d0f25283cd452527a9dafa3ccc184c721b"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v3/f2-a5/dispatch/B16_F2_A5_C3-fresh-preflight.json",
+        "sha256": "3fb542c53e9d8d8041d8858e80657f6c532fb9558149d800d54274d36efc9852"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v3/f2-a5/release.json",
+        "sha256": "a8a5132ab8a1e80842084e4c02034d885a879aba8f3b96db10655ebbe3b37420"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v3/f2-a5/anchor-review.json",
+        "sha256": "8c4e585e83ea26490b471df4c769549307118f9d0b6a53a31afde1e7b44de032"
+      }
+    },
+    {
+      "call_id": "B16_COLD_FABLESS_B16_V1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/cold-fabless-b16/native/cold-fabless-b16-en-v1.png",
+        "sha256": "829bdd6e8db494c2ca3dd43e0fdbebc8ec29aabcc512599ea429690efdf0de2b"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/cold-fabless-b16/dispatch/B16_COLD_FABLESS_B16_V1-fresh-preflight.json",
+        "sha256": "0e3676eb1c24b720c795bfbf7f9d2a292213c14c615e9bab513687454a6c8fb7"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/cold-fabless-b16/release.json",
+        "sha256": "40b089049124f07a7ab0c6b934a3c62fc4e84262e3a275d12ca6642454371b6e"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/cold-fabless-b16/anchor-review.json",
+        "sha256": "d754e6fd86e082f9bbe8397e07e6abfa9ea76f10161928ffc3f2be09a08737bf"
+      }
+    },
+    {
+      "call_id": "B16_F2_A1_V1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a1/native/f2-a1-en-v1.png",
+        "sha256": "286a58fb0cfab9b901aaf408c6748aec38effb42a2b6cec4fa5b0e7671b064b2"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a1/dispatch/B16_F2_A1_V1-fresh-preflight.json",
+        "sha256": "7c844f74507ecadd85c28e90537d6cafbbcab1958fba87f7ff52f20edaecf39b"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a1/release.json",
+        "sha256": "99408784c1a218fe5cc55f310ffaa8692b614ffab0a3a206bcf617528dc7152f"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a1/anchor-review.json",
+        "sha256": "5769d82a415dc68df673095e5f75f7a9f4bd9b85d5af7b2d91731a1ae9aaef5e"
+      }
+    },
+    {
+      "call_id": "B16_F2_A2_V1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a2/native/f2-a2-en-v1.png",
+        "sha256": "1a00d0924f18f68fcc9f884b6c568a416d2e0d576ae85e631e233c70282a2765"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a2/dispatch/B16_F2_A2_V1-fresh-preflight.json",
+        "sha256": "d0c401b0fe9a3302baae8fe5b31a0a1b87f6dd33ca280011e09bf197e2b93fe3"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a2/release.json",
+        "sha256": "198a50236c2c228c5283abd8ad2e74a3d3795cebc1b95467594f83746cdbde13"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a2/anchor-review.json",
+        "sha256": "976c6fe460c1c2c70da8e943f01e4b3f78593d509bb859e38745b8392fb8200f"
+      }
+    },
+    {
+      "call_id": "B16_F2_A4_V1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a4/native/f2-a4-en-v1.png",
+        "sha256": "b27ee9f83885ac7d7508add7f46db519cbc831caf1edbd0d793f7a4112d109c5"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a4/dispatch/B16_F2_A4_V1-fresh-preflight.json",
+        "sha256": "8b03c253dbfe9d11193406db1450aedf085969a71b3c7aefde11c3df04721978"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a4/release.json",
+        "sha256": "5e12a51976ac96b6b0ee5dae2db80d7cca215209314903b8e67a4f85a79defab"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a4/anchor-review.json",
+        "sha256": "ccdb75dab8c047df3c9e030d4f266cdb813911c5cdeae0422009f9a2b57b4bbd"
+      }
+    },
+    {
+      "call_id": "B16_RMK_BRIGHT_2_V1",
+      "native": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/rmk-bright-2/native/rmk-bright-2-en-v1.png",
+        "sha256": "a8f0a88c9b15676f846ce87a07f0f4554c6b764d6a13232839459cdd569bda83"
+      },
+      "guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/rmk-bright-2/dispatch/B16_RMK_BRIGHT_2_V1-fresh-preflight.json",
+        "sha256": "a1f22d773e9f00629bce817638811c1603029b8535626a525b3da7fcf1ebcdbb"
+      },
+      "release": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/rmk-bright-2/release.json",
+        "sha256": "6ed9270a541d0cc3a1c0b70b38a910535404d5bbe11d9f5be002a2113a8ea7f4"
+      },
+      "anchor_review": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/rmk-bright-2/anchor-review.json",
+        "sha256": "7321d05edf7e4b7f7f73ea9975c4a9a313d52c4dc7285fda2afa3f4ea3d23408"
+      }
+    }
+  ],
+  "render_capture_count": 37,
+  "postgen": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/postgen-review-repair-v3.json",
+    "sha256": "13c176f941ff89b2dfc0a84c986af698c96277fe41a768fcc2e72ca06d73e6d2"
+  },
+  "png_transformations": 0,
+  "zip": false,
+  "scope": "Mechanical hashes and dimensions; semantic/artwork judgments are actual root SELF_REVIEW in receipt."
+}

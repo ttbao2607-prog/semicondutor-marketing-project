@@ -1,0 +1,43 @@
+# Kết quả điều tra identity và cập nhật audience — 06/10/2026
+
+Trạng thái chuẩn: [STATE](../STATE.md). Mốc account evidence gần nhất: **09:24 Asia/Saigon, 06/10/2026**; không phải kiểm tra realtime lúc đọc tài liệu này.
+
+## Kết quả hiện hành
+
+Nghiên cứu đã bao phủ đủ **424 dòng**. Có **101 dòng** được bổ sung định danh có bằng chứng, **323 dòng** đã điều tra nhưng vẫn blocked định danh. Không còn queue chưa nghiên cứu; không loại công ty theo ICP và không khẳng định toàn bộ danh sách đã sạch.
+
+CSV cuối có **99 website và 6 Company Page**, tương ứng **105 thay đổi field** trên101 dòng. Giữ10 headers,424 dòng, thứ tự, duplicates và8 trường ngoài website/Page. SHA256: `69b9209e27baee4f4e527a686fd2497836bb7b7f1dfdcdcc6c5cc45648ae3e0c`;27673 bytes. Tên tệp: `linkedin_company_list_identity_repair_424_20261006_final.csv`.
+
+Independent structural/provenance audit đã chấp nhận đúng phạm vi này, gồm đối chiếu105 thay đổi và khắc phục gap provenance28 dòng. Những domain có dấu hiệu compromise, scope group/country không đủ rõ, legal alias hoặc quan hệ publisher chưa chứng minh đều được giữ HOLD. Audit file không chứng minh mapping thực của LinkedIn.
+
+Bảo đã xác nhận Ads Agreement tại thời điểm thao tác. Existing Discovery được cập nhật **đúng một lần**, LinkedIn báo thành công. Sau khi Bảo mở lại account, read-only Edit hiển thị đúng tên tệp cuối; Cancel không sửa hoặc submit lại. Audience hiển thị **Updating**, last modified06/10/2026 và Active ad sets `-`. Lưu tên tệp đã được xác minh; không tải lại server bytes để kiểm hash.
+
+**80%,754538 members,117 matched/86 unmatched vẫn là kết quả cũ hiển thị trong lúc Updating.** Chưa có match rate, mapping hoặc reach mới được chấp nhận. Không tạo audience mới, publish/enable/spend campaign hoặc submit lần hai. Budget11,7 triệuVND final;35 triệu là draft superseded.
+
+## Phần chưa closeout
+
+Hai mapping sai trước update được lưu evidence. Một intended company đã bổ sung domain đúng; công ty còn lại vẫn name-only. Chưa quan sát kết quả chứng minh hai lỗi đã được sửa. Một quan hệ numeric-to-named Page đã xác minh;114 quan hệ historical mapped còn lại chưa được chấp nhận đúng bằng enrichment.
+
+203 entries historical trong account join205 source rows;219 source rows không hiện trong UI cũng đã được điều tra. Không thấy một dòng trong UI không chứng minh failed match hoặc historical uploaded bytes.323 identifier blockers không phải323 confirmed unmatched companies.
+
+## Timeline lịch sử
+
+| Mốc | Evidence / disposition |
+|---|---|
+| 05/10 interim v2 | Form bị Cancel; chưa submit. Candidate22 không thay input424 |
+| 06/10 trước submit | File validation báo ready for upload; đây là validation file, chưa là audience processing complete |
+| 06/10 submission receipt09:17:32 | Ghi nhận success toast sau một lần Agree & Update; thời gian ghi receipt, không phải server timestamp chính xác |
+| Reload sau submit | Access denial; một read-only retry cùng lỗi. Blocker lịch sử |
+| 06/10 readback09:24 | Bảo mở lại account; đúng saved filename và Updating. Access blocker đã resolved; nguyên nhân chưa xác định |
+
+R1–R4 ICP sessions revoked, không restart. Ba identity workers đã hoàn tất phạm vi research/audit read-only.
+
+## Evidence và bước tiếp
+
+[Evidence index](../EVIDENCE_INDEX_20261006.md) pin hashes của nguồn, CSV cuối, ledger424, change log105, submit/save/Updating screenshots và hai historical wrong mappings. Raw company/account data và ảnh nằm ngoài public Git. Candidate snapshots giữ nguyên lịch sử; final ledger/change log là exact copies của bằng chứng đã accepted.
+
+1. Chờ existing Discovery hết Updating rồi lưu readback mới; không upload lại chỉ vì số cũ vẫn hiển thị.
+2. Kiểm matched/unmatched và exact entity/Page, ưu tiên hai mapping sai rồi các dòng enrich.
+3. Đo lại reach với filters thật và ghi receipt mới. Processing có thể lâu hơn48 giờ; chưa có scheduled recheck được tạo.
+
+Execution: **SUCCESS trong phạm vi research, single submission và saved-filename verification; overall audience closeout PARTIAL**. Fresh mapping/reach PENDING_PROCESSING; campaign readiness chưa PASS. Canonical docs và evidence hiện là local working files, chưa commit/push/main merge trong lượt canonicalization.

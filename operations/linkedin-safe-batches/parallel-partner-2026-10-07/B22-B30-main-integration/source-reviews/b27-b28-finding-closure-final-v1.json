@@ -1,0 +1,38 @@
+{
+  "revision": "b27-reuse-p3-closure-final-v1",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "card": "B27-P3",
+  "finding": "Reused B24 P3 lacks mandatory category/sequence, confirmed against old spec and actual image; prior B24 PASS conflicts with image.",
+  "rejected_candidate": {
+    "card_id": "B27-P3",
+    "source": {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B24-zh-Hant-p1-v1/assets/09-b24-p3.png",
+      "sha256": "24e285091a0a875e02e419c86ae821cbd849b2d22d356751d4f36c7cd882b6f1"
+    },
+    "raw": {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/proof/reused-native/b27-p3.png",
+      "sha256": "24e285091a0a875e02e419c86ae821cbd849b2d22d356751d4f36c7cd882b6f1"
+    },
+    "selected": false
+  },
+  "selected_call": "B27-P3_CORRECTIVE_V4",
+  "status": "CLOSED_SELECTED_B27_ONLY",
+  "history": "Previous B24 bytes/receipts and rejected B27 reuse preserved, no retrospective PASS or old receipt rewrite",
+  "evidence": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B27-zh-Hant-p2-v1/p3-reuse-finding-review-v1.json",
+    "sha256": "408a5beca6f021780e615f36bda1339ce8147826f0afb3934917a8afc2b07454"
+  },
+  "reviewed_utc": "2026-10-07T08:49:26.332208+00:00",
+  "selected_checks": {
+    "native": "PASS",
+    "desktop": "PASS",
+    "actual434": "PASS",
+    "feed333": "PASS"
+  },
+  "historical_B24": "Discrepancy remains for coordinator reconciliation; B24 artifact/spec/receipt unchanged. No retrospective PASS.",
+  "previous_snapshot": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/b27-b28-finding-disposition-v1.json",
+    "sha256": "7d6675ae926623cc11621d3b46fb20674a895c478a3b66b15100379c45ee53ec"
+  }
+}

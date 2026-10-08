@@ -1,0 +1,9 @@
+# Actual local main closeout · 08/10/2026
+
+SUCCESS. Local main was advanced fromc5e71913 to the reviewed merge698c1638e71853ae79c8b417f75a3ffd417f3c44. Its two parents are current mainc5e71913 and approved package source5569ca4e; fork196f26b9 remains explicit. [Actual main readback](main-readback.json) was recorded after the advance and local private-companion copy. Main working tree was clean.
+
+All233approved package files match the current manifest on actual main:221tracked +12ignoredprivate evidence files. All170creative hashes match source at the fork. Existing3704main blobs outside11bounded canonical/config files remain exact, including newer Partner/Fabless assets/evidence and frozen policies. Old main canonical bodies remain intact below scoped current notices; there are no deleted/unmerged/unexpected paths. All local presentation targets/fragments resolve. Anchor/email bytes match the fresh locale binding; prior exact-byte UI/content review is reused, no acceptance upgraded.
+
+Docs impact reviewed: nine canonical entrypoints plus package README/plan distinguish source coverage (17VN/OSAT journeys at07Oct fork, presentation finalized08Oct) from newer repository progress (Partner9batch/90PNG complete; Fabless5batch/55PNG adopted,B18–B21 NOT_RUN). Budget/tax/dashboard/accounting/week-review clarification follows the prior PO decision. Dated audience/Planner evidence is not treated as a fresh live readback. Historical source receipts remain unchanged.
+
+The next docs-only checkpoint records this observed merge state, then main is advanced to that descendant. This does not change the approved delivery or project progress. No push/live action; remote-tracking refs are cached, actual GitHub state was not queried. Source/integration refs remain available for recovery. Adapter DEVELOPING / NOT_FROZEN and frozen scopes remain unchanged.

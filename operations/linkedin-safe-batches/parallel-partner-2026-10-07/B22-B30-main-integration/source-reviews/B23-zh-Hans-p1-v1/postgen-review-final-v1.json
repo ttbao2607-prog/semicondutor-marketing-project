@@ -1,0 +1,820 @@
+{
+  "revision": "b23-postgen-final-v1",
+  "stage": "POSTGEN_ARTIFACT",
+  "reviewed_utc": "2026-10-07T06:50:04.393266+00:00",
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW_INDEPENDENT_AUDIT_PENDING",
+  "execution_status": "SUCCESS",
+  "artifact_status": "PASS_APPROVED_SCOPE",
+  "MESSAGE_ANCHOR": "MESSAGE_ANCHOR_PASS",
+  "EDITORIAL_QA": "EDITORIAL_QA_PASS",
+  "anchor": {
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+  },
+  "email": {
+    "id": "VY-MAIL-USER-20261006",
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "partner_anchor": {
+    "id": "PARTNER-WORKTREE-CONTENT-ANCHOR",
+    "revision": "2.0",
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-worktree-content-anchor-v2.md",
+    "sha256": "221e5a5facce74ae861a3874524b1c2814dac15cacafc580ddb6a34174fc88af"
+  },
+  "approved_ldp": {
+    "path": "landing/partner-route/supplier-ecosystem-flat.html",
+    "sha256": "d69c06b2a1f78e11b6087e6cd8580cab7d3bcd3c72ea71ce3dc1ec8964538f14"
+  },
+  "branch": "slice/linkedin-safe-partner-parallel",
+  "batch": "B23",
+  "segment": "FDI",
+  "locale": "zh-Hans",
+  "persona": "Operations Manager at a Vietnam FDI precision-component supplier for semiconductor equipment",
+  "audience_status": "Content scenario; actual entity/buyer authority/targeting eligibility UNKNOWN, not customer copy",
+  "route": "Cold -> five supplier-operation explanation cards -> four Wafer Works Taiwan/Shanghai proof cards -> full factory-discussion reader",
+  "A1_A7": {
+    "A1": {
+      "verdict": "MATCH",
+      "observation": "Industrial precision components for semiconductor equipment, not historic SI P1. Wafer Works remains distinct silicon-materials context."
+    },
+    "A2": {
+      "verdict": "MATCH",
+      "observation": "Factory Operations Manager FDI Vietnam content scenario; actual buyer/entity authority unknown, not asserted in ad."
+    },
+    "A3": {
+      "verdict": "MATCH",
+      "observation": "FDI operating handoff; language does not establish nationality or company eligibility."
+    },
+    "A4": {
+      "verdict": "MATCH",
+      "observation": "Qualitative decision readiness/accountability/source scope and traceability/execution visibility; no ROI/savings or guaranteed acceptance."
+    },
+    "A5": {
+      "verdict": "N/A_FDI",
+      "observation": "Not applicable to FDI; no domestic chain-entry promise."
+    },
+    "A6": {
+      "verdict": "MATCH",
+      "observation": "Crystal/wafer genealogy, progress/equipment/epitaxy limits and early alerts. ERP enterprise roles and execution lot/quality roles separated in reader."
+    },
+    "A7": {
+      "verdict": "MATCH",
+      "observation": "Cold information-to-decision -> evidence/team responsibility/local consultation -> named materials case -> own-factory discussion. E5->P1 and P4->reader keep audience; Vietnam staff not assigned Wafer Works execution."
+    }
+  },
+  "proof_ledger": {
+    "entity": "Wafer Works / 合晶科技",
+    "geography": "Taiwan / Shanghai, one case",
+    "activity": "Silicon materials: crystal growth, wafer processing, epitaxy",
+    "capability": "Crystal-to-wafer-lot traceability, progress/equipment visibility, epitaxy history with quality limits/early alerts",
+    "metrics": "None asserted",
+    "solution_scope": "ERP enterprise roles distinguished from manufacturing execution in reader",
+    "local_delivery": "Digiwin Vietnam factory assessment, process advice, on-site transfer and factory acceptance; no attribution of Wafer Works execution to Vietnam team",
+    "source_authority": "Approved Partner LDP anchor and two pinned public-source identities; no fresh live-page or account verification",
+    "rights": "Internal offline candidate only; no new live publication/customer-mark rights inferred"
+  },
+  "locale_terminology": "Mainland 零部件/运营/排产/记录/硅晶圆/外延/现场方案移交/工厂验收; proper names retained.",
+  "source_copy_and_demo_pins": [
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/cold/copy.json",
+      "sha256": "84470f338995ceeb1dee4ff3e3a36db827de28ade1e7cb3c38b7597c86bd3165"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/explanation/copy.json",
+      "sha256": "7e13f292e58e41d7b2ac518b5375f13aabd17076e1b1e5b581ff5db35237b3a5"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/proof/copy.json",
+      "sha256": "305eed591d18e37642d25de4cd8edd252134b802317588943f0532d9cfe9624a"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/reader-script.json",
+      "sha256": "08c407e51803ee53a1a0b1cfcfc339bed8984c32a524010c02caa048fa138fef"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/selected-copy.json",
+      "sha256": "0d37aa1ef9251cdc39dec7b2bf4bdd5961624ece13731353b002fd77652ee941"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/selected-origin-manifest.json",
+      "sha256": "b48cefce37720122802aa5cb0c3d237e9e50fb4ee5982ac6fad7d144cdcc49a6"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/selected-prompts.json",
+      "sha256": "fe70cef49f1771867a85bf50887dc57750cee87f62a3495e6477f19f0a098a27"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/reader-copy.json",
+      "sha256": "08c407e51803ee53a1a0b1cfcfc339bed8984c32a524010c02caa048fa138fef"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/index.html",
+      "sha256": "c37e8b60187bac09cdf13d15a8d3006b38879acd50041904b08ae90463e0a655"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/case-reader.html",
+      "sha256": "47f5c6594e87007edf45f54efe2e9b97705d72aaece4f8d950703d1381b094a3"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/render-review.html",
+      "sha256": "ac63431816ccf75c20ed34035366562b8b333553cc68a25a2d76c0706ed5ab92"
+    }
+  ],
+  "cards": [
+    {
+      "card_id": "B23-C1",
+      "selected_call_id": "B23-C1_ORIGINAL_V4",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/01-b23-c1.png",
+        "sha256": "da7403d95758e7cad27c6d3162ba05d5549ec457c14a91a6a1d9c0db2e04877b"
+      },
+      "exact_surfaces": {
+        "caption": "Digiwin 提供 ERP 与制造解决方案。面向半导体设备零部件供应商：先明确批次进度、质量记录和决策责任，再推进下一步排产。",
+        "headline": "批次状态已共享。\n排产能据此行动吗？",
+        "body": "半导体设备零部件供应商需要明确进度和质量记录的来源、范围与责任人，才能推进下一步排产。",
+        "source_text": "",
+        "cta": "了解信息交接",
+        "native_headline": "批次状态已共享。排产能据此行动吗？",
+        "alt": "示意图：批次状态已共享。排产能据此行动吗？",
+        "artwork_labels": [
+          "供应商运营"
+        ]
+      },
+      "script_semantic_observation": "Explicit semiconductor equipment-component supplier; scope/source/owner before planning. No SI partner or admission promise.",
+      "native_observation": "Drilled precision-component flange, blank folders and empty tray; no fake records or added objects.",
+      "text_fidelity": "MATCH_APPROVED_TEXT_AND_LOCALE_ON_ACTUAL_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 1,
+        "logo_role": "Provider identity, one official supplied mark",
+        "text_mentions": [
+          {
+            "surface": "caption",
+            "exact_string": "Digiwin 提供 ERP 与制造解决方案。面向半导体设备零部件供应商：先明确批次进度、质量记录和决策责任，再推进下一步排产。",
+            "count": 1,
+            "role": "local provider assessment/advice/transfer/acceptance",
+            "action": "KEEP",
+            "reason": "Identifies functional delivery or source authority, not repetitive company introduction."
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works remains customer case",
+        "observation": "Direct factory question/service invitation; local team capabilities and case identity remain separately attributed.",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_DECISION_AND_NAMED_SOURCE_INFORMATION",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No metric/qualification/guarantee or case/local-team attribution expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    },
+    {
+      "card_id": "B23-E1",
+      "selected_call_id": "B23-E1_ORIGINAL_V4",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/02-b23-e1.png",
+        "sha256": "41ff9f0c7ebb1b72a267ce48e6b3e2124d4f3c77c95d9e36af0e3dbbb4a595a9"
+      },
+      "exact_surfaces": {
+        "caption": "把运营记录连接到业务决策，从明确来源和责任人开始。与 Digiwin 越南团队一起梳理工厂流程，界定适合本厂的方案范围。",
+        "headline": "一个批次。一个决策。",
+        "body": "确定生产批次和下一步排产决策。状态更新的范围与接收团队的下一步行动清楚，信息才有用。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "一个批次。一个决策。",
+        "alt": "示意图：一个批次。一个决策。",
+        "artwork_labels": [
+          "供应商运营",
+          "1/5"
+        ]
+      },
+      "script_semantic_observation": "One production lot and receiving team decision/action, no inferred completion. Drilled hollow flange/upright blank folder/upright empty frame only.",
+      "native_observation": "Hollow drilled flange, upright blank folder and empty frame; one-lot/one-decision illustration.",
+      "text_fidelity": "MATCH_APPROVED_TEXT_AND_LOCALE_ON_ACTUAL_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 1,
+        "logo_role": "Provider identity, one official supplied mark",
+        "text_mentions": [
+          {
+            "surface": "caption",
+            "exact_string": "把运营记录连接到业务决策，从明确来源和责任人开始。与 Digiwin 越南团队一起梳理工厂流程，界定适合本厂的方案范围。",
+            "count": 1,
+            "role": "local provider assessment/advice/transfer/acceptance",
+            "action": "KEEP",
+            "reason": "Identifies functional delivery or source authority, not repetitive company introduction."
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works remains customer case",
+        "observation": "Direct factory question/service invitation; local team capabilities and case identity remain separately attributed.",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_DECISION_AND_NAMED_SOURCE_INFORMATION",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No metric/qualification/guarantee or case/local-team attribution expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    },
+    {
+      "card_id": "B23-E2",
+      "selected_call_id": "B23-E2_ORIGINAL_V4",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/03-b23-e2.png",
+        "sha256": "6de0b73ad0a393a91ed6489d22126c4f65fd2852e089d162ced84f20f344b943"
+      },
+      "exact_surfaces": {
+        "caption": "把运营记录连接到业务决策，从明确来源和责任人开始。与 Digiwin 越南团队一起梳理工厂流程，界定适合本厂的方案范围。",
+        "headline": "核对来源，再确认状态。",
+        "body": "这条状态来自哪里、何时更新、涵盖哪些生产活动？把这些信息与下一步决策所需的记录对应起来。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "核对来源，再确认状态。",
+        "alt": "示意图：核对来源，再确认状态。",
+        "artwork_labels": [
+          "供应商运营",
+          "2/5"
+        ]
+      },
+      "script_semantic_observation": "Source/time/coverage question to relevant decision records. Blank layers/channels/sleeve, no disc, labels or fake values.",
+      "native_observation": "Blank paper/cover layers, blank acrylic channels and sleeve; no ruled record values or extra disc.",
+      "text_fidelity": "MATCH_APPROVED_TEXT_AND_LOCALE_ON_ACTUAL_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 1,
+        "logo_role": "Provider identity, one official supplied mark",
+        "text_mentions": [
+          {
+            "surface": "caption",
+            "exact_string": "把运营记录连接到业务决策，从明确来源和责任人开始。与 Digiwin 越南团队一起梳理工厂流程，界定适合本厂的方案范围。",
+            "count": 1,
+            "role": "local provider assessment/advice/transfer/acceptance",
+            "action": "KEEP",
+            "reason": "Identifies functional delivery or source authority, not repetitive company introduction."
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works remains customer case",
+        "observation": "Direct factory question/service invitation; local team capabilities and case identity remain separately attributed.",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_DECISION_AND_NAMED_SOURCE_INFORMATION",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No metric/qualification/guarantee or case/local-team attribution expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    },
+    {
+      "card_id": "B23-E3",
+      "selected_call_id": "B23-E3_ORIGINAL_V4",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/04-b23-e3.png",
+        "sha256": "46fd6e386a9bc89f089b2964dceb16825649d7451cde229f40049de94acbbe97"
+      },
+      "exact_surfaces": {
+        "caption": "把运营记录连接到业务决策，从明确来源和责任人开始。与 Digiwin 越南团队一起梳理工厂流程，界定适合本厂的方案范围。",
+        "headline": "谁核对？谁接收？",
+        "body": "明确谁核对差异、谁接收确认后的信息。Digiwin 越南团队评估工厂运营，并就业务流程提供建议。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "谁核对？谁接收？",
+        "alt": "示意图：谁核对？谁接收？",
+        "artwork_labels": [
+          "供应商运营",
+          "3/5"
+        ]
+      },
+      "script_semantic_observation": "Who checks discrepancy and receives confirmed information; Digiwin Vietnam process assessment/advice separately attributed. Two empty frames/folder/drilled component.",
+      "native_observation": "Empty evidence frames, folder and drilled component; Vietnam assessment/advice attribution exact.",
+      "text_fidelity": "MATCH_APPROVED_TEXT_AND_LOCALE_ON_ACTUAL_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 2,
+        "logo_role": "Provider identity, one official supplied mark",
+        "text_mentions": [
+          {
+            "surface": "caption",
+            "exact_string": "把运营记录连接到业务决策，从明确来源和责任人开始。与 Digiwin 越南团队一起梳理工厂流程，界定适合本厂的方案范围。",
+            "count": 1,
+            "role": "local provider assessment/advice/transfer/acceptance",
+            "action": "KEEP",
+            "reason": "Identifies functional delivery or source authority, not repetitive company introduction."
+          },
+          {
+            "surface": "body",
+            "exact_string": "明确谁核对差异、谁接收确认后的信息。Digiwin 越南团队评估工厂运营，并就业务流程提供建议。",
+            "count": 1,
+            "role": "local provider assessment/advice/transfer/acceptance",
+            "action": "KEEP",
+            "reason": "Identifies functional delivery or source authority, not repetitive company introduction."
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works remains customer case",
+        "observation": "Direct factory question/service invitation; local team capabilities and case identity remain separately attributed.",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_DECISION_AND_NAMED_SOURCE_INFORMATION",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No metric/qualification/guarantee or case/local-team attribution expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    },
+    {
+      "card_id": "B23-E4",
+      "selected_call_id": "B23-E4_ORIGINAL_V4",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/05-b23-e4.png",
+        "sha256": "9b6a73272234489e4ea10e4e391f664d0709891d99e3667c0551baed30771c46"
+      },
+      "exact_surfaces": {
+        "caption": "把运营记录连接到业务决策，从明确来源和责任人开始。与 Digiwin 越南团队一起梳理工厂流程，界定适合本厂的方案范围。",
+        "headline": "交接需要记录与责任。",
+        "body": "明确下一步所需的证据和责任分工。Digiwin 越南团队支持现场方案移交与工厂验收。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "交接需要记录与责任。",
+        "alt": "示意图：交接需要记录与责任。",
+        "artwork_labels": [
+          "供应商运营",
+          "4/5"
+        ]
+      },
+      "script_semantic_observation": "Evidence and responsibility before next action; local on-site transfer/factory acceptance as support, not promised outcome or Wafer Works executor. Paper tray/folio/sleeve/empty frame.",
+      "native_observation": "Empty receiving/evidence tray, blank sleeve and frame; Vietnam transfer/acceptance attribution exact.",
+      "text_fidelity": "MATCH_APPROVED_TEXT_AND_LOCALE_ON_ACTUAL_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 2,
+        "logo_role": "Provider identity, one official supplied mark",
+        "text_mentions": [
+          {
+            "surface": "caption",
+            "exact_string": "把运营记录连接到业务决策，从明确来源和责任人开始。与 Digiwin 越南团队一起梳理工厂流程，界定适合本厂的方案范围。",
+            "count": 1,
+            "role": "local provider assessment/advice/transfer/acceptance",
+            "action": "KEEP",
+            "reason": "Identifies functional delivery or source authority, not repetitive company introduction."
+          },
+          {
+            "surface": "body",
+            "exact_string": "明确下一步所需的证据和责任分工。Digiwin 越南团队支持现场方案移交与工厂验收。",
+            "count": 1,
+            "role": "local provider assessment/advice/transfer/acceptance",
+            "action": "KEEP",
+            "reason": "Identifies functional delivery or source authority, not repetitive company introduction."
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works remains customer case",
+        "observation": "Direct factory question/service invitation; local team capabilities and case identity remain separately attributed.",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_DECISION_AND_NAMED_SOURCE_INFORMATION",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No metric/qualification/guarantee or case/local-team attribution expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    },
+    {
+      "card_id": "B23-E5",
+      "selected_call_id": "B23-E5_CORRECTIVE_V4",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/06-b23-e5.png",
+        "sha256": "089ad8ad98c6d46ba55b4adc551f88e916ef20989a2ebab378014acc7ddfe7ff"
+      },
+      "exact_surfaces": {
+        "caption": "把运营记录连接到业务决策，从明确来源和责任人开始。与 Digiwin 越南团队一起梳理工厂流程，界定适合本厂的方案范围。",
+        "headline": "行业经验。\n本厂流程适配。",
+        "body": "了解 Wafer Works 的半导体生产追溯与执行可视性。与 Digiwin 越南团队讨论本厂流程。",
+        "source_text": "Digiwin 半导体解决方案\nDigiwin 越南本地服务",
+        "cta": "了解 Wafer Works 案例",
+        "native_headline": "行业经验。本厂流程适配。",
+        "alt": "示意图：行业经验。本厂流程适配。",
+        "artwork_labels": [
+          "供应商运营",
+          "5/5"
+        ]
+      },
+      "script_semantic_observation": "Industry experience to own factory process-fit discussion. Case/local roles separate; source lines functional and next-stage CTA, not duplicate header brand. Bare material sample/component/blank folio.",
+      "native_observation": "Clean studio evidence-transfer scene; no factory building/map. Both semiconductor and local-service source lines legible at least body hierarchy.",
+      "text_fidelity": "MATCH_APPROVED_TEXT_AND_LOCALE_ON_ACTUAL_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 4,
+        "logo_role": "Provider identity, one official supplied mark",
+        "text_mentions": [
+          {
+            "surface": "caption",
+            "exact_string": "把运营记录连接到业务决策，从明确来源和责任人开始。与 Digiwin 越南团队一起梳理工厂流程，界定适合本厂的方案范围。",
+            "count": 1,
+            "role": "local provider assessment/advice/transfer/acceptance",
+            "action": "KEEP",
+            "reason": "Identifies functional delivery or source authority, not repetitive company introduction."
+          },
+          {
+            "surface": "body",
+            "exact_string": "了解 Wafer Works 的半导体生产追溯与执行可视性。与 Digiwin 越南团队讨论本厂流程。",
+            "count": 1,
+            "role": "local provider assessment/advice/transfer/acceptance",
+            "action": "KEEP",
+            "reason": "Identifies functional delivery or source authority, not repetitive company introduction."
+          },
+          {
+            "surface": "source_text",
+            "exact_string": "Digiwin 半导体解决方案\nDigiwin 越南本地服务",
+            "count": 2,
+            "role": "publisher/source attribution",
+            "action": "KEEP",
+            "reason": "Identifies functional delivery or source authority, not repetitive company introduction."
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works remains customer case",
+        "observation": "Direct factory question/service invitation; local team capabilities and case identity remain separately attributed.",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_DECISION_AND_NAMED_SOURCE_INFORMATION",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No metric/qualification/guarantee or case/local-team attribution expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    },
+    {
+      "card_id": "B23-P1",
+      "selected_call_id": "B23-P1_CORRECTIVE_V5",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/07-b23-p1.png",
+        "sha256": "42b6153483e913edc7dc71d6a907abd9aec896c774d5810c268d84cbebba194c"
+      },
+      "exact_surfaces": {
+        "caption": "了解 Wafer Works 在台湾 / 上海的半导体材料案例：生产追溯、进度与设备状态，以及外延质量记录。",
+        "headline": "Wafer Works：\n半导体材料",
+        "body": "从晶体生长、晶圆加工到外延，Digiwin 支持生产追溯与运营可视性。",
+        "source_text": "Wafer Works / 合晶科技\n台湾 / 上海",
+        "cta": "",
+        "native_headline": "Wafer Works：半导体材料",
+        "alt": "示意图：Wafer Works：半导体材料",
+        "artwork_labels": [
+          "半导体案例",
+          "1/4"
+        ]
+      },
+      "script_semantic_observation": "Exact Wafer Works / 合晶科技 and one Taiwan/Shanghai materials case. Crystal/wafer/epitaxy progression, no named system or metrics; separate large source block.",
+      "native_observation": "Bare wafer/process props; one Wafer Works / 合晶科技 Taiwan/Shanghai case. Geography and source exact; source hierarchy readable.",
+      "text_fidelity": "MATCH_APPROVED_TEXT_AND_LOCALE_ON_ACTUAL_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 2,
+        "logo_role": "Provider identity, one official supplied mark",
+        "text_mentions": [
+          {
+            "surface": "body",
+            "exact_string": "从晶体生长、晶圆加工到外延，Digiwin 支持生产追溯与运营可视性。",
+            "count": 1,
+            "role": "local provider assessment/advice/transfer/acceptance",
+            "action": "KEEP",
+            "reason": "Identifies functional delivery or source authority, not repetitive company introduction."
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works remains customer case",
+        "observation": "Direct factory question/service invitation; local team capabilities and case identity remain separately attributed.",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_DECISION_AND_NAMED_SOURCE_INFORMATION",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No metric/qualification/guarantee or case/local-team attribution expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    },
+    {
+      "card_id": "B23-P2",
+      "selected_call_id": "B23-P2_ORIGINAL_V5",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/08-b23-p2.png",
+        "sha256": "7cd5f969ae237f784d9281e0dccaadcaf80e3d5977203bb56ded50a5a9a75a3f"
+      },
+      "exact_surfaces": {
+        "caption": "了解 Wafer Works 在台湾 / 上海的半导体材料案例：生产追溯、进度与设备状态，以及外延质量记录。",
+        "headline": "追溯生产批次的来龙去脉。",
+        "body": "在 Wafer Works 案例中，生产履历把硅晶体与各晶圆批次连接起来。",
+        "source_text": "Digiwin 半导体解决方案\nWafer Works / 台湾 / 上海",
+        "cta": "",
+        "native_headline": "追溯生产批次的来龙去脉。",
+        "alt": "示意图：追溯生产批次的来龙去脉。",
+        "artwork_labels": [
+          "半导体案例",
+          "2/4"
+        ]
+      },
+      "script_semantic_observation": "Crystal-to-wafer batch genealogy within named case; illustrative two trays not factory quantities. Large source, no invented IDs.",
+      "native_observation": "Crystal-to-wafer-lot physical model and blank trays; no invented numerical record or second-country case. Source larger than body.",
+      "text_fidelity": "MATCH_APPROVED_TEXT_AND_LOCALE_ON_ACTUAL_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 2,
+        "logo_role": "Provider identity, one official supplied mark",
+        "text_mentions": [
+          {
+            "surface": "source_text",
+            "exact_string": "Digiwin 半导体解决方案\nWafer Works / 台湾 / 上海",
+            "count": 1,
+            "role": "publisher/source attribution",
+            "action": "KEEP",
+            "reason": "Identifies functional delivery or source authority, not repetitive company introduction."
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works remains customer case",
+        "observation": "Direct factory question/service invitation; local team capabilities and case identity remain separately attributed.",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_DECISION_AND_NAMED_SOURCE_INFORMATION",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No metric/qualification/guarantee or case/local-team attribution expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    },
+    {
+      "card_id": "B23-P3",
+      "selected_call_id": "B23-P3_ORIGINAL_V5",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/09-b23-p3.png",
+        "sha256": "492a0cd34dfaac2dfaa5f432f9ae2d4b677cf21276bfb343fed38585763af3ab"
+      },
+      "exact_surfaces": {
+        "caption": "了解 Wafer Works 在台湾 / 上海的半导体材料案例：生产追溯、进度与设备状态，以及外延质量记录。",
+        "headline": "看清进度与质量。",
+        "body": "案例涵盖生产进度、设备状态与外延履历，包括质量参数限值和质量风险预警。",
+        "source_text": "Digiwin 半导体解决方案\nWafer Works / 台湾 / 上海",
+        "cta": "",
+        "native_headline": "看清进度与质量。",
+        "alt": "示意图：看清进度与质量。",
+        "artwork_labels": [
+          "半导体案例",
+          "3/4"
+        ]
+      },
+      "script_semantic_observation": "Exact progress/equipment/epitaxy-history/parameter boundaries/early quality-alert scope, not a performance guarantee. Bare wafer/three blank layers; main source.",
+      "native_observation": "Bare wafer with blank record props; progress/equipment/epitaxy information scoped to named case; source readable larger than body.",
+      "text_fidelity": "MATCH_APPROVED_TEXT_AND_LOCALE_ON_ACTUAL_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 2,
+        "logo_role": "Provider identity, one official supplied mark",
+        "text_mentions": [
+          {
+            "surface": "source_text",
+            "exact_string": "Digiwin 半导体解决方案\nWafer Works / 台湾 / 上海",
+            "count": 1,
+            "role": "publisher/source attribution",
+            "action": "KEEP",
+            "reason": "Identifies functional delivery or source authority, not repetitive company introduction."
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works remains customer case",
+        "observation": "Direct factory question/service invitation; local team capabilities and case identity remain separately attributed.",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_DECISION_AND_NAMED_SOURCE_INFORMATION",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No metric/qualification/guarantee or case/local-team attribution expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    },
+    {
+      "card_id": "B23-P4",
+      "selected_call_id": "B23-P4_CORRECTIVE_V6",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/assets/10-b23-p4.png",
+        "sha256": "64eb6a2c6fedd625462328794fd533a37ab63ee252edc86596845443c81e805e"
+      },
+      "exact_surfaces": {
+        "caption": "了解 Wafer Works 在台湾 / 上海的半导体材料案例：生产追溯、进度与设备状态，以及外延质量记录。",
+        "headline": "把问题带回本厂。",
+        "body": "了解 Wafer Works 案例，再梳理本厂需要关注的批次记录、决策责任与流程要求。",
+        "source_text": "Digiwin 半导体解决方案\nWafer Works / 台湾 / 上海",
+        "cta": "阅读工厂讨论指南",
+        "native_headline": "把问题带回本厂。",
+        "alt": "示意图：把问题带回本厂。",
+        "artwork_labels": [
+          "半导体案例",
+          "4/4"
+        ]
+      },
+      "script_semantic_observation": "Bring case questions to own lot records/decision responsibility/process requirements; natural reader CTA, source/geography retained. No ROI/audit/vendor promise.",
+      "native_observation": "Exactly bare smooth wafer, blank paper discussion folio and empty tray; no grid/dies/flange. Both navy source lines larger than body; exact localized CTA.",
+      "text_fidelity": "MATCH_APPROVED_TEXT_AND_LOCALE_ON_ACTUAL_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 2,
+        "logo_role": "Provider identity, one official supplied mark",
+        "text_mentions": [
+          {
+            "surface": "source_text",
+            "exact_string": "Digiwin 半导体解决方案\nWafer Works / 台湾 / 上海",
+            "count": 1,
+            "role": "publisher/source attribution",
+            "action": "KEEP",
+            "reason": "Identifies functional delivery or source authority, not repetitive company introduction."
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works remains customer case",
+        "observation": "Direct factory question/service invitation; local team capabilities and case identity remain separately attributed.",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_DECISION_AND_NAMED_SOURCE_INFORMATION",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No metric/qualification/guarantee or case/local-team attribution expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    }
+  ],
+  "transitions": [
+    {
+      "from": "B23-C1",
+      "to": "B23-E1",
+      "verdict": "PASS",
+      "observation": "Same factory decision/source/responsibility audience; progression retains named case scope and local-delivery attribution. Actual forward journey and reader return inspected."
+    },
+    {
+      "from": "B23-E1",
+      "to": "B23-E2",
+      "verdict": "PASS",
+      "observation": "Same factory decision/source/responsibility audience; progression retains named case scope and local-delivery attribution. Actual forward journey and reader return inspected."
+    },
+    {
+      "from": "B23-E2",
+      "to": "B23-E3",
+      "verdict": "PASS",
+      "observation": "Same factory decision/source/responsibility audience; progression retains named case scope and local-delivery attribution. Actual forward journey and reader return inspected."
+    },
+    {
+      "from": "B23-E3",
+      "to": "B23-E4",
+      "verdict": "PASS",
+      "observation": "Same factory decision/source/responsibility audience; progression retains named case scope and local-delivery attribution. Actual forward journey and reader return inspected."
+    },
+    {
+      "from": "B23-E4",
+      "to": "B23-E5",
+      "verdict": "PASS",
+      "observation": "Same factory decision/source/responsibility audience; progression retains named case scope and local-delivery attribution. Actual forward journey and reader return inspected."
+    },
+    {
+      "from": "B23-E5",
+      "to": "B23-P1",
+      "verdict": "PASS",
+      "observation": "Same factory decision/source/responsibility audience; progression retains named case scope and local-delivery attribution. Actual forward journey and reader return inspected."
+    },
+    {
+      "from": "B23-P1",
+      "to": "B23-P2",
+      "verdict": "PASS",
+      "observation": "Same factory decision/source/responsibility audience; progression retains named case scope and local-delivery attribution. Actual forward journey and reader return inspected."
+    },
+    {
+      "from": "B23-P2",
+      "to": "B23-P3",
+      "verdict": "PASS",
+      "observation": "Same factory decision/source/responsibility audience; progression retains named case scope and local-delivery attribution. Actual forward journey and reader return inspected."
+    },
+    {
+      "from": "B23-P3",
+      "to": "B23-P4",
+      "verdict": "PASS",
+      "observation": "Same factory decision/source/responsibility audience; progression retains named case scope and local-delivery attribution. Actual forward journey and reader return inspected."
+    },
+    {
+      "from": "B23-P4",
+      "to": "reader",
+      "verdict": "PASS",
+      "observation": "Same factory decision/source/responsibility audience; progression retains named case scope and local-delivery attribution. Actual forward journey and reader return inspected."
+    }
+  ],
+  "reader": {
+    "copy": {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/reader-copy.json",
+      "sha256": "08c407e51803ee53a1a0b1cfcfc339bed8984c32a524010c02caa048fa138fef"
+    },
+    "demo": {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/case-reader.html",
+      "sha256": "47f5c6594e87007edf45f54efe2e9b97705d72aaece4f8d950703d1381b094a3"
+    },
+    "observation": "All four sections/source box inspected native text and desktop/434 full page; role distinction, single case and separate Vietnam team retained. Top/bottom returns preserve P4.",
+    "verdict": "PASS"
+  },
+  "native_review": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/native-review-final-v1.json",
+    "sha256": "70ce4538feefaf61a69e3721e367bbce9e4ff627d0eb6370f86bdc52641690f7"
+  },
+  "render_review": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/render-review-final-v1.json",
+    "sha256": "69183106747c17321ebe8271b7cacddd0582f745a2631325cb9618d3decc0b79"
+  },
+  "canary_review": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/canary-review-final-v1.json",
+    "sha256": "4ba4d8fa0b63a1f9a87ca1def72158d8fedba6b7d5cb05966755d9c74763a661"
+  },
+  "finding_reconciliation": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/b23-b24-finding-reconciliation-v1.json",
+    "sha256": "2c6d93190745cabb614929027637399f7b1ebdced4cc45722472cf17772aeeca"
+  },
+  "counts": {
+    "original_calls": 10,
+    "corrective_calls": 3,
+    "total_calls": 13,
+    "selected_assets": 10,
+    "new_selected_assets": 10,
+    "external_reuse": 0,
+    "PO_accepted_assets": 0
+  },
+  "corrective_authority": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/b23-additional-corrections-authority.json",
+    "sha256": "7932a02340236d0a86f3d330ed7f2c38db0483faeafd74ea496791a29493b930"
+  },
+  "open_listed_findings": [],
+  "exact390": "NOT_VERIFIED_PO_SCOPE_SUBSTITUTION",
+  "PO_acceptance": "NOT_GRANTED",
+  "git": "B22 checkpoint local committed; this batch working files only, not staged/committed/main/pushed",
+  "next_batch": "B25_NOT_AUTHORIZED_NOT_STARTED",
+  "supersedes": "Current selected artifact status only; no rewrite/retrospective PASS of pregen or failed/superseded attempts"
+}
