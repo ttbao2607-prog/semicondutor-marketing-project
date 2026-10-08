@@ -1,0 +1,10 @@
+{
+  "authority": "Bảo: merge B24 v2 and record Partner branch complete on main, 2026-10-08",
+  "goal": "Commit reviewed B24 v2; selectively adopt on latest local main; Partner 9/9 batches, 90 final PNG and 9 readers",
+  "scope": "Owned Partner checkpoint and selected B24 v2 integration only; preserve other lanes, frozen files, v1 history; no push/live",
+  "measurement": "27 receipt pins; 19 selected files exact; 10 PNG 1254 square; old main tree unchanged outside explicit docs/selection allowlist",
+  "audit_target": "Compare committed Git blobs and final main files with source manifest; root self-verification, not independent certification",
+  "receipt_pins_verified": 27,
+  "exact390": "NOT_VERIFIED; approved actual434 + feed333 + desktop",
+  "generation_calls": 0
+}
