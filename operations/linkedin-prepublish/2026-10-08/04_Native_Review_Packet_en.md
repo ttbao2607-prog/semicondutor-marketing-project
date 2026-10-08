@@ -308,13 +308,13 @@ Source reference: Case 06 江苏中科智芯集成科技有限公司 (Digiwin Vi
 - `RV0053` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] Source: 鼎捷智造___new on Sohu · original photo contains Chinese text
 - `RV0054` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] Group outside the customer building holding a banner bearing Digiwin branding and the name 江苏中科智芯集成科技有限公司.
 - `RV0055` [B1 B2 B3] Production records and quality review
-- `RV0056` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] The business context
-- `RV0057` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B22 B23 B24 B25 B26 B27 B28 B29 B30] Records and processes need to work together
-- `RV0058` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B22 B23 B24 B25 B26 B27 B28 B29 B30] According to the case published by Digiwin Vietnam, 江苏中科智芯集成科技有限公司 in China implemented an integrated ERP + iMES solution. The published problems include disorganized records, nonstandard processes and low outsourcing and production efficiency.
-- `RV0059` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B22 B23 B24 B25 B26 B27 B28 B29 B30] Inside the case
-- `RV0060` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B22 B23 B24 B25 B26 B27 B28 B29 B30] How the implementation connects information
-- `RV0061` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B22 B23 B24 B25 B26 B27 B28 B29 B30] The published mechanisms span shopfloor data, production records, parameter changes and exception handling within the integrated solution.
-- `RV0062` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] Review your current setup
+- `RV0056` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21] The business context
+- `RV0057` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] Records and processes need to work together
+- `RV0058` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] According to the case published by Digiwin Vietnam, 江苏中科智芯集成科技有限公司 in China implemented an integrated ERP + iMES solution. The published problems include disorganized records, nonstandard processes and low outsourcing and production efficiency.
+- `RV0059` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] Inside the case
+- `RV0060` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] How the implementation connects information
+- `RV0061` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] The published mechanisms span shopfloor data, production records, parameter changes and exception handling within the integrated solution.
+- `RV0062` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21] Review your current setup
 - `RV0063` [B1 B2 B3] Give Quality and Operations a shared basis for the next check
 - `RV0064` [B1 B2 B3] Use the case as a reference for these questions about your own review workflow.
 - `RV0065` [B1 B2 B3] Start from the same lot and context
@@ -326,17 +326,17 @@ Source reference: Case 06 江苏中科智芯集成科技有限公司 (Digiwin Vi
 - `RV0071` [B1 B2 B3] Keep changes visible during review
 - `RV0072` [B1 B2 B3] Where do teams find the applicable parameter revision and the record of an exception?
 - `RV0073` [B1 B2 B3] Prepare one parameter-change record and an example of exception follow-up.
-- `RV0074` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] Information to prepare
+- `RV0074` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21] Information to prepare
 - `RV0075` [B1 B2 B3] A clear view of records and responsibilities can help your teams identify where coordination needs attention. Start the discussion with one actual review workflow at your company.
 - `RV0076` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] Talk with Digiwin Vietnam
 - `RV0077` [B1 B2 B3] Bring one quality-review workflow to the discussion
 - `RV0078` [B1 B2 B3] Describe how Quality and Operations share lot records, confirm changes and assign the next check. We provide digital solutions for manufacturing, from ERP to smart manufacturing.
-- `RV0079` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] The next step opens Digiwin Vietnam’s consultation request page in Vietnamese.
+- `RV0079` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21] The next step opens Digiwin Vietnam’s consultation request page in Vietnamese.
 - `RV0080` [B1 B2 B3] Discuss records and review ownership
 - `RV0081` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] Reference source
-- `RV0082` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] Read the Chinese case collection
-- `RV0083` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B22 B23 B24 B25 B26 B27 B28 B29 B30] In the source, select 封装测试, then 案例 06 江苏中科智芯集成科技有限公司.
-- `RV0084` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] Source: Simplified Chinese · this page summarizes the named case.
+- `RV0082` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21] Read the Chinese case collection
+- `RV0083` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] In the source, select 封装测试, then 案例 06 江苏中科智芯集成科技有限公司.
+- `RV0084` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21] Source: Simplified Chinese · this page summarizes the named case.
 - `RV0085` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] Digiwin Vietnam · Enterprise management solutions
 - `RV0086` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] Shopfloor information · SPC
 - `RV0087` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] SPC (statistical process control) collects and analyzes shopfloor information in real time.
@@ -394,21 +394,21 @@ Source reference: Case 06 江苏中科智芯集成科技有限公司 (Digiwin Vi
 - `RV0350` [B4 B5 B6] Production records and lot handoffs
 - `RV0351` [B4 B5 B6] Give Operations and Quality a shared basis for the next handoff
 - `RV0352` [B4 B5 B6] Use the case as a reference for these questions about your current lot-handoff workflow.
-- `RV0353` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Compare the same lot, stage and recording time
-- `RV0354` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Do the reports describe the same process stage and recording time? Different status reports may both be correct when their context differs.
-- `RV0355` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Prepare two status reports for one lot, with the stage and recording time of each.
-- `RV0356` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Identify the record that supports the handoff
-- `RV0357` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Which source record supports the next step, and what information does the receiving team need?
-- `RV0358` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Prepare the source record for one handoff and the receiving team’s information requirements.
-- `RV0359` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Make the confirmation owner and next check clear
+- `RV0353` [B4 B5 B6 B7 B8 B9] Compare the same lot, stage and recording time
+- `RV0354` [B4 B5 B6 B7 B8 B9] Do the reports describe the same process stage and recording time? Different status reports may both be correct when their context differs.
+- `RV0355` [B4 B5 B6 B7 B8 B9] Prepare two status reports for one lot, with the stage and recording time of each.
+- `RV0356` [B4 B5 B6 B7 B8 B9] Identify the record that supports the handoff
+- `RV0357` [B4 B5 B6 B7 B8 B9] Which source record supports the next step, and what information does the receiving team need?
+- `RV0358` [B4 B5 B6 B7 B8 B9] Prepare the source record for one handoff and the receiving team’s information requirements.
+- `RV0359` [B4 B5 B6 B7 B8 B9] Make the confirmation owner and next check clear
 - `RV0360` [B4 B5] Who checks missing information, confirms the applicable parameter revision and follows up exceptions before a status update?
 - `RV0361` [B4 B5] Prepare the confirmation roles and one example of a missing record, parameter change or exception.
-- `RV0362` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] A shared view of lot context, source records and responsibilities can help teams identify where a handoff needs attention. Start the discussion with one actual handoff at your company.
-- `RV0363` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Bring one lot-handoff workflow to the discussion
-- `RV0364` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Describe how Operations and Quality compare status reports, confirm the source record and assign the next check. We provide digital solutions for manufacturing, from ERP to smart manufacturing.
-- `RV0365` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Discuss lot records and handoff responsibilities
-- `RV0457` [B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Who checks missing information and its source, and who confirms the next step before the receiving team updates lot status?
-- `RV0458` [B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Prepare the confirmation roles and one example of missing information in a lot handoff.
+- `RV0362` [B4 B5 B6 B7 B8 B9] A shared view of lot context, source records and responsibilities can help teams identify where a handoff needs attention. Start the discussion with one actual handoff at your company.
+- `RV0363` [B4 B5 B6 B7 B8 B9] Bring one lot-handoff workflow to the discussion
+- `RV0364` [B4 B5 B6 B7 B8 B9] Describe how Operations and Quality compare status reports, confirm the source record and assign the next check. We provide digital solutions for manufacturing, from ERP to smart manufacturing.
+- `RV0365` [B4 B5 B6 B7 B8 B9] Discuss lot records and handoff responsibilities
+- `RV0457` [B6 B7 B8 B9] Who checks missing information and its source, and who confirms the next step before the receiving team updates lot status?
+- `RV0458` [B6 B7 B8 B9] Prepare the confirmation roles and one example of missing information in a lot handoff.
 
 ## O3 · OSAT Operations + Finance (month-end)
 
@@ -508,8 +508,8 @@ Source reference: Case 06 江苏中科智芯集成科技有限公司 (Digiwin Vi
 - `RV0652` [B7 B8 B9] Three questions before the next lot handoff
 - `RV0653` [B7 B8 B9] Are the reports describing the same lot, stage and recording time? Which source record supports the handoff? Who confirms missing information before the next step? Use these three questions to review your workflow, then explore linked production records in a named China case using integrated Digiwin ERP + iMES.
 - `RV0654` [B7 B8 B9] Three questions for lot-record handoffs
-- `RV0655` [B7 B8 B9 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] Use three questions to prepare the next handoff
-- `RV0656` [B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Bring Operations and Quality into the same discussion about comparison scope, source records and confirmation responsibilities.
+- `RV0655` [B7 B8 B9 B19 B20 B21] Use three questions to prepare the next handoff
+- `RV0656` [B7 B8 B9] Bring Operations and Quality into the same discussion about comparison scope, source records and confirmation responsibilities.
 
 ## O4-Q · OSAT Quality (unusual test results)
 

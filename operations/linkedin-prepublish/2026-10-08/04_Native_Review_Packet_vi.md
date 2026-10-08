@@ -125,13 +125,13 @@ Source reference: Case 06 江苏中科智芯集成科技有限公司 (Digiwin Vi
 - `RV0103` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] Nguồn: 鼎捷智造___new trên Sohu · ảnh gốc có chữ tiếng Trung
 - `RV0104` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] Đoàn tham quan trước tòa nhà khách hàng, cầm banner có thương hiệu Digiwin và tên 江苏中科智芯集成科技有限公司.
 - `RV0105` [B1 B2 B3] Hồ sơ sản xuất và rà soát chất lượng
-- `RV0106` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] Bối cảnh doanh nghiệp
-- `RV0107` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B22 B23 B24 B25 B26 B27 B28 B29 B30] Kết nối hồ sơ với quy trình xử lý
-- `RV0108` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B22 B23 B24 B25 B26 B27 B28 B29 B30] Theo case do Digiwin Việt Nam công bố, 江苏中科智芯集成科技有限公司 tại Trung Quốc triển khai giải pháp tích hợp ERP + iMES. Các vấn đề được nêu gồm quản lý hồ sơ thiếu tổ chức, quy trình chưa chuẩn hóa và hiệu quả gia công, sản xuất thấp.
-- `RV0109` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B22 B23 B24 B25 B26 B27 B28 B29 B30] Cơ chế trong case
-- `RV0110` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B22 B23 B24 B25 B26 B27 B28 B29 B30] Cách giải pháp kết nối thông tin
-- `RV0111` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B22 B23 B24 B25 B26 B27 B28 B29 B30] Các cơ chế được công bố bao gồm dữ liệu hiện trường, hồ sơ sản xuất, thay đổi thông số và xử lý bất thường trong giải pháp tích hợp.
-- `RV0112` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] Đối chiếu hiện trạng
+- `RV0106` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21] Bối cảnh doanh nghiệp
+- `RV0107` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] Kết nối hồ sơ với quy trình xử lý
+- `RV0108` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] Theo case do Digiwin Việt Nam công bố, 江苏中科智芯集成科技有限公司 tại Trung Quốc triển khai giải pháp tích hợp ERP + iMES. Các vấn đề được nêu gồm quản lý hồ sơ thiếu tổ chức, quy trình chưa chuẩn hóa và hiệu quả gia công, sản xuất thấp.
+- `RV0109` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] Cơ chế trong case
+- `RV0110` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] Cách giải pháp kết nối thông tin
+- `RV0111` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] Các cơ chế được công bố bao gồm dữ liệu hiện trường, hồ sơ sản xuất, thay đổi thông số và xử lý bất thường trong giải pháp tích hợp.
+- `RV0112` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21] Đối chiếu hiện trạng
 - `RV0113` [B1 B2 B3] Tạo cơ sở chung cho Chất lượng và Vận hành kiểm tra tiếp
 - `RV0114` [B1 B2 B3] Quý Doanh Nghiệp có thể tham khảo case để đối chiếu quy trình rà soát hiện tại qua các câu hỏi sau.
 - `RV0115` [B1 B2 B3] Bắt đầu từ cùng lô và bối cảnh
@@ -143,17 +143,17 @@ Source reference: Case 06 江苏中科智芯集成科技有限公司 (Digiwin Vi
 - `RV0121` [B1 B2 B3] Theo dõi thay đổi khi rà soát
 - `RV0122` [B1 B2 B3] Đội ngũ tìm phiên bản thông số đang áp dụng và hồ sơ bất thường ở đâu?
 - `RV0123` [B1 B2 B3] Một hồ sơ thay đổi thông số và ví dụ theo dõi xử lý bất thường.
-- `RV0124` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] Thông tin có thể chuẩn bị
+- `RV0124` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21] Thông tin có thể chuẩn bị
 - `RV0125` [B1 B2 B3] Làm rõ hồ sơ và trách nhiệm giúp đội ngũ xác định khâu phối hợp cần chú ý. Quý Doanh Nghiệp có thể bắt đầu cuộc trao đổi từ một quy trình rà soát đang sử dụng.
 - `RV0126` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] Trao đổi cùng Digiwin Việt Nam
 - `RV0127` [B1 B2 B3] Bắt đầu từ một quy trình rà soát chất lượng cụ thể
 - `RV0128` [B1 B2 B3] Quý Doanh Nghiệp có thể mô tả cách Chất lượng và Vận hành chia sẻ hồ sơ lô, xác nhận thay đổi và phân công bước kiểm tra tiếp theo. Chúng tôi cung cấp giải pháp số cho sản xuất, từ ERP đến sản xuất thông minh.
-- `RV0129` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] Bước tiếp theo mở trang yêu cầu tư vấn Digiwin Việt Nam bằng tiếng Việt.
+- `RV0129` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21] Bước tiếp theo mở trang yêu cầu tư vấn Digiwin Việt Nam bằng tiếng Việt.
 - `RV0130` [B1 B2 B3] Trao đổi về hồ sơ và trách nhiệm rà soát
 - `RV0131` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] Nguồn tham khảo
-- `RV0132` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] Đọc bộ case bằng tiếng Trung
-- `RV0133` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B22 B23 B24 B25 B26 B27 B28 B29 B30] Tại nguồn, chọn 封装测试, rồi chọn 案例 06 江苏中科智芯集成科技有限公司.
-- `RV0134` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] Nguồn: tiếng Trung giản thể · trang này tóm tắt case được nêu tên.
+- `RV0132` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21] Đọc bộ case bằng tiếng Trung
+- `RV0133` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] Tại nguồn, chọn 封装测试, rồi chọn 案例 06 江苏中科智芯集成科技有限公司.
+- `RV0134` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21] Nguồn: tiếng Trung giản thể · trang này tóm tắt case được nêu tên.
 - `RV0135` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] Digiwin Việt Nam · Giải pháp quản trị doanh nghiệp
 - `RV0136` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] Thông tin hiện trường · SPC
 - `RV0137` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] SPC (kiểm soát quá trình bằng thống kê) thu thập và phân tích thông tin hiện trường theo thời gian thực.
@@ -176,21 +176,21 @@ Source reference: Case 06 江苏中科智芯集成科技有限公司 (Digiwin Vi
 - `RV0369` [B4 B5 B6] Hồ sơ sản xuất và bàn giao lô
 - `RV0370` [B4 B5 B6] Cùng cơ sở thông tin để Vận hành và Chất lượng bàn giao lô
 - `RV0371` [B4 B5 B6] Tham khảo case và các câu hỏi sau để rà soát quy trình bàn giao lô hiện tại.
-- `RV0372` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Đối chiếu cùng lô, công đoạn và thời điểm ghi nhận
-- `RV0373` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Các báo cáo có phản ánh cùng công đoạn và thời điểm ghi nhận không? Hai trạng thái khác nhau vẫn có thể cùng đúng khi bối cảnh khác nhau.
-- `RV0374` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Hai báo cáo trạng thái của một lô, kèm công đoạn và thời điểm ghi nhận của từng báo cáo.
-- `RV0375` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Xác định hồ sơ làm căn cứ bàn giao
-- `RV0376` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Hồ sơ nguồn nào làm căn cứ cho bước tiếp theo, và đội tiếp nhận cần những thông tin gì?
-- `RV0377` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Hồ sơ nguồn của một lần bàn giao và các thông tin đội tiếp nhận cần.
-- `RV0378` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Làm rõ người xác nhận và bước kiểm tra tiếp theo
+- `RV0372` [B4 B5 B6 B7 B8 B9] Đối chiếu cùng lô, công đoạn và thời điểm ghi nhận
+- `RV0373` [B4 B5 B6 B7 B8 B9] Các báo cáo có phản ánh cùng công đoạn và thời điểm ghi nhận không? Hai trạng thái khác nhau vẫn có thể cùng đúng khi bối cảnh khác nhau.
+- `RV0374` [B4 B5 B6 B7 B8 B9] Hai báo cáo trạng thái của một lô, kèm công đoạn và thời điểm ghi nhận của từng báo cáo.
+- `RV0375` [B4 B5 B6 B7 B8 B9] Xác định hồ sơ làm căn cứ bàn giao
+- `RV0376` [B4 B5 B6 B7 B8 B9] Hồ sơ nguồn nào làm căn cứ cho bước tiếp theo, và đội tiếp nhận cần những thông tin gì?
+- `RV0377` [B4 B5 B6 B7 B8 B9] Hồ sơ nguồn của một lần bàn giao và các thông tin đội tiếp nhận cần.
+- `RV0378` [B4 B5 B6 B7 B8 B9] Làm rõ người xác nhận và bước kiểm tra tiếp theo
 - `RV0379` [B4 B5] Ai kiểm tra thông tin còn thiếu, xác nhận phiên bản tham số áp dụng và theo dõi ngoại lệ trước khi cập nhật trạng thái?
 - `RV0380` [B4 B5] Các vai trò xác nhận và một ví dụ về hồ sơ thiếu, thay đổi tham số hoặc ngoại lệ.
-- `RV0381` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Thống nhất bối cảnh lô, hồ sơ nguồn và trách nhiệm có thể giúp đội ngũ xác định điểm bàn giao cần chú ý. Quý Doanh Nghiệp có thể bắt đầu trao đổi từ một lần bàn giao thực tế.
-- `RV0382` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Trao đổi từ một quy trình bàn giao lô cụ thể
-- `RV0383` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Quý Doanh Nghiệp có thể mô tả cách Vận hành và Chất lượng đối chiếu báo cáo trạng thái, xác nhận hồ sơ nguồn và phân công bước kiểm tra tiếp theo. Chúng tôi cung cấp giải pháp số cho sản xuất, từ ERP đến sản xuất thông minh.
-- `RV0384` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Trao đổi về hồ sơ lô và trách nhiệm bàn giao
-- `RV0459` [B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Ai kiểm tra thông tin còn thiếu và hồ sơ nguồn, và ai xác nhận bước tiếp theo trước khi đội tiếp nhận cập nhật trạng thái lô?
-- `RV0460` [B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Các vai trò xác nhận và một ví dụ về thông tin còn thiếu trong lần bàn giao lô.
+- `RV0381` [B4 B5 B6 B7 B8 B9] Thống nhất bối cảnh lô, hồ sơ nguồn và trách nhiệm có thể giúp đội ngũ xác định điểm bàn giao cần chú ý. Quý Doanh Nghiệp có thể bắt đầu trao đổi từ một lần bàn giao thực tế.
+- `RV0382` [B4 B5 B6 B7 B8 B9] Trao đổi từ một quy trình bàn giao lô cụ thể
+- `RV0383` [B4 B5 B6 B7 B8 B9] Quý Doanh Nghiệp có thể mô tả cách Vận hành và Chất lượng đối chiếu báo cáo trạng thái, xác nhận hồ sơ nguồn và phân công bước kiểm tra tiếp theo. Chúng tôi cung cấp giải pháp số cho sản xuất, từ ERP đến sản xuất thông minh.
+- `RV0384` [B4 B5 B6 B7 B8 B9] Trao đổi về hồ sơ lô và trách nhiệm bàn giao
+- `RV0459` [B6 B7 B8 B9] Ai kiểm tra thông tin còn thiếu và hồ sơ nguồn, và ai xác nhận bước tiếp theo trước khi đội tiếp nhận cập nhật trạng thái lô?
+- `RV0460` [B6 B7 B8 B9] Các vai trò xác nhận và một ví dụ về thông tin còn thiếu trong lần bàn giao lô.
 
 ## O3 · OSAT Operations + Finance (month-end)
 
@@ -230,8 +230,8 @@ Source reference: Case 06 江苏中科智芯集成科技有限公司 (Digiwin Vi
 - `RV0657` [B7 B8 B9] Ba câu hỏi trước lần bàn giao lô tiếp theo
 - `RV0658` [B7 B8 B9] Các báo cáo có phản ánh cùng lô, công đoạn và thời điểm ghi nhận không? Hồ sơ nguồn nào làm căn cứ bàn giao? Ai xác nhận thông tin còn thiếu trước bước tiếp theo? Tham khảo ba câu hỏi để rà soát quy trình, rồi xem cách liên kết hồ sơ sản xuất trong một case tại Trung Quốc sử dụng giải pháp tích hợp Digiwin ERP + iMES.
 - `RV0659` [B7 B8 B9] Ba câu hỏi về bàn giao hồ sơ lô
-- `RV0660` [B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Dùng ba câu hỏi để chuẩn bị lần bàn giao tiếp theo
-- `RV0661` [B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] Cùng Vận hành và Chất lượng trao đổi về phạm vi đối chiếu, hồ sơ nguồn và trách nhiệm xác nhận.
+- `RV0660` [B7 B8 B9] Dùng ba câu hỏi để chuẩn bị lần bàn giao tiếp theo
+- `RV0661` [B7 B8 B9] Cùng Vận hành và Chất lượng trao đổi về phạm vi đối chiếu, hồ sơ nguồn và trách nhiệm xác nhận.
 
 ## O4-Q · OSAT Quality (unusual test results)
 

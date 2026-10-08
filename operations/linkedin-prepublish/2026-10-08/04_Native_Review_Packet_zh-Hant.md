@@ -307,13 +307,13 @@ Source reference: Case 06 江苏中科智芯集成科技有限公司 (Digiwin Vi
 - `RV0203` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] 圖片來源：搜狐「鼎捷智造___new」· 原圖含中文文字
 - `RV0204` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] 參訪團在客戶建築前合影，橫幅帶有鼎捷品牌及江苏中科智芯集成科技有限公司名稱。
 - `RV0205` [B1 B2 B3] 生產紀錄與品質複核
-- `RV0206` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] 企業背景
-- `RV0207` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B22 B23 B24 B25 B26 B27 B28 B29 B30] 讓紀錄與業務流程相互銜接
-- `RV0208` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B22 B23 B24 B25 B26 B27 B28 B29 B30] 根據Digiwin越南發布的案例，中國江苏中科智芯集成科技有限公司導入ERP + iMES整合方案。案例揭露的問題包括紀錄管理紊亂、業務流程不規範，以及委外與生產效率偏低。
-- `RV0209` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B22 B23 B24 B25 B26 B27 B28 B29 B30] 案例中的管理機制
-- `RV0210` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B22 B23 B24 B25 B26 B27 B28 B29 B30] 整合方案如何串聯資訊
-- `RV0211` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B22 B23 B24 B25 B26 B27 B28 B29 B30] 案例揭露的機制涵蓋現場資料、生產紀錄、參數變更與異常處理，屬於該企業採用的整合方案。
-- `RV0212` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] 對照現行管理方式
+- `RV0206` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21] 企業背景
+- `RV0207` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] 讓紀錄與業務流程相互銜接
+- `RV0208` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] 根據Digiwin越南發布的案例，中國江苏中科智芯集成科技有限公司導入ERP + iMES整合方案。案例揭露的問題包括紀錄管理紊亂、業務流程不規範，以及委外與生產效率偏低。
+- `RV0209` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] 案例中的管理機制
+- `RV0210` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] 整合方案如何串聯資訊
+- `RV0211` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] 案例揭露的機制涵蓋現場資料、生產紀錄、參數變更與異常處理，屬於該企業採用的整合方案。
+- `RV0212` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21] 對照現行管理方式
 - `RV0213` [B1 B2 B3] 為品質與營運團隊釐清下一步核對依據
 - `RV0214` [B1 B2 B3] 貴企業可參考該案例，透過以下問題梳理現行複核流程。
 - `RV0215` [B1 B2 B3] 從同一批次與生產背景開始
@@ -325,17 +325,17 @@ Source reference: Case 06 江苏中科智芯集成科技有限公司 (Digiwin Vi
 - `RV0221` [B1 B2 B3] 複核時掌握變更紀錄
 - `RV0222` [B1 B2 B3] 團隊在哪裡查詢適用的參數版本與異常紀錄？
 - `RV0223` [B1 B2 B3] 一份參數變更紀錄及異常追蹤範例。
-- `RV0224` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] 可準備的資訊
+- `RV0224` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21] 可準備的資訊
 - `RV0225` [B1 B2 B3] 梳理紀錄與職責，有助於找出需要關注的協作環節。歡迎從貴企業正在使用的一項複核流程開始交流。
 - `RV0226` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] 與Digiwin越南交流
 - `RV0227` [B1 B2 B3] 從一項具體的品質複核流程開始
 - `RV0228` [B1 B2 B3] 貴企業可說明品質與營運團隊如何共享批次紀錄、確認變更及安排下一步核對。我們提供製造業數位化方案，從ERP到智慧製造。
-- `RV0229` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] 下一步將開啟Digiwin越南的諮詢申請頁面（越南語）。
+- `RV0229` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21] 下一步將開啟Digiwin越南的諮詢申請頁面（越南語）。
 - `RV0230` [B1 B2 B3] 交流紀錄管理與複核職責
 - `RV0231` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] 參考來源
-- `RV0232` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] 閱讀中文案例集
-- `RV0233` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B22 B23 B24 B25 B26 B27 B28 B29 B30] 在來源頁選擇「封装测试」，再選擇「案例 06 江苏中科智芯集成科技有限公司」。
-- `RV0234` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] 來源：簡體中文 · 此頁為該企業案例的摘要。
+- `RV0232` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21] 閱讀中文案例集
+- `RV0233` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] 在來源頁選擇「封装测试」，再選擇「案例 06 江苏中科智芯集成科技有限公司」。
+- `RV0234` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21] 來源：簡體中文 · 此頁為該企業案例的摘要。
 - `RV0235` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12 B13 B14 B15 B16 B17 B18 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] Digiwin越南 · 企業管理解決方案
 - `RV0236` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] 現場資訊 · SPC
 - `RV0237` [B1 B2 B3 B4 B5 B6 en-osat-candidate1-v4 zh-Hans-osat-candidate2-v2 zh-Hant-osat-candidate3-v1 B7 B8 B9 B10 B11 B12] SPC（統計製程管制）即時蒐集與分析現場資訊。
@@ -393,21 +393,21 @@ Source reference: Case 06 江苏中科智芯集成科技有限公司 (Digiwin Vi
 - `RV0407` [B4 B5 B6] 生產紀錄與批次交接
 - `RV0408` [B4 B5 B6] 讓營運與品質團隊依共同依據交接批次
 - `RV0409` [B4 B5 B6] 參考該案例，透過以下問題梳理現行批次交接流程。
-- `RV0410` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] 對齊批次、製程階段與紀錄時間
-- `RV0411` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] 報告是否對應相同製程階段與紀錄時間？背景不同，兩份狀態報告可能都正確。
-- `RV0412` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] 同一批次的兩份狀態報告，以及各自的製程階段與紀錄時間。
-- `RV0413` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] 釐清交接依據的來源紀錄
-- `RV0414` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] 下一步依據哪份來源紀錄？接收團隊需要哪些資訊？
-- `RV0415` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] 一次交接的來源紀錄，以及接收團隊所需的資訊。
-- `RV0416` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] 釐清確認負責人與下一步核查
+- `RV0410` [B4 B5 B6 B7 B8 B9] 對齊批次、製程階段與紀錄時間
+- `RV0411` [B4 B5 B6 B7 B8 B9] 報告是否對應相同製程階段與紀錄時間？背景不同，兩份狀態報告可能都正確。
+- `RV0412` [B4 B5 B6 B7 B8 B9] 同一批次的兩份狀態報告，以及各自的製程階段與紀錄時間。
+- `RV0413` [B4 B5 B6 B7 B8 B9] 釐清交接依據的來源紀錄
+- `RV0414` [B4 B5 B6 B7 B8 B9] 下一步依據哪份來源紀錄？接收團隊需要哪些資訊？
+- `RV0415` [B4 B5 B6 B7 B8 B9] 一次交接的來源紀錄，以及接收團隊所需的資訊。
+- `RV0416` [B4 B5 B6 B7 B8 B9] 釐清確認負責人與下一步核查
 - `RV0417` [B4 B5] 更新狀態前，由誰核查缺漏資訊、確認適用的參數版本並追蹤異常？
 - `RV0418` [B4 B5] 各項確認的負責角色，以及一項缺漏紀錄、參數變更或異常實例。
-- `RV0419` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] 對齊批次背景、來源紀錄與職責，有助於找出交接中需要關注的環節。歡迎從貴企業的一次實際交接開始交流。
-- `RV0420` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] 從一項具體的批次交接流程開始
-- `RV0421` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] 貴企業可說明營運與品質團隊如何比較狀態報告、確認來源紀錄並安排下一步核查。我們提供製造業數位化方案，從ERP到智慧製造。
-- `RV0422` [B4 B5 B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] 交流批次紀錄與交接職責
-- `RV0463` [B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] 接收團隊更新批次狀態前，由誰核查缺漏資訊及其來源，由誰確認下一步？
-- `RV0464` [B6 B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] 各項確認的負責角色，以及一次批次交接中缺漏資訊的實例。
+- `RV0419` [B4 B5 B6 B7 B8 B9] 對齊批次背景、來源紀錄與職責，有助於找出交接中需要關注的環節。歡迎從貴企業的一次實際交接開始交流。
+- `RV0420` [B4 B5 B6 B7 B8 B9] 從一項具體的批次交接流程開始
+- `RV0421` [B4 B5 B6 B7 B8 B9] 貴企業可說明營運與品質團隊如何比較狀態報告、確認來源紀錄並安排下一步核查。我們提供製造業數位化方案，從ERP到智慧製造。
+- `RV0422` [B4 B5 B6 B7 B8 B9] 交流批次紀錄與交接職責
+- `RV0463` [B6 B7 B8 B9] 接收團隊更新批次狀態前，由誰核查缺漏資訊及其來源，由誰確認下一步？
+- `RV0464` [B6 B7 B8 B9] 各項確認的負責角色，以及一次批次交接中缺漏資訊的實例。
 
 ## O3 · OSAT Operations + Finance (month-end)
 
@@ -514,8 +514,8 @@ Source reference: Case 06 江苏中科智芯集成科技有限公司 (Digiwin Vi
 - `RV0667` [B7 B8 B9] 下一次批次交接前的三個問題
 - `RV0668` [B7 B8 B9] 報告是否對應同一批次、製程階段與紀錄時間？交接依據哪份來源紀錄？下一步之前，由誰確認缺漏資訊？透過這三個問題梳理現行流程，再了解一家中國企業如何使用Digiwin ERP + iMES整合方案關聯生產紀錄。
 - `RV0669` [B7 B8 B9] 批次紀錄交接的三個問題
-- `RV0670` [B7 B8 B9 B19 B20 B21 B22 B23 B24 B25 B26 B27 B28 B29 B30] 用三個問題準備下一次交接
-- `RV0671` [B7 B8 B9 B22 B23 B24 B25 B26 B27 B28 B29 B30] 讓營運與品質團隊共同討論比較範圍、來源紀錄與確認職責。
+- `RV0670` [B7 B8 B9 B19 B20 B21] 用三個問題準備下一次交接
+- `RV0671` [B7 B8 B9] 讓營運與品質團隊共同討論比較範圍、來源紀錄與確認職責。
 
 ## O4-Q · OSAT Quality (unusual test results)
 

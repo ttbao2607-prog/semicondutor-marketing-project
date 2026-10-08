@@ -48,8 +48,14 @@ def load_journey(path):
 
 
 def load_reader_packs(path):
+    """Return (packs, used_keys): only strings the page actually renders are reviewed."""
     t = (ROOT / path).read_text(encoding='utf-8')
-    return json.loads(re.search(r'id="reader-copy">(.*?)</script>', t, re.S)[1])
+    packs = json.loads(re.search(r'id="reader-copy">(.*?)</script>', t, re.S)[1])
+    body = re.sub(r'<script type="application/json" id="reader-copy">.*?</script>', '', t, flags=re.S)
+    used = set(re.findall(r'data-i18n="([^"]+)"', body))
+    for m in re.findall(r'data-i18n-attr="([^"]+)"', body):
+        used.add(m.split(':', 1)[1])
+    return packs, used
 
 
 def labels(c):
@@ -118,10 +124,10 @@ for r in rows:
             'utm_content_pattern': '%s_<creative_id>' % jid.lower(),
             'status': 'DRAFT_PROPOSAL', 'source_ref': src})
     # reader strings once per (treatment) set of batches
-    rp = load_reader_packs(route)
+    rp, used = load_reader_packs(route)
     for lang, pack in rp.items():
         for k, v in pack.items():
-            if isinstance(v, str):
+            if isinstance(v, str) and k in used:
                 add_review(lang, 'reader', t, jid, k, v, src)
 
 # ---------------- ad sheet csv
