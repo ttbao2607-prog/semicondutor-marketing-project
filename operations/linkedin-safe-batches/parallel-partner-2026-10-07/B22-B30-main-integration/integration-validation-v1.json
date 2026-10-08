@@ -1,0 +1,28 @@
+{
+  "execution_status": "SUCCESS",
+  "audit_verdict": "AUDIT_PASS_ROOT_SELF_AUDIT",
+  "exact_source_copies": 184,
+  "png": 80,
+  "readers": 8,
+  "source_receipt_pin_checks": 302,
+  "runtime_local_dependency_checks": 192,
+  "existing_baseline_files_checked": 3171,
+  "existing_changed_allowlist": [
+    ".gitattributes",
+    "CURRENT_STATE.md",
+    "DOCS_IMPACT_MAP.md",
+    "README.md",
+    "Semiconductor_Work_Kickoff.md",
+    "ads/linkedin/LinkedIn_Build_Pack.md",
+    "drafts/S03_LinkedIn_Audience_Research.md",
+    "operations/LinkedIn_Current_Progress_2026-10-07.md",
+    "operations/LinkedIn_Report_Artifact_Index_2026-10-05.md",
+    "operations/LinkedIn_Safe_Batch_Execution_Plan_2026-10-06.md",
+    "operations/Pre_Ad_Readiness_Plan.md"
+  ],
+  "outside_allowlist": "BYTE_IDENTICAL",
+  "B24": "EXCLUDED",
+  "source_checkpoint": "f17530577bd8f63654900ed72ad2b3ebb3d1eca9",
+  "main_baseline": "196f26b9f3064fca8fe6b3b50b5707c2b54b65af",
+  "limits": "Source scoped visual self-review preserved; no independent/new browser/390/live certification"
+}

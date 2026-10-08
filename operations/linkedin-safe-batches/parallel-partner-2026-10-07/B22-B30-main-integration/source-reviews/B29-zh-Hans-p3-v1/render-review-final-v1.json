@@ -1,0 +1,114 @@
+{
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "status": "PASS_APPROVED_RENDER_SCOPE",
+  "reviewed_utc": "2026-10-07T10:02:39.405064+00:00",
+  "tool": "cua_repl Chrome extension, actual screenshots emitted and inspected in conversation; no screenshot files exported",
+  "desktop": {
+    "width": 1707,
+    "height": 817,
+    "art_width": 638.2222290039062,
+    "method": "Overlapping upper/lower views of every card"
+  },
+  "main434": {
+    "width": 434,
+    "height": 938,
+    "art_width": 392
+  },
+  "feed333": {
+    "viewport_width": 434,
+    "viewport_height": 938,
+    "art_width": 333
+  },
+  "exact390": "NOT_VERIFIED_PO_APPROVED434_SUBSTITUTE",
+  "cards": [
+    {
+      "card_id": "B29-C1",
+      "desktop": "PASS",
+      "main434": "PASS",
+      "feed333": "PASS",
+      "observed": "Exact headline/body/CTA/source/category/sequence and declared props read on actual image; no overflow/clipping or extra scene object"
+    },
+    {
+      "card_id": "B29-E1",
+      "desktop": "PASS",
+      "main434": "PASS",
+      "feed333": "PASS",
+      "observed": "Exact headline/body/CTA/source/category/sequence and declared props read on actual image; no overflow/clipping or extra scene object"
+    },
+    {
+      "card_id": "B29-E2",
+      "desktop": "PASS",
+      "main434": "PASS",
+      "feed333": "PASS",
+      "observed": "Exact headline/body/CTA/source/category/sequence and declared props read on actual image; no overflow/clipping or extra scene object"
+    },
+    {
+      "card_id": "B29-E3",
+      "desktop": "PASS",
+      "main434": "PASS",
+      "feed333": "PASS",
+      "observed": "Exact headline/body/CTA/source/category/sequence and declared props read on actual image; no overflow/clipping or extra scene object"
+    },
+    {
+      "card_id": "B29-E4",
+      "desktop": "PASS",
+      "main434": "PASS",
+      "feed333": "PASS",
+      "observed": "Exact headline/body/CTA/source/category/sequence and declared props read on actual image; no overflow/clipping or extra scene object"
+    },
+    {
+      "card_id": "B29-E5",
+      "desktop": "PASS",
+      "main434": "PASS",
+      "feed333": "PASS",
+      "observed": "Exact headline/body/CTA/source/category/sequence and declared props read on actual image; no overflow/clipping or extra scene object"
+    },
+    {
+      "card_id": "B29-P1",
+      "desktop": "PASS",
+      "main434": "PASS",
+      "feed333": "PASS",
+      "observed": "Exact headline/body/CTA/source/category/sequence and declared props read on actual image; no overflow/clipping or extra scene object"
+    },
+    {
+      "card_id": "B29-P2",
+      "desktop": "PASS",
+      "main434": "PASS",
+      "feed333": "PASS",
+      "observed": "Exact headline/body/CTA/source/category/sequence and declared props read on actual image; no overflow/clipping or extra scene object"
+    },
+    {
+      "card_id": "B29-P3",
+      "desktop": "PASS",
+      "main434": "PASS",
+      "feed333": "PASS",
+      "observed": "Exact headline/body/CTA/source/category/sequence and declared props read on actual image; no overflow/clipping or extra scene object"
+    },
+    {
+      "card_id": "B29-P4",
+      "desktop": "PASS",
+      "main434": "PASS",
+      "feed333": "PASS",
+      "observed": "Exact headline/body/CTA/source/category/sequence and declared props read on actual image; no overflow/clipping or extra scene object"
+    }
+  ],
+  "reader": {
+    "desktop": "PASS",
+    "main434": "PASS",
+    "sections": "All four sections and two source links visually read",
+    "return_top": "PASS_PROOF_P4",
+    "return_bottom": "PASS_PROOF_P4",
+    "reload": "PASS_STAGE2_CARD3_COUNTER4/4"
+  },
+  "browser_warn_error_logs": [],
+  "capture_disposition": "Transient capture timeouts retried within bounded capture attempts. Blank B29-feed333-1 and B30-feed333-2 excluded; replaced by rechecks. Mispositioned B29 desktop E1 pair excluded and replaced. Reader partial captures supplemented by actual source-bottom views. No DOM-only visual PASS.",
+  "viewport_authority": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/b29-b30-viewport-authority-v1.json",
+    "sha256": "1c2e68b21be6fada24a60549e56b86ddb597cec5441f7ae1e4fc5b8ea31e29f8"
+  },
+  "cleanup": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/b29-b30-browser-cleanup-v1.json",
+    "sha256": "c9397dd375937e10eedad84c088a47e73a9bbdf4a6fb573eb0e15d12eebc3e21"
+  }
+}

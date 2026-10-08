@@ -1,0 +1,105 @@
+{
+  "revision": "b22-selected-render-review-v7",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "reviewed_utc": "2026-10-07T05:34:54.399183+00:00",
+  "status": "PASS",
+  "candidate_root": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7",
+  "authority": [
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/corrective-v7/authority.json",
+      "sha256": "f7de9e49f547ec2ed87f288d1b325880baa120df605c74e384b7a58d1aee0289"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/corrective-v7/viewport-scope-po-decision.json",
+      "sha256": "2c2ed4ae16d4cb19e699c3cd5f83e37831debaf7d0488042ac1560ff037d354a"
+    }
+  ],
+  "feed333": {
+    "cards": [
+      "B22-C1",
+      "B22-E1",
+      "B22-E2",
+      "B22-E3",
+      "B22-E4",
+      "B22-E5",
+      "B22-P1",
+      "B22-P2",
+      "B22-P3",
+      "B22-P4"
+    ],
+    "actual_artwork_width_css": 333,
+    "observation": "All ten actual screenshots reviewed: headline/body/category/source and CTA where present readable, no clipping, no listed copy/scene regression"
+  },
+  "desktop": {
+    "cards": [
+      "B22-C1",
+      "B22-E1",
+      "B22-E2",
+      "B22-E3",
+      "B22-E4",
+      "B22-E5",
+      "B22-P1",
+      "B22-P2",
+      "B22-P3",
+      "B22-P4"
+    ],
+    "actual_inner_width_css": 1707,
+    "post_width_css": 640,
+    "artwork_width_css": 638.2222,
+    "observation": "All ten reviewed across actual full-page or top/lower scrolled captures; caption, native headline, source and navigation present"
+  },
+  "small": {
+    "cards": [
+      "B22-C1",
+      "B22-E1",
+      "B22-E2",
+      "B22-E3",
+      "B22-E4",
+      "B22-E5",
+      "B22-P1",
+      "B22-P2",
+      "B22-P3",
+      "B22-P4"
+    ],
+    "actual_inner_width_css": 434,
+    "actual_document_client_width_css": [
+      417,
+      434
+    ],
+    "actual_artwork_width_css": [
+      375.1111,
+      392
+    ],
+    "observation": "All ten actual screenshots reviewed, including E5/P1-P4 completion. No horizontal overflow: scrollWidth equals clientWidth in measured states. Variation is scrollbar presence, not a390 viewport"
+  },
+  "exact390": "NOT_VERIFIED_WAIVED_CURRENT_B22_PER_PO; not PASS or physical-device certification",
+  "reader": {
+    "source": {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v3/reader-script.json",
+      "sha256": "1b3acb58204a700812e9a4f589035bc771c7517d1e2bc9d4805aba822e96c1b9"
+    },
+    "actual_desktop": "Full content covered by top/mid/lower actual scrolled screenshots after full-page timeout",
+    "actual434": "Complete five sections viewed; no horizontal overflow, source links and both return links present",
+    "case_scope": "One Taiwan/Shanghai silicon-materials case, not two country cases. ERP and manufacturing execution roles separated. Vietnam local assessment/advice/transfer/acceptance separately attributed"
+  },
+  "navigation": {
+    "status": "PASS",
+    "desktop": "All three stages and Continue cycle; Next across1/5..5/5 and1/4..4/4; disabled endpoints; Previous P4->P3; cold and proof reader entry/return",
+    "actual434": "Cold->explanation->proof with all cards; proofP4->reader?stage2card3->bottom Return->P4 counter4/4; reload still P4 with Next disabled",
+    "console_warn_error_readback": []
+  },
+  "evidence": "Actual cua_repl Chrome tab1367561327 images/AX/DOM in tool transcript; no saved local screenshot PNG is claimed (prior save EPERM)",
+  "capture_limit": "Failed screenshot attempts were not counted as coverage; subsequent actual visible captures supplied the stated coverage",
+  "cleanup": {
+    "viewport": "RESET",
+    "owned_tab": "CLOSED",
+    "owned_preview_pid": 42124,
+    "owned_preview_port": 8766,
+    "server": "STOPPED_OWNERSHIP_VERIFIED_PORT_FREE",
+    "own_browser_lock": "RELEASED_AFTER_OWNER_CHECK"
+  },
+  "po_asset_acceptance": "NOT_GRANTED",
+  "independent_audit": "NOT_RUN",
+  "physical_device": "NOT_CLAIMED"
+}
