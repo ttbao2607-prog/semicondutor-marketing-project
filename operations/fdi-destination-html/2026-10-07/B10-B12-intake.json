@@ -1,0 +1,38 @@
+{
+  "base_checkpoint": "4e979a50bbbff681b195635bc9387f01ffbbeec5",
+  "template": "B7-en-o4-o-v1/case-reader.html",
+  "template_sha256": "be632f6c69e77588f21230591af4585ccd6f2491e5ae053e80d6199639ec72ff",
+  "o4q_copy_sha256": "43704e59a3f52201ed6dd33293c6a6ee86f426ae21ee14064b46befc5ea1be03",
+  "targets": [
+    {
+      "batch": "B10",
+      "locale": "en",
+      "directory": "deliverables/linkedin-safe-batches/parallel-osat-2026-10-07/B10-en-o4-q-v1",
+      "reader_before_sha256": "ff3e4ae7be142a98570edb24dca5d5ffe451b205b3c5a6135c3105539ddf6ea7",
+      "index_before_sha256": "dd9e0f9a9c929bbfa5b0208a4d7d684d0e64788bd9395472658e32969d4e8b34",
+      "selected_copy_sha256": "798e40023398cee22ffd24661ad244496796d652a9bbe87dc6af22c4c198608d",
+      "reader_after_sha256": "525408c1c47cf42f0e484573c455be7e721a58503d811e7a6f99da17c88220eb",
+      "index_after_sha256": "dd2133fc1b2ea754126c11be51057031e81db89e6619e0c0f69798f0cae37a50"
+    },
+    {
+      "batch": "B11",
+      "locale": "zh-Hans",
+      "directory": "deliverables/linkedin-safe-batches/parallel-osat-2026-10-07/B11-zh-Hans-o4-q-v1",
+      "reader_before_sha256": "e4a149ff35104c24537cd14bb4961f585ef689eff3ab054dfa9e54d5088bf778",
+      "index_before_sha256": "b24ef4755098a4b275e57993c7d5bfba2d11b3423d2f504e2ef1493ca462ed6e",
+      "selected_copy_sha256": "7873ba2413df52b9b7759b5a98792a3b3a4a221a7e8cc153b6ee3ea5ca0c7b95",
+      "reader_after_sha256": "acb55c8e0429563b42ca20bc5ec214830b2023bcf5af003cf4d1fbe1fc5c0472",
+      "index_after_sha256": "19b0fb19e4308b5d5b801acbe3e5a500a5f6d118d49528cb659c1bc809acac1c"
+    },
+    {
+      "batch": "B12",
+      "locale": "zh-Hant",
+      "directory": "deliverables/linkedin-safe-batches/parallel-osat-2026-10-07/B12-zh-Hant-o4-q-v1",
+      "reader_before_sha256": "eb66615e3c38018c88c688bdcff59e9029fb73ad06bce32b7f12cd2ad48cdcd1",
+      "index_before_sha256": "1217c7689c3ad4c3ef6e3287943a8e6b61afccb0177a5b97b51a8276ced63088",
+      "selected_copy_sha256": "f75527149c766136c102cdd5de8459ba944a9a50859bc94a554b1459c27ec825",
+      "reader_after_sha256": "810ad6ce0182e37a2c0dd0d15565314ed76efc4c2f343f24fcef0e7afc220de9",
+      "index_after_sha256": "8e3c9322d739fd6baa9f036ec74791b686c9d1dd1c6caeb97f35169811d80848"
+    }
+  ]
+}
