@@ -1,0 +1,19 @@
+TRÍCH PHẠM VI CASE APLUS · NGUỒN 07/10/2026
+
+# VN creative closeout và hướng dẫn swap tuần 2
+
+Ngày 2026-10-07 · Owner quyết định: Bảo · Trạng thái: **CREATIVE_CLOSED / OFFLINE_ADOPTED**. Đây là hướng dẫn chuẩn bị quyết định; không phải lệnh kích hoạt ad, thay audience, chi tiền hoặc publish LadiPage.
+
+Creative VN đã hoàn tất và được Bảo duyệt: week1 v3 và week2-time-v2, mỗi bộ 1 Cold + 5 RMK + 4 evidence; hai trang case có UI Leonxinx, nội dung value và toggle VI / English / 简体中文 trong một HTML mỗi week. Main đã nhận hai reader tại commit `c869982`. Ngôn ngữ bổ sung là bản dịch cùng journey VN, không phải adaptation FDI. Adapter English/Chinese vẫn DEVELOPING / NOT_FROZEN.
+
+## Bộ dùng hiện hành
+
+| Bộ | Vai trò | Artifact canonical |
+|---|---|---|
+| Week1 v3 | Authority ngành → cơ chế chuẩn bị quản trị → case Aplus | [Demo](../../../deliverables/linkedin-vn-journey/2026-10-06-v3/index.html), [reader](../../../deliverables/linkedin-vn-journey/2026-10-06-v3/case-aplus.html) |
+| Week2-time-v2 | Hook Cold khác week1 → phạm vi/data/ERP cùng hiện trường → proof thời gian Aplus | [Demo](../../../deliverables/linkedin-vn-journey/2026-10-06-week2-time-v2/index.html), [reader](../../../deliverables/linkedin-vn-journey/2026-10-06-week2-time-v2/case-aplus.html) |
+
+Hai bộ đều dùng Aplus Semiconductor tại Trung Quốc. Proof **toàn dự án tích hợp iMES + TOP GP go-live trong 3 tháng** là kết quả riêng của case; không phải thời gian từ buổi tư vấn đầu tiên đến qua audit, không cam kết triển khai theo deadline của Quý Doanh Nghiệp và không quy mọi cơ chế cho ERP riêng lẻ. Hình là minh họa. WONIK/EasyFlow.NET và các plan warm đầu tiên là lịch sử thử nghiệm, không phải bộ swap hiện hành.
+
+Thông tin nguồn/acceptance: [week1](journey-v3/Main_V3_Integration_2026-10-06.json), [week2](week2-main-integration/README.md), [hai reader](ldp-value-main-integration/README.md). Bản copy và native image nằm cùng demo; operator chọn đúng bộ và đối chiếu inventory actual ad trước khi tác động tài khoản. Storyboard carousel không chứng minh format đủ điều kiện tạo audience RMK, cũng không đảm bảo người xem đọc tuần tự.
+

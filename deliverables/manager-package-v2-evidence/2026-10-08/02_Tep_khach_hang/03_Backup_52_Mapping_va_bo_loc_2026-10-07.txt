@@ -1,0 +1,38 @@
+# R5 post-match check — 2026-10-07
+
+Writer records sanitized evidence supplied by Coordinator, the sole browser controller. No Writer browser/research actions or independent live observation are claimed.
+
+## Observed platform state and mapping limitation
+
+R5 `TEST-AUD-CONTINGENCY-TRUE-ONLY-R5-52` still displays **Ready / >90% /444,274 members**. However, Details displays **0 Companies**, **Matched(0)** and **Unmatched(0)**, with no company rows; screenshot confirms the empty detail surface. Reopening Details after targeting checks still shows0. This contradicts the summary's usable mapping visibility: **ROW_MAPPING_QUALITY_INSUFFICIENT_EVIDENCE**. It does not prove zero matched companies, zero employees, failure to match, or100% correct matching. The52 input-to-Page mapping cannot presently be audited in this UI.
+
+## Unsaved targeting estimates — settled values only
+
+Coordinator opened a NEW unsaved Saved Audience editor. Location was Vietnam, recent or permanent; language English. Only the R5 Company List was selected. Predictive audience was not clicked; no expansion control was exposed on this Saved Audience surface, so expansion behavior elsewhere is not certified.
+
+| Unsaved configuration | Settled estimated audience |
+|---|---:|
+| R5 Company List AND Vietnam, English |8,200|
+| Above AND Job Functions (Engineering OR Information Technology OR Operations OR Quality Assurance) |5,000|
+| Above AND Job Seniorities (Manager OR Director OR VP OR CXO) |460|
+| Same final function/seniority filters, switched to Vietnamese |<300|
+
+Filters within each function or seniority group were OR; the list/location/function/seniority layers were AND. The intermediate3,300 function estimate occurred during loading and was discarded;5,000 is the settled observation. These are UI estimates for these exact temporary configurations, not delivered reach, qualified buyers, independent FDI/domestic pools or final campaign acceptance.444,274 is the list summary pool, not Vietnam-filtered reach.
+
+Chinese was absent from language options. English helper text says it reaches all profile languages except Sponsored Messaging. Thus English/Vietnamese estimates cannot establish four separate audiences for four creative locales. Local identity, decision authority, ownership and locale remain unverified; **locale UNASSIGNED / campaign-operational release HOLD**. Ready itself is not a failure or blanket blocker.
+
+## Why Ready appeared quickly
+
+Before submit, uploader explicitly indicated this smaller uploaded list could become ready within an hour, while insights could take up to48 hours. This supports a **small-list fast-processing explanation**. [Official Ready guidance](https://www.linkedin.com/help/lms/answer/a790578) describes Ready as fully processed; up to48 hours, rarely72, is an upper processing window, not a required wait. [Match-rate guidance](https://www.linkedin.com/help/lms/answer/a420595) distinguishes match rate and the last member count. These help reads and UI observations were made by Coordinator07Oct.
+
+Inference only: clean exact Company Page/domain identifiers likely help matching. We have no causal test proving they caused processing speed, and no evidence of backend caching. Platform Ready/>90% alone cannot verify every input match. Company insights in a temporary new view showed no records; that viewer inherited Vietnamese draft attributes, so it is not proof that global company insights are absent.
+
+## No saved targeting or delivery changes
+
+No Apply, Save or Create ad set was used. Coordinator cancelled the editor and cancelled the back/save prompt. Saved Audience list retained its five preexisting rows/identities; no research Saved Audience was saved. Final return to Matched Audiences retained the same four lists. No reupload, campaign attachment, spend or scheduled follow-up occurred.
+
+## Proposed next check
+
+Recheck the company mapping surface once after24 hours; this is a proposal, not an automatic schedule. If Details still shows0 while summary remains Ready/>90%/444,274, Bảo can decide whether to escalate to LinkedIn support using sanitized contradictory evidence. No support message has been sent. The overall journey/message/locale/customer qualification remains **INSUFFICIENT_EVIDENCE**; no new anchor or operational PASS is issued.
+
+DOCS_IMPACT_MAP reviewed: scoped current notices on the ten contingency canonical surfaces; historical bodies, all R5/R2–R4 bindings, prior receipts, package, CSVs, scripts/tests preserved. Budget11.7m VND and adapter DEVELOPING/NOT_FROZEN unchanged. [Coordinator post-match audit](contingency-audience/prepared-r5-upload/COORDINATOR_POSTMATCH_AUDIT.json) records separate final scoped closure.

@@ -1,0 +1,53 @@
+{
+  "revision": "quality-rmk-case-r3",
+  "input_checkpoint": "9df12fc",
+  "access_date": "2026-10-02",
+  "inputs": [
+    {
+      "path": "operations/linkedin-rmk-proof/RMK_Content_Anchor_and_R2_Audit.md",
+      "workspace_sha256": "293da4acbc773adee307c60ae13e1e2b849f7195ee877979ec606c7abc406bdb"
+    },
+    {
+      "path": "operations/linkedin-rmk-proof/proof-ledger.md",
+      "workspace_sha256": "cb17e66692e05c320f4980c08bcbef8b63c1a0ebb644eb6fc5a118fd91736e56"
+    },
+    {
+      "path": "operations/linkedin-rmk-proof/quality-rmk-r2-review-status.json",
+      "workspace_sha256": "5132973498dd89096d48d26310b2c38581af95505c438ec2f7b816fb45daf382"
+    },
+    {
+      "path": "operations/linkedin-awareness-execution/r2-complete-carousel/copy-vi.json",
+      "workspace_sha256": "f1fbff11bca771f2db484a717b27a1cff2b916e381d31428c5a91391c4812a94"
+    },
+    {
+      "path": "operations/linkedin-rmk-proof/implementation-manifest.json",
+      "workspace_sha256": "4b429e78264b62590c25d460a6b652a367f0b7ed449d76d273f5b9c07de5203e"
+    }
+  ],
+  "public_observations": [
+    {
+      "id": "PR05-reopen",
+      "url": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+      "locator": "case06, entity heading; pain, solution and month-close bullet",
+      "entity": "江苏中科智芯集成科技有限公司",
+      "scope": "China packaging/testing context; integrated digital solution; publisher says month-close 15 to 5 days",
+      "limitation": "publisher reported; method/period/sample not stated; no isolated ERP causality or abnormal-test result; original English alias omitted"
+    },
+    {
+      "id": "PR10-reopen",
+      "url": "https://www.digiwin.com.vn/about-vn/",
+      "locator": "hero company definition; About Digiwin paragraph",
+      "scope": "developer/provider of digital solutions for manufacturing, ERP to smart manufacturing",
+      "limitation": "no deployment outcome or guarantee"
+    }
+  ],
+  "rights": "existing VI claim/case scope retained; no new customer logo/photo or rights expansion",
+  "continuity": "same sector, adjacent operating outcome; not direct Quality abnormal-test proof",
+  "artwork": "fictional editorial semiconductor imagery, no actual customer photo/document",
+  "search_probe": {
+    "query": "Digiwin 江苏中科智芯集成科技有限公司",
+    "date": "2026-10-02",
+    "finding": "entity and vendor-related third-party results surfaced; exact official case collection ranking not established",
+    "implication": "visible entity name plus explicit domain/case06 and direct destination; no search ranking guarantee or third-party claims used"
+  }
+}

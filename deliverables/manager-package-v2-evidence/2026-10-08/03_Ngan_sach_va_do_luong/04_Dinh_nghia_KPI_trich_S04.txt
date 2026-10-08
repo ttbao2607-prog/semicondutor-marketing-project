@@ -1,0 +1,49 @@
+TRÍCH ĐỊNH NGHĨA KPI TỪ S04
+
+Trích phần metric/definition; không lấy budget/lịch cũ làm quyết định hiện hành. Các event/nguồn dữ liệu vẫn giữ scope được ghi trong bản gốc.
+
+## KPI register
+
+| Layer | Metric | Source | Scope / denominator | Baseline | Target status | Action / review | Limitation |
+|---|---|---|---|---|---|---|---|
+| Audience | Target-account exposure / coverage observed | LinkedIn UI/export if available | Exposed target companies / fixed target universe; only where identities connect | Unknown | Provisional after S03 | Review after 5–7 delivery days | Hidden/incomplete company data; not unique people |
+| Delivery | Reach and frequency | Native platform | Platform and same period separately | Unknown | Provisional | Check weekly | Do not sum unique reach across platforms |
+| Search relevance | Relevant-query clicks / observed-query clicks | Google search-terms export | Explicit query sample and rubric | Unknown | Provisional | Review after sufficient query sample | Visible query set is not all demand |
+| Attention | Paid landing sessions, engaged sessions, engagement rate | Existing analytics if verified | Same source/route/filter; engagement rate = engaged sessions / sessions per tool definition | Unknown | Provisional | Check tracking first, then 5–7 days | Behavioral proxy, not awareness lift or qualified audience |
+| Expertise interest | Proof interaction rate | Analytics/asset telemetry if existing and verified | Defined proof interaction sessions / paid landing sessions | Unknown | Provisional | Review by route/pain | Must define interaction; cannot imply comprehension |
+| Progression | CTA intent, successful form submission (event name pending), booking confirmed | Analytics + receiver/native system | Each step separately | Unknown | Provisional | Verify live owner/name; any receiver test requires authorization | CTA intent is not form success; form success is not booking |
+| Cost | Spend, CPM, CPC, cost per engaged session | Native platform + reconciled spend | Same platform/tactic/period; cost per engaged session uses matching source and denominator | Unknown | No numeric target yet | Pacing weekly | Attribution and consent limitations |
+| Commercial optional | End-user/partner lead and follow-up status | Lead receiver/owner | Only accepted records and stated qualification fields | Unknown | Not mandatory | Review if implemented | Do not infer role or quality from reading behavior |
+
+
+### Proposed decision KPI dictionary (2026-09-29)
+
+The first seven *eligible delivery* days are a technical and destination check, not a statistical claim about demand or audience fit. Record calendar dates and actual eligible days separately. All baselines below are `unknown` until real, same-scope campaign delivery exists. Floors and decision thresholds in S04A are proposals pending Bảo's approval; missing or hidden data means `insufficient evidence`.
+
+| KPI | Numerator / denominator and scope | Source; baseline | Proposed sufficiency and cadence | Limitation / decision use |
+|---|---|---|---|---|
+| Technical integrity | Count of unresolved critical route, claim, duplicate, privacy, URL or receiver defects; no rate | Route QA, GTM/GA4 and receiver evidence as authorized; current campaign baseline unknown | Check before delivery and during first 7 eligible days; proposed zero-open-critical gate | Synthetic route tests establish technical behavior only, not paid performance. |
+| LinkedIn target distribution | Delivered impressions in reported target company/function/seniority cells / all impressions with the same available breakdown; report unclassified share | Campaign Manager; unknown | Compare weekly on unchanged audience configuration; proposal requires two comparable weekly snapshots | Reported cells may be hidden; no claim of person-level identity or total account coverage. |
+| LinkedIn reach/frequency | Native unique reach; impressions / native reach, same campaign and period | Campaign Manager; unknown | Weekly after actual delivery | Do not add unique reach across platforms or equate impressions with people. |
+| Search observed-query relevance | Clicks on visible search terms classified relevant by a prewritten rubric / clicks on all visible classified terms; also report visible-term clicks / total Search clicks when available | Google Ads search-terms and campaign click reports; unknown | Inspect during first 7 eligible days; **proposed** 20 observed classified clicks before using relevance rate for allocation, with sample and coverage disclosed | Hidden terms prevent an all-query claim; 7 relevant of 10 clicks is descriptive only, not a sufficient decision sample. |
+| Core Search impression share | Eligible impressions received / estimated eligible impressions for the explicitly scoped core term set | Google Ads Search impression-share report, if exposed; unknown | Weekly once core terms and eligibility are stable | Missing estimate is unknown, not zero demand; compare like settings only. |
+| Paid landing engagement | Engaged paid sessions / paid landing sessions, same source, route, language/variant, timezone and period | Verified GA4 paid-session report; unknown | Proposed 100 sessions per route/variant for first comparison; weekly | Behavioral attention proxy, not audience qualification or awareness lift; zero sessions makes rate undefined. |
+| Cost per engaged session | Reconciled media spend attributable to the same paid slice / engaged paid sessions for that slice | Platform spend plus verified GA4 attribution; unknown | Weekly only when matching attribution and nonzero denominator are available | Platform and GA4 windows can disagree; disclose unmatched spend/sessions. |
+| Proof interaction | Paid sessions with one defined proof/content action / paid landing sessions in the same slice | Verified existing event or asset telemetry; unknown | Define action first; proposed 100 sessions per compared slice; weekly | Interaction does not prove comprehension or permission to use the claim. |
+| CTA / accepted lead / booking | Three separate counts or rates: CTA intents / paid sessions; receiver-accepted records / attributable paid sessions; confirmed bookings / accepted records | Governed route event (OSAT only where verified), provider/receiver, booking source; all baselines unknown | Weekly only for individually verified sources; no minimum decision floor yet | CTA intent is not PopupX opening, form acceptance or booked meeting. No synthetic/test record enters campaign result. |
+| Pacing and reserve | Actual media spend / approved period ceiling; remaining ceiling = approved ceiling − actual media spend | Reconciled native platform bills; no approved baseline/envelope yet | Weekly and before any proposed allocation change | Draft ceiling is not authority; tax/fee inclusion and eligible days must be fixed first. |
+
+Source, numerator, denominator, route/segment/language, date window, currency, timezone, attribution window, reporting latency and missing/hidden share travel with each reported KPI. A zero denominator yields `not calculable`. No provisional threshold is a live bidding goal or approval to create an event.
+
+| Semantic | Candidate condition | Required validation |
+|---|---|---|
+| `landing_view/session` | Correct paid destination loads; page view not duplicated | Route, tags, consent, duplicate check |
+| `content/proof_interaction` | Defined opening/view/interaction on a proof asset | DOM/asset behavior and scope |
+| `cta_click` | Click on typed CTA with action label | Correct destination and UTM persistence |
+| Successful form submission (event name pending; semantic KPI only) | Receiver accepts and stores a marked test record, only after authorization and live event-owner/name verification | Confirm actual LadiPage/editor + GTM/GA4 source/name, receiver acceptance/storage, and success/error/refresh behavior; do not assume or synthesize `accepted_form` |
+| `booking_confirmed` | External/native confirmation exists | Source of truth and attribution join |
+
+These are candidate semantics, not an instruction to create events. Reuse existing names after inventory; do not create a new taxonomy solely for naming convenience.
+
+The reviewed local technical-document inventory does not substantiate an `accepted_form` event. The successful-submit KPI has no assigned event name here. Do not test receiver acceptance/storage until specifically authorized and the live LadiPage/editor and GTM/GA4 event owner/name have been verified.
+

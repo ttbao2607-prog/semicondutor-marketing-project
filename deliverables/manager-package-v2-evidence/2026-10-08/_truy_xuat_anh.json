@@ -1,0 +1,49 @@
+{
+  "revision": "image-evidence-v2-public-supplement",
+  "supplements": "_truy_xuat_nguon.json (evidence-v1 retained)",
+  "entries": [
+    {
+      "id": "IMG-P01",
+      "source": "D:/LinkedIn_Package_V2_2026-10-07/outputs/evidence/google_planner_en_2026-09-30_13-54-41.png",
+      "file": "03_Ngan_sach_va_do_luong/Anh_Planner/English_2026-09-30.png",
+      "observed_date": "2026-09-30",
+      "title": "Keyword Planner · English",
+      "caption": "Ảnh chụp 30/09/2026, khoảng 13:54 UTC+7. Bộ lọc hiển thị: Việt Nam, English, Google, Sep 2025–Aug 2026. Bảy dòng từ khóa có dấu gạch ngang ở các cột chỉ số. Đây là kết quả của cấu hình truy vấn này; không suy nhu cầu bằng 0, CPC hoặc hiệu quả quảng cáo. Mép trái ảnh gốc cắt một phần tên từ khóa; đọc bảng seed trong biên bản kèm theo.",
+      "sanitized_for_public_repo": true,
+      "source_sha256": "32d11fe0159f8111b2965d5066c88e14a3d28092eb53264fc13e063b8d7672d4",
+      "bytes": 100967,
+      "copy_method": "EXACT_BYTE_COPY; no crop, redaction, resampling or regeneration"
+    },
+    {
+      "id": "IMG-P02",
+      "source": "D:/LinkedIn_Package_V2_2026-10-07/outputs/evidence/google_planner_zh_hans_2026-09-30_13-57-22.png",
+      "file": "03_Ngan_sach_va_do_luong/Anh_Planner/Chinese_gian_the_2026-09-30.png",
+      "observed_date": "2026-09-30",
+      "title": "Keyword Planner · Chinese (simplified)",
+      "caption": "Ảnh chụp 30/09/2026, khoảng 13:57 UTC+7. Bộ lọc hiển thị: Việt Nam, Chinese (simplified), Google, Sep 2025–Aug 2026. Bảy dòng từ khóa có dấu gạch ngang ở các cột chỉ số. Đây là kết quả của cấu hình truy vấn này; không suy nhu cầu bằng 0, CPC hoặc hiệu quả quảng cáo. Mép trái ảnh gốc cắt một phần tên từ khóa; đọc bảng seed trong biên bản kèm theo.",
+      "sanitized_for_public_repo": true,
+      "source_sha256": "5f06722e5a1e3068d1fd41cebcb09f13b3acd4e68d777e8fec2ed8ed0a945778",
+      "bytes": 102634,
+      "copy_method": "EXACT_BYTE_COPY; no crop, redaction, resampling or regeneration"
+    },
+    {
+      "id": "IMG-P03",
+      "source": "D:/LinkedIn_Package_V2_2026-10-07/outputs/evidence/google_planner_zh_hant_2026-09-30_13-59-07.png",
+      "file": "03_Ngan_sach_va_do_luong/Anh_Planner/Chinese_phon_the_2026-09-30.png",
+      "observed_date": "2026-09-30",
+      "title": "Keyword Planner · Chinese (traditional)",
+      "caption": "Ảnh chụp 30/09/2026, khoảng 13:59 UTC+7. Bộ lọc hiển thị: Việt Nam, Chinese (traditional), Google, Sep 2025–Aug 2026. Bảy dòng từ khóa có dấu gạch ngang ở các cột chỉ số. Đây là kết quả của cấu hình truy vấn này; không suy nhu cầu bằng 0, CPC hoặc hiệu quả quảng cáo. Mép trái ảnh gốc cắt một phần tên từ khóa; đọc bảng seed trong biên bản kèm theo.",
+      "sanitized_for_public_repo": true,
+      "source_sha256": "bd77ed8dc1a2292866ab72485a00a89709c1f917e5cef2d1973f7a785b27bda9",
+      "bytes": 102602,
+      "copy_method": "EXACT_BYTE_COPY; no crop, redaction, resampling or regeneration"
+    }
+  ],
+  "companion": {
+    "file": "03_Ngan_sach_va_do_luong/06_Planner_EN_Chinese_Bien_ban_2026-09-30.txt",
+    "source": "D:/LinkedIn_Package_V2_2026-10-07/operations/CODEX_GOOGLE_PLANNER_DISCOVERY_RECEIPT.md",
+    "source_sha256": "b9bdff4d4dd78f98732eb210181390886dc83933f3b1cb495ca43ef43e8f93ff",
+    "sha256": "b9bdff4d4dd78f98732eb210181390886dc83933f3b1cb495ca43ef43e8f93ff",
+    "kind": "EXACT_BYTE_COPY"
+  }
+}
