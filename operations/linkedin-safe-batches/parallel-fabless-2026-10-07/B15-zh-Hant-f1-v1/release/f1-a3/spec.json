@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "revision": "b15-f1-a3-spec-v1",
+  "release": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/f1-a3/release.json",
+    "sha256": "caf830157a2c6444f3eefe751310c919a7b6ebdd663e218925f2ef9ad8e16a65",
+    "revision": "b15-f1-a3-release-v1"
+  },
+  "contract": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/f1-a3/contract.json",
+    "sha256": "c93adf944a69c3629ff392cd7804a7cd70527ed91d60cc51933459cfa8ab506f",
+    "revision": "b15-f1-a3-contract-v1"
+  },
+  "copy": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/explanation/public-copy.json",
+    "sha256": "150fd30bd617ab49e0edc71af4833d33155faff26daa23d1073615a9052d8659",
+    "revision": "b15-explanation-zh-Hant-copy-v1"
+  },
+  "review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/f1-a3/review.json",
+    "sha256": "33cc3951aeba1a79c2b8344b310ee87f8904a2f6caae3af9ddd4697eadd4a6d7",
+    "revision": "b15-f1-a3-source-review-v1"
+  },
+  "calls": [
+    {
+      "call_id": "B15_F1_A3_V1",
+      "targets": [
+        "F1-A3"
+      ],
+      "references": [
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/04-f1-a3.png",
+          "sha256": "1fdfb9d51eaf0605eac39e40aff02043aea3c87866c83133b298c6124092d6a5",
+          "revision": "b13-v5-selected-visual-family-reference",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "revision": "official-logo-pinned",
+          "role": "brand_asset",
+          "attributes": [
+            "brand_mark"
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "card_id": "F1-A3",
+          "concept_id": "b15-f1-a3-scene-v1",
+          "description": "Oblique tabletop with wafer protective carrier, neutral unlabelled stage nodes and a detached blank report surface. Open paths express stage, report time and source questions, not a confirmed production state. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning. New locale zh-Hant: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact.",
+          "props": [
+            "wafer protective carrier",
+            "neutral stage nodes",
+            "blank report"
+          ],
+          "reader_question": "這份回報對應哪個製程階段？",
+          "artwork_labels": [
+            "ERP · 晶片營運",
+            "3/6"
+          ]
+        }
+      ],
+      "artwork_text": {
+        "F1-A3": {
+          "headline": "這份回報對應哪個製程階段？",
+          "body": "確認製程階段、狀態紀錄時間，以及作為依據的合作夥伴回報。",
+          "source_text": "",
+          "cta": "",
+          "artwork_labels": [
+            "ERP · 晶片營運",
+            "3/6"
+          ]
+        }
+      },
+      "output_id": "f1-a3-zh-Hant-v1",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/f1-a3/native/f1-a3-zh-Hant-v1.png",
+      "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"Use case: ads-marketing. Print only supplied Traditional Chinese artwork text for Taiwan. Professional operational wording: explicit reconciliation objects, responsibility and practical next step. Use separately reviewed Taiwan terms; never convert mainland copy mechanically or assume national personality. No audit, vendor qualification or commercial guarantees. Keep original scene and narrative order. Preserve Traditional Chinese glyphs and exact supplied punctuation. Never mix scripts or use pseudo-Chinese. Use ASCII parentheses for approved acronym definitions to remain compatible with the frozen gate; do not normalize other punctuation. Review Taiwan punctuation placement, Chinese line starts/ends and mixed Latin terms at 333px; reduce scene area before shrinking type. New artwork in the B13v5 visual family: bright white/pale blue, grounded daylight, navy/blue type, material depth. No English/Vietnamese reference wording. Supplied Latin Digiwin, ERP, MES, domain and exact legal company name are intentional proper literals. Official supplied logo once; no additional DIGIWIN header label. Category and sequence are separate from source, exact near logo. Headline dominant and body comfortably readable at333CSSpx. Every source is a full-width normal main paragraph on WHITE, at least body-sized, high contrast, with complete legal name on its own readable line. Reserve bottom35percent for source/CTA when long; shrink scene before type. No source icon column, tiny footer/divider, skyline/pagoda/map/customer facility/seal/badge, unapproved punctuation, chart/tick/data glyphs or technical UI. All paper surfaces blank. No copy of English labels, reference wording or exact composition. Narrative/props stay within the reviewed concept. Exact counter and category required; CTA only if supplied.\",\"revision\":\"campaign-r2-hybrid-full-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/04-f1-a3.png\",\"revision\":\"b13-v5-selected-visual-family-reference\",\"role\":\"campaign_visual\",\"sha256\":\"1fdfb9d51eaf0605eac39e40aff02043aea3c87866c83133b298c6124092d6a5\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"official-logo-pinned\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"ERP · 晶片營運\",\"3/6\"],\"card_id\":\"F1-A3\",\"concept_id\":\"b15-f1-a3-scene-v1\",\"description\":\"Oblique tabletop with wafer protective carrier, neutral unlabelled stage nodes and a detached blank report surface. Open paths express stage, report time and source questions, not a confirmed production state. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning. New locale zh-Hant: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact.\",\"props\":[\"wafer protective carrier\",\"neutral stage nodes\",\"blank report\"],\"reader_question\":\"這份回報對應哪個製程階段？\"}]\nAPPROVED ARTWORK TEXT\n{\"F1-A3\":{\"artwork_labels\":[\"ERP · 晶片營運\",\"3/6\"],\"body\":\"確認製程階段、狀態紀錄時間，以及作為依據的合作夥伴回報。\",\"cta\":\"\",\"headline\":\"這份回報對應哪個製程階段？\",\"source_text\":\"\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/f1-a3/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+      "prompt_sha256": "352b1e181f186bd419003410c8c2c95674b461cabfefaf2b62305e7cd2904fb0"
+    }
+  ]
+}

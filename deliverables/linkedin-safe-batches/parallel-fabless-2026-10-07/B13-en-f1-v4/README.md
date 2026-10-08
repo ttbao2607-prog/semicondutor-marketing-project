@@ -1,0 +1,5 @@
+# B13 English Fabless F1 · corrected card3 v4
+
+Ten selected1254square native PNGs,14calls=10original+4corrective,0reuse. Card3 source hierarchy corrected under explicit PO instruction, scoped PASS/native+actual331.22px feed self-review. Exact publisher/legal name now larger than body. Native wording/brand/voice/qualitative China source scope unchanged. V1/v2/v3 and receipts remain historical.
+
+REVIEW_DRAFT_RENDER_GATE_PENDING. Card3 actual mobile390x844 DOM load observed but capture timed out; main638.22px desktop capture also timed out. Raw CDP mobile attempt rejected due denied permission and stopped. No full card3 desktop/mobile editorial PASS or whole-journey acceptance. Card3 source-size material finding closed in evidenced scope; missing-render evidence kept separately. Other9 PNGs unchanged from v3; reader byte-identical to previously reviewed English destination. Open index.html, case-reader.html and card3-audit.html. No ZIP/raster transforms/core/adapter changes/commit/main/push/live. Stop before B14.

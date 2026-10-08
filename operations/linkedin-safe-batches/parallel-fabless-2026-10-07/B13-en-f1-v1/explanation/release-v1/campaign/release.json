@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "revision": "b13-explanation-campaign-release-v1",
+  "authorizer": "/root coordinator recording Bao B13 authority",
+  "authority_ref": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/generation-mandate.json",
+    "sha256": "2d801b7aced544cffade447e4fe3ad79a5a3163e5d8ff2105871b78fca2081a6",
+    "revision": "b13-bao-mandate-v1"
+  },
+  "purpose": "OFFLINE_IMAGEGEN",
+  "contract": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v1/campaign/contract.json",
+    "sha256": "12b64e575494cb861251969dd4ea8352934cb5fb0d8b572735e9357ed5360279",
+    "revision": "b13-explanation-campaign-contract-v1"
+  },
+  "copy": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/public-copy.json",
+    "sha256": "1df102de400bdb3829df7dddd6b9c9138d3a560b18f7020bb5d7b5415d1f8989",
+    "revision": "b13-explanation-en-copy-v1"
+  },
+  "review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v1/campaign/review.json",
+    "sha256": "7d560b9119ef57574260e4aad22e3cf3ee3d9502b9e3061b6b4c2521bd3d66e1",
+    "revision": "b13-explanation-campaign-review-v1"
+  },
+  "groups": [
+    [
+      "F1-A1"
+    ],
+    [
+      "F1-A2"
+    ],
+    [
+      "F1-A3"
+    ],
+    [
+      "F1-A4"
+    ]
+  ]
+}

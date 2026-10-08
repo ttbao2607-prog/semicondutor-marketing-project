@@ -1,0 +1,53 @@
+{
+  "revision": "b15-raw-byte-closeout-v2-v1",
+  "verdict": "MECHANICAL_BINDINGS_PASS",
+  "review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/postgen-review.json",
+    "sha256": "7b90da24a64957be09fd78b77faf5eeac02f8ab8584825f508db3b0e9308902f",
+    "revision": "b15-zh-hant-postgen-v2-actual-root-v1"
+  },
+  "selected_manifest": {
+    "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/manifest.json",
+    "sha256": "dd186684ce19caf3492aedd1104ecf86d41b30a7b4006f78fcdabaf3c60f579c",
+    "revision": "b15-review-manifest-v2"
+  },
+  "count_verification": {
+    "original": 11,
+    "corrective": 1,
+    "actual_calls": 12,
+    "selected": 11,
+    "cross_locale_png_reuse": 0,
+    "selected_native_dimensions": [
+      1254,
+      1254
+    ],
+    "transformations": 0,
+    "original_cap": 11,
+    "corrective_cap": 2,
+    "per_card_corrective_cap": 1
+  },
+  "actual_calls_with_fresh_guard": 12,
+  "input_pins_verified": true,
+  "selected_prompt_call_identity_verified": true,
+  "original_pngs_and_selected_bytes_verified": true,
+  "freeze_files": 24,
+  "frozen_bytes_unchanged": true,
+  "semantic_review": "Actual root judgment in bound postgen receipt; this verifier does not approve message or artwork.",
+  "technical_terminal": "REVIEW_DRAFT_RENDER_GATE_PENDING",
+  "full_audit_verdict": "INSUFFICIENT_EVIDENCE",
+  "Git_mutation": false,
+  "offline_no_form_or_analytics_dispatch": true,
+  "v1_to_v2_unchanged_pngs": [
+    "COLD-FABLESS-B15",
+    "F1-A1",
+    "F1-A2",
+    "F1-A3",
+    "F1-A4",
+    "F1-A5",
+    "F1-A6",
+    "RMK-BRIGHT-1",
+    "RMK-BRIGHT-3",
+    "RMK-BRIGHT-4"
+  ],
+  "v1_reader_bytes_unchanged": true
+}

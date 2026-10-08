@@ -1,0 +1,277 @@
+{
+  "revision": "b16-f2-a5-script-v1",
+  "gate_id": "AD-ED-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "copy_sha256": "f2b448ae302c80a113a3b11766d4b8a5e1667504af5e5de4a0d857f3c6ae5076",
+  "reviewed_ads": [
+    "F2-A"
+  ],
+  "reviewed_fields": {
+    "F2-A": [
+      "caption",
+      "F2-A1.headline",
+      "F2-A1.body",
+      "F2-A1.source_text",
+      "F2-A1.cta",
+      "F2-A1.native_headline",
+      "F2-A1.alt",
+      "F2-A1.artwork_labels",
+      "F2-A2.headline",
+      "F2-A2.body",
+      "F2-A2.source_text",
+      "F2-A2.cta",
+      "F2-A2.native_headline",
+      "F2-A2.alt",
+      "F2-A2.artwork_labels",
+      "F2-A3.headline",
+      "F2-A3.body",
+      "F2-A3.source_text",
+      "F2-A3.cta",
+      "F2-A3.native_headline",
+      "F2-A3.alt",
+      "F2-A3.artwork_labels",
+      "F2-A4.headline",
+      "F2-A4.body",
+      "F2-A4.source_text",
+      "F2-A4.cta",
+      "F2-A4.native_headline",
+      "F2-A4.alt",
+      "F2-A4.artwork_labels",
+      "F2-A5.headline",
+      "F2-A5.body",
+      "F2-A5.source_text",
+      "F2-A5.cta",
+      "F2-A5.native_headline",
+      "F2-A5.alt",
+      "F2-A5.artwork_labels",
+      "F2-A6.headline",
+      "F2-A6.body",
+      "F2-A6.source_text",
+      "F2-A6.cta",
+      "F2-A6.native_headline",
+      "F2-A6.alt",
+      "F2-A6.artwork_labels"
+    ]
+  },
+  "BRAND_ROLE": {
+    "verdict": "PASS",
+    "observation": "Official supplied Digiwin mark once; functional category/counter distinct from attributed source. Supplier, customer and Taiwan/Vietnam provenance remain separate."
+  },
+  "ADVERTISER_VOICE": {
+    "verdict": "PASS",
+    "observation": "English We provide/We develop and provide/Work with our team; Hans 我们提供/我们开发并提供/与我们在越南的团队. Neutral planning questions, no third-person supplier praise or invented quote."
+  },
+  "independence": "SELF_REVIEW",
+  "per_card_observations": [
+    {
+      "stage": "explanation",
+      "card_id": "F2-A1",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "F2-A1",
+        "headline": "Demand changed. Which lots matter?",
+        "body": "Identify the outsourced lots linked to the changed demand before discussing the plan with production partners.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Demand changed. Which lots matter?",
+        "alt": "Illustration: Demand changed. Which lots matter?",
+        "artwork_labels": [
+          "ERP · CHIP OPERATIONS",
+          "1/6"
+        ]
+      },
+      "caption": "We provide manufacturing ERP (enterprise resource planning). Fabless (chip design without owning a fabrication plant) planning teams: reconcile demand changes with outsourced-lot reports before discussing the next plan.",
+      "scene": "Bright neutral desk, blank partner report sheets beside a wafer protective carrier; separate sheets represent reports to reconcile, not actual statuses or forecast charts. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+      "observation": "Actual root authored/reviewed F2 scope: Demand changed. Which lots matter?; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result.",
+      "source_scope": "Planning questions or separate local Vietnam consultation",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/02-f1-a1.png",
+      "reused": false
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F2-A2",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "F2-A2",
+        "headline": "Start with product and planning period.",
+        "body": "Agree which product, planning period and outsourced lots the demand change concerns.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Start with product and planning period.",
+        "alt": "Illustration: Start with product and planning period.",
+        "artwork_labels": [
+          "ERP · CHIP OPERATIONS",
+          "2/6"
+        ]
+      },
+      "caption": "We provide manufacturing ERP (enterprise resource planning). Fabless (chip design without owning a fabrication plant) planning teams: reconcile demand changes with outsourced-lot reports before discussing the next plan.",
+      "scene": "A neutral packaged chip and small lot trays beside blank report sheets; product and lot scope are illustrative, no printed identifiers or technical layouts. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+      "observation": "Actual root authored/reviewed F2 scope: Start with product and planning period.; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result.",
+      "source_scope": "Planning questions or separate local Vietnam consultation",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/03-f1-a2.png",
+      "reused": false
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F2-A3",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "F2-A3",
+        "headline": "When was this lot status recorded?",
+        "body": "Check the report time and source alongside lot status before using it in a planning discussion.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "When was this lot status recorded?",
+        "alt": "Illustration: When was this lot status recorded?",
+        "artwork_labels": [
+          "ERP · CHIP OPERATIONS",
+          "3/6"
+        ]
+      },
+      "caption": "We provide manufacturing ERP (enterprise resource planning). Fabless (chip design without owning a fabrication plant) planning teams: reconcile demand changes with outsourced-lot reports before discussing the next plan.",
+      "scene": "Separate blank partner reports and neutral wafer protective carrier; differing report sources are abstract, no dates, status values, clock faces or technical UI. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+      "observation": "Actual root authored/reviewed F2 scope: When was this lot status recorded?; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result.",
+      "source_scope": "Planning questions or separate local Vietnam consultation",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/04-f1-a3.png",
+      "reused": false
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F2-A4",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "F2-A4",
+        "headline": "What needs confirmation from the partner?",
+        "body": "List missing information and who will confirm it with each production partner before discussing changes.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "What needs confirmation from the partner?",
+        "alt": "Illustration: What needs confirmation from the partner?",
+        "artwork_labels": [
+          "ERP · CHIP OPERATIONS",
+          "4/6"
+        ]
+      },
+      "caption": "We provide manufacturing ERP (enterprise resource planning). Fabless (chip design without owning a fabrication plant) planning teams: reconcile demand changes with outsourced-lot reports before discussing the next plan.",
+      "scene": "Blank open folder, neutral chip tray and simple unlabelled responsibility nodes with open connectors; no check marks, completed workflow, screens or record values. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+      "observation": "Actual root authored/reviewed F2 scope: What needs confirmation from the partner?; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result.",
+      "source_scope": "Planning questions or separate local Vietnam consultation",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/05-f1-a4.png",
+      "reused": false
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F2-A5",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "F2-A5",
+        "headline": "Give replanning a shared basis.",
+        "body": "Bring scope, report source and confirmation owners into the same planning discussion.",
+        "source_text": "Digiwin Taiwan semiconductor solution context:\nERP business management and MES (manufacturing execution system) production context.",
+        "cta": "Discuss outsourced-production planning",
+        "native_headline": "Give replanning a shared basis.",
+        "alt": "Illustration: Give replanning a shared basis.",
+        "artwork_labels": [
+          "ERP · CHIP OPERATIONS",
+          "5/6"
+        ]
+      },
+      "caption": "We provide manufacturing ERP (enterprise resource planning). Fabless (chip design without owning a fabrication plant) planning teams: reconcile demand changes with outsourced-lot reports before discussing the next plan.",
+      "scene": "Grouped blank partner reports, neutral chip carrier and responsibility nodes on white; a shared discussion basis, no automatic planning engine or results. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+      "observation": "Actual root authored/reviewed F2 scope: Give replanning a shared basis.; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result.",
+      "source_scope": "Planning questions or separate local Vietnam consultation",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/06-f1-a5.png",
+      "reused": false
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F2-A6",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "F2-A6",
+        "headline": "Consulting and implementation in Vietnam",
+        "body": "Work with our team in Vietnam on ERP consulting and implementation. Start with your reporting workflows, update ownership and project priorities.",
+        "source_text": "Digiwin Vietnam · ERP consulting and implementation",
+        "cta": "",
+        "native_headline": "Consulting and implementation in Vietnam",
+        "alt": "Illustration: Consulting and implementation in Vietnam",
+        "artwork_labels": [
+          "ERP · CHIP OPERATIONS",
+          "6/6"
+        ]
+      },
+      "caption": "We provide manufacturing ERP (enterprise resource planning). Fabless (chip design without owning a fabrication plant) planning teams: reconcile demand changes with outsourced-lot reports before discussing the next plan.",
+      "scene": "Bright illustrative consultation tabletop with two distinct blank project folios, a neutral chip sample and open blue physical paths between unlabelled responsibility tokens. Generic discussion material, not a customer facility, staff portrait or software UI. Compact scene leaves a large full-width plain white source block, source at least body-sized. No map/flag/skyline/ticks/labels/data/results or fabricated people. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+      "observation": "Actual root authored/reviewed F2 scope: Consulting and implementation in Vietnam; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result.",
+      "source_scope": "Planning questions or separate local Vietnam consultation",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/07-f1-a6.png",
+      "reused": true
+    }
+  ],
+  "reader_script": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/reader-script.json",
+    "sha256": "eeb03b6ca49a98384a1eac67893e0b4b0c70adc9588cb8bc6a68ebecc53220b7",
+    "revision": "b16-f2-reader-v1"
+  },
+  "actual_review_ref": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/semantic-review.json",
+    "sha256": "42f50ea8b4d790fee03c533d820cd0ef17959e6fabee679a3fbc6770ba95d707",
+    "revision": "b16-actual-f2-root-script-review-v1"
+  },
+  "postgen": "POSTGEN_NOT_RUN"
+}

@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "revision": "b14-cold-fabless-b14-anchor-v1",
+  "gate_id": "MSG-ANCHOR-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "revision": "1.0"
+  },
+  "source": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "revision": "VY-MAIL-USER-20261006"
+  },
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/cold-fabless-b14/contract.json",
+      "sha256": "07c85cdbe685951abb122fc45e54450b2fc93e4cfa8271f1efa45c1869970a42",
+      "revision": "b14-cold-fabless-b14-contract-v1"
+    },
+    "copy": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/cold/public-copy.json",
+      "sha256": "6156b13c1ccdb1464bdcdb46fdb166c60af905744347db5bd9d5849cb8954c8d",
+      "revision": "b14-cold-zh-Hans-copy-v1"
+    },
+    "spec": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/cold-fabless-b14/spec.json",
+      "sha256": "122a77100ecbd644b0ba05ea5bb32a6c1bb067c3a84af92b00f63da4553211b2",
+      "revision": "b14-cold-fabless-b14-spec-v1"
+    },
+    "script_review": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/cold-fabless-b14/script-review.json",
+      "sha256": "a92fd7c5fa164b5b52fe729ff8191d3d4b96235b994ac95f2ace2441d491b9c5",
+      "revision": "b14-cold-fabless-b14-script-v1"
+    }
+  },
+  "scope": {
+    "segment": "FDI",
+    "locale": "zh-Hans",
+    "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+    "route": "offline zh-Hans cold -> F1 outsourced-lot reporting -> Vietnam ERP consulting/implementation discussion -> qualitative China Bright Power integrated-solution case -> zh-Hans case reader"
+  },
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "coverage": {
+    "ads": [
+      "B14-COLD"
+    ],
+    "cards": [
+      "COLD-FABLESS-B14"
+    ],
+    "fields": {
+      "B14-COLD": [
+        "caption",
+        "COLD-FABLESS-B14.headline",
+        "COLD-FABLESS-B14.body",
+        "COLD-FABLESS-B14.source_text",
+        "COLD-FABLESS-B14.cta",
+        "COLD-FABLESS-B14.native_headline",
+        "COLD-FABLESS-B14.alt",
+        "COLD-FABLESS-B14.artwork_labels"
+      ]
+    },
+    "storyboard_cards": [
+      "COLD-FABLESS-B14"
+    ]
+  },
+  "rules": {
+    "A1": {
+      "verdict": "MATCH",
+      "observation": "Commercial chip-design entity with outsourced production; report conventions and responsibility are a narrow semiconductor-chain operating issue. No assumption every design office or general electronics factory is an eligible Vietnam ERP buyer."
+    },
+    "A2": {
+      "verdict": "MATCH",
+      "observation": "Operations/SCM influences business-system evaluation at an eligible entity. Actual local buying authority and group-system constraints unknown; process or existing-system improvements remain alternatives. Published China customer not treated as an approved Vietnam target account."
+    },
+    "A3": {
+      "verdict": "MATCH",
+      "observation": "FDI zh-Hans operational business audience. Mainland terms报告/工序/标识/咨询与实施 are directly authored, not Vietnamese literal syntax. Fabless(无晶圆厂芯片设计模式) in explanation caption; ERP(企业资源计划) before first acronym in each ad; MES(制造执行系统) explained in A5 source. No OSAT/WIP used. Language does not establish FDI ownership."
+    },
+    "A4": {
+      "verdict": "MATCH",
+      "observation": "Same implicit business value as v5: common basis for next decision and accountable updates. Report stage -> product/lot convention -> recorded-time/source -> update owner -> shared discussion. No numeric ROI, cost/yield saving, payback, forecast or automatic synchronization promise."
+    },
+    "A5": {
+      "verdict": "N/A",
+      "observation": "N/A: FDI lane; no domestic supplier-entry, audit success, qualification or orders promise."
+    },
+    "A6": {
+      "verdict": "MATCH",
+      "observation": "Explicit product/lot identifiers, production periods/test classifications, stage/time/report source and confirming update owner. Questions and agreed conventions, not unverified ERP execution functions. Taiwan ERP and MES context stays separate. Illustrative neutral chip/carrier/report props, no owned fab, technical values or customer facility."
+    },
+    "A7": {
+      "verdict": "MATCH",
+      "observation": "Cold decision cue -> report clarification -> convention -> stage/time/source -> responsibility -> decision basis -> Vietnam local consultation -> supplier role -> China identity -> qualitative outsourcing challenge -> same China source reader. Vietnam service and China implementation are separately attributed; no claim Bright received service from Vietnam team or proves exact F1 mechanism."
+    }
+  },
+  "units": [
+    {
+      "card_id": "COLD-FABLESS-B14",
+      "verdict": "MATCH",
+      "observation": "Mainland operational question names the next decision and three report-alignment objects; no owned fabrication plant or automatic data synchronization. Exact text: {\"card_id\": \"COLD-FABLESS-B14\", \"headline\": \"委外生产，下一步怎么决策？\", \"body\": \"交接前，先对齐批次、工序与报告时间。\", \"source_text\": \"\", \"cta\": \"\", \"native_headline\": \"委外生产，下一步怎么决策？\", \"alt\": \"示意图：委外生产，下一步怎么决策？\", \"artwork_labels\": [\"芯片委外运营\", \"制造业 ERP\"]} Scene: An illustrative bright architectural tabletop: a central operations review plinth receives two blank paper reports from separate abstract subcontractor work surfaces. Small neutral chip packages ground outsourced production. Thin blue physical paths imply communication, not automated synchronization. No actual customer buildings, fabrication plant, screen or dashboard. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. TARGETED EDIT: Edit reference1; preserve official logo, ERP for manufacturing role, exact headline/body, central physical report holder and two partner stations with chip cues. Add exact category OUTSOURCED CHIP OPERATIONS as a large readable line between header and headline; category at least body-sized, do not omit it. Lower headline/scene slightly if needed. Remove all tiny scribbles/glyphs from papers and remove neon glow from paths; neutral blue physical paths only. Keep background paper blank. No added labels, no sequence number, no source, no CTA. Same exact business meaning. New locale zh-Hans: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact."
+    }
+  ],
+  "transitions": [],
+  "context": {
+    "scope": "FULL_JOURNEY",
+    "verdict": "MATCH",
+    "observation": "Cold decision cue -> report clarification -> convention -> stage/time/source -> responsibility -> decision basis -> Vietnam local consultation -> supplier role -> China identity -> qualitative outsourcing challenge -> same China source reader. Vietnam service and China implementation are separately attributed; no claim Bright received service from Vietnam team or proves exact F1 mechanism. Reader: Complete Hans source summary, Chinese China geography and exact legal entity. Three sections retain qualitative challenge/integrated-solution context and prospect operating questions. 原始来源为简体中文 is useful source disclosure; no operational disclaimers in customer copy. Local service remains a separate explanation card.",
+    "brief": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/execution-brief.md",
+      "sha256": "acd570768df790dbcd8c863db13ee87022ba135a25cbf4bdeb1dfd4045326b49",
+      "revision": "b14-brief-v1"
+    },
+    "related_inputs": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/explanation/public-copy.json",
+        "sha256": "bcfb5fd8db88fe98a0fb849ba3c4a78d4fc394bec3be1caeb1d36713eb429bfb",
+        "revision": "b14-explanation-zh-Hans-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/proof/public-copy.json",
+        "sha256": "50dab449b9ae81b30ec5b739a6ad8db36eb22c3553c5ffbd181ea9f5a0ab0703",
+        "revision": "b14-proof-zh-Hans-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/reader-script.json",
+        "sha256": "918752a855d367d3a858da46670a7a5388c57886af07e2c3ae4491d710b53eef",
+        "revision": "b14-reader-zh-Hans-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/semantic-review.json",
+        "sha256": "f6160ae9c4579be934c26ed0306d47fc6900c64ad4cc9d229e6cff319a535080",
+        "revision": "b14-zh-hans-actual-root-script-review-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/proof-source-mapping.json",
+        "sha256": "cdfb5888a5d436b7c9544ba342e1202b59521318a0f7329fdaeed8aab59b73e9",
+        "revision": "b14-proof-map-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/vietnam-team-source.json",
+        "sha256": "4dd9ad85cb7f78e04ea0f666899b83f7e005f945c0c4ed3502c29476a91d4e67",
+        "revision": "b14-vietnam-team-source-v1"
+      }
+    ]
+  },
+  "unresolved_findings": []
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "revision": "b14-rmk-bright-2-blank-paper-spec-v1",
+  "release": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/corrective-v1/rmk-bright-2/release.json",
+    "sha256": "691db75b4824ad0a54b7ba649f7f569e6277e4571b1860047fb7bcf6e6d4cdf3",
+    "revision": "b14-rmk-bright-2-blank-paper-release-v1"
+  },
+  "contract": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/corrective-v1/rmk-bright-2/contract.json",
+    "sha256": "042bd259acecbabd1ce892b8a1060e45ff15ad86273a28c41fc1768821d484e6",
+    "revision": "b14-rmk-bright-2-blank-paper-contract-v1"
+  },
+  "copy": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/proof/public-copy.json",
+    "sha256": "50dab449b9ae81b30ec5b739a6ad8db36eb22c3553c5ffbd181ea9f5a0ab0703",
+    "revision": "b14-proof-zh-Hans-copy-v1"
+  },
+  "review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/corrective-v1/rmk-bright-2/review.json",
+    "sha256": "6d0059e97a1097ec50139522e0d3e36e3e08576ae8c03049dec075a6479ecbbf",
+    "revision": "b14-rmk-bright-2-blank-paper-source-review-v1"
+  },
+  "calls": [
+    {
+      "call_id": "B14_RMK_BRIGHT_2_C1",
+      "targets": [
+        "RMK-BRIGHT-2"
+      ],
+      "references": [
+        {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/rmk-bright-2/native/rmk-bright-2-zh-Hans-v1.png",
+          "sha256": "b206ccc516dba7860add6d5aec61e0e54d1d050e3f41b556f9c4afb6415ca87d",
+          "revision": "B14_RMK_BRIGHT_2_V1-actual-edit-target",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "revision": "official-logo-pinned",
+          "role": "brand_asset",
+          "attributes": [
+            "brand_mark"
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "card_id": "RMK-BRIGHT-2",
+          "concept_id": "b14-rmk-bright-2-scene-v1",
+          "reader_question": "来自中国的芯片设计案例",
+          "description": "An open case dossier next to a neutral chip sample in a bright tabletop scene. Introduces a chip-design company case, not documentary customer premises or a customer mark. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. TARGETED EDIT: Edit reference1. Preserve exact headline, body, official logo, CHIP-DESIGN CASE,2/4 and full Chinese legal name. Remove the entire skyline/landmark icon and vertical divider from source area. Source becomes plain full-width WHITE main text after compact image, NO icon box, NO skyline, NO separator lines. Source exact2lines: Digiwin Vietnam · Semiconductor case collection; 上海晶丰明源半导体股份有限公司. Both source lines at least as large as body, approximately56native pixels per1080width, generous whole width. Shrink image scene to create space. No added symbols. Background paper remains blank without bands. Exact same meaning and no new objects. New locale zh-Hans: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact.",
+          "props": [
+            "open blank dossier",
+            "neutral chip sample"
+          ],
+          "artwork_labels": [
+            "芯片设计案例",
+            "2/4"
+          ]
+        }
+      ],
+      "artwork_text": {
+        "RMK-BRIGHT-2": {
+          "headline": "来自中国的芯片设计案例",
+          "body": "晶丰明源是中国的芯片设计企业。了解其数字化解决方案实施背景。",
+          "source_text": "Digiwin 越南 · 半导体案例集\n上海晶丰明源半导体股份有限公司",
+          "cta": "",
+          "artwork_labels": [
+            "芯片设计案例",
+            "2/4"
+          ]
+        }
+      },
+      "output_id": "rmk-bright-2-zh-Hans-c1",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/corrective-v1/rmk-bright-2/native/rmk-bright-2-zh-Hans-c1.png",
+      "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"Use case: ads-marketing. Print only supplied Simplified Chinese artwork text. Professional operational Chinese: clear reconciliation objects and responsible team, concise question and practical next step. Use supplied mainland terminology, not word-for-word Vietnamese syntax. No assumptions about national personality, certification or guaranteed results. Keep original scene and narrative order. Preserve Simplified Chinese glyphs and exact supplied punctuation. Never mix scripts or use pseudo-Chinese. Use ASCII parentheses for approved acronym definitions to remain compatible with the frozen gate; do not normalize other punctuation. Review Chinese punctuation at line starts/ends and mixed Latin terms at 333px; reduce scene area before shrinking type. New artwork in the B13v5 visual family: bright white/pale blue, grounded daylight, navy/blue type, material depth. No English/Vietnamese reference wording. Supplied Latin Digiwin, ERP, MES, domain and exact legal company name are intentional proper literals. Official supplied logo once; no additional DIGIWIN header label. Category and sequence are separate from source, exact near logo. Headline dominant and body comfortably readable at333CSSpx. Every source is a full-width normal main paragraph on WHITE, at least body-sized, high contrast, with complete legal name on its own readable line. Reserve bottom35percent for source/CTA when long; shrink scene before type. No source icon column, tiny footer/divider, skyline/pagoda/map/customer facility/seal/badge, unapproved punctuation, chart/tick/data glyphs or technical UI. All paper surfaces blank. No copy of English labels, reference wording or exact composition. Narrative/props stay within the reviewed concept. Exact counter and category required; CTA only if supplied. TARGETED EDIT OF FIRST REFERENCE IMAGE: preserve all existing approved Chinese wording, source, CTA, category, counter, official logo, layout, typography and photographic props. Change ONLY paper surfaces: erase every pale rule, bar, line and form pattern on every sheet including foreground, left folio and clipped stack; make all paper uniformly blank white with natural shadows. Do not erase approved artwork text or decorative header counter line. No new marks or other changes.\",\"revision\":\"campaign-r2-hybrid-full-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/rmk-bright-2/native/rmk-bright-2-zh-Hans-v1.png\",\"revision\":\"B14_RMK_BRIGHT_2_V1-actual-edit-target\",\"role\":\"campaign_visual\",\"sha256\":\"b206ccc516dba7860add6d5aec61e0e54d1d050e3f41b556f9c4afb6415ca87d\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"official-logo-pinned\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"芯片设计案例\",\"2/4\"],\"card_id\":\"RMK-BRIGHT-2\",\"concept_id\":\"b14-rmk-bright-2-scene-v1\",\"description\":\"An open case dossier next to a neutral chip sample in a bright tabletop scene. Introduces a chip-design company case, not documentary customer premises or a customer mark. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. TARGETED EDIT: Edit reference1. Preserve exact headline, body, official logo, CHIP-DESIGN CASE,2/4 and full Chinese legal name. Remove the entire skyline/landmark icon and vertical divider from source area. Source becomes plain full-width WHITE main text after compact image, NO icon box, NO skyline, NO separator lines. Source exact2lines: Digiwin Vietnam · Semiconductor case collection; 上海晶丰明源半导体股份有限公司. Both source lines at least as large as body, approximately56native pixels per1080width, generous whole width. Shrink image scene to create space. No added symbols. Background paper remains blank without bands. Exact same meaning and no new objects. New locale zh-Hans: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact.\",\"props\":[\"open blank dossier\",\"neutral chip sample\"],\"reader_question\":\"来自中国的芯片设计案例\"}]\nAPPROVED ARTWORK TEXT\n{\"RMK-BRIGHT-2\":{\"artwork_labels\":[\"芯片设计案例\",\"2/4\"],\"body\":\"晶丰明源是中国的芯片设计企业。了解其数字化解决方案实施背景。\",\"cta\":\"\",\"headline\":\"来自中国的芯片设计案例\",\"source_text\":\"Digiwin 越南 · 半导体案例集\\n上海晶丰明源半导体股份有限公司\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/corrective-v1/rmk-bright-2/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+      "prompt_sha256": "e27793c12a6875bcdc9405110ebbd5ad30067f99384c729a0c4ed7a605b283cd"
+    }
+  ]
+}

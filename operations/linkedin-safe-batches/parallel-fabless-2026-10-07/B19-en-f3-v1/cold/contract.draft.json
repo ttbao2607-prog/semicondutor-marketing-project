@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "revision": "b19-f3-cold-contract-draft-v1",
+  "locale": "en",
+  "channel": "linkedin-single-image",
+  "copy": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/cold/public-copy.json",
+    "sha256": "0f3c78d2b8330c14607753912aa88824bd9a408494c587c135719119f7fcbdec",
+    "revision": "b19-f3-cold-copy-v1"
+  },
+  "sources": [
+    {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/execution-brief.md",
+      "sha256": "8336534bf5aa06f5fa3af69d7f30953d13c9758160d6dd69651df934e89942a2",
+      "revision": "b19-f3-brief-v1"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F3/common/f3-copy.json",
+      "sha256": "42bfe643e390dc933637a852bc82210c288139c2bfee4e548826d3c907c640a6",
+      "revision": "f3-source-read-v1"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/b18-b19-authored-input.json",
+      "sha256": "b70a1ec3026f1fa9a61dd5976376e9c6d4d7a784f55757de0ec9918a460621e7",
+      "revision": "b18-b19-root-authored-2026-10-08-v1"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/proof-source-mapping.json",
+      "sha256": "93bd8e67bfb210106dfb57be91df2b959cc517898bb224ad24335425bba57412",
+      "revision": "b19-f3-proof-map-v1"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/vietnam-team-source.json",
+      "sha256": "7a479dbfe578684229293d0c970ced20765f4ac36df21fa9970b4f89cfbd6833",
+      "revision": "b19-f3-vietnam-service-v1"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/selected-copy.json",
+      "sha256": "d5cc4ac186b8c44f73e3873a1f14ce0a03cb9568692e79e677a502c4a915edc3",
+      "revision": "b16-review-copy-en-v2"
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/profiles.json",
+      "sha256": "1b0105ed92ef866fb7a5796aefcdfb9d8e9d9683c72f4257295e80a06653a6cd",
+      "revision": "locale-adapter-draft-2026-10-06-v1"
+    }
+  ],
+  "card_sources": {
+    "COLD-FABLESS-B19": [
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/execution-brief.md",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F3/common/f3-copy.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/b18-b19-authored-input.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/proof-source-mapping.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/vietnam-team-source.json",
+      "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/selected-copy.json",
+      "operations/linkedin-locale-adapter/profiles.json"
+    ]
+  },
+  "ad_order": [
+    "B19-COLD"
+  ],
+  "card_order": {
+    "B19-COLD": [
+      "COLD-FABLESS-B19"
+    ]
+  },
+  "surfaces": {
+    "B19-COLD": [
+      {
+        "surface_id": "full-feed",
+        "reading_order": [
+          "caption",
+          "COLD-FABLESS-B19.headline",
+          "COLD-FABLESS-B19.body",
+          "COLD-FABLESS-B19.source_text",
+          "COLD-FABLESS-B19.cta",
+          "COLD-FABLESS-B19.native_headline",
+          "COLD-FABLESS-B19.alt",
+          "COLD-FABLESS-B19.artwork_labels"
+        ]
+      }
+    ]
+  },
+  "definitions": {
+    "OSAT": "outsourced semiconductor assembly and test",
+    "Fabless": "chip design without owning a fabrication plant",
+    "WIP": "work in progress"
+  },
+  "limits": {
+    "caption": 255,
+    "headline": 70,
+    "body": 180,
+    "source_text": 200,
+    "cta": 70,
+    "native_headline": 45,
+    "alt": 200,
+    "artwork_labels": 70
+  },
+  "groups": [
+    [
+      "COLD-FABLESS-B19"
+    ]
+  ],
+  "reuse_fields": [
+    "headline",
+    "body",
+    "source_text",
+    "cta",
+    "native_headline",
+    "alt",
+    "artwork_labels"
+  ],
+  "references": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+      "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+      "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png",
+      "sha256": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png",
+      "sha256": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "role": "brand_asset",
+      "attributes": [
+        "brand_mark"
+      ]
+    }
+  ],
+  "style": {
+    "brand": "Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs",
+    "palette": [
+      "white",
+      "#0052FF",
+      "#0B132B",
+      "#00B4D8",
+      "charcoal"
+    ],
+    "lighting": "bright neutral daylight with soft grounded shadows",
+    "avoid": [
+      "neon",
+      "dark mode",
+      "human faces",
+      "fabricated metrics identifiers dates statuses or results",
+      "customer marks or facility evidence",
+      "unreviewed capability or outcome claims",
+      "reference wording record values props or exact composition",
+      "printed caption native headline alt or internal notes",
+      "extra wording beyond approved artwork text and official brand mark"
+    ],
+    "campaign": {
+      "revision": "campaign-r2-hybrid-full-v1-parent-review-pending",
+      "instructions": "Write only supplied English artwork text. International B2B English: specific operational question, accountable actor, concrete next step. No idioms, slogans, invented ROI or cultural stereotypes. Keep scenes and narrative order. No Vietnamese words from references. Preserve exact English spelling and supplied line breaks. Review longer words at 333px; reflow or reduce illustration space before shrinking type. Do not invent hyphenation. B13v5 bright white/blue photographic campaign family. Reference wording is not approved copy. Official supplied logo once; no extra DIGIWIN header. Exact category/sequence near logo. Body comfortably readable at333CSSpx. Source normal full-width main paragraph on white, at least body-sized. All paper blank; no bars/rules/charts/ticks/data glyphs/UI/customer geography/seal/badge. Only approved artwork words. Partner handoff questions are not forecast accuracy or automatic replanning claims. Reduce scene before type."
+    }
+  },
+  "output": {
+    "directory": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/cold/native",
+    "extension": ".png",
+    "policy": "native_square_min",
+    "min_edge": 1080
+  }
+}

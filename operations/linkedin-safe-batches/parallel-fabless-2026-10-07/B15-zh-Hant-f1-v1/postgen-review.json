@@ -1,0 +1,2069 @@
+{
+  "revision": "b15-zh-hant-postgen-v2-actual-root-v1",
+  "stage": "POSTGEN_ARTIFACT",
+  "date": "2026-10-07",
+  "reviewer": "/root current Fabless session",
+  "independence": "SELF_REVIEW",
+  "review_method": "Transcription of actual root native/pixel/text comparison performed in this session; mechanical assertions bind evidence but do not evaluate semantics or grant authority. Fresh localized and selected-revision review, no inherited B13/B14 PASS or independent native-market certification.",
+  "status": "REVIEW_DRAFT_RENDER_GATE_PENDING",
+  "execution": "PARTIAL",
+  "audit_verdict": "INSUFFICIENT_EVIDENCE",
+  "authorization": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/generation-mandate.json",
+    "sha256": "a8620f9686eba19fcc89fdddcd5bb049677786e330dcb72103455fed5c61e9a7",
+    "revision": "b15-po-two-batch-mandate-v1"
+  },
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "revision": "1.0",
+    "id": "VY-CONTENT-ANCHOR",
+    "original_email": {
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+      "revision": "actual-byte-artifact-2026-10-07"
+    }
+  },
+  "scope": {
+    "segment": "FDI",
+    "locale": "zh-Hant",
+    "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+    "route": "offline zh-Hant cold -> F1 outsourced-lot reporting -> Vietnam ERP consulting/implementation discussion -> qualitative China Bright Power integrated-solution case -> zh-Hant case reader",
+    "branch": "slice/linkedin-safe-fabless-parallel",
+    "ordered_units": [
+      "COLD-FABLESS-B15",
+      "F1-A1",
+      "F1-A2",
+      "F1-A3",
+      "F1-A4",
+      "F1-A5",
+      "F1-A6",
+      "RMK-BRIGHT-1",
+      "RMK-BRIGHT-2",
+      "RMK-BRIGHT-3",
+      "RMK-BRIGHT-4"
+    ]
+  },
+  "audience": "Business hypothesis: commercial outsourced-production Fabless FDI entity with Operations/SCM influencing business-system decisions. No live audience configuration, account eligibility, local buying authority or group ERP autonomy established.",
+  "binding": {
+    "manifest": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/manifest.json",
+      "sha256": "dd186684ce19caf3492aedd1104ecf86d41b30a7b4006f78fcdabaf3c60f579c",
+      "revision": "b15-review-manifest-v2"
+    },
+    "copy": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/selected-copy.json",
+      "sha256": "a18dd9249d6893c298d6ced14fa76b7700e6e75b3b073a88a7e5669c9cffe5ea",
+      "revision": "b15-review-copy-zh-Hant-v2"
+    },
+    "prompts": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/selected-prompts.json",
+      "sha256": "839ae9ed0e27ae9fd4d0bf60b0e49e319fe929e191be8024469892d436ed441a",
+      "revision": "b15-review-prompts-v2"
+    },
+    "reader": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/case-reader.html",
+      "sha256": "cc5497e1bebaadb6cfcf18a0e62f05a1c355307c972ae73dcc3c4f24898391a8",
+      "revision": "actual-byte-artifact-2026-10-07"
+    },
+    "viewer": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/index.html",
+      "sha256": "34a8217fda9cf7729ce8a9867a500ead6e38669120b07ec8c7e85da871b9300c",
+      "revision": "actual-byte-artifact-2026-10-07"
+    },
+    "attempts": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/attempt-ledger.json",
+      "sha256": "b413fbb1612a17b3e8995686fc41d8c9d0da677edd8e57f748b6282f514eb22f",
+      "revision": "b15-attempt-ledger-v1"
+    },
+    "semantic_review": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/semantic-review.json",
+      "sha256": "519ccc633d2f948c9ad7ded142518345a76fcc63cb8e2180fc86ef288b30f0d5",
+      "revision": "b15-zh-hant-actual-root-script-review-v2-visual-refs"
+    },
+    "proof_map": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/proof-source-mapping.json",
+      "sha256": "9529a5c18511401586b7d154c58548db9bf8bd4688db2e28967ae0d6540a0773",
+      "revision": "b15-proof-map-v1"
+    },
+    "vietnam_team_source": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/vietnam-team-source.json",
+      "sha256": "fd520de3bc790ce44e4e2a558e5475d7618c617a7f9fa252791e8473e65806b8",
+      "revision": "b15-vietnam-team-source-v1"
+    },
+    "evidence": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-01.jpg",
+        "sha256": "b507ebc3099ee2289550111ba0c3751ca8768f10c27120941582beaa4105b49e",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-02.jpg",
+        "sha256": "efb9ccd5f118bc38847ebf07e93f50e2017f2f96d7cb098213a539f268dc03cb",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-03.jpg",
+        "sha256": "eb8267bbfd8d1dc2cf882053fd62ec4a228402954803f935c99b86494feefea1",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-04.jpg",
+        "sha256": "b8a1de6389882c8db59cff2c5475fdf536018c7ad730bdb73eabe521384a2147",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-05.jpg",
+        "sha256": "37d7917d221ed5f73dec8849440f3a11111c3393c86caebc6c7c7af35e08de1a",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-06.jpg",
+        "sha256": "a25887f3e1cc5c4db5e470a14f4d945ad8c43ab22d1d848402199496dfae8118",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-07.jpg",
+        "sha256": "3273041e227374feffd45ebb48d8f0079b0122eab50fe59e6a89b6a4c1384688",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-08.jpg",
+        "sha256": "244adae4d3732af196232351ada04ae446976f1392564a35e78e0bc03092f682",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-09.jpg",
+        "sha256": "110004f7df48dc2c992590deb28ae9ecb976d66b63a619e3661c963c2dda4b0c",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-10.jpg",
+        "sha256": "9102c326745298baf7530d52328a34d936284396bb28add864084fdc517f0ae4",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-11.jpg",
+        "sha256": "bc26ffb9522973ef0f796a1266b9f7e812044f4af3d6fea8d7fb3874beb3a30e",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-01.jpg",
+        "sha256": "e793b7ee6c3f4108886ba8444d9ca4ac07110d76529744f993507b2a48d9f9c0",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-02.jpg",
+        "sha256": "275481e36a85ca5f5284b49e4f0bc96f4386bf8a95095b2beb368c1781dbc84c",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-03.jpg",
+        "sha256": "21f60cb98d94d16f17fa8b76254530af7d73071a2b68a5ef64f614420df16afc",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-04.jpg",
+        "sha256": "db1a59654262d4466046cff72846e4752ec17fd6ebd7a64591196f7e129617aa",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-05.jpg",
+        "sha256": "1839786f5ee6e7aedf6e5da4a66476b5ee19bb992df3d1cd496012672642e06b",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-06.jpg",
+        "sha256": "b8a5fa0c90f37a929d3852e6d13628e25621b59916597e4d8acb78c79ab78664",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-07.jpg",
+        "sha256": "797b6a54bc566aae81db92d1d5aab9a5c74c0821891966ffe51cd20273d51eeb",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-08.jpg",
+        "sha256": "20ad179f9e8b7d10341d6f4c79a90bd4a64b7fb996e5fcbf79d8363ea0cea82f",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-09.jpg",
+        "sha256": "584e4478af8339a45401f30c6e47266d40ee1de881a9da3d875eadd6c919626e",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-10.jpg",
+        "sha256": "fbf3be223ca18f3b359516558012325555d3d1127e5b6ef3bb6eab3854ba8259",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-11.jpg",
+        "sha256": "1194af7a793afb560874a0655a0705fc7886b163bad45aa5794ef92ef31ea656",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/full-render-measures.json",
+        "sha256": "47f6cddfcdfa1ec9b67f0d913329c0c6cf86b2ac772254ad72480921c2530e70",
+        "revision": "actual-byte-artifact-2026-10-07"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/mobile-context-01.jpg",
+        "sha256": "5eae559be97badc98d6f0ffba1cfeb8d490143ea50c804717feb7c6165889b0e",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 433,
+        "height": 937
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/mobile-context-02.jpg",
+        "sha256": "727907bcf6a9e54882b470a91753a15275ac4ca354556b40408ec573abf28ae4",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 414,
+        "height": 937
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/mobile-context-03.jpg",
+        "sha256": "6d651e48e34d99b6005eeea40aab68d949d4d769a313cbe957328b1c2fa451a1",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 414,
+        "height": 937
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/reader-desktop-top.jpg",
+        "sha256": "160cba3fe9c9335603dfc26673c6a7f946adda97cfff941de2ee34f991372210",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/reader-measure.json",
+        "sha256": "ac3446d267df2f5e0f3f09ebc59e6dca27508b29b7e9413d02c9ccafe51442dc",
+        "revision": "actual-byte-artifact-2026-10-07"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/v2-desktop-09.jpg",
+        "sha256": "8425221c725f0e1e884dc5bd534b6d2c1d214aeeb91a7d033a67700eea0d9727",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/v2-feed-09.jpg",
+        "sha256": "e52d07e01e18dd83f4d26332e46d6608f8c0cfde7409d0ea68dd8553b79b6268",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1706,
+        "height": 879
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/v2-final-render-measures.json",
+        "sha256": "9e930ae9edaf0a6de0cb9cdcbe34806ea7de95cd070dcf8438d6b55f8ceda40d",
+        "revision": "actual-byte-artifact-2026-10-07"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/v2-mobile-reader-context.jpg",
+        "sha256": "4f84a28c7faf4979b3985367f508f6752a739d942435d8c98148f1732bb28c80",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 414,
+        "height": 937
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/v2-mobile-reader-measure.json",
+        "sha256": "7cbef7b79899a650616f0e2ae448d4de5f8b04865e1ef3ba94fdc2ab27653357",
+        "revision": "actual-byte-artifact-2026-10-07"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/v2-mobile-team-context.jpg",
+        "sha256": "10a2b84bcbac46e4bdd126ee6d8a71849e3ce03adf73aea9d33c3fd34f9deccf",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 414,
+        "height": 937
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/v2-mobile-team-measure.json",
+        "sha256": "63db04876ecd3c32a11dc368b56de67739e9b6c6f6f3e39af233be72f1e2207f",
+        "revision": "actual-byte-artifact-2026-10-07"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/v2-reader-desktop-top.jpg",
+        "sha256": "be82ca7e6f0dff8e684e70d5c36217f0827233a4a6c002d95a05e0a76843bcd2",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1706,
+        "height": 879
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/v2-reader-measure.json",
+        "sha256": "3073459bafee4485831922b4fedecef81bb4e582e2628a74c1d9f1af649e006f",
+        "revision": "actual-byte-artifact-2026-10-07"
+      }
+    ],
+    "fresh_dispatches": [
+      {
+        "call_id": "B15_F1_A6_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/f1-a6/dispatch/B15_F1_A6_V1-fresh-preflight.json",
+          "sha256": "dea2a81007e51772e10b0e48308ab7fc93f900fef71f047d3f8399073bed8334",
+          "revision": "B15_F1_A6_V1"
+        },
+        "release_sha256": "228ade3fd60ccbebfd46593a0d2bc3a489e20397ddb37928ea2bf245be658dc8",
+        "message_review_sha256": "0c372f84529565004d5b28501869c9202b4eb8ca53421c91b931b39b109e4600",
+        "prompt_sha256": "e598ea4d9e8a28811deb109d57d2643befaabdcdc01b6fc6b335ae2a7e037268"
+      },
+      {
+        "call_id": "B15_RMK_BRIGHT_3_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/rmk-bright-3/dispatch/B15_RMK_BRIGHT_3_V1-fresh-preflight.json",
+          "sha256": "b9a6cfbc3c6fabc81bea0e7676c25c2265658b74d8943ba967f8e8e425d90356",
+          "revision": "B15_RMK_BRIGHT_3_V1"
+        },
+        "release_sha256": "3f57742d32e6fb453ab53913c93517ba35f4e89d692122f1768f9de5a209fe2e",
+        "message_review_sha256": "648273d29653de802e77a8ccd269a8bb2ec54dadb3440beebc97739e8e9ec410",
+        "prompt_sha256": "678d0bbfa0ed8487d91c6ce325988930bec87f1ef535f645473666365e30a668"
+      },
+      {
+        "call_id": "B15_COLD_FABLESS_B15_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/cold-fabless-b15/dispatch/B15_COLD_FABLESS_B15_V1-fresh-preflight.json",
+          "sha256": "0a59c80df02600304d3ad179d6ab871da12b01928fa8e3bd556183106dceee35",
+          "revision": "B15_COLD_FABLESS_B15_V1"
+        },
+        "release_sha256": "b15ef68f72c48a5bc16340e42883df19791543fdca402141c5544ecdf49778bf",
+        "message_review_sha256": "1d4eff52f66e03814bb6ae5ad64e2fc7c27d9734789142c93e6f9c1fdd96312a",
+        "prompt_sha256": "c02043eab29cff8594101e4d6eff5df0b79e243c169a05482a4ffbc5ff5e110f"
+      },
+      {
+        "call_id": "B15_F1_A1_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/f1-a1/dispatch/B15_F1_A1_V1-fresh-preflight.json",
+          "sha256": "6ce6f7ba06d4c0698b39013193b9bec83f973761e46a54d4874461efd6e5601b",
+          "revision": "B15_F1_A1_V1"
+        },
+        "release_sha256": "dfc2c9d672524c203eaaaee86197f9cfe2400d5e4c9349dc54e6ed84036db680",
+        "message_review_sha256": "7deb1eeb311c31193664145675e4dedc35be6aa7969020b802d68f1eea3ff254",
+        "prompt_sha256": "d3e370b0639162b62dd2807a53f03ec23c3b294b664dd3d5a406b043ec20b9f6"
+      },
+      {
+        "call_id": "B15_F1_A2_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/f1-a2/dispatch/B15_F1_A2_V1-fresh-preflight.json",
+          "sha256": "0a57cfad34f4e93429baefe08ee159e9a16bfe18884ebef80952c6331dc9c665",
+          "revision": "B15_F1_A2_V1"
+        },
+        "release_sha256": "b0d8d6c3836f669b7f12ab7eeab47a3a543366872f0db75604d1da8dc352b1ae",
+        "message_review_sha256": "7ba84a44215b4f27f8eb6c97326665afa3ad7da4e39f6ad0987d16675a03b93f",
+        "prompt_sha256": "cbf535cc02e7252ed368d43c47dd5c1c6d7d7f087e39160f39c9e05a1ebc56d5"
+      },
+      {
+        "call_id": "B15_F1_A3_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/f1-a3/dispatch/B15_F1_A3_V1-fresh-preflight.json",
+          "sha256": "1e265bb267ee260482693d62971c821e049d7adc29472c3c62b3820020eacb1c",
+          "revision": "B15_F1_A3_V1"
+        },
+        "release_sha256": "caf830157a2c6444f3eefe751310c919a7b6ebdd663e218925f2ef9ad8e16a65",
+        "message_review_sha256": "87c2ec41b54ec57758989ba2a2cd44d21e3b0eafe0e1ebde9e239a6e8d578eb8",
+        "prompt_sha256": "352b1e181f186bd419003410c8c2c95674b461cabfefaf2b62305e7cd2904fb0"
+      },
+      {
+        "call_id": "B15_F1_A4_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/f1-a4/dispatch/B15_F1_A4_V1-fresh-preflight.json",
+          "sha256": "d6979008e47b05b4f891b7e2903e78359ad37c3df6cf380c1f58736accba9a6d",
+          "revision": "B15_F1_A4_V1"
+        },
+        "release_sha256": "aba07a6239d410992269d22c7ab8206940c4df6732e4da494b50023e18bbdb5b",
+        "message_review_sha256": "f987f49fe458bf36be9d00769876c160d90bac89eb94634ea267e53c7c1ec40d",
+        "prompt_sha256": "e7387c46687ca2f7d4be3fa20caf708bd4bf40dc590c72930d0ec340a991d1b2"
+      },
+      {
+        "call_id": "B15_F1_A5_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/f1-a5/dispatch/B15_F1_A5_V1-fresh-preflight.json",
+          "sha256": "ce6825193219a12261377ef63956331fc04f0ad2fc2c89df9ab1d4ae654c09f5",
+          "revision": "B15_F1_A5_V1"
+        },
+        "release_sha256": "d73433afbd980410b3a88db5a44c5d1b1e1cf0dfbcaa9f46d1779cc3e2b999a8",
+        "message_review_sha256": "7b6f0a1a9615c3dc1cedad3ada4e5a09c1bf557306828a877cf7f26be2632f20",
+        "prompt_sha256": "f21fe959e9fec9adcecd3594555c0698a57200074c9eda61a3a7c56484cdb83e"
+      },
+      {
+        "call_id": "B15_RMK_BRIGHT_1_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/rmk-bright-1/dispatch/B15_RMK_BRIGHT_1_V1-fresh-preflight.json",
+          "sha256": "87de03af7070c9e64a6f669b480947097e80a6d4e23e8634496d56a6943cd23c",
+          "revision": "B15_RMK_BRIGHT_1_V1"
+        },
+        "release_sha256": "50290db47b7528284822a5cae8caf23a834237b92cff4550d57fa80070340090",
+        "message_review_sha256": "fd32c157b4b87e27122add3df5bc3c5b0a6284ede630f7e87365d9aa96c01e88",
+        "prompt_sha256": "10d8166479500305c8d62a8a68a65297c7392cc8058171a0ce26b5005d8c6b6c"
+      },
+      {
+        "call_id": "B15_RMK_BRIGHT_2_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/rmk-bright-2/dispatch/B15_RMK_BRIGHT_2_V1-fresh-preflight.json",
+          "sha256": "b702b5fd963ac6124738da0694f8561b08743fe67adc3c4d1489be2114a4f8e2",
+          "revision": "B15_RMK_BRIGHT_2_V1"
+        },
+        "release_sha256": "c029feff8d8f09bff313ecdd1d3c707f5c47f8d1262a1b4cf064490fc3cb7ee5",
+        "message_review_sha256": "14cd03354e857d50cef7de49a04a47417a793d638cff878b9bc10e3605568c91",
+        "prompt_sha256": "bbba5475bd602c0b686d2bfc75661221f9e2238ba7be4963fbc32492a6b996a7"
+      },
+      {
+        "call_id": "B15_RMK_BRIGHT_4_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/rmk-bright-4/dispatch/B15_RMK_BRIGHT_4_V1-fresh-preflight.json",
+          "sha256": "a1899b353d604446433929fc3e5381a75b0b67f00b8e7f175859b2af147cf2b2",
+          "revision": "B15_RMK_BRIGHT_4_V1"
+        },
+        "release_sha256": "5e97beeae19efb5a77ef5c0bac9c3677c3c68c353b4405f21ea1ea43ca5f5f59",
+        "message_review_sha256": "01770eda7c0569a3aba108952b6601903c1e12ff7ac07be88cac1e7ce3473c49",
+        "prompt_sha256": "3ca28ef57b837f84d1e5b6870cb2feca4e42c14a855661788e945d5fcb2e1d6e"
+      },
+      {
+        "call_id": "B15_RMK_BRIGHT_2_C1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v1/rmk-bright-2/dispatch/B15_RMK_BRIGHT_2_C1-fresh-preflight.json",
+          "sha256": "866d8c85cd5bf9e0dbe7fb0eb826e19fb4e18b03fe5521de6f14a9268c39f38f",
+          "revision": "B15_RMK_BRIGHT_2_C1"
+        },
+        "release_sha256": "5c646dc3edfaf769bcbf162cf68f36217c82a3fbc6d3159a8ac7145cace51e09",
+        "message_review_sha256": "533c8671d4d2097d2fe8b09c2851cf8fb96767b8b658145ca9144a5d81430814",
+        "prompt_sha256": "852ac1f9c2a0a601650ccaeefe971f1e72caa06e91613f042195d6e41df8fe85"
+      }
+    ]
+  },
+  "anchor_rules": [
+    {
+      "rule": "A1",
+      "actual_observation": "Same eligible commercial chip-design/outsourced-production audience hypothesis as v5. Narrow reporting/handoff issue within semiconductor supply chain, not every IC design office or arbitrary manufacturer.",
+      "actual_binding": "Per-card exact-field/native/feed/main observations and reader below; localized artwork reconciled against these semantic criteria.",
+      "scope": "PASS_SELF_REVIEW_ACTUAL_NATIVE_FEED_MAIN_READER_DESKTOP; FULL_MOBILE_INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "rule": "A2",
+      "actual_observation": "Operations/SCM influence and local system authority remain hypotheses; existing group systems/process improvements may be sufficient. China case is not evidence of a Vietnam FDI target's independent purchasing authority.",
+      "actual_binding": "Per-card exact-field/native/feed/main observations and reader below; localized artwork reconciled against these semantic criteria.",
+      "scope": "PASS_SELF_REVIEW_ACTUAL_NATIVE_FEED_MAIN_READER_DESKTOP; FULL_MOBILE_INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "rule": "A3",
+      "actual_observation": "FDI zh-Hant Taiwan domain voice authored separately:回報/製程階段/紀錄/權責/時程/數位/整合式/顧問導入/專案. Fabless(無晶圓廠IC設計模式) is exact profile definition, with IC 指積體電路 in caption. ERP(企業資源規劃) defined per ad, MES(製造執行系統) in A5 source. Exact Simplified legal name is intentional source preservation, disclosed in reader; no other script mixing authorized.",
+      "actual_binding": "Per-card exact-field/native/feed/main observations and reader below; localized artwork reconciled against these semantic criteria.",
+      "scope": "PASS_SELF_REVIEW_ACTUAL_NATIVE_FEED_MAIN_READER_DESKTOP; FULL_MOBILE_INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "rule": "A4",
+      "actual_observation": "V5 implicit business value retained: a shared decision basis and accountable updates. No financial ROI%, payback, yield/cost result, automatic integration, technical test execution or forecast claim.",
+      "actual_binding": "Per-card exact-field/native/feed/main observations and reader below; localized artwork reconciled against these semantic criteria.",
+      "scope": "PASS_SELF_REVIEW_ACTUAL_NATIVE_FEED_MAIN_READER_DESKTOP; FULL_MOBILE_INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "rule": "A5",
+      "actual_observation": "N/A: FDI route; no domestic preparation/entry promise, audit pass, qualification or orders implication.",
+      "actual_binding": "Per-card exact-field/native/feed/main observations and reader below; localized artwork reconciled against these semantic criteria.",
+      "scope": "PASS_SELF_REVIEW_ACTUAL_NATIVE_FEED_MAIN_READER_DESKTOP; FULL_MOBILE_INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "rule": "A6",
+      "actual_observation": "Concrete lot/product references, production-period/test classifications, stage/time/report-source and update ownership. Taiwan terms remain process questions/conventions. ERP business management and MES production context separately attributed; no claim Vietnam ERP alone provides all semiconductor mechanisms.",
+      "actual_binding": "Per-card exact-field/native/feed/main observations and reader below; localized artwork reconciled against these semantic criteria.",
+      "scope": "PASS_SELF_REVIEW_ACTUAL_NATIVE_FEED_MAIN_READER_DESKTOP; FULL_MOBILE_INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "rule": "A7",
+      "actual_observation": "Same Operations/SCM through next decision -> report/lot/stage/time ->權責 -> shared decision -> prospective Vietnam team -> provider role -> China chip-design identity -> qualitative outsourcing challenge -> China reader. No association of China customer's implementation with local team or proof of the exact F1 mechanism.",
+      "actual_binding": "Per-card exact-field/native/feed/main observations and reader below; localized artwork reconciled against these semantic criteria.",
+      "scope": "PASS_SELF_REVIEW_ACTUAL_NATIVE_FEED_MAIN_READER_DESKTOP; FULL_MOBILE_INSUFFICIENT_EVIDENCE"
+    }
+  ],
+  "unit_reviews": [
+    {
+      "card_id": "COLD-FABLESS-B15",
+      "position": 1,
+      "exact_approved_fields": {
+        "headline": "委外生產，下一步如何判斷？",
+        "body": "交接前，先核對批次、製程階段與回報時間。",
+        "source_text": "",
+        "cta": "",
+        "artwork_labels": [
+          "晶片委外營運",
+          "製造業 ERP"
+        ],
+        "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。採用委外生產的晶片設計營運團隊：下一步決策前，先核對合作夥伴的回報。",
+        "native_headline": "委外生產，下一步如何判斷？",
+        "alt": "示意圖：委外生產，下一步如何判斷？"
+      },
+      "native": {
+        "card_id": "COLD-FABLESS-B15",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/assets/01-cold-fabless-b15.png",
+        "sha256": "a925f74547515913bbef9fb3738485cfc0436ae4e8d57ad2c0f701b8984777f3",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/cold-fabless-b15/native/cold-fabless-b15-zh-Hant-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact Hant cold next-decision headline and handoff lot/process-stage/report-time body; both supplied functional labels present, no sequence/CTA. Official mark once, blank folios and paper, chip trays/open paths; no owned factory, record values or outcome. Native PASS; render pending.",
+      "message_observation": "Outsourced chip-production next-decision hook. Lot/stage/report-time body is a preparation question, not owned-factory status or promised system behavior. Cold has two functional labels and no carousel counter or CTA.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。採用委外生產的晶片設計營運團隊：下一步決策前，先核對合作夥伴的回報。",
+            "counter": "1 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 602.6111145019531,
+                "height": 333,
+                "left": 402.22222900390625,
+                "right": 735.2222290039062,
+                "top": 269.6111145019531,
+                "width": 333,
+                "x": 402.22222900390625,
+                "y": 269.6111145019531
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/01-cold-fabless-b15.png",
+              "width": 333
+            },
+            "native": "委外生產，下一步如何判斷？",
+            "overflow": false,
+            "scrollY": 0,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 1,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-01.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-01.jpg",
+            "sha256": "e793b7ee6c3f4108886ba8444d9ca4ac07110d76529744f993507b2a48d9f9c0",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。採用委外生產的晶片設計營運團隊：下一步決策前，先核對合作夥伴的回報。",
+            "counter": "1 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/01-cold-fabless-b15.png",
+              "width": 640
+            },
+            "native": "委外生產，下一步如何判斷？",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 1,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-01.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-01.jpg",
+            "sha256": "b507ebc3099ee2289550111ba0c3751ca8768f10c27120941582beaa4105b49e",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified. Original mobile-context pixels observed; associated390CSS DOM/raster mapping unverified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "F1-A1",
+      "position": 2,
+      "exact_approved_fields": {
+        "headline": "合作夥伴回報，批次狀況清楚嗎？",
+        "body": "規劃下一步前，先確認各份合作夥伴回報涵蓋哪個製程階段。",
+        "source_text": "",
+        "cta": "",
+        "artwork_labels": [
+          "ERP · 晶片營運",
+          "1/6"
+        ],
+        "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+        "native_headline": "合作夥伴回報，批次狀況清楚嗎？",
+        "alt": "示意圖：合作夥伴回報，批次狀況清楚嗎？"
+      },
+      "native": {
+        "card_id": "F1-A1",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/assets/02-f1-a1.png",
+        "sha256": "10327a5433873c9ba2622c726e5ee60b1eb761557a5fe66de743a6cc18dfddc4",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/f1-a1/native/f1-a1-zh-Hant-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact Hant partner-report coverage question and process-stage body, 1/6/category, official logo once, blank reports with physical wafer protective carrier. No real record/production state. Native text/anchor correct; single-line body needs actual333 feed readability review, not certified from native. Render pending.",
+      "message_observation": "Partner-report/lot clarity before next planning step. Exact process-stage question, explanatory category and 1/6. No assertion that a customer has incorrect reports.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+            "counter": "2 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 602.6111145019531,
+                "height": 333,
+                "left": 402.22222900390625,
+                "right": 735.2222290039062,
+                "top": 269.6111145019531,
+                "width": 333,
+                "x": 402.22222900390625,
+                "y": 269.6111145019531
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/02-f1-a1.png",
+              "width": 333
+            },
+            "native": "合作夥伴回報，批次狀況清楚嗎？",
+            "overflow": false,
+            "scrollY": 0,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 2,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-02.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-02.jpg",
+            "sha256": "275481e36a85ca5f5284b49e4f0bc96f4386bf8a95095b2beb368c1781dbc84c",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+            "counter": "2 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/02-f1-a1.png",
+              "width": 640
+            },
+            "native": "合作夥伴回報，批次狀況清楚嗎？",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 2,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-02.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-02.jpg",
+            "sha256": "efb9ccd5f118bc38847ebf07e93f50e2017f2f96d7cb098213a539f268dc03cb",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified. Original mobile-context pixels observed; associated390CSS DOM/raster mapping unverified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "F1-A2",
+      "position": 3,
+      "exact_approved_fields": {
+        "headline": "先從產品與批次核對。",
+        "body": "核對產品與批次識別，並約定各合作夥伴如何標示生產期間與測試分類。",
+        "source_text": "",
+        "cta": "",
+        "artwork_labels": [
+          "ERP · 晶片營運",
+          "2/6"
+        ],
+        "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+        "native_headline": "先從產品與批次核對。",
+        "alt": "示意圖：先從產品與批次核對。"
+      },
+      "native": {
+        "card_id": "F1-A2",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/assets/03-f1-a2.png",
+        "sha256": "ce540e9cb594c1733622a3892cd63a3c1ed394ce77c0e73b96293f1f657d5ed8",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/f1-a2/native/f1-a2-zh-Hant-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact Hant product/lot identifiers and partner production-period/test-classification conventions; category and 2/6 correct, logo once, blank clipped reports and neutral chip sample. No numeric identifiers, period algorithm or test results. Native PASS; render pending.",
+      "message_observation": "Product/lot references and agreed production-period/test classifications. Exact category and 2/6. No invented identifier, test result or record values.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+            "counter": "3 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 602.6111145019531,
+                "height": 333,
+                "left": 402.22222900390625,
+                "right": 735.2222290039062,
+                "top": 269.6111145019531,
+                "width": 333,
+                "x": 402.22222900390625,
+                "y": 269.6111145019531
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/03-f1-a2.png",
+              "width": 333
+            },
+            "native": "先從產品與批次核對。",
+            "overflow": false,
+            "scrollY": 0,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 3,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-03.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-03.jpg",
+            "sha256": "21f60cb98d94d16f17fa8b76254530af7d73071a2b68a5ef64f614420df16afc",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+            "counter": "3 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/03-f1-a2.png",
+              "width": 640
+            },
+            "native": "先從產品與批次核對。",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 3,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-03.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-03.jpg",
+            "sha256": "eb8267bbfd8d1dc2cf882053fd62ec4a228402954803f935c99b86494feefea1",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified. Original mobile-context pixels observed; associated390CSS DOM/raster mapping unverified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "F1-A3",
+      "position": 4,
+      "exact_approved_fields": {
+        "headline": "這份回報對應哪個製程階段？",
+        "body": "確認製程階段、狀態紀錄時間，以及作為依據的合作夥伴回報。",
+        "source_text": "",
+        "cta": "",
+        "artwork_labels": [
+          "ERP · 晶片營運",
+          "3/6"
+        ],
+        "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+        "native_headline": "這份回報對應哪個製程階段？",
+        "alt": "示意圖：這份回報對應哪個製程階段？"
+      },
+      "native": {
+        "card_id": "F1-A3",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/assets/04-f1-a3.png",
+        "sha256": "31489535128325ce6961dde8bca4fdd5839ad28217f3a7f727712218aa663620",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/f1-a3/native/f1-a3-zh-Hant-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact Hant report/process-stage question and recorded-time/evidence-report body; 3/6 and category correct, official logo once, blank reports and physical wafer protective carrier. No confirmed stage/status/result data; same open operational question. Native PASS; render pending.",
+      "message_observation": "Stage, recorded-time and partner-report source are separate reconciliation objects. Exact category and 3/6. Scene does not assert a completed workflow.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+            "counter": "4 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 602.6111145019531,
+                "height": 333,
+                "left": 402.22222900390625,
+                "right": 735.2222290039062,
+                "top": 269.6111145019531,
+                "width": 333,
+                "x": 402.22222900390625,
+                "y": 269.6111145019531
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/04-f1-a3.png",
+              "width": 333
+            },
+            "native": "這份回報對應哪個製程階段？",
+            "overflow": false,
+            "scrollY": 0,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 4,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-04.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-04.jpg",
+            "sha256": "db1a59654262d4466046cff72846e4752ec17fd6ebd7a64591196f7e129617aa",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+            "counter": "4 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/04-f1-a3.png",
+              "width": 640
+            },
+            "native": "這份回報對應哪個製程階段？",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 4,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-04.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-04.jpg",
+            "sha256": "b8a1de6389882c8db59cff2c5475fdf536018c7ad730bdb73eabe521384a2147",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "F1-A4",
+      "position": 5,
+      "exact_approved_fields": {
+        "headline": "共同資訊由誰維護？",
+        "body": "約定回報格式、交換時程，以及負責確認每次生產更新的人員。",
+        "source_text": "",
+        "cta": "",
+        "artwork_labels": [
+          "ERP · 晶片營運",
+          "4/6"
+        ],
+        "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+        "native_headline": "共同資訊由誰維護？",
+        "alt": "示意圖：共同資訊由誰維護？"
+      },
+      "native": {
+        "card_id": "F1-A4",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/assets/05-f1-a4.png",
+        "sha256": "b5cdf0fd271818295a84702e9da54e0fdca17d7ac87dbb19ec78b0659f8a06fa",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/f1-a4/native/f1-a4-zh-Hant-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact Hant shared-information maintenance question and report format/exchange-schedule/confirming-person body, 4/6/category, logo once. Blank reports, neutral owner token and chip tray; no process completion or automation claim. Native PASS; render pending.",
+      "message_observation": "Report format, exchange timing and update-confirmation owner. Exact category and 4/6. No automatic connector or synchronization capability promise.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+            "counter": "5 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 602.6111145019531,
+                "height": 333,
+                "left": 402.22222900390625,
+                "right": 735.2222290039062,
+                "top": 269.6111145019531,
+                "width": 333,
+                "x": 402.22222900390625,
+                "y": 269.6111145019531
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/05-f1-a4.png",
+              "width": 333
+            },
+            "native": "共同資訊由誰維護？",
+            "overflow": false,
+            "scrollY": 0,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 5,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-05.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-05.jpg",
+            "sha256": "1839786f5ee6e7aedf6e5da4a66476b5ee19bb992df3d1cd496012672642e06b",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+            "counter": "5 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/05-f1-a4.png",
+              "width": 640
+            },
+            "native": "共同資訊由誰維護？",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 5,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-05.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-05.jpg",
+            "sha256": "37d7917d221ed5f73dec8849440f3a11111c3393c86caebc6c7c7af35e08de1a",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "F1-A5",
+      "position": 6,
+      "exact_approved_fields": {
+        "headline": "讓下一步決策有共同依據。",
+        "body": "把批次、製程階段、回報時間與更新權責放進同一次討論。",
+        "source_text": "Digiwin 台灣半導體方案資料：\nERP 經營管理與 MES(製造執行系統) 生產製造。",
+        "cta": "探討委外生產管理問題",
+        "artwork_labels": [
+          "ERP · 晶片營運",
+          "5/6"
+        ],
+        "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+        "native_headline": "讓下一步決策有共同依據。",
+        "alt": "示意圖：讓下一步決策有共同依據。"
+      },
+      "native": {
+        "card_id": "F1-A5",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/assets/06-f1-a5.png",
+        "sha256": "3ac2d6262ca4b43fae5d41de4916d17a48f230ba0ab66e642231065ad17bc696",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/f1-a5/native/f1-a5-zh-Hant-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact Hant shared-decision/lot/process-stage/report-time/update-authority text, Taiwan ERP/MES source definition, CTA, 5/6/category and one logo. B14 blank-paper style reference worked: left and foreground papers blank, no Hans wording inherited. No automatic semiconductor feature/result. Native correct; actual333 single-line body readability pending.",
+      "message_observation": "Shared basis for next decision connects lot/stage/report-time/update responsibility. Exact 5/6 and discussion CTA. Taiwan ERP business-management and separately defined MES production context appear as full source paragraph on white, not ERP-only execution/outcome proof.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+            "counter": "6 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 602.6111145019531,
+                "height": 333,
+                "left": 402.22222900390625,
+                "right": 735.2222290039062,
+                "top": 269.6111145019531,
+                "width": 333,
+                "x": 402.22222900390625,
+                "y": 269.6111145019531
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/06-f1-a5.png",
+              "width": 333
+            },
+            "native": "讓下一步決策有共同依據。",
+            "overflow": false,
+            "scrollY": 0,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 6,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-06.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-06.jpg",
+            "sha256": "b8a5fa0c90f37a929d3852e6d13628e25621b59916597e4d8acb78c79ab78664",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+            "counter": "6 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/06-f1-a5.png",
+              "width": 640
+            },
+            "native": "讓下一步決策有共同依據。",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 6,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-06.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-06.jpg",
+            "sha256": "a25887f3e1cc5c4db5e470a14f4d945ad8c43ab22d1d848402199496dfae8118",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "F1-A6",
+      "position": 7,
+      "exact_approved_fields": {
+        "headline": "越南在地顧問與導入服務",
+        "body": "與我們在越南的團隊討論 ERP 顧問與導入服務。從回報流程、更新權責與專案優先順序開始。",
+        "source_text": "Digiwin 越南 · ERP 顧問與導入",
+        "cta": "",
+        "artwork_labels": [
+          "ERP · 晶片營運",
+          "6/6"
+        ],
+        "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+        "native_headline": "越南在地顧問與導入服務",
+        "alt": "示意圖：越南在地顧問與導入服務"
+      },
+      "native": {
+        "card_id": "F1-A6",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/assets/07-f1-a6.png",
+        "sha256": "6e525120e83ff0ed1dd367628580163a2a214ac55f9c2d2e0c9fb182e81d2816",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/f1-a6/native/f1-a6-zh-Hant-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact Hant Vietnam local consulting/implementation headline and reporting-workflow/update-responsibility/project-priority body; full ERP consulting/implementation source, 6/6 and category; one official logo. Blank papers and abstract team/chip/gear tokens, no invented staff/facility/customer results. Native PASS; browser rendered canary pending shared lock.",
+      "message_observation": "Vietnam consulting/implementation team nuance. First-person invitation to discuss report workflows, update ownership and project priorities. Exact 6/6 and Vietnam ERP service attribution. No headcount, teamwide-language promise, delivery guarantee or local Fabless result.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+            "counter": "7 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 602.6111145019531,
+                "height": 333,
+                "left": 402.22222900390625,
+                "right": 735.2222290039062,
+                "top": 269.6111145019531,
+                "width": 333,
+                "x": 402.22222900390625,
+                "y": 269.6111145019531
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/07-f1-a6.png",
+              "width": 333
+            },
+            "native": "越南在地顧問與導入服務",
+            "overflow": false,
+            "scrollY": 0,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 7,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-07.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-07.jpg",
+            "sha256": "797b6a54bc566aae81db92d1d5aab9a5c74c0821891966ffe51cd20273d51eeb",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+            "counter": "7 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/07-f1-a6.png",
+              "width": 640
+            },
+            "native": "越南在地顧問與導入服務",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 7,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-07.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-07.jpg",
+            "sha256": "3273041e227374feffd45ebb48d8f0079b0122eab50fe59e6a89b6a4c1384688",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified. v2 mobile team context actually readable; DOM390x844/image315.56 loaded, raw414x937 mapping unverified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "RMK-BRIGHT-1",
+      "position": 8,
+      "exact_approved_fields": {
+        "headline": "製造業數位解決方案",
+        "body": "我們開發並提供製造業數位解決方案，從 ERP 到智慧製造。",
+        "source_text": "Digiwin 越南 · 公司介紹",
+        "cta": "",
+        "artwork_labels": [
+          "晶片設計案例",
+          "1/4"
+        ],
+        "caption": "我們提供製造業數位解決方案，涵蓋 ERP(企業資源規劃)。了解中國晶片設計企業案例中的委外管理挑戰。",
+        "native_headline": "製造業數位解決方案",
+        "alt": "示意圖：製造業數位解決方案"
+      },
+      "native": {
+        "card_id": "RMK-BRIGHT-1",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/assets/08-rmk-bright-1.png",
+        "sha256": "d19d2d052cbf321535f8cdd0f618d275a68781ccbcc543cc486bac85dc95bba7",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/rmk-bright-1/native/rmk-bright-1-zh-Hant-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact Hant provider introduction first-person manufacturing digital-solutions and ERP-to-smart-manufacturing body; company-introduction source, 1/4/category, one logo. Blank papers/chip trays; no fabricated metrics or China customer attribution. Native PASS; render pending.",
+      "message_observation": "Provider first-person introduction from ERP to smart manufacturing. Exact 1/4, company-introduction provenance. No customer testimonial, deployment count or geographic proof.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我們提供製造業數位解決方案，涵蓋 ERP(企業資源規劃)。了解中國晶片設計企業案例中的委外管理挑戰。",
+            "counter": "8 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 602.6111145019531,
+                "height": 333,
+                "left": 402.22222900390625,
+                "right": 735.2222290039062,
+                "top": 269.6111145019531,
+                "width": 333,
+                "x": 402.22222900390625,
+                "y": 269.6111145019531
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/08-rmk-bright-1.png",
+              "width": 333
+            },
+            "native": "製造業數位解決方案",
+            "overflow": false,
+            "scrollY": 0,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 8,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-08.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-08.jpg",
+            "sha256": "20ad179f9e8b7d10341d6f4c79a90bd4a64b7fb996e5fcbf79d8363ea0cea82f",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我們提供製造業數位解決方案，涵蓋 ERP(企業資源規劃)。了解中國晶片設計企業案例中的委外管理挑戰。",
+            "counter": "8 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/08-rmk-bright-1.png",
+              "width": 640
+            },
+            "native": "製造業數位解決方案",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 8,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-08.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-08.jpg",
+            "sha256": "244adae4d3732af196232351ada04ae446976f1392564a35e78e0bc03092f682",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "RMK-BRIGHT-2",
+      "position": 9,
+      "exact_approved_fields": {
+        "headline": "來自中國的晶片設計案例",
+        "body": "晶豐明源是中國的晶片設計企業。了解其數位解決方案導入背景。",
+        "source_text": "Digiwin 越南 · 半導體案例集\n上海晶丰明源半导体股份有限公司",
+        "cta": "",
+        "artwork_labels": [
+          "晶片設計案例",
+          "2/4"
+        ],
+        "caption": "我們提供製造業數位解決方案，涵蓋 ERP(企業資源規劃)。了解中國晶片設計企業案例中的委外管理挑戰。",
+        "native_headline": "來自中國的晶片設計案例",
+        "alt": "示意圖：來自中國的晶片設計案例"
+      },
+      "native": {
+        "card_id": "RMK-BRIGHT-2",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/assets/09-rmk-bright-2.png",
+        "sha256": "3030bb7fc685e1fef3377ecd50e93202d55da1d1956a556dbb5461a0df343e7d",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v1/rmk-bright-2/native/rmk-bright-2-zh-Hant-c1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Actual root native inspection: category restored to 晶片設計案例; exact headline, body, source publisher and legal name, 2/4, logo and blank paper preserved. No new finding. Full rendered review pending.",
+      "message_observation": "Explicit China chip-design case identity. Exact 2/4, publisher and complete source legal name. No customer logo/facility, Vietnam deployment or attribution to Vietnam team.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我們提供製造業數位解決方案，涵蓋 ERP(企業資源規劃)。了解中國晶片設計企業案例中的委外管理挑戰。",
+            "counter": "9 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "natural": [
+                1254,
+                1254
+              ],
+              "rect": {
+                "bottom": 602.6111145019531,
+                "left": 402.22222900390625,
+                "right": 735.2222290039062,
+                "top": 269.6111145019531
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/assets/09-rmk-bright-2.png",
+              "width": 333
+            },
+            "native": "來自中國的晶片設計案例",
+            "overflow": false,
+            "scrollY": 0,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/index.html",
+            "viewport": [
+              1707,
+              879
+            ],
+            "batch": "B15",
+            "card": 9,
+            "mode": "feed",
+            "review_version": "v2"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/v2-feed-09.jpg",
+            "sha256": "e52d07e01e18dd83f4d26332e46d6608f8c0cfde7409d0ea68dd8553b79b6268",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我們提供製造業數位解決方案，涵蓋 ERP(企業資源規劃)。了解中國晶片設計企業案例中的委外管理挑戰。",
+            "counter": "9 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "natural": [
+                1254,
+                1254
+              ],
+              "rect": {
+                "bottom": 759.3888931274414,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 119.3888931274414
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/assets/09-rmk-bright-2.png",
+              "width": 640
+            },
+            "native": "來自中國的晶片設計案例",
+            "overflow": false,
+            "scrollY": 150.22222900390625,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/index.html",
+            "viewport": [
+              1707,
+              879
+            ],
+            "batch": "B15",
+            "card": 9,
+            "mode": "desktop",
+            "review_version": "v2"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/v2-desktop-09.jpg",
+            "sha256": "8425221c725f0e1e884dc5bd534b6d2c1d214aeeb91a7d033a67700eea0d9727",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "RMK-BRIGHT-3",
+      "position": 10,
+      "exact_approved_fields": {
+        "headline": "從委外管理問題切入",
+        "body": "案例提出委外管理效率不足等挑戰，並介紹整合式數位解決方案。",
+        "source_text": "Digiwin 越南 · 中國案例04\n上海晶丰明源半导体股份有限公司",
+        "cta": "",
+        "artwork_labels": [
+          "晶片設計案例",
+          "3/4"
+        ],
+        "caption": "我們提供製造業數位解決方案，涵蓋 ERP(企業資源規劃)。了解中國晶片設計企業案例中的委外管理挑戰。",
+        "native_headline": "從委外管理問題切入",
+        "alt": "示意圖：從委外管理問題切入"
+      },
+      "native": {
+        "card_id": "RMK-BRIGHT-3",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/assets/10-rmk-bright-3.png",
+        "sha256": "0085537697c2cb887600bf2c6d2e47b194167c61261194afe8316e19e97d1e96",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/rmk-bright-3/native/rmk-bright-3-zh-Hant-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact Hant outsourcing challenge/integrated digital solution copy, category and 3/4; full Digiwin Vietnam China case04 source and exact Simplified legal name preserved intentionally. Large full-width white source, blank papers, one logo, no result/data/facility. Native PASS; browser rendered canary pending shared lock.",
+      "message_observation": "Qualitative outsourcing-management challenge and integrated digital solution. Exact 3/4, China case04 and complete legal name. No metrics, ERP-only causality or proof of the exact prospect reporting mechanism.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我們提供製造業數位解決方案，涵蓋 ERP(企業資源規劃)。了解中國晶片設計企業案例中的委外管理挑戰。",
+            "counter": "10 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 602.6111145019531,
+                "height": 333,
+                "left": 402.22222900390625,
+                "right": 735.2222290039062,
+                "top": 269.6111145019531,
+                "width": 333,
+                "x": 402.22222900390625,
+                "y": 269.6111145019531
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/10-rmk-bright-3.png",
+              "width": 333
+            },
+            "native": "從委外管理問題切入",
+            "overflow": false,
+            "scrollY": 0,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 10,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-10.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-10.jpg",
+            "sha256": "fbf3be223ca18f3b359516558012325555d3d1127e5b6ef3bb6eab3854ba8259",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我們提供製造業數位解決方案，涵蓋 ERP(企業資源規劃)。了解中國晶片設計企業案例中的委外管理挑戰。",
+            "counter": "10 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/10-rmk-bright-3.png",
+              "width": 640
+            },
+            "native": "從委外管理問題切入",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 10,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-10.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-10.jpg",
+            "sha256": "9102c326745298baf7530d52328a34d936284396bb28add864084fdc517f0ae4",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "RMK-BRIGHT-4",
+      "position": 11,
+      "exact_approved_fields": {
+        "headline": "閱讀晶片設計案例",
+        "body": "了解這份中國企業案例中的營運挑戰與整合式數位解決方案背景。",
+        "source_text": "Digiwin 越南 · digiwin.com.vn\n半導體案例04\n上海晶丰明源半导体股份有限公司",
+        "cta": "閱讀中國案例",
+        "artwork_labels": [
+          "晶片設計案例",
+          "4/4"
+        ],
+        "caption": "我們提供製造業數位解決方案，涵蓋 ERP(企業資源規劃)。了解中國晶片設計企業案例中的委外管理挑戰。",
+        "native_headline": "閱讀晶片設計案例",
+        "alt": "示意圖：閱讀晶片設計案例"
+      },
+      "native": {
+        "card_id": "RMK-BRIGHT-4",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v2/assets/11-rmk-bright-4.png",
+        "sha256": "c4cc8c953af17436f7d4106acfa6a0d41dfd730df92ba13ae442749e39ca1c6b",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/rmk-bright-4/native/rmk-bright-4-zh-Hant-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact Hant reading invitation and China business-challenge/integrated-solution scope; domain/case04/legal name source, CTA, 4/4/category and one logo. All papers blank, chip display folio illustrative. Source full-width plain white; no customer result/Vietnam implementation claim. Native PASS; render pending.",
+      "message_observation": "Source-reading next step, China integrated-solution context. Exact 4/4, complete publisher/domain/case04/legal name and reading CTA. Localized reader points to the same official original source; no new product/result scope.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我們提供製造業數位解決方案，涵蓋 ERP(企業資源規劃)。了解中國晶片設計企業案例中的委外管理挑戰。",
+            "counter": "11 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 602.6111145019531,
+                "height": 333,
+                "left": 402.22222900390625,
+                "right": 735.2222290039062,
+                "top": 269.6111145019531,
+                "width": 333,
+                "x": 402.22222900390625,
+                "y": 269.6111145019531
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/11-rmk-bright-4.png",
+              "width": 333
+            },
+            "native": "閱讀晶片設計案例",
+            "overflow": false,
+            "scrollY": 0,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 11,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-11.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/feed-11.jpg",
+            "sha256": "1194af7a793afb560874a0655a0705fc7886b163bad45aa5794ef92ef31ea656",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我們提供製造業數位解決方案，涵蓋 ERP(企業資源規劃)。了解中國晶片設計企業案例中的委外管理挑戰。",
+            "counter": "11 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/assets/11-rmk-bright-4.png",
+              "width": 640
+            },
+            "native": "閱讀晶片設計案例",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B15",
+            "card": 11,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-11.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/desktop-11.jpg",
+            "sha256": "bc26ffb9522973ef0f796a1266b9f7e812044f4af3d6fea8d7fb3874beb3a30e",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "B15v2 ten unchanged PNGs are exact same bytes as the actually reviewed zh-Hant v1 screenshots; fresh root selected-revision comparison performed. No inherited cross-locale PASS."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    }
+  ],
+  "transition_reviews": [
+    {
+      "from_card": "COLD-FABLESS-B15",
+      "to_card": "F1-A1",
+      "actual_observation": "Next-decision hook -> partner-report stage question for the same Operations/SCM role.",
+      "exact_headline_pair": [
+        "委外生產，下一步如何判斷？",
+        "合作夥伴回報，批次狀況清楚嗎？"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    },
+    {
+      "from_card": "F1-A1",
+      "to_card": "F1-A2",
+      "actual_observation": "Report clarification -> matching product/lot and partner conventions before comparison.",
+      "exact_headline_pair": [
+        "合作夥伴回報，批次狀況清楚嗎？",
+        "先從產品與批次核對。"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    },
+    {
+      "from_card": "F1-A2",
+      "to_card": "F1-A3",
+      "actual_observation": "Identifiers/conventions -> distinguish stage, recorded-time and report source.",
+      "exact_headline_pair": [
+        "先從產品與批次核對。",
+        "這份回報對應哪個製程階段？"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    },
+    {
+      "from_card": "F1-A3",
+      "to_card": "F1-A4",
+      "actual_observation": "Stage/time/source -> confirm responsibility for maintaining shared updates.",
+      "exact_headline_pair": [
+        "這份回報對應哪個製程階段？",
+        "共同資訊由誰維護？"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    },
+    {
+      "from_card": "F1-A4",
+      "to_card": "F1-A5",
+      "actual_observation": "Accountable updates -> common basis for the next decision; Taiwan source remains contextual.",
+      "exact_headline_pair": [
+        "共同資訊由誰維護？",
+        "讓下一步決策有共同依據。"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    },
+    {
+      "from_card": "F1-A5",
+      "to_card": "F1-A6",
+      "actual_observation": "Common decision basis -> prospective Vietnam ERP consulting/implementation discussion.",
+      "exact_headline_pair": [
+        "讓下一步決策有共同依據。",
+        "越南在地顧問與導入服務"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    },
+    {
+      "from_card": "F1-A6",
+      "to_card": "RMK-BRIGHT-1",
+      "actual_observation": "Local Vietnam service -> general supplier introduction; China customer not attributed to Vietnam team.",
+      "exact_headline_pair": [
+        "越南在地顧問與導入服務",
+        "製造業數位解決方案"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    },
+    {
+      "from_card": "RMK-BRIGHT-1",
+      "to_card": "RMK-BRIGHT-2",
+      "actual_observation": "Supplier role -> explicitly named China chip-design customer case.",
+      "exact_headline_pair": [
+        "製造業數位解決方案",
+        "來自中國的晶片設計案例"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    },
+    {
+      "from_card": "RMK-BRIGHT-2",
+      "to_card": "RMK-BRIGHT-3",
+      "actual_observation": "China identity -> qualitative outsourcing-management challenge and integrated-solution context.",
+      "exact_headline_pair": [
+        "來自中國的晶片設計案例",
+        "從委外管理問題切入"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    },
+    {
+      "from_card": "RMK-BRIGHT-3",
+      "to_card": "RMK-BRIGHT-4",
+      "actual_observation": "Qualitative China context -> reading CTA -> same localized China source reader.",
+      "exact_headline_pair": [
+        "從委外管理問題切入",
+        "閱讀晶片設計案例"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    }
+  ],
+  "reader": {
+    "actual_desktop": "Actual localized reader content and source disclosure observed in pixels; full substantive sections, official original link and return route verified. China company, qualitative outsourcing challenge and integrated-solution scope agree with selected proof cards.",
+    "desktop_measure": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/v2-reader-measure.json",
+      "sha256": "3073459bafee4485831922b4fedecef81bb4e582e2628a74c1d9f1af649e006f",
+      "revision": "actual-byte-artifact-2026-10-07"
+    },
+    "desktop_pixels": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/evidence/v2-reader-desktop-top.jpg",
+      "sha256": "be82ca7e6f0dff8e684e70d5c36217f0827233a4a6c002d95a05e0a76843bcd2",
+      "revision": "actual-byte-artifact-2026-10-07"
+    },
+    "return_route": "CLICKED_AND_OBSERVED_OWN_INDEX_URL",
+    "mobile": "B15v2 top/substantive context observed at DOM390x844/raw414x937, below-fold source disclosure/link not visually captured; exact mapping unverified. Full mobile reader INSUFFICIENT_EVIDENCE."
+  },
+  "proof_scope": "Official China case04 qualitative challenge/integrated-solution background, exact legal name. Vietnam team consulting/implementation is separately sourced prospective service discussion. No metrics, headcount, teamwide languages, customer testimonial/logo/facility, ERP-only causal result, exact F1 functionality proof or Vietnam Fabless deployment.",
+  "locale_review": "Taiwan business terms directly authored: 回報/製程/權責/顧問/導入/數位, ERP企業資源規劃 and MES製造執行系統; IC積體電路 explained in caption. Exact Simplified legal source name deliberately retained and disclosed in reader. Only legal-name exception; mistaken category glyphs corrected. No mechanical national-personality inference.",
+  "visual_review": "Bright neutral B13v5 campaign family, official mark once, grounded material depth. Approved source paragraphs full-width/high-contrast on white, at least body-sized where required. Selected paper blank; new outputs do not inherit B13 generic-rule-line preservation exception. No fabricated record values/charts/technical UI/customer geography decoration.",
+  "findings": [
+    {
+      "card_id": "RMK-BRIGHT-2",
+      "original_sha256": "8ee46ec1432b9d9833757dead7a448d05573a36ecdbb87a852bcb79443be308f",
+      "original_finding": "MIXED_SCRIPT_CATEGORY",
+      "original_verdict": "CHANGES_REQUIRED",
+      "disposition": "CLOSED_IN_SELECTED_NATIVE_FEED_MAIN_SELF_REVIEW",
+      "corrective_call": "B15_RMK_BRIGHT_2_C1",
+      "corrected_sha256": "3030bb7fc685e1fef3377ecd50e93202d55da1d1956a556dbb5461a0df343e7d",
+      "original_retained": true,
+      "scope": "Category 设计 -> 設計 only; legal source name remains exact"
+    }
+  ],
+  "unresolved_creative_findings": [],
+  "verdicts": {
+    "MSG_ANCHOR_01": "INSUFFICIENT_EVIDENCE_FULL_MOBILE_JOURNEY",
+    "AD_ED_01": "INSUFFICIENT_EVIDENCE_FULL_MOBILE_SET",
+    "observed_semantic_alignment": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN_DESKTOP_READER",
+    "whole_journey": "NOT_READY_NOT_ACCEPTED",
+    "independent_native_market": "NOT_RUN"
+  },
+  "technical": {
+    "feed": "All11 actual selected PNGs observed at333CSSpx with caption/native wording.",
+    "main": "All11 actual selected PNGs observed at640CSSpx with complete artwork; B15v2 new corrected card freshly captured, ten byte-identical source-localized PNGs rebound to prior actual v1 pixels.",
+    "mobile": "Partial context/DOM only. Full eleven-card plus reader mobile scope and CSS-to-raster precision remain insufficient. No generated artwork correction required solely for capture gap.",
+    "capture_limits": [
+      "B14 cold fullPage screenshot timed out; bounded viewport/#art auto-scroll gave main evidence.",
+      "B14 mobile team capture timed out after settled DOM.",
+      "B15 viewport reset left old tab at390CSS; three initial captures classified mobile-context, then fresh default tab supplied actual333/640 evidence.",
+      "B15v2 mobile raw capture414x937 differs from DOM390x844; mapping unverified. No exact390 pixel certification."
+    ],
+    "browser": "Own atomic browser-lock intervals only; Partner-owned lock respected; own tabs closed, viewport override reset, owned preview servers stopped and lock released."
+  },
+  "counts": {
+    "original": 11,
+    "corrective": 1,
+    "actual_calls": 12,
+    "selected": 11,
+    "cross_locale_png_reuse": 0,
+    "selected_native_dimensions": [
+      1254,
+      1254
+    ],
+    "transformations": 0,
+    "original_cap": 11,
+    "corrective_cap": 2,
+    "per_card_corrective_cap": 1
+  },
+  "freeze": "24/24 pinned bytes unchanged. Harness/guard/process FROZEN_PER_PO; locale adapter DEVELOPING/NOT_FROZEN.",
+  "docs_review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-B15-docs-reviewed.json",
+    "sha256": "8c6746e56fd485405a27dabbd5d26995ee02a27a0b1faf5bcca7a5070e281a60",
+    "revision": "b14-b15-current-canonical-review-v1"
+  },
+  "git": "B14/B15 working files only, uncommitted and unstaged in owned worktree. Previous B13 local checkpoint e3b6578 unchanged. No main integration/push/live.",
+  "stop": "B16-B21 NOT_RUN; end the authorized two-batch generation. Historical B13/canary/original findings retained."
+}

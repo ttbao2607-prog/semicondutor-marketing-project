@@ -1,0 +1,43 @@
+{
+  "observations": [
+    {
+      "height": 879,
+      "imageWidth": 638.2222290039062,
+      "loaded": true,
+      "mode": "desktop",
+      "overflow": false,
+      "source": "assets/09-rmk-bright-3.png",
+      "width": 1707
+    },
+    {
+      "height": 817,
+      "imageWidth": 331.22222900390625,
+      "loaded": true,
+      "mode": "feed-static",
+      "overflow": false,
+      "width": 1707
+    },
+    {
+      "height": 844,
+      "imageWidth": 331.22222900390625,
+      "loaded": true,
+      "mode": "mobile",
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "height": 817,
+      "imageWidth": 331.22222900390625,
+      "loaded": true,
+      "mode": "mobile-fresh-tab",
+      "overflow": false,
+      "width": 1707
+    }
+  ],
+  "native": "Source publisher/legal name larger than body, exact copy retained",
+  "feed": "Actual static audit screenshot331.2222px observed",
+  "desktop": "Mainviewer DOM638.2222px but screenshot timeout; no actual main640 visual PASS",
+  "mobile": "Measured390x844 DOM331.2222px; screenshot timeout5000ms. Fresh tab readback reverted1707x817. No mobile visual PASS.",
+  "cdp": "Permission denied by browser security policy; no raw CDP mutation performed; stopped route",
+  "cleanup": "Viewport reset; closing owned tab"
+}

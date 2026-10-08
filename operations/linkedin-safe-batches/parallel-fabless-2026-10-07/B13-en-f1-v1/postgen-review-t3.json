@@ -1,0 +1,261 @@
+{
+  "revision": "b13-postgen-t3-followup-v1",
+  "stage": "POSTGEN_ARTIFACT",
+  "status": "PARTIAL_HOLD_CHANGES_REQUIRED",
+  "reviewer": "/root current Fabless session",
+  "independence": "SELF_REVIEW",
+  "prior_review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/postgen-review.json",
+    "sha256": "db59ed17d1ef5c7aebe88f12be5dfb3d6164cc60ab875e657ecf7e4c5d78e97c",
+    "scope": "Original8 self-review history; not retrospectively upgraded"
+  },
+  "authorization": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/t3-authorization.json",
+    "sha256": "cad6aa8962981754d4d6823e1d97f1ec602e83ecf337e7f986b0364cfd6bd70a"
+  },
+  "anchor": {
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "original_email": {
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+    }
+  },
+  "scope": {
+    "segment": "FDI",
+    "locale": "en",
+    "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+    "route": "offline English cold -> F1 outsourced-lot reporting -> qualitative China Bright Power integrated-solution case -> English case reader",
+    "branch": "slice/linkedin-safe-fabless-parallel"
+  },
+  "A1_A7": {
+    "A1": "Chip-design entity with commercial outsourced production; narrowly relevant semiconductor chain operating situation. Not every design office or generic manufacturer, and not assumed Vietnam target-account fit.",
+    "A2": "Operations/SCM influences business-system evaluation at eligible entity; authority and existing group system remain unknown. No assertion a specific China customer or FDI Vietnam company can independently buy local ERP. Internal intake records hypotheses and process/existing-system alternatives.",
+    "A3": "FDI English commercial Fabless Operations/SCM; international English questions and accountable next steps, not VN supply-chain-entry promise. Fabless definition supplied in explanation caption; no WIP/OSAT acronym used without definition.",
+    "A4": "Implicit business value is a shared basis for the next production decision and accountable update ownership. Cold pain->report conventions->stage/time/source->ownership->next decision. No ROI%, yield, cost saving, forecast outcome or promised automatic synchronization.",
+    "A5": "N/A: FDI lane only, no domestic supplier-entry claim.",
+    "A6": "Concrete lot/product reference, production periods/test classifications, stage/time/report source and update owner. Questions/process conventions, not unverified product functionality. Taiwan source states ERP/MES context separately. Illustrative chip/wafer carrier is not a fabricated chip layout or owned fab.",
+    "A7": "Same Operations/SCM reader across cold->F1 reports->shared decision basis->digital provider->named China chip-design case->outsourcing-management pain/integrated solution->English reader/return. Bright qualitative outsourcing pain supplies a related business context, not evidence of the exact F1 lot-report mechanism or ERP-only causality. Nine adjacent transitions reviewed in order. CTA reads case, no form/live submission."
+  },
+  "proof_scope": "Narrow qualitative China outsourcing-management case bridge only. No claim exact F1 mechanism is documented, no ERP-only causality, Vietnam deployment, or numeric ROI/results.",
+  "binding": {
+    "manifest": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v2/manifest.json",
+      "sha256": "029ce0c6910fc4c1fa628f364ffde0524cedee62fc1b5524dbce4a3d6384c75a"
+    },
+    "copy": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v2/selected-copy.json",
+      "sha256": "93149644caa8dd523678c254f4b4102c394820e815be3fc053f87003232d9c39"
+    },
+    "viewer_sha256": "3313c0425ef952aca46a0fa6d45d9e9af71be3de525608e88cb8c18ae09b5f70",
+    "reader_sha256": "3fea87b86c26a74085172d358b95957e07bb7a6d8c435180f58828c4b322eac3",
+    "artwork": [
+      {
+        "card_id": "COLD-FABLESS-B13",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v2/assets/01-cold-fabless-b13.png",
+        "sha256": "b89e0ec2d9005d4c8b7b9efe439404869370547485f4ab4f1c45c20f537ea819",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/corrective-v1/cold-fabless-b13/native/cold-fabless-b13-b13-en-v1_corrective1.png",
+        "selected_corrective": true
+      },
+      {
+        "card_id": "F1-A1",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v2/assets/02-f1-a1.png",
+        "sha256": "c0b1c3b95c65ad77c6021ffe55b60253360c8507c48e1be6d6bf86323e3030cf",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v3/campaign/native/f1-a1-b13-en-v1.png",
+        "selected_corrective": false
+      },
+      {
+        "card_id": "F1-A2",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v2/assets/03-f1-a2.png",
+        "sha256": "90965f674a46dbdc920dfd9c8f3e8f36286ff05d8fc04a5cbcd7fb1263c7147c",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v3/campaign/native/f1-a2-b13-en-v1.png",
+        "selected_corrective": false
+      },
+      {
+        "card_id": "F1-A3",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v2/assets/04-f1-a3.png",
+        "sha256": "b0231ac6ef26c8d66601f25dc08951ee4996e99433d2c8a2163ea729f14f16d3",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v3/campaign/native/f1-a3-b13-en-v1.png",
+        "selected_corrective": false
+      },
+      {
+        "card_id": "F1-A4",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v2/assets/05-f1-a4.png",
+        "sha256": "c99fe5182e47c39070c6b97873b9b6a75145f794b82e4bc67d18b836c4ef218a",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v3/campaign/native/f1-a4-b13-en-v1.png",
+        "selected_corrective": false
+      },
+      {
+        "card_id": "F1-A5",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v2/assets/06-f1-a5.png",
+        "sha256": "3c37ec0aa75bb6d668516798d3274d885268707c8dd46a46da15bafc4eba13c0",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v2/closing/native/f1-a5-b13-en-v1.png",
+        "selected_corrective": false
+      },
+      {
+        "card_id": "RMK-BRIGHT-1",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v2/assets/07-rmk-bright-1.png",
+        "sha256": "07d462c49809ad50480cea660aaca802df9492290ec5aec5092c9e2796c6e61b",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/corrective-v1/rmk-bright-1/native/rmk-bright-1-b13-en-v1_corrective1.png",
+        "selected_corrective": true
+      },
+      {
+        "card_id": "RMK-BRIGHT-2",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v2/assets/08-rmk-bright-2.png",
+        "sha256": "34d81860021a6df4f955630407610cf22343c9e4ca64b5ee2fbe612e388fa345",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/corrective-v1/rmk-bright-2/native/rmk-bright-2-b13-en-v1_corrective1.png",
+        "selected_corrective": true
+      },
+      {
+        "card_id": "RMK-BRIGHT-3",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v2/assets/09-rmk-bright-3.png",
+        "sha256": "4a5ce0d800466d6af3febbee567eaa8a6b20f975c7f24e5be187c1ed2d3641b4",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/release-v3/campaign/native/rmk-bright-3-b13-en-v1.png",
+        "selected_corrective": false
+      }
+    ],
+    "attempt_ledger": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/attempt-ledger.json",
+      "sha256": "7dcd825939d65e6bbe8e9047193635fe915a15470c5dab4b2538a765669882cb"
+    },
+    "evidence": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/evidence-t3/fabless-t3-feed9.png",
+        "sha256": "32001287597faaddc494c8c1a8679bd2f6c9a1c999d0d3f2f8ef40fb1a2e87dc"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/evidence-t3/fabless-t3-readbacks.json",
+        "sha256": "9b006b1044164d097a92838ac8c4f88d23fc5301ca0d8097688e696ba350c1c1"
+      }
+    ]
+  },
+  "changed_units": [
+    {
+      "card_id": "RMK-BRIGHT-1",
+      "exact_source": "Digiwin Vietnam · Company introduction",
+      "native": "SOURCE_HIERARCHY_CLOSED",
+      "feed333": "ACTUAL_SOURCE_HIERARCHY_CLOSED: publisher larger than body; white safe band; exact copy retained",
+      "mobile": "INSUFFICIENT_EVIDENCE_CAPTURE_TIMEOUT",
+      "brand_role": "Official logo once; publisher source once, necessary provenance. No redundant brand header.",
+      "voice": "We develop and provide retained; direct We provide caption",
+      "meaning": "Same supplier role and qualitative bridge; no new result, metric, UI or documentary premise",
+      "closure": "Native/feed only; full desktop/mobile closure pending"
+    },
+    {
+      "card_id": "RMK-BRIGHT-3",
+      "exact_source": "Digiwin Vietnam · China case04 / 上海晶丰明源半导体股份有限公司",
+      "native": "CHANGES_REQUIRED_PUBLISHER_SMALLER_THAN_BODY",
+      "feed333": "ACTUAL_CHANGES_REQUIRED: publisher smaller than body; legal name present",
+      "mobile": "INSUFFICIENT_EVIDENCE_CAPTURE_TIMEOUT",
+      "brand_role": "Official logo once; publisher/locator once; full Chinese entity. No redundant brand header.",
+      "voice": "Case third-person customer; direct supplier caption; publisher attribution distinct",
+      "meaning": "Exact outsourcing-management challenge/integrated digital solution; no ERP-only causality. Blank illustrative records/open paths/neutral chips, no technical or quantified data/customer premise.",
+      "action": "Needs first corrective for this card, batch T4 beyond authorized T3. HOLD"
+    }
+  ],
+  "stable_units": "Other7 PNGs and copy match v1 byte. Actual full9 feed333 rechecked; prior native/mobile evidence remains revision-bound history, no fresh all9 mobile visual review.",
+  "transitions": [
+    {
+      "from_card": "COLD-FABLESS-B13",
+      "to_card": "F1-A1",
+      "script": "Same reviewed content/order",
+      "postgen": "SCOPED_NATIVE_FEED_MATCH_NO_FULL_RENDER_PASS"
+    },
+    {
+      "from_card": "F1-A1",
+      "to_card": "F1-A2",
+      "script": "Same reviewed content/order",
+      "postgen": "SCOPED_NATIVE_FEED_MATCH_NO_FULL_RENDER_PASS"
+    },
+    {
+      "from_card": "F1-A2",
+      "to_card": "F1-A3",
+      "script": "Same reviewed content/order",
+      "postgen": "SCOPED_NATIVE_FEED_MATCH_NO_FULL_RENDER_PASS"
+    },
+    {
+      "from_card": "F1-A3",
+      "to_card": "F1-A4",
+      "script": "Same reviewed content/order",
+      "postgen": "SCOPED_NATIVE_FEED_MATCH_NO_FULL_RENDER_PASS"
+    },
+    {
+      "from_card": "F1-A4",
+      "to_card": "F1-A5",
+      "script": "Same reviewed content/order",
+      "postgen": "SCOPED_NATIVE_FEED_MATCH_NO_FULL_RENDER_PASS"
+    },
+    {
+      "from_card": "F1-A5",
+      "to_card": "RMK-BRIGHT-1",
+      "script": "Same reviewed content/order",
+      "postgen": "SCOPED_NATIVE_FEED_MATCH_NO_FULL_RENDER_PASS"
+    },
+    {
+      "from_card": "RMK-BRIGHT-1",
+      "to_card": "RMK-BRIGHT-2",
+      "script": "Same reviewed content/order",
+      "postgen": "SCOPED_NATIVE_FEED_MATCH_NO_FULL_RENDER_PASS"
+    },
+    {
+      "from_card": "RMK-BRIGHT-2",
+      "to_card": "RMK-BRIGHT-3",
+      "script": "Same reviewed content/order",
+      "postgen": "SCOPED_NATIVE_FEED_MATCH_NO_FULL_RENDER_PASS"
+    },
+    {
+      "from_card": "RMK-BRIGHT-3",
+      "to_card": "RMK-BRIGHT-4",
+      "script": "Same reviewed content/order",
+      "postgen": "INSUFFICIENT_EVIDENCE_MISSING_ARTWORK"
+    }
+  ],
+  "rendered": {
+    "feed": "Actual all9 artwork + caption/native headline viewed at333CSSpx in compact fullpage screenshot, viewport1707x817, no overflow",
+    "mobile": "Actual390x844 DOM:9 loaded images at319.55557CSSpx, no overflow. Fullpage/focused viewport screenshot each timed out5000ms. DOM is not visual evidence or PASS.",
+    "main_desktop": "Updated card7/card9/card10 navigation observed DOM; T3 selected asset loaded. No new all9 main640 screenshot review.",
+    "reader": "Byte-identical to prior desktop/mobile-reviewed reader; no fresh browser reader PASS claimed"
+  },
+  "findings": [
+    {
+      "id": "B13-SOURCE-1",
+      "status": "CLOSED_NATIVE_FEED_ONLY_MOBILE_PENDING",
+      "card_id": "RMK-BRIGHT-1"
+    },
+    {
+      "id": "B13-SOURCE-3",
+      "status": "OPEN_CHANGES_REQUIRED",
+      "card_id": "RMK-BRIGHT-3",
+      "exact": "Digiwin Vietnam · China case04",
+      "effect": "Publisher smaller than body at native/feed333",
+      "needed": "Batch T4, not authorized by T3 exception"
+    }
+  ],
+  "verdicts": {
+    "MSG_ANCHOR_01": "INSUFFICIENT_EVIDENCE_WHOLE_JOURNEY",
+    "AD_ED_01": "CHANGES_REQUIRED_SOURCE_HIERARCHY_AND_INCOMPLETE_RENDER",
+    "whole_journey": "NOT_READY_NOT_ACCEPTED"
+  },
+  "counts": {
+    "original": 9,
+    "corrective": 3,
+    "total_actual_calls": 12,
+    "reused": 0,
+    "selected_artwork": 9,
+    "planned_units": 10
+  },
+  "not_generated": [
+    "RMK-BRIGHT-4"
+  ],
+  "stop": "T3 exception consumed; no T4/B14. Further source finding requires HOLD under plan.",
+  "cleanup": {
+    "viewport_reset": true,
+    "own_tab_closed": true,
+    "own_server_pid": 16732,
+    "own_server_stopped": true,
+    "own_atomic_browser_lock_released": true
+  },
+  "git": "Local working-tree files only; no stage/commit/main merge/push/live."
+}

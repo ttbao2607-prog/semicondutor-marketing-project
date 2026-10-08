@@ -1,0 +1,38 @@
+{
+  "revision": "b20-f2-corrective-plan-v1",
+  "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+  "route": "offline zh-Hans partner-handoff cold -> F3 lot/record/confirmation coordination -> Vietnam consulting/implementation -> qualitative China outsourcing case -> localized handoff-question reader",
+  "locale": "zh-Hans",
+  "calls": [
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/corrective-v1/f3-a5",
+      "card_id": "F3-A5",
+      "call_id": "B20_F3_A5_C1",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/corrective-v1/f3-a5/native/f3-a5-zh-Hans-c1.png",
+      "release_sha256": "47f0fb573ad29148c51d42d18588d51ae89d45aaa107a0c883d4e7bbd8d593ad",
+      "review_sha256": "08a7a97222a46f349562b39e5f23d7921cb2ec71ea21a07ad600ca6b9b65419d"
+    },
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/corrective-v2/f3-a5",
+      "card_id": "F3-A5",
+      "call_id": "B20_F3_A5_C2",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/corrective-v2/f3-a5/native/f3-a5-zh-Hans-c2.png",
+      "release_sha256": "aed6ca5a5f87346003c599567e57a9d94923cd681040d6b842e4b863929538f7",
+      "review_sha256": "1213256e1c030fc79f36275f744a04aeee9124598e9ae84c7547655a96be58cd"
+    }
+  ],
+  "corrective_cap": 2,
+  "per_card_corrective_cap": 1,
+  "po_source_exception": {
+    "card_id": "F3-A5",
+    "additional_correctives": 1,
+    "total_batch_cap": 3,
+    "per_card_cap": 2,
+    "authorization": "Cho thêm 1 lượt A5",
+    "review": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/actual-corrective-f3-a5-source-po-review.json",
+      "sha256": "41e4e2da84ba3ab9ddd7631fa45e4fec95b3420a9ce6d6cf65c49e2828994ea1",
+      "revision": "b20-f3-a5-source-regression-c2-actual-review"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "revision": "b19-cold-fabless-b19-script-v1",
+  "gate_id": "AD-ED-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "copy_sha256": "0f3c78d2b8330c14607753912aa88824bd9a408494c587c135719119f7fcbdec",
+  "reviewed_ads": [
+    "B19-COLD"
+  ],
+  "reviewed_fields": {
+    "B19-COLD": [
+      "caption",
+      "COLD-FABLESS-B19.headline",
+      "COLD-FABLESS-B19.body",
+      "COLD-FABLESS-B19.source_text",
+      "COLD-FABLESS-B19.cta",
+      "COLD-FABLESS-B19.native_headline",
+      "COLD-FABLESS-B19.alt",
+      "COLD-FABLESS-B19.artwork_labels"
+    ]
+  },
+  "BRAND_ROLE": {
+    "verdict": "PASS",
+    "observation": "Official supplied Digiwin mark once. Functional category/counters separate from publisher/customer/legal entity/source. No customer mark or facility authenticity implied."
+  },
+  "ADVERTISER_VOICE": {
+    "verdict": "PASS",
+    "observation": "We provide/We develop and provide/Work with our team; 我們提供/我們開發並提供/與我們在越南的團隊. No invented testimonial, third-party supplier praise or operational outcome guarantee."
+  },
+  "independence": "SELF_REVIEW",
+  "per_card_observations": [
+    {
+      "stage": "cold",
+      "card_id": "COLD-FABLESS-B19",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "COLD-FABLESS-B19",
+        "headline": "A lot changes partners. What goes with it?",
+        "body": "Before the handoff, clarify the lot, related records and who confirms the information.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "A lot changes partners. What goes with it?",
+        "alt": "Illustration: A lot changes partners. What goes with it?",
+        "artwork_labels": [
+          "Outsourced chip handoffs",
+          "Manufacturing ERP"
+        ]
+      },
+      "caption": "We provide manufacturing ERP (enterprise resource planning). Chip-design operations teams using outsourced production: when a lot changes partners, which records accompany it and who confirms the information?",
+      "scene": "Two neutral partner work areas, a sealed wafer protective carrier and wholly blank accompanying record sheets at a handoff point. No actual customer shipment or shipping status. Partner handoff coordination hook; blank paper only. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+      "observation": "Actual root authored/reviewed F3 scope: A lot changes partners. What goes with it?; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result.",
+      "source_scope": "Planning questions or separate local Vietnam consultation",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/assets/01-cold-fabless-b16.png",
+      "reused": false
+    }
+  ],
+  "reader_script": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/reader-script.json",
+    "sha256": "478f93c029920621e13b6df5529a6b060543dd1bad5fdd9f6215a0eac9fdeabc",
+    "revision": "b19-f3-reader-v1"
+  },
+  "actual_review_ref": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/semantic-review.json",
+    "sha256": "e34598120555ebc894121b132c27c39fb11d561e8388bf9b9fe36f9495240f70",
+    "revision": "b19-actual-root-script-review-v1"
+  },
+  "postgen": "POSTGEN_NOT_RUN"
+}

@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "revision": "b18-rmk-bright-2-actual-corrective-anchor-v1",
+  "gate_id": "MSG-ANCHOR-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "revision": "1.0"
+  },
+  "source": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "revision": "VY-MAIL-USER-20261006"
+  },
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/rmk-bright-2/contract.json",
+      "sha256": "301f348ad3a1a002ebd1e5b69460902d56c99c90751ab9b6335431ed17363889",
+      "revision": "b18-rmk-bright-2-corrective-contract-v1"
+    },
+    "copy": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/proof/public-copy.json",
+      "sha256": "0d4892aa755edf84de773d16a262f49896f65f6bfd2f348bb286bed25a92c3af",
+      "revision": "b18-f2-proof-copy-v1"
+    },
+    "spec": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/rmk-bright-2/spec.json",
+      "sha256": "bd4da65bee0ef7cf73cdf3b0130146725520b0ad8e9a75e4712571ae64c53ac4",
+      "revision": "b18-rmk-bright-2-corrective-spec-v1"
+    },
+    "script_review": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/rmk-bright-2/script-review.json",
+      "sha256": "60e69992e5fbc3f4e14fdfb29adbe2482e8b42f72752b5f11028e51f72bbf6a3",
+      "revision": "b18-rmk-bright-2-actual-corrective-script-v1"
+    }
+  },
+  "scope": {
+    "segment": "FDI",
+    "locale": "zh-Hant",
+    "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+    "route": "offline zh-Hant demand-change cold -> F2 planning reconciliation -> Vietnam consulting/implementation -> qualitative China outsourcing case -> localized planning-question reader"
+  },
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "coverage": {
+    "ads": [
+      "RMK-BRIGHT"
+    ],
+    "cards": [
+      "RMK-BRIGHT-1",
+      "RMK-BRIGHT-2",
+      "RMK-BRIGHT-3",
+      "RMK-BRIGHT-4"
+    ],
+    "fields": {
+      "RMK-BRIGHT": [
+        "caption",
+        "RMK-BRIGHT-1.headline",
+        "RMK-BRIGHT-1.body",
+        "RMK-BRIGHT-1.source_text",
+        "RMK-BRIGHT-1.cta",
+        "RMK-BRIGHT-1.native_headline",
+        "RMK-BRIGHT-1.alt",
+        "RMK-BRIGHT-1.artwork_labels",
+        "RMK-BRIGHT-2.headline",
+        "RMK-BRIGHT-2.body",
+        "RMK-BRIGHT-2.source_text",
+        "RMK-BRIGHT-2.cta",
+        "RMK-BRIGHT-2.native_headline",
+        "RMK-BRIGHT-2.alt",
+        "RMK-BRIGHT-2.artwork_labels",
+        "RMK-BRIGHT-3.headline",
+        "RMK-BRIGHT-3.body",
+        "RMK-BRIGHT-3.source_text",
+        "RMK-BRIGHT-3.cta",
+        "RMK-BRIGHT-3.native_headline",
+        "RMK-BRIGHT-3.alt",
+        "RMK-BRIGHT-3.artwork_labels",
+        "RMK-BRIGHT-4.headline",
+        "RMK-BRIGHT-4.body",
+        "RMK-BRIGHT-4.source_text",
+        "RMK-BRIGHT-4.cta",
+        "RMK-BRIGHT-4.native_headline",
+        "RMK-BRIGHT-4.alt",
+        "RMK-BRIGHT-4.artwork_labels"
+      ]
+    },
+    "storyboard_cards": [
+      "RMK-BRIGHT-1",
+      "RMK-BRIGHT-2",
+      "RMK-BRIGHT-3",
+      "RMK-BRIGHT-4"
+    ]
+  },
+  "rules": {
+    "A1": {
+      "verdict": "MATCH",
+      "observation": "Same eligible commercial Fabless chip-design entity using outsourced production. Concrete Operations/SCM issue; not generic ERP or proof of account eligibility."
+    },
+    "A2": {
+      "verdict": "MATCH",
+      "observation": "Operations/SCM influencer with planning or handoff responsibility. Local ERP buying authority/group autonomy unverified; no Finance/persona switch."
+    },
+    "A3": {
+      "verdict": "MATCH",
+      "observation": "Separate FDI Traditional Chinese for Taiwan and international English. Language is not FDI ownership evidence. Fabless and ERP explained in independent feed captions where used; MES expanded on Taiwan context card. Proper legal name remains original Simplified in either locale, explicitly disclosed by Traditional reader."
+    },
+    "A4": {
+      "verdict": "MATCH",
+      "observation": "Operational value: shared basis for planning or handoff coordination and named confirmation responsibility. No quantified ROI, faster result, forecast accuracy, automatic replanning, real-time synchronization, traceability capability or semiconductor Vietnam implementation claim."
+    },
+    "A5": {
+      "verdict": "N/A",
+      "observation": "N/A FDI lane; no domestic supplier-entry, qualification, audit or acceptance promise."
+    },
+    "A6": {
+      "verdict": "MATCH",
+      "observation": "Questions about concrete lots, product, period/report source or handoff/record identifiers/missing information/confirming owners. Sources support management discussion context, not exact software capability. Generic blank records, chip carriers and unlabelled responsibility objects only."
+    },
+    "A7": {
+      "verdict": "MATCH",
+      "observation": "Cold operating trigger -> concrete reconciliation questions -> shared discussion basis -> prospective Vietnam consulting/implementation -> provider role -> named qualitative China outsourcing-management case -> source reader and related own-operation questions. Geography, integrated solution and attribution remain distinct."
+    }
+  },
+  "units": [
+    {
+      "card_id": "RMK-BRIGHT-1",
+      "verdict": "MATCH",
+      "observation": "Actual root authored/reviewed F2 scope: 製造業數位解決方案; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result. Exact text: {\"card_id\": \"RMK-BRIGHT-1\", \"headline\": \"製造業數位解決方案\", \"body\": \"我們開發並提供製造業數位解決方案，從 ERP 到智慧製造。\", \"source_text\": \"Digiwin 越南 · 公司介紹\", \"cta\": \"\", \"native_headline\": \"製造業數位解決方案\", \"alt\": \"示意圖：製造業數位解決方案\", \"artwork_labels\": [\"晶片設計案例\", \"1/4\"]} Scene: Illustrative bright manufacturing-management desk with a neutral chip sample and blank paper dossier. No customer facility, software UI, actual product or equipment evidence. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning. TARGETED EDIT: Enlarge ONLY the exact publisher source Digiwin Vietnam · Company introduction to a prominent full-width paragraph whose glyph height is at least the body, preferably 54px at 1254 canvas. Reserve a clear white bottom band 130px high with safe edges. Reduce scene height to make room. Keep exact headline/body/category/1/4 and official logo once, preserve generic desk scene. No extra text, props, metrics, UI, customer facility or ornaments. The source is substantive publisher provenance, never a small footer. New locale zh-Hant: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label."
+    },
+    {
+      "card_id": "RMK-BRIGHT-2",
+      "verdict": "MATCH",
+      "observation": "Actual root authored/reviewed F2 scope: 來自中國的晶片設計案例; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result. Exact text: {\"card_id\": \"RMK-BRIGHT-2\", \"headline\": \"來自中國的晶片設計案例\", \"body\": \"晶豐明源是中國的晶片設計企業。了解其數位解決方案導入背景。\", \"source_text\": \"Digiwin 越南 · 半導體案例集\\n上海晶丰明源半导体股份有限公司\", \"cta\": \"\", \"native_headline\": \"來自中國的晶片設計案例\", \"alt\": \"示意圖：來自中國的晶片設計案例\", \"artwork_labels\": [\"晶片設計案例\", \"2/4\"]} Scene: Compact neutral chip tray with wholly blank case folio on a white desk. Generic illustration only, not customer premises, technical record, customer mark or implementation result. Source is a full-width white main paragraph at least body-sized. Exact Traditional headline/body/category/sequence; exact original Simplified legal name 上海晶丰明源半导体股份有限公司, do not translate any legal-name glyph. No English reference copy, extra text, map, flag, skyline, source icon, divider, bars, ruled lines, data, dates, status or metrics. Shrink scene before source text."
+    },
+    {
+      "card_id": "RMK-BRIGHT-3",
+      "verdict": "MATCH",
+      "observation": "Actual root authored/reviewed F2 scope: 從委外管理問題切入; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result. Exact text: {\"card_id\": \"RMK-BRIGHT-3\", \"headline\": \"從委外管理問題切入\", \"body\": \"案例提出委外管理效率不足等挑戰，並介紹整合式數位解決方案。\", \"source_text\": \"Digiwin 越南 · 中國案例04\\n上海晶丰明源半导体股份有限公司\", \"cta\": \"\", \"native_headline\": \"從委外管理問題切入\", \"alt\": \"示意圖：從委外管理問題切入\", \"artwork_labels\": [\"晶片設計案例\", \"3/4\"]} Scene: Compact neutral chip tray with wholly blank case folio on a white desk. Generic illustration only, not customer premises, technical record, customer mark or implementation result. Source is a full-width white main paragraph at least body-sized. Exact Traditional headline/body/category/sequence; exact original Simplified legal name 上海晶丰明源半导体股份有限公司, do not translate any legal-name glyph. No English reference copy, extra text, map, flag, skyline, source icon, divider, bars, ruled lines, data, dates, status or metrics. Shrink scene before source text."
+    },
+    {
+      "card_id": "RMK-BRIGHT-4",
+      "verdict": "MATCH",
+      "observation": "Actual root authored/reviewed F2 scope: 閱讀晶片設計案例; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result. Exact text: {\"card_id\": \"RMK-BRIGHT-4\", \"headline\": \"閱讀晶片設計案例\", \"body\": \"了解這份中國企業案例中的營運挑戰與整合式數位解決方案背景。\", \"source_text\": \"Digiwin 越南 · digiwin.com.vn\\n半導體案例04\\n上海晶丰明源半导体股份有限公司\", \"cta\": \"閱讀中國案例\", \"native_headline\": \"閱讀晶片設計案例\", \"alt\": \"示意圖：閱讀晶片設計案例\", \"artwork_labels\": [\"晶片設計案例\", \"4/4\"]} Scene: A small open blank case booklet with a neutral chip sample on a low platform; compact scene above a large full-width source block and separate CTA. No skyline or customer facility. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning. New locale zh-Hant: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label."
+    }
+  ],
+  "transitions": [
+    {
+      "cards": [
+        "RMK-BRIGHT-1",
+        "RMK-BRIGHT-2"
+      ],
+      "verdict": "MATCH",
+      "observation": "製造業數位解決方案 -> 來自中國的晶片設計案例; Cold operating trigger -> concrete reconciliation questions -> shared discussion basis -> prospective Vietnam consulting/implementation -> provider role -> named qualitative China outsourcing-management case -> source reader and related own-operation questions. Geography, integrated solution and attribution remain distinct."
+    },
+    {
+      "cards": [
+        "RMK-BRIGHT-2",
+        "RMK-BRIGHT-3"
+      ],
+      "verdict": "MATCH",
+      "observation": "來自中國的晶片設計案例 -> 從委外管理問題切入; Cold operating trigger -> concrete reconciliation questions -> shared discussion basis -> prospective Vietnam consulting/implementation -> provider role -> named qualitative China outsourcing-management case -> source reader and related own-operation questions. Geography, integrated solution and attribution remain distinct."
+    },
+    {
+      "cards": [
+        "RMK-BRIGHT-3",
+        "RMK-BRIGHT-4"
+      ],
+      "verdict": "MATCH",
+      "observation": "從委外管理問題切入 -> 閱讀晶片設計案例; Cold operating trigger -> concrete reconciliation questions -> shared discussion basis -> prospective Vietnam consulting/implementation -> provider role -> named qualitative China outsourcing-management case -> source reader and related own-operation questions. Geography, integrated solution and attribution remain distinct."
+    }
+  ],
+  "context": {
+    "scope": "FULL_JOURNEY",
+    "verdict": "MATCH",
+    "observation": "Cold operating trigger -> concrete reconciliation questions -> shared discussion basis -> prospective Vietnam consulting/implementation -> provider role -> named qualitative China outsourcing-management case -> source reader and related own-operation questions. Geography, integrated solution and attribution remain distinct. Reader: Same named China chip-design case, outsourcing-management challenge/integrated digital solution only. Same locale overview/questions/return UI. Original source language disclosed; exact Shanghai legal name retained. VN service not presented as China implementation team. Actual root corrective: Actual original native legal-name source is smaller than body, even though wording, Traditional headline/category and source proper-name preservation are correct. Source must be main text, not footnote. Same source/meaning/persona/scene; no added claim.",
+    "brief": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/execution-brief.md",
+      "sha256": "5eba20ec6739dc5e4278a59aa80a6686ee92c7e16451ce16cff5a5ff36d4844c",
+      "revision": "b18-brief-v1"
+    },
+    "related_inputs": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/cold/public-copy.json",
+        "sha256": "61d867cdb4170dcb0ec854103599a32ac975290ecba0f54d6be87d90a485aef7",
+        "revision": "b18-f2-cold-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/explanation/public-copy.json",
+        "sha256": "9c343f9ca40b3b447a5f1cd3f433beb461719f9c3636098648c4f3edd799d1e2",
+        "revision": "b18-f2-explanation-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/reader-script.json",
+        "sha256": "46d54a68a540fbd890bb3a6afaa44bec39ef9e3d97bbe8b6213e853e7d21ea29",
+        "revision": "b18-f2-reader-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/semantic-review.json",
+        "sha256": "970fc7459a034626d1efeba818017de16bec91aca75005f9a40810d52d8bed7e",
+        "revision": "b18-actual-root-script-review-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/proof-source-mapping.json",
+        "sha256": "6cd930b39b6da9c831fe4fd0f59767d3c928260219b9a0b8cd26847946d7ac96",
+        "revision": "b18-f2-proof-map-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/vietnam-team-source.json",
+        "sha256": "0e85463a057135d51c232e52ae4ec35f7b6aededf3a18ef84cf9719d904d93fd",
+        "revision": "b18-f2-vietnam-service-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/actual-corrective-rmk-bright-2-review.json",
+        "sha256": "9a0b47e5b7499c2a48db4731dd9da9d1db3a3bea722aa235c020bec241666f02",
+        "revision": "b18-rmk-bright-2-source-size-actual-review-v1"
+      }
+    ]
+  },
+  "unresolved_findings": []
+}

@@ -1,0 +1,77 @@
+{
+  "revision": "b15-cold-fabless-b15-script-v1",
+  "gate_id": "AD-ED-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "copy_sha256": "0e8cbc1976107e9deab63bd9c49563aa1c23a80ed8119ae981ae0735c5645c5a",
+  "reviewed_ads": [
+    "B15-COLD"
+  ],
+  "reviewed_fields": {
+    "B15-COLD": [
+      "caption",
+      "COLD-FABLESS-B15.headline",
+      "COLD-FABLESS-B15.body",
+      "COLD-FABLESS-B15.source_text",
+      "COLD-FABLESS-B15.cta",
+      "COLD-FABLESS-B15.native_headline",
+      "COLD-FABLESS-B15.alt",
+      "COLD-FABLESS-B15.artwork_labels"
+    ]
+  },
+  "BRAND_ROLE": {
+    "verdict": "PASS",
+    "observation": "One official supplied mark per artwork. Digiwin 台灣/越南 and domain are distinct publisher/source roles, not extra header labels. Localized categories and1/6..6/6 or1/4..4/4 counters distinct from provenance; no duplicated nonfunctional Digiwin slogan."
+  },
+  "ADVERTISER_VOICE": {
+    "verdict": "PASS",
+    "observation": "我們提供/我們開發並提供 and與我們在越南的團隊 preserve direct advertiser voice. China customer discussed in third person; no third-person provider praise, fabricated testimonial or customer result appropriation."
+  },
+  "independence": "SELF_REVIEW",
+  "per_card_observations": [
+    {
+      "stage": "cold",
+      "card_id": "COLD-FABLESS-B15",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "COLD-FABLESS-B15",
+        "headline": "委外生產，下一步如何判斷？",
+        "body": "交接前，先核對批次、製程階段與回報時間。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "委外生產，下一步如何判斷？",
+        "alt": "示意圖：委外生產，下一步如何判斷？",
+        "artwork_labels": [
+          "晶片委外營運",
+          "製造業 ERP"
+        ]
+      },
+      "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。採用委外生產的晶片設計營運團隊：下一步決策前，先核對合作夥伴的回報。",
+      "scene": "An illustrative bright architectural tabletop: a central operations review plinth receives two blank paper reports from separate abstract subcontractor work surfaces. Small neutral chip packages ground outsourced production. Thin blue physical paths imply communication, not automated synchronization. No actual customer buildings, fabrication plant, screen or dashboard. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. TARGETED EDIT: Edit reference1; preserve official logo, ERP for manufacturing role, exact headline/body, central physical report holder and two partner stations with chip cues. Add exact category OUTSOURCED CHIP OPERATIONS as a large readable line between header and headline; category at least body-sized, do not omit it. Lower headline/scene slightly if needed. Remove all tiny scribbles/glyphs from papers and remove neon glow from paths; neutral blue physical paths only. Keep background paper blank. No added labels, no sequence number, no source, no CTA. Same exact business meaning. New locale zh-Hant: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact.",
+      "observation": "Taiwan operations wording uses核對,製程階段,回報 and an open next-decision question; separately authored rather than glyph conversion.",
+      "source_scope": "Bounded operating questions/local consultation; no product-mechanism or result assertion",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/01-cold-fabless-b13.png",
+      "original_card_id": "COLD-FABLESS-B13"
+    }
+  ],
+  "reader_script": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/reader-script.json",
+    "sha256": "a5b6aa993465c56eeb9ba80e7be2c6dfae10fc815fdc3463b9034eb231c0eb53",
+    "revision": "b15-reader-zh-Hant-v1"
+  },
+  "actual_review_ref": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/semantic-review.json",
+    "sha256": "519ccc633d2f948c9ad7ded142518345a76fcc63cb8e2180fc86ef288b30f0d5",
+    "revision": "b15-zh-hant-actual-root-script-review-v2-visual-refs"
+  },
+  "postgen": "POSTGEN_NOT_RUN"
+}

@@ -1,0 +1,917 @@
+{
+  "revision": "b13-v5-postgen-v1",
+  "stage": "POSTGEN_ARTIFACT",
+  "status": "REVIEW_DRAFT_RENDER_GATE_PENDING",
+  "execution": "PARTIAL",
+  "audit_verdict": "INSUFFICIENT_EVIDENCE",
+  "reviewer": "/root current Fabless session",
+  "independence": "SELF_REVIEW",
+  "authorization": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/generation-mandate.json",
+    "sha256": "955fdcdf34ce94968a410140005aa0c27821349a5b8f108054d4e2d7625ff04e",
+    "revision": "b13-v5-po-mandate-v1"
+  },
+  "anchor": {
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "original_email": {
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+    }
+  },
+  "scope": {
+    "segment": "FDI",
+    "locale": "en",
+    "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+    "route": "offline English cold -> F1 outsourced-lot reporting -> qualitative China Bright Power integrated-solution case -> English case reader",
+    "branch": "slice/linkedin-safe-fabless-parallel"
+  },
+  "binding": {
+    "manifest": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/manifest.json",
+      "sha256": "a11c105d215b96872d143f5837dded223006451703b0517080edeea1430eaebf",
+      "revision": "b13-review-manifest-v5-six-explanation"
+    },
+    "copy": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/selected-copy.json",
+      "sha256": "dd81344218d7c39669e134ffdd6f6e971ef63415133b1f094340cc7c2fa87f1d",
+      "revision": "b13-review-copy-v5-six-explanation"
+    },
+    "prompts": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/selected-prompts.json",
+      "sha256": "e6fbcf40605f67cc672a54173ab460999d9af32765f426b605f213819c1c65a2",
+      "revision": "b13-review-prompts-v5"
+    },
+    "reader": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/case-reader.html",
+      "sha256": "3fea87b86c26a74085172d358b95957e07bb7a6d8c435180f58828c4b322eac3",
+      "revision": "actual-artifact-v5"
+    },
+    "viewer": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/index.html",
+      "sha256": "a712edbba73879c50cd086b8489be913a4243f549092bfc1914a7a1416775104",
+      "revision": "actual-artifact-v5"
+    },
+    "artwork": [
+      {
+        "card_id": "COLD-FABLESS-B13",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/01-cold-fabless-b13.png",
+        "sha256": "b89e0ec2d9005d4c8b7b9efe439404869370547485f4ab4f1c45c20f537ea819",
+        "source": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v4/assets/01-cold-fabless-b13.png",
+        "reused": true,
+        "transformation": false
+      },
+      {
+        "card_id": "F1-A1",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/02-f1-a1.png",
+        "sha256": "99114747ff1151335e221e3a9c972c50dda7669b2219af547fed5c44ac12af8c",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/release/f1-a1/native/f1-a1-b13-en-v5.png",
+        "reused": false,
+        "transformation": false
+      },
+      {
+        "card_id": "F1-A2",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/03-f1-a2.png",
+        "sha256": "0fcb4adc3aeea878dafc19738e03616a0da4f1e429bf60d7dc7b389cba4225b3",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/release/f1-a2/native/f1-a2-b13-en-v5.png",
+        "reused": false,
+        "transformation": false
+      },
+      {
+        "card_id": "F1-A3",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/04-f1-a3.png",
+        "sha256": "1fdfb9d51eaf0605eac39e40aff02043aea3c87866c83133b298c6124092d6a5",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/release/f1-a3/native/f1-a3-b13-en-v5.png",
+        "reused": false,
+        "transformation": false
+      },
+      {
+        "card_id": "F1-A4",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/05-f1-a4.png",
+        "sha256": "edeadfd42a45039038452628d3be5dae6261915cf66d35551319304b9733291a",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/release/f1-a4/native/f1-a4-b13-en-v5.png",
+        "reused": false,
+        "transformation": false
+      },
+      {
+        "card_id": "F1-A5",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/06-f1-a5.png",
+        "sha256": "5c057fe7b0d0e61f84cd485f189901e0d477018c821bc4e9f6f98e80c1ec0353",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/release/f1-a5/native/f1-a5-b13-en-v5.png",
+        "reused": false,
+        "transformation": false
+      },
+      {
+        "card_id": "F1-A6",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/07-f1-a6.png",
+        "sha256": "8d2d935bfe766b8e127ad27a249ff1e9796a043c11dc5d448f213ae67ef35c5c",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/release/f1-a6/native/f1-a6-b13-en-v5.png",
+        "reused": false,
+        "transformation": false
+      },
+      {
+        "card_id": "RMK-BRIGHT-1",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/08-rmk-bright-1.png",
+        "sha256": "07d462c49809ad50480cea660aaca802df9492290ec5aec5092c9e2796c6e61b",
+        "source": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v4/assets/07-rmk-bright-1.png",
+        "reused": true,
+        "transformation": false
+      },
+      {
+        "card_id": "RMK-BRIGHT-2",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/09-rmk-bright-2.png",
+        "sha256": "34d81860021a6df4f955630407610cf22343c9e4ca64b5ee2fbe612e388fa345",
+        "source": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v4/assets/08-rmk-bright-2.png",
+        "reused": true,
+        "transformation": false
+      },
+      {
+        "card_id": "RMK-BRIGHT-3",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/10-rmk-bright-3.png",
+        "sha256": "76cc1590a43671027c909684c86263c4fbb8f3fbb95b057cd0cbba102fa52366",
+        "source": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v4/assets/09-rmk-bright-3.png",
+        "reused": true,
+        "transformation": false
+      },
+      {
+        "card_id": "RMK-BRIGHT-4",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/11-rmk-bright-4.png",
+        "sha256": "0d045bd1f76534832e9fb8b376a737cb208a29a0106c2aa87d75ac83a9bb1fe9",
+        "source": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v4/assets/10-rmk-bright-4.png",
+        "reused": true,
+        "transformation": false
+      }
+    ],
+    "attempts": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/attempt-ledger.json",
+      "sha256": "c74eeffffaf1cdfb2bf0606d2b404089bb4615627dabf25f8039e1e33d7cc1a7",
+      "revision": "b13-attempt-ledger-v1"
+    },
+    "evidence": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-01.jpg",
+        "sha256": "17c575f53d94064c862408d1f0ac167d13da32fea0af1098e5f68fcf7d516bad",
+        "revision": "fabless-v5-desktop-01.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-02.jpg",
+        "sha256": "ed93b32b4a353b2c14c41fb832db2873b583391f1531cdf75ca5c9da42cf1d78",
+        "revision": "fabless-v5-desktop-02.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-03.jpg",
+        "sha256": "5fe4e049a8c5ba6b3b66f21cb80f7f1f7c42c88d4d6102310dbe065f927b2a20",
+        "revision": "fabless-v5-desktop-03.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-04.jpg",
+        "sha256": "771b2fc0641669c2975f60e12ed39b17ac01d4d79cb77255a15586e1f30c0466",
+        "revision": "fabless-v5-desktop-04.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-05.jpg",
+        "sha256": "a657f27676dcf3564de1681e110e1d5fede992fea729d93ce85d11e88e96cc32",
+        "revision": "fabless-v5-desktop-05.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-06.jpg",
+        "sha256": "4e0d1d66f1d3d61824c0d5eaa40baf5c71b1cdc0d1f3e139385a1bdbd85cb176",
+        "revision": "fabless-v5-desktop-06.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-07.jpg",
+        "sha256": "521967680880bcbc9eb7650f13e3f71597662e17d789a19cae2cc0d3b3d8639a",
+        "revision": "fabless-v5-desktop-07.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-08.jpg",
+        "sha256": "4880c8954ff473b22e5935a7dad21c878759aafb156e12a9244ca310727979ca",
+        "revision": "fabless-v5-desktop-08.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-09.jpg",
+        "sha256": "37a4c255fac0541e2d6ed585fd394a52c1702849e3847fd062f1d1ad63ec1076",
+        "revision": "fabless-v5-desktop-09.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-10.jpg",
+        "sha256": "7ebcd23df39bc92ac16817f36746af2e966b00978c4e95ca30516b4075d15378",
+        "revision": "fabless-v5-desktop-10.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-11.jpg",
+        "sha256": "103e099f1308ff429cd4fa6a54033730f9a859dd8ac1922ecfb5b7b5603915cc",
+        "revision": "fabless-v5-desktop-11.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-measures.json",
+        "sha256": "eb776737aa817ce74c3e06a075a69c19f33840ed008cd9df77767108e1285a60",
+        "revision": "fabless-v5-desktop-measures.json"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-01.jpg",
+        "sha256": "2cc3eb23e15865a0a717e1440452073135b0416404441247815a0f216a005cc3",
+        "revision": "fabless-v5-feed-01.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-02.jpg",
+        "sha256": "fb1c9dc92b004b0c04bcce9f486ceaca4465b2f77feb1e73090eb37d50babf71",
+        "revision": "fabless-v5-feed-02.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-03.jpg",
+        "sha256": "8ac8b83c7a1be22e6a0a61924b62832a8b62d095d6ff74d2198f3697e003d8fd",
+        "revision": "fabless-v5-feed-03.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-04.jpg",
+        "sha256": "eab8b34549cd61992dd66db617ab63a1977cef6aa00d2e5c251c75d0e1e3a5ee",
+        "revision": "fabless-v5-feed-04.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-05.jpg",
+        "sha256": "5da619518acbf1bc96d3703439bff358b0ec2bbc29acc91a7f4772c64b0f0dec",
+        "revision": "fabless-v5-feed-05.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-06.jpg",
+        "sha256": "b094c9321695e2b543a0a212a571d9ad4cd412a69aaeece52d5f53cb4db83630",
+        "revision": "fabless-v5-feed-06.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-07.jpg",
+        "sha256": "3783f898e5db392e30c1c309c5c92b6b0d69bc25f1210acee14cffa602d9d16e",
+        "revision": "fabless-v5-feed-07.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-08.jpg",
+        "sha256": "d28506c24b1beeac9108afa27839854bf1315268cd701ad6b96b31d91f8c6550",
+        "revision": "fabless-v5-feed-08.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-09-confirmed.jpg",
+        "sha256": "69f7673c9c7540cbcc5af7e869cd87ba85cc6fcc96ed8e6becc46e7df2e747d4",
+        "revision": "fabless-v5-feed-09-confirmed.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-10-confirmed.jpg",
+        "sha256": "71c3bbfc2618b85d7e3e16ba520d2bcbfe645c13d483b4fbd6b3abb697a11365",
+        "revision": "fabless-v5-feed-10-confirmed.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-11.jpg",
+        "sha256": "9aaf97847103b7896c1892c84886027b06a24735fd68fd2f256f586391b88779",
+        "revision": "fabless-v5-feed-11.jpg",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 871
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-measures.json",
+        "sha256": "13321956c14f4e1501809b58e2ea624b4a0cfe53685993f6a4288e08428fbc2a",
+        "revision": "fabless-v5-feed-measures.json"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-mobile-attempt-measures.json",
+        "sha256": "13203074e31e332fae6f401f8023a9292d41251f263f7f2f0acb02fca6e729e2",
+        "revision": "fabless-v5-mobile-attempt-measures.json"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-mobile-measures.json",
+        "sha256": "62f4177d596759539f11be12b933d61ef348c7e9f07b4ed2af3a678cfb8aa425",
+        "revision": "fabless-v5-mobile-measures.json"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-mobile-team-confirmed.json",
+        "sha256": "aa77d61902936c33ebca76cd5bc610031572cea368fb9f408a0d049d36ae596e",
+        "revision": "fabless-v5-mobile-team-confirmed.json"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-reader-desktop.jpg",
+        "sha256": "e2082f818c9c649a7fb160117ac291e12d56610019ab1400f8a67beb4dff81b2",
+        "revision": "fabless-v5-reader-desktop.jpg",
+        "format": "JPEG",
+        "width": 1706,
+        "height": 879
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-team-feed.jpg",
+        "sha256": "5b5414c472525cabfb33ac1e8cc582b1587a7695f7b636ab48b627c18e9c759a",
+        "revision": "fabless-v5-team-feed.jpg",
+        "format": "JPEG",
+        "width": 1705,
+        "height": 879
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-team-mobile.jpg",
+        "sha256": "56420d8668a522f384f7e895388bb0f1bf2b18f2e757d9fadc8a7db8427fbd0d",
+        "revision": "fabless-v5-team-mobile.jpg",
+        "format": "JPEG",
+        "width": 414,
+        "height": 938
+      }
+    ]
+  },
+  "A1_A7": {
+    "A1": "Chip-design entity with commercial outsourced production; narrowly relevant semiconductor chain operating situation. Not every design office or generic manufacturer, and not assumed Vietnam target-account fit.",
+    "A2": "Operations/SCM influences business-system evaluation at eligible entity; authority and existing group system remain unknown. No assertion a specific China customer or FDI Vietnam company can independently buy local ERP. Internal intake records hypotheses and process/existing-system alternatives.",
+    "A3": "FDI English commercial Fabless Operations/SCM; international English questions and accountable next steps, not VN supply-chain-entry promise. Fabless definition supplied in explanation caption; no WIP/OSAT acronym used without definition.",
+    "A4": "Implicit business value is a shared basis for the next production decision and accountable update ownership. Cold pain->report conventions->stage/time/source->ownership->next decision. No ROI%, yield, cost saving, forecast outcome or promised automatic synchronization.",
+    "A5": "N/A: FDI lane only, no domestic supplier-entry claim.",
+    "A6": "Concrete lot/product reference, production periods/test classifications, stage/time/report source and update owner. Questions/process conventions, not unverified product functionality. Taiwan source states ERP/MES context separately. Illustrative chip/wafer carrier is not a fabricated chip layout or owned fab.",
+    "A7": "Same Operations/SCM: shared report basis -> local Vietnam consulting/implementation discussion -> named China chip-design case. Prospect discussions of reporting/update responsibilities are separate from published customer implementation. Reader remains original China source summary; no fabricated Vietnam Fabless deployment or ERP-only causality."
+  },
+  "source": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/vietnam-team-source.json",
+    "sha256": "a7903fe4f0587686697e671da6d7afeca01ad0849d8e969b7d3ae047e36bcdc6",
+    "revision": "b13-v5-vietnam-team-source-v1"
+  },
+  "per_unit": [
+    {
+      "card_id": "COLD-FABLESS-B13",
+      "exact_fields": {
+        "headline": "Outsourced production. Your next decision.",
+        "body": "Align the lot, stage and report time before the next handoff.",
+        "source_text": "",
+        "cta": "",
+        "caption": "We provide manufacturing ERP solutions. Chip-design operations teams using outsourced production: align partner reports before the next decision.",
+        "native_headline": "Outsourced production. Your next decision.",
+        "alt": "Illustration: Outsourced production. Your next decision.",
+        "artwork_labels": [
+          "OUTSOURCED CHIP OPERATIONS",
+          "ERP for manufacturing"
+        ]
+      },
+      "actual_observation": "Exact outsourced-production headline and lot/stage/report-time handoff body, advertiser We provide caption; neutral chip trays, blank central folios and open paths, no owned fab/customer data.",
+      "native": {
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/01-cold-fabless-b13.png",
+        "sha256": "b89e0ec2d9005d4c8b7b9efe439404869370547485f4ab4f1c45c20f537ea819",
+        "revision": "actual-artifact-v5"
+      },
+      "feed": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-01.jpg",
+        "sha256": "2cc3eb23e15865a0a717e1440452073135b0416404441247815a0f216a005cc3",
+        "revision": "actual-artifact-v5"
+      },
+      "desktop": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-01.jpg",
+        "sha256": "17c575f53d94064c862408d1f0ac167d13da32fea0af1098e5f68fcf7d516bad",
+        "revision": "actual-artifact-v5"
+      },
+      "mobile": "INSUFFICIENT_EVIDENCE_NO_ACCEPTED_V5_MOBILE_CAPTURE",
+      "semantic_disposition": "MATCH_IN_OBSERVED_SCOPE",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE_FULL_MOBILE"
+    },
+    {
+      "card_id": "F1-A1",
+      "exact_fields": {
+        "headline": "Partner reports. A clear view of each lot?",
+        "body": "Before planning the next step, check which process stage each partner report describes.",
+        "source_text": "",
+        "cta": "",
+        "caption": "We provide manufacturing ERP solutions. Fabless (chip design without an owned fabrication plant) operations teams: align lot reports and responsibilities across production partners.",
+        "native_headline": "Partner reports. A clear view of each lot?",
+        "alt": "Illustration: Partner reports. A clear view of each lot?",
+        "artwork_labels": [
+          "ERP · CHIP OPERATIONS",
+          "1/6"
+        ]
+      },
+      "actual_observation": "Exact partner-report/stage question,1/6; blank reports and wafer protective carrier retained from PO accepted visual. Same next-decision problem.",
+      "native": {
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/02-f1-a1.png",
+        "sha256": "99114747ff1151335e221e3a9c972c50dda7669b2219af547fed5c44ac12af8c",
+        "revision": "actual-artifact-v5"
+      },
+      "feed": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-02.jpg",
+        "sha256": "fb1c9dc92b004b0c04bcce9f486ceaca4465b2f77feb1e73090eb37d50babf71",
+        "revision": "actual-artifact-v5"
+      },
+      "desktop": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-02.jpg",
+        "sha256": "ed93b32b4a353b2c14c41fb832db2873b583391f1531cdf75ca5c9da42cf1d78",
+        "revision": "actual-artifact-v5"
+      },
+      "mobile": "INSUFFICIENT_EVIDENCE_NO_ACCEPTED_V5_MOBILE_CAPTURE",
+      "semantic_disposition": "MATCH_IN_OBSERVED_SCOPE",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE_FULL_MOBILE"
+    },
+    {
+      "card_id": "F1-A2",
+      "exact_fields": {
+        "headline": "Start with the product and lot.",
+        "body": "Check the product and lot references. Agree how each partner identifies production periods and test classifications.",
+        "source_text": "",
+        "cta": "",
+        "caption": "We provide manufacturing ERP solutions. Fabless (chip design without an owned fabrication plant) operations teams: align lot reports and responsibilities across production partners.",
+        "native_headline": "Start with the product and lot.",
+        "alt": "Illustration: Start with the product and lot.",
+        "artwork_labels": [
+          "ERP · CHIP OPERATIONS",
+          "2/6"
+        ]
+      },
+      "actual_observation": "Exact product/lot references and partner periods/test classifications,2/6; blank reference folios/chip and open paths. Questions and conventions, no claimed automatic product feature.",
+      "native": {
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/03-f1-a2.png",
+        "sha256": "0fcb4adc3aeea878dafc19738e03616a0da4f1e429bf60d7dc7b389cba4225b3",
+        "revision": "actual-artifact-v5"
+      },
+      "feed": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-03.jpg",
+        "sha256": "8ac8b83c7a1be22e6a0a61924b62832a8b62d095d6ff74d2198f3697e003d8fd",
+        "revision": "actual-artifact-v5"
+      },
+      "desktop": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-03.jpg",
+        "sha256": "5fe4e049a8c5ba6b3b66f21cb80f7f1f7c42c88d4d6102310dbe065f927b2a20",
+        "revision": "actual-artifact-v5"
+      },
+      "mobile": "INSUFFICIENT_EVIDENCE_NO_ACCEPTED_V5_MOBILE_CAPTURE",
+      "semantic_disposition": "MATCH_IN_OBSERVED_SCOPE",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE_FULL_MOBILE"
+    },
+    {
+      "card_id": "F1-A3",
+      "exact_fields": {
+        "headline": "Which stage does this report describe?",
+        "body": "Identify the process stage, when the status was recorded and which partner report supports it.",
+        "source_text": "",
+        "cta": "",
+        "caption": "We provide manufacturing ERP solutions. Fabless (chip design without an owned fabrication plant) operations teams: align lot reports and responsibilities across production partners.",
+        "native_headline": "Which stage does this report describe?",
+        "alt": "Illustration: Which stage does this report describe?",
+        "artwork_labels": [
+          "ERP · CHIP OPERATIONS",
+          "3/6"
+        ]
+      },
+      "actual_observation": "Exact process stage/status-recording time/supporting partner report,3/6; approved carrier scene retained, no fabricated process result.",
+      "native": {
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/04-f1-a3.png",
+        "sha256": "1fdfb9d51eaf0605eac39e40aff02043aea3c87866c83133b298c6124092d6a5",
+        "revision": "actual-artifact-v5"
+      },
+      "feed": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-04.jpg",
+        "sha256": "eab8b34549cd61992dd66db617ab63a1977cef6aa00d2e5c251c75d0e1e3a5ee",
+        "revision": "actual-artifact-v5"
+      },
+      "desktop": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-04.jpg",
+        "sha256": "771b2fc0641669c2975f60e12ed39b17ac01d4d79cb77255a15586e1f30c0466",
+        "revision": "actual-artifact-v5"
+      },
+      "mobile": "INSUFFICIENT_EVIDENCE_NO_ACCEPTED_V5_MOBILE_CAPTURE",
+      "semantic_disposition": "MATCH_IN_OBSERVED_SCOPE",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE_FULL_MOBILE"
+    },
+    {
+      "card_id": "F1-A4",
+      "exact_fields": {
+        "headline": "Who keeps the shared view current?",
+        "body": "Agree the report format, exchange schedule and owner who confirms each production update.",
+        "source_text": "",
+        "cta": "",
+        "caption": "We provide manufacturing ERP solutions. Fabless (chip design without an owned fabrication plant) operations teams: align lot reports and responsibilities across production partners.",
+        "native_headline": "Who keeps the shared view current?",
+        "alt": "Illustration: Who keeps the shared view current?",
+        "artwork_labels": [
+          "ERP · CHIP OPERATIONS",
+          "4/6"
+        ]
+      },
+      "actual_observation": "Exact report format/exchange schedule/update owner,4/6; generic responsibility token and neutral report props, not a named member of Digiwin team.",
+      "native": {
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/05-f1-a4.png",
+        "sha256": "edeadfd42a45039038452628d3be5dae6261915cf66d35551319304b9733291a",
+        "revision": "actual-artifact-v5"
+      },
+      "feed": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-05.jpg",
+        "sha256": "5da619518acbf1bc96d3703439bff358b0ec2bbc29acc91a7f4772c64b0f0dec",
+        "revision": "actual-artifact-v5"
+      },
+      "desktop": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-05.jpg",
+        "sha256": "a657f27676dcf3564de1681e110e1d5fede992fea729d93ce85d11e88e96cc32",
+        "revision": "actual-artifact-v5"
+      },
+      "mobile": "INSUFFICIENT_EVIDENCE_NO_ACCEPTED_V5_MOBILE_CAPTURE",
+      "semantic_disposition": "MATCH_IN_OBSERVED_SCOPE",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE_FULL_MOBILE"
+    },
+    {
+      "card_id": "F1-A5",
+      "exact_fields": {
+        "headline": "Give the next decision a shared basis.",
+        "body": "Bring lot, stage, report time and update ownership into the same discussion.",
+        "source_text": "Digiwin Taiwan semiconductor solution material:\nERP and MES for management and production.",
+        "cta": "Explore outsourced-production questions",
+        "caption": "We provide manufacturing ERP solutions. Fabless (chip design without an owned fabrication plant) operations teams: align lot reports and responsibilities across production partners.",
+        "native_headline": "Give the next decision a shared basis.",
+        "alt": "Illustration: Give the next decision a shared basis.",
+        "artwork_labels": [
+          "ERP · CHIP OPERATIONS",
+          "5/6"
+        ]
+      },
+      "actual_observation": "Exact shared basis of lot/stage/report time/update ownership,5/6. Taiwan ERP/MES source and Explore outsourced-production questions CTA intact; source complete/readable on white. Existing unlabelled rule-lines in approved report prop retained under PO visual-preservation instruction, not real records or data.",
+      "native": {
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/06-f1-a5.png",
+        "sha256": "5c057fe7b0d0e61f84cd485f189901e0d477018c821bc4e9f6f98e80c1ec0353",
+        "revision": "actual-artifact-v5"
+      },
+      "feed": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-06.jpg",
+        "sha256": "b094c9321695e2b543a0a212a571d9ad4cd412a69aaeece52d5f53cb4db83630",
+        "revision": "actual-artifact-v5"
+      },
+      "desktop": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-06.jpg",
+        "sha256": "4e0d1d66f1d3d61824c0d5eaa40baf5c71b1cdc0d1f3e139385a1bdbd85cb176",
+        "revision": "actual-artifact-v5"
+      },
+      "mobile": "INSUFFICIENT_EVIDENCE_NO_ACCEPTED_V5_MOBILE_CAPTURE",
+      "semantic_disposition": "MATCH_IN_OBSERVED_SCOPE",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE_FULL_MOBILE"
+    },
+    {
+      "card_id": "F1-A6",
+      "exact_fields": {
+        "headline": "Consulting and implementation in Vietnam",
+        "body": "Work with our team in Vietnam on ERP consulting and implementation. Start with your reporting workflows, update ownership and project priorities.",
+        "source_text": "Digiwin Vietnam · ERP consulting and implementation",
+        "cta": "",
+        "caption": "We provide manufacturing ERP solutions. Fabless (chip design without an owned fabrication plant) operations teams: align lot reports and responsibilities across production partners.",
+        "native_headline": "Consulting and implementation in Vietnam",
+        "alt": "Illustration: Consulting and implementation in Vietnam",
+        "artwork_labels": [
+          "ERP · CHIP OPERATIONS",
+          "6/6"
+        ]
+      },
+      "actual_observation": "Exact Consulting and implementation in Vietnam headline; Work with our team in Vietnam on ERP consulting and implementation. Start with your reporting workflows, update ownership and project priorities. Exact Digiwin Vietnam · ERP consulting and implementation source and6/6. Neutral consultation folios, chip, team/gear tokens; no staff portrait, Vietnam customer facility, metrics or Fabless implementation proof. Large high-contrast full-width white source visually readable native/feed333/desktop638.22/mobile347.56 at actual390x844 viewport. Caption/native headline outside raster, official mark once.",
+      "native": {
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/07-f1-a6.png",
+        "sha256": "8d2d935bfe766b8e127ad27a249ff1e9796a043c11dc5d448f213ae67ef35c5c",
+        "revision": "actual-artifact-v5"
+      },
+      "feed": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-07.jpg",
+        "sha256": "3783f898e5db392e30c1c309c5c92b6b0d69bc25f1210acee14cffa602d9d16e",
+        "revision": "actual-artifact-v5"
+      },
+      "desktop": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-07.jpg",
+        "sha256": "521967680880bcbc9eb7650f13e3f71597662e17d789a19cae2cc0d3b3d8639a",
+        "revision": "actual-artifact-v5"
+      },
+      "mobile": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-team-mobile.jpg",
+        "sha256": "56420d8668a522f384f7e895388bb0f1bf2b18f2e757d9fadc8a7db8427fbd0d",
+        "revision": "actual-artifact-v5"
+      },
+      "semantic_disposition": "MATCH_IN_OBSERVED_SCOPE",
+      "full_render_verdict": "PASS_SELF_REVIEW_NATIVE_FEED_DESKTOP_MOBILE"
+    },
+    {
+      "card_id": "RMK-BRIGHT-1",
+      "exact_fields": {
+        "headline": "Digital solutions for manufacturing",
+        "body": "We develop and provide digital solutions for manufacturing, from ERP to smart manufacturing.",
+        "source_text": "Digiwin Vietnam · Company introduction",
+        "cta": "",
+        "caption": "We provide digital solutions for manufacturing. Explore outsourcing-management challenges in a named chip-design case from China.",
+        "native_headline": "Digital solutions for manufacturing",
+        "alt": "Illustration: Digital solutions for manufacturing",
+        "artwork_labels": [
+          "CHIP-DESIGN CASE",
+          "1/4"
+        ]
+      },
+      "actual_observation": "Exact first-person digital-provider text and Company introduction source;1/4, generic chip/report props. Separate provider introduction from customer case, no customer outcomes.",
+      "native": {
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/08-rmk-bright-1.png",
+        "sha256": "07d462c49809ad50480cea660aaca802df9492290ec5aec5092c9e2796c6e61b",
+        "revision": "actual-artifact-v5"
+      },
+      "feed": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-08.jpg",
+        "sha256": "d28506c24b1beeac9108afa27839854bf1315268cd701ad6b96b31d91f8c6550",
+        "revision": "actual-artifact-v5"
+      },
+      "desktop": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-08.jpg",
+        "sha256": "4880c8954ff473b22e5935a7dad21c878759aafb156e12a9244ca310727979ca",
+        "revision": "actual-artifact-v5"
+      },
+      "mobile": "INSUFFICIENT_EVIDENCE_NO_ACCEPTED_V5_MOBILE_CAPTURE",
+      "semantic_disposition": "MATCH_IN_OBSERVED_SCOPE",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE_FULL_MOBILE"
+    },
+    {
+      "card_id": "RMK-BRIGHT-2",
+      "exact_fields": {
+        "headline": "A chip-design case from China",
+        "body": "Bright Power is a chip-design business in China. Explore its digital-solution implementation context.",
+        "source_text": "Digiwin Vietnam · Semiconductor case collection\n上海晶丰明源半导体股份有限公司",
+        "cta": "",
+        "caption": "We provide digital solutions for manufacturing. Explore outsourcing-management challenges in a named chip-design case from China.",
+        "native_headline": "A chip-design case from China",
+        "alt": "Illustration: A chip-design case from China",
+        "artwork_labels": [
+          "CHIP-DESIGN CASE",
+          "2/4"
+        ]
+      },
+      "actual_observation": "Exact China chip-design entity/context,2/4 and 上海晶丰明源半导体股份有限公司 source preserved. Existing unlabelled report rule-lines retained in byte-identical PO accepted visual, not numeric records. Large named source readable native/feed/desktop.",
+      "native": {
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/09-rmk-bright-2.png",
+        "sha256": "34d81860021a6df4f955630407610cf22343c9e4ca64b5ee2fbe612e388fa345",
+        "revision": "actual-artifact-v5"
+      },
+      "feed": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-09-confirmed.jpg",
+        "sha256": "69f7673c9c7540cbcc5af7e869cd87ba85cc6fcc96ed8e6becc46e7df2e747d4",
+        "revision": "actual-artifact-v5"
+      },
+      "desktop": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-09.jpg",
+        "sha256": "37a4c255fac0541e2d6ed585fd394a52c1702849e3847fd062f1d1ad63ec1076",
+        "revision": "actual-artifact-v5"
+      },
+      "mobile": "INSUFFICIENT_EVIDENCE_NO_ACCEPTED_V5_MOBILE_CAPTURE",
+      "semantic_disposition": "MATCH_IN_OBSERVED_SCOPE",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE_FULL_MOBILE"
+    },
+    {
+      "card_id": "RMK-BRIGHT-3",
+      "exact_fields": {
+        "headline": "Outsourcing management in focus",
+        "body": "The case identifies inefficient outsourcing management among its challenges and describes an integrated digital solution.",
+        "source_text": "Digiwin Vietnam · China case04\n上海晶丰明源半导体股份有限公司",
+        "cta": "",
+        "caption": "We provide digital solutions for manufacturing. Explore outsourcing-management challenges in a named chip-design case from China.",
+        "native_headline": "Outsourcing management in focus",
+        "alt": "Illustration: Outsourcing management in focus",
+        "artwork_labels": [
+          "CHIP-DESIGN CASE",
+          "3/4"
+        ]
+      },
+      "actual_observation": "Exact outsourcing-management challenge/integrated digital-solution body,3/4; Digiwin Vietnam · China case04 and full legal name clearly larger than body on full white band. Current native/feed331.22/desktop638.22 observation closes source hierarchy in these scopes; mobile remains absent, historical v4 technical receipt untouched.",
+      "native": {
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/10-rmk-bright-3.png",
+        "sha256": "76cc1590a43671027c909684c86263c4fbb8f3fbb95b057cd0cbba102fa52366",
+        "revision": "actual-artifact-v5"
+      },
+      "feed": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-10-confirmed.jpg",
+        "sha256": "71c3bbfc2618b85d7e3e16ba520d2bcbfe645c13d483b4fbd6b3abb697a11365",
+        "revision": "actual-artifact-v5"
+      },
+      "desktop": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-10.jpg",
+        "sha256": "7ebcd23df39bc92ac16817f36746af2e966b00978c4e95ca30516b4075d15378",
+        "revision": "actual-artifact-v5"
+      },
+      "mobile": "INSUFFICIENT_EVIDENCE_NO_ACCEPTED_V5_MOBILE_CAPTURE",
+      "semantic_disposition": "MATCH_IN_OBSERVED_SCOPE",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE_FULL_MOBILE"
+    },
+    {
+      "card_id": "RMK-BRIGHT-4",
+      "exact_fields": {
+        "headline": "Read the chip-design case",
+        "body": "Explore the business challenges and integrated digital-solution context in the named China case.",
+        "source_text": "Digiwin Vietnam · digiwin.com.vn\nSemiconductor case04\n上海晶丰明源半导体股份有限公司",
+        "cta": "Read the China case",
+        "caption": "We provide digital solutions for manufacturing. Explore outsourcing-management challenges in a named chip-design case from China.",
+        "native_headline": "Read the chip-design case",
+        "alt": "Illustration: Read the chip-design case",
+        "artwork_labels": [
+          "CHIP-DESIGN CASE",
+          "4/4"
+        ]
+      },
+      "actual_observation": "Exact business challenges/integrated digital-solution China case context,4/4; full named source and Read the China case CTA. Neutral chip sample, no customer product/facility implication; actual reader link clicked to unchanged English summary.",
+      "native": {
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/11-rmk-bright-4.png",
+        "sha256": "0d045bd1f76534832e9fb8b376a737cb208a29a0106c2aa87d75ac83a9bb1fe9",
+        "revision": "actual-artifact-v5"
+      },
+      "feed": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-feed-11.jpg",
+        "sha256": "9aaf97847103b7896c1892c84886027b06a24735fd68fd2f256f586391b88779",
+        "revision": "actual-artifact-v5"
+      },
+      "desktop": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-desktop-11.jpg",
+        "sha256": "103e099f1308ff429cd4fa6a54033730f9a859dd8ac1922ecfb5b7b5603915cc",
+        "revision": "actual-artifact-v5"
+      },
+      "mobile": "INSUFFICIENT_EVIDENCE_NO_ACCEPTED_V5_MOBILE_CAPTURE",
+      "semantic_disposition": "MATCH_IN_OBSERVED_SCOPE",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE_FULL_MOBILE"
+    }
+  ],
+  "transitions": [
+    {
+      "from_card": "COLD-FABLESS-B13",
+      "to_card": "F1-A1",
+      "observation": "Outsourced production. Your next decision. -> Partner reports. A clear view of each lot?",
+      "disposition": "MATCH_IN_NATIVE_FEED_DESKTOP_OBSERVED_SCOPE"
+    },
+    {
+      "from_card": "F1-A1",
+      "to_card": "F1-A2",
+      "observation": "Partner reports. A clear view of each lot? -> Start with the product and lot.",
+      "disposition": "MATCH_IN_NATIVE_FEED_DESKTOP_OBSERVED_SCOPE"
+    },
+    {
+      "from_card": "F1-A2",
+      "to_card": "F1-A3",
+      "observation": "Start with the product and lot. -> Which stage does this report describe?",
+      "disposition": "MATCH_IN_NATIVE_FEED_DESKTOP_OBSERVED_SCOPE"
+    },
+    {
+      "from_card": "F1-A3",
+      "to_card": "F1-A4",
+      "observation": "Which stage does this report describe? -> Who keeps the shared view current?",
+      "disposition": "MATCH_IN_NATIVE_FEED_DESKTOP_OBSERVED_SCOPE"
+    },
+    {
+      "from_card": "F1-A4",
+      "to_card": "F1-A5",
+      "observation": "Who keeps the shared view current? -> Give the next decision a shared basis.",
+      "disposition": "MATCH_IN_NATIVE_FEED_DESKTOP_OBSERVED_SCOPE"
+    },
+    {
+      "from_card": "F1-A5",
+      "to_card": "F1-A6",
+      "observation": "Give the next decision a shared basis. -> Consulting and implementation in Vietnam; shared report basis -> discussion with Vietnam team of reporting workflow/ownership/project priorities, no delivery outcome promise.",
+      "disposition": "MATCH_IN_NATIVE_FEED_DESKTOP_OBSERVED_SCOPE"
+    },
+    {
+      "from_card": "F1-A6",
+      "to_card": "RMK-BRIGHT-1",
+      "observation": "Consulting and implementation in Vietnam -> Digital solutions for manufacturing; local service invitation -> provider introduction leading to separately attributed China customer case. No suggestion Bright was deployed by Vietnam team.",
+      "disposition": "MATCH_IN_NATIVE_FEED_DESKTOP_OBSERVED_SCOPE"
+    },
+    {
+      "from_card": "RMK-BRIGHT-1",
+      "to_card": "RMK-BRIGHT-2",
+      "observation": "Digital solutions for manufacturing -> A chip-design case from China",
+      "disposition": "MATCH_IN_NATIVE_FEED_DESKTOP_OBSERVED_SCOPE"
+    },
+    {
+      "from_card": "RMK-BRIGHT-2",
+      "to_card": "RMK-BRIGHT-3",
+      "observation": "A chip-design case from China -> Outsourcing management in focus",
+      "disposition": "MATCH_IN_NATIVE_FEED_DESKTOP_OBSERVED_SCOPE"
+    },
+    {
+      "from_card": "RMK-BRIGHT-3",
+      "to_card": "RMK-BRIGHT-4",
+      "observation": "Outsourcing management in focus -> Read the chip-design case",
+      "disposition": "MATCH_IN_NATIVE_FEED_DESKTOP_OBSERVED_SCOPE"
+    }
+  ],
+  "reader": {
+    "observation": "Actual desktop reader screenshot inspected, source English-summary disclosure/name/China geography/qualitative context correct; reader and return route observed. Current mobile390x844 DOM text/no overflow observed; capture timed out, no mobile visual PASS.",
+    "desktop": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/evidence/fabless-v5-reader-desktop.jpg",
+      "sha256": "e2082f818c9c649a7fb160117ac291e12d56610019ab1400f8a67beb4dff81b2",
+      "revision": "actual-artifact-v5"
+    },
+    "sha_matches_v4": true
+  },
+  "proof_scope": "Qualitative China outsourced-management integrated-solution case. Local Vietnam ERP consulting/implementation service is a separate source-backed prospective discussion. No Vietnam Fabless deployment, exact F1 mechanism proof, ERP-only causality, metrics, headcounts or all-team language promise.",
+  "review_discrepancies": [
+    {
+      "issue": "Existing report prop rule-lines are not literally blank paper surfaces",
+      "reconciliation": "PO latest Visual ổn r/content-only addition interpreted as preserving selected v4 visuals. A5 and reused Bright2 generic unlabelled lines retained, with no record values/text or invented metrics. Do not certify literal all-paper-blank compliance from the prompt. Frozen core/procedure unchanged; this scoped interpretation and visual evidence remain reviewable."
+    },
+    {
+      "issue": "Immediate screenshots after switching proof2/proof3 showed preceding artwork",
+      "reconciliation": "Original feed09/feed10 excluded. Rebound after fresh DOM/currentSrc observations; confirmed09/10 screenshots reviewed and selected instead. No asset replacement was required."
+    },
+    {
+      "issue": "Mobile DOM reads during rapid navigation showed loaded=false/naturalWidth0 for some cards",
+      "reconciliation": "Transient reads retained as observations, not load or visual PASS. Team final settled mobile capture and nativeWidth1254 verified; all-other mobile captures remain missing."
+    }
+  ],
+  "verdicts": {
+    "MSG_ANCHOR_01": "INSUFFICIENT_EVIDENCE_WHOLE_JOURNEY_FULL_MOBILE",
+    "AD_ED_01": "INSUFFICIENT_EVIDENCE_WHOLE_SET_FULL_MOBILE",
+    "new_team_card": "PASS_SELF_REVIEW_IN_NATIVE_FEED_DESKTOP_MOBILE_SCOPE",
+    "whole_journey": "NOT_READY_NOT_ACCEPTED",
+    "independent_native_market": "NOT_RUN"
+  },
+  "technical": {
+    "feed": "All11 current artwork visually inspected at331.22CSSpx plus separate team333CSSpx; caption/native wording compared with selected copy. Some viewer feed native-headline tails below initial viewport; desktop screenshot covers full native headline.",
+    "desktop": "All11 artwork fully visible at638.22CSSpx in current main viewer, source/body/sequence/logo inspected; actual viewport1707x879. No full-page capture claim.",
+    "mobile": "Team card actual390x844 DOM image347.56CSSpx and accepted viewport screenshot inspected; body/source/headline all present. Full remaining10 and reader mobile visual captures missing; multiple5000ms timeouts. No raw CDP route used.",
+    "capture_failures": [
+      "Initial team desktop fullPage timeout5000ms, subsequent viewport capture succeeded",
+      "Reader mobile capture timeout5000ms",
+      "Cold mobile viewport capture twice timeout5000ms despite settled loaded1254/image inside390x844viewport"
+    ],
+    "browser_contention": "First lock attempt found Partner B22 owner; no tab action; own preliminary server stopped. Later atomic acquisition succeeded, v5 controlled only its created tab."
+  },
+  "counts": {
+    "v5_base_calls": 6,
+    "new_card": 1,
+    "sequence_revision_edits": 5,
+    "v5_corrective_calls": 0,
+    "v5_reused_pngs": 5,
+    "selected_artwork": 11,
+    "prior_calls": 14,
+    "cumulative_calls": 20
+  },
+  "freeze": "24/24 byte identical; locale adapter DEVELOPING/NOT_FROZEN",
+  "docs": "Owned docs-impact proposal updated for coordinator, shared canonical writes not authorized. Reconcile current-state/build/readiness/source-register before PASS/commit/accepted handoff.",
+  "cleanup": {
+    "own_tab_closed": true,
+    "viewport_reset_api_returned": true,
+    "immediate_post_reset_DOM": [
+      390,
+      844
+    ],
+    "viewport_note": "Immediate DOM read was not used as proof of restored default dimensions; reset API completed before tab close.",
+    "own_servers_stopped": [
+      3840,
+      25028
+    ],
+    "own_lock_released": true
+  },
+  "git": "Working-tree files only in owned2roots. No stage/commit/merge/main/push/live.",
+  "stop": "B14-B21 NOT_RUN; v1-v4 receipts/findings retained historical."
+}

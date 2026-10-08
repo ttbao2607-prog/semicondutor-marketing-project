@@ -1,0 +1,61 @@
+{
+  "revision": "b17-dispatch-v1",
+  "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+  "route": "offline zh-Hans demand-change cold -> F2 planning reconciliation -> Vietnam consulting/implementation -> qualitative China outsourcing case -> localized planning-question reader",
+  "locale": "zh-Hans",
+  "original_cap": 10,
+  "corrective_cap": 2,
+  "per_card_corrective_cap": 1,
+  "calls": [
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a5",
+      "call_id": "B17_F2_A5_V1",
+      "card_id": "F2-A5",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a5/native/f2-a5-zh-Hans-v1.png",
+      "release_sha256": "af05cce67cf1468962b7dccd83d4ccc7c119e431c0d940667c4732022d46d593",
+      "review_sha256": "8378c18fbb7283103996762834904ade69d43387f62ed6e0ee4a62e233bba64e"
+    },
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a3",
+      "call_id": "B17_F2_A3_V1",
+      "card_id": "F2-A3",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a3/native/f2-a3-zh-Hans-v1.png",
+      "release_sha256": "3ff5ae28e69847a646f3cd9d88899214ad7e407f7e5443e97660785c3aba29ea",
+      "review_sha256": "8bfb459008c47656de988aa0bf6bba2544c3ae7af18325a6409bdb1f729f7599"
+    },
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/cold-fabless-b17",
+      "call_id": "B17_COLD_FABLESS_B17_V1",
+      "card_id": "COLD-FABLESS-B17",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/cold-fabless-b17/native/cold-fabless-b17-zh-Hans-v1.png",
+      "release_sha256": "05c101d932f2b4b89e7de2ddecbe55b6e65b1e0441bbcf8a630f52bdc9b5b171",
+      "review_sha256": "40a39c16bf7d802078ae7f2a1e5348049980e072dd5b6d9eac40e672e0daa2c0"
+    },
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a1",
+      "call_id": "B17_F2_A1_V1",
+      "card_id": "F2-A1",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a1/native/f2-a1-zh-Hans-v1.png",
+      "release_sha256": "c9ffed204f20225783413d94c54f56498ad1aaa5301a848c55e61b13e2aab1ac",
+      "review_sha256": "c05d48ed61b9c86e9449532305fc5efcdda3e6a2cf4433584977cf194b414504"
+    },
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a2",
+      "call_id": "B17_F2_A2_V1",
+      "card_id": "F2-A2",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a2/native/f2-a2-zh-Hans-v1.png",
+      "release_sha256": "a8628842b6319155804d76d6c5917678d0e4909e5b18830a0be4396f988e8e33",
+      "review_sha256": "c01b17196e03ec227411e5a753d4797fc375e7d91f6a3b2df835b52a89fe2e9d"
+    },
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a4",
+      "call_id": "B17_F2_A4_V1",
+      "card_id": "F2-A4",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a4/native/f2-a4-zh-Hans-v1.png",
+      "release_sha256": "5f08522c23c5019a0c781f7f8de35a412df8a116aa515441ebb23026147490da",
+      "review_sha256": "e4e6269d61634e0848966d8826033582c2d3b9683ec1c6f5eaf3d9c7a3b4c99c"
+    }
+  ],
+  "fresh_preflight_required_before_each_call": true,
+  "trust": "Root actual coordinator/reviewer SELF_REVIEW; no independent/native-market certification"
+}

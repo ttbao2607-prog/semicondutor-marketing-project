@@ -1,0 +1,60 @@
+{
+  "layer": "PREGEN_ANCHOR_SCRIPT_CHECK",
+  "status": "PREGEN_INPUTS_VERIFIED",
+  "call_id": "B14_F1_A6_V1",
+  "scope": {
+    "segment": "FDI",
+    "locale": "zh-Hans",
+    "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+    "route": "offline zh-Hans cold -> F1 outsourced-lot reporting -> Vietnam ERP consulting/implementation discussion -> qualitative China Bright Power integrated-solution case -> zh-Hans case reader"
+  },
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "revision": "1.0"
+  },
+  "message_review_sha256": "bb2ac3f487c0a8354f7b9a12d7f09807a39ecf58133ff20992277bd650967f69",
+  "script_review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a6/script-review.json",
+    "sha256": "13202e479dbae4da25cc8edd37a170a25221519cb3bf065f63cf709842cc1d0c",
+    "revision": "b14-f1-a6-script-v1"
+  },
+  "input_hashes": {
+    "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/07-f1-a6.png": "8d2d935bfe766b8e127ad27a249ff1e9796a043c11dc5d448f213ae67ef35c5c",
+    "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/selected-copy.json": "dd81344218d7c39669e134ffdd6f6e971ef63415133b1f094340cc7c2fa87f1d",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-locale-adapter/profiles.json": "1b0105ed92ef866fb7a5796aefcdfb9d8e9d9683c72f4257295e80a06653a6cd",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/execution-brief.md": "acd570768df790dbcd8c863db13ee87022ba135a25cbf4bdeb1dfd4045326b49",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/explanation/public-copy.json": "bcfb5fd8db88fe98a0fb849ba3c4a78d4fc394bec3be1caeb1d36713eb429bfb",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/generation-mandate.json": "b05037431fd91ed4b675acaaa198788415611371b7e55db1a320a80ad906fc06",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/proof-source-mapping.json": "cdfb5888a5d436b7c9544ba342e1202b59521318a0f7329fdaeed8aab59b73e9",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a6/contract.json": "89af64c8391771f8d2c68d66281de6a535bbb05491cfcde6b8910b3b5dbd5ca1",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a6/release.json": "a06aefae08cd170fec3b225a8bb8a1b92c9e48de62688b71ea794d4a9931a65d",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a6/review.json": "dd10f216eb3d8f4b61c287514017616d9aacac74cc3545b451afdb166a941ec8",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a6/spec.json": "187029e77a9ed18ad0e47d4f9aa04eb7a4652240fd362403834d91094e5eafe1",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/semantic-review.json": "f6160ae9c4579be934c26ed0306d47fc6900c64ad4cc9d229e6cff319a535080",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/vietnam-team-source.json": "4dd9ad85cb7f78e04ea0f666899b83f7e005f945c0c4ed3502c29476a91d4e67",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/next-locales-authored-input.json": "2353f8b6274ed9eb45ad254740a914205ca1ca36749395f4fd5443fefcd32784",
+    "scripts/verify_imagegen_preflight.py": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a6/anchor-review.json": "bb2ac3f487c0a8354f7b9a12d7f09807a39ecf58133ff20992277bd650967f69",
+    "operations/Vy_Email_Content_Anchor.md": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a6/script-review.json": "13202e479dbae4da25cc8edd37a170a25221519cb3bf065f63cf709842cc1d0c",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/cold/public-copy.json": "6156b13c1ccdb1464bdcdb46fdb166c60af905744347db5bd9d5849cb8954c8d",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/proof/public-copy.json": "50dab449b9ae81b30ec5b739a6ad8db36eb22c3553c5ffbd181ea9f5a0ab0703",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/reader-script.json": "918752a855d367d3a858da46670a7a5388c57886af07e2c3ae4491d710b53eef"
+  },
+  "mechanical_verdict": "PASS",
+  "message_review_binding": "PASS",
+  "semantic_verdict": "REVIEWER_ATTESTED_NOT_AUTOMATICALLY_ASSESSED",
+  "purpose": "OFFLINE_IMAGEGEN",
+  "authority": "NO_ADDITIONAL_GENERATION_AUTHORITY",
+  "tool_args": {
+    "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"Use case: ads-marketing. Print only supplied Simplified Chinese artwork text. Professional operational Chinese: clear reconciliation objects and responsible team, concise question and practical next step. Use supplied mainland terminology, not word-for-word Vietnamese syntax. No assumptions about national personality, certification or guaranteed results. Keep original scene and narrative order. Preserve Simplified Chinese glyphs and exact supplied punctuation. Never mix scripts or use pseudo-Chinese. Use ASCII parentheses for approved acronym definitions to remain compatible with the frozen gate; do not normalize other punctuation. Review Chinese punctuation at line starts/ends and mixed Latin terms at 333px; reduce scene area before shrinking type. New artwork in the B13v5 visual family: bright white/pale blue, grounded daylight, navy/blue type, material depth. No English/Vietnamese reference wording. Supplied Latin Digiwin, ERP, MES, domain and exact legal company name are intentional proper literals. Official supplied logo once; no additional DIGIWIN header label. Category and sequence are separate from source, exact near logo. Headline dominant and body comfortably readable at333CSSpx. Every source is a full-width normal main paragraph on WHITE, at least body-sized, high contrast, with complete legal name on its own readable line. Reserve bottom35percent for source/CTA when long; shrink scene before type. No source icon column, tiny footer/divider, skyline/pagoda/map/customer facility/seal/badge, unapproved punctuation, chart/tick/data glyphs or technical UI. All paper surfaces blank. No copy of English labels, reference wording or exact composition. Narrative/props stay within the reviewed concept. Exact counter and category required; CTA only if supplied.\",\"revision\":\"campaign-r2-hybrid-full-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/07-f1-a6.png\",\"revision\":\"b13-v5-selected-visual-family-reference\",\"role\":\"campaign_visual\",\"sha256\":\"8d2d935bfe766b8e127ad27a249ff1e9796a043c11dc5d448f213ae67ef35c5c\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"official-logo-pinned\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"ERP · 芯片运营\",\"6/6\"],\"card_id\":\"F1-A6\",\"concept_id\":\"b14-f1-a6-scene-v1\",\"description\":\"Bright illustrative consultation tabletop with two distinct blank project folios, a neutral chip sample and open blue physical paths between unlabelled responsibility tokens. Generic discussion material, not a customer facility, staff portrait or software UI. Compact scene leaves a large full-width plain white source block, source at least body-sized. No map/flag/skyline/ticks/labels/data/results or fabricated people. New locale zh-Hans: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact.\",\"props\":[\"blank project folios\",\"neutral chip sample\"],\"reader_question\":\"越南本地咨询与实施\"}]\nAPPROVED ARTWORK TEXT\n{\"F1-A6\":{\"artwork_labels\":[\"ERP · 芯片运营\",\"6/6\"],\"body\":\"与我们在越南的团队讨论 ERP 咨询与实施。先梳理报告流程、更新责任与项目优先事项。\",\"cta\":\"\",\"headline\":\"越南本地咨询与实施\",\"source_text\":\"Digiwin 越南 · ERP 咨询与实施\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a6/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+    "referenced_image_paths": [
+      "D:\\LinkedIn_Safe_Fabless_2026-10-07\\deliverables\\linkedin-safe-batches\\parallel-fabless-2026-10-07\\B13-en-f1-v5\\assets\\07-f1-a6.png",
+      "D:\\LinkedIn_Safe_Fabless_2026-10-07\\operations\\linkedin-imagegen-dogfood\\hybrid-full-2026-10-03\\common\\references\\digiwin-logo.webp"
+    ],
+    "transparent_background": false
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "revision": "b14-f1-a3-source-review-v1",
+  "writer": "/root",
+  "reviewer": "/root",
+  "date": "2026-10-07",
+  "scope": "OFFLINE_SOURCE_COPY",
+  "independence": "SELF_REVIEW",
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a3/contract.json",
+      "sha256": "6fd4fbc399633f83144858cae56c6b57bc6eca296d59b0086410b48072b5a9f0",
+      "revision": "b14-f1-a3-contract-v1"
+    },
+    "copy": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/explanation/public-copy.json",
+      "sha256": "bcfb5fd8db88fe98a0fb849ba3c4a78d4fc394bec3be1caeb1d36713eb429bfb",
+      "revision": "b14-explanation-zh-Hans-copy-v1"
+    },
+    "sources": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/execution-brief.md",
+        "sha256": "acd570768df790dbcd8c863db13ee87022ba135a25cbf4bdeb1dfd4045326b49",
+        "revision": "b14-brief-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/proof-source-mapping.json",
+        "sha256": "cdfb5888a5d436b7c9544ba342e1202b59521318a0f7329fdaeed8aab59b73e9",
+        "revision": "b14-proof-map-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/vietnam-team-source.json",
+        "sha256": "4dd9ad85cb7f78e04ea0f666899b83f7e005f945c0c4ed3502c29476a91d4e67",
+        "revision": "b14-vietnam-team-source-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/next-locales-authored-input.json",
+        "sha256": "2353f8b6274ed9eb45ad254740a914205ca1ca36749395f4fd5443fefcd32784",
+        "revision": "b14-b15-f1-actual-authored-copy-v1"
+      },
+      {
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/selected-copy.json",
+        "sha256": "dd81344218d7c39669e134ffdd6f6e971ef63415133b1f094340cc7c2fa87f1d",
+        "revision": "b13-review-copy-v5-six-explanation"
+      },
+      {
+        "path": "operations/linkedin-locale-adapter/profiles.json",
+        "sha256": "1b0105ed92ef866fb7a5796aefcdfb9d8e9d9683c72f4257295e80a06653a6cd",
+        "revision": "locale-adapter-draft-2026-10-06-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/semantic-review.json",
+        "sha256": "f6160ae9c4579be934c26ed0306d47fc6900c64ad4cc9d229e6cff319a535080",
+        "revision": "b14-zh-hans-actual-root-script-review-v1"
+      }
+    ]
+  },
+  "verdicts": {
+    "source_copy": "PASS",
+    "editorial": "PASS",
+    "first_mention": "PASS"
+  },
+  "reviewed_ads": [
+    "F1-A"
+  ],
+  "reviewed_fields": [
+    "F1-A/caption",
+    "F1-A/F1-A1.headline",
+    "F1-A/F1-A1.body",
+    "F1-A/F1-A1.source_text",
+    "F1-A/F1-A1.cta",
+    "F1-A/F1-A1.native_headline",
+    "F1-A/F1-A1.alt",
+    "F1-A/F1-A1.artwork_labels",
+    "F1-A/F1-A2.headline",
+    "F1-A/F1-A2.body",
+    "F1-A/F1-A2.source_text",
+    "F1-A/F1-A2.cta",
+    "F1-A/F1-A2.native_headline",
+    "F1-A/F1-A2.alt",
+    "F1-A/F1-A2.artwork_labels",
+    "F1-A/F1-A3.headline",
+    "F1-A/F1-A3.body",
+    "F1-A/F1-A3.source_text",
+    "F1-A/F1-A3.cta",
+    "F1-A/F1-A3.native_headline",
+    "F1-A/F1-A3.alt",
+    "F1-A/F1-A3.artwork_labels",
+    "F1-A/F1-A4.headline",
+    "F1-A/F1-A4.body",
+    "F1-A/F1-A4.source_text",
+    "F1-A/F1-A4.cta",
+    "F1-A/F1-A4.native_headline",
+    "F1-A/F1-A4.alt",
+    "F1-A/F1-A4.artwork_labels",
+    "F1-A/F1-A5.headline",
+    "F1-A/F1-A5.body",
+    "F1-A/F1-A5.source_text",
+    "F1-A/F1-A5.cta",
+    "F1-A/F1-A5.native_headline",
+    "F1-A/F1-A5.alt",
+    "F1-A/F1-A5.artwork_labels",
+    "F1-A/F1-A6.headline",
+    "F1-A/F1-A6.body",
+    "F1-A/F1-A6.source_text",
+    "F1-A/F1-A6.cta",
+    "F1-A/F1-A6.native_headline",
+    "F1-A/F1-A6.alt",
+    "F1-A/F1-A6.artwork_labels"
+  ],
+  "unresolved_findings": []
+}

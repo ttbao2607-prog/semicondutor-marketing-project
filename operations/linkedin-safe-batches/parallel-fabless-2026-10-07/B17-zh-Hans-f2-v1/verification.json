@@ -1,0 +1,45 @@
+{
+  "revision": "b17-f2-hold-verification-v1",
+  "frozen_pins_unchanged": 24,
+  "native_attempts": [
+    {
+      "call_id": "B17_F2_A5_V1",
+      "native_sha256": "bb6fd61d8bbcde6adc695e74c10492324a51c45752f276b226b8a799913bf782",
+      "fresh_guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a5/dispatch/B17_F2_A5_V1-fresh-preflight.json",
+        "sha256": "e7e4a5517d8e708ef2e2d30b1167a37ebb970403d011ea38af4c5d33d72e5a91"
+      },
+      "release_sha256": "af05cce67cf1468962b7dccd83d4ccc7c119e431c0d940667c4732022d46d593",
+      "anchor_review_sha256": "8378c18fbb7283103996762834904ade69d43387f62ed6e0ee4a62e233bba64e"
+    },
+    {
+      "call_id": "B17_F2_A5_C1",
+      "native_sha256": "8c91f76d6062a7d6e78816cfc32ced0aa514c0547df7d0ba1d815b62e26e1d76",
+      "fresh_guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/corrective-v1/f2-a5/dispatch/B17_F2_A5_C1-fresh-preflight.json",
+        "sha256": "8759cbe5b1deb66b9067563aa407bc523abcea03f30dec9e9ac05b14b3df14d3"
+      },
+      "release_sha256": "fd4c26521e94adf179737c66a40fe1f2a6f7efa5b136dfbd546ec523ab16c803",
+      "anchor_review_sha256": "558ec07b9876dcb1ab028a31b84f332d9110d37dfbea10c0e40dfc5c9fe20cde"
+    },
+    {
+      "call_id": "B17_F2_A3_V1",
+      "native_sha256": "4b91cafb7f57ecad61e9ebe6e2bf5c343f9863059a43de2d84a28ea505f91c1b",
+      "fresh_guard": {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a3/dispatch/B17_F2_A3_V1-fresh-preflight.json",
+        "sha256": "55a0cad702a94ba48551fde361169d89cb7dc37e82e4235a1a697e9a27029a5c"
+      },
+      "release_sha256": "3ff5ae28e69847a646f3cd9d88899214ad7e407f7e5443e97660785c3aba29ea",
+      "anchor_review_sha256": "8bfb459008c47656de988aa0bf6bba2544c3ae7af18325a6409bdb1f729f7599"
+    }
+  ],
+  "selected_raw_pngs": 7,
+  "transformations": 0,
+  "zip": false,
+  "original_cap": 10,
+  "corrective_batch_cap": 2,
+  "per_card_cap_exception": 1,
+  "postgen_sha256": "f7378054682ca5729764c7ee66854e9c8115c640eed9c86808fcc20cba590237",
+  "render_pass": false,
+  "scope": "Mechanical verification only; actual native corrective finding remains open."
+}

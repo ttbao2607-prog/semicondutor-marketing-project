@@ -1,0 +1,61 @@
+{
+  "layer": "PREGEN_ANCHOR_SCRIPT_CHECK",
+  "status": "PREGEN_INPUTS_VERIFIED",
+  "call_id": "B20_F3_A1_V1",
+  "scope": {
+    "segment": "FDI",
+    "locale": "zh-Hans",
+    "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+    "route": "offline zh-Hans partner-handoff cold -> F3 lot/record/confirmation coordination -> Vietnam consulting/implementation -> qualitative China outsourcing case -> localized handoff-question reader"
+  },
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "revision": "1.0"
+  },
+  "message_review_sha256": "560d6aa30b5a12d350da1ba9a9f72f8f8ac903568ba833ff344eb1fe49a22fcc",
+  "script_review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/release/f3-a1/script-review.json",
+    "sha256": "90f08eb362b889ee3b02044fc5bda6561bdca474d7936c2fdb0243eb33c92726",
+    "revision": "b20-f3-a1-script-v1"
+  },
+  "input_hashes": {
+    "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v2/assets/02-f2-a1.png": "67e4149093c862e80f20a23de3cf5e1c2eb66dc3dbcd674ef2cd38fb47305919",
+    "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v2/selected-copy.json": "e1a8780cf334246f1d64ea0af49c5cace71d71f5dcb0cad7ff187a1e15f6b839",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F3/common/f3-copy.json": "42bfe643e390dc933637a852bc82210c288139c2bfee4e548826d3c907c640a6",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-locale-adapter/profiles.json": "1b0105ed92ef866fb7a5796aefcdfb9d8e9d9683c72f4257295e80a06653a6cd",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/execution-brief.md": "029d4dfaa8635c335786ecedf707c9c1dbc1815952b2314db6e3bdbd7d602bd1",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/explanation/public-copy.json": "8713155b122c8f2e576cba18c8c818762ebd18ed90ed52a84838ce6dec8f76e7",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/generation-mandate.json": "d95d2c2b2c822ceaf2b8b774ea322f85e7481af2e80c3f23c78f9f58ac9d7430",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/proof-source-mapping.json": "d8b5fe6c9f691f1c0a613232b8c487f8e2e88becd5050e017745da147b21bf61",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/release/f3-a1/contract.json": "461e4eb812a9bff451b1e4da3a4036a0da03fa11e30a7c45f76a5ecf2be71c27",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/release/f3-a1/release.json": "dddfbcef1f717424fa22815d1d28df50ecabe7d17546089b5697c3e5d36a6ae0",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/release/f3-a1/review.json": "292c7f057e8acbb9e1d79bddb0e918b17a129e9438448b01085b9d1bc3d6568a",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/release/f3-a1/spec.json": "8eaec3543af3316f4fb26f8934bf8eb4a81cf7af9d0eb1d21d8713d6d3437928",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/semantic-review.json": "5e4d901098715e09406abd7d08bdd5c1e1b12e68654c4cc338f20325f5f8be08",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/vietnam-team-source.json": "65389da0c83e7a6c85a8c7d78f3c8f8da9f7f06d6f9c32721c2ae2f095f864c4",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/b20-b21-authored-input.json": "7ed7cf46abb42fc9d97355a0dc3c7c6c7ce7b34c997938517ee9029764c06f9f",
+    "scripts/verify_imagegen_preflight.py": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/release/f3-a1/anchor-review.json": "560d6aa30b5a12d350da1ba9a9f72f8f8ac903568ba833ff344eb1fe49a22fcc",
+    "operations/Vy_Email_Content_Anchor.md": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/release/f3-a1/script-review.json": "90f08eb362b889ee3b02044fc5bda6561bdca474d7936c2fdb0243eb33c92726",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/cold/public-copy.json": "0081098cc7d0a59d3aa5dfee9fb8ae308ff4ab395b5b8b447a173a81766bddc9",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/proof/public-copy.json": "565c6a008699c0616fa9483bda4165eff844a6178fe7553b7b2302227a741762",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/reader-script.json": "6ad391e6e97aeb65a9993e1ab0b59b446f1fc3e6cb3ea3da6410abbfc43f62e6"
+  },
+  "mechanical_verdict": "PASS",
+  "message_review_binding": "PASS",
+  "semantic_verdict": "REVIEWER_ATTESTED_NOT_AUTOMATICALLY_ASSESSED",
+  "purpose": "OFFLINE_IMAGEGEN",
+  "authority": "NO_ADDITIONAL_GENERATION_AUTHORITY",
+  "tool_args": {
+    "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"Print only supplied Simplified Chinese artwork text. Professional operational Chinese: clear reconciliation objects and responsible team, concise question and practical next step. Use supplied mainland terminology, not word-for-word Vietnamese syntax. No assumptions about national personality, certification or guaranteed results. Keep original scene and narrative order. Preserve Simplified Chinese glyphs and exact supplied punctuation. Never mix scripts or use pseudo-Chinese. Use ASCII parentheses for approved acronym definitions to remain compatible with the frozen gate; do not normalize other punctuation. Review Chinese punctuation at line starts/ends and mixed Latin terms at 333px; reduce scene area before shrinking type. B13v5 bright white/blue photographic campaign family. Reference wording is not approved copy. Official supplied logo once; no extra DIGIWIN header. Exact category/sequence near logo. Chinese body MUST wrap naturally into2-3 large readable lines at333CSSpx; never squeeze a long body onto one small line. Entire Taiwan source must wrap into2-3 full-width large lines, each at least body-sized. Shrink scene before text. Body comfortably readable at333CSSpx. Source normal full-width main paragraph on white, at least body-sized. All paper blank; no bars/rules/charts/ticks/data glyphs/UI/customer geography/seal/badge. Only approved artwork words. Partner handoff questions are not forecast accuracy or automatic replanning claims. Reduce scene before type.\",\"revision\":\"campaign-r2-hybrid-full-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v2/assets/02-f2-a1.png\",\"revision\":\"b13-v5-selected-visual-family-reference\",\"role\":\"campaign_visual\",\"sha256\":\"67e4149093c862e80f20a23de3cf5e1c2eb66dc3dbcd674ef2cd38fb47305919\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"official-logo-pinned\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"ERP · 芯片运营\",\"1/6\"],\"card_id\":\"F3-A1\",\"concept_id\":\"b20-f3-a1-f3-scene-v1\",\"description\":\"Two neutral partner work areas, a sealed wafer protective carrier and wholly blank accompanying record sheets at a handoff point. No actual customer shipment or shipping status. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.\",\"props\":[\"blank partner reports\",\"wafer protective carrier\"],\"reader_question\":\"批次转交伙伴，哪些信息要一起交接？\"}]\nAPPROVED ARTWORK TEXT\n{\"F3-A1\":{\"artwork_labels\":[\"ERP · 芯片运营\",\"1/6\"],\"body\":\"委外批次在生产伙伴之间转交时，先明确随批次交接的信息，以及由谁确认。\",\"cta\":\"\",\"headline\":\"批次转交伙伴，哪些信息要一起交接？\",\"source_text\":\"\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/release/f3-a1/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+    "referenced_image_paths": [
+      "D:\\LinkedIn_Safe_Fabless_2026-10-07\\deliverables\\linkedin-safe-batches\\parallel-fabless-2026-10-07\\B17-zh-Hans-f2-v2\\assets\\02-f2-a1.png",
+      "D:\\LinkedIn_Safe_Fabless_2026-10-07\\operations\\linkedin-imagegen-dogfood\\hybrid-full-2026-10-03\\common\\references\\digiwin-logo.webp"
+    ],
+    "transparent_background": false
+  }
+}

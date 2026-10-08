@@ -1,0 +1,13 @@
+{
+  "revision": "b15-f1-a5-cta-c1-20261008",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "anchor_verdict": "MESSAGE_ANCHOR_PASS",
+  "card_id": "F1-A5",
+  "original_sha256": "3ac2d6262ca4b43fae5d41de4916d17a48f230ba0ab66e642231065ad17bc696",
+  "po_authorization": "Xử lý B17 trước để closeout, B13-15 closeout để merge nó vào main. Tiến hành sửa/hậu kiểm, action cần thiết.",
+  "finding": "Actual desktop card6 CTA inherited Simplified 探讨委外生产管理问题; exact approved Hant is 探討委外生產管理問題. Legal-name exception does not apply to CTA.",
+  "observation": "Root actually read current desktop640 card6. Headline/body/source/category/counter correct Hant, source large complete. Same anchor1.0 Operations/SCM FDI reporting/shared-basis journey. Only CTA glyph replacement; no claim or semantic change.",
+  "edit_instructions": "TEXT LOCALIZATION EDIT ONLY. Replace the white text inside bottom blue CTA pill with EXACT Traditional Chinese: 探討委外生產管理問題 . The glyphs 討 產 問 題 must be Traditional; never 探讨委外生产管理问题. Preserve all other text and punctuation, source, headline, body, official Digiwin logo once, category ERP · 晶片營運, counter5/6, all sizes/layout/scene/color/lighting and existing chevron. Do not add or remove any other element. Blank paper remains blank. No new claims/data."
+}

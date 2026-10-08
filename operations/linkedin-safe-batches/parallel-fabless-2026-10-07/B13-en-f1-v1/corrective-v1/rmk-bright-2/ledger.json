@@ -1,0 +1,15 @@
+{
+  "revision": "b13-corrective-ledger-v1",
+  "card_id": "RMK-BRIGHT-2",
+  "finding": "Unapproved skyline/icon column/divider, source publisher too small.",
+  "original": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/release-v2/campaign/native/rmk-bright-2-b13-en-v1.png",
+    "sha256": "cf39f6e109eb5ef60f1d13e05d1860923769629f80c56b6cd3addecc3e0939ea",
+    "revision": "original-b13-native"
+  },
+  "hypothesis": "Reference scene/footer transfer; not proven tool/core cause.",
+  "direction": "Edit reference1. Preserve exact headline, body, official logo, CHIP-DESIGN CASE,2/4 and full Chinese legal name. Remove the entire skyline/landmark icon and vertical divider from source area. Source becomes plain full-width WHITE main text after compact image, NO icon box, NO skyline, NO separator lines. Source exact2lines: Digiwin Vietnam · Semiconductor case collection; 上海晶丰明源半导体股份有限公司. Both source lines at least as large as body, approximately56native pixels per1080width, generous whole width. Shrink image scene to create space. No added symbols. Background paper remains blank without bands. Exact same meaning and no new objects.",
+  "acceptance": "Exact text, source at least body size; no skyline/icon/divider or unapproved props. Native/render closure required.",
+  "cap": 1,
+  "status": "PREPARED_POSTGEN_NOT_RUN"
+}

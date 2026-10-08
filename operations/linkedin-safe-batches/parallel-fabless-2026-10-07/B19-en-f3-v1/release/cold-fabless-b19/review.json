@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "revision": "b19-cold-fabless-b19-source-review-v1",
+  "writer": "/root",
+  "reviewer": "/root",
+  "date": "2026-10-07",
+  "scope": "OFFLINE_SOURCE_COPY",
+  "independence": "SELF_REVIEW",
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/release/cold-fabless-b19/contract.json",
+      "sha256": "9bc7351ba0f4a9925af7180fb48e4ef25e0e4dd9b44bfe5fac3837804f085d65",
+      "revision": "b19-cold-fabless-b19-contract-v1"
+    },
+    "copy": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/cold/public-copy.json",
+      "sha256": "0f3c78d2b8330c14607753912aa88824bd9a408494c587c135719119f7fcbdec",
+      "revision": "b19-f3-cold-copy-v1"
+    },
+    "sources": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/execution-brief.md",
+        "sha256": "8336534bf5aa06f5fa3af69d7f30953d13c9758160d6dd69651df934e89942a2",
+        "revision": "b19-f3-brief-v1"
+      },
+      {
+        "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F3/common/f3-copy.json",
+        "sha256": "42bfe643e390dc933637a852bc82210c288139c2bfee4e548826d3c907c640a6",
+        "revision": "f3-source-read-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/b18-b19-authored-input.json",
+        "sha256": "b70a1ec3026f1fa9a61dd5976376e9c6d4d7a784f55757de0ec9918a460621e7",
+        "revision": "b18-b19-root-authored-2026-10-08-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/proof-source-mapping.json",
+        "sha256": "93bd8e67bfb210106dfb57be91df2b959cc517898bb224ad24335425bba57412",
+        "revision": "b19-f3-proof-map-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/vietnam-team-source.json",
+        "sha256": "7a479dbfe578684229293d0c970ced20765f4ac36df21fa9970b4f89cfbd6833",
+        "revision": "b19-f3-vietnam-service-v1"
+      },
+      {
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/selected-copy.json",
+        "sha256": "d5cc4ac186b8c44f73e3873a1f14ce0a03cb9568692e79e677a502c4a915edc3",
+        "revision": "b16-review-copy-en-v2"
+      },
+      {
+        "path": "operations/linkedin-locale-adapter/profiles.json",
+        "sha256": "1b0105ed92ef866fb7a5796aefcdfb9d8e9d9683c72f4257295e80a06653a6cd",
+        "revision": "locale-adapter-draft-2026-10-06-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/semantic-review.json",
+        "sha256": "e34598120555ebc894121b132c27c39fb11d561e8388bf9b9fe36f9495240f70",
+        "revision": "b19-actual-root-script-review-v1"
+      }
+    ]
+  },
+  "verdicts": {
+    "source_copy": "PASS",
+    "editorial": "PASS",
+    "first_mention": "PASS"
+  },
+  "reviewed_ads": [
+    "B19-COLD"
+  ],
+  "reviewed_fields": [
+    "B19-COLD/caption",
+    "B19-COLD/COLD-FABLESS-B19.headline",
+    "B19-COLD/COLD-FABLESS-B19.body",
+    "B19-COLD/COLD-FABLESS-B19.source_text",
+    "B19-COLD/COLD-FABLESS-B19.cta",
+    "B19-COLD/COLD-FABLESS-B19.native_headline",
+    "B19-COLD/COLD-FABLESS-B19.alt",
+    "B19-COLD/COLD-FABLESS-B19.artwork_labels"
+  ],
+  "unresolved_findings": []
+}

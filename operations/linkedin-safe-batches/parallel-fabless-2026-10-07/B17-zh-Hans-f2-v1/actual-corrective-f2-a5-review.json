@@ -1,0 +1,12 @@
+{
+  "revision": "b17-f2-a5-actual-corrective-review-v1",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "anchor_verdict": "MESSAGE_ANCHOR_PASS",
+  "card_id": "F2-A5",
+  "original_sha256": "bb6fd61d8bbcde6adc695e74c10492324a51c45752f276b226b8a799913bf782",
+  "finding": "EXTRA_CTA_CHEVRON_AND_SOURCE_PANEL",
+  "observation": "Actual Chinese source is large enough and all approved Chinese words are present. Remove unapproved CTA chevron and pale-blue source panel; preserve all large source glyphs and exact F2 message.",
+  "edit_instructions": "TARGETED EDIT actual Chinese reference. Preserve exact approved Chinese headline/body/source/category ERP · 芯片运营/5/6/CTA and official logo once. Preserve source size: at least body-sized, preferably larger as current. REMOVE white CTA chevron/arrow, use only 探讨委外生产计划问题. Remove pale blue rounded source panel and set source on full-width PURE WHITE paragraph with no box/divider/icon column. Replace ruled document node with neutral solid node, no lines or record marks. All paper blank. No extra wording/punctuation, no changed claims. Keep current large source and neutral bright photographic style."
+}

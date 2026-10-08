@@ -1,0 +1,24 @@
+"""Preventive reviewed layout/reference revision for uncalled originals only."""
+from prepare_draft import *
+core=module('scripts/verify_imagegen_preflight.py');guard=module('scripts/verify_imagegen_anchor_preflight.py');plan=load(BASE+'/dispatch-plan.json');assert len(load(BASE+'/attempt-ledger.json')['attempts'])==5
+put(BASE+'/dispatch-plan-before-layout-v3.json',plan)
+direction='MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning.'
+put(BASE+'/remaining-layout-review.json',dict(revision='b13-remaining-layout-self-review-v3',reviewer='/root',independence='SELF_REVIEW',verdict='SCRIPT_REVIEW_PASS',direction=direction,reason='Native canary showed unwanted skyline/small source; cold omitted category. Both corrected within2cap. Preventive source hierarchy/category/reference clarification for7uncalled originals, no extra calls.',review='Same FDI Operations/SCM persona, questions and qualitative proof. Source publisher attribution/full legal name kept; no semantic/claim/locale/order change. R2 refs now2clean style images plus official logo, closing guide only on proof4; no skyline style reference. All uncalled scenes checked against these restrictions.',affected_cards=[j['card_id'] for j in plan['calls'][3:]],original_copy_unchanged=True))
+for old in sorted({j['folder'] for j in plan['calls'][3:]}):
+ selected=[j for j in plan['calls'][3:] if j['folder']==old];new=old.replace('release-v2','release-v3')
+ c=load(old+'/contract.json');c['revision']+='-layout-v3';c['output']['directory']=new+'/native';c['style']['campaign']['instructions']+=' '+direction
+ c['references']=[x for x in c['references'] if x['role']!='campaign_visual' or x['path'].endswith(('r2-1.png','r2-2.png'))]
+ c['sources'].append(ref(BASE+'/remaining-layout-review.json'));put(new+'/contract.json',c);cr=ref(new+'/contract.json')
+ review=load(old+'/review.json');review['revision']+='-layout-v3';review['subjects']=dict(contract=cr,copy=c['copy'],sources=c['sources']);put(new+'/review.json',review)
+ release=load(old+'/release.json');release['revision']+='-layout-v3';release['contract']=cr;release['review']=ref(new+'/review.json');release['groups']=[[j['card_id']] for j in selected];put(new+'/release.json',release)
+ spec=load(old+'/spec.json');spec.update(revision=spec['revision']+'-layout-v3',release=ref(new+'/release.json'),contract=cr,review=release['review'],calls=[x for x in spec['calls'] if x['call_id'] in [j['call_id'] for j in selected]])
+ for call in spec['calls']:
+  call['references']=c['references'];call['concepts'][0]['description']+=' '+direction;call['output_path']=new+'/native/'+call['output_id']+'.png';call['prompt']=core.make_prompt(c,call);call['prompt_sha256']=hashlib.sha256(call['prompt'].encode()).hexdigest()
+ put(new+'/spec.json',spec);script=load(old+'/script-review.json');script['revision']+='-layout-v3';script['actual_layout_review']=ref(BASE+'/remaining-layout-review.json');put(new+'/script-review.json',script)
+ anchor=load(old+'/anchor-review.json');anchor['revision']+='-layout-v3';anchor['subjects']=dict(contract=cr,copy=c['copy'],spec=ref(new+'/spec.json'),script_review=ref(new+'/script-review.json'));anchor['context']['related_inputs'].append(ref(BASE+'/remaining-layout-review.json'))
+ for u in anchor['units']:
+  if u['card_id'] in [j['card_id'] for j in selected]:u['observation']+=' Actual pregen layout review: '+direction
+ put(new+'/anchor-review.json',anchor)
+ for j in selected:
+  call=next(x for x in spec['calls'] if x['call_id']==j['call_id']);j.update(folder=new,output_path=call['output_path'],release_sha256=sha(new+'/release.json'),review_sha256=sha(new+'/anchor-review.json'));check=guard.check(ROOT,new+'/release.json',j['release_sha256'],new+'/spec.json',new+'/anchor-review.json',j['review_sha256'],j['call_id'],'FDI',PERSONA,ROUTE);put(new+'/preparation-preflight/'+j['call_id']+'.json',check)
+plan['revision']='b13-dispatch-layout-v3';put(BASE+'/dispatch-plan.json',plan);print('7uncalled originals rebound after actual layout/reference review;0additional calls.')

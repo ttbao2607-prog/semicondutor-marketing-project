@@ -1,0 +1,197 @@
+{
+  "revision": "b14-rmk-bright-3-script-v1",
+  "gate_id": "AD-ED-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "copy_sha256": "50dab449b9ae81b30ec5b739a6ad8db36eb22c3553c5ffbd181ea9f5a0ab0703",
+  "reviewed_ads": [
+    "RMK-BRIGHT"
+  ],
+  "reviewed_fields": {
+    "RMK-BRIGHT": [
+      "caption",
+      "RMK-BRIGHT-1.headline",
+      "RMK-BRIGHT-1.body",
+      "RMK-BRIGHT-1.source_text",
+      "RMK-BRIGHT-1.cta",
+      "RMK-BRIGHT-1.native_headline",
+      "RMK-BRIGHT-1.alt",
+      "RMK-BRIGHT-1.artwork_labels",
+      "RMK-BRIGHT-2.headline",
+      "RMK-BRIGHT-2.body",
+      "RMK-BRIGHT-2.source_text",
+      "RMK-BRIGHT-2.cta",
+      "RMK-BRIGHT-2.native_headline",
+      "RMK-BRIGHT-2.alt",
+      "RMK-BRIGHT-2.artwork_labels",
+      "RMK-BRIGHT-3.headline",
+      "RMK-BRIGHT-3.body",
+      "RMK-BRIGHT-3.source_text",
+      "RMK-BRIGHT-3.cta",
+      "RMK-BRIGHT-3.native_headline",
+      "RMK-BRIGHT-3.alt",
+      "RMK-BRIGHT-3.artwork_labels",
+      "RMK-BRIGHT-4.headline",
+      "RMK-BRIGHT-4.body",
+      "RMK-BRIGHT-4.source_text",
+      "RMK-BRIGHT-4.cta",
+      "RMK-BRIGHT-4.native_headline",
+      "RMK-BRIGHT-4.alt",
+      "RMK-BRIGHT-4.artwork_labels"
+    ]
+  },
+  "BRAND_ROLE": {
+    "verdict": "PASS",
+    "observation": "Official supplied Digiwin mark once on every artwork. Digiwin 台湾/越南 and domain occur only in source paragraphs for distinct provenance; no extra DIGIWIN header. Chinese category/counters have separate roles. Captions and reader use first-person supplier voice; customer remains third person."
+  },
+  "ADVERTISER_VOICE": {
+    "verdict": "PASS",
+    "observation": "我们提供/我们开发并提供 and 与我们在越南的团队 are direct advertiser statements. Neutral operating questions and source-reading CTA; no third-person supplier praise, fabricated customer quote, or customer results claimed as ours."
+  },
+  "independence": "SELF_REVIEW",
+  "per_card_observations": [
+    {
+      "stage": "proof",
+      "card_id": "RMK-BRIGHT-1",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "RMK-BRIGHT-1",
+        "headline": "制造业数字化解决方案",
+        "body": "我们开发并提供制造业数字化解决方案，从 ERP 到智能制造。",
+        "source_text": "Digiwin 越南 · 公司介绍",
+        "cta": "",
+        "native_headline": "制造业数字化解决方案",
+        "alt": "示意图：制造业数字化解决方案",
+        "artwork_labels": [
+          "芯片设计案例",
+          "1/4"
+        ]
+      },
+      "caption": "我们提供制造业数字化解决方案，涵盖 ERP(企业资源计划)。了解中国芯片设计企业案例中的委外管理挑战。",
+      "scene": "Illustrative bright manufacturing-management desk with a neutral chip sample and blank paper dossier. No customer facility, software UI, actual product or equipment evidence. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning. TARGETED EDIT: Enlarge ONLY the exact publisher source Digiwin Vietnam · Company introduction to a prominent full-width paragraph whose glyph height is at least the body, preferably 54px at 1254 canvas. Reserve a clear white bottom band 130px high with safe edges. Reduce scene height to make room. Keep exact headline/body/category/1/4 and official logo once, preserve generic desk scene. No extra text, props, metrics, UI, customer facility or ornaments. The source is substantive publisher provenance, never a small footer. New locale zh-Hans: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact.",
+      "observation": "First-person supplier role, manufacturing digital solution category only; not a semiconductor deployment assertion.",
+      "source_scope": "China qualitative case scope, separate from Vietnam service",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/08-rmk-bright-1.png",
+      "original_card_id": "RMK-BRIGHT-1"
+    },
+    {
+      "stage": "proof",
+      "card_id": "RMK-BRIGHT-2",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "RMK-BRIGHT-2",
+        "headline": "来自中国的芯片设计案例",
+        "body": "晶丰明源是中国的芯片设计企业。了解其数字化解决方案实施背景。",
+        "source_text": "Digiwin 越南 · 半导体案例集\n上海晶丰明源半导体股份有限公司",
+        "cta": "",
+        "native_headline": "来自中国的芯片设计案例",
+        "alt": "示意图：来自中国的芯片设计案例",
+        "artwork_labels": [
+          "芯片设计案例",
+          "2/4"
+        ]
+      },
+      "caption": "我们提供制造业数字化解决方案，涵盖 ERP(企业资源计划)。了解中国芯片设计企业案例中的委外管理挑战。",
+      "scene": "An open case dossier next to a neutral chip sample in a bright tabletop scene. Introduces a chip-design company case, not documentary customer premises or a customer mark. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. TARGETED EDIT: Edit reference1. Preserve exact headline, body, official logo, CHIP-DESIGN CASE,2/4 and full Chinese legal name. Remove the entire skyline/landmark icon and vertical divider from source area. Source becomes plain full-width WHITE main text after compact image, NO icon box, NO skyline, NO separator lines. Source exact2lines: Digiwin Vietnam · Semiconductor case collection; 上海晶丰明源半导体股份有限公司. Both source lines at least as large as body, approximately56native pixels per1080width, generous whole width. Shrink image scene to create space. No added symbols. Background paper remains blank without bands. Exact same meaning and no new objects. New locale zh-Hans: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact.",
+      "observation": "China chip-design identity and common short name are paired with the exact legal entity; no customer logo or Vietnam deployment implication.",
+      "source_scope": "China qualitative case scope, separate from Vietnam service",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/09-rmk-bright-2.png",
+      "original_card_id": "RMK-BRIGHT-2"
+    },
+    {
+      "stage": "proof",
+      "card_id": "RMK-BRIGHT-3",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "RMK-BRIGHT-3",
+        "headline": "聚焦委外管理",
+        "body": "案例列出委外管理效率不足等挑战，并介绍一体化数字化解决方案。",
+        "source_text": "Digiwin 越南 · 中国案例04\n上海晶丰明源半导体股份有限公司",
+        "cta": "",
+        "native_headline": "聚焦委外管理",
+        "alt": "示意图：聚焦委外管理",
+        "artwork_labels": [
+          "芯片设计案例",
+          "3/4"
+        ]
+      },
+      "caption": "我们提供制造业数字化解决方案，涵盖 ERP(企业资源计划)。了解中国芯片设计企业案例中的委外管理挑战。",
+      "scene": "Two blank subcontractor record surfaces and a central blank coordination folio linked by open physical paths. Illustrative management context only; no completed workflow or actual customer implementation diagram. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning. TARGETED EDIT: Change ONLY source hierarchy: enlarge exact Digiwin Vietnam · China case04 and entire 上海晶丰明源半导体股份有限公司 to at least body glyph height, preferably 58px at1254. Put the two exact source lines in a clear full-width plain white bottom band about180px tall, generous safe margin. Both publisher and Chinese legal name large, no footnote. Reduce scene height to create space, keep complete body/headline/category3/4/official logo once and existing blank-record coordination scene. Preserve every exact approved word, meaning, colors and material. No icons/dividers/skyline/extra props/text/data/UI or claims. New locale zh-Hans: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact.",
+      "observation": "Qualitative outsourcing-management challenge and integrated solution from exact case04; no numeric outcome, ERP-only causality or proof of the exact F1 mechanism.",
+      "source_scope": "China qualitative case scope, separate from Vietnam service",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/10-rmk-bright-3.png",
+      "original_card_id": "RMK-BRIGHT-3"
+    },
+    {
+      "stage": "proof",
+      "card_id": "RMK-BRIGHT-4",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "RMK-BRIGHT-4",
+        "headline": "阅读芯片设计案例",
+        "body": "了解这份中国企业案例中的业务挑战与一体化数字化解决方案背景。",
+        "source_text": "Digiwin 越南 · digiwin.com.vn\n半导体案例04\n上海晶丰明源半导体股份有限公司",
+        "cta": "阅读中国案例",
+        "native_headline": "阅读芯片设计案例",
+        "alt": "示意图：阅读芯片设计案例",
+        "artwork_labels": [
+          "芯片设计案例",
+          "4/4"
+        ]
+      },
+      "caption": "我们提供制造业数字化解决方案，涵盖 ERP(企业资源计划)。了解中国芯片设计企业案例中的委外管理挑战。",
+      "scene": "A small open blank case booklet with a neutral chip sample on a low platform; compact scene above a large full-width source block and separate CTA. No skyline or customer facility. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning. New locale zh-Hans: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact.",
+      "observation": "Source-reading next step preserves entity/geography/integrated-solution scope; full legal source and CTA need main-body hierarchy at actual display.",
+      "source_scope": "China qualitative case scope, separate from Vietnam service",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/11-rmk-bright-4.png",
+      "original_card_id": "RMK-BRIGHT-4"
+    }
+  ],
+  "reader_script": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/reader-script.json",
+    "sha256": "918752a855d367d3a858da46670a7a5388c57886af07e2c3ae4491d710b53eef",
+    "revision": "b14-reader-zh-Hans-v1"
+  },
+  "actual_review_ref": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/semantic-review.json",
+    "sha256": "f6160ae9c4579be934c26ed0306d47fc6900c64ad4cc9d229e6cff319a535080",
+    "revision": "b14-zh-hans-actual-root-script-review-v1"
+  },
+  "postgen": "POSTGEN_NOT_RUN"
+}

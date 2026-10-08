@@ -1,0 +1,66 @@
+{
+  "layer": "PREGEN_ANCHOR_SCRIPT_CHECK",
+  "status": "PREGEN_INPUTS_VERIFIED",
+  "call_id": "B13_COLD_FABLESS_B13",
+  "scope": {
+    "segment": "FDI",
+    "locale": "en",
+    "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+    "route": "offline English cold -> F1 outsourced-lot reporting -> qualitative China Bright Power integrated-solution case -> English case reader"
+  },
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "revision": "1.0"
+  },
+  "message_review_sha256": "86d5e95ba4144fa4eb900b0a4b19c33942d1fca42825eb3283409fde57e1031f",
+  "script_review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/cold/release-v1/campaign/script-review.json",
+    "sha256": "1872e4f50a45ffe2bca0123781617c1c41d9e786d98c3c64f25088e4024bd2a8",
+    "revision": "b13-cold-campaign-script-v1"
+  },
+  "input_hashes": {
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/f1-copy.json": "35442440959244ef51dc7599747affd40936700b9b24c0353a0ba688d1a68b54",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/evidence-register.md": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+    "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/local-terminology-evidence.json": "6e81ee57160281e180fc86f8471b02005ee67ab817f0d3e13334b8d0a79f789c",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png": "c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d",
+    "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png": "2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/cold/public-copy.json": "ad478f3fccc22b36228cdc3511b3930229414fc81afb64ec5849553fed62f13e",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/cold/release-v1/campaign/contract.json": "e067ee161e6a1046191c1fd92f2df786cf0296a7f4bf88e2e2453e7c412fe8b1",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/cold/release-v1/campaign/release.json": "3ac27dd64397676145ca90102b83f7df14eff3f5d5118c3819d684e60c3b1fee",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/cold/release-v1/campaign/review.json": "c78b6c317d09fe6cbcd6bf3fbe3fdadcf2547cbfa5fd87055da1db51dfc64937",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/cold/release-v1/campaign/spec.json": "c1f12e2c9d3f37e20d6cbb674a8a6937e833a5f288f78bec51f41eecdeeacae6",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/execution-brief.md": "ad41950cd773ea6b1ea63f58c90cafe81735eae390ba406ad0aff4fd868345e4",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/generation-mandate.json": "2d801b7aced544cffade447e4fe3ad79a5a3163e5d8ff2105871b78fca2081a6",
+    "scripts/verify_imagegen_preflight.py": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/cold/release-v1/campaign/anchor-review.json": "86d5e95ba4144fa4eb900b0a4b19c33942d1fca42825eb3283409fde57e1031f",
+    "operations/linkedin-journey-demo/2026-10-06/inputs/verify_single_image_trial.py": "aa71327c78dd2db4cf436bd9454003960492657b627a3bf36901a467bb75b72c",
+    "operations/Vy_Email_Content_Anchor.md": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/cold/release-v1/campaign/script-review.json": "1872e4f50a45ffe2bca0123781617c1c41d9e786d98c3c64f25088e4024bd2a8",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/public-copy.json": "1df102de400bdb3829df7dddd6b9c9138d3a560b18f7020bb5d7b5415d1f8989",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/public-copy.json": "58ea1bb1131d18686ad273ef7fa14bb987fd4bdf3892ed266b39597a67b94ddc",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/reader-script.json": "ae60dc4386d512a52efa95af02a6b301d7903b3e40af1daf126fee2a2e025715",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/semantic-review.json": "d680d60f49f23a09eaedc6e7e26d614b5a3d01a3da0b7d7071cc68ea346b5440",
+    "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof-source-mapping.json": "dd6b951f876918890693e5b90d64850b67b84c19f9aa6c6ccf25e7c10d544a25"
+  },
+  "mechanical_verdict": "PASS",
+  "message_review_binding": "PASS",
+  "semantic_verdict": "REVIEWER_ATTESTED_NOT_AUTOMATICALLY_ASSESSED",
+  "purpose": "OFFLINE_IMAGEGEN",
+  "authority": "NO_ADDITIONAL_GENERATION_AUTHORITY",
+  "tool_args": {
+    "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"International English. Bright white and pale blue R2 photographic material depth, grounded daylight shadows, navy/blue large type, authentic official supplied Digiwin mark once. Cohort-appropriate illustrative chip-design/outsourcing management; no owned fab, customer facility, faces, screens, technical chip data, charts, ticks or fabricated records. Print only the exact approved artwork text. Caption/native headline/alt stay outside raster. Category and sequence distinct from source. Headline dominant; body comfortably readable at333px. Source must be a full-width WHITE main paragraph, at least body-sized (about56native pixels on1080), high-contrast navy, generous space for the full legal name. Reduce scene before source typography. No tiny footer, source icon column, divider or unapproved punctuation. English international business voice; no inherited Vietnamese wording. Single cold image: no sequence, no swipe; category and ERP role line clearly readable.\",\"revision\":\"campaign-r2-hybrid-full-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-4.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"c93600b8e86e6f43c8daf2e9e103a694ca872e5fe0a17d3cd909dc437ffab97d\"},{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-6.png\",\"revision\":\"681a237fabcf9635f9a867b76fb5939604a5155a\",\"role\":\"campaign_visual\",\"sha256\":\"2bdaab05c0d6f813614e9abbeea97c3dba1971c63f8d506a6cc996b32689ad79\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"OUTSOURCED CHIP OPERATIONS\",\"ERP for manufacturing\"],\"card_id\":\"COLD-FABLESS-B13\",\"concept_id\":\"b13-cold-fabless-b13-scene-v1\",\"description\":\"An illustrative bright architectural tabletop: a central operations review plinth receives two blank paper reports from separate abstract subcontractor work surfaces. Small neutral chip packages ground outsourced production. Thin blue physical paths imply communication, not automated synchronization. No actual customer buildings, fabrication plant, screen or dashboard. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only.\",\"props\":[\"central review plinth\",\"two abstract partner surfaces\",\"blank reports\",\"neutral chip packages\"],\"reader_question\":\"Outsourced production. Your next decision.\"}]\nAPPROVED ARTWORK TEXT\n{\"COLD-FABLESS-B13\":{\"artwork_labels\":[\"OUTSOURCED CHIP OPERATIONS\",\"ERP for manufacturing\"],\"body\":\"Align the lot, stage and report time before the next handoff.\",\"cta\":\"\",\"headline\":\"Outsourced production. Your next decision.\",\"source_text\":\"\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/cold/release-v1/campaign/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+    "referenced_image_paths": [
+      "D:\\LinkedIn_Safe_Fabless_2026-10-07\\operations\\linkedin-imagegen-dogfood\\hybrid-full-2026-10-03\\common\\references\\r2-1.png",
+      "D:\\LinkedIn_Safe_Fabless_2026-10-07\\operations\\linkedin-imagegen-dogfood\\hybrid-full-2026-10-03\\common\\references\\r2-2.png",
+      "D:\\LinkedIn_Safe_Fabless_2026-10-07\\operations\\linkedin-imagegen-dogfood\\hybrid-full-2026-10-03\\common\\references\\r2-4.png",
+      "D:\\LinkedIn_Safe_Fabless_2026-10-07\\operations\\linkedin-imagegen-dogfood\\hybrid-full-2026-10-03\\common\\references\\r2-6.png",
+      "D:\\LinkedIn_Safe_Fabless_2026-10-07\\operations\\linkedin-imagegen-dogfood\\hybrid-full-2026-10-03\\common\\references\\digiwin-logo.webp"
+    ],
+    "transparent_background": false
+  }
+}

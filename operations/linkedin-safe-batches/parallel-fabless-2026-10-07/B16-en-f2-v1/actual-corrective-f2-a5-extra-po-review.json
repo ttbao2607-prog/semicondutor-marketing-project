@@ -1,0 +1,13 @@
+{
+  "revision": "b16-f2-a5-extra-po-c2",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "anchor_verdict": "MESSAGE_ANCHOR_PASS",
+  "card_id": "F2-A5",
+  "original_sha256": "ea34f6eec40f394f7ace9efb984212e52bad8ffbb2b296eed4796365cf0bd3a0",
+  "finding": "SOURCE_STILL_SMALLER_THAN_BODY",
+  "observation": "C1 actual source is still visibly smaller than body; exact copy otherwise aligned. PO explicitly authorizes this second corrective only. No changed meaning or persona.",
+  "edit_instructions": "Edit actual C1 target. Keep every approved word unchanged, logo once, category ERP · CHIP OPERATIONS and 5/6. SOURCE IS THE MAIN FEATURE: source type must be visibly LARGER than body, use 60 native pixel source vs current roughly 43 pixel body. Shrink scene to a shallow 150px band; reserve bottom HALF for full-width plain WHITE source paragraph. Wrap exact source into five lines if needed; never shrink source. Source begins around y650, ends before y1100. Preserve CTA literal Discuss outsourced-production planning at bottom with NO arrow or icon. No source container, divider, bars, paper rules, document icon, extra words or punctuation. All paper blank. Preserve exact headline/body; source publisher and full MES definition are mandatory. This layout adjustment adds no claims.",
+  "po_authorization": "Cho thêm 1 lượt sửa F2-A5"
+}

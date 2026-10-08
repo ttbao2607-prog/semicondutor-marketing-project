@@ -1,0 +1,280 @@
+{
+  "revision": "b15-f1-a6-script-v1",
+  "gate_id": "AD-ED-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "copy_sha256": "150fd30bd617ab49e0edc71af4833d33155faff26daa23d1073615a9052d8659",
+  "reviewed_ads": [
+    "F1-A"
+  ],
+  "reviewed_fields": {
+    "F1-A": [
+      "caption",
+      "F1-A1.headline",
+      "F1-A1.body",
+      "F1-A1.source_text",
+      "F1-A1.cta",
+      "F1-A1.native_headline",
+      "F1-A1.alt",
+      "F1-A1.artwork_labels",
+      "F1-A2.headline",
+      "F1-A2.body",
+      "F1-A2.source_text",
+      "F1-A2.cta",
+      "F1-A2.native_headline",
+      "F1-A2.alt",
+      "F1-A2.artwork_labels",
+      "F1-A3.headline",
+      "F1-A3.body",
+      "F1-A3.source_text",
+      "F1-A3.cta",
+      "F1-A3.native_headline",
+      "F1-A3.alt",
+      "F1-A3.artwork_labels",
+      "F1-A4.headline",
+      "F1-A4.body",
+      "F1-A4.source_text",
+      "F1-A4.cta",
+      "F1-A4.native_headline",
+      "F1-A4.alt",
+      "F1-A4.artwork_labels",
+      "F1-A5.headline",
+      "F1-A5.body",
+      "F1-A5.source_text",
+      "F1-A5.cta",
+      "F1-A5.native_headline",
+      "F1-A5.alt",
+      "F1-A5.artwork_labels",
+      "F1-A6.headline",
+      "F1-A6.body",
+      "F1-A6.source_text",
+      "F1-A6.cta",
+      "F1-A6.native_headline",
+      "F1-A6.alt",
+      "F1-A6.artwork_labels"
+    ]
+  },
+  "BRAND_ROLE": {
+    "verdict": "PASS",
+    "observation": "One official supplied mark per artwork. Digiwin 台灣/越南 and domain are distinct publisher/source roles, not extra header labels. Localized categories and1/6..6/6 or1/4..4/4 counters distinct from provenance; no duplicated nonfunctional Digiwin slogan."
+  },
+  "ADVERTISER_VOICE": {
+    "verdict": "PASS",
+    "observation": "我們提供/我們開發並提供 and與我們在越南的團隊 preserve direct advertiser voice. China customer discussed in third person; no third-person provider praise, fabricated testimonial or customer result appropriation."
+  },
+  "independence": "SELF_REVIEW",
+  "per_card_observations": [
+    {
+      "stage": "explanation",
+      "card_id": "F1-A1",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "F1-A1",
+        "headline": "合作夥伴回報，批次狀況清楚嗎？",
+        "body": "規劃下一步前，先確認各份合作夥伴回報涵蓋哪個製程階段。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "合作夥伴回報，批次狀況清楚嗎？",
+        "alt": "示意圖：合作夥伴回報，批次狀況清楚嗎？",
+        "artwork_labels": [
+          "ERP · 晶片營運",
+          "1/6"
+        ]
+      },
+      "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+      "scene": "Separate blank partner reports beside a wafer protective carrier, with open neutral paths expressing the unanswered stage question. Illustrative outsourced-production context, no owned fabrication facility. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning. New locale zh-Hant: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact.",
+      "observation": "Taiwan planning/operational terminology names report coverage and process stage without assuming error or software failure.",
+      "source_scope": "Bounded operating questions/local consultation; no product-mechanism or result assertion",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/02-f1-a1.png",
+      "original_card_id": "F1-A1"
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F1-A2",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "F1-A2",
+        "headline": "先從產品與批次核對。",
+        "body": "核對產品與批次識別，並約定各合作夥伴如何標示生產期間與測試分類。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "先從產品與批次核對。",
+        "alt": "示意圖：先從產品與批次核對。",
+        "artwork_labels": [
+          "ERP · 晶片營運",
+          "2/6"
+        ]
+      },
+      "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+      "scene": "Close physical comparison of a neutral chip product sample and two blank partner record surfaces. Restrained physical linking paths show correspondence to be checked; no technical IDs, dates or test values. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning. New locale zh-Hant: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact.",
+      "observation": "Taiwan識別/標示 wording retains product/lot and period/test conventions; no fabricated chip or test record.",
+      "source_scope": "Bounded operating questions/local consultation; no product-mechanism or result assertion",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/03-f1-a2.png",
+      "original_card_id": "F1-A2"
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F1-A3",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "F1-A3",
+        "headline": "這份回報對應哪個製程階段？",
+        "body": "確認製程階段、狀態紀錄時間，以及作為依據的合作夥伴回報。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "這份回報對應哪個製程階段？",
+        "alt": "示意圖：這份回報對應哪個製程階段？",
+        "artwork_labels": [
+          "ERP · 晶片營運",
+          "3/6"
+        ]
+      },
+      "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+      "scene": "Oblique tabletop with wafer protective carrier, neutral unlabelled stage nodes and a detached blank report surface. Open paths express stage, report time and source questions, not a confirmed production state. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning. New locale zh-Hant: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact.",
+      "observation": "Taiwan紀錄/回報 language explicitly keeps stage/time/report-source distinctions; no completed-status or predictive claim.",
+      "source_scope": "Bounded operating questions/local consultation; no product-mechanism or result assertion",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/04-f1-a3.png",
+      "original_card_id": "F1-A3"
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F1-A4",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "F1-A4",
+        "headline": "共同資訊由誰維護？",
+        "body": "約定回報格式、交換時程，以及負責確認每次生產更新的人員。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "共同資訊由誰維護？",
+        "alt": "示意圖：共同資訊由誰維護？",
+        "artwork_labels": [
+          "ERP · 晶片營運",
+          "4/6"
+        ]
+      },
+      "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+      "scene": "Two distinct coordination surfaces connected through a shared blank record surface; an unlabelled neutral owner token suggests responsibility to agree. No completed approval, automatic update or product connector. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning. New locale zh-Hant: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact.",
+      "observation": "Maintenance ownership and exchange schedule are agreed responsibilities; preserves v5 business accountability without automation.",
+      "source_scope": "Bounded operating questions/local consultation; no product-mechanism or result assertion",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/05-f1-a4.png",
+      "original_card_id": "F1-A4"
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F1-A5",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "F1-A5",
+        "headline": "讓下一步決策有共同依據。",
+        "body": "把批次、製程階段、回報時間與更新權責放進同一次討論。",
+        "source_text": "Digiwin 台灣半導體方案資料：\nERP 經營管理與 MES(製造執行系統) 生產製造。",
+        "cta": "探討委外生產管理問題",
+        "native_headline": "讓下一步決策有共同依據。",
+        "alt": "示意圖：讓下一步決策有共同依據。",
+        "artwork_labels": [
+          "ERP · 晶片營運",
+          "5/6"
+        ]
+      },
+      "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+      "scene": "Compact low physical platform with blank partner report and neutral chip sample; open relationship path supports a shared discussion. Leave a large dedicated full-width source paragraph beneath scene. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. New locale zh-Hant: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact.",
+      "observation": "Separately authored Taiwan權責/製程 terminology closes the shared discussion. Taiwan ERP and MES context is distinct from Vietnam delivery or a specific customer outcome.",
+      "source_scope": "Bounded operating questions/local consultation; no product-mechanism or result assertion",
+      "reference_artwork": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/corrective-v1/f1-a5/native/f1-a5-zh-Hans-c1.png",
+      "original_card_id": "F1-A5",
+      "reference_revision": "b14-native-self-reviewed-blank-paper-visual-reference",
+      "reference_sha256": "56828e5b96186a7dd52879a7f5b2e79c7edc03ec06c355beaa5422bdfa438a89",
+      "reference_scope": "Visual family only; Hans wording prohibited in newly authored Hant art. No inherited semantic or rendered PASS."
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F1-A6",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "F1-A6",
+        "headline": "越南在地顧問與導入服務",
+        "body": "與我們在越南的團隊討論 ERP 顧問與導入服務。從回報流程、更新權責與專案優先順序開始。",
+        "source_text": "Digiwin 越南 · ERP 顧問與導入",
+        "cta": "",
+        "native_headline": "越南在地顧問與導入服務",
+        "alt": "示意圖：越南在地顧問與導入服務",
+        "artwork_labels": [
+          "ERP · 晶片營運",
+          "6/6"
+        ]
+      },
+      "caption": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+      "scene": "Bright illustrative consultation tabletop with two distinct blank project folios, a neutral chip sample and open blue physical paths between unlabelled responsibility tokens. Generic discussion material, not a customer facility, staff portrait or software UI. Compact scene leaves a large full-width plain white source block, source at least body-sized. No map/flag/skyline/ticks/labels/data/results or fabricated people. New locale zh-Hant: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact.",
+      "observation": "Taiwan顧問/導入/專案 wording preserves the local Vietnam team discussion, without implying all staff language skills, semiconductor certification or a Vietnam Fabless case.",
+      "source_scope": "Bounded operating questions/local consultation; no product-mechanism or result assertion",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/07-f1-a6.png",
+      "original_card_id": "F1-A6"
+    }
+  ],
+  "reader_script": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/reader-script.json",
+    "sha256": "a5b6aa993465c56eeb9ba80e7be2c6dfae10fc815fdc3463b9034eb231c0eb53",
+    "revision": "b15-reader-zh-Hant-v1"
+  },
+  "actual_review_ref": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/semantic-review.json",
+    "sha256": "519ccc633d2f948c9ad7ded142518345a76fcc63cb8e2180fc86ef288b30f0d5",
+    "revision": "b15-zh-hant-actual-root-script-review-v2-visual-refs"
+  },
+  "postgen": "POSTGEN_NOT_RUN"
+}

@@ -1,0 +1,142 @@
+{
+  "revision": "harness-anchor-freeze-2026-10-06-v1",
+  "source_checkpoint": "67d1cbd176532ad0b6661ffc3d4f3c042875575d",
+  "anchor_revision": "1.0",
+  "status": "FROZEN_PER_PO",
+  "files": [
+    {
+      "path": "scripts/verify_imagegen_preflight.py",
+      "sha256": "9817e828f35e832e99e15f36f4b2cbd227b625b626dc84c72f781e680c2b4dca",
+      "scope": "FROZEN_EXECUTABLE"
+    },
+    {
+      "path": "tests/test_imagegen_preflight.py",
+      "sha256": "2c383a475ecc44cfd72825d4a825b2aec1a90da49e42d856928c2dec878f97c2",
+      "scope": "FROZEN_EXECUTABLE"
+    },
+    {
+      "path": "scripts/verify_imagegen_anchor_preflight.py",
+      "sha256": "3e743153b8353ef0dbecf836f588dd4d3552a474ebfc515fa6356839611dbd06",
+      "scope": "FROZEN_EXECUTABLE"
+    },
+    {
+      "path": "tests/test_imagegen_anchor_preflight.py",
+      "sha256": "3d8f2fbf214f1e2da04ea2d945bb67219d91480a54e8d150febfb7966e9e00e0",
+      "scope": "FROZEN_EXECUTABLE"
+    },
+    {
+      "path": "operations/linkedin-journey-demo/2026-10-06/inputs/verify_single_image_trial.py",
+      "sha256": "aa71327c78dd2db4cf436bd9454003960492657b627a3bf36901a467bb75b72c",
+      "scope": "FROZEN_EXECUTABLE"
+    },
+    {
+      "path": "operations/Vy_Email_Content_Anchor.md",
+      "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+      "scope": "FROZEN_CONTENT_ANCHOR"
+    },
+    {
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+      "scope": "FROZEN_CONTENT_ANCHOR"
+    },
+    {
+      "path": "operations/message-anchor/Pregen_Script_Guard.md",
+      "sha256": "f563f5b2c7ea03f9cb94c0549cffa366e3c1155becdcb96c6715425e4228b59f",
+      "scope": "FROZEN_PROCEDURE"
+    },
+    {
+      "path": "operations/Ad_Artifact_Editorial_QA_Gate.md",
+      "sha256": "194f1eadbd0614f40ae6749074018a783515c4afa58a9efb2d39bd360e6965a6",
+      "scope": "FROZEN_PROCEDURE"
+    },
+    {
+      "path": "operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md",
+      "sha256": "9ce0a047eed68fef2a684dd66cdf11a477263e9fe04479262f5193aa3e407b3e",
+      "scope": "FROZEN_PROCEDURE"
+    },
+    {
+      "path": "operations/LinkedIn_Awareness_Execution_Plan.md",
+      "sha256": "893f84e16f613651c00a349c4759b165a9e6451d0be77a46ef6ef788674b107a",
+      "scope": "FROZEN_PROCEDURE"
+    },
+    {
+      "path": "operations/LinkedIn_ImageGen_Preflight_Schema.md",
+      "sha256": "e74dc37baa49c0151676086e7bbe7fd4ca01e20719258a8c5a8faffd0bf18c16",
+      "scope": "FROZEN_PROCEDURE"
+    },
+    {
+      "path": "operations/LinkedIn_ImageGen_Visual_Instructions.md",
+      "sha256": "bf437913ae95028c3367ccb2db08d74f70197957fc113befe5c77ed837278cae",
+      "scope": "FROZEN_PROCEDURE"
+    },
+    {
+      "path": "operations/templates/Message_Anchor_Pregen_Receipt_Template.json",
+      "sha256": "50d72121bd20f523c03bc556afdf8d14acaff447b417b93e37834aa2ccb00736",
+      "scope": "FROZEN_PROCEDURE"
+    },
+    {
+      "path": "operations/templates/Message_Anchor_Review_Receipt_Template.md",
+      "sha256": "d7687b2c1d742ab28363fcf5c75aeeb293b6766f1b1fcbb08a6eec58bb46f2d2",
+      "scope": "FROZEN_PROCEDURE"
+    },
+    {
+      "path": "operations/templates/Message_Anchor_Artifact_Brief_Template.md",
+      "sha256": "934aab374547aeb1e8052b3d92b74f9c1053f753a39397728c9c961fce6358a6",
+      "scope": "FROZEN_PROCEDURE"
+    },
+    {
+      "path": "operations/LinkedIn_ImageGen_Anchor_Freeze_2026-10-06.md",
+      "sha256": "40779375a70b16e1ab9b5d800b3ff5975febe1ee115aff1ac65ea20074dc85f0",
+      "scope": "FROZEN_PROCEDURE"
+    },
+    {
+      "path": "operations/LinkedIn_Locale_Batch_Preparation_2026-10-06.md",
+      "sha256": "95caf15f4dcbce88e77f9b9b51639bb523258b383fdb509a80af8ed63578d135",
+      "scope": "FROZEN_PROCEDURE"
+    },
+    {
+      "path": "operations/message-anchor/freeze-2026-10-06/status.json",
+      "sha256": "3de0deab1afb469ddc4bbdaab73986ba870b78fe31762454c832e47f1b260919",
+      "scope": "FROZEN_PROCEDURE"
+    },
+    {
+      "path": "operations/message-anchor/freeze-2026-10-06/batch-intake-template.json",
+      "sha256": "a424ecb2bf96a4da5d48ec597418defd75ec5ea6e8a3ac35f4ff260c09758823",
+      "scope": "FROZEN_PROCEDURE"
+    },
+    {
+      "path": "scripts/prepare_linkedin_locale.py",
+      "sha256": "b35e517c3128b72e66ade40135d555f34daef1666ef923616f9ac9fd4d257a51",
+      "scope": "DEVELOPING_DEPENDENCY_NOT_ADOPTED"
+    },
+    {
+      "path": "tests/test_linkedin_locale_adapter.py",
+      "sha256": "815577a741221ce5e5c37429c553499247de2b320c58a7e15925c356dcabaf4b",
+      "scope": "DEVELOPING_DEPENDENCY_NOT_ADOPTED"
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/profiles.json",
+      "sha256": "1b0105ed92ef866fb7a5796aefcdfb9d8e9d9683c72f4257295e80a06653a6cd",
+      "scope": "DEVELOPING_DEPENDENCY_NOT_ADOPTED"
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/development-status.json",
+      "sha256": "a28b01afb5b03d46127ad717c4eae7f3389c9dda0cec6681e6b9678a0b95f887",
+      "scope": "DEVELOPING_DEPENDENCY_NOT_ADOPTED"
+    }
+  ],
+  "prior_freeze_record": {
+    "path": "operations/LinkedIn_ImageGen_Harness_Freeze_2026-10-03.md",
+    "sha256": "0212e832a3c074558aaecdfa120226593be4e25dd6eb66cfd434326c3bebdc14",
+    "handling": "PRESERVED_UNCHANGED"
+  },
+  "mechanical_test_results": {
+    "core": 65,
+    "anchor_guard": 20,
+    "locale_adapter_dependency": 10,
+    "total": 95,
+    "verdict": "PASS",
+    "semantic_or_artwork_certification": false
+  },
+  "review_independence": "ROOT_SELF_REVIEW"
+}

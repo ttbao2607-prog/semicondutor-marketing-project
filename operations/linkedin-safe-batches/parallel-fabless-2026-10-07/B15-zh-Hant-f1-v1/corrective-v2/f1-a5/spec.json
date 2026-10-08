@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "revision": "b15-f1-a5-corrective-spec-v1",
+  "release": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v2/f1-a5/release.json",
+    "sha256": "1e52cafec9c8d0cb9c286361825dda91caf01ec537d146093e690bae3248f7f2",
+    "revision": "b15-f1-a5-corrective-release-v1"
+  },
+  "contract": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v2/f1-a5/contract.json",
+    "sha256": "4a504e952b215a6c8f79f30f0891d8c03d4b1d4eb73d40cfd36d75da8dbbc65b",
+    "revision": "b15-f1-a5-corrective-contract-v1"
+  },
+  "copy": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/explanation/public-copy.json",
+    "sha256": "150fd30bd617ab49e0edc71af4833d33155faff26daa23d1073615a9052d8659",
+    "revision": "b15-explanation-zh-Hant-copy-v1"
+  },
+  "review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v2/f1-a5/review.json",
+    "sha256": "7602732449adb22800aad7268a54b86aff36fc633bf3801ff2adc07f95e6d7c8",
+    "revision": "b15-f1-a5-corrective-source-review-v1"
+  },
+  "calls": [
+    {
+      "call_id": "B15_F1_A5_C2",
+      "targets": [
+        "F1-A5"
+      ],
+      "references": [
+        {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v1/f1-a5/native/f1-a5-zh-Hant-c1.png",
+          "sha256": "f1685568eaeb5fda5551aefe846962d9b3efc31e9d82db456d9f3203eaed0103",
+          "revision": "B15_F1_A5_C1-actual-edit-target",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "revision": "official-logo-pinned",
+          "role": "brand_asset",
+          "attributes": [
+            "brand_mark"
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "card_id": "F1-A5",
+          "concept_id": "b15-f1-a5-scene-v1",
+          "description": "Compact low physical platform with blank partner report and neutral chip sample; open relationship path supports a shared discussion. Leave a large dedicated full-width source paragraph beneath scene. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. New locale zh-Hant: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact.",
+          "props": [
+            "blank partner report",
+            "neutral chip sample",
+            "open physical path"
+          ],
+          "reader_question": "讓下一步決策有共同依據。",
+          "artwork_labels": [
+            "ERP · 晶片營運",
+            "5/6"
+          ]
+        }
+      ],
+      "artwork_text": {
+        "F1-A5": {
+          "headline": "讓下一步決策有共同依據。",
+          "body": "把批次、製程階段、回報時間與更新權責放進同一次討論。",
+          "source_text": "Digiwin 台灣半導體方案資料：\nERP 經營管理與 MES(製造執行系統) 生產製造。",
+          "cta": "探討委外生產管理問題",
+          "artwork_labels": [
+            "ERP · 晶片營運",
+            "5/6"
+          ]
+        }
+      },
+      "output_id": "f1-a5-zh-Hant-c2",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v2/f1-a5/native/f1-a5-zh-Hant-c2.png",
+      "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"Use case: ads-marketing. Print only supplied Traditional Chinese artwork text for Taiwan. Professional operational wording: explicit reconciliation objects, responsibility and practical next step. Use separately reviewed Taiwan terms; never convert mainland copy mechanically or assume national personality. No audit, vendor qualification or commercial guarantees. Keep original scene and narrative order. Preserve Traditional Chinese glyphs and exact supplied punctuation. Never mix scripts or use pseudo-Chinese. Use ASCII parentheses for approved acronym definitions to remain compatible with the frozen gate; do not normalize other punctuation. Review Taiwan punctuation placement, Chinese line starts/ends and mixed Latin terms at 333px; reduce scene area before shrinking type. New artwork in the B13v5 visual family: bright white/pale blue, grounded daylight, navy/blue type, material depth. No English/Vietnamese reference wording. Supplied Latin Digiwin, ERP, MES, domain and exact legal company name are intentional proper literals. Official supplied logo once; no additional DIGIWIN header label. Category and sequence are separate from source, exact near logo. Headline dominant and body comfortably readable at333CSSpx. Every source is a full-width normal main paragraph on WHITE, at least body-sized, high contrast, with complete legal name on its own readable line. Reserve bottom35percent for source/CTA when long; shrink scene before type. No source icon column, tiny footer/divider, skyline/pagoda/map/customer facility/seal/badge, unapproved punctuation, chart/tick/data glyphs or technical UI. All paper surfaces blank. No copy of English labels, reference wording or exact composition. Narrative/props stay within the reviewed concept. Exact counter and category required; CTA only if supplied. ERASE ALL WHITE LETTERS inside bottom blue CTA pill completely, then redraw ONLY exact Traditional Chinese characters: 探討委外生產管理問題 . Specifically character2 must be 討 (言 radical on left, not 讠); character6 must be 產 (full traditional form, not 产). Text must read 探討委外生產管理問題. DO NOT repeat original simplified CTA. Keep chevron separate. Everything outside CTA lettering remains exactly as supplied target: all headline/body/source, logo/category5/6, scene/layout/colors untouched. No new text or data.\",\"revision\":\"campaign-r2-hybrid-full-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v1/f1-a5/native/f1-a5-zh-Hant-c1.png\",\"revision\":\"B15_F1_A5_C1-actual-edit-target\",\"role\":\"campaign_visual\",\"sha256\":\"f1685568eaeb5fda5551aefe846962d9b3efc31e9d82db456d9f3203eaed0103\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"official-logo-pinned\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"ERP · 晶片營運\",\"5/6\"],\"card_id\":\"F1-A5\",\"concept_id\":\"b15-f1-a5-scene-v1\",\"description\":\"Compact low physical platform with blank partner report and neutral chip sample; open relationship path supports a shared discussion. Leave a large dedicated full-width source paragraph beneath scene. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. New locale zh-Hant: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact.\",\"props\":[\"blank partner report\",\"neutral chip sample\",\"open physical path\"],\"reader_question\":\"讓下一步決策有共同依據。\"}]\nAPPROVED ARTWORK TEXT\n{\"F1-A5\":{\"artwork_labels\":[\"ERP · 晶片營運\",\"5/6\"],\"body\":\"把批次、製程階段、回報時間與更新權責放進同一次討論。\",\"cta\":\"探討委外生產管理問題\",\"headline\":\"讓下一步決策有共同依據。\",\"source_text\":\"Digiwin 台灣半導體方案資料：\\nERP 經營管理與 MES(製造執行系統) 生產製造。\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v2/f1-a5/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+      "prompt_sha256": "6b785af7f533e58de9990e269562a1af1a0d215e838b9b899e162eba3e057d64"
+    }
+  ]
+}

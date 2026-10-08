@@ -1,0 +1,76 @@
+{
+  "revision": "b18-f2-corrective-plan-v1",
+  "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+  "route": "offline zh-Hant demand-change cold -> F2 planning reconciliation -> Vietnam consulting/implementation -> qualitative China outsourcing case -> localized planning-question reader",
+  "locale": "zh-Hant",
+  "calls": [
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/rmk-bright-2",
+      "card_id": "RMK-BRIGHT-2",
+      "call_id": "B18_RMK_BRIGHT_2_C1",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/rmk-bright-2/native/rmk-bright-2-zh-Hant-c1.png",
+      "release_sha256": "9d16a325fbbd544eb42c081c7430543b705e2caaa4679d4e0e97eb2a7a3992c8",
+      "review_sha256": "c5b369a00d5d958cea9a55e49cc31966d5135142d32627475b30552106bdbdfb"
+    },
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/rmk-bright-3",
+      "card_id": "RMK-BRIGHT-3",
+      "call_id": "B18_RMK_BRIGHT_3_C1",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/rmk-bright-3/native/rmk-bright-3-zh-Hant-c1.png",
+      "release_sha256": "9a1c4f4cc7607f530ed9cbe089a3b6026b5d16636a5ded33ea7a53e7d7d00ddf",
+      "review_sha256": "f345464ddaae5c4989b24470a91de75fe407fa0459b54375949dc8da46c4ed54"
+    },
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/f2-a1",
+      "card_id": "F2-A1",
+      "call_id": "B18_F2_A1_C1",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/f2-a1/native/f2-a1-zh-Hant-c1.png",
+      "release_sha256": "e7ee5ed926925128e0c9eb4b40c98364f8c28fd90e0cfc7b6cbb918bf93825ec",
+      "review_sha256": "a92a600b8e98072e0eb16f1adbd4b39a505be28d4a96845c9337eb8e2c2d0dd6"
+    },
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/f2-a5",
+      "card_id": "F2-A5",
+      "call_id": "B18_F2_A5_C1",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v1/f2-a5/native/f2-a5-zh-Hant-c1.png",
+      "release_sha256": "92b4c267d567a2ac9f6c34d8edfc8026fe7ae163fb1bc76d2fed5a8a2543cab5",
+      "review_sha256": "1612626087017c97e9506ec1d185af174c88aca65a8f8fd48f9164ebffe467aa"
+    },
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v2/f2-a5",
+      "card_id": "F2-A5",
+      "call_id": "B18_F2_A5_C2",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/corrective-v2/f2-a5/native/f2-a5-zh-Hant-c2.png",
+      "release_sha256": "ca7d98f2d67c412b7ef0afb80d3c962ed3356ef7cc1c054721c4cd4d938bdba6",
+      "review_sha256": "7ca7e4a8c37e59078a8993de5f4d33653ae3f61b18667843eb085fa3c6beb6df"
+    }
+  ],
+  "corrective_cap": 2,
+  "per_card_corrective_cap": 1,
+  "po_feed_exception": {
+    "card_ids": [
+      "F2-A1",
+      "F2-A5"
+    ],
+    "additional_correctives": 2,
+    "total_batch_cap": 4,
+    "authorization": "Cho thêm 2 lượt sửa A1/A5",
+    "review": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/actual-corrective-f2-a5-review.json",
+      "sha256": "4aa418cbdaea57cc7533818f1e35aa6b99faba5ad7aaec7314ba01a9c46a4060",
+      "revision": "b18-f2-a5-feed-body-repair-v1"
+    }
+  },
+  "po_source_exception": {
+    "card_id": "F2-A5",
+    "additional_correctives": 1,
+    "total_batch_cap": 5,
+    "per_card_cap": 2,
+    "authorization": "Cho thêm 1 lượt A5",
+    "review": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/actual-corrective-f2-a5-source-po-review.json",
+      "sha256": "220b608aee36765752c776494198bb5c65105128301bb3a3b1b8b59ac77ecd26",
+      "revision": "b18-f2-a5-source-regression-actual-review-c2"
+    }
+  }
+}

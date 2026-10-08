@@ -1,0 +1,52 @@
+{
+  "revision": "b15-locale-label-corrective-dispatch-v1",
+  "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+  "route": "offline zh-Hant cold -> F1 outsourced-lot reporting -> Vietnam ERP consulting/implementation discussion -> qualitative China Bright Power integrated-solution case -> zh-Hant case reader",
+  "locale": "zh-Hant",
+  "calls": [
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v1/rmk-bright-2",
+      "card_id": "RMK-BRIGHT-2",
+      "call_id": "B15_RMK_BRIGHT_2_C1",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v1/rmk-bright-2/native/rmk-bright-2-zh-Hant-c1.png",
+      "release_sha256": "5c646dc3edfaf769bcbf162cf68f36217c82a3fbc6d3159a8ac7145cace51e09",
+      "review_sha256": "533c8671d4d2097d2fe8b09c2851cf8fb96767b8b658145ca9144a5d81430814"
+    },
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v1/f1-a5",
+      "card_id": "F1-A5",
+      "call_id": "B15_F1_A5_C1",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v1/f1-a5/native/f1-a5-zh-Hant-c1.png",
+      "release_sha256": "759779f238d0035c91def28c7e06c1335dbaccee56b796e1439cb95fe61c0ab1",
+      "review_sha256": "89484bd3edadfb870968fc4a3ecf68bb7e7bf87f3a7f7be03833698afae6d89e"
+    },
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v2/f1-a5",
+      "card_id": "F1-A5",
+      "call_id": "B15_F1_A5_C2",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v2/f1-a5/native/f1-a5-zh-Hant-c2.png",
+      "release_sha256": "1e52cafec9c8d0cb9c286361825dda91caf01ec537d146093e690bae3248f7f2",
+      "review_sha256": "a1e6043b13ddfcabc1c14d149d18f289c9231274be9c41f6f37ff502df052e47"
+    },
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v3/f1-a5",
+      "card_id": "F1-A5",
+      "call_id": "B15_F1_A5_C3",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v3/f1-a5/native/f1-a5-zh-Hant-c3.png",
+      "release_sha256": "f84c2b8730953cdb6bbb0969ff0dfac9f1d65430474760a089ccaf73d7be0897",
+      "review_sha256": "a9020b9cd84ed6e17c3b94b5b1e2df8a34da7620ec7c03710d36049eebe0c8e8"
+    }
+  ],
+  "corrective_cap": 2,
+  "per_card_corrective_cap": 1,
+  "fresh_preflight_required_before_each_call": true,
+  "po_card_exception": {
+    "card_id": "F1-A5",
+    "authorized_corrective_cap": 3,
+    "authorization": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/actual-corrective-f1-a5-c3-review.json",
+      "sha256": "a2e5f23d5ff3c935fb9284ba6e549f33991510212a3af4a84acdf51c0056eee9",
+      "revision": "b15-f1-a5-cta-c3-20261008"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "revision": "rmk-regenerated-bright-source-snapshot-v1",
+  "sources": [
+    {
+      "proof_id": "PR10",
+      "url": "https://www.digiwin.com.vn/about-vn/",
+      "locator": "lines202–206, solution ecosystem",
+      "excerpt": "Digiwin phát triển hệ thống ERP",
+      "observed_scope": "Manufacturer digital solution provider identity.",
+      "excluded": "Scale rankings, counts and SLA."
+    },
+    {
+      "proof_id": "PR03",
+      "case_id": "case04",
+      "entity": "上海晶丰明源半导体股份有限公司",
+      "market": "China",
+      "url": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+      "locator": "case04, lines239–257, solution249; pain245",
+      "excerpt": "一体化数智解决方案。",
+      "observed_scope": "IC design case; integrated digital solution; outsourcing-management inefficiency is a stated pain.",
+      "excluded": "All response durations, percentages and revenue claims; numeric baseline conflict remains unresolved."
+    }
+  ],
+  "destination": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+  "claims": {
+    "RMK-BRIGHT-1": [
+      "PR10-role"
+    ],
+    "RMK-BRIGHT-2": [
+      "PR03-case"
+    ],
+    "RMK-BRIGHT-3": [
+      "PR03-qualitative-scope"
+    ],
+    "RMK-BRIGHT-4": [
+      "PR03-resource"
+    ]
+  },
+  "consumer_policy": "Draft proposal; shared owner adoption required before production; no independent consumer truth."
+}

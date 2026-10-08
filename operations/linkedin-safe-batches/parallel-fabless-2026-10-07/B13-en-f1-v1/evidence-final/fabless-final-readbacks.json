@@ -1,0 +1,31 @@
+{
+  "readbacks": [
+    {
+      "height": 817,
+      "image": 638.2222290039062,
+      "loaded": true,
+      "mode": "desktop",
+      "overflow": false,
+      "width": 1707
+    },
+    {
+      "height": 817,
+      "image": 331.22222900390625,
+      "loaded": true,
+      "mode": "feed",
+      "width": 1707
+    },
+    {
+      "height": 817,
+      "image": 331.22222900390625,
+      "loaded": true,
+      "mode": "mobile",
+      "overflow": false,
+      "width": 1707
+    }
+  ],
+  "desktopScreenshot": "Actual card10 inspected",
+  "feedCapture": "Timeout5000ms; DOM only331.2222px",
+  "mobileCapture": "Timeout5000ms; readback1707x817 does not establish390 viewport, no mobile PASS",
+  "readerNavigation": "Card10 link -> English reader -> return index card1 actually clicked"
+}

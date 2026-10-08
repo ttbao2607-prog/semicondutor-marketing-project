@@ -1,0 +1,77 @@
+{
+  "revision": "b17-cold-fabless-b17-script-v1",
+  "gate_id": "AD-ED-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "copy_sha256": "287884092729911344c99d1089131d4bcb887a4e0249481e126c9c20819ba8f8",
+  "reviewed_ads": [
+    "B17-COLD"
+  ],
+  "reviewed_fields": {
+    "B17-COLD": [
+      "caption",
+      "COLD-FABLESS-B17.headline",
+      "COLD-FABLESS-B17.body",
+      "COLD-FABLESS-B17.source_text",
+      "COLD-FABLESS-B17.cta",
+      "COLD-FABLESS-B17.native_headline",
+      "COLD-FABLESS-B17.alt",
+      "COLD-FABLESS-B17.artwork_labels"
+    ]
+  },
+  "BRAND_ROLE": {
+    "verdict": "PASS",
+    "observation": "Official supplied Digiwin mark once; functional category/counter distinct from attributed source. Supplier, customer and Taiwan/Vietnam provenance remain separate."
+  },
+  "ADVERTISER_VOICE": {
+    "verdict": "PASS",
+    "observation": "English We provide/We develop and provide/Work with our team; Hans 我们提供/我们开发并提供/与我们在越南的团队. Neutral planning questions, no third-person supplier praise or invented quote."
+  },
+  "independence": "SELF_REVIEW",
+  "per_card_observations": [
+    {
+      "stage": "cold",
+      "card_id": "COLD-FABLESS-B17",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "COLD-FABLESS-B17",
+        "headline": "需求预测变了，先看哪些批次？",
+        "body": "调整计划前，先核对产品、计划期间与合作伙伴的批次报告。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "需求预测变了，先看哪些批次？",
+        "alt": "示意图：需求预测变了，先看哪些批次？",
+        "artwork_labels": [
+          "芯片委外计划",
+          "制造业 ERP"
+        ]
+      },
+      "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。委外生产的芯片设计计划团队：需求预测变了，调整计划前先核对哪些批次报告？",
+      "scene": "Bright neutral desk, blank partner report sheets beside a wafer protective carrier; separate sheets represent reports to reconcile, not actual statuses or forecast charts. Demand-change planning hook; blank paper only. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+      "observation": "Actual root authored/reviewed F2 scope: 需求预测变了，先看哪些批次？; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result.",
+      "source_scope": "Planning questions or separate local Vietnam consultation",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/01-cold-fabless-b14.png",
+      "reused": false
+    }
+  ],
+  "reader_script": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/reader-script.json",
+    "sha256": "b6e81ef74302f19d53f75b402b81c8c47d27022b8c418c8c308444777164f05f",
+    "revision": "b17-f2-reader-v1"
+  },
+  "actual_review_ref": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/semantic-review.json",
+    "sha256": "79d73b73f0eaf4e82ff6a12424867f6d1cbab33c02e2d8c0a2e11b67597097bf",
+    "revision": "b17-actual-f2-root-script-review-v1"
+  },
+  "postgen": "POSTGEN_NOT_RUN"
+}

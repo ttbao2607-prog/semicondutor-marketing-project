@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "revision": "b20-f3-a4-source-review-v1",
+  "writer": "/root",
+  "reviewer": "/root",
+  "date": "2026-10-07",
+  "scope": "OFFLINE_SOURCE_COPY",
+  "independence": "SELF_REVIEW",
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/release/f3-a4/contract.json",
+      "sha256": "ea24d0ef8d9a68df08ab02d78f4119d8096d048c9e37c410bfe7f1df7a682407",
+      "revision": "b20-f3-a4-contract-v1"
+    },
+    "copy": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/explanation/public-copy.json",
+      "sha256": "8713155b122c8f2e576cba18c8c818762ebd18ed90ed52a84838ce6dec8f76e7",
+      "revision": "b20-f3-explanation-copy-v1"
+    },
+    "sources": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/execution-brief.md",
+        "sha256": "029d4dfaa8635c335786ecedf707c9c1dbc1815952b2314db6e3bdbd7d602bd1",
+        "revision": "b20-f3-brief-v1"
+      },
+      {
+        "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F3/common/f3-copy.json",
+        "sha256": "42bfe643e390dc933637a852bc82210c288139c2bfee4e548826d3c907c640a6",
+        "revision": "f3-source-read-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/b20-b21-authored-input.json",
+        "sha256": "7ed7cf46abb42fc9d97355a0dc3c7c6c7ce7b34c997938517ee9029764c06f9f",
+        "revision": "b20-b21-root-authored-20261008-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/proof-source-mapping.json",
+        "sha256": "d8b5fe6c9f691f1c0a613232b8c487f8e2e88becd5050e017745da147b21bf61",
+        "revision": "b20-f3-proof-map-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/vietnam-team-source.json",
+        "sha256": "65389da0c83e7a6c85a8c7d78f3c8f8da9f7f06d6f9c32721c2ae2f095f864c4",
+        "revision": "b20-f3-vietnam-service-v1"
+      },
+      {
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v2/selected-copy.json",
+        "sha256": "e1a8780cf334246f1d64ea0af49c5cace71d71f5dcb0cad7ff187a1e15f6b839",
+        "revision": "b17-review-copy-zh-Hans-v2"
+      },
+      {
+        "path": "operations/linkedin-locale-adapter/profiles.json",
+        "sha256": "1b0105ed92ef866fb7a5796aefcdfb9d8e9d9683c72f4257295e80a06653a6cd",
+        "revision": "locale-adapter-draft-2026-10-06-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/semantic-review.json",
+        "sha256": "5e4d901098715e09406abd7d08bdd5c1e1b12e68654c4cc338f20325f5f8be08",
+        "revision": "b20-actual-root-script-review-v1"
+      }
+    ]
+  },
+  "verdicts": {
+    "source_copy": "PASS",
+    "editorial": "PASS",
+    "first_mention": "PASS"
+  },
+  "reviewed_ads": [
+    "F3-A"
+  ],
+  "reviewed_fields": [
+    "F3-A/caption",
+    "F3-A/F3-A1.headline",
+    "F3-A/F3-A1.body",
+    "F3-A/F3-A1.source_text",
+    "F3-A/F3-A1.cta",
+    "F3-A/F3-A1.native_headline",
+    "F3-A/F3-A1.alt",
+    "F3-A/F3-A1.artwork_labels",
+    "F3-A/F3-A2.headline",
+    "F3-A/F3-A2.body",
+    "F3-A/F3-A2.source_text",
+    "F3-A/F3-A2.cta",
+    "F3-A/F3-A2.native_headline",
+    "F3-A/F3-A2.alt",
+    "F3-A/F3-A2.artwork_labels",
+    "F3-A/F3-A3.headline",
+    "F3-A/F3-A3.body",
+    "F3-A/F3-A3.source_text",
+    "F3-A/F3-A3.cta",
+    "F3-A/F3-A3.native_headline",
+    "F3-A/F3-A3.alt",
+    "F3-A/F3-A3.artwork_labels",
+    "F3-A/F3-A4.headline",
+    "F3-A/F3-A4.body",
+    "F3-A/F3-A4.source_text",
+    "F3-A/F3-A4.cta",
+    "F3-A/F3-A4.native_headline",
+    "F3-A/F3-A4.alt",
+    "F3-A/F3-A4.artwork_labels",
+    "F3-A/F3-A5.headline",
+    "F3-A/F3-A5.body",
+    "F3-A/F3-A5.source_text",
+    "F3-A/F3-A5.cta",
+    "F3-A/F3-A5.native_headline",
+    "F3-A/F3-A5.alt",
+    "F3-A/F3-A5.artwork_labels",
+    "F3-A/F3-A6.headline",
+    "F3-A/F3-A6.body",
+    "F3-A/F3-A6.source_text",
+    "F3-A/F3-A6.cta",
+    "F3-A/F3-A6.native_headline",
+    "F3-A/F3-A6.alt",
+    "F3-A/F3-A6.artwork_labels"
+  ],
+  "unresolved_findings": []
+}

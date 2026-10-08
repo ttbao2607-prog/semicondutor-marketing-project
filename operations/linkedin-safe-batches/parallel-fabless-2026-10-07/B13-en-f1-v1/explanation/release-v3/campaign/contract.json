@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "revision": "b13-explanation-campaign-contract-v2-layout-v3",
+  "locale": "en",
+  "channel": "linkedin-carousel",
+  "copy": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/public-copy.json",
+    "sha256": "a61c7e758741beb4957ce496eb252db6a121b1c0512d5bb232132c15e3be3005",
+    "revision": "b13-explanation-en-copy-v2"
+  },
+  "sources": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/f1-copy.json",
+      "sha256": "35442440959244ef51dc7599747affd40936700b9b24c0353a0ba688d1a68b54",
+      "revision": "b13-exact-source-v1"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/evidence-register.md",
+      "sha256": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+      "revision": "b13-exact-source-v1"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/local-terminology-evidence.json",
+      "sha256": "6e81ee57160281e180fc86f8471b02005ee67ab817f0d3e13334b8d0a79f789c",
+      "revision": "b13-exact-source-v1"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/execution-brief.md",
+      "sha256": "ad41950cd773ea6b1ea63f58c90cafe81735eae390ba406ad0aff4fd868345e4",
+      "revision": "b13-execution-brief-v1"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/remaining-layout-review.json",
+      "sha256": "fa08fa88a873b7305e258b10fbee77b0973dda5bbee21c206a20914770c869ce",
+      "revision": "b13-remaining-layout-self-review-v3"
+    }
+  ],
+  "card_sources": {
+    "F1-A1": [
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/f1-copy.json",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/local-terminology-evidence.json"
+    ],
+    "F1-A2": [
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/f1-copy.json",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/local-terminology-evidence.json"
+    ],
+    "F1-A3": [
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/f1-copy.json",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/local-terminology-evidence.json"
+    ],
+    "F1-A4": [
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/f1-copy.json",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/local-terminology-evidence.json"
+    ],
+    "F1-A5": [
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/f1-copy.json",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/evidence-register.md",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/local-terminology-evidence.json"
+    ]
+  },
+  "ad_order": [
+    "F1-A"
+  ],
+  "card_order": {
+    "F1-A": [
+      "F1-A1",
+      "F1-A2",
+      "F1-A3",
+      "F1-A4",
+      "F1-A5"
+    ]
+  },
+  "surfaces": {
+    "F1-A": [
+      {
+        "surface_id": "full-feed",
+        "reading_order": [
+          "caption",
+          "F1-A1.headline",
+          "F1-A1.body",
+          "F1-A1.source_text",
+          "F1-A1.cta",
+          "F1-A1.native_headline",
+          "F1-A1.alt",
+          "F1-A1.artwork_labels",
+          "F1-A2.headline",
+          "F1-A2.body",
+          "F1-A2.source_text",
+          "F1-A2.cta",
+          "F1-A2.native_headline",
+          "F1-A2.alt",
+          "F1-A2.artwork_labels",
+          "F1-A3.headline",
+          "F1-A3.body",
+          "F1-A3.source_text",
+          "F1-A3.cta",
+          "F1-A3.native_headline",
+          "F1-A3.alt",
+          "F1-A3.artwork_labels",
+          "F1-A4.headline",
+          "F1-A4.body",
+          "F1-A4.source_text",
+          "F1-A4.cta",
+          "F1-A4.native_headline",
+          "F1-A4.alt",
+          "F1-A4.artwork_labels",
+          "F1-A5.headline",
+          "F1-A5.body",
+          "F1-A5.source_text",
+          "F1-A5.cta",
+          "F1-A5.native_headline",
+          "F1-A5.alt",
+          "F1-A5.artwork_labels"
+        ]
+      }
+    ]
+  },
+  "definitions": {
+    "OSAT": "outsourced semiconductor packaging and testing",
+    "Fabless": "chip design without an owned fabrication plant",
+    "WIP": "work in process"
+  },
+  "limits": {
+    "caption": 255,
+    "headline": 45,
+    "body": 180,
+    "source_text": 200,
+    "cta": 70,
+    "native_headline": 45,
+    "alt": 200,
+    "artwork_labels": 70
+  },
+  "groups": [
+    [
+      "F1-A1"
+    ],
+    [
+      "F1-A2"
+    ],
+    [
+      "F1-A3"
+    ],
+    [
+      "F1-A4"
+    ],
+    [
+      "F1-A5"
+    ]
+  ],
+  "reuse_fields": [
+    "headline",
+    "body",
+    "source_text",
+    "cta",
+    "native_headline",
+    "alt",
+    "artwork_labels"
+  ],
+  "references": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+      "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+      "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "role": "brand_asset",
+      "attributes": [
+        "brand_mark"
+      ]
+    }
+  ],
+  "style": {
+    "brand": "Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs",
+    "palette": [
+      "white",
+      "#0052FF",
+      "#0B132B",
+      "#00B4D8",
+      "charcoal"
+    ],
+    "lighting": "bright neutral daylight with soft grounded shadows",
+    "avoid": [
+      "neon",
+      "dark mode",
+      "human faces",
+      "fabricated metrics identifiers dates statuses or results",
+      "customer marks or facility evidence",
+      "unreviewed capability or outcome claims",
+      "reference wording record values props or exact composition",
+      "printed caption native headline alt or internal notes",
+      "extra wording beyond approved artwork text and official brand mark"
+    ],
+    "campaign": {
+      "revision": "campaign-r2-hybrid-full-v1-parent-review-pending",
+      "instructions": "International English. Bright white and pale blue R2 photographic material depth, grounded daylight shadows, navy/blue large type, authentic official supplied Digiwin mark once. Cohort-appropriate illustrative chip-design/outsourcing management; no owned fab, customer facility, faces, screens, technical chip data, charts, ticks or fabricated records. Print only the exact approved artwork text. Caption/native headline/alt stay outside raster. Category and sequence distinct from source. Headline dominant; body comfortably readable at333px. Source must be a full-width WHITE main paragraph, at least body-sized (about56native pixels on1080), high-contrast navy, generous space for the full legal name. Reduce scene before source typography. No tiny footer, source icon column, divider or unapproved punctuation. English international business voice; no inherited Vietnamese wording. Exact reviewed category and sequence near logo; no extra DIGIWIN label. MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning."
+    }
+  },
+  "output": {
+    "directory": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v3/campaign/native",
+    "extension": ".png",
+    "policy": "native_square_min",
+    "min_edge": 1080
+  }
+}

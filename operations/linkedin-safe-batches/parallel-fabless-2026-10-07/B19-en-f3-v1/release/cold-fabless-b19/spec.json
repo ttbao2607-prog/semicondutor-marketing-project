@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "revision": "b19-cold-fabless-b19-spec-v1",
+  "release": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/release/cold-fabless-b19/release.json",
+    "sha256": "21f477bb3509acf80d278a698bc41703af7cad5c8d2892a8572607d3ab397502",
+    "revision": "b19-cold-fabless-b19-release-v1"
+  },
+  "contract": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/release/cold-fabless-b19/contract.json",
+    "sha256": "9bc7351ba0f4a9925af7180fb48e4ef25e0e4dd9b44bfe5fac3837804f085d65",
+    "revision": "b19-cold-fabless-b19-contract-v1"
+  },
+  "copy": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/cold/public-copy.json",
+    "sha256": "0f3c78d2b8330c14607753912aa88824bd9a408494c587c135719119f7fcbdec",
+    "revision": "b19-f3-cold-copy-v1"
+  },
+  "review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/release/cold-fabless-b19/review.json",
+    "sha256": "d2ec8fa8b52a7e541d3ed497b13cc840afa7e72f514e81d108c1b7e2a577a1aa",
+    "revision": "b19-cold-fabless-b19-source-review-v1"
+  },
+  "calls": [
+    {
+      "call_id": "B19_COLD_FABLESS_B19_V1",
+      "targets": [
+        "COLD-FABLESS-B19"
+      ],
+      "references": [
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/assets/01-cold-fabless-b16.png",
+          "sha256": "829bdd6e8db494c2ca3dd43e0fdbebc8ec29aabcc512599ea429690efdf0de2b",
+          "revision": "b13-v5-selected-visual-family-reference",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "revision": "official-logo-pinned",
+          "role": "brand_asset",
+          "attributes": [
+            "brand_mark"
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "card_id": "COLD-FABLESS-B19",
+          "concept_id": "b19-cold-fabless-b19-f3-scene-v1",
+          "reader_question": "A lot changes partners. What goes with it?",
+          "description": "Two neutral partner work areas, a sealed wafer protective carrier and wholly blank accompanying record sheets at a handoff point. No actual customer shipment or shipping status. Partner handoff coordination hook; blank paper only. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+          "props": [
+            "central review plinth",
+            "two abstract partner surfaces",
+            "blank reports",
+            "neutral chip packages"
+          ],
+          "artwork_labels": [
+            "Outsourced chip handoffs",
+            "Manufacturing ERP"
+          ]
+        }
+      ],
+      "artwork_text": {
+        "COLD-FABLESS-B19": {
+          "headline": "A lot changes partners. What goes with it?",
+          "body": "Before the handoff, clarify the lot, related records and who confirms the information.",
+          "source_text": "",
+          "cta": "",
+          "artwork_labels": [
+            "Outsourced chip handoffs",
+            "Manufacturing ERP"
+          ]
+        }
+      },
+      "output_id": "cold-fabless-b19-en-v1",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/release/cold-fabless-b19/native/cold-fabless-b19-en-v1.png",
+      "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"Write only supplied English artwork text. International B2B English: specific operational question, accountable actor, concrete next step. No idioms, slogans, invented ROI or cultural stereotypes. Keep scenes and narrative order. No Vietnamese words from references. Preserve exact English spelling and supplied line breaks. Review longer words at 333px; reflow or reduce illustration space before shrinking type. Do not invent hyphenation. B13v5 bright white/blue photographic campaign family. Reference wording is not approved copy. Official supplied logo once; no extra DIGIWIN header. Exact category/sequence near logo. Body comfortably readable at333CSSpx. Source normal full-width main paragraph on white, at least body-sized. All paper blank; no bars/rules/charts/ticks/data glyphs/UI/customer geography/seal/badge. Only approved artwork words. Partner handoff questions are not forecast accuracy or automatic replanning claims. Reduce scene before type.\",\"revision\":\"campaign-r2-hybrid-full-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/assets/01-cold-fabless-b16.png\",\"revision\":\"b13-v5-selected-visual-family-reference\",\"role\":\"campaign_visual\",\"sha256\":\"829bdd6e8db494c2ca3dd43e0fdbebc8ec29aabcc512599ea429690efdf0de2b\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"official-logo-pinned\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"Outsourced chip handoffs\",\"Manufacturing ERP\"],\"card_id\":\"COLD-FABLESS-B19\",\"concept_id\":\"b19-cold-fabless-b19-f3-scene-v1\",\"description\":\"Two neutral partner work areas, a sealed wafer protective carrier and wholly blank accompanying record sheets at a handoff point. No actual customer shipment or shipping status. Partner handoff coordination hook; blank paper only. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.\",\"props\":[\"central review plinth\",\"two abstract partner surfaces\",\"blank reports\",\"neutral chip packages\"],\"reader_question\":\"A lot changes partners. What goes with it?\"}]\nAPPROVED ARTWORK TEXT\n{\"COLD-FABLESS-B19\":{\"artwork_labels\":[\"Outsourced chip handoffs\",\"Manufacturing ERP\"],\"body\":\"Before the handoff, clarify the lot, related records and who confirms the information.\",\"cta\":\"\",\"headline\":\"A lot changes partners. What goes with it?\",\"source_text\":\"\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/release/cold-fabless-b19/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+      "prompt_sha256": "94f3dd3814ecd8ff3c2a5c838753ef68bc48980cdb9122c0f41fcf91a4216b60"
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "revision": "b13-explanation-campaign-anchor-v1-layout-v3",
+  "gate_id": "MSG-ANCHOR-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "revision": "1.0"
+  },
+  "source": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "revision": "VY-MAIL-USER-20261006"
+  },
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v3/campaign/contract.json",
+      "sha256": "75df64a7be4df467d730bafad4b86a8e54211f5a49cd1665e8d609d6a3d59770",
+      "revision": "b13-explanation-campaign-contract-v2-layout-v3"
+    },
+    "copy": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/public-copy.json",
+      "sha256": "a61c7e758741beb4957ce496eb252db6a121b1c0512d5bb232132c15e3be3005",
+      "revision": "b13-explanation-en-copy-v2"
+    },
+    "spec": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v3/campaign/spec.json",
+      "sha256": "2e8767d8783d6a18ad3ece7669409f6a44f4337e9c1a974112278b298477e37e",
+      "revision": "b13-explanation-campaign-spec-v1-layout-v3"
+    },
+    "script_review": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v3/campaign/script-review.json",
+      "sha256": "a418f27ae8f68dfd480072b37f6fb0fa338c70fbea433369287e695e272eba25",
+      "revision": "b13-explanation-campaign-script-v1-layout-v3"
+    }
+  },
+  "scope": {
+    "segment": "FDI",
+    "locale": "en",
+    "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+    "route": "offline English cold -> F1 outsourced-lot reporting -> qualitative China Bright Power integrated-solution case -> English case reader"
+  },
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "coverage": {
+    "ads": [
+      "F1-A"
+    ],
+    "cards": [
+      "F1-A1",
+      "F1-A2",
+      "F1-A3",
+      "F1-A4",
+      "F1-A5"
+    ],
+    "fields": {
+      "F1-A": [
+        "caption",
+        "F1-A1.headline",
+        "F1-A1.body",
+        "F1-A1.source_text",
+        "F1-A1.cta",
+        "F1-A1.native_headline",
+        "F1-A1.alt",
+        "F1-A1.artwork_labels",
+        "F1-A2.headline",
+        "F1-A2.body",
+        "F1-A2.source_text",
+        "F1-A2.cta",
+        "F1-A2.native_headline",
+        "F1-A2.alt",
+        "F1-A2.artwork_labels",
+        "F1-A3.headline",
+        "F1-A3.body",
+        "F1-A3.source_text",
+        "F1-A3.cta",
+        "F1-A3.native_headline",
+        "F1-A3.alt",
+        "F1-A3.artwork_labels",
+        "F1-A4.headline",
+        "F1-A4.body",
+        "F1-A4.source_text",
+        "F1-A4.cta",
+        "F1-A4.native_headline",
+        "F1-A4.alt",
+        "F1-A4.artwork_labels",
+        "F1-A5.headline",
+        "F1-A5.body",
+        "F1-A5.source_text",
+        "F1-A5.cta",
+        "F1-A5.native_headline",
+        "F1-A5.alt",
+        "F1-A5.artwork_labels"
+      ]
+    },
+    "storyboard_cards": [
+      "F1-A1",
+      "F1-A2",
+      "F1-A3",
+      "F1-A4",
+      "F1-A5"
+    ]
+  },
+  "rules": {
+    "A1": {
+      "verdict": "MATCH",
+      "observation": "Chip-design entity with commercial outsourced production; narrowly relevant semiconductor chain operating situation. Not every design office or generic manufacturer, and not assumed Vietnam target-account fit."
+    },
+    "A2": {
+      "verdict": "MATCH",
+      "observation": "Operations/SCM influences business-system evaluation at eligible entity; authority and existing group system remain unknown. No assertion a specific China customer or FDI Vietnam company can independently buy local ERP. Internal intake records hypotheses and process/existing-system alternatives."
+    },
+    "A3": {
+      "verdict": "MATCH",
+      "observation": "FDI English commercial Fabless Operations/SCM; international English questions and accountable next steps, not VN supply-chain-entry promise. Fabless definition supplied in explanation caption; no WIP/OSAT acronym used without definition."
+    },
+    "A4": {
+      "verdict": "MATCH",
+      "observation": "Implicit business value is a shared basis for the next production decision and accountable update ownership. Cold pain->report conventions->stage/time/source->ownership->next decision. No ROI%, yield, cost saving, forecast outcome or promised automatic synchronization."
+    },
+    "A5": {
+      "verdict": "N/A",
+      "observation": "N/A: FDI lane only, no domestic supplier-entry claim."
+    },
+    "A6": {
+      "verdict": "MATCH",
+      "observation": "Concrete lot/product reference, production periods/test classifications, stage/time/report source and update owner. Questions/process conventions, not unverified product functionality. Taiwan source states ERP/MES context separately. Illustrative chip/wafer carrier is not a fabricated chip layout or owned fab."
+    },
+    "A7": {
+      "verdict": "MATCH",
+      "observation": "Same Operations/SCM reader across cold->F1 reports->shared decision basis->digital provider->named China chip-design case->outsourcing-management pain/integrated solution->English reader/return. Bright qualitative outsourcing pain supplies a related business context, not evidence of the exact F1 lot-report mechanism or ERP-only causality. Nine adjacent transitions reviewed in order. CTA reads case, no form/live submission."
+    }
+  },
+  "units": [
+    {
+      "card_id": "F1-A1",
+      "verdict": "MATCH",
+      "observation": "We provide manufacturing ERP solutions. Fabless means chip design without an owned fabrication plant. Operations teams: align lot reports and responsibilities across production partners. | Partner reports. A clear view of each lot? | Before planning the next step, check which process stage each partner report describes. |  |  | Illustration: Partner reports. A clear view of each lot? | ['ERP · CHIP OPERATIONS', '1/5'] Scene: Separate blank partner reports beside a wafer protective carrier, with open neutral paths expressing the unanswered stage question. Illustrative outsourced-production context, no owned fabrication facility. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. Source: Source-bound management questions; Taiwan ERP/MES publication context on closing; not Vietnam ERP-only capability. Actual pregen layout review: MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning."
+    },
+    {
+      "card_id": "F1-A2",
+      "verdict": "MATCH",
+      "observation": "We provide manufacturing ERP solutions. Fabless means chip design without an owned fabrication plant. Operations teams: align lot reports and responsibilities across production partners. | Start with the product and lot. | Check the product and lot references. Agree how each partner identifies production periods and test classifications. |  |  | Illustration: Start with the product and lot. | ['ERP · CHIP OPERATIONS', '2/5'] Scene: Close physical comparison of a neutral chip product sample and two blank partner record surfaces. Restrained physical linking paths show correspondence to be checked; no technical IDs, dates or test values. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. Source: Source-bound management questions; Taiwan ERP/MES publication context on closing; not Vietnam ERP-only capability. Actual pregen layout review: MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning."
+    },
+    {
+      "card_id": "F1-A3",
+      "verdict": "MATCH",
+      "observation": "We provide manufacturing ERP solutions. Fabless means chip design without an owned fabrication plant. Operations teams: align lot reports and responsibilities across production partners. | Which stage does this report describe? | Identify the process stage, when the status was recorded and which partner report supports it. |  |  | Illustration: Which stage does this report describe? | ['ERP · CHIP OPERATIONS', '3/5'] Scene: Oblique tabletop with wafer protective carrier, neutral unlabelled stage nodes and a detached blank report surface. Open paths express stage, report time and source questions, not a confirmed production state. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. Source: Source-bound management questions; Taiwan ERP/MES publication context on closing; not Vietnam ERP-only capability. Actual pregen layout review: MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning."
+    },
+    {
+      "card_id": "F1-A4",
+      "verdict": "MATCH",
+      "observation": "We provide manufacturing ERP solutions. Fabless means chip design without an owned fabrication plant. Operations teams: align lot reports and responsibilities across production partners. | Who keeps the shared view current? | Agree the report format, exchange schedule and owner who confirms each production update. |  |  | Illustration: Who keeps the shared view current? | ['ERP · CHIP OPERATIONS', '4/5'] Scene: Two distinct coordination surfaces connected through a shared blank record surface; an unlabelled neutral owner token suggests responsibility to agree. No completed approval, automatic update or product connector. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. Source: Source-bound management questions; Taiwan ERP/MES publication context on closing; not Vietnam ERP-only capability. Actual pregen layout review: MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning."
+    },
+    {
+      "card_id": "F1-A5",
+      "verdict": "MATCH",
+      "observation": "We provide manufacturing ERP solutions. Fabless means chip design without an owned fabrication plant. Operations teams: align lot reports and responsibilities across production partners. | Give the next decision a shared basis. | Bring lot, stage, report time and update ownership into the same discussion. | Digiwin Taiwan semiconductor solution material:\nERP and MES for management and production. | Explore outsourced-production questions | Illustration: Give the next decision a shared basis. | ['ERP · CHIP OPERATIONS', '5/5'] Scene: Compact low physical platform with blank partner report and neutral chip sample; open relationship path supports a shared discussion. Leave a large dedicated full-width source paragraph beneath scene. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. Source: Source-bound management questions; Taiwan ERP/MES publication context on closing; not Vietnam ERP-only capability."
+    }
+  ],
+  "transitions": [
+    {
+      "cards": [
+        "F1-A1",
+        "F1-A2"
+      ],
+      "verdict": "MATCH",
+      "observation": "Partner reports. A clear view of each lot? -> Start with the product and lot.; same Operations/SCM reader; each step builds reporting basis or source-attributed qualitative case context."
+    },
+    {
+      "cards": [
+        "F1-A2",
+        "F1-A3"
+      ],
+      "verdict": "MATCH",
+      "observation": "Start with the product and lot. -> Which stage does this report describe?; same Operations/SCM reader; each step builds reporting basis or source-attributed qualitative case context."
+    },
+    {
+      "cards": [
+        "F1-A3",
+        "F1-A4"
+      ],
+      "verdict": "MATCH",
+      "observation": "Which stage does this report describe? -> Who keeps the shared view current?; same Operations/SCM reader; each step builds reporting basis or source-attributed qualitative case context."
+    },
+    {
+      "cards": [
+        "F1-A4",
+        "F1-A5"
+      ],
+      "verdict": "MATCH",
+      "observation": "Who keeps the shared view current? -> Give the next decision a shared basis.; same Operations/SCM reader; each step builds reporting basis or source-attributed qualitative case context."
+    }
+  ],
+  "context": {
+    "scope": "FULL_JOURNEY",
+    "verdict": "MATCH",
+    "observation": "Same Operations/SCM reader across cold->F1 reports->shared decision basis->digital provider->named China chip-design case->outsourcing-management pain/integrated solution->English reader/return. Bright qualitative outsourcing pain supplies a related business context, not evidence of the exact F1 lot-report mechanism or ERP-only causality. Nine adjacent transitions reviewed in order. CTA reads case, no form/live submission. Reader review: English summary names Chinese legal entity and China geography, states outsourcing-management pain and integrated-solution scope. Questions explicitly apply to the reader's own operation, not a claim about documented implementation steps. Original Simplified Chinese disclosure and source-reading CTA appropriate. No case metrics or generalized result.",
+    "brief": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/execution-brief.md",
+      "sha256": "ad41950cd773ea6b1ea63f58c90cafe81735eae390ba406ad0aff4fd868345e4",
+      "revision": "b13-execution-brief-v1"
+    },
+    "related_inputs": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/cold/public-copy.json",
+        "sha256": "ad478f3fccc22b36228cdc3511b3930229414fc81afb64ec5849553fed62f13e",
+        "revision": "b13-cold-en-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/public-copy.json",
+        "sha256": "58ea1bb1131d18686ad273ef7fa14bb987fd4bdf3892ed266b39597a67b94ddc",
+        "revision": "b13-proof-en-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/reader-script.json",
+        "sha256": "ae60dc4386d512a52efa95af02a6b301d7903b3e40af1daf126fee2a2e025715",
+        "revision": "b13-reader-en-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/semantic-review.json",
+        "sha256": "02bd36f450c92cfe4088abd31851ba357afad56044002ff006016b249fdf5853",
+        "revision": "b13-root-actual-script-review-v2"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof-source-mapping.json",
+        "sha256": "dd6b951f876918890693e5b90d64850b67b84c19f9aa6c6ccf25e7c10d544a25",
+        "revision": "b13-proof-map-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/remaining-layout-review.json",
+        "sha256": "fa08fa88a873b7305e258b10fbee77b0973dda5bbee21c206a20914770c869ce",
+        "revision": "b13-remaining-layout-self-review-v3"
+      }
+    ]
+  },
+  "unresolved_findings": []
+}

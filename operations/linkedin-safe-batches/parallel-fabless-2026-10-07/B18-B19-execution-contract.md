@@ -1,0 +1,9 @@
+# B18/B19 execution contract · 2026-10-08
+
+PO: “Okie chạy tiếp 2 batch kế.” Queue verified against current main handoff README: F1/F2/F3 × en→zh-Hans→zh-Hant; therefore B18=F2 zh-Hant, B19=F3 en. Original Fabless.md is absent in current refs; use retained current queue, source briefs, completed B13–B17 evidence. No invented missing plan.
+Goal: two complete localized11-card offline journeys, including VN consulting/implementation card and source-grounded reader. Maintain current anchor and B13v5 family.
+Owner /root SELF_REVIEW; no subagent. Write only owned Fabless operations/deliverables. Current source HEAD2307a0f, current canonical mainc5e7191; no new Git mutation/push/live authority. Frozen24pins/core/adapter unchanged.
+Plan: author all fields/scenes/context, fresh semantic review and release; two canaries; fresh callable guard before every ImageGen;6new+5same-locale selected exact-byte reuse each; build viewer/reader; inspect11native/desktop640/feed333/mobileCSS390 plus reader/return; bounded repairs and reinspection.
+Caps: earlier PO exception11original/batch retained; default2corrective/batch and1/card. Stop before B20.
+Success: all22 final native bytes, exact copy/category/source/counter/CTA, localized captions/headlines/alt/UI/readers, ten transitions, actual rendered coverage, no material source/claim/locale or clipping error; evidence includes hashes and observations. Execution SUCCESS/PARTIAL/FAILURE/BLOCKED separate from audit; actual review by root is PASS_SELF_REVIEW, independent audit NOT_RUN, native-market/live/PO acceptance not inferred.
+Docs impact: read current main CURRENT_STATE/DOCS_IMPACT_MAP/build/readiness/S03 and handoff, current source anchor/email/frozen procedure/source maps. Shared main remains untouched in owned lane; concrete proposed progress refresh recorded for coordinator before later commit/integration. Preserve historical failed findings.

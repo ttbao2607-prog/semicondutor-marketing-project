@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "revision": "b13-cold-campaign-release-v1",
+  "authorizer": "/root coordinator recording Bao B13 authority",
+  "authority_ref": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/generation-mandate.json",
+    "sha256": "2d801b7aced544cffade447e4fe3ad79a5a3163e5d8ff2105871b78fca2081a6",
+    "revision": "b13-bao-mandate-v1"
+  },
+  "purpose": "OFFLINE_IMAGEGEN",
+  "contract": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/cold/release-v1/campaign/contract.json",
+    "sha256": "e067ee161e6a1046191c1fd92f2df786cf0296a7f4bf88e2e2453e7c412fe8b1",
+    "revision": "b13-cold-campaign-contract-v1"
+  },
+  "copy": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/cold/public-copy.json",
+    "sha256": "ad478f3fccc22b36228cdc3511b3930229414fc81afb64ec5849553fed62f13e",
+    "revision": "b13-cold-en-copy-v1"
+  },
+  "review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/cold/release-v1/campaign/review.json",
+    "sha256": "c78b6c317d09fe6cbcd6bf3fbe3fdadcf2547cbfa5fd87055da1db51dfc64937",
+    "revision": "b13-cold-campaign-review-v1"
+  },
+  "groups": [
+    [
+      "COLD-FABLESS-B13"
+    ]
+  ]
+}

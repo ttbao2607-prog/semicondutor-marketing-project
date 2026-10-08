@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "revision": "b20-f3-a1-anchor-v1",
+  "gate_id": "MSG-ANCHOR-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "revision": "1.0"
+  },
+  "source": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "revision": "VY-MAIL-USER-20261006"
+  },
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/release/f3-a1/contract.json",
+      "sha256": "461e4eb812a9bff451b1e4da3a4036a0da03fa11e30a7c45f76a5ecf2be71c27",
+      "revision": "b20-f3-a1-contract-v1"
+    },
+    "copy": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/explanation/public-copy.json",
+      "sha256": "8713155b122c8f2e576cba18c8c818762ebd18ed90ed52a84838ce6dec8f76e7",
+      "revision": "b20-f3-explanation-copy-v1"
+    },
+    "spec": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/release/f3-a1/spec.json",
+      "sha256": "8eaec3543af3316f4fb26f8934bf8eb4a81cf7af9d0eb1d21d8713d6d3437928",
+      "revision": "b20-f3-a1-spec-v1"
+    },
+    "script_review": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/release/f3-a1/script-review.json",
+      "sha256": "90f08eb362b889ee3b02044fc5bda6561bdca474d7936c2fdb0243eb33c92726",
+      "revision": "b20-f3-a1-script-v1"
+    }
+  },
+  "scope": {
+    "segment": "FDI",
+    "locale": "zh-Hans",
+    "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+    "route": "offline zh-Hans partner-handoff cold -> F3 lot/record/confirmation coordination -> Vietnam consulting/implementation -> qualitative China outsourcing case -> localized handoff-question reader"
+  },
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "coverage": {
+    "ads": [
+      "F3-A"
+    ],
+    "cards": [
+      "F3-A1",
+      "F3-A2",
+      "F3-A3",
+      "F3-A4",
+      "F3-A5",
+      "F3-A6"
+    ],
+    "fields": {
+      "F3-A": [
+        "caption",
+        "F3-A1.headline",
+        "F3-A1.body",
+        "F3-A1.source_text",
+        "F3-A1.cta",
+        "F3-A1.native_headline",
+        "F3-A1.alt",
+        "F3-A1.artwork_labels",
+        "F3-A2.headline",
+        "F3-A2.body",
+        "F3-A2.source_text",
+        "F3-A2.cta",
+        "F3-A2.native_headline",
+        "F3-A2.alt",
+        "F3-A2.artwork_labels",
+        "F3-A3.headline",
+        "F3-A3.body",
+        "F3-A3.source_text",
+        "F3-A3.cta",
+        "F3-A3.native_headline",
+        "F3-A3.alt",
+        "F3-A3.artwork_labels",
+        "F3-A4.headline",
+        "F3-A4.body",
+        "F3-A4.source_text",
+        "F3-A4.cta",
+        "F3-A4.native_headline",
+        "F3-A4.alt",
+        "F3-A4.artwork_labels",
+        "F3-A5.headline",
+        "F3-A5.body",
+        "F3-A5.source_text",
+        "F3-A5.cta",
+        "F3-A5.native_headline",
+        "F3-A5.alt",
+        "F3-A5.artwork_labels",
+        "F3-A6.headline",
+        "F3-A6.body",
+        "F3-A6.source_text",
+        "F3-A6.cta",
+        "F3-A6.native_headline",
+        "F3-A6.alt",
+        "F3-A6.artwork_labels"
+      ]
+    },
+    "storyboard_cards": [
+      "F3-A1",
+      "F3-A2",
+      "F3-A3",
+      "F3-A4",
+      "F3-A5",
+      "F3-A6"
+    ]
+  },
+  "rules": {
+    "A1": {
+      "verdict": "MATCH",
+      "observation": "Eligible commercial chip-design Fabless entity with outsourced production. Handoff of lots/records is concrete operational scope, not proof of account fit."
+    },
+    "A2": {
+      "verdict": "MATCH",
+      "observation": "Operations/SCM influencer with coordination responsibility, same B13v5 persona. Entity autonomy and local ERP buying authority remain unknown, not assumed from FDI label."
+    },
+    "A3": {
+      "verdict": "MATCH",
+      "observation": "Simplified Chinese for China profile and Traditional Chinese for Taiwan profile separately authored. Language is not ownership. ERP and Fabless explained in each independent feed where present; MES expanded in source context. Exact Simplified legal entity is intentional proper-name preservation, disclosed in Hant reader."
+    },
+    "A4": {
+      "verdict": "MATCH",
+      "observation": "Shared basis for handoff coordination: lot/product scope, record sources, missing information and responsible confirmation on both sides. No numerical ROI, speed/accuracy result, automatic synchronization or software capability inferred."
+    },
+    "A5": {
+      "verdict": "N/A",
+      "observation": "N/A FDI scope; no domestic supplier-entry/qualification/audit-pass promise."
+    },
+    "A6": {
+      "verdict": "MATCH",
+      "observation": "Concrete questions about handoff point/product/lot/records and responsibility. Neutral illustrative trays, blank sheets and abstract nodes; no actual IDs, values, technical UI or customer facility. A5 scene compact with two plain tiles, no document glyph."
+    },
+    "A7": {
+      "verdict": "MATCH",
+      "observation": "Cold handoff trigger -> shared records/confirmers -> one agreed handoff point -> record mismatch clarification -> both-side confirmation -> shared coordination discussion -> Vietnam consulting/implementation -> provider role -> China chip-design case -> qualitative outsourcing pain/integrated solution -> reader. No persona/geography/solution-causality switch."
+    }
+  },
+  "units": [
+    {
+      "card_id": "F3-A1",
+      "verdict": "MATCH",
+      "observation": "Actual root authored/reviewed F3 scope: 批次转交伙伴，哪些信息要一起交接？; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result. Exact text: {\"card_id\": \"F3-A1\", \"headline\": \"批次转交伙伴，哪些信息要一起交接？\", \"body\": \"委外批次在生产伙伴之间转交时，先明确随批次交接的信息，以及由谁确认。\", \"source_text\": \"\", \"cta\": \"\", \"native_headline\": \"批次转交伙伴，哪些信息要一起交接？\", \"alt\": \"示意图：批次转交伙伴，哪些信息要一起交接？\", \"artwork_labels\": [\"ERP · 芯片运营\", \"1/6\"]} Scene: Two neutral partner work areas, a sealed wafer protective carrier and wholly blank accompanying record sheets at a handoff point. No actual customer shipment or shipping status. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label."
+    },
+    {
+      "card_id": "F3-A2",
+      "verdict": "MATCH",
+      "observation": "Actual root authored/reviewed F3 scope: 先选定一个交接点。; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result. Exact text: {\"card_id\": \"F3-A2\", \"headline\": \"先选定一个交接点。\", \"body\": \"从伙伴约定的流程中选一个交接点，明确本次讨论的产品。\", \"source_text\": \"\", \"cta\": \"\", \"native_headline\": \"先选定一个交接点。\", \"alt\": \"示意图：先选定一个交接点。\", \"artwork_labels\": [\"ERP · 芯片运营\", \"2/6\"]} Scene: One neutral handoff point between two plain chip trays with blank accompanying sheets. Product and lot scope illustrative; no printed identifiers or technical layout. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label."
+    },
+    {
+      "card_id": "F3-A3",
+      "verdict": "MATCH",
+      "observation": "Actual root authored/reviewed F3 scope: 同一批次，依据哪些记录？; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result. Exact text: {\"card_id\": \"F3-A3\", \"headline\": \"同一批次，依据哪些记录？\", \"body\": \"核对批次、产品与相关记录来源；标识不一致时，先明确由谁核实，再更新信息。\", \"source_text\": \"\", \"cta\": \"\", \"native_headline\": \"同一批次，依据哪些记录？\", \"alt\": \"示意图：同一批次，依据哪些记录？\", \"artwork_labels\": [\"ERP · 芯片运营\", \"3/6\"]} Scene: A neutral chip tray beside two distinct wholly blank record sheets and a simple magnifying lens. Abstract comparison of record sources, no printed IDs, dates, status values or technical UI. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label."
+    },
+    {
+      "card_id": "F3-A4",
+      "verdict": "MATCH",
+      "observation": "Actual root authored/reviewed F3 scope: 交接信息由谁确认？; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result. Exact text: {\"card_id\": \"F3-A4\", \"headline\": \"交接信息由谁确认？\", \"body\": \"列出缺失信息与双方的确认人员，再按伙伴实际流程商定下一步。\", \"source_text\": \"\", \"cta\": \"\", \"native_headline\": \"交接信息由谁确认？\", \"alt\": \"示意图：交接信息由谁确认？\", \"artwork_labels\": [\"ERP · 芯片运营\", \"4/6\"]} Scene: Two neutral unlabelled responsibility nodes on opposite sides of a chip tray and a wholly blank paper sheet; no check marks, completed workflow, screens or record values. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label."
+    },
+    {
+      "card_id": "F3-A5",
+      "verdict": "MATCH",
+      "observation": "Actual root authored/reviewed F3 scope: 为交接讨论建立共同依据。; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result. Exact text: {\"card_id\": \"F3-A5\", \"headline\": \"为交接讨论建立共同依据。\", \"body\": \"把批次范围、记录来源与确认责任放进同一次协调讨论。\", \"source_text\": \"Digiwin 台湾半导体方案资料：\\nERP 经营管理与 MES(制造执行系统) 生产制造。\", \"cta\": \"探讨委外生产交接问题\", \"native_headline\": \"为交接讨论建立共同依据。\", \"alt\": \"示意图：为交接讨论建立共同依据。\", \"artwork_labels\": [\"ERP · 芯片运营\", \"5/6\"]} Scene: Small neutral sealed chip carrier between two plain pale-blue geometric tiles on white. No document pictogram, folded corner, ruled paper, arrows, status glyph, automated engine or completed result. Shared coordination discussion basis only. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label."
+    },
+    {
+      "card_id": "F3-A6",
+      "verdict": "MATCH",
+      "observation": "Actual root authored/reviewed F3 scope: 越南本地咨询与实施; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result. Exact text: {\"card_id\": \"F3-A6\", \"headline\": \"越南本地咨询与实施\", \"body\": \"与我们在越南的团队讨论 ERP 咨询与实施。先梳理报告流程、更新责任与项目优先事项。\", \"source_text\": \"Digiwin 越南 · ERP 咨询与实施\", \"cta\": \"\", \"native_headline\": \"越南本地咨询与实施\", \"alt\": \"示意图：越南本地咨询与实施\", \"artwork_labels\": [\"ERP · 芯片运营\", \"6/6\"]} Scene: Bright illustrative consultation tabletop with two distinct blank project folios, a neutral chip sample and open blue physical paths between unlabelled responsibility tokens. Generic discussion material, not a customer facility, staff portrait or software UI. Compact scene leaves a large full-width plain white source block, source at least body-sized. No map/flag/skyline/ticks/labels/data/results or fabricated people. New locale zh-Hans: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label."
+    }
+  ],
+  "transitions": [
+    {
+      "cards": [
+        "F3-A1",
+        "F3-A2"
+      ],
+      "verdict": "MATCH",
+      "observation": "批次转交伙伴，哪些信息要一起交接？ -> 先选定一个交接点。; Cold handoff trigger -> shared records/confirmers -> one agreed handoff point -> record mismatch clarification -> both-side confirmation -> shared coordination discussion -> Vietnam consulting/implementation -> provider role -> China chip-design case -> qualitative outsourcing pain/integrated solution -> reader. No persona/geography/solution-causality switch."
+    },
+    {
+      "cards": [
+        "F3-A2",
+        "F3-A3"
+      ],
+      "verdict": "MATCH",
+      "observation": "先选定一个交接点。 -> 同一批次，依据哪些记录？; Cold handoff trigger -> shared records/confirmers -> one agreed handoff point -> record mismatch clarification -> both-side confirmation -> shared coordination discussion -> Vietnam consulting/implementation -> provider role -> China chip-design case -> qualitative outsourcing pain/integrated solution -> reader. No persona/geography/solution-causality switch."
+    },
+    {
+      "cards": [
+        "F3-A3",
+        "F3-A4"
+      ],
+      "verdict": "MATCH",
+      "observation": "同一批次，依据哪些记录？ -> 交接信息由谁确认？; Cold handoff trigger -> shared records/confirmers -> one agreed handoff point -> record mismatch clarification -> both-side confirmation -> shared coordination discussion -> Vietnam consulting/implementation -> provider role -> China chip-design case -> qualitative outsourcing pain/integrated solution -> reader. No persona/geography/solution-causality switch."
+    },
+    {
+      "cards": [
+        "F3-A4",
+        "F3-A5"
+      ],
+      "verdict": "MATCH",
+      "observation": "交接信息由谁确认？ -> 为交接讨论建立共同依据。; Cold handoff trigger -> shared records/confirmers -> one agreed handoff point -> record mismatch clarification -> both-side confirmation -> shared coordination discussion -> Vietnam consulting/implementation -> provider role -> China chip-design case -> qualitative outsourcing pain/integrated solution -> reader. No persona/geography/solution-causality switch."
+    },
+    {
+      "cards": [
+        "F3-A5",
+        "F3-A6"
+      ],
+      "verdict": "MATCH",
+      "observation": "为交接讨论建立共同依据。 -> 越南本地咨询与实施; Cold handoff trigger -> shared records/confirmers -> one agreed handoff point -> record mismatch clarification -> both-side confirmation -> shared coordination discussion -> Vietnam consulting/implementation -> provider role -> China chip-design case -> qualitative outsourcing pain/integrated solution -> reader. No persona/geography/solution-causality switch."
+    }
+  ],
+  "context": {
+    "scope": "FULL_JOURNEY",
+    "verdict": "MATCH",
+    "observation": "Cold handoff trigger -> shared records/confirmers -> one agreed handoff point -> record mismatch clarification -> both-side confirmation -> shared coordination discussion -> Vietnam consulting/implementation -> provider role -> China chip-design case -> qualitative outsourcing pain/integrated solution -> reader. No persona/geography/solution-causality switch. Reader: Localized overview of same named China case with qualitative outsourcing challenges/integrated solution and same F3 handoff questions. Exact legal name original Simplified; Hant source-language disclosure. Localized return to handoff journey.",
+    "brief": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/execution-brief.md",
+      "sha256": "029d4dfaa8635c335786ecedf707c9c1dbc1815952b2314db6e3bdbd7d602bd1",
+      "revision": "b20-brief-v1"
+    },
+    "related_inputs": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/cold/public-copy.json",
+        "sha256": "0081098cc7d0a59d3aa5dfee9fb8ae308ff4ab395b5b8b447a173a81766bddc9",
+        "revision": "b20-f3-cold-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/proof/public-copy.json",
+        "sha256": "565c6a008699c0616fa9483bda4165eff844a6178fe7553b7b2302227a741762",
+        "revision": "b20-f3-proof-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/reader-script.json",
+        "sha256": "6ad391e6e97aeb65a9993e1ab0b59b446f1fc3e6cb3ea3da6410abbfc43f62e6",
+        "revision": "b20-f3-reader-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/semantic-review.json",
+        "sha256": "5e4d901098715e09406abd7d08bdd5c1e1b12e68654c4cc338f20325f5f8be08",
+        "revision": "b20-actual-root-script-review-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/proof-source-mapping.json",
+        "sha256": "d8b5fe6c9f691f1c0a613232b8c487f8e2e88becd5050e017745da147b21bf61",
+        "revision": "b20-f3-proof-map-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B20-zh-Hans-f3-v1/vietnam-team-source.json",
+        "sha256": "65389da0c83e7a6c85a8c7d78f3c8f8da9f7f06d6f9c32721c2ae2f095f864c4",
+        "revision": "b20-f3-vietnam-service-v1"
+      }
+    ]
+  },
+  "unresolved_findings": []
+}

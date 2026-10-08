@@ -1,0 +1,24 @@
+{
+  "revision": "locale-adapter-draft-2026-10-06-v1",
+  "status": "PROVISIONAL_DOMAIN_REVIEW_REQUIRED",
+  "locales": {
+    "en": {
+      "market": "International English for FDI readers; no country-specific audience inferred",
+      "definitions": {"OSAT": "outsourced semiconductor assembly and test", "Fabless": "chip design without owning a fabrication plant", "WIP": "work in progress"},
+      "prompt_guidance": "Write only supplied English artwork text. International B2B English: specific operational question, accountable actor, concrete next step. No idioms, slogans, invented ROI or cultural stereotypes. Keep scenes and narrative order. No Vietnamese words from references.",
+      "typography": "Preserve exact English spelling and supplied line breaks. Review longer words at 333px; reflow or reduce illustration space before shrinking type. Do not invent hyphenation."
+    },
+    "zh-Hans": {
+      "market": "Mainland China FDI reader; language does not establish company ownership",
+      "definitions": {"OSAT": "半导体委外封装与测试", "Fabless": "无晶圆厂芯片设计模式", "WIP": "在制品"},
+      "prompt_guidance": "Print only supplied Simplified Chinese artwork text. Professional operational Chinese: clear reconciliation objects and responsible team, concise question and practical next step. Use supplied mainland terminology, not word-for-word Vietnamese syntax. No assumptions about national personality, certification or guaranteed results. Keep original scene and narrative order.",
+      "typography": "Preserve Simplified Chinese glyphs and exact supplied punctuation. Never mix scripts or use pseudo-Chinese. Use ASCII parentheses for approved acronym definitions to remain compatible with the frozen gate; do not normalize other punctuation. Review Chinese punctuation at line starts/ends and mixed Latin terms at 333px; reduce scene area before shrinking type."
+    },
+    "zh-Hant": {
+      "market": "Taiwan FDI reader; separately authored terminology, not automatic script conversion",
+      "definitions": {"OSAT": "半導體委外封裝與測試", "Fabless": "無晶圓廠IC設計模式", "WIP": "在製品"},
+      "prompt_guidance": "Print only supplied Traditional Chinese artwork text for Taiwan. Professional operational wording: explicit reconciliation objects, responsibility and practical next step. Use separately reviewed Taiwan terms; never convert mainland copy mechanically or assume national personality. No audit, vendor qualification or commercial guarantees. Keep original scene and narrative order.",
+      "typography": "Preserve Traditional Chinese glyphs and exact supplied punctuation. Never mix scripts or use pseudo-Chinese. Use ASCII parentheses for approved acronym definitions to remain compatible with the frozen gate; do not normalize other punctuation. Review Taiwan punctuation placement, Chinese line starts/ends and mixed Latin terms at 333px; reduce scene area before shrinking type."
+    }
+  }
+}

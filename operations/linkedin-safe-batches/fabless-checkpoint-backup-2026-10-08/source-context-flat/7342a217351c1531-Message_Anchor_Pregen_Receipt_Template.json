@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "revision": "UNKNOWN",
+  "gate_id": "MSG-ANCHOR-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "PENDING",
+  "anchor": {"path": "operations/Vy_Email_Content_Anchor.md", "sha256": "UNKNOWN", "revision": "UNKNOWN"},
+  "source": {"path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md", "sha256": "UNKNOWN", "revision": "VY-MAIL-USER-20261006"},
+  "subjects": {
+    "contract": {"path": "UNKNOWN", "sha256": "UNKNOWN", "revision": "UNKNOWN"},
+    "copy": {"path": "UNKNOWN", "sha256": "UNKNOWN", "revision": "UNKNOWN"},
+    "spec": {"path": "UNKNOWN", "sha256": "UNKNOWN", "revision": "UNKNOWN"},
+    "script_review": {"path": "UNKNOWN", "sha256": "UNKNOWN", "revision": "UNKNOWN"}
+  },
+  "scope": {"segment": "UNKNOWN", "locale": "UNKNOWN", "persona": "UNKNOWN", "route": "UNKNOWN"},
+  "writer": "UNKNOWN",
+  "reviewer": "UNKNOWN",
+  "independence": "UNKNOWN",
+  "coverage": {"ads": [], "cards": [], "fields": {}, "storyboard_cards": []},
+  "rules": {
+    "A1": {"verdict": "PENDING", "observation": "UNKNOWN"},
+    "A2": {"verdict": "PENDING", "observation": "UNKNOWN"},
+    "A3": {"verdict": "PENDING", "observation": "UNKNOWN"},
+    "A4": {"verdict": "PENDING", "observation": "UNKNOWN"},
+    "A5": {"verdict": "PENDING", "observation": "UNKNOWN"},
+    "A6": {"verdict": "PENDING", "observation": "UNKNOWN"},
+    "A7": {"verdict": "PENDING", "observation": "UNKNOWN"}
+  },
+  "units": [],
+  "transitions": [],
+  "context": {
+    "scope": "UNKNOWN",
+    "verdict": "PENDING",
+    "observation": "UNKNOWN",
+    "brief": {"path": "UNKNOWN", "sha256": "UNKNOWN", "revision": "UNKNOWN"},
+    "related_inputs": []
+  },
+  "unresolved_findings": ["Template only; actual semantic/script/context review not performed"]
+}

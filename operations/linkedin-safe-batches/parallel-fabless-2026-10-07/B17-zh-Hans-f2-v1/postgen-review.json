@@ -1,0 +1,97 @@
+{
+  "revision": "b17-f2-canary-hold-v1",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "artifact_verdict": "CHANGES_REQUIRED",
+  "execution": "PARTIAL_HOLD",
+  "message_anchor": "INSUFFICIENT_EVIDENCE",
+  "anchor_revision": "1.0",
+  "anchor_sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+  "native_findings": [
+    {
+      "id": "B17-F2-A5",
+      "card_id": "F2-A5",
+      "status": "CHANGES_REQUIRED",
+      "scope": "ACTUAL_NATIVE_SELF_REVIEW",
+      "finding": "CTA arrow and source panel closed; requested replacement of ruled document icon with solid node was not applied. Generic icon is not fabricated record data, but corrective execution remains incomplete.",
+      "selected_call": "B17_F2_A5_C1",
+      "next_step": "HOLD. No further call under current per-card authorization."
+    }
+  ],
+  "native_observations": [
+    {
+      "call_id": "B17_F2_A5_V1",
+      "card_id": "F2-A5",
+      "kind": "original",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a5/native/f2-a5-zh-Hans-v1.png",
+      "sha256": "bb6fd61d8bbcde6adc695e74c10492324a51c45752f276b226b8a799913bf782",
+      "width": 1254,
+      "height": 1254,
+      "copy_native_bytes": true,
+      "transformation": false,
+      "observations": "CHANGES_REQUIRED: exact Chinese copy and large source retained; unauthorized CTA chevron and pale-blue source panel require bounded corrective.",
+      "reviewer": "/root",
+      "independence": "SELF_REVIEW",
+      "rendered": "PENDING"
+    },
+    {
+      "call_id": "B17_F2_A5_C1",
+      "card_id": "F2-A5",
+      "kind": "corrective",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/corrective-v1/f2-a5/native/f2-a5-zh-Hans-c1.png",
+      "sha256": "8c91f76d6062a7d6e78816cfc32ced0aa514c0547df7d0ba1d815b62e26e1d76",
+      "width": 1254,
+      "height": 1254,
+      "copy_native_bytes": true,
+      "transformation": false,
+      "observations": "Native root review: exact Chinese copy; source at least body-sized on white; unapproved CTA arrow removed. Generic document symbol remains as a nontext diagram node, not a populated record; actual paper blank. Render evidence pending.",
+      "reviewer": "/root",
+      "independence": "SELF_REVIEW",
+      "rendered": "PENDING"
+    },
+    {
+      "call_id": "B17_F2_A3_V1",
+      "card_id": "F2-A3",
+      "kind": "original",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a3/native/f2-a3-zh-Hans-v1.png",
+      "sha256": "4b91cafb7f57ecad61e9ebe6e2bf5c343f9863059a43de2d84a28ea505f91c1b",
+      "width": 1254,
+      "height": 1254,
+      "copy_native_bytes": true,
+      "transformation": false,
+      "observations": "Native exact headline/body/category3/6 and official mark; neutral physical wafer and blank papers, no fabricated report values; source/time question retains current F2 anchor. Render pending.",
+      "reviewer": "/root",
+      "independence": "SELF_REVIEW",
+      "rendered": "PENDING"
+    }
+  ],
+  "counts": {
+    "original": 2,
+    "corrective": 1,
+    "reused_selected": 5,
+    "available_selected": 7,
+    "planned_positions": 11
+  },
+  "render": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "actual_current_captures": 0,
+    "reason": "Browser ownership lock belongs to Partner-B27-B28-a09035d-session-v1; no browser action or takeover attempted.",
+    "desktop640": "NOT_OBSERVED",
+    "feed333": "NOT_OBSERVED",
+    "mobile390": "NOT_OBSERVED",
+    "reader_return": "NOT_OBSERVED"
+  },
+  "journey": {
+    "status": "INCOMPLETE_ACTUAL_ARTWORK",
+    "script_review": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/semantic-review.json",
+    "scope": "Authored current F2 scripts/source mappings, ten planned transitions and Vietnam service nuance reviewed before release; incomplete native set and no current render prevent whole-journey PASS. No inherited artifact PASS."
+  },
+  "po_exception": "No additional per-card corrective authorized.",
+  "git": {
+    "prior_checkpoint": "461a752f1aab7add8f21dfb5652d5e1097aa2247",
+    "current_batch": "UNCOMMITTED_LOCAL_WORKING_FILES",
+    "main_merge": false,
+    "push": false
+  },
+  "stop": "Canary native incomplete; remaining original calls not dispatched. B18 not run."
+}

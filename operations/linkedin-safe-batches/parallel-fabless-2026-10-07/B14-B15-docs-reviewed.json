@@ -1,0 +1,63 @@
+{
+  "revision": "b14-b15-current-canonical-review-v1",
+  "reviewer": "/root current Fabless session",
+  "files": [
+    {
+      "path": "CURRENT_STATE.md",
+      "sha256": "5b74e1836a9b16bb82952fa9db409ec0ee381d2af76873bb12fdc9dc82dcb4b4"
+    },
+    {
+      "path": "DOCS_IMPACT_MAP.md",
+      "sha256": "ec571e7dc2eb6576c3d8ee79a3eac145548b355bc44989220ce31e6d562438b9"
+    },
+    {
+      "path": "operations/Vy_Email_Content_Anchor.md",
+      "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+    },
+    {
+      "path": "operations/Ad_Artifact_Editorial_QA_Gate.md",
+      "sha256": "194f1eadbd0614f40ae6749074018a783515c4afa58a9efb2d39bd360e6965a6"
+    },
+    {
+      "path": "ads/linkedin/LinkedIn_Build_Pack.md",
+      "sha256": "b2cec25512b271eab4237ac82aafcb8198171b8cf5440470579b5e49f14aa188"
+    },
+    {
+      "path": "operations/Pre_Ad_Readiness_Plan.md",
+      "sha256": "0df0f9a70745c56c8984f21a34814c1cb7ad3eac102e56ea187baf2e58e30c36"
+    },
+    {
+      "path": "operations/Public_Source_Register.md",
+      "sha256": "ea9cd2def0d708c5f701d6b31a2e80f2c1d8a162f3bf1b61f12142abba8e613c"
+    },
+    {
+      "path": "operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md",
+      "sha256": "9ce0a047eed68fef2a684dd66cdf11a477263e9fe04479262f5193aa3e407b3e"
+    },
+    {
+      "path": "operations/LinkedIn_Safe_Batch_Execution_Plan_2026-10-06.md",
+      "sha256": "0e99e3c1632072a20f7409c6ef49b71913d954eb5e318c69fe1b95c5b2d23878"
+    }
+  ],
+  "decision": "Offline owned drafts only. No canonical acceptance/live/business/lifecycle change. Latest main progress snapshot is now stale for B14 corrective closure and B15 generation; bounded coordinator refresh proposal in docs-impact.md is required before accepted handoff/package adoption. Shared canonical writes outside lane mandate; discrepancy disclosed, not silently treated as current.",
+  "latest_main_review": {
+    "root": "D:\\Digiwin_Semiconducter_Workspace",
+    "commit": "196f26b9f3064fca8fe6b3b50b5707c2b54b65af",
+    "files": [
+      {
+        "path": "CURRENT_STATE.md",
+        "sha256": "320c70c0ddc25fe3cde22da9813626d0824c27af85035585f9afab040a724519"
+      },
+      {
+        "path": "DOCS_IMPACT_MAP.md",
+        "sha256": "5c6cca1c6b874aa28b26441577577168d8a7f0921203829ede2ecb42c1949082"
+      },
+      {
+        "path": "operations/LinkedIn_Current_Progress_2026-10-07.md",
+        "sha256": "b2c4b4944fbffdf5b49add88044c8c8e7df1a69c7924039a4db09249852ac5c1"
+      }
+    ],
+    "observed": "Current progress Fabless row says B14 corrective in progress/B15 no PNG at snapshot; new attempt and postgen records independently support B14 closed scoped findings and B15 full11 plus corrected v2. B16 onward still not run. Reader redesign has no Fabless mapping/adoption, so these batches keep their source-bounded localized readers."
+  },
+  "reviewed_truth": "Anchor persona/FDI value and VN team nuance preserved; no budget/account/eligibility/rights inference; source scope remains narrow; 11-original exception for these two batches only; rendered evidence gaps retained."
+}

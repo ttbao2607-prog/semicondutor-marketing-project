@@ -1,0 +1,13 @@
+{
+  "revision": "b15-f1-a5-cta-c3-20261008",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "anchor_verdict": "MESSAGE_ANCHOR_PASS",
+  "card_id": "F1-A5",
+  "original_sha256": "cab076d92c3fa1c459c27cb8061b72989adffe12a7da164848536f3a481bc5f1",
+  "po_authorization": "Xử lý B17 trước để closeout, B13-15 closeout để merge nó vào main. Tiến hành sửa/hậu kiểm, action cần thiết.",
+  "finding": "C2 actual native still inherits wrong CTA. Reconstruct card from clean family reference and exact approved copy.",
+  "observation": "Root inspected C2 actual native: CTA glyph substitution incomplete. New reconstruction uses clean cold artwork only as visual-family reference, avoids old CTA contamination, exact same approved semantic text and anchor.",
+  "edit_instructions": "REBUILD THIS SINGLE CARD FROM SCRATCH in the supplied clean campaign visual family. Exact Traditional Chinese lettering is mandatory. Do not copy any reference words. Main headline 讓下一步決策有共同依據。 Body 把批次、製程階段、回報時間與更新權責放進同一次討論。 Large complete source on WHITE: Digiwin 台灣半導體方案資料： / ERP 經營管理與 MES(製造執行系統) 生產製造。 Bottom blue CTA pill must print EXACTLY 探討委外生產管理問題 . Use Traditional Taiwan glyphs throughout. Category ERP · 晶片營運 and counter 5/6. Logo once. Keep bright daylight white-blue chip, blank report papers and shared discussion illustration. All paper blank, no other words/numbers, no customer facility, no data. Source at least body-size, shrink scene before text. No original CTA lettering is supplied as reference."
+}

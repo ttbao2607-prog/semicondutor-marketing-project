@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "revision": "b15-f1-a5-corrective-release-v1",
+  "authorizer": "/root recording explicit PO B14/B15 mandate",
+  "authority_ref": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/generation-mandate.json",
+    "sha256": "a8620f9686eba19fcc89fdddcd5bb049677786e330dcb72103455fed5c61e9a7",
+    "revision": "b15-po-two-batch-mandate-v1"
+  },
+  "purpose": "OFFLINE_IMAGEGEN",
+  "contract": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v3/f1-a5/contract.json",
+    "sha256": "3fb46c892e8631e7ac942d1438498c7bee4d280e9b8397d305f18955adc2247b",
+    "revision": "b15-f1-a5-corrective-contract-v1"
+  },
+  "copy": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/explanation/public-copy.json",
+    "sha256": "150fd30bd617ab49e0edc71af4833d33155faff26daa23d1073615a9052d8659",
+    "revision": "b15-explanation-zh-Hant-copy-v1"
+  },
+  "review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/corrective-v3/f1-a5/review.json",
+    "sha256": "67b3b1b67309caa8a1a926eeec5f13770688a211f40a05e83afc9a02a5e042c1",
+    "revision": "b15-f1-a5-corrective-source-review-v1"
+  },
+  "groups": [
+    [
+      "F1-A5"
+    ]
+  ]
+}

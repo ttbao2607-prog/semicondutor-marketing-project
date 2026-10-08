@@ -1,0 +1,31 @@
+{
+  "revision": "b14-original-output-findings-v1",
+  "reviewer": "/root current Fabless session",
+  "independence": "SELF_REVIEW",
+  "findings": [
+    {
+      "card_id": "F1-A5",
+      "original_sha256": "a9e0e5b6eb0a5910fe63a6d6c27625a28f389fec5fa8e8e13eab7b192ddefc14",
+      "original_finding": "UNLABELLED_PAPER_RULES",
+      "original_verdict": "CHANGES_REQUIRED",
+      "disposition": "CLOSED_IN_SELECTED_NATIVE_FEED_MAIN_SELF_REVIEW",
+      "corrective_call": "B14_F1_A5_C1",
+      "corrected_sha256": "56828e5b96186a7dd52879a7f5b2e79c7edc03ec06c355beaa5422bdfa438a89",
+      "original_retained": true,
+      "scope": "Blank paper only"
+    },
+    {
+      "card_id": "RMK-BRIGHT-2",
+      "original_sha256": "b206ccc516dba7860add6d5aec61e0e54d1d050e3f41b556f9c4afb6415ca87d",
+      "original_finding": "UNLABELLED_PAPER_RULES",
+      "original_verdict": "CHANGES_REQUIRED",
+      "disposition": "CLOSED_IN_SELECTED_NATIVE_FEED_MAIN_SELF_REVIEW",
+      "corrective_call": "B14_RMK_BRIGHT_2_C1",
+      "corrected_sha256": "9b61b2bb537c92ace379e8f212ae4725b7e2ad03c9aee479d9b8ff88671089ce",
+      "original_retained": true,
+      "scope": "Blank paper only"
+    }
+  ],
+  "historical_verdict": "CHANGES_REQUIRED_FOR_LISTED_ORIGINAL_OUTPUTS",
+  "note": "Actual original artifacts remain unchanged; current selected revision closes only the described finding. No retroactive original PASS."
+}

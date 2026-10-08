@@ -1,0 +1,82 @@
+{
+  "revision": "b13-final10-verification-v1",
+  "frozen24": "24/24_BYTE_IDENTICAL",
+  "selected10": "1254x1254_NATIVE_BYTES_IDENTICAL",
+  "counts": {
+    "original": 10,
+    "corrective": 3,
+    "total_actual_calls": 13,
+    "reused": 0,
+    "selected_artwork": 10,
+    "planned_units": 10
+  },
+  "fresh_dispatch_receipts": [
+    {
+      "call_id": "B13_RMK_BRIGHT_2",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/release-v2/campaign/dispatch/B13_RMK_BRIGHT_2-fresh-preflight.json",
+      "sha256": "ce975bc71ab6aa95b72c3ced708c081aa9aa6d66ab4b0f3a0f390e893f60956e"
+    },
+    {
+      "call_id": "B13_RMK_BRIGHT_2_corrective1",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/corrective-v1/rmk-bright-2/dispatch/B13_RMK_BRIGHT_2_corrective1-fresh-preflight.json",
+      "sha256": "cb02e138be89bc4cb71d3f152870269bb9ea271b480a4b940d5aeb0066179112"
+    },
+    {
+      "call_id": "B13_F1_A5",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v2/closing/dispatch/B13_F1_A5-fresh-preflight.json",
+      "sha256": "4cf50495f555be3fa9212ba6ba94fcd63c063c244cd60810aa9f7736b8669922"
+    },
+    {
+      "call_id": "B13_COLD_FABLESS_B13",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/cold/release-v2/campaign/dispatch/B13_COLD_FABLESS_B13-fresh-preflight.json",
+      "sha256": "f538409092c11d171e7679c1c1afc011efaf7bd222ae40b722cb1778086be24c"
+    },
+    {
+      "call_id": "B13_COLD_FABLESS_B13_corrective1",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/corrective-v1/cold-fabless-b13/dispatch/B13_COLD_FABLESS_B13_corrective1-fresh-preflight.json",
+      "sha256": "94712f652e83464e5e728e419b81aa40704f5073de9bda7cdc64033f20c3db99"
+    },
+    {
+      "call_id": "B13_F1_A1",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v3/campaign/dispatch/B13_F1_A1-fresh-preflight.json",
+      "sha256": "f83b3a83920eb84f4306c8f1a106c1827948b174f422767ae0c62eb6cf94b184"
+    },
+    {
+      "call_id": "B13_F1_A2",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v3/campaign/dispatch/B13_F1_A2-fresh-preflight.json",
+      "sha256": "6351705ae55b22b4cf5ded321fe257e06f809dccf5b9f5c2ea5df0efa35d532c"
+    },
+    {
+      "call_id": "B13_F1_A3",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v3/campaign/dispatch/B13_F1_A3-fresh-preflight.json",
+      "sha256": "ec39897407fa671d451a6847490e39343440fe3935f9bff3fcbc4768c784567a"
+    },
+    {
+      "call_id": "B13_F1_A4",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v3/campaign/dispatch/B13_F1_A4-fresh-preflight.json",
+      "sha256": "e0fa7be1c1734cc1d64c21caa47fc5dc8c9176dd02e48a9444dfcda1b9c507d3"
+    },
+    {
+      "call_id": "B13_RMK_BRIGHT_1",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/release-v3/campaign/dispatch/B13_RMK_BRIGHT_1-fresh-preflight.json",
+      "sha256": "5919fd7fabd1cfd90eb68f9bdf78f0c91fcf962295e6b0a40450950c11fc77ae"
+    },
+    {
+      "call_id": "B13_RMK_BRIGHT_1_corrective1",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/corrective-v1/rmk-bright-1/dispatch/B13_RMK_BRIGHT_1_corrective1-fresh-preflight.json",
+      "sha256": "93ca4f70ca7f4660bab5a98945deeeb1a5a032280c2afe58c80f0bdee8a037ac"
+    },
+    {
+      "call_id": "B13_RMK_BRIGHT_3",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/release-v3/campaign/dispatch/B13_RMK_BRIGHT_3-fresh-preflight.json",
+      "sha256": "bb556a1a668747854dd311adc3c5926841a40bac7225fc2e9a5775fa18661cb2"
+    },
+    {
+      "call_id": "B13_RMK_BRIGHT_4",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/release-v3/closing/dispatch/B13_RMK_BRIGHT_4-fresh-preflight.json",
+      "sha256": "38a186359f7f3084d691ff6081a0572dd09f8888e255955c89d0e8a3642f22f1"
+    }
+  ],
+  "reader": "BYTE_IDENTICAL_TO_PRIOR_REVIEW",
+  "status": "IMAGE_INVENTORY_COMPLETE_ARTIFACT_CHANGES_REQUIRED"
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "revision": "b17-f2-a5-spec-v1",
+  "release": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a5/release.json",
+    "sha256": "af05cce67cf1468962b7dccd83d4ccc7c119e431c0d940667c4732022d46d593",
+    "revision": "b17-f2-a5-release-v1"
+  },
+  "contract": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a5/contract.json",
+    "sha256": "bc57724c4014cc7a4a3c2f00e0cf55f15d07105970674ee7cca3423a6934eacc",
+    "revision": "b17-f2-a5-contract-v1"
+  },
+  "copy": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/explanation/public-copy.json",
+    "sha256": "e18e036c6b6eee16bb52e9879d33db1f8954e11fa056f602200d2a641d0b46f0",
+    "revision": "b17-f2-explanation-copy-v1"
+  },
+  "review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a5/review.json",
+    "sha256": "5a4a94317b78e0174df39ba932f0dfeec170776c7a67e55312717be5a3523aa7",
+    "revision": "b17-f2-a5-source-review-v1"
+  },
+  "calls": [
+    {
+      "call_id": "B17_F2_A5_V1",
+      "targets": [
+        "F2-A5"
+      ],
+      "references": [
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/06-f1-a5.png",
+          "sha256": "56828e5b96186a7dd52879a7f5b2e79c7edc03ec06c355beaa5422bdfa438a89",
+          "revision": "b13-v5-selected-visual-family-reference",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "revision": "official-logo-pinned",
+          "role": "brand_asset",
+          "attributes": [
+            "brand_mark"
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "card_id": "F2-A5",
+          "concept_id": "b17-f2-a5-f2-scene-v1",
+          "description": "Grouped blank partner reports, neutral chip carrier and responsibility nodes on white; a shared discussion basis, no automatic planning engine or results. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+          "props": [
+            "blank partner report",
+            "neutral chip sample",
+            "open physical path"
+          ],
+          "reader_question": "让计划调整有共同依据。",
+          "artwork_labels": [
+            "ERP · 芯片运营",
+            "5/6"
+          ]
+        }
+      ],
+      "artwork_text": {
+        "F2-A5": {
+          "headline": "让计划调整有共同依据。",
+          "body": "把批次范围、报告来源与确认责任放在同一场计划讨论中。",
+          "source_text": "Digiwin 台湾半导体方案资料：\nERP 经营管理与 MES(制造执行系统) 生产制造。",
+          "cta": "探讨委外生产计划问题",
+          "artwork_labels": [
+            "ERP · 芯片运营",
+            "5/6"
+          ]
+        }
+      },
+      "output_id": "f2-a5-zh-Hans-v1",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a5/native/f2-a5-zh-Hans-v1.png",
+      "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"Print only supplied Simplified Chinese artwork text. Professional operational Chinese: clear reconciliation objects and responsible team, concise question and practical next step. Use supplied mainland terminology, not word-for-word Vietnamese syntax. No assumptions about national personality, certification or guaranteed results. Keep original scene and narrative order. Preserve Simplified Chinese glyphs and exact supplied punctuation. Never mix scripts or use pseudo-Chinese. Use ASCII parentheses for approved acronym definitions to remain compatible with the frozen gate; do not normalize other punctuation. Review Chinese punctuation at line starts/ends and mixed Latin terms at 333px; reduce scene area before shrinking type. B13v5 bright white/blue photographic campaign family. Reference wording is not approved copy. Official supplied logo once; no extra DIGIWIN header. Exact category/sequence near logo. Body comfortably readable at333CSSpx. Source normal full-width main paragraph on white, at least body-sized. All paper blank; no bars/rules/charts/ticks/data glyphs/UI/customer geography/seal/badge. Only approved artwork words. Demand-change questions are not forecast accuracy or automatic replanning claims. Reduce scene before type.\",\"revision\":\"campaign-r2-hybrid-full-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/06-f1-a5.png\",\"revision\":\"b13-v5-selected-visual-family-reference\",\"role\":\"campaign_visual\",\"sha256\":\"56828e5b96186a7dd52879a7f5b2e79c7edc03ec06c355beaa5422bdfa438a89\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"official-logo-pinned\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"ERP · 芯片运营\",\"5/6\"],\"card_id\":\"F2-A5\",\"concept_id\":\"b17-f2-a5-f2-scene-v1\",\"description\":\"Grouped blank partner reports, neutral chip carrier and responsibility nodes on white; a shared discussion basis, no automatic planning engine or results. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.\",\"props\":[\"blank partner report\",\"neutral chip sample\",\"open physical path\"],\"reader_question\":\"让计划调整有共同依据。\"}]\nAPPROVED ARTWORK TEXT\n{\"F2-A5\":{\"artwork_labels\":[\"ERP · 芯片运营\",\"5/6\"],\"body\":\"把批次范围、报告来源与确认责任放在同一场计划讨论中。\",\"cta\":\"探讨委外生产计划问题\",\"headline\":\"让计划调整有共同依据。\",\"source_text\":\"Digiwin 台湾半导体方案资料：\\nERP 经营管理与 MES(制造执行系统) 生产制造。\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a5/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+      "prompt_sha256": "dcd2321e4861a3e9081bcce61ea075c281cab35cfd6644dd759c39f0a6662a71"
+    }
+  ]
+}

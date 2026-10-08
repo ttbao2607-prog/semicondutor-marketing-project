@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "revision": "b13-proof-campaign-anchor-v1-layout-v3",
+  "gate_id": "MSG-ANCHOR-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "revision": "1.0"
+  },
+  "source": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "revision": "VY-MAIL-USER-20261006"
+  },
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/release-v3/campaign/contract.json",
+      "sha256": "6f84966af3d40aff29b0336d2920b47985d008c2d2b19dde2352feb08faed813",
+      "revision": "b13-proof-campaign-contract-v2-layout-v3"
+    },
+    "copy": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/public-copy.json",
+      "sha256": "58ea1bb1131d18686ad273ef7fa14bb987fd4bdf3892ed266b39597a67b94ddc",
+      "revision": "b13-proof-en-copy-v1"
+    },
+    "spec": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/release-v3/campaign/spec.json",
+      "sha256": "12534fc5a2cdd4a58771fe5cda4464baf2264947ce4847961f333e9c72e08618",
+      "revision": "b13-proof-campaign-spec-v1-layout-v3"
+    },
+    "script_review": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/release-v3/campaign/script-review.json",
+      "sha256": "74c5e9960eceb5c724ea13bb0181d9044a4a3965e564f826be41f5cf8abee04c",
+      "revision": "b13-proof-campaign-script-v1-layout-v3"
+    }
+  },
+  "scope": {
+    "segment": "FDI",
+    "locale": "en",
+    "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+    "route": "offline English cold -> F1 outsourced-lot reporting -> qualitative China Bright Power integrated-solution case -> English case reader"
+  },
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "coverage": {
+    "ads": [
+      "RMK-BRIGHT"
+    ],
+    "cards": [
+      "RMK-BRIGHT-1",
+      "RMK-BRIGHT-2",
+      "RMK-BRIGHT-3",
+      "RMK-BRIGHT-4"
+    ],
+    "fields": {
+      "RMK-BRIGHT": [
+        "caption",
+        "RMK-BRIGHT-1.headline",
+        "RMK-BRIGHT-1.body",
+        "RMK-BRIGHT-1.source_text",
+        "RMK-BRIGHT-1.cta",
+        "RMK-BRIGHT-1.native_headline",
+        "RMK-BRIGHT-1.alt",
+        "RMK-BRIGHT-1.artwork_labels",
+        "RMK-BRIGHT-2.headline",
+        "RMK-BRIGHT-2.body",
+        "RMK-BRIGHT-2.source_text",
+        "RMK-BRIGHT-2.cta",
+        "RMK-BRIGHT-2.native_headline",
+        "RMK-BRIGHT-2.alt",
+        "RMK-BRIGHT-2.artwork_labels",
+        "RMK-BRIGHT-3.headline",
+        "RMK-BRIGHT-3.body",
+        "RMK-BRIGHT-3.source_text",
+        "RMK-BRIGHT-3.cta",
+        "RMK-BRIGHT-3.native_headline",
+        "RMK-BRIGHT-3.alt",
+        "RMK-BRIGHT-3.artwork_labels",
+        "RMK-BRIGHT-4.headline",
+        "RMK-BRIGHT-4.body",
+        "RMK-BRIGHT-4.source_text",
+        "RMK-BRIGHT-4.cta",
+        "RMK-BRIGHT-4.native_headline",
+        "RMK-BRIGHT-4.alt",
+        "RMK-BRIGHT-4.artwork_labels"
+      ]
+    },
+    "storyboard_cards": [
+      "RMK-BRIGHT-1",
+      "RMK-BRIGHT-2",
+      "RMK-BRIGHT-3",
+      "RMK-BRIGHT-4"
+    ]
+  },
+  "rules": {
+    "A1": {
+      "verdict": "MATCH",
+      "observation": "Chip-design entity with commercial outsourced production; narrowly relevant semiconductor chain operating situation. Not every design office or generic manufacturer, and not assumed Vietnam target-account fit."
+    },
+    "A2": {
+      "verdict": "MATCH",
+      "observation": "Operations/SCM influences business-system evaluation at eligible entity; authority and existing group system remain unknown. No assertion a specific China customer or FDI Vietnam company can independently buy local ERP. Internal intake records hypotheses and process/existing-system alternatives."
+    },
+    "A3": {
+      "verdict": "MATCH",
+      "observation": "FDI English commercial Fabless Operations/SCM; international English questions and accountable next steps, not VN supply-chain-entry promise. Fabless definition supplied in explanation caption; no WIP/OSAT acronym used without definition."
+    },
+    "A4": {
+      "verdict": "MATCH",
+      "observation": "Implicit business value is a shared basis for the next production decision and accountable update ownership. Cold pain->report conventions->stage/time/source->ownership->next decision. No ROI%, yield, cost saving, forecast outcome or promised automatic synchronization."
+    },
+    "A5": {
+      "verdict": "N/A",
+      "observation": "N/A: FDI lane only, no domestic supplier-entry claim."
+    },
+    "A6": {
+      "verdict": "MATCH",
+      "observation": "Concrete lot/product reference, production periods/test classifications, stage/time/report source and update owner. Questions/process conventions, not unverified product functionality. Taiwan source states ERP/MES context separately. Illustrative chip/wafer carrier is not a fabricated chip layout or owned fab."
+    },
+    "A7": {
+      "verdict": "MATCH",
+      "observation": "Same Operations/SCM reader across cold->F1 reports->shared decision basis->digital provider->named China chip-design case->outsourcing-management pain/integrated solution->English reader/return. Bright qualitative outsourcing pain supplies a related business context, not evidence of the exact F1 lot-report mechanism or ERP-only causality. Nine adjacent transitions reviewed in order. CTA reads case, no form/live submission."
+    }
+  },
+  "units": [
+    {
+      "card_id": "RMK-BRIGHT-1",
+      "verdict": "MATCH",
+      "observation": "We provide digital solutions for manufacturing. Explore outsourcing-management challenges in a named chip-design case from China. | Digital solutions for manufacturing | We develop and provide digital solutions for manufacturing, from ERP to smart manufacturing. | Digiwin Vietnam · Company introduction |  | Illustration: Digital solutions for manufacturing | ['CHIP-DESIGN CASE', '1/4'] Scene: Illustrative bright manufacturing-management desk with a neutral chip sample and blank paper dossier. No customer facility, software UI, actual product or equipment evidence. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. Source: Attributed China integrated digital-solution context; qualitative outsourcing pain, not proof of a specific F1 lot-report mechanism. Actual pregen layout review: MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning."
+    },
+    {
+      "card_id": "RMK-BRIGHT-2",
+      "verdict": "MATCH",
+      "observation": "We provide digital solutions for manufacturing. Explore outsourcing-management challenges in a named chip-design case from China. | A chip-design case from China | Bright Power is a chip-design business in China. Explore its digital-solution implementation context. | Digiwin Vietnam · Semiconductor case collection\n上海晶丰明源半导体股份有限公司 |  | Illustration: A chip-design case from China | ['CHIP-DESIGN CASE', '2/4'] Scene: An open case dossier next to a neutral chip sample in a bright tabletop scene. Introduces a chip-design company case, not documentary customer premises or a customer mark. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. Source: Attributed China integrated digital-solution context; qualitative outsourcing pain, not proof of a specific F1 lot-report mechanism."
+    },
+    {
+      "card_id": "RMK-BRIGHT-3",
+      "verdict": "MATCH",
+      "observation": "We provide digital solutions for manufacturing. Explore outsourcing-management challenges in a named chip-design case from China. | Outsourcing management in focus | The case identifies inefficient outsourcing management among its challenges and describes an integrated digital solution. | Digiwin Vietnam · China case04\n上海晶丰明源半导体股份有限公司 |  | Illustration: Outsourcing management in focus | ['CHIP-DESIGN CASE', '3/4'] Scene: Two blank subcontractor record surfaces and a central blank coordination folio linked by open physical paths. Illustrative management context only; no completed workflow or actual customer implementation diagram. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. Source: Attributed China integrated digital-solution context; qualitative outsourcing pain, not proof of a specific F1 lot-report mechanism. Actual pregen layout review: MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning."
+    },
+    {
+      "card_id": "RMK-BRIGHT-4",
+      "verdict": "MATCH",
+      "observation": "We provide digital solutions for manufacturing. Explore outsourcing-management challenges in a named chip-design case from China. | Read the chip-design case | Explore the business challenges and integrated digital-solution context in the named China case. | Digiwin Vietnam · digiwin.com.vn\nSemiconductor case04\n上海晶丰明源半导体股份有限公司 | Read the China case | Illustration: Read the chip-design case | ['CHIP-DESIGN CASE', '4/4'] Scene: A small open blank case booklet with a neutral chip sample on a low platform; compact scene above a large full-width source block and separate CTA. No skyline or customer facility. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. Source: Attributed China integrated digital-solution context; qualitative outsourcing pain, not proof of a specific F1 lot-report mechanism."
+    }
+  ],
+  "transitions": [
+    {
+      "cards": [
+        "RMK-BRIGHT-1",
+        "RMK-BRIGHT-2"
+      ],
+      "verdict": "MATCH",
+      "observation": "Digital solutions for manufacturing -> A chip-design case from China; same Operations/SCM reader; each step builds reporting basis or source-attributed qualitative case context."
+    },
+    {
+      "cards": [
+        "RMK-BRIGHT-2",
+        "RMK-BRIGHT-3"
+      ],
+      "verdict": "MATCH",
+      "observation": "A chip-design case from China -> Outsourcing management in focus; same Operations/SCM reader; each step builds reporting basis or source-attributed qualitative case context."
+    },
+    {
+      "cards": [
+        "RMK-BRIGHT-3",
+        "RMK-BRIGHT-4"
+      ],
+      "verdict": "MATCH",
+      "observation": "Outsourcing management in focus -> Read the chip-design case; same Operations/SCM reader; each step builds reporting basis or source-attributed qualitative case context."
+    }
+  ],
+  "context": {
+    "scope": "FULL_JOURNEY",
+    "verdict": "MATCH",
+    "observation": "Same Operations/SCM reader across cold->F1 reports->shared decision basis->digital provider->named China chip-design case->outsourcing-management pain/integrated solution->English reader/return. Bright qualitative outsourcing pain supplies a related business context, not evidence of the exact F1 lot-report mechanism or ERP-only causality. Nine adjacent transitions reviewed in order. CTA reads case, no form/live submission. Reader review: English summary names Chinese legal entity and China geography, states outsourcing-management pain and integrated-solution scope. Questions explicitly apply to the reader's own operation, not a claim about documented implementation steps. Original Simplified Chinese disclosure and source-reading CTA appropriate. No case metrics or generalized result.",
+    "brief": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/execution-brief.md",
+      "sha256": "ad41950cd773ea6b1ea63f58c90cafe81735eae390ba406ad0aff4fd868345e4",
+      "revision": "b13-execution-brief-v1"
+    },
+    "related_inputs": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/cold/public-copy.json",
+        "sha256": "ad478f3fccc22b36228cdc3511b3930229414fc81afb64ec5849553fed62f13e",
+        "revision": "b13-cold-en-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/public-copy.json",
+        "sha256": "a61c7e758741beb4957ce496eb252db6a121b1c0512d5bb232132c15e3be3005",
+        "revision": "b13-explanation-en-copy-v2"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/reader-script.json",
+        "sha256": "ae60dc4386d512a52efa95af02a6b301d7903b3e40af1daf126fee2a2e025715",
+        "revision": "b13-reader-en-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/semantic-review.json",
+        "sha256": "02bd36f450c92cfe4088abd31851ba357afad56044002ff006016b249fdf5853",
+        "revision": "b13-root-actual-script-review-v2"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof-source-mapping.json",
+        "sha256": "dd6b951f876918890693e5b90d64850b67b84c19f9aa6c6ccf25e7c10d544a25",
+        "revision": "b13-proof-map-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/remaining-layout-review.json",
+        "sha256": "fa08fa88a873b7305e258b10fbee77b0973dda5bbee21c206a20914770c869ce",
+        "revision": "b13-remaining-layout-self-review-v3"
+      }
+    ]
+  },
+  "unresolved_findings": []
+}

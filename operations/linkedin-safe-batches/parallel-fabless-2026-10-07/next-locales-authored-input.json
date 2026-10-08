@@ -1,0 +1,247 @@
+{
+  "revision": "b14-b15-f1-actual-authored-copy-v1",
+  "source": "B13-en-f1-v5 message and 1cold+6explanation+4proof structure",
+  "author": "/root",
+  "locales": {
+    "zh-Hans": {
+      "alt_prefix": "示意图：",
+      "labels": {
+        "cold": [
+          "芯片委外运营",
+          "制造业 ERP"
+        ],
+        "explanation": [
+          "ERP · 芯片运营"
+        ],
+        "proof": [
+          "芯片设计案例"
+        ]
+      },
+      "captions": {
+        "cold": "我们提供制造业 ERP(企业资源计划) 解决方案。采用委外生产的芯片设计运营团队：在下一步决策前，先对齐合作伙伴的报告。",
+        "explanation": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+        "proof": "我们提供制造业数字化解决方案，涵盖 ERP(企业资源计划)。了解中国芯片设计企业案例中的委外管理挑战。"
+      },
+      "cards": {
+        "COLD-FABLESS-B13": {
+          "headline": "委外生产，下一步怎么决策？",
+          "body": "交接前，先对齐批次、工序与报告时间。",
+          "rationale": "Mainland operational question names the next decision and three report-alignment objects; no owned fabrication plant or automatic data synchronization."
+        },
+        "F1-A1": {
+          "headline": "合作伙伴报告，批次情况清楚吗？",
+          "body": "安排下一步前，先确认每份合作伙伴报告对应哪道工序。",
+          "rationale": "Report-stage clarification before scheduling; question does not assume partner records are wrong or software missing."
+        },
+        "F1-A2": {
+          "headline": "先核对产品与批次。",
+          "body": "核对产品和批次标识，并约定各合作伙伴如何标注生产期间与测试分类。",
+          "rationale": "Product/lot identifiers and agreed production-period/test-classification conventions; no invented technical data or datecode algorithm."
+        },
+        "F1-A3": {
+          "headline": "这份报告对应哪道工序？",
+          "body": "确认工序、状态记录时间，以及支持该状态的合作伙伴报告。",
+          "rationale": "Explicit stage, recorded-time and report-source objects preserve the open operating question; no confirmed production progress."
+        },
+        "F1-A4": {
+          "headline": "共享信息由谁更新？",
+          "body": "约定报告格式、交换时间与负责确认每次生产更新的人员。",
+          "rationale": "Format, exchange schedule and named responsibility remain matters to agree, not an automated connector promise."
+        },
+        "F1-A5": {
+          "headline": "让下一步决策有共同依据。",
+          "body": "把批次、工序、报告时间与更新责任放在同一场讨论中。",
+          "source_text": "Digiwin 台湾半导体方案资料：\nERP 经营管理与 MES(制造执行系统) 生产制造。",
+          "cta": "探讨委外生产管理问题",
+          "rationale": "Shared decision basis closes the report questions. Taiwan ERP/MES context remains separately sourced; CTA invites a discussion rather than claiming customer results."
+        },
+        "F1-A6": {
+          "headline": "越南本地咨询与实施",
+          "body": "与我们在越南的团队讨论 ERP 咨询与实施。先梳理报告流程、更新责任与项目优先事项。",
+          "source_text": "Digiwin 越南 · ERP 咨询与实施",
+          "rationale": "Direct advertiser invitation preserves local Vietnam team nuance. No Vietnam Fabless customer, all-team language capability, headcount, metric or implementation guarantee."
+        },
+        "RMK-BRIGHT-1": {
+          "headline": "制造业数字化解决方案",
+          "body": "我们开发并提供制造业数字化解决方案，从 ERP 到智能制造。",
+          "source_text": "Digiwin 越南 · 公司介绍",
+          "rationale": "First-person supplier role, manufacturing digital solution category only; not a semiconductor deployment assertion."
+        },
+        "RMK-BRIGHT-2": {
+          "headline": "来自中国的芯片设计案例",
+          "body": "晶丰明源是中国的芯片设计企业。了解其数字化解决方案实施背景。",
+          "source_text": "Digiwin 越南 · 半导体案例集\n上海晶丰明源半导体股份有限公司",
+          "rationale": "China chip-design identity and common short name are paired with the exact legal entity; no customer logo or Vietnam deployment implication."
+        },
+        "RMK-BRIGHT-3": {
+          "headline": "聚焦委外管理",
+          "body": "案例列出委外管理效率不足等挑战，并介绍一体化数字化解决方案。",
+          "source_text": "Digiwin 越南 · 中国案例04\n上海晶丰明源半导体股份有限公司",
+          "rationale": "Qualitative outsourcing-management challenge and integrated solution from exact case04; no numeric outcome, ERP-only causality or proof of the exact F1 mechanism."
+        },
+        "RMK-BRIGHT-4": {
+          "headline": "阅读芯片设计案例",
+          "body": "了解这份中国企业案例中的业务挑战与一体化数字化解决方案背景。",
+          "source_text": "Digiwin 越南 · digiwin.com.vn\n半导体案例04\n上海晶丰明源半导体股份有限公司",
+          "cta": "阅读中国案例",
+          "rationale": "Source-reading next step preserves entity/geography/integrated-solution scope; full legal source and CTA need main-body hierarchy at actual display."
+        }
+      },
+      "reader": {
+        "title": "中国芯片设计案例：委外管理背景",
+        "intro": "我们的半导体案例集介绍了中国芯片设计企业晶丰明源，上海晶丰明源半导体股份有限公司。",
+        "sections": [
+          {
+            "title": "业务挑战",
+            "text": "来源列出委外管理效率不足，以及工程响应和订单响应较慢等挑战。"
+          },
+          {
+            "title": "解决方案背景",
+            "text": "案例介绍了一体化数字化解决方案，为梳理委外协同与信息责任提供讨论背景。"
+          },
+          {
+            "title": "梳理自己的运营问题",
+            "text": "每份合作伙伴报告对应哪个批次和哪道工序？状态何时记录？谁确认生产更新？下一步决策需要哪些共同的报告约定？"
+          }
+        ],
+        "source_language": "原始来源为简体中文。本页概述案例的业务背景。",
+        "source_cta": "阅读中国案例原文",
+        "return_label": "返回委外生产主题"
+      },
+      "ui": {
+        "title": "委外生产：从报告核对到下一步决策",
+        "desktop": "大图",
+        "feed": "信息流",
+        "previous": "上一张",
+        "next": "下一张",
+        "reader": "阅读中国案例概述",
+        "cold": "委外生产",
+        "explanation": "报告与责任",
+        "proof": "中国芯片设计案例",
+        "inspect": "查看文案",
+        "select": "选择卡片",
+        "case_label": "中国 · 芯片设计案例"
+      }
+    },
+    "zh-Hant": {
+      "alt_prefix": "示意圖：",
+      "labels": {
+        "cold": [
+          "晶片委外營運",
+          "製造業 ERP"
+        ],
+        "explanation": [
+          "ERP · 晶片營運"
+        ],
+        "proof": [
+          "晶片設計案例"
+        ]
+      },
+      "captions": {
+        "cold": "我們提供製造業 ERP(企業資源規劃) 解決方案。採用委外生產的晶片設計營運團隊：下一步決策前，先核對合作夥伴的回報。",
+        "explanation": "我們提供製造業 ERP(企業資源規劃) 解決方案。Fabless(無晶圓廠IC設計模式)營運團隊：核對生產合作夥伴的批次回報與權責分工。IC 指積體電路。",
+        "proof": "我們提供製造業數位解決方案，涵蓋 ERP(企業資源規劃)。了解中國晶片設計企業案例中的委外管理挑戰。"
+      },
+      "cards": {
+        "COLD-FABLESS-B13": {
+          "headline": "委外生產，下一步如何判斷？",
+          "body": "交接前，先核對批次、製程階段與回報時間。",
+          "rationale": "Taiwan operations wording uses核對,製程階段,回報 and an open next-decision question; separately authored rather than glyph conversion."
+        },
+        "F1-A1": {
+          "headline": "合作夥伴回報，批次狀況清楚嗎？",
+          "body": "規劃下一步前，先確認各份合作夥伴回報涵蓋哪個製程階段。",
+          "rationale": "Taiwan planning/operational terminology names report coverage and process stage without assuming error or software failure."
+        },
+        "F1-A2": {
+          "headline": "先從產品與批次核對。",
+          "body": "核對產品與批次識別，並約定各合作夥伴如何標示生產期間與測試分類。",
+          "rationale": "Taiwan識別/標示 wording retains product/lot and period/test conventions; no fabricated chip or test record."
+        },
+        "F1-A3": {
+          "headline": "這份回報對應哪個製程階段？",
+          "body": "確認製程階段、狀態紀錄時間，以及作為依據的合作夥伴回報。",
+          "rationale": "Taiwan紀錄/回報 language explicitly keeps stage/time/report-source distinctions; no completed-status or predictive claim."
+        },
+        "F1-A4": {
+          "headline": "共同資訊由誰維護？",
+          "body": "約定回報格式、交換時程，以及負責確認每次生產更新的人員。",
+          "rationale": "Maintenance ownership and exchange schedule are agreed responsibilities; preserves v5 business accountability without automation."
+        },
+        "F1-A5": {
+          "headline": "讓下一步決策有共同依據。",
+          "body": "把批次、製程階段、回報時間與更新權責放進同一次討論。",
+          "source_text": "Digiwin 台灣半導體方案資料：\nERP 經營管理與 MES(製造執行系統) 生產製造。",
+          "cta": "探討委外生產管理問題",
+          "rationale": "Separately authored Taiwan權責/製程 terminology closes the shared discussion. Taiwan ERP and MES context is distinct from Vietnam delivery or a specific customer outcome."
+        },
+        "F1-A6": {
+          "headline": "越南在地顧問與導入服務",
+          "body": "與我們在越南的團隊討論 ERP 顧問與導入服務。從回報流程、更新權責與專案優先順序開始。",
+          "source_text": "Digiwin 越南 · ERP 顧問與導入",
+          "rationale": "Taiwan顧問/導入/專案 wording preserves the local Vietnam team discussion, without implying all staff language skills, semiconductor certification or a Vietnam Fabless case."
+        },
+        "RMK-BRIGHT-1": {
+          "headline": "製造業數位解決方案",
+          "body": "我們開發並提供製造業數位解決方案，從 ERP 到智慧製造。",
+          "source_text": "Digiwin 越南 · 公司介紹",
+          "rationale": "Taiwan數位/智慧製造 and first-person supplier voice preserve the manufacturing-category role only."
+        },
+        "RMK-BRIGHT-2": {
+          "headline": "來自中國的晶片設計案例",
+          "body": "晶豐明源是中國的晶片設計企業。了解其數位解決方案導入背景。",
+          "source_text": "Digiwin 越南 · 半導體案例集\n上海晶丰明源半导体股份有限公司",
+          "rationale": "Taiwan common-name/script wording, but source legal entity remains exact Simplified Chinese. Reader discloses original script; no fabricated translated legal name or geography change."
+        },
+        "RMK-BRIGHT-3": {
+          "headline": "從委外管理問題切入",
+          "body": "案例提出委外管理效率不足等挑戰，並介紹整合式數位解決方案。",
+          "source_text": "Digiwin 越南 · 中國案例04\n上海晶丰明源半导体股份有限公司",
+          "rationale": "Taiwan整合式數位 terminology preserves qualitative integrated-solution scope and exact source legal name, with no metric or ERP-only attribution."
+        },
+        "RMK-BRIGHT-4": {
+          "headline": "閱讀晶片設計案例",
+          "body": "了解這份中國企業案例中的營運挑戰與整合式數位解決方案背景。",
+          "source_text": "Digiwin 越南 · digiwin.com.vn\n半導體案例04\n上海晶丰明源半导体股份有限公司",
+          "cta": "閱讀中國案例",
+          "rationale": "Taiwan營運/閱讀 wording guides to the same China source; exact legal name is source-preserved and main-paragraph source hierarchy remains mandatory."
+        }
+      },
+      "reader": {
+        "title": "中國晶片設計案例：委外管理背景",
+        "intro": "我們的半導體案例集介紹中國晶片設計企業晶豐明源，上海晶丰明源半导体股份有限公司。",
+        "sections": [
+          {
+            "title": "營運挑戰",
+            "text": "來源列出委外管理效率不足，以及工程回應與訂單回應較慢等挑戰。"
+          },
+          {
+            "title": "解決方案背景",
+            "text": "案例介紹整合式數位解決方案，可作為檢視委外協作與資訊權責的討論背景。"
+          },
+          {
+            "title": "檢視自己的營運問題",
+            "text": "每份合作夥伴回報涵蓋哪個批次與製程階段？狀態何時紀錄？誰確認生產更新？下一步決策需要哪些共同的回報約定？"
+          }
+        ],
+        "source_language": "原始來源為簡體中文。本頁為繁體中文概要，公司法定名稱保留來源原文。",
+        "source_cta": "閱讀中國案例原文",
+        "return_label": "返回委外生產主題"
+      },
+      "ui": {
+        "title": "委外生產：從回報核對到下一步決策",
+        "desktop": "大圖",
+        "feed": "動態消息",
+        "previous": "上一張",
+        "next": "下一張",
+        "reader": "閱讀中國案例概要",
+        "cold": "委外生產",
+        "explanation": "回報與權責",
+        "proof": "中國晶片設計案例",
+        "inspect": "查看文案",
+        "select": "選擇卡片",
+        "case_label": "中國 · 晶片設計案例"
+      }
+    }
+  }
+}

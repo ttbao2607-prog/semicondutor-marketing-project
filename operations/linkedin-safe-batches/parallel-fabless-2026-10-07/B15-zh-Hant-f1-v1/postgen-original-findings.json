@@ -1,0 +1,20 @@
+{
+  "revision": "b15-original-output-findings-v1",
+  "reviewer": "/root current Fabless session",
+  "independence": "SELF_REVIEW",
+  "findings": [
+    {
+      "card_id": "RMK-BRIGHT-2",
+      "original_sha256": "8ee46ec1432b9d9833757dead7a448d05573a36ecdbb87a852bcb79443be308f",
+      "original_finding": "MIXED_SCRIPT_CATEGORY",
+      "original_verdict": "CHANGES_REQUIRED",
+      "disposition": "CLOSED_IN_SELECTED_NATIVE_FEED_MAIN_SELF_REVIEW",
+      "corrective_call": "B15_RMK_BRIGHT_2_C1",
+      "corrected_sha256": "3030bb7fc685e1fef3377ecd50e93202d55da1d1956a556dbb5461a0df343e7d",
+      "original_retained": true,
+      "scope": "Category 设计 -> 設計 only; legal source name remains exact"
+    }
+  ],
+  "historical_verdict": "CHANGES_REQUIRED_FOR_LISTED_ORIGINAL_OUTPUTS",
+  "note": "Actual original artifacts remain unchanged; current selected revision closes only the described finding. No retroactive original PASS."
+}

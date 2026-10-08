@@ -1,0 +1,1915 @@
+{
+  "revision": "b14-zh-hans-postgen-v1-actual-root-v1",
+  "stage": "POSTGEN_ARTIFACT",
+  "date": "2026-10-07",
+  "reviewer": "/root current Fabless session",
+  "independence": "SELF_REVIEW",
+  "review_method": "Transcription of actual root native/pixel/text comparison performed in this session; mechanical assertions bind evidence but do not evaluate semantics or grant authority. Fresh localized and selected-revision review, no inherited B13/B14 PASS or independent native-market certification.",
+  "status": "REVIEW_DRAFT_RENDER_GATE_PENDING",
+  "execution": "PARTIAL",
+  "audit_verdict": "INSUFFICIENT_EVIDENCE",
+  "authorization": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/generation-mandate.json",
+    "sha256": "b05037431fd91ed4b675acaaa198788415611371b7e55db1a320a80ad906fc06",
+    "revision": "b14-po-two-batch-mandate-v1"
+  },
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "revision": "1.0",
+    "id": "VY-CONTENT-ANCHOR",
+    "original_email": {
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+      "revision": "actual-byte-artifact-2026-10-07"
+    }
+  },
+  "scope": {
+    "segment": "FDI",
+    "locale": "zh-Hans",
+    "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+    "route": "offline zh-Hans cold -> F1 outsourced-lot reporting -> Vietnam ERP consulting/implementation discussion -> qualitative China Bright Power integrated-solution case -> zh-Hans case reader",
+    "branch": "slice/linkedin-safe-fabless-parallel",
+    "ordered_units": [
+      "COLD-FABLESS-B14",
+      "F1-A1",
+      "F1-A2",
+      "F1-A3",
+      "F1-A4",
+      "F1-A5",
+      "F1-A6",
+      "RMK-BRIGHT-1",
+      "RMK-BRIGHT-2",
+      "RMK-BRIGHT-3",
+      "RMK-BRIGHT-4"
+    ]
+  },
+  "audience": "Business hypothesis: commercial outsourced-production Fabless FDI entity with Operations/SCM influencing business-system decisions. No live audience configuration, account eligibility, local buying authority or group ERP autonomy established.",
+  "binding": {
+    "manifest": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/manifest.json",
+      "sha256": "b5460d6f67c27690525642f269340ed22a5221c4cc99014c563cadb0b56e5580",
+      "revision": "b14-review-manifest-v1"
+    },
+    "copy": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/selected-copy.json",
+      "sha256": "1002e6b56cb8fc7e742e09d6d215320fce553fb84af9234e3aac555b80196a89",
+      "revision": "b14-review-copy-zh-Hans-v1"
+    },
+    "prompts": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/selected-prompts.json",
+      "sha256": "793c054c6ba3de9d4bdaf4250d7c29e6a0c8d5cd8b8107cc3bde9ed26596d0b5",
+      "revision": "b14-review-prompts-v1"
+    },
+    "reader": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/case-reader.html",
+      "sha256": "2aa89eb31794afb50d2691847903d7ea198b7ffc9bfb9d91b7d4705f0e592541",
+      "revision": "actual-byte-artifact-2026-10-07"
+    },
+    "viewer": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html",
+      "sha256": "1227f77a0d9701adb19198a0e1712011e560e7a0a43f6ca7b4ed9a4a9ee67e22",
+      "revision": "actual-byte-artifact-2026-10-07"
+    },
+    "attempts": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/attempt-ledger.json",
+      "sha256": "67b5181ed039fd6c14838b7561437db2268aa45bedc83224c80a961cc4e52d33",
+      "revision": "b14-attempt-ledger-v1"
+    },
+    "semantic_review": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/semantic-review.json",
+      "sha256": "f6160ae9c4579be934c26ed0306d47fc6900c64ad4cc9d229e6cff319a535080",
+      "revision": "b14-zh-hans-actual-root-script-review-v1"
+    },
+    "proof_map": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/proof-source-mapping.json",
+      "sha256": "cdfb5888a5d436b7c9544ba342e1202b59521318a0f7329fdaeed8aab59b73e9",
+      "revision": "b14-proof-map-v1"
+    },
+    "vietnam_team_source": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/vietnam-team-source.json",
+      "sha256": "4dd9ad85cb7f78e04ea0f666899b83f7e005f945c0c4ed3502c29476a91d4e67",
+      "revision": "b14-vietnam-team-source-v1"
+    },
+    "evidence": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/canary-bright3-feed.jpg",
+        "sha256": "9e0f4121365cedc085043ed59659f51ecab429914135400579628ce5ec17bbf4",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/canary-measures.json",
+        "sha256": "041271e7bb61bfd3f23e4017019e49c07190567724654cde9e5cfd2fbb38bd7a",
+        "revision": "b14-canary-browser-measures-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/canary-team-feed.jpg",
+        "sha256": "058ee7e26f01d68e0b49f4fa1e4902a868c009aecf83d8e2e5a1f7a3b282e863",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-01.jpg",
+        "sha256": "c4499141e69539a5275e3dd93e3691e04ecc63fcabd469c8d66838897c260040",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-02.jpg",
+        "sha256": "c595571de9ff3f47c514414bad9df067329eaaf325fbd8392fd1f9db18d650a5",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-03.jpg",
+        "sha256": "abf575e236b59e055b8d2f03773391aa4eb368804dbba0a5ae0ac0153230d007",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-04.jpg",
+        "sha256": "1e34e5c22bbc777a6e9b9d6f816d58b6630920c72159103b030456f0f1b8e3e9",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-05.jpg",
+        "sha256": "09f74ed0d72d4a65996a94e0aea5bd86f494118e06044d8d01e20c3bb8c9ea8c",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-06.jpg",
+        "sha256": "aa93ad7e4d72f42c283d1d20b5fda3a41f8d3cc0a44f4d035e582a14a783e9b0",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-07.jpg",
+        "sha256": "fd59b986af32919d9e18fe9128f7b31d35d8516b6da51a0bcb1cc759b3d863df",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-08.jpg",
+        "sha256": "e635f6d2e838a4a224795118bdaa98bfe69d140af44965372944ecdf78879b5b",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-09.jpg",
+        "sha256": "5660b7fed4a9190e8676adb0ae94f08f2071f52a3f52973d5daa0662256f31ad",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-10.jpg",
+        "sha256": "bf4045426b8b11ae8546bd1de5365011aee2df44c2c238ee6530682d78095fa3",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-11.jpg",
+        "sha256": "ec51f82d7d4235223f2f091304569aeca91b1a00e351566372482f9822369bed",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-01.jpg",
+        "sha256": "37f9dcf5e02953db2f7da33a21d3377b803341bfb20a71edabc47f49f84735e7",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-02.jpg",
+        "sha256": "05ff1182907f82e3efc11ab89630b75c5850c3d17132f621cd834939fff44031",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-03.jpg",
+        "sha256": "e656e1b01f45e18d2443d3af1ac23ebf0f02b4f16af6cd8d194d1662b21b6d5e",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-04.jpg",
+        "sha256": "6467e7691cf2b08ce7dcf0c011ddc22cc2577fd8a775a1e7e2e99d942a9f2485",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-05.jpg",
+        "sha256": "3094159dab8b6b25f50c2640282bd5977b5ca14fd341099e8feb18d5ed59707b",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-06.jpg",
+        "sha256": "072a962d68012d5b49092c43e6421aaaae36fcc1fb58d660cd9c2b31fb176f11",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-07.jpg",
+        "sha256": "058ee7e26f01d68e0b49f4fa1e4902a868c009aecf83d8e2e5a1f7a3b282e863",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-08.jpg",
+        "sha256": "7685d589a15afeaa65d10a17e90e10e7779cdc8629297ca08087b1da782c44da",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-09.jpg",
+        "sha256": "c36cd3d0bf41465bbe1ac3b1c6d1fa3a1368b911f4abb36bd3cc8b7925796778",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-10.jpg",
+        "sha256": "9e0f4121365cedc085043ed59659f51ecab429914135400579628ce5ec17bbf4",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-11.jpg",
+        "sha256": "a4612d138da4f9b8a918a9267836beca2d6fa3367479a0cc102a2d0a7cbb4d01",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1707,
+        "height": 817
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/full-render-measures.json",
+        "sha256": "112737cda96436f5fe21e5e0dc699b9d5e4e8c120293e6dcdfd499fa7b763ecc",
+        "revision": "actual-byte-artifact-2026-10-07"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/mobile-final-measure.json",
+        "sha256": "1531f69cc406ba31f8671fe6eb07477a69c8877b9512c9042d4bad4559ca98d9",
+        "revision": "actual-byte-artifact-2026-10-07"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/reader-desktop-top.jpg",
+        "sha256": "8ad9f7779c6e1de7593885b34a34612a409b122504f8035ff806453d11f93f53",
+        "revision": "actual-byte-artifact-2026-10-07",
+        "format": "JPEG",
+        "width": 1690,
+        "height": 809
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/reader-measure.json",
+        "sha256": "b39cf82719ca3aebb14e6fea47ed739b0029c145773b2329a64f7880778ba93a",
+        "revision": "actual-byte-artifact-2026-10-07"
+      }
+    ],
+    "fresh_dispatches": [
+      {
+        "call_id": "B14_F1_A6_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a6/dispatch/B14_F1_A6_V1-fresh-preflight.json",
+          "sha256": "3fbbdab2e36ea35ac132ef28e0b43998f75133db6bd32f8a999faf9ffa808c2b",
+          "revision": "B14_F1_A6_V1"
+        },
+        "release_sha256": "a06aefae08cd170fec3b225a8bb8a1b92c9e48de62688b71ea794d4a9931a65d",
+        "message_review_sha256": "bb2ac3f487c0a8354f7b9a12d7f09807a39ecf58133ff20992277bd650967f69",
+        "prompt_sha256": "c7e53c587c551797277b39fe7fb92771398fe96db21acdfeda6bac9a90004550"
+      },
+      {
+        "call_id": "B14_RMK_BRIGHT_3_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/rmk-bright-3/dispatch/B14_RMK_BRIGHT_3_V1-fresh-preflight.json",
+          "sha256": "6efa479abb3b059c10eea30a63a434096d2bf6617222f89697b357886775b164",
+          "revision": "B14_RMK_BRIGHT_3_V1"
+        },
+        "release_sha256": "109edeb4c27534f1eb859b3adbc29cc958d1746aaacb8b41fc11d224635f2ed5",
+        "message_review_sha256": "12d05ecbaa02e3fd51d2b187478ee71ce00acbb889902d6db837e1c2a8caae99",
+        "prompt_sha256": "711cca24e645a1f558a58d0bf0763eb12a01990370e39a50be62d479b6a5e4c3"
+      },
+      {
+        "call_id": "B14_COLD_FABLESS_B14_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/cold-fabless-b14/dispatch/B14_COLD_FABLESS_B14_V1-fresh-preflight.json",
+          "sha256": "7fd6a83c9b3272848836af788a098b82ced28dc37bd16c624f94ea6840178353",
+          "revision": "B14_COLD_FABLESS_B14_V1"
+        },
+        "release_sha256": "eff6f1f5996c07af285779d8c83ac4bf87be40e2dad87ceced52cbf270ebea0b",
+        "message_review_sha256": "cb80752b2148231a18fc622b250d45b0d9e6c6dcebcca8964df18b3954dc3538",
+        "prompt_sha256": "6cbfa2f23885bd86e63b64182979a8583bef46cfb74a4bc610da8a36c801145a"
+      },
+      {
+        "call_id": "B14_F1_A1_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a1/dispatch/B14_F1_A1_V1-fresh-preflight.json",
+          "sha256": "680ffe012ead05795175054da476311b1d227c2c26a2d56a705b1cd92972cd2b",
+          "revision": "B14_F1_A1_V1"
+        },
+        "release_sha256": "b52714b209ff72e4aa6d272cbd2635be74754093cbe3fd317e6e733e17c6bf53",
+        "message_review_sha256": "ae443c1d681adbefc91618d466dc619aff3bbce4c3b963ed26f7a13d62ed9837",
+        "prompt_sha256": "f3057571c6ea7e1e48f9a943bd42a7e799db2903be99332cb6b83589855d84c5"
+      },
+      {
+        "call_id": "B14_F1_A2_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a2/dispatch/B14_F1_A2_V1-fresh-preflight.json",
+          "sha256": "15dedc0818b0c5dac8039c9d471a8d405f920fd93359f96fdb1a41d8c44d8d2e",
+          "revision": "B14_F1_A2_V1"
+        },
+        "release_sha256": "b279588253a656261ff920074e6bf43195ba3a0d7e79f3ba6f83682ac94ffbd0",
+        "message_review_sha256": "c9ef722922549620e794a7ae4d5aa27307bd89da974ba466276be29469967b2b",
+        "prompt_sha256": "112b9a95ff2a3f81f8e528c3c0eb982a3b27768610113bab826c9993e5e2f9cc"
+      },
+      {
+        "call_id": "B14_F1_A3_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a3/dispatch/B14_F1_A3_V1-fresh-preflight.json",
+          "sha256": "41eb79514693203acc7483f7f9d08373379284281bd42b7df8be8af9c617cc3b",
+          "revision": "B14_F1_A3_V1"
+        },
+        "release_sha256": "28269dd3f27a68a94aeb037f5bc2cd296f00e27921bca02842da74c1712eefca",
+        "message_review_sha256": "96bad3ab0e80d705cc46b5649acc7f0438c64fff76d8fe7d338027f103815272",
+        "prompt_sha256": "b285d05b87083b484499e499f6a60784f28d38482fe68041066ee7df21082c8a"
+      },
+      {
+        "call_id": "B14_F1_A4_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a4/dispatch/B14_F1_A4_V1-fresh-preflight.json",
+          "sha256": "4aa400688e73a957ecc0aa0d1f68a121d9e48e50e565df1a100fbf4217bd5e1f",
+          "revision": "B14_F1_A4_V1"
+        },
+        "release_sha256": "b8ba8bdaea98db79a0dbaf46a25d86af68034c73a5ee90ed63377bfa98aafc55",
+        "message_review_sha256": "db028ddccca7209323c583f62eb30957dd194ba19ae08ccc8fd77a0bebe0b32f",
+        "prompt_sha256": "8eeb0925e52fcab30287b633cbb37e9bb9312ea8f9a2239670ed68c628a91021"
+      },
+      {
+        "call_id": "B14_F1_A5_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a5/dispatch/B14_F1_A5_V1-fresh-preflight.json",
+          "sha256": "b148683fa0b7f13b2a2fdbb9bc1b3adec12610604bd8d7c4fcd10113f48e490c",
+          "revision": "B14_F1_A5_V1"
+        },
+        "release_sha256": "720fc17942ea9488cdc7846d1a3e69c0c64ec8f50e753bb6927b20c6982e3eb7",
+        "message_review_sha256": "d8cd0e3e803efba94e11842498afa42cc47f4af908a1da85842125f500b74831",
+        "prompt_sha256": "8efe6c318aa3a45019ccd2e0f1548dde20587267a677e9c583fc512ca6665aaa"
+      },
+      {
+        "call_id": "B14_RMK_BRIGHT_1_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/rmk-bright-1/dispatch/B14_RMK_BRIGHT_1_V1-fresh-preflight.json",
+          "sha256": "fee40f34a146379b27b227769178d5a598b4a5b72d8ddc3a54024a108227c186",
+          "revision": "B14_RMK_BRIGHT_1_V1"
+        },
+        "release_sha256": "6d024a8c6e8e82ee17b98d26c99e7ad4751e620e039dbb92c53bf2b8ac2fe470",
+        "message_review_sha256": "4cc26dfce94a673f599c552f730704bb61039c9b0462d1c0b86e22c0da2c7de9",
+        "prompt_sha256": "e763562d6622415144a6e46b2cc58fc8e95814069dee6a4d9afbb765db9fabd0"
+      },
+      {
+        "call_id": "B14_RMK_BRIGHT_2_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/rmk-bright-2/dispatch/B14_RMK_BRIGHT_2_V1-fresh-preflight.json",
+          "sha256": "e5b25da0b4ba63f0886c9a925c61580e23116a6c9f7bdc2c1a6570d8bbfa3bc9",
+          "revision": "B14_RMK_BRIGHT_2_V1"
+        },
+        "release_sha256": "cfb59a36d45f3835bc776856494d45285f3869bed9af023e401a920ca0708151",
+        "message_review_sha256": "cde11d40dfd2f792d57e534dbb238b90a57ee93d3396c4979ec8cd06e260ba38",
+        "prompt_sha256": "6aa249484ca68a78c5876be554b634e2b1fd5a962b8caaa274a05923b4f5cf76"
+      },
+      {
+        "call_id": "B14_RMK_BRIGHT_4_V1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/rmk-bright-4/dispatch/B14_RMK_BRIGHT_4_V1-fresh-preflight.json",
+          "sha256": "f9532b5b66c794e608a44699ef4293ef993a62fdbe2f3045354d09d276c5c3a2",
+          "revision": "B14_RMK_BRIGHT_4_V1"
+        },
+        "release_sha256": "700e7156b2795cf6e433ebeeca9b9631ddfcf3ac0439b54aceee341b6b223a49",
+        "message_review_sha256": "750ae257984839abeff9154374b7ab2d43e2e2af76420a9034c1f3a544488537",
+        "prompt_sha256": "fe3c79d8e38f45b0752299eed6b3d5e03e3b0fbcfaf6b2ef5d37e2bb3836b3bf"
+      },
+      {
+        "call_id": "B14_F1_A5_C1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/corrective-v1/f1-a5/dispatch/B14_F1_A5_C1-fresh-preflight.json",
+          "sha256": "db2de1161c84a1cd93f796c26982321b1a51596c8701f747d23173a231c276f6",
+          "revision": "B14_F1_A5_C1"
+        },
+        "release_sha256": "be3a0d78635cbcd7960eed7fa011fb7ed9dfd73780488e6895e15764369b58f8",
+        "message_review_sha256": "8d6bc96963610197d8e742df2306b58b4cf73bac054c9d369f8bd029e26ec019",
+        "prompt_sha256": "20309199efc9b2748306a067005322e17811ab3d4cd1e3e5195c0063616a6a11"
+      },
+      {
+        "call_id": "B14_RMK_BRIGHT_2_C1",
+        "guard": {
+          "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/corrective-v1/rmk-bright-2/dispatch/B14_RMK_BRIGHT_2_C1-fresh-preflight.json",
+          "sha256": "b9d5176b6eb784c8d3e3cb26c4cf7d80bb6001a28e253208d589aae2ee2155bd",
+          "revision": "B14_RMK_BRIGHT_2_C1"
+        },
+        "release_sha256": "691db75b4824ad0a54b7ba649f7f569e6277e4571b1860047fb7bcf6e6d4cdf3",
+        "message_review_sha256": "d582f89ecef0217126c7a4a06a3fcf228dbbb3ba460d15c15fb3af2bcb8b5e3c",
+        "prompt_sha256": "e27793c12a6875bcdc9405110ebbd5ad30067f99384c729a0c4ed7a605b283cd"
+      }
+    ]
+  },
+  "anchor_rules": [
+    {
+      "rule": "A1",
+      "actual_observation": "Commercial chip-design entity with outsourced production; report conventions and responsibility are a narrow semiconductor-chain operating issue. No assumption every design office or general electronics factory is an eligible Vietnam ERP buyer.",
+      "actual_binding": "Per-card exact-field/native/feed/main observations and reader below; localized artwork reconciled against these semantic criteria.",
+      "scope": "PASS_SELF_REVIEW_ACTUAL_NATIVE_FEED_MAIN_READER_DESKTOP; FULL_MOBILE_INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "rule": "A2",
+      "actual_observation": "Operations/SCM influences business-system evaluation at an eligible entity. Actual local buying authority and group-system constraints unknown; process or existing-system improvements remain alternatives. Published China customer not treated as an approved Vietnam target account.",
+      "actual_binding": "Per-card exact-field/native/feed/main observations and reader below; localized artwork reconciled against these semantic criteria.",
+      "scope": "PASS_SELF_REVIEW_ACTUAL_NATIVE_FEED_MAIN_READER_DESKTOP; FULL_MOBILE_INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "rule": "A3",
+      "actual_observation": "FDI zh-Hans operational business audience. Mainland terms报告/工序/标识/咨询与实施 are directly authored, not Vietnamese literal syntax. Fabless(无晶圆厂芯片设计模式) in explanation caption; ERP(企业资源计划) before first acronym in each ad; MES(制造执行系统) explained in A5 source. No OSAT/WIP used. Language does not establish FDI ownership.",
+      "actual_binding": "Per-card exact-field/native/feed/main observations and reader below; localized artwork reconciled against these semantic criteria.",
+      "scope": "PASS_SELF_REVIEW_ACTUAL_NATIVE_FEED_MAIN_READER_DESKTOP; FULL_MOBILE_INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "rule": "A4",
+      "actual_observation": "Same implicit business value as v5: common basis for next decision and accountable updates. Report stage -> product/lot convention -> recorded-time/source -> update owner -> shared discussion. No numeric ROI, cost/yield saving, payback, forecast or automatic synchronization promise.",
+      "actual_binding": "Per-card exact-field/native/feed/main observations and reader below; localized artwork reconciled against these semantic criteria.",
+      "scope": "PASS_SELF_REVIEW_ACTUAL_NATIVE_FEED_MAIN_READER_DESKTOP; FULL_MOBILE_INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "rule": "A5",
+      "actual_observation": "N/A: FDI lane; no domestic supplier-entry, audit success, qualification or orders promise.",
+      "actual_binding": "Per-card exact-field/native/feed/main observations and reader below; localized artwork reconciled against these semantic criteria.",
+      "scope": "PASS_SELF_REVIEW_ACTUAL_NATIVE_FEED_MAIN_READER_DESKTOP; FULL_MOBILE_INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "rule": "A6",
+      "actual_observation": "Explicit product/lot identifiers, production periods/test classifications, stage/time/report source and confirming update owner. Questions and agreed conventions, not unverified ERP execution functions. Taiwan ERP and MES context stays separate. Illustrative neutral chip/carrier/report props, no owned fab, technical values or customer facility.",
+      "actual_binding": "Per-card exact-field/native/feed/main observations and reader below; localized artwork reconciled against these semantic criteria.",
+      "scope": "PASS_SELF_REVIEW_ACTUAL_NATIVE_FEED_MAIN_READER_DESKTOP; FULL_MOBILE_INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "rule": "A7",
+      "actual_observation": "Cold decision cue -> report clarification -> convention -> stage/time/source -> responsibility -> decision basis -> Vietnam local consultation -> supplier role -> China identity -> qualitative outsourcing challenge -> same China source reader. Vietnam service and China implementation are separately attributed; no claim Bright received service from Vietnam team or proves exact F1 mechanism.",
+      "actual_binding": "Per-card exact-field/native/feed/main observations and reader below; localized artwork reconciled against these semantic criteria.",
+      "scope": "PASS_SELF_REVIEW_ACTUAL_NATIVE_FEED_MAIN_READER_DESKTOP; FULL_MOBILE_INSUFFICIENT_EVIDENCE"
+    }
+  ],
+  "unit_reviews": [
+    {
+      "card_id": "COLD-FABLESS-B14",
+      "position": 1,
+      "exact_approved_fields": {
+        "headline": "委外生产，下一步怎么决策？",
+        "body": "交接前，先对齐批次、工序与报告时间。",
+        "source_text": "",
+        "cta": "",
+        "artwork_labels": [
+          "芯片委外运营",
+          "制造业 ERP"
+        ],
+        "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。采用委外生产的芯片设计运营团队：在下一步决策前，先对齐合作伙伴的报告。",
+        "native_headline": "委外生产，下一步怎么决策？",
+        "alt": "示意图：委外生产，下一步怎么决策？"
+      },
+      "native": {
+        "card_id": "COLD-FABLESS-B14",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/01-cold-fabless-b14.png",
+        "sha256": "daae957a434ea4796e4cf193e34d59f335d6320b3d20be2ec163c6b69f3a4842",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/cold-fabless-b14/native/cold-fabless-b14-zh-Hans-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact Hans outsourced-production/next-decision question, lot/stage/report-time body; two functional category/ERP labels, no counter/swipe/CTA, mark once; neutral blank partner records/chip trays, no owned fab or values. Render pending.",
+      "message_observation": "Outsourced chip-production next-decision hook. Lot/stage/report-time body is a preparation question, not owned-factory status or promised system behavior. Cold has two functional labels and no carousel counter or CTA.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。采用委外生产的芯片设计运营团队：在下一步决策前，先对齐合作伙伴的报告。",
+            "counter": "1 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/01-cold-fabless-b14.png",
+              "width": 333
+            },
+            "native": "委外生产，下一步怎么决策？",
+            "overflow": false,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 1,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-01.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-01.jpg",
+            "sha256": "37f9dcf5e02953db2f7da33a21d3377b803341bfb20a71edabc47f49f84735e7",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。采用委外生产的芯片设计运营团队：在下一步决策前，先对齐合作伙伴的报告。",
+            "counter": "1 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/01-cold-fabless-b14.png",
+              "width": 640,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 402.22222900390625,
+                "right": 1042.2222290039062,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 402.22222900390625,
+                "y": 88.27777862548828
+              }
+            },
+            "native": "委外生产，下一步怎么决策？",
+            "overflow": false,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 1,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-01.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-01.jpg",
+            "sha256": "c4499141e69539a5275e3dd93e3691e04ecc63fcabd469c8d66838897c260040",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "F1-A1",
+      "position": 2,
+      "exact_approved_fields": {
+        "headline": "合作伙伴报告，批次情况清楚吗？",
+        "body": "安排下一步前，先确认每份合作伙伴报告对应哪道工序。",
+        "source_text": "",
+        "cta": "",
+        "artwork_labels": [
+          "ERP · 芯片运营",
+          "1/6"
+        ],
+        "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+        "native_headline": "合作伙伴报告，批次情况清楚吗？",
+        "alt": "示意图：合作伙伴报告，批次情况清楚吗？"
+      },
+      "native": {
+        "card_id": "F1-A1",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/02-f1-a1.png",
+        "sha256": "791d12bd046c3f072259e397f9066de1d4d29a3f0f46fcc67c84e20f9af7d01c",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a1/native/f1-a1-zh-Hans-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact partner-report/lot clarity headline and next-step/process-stage question, ERP Hans category1/6, mark once, blank partner reports/neutral wafer carrier; no asserted status, extra label or values. Render pending.",
+      "message_observation": "Partner-report/lot clarity before next planning step. Exact process-stage question, explanatory category and 1/6. No assertion that a customer has incorrect reports.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+            "counter": "2 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/02-f1-a1.png",
+              "width": 333
+            },
+            "native": "合作伙伴报告，批次情况清楚吗？",
+            "overflow": false,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 2,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-02.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-02.jpg",
+            "sha256": "05ff1182907f82e3efc11ab89630b75c5850c3d17132f621cd834939fff44031",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+            "counter": "2 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/02-f1-a1.png",
+              "width": 640
+            },
+            "native": "合作伙伴报告，批次情况清楚吗？",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 2,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-02.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-02.jpg",
+            "sha256": "c595571de9ff3f47c514414bad9df067329eaaf325fbd8392fd1f9db18d650a5",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "F1-A2",
+      "position": 3,
+      "exact_approved_fields": {
+        "headline": "先核对产品与批次。",
+        "body": "核对产品和批次标识，并约定各合作伙伴如何标注生产期间与测试分类。",
+        "source_text": "",
+        "cta": "",
+        "artwork_labels": [
+          "ERP · 芯片运营",
+          "2/6"
+        ],
+        "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+        "native_headline": "先核对产品与批次。",
+        "alt": "示意图：先核对产品与批次。"
+      },
+      "native": {
+        "card_id": "F1-A2",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/03-f1-a2.png",
+        "sha256": "b8b965d4efb8fdabb60d899cc46c3a1789f907f8ddd9a5ce9af21aa4e8729ea2",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a2/native/f1-a2-zh-Hans-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact product/lot identifier and agreed production-period/test-classification text,2/6/category, logo once, blank records and neutral chip; no IDs/results/microglyphs or extra graphic data. Render pending.",
+      "message_observation": "Product/lot references and agreed production-period/test classifications. Exact category and 2/6. No invented identifier, test result or record values.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+            "counter": "3 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/03-f1-a2.png",
+              "width": 333
+            },
+            "native": "先核对产品与批次。",
+            "overflow": false,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 3,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-03.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-03.jpg",
+            "sha256": "e656e1b01f45e18d2443d3af1ac23ebf0f02b4f16af6cd8d194d1662b21b6d5e",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+            "counter": "3 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/03-f1-a2.png",
+              "width": 640
+            },
+            "native": "先核对产品与批次。",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 3,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-03.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-03.jpg",
+            "sha256": "abf575e236b59e055b8d2f03773391aa4eb368804dbba0a5ae0ac0153230d007",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "F1-A3",
+      "position": 4,
+      "exact_approved_fields": {
+        "headline": "这份报告对应哪道工序？",
+        "body": "确认工序、状态记录时间，以及支持该状态的合作伙伴报告。",
+        "source_text": "",
+        "cta": "",
+        "artwork_labels": [
+          "ERP · 芯片运营",
+          "3/6"
+        ],
+        "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+        "native_headline": "这份报告对应哪道工序？",
+        "alt": "示意图：这份报告对应哪道工序？"
+      },
+      "native": {
+        "card_id": "F1-A3",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/04-f1-a3.png",
+        "sha256": "50fc7165b935d444a2a729968d10bd56b4ccbdcea8c447a0b43095e932c7c3a3",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a3/native/f1-a3-zh-Hans-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact Hans stage, recorded-time and report-source copy; category and 3/6 counter correct; logo once; blank records and neutral wafer carrier; no status data or result claim. Render pending.",
+      "message_observation": "Stage, recorded-time and partner-report source are separate reconciliation objects. Exact category and 3/6. Scene does not assert a completed workflow.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+            "counter": "4 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/04-f1-a3.png",
+              "width": 333
+            },
+            "native": "这份报告对应哪道工序？",
+            "overflow": false,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 4,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-04.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-04.jpg",
+            "sha256": "6467e7691cf2b08ce7dcf0c011ddc22cc2577fd8a775a1e7e2e99d942a9f2485",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+            "counter": "4 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/04-f1-a3.png",
+              "width": 640
+            },
+            "native": "这份报告对应哪道工序？",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 4,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-04.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-04.jpg",
+            "sha256": "1e34e5c22bbc777a6e9b9d6f816d58b6630920c72159103b030456f0f1b8e3e9",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "F1-A4",
+      "position": 5,
+      "exact_approved_fields": {
+        "headline": "共享信息由谁更新？",
+        "body": "约定报告格式、交换时间与负责确认每次生产更新的人员。",
+        "source_text": "",
+        "cta": "",
+        "artwork_labels": [
+          "ERP · 芯片运营",
+          "4/6"
+        ],
+        "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+        "native_headline": "共享信息由谁更新？",
+        "alt": "示意图：共享信息由谁更新？"
+      },
+      "native": {
+        "card_id": "F1-A4",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/05-f1-a4.png",
+        "sha256": "7ae0667fd3167e01ad28a2fc2f938b04c7a27f09bb03fe75f33b87eb9fba2823",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a4/native/f1-a4-zh-Hans-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact Hans shared-information update-owner question and report format/exchange time/confirmation-owner body; 4/6 and category correct; logo once; blank paper stacks and single abstract owner token; no customer results or production dashboard. Render pending.",
+      "message_observation": "Report format, exchange timing and update-confirmation owner. Exact category and 4/6. No automatic connector or synchronization capability promise.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+            "counter": "5 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/05-f1-a4.png",
+              "width": 333
+            },
+            "native": "共享信息由谁更新？",
+            "overflow": false,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 5,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-05.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-05.jpg",
+            "sha256": "3094159dab8b6b25f50c2640282bd5977b5ca14fd341099e8feb18d5ed59707b",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+            "counter": "5 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/05-f1-a4.png",
+              "width": 640
+            },
+            "native": "共享信息由谁更新？",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 5,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-05.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-05.jpg",
+            "sha256": "09f74ed0d72d4a65996a94e0aea5bd86f494118e06044d8d01e20c3bb8c9ea8c",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "F1-A5",
+      "position": 6,
+      "exact_approved_fields": {
+        "headline": "让下一步决策有共同依据。",
+        "body": "把批次、工序、报告时间与更新责任放在同一场讨论中。",
+        "source_text": "Digiwin 台湾半导体方案资料：\nERP 经营管理与 MES(制造执行系统) 生产制造。",
+        "cta": "探讨委外生产管理问题",
+        "artwork_labels": [
+          "ERP · 芯片运营",
+          "5/6"
+        ],
+        "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+        "native_headline": "让下一步决策有共同依据。",
+        "alt": "示意图：让下一步决策有共同依据。"
+      },
+      "native": {
+        "card_id": "F1-A5",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/06-f1-a5.png",
+        "sha256": "56828e5b96186a7dd52879a7f5b2e79c7edc03ec06c355beaa5422bdfa438a89",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/corrective-v1/f1-a5/native/f1-a5-zh-Hans-c1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: blank-paper correction successful on left clip stack and foreground page. Exact Hans headline/body, Taiwan ERP/MES source definition, CTA, category, 5/6 and official logo preserved; abstract record/chip/team icon tokens retain non-data meaning. No new words/results. Native finding resolved; render pending.",
+      "message_observation": "Shared basis for next decision connects lot/stage/report-time/update responsibility. Exact 5/6 and discussion CTA. Taiwan ERP business-management and separately defined MES production context appear as full source paragraph on white, not ERP-only execution/outcome proof.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+            "counter": "6 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/06-f1-a5.png",
+              "width": 333
+            },
+            "native": "让下一步决策有共同依据。",
+            "overflow": false,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 6,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-06.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-06.jpg",
+            "sha256": "072a962d68012d5b49092c43e6421aaaae36fcc1fb58d660cd9c2b31fb176f11",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+            "counter": "6 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/06-f1-a5.png",
+              "width": 640
+            },
+            "native": "让下一步决策有共同依据。",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 6,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-06.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-06.jpg",
+            "sha256": "aa93ad7e4d72f42c283d1d20b5fda3a41f8d3cc0a44f4d035e582a14a783e9b0",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "F1-A6",
+      "position": 7,
+      "exact_approved_fields": {
+        "headline": "越南本地咨询与实施",
+        "body": "与我们在越南的团队讨论 ERP 咨询与实施。先梳理报告流程、更新责任与项目优先事项。",
+        "source_text": "Digiwin 越南 · ERP 咨询与实施",
+        "cta": "",
+        "artwork_labels": [
+          "ERP · 芯片运营",
+          "6/6"
+        ],
+        "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+        "native_headline": "越南本地咨询与实施",
+        "alt": "示意图：越南本地咨询与实施"
+      },
+      "native": {
+        "card_id": "F1-A6",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/07-f1-a6.png",
+        "sha256": "2fbc146203dff422894afd9df1f9c408f25aebef209d1d091486fce705e5b5fa",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/f1-a6/native/f1-a6-zh-Hans-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact Hans headline/body/source, ERP category and6/6, official mark once; no added values/UI/customer facility. Source comfortably body-sized; rendered pending.",
+      "message_observation": "Vietnam consulting/implementation team nuance. First-person invitation to discuss report workflows, update ownership and project priorities. Exact 6/6 and Vietnam ERP service attribution. No headcount, teamwide-language promise, delivery guarantee or local Fabless result.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+            "counter": "7 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/07-f1-a6.png",
+              "width": 333
+            },
+            "native": "越南本地咨询与实施",
+            "overflow": false,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 7,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-07.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-07.jpg",
+            "sha256": "058ee7e26f01d68e0b49f4fa1e4902a868c009aecf83d8e2e5a1f7a3b282e863",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)运营团队：对齐生产合作伙伴的批次报告与责任分工。",
+            "counter": "7 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/07-f1-a6.png",
+              "width": 640
+            },
+            "native": "越南本地咨询与实施",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 7,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-07.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-07.jpg",
+            "sha256": "fd59b986af32919d9e18fe9128f7b31d35d8516b6da51a0bcb1cc759b3d863df",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified. Settled DOM390x844/image332.44 loaded, screenshot timed out; DOM is not visual PASS.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "RMK-BRIGHT-1",
+      "position": 8,
+      "exact_approved_fields": {
+        "headline": "制造业数字化解决方案",
+        "body": "我们开发并提供制造业数字化解决方案，从 ERP 到智能制造。",
+        "source_text": "Digiwin 越南 · 公司介绍",
+        "cta": "",
+        "artwork_labels": [
+          "芯片设计案例",
+          "1/4"
+        ],
+        "caption": "我们提供制造业数字化解决方案，涵盖 ERP(企业资源计划)。了解中国芯片设计企业案例中的委外管理挑战。",
+        "native_headline": "制造业数字化解决方案",
+        "alt": "示意图：制造业数字化解决方案"
+      },
+      "native": {
+        "card_id": "RMK-BRIGHT-1",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/08-rmk-bright-1.png",
+        "sha256": "221a05b6a1f0f7e64db468215cb7943326da0d2cba13b8e66b682b76b58218ac",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/rmk-bright-1/native/rmk-bright-1-zh-Hans-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact Hans manufacturing digital-solutions advertiser voice, ERP-to-smart-manufacturing wording, Vietnam company-introduction source, category and 1/4; logo once, blank papers, neutral chip trays. Provider introduction separate from China customer proof; no outcomes. Render pending.",
+      "message_observation": "Provider first-person introduction from ERP to smart manufacturing. Exact 1/4, company-introduction provenance. No customer testimonial, deployment count or geographic proof.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我们提供制造业数字化解决方案，涵盖 ERP(企业资源计划)。了解中国芯片设计企业案例中的委外管理挑战。",
+            "counter": "8 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/08-rmk-bright-1.png",
+              "width": 333
+            },
+            "native": "制造业数字化解决方案",
+            "overflow": false,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 8,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-08.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-08.jpg",
+            "sha256": "7685d589a15afeaa65d10a17e90e10e7779cdc8629297ca08087b1da782c44da",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我们提供制造业数字化解决方案，涵盖 ERP(企业资源计划)。了解中国芯片设计企业案例中的委外管理挑战。",
+            "counter": "8 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/08-rmk-bright-1.png",
+              "width": 640
+            },
+            "native": "制造业数字化解决方案",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 8,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-08.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-08.jpg",
+            "sha256": "e635f6d2e838a4a224795118bdaa98bfe69d140af44965372944ecdf78879b5b",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "RMK-BRIGHT-2",
+      "position": 9,
+      "exact_approved_fields": {
+        "headline": "来自中国的芯片设计案例",
+        "body": "晶丰明源是中国的芯片设计企业。了解其数字化解决方案实施背景。",
+        "source_text": "Digiwin 越南 · 半导体案例集\n上海晶丰明源半导体股份有限公司",
+        "cta": "",
+        "artwork_labels": [
+          "芯片设计案例",
+          "2/4"
+        ],
+        "caption": "我们提供制造业数字化解决方案，涵盖 ERP(企业资源计划)。了解中国芯片设计企业案例中的委外管理挑战。",
+        "native_headline": "来自中国的芯片设计案例",
+        "alt": "示意图：来自中国的芯片设计案例"
+      },
+      "native": {
+        "card_id": "RMK-BRIGHT-2",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/09-rmk-bright-2.png",
+        "sha256": "9b61b2bb537c92ace379e8f212ae4725b7e2ad03c9aee479d9b8ff88671089ce",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/corrective-v1/rmk-bright-2/native/rmk-bright-2-zh-Hans-c1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: all left and foreground sheets now blank, finding resolved. Exact Hans China chip-design headline/body, Digiwin Vietnam case-collection source and 上海晶丰明源半导体股份有限公司, category, 2/4 and logo preserved; no customer metrics/result or new claim. Native PASS SELF_REVIEW; render pending.",
+      "message_observation": "Explicit China chip-design case identity. Exact 2/4, publisher and complete source legal name. No customer logo/facility, Vietnam deployment or attribution to Vietnam team.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我们提供制造业数字化解决方案，涵盖 ERP(企业资源计划)。了解中国芯片设计企业案例中的委外管理挑战。",
+            "counter": "9 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/09-rmk-bright-2.png",
+              "width": 333
+            },
+            "native": "来自中国的芯片设计案例",
+            "overflow": false,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 9,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-09.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-09.jpg",
+            "sha256": "c36cd3d0bf41465bbe1ac3b1c6d1fa3a1368b911f4abb36bd3cc8b7925796778",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我们提供制造业数字化解决方案，涵盖 ERP(企业资源计划)。了解中国芯片设计企业案例中的委外管理挑战。",
+            "counter": "9 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/09-rmk-bright-2.png",
+              "width": 640
+            },
+            "native": "来自中国的芯片设计案例",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 9,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-09.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-09.jpg",
+            "sha256": "5660b7fed4a9190e8676adb0ae94f08f2071f52a3f52973d5daa0662256f31ad",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "RMK-BRIGHT-3",
+      "position": 10,
+      "exact_approved_fields": {
+        "headline": "聚焦委外管理",
+        "body": "案例列出委外管理效率不足等挑战，并介绍一体化数字化解决方案。",
+        "source_text": "Digiwin 越南 · 中国案例04\n上海晶丰明源半导体股份有限公司",
+        "cta": "",
+        "artwork_labels": [
+          "芯片设计案例",
+          "3/4"
+        ],
+        "caption": "我们提供制造业数字化解决方案，涵盖 ERP(企业资源计划)。了解中国芯片设计企业案例中的委外管理挑战。",
+        "native_headline": "聚焦委外管理",
+        "alt": "示意图：聚焦委外管理"
+      },
+      "native": {
+        "card_id": "RMK-BRIGHT-3",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/10-rmk-bright-3.png",
+        "sha256": "a72ea727905c78ea1592edc86b85245105bb2bf87b76d86d622cafe662e3286a",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/rmk-bright-3/native/rmk-bright-3-zh-Hans-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact qualitative Hans outsourcing challenge and integrated solution;3/4, full China case04/legal source at least body-sized, logo once, blank records, no metric or ERP-only/Vietnam implication. Render pending.",
+      "message_observation": "Qualitative outsourcing-management challenge and integrated digital solution. Exact 3/4, China case04 and complete legal name. No metrics, ERP-only causality or proof of the exact prospect reporting mechanism.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我们提供制造业数字化解决方案，涵盖 ERP(企业资源计划)。了解中国芯片设计企业案例中的委外管理挑战。",
+            "counter": "10 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/10-rmk-bright-3.png",
+              "width": 333
+            },
+            "native": "聚焦委外管理",
+            "overflow": false,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 10,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-10.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-10.jpg",
+            "sha256": "9e0f4121365cedc085043ed59659f51ecab429914135400579628ce5ec17bbf4",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我们提供制造业数字化解决方案，涵盖 ERP(企业资源计划)。了解中国芯片设计企业案例中的委外管理挑战。",
+            "counter": "10 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/10-rmk-bright-3.png",
+              "width": 640
+            },
+            "native": "聚焦委外管理",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 10,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-10.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-10.jpg",
+            "sha256": "bf4045426b8b11ae8546bd1de5365011aee2df44c2c238ee6530682d78095fa3",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "card_id": "RMK-BRIGHT-4",
+      "position": 11,
+      "exact_approved_fields": {
+        "headline": "阅读芯片设计案例",
+        "body": "了解这份中国企业案例中的业务挑战与一体化数字化解决方案背景。",
+        "source_text": "Digiwin 越南 · digiwin.com.vn\n半导体案例04\n上海晶丰明源半导体股份有限公司",
+        "cta": "阅读中国案例",
+        "artwork_labels": [
+          "芯片设计案例",
+          "4/4"
+        ],
+        "caption": "我们提供制造业数字化解决方案，涵盖 ERP(企业资源计划)。了解中国芯片设计企业案例中的委外管理挑战。",
+        "native_headline": "阅读芯片设计案例",
+        "alt": "示意图：阅读芯片设计案例"
+      },
+      "native": {
+        "card_id": "RMK-BRIGHT-4",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/11-rmk-bright-4.png",
+        "sha256": "f33c43ada9eabbeb728547fd1d0fa4807a8f0c31cb36d6a6dcedeba80d093e77",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/rmk-bright-4/native/rmk-bright-4-zh-Hans-v1.png",
+        "transformation": false
+      },
+      "actual_native_observation": "Native SELF_REVIEW: exact Hans China-case reading invitation and integrated-solution context, full named source/domain/case04, CTA and 4/4; logo once, blank papers and chip display folio, source separate full-width white paragraph; no result or Vietnam deployment. Render pending.",
+      "message_observation": "Source-reading next step, China integrated-solution context. Exact 4/4, complete publisher/domain/case04/legal name and reading CTA. Localized reader points to the same official original source; no new product/result scope.",
+      "artwork_text": "Exact approved glyphs/punctuation/category/sequence reviewed in actual native and feed/main pixels. Empty source/CTA fields have no printed substitute; caption/native/alt remain contextual surfaces.",
+      "surfaces": [
+        {
+          "mode": "feed",
+          "actual_dom": {
+            "caption": "我们提供制造业数字化解决方案，涵盖 ERP(企业资源计划)。了解中国芯片设计企业案例中的委外管理挑战。",
+            "counter": "11 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 333,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/11-rmk-bright-4.png",
+              "width": 333
+            },
+            "native": "阅读芯片设计案例",
+            "overflow": false,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 11,
+            "mode": "feed",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-11.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/feed-11.jpg",
+            "sha256": "a4612d138da4f9b8a918a9267836beca2d6fa3367479a0cc102a2d0a7cbb4d01",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        },
+        {
+          "mode": "desktop",
+          "actual_dom": {
+            "caption": "我们提供制造业数字化解决方案，涵盖 ERP(企业资源计划)。了解中国芯片设计企业案例中的委外管理挑战。",
+            "counter": "11 / 11",
+            "dpr": 1.125,
+            "image": {
+              "height": 640,
+              "loaded": true,
+              "naturalHeight": 1254,
+              "naturalWidth": 1254,
+              "rect": {
+                "bottom": 728.2777786254883,
+                "height": 640,
+                "left": 393.77777099609375,
+                "right": 1033.7777709960938,
+                "top": 88.27777862548828,
+                "width": 640,
+                "x": 393.77777099609375,
+                "y": 88.27777862548828
+              },
+              "src": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/11-rmk-bright-4.png",
+              "width": 640
+            },
+            "native": "阅读芯片设计案例",
+            "overflow": false,
+            "scrollY": 181.3333282470703,
+            "url": "http://127.0.0.1:8765/deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/index.html?mode=feed",
+            "viewport": [
+              1707,
+              817
+            ],
+            "batch": "B14",
+            "card": 11,
+            "mode": "desktop",
+            "screenshot": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-11.jpg"
+          },
+          "screenshot": {
+            "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/desktop-11.jpg",
+            "sha256": "ec51f82d7d4235223f2f091304569aeca91b1a00e351566372482f9822369bed",
+            "revision": "actual-byte-artifact-2026-10-07"
+          },
+          "observation": "Root actual pixels: approved text, complete attribution where supplied, category/counter, source hierarchy, logo and props legible with no mandatory correction in this observed surface.",
+          "byte_binding": "Actual selected artifact captured."
+        }
+      ],
+      "mobile": "INSUFFICIENT_EVIDENCE: full current mobile artwork plus caption/native context not visually certified.",
+      "scoped_review": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN",
+      "full_render_verdict": "INSUFFICIENT_EVIDENCE"
+    }
+  ],
+  "transition_reviews": [
+    {
+      "from_card": "COLD-FABLESS-B14",
+      "to_card": "F1-A1",
+      "actual_observation": "Next-decision hook -> partner-report stage question for the same Operations/SCM role.",
+      "exact_headline_pair": [
+        "委外生产，下一步怎么决策？",
+        "合作伙伴报告，批次情况清楚吗？"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    },
+    {
+      "from_card": "F1-A1",
+      "to_card": "F1-A2",
+      "actual_observation": "Report clarification -> matching product/lot and partner conventions before comparison.",
+      "exact_headline_pair": [
+        "合作伙伴报告，批次情况清楚吗？",
+        "先核对产品与批次。"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    },
+    {
+      "from_card": "F1-A2",
+      "to_card": "F1-A3",
+      "actual_observation": "Identifiers/conventions -> distinguish stage, recorded-time and report source.",
+      "exact_headline_pair": [
+        "先核对产品与批次。",
+        "这份报告对应哪道工序？"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    },
+    {
+      "from_card": "F1-A3",
+      "to_card": "F1-A4",
+      "actual_observation": "Stage/time/source -> confirm responsibility for maintaining shared updates.",
+      "exact_headline_pair": [
+        "这份报告对应哪道工序？",
+        "共享信息由谁更新？"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    },
+    {
+      "from_card": "F1-A4",
+      "to_card": "F1-A5",
+      "actual_observation": "Accountable updates -> common basis for the next decision; Taiwan source remains contextual.",
+      "exact_headline_pair": [
+        "共享信息由谁更新？",
+        "让下一步决策有共同依据。"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    },
+    {
+      "from_card": "F1-A5",
+      "to_card": "F1-A6",
+      "actual_observation": "Common decision basis -> prospective Vietnam ERP consulting/implementation discussion.",
+      "exact_headline_pair": [
+        "让下一步决策有共同依据。",
+        "越南本地咨询与实施"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    },
+    {
+      "from_card": "F1-A6",
+      "to_card": "RMK-BRIGHT-1",
+      "actual_observation": "Local Vietnam service -> general supplier introduction; China customer not attributed to Vietnam team.",
+      "exact_headline_pair": [
+        "越南本地咨询与实施",
+        "制造业数字化解决方案"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    },
+    {
+      "from_card": "RMK-BRIGHT-1",
+      "to_card": "RMK-BRIGHT-2",
+      "actual_observation": "Supplier role -> explicitly named China chip-design customer case.",
+      "exact_headline_pair": [
+        "制造业数字化解决方案",
+        "来自中国的芯片设计案例"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    },
+    {
+      "from_card": "RMK-BRIGHT-2",
+      "to_card": "RMK-BRIGHT-3",
+      "actual_observation": "China identity -> qualitative outsourcing-management challenge and integrated-solution context.",
+      "exact_headline_pair": [
+        "来自中国的芯片设计案例",
+        "聚焦委外管理"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    },
+    {
+      "from_card": "RMK-BRIGHT-3",
+      "to_card": "RMK-BRIGHT-4",
+      "actual_observation": "Qualitative China context -> reading CTA -> same localized China source reader.",
+      "exact_headline_pair": [
+        "聚焦委外管理",
+        "阅读芯片设计案例"
+      ],
+      "disposition": "MATCH_IN_OBSERVED_NATIVE_FEED_MAIN_AND_DESKTOP_READER_SCOPE"
+    }
+  ],
+  "reader": {
+    "actual_desktop": "Actual localized reader content and source disclosure observed in pixels; full substantive sections, official original link and return route verified. China company, qualitative outsourcing challenge and integrated-solution scope agree with selected proof cards.",
+    "desktop_measure": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/reader-measure.json",
+      "sha256": "b39cf82719ca3aebb14e6fea47ed739b0029c145773b2329a64f7880778ba93a",
+      "revision": "actual-byte-artifact-2026-10-07"
+    },
+    "desktop_pixels": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/evidence/reader-desktop-top.jpg",
+      "sha256": "8ad9f7779c6e1de7593885b34a34612a409b122504f8035ff806453d11f93f53",
+      "revision": "actual-byte-artifact-2026-10-07"
+    },
+    "return_route": "CLICKED_AND_OBSERVED_OWN_INDEX_URL",
+    "mobile": "Full mobile reader pixels missing; INSUFFICIENT_EVIDENCE."
+  },
+  "proof_scope": "Official China case04 qualitative challenge/integrated-solution background, exact legal name. Vietnam team consulting/implementation is separately sourced prospective service discussion. No metrics, headcount, teamwide languages, customer testimonial/logo/facility, ERP-only causal result, exact F1 functionality proof or Vietnam Fabless deployment.",
+  "locale_review": "Hans business terms directly authored; no inherited English wording. Exact legal name/source and advertiser first-person voice reviewed.",
+  "visual_review": "Bright neutral B13v5 campaign family, official mark once, grounded material depth. Approved source paragraphs full-width/high-contrast on white, at least body-sized where required. Selected paper blank; new outputs do not inherit B13 generic-rule-line preservation exception. No fabricated record values/charts/technical UI/customer geography decoration.",
+  "findings": [
+    {
+      "card_id": "F1-A5",
+      "original_sha256": "a9e0e5b6eb0a5910fe63a6d6c27625a28f389fec5fa8e8e13eab7b192ddefc14",
+      "original_finding": "UNLABELLED_PAPER_RULES",
+      "original_verdict": "CHANGES_REQUIRED",
+      "disposition": "CLOSED_IN_SELECTED_NATIVE_FEED_MAIN_SELF_REVIEW",
+      "corrective_call": "B14_F1_A5_C1",
+      "corrected_sha256": "56828e5b96186a7dd52879a7f5b2e79c7edc03ec06c355beaa5422bdfa438a89",
+      "original_retained": true,
+      "scope": "Blank paper only"
+    },
+    {
+      "card_id": "RMK-BRIGHT-2",
+      "original_sha256": "b206ccc516dba7860add6d5aec61e0e54d1d050e3f41b556f9c4afb6415ca87d",
+      "original_finding": "UNLABELLED_PAPER_RULES",
+      "original_verdict": "CHANGES_REQUIRED",
+      "disposition": "CLOSED_IN_SELECTED_NATIVE_FEED_MAIN_SELF_REVIEW",
+      "corrective_call": "B14_RMK_BRIGHT_2_C1",
+      "corrected_sha256": "9b61b2bb537c92ace379e8f212ae4725b7e2ad03c9aee479d9b8ff88671089ce",
+      "original_retained": true,
+      "scope": "Blank paper only"
+    }
+  ],
+  "unresolved_creative_findings": [],
+  "verdicts": {
+    "MSG_ANCHOR_01": "INSUFFICIENT_EVIDENCE_FULL_MOBILE_JOURNEY",
+    "AD_ED_01": "INSUFFICIENT_EVIDENCE_FULL_MOBILE_SET",
+    "observed_semantic_alignment": "PASS_SELF_REVIEW_NATIVE_FEED_MAIN_DESKTOP_READER",
+    "whole_journey": "NOT_READY_NOT_ACCEPTED",
+    "independent_native_market": "NOT_RUN"
+  },
+  "technical": {
+    "feed": "All11 actual selected PNGs observed at333CSSpx with caption/native wording.",
+    "main": "All11 actual selected PNGs observed at640CSSpx with complete artwork; B15v2 new corrected card freshly captured, ten byte-identical source-localized PNGs rebound to prior actual v1 pixels.",
+    "mobile": "Partial context/DOM only. Full eleven-card plus reader mobile scope and CSS-to-raster precision remain insufficient. No generated artwork correction required solely for capture gap.",
+    "capture_limits": [
+      "B14 cold fullPage screenshot timed out; bounded viewport/#art auto-scroll gave main evidence.",
+      "B14 mobile team capture timed out after settled DOM.",
+      "B15 viewport reset left old tab at390CSS; three initial captures classified mobile-context, then fresh default tab supplied actual333/640 evidence.",
+      "B15v2 mobile raw capture414x937 differs from DOM390x844; mapping unverified. No exact390 pixel certification."
+    ],
+    "browser": "Own atomic browser-lock intervals only; Partner-owned lock respected; own tabs closed, viewport override reset, owned preview servers stopped and lock released."
+  },
+  "counts": {
+    "original": 11,
+    "corrective": 2,
+    "actual_calls": 13,
+    "selected": 11,
+    "cross_locale_png_reuse": 0,
+    "selected_native_dimensions": [
+      1254,
+      1254
+    ],
+    "transformations": 0,
+    "original_cap": 11,
+    "corrective_cap": 2,
+    "per_card_corrective_cap": 1
+  },
+  "freeze": "24/24 pinned bytes unchanged. Harness/guard/process FROZEN_PER_PO; locale adapter DEVELOPING/NOT_FROZEN.",
+  "docs_review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-B15-docs-reviewed.json",
+    "sha256": "8c6746e56fd485405a27dabbd5d26995ee02a27a0b1faf5bcca7a5070e281a60",
+    "revision": "b14-b15-current-canonical-review-v1"
+  },
+  "git": "B14/B15 working files only, uncommitted and unstaged in owned worktree. Previous B13 local checkpoint e3b6578 unchanged. No main integration/push/live.",
+  "stop": "B16-B21 NOT_RUN; end the authorized two-batch generation. Historical B13/canary/original findings retained."
+}

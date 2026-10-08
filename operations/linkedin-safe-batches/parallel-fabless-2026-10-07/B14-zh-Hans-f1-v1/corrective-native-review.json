@@ -1,0 +1,27 @@
+{
+  "revision": "b14-actual-blank-paper-corrective-review-v1",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "scope": "BLANK_PAPER_ONLY",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "anchor_verdict": "MESSAGE_ANCHOR_PASS",
+  "actual_review": "Root inspected both generated native PNGs and exact approved localized fields, source paragraphs, captions, category/counters, concepts and full journey. Both original outputs have unlabelled lines on paper despite explicit blank-paper script. No numerical data or customer evidence present. New localized output does not inherit the scoped B13 visual-preservation exception. Authorized one edit per card, max two, under this batch mandate. Edit changes only paper texture; every text, source scope, provider voice and operational meaning stays unchanged.",
+  "cards": [
+    {
+      "card_id": "F1-A5",
+      "original_sha256": "a9e0e5b6eb0a5910fe63a6d6c27625a28f389fec5fa8e8e13eab7b192ddefc14",
+      "finding": "UNLABELLED_PAPER_RULES",
+      "review": "PASS",
+      "observation": "Preserve 让下一步决策有共同依据。 and exact lot/stage/report-time/update-responsibility body, Taiwan ERP/MES contextual source, CTA, category and 5/6. Erase pale rules on left clipped sheets and foreground page; natural white paper and shadows only. No semantic copy change; MES remains separate production context, no promised feature/results. Source and acronym definition preserved."
+    },
+    {
+      "card_id": "RMK-BRIGHT-2",
+      "original_sha256": "b206ccc516dba7860add6d5aec61e0e54d1d050e3f41b556f9c4afb6415ca87d",
+      "finding": "UNLABELLED_PAPER_RULES",
+      "review": "PASS",
+      "observation": "Preserve 来自中国的芯片设计案例 and exact China chip-design company/context body, Digiwin Vietnam case-collection source and 上海晶丰明源半导体股份有限公司, category and 2/4. Erase form bars/rules on open left folio and foreground sheets. Original China qualitative scope remains distinct from prospective Vietnam consulting/implementation; no customer result, facility or geographic proof."
+    }
+  ],
+  "postgen": "POSTGEN_NOT_RUN_FOR_CORRECTIVES",
+  "full_journey": "Cold -> six operational explanation cards including Vietnam team -> provider introduction -> named China qualitative case -> reader. Actual root recheck: removing unlabelled paper marks changes no transition, evidence or claim. Existing script/anchor findings remain resolved; rendered capture gaps stay separate."
+}

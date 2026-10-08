@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "revision": "b13-proof-campaign-release-v1",
+  "authorizer": "/root coordinator recording Bao B13 authority",
+  "authority_ref": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/generation-mandate.json",
+    "sha256": "2d801b7aced544cffade447e4fe3ad79a5a3163e5d8ff2105871b78fca2081a6",
+    "revision": "b13-bao-mandate-v1"
+  },
+  "purpose": "OFFLINE_IMAGEGEN",
+  "contract": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/release-v2/campaign/contract.json",
+    "sha256": "6e53ebc9407bb6c28e4943acef60e82e8f63a25663718ca8c7afde5a177fa7c5",
+    "revision": "b13-proof-campaign-contract-v2"
+  },
+  "copy": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/public-copy.json",
+    "sha256": "58ea1bb1131d18686ad273ef7fa14bb987fd4bdf3892ed266b39597a67b94ddc",
+    "revision": "b13-proof-en-copy-v1"
+  },
+  "review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/release-v2/campaign/review.json",
+    "sha256": "8d8439ea4bb4eb5c51c95b15d11d4435c5b2a92f1821c183d111189fa1b9417a",
+    "revision": "b13-proof-campaign-review-v1"
+  },
+  "groups": [
+    [
+      "RMK-BRIGHT-1"
+    ],
+    [
+      "RMK-BRIGHT-2"
+    ],
+    [
+      "RMK-BRIGHT-3"
+    ]
+  ]
+}

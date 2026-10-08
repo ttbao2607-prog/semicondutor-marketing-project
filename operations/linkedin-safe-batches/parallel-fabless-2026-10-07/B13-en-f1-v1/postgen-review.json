@@ -1,0 +1,555 @@
+{
+  "revision": "b13-postgen-review-v1",
+  "stage": "POSTGEN_ARTIFACT",
+  "batch": "B13",
+  "status": "PARTIAL_HOLD_CHANGES_REQUIRED",
+  "reviewer": "/root current Fabless session",
+  "independence": "SELF_REVIEW",
+  "anchor": {
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "original_email": {
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+    }
+  },
+  "scope": {
+    "segment": "FDI",
+    "locale": "en",
+    "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+    "route": "offline English cold -> F1 outsourced-lot reporting -> qualitative China Bright Power integrated-solution case -> English case reader",
+    "branch": "slice/linkedin-safe-fabless-parallel"
+  },
+  "binding": {
+    "manifest": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/manifest.json",
+      "sha256": "38078238b7846550f39b1fdacc980e6c50f3c44ddf694efac39328745e445966"
+    },
+    "copy": {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/selected-copy.json",
+      "sha256": "94049441cd08a3b933a9957b3acc9eb158fda9dcbbc980c496904f1bd48d4752"
+    },
+    "reader_script": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/reader-script.json",
+      "sha256": "ae60dc4386d512a52efa95af02a6b301d7903b3e40af1daf126fee2a2e025715"
+    },
+    "viewer_sha256": "d208539d32631eb00cab21fd9c85403b84bbf0d8cd06b1a5ce0398d9ac131f16",
+    "reader_sha256": "3fea87b86c26a74085172d358b95957e07bb7a6d8c435180f58828c4b322eac3",
+    "artwork": [
+      {
+        "card_id": "COLD-FABLESS-B13",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/assets/01-cold-fabless-b13.png",
+        "sha256": "b89e0ec2d9005d4c8b7b9efe439404869370547485f4ab4f1c45c20f537ea819",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/corrective-v1/cold-fabless-b13/native/cold-fabless-b13-b13-en-v1_corrective1.png",
+        "selected_corrective": true
+      },
+      {
+        "card_id": "F1-A1",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/assets/02-f1-a1.png",
+        "sha256": "c0b1c3b95c65ad77c6021ffe55b60253360c8507c48e1be6d6bf86323e3030cf",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v3/campaign/native/f1-a1-b13-en-v1.png",
+        "selected_corrective": false
+      },
+      {
+        "card_id": "F1-A2",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/assets/03-f1-a2.png",
+        "sha256": "90965f674a46dbdc920dfd9c8f3e8f36286ff05d8fc04a5cbcd7fb1263c7147c",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v3/campaign/native/f1-a2-b13-en-v1.png",
+        "selected_corrective": false
+      },
+      {
+        "card_id": "F1-A3",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/assets/04-f1-a3.png",
+        "sha256": "b0231ac6ef26c8d66601f25dc08951ee4996e99433d2c8a2163ea729f14f16d3",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v3/campaign/native/f1-a3-b13-en-v1.png",
+        "selected_corrective": false
+      },
+      {
+        "card_id": "F1-A4",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/assets/05-f1-a4.png",
+        "sha256": "c99fe5182e47c39070c6b97873b9b6a75145f794b82e4bc67d18b836c4ef218a",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v3/campaign/native/f1-a4-b13-en-v1.png",
+        "selected_corrective": false
+      },
+      {
+        "card_id": "F1-A5",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/assets/06-f1-a5.png",
+        "sha256": "3c37ec0aa75bb6d668516798d3274d885268707c8dd46a46da15bafc4eba13c0",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/explanation/release-v2/closing/native/f1-a5-b13-en-v1.png",
+        "selected_corrective": false
+      },
+      {
+        "card_id": "RMK-BRIGHT-1",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/assets/07-rmk-bright-1.png",
+        "sha256": "d8eccbca888dbe53bc8d6a23d2f9eef11ea7587980283641f1df791e091b817f",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/release-v3/campaign/native/rmk-bright-1-b13-en-v1.png",
+        "selected_corrective": false
+      },
+      {
+        "card_id": "RMK-BRIGHT-2",
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/assets/08-rmk-bright-2.png",
+        "sha256": "34d81860021a6df4f955630407610cf22343c9e4ca64b5ee2fbe612e388fa345",
+        "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/corrective-v1/rmk-bright-2/native/rmk-bright-2-b13-en-v1_corrective1.png",
+        "selected_corrective": true
+      }
+    ],
+    "evidence": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/evidence/canary-mobile390.png",
+        "sha256": "8dce7143283df9cf94b7fd7d4accc61490cc9aac4a6a8871714916e9eff13e5e"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/evidence/fabless-b13-browser-readbacks.json",
+        "sha256": "8adfba1a50c4514fc8915e57ca8c5be67a79bf7bc33cdcf19d9656341ba414b1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/evidence/fabless-b13-canary390.png",
+        "sha256": "8dce7143283df9cf94b7fd7d4accc61490cc9aac4a6a8871714916e9eff13e5e"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/evidence/fabless-b13-desktop-1.png",
+        "sha256": "36be1a07addbc2a06a7364bae0120824b8f7881714d3aa9e303089baa97feddd"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/evidence/fabless-b13-feed-all8.png",
+        "sha256": "05bcf9c015e1624d5a27b3a1996765d3f4a30d42d838119b0c3df091e666a44c"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/evidence/fabless-b13-mobile-all8.png",
+        "sha256": "c910dc73b07bd7dd9264f5f27fdaa02d900043aff4e222fb6a8a8d5aae7792a4"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/evidence/fabless-b13-reader-desktop.png",
+        "sha256": "aba5ea5c41a357a14278ac9ab2a9d28c9befda4a10f9de6dd3ab4061325d5644"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/evidence/fabless-b13-reader-mobile.png",
+        "sha256": "d2933ac8e1cca5d595b6603a0f3414290a236e6030759a2e111cd2daef229eab"
+      }
+    ]
+  },
+  "A1_A7": {
+    "A1": "Chip-design entity with commercial outsourced production; narrowly relevant semiconductor chain operating situation. Not every design office or generic manufacturer, and not assumed Vietnam target-account fit.",
+    "A2": "Operations/SCM influences business-system evaluation at eligible entity; authority and existing group system remain unknown. No assertion a specific China customer or FDI Vietnam company can independently buy local ERP. Internal intake records hypotheses and process/existing-system alternatives.",
+    "A3": "FDI English commercial Fabless Operations/SCM; international English questions and accountable next steps, not VN supply-chain-entry promise. Fabless definition supplied in explanation caption; no WIP/OSAT acronym used without definition.",
+    "A4": "Implicit business value is a shared basis for the next production decision and accountable update ownership. Cold pain->report conventions->stage/time/source->ownership->next decision. No ROI%, yield, cost saving, forecast outcome or promised automatic synchronization.",
+    "A5": "N/A: FDI lane only, no domestic supplier-entry claim.",
+    "A6": "Concrete lot/product reference, production periods/test classifications, stage/time/report source and update owner. Questions/process conventions, not unverified product functionality. Taiwan source states ERP/MES context separately. Illustrative chip/wafer carrier is not a fabricated chip layout or owned fab.",
+    "A7": "Same Operations/SCM reader across cold->F1 reports->shared decision basis->digital provider->named China chip-design case->outsourcing-management pain/integrated solution->English reader/return. Bright qualitative outsourcing pain supplies a related business context, not evidence of the exact F1 lot-report mechanism or ERP-only causality. Nine adjacent transitions reviewed in order. CTA reads case, no form/live submission."
+  },
+  "unit_reviews": [
+    {
+      "card_id": "COLD-FABLESS-B13",
+      "generated": true,
+      "fields": {
+        "caption": "We provide manufacturing ERP solutions. Chip-design operations teams using outsourced production: align partner reports before the next decision.",
+        "headline": "Outsourced production. Your next decision.",
+        "body": "Align the lot, stage and report time before the next handoff.",
+        "artwork_labels": [
+          "OUTSOURCED CHIP OPERATIONS",
+          "ERP for manufacturing"
+        ],
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Outsourced production. Your next decision.",
+        "alt": "Illustration: Outsourced production. Your next decision."
+      },
+      "message_observation": "MATCH: next-decision responsibility, illustrative partner report scene; no owned fab/UI. Category/ERP role both functional.",
+      "native": "ACTUAL_SELF_REVIEW",
+      "feed": "ACTUAL_333PX_SELF_REVIEW",
+      "mobile": "ACTUAL_390X844_IMAGE319_56PX_SELF_REVIEW",
+      "brand_roles": {
+        "official_logo_count": 1,
+        "extra_brand_header": 0,
+        "source_exact": "",
+        "source_role": "No publisher text needed on this unit"
+      },
+      "advertiser_voice": "Direct We provide in caption; customer case remains third person; source name is publisher attribution",
+      "disposition": "SCOPED_MATCH_NO_FULL_RENDER_PASS"
+    },
+    {
+      "card_id": "F1-A1",
+      "generated": true,
+      "fields": {
+        "caption": "We provide manufacturing ERP solutions. Fabless (chip design without an owned fabrication plant) operations teams: align lot reports and responsibilities across production partners.",
+        "headline": "Partner reports. A clear view of each lot?",
+        "body": "Before planning the next step, check which process stage each partner report describes.",
+        "artwork_labels": [
+          "ERP · CHIP OPERATIONS",
+          "1/5"
+        ],
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Partner reports. A clear view of each lot?",
+        "alt": "Illustration: Partner reports. A clear view of each lot?"
+      },
+      "message_observation": "MATCH: stage described by partner report; no assumption reports wrong or broken ERP.",
+      "native": "ACTUAL_SELF_REVIEW",
+      "feed": "ACTUAL_333PX_SELF_REVIEW",
+      "mobile": "ACTUAL_390X844_IMAGE319_56PX_SELF_REVIEW",
+      "brand_roles": {
+        "official_logo_count": 1,
+        "extra_brand_header": 0,
+        "source_exact": "",
+        "source_role": "No publisher text needed on this unit"
+      },
+      "advertiser_voice": "Direct We provide in caption; customer case remains third person; source name is publisher attribution",
+      "disposition": "SCOPED_MATCH_NO_FULL_RENDER_PASS"
+    },
+    {
+      "card_id": "F1-A2",
+      "generated": true,
+      "fields": {
+        "caption": "We provide manufacturing ERP solutions. Fabless (chip design without an owned fabrication plant) operations teams: align lot reports and responsibilities across production partners.",
+        "headline": "Start with the product and lot.",
+        "body": "Check the product and lot references. Agree how each partner identifies production periods and test classifications.",
+        "artwork_labels": [
+          "ERP · CHIP OPERATIONS",
+          "2/5"
+        ],
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Start with the product and lot.",
+        "alt": "Illustration: Start with the product and lot."
+      },
+      "message_observation": "MATCH: product/lot references and agreed period/test classification conventions; no fabricated Datecode/BIN algorithm.",
+      "native": "ACTUAL_SELF_REVIEW",
+      "feed": "ACTUAL_333PX_SELF_REVIEW",
+      "mobile": "ACTUAL_390X844_IMAGE319_56PX_SELF_REVIEW",
+      "brand_roles": {
+        "official_logo_count": 1,
+        "extra_brand_header": 0,
+        "source_exact": "",
+        "source_role": "No publisher text needed on this unit"
+      },
+      "advertiser_voice": "Direct We provide in caption; customer case remains third person; source name is publisher attribution",
+      "disposition": "SCOPED_MATCH_NO_FULL_RENDER_PASS"
+    },
+    {
+      "card_id": "F1-A3",
+      "generated": true,
+      "fields": {
+        "caption": "We provide manufacturing ERP solutions. Fabless (chip design without an owned fabrication plant) operations teams: align lot reports and responsibilities across production partners.",
+        "headline": "Which stage does this report describe?",
+        "body": "Identify the process stage, when the status was recorded and which partner report supports it.",
+        "artwork_labels": [
+          "ERP · CHIP OPERATIONS",
+          "3/5"
+        ],
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Which stage does this report describe?",
+        "alt": "Illustration: Which stage does this report describe?"
+      },
+      "message_observation": "MATCH: stage/time/source questions; neutral unlabelled stage nodes and blank report, no asserted progress.",
+      "native": "ACTUAL_SELF_REVIEW",
+      "feed": "ACTUAL_333PX_SELF_REVIEW",
+      "mobile": "ACTUAL_390X844_IMAGE319_56PX_SELF_REVIEW",
+      "brand_roles": {
+        "official_logo_count": 1,
+        "extra_brand_header": 0,
+        "source_exact": "",
+        "source_role": "No publisher text needed on this unit"
+      },
+      "advertiser_voice": "Direct We provide in caption; customer case remains third person; source name is publisher attribution",
+      "disposition": "SCOPED_MATCH_NO_FULL_RENDER_PASS"
+    },
+    {
+      "card_id": "F1-A4",
+      "generated": true,
+      "fields": {
+        "caption": "We provide manufacturing ERP solutions. Fabless (chip design without an owned fabrication plant) operations teams: align lot reports and responsibilities across production partners.",
+        "headline": "Who keeps the shared view current?",
+        "body": "Agree the report format, exchange schedule and owner who confirms each production update.",
+        "artwork_labels": [
+          "ERP · CHIP OPERATIONS",
+          "4/5"
+        ],
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Who keeps the shared view current?",
+        "alt": "Illustration: Who keeps the shared view current?"
+      },
+      "message_observation": "MATCH: format/schedule/update owner; open responsibility, no automatic integration.",
+      "native": "ACTUAL_SELF_REVIEW",
+      "feed": "ACTUAL_333PX_SELF_REVIEW",
+      "mobile": "ACTUAL_390X844_IMAGE319_56PX_SELF_REVIEW",
+      "brand_roles": {
+        "official_logo_count": 1,
+        "extra_brand_header": 0,
+        "source_exact": "",
+        "source_role": "No publisher text needed on this unit"
+      },
+      "advertiser_voice": "Direct We provide in caption; customer case remains third person; source name is publisher attribution",
+      "disposition": "SCOPED_MATCH_NO_FULL_RENDER_PASS"
+    },
+    {
+      "card_id": "F1-A5",
+      "generated": true,
+      "fields": {
+        "caption": "We provide manufacturing ERP solutions. Fabless (chip design without an owned fabrication plant) operations teams: align lot reports and responsibilities across production partners.",
+        "headline": "Give the next decision a shared basis.",
+        "body": "Bring lot, stage, report time and update ownership into the same discussion.",
+        "artwork_labels": [
+          "ERP · CHIP OPERATIONS",
+          "5/5"
+        ],
+        "source_text": "Digiwin Taiwan semiconductor solution material:\nERP and MES for management and production.",
+        "cta": "Explore outsourced-production questions",
+        "native_headline": "Give the next decision a shared basis.",
+        "alt": "Illustration: Give the next decision a shared basis."
+      },
+      "message_observation": "MATCH: shared discussion basis, source Taiwan ERP/MES context with separate source and CTA; no implementation result.",
+      "native": "ACTUAL_SELF_REVIEW",
+      "feed": "ACTUAL_333PX_SELF_REVIEW",
+      "mobile": "ACTUAL_390X844_IMAGE319_56PX_SELF_REVIEW",
+      "brand_roles": {
+        "official_logo_count": 1,
+        "extra_brand_header": 0,
+        "source_exact": "Digiwin Taiwan semiconductor solution material:\nERP and MES for management and production.",
+        "source_role": "Publisher attribution; retain"
+      },
+      "advertiser_voice": "Direct We provide in caption; customer case remains third person; source name is publisher attribution",
+      "disposition": "SCOPED_MATCH_NO_FULL_RENDER_PASS"
+    },
+    {
+      "card_id": "RMK-BRIGHT-1",
+      "generated": true,
+      "fields": {
+        "caption": "We provide digital solutions for manufacturing. Explore outsourcing-management challenges in a named chip-design case from China.",
+        "headline": "Digital solutions for manufacturing",
+        "body": "We develop and provide digital solutions for manufacturing, from ERP to smart manufacturing.",
+        "artwork_labels": [
+          "CHIP-DESIGN CASE",
+          "1/4"
+        ],
+        "source_text": "Digiwin Vietnam · Company introduction",
+        "cta": "",
+        "native_headline": "Digital solutions for manufacturing",
+        "alt": "Illustration: Digital solutions for manufacturing"
+      },
+      "message_observation": "MATCH: provider role PR10 only, first person. No deployment/count/capability expansion.",
+      "native": "ACTUAL_SELF_REVIEW",
+      "feed": "ACTUAL_333PX_SELF_REVIEW",
+      "mobile": "ACTUAL_390X844_IMAGE319_56PX_SELF_REVIEW",
+      "brand_roles": {
+        "official_logo_count": 1,
+        "extra_brand_header": 0,
+        "source_exact": "Digiwin Vietnam · Company introduction",
+        "source_role": "Publisher attribution; retain"
+      },
+      "advertiser_voice": "Direct We provide in caption; customer case remains third person; source name is publisher attribution",
+      "disposition": "CHANGES_REQUIRED_SOURCE_HIERARCHY"
+    },
+    {
+      "card_id": "RMK-BRIGHT-2",
+      "generated": true,
+      "fields": {
+        "caption": "We provide digital solutions for manufacturing. Explore outsourcing-management challenges in a named chip-design case from China.",
+        "headline": "A chip-design case from China",
+        "body": "Bright Power is a chip-design business in China. Explore its digital-solution implementation context.",
+        "artwork_labels": [
+          "CHIP-DESIGN CASE",
+          "2/4"
+        ],
+        "source_text": "Digiwin Vietnam · Semiconductor case collection\n上海晶丰明源半导体股份有限公司",
+        "cta": "",
+        "native_headline": "A chip-design case from China",
+        "alt": "Illustration: A chip-design case from China"
+      },
+      "message_observation": "MATCH: China chip-design identity, full legal name in publisher source; no customer mark/facility.",
+      "native": "ACTUAL_SELF_REVIEW",
+      "feed": "ACTUAL_333PX_SELF_REVIEW",
+      "mobile": "ACTUAL_390X844_IMAGE319_56PX_SELF_REVIEW",
+      "brand_roles": {
+        "official_logo_count": 1,
+        "extra_brand_header": 0,
+        "source_exact": "Digiwin Vietnam · Semiconductor case collection\n上海晶丰明源半导体股份有限公司",
+        "source_role": "Publisher attribution; retain"
+      },
+      "advertiser_voice": "Direct We provide in caption; customer case remains third person; source name is publisher attribution",
+      "disposition": "SCOPED_MATCH_NO_FULL_RENDER_PASS"
+    },
+    {
+      "card_id": "RMK-BRIGHT-3",
+      "generated": false,
+      "fields": {
+        "caption": "We provide digital solutions for manufacturing. Explore outsourcing-management challenges in a named chip-design case from China.",
+        "headline": "Outsourcing management in focus",
+        "body": "The case identifies inefficient outsourcing management among its challenges and describes an integrated digital solution.",
+        "artwork_labels": [
+          "CHIP-DESIGN CASE",
+          "3/4"
+        ],
+        "source_text": "Digiwin Vietnam · China case04\n上海晶丰明源半导体股份有限公司",
+        "cta": "",
+        "native_headline": "Outsourcing management in focus",
+        "alt": "Illustration: Outsourcing management in focus"
+      },
+      "message_observation": "MATCH: qualitative outsourcing-management pain/integrated solution from case04; no metric or F1 mechanism causality.",
+      "native": "NOT_GENERATED",
+      "feed": "NOT_GENERATED",
+      "mobile": "NOT_GENERATED",
+      "brand_roles": {
+        "official_logo_count": null,
+        "extra_brand_header": null,
+        "source_exact": "Digiwin Vietnam · China case04\n上海晶丰明源半导体股份有限公司",
+        "source_role": "Publisher attribution; retain"
+      },
+      "advertiser_voice": "Direct We provide in caption; customer case remains third person; source name is publisher attribution",
+      "disposition": "INSUFFICIENT_EVIDENCE_NOT_GENERATED"
+    },
+    {
+      "card_id": "RMK-BRIGHT-4",
+      "generated": false,
+      "fields": {
+        "caption": "We provide digital solutions for manufacturing. Explore outsourcing-management challenges in a named chip-design case from China.",
+        "headline": "Read the chip-design case",
+        "body": "Explore the business challenges and integrated digital-solution context in the named China case.",
+        "artwork_labels": [
+          "CHIP-DESIGN CASE",
+          "4/4"
+        ],
+        "source_text": "Digiwin Vietnam · digiwin.com.vn\nSemiconductor case04\n上海晶丰明源半导体股份有限公司",
+        "cta": "Read the China case",
+        "native_headline": "Read the chip-design case",
+        "alt": "Illustration: Read the chip-design case"
+      },
+      "message_observation": "MATCH: attributed source-reading invitation; no acceptance or guarantee wording. Full legal name/source must remain comfortably readable after generation.",
+      "native": "NOT_GENERATED",
+      "feed": "NOT_GENERATED",
+      "mobile": "NOT_GENERATED",
+      "brand_roles": {
+        "official_logo_count": null,
+        "extra_brand_header": null,
+        "source_exact": "Digiwin Vietnam · digiwin.com.vn\nSemiconductor case04\n上海晶丰明源半导体股份有限公司",
+        "source_role": "Publisher attribution; retain"
+      },
+      "advertiser_voice": "Direct We provide in caption; customer case remains third person; source name is publisher attribution",
+      "disposition": "INSUFFICIENT_EVIDENCE_NOT_GENERATED"
+    }
+  ],
+  "transitions": [
+    {
+      "from_card": "COLD-FABLESS-B13",
+      "to_card": "F1-A1",
+      "script": "ACTUAL_SELF_REVIEW",
+      "postgen": "SCOPED_NATIVE_FEED_MOBILE_MATCH"
+    },
+    {
+      "from_card": "F1-A1",
+      "to_card": "F1-A2",
+      "script": "ACTUAL_SELF_REVIEW",
+      "postgen": "SCOPED_NATIVE_FEED_MOBILE_MATCH"
+    },
+    {
+      "from_card": "F1-A2",
+      "to_card": "F1-A3",
+      "script": "ACTUAL_SELF_REVIEW",
+      "postgen": "SCOPED_NATIVE_FEED_MOBILE_MATCH"
+    },
+    {
+      "from_card": "F1-A3",
+      "to_card": "F1-A4",
+      "script": "ACTUAL_SELF_REVIEW",
+      "postgen": "SCOPED_NATIVE_FEED_MOBILE_MATCH"
+    },
+    {
+      "from_card": "F1-A4",
+      "to_card": "F1-A5",
+      "script": "ACTUAL_SELF_REVIEW",
+      "postgen": "SCOPED_NATIVE_FEED_MOBILE_MATCH"
+    },
+    {
+      "from_card": "F1-A5",
+      "to_card": "RMK-BRIGHT-1",
+      "script": "ACTUAL_SELF_REVIEW",
+      "postgen": "SCOPED_NATIVE_FEED_MOBILE_MATCH"
+    },
+    {
+      "from_card": "RMK-BRIGHT-1",
+      "to_card": "RMK-BRIGHT-2",
+      "script": "ACTUAL_SELF_REVIEW",
+      "postgen": "SCOPED_NATIVE_FEED_MOBILE_MATCH"
+    },
+    {
+      "from_card": "RMK-BRIGHT-2",
+      "to_card": "RMK-BRIGHT-3",
+      "script": "ACTUAL_SELF_REVIEW",
+      "postgen": "INSUFFICIENT_EVIDENCE_MISSING_ARTWORK"
+    },
+    {
+      "from_card": "RMK-BRIGHT-3",
+      "to_card": "RMK-BRIGHT-4",
+      "script": "ACTUAL_SELF_REVIEW",
+      "postgen": "INSUFFICIENT_EVIDENCE_MISSING_ARTWORK"
+    }
+  ],
+  "rendered": {
+    "feed": "All8 actual images + captions/native headlines visually inspected in static compact page at333CSSpx",
+    "mobile": "All8 actual images + captions/native headlines visually inspected, measured390x844 viewport and319.55557CSSpx artwork; no horizontal overflow",
+    "canary": "Actual390x844, artwork333px in separate canary; not substituted for all8 mobile evidence",
+    "main_desktop": "Cold screenshot observed, image638.222CSSpx; F1-A1 DOM loaded but screenshot timed out; remaining all8 main640 sequence INSUFFICIENT_EVIDENCE",
+    "reader": "Actual English reader desktop1707x817 and mobile390x844 screenshot review; no overflow; source URL inspected and return clicked; external source link not clicked in this postcheck",
+    "navigation": "Reader return -> card1 observed; Card9 -> Next -> Card10 observed with explicit NOT GENERATED state"
+  },
+  "findings": [
+    {
+      "id": "B13-SOURCE-1",
+      "card_id": "RMK-BRIGHT-1",
+      "exact": "Digiwin Vietnam · Company introduction",
+      "status": "OPEN_CHANGES_REQUIRED",
+      "effect": "Publisher provenance visibly smaller than body at native/feed/mobile",
+      "action": "Fresh layout review and corrective3 required; HOLD because cap2 already consumed",
+      "owner": "Fabless session; PO cap decision needed"
+    },
+    {
+      "id": "B13-PROOF-2",
+      "card_id": "RMK-BRIGHT-2",
+      "status": "CLOSED_SCOPED_NATIVE_FEED_MOBILE",
+      "closure": "Corrective1 enlarged publisher/legal-name block and removed unapproved skyline/icon divider; actual selected image and all8 captures reviewed"
+    },
+    {
+      "id": "B13-COLD-1",
+      "card_id": "COLD-FABLESS-B13",
+      "status": "CLOSED_SCOPED_NATIVE_FEED_MOBILE",
+      "closure": "Corrective1 restored OUTSOURCED CHIP OPERATIONS and removed small paper glyphs; actual selected image and all8 captures reviewed"
+    }
+  ],
+  "visual_fidelity_observations": [
+    "F1-A1 omitted neutral open paths; F1-A3 omitted stage nodes/open paths; F1-A4 omitted connection but owner token remains. These omissions do not assert a production result; PO visual disposition pending.",
+    "F1-A5 uses unlabelled document/chip/team panels instead of compact open-path platform. F1-A5 and Bright2 paper bands remain unlabelled decorative observations, no technical/quantified case data. No broad visual PASS."
+  ],
+  "proof_scope": "Narrow qualitative China outsourcing-management case bridge only. No claim exact F1 mechanism is documented, no ERP-only causality, Vietnam deployment, or numeric ROI/results.",
+  "verdicts": {
+    "MSG_ANCHOR_01": "INSUFFICIENT_EVIDENCE_WHOLE_JOURNEY",
+    "AD_ED_01": "CHANGES_REQUIRED_SOURCE_HIERARCHY_AND_INCOMPLETE_RENDER",
+    "BRAND_ROLE": "SCOPED_SELF_REVIEW_NO_REDUNDANT_HEADER_OBSERVED",
+    "ADVERTISER_VOICE": "SCOPED_SELF_REVIEW_DIRECT_SUPPLIER_VOICE",
+    "whole_journey": "NOT_READY_NOT_ACCEPTED"
+  },
+  "counts": {
+    "original": 8,
+    "corrective": 2,
+    "total_actual_calls": 10,
+    "reused": 0,
+    "selected_artwork": 8,
+    "planned_units": 10
+  },
+  "not_generated": [
+    "RMK-BRIGHT-3",
+    "RMK-BRIGHT-4"
+  ],
+  "stop": "Plan explicitly requires HOLD at correction3. No further calls, no B14. No independent/native-market/runtime certification or retrospective acceptance.",
+  "cleanup": {
+    "viewport_reset": true,
+    "own_tab_closed": true,
+    "own_server_pid": 8548,
+    "own_server_stopped": true,
+    "port8767_free": true,
+    "own_atomic_browser_lock_released": true
+  },
+  "git": "Working-tree files only in owned roots; no commit, merge, push or shared canonical mutation."
+}

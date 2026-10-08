@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "revision": "cold-fabless-b13-b13-corrective-review-v1",
+  "writer": "/root",
+  "reviewer": "/root",
+  "date": "2026-10-07",
+  "scope": "OFFLINE_SOURCE_COPY",
+  "independence": "SELF_REVIEW",
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/corrective-v1/cold-fabless-b13/contract.json",
+      "sha256": "fe486f46b847e6c6dfb24c80d9a6ed5b480dabcbdabe4f2ddf49953ec70a34e4",
+      "revision": "cold-fabless-b13-b13-corrective-contract-v1"
+    },
+    "copy": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/cold/public-copy.json",
+      "sha256": "ad478f3fccc22b36228cdc3511b3930229414fc81afb64ec5849553fed62f13e",
+      "revision": "b13-cold-en-copy-v1"
+    },
+    "sources": [
+      {
+        "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/f1-copy.json",
+        "sha256": "35442440959244ef51dc7599747affd40936700b9b24c0353a0ba688d1a68b54",
+        "revision": "b13-exact-source-v1"
+      },
+      {
+        "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/evidence-register.md",
+        "sha256": "27a5605b23cfb45d49b6000353ffb8c767e9024430eb67aa27d51028b89983e2",
+        "revision": "b13-exact-source-v1"
+      },
+      {
+        "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F1/common/source-attachments/local-terminology-evidence.json",
+        "sha256": "6e81ee57160281e180fc86f8471b02005ee67ab817f0d3e13334b8d0a79f789c",
+        "revision": "b13-exact-source-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/execution-brief.md",
+        "sha256": "ad41950cd773ea6b1ea63f58c90cafe81735eae390ba406ad0aff4fd868345e4",
+        "revision": "b13-execution-brief-v1"
+      }
+    ]
+  },
+  "verdicts": {
+    "source_copy": "PASS",
+    "editorial": "PASS",
+    "first_mention": "PASS"
+  },
+  "reviewed_ads": [
+    "B13-COLD"
+  ],
+  "reviewed_fields": [
+    "B13-COLD/caption",
+    "B13-COLD/COLD-FABLESS-B13.headline",
+    "B13-COLD/COLD-FABLESS-B13.body",
+    "B13-COLD/COLD-FABLESS-B13.source_text",
+    "B13-COLD/COLD-FABLESS-B13.cta",
+    "B13-COLD/COLD-FABLESS-B13.native_headline",
+    "B13-COLD/COLD-FABLESS-B13.alt",
+    "B13-COLD/COLD-FABLESS-B13.artwork_labels"
+  ],
+  "unresolved_findings": []
+}

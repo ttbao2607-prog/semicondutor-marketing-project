@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "revision": "b16-f2-a2-anchor-v1",
+  "gate_id": "MSG-ANCHOR-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "revision": "1.0"
+  },
+  "source": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "revision": "VY-MAIL-USER-20261006"
+  },
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a2/contract.json",
+      "sha256": "c6449d61ecca7b393cd744f3da4d38d771af192d3fc52ef8efdffa39481bee75",
+      "revision": "b16-f2-a2-contract-v1"
+    },
+    "copy": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/explanation/public-copy.json",
+      "sha256": "f2b448ae302c80a113a3b11766d4b8a5e1667504af5e5de4a0d857f3c6ae5076",
+      "revision": "b16-f2-explanation-copy-v1"
+    },
+    "spec": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a2/spec.json",
+      "sha256": "80030d19ce4382e472bf697163b2c0725dd69034ed8a58a187ff59eb7d4c050c",
+      "revision": "b16-f2-a2-spec-v1"
+    },
+    "script_review": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a2/script-review.json",
+      "sha256": "178b6d153f408dfa1c5844f5696882f4ff2e6682d3a074e525e4f4843ab1b1c0",
+      "revision": "b16-f2-a2-script-v1"
+    }
+  },
+  "scope": {
+    "segment": "FDI",
+    "locale": "en",
+    "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+    "route": "offline en demand-change cold -> F2 planning reconciliation -> Vietnam consulting/implementation -> qualitative China outsourcing case -> localized planning-question reader"
+  },
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "coverage": {
+    "ads": [
+      "F2-A"
+    ],
+    "cards": [
+      "F2-A1",
+      "F2-A2",
+      "F2-A3",
+      "F2-A4",
+      "F2-A5",
+      "F2-A6"
+    ],
+    "fields": {
+      "F2-A": [
+        "caption",
+        "F2-A1.headline",
+        "F2-A1.body",
+        "F2-A1.source_text",
+        "F2-A1.cta",
+        "F2-A1.native_headline",
+        "F2-A1.alt",
+        "F2-A1.artwork_labels",
+        "F2-A2.headline",
+        "F2-A2.body",
+        "F2-A2.source_text",
+        "F2-A2.cta",
+        "F2-A2.native_headline",
+        "F2-A2.alt",
+        "F2-A2.artwork_labels",
+        "F2-A3.headline",
+        "F2-A3.body",
+        "F2-A3.source_text",
+        "F2-A3.cta",
+        "F2-A3.native_headline",
+        "F2-A3.alt",
+        "F2-A3.artwork_labels",
+        "F2-A4.headline",
+        "F2-A4.body",
+        "F2-A4.source_text",
+        "F2-A4.cta",
+        "F2-A4.native_headline",
+        "F2-A4.alt",
+        "F2-A4.artwork_labels",
+        "F2-A5.headline",
+        "F2-A5.body",
+        "F2-A5.source_text",
+        "F2-A5.cta",
+        "F2-A5.native_headline",
+        "F2-A5.alt",
+        "F2-A5.artwork_labels",
+        "F2-A6.headline",
+        "F2-A6.body",
+        "F2-A6.source_text",
+        "F2-A6.cta",
+        "F2-A6.native_headline",
+        "F2-A6.alt",
+        "F2-A6.artwork_labels"
+      ]
+    },
+    "storyboard_cards": [
+      "F2-A1",
+      "F2-A2",
+      "F2-A3",
+      "F2-A4",
+      "F2-A5",
+      "F2-A6"
+    ]
+  },
+  "rules": {
+    "A1": {
+      "verdict": "MATCH",
+      "observation": "Eligible commercial outsourced chip-design entity, same semiconductor operating activity as v5. F2 demand-change planning is a concrete Operations/SCM issue, not generic ERP content or target-account validation."
+    },
+    "A2": {
+      "verdict": "MATCH",
+      "observation": "Same Operations/SCM decision unit with planning responsibilities; group ERP autonomy and local buying authority remain unknown. No Finance role switch or claim every design office is a local ERP buyer."
+    },
+    "A3": {
+      "verdict": "MATCH",
+      "observation": "FDI English/Simplified Chinese, separately authored business wording. English product/planning period/report source/confirmation owners and Hans 产品/计划期间/批次/报告来源/确认责任 convey the same operational scope. ERP, Fabless and MES first mentions explained. No OSAT/WIP jargon. Language does not establish FDI ownership."
+    },
+    "A4": {
+      "verdict": "MATCH",
+      "observation": "Business value is implicit: shared basis for discussing the next plan and accountable confirmations. No forecast accuracy, faster replanning result, inventory saving, optimization, automatic rescheduling or ROI/metrics promise."
+    },
+    "A5": {
+      "verdict": "N/A",
+      "observation": "N/A: FDI lane, no domestic supplier-entry/audit/qualification promise."
+    },
+    "A6": {
+      "verdict": "MATCH",
+      "observation": "Concrete demand-change scope -> product/planning period/lots -> recorded status time/report source -> missing information/confirmation owner -> shared discussion. Operational questions and conventions, not unverified ERP planning engine or MES replacement. Scenes blank, neutral and illustrative, no forecast/data/technical records."
+    },
+    "A7": {
+      "verdict": "MATCH",
+      "observation": "Same persona and outsourced-production planning issue throughout. F2 shared planning basis -> prospective Vietnam consultation -> provider role -> explicit China qualitative outsourcing-management/integrated-solution context -> localized reader with F2 planning questions. China proof is contextual, not proof of exact forecast/replanning mechanism or Vietnam team delivery."
+    }
+  },
+  "units": [
+    {
+      "card_id": "F2-A1",
+      "verdict": "MATCH",
+      "observation": "Actual root authored/reviewed F2 scope: Demand changed. Which lots matter?; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result. Exact text: {\"card_id\": \"F2-A1\", \"headline\": \"Demand changed. Which lots matter?\", \"body\": \"Identify the outsourced lots linked to the changed demand before discussing the plan with production partners.\", \"source_text\": \"\", \"cta\": \"\", \"native_headline\": \"Demand changed. Which lots matter?\", \"alt\": \"Illustration: Demand changed. Which lots matter?\", \"artwork_labels\": [\"ERP · CHIP OPERATIONS\", \"1/6\"]} Scene: Bright neutral desk, blank partner report sheets beside a wafer protective carrier; separate sheets represent reports to reconcile, not actual statuses or forecast charts. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label."
+    },
+    {
+      "card_id": "F2-A2",
+      "verdict": "MATCH",
+      "observation": "Actual root authored/reviewed F2 scope: Start with product and planning period.; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result. Exact text: {\"card_id\": \"F2-A2\", \"headline\": \"Start with product and planning period.\", \"body\": \"Agree which product, planning period and outsourced lots the demand change concerns.\", \"source_text\": \"\", \"cta\": \"\", \"native_headline\": \"Start with product and planning period.\", \"alt\": \"Illustration: Start with product and planning period.\", \"artwork_labels\": [\"ERP · CHIP OPERATIONS\", \"2/6\"]} Scene: A neutral packaged chip and small lot trays beside blank report sheets; product and lot scope are illustrative, no printed identifiers or technical layouts. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label."
+    },
+    {
+      "card_id": "F2-A3",
+      "verdict": "MATCH",
+      "observation": "Actual root authored/reviewed F2 scope: When was this lot status recorded?; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result. Exact text: {\"card_id\": \"F2-A3\", \"headline\": \"When was this lot status recorded?\", \"body\": \"Check the report time and source alongside lot status before using it in a planning discussion.\", \"source_text\": \"\", \"cta\": \"\", \"native_headline\": \"When was this lot status recorded?\", \"alt\": \"Illustration: When was this lot status recorded?\", \"artwork_labels\": [\"ERP · CHIP OPERATIONS\", \"3/6\"]} Scene: Separate blank partner reports and neutral wafer protective carrier; differing report sources are abstract, no dates, status values, clock faces or technical UI. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label."
+    },
+    {
+      "card_id": "F2-A4",
+      "verdict": "MATCH",
+      "observation": "Actual root authored/reviewed F2 scope: What needs confirmation from the partner?; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result. Exact text: {\"card_id\": \"F2-A4\", \"headline\": \"What needs confirmation from the partner?\", \"body\": \"List missing information and who will confirm it with each production partner before discussing changes.\", \"source_text\": \"\", \"cta\": \"\", \"native_headline\": \"What needs confirmation from the partner?\", \"alt\": \"Illustration: What needs confirmation from the partner?\", \"artwork_labels\": [\"ERP · CHIP OPERATIONS\", \"4/6\"]} Scene: Blank open folder, neutral chip tray and simple unlabelled responsibility nodes with open connectors; no check marks, completed workflow, screens or record values. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label."
+    },
+    {
+      "card_id": "F2-A5",
+      "verdict": "MATCH",
+      "observation": "Actual root authored/reviewed F2 scope: Give replanning a shared basis.; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result. Exact text: {\"card_id\": \"F2-A5\", \"headline\": \"Give replanning a shared basis.\", \"body\": \"Bring scope, report source and confirmation owners into the same planning discussion.\", \"source_text\": \"Digiwin Taiwan semiconductor solution context:\\nERP business management and MES (manufacturing execution system) production context.\", \"cta\": \"Discuss outsourced-production planning\", \"native_headline\": \"Give replanning a shared basis.\", \"alt\": \"Illustration: Give replanning a shared basis.\", \"artwork_labels\": [\"ERP · CHIP OPERATIONS\", \"5/6\"]} Scene: Grouped blank partner reports, neutral chip carrier and responsibility nodes on white; a shared discussion basis, no automatic planning engine or results. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label."
+    },
+    {
+      "card_id": "F2-A6",
+      "verdict": "MATCH",
+      "observation": "Actual root authored/reviewed F2 scope: Consulting and implementation in Vietnam; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result. Exact text: {\"card_id\": \"F2-A6\", \"headline\": \"Consulting and implementation in Vietnam\", \"body\": \"Work with our team in Vietnam on ERP consulting and implementation. Start with your reporting workflows, update ownership and project priorities.\", \"source_text\": \"Digiwin Vietnam · ERP consulting and implementation\", \"cta\": \"\", \"native_headline\": \"Consulting and implementation in Vietnam\", \"alt\": \"Illustration: Consulting and implementation in Vietnam\", \"artwork_labels\": [\"ERP · CHIP OPERATIONS\", \"6/6\"]} Scene: Bright illustrative consultation tabletop with two distinct blank project folios, a neutral chip sample and open blue physical paths between unlabelled responsibility tokens. Generic discussion material, not a customer facility, staff portrait or software UI. Compact scene leaves a large full-width plain white source block, source at least body-sized. No map/flag/skyline/ticks/labels/data/results or fabricated people. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label."
+    }
+  ],
+  "transitions": [
+    {
+      "cards": [
+        "F2-A1",
+        "F2-A2"
+      ],
+      "verdict": "MATCH",
+      "observation": "Demand changed. Which lots matter? -> Start with product and planning period.; Same persona and outsourced-production planning issue throughout. F2 shared planning basis -> prospective Vietnam consultation -> provider role -> explicit China qualitative outsourcing-management/integrated-solution context -> localized reader with F2 planning questions. China proof is contextual, not proof of exact forecast/replanning mechanism or Vietnam team delivery."
+    },
+    {
+      "cards": [
+        "F2-A2",
+        "F2-A3"
+      ],
+      "verdict": "MATCH",
+      "observation": "Start with product and planning period. -> When was this lot status recorded?; Same persona and outsourced-production planning issue throughout. F2 shared planning basis -> prospective Vietnam consultation -> provider role -> explicit China qualitative outsourcing-management/integrated-solution context -> localized reader with F2 planning questions. China proof is contextual, not proof of exact forecast/replanning mechanism or Vietnam team delivery."
+    },
+    {
+      "cards": [
+        "F2-A3",
+        "F2-A4"
+      ],
+      "verdict": "MATCH",
+      "observation": "When was this lot status recorded? -> What needs confirmation from the partner?; Same persona and outsourced-production planning issue throughout. F2 shared planning basis -> prospective Vietnam consultation -> provider role -> explicit China qualitative outsourcing-management/integrated-solution context -> localized reader with F2 planning questions. China proof is contextual, not proof of exact forecast/replanning mechanism or Vietnam team delivery."
+    },
+    {
+      "cards": [
+        "F2-A4",
+        "F2-A5"
+      ],
+      "verdict": "MATCH",
+      "observation": "What needs confirmation from the partner? -> Give replanning a shared basis.; Same persona and outsourced-production planning issue throughout. F2 shared planning basis -> prospective Vietnam consultation -> provider role -> explicit China qualitative outsourcing-management/integrated-solution context -> localized reader with F2 planning questions. China proof is contextual, not proof of exact forecast/replanning mechanism or Vietnam team delivery."
+    },
+    {
+      "cards": [
+        "F2-A5",
+        "F2-A6"
+      ],
+      "verdict": "MATCH",
+      "observation": "Give replanning a shared basis. -> Consulting and implementation in Vietnam; Same persona and outsourced-production planning issue throughout. F2 shared planning basis -> prospective Vietnam consultation -> provider role -> explicit China qualitative outsourcing-management/integrated-solution context -> localized reader with F2 planning questions. China proof is contextual, not proof of exact forecast/replanning mechanism or Vietnam team delivery."
+    }
+  ],
+  "context": {
+    "scope": "FULL_JOURNEY",
+    "verdict": "MATCH",
+    "observation": "Same persona and outsourced-production planning issue throughout. F2 shared planning basis -> prospective Vietnam consultation -> provider role -> explicit China qualitative outsourcing-management/integrated-solution context -> localized reader with F2 planning questions. China proof is contextual, not proof of exact forecast/replanning mechanism or Vietnam team delivery. Reader: Current China qualitative source summary stays same entity/geography/solution scope, with freshly authored F2 product/planning-period/lot/report-time/source/confirming-owner questions. Original Simplified source disclosure and exact legal entity preserved; return to same-locale F2 journey.",
+    "brief": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/execution-brief.md",
+      "sha256": "f7c34f9ea0ab193d13475afd860f1e46bb5fc0118315ba44405431f2f5052c27",
+      "revision": "b16-brief-v1"
+    },
+    "related_inputs": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/cold/public-copy.json",
+        "sha256": "b05c79b8c18636d639da94a801d49bc4e5a8132a36b81365a2b6362f59d8556e",
+        "revision": "b16-f2-cold-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/proof/public-copy.json",
+        "sha256": "52da80234bd9743394251302bcc6b8313c15dfaaba828ea9ed5475433e74e46b",
+        "revision": "b16-f2-proof-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/reader-script.json",
+        "sha256": "eeb03b6ca49a98384a1eac67893e0b4b0c70adc9588cb8bc6a68ebecc53220b7",
+        "revision": "b16-f2-reader-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/semantic-review.json",
+        "sha256": "42f50ea8b4d790fee03c533d820cd0ef17959e6fabee679a3fbc6770ba95d707",
+        "revision": "b16-actual-f2-root-script-review-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/proof-source-mapping.json",
+        "sha256": "1d15e2230a7a0ee27ede86ed0d9c7da5176a1132650167a1b30a19bbd8756416",
+        "revision": "b16-f2-proof-map-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/vietnam-team-source.json",
+        "sha256": "9e0ce5e7e278c2585367be05362d76331b068bf0b3e6cfa3aa3f9721a505feb2",
+        "revision": "b16-f2-vietnam-service-v1"
+      }
+    ]
+  },
+  "unresolved_findings": []
+}

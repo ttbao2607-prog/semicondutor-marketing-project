@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "revision": "b21-cold-fabless-b21-anchor-v1",
+  "gate_id": "MSG-ANCHOR-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "revision": "1.0"
+  },
+  "source": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "revision": "VY-MAIL-USER-20261006"
+  },
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/release/cold-fabless-b21/contract.json",
+      "sha256": "a752346b381f151d386f09a6571a5cdceaaafa335d45164a39cd72bbb47af45d",
+      "revision": "b21-cold-fabless-b21-contract-v1"
+    },
+    "copy": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/cold/public-copy.json",
+      "sha256": "6ed22f5bd3e001e5a471e72f5bea1f06a75f2aa028f7f3cf994e83557a2f03f5",
+      "revision": "b21-f3-cold-copy-v1"
+    },
+    "spec": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/release/cold-fabless-b21/spec.json",
+      "sha256": "9e3b92459fb56029df59d9401c21044326d00a3e2a081c157c494b110929a8d4",
+      "revision": "b21-cold-fabless-b21-spec-v1"
+    },
+    "script_review": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/release/cold-fabless-b21/script-review.json",
+      "sha256": "08c88f9414a256ce1900453c5adcb086ead0bcf35d044296ea3e86e1f8c70bdf",
+      "revision": "b21-cold-fabless-b21-script-v1"
+    }
+  },
+  "scope": {
+    "segment": "FDI",
+    "locale": "zh-Hant",
+    "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+    "route": "offline zh-Hant partner-handoff cold -> F3 lot/record/confirmation coordination -> Vietnam consulting/implementation -> qualitative China outsourcing case -> localized handoff-question reader"
+  },
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "coverage": {
+    "ads": [
+      "B21-COLD"
+    ],
+    "cards": [
+      "COLD-FABLESS-B21"
+    ],
+    "fields": {
+      "B21-COLD": [
+        "caption",
+        "COLD-FABLESS-B21.headline",
+        "COLD-FABLESS-B21.body",
+        "COLD-FABLESS-B21.source_text",
+        "COLD-FABLESS-B21.cta",
+        "COLD-FABLESS-B21.native_headline",
+        "COLD-FABLESS-B21.alt",
+        "COLD-FABLESS-B21.artwork_labels"
+      ]
+    },
+    "storyboard_cards": [
+      "COLD-FABLESS-B21"
+    ]
+  },
+  "rules": {
+    "A1": {
+      "verdict": "MATCH",
+      "observation": "Eligible commercial chip-design Fabless entity with outsourced production. Handoff of lots/records is concrete operational scope, not proof of account fit."
+    },
+    "A2": {
+      "verdict": "MATCH",
+      "observation": "Operations/SCM influencer with coordination responsibility, same B13v5 persona. Entity autonomy and local ERP buying authority remain unknown, not assumed from FDI label."
+    },
+    "A3": {
+      "verdict": "MATCH",
+      "observation": "Simplified Chinese for China profile and Traditional Chinese for Taiwan profile separately authored. Language is not ownership. ERP and Fabless explained in each independent feed where present; MES expanded in source context. Exact Simplified legal entity is intentional proper-name preservation, disclosed in Hant reader. Owned contract explicitly defines Fabless using the exact plain-language chip-design phrase in the caption rather than introducing unexplained IC; frozen profile unchanged."
+    },
+    "A4": {
+      "verdict": "MATCH",
+      "observation": "Shared basis for handoff coordination: lot/product scope, record sources, missing information and responsible confirmation on both sides. No numerical ROI, speed/accuracy result, automatic synchronization or software capability inferred."
+    },
+    "A5": {
+      "verdict": "N/A",
+      "observation": "N/A FDI scope; no domestic supplier-entry/qualification/audit-pass promise."
+    },
+    "A6": {
+      "verdict": "MATCH",
+      "observation": "Concrete questions about handoff point/product/lot/records and responsibility. Neutral illustrative trays, blank sheets and abstract nodes; no actual IDs, values, technical UI or customer facility. A5 scene compact with two plain tiles, no document glyph."
+    },
+    "A7": {
+      "verdict": "MATCH",
+      "observation": "Cold handoff trigger -> shared records/confirmers -> one agreed handoff point -> record mismatch clarification -> both-side confirmation -> shared coordination discussion -> Vietnam consulting/implementation -> provider role -> China chip-design case -> qualitative outsourcing pain/integrated solution -> reader. No persona/geography/solution-causality switch."
+    }
+  },
+  "units": [
+    {
+      "card_id": "COLD-FABLESS-B21",
+      "verdict": "MATCH",
+      "observation": "Actual root authored/reviewed F3 scope: 批次轉交夥伴，哪些資訊要一起交接？; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result. Exact text: {\"card_id\": \"COLD-FABLESS-B21\", \"headline\": \"批次轉交夥伴，哪些資訊要一起交接？\", \"body\": \"交接前，先釐清批次、相關紀錄與資訊確認權責。\", \"source_text\": \"\", \"cta\": \"\", \"native_headline\": \"批次轉交夥伴，哪些資訊要一起交接？\", \"alt\": \"示意圖：批次轉交夥伴，哪些資訊要一起交接？\", \"artwork_labels\": [\"晶片委外交接\", \"製造業 ERP\"]} Scene: Two neutral partner work areas, a sealed wafer protective carrier and wholly blank accompanying record sheets at a handoff point. No actual customer shipment or shipping status. Partner handoff coordination hook; blank paper only. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label."
+    }
+  ],
+  "transitions": [],
+  "context": {
+    "scope": "FULL_JOURNEY",
+    "verdict": "MATCH",
+    "observation": "Cold handoff trigger -> shared records/confirmers -> one agreed handoff point -> record mismatch clarification -> both-side confirmation -> shared coordination discussion -> Vietnam consulting/implementation -> provider role -> China chip-design case -> qualitative outsourcing pain/integrated solution -> reader. No persona/geography/solution-causality switch. Reader: Localized overview of same named China case with qualitative outsourcing challenges/integrated solution and same F3 handoff questions. Exact legal name original Simplified; Hant source-language disclosure. Localized return to handoff journey.",
+    "brief": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/execution-brief.md",
+      "sha256": "325702650c6414dcda774d54db02f2742371a5d3693b8f35f1499e21f7327d55",
+      "revision": "b21-brief-v1"
+    },
+    "related_inputs": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/explanation/public-copy.json",
+        "sha256": "f568cb8bac8405ec943d73d65eb8b3717768ac4d9ba44364c78da5ab2b29433c",
+        "revision": "b21-f3-explanation-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/proof/public-copy.json",
+        "sha256": "fd27966bf12f71e0a4954613769ce416841d0a9f47bf498bdbfdbd4818102d39",
+        "revision": "b21-f3-proof-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/reader-script.json",
+        "sha256": "73f15bec87055f790ffdfebe154e7d1e9eab3f8913df92180a5816c9039da8e1",
+        "revision": "b21-f3-reader-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/semantic-review.json",
+        "sha256": "3e2e04fa34f87c0f7a6a3c953ef26a5288148b73514dd44f88f9475b5db0642f",
+        "revision": "b21-actual-root-script-review-v2"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/proof-source-mapping.json",
+        "sha256": "90e3af00209b31664c83168652503b3b119bbd58fbc5c88812dd28ab39b6d1c4",
+        "revision": "b21-f3-proof-map-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/vietnam-team-source.json",
+        "sha256": "0093714528e9146286c904b445709d7f93324a61029761658da6103843976f45",
+        "revision": "b21-f3-vietnam-service-v1"
+      }
+    ]
+  },
+  "unresolved_findings": []
+}

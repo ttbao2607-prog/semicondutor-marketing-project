@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "revision": "b21-f3-a1-contract-v1",
+  "locale": "zh-Hant",
+  "channel": "linkedin-carousel",
+  "copy": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/explanation/public-copy.json",
+    "sha256": "f568cb8bac8405ec943d73d65eb8b3717768ac4d9ba44364c78da5ab2b29433c",
+    "revision": "b21-f3-explanation-copy-v1"
+  },
+  "sources": [
+    {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/execution-brief.md",
+      "sha256": "325702650c6414dcda774d54db02f2742371a5d3693b8f35f1499e21f7327d55",
+      "revision": "b21-f3-brief-v1"
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F3/common/f3-copy.json",
+      "sha256": "42bfe643e390dc933637a852bc82210c288139c2bfee4e548826d3c907c640a6",
+      "revision": "f3-source-read-v1"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/b20-b21-authored-input.json",
+      "sha256": "7ed7cf46abb42fc9d97355a0dc3c7c6c7ce7b34c997938517ee9029764c06f9f",
+      "revision": "b20-b21-root-authored-20261008-v1"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/proof-source-mapping.json",
+      "sha256": "90e3af00209b31664c83168652503b3b119bbd58fbc5c88812dd28ab39b6d1c4",
+      "revision": "b21-f3-proof-map-v1"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/vietnam-team-source.json",
+      "sha256": "0093714528e9146286c904b445709d7f93324a61029761658da6103843976f45",
+      "revision": "b21-f3-vietnam-service-v1"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/selected-copy.json",
+      "sha256": "268363c25f08d8ba2af7ce5ee095348d2faf2da439b532140386ec0254737e21",
+      "revision": "b18-review-copy-zh-Hant-v4"
+    },
+    {
+      "path": "operations/linkedin-locale-adapter/profiles.json",
+      "sha256": "1b0105ed92ef866fb7a5796aefcdfb9d8e9d9683c72f4257295e80a06653a6cd",
+      "revision": "locale-adapter-draft-2026-10-06-v1"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/semantic-review.json",
+      "sha256": "3e2e04fa34f87c0f7a6a3c953ef26a5288148b73514dd44f88f9475b5db0642f",
+      "revision": "b21-actual-root-script-review-v2"
+    }
+  ],
+  "card_sources": {
+    "F3-A1": [
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/execution-brief.md",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F3/common/f3-copy.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/b20-b21-authored-input.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/proof-source-mapping.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/vietnam-team-source.json",
+      "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/selected-copy.json",
+      "operations/linkedin-locale-adapter/profiles.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/semantic-review.json"
+    ],
+    "F3-A2": [
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/execution-brief.md",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F3/common/f3-copy.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/b20-b21-authored-input.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/proof-source-mapping.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/vietnam-team-source.json",
+      "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/selected-copy.json",
+      "operations/linkedin-locale-adapter/profiles.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/semantic-review.json"
+    ],
+    "F3-A3": [
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/execution-brief.md",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F3/common/f3-copy.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/b20-b21-authored-input.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/proof-source-mapping.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/vietnam-team-source.json",
+      "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/selected-copy.json",
+      "operations/linkedin-locale-adapter/profiles.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/semantic-review.json"
+    ],
+    "F3-A4": [
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/execution-brief.md",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F3/common/f3-copy.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/b20-b21-authored-input.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/proof-source-mapping.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/vietnam-team-source.json",
+      "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/selected-copy.json",
+      "operations/linkedin-locale-adapter/profiles.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/semantic-review.json"
+    ],
+    "F3-A5": [
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/execution-brief.md",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F3/common/f3-copy.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/b20-b21-authored-input.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/proof-source-mapping.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/vietnam-team-source.json",
+      "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/selected-copy.json",
+      "operations/linkedin-locale-adapter/profiles.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/semantic-review.json"
+    ],
+    "F3-A6": [
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/execution-brief.md",
+      "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F3/common/f3-copy.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/b20-b21-authored-input.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/proof-source-mapping.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/vietnam-team-source.json",
+      "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/selected-copy.json",
+      "operations/linkedin-locale-adapter/profiles.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/semantic-review.json"
+    ]
+  },
+  "ad_order": [
+    "F3-A"
+  ],
+  "card_order": {
+    "F3-A": [
+      "F3-A1",
+      "F3-A2",
+      "F3-A3",
+      "F3-A4",
+      "F3-A5",
+      "F3-A6"
+    ]
+  },
+  "surfaces": {
+    "F3-A": [
+      {
+        "surface_id": "full-feed",
+        "reading_order": [
+          "caption",
+          "F3-A1.headline",
+          "F3-A1.body",
+          "F3-A1.source_text",
+          "F3-A1.cta",
+          "F3-A1.native_headline",
+          "F3-A1.alt",
+          "F3-A1.artwork_labels",
+          "F3-A2.headline",
+          "F3-A2.body",
+          "F3-A2.source_text",
+          "F3-A2.cta",
+          "F3-A2.native_headline",
+          "F3-A2.alt",
+          "F3-A2.artwork_labels",
+          "F3-A3.headline",
+          "F3-A3.body",
+          "F3-A3.source_text",
+          "F3-A3.cta",
+          "F3-A3.native_headline",
+          "F3-A3.alt",
+          "F3-A3.artwork_labels",
+          "F3-A4.headline",
+          "F3-A4.body",
+          "F3-A4.source_text",
+          "F3-A4.cta",
+          "F3-A4.native_headline",
+          "F3-A4.alt",
+          "F3-A4.artwork_labels",
+          "F3-A5.headline",
+          "F3-A5.body",
+          "F3-A5.source_text",
+          "F3-A5.cta",
+          "F3-A5.native_headline",
+          "F3-A5.alt",
+          "F3-A5.artwork_labels",
+          "F3-A6.headline",
+          "F3-A6.body",
+          "F3-A6.source_text",
+          "F3-A6.cta",
+          "F3-A6.native_headline",
+          "F3-A6.alt",
+          "F3-A6.artwork_labels"
+        ]
+      }
+    ]
+  },
+  "definitions": {
+    "OSAT": "半導體委外封裝與測試",
+    "Fabless": "無晶圓廠晶片設計模式",
+    "WIP": "在製品"
+  },
+  "limits": {
+    "caption": 255,
+    "headline": 45,
+    "body": 180,
+    "source_text": 200,
+    "cta": 70,
+    "native_headline": 45,
+    "alt": 200,
+    "artwork_labels": 70
+  },
+  "groups": [
+    [
+      "F3-A1"
+    ],
+    [
+      "F3-A2"
+    ],
+    [
+      "F3-A3"
+    ],
+    [
+      "F3-A4"
+    ],
+    [
+      "F3-A5"
+    ],
+    [
+      "F3-A6"
+    ]
+  ],
+  "reuse_fields": [
+    "headline",
+    "body",
+    "source_text",
+    "cta",
+    "native_headline",
+    "alt",
+    "artwork_labels"
+  ],
+  "references": [
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v4/assets/02-f2-a1.png",
+      "sha256": "fcfe476193c92617341679b8b30d5bb7858d5db8ae760acb7be98edb53da5932",
+      "revision": "b13-v5-selected-visual-family-reference",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "revision": "official-logo-pinned",
+      "role": "brand_asset",
+      "attributes": [
+        "brand_mark"
+      ]
+    }
+  ],
+  "style": {
+    "brand": "Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs",
+    "palette": [
+      "white",
+      "#0052FF",
+      "#0B132B",
+      "#00B4D8",
+      "charcoal"
+    ],
+    "lighting": "bright neutral daylight with soft grounded shadows",
+    "avoid": [
+      "neon",
+      "dark mode",
+      "human faces",
+      "fabricated metrics identifiers dates statuses or results",
+      "customer marks or facility evidence",
+      "unreviewed capability or outcome claims",
+      "reference wording record values props or exact composition",
+      "printed caption native headline alt or internal notes",
+      "extra wording beyond approved artwork text and official brand mark"
+    ],
+    "campaign": {
+      "revision": "campaign-r2-hybrid-full-v1-parent-review-pending",
+      "instructions": "Print only supplied Traditional Chinese artwork text for Taiwan. Professional operational wording: explicit reconciliation objects, responsibility and practical next step. Use separately reviewed Taiwan terms; never convert mainland copy mechanically or assume national personality. No audit, vendor qualification or commercial guarantees. Keep original scene and narrative order. Preserve Traditional Chinese glyphs and exact supplied punctuation. Never mix scripts or use pseudo-Chinese. Use ASCII parentheses for approved acronym definitions to remain compatible with the frozen gate; do not normalize other punctuation. Review Taiwan punctuation placement, Chinese line starts/ends and mixed Latin terms at 333px; reduce scene area before shrinking type. B13v5 bright white/blue photographic campaign family. Reference wording is not approved copy. Official supplied logo once; no extra DIGIWIN header. Exact category/sequence near logo. Chinese body MUST wrap naturally into2-3 large readable lines at333CSSpx; never squeeze a long body onto one small line. Entire Taiwan source must wrap into2-3 full-width large lines, each at least body-sized. Shrink scene before text. Body comfortably readable at333CSSpx. Source normal full-width main paragraph on white, at least body-sized. All paper blank; no bars/rules/charts/ticks/data glyphs/UI/customer geography/seal/badge. Only approved artwork words. Partner handoff questions are not forecast accuracy or automatic replanning claims. Reduce scene before type."
+    }
+  },
+  "output": {
+    "directory": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B21-zh-Hant-f3-v1/release/f3-a1/native",
+    "extension": ".png",
+    "policy": "native_square_min",
+    "min_edge": 1080
+  }
+}

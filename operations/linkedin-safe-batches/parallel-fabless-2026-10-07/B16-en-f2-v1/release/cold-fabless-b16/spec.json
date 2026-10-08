@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "revision": "b16-cold-fabless-b16-spec-v1",
+  "release": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/cold-fabless-b16/release.json",
+    "sha256": "40b089049124f07a7ab0c6b934a3c62fc4e84262e3a275d12ca6642454371b6e",
+    "revision": "b16-cold-fabless-b16-release-v1"
+  },
+  "contract": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/cold-fabless-b16/contract.json",
+    "sha256": "7d17c9fe50d9896380ecb1757c9409d80457ceff3614cec9cfb5cc7178c56ad1",
+    "revision": "b16-cold-fabless-b16-contract-v1"
+  },
+  "copy": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/cold/public-copy.json",
+    "sha256": "b05c79b8c18636d639da94a801d49bc4e5a8132a36b81365a2b6362f59d8556e",
+    "revision": "b16-f2-cold-copy-v1"
+  },
+  "review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/cold-fabless-b16/review.json",
+    "sha256": "5310a7819d073ca9c48c49279f63583e8a2a4480add72ec7b2b29c390341e9e7",
+    "revision": "b16-cold-fabless-b16-source-review-v1"
+  },
+  "calls": [
+    {
+      "call_id": "B16_COLD_FABLESS_B16_V1",
+      "targets": [
+        "COLD-FABLESS-B16"
+      ],
+      "references": [
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/01-cold-fabless-b13.png",
+          "sha256": "b89e0ec2d9005d4c8b7b9efe439404869370547485f4ab4f1c45c20f537ea819",
+          "revision": "b13-v5-selected-visual-family-reference",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "revision": "official-logo-pinned",
+          "role": "brand_asset",
+          "attributes": [
+            "brand_mark"
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "card_id": "COLD-FABLESS-B16",
+          "concept_id": "b16-cold-fabless-b16-f2-scene-v1",
+          "reader_question": "Demand changed. Which lots need a review?",
+          "description": "Bright neutral desk, blank partner report sheets beside a wafer protective carrier; separate sheets represent reports to reconcile, not actual statuses or forecast charts. Demand-change planning hook; blank paper only. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+          "props": [
+            "central review plinth",
+            "two abstract partner surfaces",
+            "blank reports",
+            "neutral chip packages"
+          ],
+          "artwork_labels": [
+            "Fabless planning",
+            "Manufacturing ERP"
+          ]
+        }
+      ],
+      "artwork_text": {
+        "COLD-FABLESS-B16": {
+          "headline": "Demand changed. Which lots need a review?",
+          "body": "Before replanning, check the product, planning period and partner lot reports.",
+          "source_text": "",
+          "cta": "",
+          "artwork_labels": [
+            "Fabless planning",
+            "Manufacturing ERP"
+          ]
+        }
+      },
+      "output_id": "cold-fabless-b16-en-v1",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/cold-fabless-b16/native/cold-fabless-b16-en-v1.png",
+      "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"Write only supplied English artwork text. International B2B English: specific operational question, accountable actor, concrete next step. No idioms, slogans, invented ROI or cultural stereotypes. Keep scenes and narrative order. No Vietnamese words from references. Preserve exact English spelling and supplied line breaks. Review longer words at 333px; reflow or reduce illustration space before shrinking type. Do not invent hyphenation. B13v5 bright white/blue photographic campaign family. Reference wording is not approved copy. Official supplied logo once; no extra DIGIWIN header. Exact category/sequence near logo. Body comfortably readable at333CSSpx. Source normal full-width main paragraph on white, at least body-sized. All paper blank; no bars/rules/charts/ticks/data glyphs/UI/customer geography/seal/badge. Only approved artwork words. Demand-change questions are not forecast accuracy or automatic replanning claims. Reduce scene before type.\",\"revision\":\"campaign-r2-hybrid-full-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/01-cold-fabless-b13.png\",\"revision\":\"b13-v5-selected-visual-family-reference\",\"role\":\"campaign_visual\",\"sha256\":\"b89e0ec2d9005d4c8b7b9efe439404869370547485f4ab4f1c45c20f537ea819\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"official-logo-pinned\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"Fabless planning\",\"Manufacturing ERP\"],\"card_id\":\"COLD-FABLESS-B16\",\"concept_id\":\"b16-cold-fabless-b16-f2-scene-v1\",\"description\":\"Bright neutral desk, blank partner report sheets beside a wafer protective carrier; separate sheets represent reports to reconcile, not actual statuses or forecast charts. Demand-change planning hook; blank paper only. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.\",\"props\":[\"central review plinth\",\"two abstract partner surfaces\",\"blank reports\",\"neutral chip packages\"],\"reader_question\":\"Demand changed. Which lots need a review?\"}]\nAPPROVED ARTWORK TEXT\n{\"COLD-FABLESS-B16\":{\"artwork_labels\":[\"Fabless planning\",\"Manufacturing ERP\"],\"body\":\"Before replanning, check the product, planning period and partner lot reports.\",\"cta\":\"\",\"headline\":\"Demand changed. Which lots need a review?\",\"source_text\":\"\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/cold-fabless-b16/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+      "prompt_sha256": "96e78fc1eb98a8946f1522650fb54b9a8647e42cc9d906e56f5ac8f90f3e1775"
+    }
+  ]
+}

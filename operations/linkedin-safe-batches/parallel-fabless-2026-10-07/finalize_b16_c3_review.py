@@ -1,0 +1,51 @@
+"""Record actual B16 C3/native/browser review; preserve historical hold receipts."""
+import json,hashlib,subprocess
+from pathlib import Path
+from PIL import Image
+ROOT=Path(__file__).resolve().parents[3];LANE=Path(__file__).resolve().parent
+BASE=LANE/'B16-en-f2-v1';OUT=ROOT/'deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2'
+def load(p):return json.loads(p.read_text('utf-8-sig'))
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def ref(p):return dict(path=p.relative_to(ROOT).as_posix(),sha256=sha(p))
+def put(p,v):p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n','utf-8')
+a=load(BASE/'attempt-ledger.json')['attempts'];assert len(a)==10
+assert sum(x['kind']=='original' for x in a)==7
+calls=[]
+for x in a:
+ assert sha(ROOT/x['path'])==x['sha256']
+ assert Image.open(ROOT/x['path']).size==(1254,1254)
+ plan=load(BASE/('corrective-dispatch-plan.json' if x['kind']=='corrective' else 'dispatch-plan.json'))
+ j=next(y for y in plan['calls'] if y['call_id']==x['call_id']);f=ROOT/j['folder']
+ assert sha(f/'release.json')==j['release_sha256'] and sha(f/'anchor-review.json')==j['review_sha256']
+ g=f/'dispatch'/(x['call_id']+'-fresh-preflight.json');assert load(g)['status']=='PREGEN_INPUTS_VERIFIED'
+ calls.append(dict(call_id=x['call_id'],native=ref(ROOT/x['path']),guard=ref(g),release=ref(f/'release.json'),anchor_review=ref(f/'anchor-review.json')))
+m=load(OUT/'manifest.json');assert len(m['artwork'])==11
+for x in m['artwork']:assert sha(ROOT/x['path'])==x['sha256']==sha(ROOT/x['source'])
+frozen=load(ROOT/'operations/message-anchor/freeze-2026-10-06/manifest.json')
+assert len(frozen['files'])==24 and all(sha(ROOT/x['path'])==x['sha256'] for x in frozen['files'])
+cap=load(BASE/'render-repair-v3/capture-dom.json')
+for mode in ['feed','main','mobile']:
+ assert {x['card'] for x in cap if x['mode']==mode}==set(range(1,12))
+for x in cap:
+ assert Path(x['path']).exists()
+ if x['mode']=='mobile':assert x['dom']['viewport']['width']==390
+readerfiles=['reader-desktop.png','reader-desktop-bottom.png','reader-mobile-top.png','reader-mobile-bottom.png']
+assert all((BASE/'render-repair-v3'/x).exists() for x in readerfiles)
+render=[dict(**ref(p),raster_size=Image.open(p).size) for p in sorted((BASE/'render-repair-v3').glob('*.png'))]
+cp=load(OUT/'selected-copy.json')['cards'];s=load(BASE/'semantic-review.json')
+unit=[]
+for n,c in enumerate(cp,1):
+ unit.append(dict(card_id=c['card_id'],selected_native=m['artwork'][n-1],exact_copy=c,verdict='PASS_SELF_REVIEW',surfaces=['native1254','feed333','main640','browser mobile390CSS'],observation='Actual exact artwork/body/source/category/sequence/CTA and current caption/native/alt context inspected; no leaked review language or invented record/outcome. Source paragraph is at least body-sized where present; physical wafer/chip patterns are illustrative material, not fabricated technical/report data.'))
+receipt=BASE/'postgen-review-repair-v3.json'
+m.update(status='PASS_SELF_REVIEW',release_status='CANONICAL_SYNC_AND_PO_ADOPTION_PENDING',current_findings=[],postgen_review=receipt.relative_to(ROOT).as_posix(),actual_render=dict(feed333=11,main640=11,mobile390CSS=11,reader_desktop=True,reader_mobile=True),qualification='Browser CSS-width390 review, not physical-device/native-market/independent/PO/live certification. Screenshot bitmap bounds do not equal CSS viewport; exact pixel mapping not certified.');put(OUT/'manifest.json',m)
+r=dict(revision='b16-f2-c3-complete-actual-postgen-v1',gate_id='MSG-ANCHOR-01 + AD-ED-01',stage='POSTGEN_ARTIFACT',reviewer='/root',independence='SELF_REVIEW',artifact_verdict='PASS_SELF_REVIEW',editorial_verdict='EDITORIAL_QA_PASS',message_anchor='MESSAGE_ANCHOR_PASS',execution='SUCCESS',independent_audit='NOT_PERFORMED',anchor=ref(ROOT/'operations/Vy_Email_Content_Anchor.md'),anchor_revision='1.0',original_email=ref(ROOT/'operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md'),segment='FDI',persona=s['A2'],locale='en',route=load(BASE/'dispatch-plan.json')['route'],counts=dict(selected=11,original=7,corrective=3,reused=4,actual_calls=10),authorization=ref(BASE/'actual-corrective-f2-a5-c3-review.json'),historical_hold=ref(BASE/'postgen-review.json'),closure=dict(card_id='F2-A5',source_hierarchy='CLOSED',current_call='B16_F2_A5_C3',evidence=['native source visibly larger than body','feed-6.png','main-6.png','mobile-6.png'],observation='C3 larger source preserves every approved word, full ERP/MES context and CTA, no arrow; no cross-card regression observed.'),subjects=dict(manifest=ref(OUT/'manifest.json'),copy=ref(OUT/'selected-copy.json'),prompts=ref(OUT/'selected-prompts.json'),viewer=ref(OUT/'index.html'),reader=ref(OUT/'case-reader.html'),script_review=ref(BASE/'semantic-review.json'),proof=ref(BASE/'proof-source-mapping.json'),vietnam_service=ref(BASE/'vietnam-team-source.json')),anchor_review={k:s[k] for k in ['A1','A2','A3','A4','A5','A6','A7']},unit_review=unit,transitions=[dict(transition=t,verdict='PASS_SELF_REVIEW',observation='Actual selected cards/captions/reader keep same Operations/SCM demand-change planning context; China case remains qualitative outsourcing/integrated-solution context; no Vietnam deployment or exact forecasting proof implied.') for t in s['transition_review']],render=dict(coverage=ref(BASE/'render-repair-v3/capture-dom.json'),screenshots=render,feed333=11,main640=11,mobile390CSS=11,mobile_heights=[844,900],reader_mobile_heights=[844,923],reader_return='ACTUALLY_CLICKED_DESKTOP_AND_MOBILE',capture_recovery='Several screenshot timeouts retained as observed failures; own tab recreation and taller viewport390x900 recovered card9;390x923 recovered reader bottom. No artwork changes to cure capture.',precision='CSS390 browser evidence is actual. PNG bitmap414x937/400x1000/etc and CSS viewport have different bounds; no exact physical-pixel/device mapping certification.'),findings=[],git=dict(head='461a752f1aab7add8f21dfb5652d5e1097aa2247',current='UNCOMMITTED_LOCAL_FILES',main_merge=False,push=False),docs='Owned docs-impact update proposed; shared canonical status sync pending coordinator before promotion/adoption. No shared writes.',stop='B17 untouched, B18 not run, no commit/main/push/live.')
+put(receipt,r)
+put(BASE/'verification-repair-v3.json',dict(revision='b16-c3-complete-mechanical-verification-v1',frozen_pins_unchanged=24,raw_selected_verified=11,attempts=calls,render_capture_count=len(render),postgen=ref(receipt),png_transformations=0,zip=False,scope='Mechanical hashes and dimensions; semantic/artwork judgments are actual root SELF_REVIEW in receipt.'))
+ledger=load(LANE/'ledger.json');ledger['revision']='fabless-b16-completed-c3-b17-hold';ledger['current_actual_calls']=13;ledger['lane_cumulative_calls']=58;ledger['remaining_queue']='B17 remaining originals HOLD; B18-B21 NOT_RUN'
+for x in ledger['current_batches']:
+ if x['batch']=='B16':x.update(status='PASS_SELF_REVIEW_CANONICAL_SYNC_PENDING',counts=r['counts'],postgen=ref(receipt),verification=ref(BASE/'verification-repair-v3.json'))
+put(LANE/'ledger.json',ledger)
+(OUT/'README.md').write_text('# B16 F2 English v2\n\n11 selected native1254PNG:7original+4same-locale reuse;10ImageGen calls=7original+3corrective. C3 F2-A5 source hierarchy closed native/feed/main/mobile. Root content/artwork MESSAGE_ANCHOR_PASS / EDITORIAL_QA_PASS / PASS_SELF_REVIEW. All11 current feed333/main640/mobileCSS390 and reader desktop/mobile/return observed. Mobile heights vary844/900,reader923; exact physical pixel mapping/native-market/independent/PO/live certification not asserted. Historical holds retained. Canonical status sync/adoption pending; uncommitted local files, no main/push. See owned postgen-review-repair-v3.json, selected-copy.json and selected-prompts.json; built-in ImageGen only, raw PNG unchanged.\n','utf-8')
+(BASE/'Bao_Review_Repair_Vietnamese.md').write_text('# B16 F2 — sửa hoàn tất\n\nF2-A5 C3: nguồn Digiwin Taiwan + ERP/MES giữ nguyên chữ, tăng thành5dòng lớn hơn body; CTA không mũi tên. Lỗi nguồn CLOSED ở native/feed333/main640/mobile390CSS. Đủ11card =1cold+6explanation+4proof, giữ card tư vấn/triển khai VN. 7lượt gốc+3corrective,4reuse byte gốc;10calls cả batch.\n\nHậu kiểm content/ảnh PASS_SELF_REVIEW; anchor/editorial pass trong đúng bộ hiện tại. Đủ11capturefeed/main/mobile; reader English desktop/mobile và return đã xem/click. Card9 mobile dùng390x900 sau timeout, các card khác390x844; reader cuối390x923. Không chứng nhận pixel vật lý thiết bị, native-market/independent/PO/live. Canonical sync/adoption còn chờ coordinator; B17 hold giữ nguyên. Chưa commit/main/push.\n','utf-8')
+with (LANE/'docs-impact.md').open('a',encoding='utf-8') as f:f.write('\n\n# Current B16 C3 completion — supersedes B16 hold only\n\nNew PO mandate “Chạy sửa để hậu kiểm cho B16 pass đi codex” authorizes necessary C3 repair. B16 English F2 v2 now11selected=7new+4same-locale rawreuse;10actual calls=7original+3corrective. F2-A5 source CLOSED native/feed333/main640/mobileCSS390. Actual content/artwork/anchor/editorial PASS_SELF_REVIEW; all11 current feed/main/mobile and full reader desktop/mobile/return observed. CSS390 mobile heights844/900,reader923; exact physical-pixel/device mapping and independent/native-market/PO/live certification not claimed. Capture timeout recovery retained; historical hold receipt unchanged. B17 hold and B18 not run unchanged.\n\nDocs impact reviewed: shared canonical current-progress refresh proposal required before promotion/adoption. Coordinator should update current Fabless row in CURRENT_STATE/current-progress/Build Pack/readiness to this narrow status/count and uncommitted local Git state, using B16 postgen-review-repair-v3.json/verification-repair-v3.json and v2manifest. Existing canon describes prior dated snapshots, not B16 adoption. No source/claim/strategy/budget/audience/anchor/frozen/adapter decision changed; frozen24 unchanged, adapter DEVELOPING/NOT_FROZEN. No shared canon write under exclusive lane ownership. All current files uncommitted, no main/push/live; prior461a752 remains B14/B15 local checkpoint.\n')
+print('B16 complete:11 raw PNGs,10 actual calls,33 card captures plus4reader captures;24frozen pins unchanged. PASS_SELF_REVIEW; canonical/adoption pending.')

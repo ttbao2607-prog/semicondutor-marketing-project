@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "revision": "b13-proof-closing-contract-v2-layout-v3",
+  "locale": "en",
+  "channel": "linkedin-carousel",
+  "copy": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/public-copy.json",
+    "sha256": "58ea1bb1131d18686ad273ef7fa14bb987fd4bdf3892ed266b39597a67b94ddc",
+    "revision": "b13-proof-en-copy-v1"
+  },
+  "sources": [
+    {
+      "path": "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/bright/source.json",
+      "sha256": "5b4a23dcce8174803352a50c9baa552e0cbe5e4bc250f3a7a18f91e7a1ead47a",
+      "revision": "b13-exact-source-v1"
+    },
+    {
+      "path": "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/bright/copy.json",
+      "sha256": "a7d8898b78254d651a5cf86847d860b9940e5eb5433eead3b2d4cf460156545d",
+      "revision": "b13-exact-source-v1"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof-source-mapping.json",
+      "sha256": "dd6b951f876918890693e5b90d64850b67b84c19f9aa6c6ccf25e7c10d544a25",
+      "revision": "b13-exact-source-v1"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/execution-brief.md",
+      "sha256": "ad41950cd773ea6b1ea63f58c90cafe81735eae390ba406ad0aff4fd868345e4",
+      "revision": "b13-execution-brief-v1"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/remaining-layout-review.json",
+      "sha256": "fa08fa88a873b7305e258b10fbee77b0973dda5bbee21c206a20914770c869ce",
+      "revision": "b13-remaining-layout-self-review-v3"
+    }
+  ],
+  "card_sources": {
+    "RMK-BRIGHT-1": [
+      "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/bright/source.json",
+      "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/bright/copy.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof-source-mapping.json"
+    ],
+    "RMK-BRIGHT-2": [
+      "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/bright/source.json",
+      "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/bright/copy.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof-source-mapping.json"
+    ],
+    "RMK-BRIGHT-3": [
+      "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/bright/source.json",
+      "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/bright/copy.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof-source-mapping.json"
+    ],
+    "RMK-BRIGHT-4": [
+      "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/bright/source.json",
+      "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/bright/copy.json",
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof-source-mapping.json"
+    ]
+  },
+  "ad_order": [
+    "RMK-BRIGHT"
+  ],
+  "card_order": {
+    "RMK-BRIGHT": [
+      "RMK-BRIGHT-1",
+      "RMK-BRIGHT-2",
+      "RMK-BRIGHT-3",
+      "RMK-BRIGHT-4"
+    ]
+  },
+  "surfaces": {
+    "RMK-BRIGHT": [
+      {
+        "surface_id": "full-feed",
+        "reading_order": [
+          "caption",
+          "RMK-BRIGHT-1.headline",
+          "RMK-BRIGHT-1.body",
+          "RMK-BRIGHT-1.source_text",
+          "RMK-BRIGHT-1.cta",
+          "RMK-BRIGHT-1.native_headline",
+          "RMK-BRIGHT-1.alt",
+          "RMK-BRIGHT-1.artwork_labels",
+          "RMK-BRIGHT-2.headline",
+          "RMK-BRIGHT-2.body",
+          "RMK-BRIGHT-2.source_text",
+          "RMK-BRIGHT-2.cta",
+          "RMK-BRIGHT-2.native_headline",
+          "RMK-BRIGHT-2.alt",
+          "RMK-BRIGHT-2.artwork_labels",
+          "RMK-BRIGHT-3.headline",
+          "RMK-BRIGHT-3.body",
+          "RMK-BRIGHT-3.source_text",
+          "RMK-BRIGHT-3.cta",
+          "RMK-BRIGHT-3.native_headline",
+          "RMK-BRIGHT-3.alt",
+          "RMK-BRIGHT-3.artwork_labels",
+          "RMK-BRIGHT-4.headline",
+          "RMK-BRIGHT-4.body",
+          "RMK-BRIGHT-4.source_text",
+          "RMK-BRIGHT-4.cta",
+          "RMK-BRIGHT-4.native_headline",
+          "RMK-BRIGHT-4.alt",
+          "RMK-BRIGHT-4.artwork_labels"
+        ]
+      }
+    ]
+  },
+  "definitions": {
+    "OSAT": "outsourced semiconductor packaging and testing",
+    "Fabless": "chip design without an owned fabrication plant",
+    "WIP": "work in process"
+  },
+  "limits": {
+    "caption": 255,
+    "headline": 45,
+    "body": 180,
+    "source_text": 200,
+    "cta": 70,
+    "native_headline": 45,
+    "alt": 200,
+    "artwork_labels": 70
+  },
+  "groups": [
+    [
+      "RMK-BRIGHT-1"
+    ],
+    [
+      "RMK-BRIGHT-2"
+    ],
+    [
+      "RMK-BRIGHT-3"
+    ],
+    [
+      "RMK-BRIGHT-4"
+    ]
+  ],
+  "reuse_fields": [
+    "headline",
+    "body",
+    "source_text",
+    "cta",
+    "native_headline",
+    "alt",
+    "artwork_labels"
+  ],
+  "references": [
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-1.png",
+      "sha256": "7d740c1687153ca67521edb17002cd8feb265120863ea903c669b4c6e3914f36",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/r2-2.png",
+      "sha256": "c5f3e3a095b248e6a7ab2046354b34a058bbd4c8151c7ac1488dd817cb993a74",
+      "revision": "681a237fabcf9635f9a867b76fb5939604a5155a",
+      "role": "campaign_visual",
+      "attributes": [
+        "colors",
+        "lighting",
+        "shadows",
+        "material_depth",
+        "typography_hierarchy",
+        "campaign_identity",
+        "scene_diagram_integration"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+      "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+      "revision": "1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f",
+      "role": "brand_asset",
+      "attributes": [
+        "brand_mark"
+      ]
+    },
+    {
+      "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/references/po-accepted-closing-b.png",
+      "sha256": "016b69513d28bee0ab1b371e4ff5c8f4a86acb531a40125d72785622b01a7416",
+      "revision": "po-closing-standard-2026-10-03-v1",
+      "role": "closing_layout",
+      "attributes": [
+        "cta_separation",
+        "layout_hierarchy",
+        "source_body_hierarchy",
+        "source_full_width"
+      ]
+    }
+  ],
+  "style": {
+    "brand": "Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs",
+    "palette": [
+      "white",
+      "#0052FF",
+      "#0B132B",
+      "#00B4D8",
+      "charcoal"
+    ],
+    "lighting": "bright neutral daylight with soft grounded shadows",
+    "avoid": [
+      "neon",
+      "dark mode",
+      "human faces",
+      "fabricated metrics identifiers dates statuses or results",
+      "customer marks or facility evidence",
+      "unreviewed capability or outcome claims",
+      "reference wording record values props or exact composition",
+      "printed caption native headline alt or internal notes",
+      "extra wording beyond approved artwork text and official brand mark"
+    ],
+    "campaign": {
+      "revision": "campaign-r2-hybrid-full-v1-parent-review-pending",
+      "instructions": "International English. Bright white and pale blue R2 photographic material depth, grounded daylight shadows, navy/blue large type, authentic official supplied Digiwin mark once. Cohort-appropriate illustrative chip-design/outsourcing management; no owned fab, customer facility, faces, screens, technical chip data, charts, ticks or fabricated records. Print only the exact approved artwork text. Caption/native headline/alt stay outside raster. Category and sequence distinct from source. Headline dominant; body comfortably readable at333px. Source must be a full-width WHITE main paragraph, at least body-sized (about56native pixels on1080), high-contrast navy, generous space for the full legal name. Reduce scene before source typography. No tiny footer, source icon column, divider or unapproved punctuation. English international business voice; no inherited Vietnamese wording. Exact reviewed category and sequence near logo; no extra DIGIWIN label. MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning."
+    },
+    "closing": {
+      "revision": "po-closing-b-structural-guide-v1",
+      "instructions": "Transfer reviewed B source-after-image structural hierarchy ONLY. Keep complete body separate; exact source once as full-width main paragraph at least body-sized, comfortable nozoom317–333px; CTA separate. Reduce photo before font. No skyline/icon column/footer, copied words/data/props/fixed counts. Cohort-appropriate grounded scene and exact approved artwork only.",
+      "reference": {
+        "path": "operations/linkedin-imagegen-dogfood/closing-standard-harness-2026-10-03/references/po-accepted-closing-b.png",
+        "sha256": "016b69513d28bee0ab1b371e4ff5c8f4a86acb531a40125d72785622b01a7416",
+        "revision": "po-closing-standard-2026-10-03-v1"
+      },
+      "cards": [
+        "RMK-BRIGHT-4"
+      ]
+    }
+  },
+  "output": {
+    "directory": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/release-v3/closing/native",
+    "extension": ".png",
+    "policy": "native_square_min",
+    "min_edge": 1080
+  }
+}

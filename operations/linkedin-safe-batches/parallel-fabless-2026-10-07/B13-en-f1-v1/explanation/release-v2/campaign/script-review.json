@@ -1,0 +1,162 @@
+{
+  "revision": "b13-explanation-campaign-script-v1",
+  "gate_id": "AD-ED-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "copy_sha256": "a61c7e758741beb4957ce496eb252db6a121b1c0512d5bb232132c15e3be3005",
+  "reviewed_ads": [
+    "F1-A"
+  ],
+  "reviewed_fields": {
+    "F1-A": [
+      "caption",
+      "F1-A1.headline",
+      "F1-A1.body",
+      "F1-A1.source_text",
+      "F1-A1.cta",
+      "F1-A1.native_headline",
+      "F1-A1.alt",
+      "F1-A1.artwork_labels",
+      "F1-A2.headline",
+      "F1-A2.body",
+      "F1-A2.source_text",
+      "F1-A2.cta",
+      "F1-A2.native_headline",
+      "F1-A2.alt",
+      "F1-A2.artwork_labels",
+      "F1-A3.headline",
+      "F1-A3.body",
+      "F1-A3.source_text",
+      "F1-A3.cta",
+      "F1-A3.native_headline",
+      "F1-A3.alt",
+      "F1-A3.artwork_labels",
+      "F1-A4.headline",
+      "F1-A4.body",
+      "F1-A4.source_text",
+      "F1-A4.cta",
+      "F1-A4.native_headline",
+      "F1-A4.alt",
+      "F1-A4.artwork_labels",
+      "F1-A5.headline",
+      "F1-A5.body",
+      "F1-A5.source_text",
+      "F1-A5.cta",
+      "F1-A5.native_headline",
+      "F1-A5.alt",
+      "F1-A5.artwork_labels"
+    ]
+  },
+  "BRAND_ROLE": {
+    "verdict": "PASS",
+    "observation": "Each raster has official Digiwin mark once. Cold ERP role and category distinct; explanation category states chip operations. Proof category identifies case. Source Digiwin Taiwan/Vietnam names and digiwin.com.vn serve publisher provenance, not a redundant header brand. Reader identifies source publication, not third-person supplier praise. No repeated extra DIGIWIN header expected."
+  },
+  "ADVERTISER_VOICE": {
+    "verdict": "PASS",
+    "observation": "Captions use We provide; proof1 We develop and provide. Explanations address operations directly. Bright remains third-person customer. Publisher names are source attribution; no Digiwin shares/success-praise narration, no invented testimonial, no internal disclaimer on artwork."
+  },
+  "independence": "SELF_REVIEW",
+  "per_card_observations": [
+    {
+      "stage": "explanation",
+      "card_id": "F1-A1",
+      "native_headline": "Partner reports. A clear view of each lot?",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "scene": "Separate blank partner reports beside a wafer protective carrier, with open neutral paths expressing the unanswered stage question. Illustrative outsourced-production context, no owned fabrication facility. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only.",
+      "source_scope": "Source-bound management questions; Taiwan ERP/MES publication context on closing; not Vietnam ERP-only capability.",
+      "observation": "We provide manufacturing ERP solutions. Fabless means chip design without an owned fabrication plant. Operations teams: align lot reports and responsibilities across production partners. | Partner reports. A clear view of each lot? | Before planning the next step, check which process stage each partner report describes. |  |  | Illustration: Partner reports. A clear view of each lot? | ['ERP · CHIP OPERATIONS', '1/5']"
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F1-A2",
+      "native_headline": "Start with the product and lot.",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "scene": "Close physical comparison of a neutral chip product sample and two blank partner record surfaces. Restrained physical linking paths show correspondence to be checked; no technical IDs, dates or test values. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only.",
+      "source_scope": "Source-bound management questions; Taiwan ERP/MES publication context on closing; not Vietnam ERP-only capability.",
+      "observation": "We provide manufacturing ERP solutions. Fabless means chip design without an owned fabrication plant. Operations teams: align lot reports and responsibilities across production partners. | Start with the product and lot. | Check the product and lot references. Agree how each partner identifies production periods and test classifications. |  |  | Illustration: Start with the product and lot. | ['ERP · CHIP OPERATIONS', '2/5']"
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F1-A3",
+      "native_headline": "Which stage does this report describe?",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "scene": "Oblique tabletop with wafer protective carrier, neutral unlabelled stage nodes and a detached blank report surface. Open paths express stage, report time and source questions, not a confirmed production state. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only.",
+      "source_scope": "Source-bound management questions; Taiwan ERP/MES publication context on closing; not Vietnam ERP-only capability.",
+      "observation": "We provide manufacturing ERP solutions. Fabless means chip design without an owned fabrication plant. Operations teams: align lot reports and responsibilities across production partners. | Which stage does this report describe? | Identify the process stage, when the status was recorded and which partner report supports it. |  |  | Illustration: Which stage does this report describe? | ['ERP · CHIP OPERATIONS', '3/5']"
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F1-A4",
+      "native_headline": "Who keeps the shared view current?",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "scene": "Two distinct coordination surfaces connected through a shared blank record surface; an unlabelled neutral owner token suggests responsibility to agree. No completed approval, automatic update or product connector. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only.",
+      "source_scope": "Source-bound management questions; Taiwan ERP/MES publication context on closing; not Vietnam ERP-only capability.",
+      "observation": "We provide manufacturing ERP solutions. Fabless means chip design without an owned fabrication plant. Operations teams: align lot reports and responsibilities across production partners. | Who keeps the shared view current? | Agree the report format, exchange schedule and owner who confirms each production update. |  |  | Illustration: Who keeps the shared view current? | ['ERP · CHIP OPERATIONS', '4/5']"
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F1-A5",
+      "native_headline": "Give the next decision a shared basis.",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "scene": "Compact low physical platform with blank partner report and neutral chip sample; open relationship path supports a shared discussion. Leave a large dedicated full-width source paragraph beneath scene. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only.",
+      "source_scope": "Source-bound management questions; Taiwan ERP/MES publication context on closing; not Vietnam ERP-only capability.",
+      "observation": "We provide manufacturing ERP solutions. Fabless means chip design without an owned fabrication plant. Operations teams: align lot reports and responsibilities across production partners. | Give the next decision a shared basis. | Bring lot, stage, report time and update ownership into the same discussion. | Digiwin Taiwan semiconductor solution material:\nERP and MES for management and production. | Explore outsourced-production questions | Illustration: Give the next decision a shared basis. | ['ERP · CHIP OPERATIONS', '5/5']"
+    }
+  ],
+  "reader_script": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/reader-script.json",
+    "sha256": "ae60dc4386d512a52efa95af02a6b301d7903b3e40af1daf126fee2a2e025715",
+    "revision": "b13-reader-en-v1"
+  },
+  "actual_review_ref": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/semantic-review.json",
+    "sha256": "02bd36f450c92cfe4088abd31851ba357afad56044002ff006016b249fdf5853",
+    "revision": "b13-root-actual-script-review-v2"
+  },
+  "postgen": "POSTGEN_NOT_RUN"
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "revision": "b14-cold-fabless-b14-source-review-v1",
+  "writer": "/root",
+  "reviewer": "/root",
+  "date": "2026-10-07",
+  "scope": "OFFLINE_SOURCE_COPY",
+  "independence": "SELF_REVIEW",
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/release/cold-fabless-b14/contract.json",
+      "sha256": "07c85cdbe685951abb122fc45e54450b2fc93e4cfa8271f1efa45c1869970a42",
+      "revision": "b14-cold-fabless-b14-contract-v1"
+    },
+    "copy": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/cold/public-copy.json",
+      "sha256": "6156b13c1ccdb1464bdcdb46fdb166c60af905744347db5bd9d5849cb8954c8d",
+      "revision": "b14-cold-zh-Hans-copy-v1"
+    },
+    "sources": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/execution-brief.md",
+        "sha256": "acd570768df790dbcd8c863db13ee87022ba135a25cbf4bdeb1dfd4045326b49",
+        "revision": "b14-brief-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/proof-source-mapping.json",
+        "sha256": "cdfb5888a5d436b7c9544ba342e1202b59521318a0f7329fdaeed8aab59b73e9",
+        "revision": "b14-proof-map-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/vietnam-team-source.json",
+        "sha256": "4dd9ad85cb7f78e04ea0f666899b83f7e005f945c0c4ed3502c29476a91d4e67",
+        "revision": "b14-vietnam-team-source-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/next-locales-authored-input.json",
+        "sha256": "2353f8b6274ed9eb45ad254740a914205ca1ca36749395f4fd5443fefcd32784",
+        "revision": "b14-b15-f1-actual-authored-copy-v1"
+      },
+      {
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/selected-copy.json",
+        "sha256": "dd81344218d7c39669e134ffdd6f6e971ef63415133b1f094340cc7c2fa87f1d",
+        "revision": "b13-review-copy-v5-six-explanation"
+      },
+      {
+        "path": "operations/linkedin-locale-adapter/profiles.json",
+        "sha256": "1b0105ed92ef866fb7a5796aefcdfb9d8e9d9683c72f4257295e80a06653a6cd",
+        "revision": "locale-adapter-draft-2026-10-06-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/semantic-review.json",
+        "sha256": "f6160ae9c4579be934c26ed0306d47fc6900c64ad4cc9d229e6cff319a535080",
+        "revision": "b14-zh-hans-actual-root-script-review-v1"
+      }
+    ]
+  },
+  "verdicts": {
+    "source_copy": "PASS",
+    "editorial": "PASS",
+    "first_mention": "PASS"
+  },
+  "reviewed_ads": [
+    "B14-COLD"
+  ],
+  "reviewed_fields": [
+    "B14-COLD/caption",
+    "B14-COLD/COLD-FABLESS-B14.headline",
+    "B14-COLD/COLD-FABLESS-B14.body",
+    "B14-COLD/COLD-FABLESS-B14.source_text",
+    "B14-COLD/COLD-FABLESS-B14.cta",
+    "B14-COLD/COLD-FABLESS-B14.native_headline",
+    "B14-COLD/COLD-FABLESS-B14.alt",
+    "B14-COLD/COLD-FABLESS-B14.artwork_labels"
+  ],
+  "unresolved_findings": []
+}

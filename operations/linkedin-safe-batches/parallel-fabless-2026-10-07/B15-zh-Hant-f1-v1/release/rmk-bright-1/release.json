@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "revision": "b15-rmk-bright-1-release-v1",
+  "authorizer": "/root recording explicit PO B14/B15 mandate",
+  "authority_ref": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/generation-mandate.json",
+    "sha256": "a8620f9686eba19fcc89fdddcd5bb049677786e330dcb72103455fed5c61e9a7",
+    "revision": "b15-po-two-batch-mandate-v1"
+  },
+  "purpose": "OFFLINE_IMAGEGEN",
+  "contract": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/rmk-bright-1/contract.json",
+    "sha256": "04e0ba20b870c195c950e60751e523e3d46ef469f0d9b4bbbfb9d5ef8ce0137d",
+    "revision": "b15-rmk-bright-1-contract-v1"
+  },
+  "copy": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/proof/public-copy.json",
+    "sha256": "7680ebd7f01a8b2ee792c532c2a15690da992f1222eb130ac4b4a189672300ad",
+    "revision": "b15-proof-zh-Hant-copy-v1"
+  },
+  "review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v1/release/rmk-bright-1/review.json",
+    "sha256": "e97acc3c5f02e44c8df13827adf6fff52b2e6877b7b0858779e89c3a43bc163f",
+    "revision": "b15-rmk-bright-1-source-review-v1"
+  },
+  "groups": [
+    [
+      "RMK-BRIGHT-1"
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "revision": "b13-canary-actual-v1",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "cards": ["RMK-BRIGHT-2 corrective1", "F1-A5 original"],
+  "native": "Exact copy/category/source/sequence/mark inspected. Bright2 source publisher body-sized and no skyline after corrective. F1A5 source and CTA complete.",
+  "browser": {"url":"http://127.0.0.1:8766/canary.html", "actual_viewport":{"width":390,"height":844}, "image_width":333, "loaded":2, "overflow":false, "evidence":"evidence/canary-mobile390.png"},
+  "render_observation": "Both images readable at actual333px in measured390viewport; no clipping. Bright2 full legal name/source visible, publisher body-sized. F1A5 full2line source and CTA readable. Initial requested390 returned434due browser scale; adjusted351request measured390. Only final measured390 screenshot supports mobile gate.",
+  "visual_fidelity_observations": ["Neutral paper bands on both images, no numeric/label/data content.","F1A5 generated unlabelled document/chip/team glyph panels instead of plain compact platform; communicate shared discussion, no automated result assertion. Retained as observation pending PO visual review."],
+  "continuation": "CANARY_NATIVE_AND_FEED_MOBILE_REVIEWED; continue remaining authorized B13 originals. Whole-journey/render acceptance pending.",
+  "counts": {"original":2,"corrective":1},
+  "browser_cleanup": "viewport reset; own tab closed; owned server stopped; own lock released"
+}

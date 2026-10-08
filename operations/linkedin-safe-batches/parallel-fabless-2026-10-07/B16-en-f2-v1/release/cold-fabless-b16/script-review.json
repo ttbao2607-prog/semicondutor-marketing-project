@@ -1,0 +1,77 @@
+{
+  "revision": "b16-cold-fabless-b16-script-v1",
+  "gate_id": "AD-ED-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "copy_sha256": "b05c79b8c18636d639da94a801d49bc4e5a8132a36b81365a2b6362f59d8556e",
+  "reviewed_ads": [
+    "B16-COLD"
+  ],
+  "reviewed_fields": {
+    "B16-COLD": [
+      "caption",
+      "COLD-FABLESS-B16.headline",
+      "COLD-FABLESS-B16.body",
+      "COLD-FABLESS-B16.source_text",
+      "COLD-FABLESS-B16.cta",
+      "COLD-FABLESS-B16.native_headline",
+      "COLD-FABLESS-B16.alt",
+      "COLD-FABLESS-B16.artwork_labels"
+    ]
+  },
+  "BRAND_ROLE": {
+    "verdict": "PASS",
+    "observation": "Official supplied Digiwin mark once; functional category/counter distinct from attributed source. Supplier, customer and Taiwan/Vietnam provenance remain separate."
+  },
+  "ADVERTISER_VOICE": {
+    "verdict": "PASS",
+    "observation": "English We provide/We develop and provide/Work with our team; Hans 我们提供/我们开发并提供/与我们在越南的团队. Neutral planning questions, no third-person supplier praise or invented quote."
+  },
+  "independence": "SELF_REVIEW",
+  "per_card_observations": [
+    {
+      "stage": "cold",
+      "card_id": "COLD-FABLESS-B16",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "COLD-FABLESS-B16",
+        "headline": "Demand changed. Which lots need a review?",
+        "body": "Before replanning, check the product, planning period and partner lot reports.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Demand changed. Which lots need a review?",
+        "alt": "Illustration: Demand changed. Which lots need a review?",
+        "artwork_labels": [
+          "Fabless planning",
+          "Manufacturing ERP"
+        ]
+      },
+      "caption": "We provide manufacturing ERP (enterprise resource planning). Fabless (chip design without owning a fabrication plant) planning teams: demand changed. Which partner lot reports need review before replanning?",
+      "scene": "Bright neutral desk, blank partner report sheets beside a wafer protective carrier; separate sheets represent reports to reconcile, not actual statuses or forecast charts. Demand-change planning hook; blank paper only. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+      "observation": "Actual root authored/reviewed F2 scope: Demand changed. Which lots need a review?; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result.",
+      "source_scope": "Planning questions or separate local Vietnam consultation",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/assets/01-cold-fabless-b13.png",
+      "reused": false
+    }
+  ],
+  "reader_script": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/reader-script.json",
+    "sha256": "eeb03b6ca49a98384a1eac67893e0b4b0c70adc9588cb8bc6a68ebecc53220b7",
+    "revision": "b16-f2-reader-v1"
+  },
+  "actual_review_ref": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/semantic-review.json",
+    "sha256": "42f50ea8b4d790fee03c533d820cd0ef17959e6fabee679a3fbc6770ba95d707",
+    "revision": "b16-actual-f2-root-script-review-v1"
+  },
+  "postgen": "POSTGEN_NOT_RUN"
+}

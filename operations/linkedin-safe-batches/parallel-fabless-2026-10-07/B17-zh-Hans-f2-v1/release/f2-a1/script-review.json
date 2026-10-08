@@ -1,0 +1,277 @@
+{
+  "revision": "b17-f2-a1-script-v1",
+  "gate_id": "AD-ED-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "copy_sha256": "e18e036c6b6eee16bb52e9879d33db1f8954e11fa056f602200d2a641d0b46f0",
+  "reviewed_ads": [
+    "F2-A"
+  ],
+  "reviewed_fields": {
+    "F2-A": [
+      "caption",
+      "F2-A1.headline",
+      "F2-A1.body",
+      "F2-A1.source_text",
+      "F2-A1.cta",
+      "F2-A1.native_headline",
+      "F2-A1.alt",
+      "F2-A1.artwork_labels",
+      "F2-A2.headline",
+      "F2-A2.body",
+      "F2-A2.source_text",
+      "F2-A2.cta",
+      "F2-A2.native_headline",
+      "F2-A2.alt",
+      "F2-A2.artwork_labels",
+      "F2-A3.headline",
+      "F2-A3.body",
+      "F2-A3.source_text",
+      "F2-A3.cta",
+      "F2-A3.native_headline",
+      "F2-A3.alt",
+      "F2-A3.artwork_labels",
+      "F2-A4.headline",
+      "F2-A4.body",
+      "F2-A4.source_text",
+      "F2-A4.cta",
+      "F2-A4.native_headline",
+      "F2-A4.alt",
+      "F2-A4.artwork_labels",
+      "F2-A5.headline",
+      "F2-A5.body",
+      "F2-A5.source_text",
+      "F2-A5.cta",
+      "F2-A5.native_headline",
+      "F2-A5.alt",
+      "F2-A5.artwork_labels",
+      "F2-A6.headline",
+      "F2-A6.body",
+      "F2-A6.source_text",
+      "F2-A6.cta",
+      "F2-A6.native_headline",
+      "F2-A6.alt",
+      "F2-A6.artwork_labels"
+    ]
+  },
+  "BRAND_ROLE": {
+    "verdict": "PASS",
+    "observation": "Official supplied Digiwin mark once; functional category/counter distinct from attributed source. Supplier, customer and Taiwan/Vietnam provenance remain separate."
+  },
+  "ADVERTISER_VOICE": {
+    "verdict": "PASS",
+    "observation": "English We provide/We develop and provide/Work with our team; Hans 我们提供/我们开发并提供/与我们在越南的团队. Neutral planning questions, no third-person supplier praise or invented quote."
+  },
+  "independence": "SELF_REVIEW",
+  "per_card_observations": [
+    {
+      "stage": "explanation",
+      "card_id": "F2-A1",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "F2-A1",
+        "headline": "需求预测变了，哪些批次相关？",
+        "body": "先明确需求变化涉及哪些委外批次，再与生产合作伙伴讨论计划。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "需求预测变了，哪些批次相关？",
+        "alt": "示意图：需求预测变了，哪些批次相关？",
+        "artwork_labels": [
+          "ERP · 芯片运营",
+          "1/6"
+        ]
+      },
+      "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)计划团队：核对需求变化与委外批次报告，为下一步计划讨论准备共同依据。",
+      "scene": "Bright neutral desk, blank partner report sheets beside a wafer protective carrier; separate sheets represent reports to reconcile, not actual statuses or forecast charts. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+      "observation": "Actual root authored/reviewed F2 scope: 需求预测变了，哪些批次相关？; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result.",
+      "source_scope": "Planning questions or separate local Vietnam consultation",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/02-f1-a1.png",
+      "reused": false
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F2-A2",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "F2-A2",
+        "headline": "先核对产品与计划期间。",
+        "body": "明确需求变化涉及的产品、计划期间与委外批次范围。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "先核对产品与计划期间。",
+        "alt": "示意图：先核对产品与计划期间。",
+        "artwork_labels": [
+          "ERP · 芯片运营",
+          "2/6"
+        ]
+      },
+      "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)计划团队：核对需求变化与委外批次报告，为下一步计划讨论准备共同依据。",
+      "scene": "A neutral packaged chip and small lot trays beside blank report sheets; product and lot scope are illustrative, no printed identifiers or technical layouts. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+      "observation": "Actual root authored/reviewed F2 scope: 先核对产品与计划期间。; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result.",
+      "source_scope": "Planning questions or separate local Vietnam consultation",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/03-f1-a2.png",
+      "reused": false
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F2-A3",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "F2-A3",
+        "headline": "这个批次状态何时记录？",
+        "body": "结合报告时间与来源核对批次状态，再用于计划讨论。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "这个批次状态何时记录？",
+        "alt": "示意图：这个批次状态何时记录？",
+        "artwork_labels": [
+          "ERP · 芯片运营",
+          "3/6"
+        ]
+      },
+      "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)计划团队：核对需求变化与委外批次报告，为下一步计划讨论准备共同依据。",
+      "scene": "Separate blank partner reports and neutral wafer protective carrier; differing report sources are abstract, no dates, status values, clock faces or technical UI. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+      "observation": "Actual root authored/reviewed F2 scope: 这个批次状态何时记录？; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result.",
+      "source_scope": "Planning questions or separate local Vietnam consultation",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/04-f1-a3.png",
+      "reused": false
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F2-A4",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "F2-A4",
+        "headline": "还需向合作伙伴确认什么？",
+        "body": "列出缺失信息，以及负责向各生产合作伙伴确认的人员，再讨论调整。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "还需向合作伙伴确认什么？",
+        "alt": "示意图：还需向合作伙伴确认什么？",
+        "artwork_labels": [
+          "ERP · 芯片运营",
+          "4/6"
+        ]
+      },
+      "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)计划团队：核对需求变化与委外批次报告，为下一步计划讨论准备共同依据。",
+      "scene": "Blank open folder, neutral chip tray and simple unlabelled responsibility nodes with open connectors; no check marks, completed workflow, screens or record values. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+      "observation": "Actual root authored/reviewed F2 scope: 还需向合作伙伴确认什么？; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result.",
+      "source_scope": "Planning questions or separate local Vietnam consultation",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/05-f1-a4.png",
+      "reused": false
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F2-A5",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "F2-A5",
+        "headline": "让计划调整有共同依据。",
+        "body": "把批次范围、报告来源与确认责任放在同一场计划讨论中。",
+        "source_text": "Digiwin 台湾半导体方案资料：\nERP 经营管理与 MES(制造执行系统) 生产制造。",
+        "cta": "探讨委外生产计划问题",
+        "native_headline": "让计划调整有共同依据。",
+        "alt": "示意图：让计划调整有共同依据。",
+        "artwork_labels": [
+          "ERP · 芯片运营",
+          "5/6"
+        ]
+      },
+      "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)计划团队：核对需求变化与委外批次报告，为下一步计划讨论准备共同依据。",
+      "scene": "Grouped blank partner reports, neutral chip carrier and responsibility nodes on white; a shared discussion basis, no automatic planning engine or results. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+      "observation": "Actual root authored/reviewed F2 scope: 让计划调整有共同依据。; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result.",
+      "source_scope": "Planning questions or separate local Vietnam consultation",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/06-f1-a5.png",
+      "reused": false
+    },
+    {
+      "stage": "explanation",
+      "card_id": "F2-A6",
+      "reviewed_fields": [
+        "caption",
+        "headline",
+        "body",
+        "source_text",
+        "cta",
+        "native_headline",
+        "alt",
+        "artwork_labels"
+      ],
+      "exact_fields": {
+        "card_id": "F2-A6",
+        "headline": "越南本地咨询与实施",
+        "body": "与我们在越南的团队讨论 ERP 咨询与实施。先梳理报告流程、更新责任与项目优先事项。",
+        "source_text": "Digiwin 越南 · ERP 咨询与实施",
+        "cta": "",
+        "native_headline": "越南本地咨询与实施",
+        "alt": "示意图：越南本地咨询与实施",
+        "artwork_labels": [
+          "ERP · 芯片运营",
+          "6/6"
+        ]
+      },
+      "caption": "我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)计划团队：核对需求变化与委外批次报告，为下一步计划讨论准备共同依据。",
+      "scene": "Bright illustrative consultation tabletop with two distinct blank project folios, a neutral chip sample and open blue physical paths between unlabelled responsibility tokens. Generic discussion material, not a customer facility, staff portrait or software UI. Compact scene leaves a large full-width plain white source block, source at least body-sized. No map/flag/skyline/ticks/labels/data/results or fabricated people. New locale zh-Hans: only supplied localized artwork text may be printed; do not inherit English reference labels. All data surfaces blank; no chart, tick, records, values, customer facility or geographic decoration. The original source name remains exact. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+      "observation": "Actual root authored/reviewed F2 scope: 越南本地咨询与实施; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result.",
+      "source_scope": "Planning questions or separate local Vietnam consultation",
+      "reference_artwork": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/07-f1-a6.png",
+      "reused": true
+    }
+  ],
+  "reader_script": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/reader-script.json",
+    "sha256": "b6e81ef74302f19d53f75b402b81c8c47d27022b8c418c8c308444777164f05f",
+    "revision": "b17-f2-reader-v1"
+  },
+  "actual_review_ref": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/semantic-review.json",
+    "sha256": "79d73b73f0eaf4e82ff6a12424867f6d1cbab33c02e2d8c0a2e11b67597097bf",
+    "revision": "b17-actual-f2-root-script-review-v1"
+  },
+  "postgen": "POSTGEN_NOT_RUN"
+}

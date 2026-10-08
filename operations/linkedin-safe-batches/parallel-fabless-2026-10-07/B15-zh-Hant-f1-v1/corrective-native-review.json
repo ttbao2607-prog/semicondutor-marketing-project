@@ -1,0 +1,20 @@
+{
+  "revision": "b15-actual-locale-label-corrective-review-v1",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "scope": "LOCALE_LABEL_ONLY",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "anchor_verdict": "MESSAGE_ANCHOR_PASS",
+  "actual_review": "Root inspected all eleven actual native outputs and full feed333/main640 surfaces plus localized reader. Bright2 category printed 晶片设计案例, contradicting the approved zh-Hant literal 晶片設計案例. Finding is independently visible in native/feed/main pixels. Only the exact source legal name has a Simplified proper-name exception. This single corrective restores the already approved category; no content adaptation, journey, claim, source or audience change. Other ten outputs have no mandatory native/feed/main correction. Compact A1/A5 one-line body is legible in observed feed pixels with no clipping. Full mobile evidence remains insufficient separately.",
+  "cards": [
+    {
+      "card_id": "RMK-BRIGHT-2",
+      "original_sha256": "8ee46ec1432b9d9833757dead7a448d05573a36ecdbb87a852bcb79443be308f",
+      "finding": "MIXED_SCRIPT_CATEGORY",
+      "review": "PASS",
+      "observation": "Replace ONLY the category 设计 with 設計, yielding 晶片設計案例. Preserve 來自中國的晶片設計案例 headline, exact two-sentence body, Digiwin 越南・半導體案例集 attribution, exact source legal name 上海晶丰明源半导体股份有限公司, 2/4, official logo, all props and blank paper. China qualitative digital-solution introduction background remains separate from prospective Vietnam ERP consulting/implementation discussion. No result metrics, ERP-only causal inference, Vietnam Fabless deployment or invented service/team scope."
+    }
+  ],
+  "postgen": "POSTGEN_NOT_RUN_FOR_CORRECTIVE",
+  "full_journey": "Cold -> six practical operational explanation cards including Vietnam consulting/implementation team -> provider introduction -> explicitly attributed China qualitative case -> localized reader. Category restoration changes no semantic transition or source scope. Fresh zh-Hant root review performed; B13/B14 PASS is not inherited. Root SELF_REVIEW only; no independent Taiwan-market certification."
+}

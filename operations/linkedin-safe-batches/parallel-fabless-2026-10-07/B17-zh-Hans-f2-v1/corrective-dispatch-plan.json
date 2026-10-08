@@ -1,0 +1,35 @@
+{
+  "revision": "b17-f2-corrective-plan-v1",
+  "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+  "route": "offline zh-Hans demand-change cold -> F2 planning reconciliation -> Vietnam consulting/implementation -> qualitative China outsourcing case -> localized planning-question reader",
+  "locale": "zh-Hans",
+  "calls": [
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/corrective-v1/f2-a5",
+      "card_id": "F2-A5",
+      "call_id": "B17_F2_A5_C1",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/corrective-v1/f2-a5/native/f2-a5-zh-Hans-c1.png",
+      "release_sha256": "fd4c26521e94adf179737c66a40fe1f2a6f7efa5b136dfbd546ec523ab16c803",
+      "review_sha256": "558ec07b9876dcb1ab028a31b84f332d9110d37dfbea10c0e40dfc5c9fe20cde"
+    },
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/corrective-v2/f2-a5",
+      "card_id": "F2-A5",
+      "call_id": "B17_F2_A5_C2",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/corrective-v2/f2-a5/native/f2-a5-zh-Hans-c2.png",
+      "release_sha256": "a1b0967f2692ab7ee9abf1043c0979b3e3d1d49277bf9cc8d6b1a8ea8bbee781",
+      "review_sha256": "e1f4499df79ede733423e0be140295a8ee49d44d8e6c66ba75e62d9908a4be5e"
+    }
+  ],
+  "corrective_cap": 2,
+  "per_card_corrective_cap": 1,
+  "po_card_exception": {
+    "card_id": "F2-A5",
+    "authorized_corrective_cap": 2,
+    "authorization": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/actual-corrective-f2-a5-c2-review.json",
+      "sha256": "b682befca6b99b470f2949c3d07aa418965745df33aac6e5c790989e6fb29e67",
+      "revision": "b17-f2-a5-c2-root-repair-20261008"
+    }
+  }
+}

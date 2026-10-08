@@ -1,0 +1,34 @@
+{
+ "revision":"b16-b17-f2-actual-root-authored-v1",
+ "en":{
+  "cold":{"headline":"Demand changed. Which lots need a review?","body":"Before replanning, check the product, planning period and partner lot reports."},
+  "cards":[
+   {"headline":"Demand changed. Which lots matter?","body":"Identify the outsourced lots linked to the changed demand before discussing the plan with production partners."},
+   {"headline":"Start with product and planning period.","body":"Agree which product, planning period and outsourced lots the demand change concerns."},
+   {"headline":"When was this lot status recorded?","body":"Check the report time and source alongside lot status before using it in a planning discussion."},
+   {"headline":"What needs confirmation from the partner?","body":"List missing information and who will confirm it with each production partner before discussing changes."},
+   {"headline":"Give replanning a shared basis.","body":"Bring scope, report source and confirmation owners into the same planning discussion.","source_text":"Digiwin Taiwan semiconductor solution context:\nERP business management and MES (manufacturing execution system) production context.","cta":"Discuss outsourced-production planning"}
+  ],
+  "caption":"We provide manufacturing ERP (enterprise resource planning). Fabless (chip design without owning a fabrication plant) planning teams: reconcile demand changes with outsourced-lot reports before discussing the next plan.",
+  "cold_caption":"We provide manufacturing ERP (enterprise resource planning). Fabless (chip design without owning a fabrication plant) planning teams: demand changed. Which partner lot reports need review before replanning?",
+  "proof_caption":"We provide manufacturing digital solutions, including ERP (enterprise resource planning). Explore outsourcing-management challenges in a named chip-design case from China.",
+  "labels":["ERP · CHIP OPERATIONS"],"cold_labels":["Fabless planning","Manufacturing ERP"],"alt_prefix":"Illustration: ",
+  "ui":{"title":"Demand changes: a shared basis for the next plan","select":"Select a card","desktop":"Main view","feed":"Feed view","previous":"Previous","next":"Next","reader":"Read the China case summary","inspect":"Review copy","cold":"Fabless planning","explanation":"Planning discussion","proof":"China chip-design case","case_label":"China · Chip-design case"},
+  "reader_question":"Which product and planning period does the demand change concern? Which outsourced lots need review? When were partner reports recorded, what is their source, and who will confirm missing information before discussing the next plan?"
+ },
+ "zh-Hans":{
+  "cold":{"headline":"需求预测变了，先看哪些批次？","body":"调整计划前，先核对产品、计划期间与合作伙伴的批次报告。"},
+  "cards":[
+   {"headline":"需求预测变了，哪些批次相关？","body":"先明确需求变化涉及哪些委外批次，再与生产合作伙伴讨论计划。"},
+   {"headline":"先核对产品与计划期间。","body":"明确需求变化涉及的产品、计划期间与委外批次范围。"},
+   {"headline":"这个批次状态何时记录？","body":"结合报告时间与来源核对批次状态，再用于计划讨论。"},
+   {"headline":"还需向合作伙伴确认什么？","body":"列出缺失信息，以及负责向各生产合作伙伴确认的人员，再讨论调整。"},
+   {"headline":"让计划调整有共同依据。","body":"把批次范围、报告来源与确认责任放在同一场计划讨论中。","source_text":"Digiwin 台湾半导体方案资料：\nERP 经营管理与 MES(制造执行系统) 生产制造。","cta":"探讨委外生产计划问题"}
+  ],
+  "caption":"我们提供制造业 ERP(企业资源计划) 解决方案。Fabless(无晶圆厂芯片设计模式)计划团队：核对需求变化与委外批次报告，为下一步计划讨论准备共同依据。",
+  "cold_caption":"我们提供制造业 ERP(企业资源计划) 解决方案。委外生产的芯片设计计划团队：需求预测变了，调整计划前先核对哪些批次报告？",
+  "labels":["ERP · 芯片运营"],"cold_labels":["芯片委外计划","制造业 ERP"],"alt_prefix":"示意图：",
+  "ui":{"title":"需求变化：为下一步计划准备共同依据","select":"选择卡片","desktop":"大图","feed":"信息流","previous":"上一张","next":"下一张","reader":"阅读中国案例概要","inspect":"查看文案","cold":"芯片委外计划","explanation":"计划讨论","proof":"中国芯片设计案例","case_label":"中国 · 芯片设计案例"},
+  "reader_question":"需求变化涉及哪个产品与计划期间？哪些委外批次需要核对？合作伙伴的报告何时记录、来源是什么？谁确认缺失信息，再讨论下一步计划？"
+ }
+}

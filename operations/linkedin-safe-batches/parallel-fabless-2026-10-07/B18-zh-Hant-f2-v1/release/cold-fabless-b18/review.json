@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "revision": "b18-cold-fabless-b18-source-review-v1",
+  "writer": "/root",
+  "reviewer": "/root",
+  "date": "2026-10-07",
+  "scope": "OFFLINE_SOURCE_COPY",
+  "independence": "SELF_REVIEW",
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/cold-fabless-b18/contract.json",
+      "sha256": "5ceb7252869db2c65085675d351f8ca3cde46a1492bac9fc5c5a0f1ab07c87e4",
+      "revision": "b18-cold-fabless-b18-contract-v1"
+    },
+    "copy": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/cold/public-copy.json",
+      "sha256": "61d867cdb4170dcb0ec854103599a32ac975290ecba0f54d6be87d90a485aef7",
+      "revision": "b18-f2-cold-copy-v1"
+    },
+    "sources": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/execution-brief.md",
+        "sha256": "5eba20ec6739dc5e4278a59aa80a6686ee92c7e16451ce16cff5a5ff36d4844c",
+        "revision": "b18-f2-brief-v1"
+      },
+      {
+        "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F2/common/f2-copy.json",
+        "sha256": "45b83f7a59323a2c00a0016f6f06472395b7f4a7a079ab5ec15c55c718a2b919",
+        "revision": "f2-source-read-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/b18-b19-authored-input.json",
+        "sha256": "b70a1ec3026f1fa9a61dd5976376e9c6d4d7a784f55757de0ec9918a460621e7",
+        "revision": "b18-b19-root-authored-2026-10-08-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/proof-source-mapping.json",
+        "sha256": "6cd930b39b6da9c831fe4fd0f59767d3c928260219b9a0b8cd26847946d7ac96",
+        "revision": "b18-f2-proof-map-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/vietnam-team-source.json",
+        "sha256": "0e85463a057135d51c232e52ae4ec35f7b6aededf3a18ef84cf9719d904d93fd",
+        "revision": "b18-f2-vietnam-service-v1"
+      },
+      {
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v3/selected-copy.json",
+        "sha256": "30b4cbc0310ddd4dbb20d705f0d5a89ce53ea856a88c8d2e6b42560742ca9f39",
+        "revision": "b15-review-copy-zh-Hant-v3"
+      },
+      {
+        "path": "operations/linkedin-locale-adapter/profiles.json",
+        "sha256": "1b0105ed92ef866fb7a5796aefcdfb9d8e9d9683c72f4257295e80a06653a6cd",
+        "revision": "locale-adapter-draft-2026-10-06-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/semantic-review.json",
+        "sha256": "970fc7459a034626d1efeba818017de16bec91aca75005f9a40810d52d8bed7e",
+        "revision": "b18-actual-root-script-review-v1"
+      }
+    ]
+  },
+  "verdicts": {
+    "source_copy": "PASS",
+    "editorial": "PASS",
+    "first_mention": "PASS"
+  },
+  "reviewed_ads": [
+    "B18-COLD"
+  ],
+  "reviewed_fields": [
+    "B18-COLD/caption",
+    "B18-COLD/COLD-FABLESS-B18.headline",
+    "B18-COLD/COLD-FABLESS-B18.body",
+    "B18-COLD/COLD-FABLESS-B18.source_text",
+    "B18-COLD/COLD-FABLESS-B18.cta",
+    "B18-COLD/COLD-FABLESS-B18.native_headline",
+    "B18-COLD/COLD-FABLESS-B18.alt",
+    "B18-COLD/COLD-FABLESS-B18.artwork_labels"
+  ],
+  "unresolved_findings": []
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "revision": "b16-rmk-bright-2-release-v1",
+  "authorizer": "/root recording explicit PO B16/B17 mandate",
+  "authority_ref": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/generation-mandate.json",
+    "sha256": "8dfe4fd13b3a1dc0edac4786a94f069a3701d7cb62ebedec52f2e35468bdba3b",
+    "revision": "b16-f2-mandate-v1"
+  },
+  "purpose": "OFFLINE_IMAGEGEN",
+  "contract": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/rmk-bright-2/contract.json",
+    "sha256": "57c1e747bedddc0345b3a4a5949a5e9f36a9b3e8fddaf00d8fbacd6b70a7c081",
+    "revision": "b16-rmk-bright-2-contract-v1"
+  },
+  "copy": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/proof/public-copy.json",
+    "sha256": "52da80234bd9743394251302bcc6b8313c15dfaaba828ea9ed5475433e74e46b",
+    "revision": "b16-f2-proof-copy-v1"
+  },
+  "review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/rmk-bright-2/review.json",
+    "sha256": "8fdf9687c3c645c6eb7b481589cea0140287fc2b024bf90384e24c7adc5185de",
+    "revision": "b16-rmk-bright-2-source-review-v1"
+  },
+  "groups": [
+    [
+      "RMK-BRIGHT-2"
+    ]
+  ]
+}

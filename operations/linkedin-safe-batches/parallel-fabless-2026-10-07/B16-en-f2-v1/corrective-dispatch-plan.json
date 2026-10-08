@@ -1,0 +1,43 @@
+{
+  "revision": "b16-f2-corrective-plan-v1",
+  "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+  "route": "offline en demand-change cold -> F2 planning reconciliation -> Vietnam consulting/implementation -> qualitative China outsourcing case -> localized planning-question reader",
+  "locale": "en",
+  "calls": [
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v1/f2-a5",
+      "card_id": "F2-A5",
+      "call_id": "B16_F2_A5_C1",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v1/f2-a5/native/f2-a5-en-c1.png",
+      "release_sha256": "301d4d4948683ac682674e35a0db773cd735a35d04a93aef1e51b72fdc5e2d49",
+      "review_sha256": "a81395b367847f846d34af4e04fdacdbfb8523c08ac07ffbc63cdec83a05fb1d"
+    },
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v2/f2-a5",
+      "card_id": "F2-A5",
+      "call_id": "B16_F2_A5_C2",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v2/f2-a5/native/f2-a5-en-c2.png",
+      "release_sha256": "a62b697cbd247e16d1249f928d29709ca67d7399763640b81e617c14ceb2ebbf",
+      "review_sha256": "ebd2f46f59fc9c88e8104dbd47b119263ae8b73f0793b36513675cf91c5ee3b4"
+    },
+    {
+      "folder": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v3/f2-a5",
+      "card_id": "F2-A5",
+      "call_id": "B16_F2_A5_C3",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v3/f2-a5/native/f2-a5-en-c3.png",
+      "release_sha256": "a8a5132ab8a1e80842084e4c02034d885a879aba8f3b96db10655ebbe3b37420",
+      "review_sha256": "8c4e585e83ea26490b471df4c769549307118f9d0b6a53a31afde1e7b44de032"
+    }
+  ],
+  "corrective_cap": 2,
+  "per_card_corrective_cap": 1,
+  "po_card_exception": {
+    "card_id": "F2-A5",
+    "authorized_corrective_cap": 3,
+    "authorization": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/actual-corrective-f2-a5-c3-review.json",
+      "sha256": "20e409e2bf02195eecffd0d6ac766e53a7c7a835420ebc1941b95ede81ad92a5",
+      "revision": "b16-f2-a5-c3-po-repair-review"
+    }
+  }
+}

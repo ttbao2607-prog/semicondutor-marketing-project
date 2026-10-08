@@ -1,0 +1,375 @@
+STATE RECONSTRUCTION
+
+PROJECT IDENTITY
+- PROJECT: LinkedIn_Safe_Fabless_2026-10-07 (inferred from repository folder)
+- REPO: LinkedIn_Safe_Fabless_2026-10-07
+- ENVIRONMENT: PowerShell / Windows
+- OPENED CHECKOUT: slice/linkedin-safe-fabless-parallel @ 461a752
+
+HUMAN SUMMARY
+The newest committed work appears to be local-only on 'slice/linkedin-package-v2-inventory' in worktree 'LinkedIn_Package_V2_2026-10-07', at 4030d40.
+It has not been pushed or represented on a remote ref. Latest commit: docs(package-v2): checkpoint Phase 1 data and dashboard review decisions
+
+CURRENT CHECKOUT
+- repo: D:/LinkedIn_Safe_Fabless_2026-10-07
+- branch: slice/linkedin-safe-fabless-parallel
+- HEAD: 461a752f1aab7add8f21dfb5652d5e1097aa2247
+- dirty: dirty
+- upstream: (none)
+
+REMOTE REFERENCE
+- remotes: origin
+- remote default/canonical candidate: origin/main
+- remote HEAD: refs/remotes/origin/main
+- local vs remote relation: (no upstream)
+
+LOCAL WORK NOT YET REMOTE
+- branch/worktree: main / D:/Digiwin_Semiconducter_Workspace
+  SHA: 196f26b9f3064fca8fe6b3b50b5707c2b54b65af (2026-10-07T13:41:30+07:00) docs(linkedin): reconcile current worktree progress for package rebuild
+  state: LOCAL_ONLY
+  human meaning: Latest commit: docs(linkedin): reconcile current worktree progress for package rebuild
+  ahead/unpushed status: 22 commit(s) not represented on any remote ref; ahead 22, behind 0
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/audit-automation-artifacts / (not checked out)
+  SHA: 608f17fb0680d3360ca7c4ef34f7c8f7c7d5333b (2026-10-06T10:22:37+07:00) docs(linkedin): preserve historical audience wait and screenshot caveats
+  state: LOCAL_ONLY
+  human meaning: Latest commit: docs(linkedin): preserve historical audience wait and screenshot caveats
+  ahead/unpushed status: 1 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/budget-suggestion-canonical / (not checked out)
+  SHA: ff493a72f8dcaf8af92a78729bc2823d910584d7 (2026-09-22T13:53:34+07:00) Import budget suggestion packet pending approval
+  state: LOCAL_ONLY
+  human meaning: Latest commit: Import budget suggestion packet pending approval
+  ahead/unpushed status: 1 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/fabless-ldp-canonical / (not checked out)
+  SHA: 37ea3e92c8bf52761814c7d939fde1f085e72eb9 (2026-09-22T15:57:59+07:00) feat: add flat Fabless modal dogfood artifact
+  state: LOCAL_ONLY
+  human meaning: Latest commit: feat: add flat Fabless modal dogfood artifact
+  ahead/unpushed status: 4 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-audience-ready-research / D:/optimize-awareness-LinkedIn-adcopy
+  SHA: f2883d1c9db7c4abb72afa8998d2bde0cc192b74 (2026-10-07T10:16:12+07:00) audit(linkedin): record B4 B5 selected local main merge and byte verification
+  state: LOCAL_ONLY
+  human meaning: Latest commit: audit(linkedin): record B4 B5 selected local main merge and byte verification
+  ahead/unpushed status: 68 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-awareness-f1-progress / (not checked out)
+  SHA: 1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f (2026-10-02T16:35:55+07:00) audit(linkedin): freeze awareness batch and visual variety finding
+  state: LOCAL_ONLY
+  human meaning: Latest commit: audit(linkedin): freeze awareness batch and visual variety finding
+  ahead/unpushed status: 8 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-awareness-remaining-scenarios / (not checked out)
+  SHA: dc7f3f747e43f1cae6872a3c87eb64e01ad3cdce (2026-10-02T10:46:21+07:00) fix(linkedin-awareness): restrict planned calls to exact 8 target groups with dedicated unshared cards and unique ImageNames
+  state: LOCAL_ONLY
+  human meaning: Latest commit: fix(linkedin-awareness): restrict planned calls to exact 8 target groups with dedicated unshared cards and unique ImageNames
+  ahead/unpushed status: 5 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-b1-v2-main / D:/LinkedIn_B1_V2_Main_2026-10-06
+  SHA: 26f89d0526cd5d5f255782ce1e79401256b98a4b (2026-10-06T16:40:03+07:00) feat(linkedin): integrate PO-approved B1 English O1 v2 artifacts locally
+  state: LOCAL_ONLY
+  human meaning: Latest commit: feat(linkedin): integrate PO-approved B1 English O1 v2 artifacts locally
+  ahead/unpushed status: 11 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-b10-b12-approved-main / D:/LinkedIn_B10_B12_Approved_Main_2026-10-07
+  SHA: b985009b8cafab6bc76ba0930ce03bc3cf2d309b (2026-10-07T13:25:24+07:00) artifact(osat): adopt approved B10 B12 finals and close OSAT lane
+  state: LOCAL_ONLY
+  human meaning: Latest commit: artifact(osat): adopt approved B10 B12 finals and close OSAT lane
+  ahead/unpushed status: 21 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-b2-b3-approved-main / D:/LinkedIn_B2_B3_Approved_Main_2026-10-07
+  SHA: cc904e2c25bfbc191a2027916601d10a4a6ddf21 (2026-10-07T09:11:28+07:00) artifact(linkedin): integrate PO-approved B2 B3 selected offline assets
+  state: LOCAL_ONLY
+  human meaning: Latest commit: artifact(linkedin): integrate PO-approved B2 B3 selected offline assets
+  ahead/unpushed status: 12 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-b4-b5-approved-main / D:/LinkedIn_B4_B5_Approved_Main_2026-10-07
+  SHA: b2694b4ea9b556bb28562b1b22f10edefa1493e3 (2026-10-07T10:15:21+07:00) artifact(linkedin): adopt approved B4 B5 final O2 selections locally
+  state: LOCAL_ONLY
+  human meaning: Latest commit: artifact(linkedin): adopt approved B4 B5 final O2 selections locally
+  ahead/unpushed status: 16 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-b6-b7-approved-main / D:/LinkedIn_B6_B7_Approved_Main_2026-10-07
+  SHA: 65e06e8c82461664bc1ffd06853a277f1582a2a2 (2026-10-07T11:11:43+07:00) artifact(osat): adopt approved B6 B7 final selections on local main
+  state: LOCAL_ONLY
+  human meaning: Latest commit: artifact(osat): adopt approved B6 B7 final selections on local main
+  ahead/unpushed status: 17 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-b8-b9-approved-main / D:/LinkedIn_B8_B9_Approved_Main_2026-10-07
+  SHA: 568a16f2358c1f28fa6b34827ba6c82022045732 (2026-10-07T11:38:33+07:00) artifact(osat): adopt PO-approved B8 B9 final selections on local main
+  state: LOCAL_ONLY
+  human meaning: Latest commit: artifact(osat): adopt PO-approved B8 B9 final selections on local main
+  ahead/unpushed status: 20 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-candidate2-main / D:/LinkedIn_Candidate2_Main_2026-10-06
+  SHA: e162eff2ee60d7292b0dfcbb864796a245f9462f (2026-10-06T15:05:22+07:00) artifact(linkedin): restore original preview receipt bytes under preservation rules
+  state: LOCAL_ONLY
+  human meaning: Latest commit: artifact(linkedin): restore original preview receipt bytes under preservation rules
+  ahead/unpushed status: 6 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-closeout-parallel / (not checked out)
+  SHA: 97cde8848b860aada82941f806cf3504bbf75ce5 (2026-10-06T10:21:16+07:00) docs(linkedin): checkpoint canonical audience research and update receipts
+  state: LOCAL_ONLY
+  human meaning: Latest commit: docs(linkedin): checkpoint canonical audience research and update receipts
+  ahead/unpushed status: 20 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-contingency-audience / D:/Digiwin_LinkedIn_Contingency_Audience
+  SHA: 910923c17561ccad1a30eb78aa910cc7a4489a5b (2026-10-07T09:39:46+07:00) audit(contingency): verify R5 targeting estimates and mapping visibility gap
+  state: LOCAL_ONLY
+  human meaning: Latest commit: audit(contingency): verify R5 targeting estimates and mapping visibility gap
+  ahead/unpushed status: 16 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-current-docs-reconciliation / D:/LinkedIn_Current_Docs_2026-10-07
+  SHA: 196f26b9f3064fca8fe6b3b50b5707c2b54b65af (2026-10-07T13:41:30+07:00) docs(linkedin): reconcile current worktree progress for package rebuild
+  state: LOCAL_ONLY
+  human meaning: Latest commit: docs(linkedin): reconcile current worktree progress for package rebuild
+  ahead/unpushed status: 22 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-fdi-destination-html / D:/LinkedIn_FDI_Destination_HTML_2026-10-07
+  SHA: 5b99984b142c9799c4e03e4da9ae34509b6ea926 (2026-10-07T11:38:03+07:00) checkpoint(fdi-html): save PO-approved B6 B7 destination readers
+  state: LOCAL_ONLY
+  human meaning: Latest commit: checkpoint(fdi-html): save PO-approved B6 B7 destination readers
+  ahead/unpushed status: 20 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-locale-approved-main / D:/LinkedIn_Locale_Approved_Main_Integration_2026-10-06
+  SHA: efde2357efd5d9c8f97552ca1855b50afe7c5ba6 (2026-10-06T14:26:54+07:00) audit(linkedin): verify committed locale artifact bytes and selective merge scope
+  state: LOCAL_ONLY
+  human meaning: Latest commit: audit(linkedin): verify committed locale artifact bytes and selective merge scope
+  ahead/unpushed status: 2 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-package-v2-inventory / D:/LinkedIn_Package_V2_2026-10-07
+  SHA: 4030d40d727668918bf079fd730d2071268a9004 (2026-10-07T15:08:10+07:00) docs(package-v2): checkpoint Phase 1 data and dashboard review decisions
+  state: LOCAL_ONLY
+  human meaning: Latest commit: docs(package-v2): checkpoint Phase 1 data and dashboard review decisions
+  ahead/unpushed status: 26 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-rmk-fulfillment / (not checked out)
+  SHA: 0bc00fb3ab885c854a4621ccf5d4e582356cc6ef (2026-10-04T16:18:59+07:00) fix(linkedin-rmk): complete three offline carousel sets
+  state: LOCAL_ONLY
+  human meaning: Latest commit: fix(linkedin-rmk): complete three offline carousel sets
+  ahead/unpushed status: 2 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-rmk-mobile-adapter / (not checked out)
+  SHA: e375cf359ba91d774e4492f4ffd80bf8ec7eb34c (2026-10-04T16:19:25+07:00) fix(linkedin-rmk): rerun mobile expand harness with native focus continuity
+  state: LOCAL_ONLY
+  human meaning: Latest commit: fix(linkedin-rmk): rerun mobile expand harness with native focus continuity
+  ahead/unpushed status: 3 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-safe-fabless-parallel / D:/LinkedIn_Safe_Fabless_2026-10-07
+  SHA: 461a752f1aab7add8f21dfb5652d5e1097aa2247 (2026-10-07T14:44:20+07:00) artifact(fabless): checkpoint B14 B15 localized F1 drafts and reviews
+  state: LOCAL_ONLY
+  human meaning: Latest commit: artifact(fabless): checkpoint B14 B15 localized F1 drafts and reviews
+  ahead/unpushed status: 70 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-safe-osat-parallel / D:/LinkedIn_Safe_OSAT_2026-10-07
+  SHA: 9adc1ce364e0e7b0f49900bce38004081a889f1a (2026-10-07T13:26:04+07:00) audit(osat): record selected main adoption and completed lane
+  state: LOCAL_ONLY
+  human meaning: Latest commit: audit(osat): record selected main adoption and completed lane
+  ahead/unpushed status: 75 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-safe-partner-parallel / D:/LinkedIn_Safe_Partner_2026-10-07
+  SHA: a09035d2887340cc63cc09fa4925481454c37e1a (2026-10-07T14:42:40+07:00) checkpoint(partner): preserve B25 B26 factory IT journeys and scoped postchecks
+  state: LOCAL_ONLY
+  human meaning: Latest commit: checkpoint(partner): preserve B25 B26 factory IT journeys and scoped postchecks
+  ahead/unpushed status: 73 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-vn-journey-rebuild / (not checked out)
+  SHA: 4dda8694f10a7ae93b8574d781a0bb8498a193af (2026-10-07T09:38:15+07:00) docs(vn): normalize archived contract line endings
+  state: LOCAL_ONLY
+  human meaning: Latest commit: docs(vn): normalize archived contract line endings
+  ahead/unpushed status: 61 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-vn-value-main / (not checked out)
+  SHA: 5b31285beb854771b765cb38d4a7246553b18d7e (2026-10-07T09:38:43+07:00) docs(vn): close creative slice and adopt Aplus week2 swap handoff
+  state: LOCAL_ONLY
+  human meaning: Latest commit: docs(vn): close creative slice and adopt Aplus week2 swap handoff
+  ahead/unpushed status: 14 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/linkedin-vn-week2-main / D:/LinkedIn_VN_Week2_Main_2026-10-06
+  SHA: e3bb7cd2cdb103b033048f72db5b106fd22298c3 (2026-10-06T16:14:58+07:00) artifact(linkedin-vn): adopt approved week2-v2 offline journey
+  state: LOCAL_ONLY
+  human meaning: Latest commit: artifact(linkedin-vn): adopt approved week2-v2 offline journey
+  ahead/unpushed status: 9 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/manager-package-plan / (not checked out)
+  SHA: b75d36381ce6ed189c9e4d319a970445d96f1a00 (2026-10-06T10:22:30+07:00) chore(package): preserve v6 candidate and scoped audit evidence before consolidation
+  state: LOCAL_ONLY
+  human meaning: Latest commit: chore(package): preserve v6 candidate and scoped audit evidence before consolidation
+  ahead/unpushed status: 13 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/partner-ambiguity-docs-main / D:/LinkedIn_Partner_Ambiguity_Main_2026-10-07
+  SHA: d6eda95afaf9a81a5dc5bdde29c6eff2e749a928 (2026-10-07T11:13:58+07:00) merge(docs): reconcile Partner ambiguity checkpoint with current main
+  state: LOCAL_ONLY
+  human meaning: Latest commit: merge(docs): reconcile Partner ambiguity checkpoint with current main
+  ahead/unpushed status: 19 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/vy-docs-sync / (not checked out)
+  SHA: 9f45dd50935b2646dbc5601d39fb770927b9d8a1 (2026-09-30T09:55:43+07:00) Archive completed Vy slice before workspace consolidation
+  state: LOCAL_ONLY
+  human meaning: Latest commit: Archive completed Vy slice before workspace consolidation
+  ahead/unpushed status: 2 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/vy-email-strategy-plan / (not checked out)
+  SHA: c389c64fa1124a7fe91d2e9f8014f45e8b125cdd (2026-09-30T09:55:43+07:00) Archive completed Vy slice before workspace consolidation
+  state: LOCAL_ONLY
+  human meaning: Latest commit: Archive completed Vy slice before workspace consolidation
+  ahead/unpushed status: 2 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/vy-fabless-locales / (not checked out)
+  SHA: 7e15b40fe4b533b090989439751db7c4a425e5bf (2026-09-30T09:55:43+07:00) Archive completed Vy slice before workspace consolidation
+  state: LOCAL_ONLY
+  human meaning: Latest commit: Archive completed Vy slice before workspace consolidation
+  ahead/unpushed status: 2 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/vy-icp-segments / (not checked out)
+  SHA: dd8aea268bbbe4c3261bfcf07887cd5d697c8120 (2026-09-30T09:55:44+07:00) Archive completed Vy slice before workspace consolidation
+  state: LOCAL_ONLY
+  human meaning: Latest commit: Archive completed Vy slice before workspace consolidation
+  ahead/unpushed status: 2 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/vy-kpi-budget / (not checked out)
+  SHA: 6bdb42da26d8b2d710727a0c6e6f30f5528e5f8f (2026-09-30T09:55:44+07:00) Archive completed Vy slice before workspace consolidation
+  state: LOCAL_ONLY
+  human meaning: Latest commit: Archive completed Vy slice before workspace consolidation
+  ahead/unpushed status: 2 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/vy-language-spec / (not checked out)
+  SHA: e324f1182c5352c50a810afd98b12badb72a06ac (2026-09-30T09:55:45+07:00) Archive completed Vy slice before workspace consolidation
+  state: LOCAL_ONLY
+  human meaning: Latest commit: Archive completed Vy slice before workspace consolidation
+  ahead/unpushed status: 2 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/vy-linkedin-locales / (not checked out)
+  SHA: 07237eb966011d49b6da159b50caeacd3e61ccef (2026-09-30T09:55:45+07:00) Archive completed Vy slice before workspace consolidation
+  state: LOCAL_ONLY
+  human meaning: Latest commit: Archive completed Vy slice before workspace consolidation
+  ahead/unpushed status: 2 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/vy-osat-locales / (not checked out)
+  SHA: c391200af58b38638f524a21557c48c90e4bef5c (2026-09-30T09:55:45+07:00) Archive completed Vy slice before workspace consolidation
+  state: LOCAL_ONLY
+  human meaning: Latest commit: Archive completed Vy slice before workspace consolidation
+  ahead/unpushed status: 2 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/vy-search-keywords / (not checked out)
+  SHA: 08b92f7dcc598ca4996e3106cf803c5c8faba8af (2026-09-30T09:55:46+07:00) Archive completed Vy slice before workspace consolidation
+  state: LOCAL_ONLY
+  human meaning: Latest commit: Archive completed Vy slice before workspace consolidation
+  ahead/unpushed status: 2 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/vy-supplier-locales / (not checked out)
+  SHA: 933a6bbd2cfc56c37f63fdf829e4f998c63c75ca (2026-09-30T09:55:46+07:00) Archive completed Vy slice before workspace consolidation
+  state: LOCAL_ONLY
+  human meaning: Latest commit: Archive completed Vy slice before workspace consolidation
+  ahead/unpushed status: 2 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/vy-workbook-kpi / (not checked out)
+  SHA: 68a93058ffa8788b06ab4c13ae27e12b18dfc4fd (2026-09-30T09:55:46+07:00) Archive completed Vy slice before workspace consolidation
+  state: LOCAL_ONLY
+  human meaning: Latest commit: Archive completed Vy slice before workspace consolidation
+  ahead/unpushed status: 2 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+- branch/worktree: slice/word-polish-gemini / (not checked out)
+  SHA: ddf06dc058056745e82bee9eb1bf2beab95d13bb (2026-10-05T11:23:32+07:00) fix(report): restore Q8 measurement methodology and isolate revision audit receipt
+  state: LOCAL_ONLY
+  human meaning: Latest commit: fix(report): restore Q8 measurement methodology and isolate revision audit receipt
+  ahead/unpushed status: 5 commit(s) not represented on any remote ref; ahead (no upstream), behind (no upstream)
+  why it may be relevant: committed local state survives even if the current checkout or remote does not show it.
+
+OTHER RELEVANT WORKTREES / BRANCHES
+- worktree: D:/Digiwin_Semiconducter_Workspace | branch: main | SHA: 196f26b9f3064fca8fe6b3b50b5707c2b54b65af | state: LOCAL_ONLY | human meaning: Latest commit: docs(linkedin): reconcile current worktree progress for package rebuild
+- worktree: D:/Digiwin_Fabless_Interaction_Fix | branch: slice/fabless-interaction-fix | SHA: 8f94184288d5f3da8a7b8b796b8dbe7a11f0714d | state: LOCAL_ONLY | human meaning: Latest commit: docs(fabless): pin interaction deployment process and hold live actions
+- worktree: D:/Digiwin_LinkedIn_Contingency_Audience | branch: slice/linkedin-contingency-audience | SHA: 910923c17561ccad1a30eb78aa910cc7a4489a5b | state: LOCAL_ONLY | human meaning: Latest commit: audit(contingency): verify R5 targeting estimates and mapping visibility gap
+- worktree: D:/Digiwin_Reconciliation_Offline_Fix | branch: slice/reconciliation-offline-fix | SHA: f49ce83aab18779228fbe5f696d0bafab5cb770e | state: LOCAL_ONLY | human meaning: Latest commit: fix(reconciliation): bound offline copy claims and executive reporting
+- worktree: D:/LinkedIn_B10_B12_Approved_Main_2026-10-07 | branch: slice/linkedin-b10-b12-approved-main | SHA: b985009b8cafab6bc76ba0930ce03bc3cf2d309b | state: LOCAL_ONLY | human meaning: Latest commit: artifact(osat): adopt approved B10 B12 finals and close OSAT lane
+- worktree: D:/LinkedIn_B1_V2_Main_2026-10-06 | branch: slice/linkedin-b1-v2-main | SHA: 26f89d0526cd5d5f255782ce1e79401256b98a4b | state: LOCAL_ONLY | human meaning: Latest commit: feat(linkedin): integrate PO-approved B1 English O1 v2 artifacts locally
+- worktree: D:/LinkedIn_B2_B3_Approved_Main_2026-10-07 | branch: slice/linkedin-b2-b3-approved-main | SHA: cc904e2c25bfbc191a2027916601d10a4a6ddf21 | state: LOCAL_ONLY | human meaning: Latest commit: artifact(linkedin): integrate PO-approved B2 B3 selected offline assets
+- worktree: D:/LinkedIn_B4_B5_Approved_Main_2026-10-07 | branch: slice/linkedin-b4-b5-approved-main | SHA: b2694b4ea9b556bb28562b1b22f10edefa1493e3 | state: LOCAL_ONLY | human meaning: Latest commit: artifact(linkedin): adopt approved B4 B5 final O2 selections locally
+- worktree: D:/LinkedIn_B6_B7_Approved_Main_2026-10-07 | branch: slice/linkedin-b6-b7-approved-main | SHA: 65e06e8c82461664bc1ffd06853a277f1582a2a2 | state: LOCAL_ONLY | human meaning: Latest commit: artifact(osat): adopt approved B6 B7 final selections on local main
+- worktree: D:/LinkedIn_B8_B9_Approved_Main_2026-10-07 | branch: slice/linkedin-b8-b9-approved-main | SHA: 568a16f2358c1f28fa6b34827ba6c82022045732 | state: LOCAL_ONLY | human meaning: Latest commit: artifact(osat): adopt PO-approved B8 B9 final selections on local main
+- worktree: D:/LinkedIn_Candidate2_Main_2026-10-06 | branch: slice/linkedin-candidate2-main | SHA: e162eff2ee60d7292b0dfcbb864796a245f9462f | state: LOCAL_ONLY | human meaning: Latest commit: artifact(linkedin): restore original preview receipt bytes under preservation rules
+- worktree: D:/LinkedIn_Current_Docs_2026-10-07 | branch: slice/linkedin-current-docs-reconciliation | SHA: 196f26b9f3064fca8fe6b3b50b5707c2b54b65af | state: LOCAL_ONLY | human meaning: Latest commit: docs(linkedin): reconcile current worktree progress for package rebuild
+- worktree: D:/LinkedIn_FDI_Destination_HTML_2026-10-07 | branch: slice/linkedin-fdi-destination-html | SHA: 5b99984b142c9799c4e03e4da9ae34509b6ea926 | state: LOCAL_ONLY | human meaning: Latest commit: checkpoint(fdi-html): save PO-approved B6 B7 destination readers
+- worktree: D:/LinkedIn_Locale_Approved_Main_Integration_2026-10-06 | branch: slice/linkedin-locale-approved-main | SHA: efde2357efd5d9c8f97552ca1855b50afe7c5ba6 | state: LOCAL_ONLY | human meaning: Latest commit: audit(linkedin): verify committed locale artifact bytes and selective merge scope
+- worktree: D:/LinkedIn_Package_V2_2026-10-07 | branch: slice/linkedin-package-v2-inventory | SHA: 4030d40d727668918bf079fd730d2071268a9004 | state: LOCAL_ONLY | human meaning: Latest commit: docs(package-v2): checkpoint Phase 1 data and dashboard review decisions
+- worktree: D:/LinkedIn_Partner_Ambiguity_Main_2026-10-07 | branch: slice/partner-ambiguity-docs-main | SHA: d6eda95afaf9a81a5dc5bdde29c6eff2e749a928 | state: LOCAL_ONLY | human meaning: Latest commit: merge(docs): reconcile Partner ambiguity checkpoint with current main
+- worktree: D:/LinkedIn_Safe_Fabless_2026-10-07 | branch: slice/linkedin-safe-fabless-parallel | SHA: 461a752f1aab7add8f21dfb5652d5e1097aa2247 | state: LOCAL_ONLY | human meaning: Latest commit: artifact(fabless): checkpoint B14 B15 localized F1 drafts and reviews
+- worktree: D:/LinkedIn_Safe_OSAT_2026-10-07 | branch: slice/linkedin-safe-osat-parallel | SHA: 9adc1ce364e0e7b0f49900bce38004081a889f1a | state: LOCAL_ONLY | human meaning: Latest commit: audit(osat): record selected main adoption and completed lane
+- worktree: D:/LinkedIn_Safe_Partner_2026-10-07 | branch: slice/linkedin-safe-partner-parallel | SHA: a09035d2887340cc63cc09fa4925481454c37e1a | state: LOCAL_ONLY | human meaning: Latest commit: checkpoint(partner): preserve B25 B26 factory IT journeys and scoped postchecks
+- worktree: D:/LinkedIn_VN_V3_Main_Integration_2026-10-06 | branch: slice/linkedin-vn-v3-main | SHA: f362294c52dfe5be2b8aa3b0751dd1d036a6ee05 | state: LOCAL_ONLY | human meaning: Latest commit: feat(linkedin-vn): integrate accepted v3 offline journey into main scope
+- worktree: D:/LinkedIn_VN_Week2_Main_2026-10-06 | branch: slice/linkedin-vn-week2-main | SHA: e3bb7cd2cdb103b033048f72db5b106fd22298c3 | state: LOCAL_ONLY | human meaning: Latest commit: artifact(linkedin-vn): adopt approved week2-v2 offline journey
+- worktree: D:/optimize-awareness-LinkedIn-adcopy | branch: slice/linkedin-audience-ready-research | SHA: f2883d1c9db7c4abb72afa8998d2bde0cc192b74 | state: LOCAL_ONLY | human meaning: Latest commit: audit(linkedin): record B4 B5 selected local main merge and byte verification
+- branch: slice/linkedin-package-v2-inventory | SHA: 4030d40d727668918bf079fd730d2071268a9004 | state: LOCAL_ONLY | human meaning: Latest commit: docs(package-v2): checkpoint Phase 1 data and dashboard review decisions | upstream: (none)
+- branch: slice/linkedin-safe-fabless-parallel | SHA: 461a752f1aab7add8f21dfb5652d5e1097aa2247 | state: LOCAL_ONLY | human meaning: Latest commit: artifact(fabless): checkpoint B14 B15 localized F1 drafts and reviews | upstream: (none)
+- branch: slice/linkedin-safe-partner-parallel | SHA: a09035d2887340cc63cc09fa4925481454c37e1a | state: LOCAL_ONLY | human meaning: Latest commit: checkpoint(partner): preserve B25 B26 factory IT journeys and scoped postchecks | upstream: (none)
+- branch: main | SHA: 196f26b9f3064fca8fe6b3b50b5707c2b54b65af | state: LOCAL_ONLY | human meaning: Latest commit: docs(linkedin): reconcile current worktree progress for package rebuild | upstream: origin/main
+- branch: slice/linkedin-current-docs-reconciliation | SHA: 196f26b9f3064fca8fe6b3b50b5707c2b54b65af | state: LOCAL_ONLY | human meaning: Latest commit: docs(linkedin): reconcile current worktree progress for package rebuild | upstream: (none)
+- branch: slice/linkedin-safe-osat-parallel | SHA: 9adc1ce364e0e7b0f49900bce38004081a889f1a | state: LOCAL_ONLY | human meaning: Latest commit: audit(osat): record selected main adoption and completed lane | upstream: (none)
+- branch: slice/linkedin-b10-b12-approved-main | SHA: b985009b8cafab6bc76ba0930ce03bc3cf2d309b | state: LOCAL_ONLY | human meaning: Latest commit: artifact(osat): adopt approved B10 B12 finals and close OSAT lane | upstream: (none)
+- branch: slice/linkedin-b8-b9-approved-main | SHA: 568a16f2358c1f28fa6b34827ba6c82022045732 | state: LOCAL_ONLY | human meaning: Latest commit: artifact(osat): adopt PO-approved B8 B9 final selections on local main | upstream: (none)
+- branch: slice/linkedin-fdi-destination-html | SHA: 5b99984b142c9799c4e03e4da9ae34509b6ea926 | state: LOCAL_ONLY | human meaning: Latest commit: checkpoint(fdi-html): save PO-approved B6 B7 destination readers | upstream: (none)
+- branch: slice/partner-ambiguity-docs-main | SHA: d6eda95afaf9a81a5dc5bdde29c6eff2e749a928 | state: LOCAL_ONLY | human meaning: Latest commit: merge(docs): reconcile Partner ambiguity checkpoint with current main | upstream: (none)
+- branch: slice/linkedin-b6-b7-approved-main | SHA: 65e06e8c82461664bc1ffd06853a277f1582a2a2 | state: LOCAL_ONLY | human meaning: Latest commit: artifact(osat): adopt approved B6 B7 final selections on local main | upstream: (none)
+- branch: slice/linkedin-audience-ready-research | SHA: f2883d1c9db7c4abb72afa8998d2bde0cc192b74 | state: LOCAL_ONLY | human meaning: Latest commit: audit(linkedin): record B4 B5 selected local main merge and byte verification | upstream: (none)
+- branch without upstream: slice/audit-automation-artifacts | 608f17fb0680d3360ca7c4ef34f7c8f7c7d5333b | 2026-10-06T10:22:37+07:00
+- branch without upstream: slice/awareness-tracking-plan | 8e175bde4f56ac2102d5fb67fae0a1ea11eb3ca6 | 2026-09-26T14:01:18+07:00
+- branch without upstream: slice/budget-suggestion-canonical | ff493a72f8dcaf8af92a78729bc2823d910584d7 | 2026-09-22T13:53:34+07:00
+- branch without upstream: slice/crm-audience-discovery | e747cdda81bf9d3d3d8c91aa79523eba49cc0021 | 2026-09-30T12:49:32+07:00
+- branch without upstream: slice/docs-sync | 2bc6f0b315ee751d093d91f5316d79be7ac3c032 | 2026-09-18T09:27:13+07:00
+- branch without upstream: slice/executive-budget-report | 652317a3d5c1634771cbd38092a84f7cc027bc3c | 2026-09-16T13:10:49+07:00
+- branch without upstream: slice/executive-reporting-pack | ffc643fc8f02d5407e568d3f418408dd16ae5a6c | 2026-09-30T12:34:31+07:00
+- branch without upstream: slice/fabless-interaction-fix | 8f94184288d5f3da8a7b8b796b8dbe7a11f0714d | 2026-09-30T15:03:07+07:00
+- branch without upstream: slice/fabless-ldp-canonical | 37ea3e92c8bf52761814c7d939fde1f085e72eb9 | 2026-09-22T15:57:59+07:00
+- branch without upstream: slice/git-consolidation-closeout | e00bf645f7b381b8b7932254ee783775dd926c03 | 2026-09-30T10:03:57+07:00
+- branch without upstream: slice/linkedin-anchor-adapter-main | e8ae1e453980381e3dd0215b83d165f966d98b86 | 2026-10-06T10:24:51+07:00
+- branch without upstream: slice/linkedin-awareness-f1-progress | 1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f | 2026-10-02T16:35:55+07:00
+- branch without upstream: slice/linkedin-awareness-operations-delivery | 052b88bc0930729dab7b95493aaac4fcf8739ac7 | 2026-10-02T09:25:31+07:00
+- branch without upstream: slice/linkedin-awareness-operations-plan | 052b88bc0930729dab7b95493aaac4fcf8739ac7 | 2026-10-02T09:25:31+07:00
+- branch without upstream: slice/linkedin-awareness-remaining-scenarios | dc7f3f747e43f1cae6872a3c87eb64e01ad3cdce | 2026-10-02T10:46:21+07:00
+- branch without upstream: slice/linkedin-b1-v2-main | 26f89d0526cd5d5f255782ce1e79401256b98a4b | 2026-10-06T16:40:03+07:00
+- branch without upstream: slice/linkedin-b2-b3-approved-main | cc904e2c25bfbc191a2027916601d10a4a6ddf21 | 2026-10-07T09:11:28+07:00
+- branch without upstream: slice/linkedin-b4-b5-approved-main | b2694b4ea9b556bb28562b1b22f10edefa1493e3 | 2026-10-07T10:15:21+07:00
+- branch without upstream: slice/linkedin-candidate2-main | e162eff2ee60d7292b0dfcbb864796a245f9462f | 2026-10-06T15:05:22+07:00
+- branch without upstream: slice/linkedin-carousel-governance | 505dc1e093c990717f489cdef66b8b8e493bc739 | 2026-09-18T09:16:25+07:00
+- branch without upstream: slice/linkedin-carousel-pregen-brief | c06bfb1ab06d305d2c2d9bbfd68394885e9b75ec | 2026-09-16T16:48:07+07:00
+- branch without upstream: slice/linkedin-carousel-proof-requirement | db0f9ed20da4b4be7d43fca7a6c0e299d3d22582 | 2026-09-16T16:40:41+07:00
+- branch without upstream: slice/linkedin-closeout-parallel | 97cde8848b860aada82941f806cf3504bbf75ce5 | 2026-10-06T10:21:16+07:00
+- branch without upstream: slice/linkedin-contingency-audience | 910923c17561ccad1a30eb78aa910cc7a4489a5b | 2026-10-07T09:39:46+07:00
+- branch without upstream: slice/linkedin-harness-redesign-plan | 52a2d4d8a0cf34a97bc4608fb4d36c55abbb71d9 | 2026-10-04T09:24:24+07:00
+- branch without upstream: slice/linkedin-locale-approved-main | efde2357efd5d9c8f97552ca1855b50afe7c5ba6 | 2026-10-06T14:26:54+07:00
+- branch without upstream: slice/linkedin-pivot-main | a563117a61c0462df7c74afcf0e8e29777013f3b | 2026-10-06T09:35:14+07:00
+- branch without upstream: slice/linkedin-rmk-fulfillment | 0bc00fb3ab885c854a4621ccf5d4e582356cc6ef | 2026-10-04T16:18:59+07:00
+- branch without upstream: slice/linkedin-rmk-mobile-adapter | e375cf359ba91d774e4492f4ffd80bf8ec7eb34c | 2026-10-04T16:19:25+07:00
+- branch without upstream: slice/linkedin-rmk-proof-plan | b70ee5a3c1b76bf6a1e29853b5698828915ca691 | 2026-10-04T16:25:02+07:00
+- branch without upstream: slice/linkedin-sanitized-validation-sync | dbb5ff1d32264c68aec8a52e9f202a95ab459ea9 | 2026-09-16T16:22:25+07:00
+- branch without upstream: slice/linkedin-vn-journey-rebuild | 4dda8694f10a7ae93b8574d781a0bb8498a193af | 2026-10-07T09:38:15+07:00
+- branch without upstream: slice/linkedin-vn-v3-main | f362294c52dfe5be2b8aa3b0751dd1d036a6ee05 | 2026-10-06T13:24:24+07:00
+- branch without upstream: slice/linkedin-vn-value-main | 5b31285beb854771b765cb38d4a7246553b18d7e | 2026-10-07T09:38:43+07:00
+- branch without upstream: slice/linkedin-vn-week2-main | e3bb7cd2cdb103b033048f72db5b106fd22298c3 | 2026-10-06T16:14:58+07:00
+- branch without upstream: slice/manager-package-plan | b75d36381ce6ed189c9e4d319a970445d96f1a00 | 2026-10-06T10:22:30+07:00
+- branch without upstream: slice/measurement-budget-scenarios | 8c4d63fee689ad1f4d42be9b233f196582c8a59f | 2026-09-16T13:08:25+07:00
+- branch without upstream: slice/mobile-landing-compact-plan | 11a3372041b628e3de2ff24b06f758a1191c15ab | 2026-09-27T10:36:10+07:00
+- branch without upstream: slice/mobile-ldp-deploy-docs | bf6038d78fd32523dd7f7527b28db33a5075ead6 | 2026-09-27T14:22:46+07:00
+- branch without upstream: slice/optimize-awareness-linkedin-adcopy | 681a237fabcf9635f9a867b76fb5939604a5155a | 2026-10-01T16:38:24+07:00
+- branch without upstream: slice/osat-ldp-canonical | bb892e2da535cd017c1347aa380b5aa1cbfaba1c | 2026-09-22T14:16:12+07:00
+- branch without upstream: slice/reconciliation-offline-fix | f49ce83aab18779228fbe5f696d0bafab5cb770e | 2026-09-30T17:06:48+07:00
+- branch without upstream: slice/search-multilingual-rsa | 54e80bca7bb08dcf6e9426b03210d0f2577d6e16 | 2026-09-30T13:30:58+07:00
+- branch without upstream: slice/vy-docs-sync | 9f45dd50935b2646dbc5601d39fb770927b9d8a1 | 2026-09-30T09:55:43+07:00
+- branch without upstream: slice/vy-email-strategy-plan | c389c64fa1124a7fe91d2e9f8014f45e8b125cdd | 2026-09-30T09:55:43+07:00
+- branch without upstream: slice/vy-fabless-locales | 7e15b40fe4b533b090989439751db7c4a425e5bf | 2026-09-30T09:55:43+07:00
+- branch without upstream: slice/vy-icp-segments | dd8aea268bbbe4c3261bfcf07887cd5d697c8120 | 2026-09-30T09:55:44+07:00
+- branch without upstream: slice/vy-integration-candidate | 2099d9e3402186e37fa0322372efdf8a023d825d | 2026-09-30T10:01:04+07:00
+- branch without upstream: slice/vy-kpi-budget | 6bdb42da26d8b2d710727a0c6e6f30f5528e5f8f | 2026-09-30T09:55:44+07:00
+- branch without upstream: slice/vy-language-spec | e324f1182c5352c50a810afd98b12badb72a06ac | 2026-09-30T09:55:45+07:00
+- branch without upstream: slice/vy-linkedin-locales | 07237eb966011d49b6da159b50caeacd3e61ccef | 2026-09-30T09:55:45+07:00
+- branch without upstream: slice/vy-osat-locales | c391200af58b38638f524a21557c48c90e4bef5c | 2026-09-30T09:55:45+07:00
+- branch without upstream: slice/vy-search-keywords | 08b92f7dcc598ca4996e3106cf803c5c8faba8af | 2026-09-30T09:55:46+07:00
+- branch without upstream: slice/vy-supplier-locales | 933a6bbd2cfc56c37f63fdf829e4f998c63c75ca | 2026-09-30T09:55:46+07:00
+- branch without upstream: slice/vy-workbook-kpi | 68a93058ffa8788b06ab4c13ae27e12b18dfc4fd | 2026-09-30T09:55:46+07:00
+- branch without upstream: slice/word-polish-gemini | ddf06dc058056745e82bee9eb1bf2beab95d13bb | 2026-10-05T11:23:32+07:00
+
+SAFE CONCLUSION
+- The report lists Git facts only. Compare dates, ancestry, remote relation, and local-only commits before selecting a canonical state.
+NEXT ACTION
+- Recommendation only: inspect the relevant commit graph and authorize any switch, integration, or push explicitly.

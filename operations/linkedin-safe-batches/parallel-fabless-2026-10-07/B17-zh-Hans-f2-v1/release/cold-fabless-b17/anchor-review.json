@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "revision": "b17-cold-fabless-b17-anchor-v1",
+  "gate_id": "MSG-ANCHOR-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "revision": "1.0"
+  },
+  "source": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "revision": "VY-MAIL-USER-20261006"
+  },
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/cold-fabless-b17/contract.json",
+      "sha256": "4cba0c66fab7de882d81039f370583d8823067242912961657ef254de3a02994",
+      "revision": "b17-cold-fabless-b17-contract-v1"
+    },
+    "copy": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/cold/public-copy.json",
+      "sha256": "287884092729911344c99d1089131d4bcb887a4e0249481e126c9c20819ba8f8",
+      "revision": "b17-f2-cold-copy-v1"
+    },
+    "spec": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/cold-fabless-b17/spec.json",
+      "sha256": "a2effc1aa4312790a6b78c86e5cf4b38943cd71b6e5756d9baf1d8e4cfd58bd4",
+      "revision": "b17-cold-fabless-b17-spec-v1"
+    },
+    "script_review": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/cold-fabless-b17/script-review.json",
+      "sha256": "c5d8f40c5681808426db28b9175d429b7aad90cd4b6d4b8b8ea38a15f3a15303",
+      "revision": "b17-cold-fabless-b17-script-v1"
+    }
+  },
+  "scope": {
+    "segment": "FDI",
+    "locale": "zh-Hans",
+    "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+    "route": "offline zh-Hans demand-change cold -> F2 planning reconciliation -> Vietnam consulting/implementation -> qualitative China outsourcing case -> localized planning-question reader"
+  },
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "coverage": {
+    "ads": [
+      "B17-COLD"
+    ],
+    "cards": [
+      "COLD-FABLESS-B17"
+    ],
+    "fields": {
+      "B17-COLD": [
+        "caption",
+        "COLD-FABLESS-B17.headline",
+        "COLD-FABLESS-B17.body",
+        "COLD-FABLESS-B17.source_text",
+        "COLD-FABLESS-B17.cta",
+        "COLD-FABLESS-B17.native_headline",
+        "COLD-FABLESS-B17.alt",
+        "COLD-FABLESS-B17.artwork_labels"
+      ]
+    },
+    "storyboard_cards": [
+      "COLD-FABLESS-B17"
+    ]
+  },
+  "rules": {
+    "A1": {
+      "verdict": "MATCH",
+      "observation": "Eligible commercial outsourced chip-design entity, same semiconductor operating activity as v5. F2 demand-change planning is a concrete Operations/SCM issue, not generic ERP content or target-account validation."
+    },
+    "A2": {
+      "verdict": "MATCH",
+      "observation": "Same Operations/SCM decision unit with planning responsibilities; group ERP autonomy and local buying authority remain unknown. No Finance role switch or claim every design office is a local ERP buyer."
+    },
+    "A3": {
+      "verdict": "MATCH",
+      "observation": "FDI English/Simplified Chinese, separately authored business wording. English product/planning period/report source/confirmation owners and Hans 产品/计划期间/批次/报告来源/确认责任 convey the same operational scope. ERP, Fabless and MES first mentions explained. No OSAT/WIP jargon. Language does not establish FDI ownership."
+    },
+    "A4": {
+      "verdict": "MATCH",
+      "observation": "Business value is implicit: shared basis for discussing the next plan and accountable confirmations. No forecast accuracy, faster replanning result, inventory saving, optimization, automatic rescheduling or ROI/metrics promise."
+    },
+    "A5": {
+      "verdict": "N/A",
+      "observation": "N/A: FDI lane, no domestic supplier-entry/audit/qualification promise."
+    },
+    "A6": {
+      "verdict": "MATCH",
+      "observation": "Concrete demand-change scope -> product/planning period/lots -> recorded status time/report source -> missing information/confirmation owner -> shared discussion. Operational questions and conventions, not unverified ERP planning engine or MES replacement. Scenes blank, neutral and illustrative, no forecast/data/technical records."
+    },
+    "A7": {
+      "verdict": "MATCH",
+      "observation": "Same persona and outsourced-production planning issue throughout. F2 shared planning basis -> prospective Vietnam consultation -> provider role -> explicit China qualitative outsourcing-management/integrated-solution context -> localized reader with F2 planning questions. China proof is contextual, not proof of exact forecast/replanning mechanism or Vietnam team delivery."
+    }
+  },
+  "units": [
+    {
+      "card_id": "COLD-FABLESS-B17",
+      "verdict": "MATCH",
+      "observation": "Actual root authored/reviewed F2 scope: 需求预测变了，先看哪些批次？; operating question/shared planning basis or separately attributed service/qualitative China case, not product capability or customer result. Exact text: {\"card_id\": \"COLD-FABLESS-B17\", \"headline\": \"需求预测变了，先看哪些批次？\", \"body\": \"调整计划前，先核对产品、计划期间与合作伙伴的批次报告。\", \"source_text\": \"\", \"cta\": \"\", \"native_headline\": \"需求预测变了，先看哪些批次？\", \"alt\": \"示意图：需求预测变了，先看哪些批次？\", \"artwork_labels\": [\"芯片委外计划\", \"制造业 ERP\"]} Scene: Bright neutral desk, blank partner report sheets beside a wafer protective carrier; separate sheets represent reports to reconcile, not actual statuses or forecast charts. Demand-change planning hook; blank paper only. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label."
+    }
+  ],
+  "transitions": [],
+  "context": {
+    "scope": "FULL_JOURNEY",
+    "verdict": "MATCH",
+    "observation": "Same persona and outsourced-production planning issue throughout. F2 shared planning basis -> prospective Vietnam consultation -> provider role -> explicit China qualitative outsourcing-management/integrated-solution context -> localized reader with F2 planning questions. China proof is contextual, not proof of exact forecast/replanning mechanism or Vietnam team delivery. Reader: Current China qualitative source summary stays same entity/geography/solution scope, with freshly authored F2 product/planning-period/lot/report-time/source/confirming-owner questions. Original Simplified source disclosure and exact legal entity preserved; return to same-locale F2 journey.",
+    "brief": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/execution-brief.md",
+      "sha256": "ba8197da44a774b4b5251858a4c8caf7fe3d14809627280223baddfc850a6f83",
+      "revision": "b17-brief-v1"
+    },
+    "related_inputs": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/explanation/public-copy.json",
+        "sha256": "e18e036c6b6eee16bb52e9879d33db1f8954e11fa056f602200d2a641d0b46f0",
+        "revision": "b17-f2-explanation-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/proof/public-copy.json",
+        "sha256": "a94d268fd4e41f82663df01b2a3d76cf76518ff8759cb3a75fa7da94baf16e5d",
+        "revision": "b17-f2-proof-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/reader-script.json",
+        "sha256": "b6e81ef74302f19d53f75b402b81c8c47d27022b8c418c8c308444777164f05f",
+        "revision": "b17-f2-reader-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/semantic-review.json",
+        "sha256": "79d73b73f0eaf4e82ff6a12424867f6d1cbab33c02e2d8c0a2e11b67597097bf",
+        "revision": "b17-actual-f2-root-script-review-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/proof-source-mapping.json",
+        "sha256": "1a18e5a6f86f00a3be1b62d1b8dbd19a9003f0ee1f5aa289cdfa9ae845ac2d92",
+        "revision": "b17-f2-proof-map-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/vietnam-team-source.json",
+        "sha256": "bde6be4ca0d201fbe2109747f5f677ec16ee0bb52b8fc8f6dcfa86daf9e6d6b4",
+        "revision": "b17-f2-vietnam-service-v1"
+      }
+    ]
+  },
+  "unresolved_findings": []
+}

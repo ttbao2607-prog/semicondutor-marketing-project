@@ -1,0 +1,22 @@
+{
+  "revision": "harness-anchor-freeze-2026-10-06-v1",
+  "lifecycle": "FROZEN_PER_PO",
+  "authority_quote": "ổn r codex, commit local, sau đó freeze harness/anchor tiền, hậu kiểm. Chuẩn bị làm hàng loạt.",
+  "source_checkpoint": "67d1cbd176532ad0b6661ffc3d4f3c042875575d",
+  "scope": [
+    "current core harness",
+    "existing Single-image gate",
+    "callable anchor pregen guard",
+    "anchor v1.0 and supplied email",
+    "PREGEN_SCRIPT and POSTGEN_ARTIFACT procedures",
+    "editorial/semantic receipt templates",
+    "bounded corrective policy"
+  ],
+  "locale_adapter": "DEVELOPING_NOT_FROZEN_DEPENDENCY_ONLY",
+  "artifact_acceptance": "NO_RETROACTIVE_PASS",
+  "batch_state": "INTAKE_PREPARED_GENERATION_NOT_STARTED",
+  "generation_authority": "NONE_FROM_FREEZE_OR_PREPARATION",
+  "git_scope": "LOCAL_CURRENT_BRANCH_ONLY",
+  "manifest": "operations/message-anchor/freeze-2026-10-06/manifest.json",
+  "review_independence": "ROOT_SELF_REVIEW"
+}

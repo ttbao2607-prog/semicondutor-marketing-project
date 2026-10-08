@@ -1,0 +1,15 @@
+{
+  "revision": "b13-corrective-ledger-v1",
+  "card_id": "RMK-BRIGHT-1",
+  "finding": "Publisher source smaller than body; needs T3 PO exception",
+  "original": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/release-v3/campaign/native/rmk-bright-1-b13-en-v1.png",
+    "sha256": "d8eccbca888dbe53bc8d6a23d2f9eef11ea7587980283641f1df791e091b817f",
+    "revision": "original-b13-native"
+  },
+  "hypothesis": "Reference scene/footer transfer; not proven tool/core cause.",
+  "direction": "Enlarge ONLY the exact publisher source Digiwin Vietnam · Company introduction to a prominent full-width paragraph whose glyph height is at least the body, preferably 54px at 1254 canvas. Reserve a clear white bottom band 130px high with safe edges. Reduce scene height to make room. Keep exact headline/body/category/1/4 and official logo once, preserve generic desk scene. No extra text, props, metrics, UI, customer facility or ornaments. The source is substantive publisher provenance, never a small footer.",
+  "acceptance": "Exact text, source at least body size; no skyline/icon/divider or unapproved props. Native/render closure required.",
+  "cap": 1,
+  "status": "PREPARED_POSTGEN_NOT_RUN"
+}

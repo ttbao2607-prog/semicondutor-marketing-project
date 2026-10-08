@@ -1,0 +1,11 @@
+# B20/B21 execution contract · 2026-10-08
+
+PO: “okie v commit, làm nôt 2 batch còn lại.” B18/B19 checkpoint first, then remaining queue B20 F3 zh-Hans and B21 F3 zh-Hant. Eleven selected cards each:1 cold +5 operational explanation +1 Vietnam consulting/implementation +4 qualitative China proof. Same B13v5 anchor/persona/visual family; F3 partner handoff questions matching B19.
+
+Owner /root, SELF_REVIEW, no delegation. Write only the two owned Fabless operations/deliverables roots. Shared main, frozen24/core/adapter read-only. No main integration, push, live/account or new audience authority. Commit authorization applies to preceding B18/B19 checkpoint; new B20/B21 working outputs remain uncommitted pending further direction.
+
+Plan: fresh Chinese authored fields/UI/reader; inspect5 proposed same-locale raw reuses each, source attribution and native script; actual anchor/editorial/storyboard review and bounded release; canary A5/A3 then remaining4 calls each, fresh callable preflight before every ImageGen. Default at most2 correctives/batch,1/card; no inherited extra A5 exception. Rebuild a rejected reuse only within original cap. No cross-locale raster reuse, no PNG transformation.
+
+Measure exact headline/body/source/CTA/category/counter, body and complete source readability at feed333, all native/desktop640/feed333/mobileCSS390 cards and reader/return. Native/desktop/feed local checks may pass in their own scope; missing actual mobile evidence remains INSUFFICIENT_EVIDENCE/PARTIAL under frozen process. Browser bug does not justify more creative generation. No retroactive historical PASS, no independent/native-market certification.
+
+Evidence: fresh release/anchor trusted SHA and immediate guard per call, raw native SHA/provenance, selected manifest/copy/prompts, actual per-card observations, ten transitions, localized reader source disclosure, Vietnamese explanation, rendered captures where available, docs-impact proposal and final Git reconstruction. SUCCESS only if every mandatory criterion/evidence scope closes; otherwise enumerate exact remaining gaps. Auditor target: actual selected bytes and corresponding current receipt, independent audit NOT_RUN. Stop after B21, queue generation remaining0 if both complete.

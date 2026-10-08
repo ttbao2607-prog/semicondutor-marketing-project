@@ -1,0 +1,13 @@
+{
+  "revision": "b15-f1-a5-cta-c2-20261008",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "verdict": "SCRIPT_REVIEW_PASS",
+  "anchor_verdict": "MESSAGE_ANCHOR_PASS",
+  "card_id": "F1-A5",
+  "original_sha256": "f1685568eaeb5fda5551aefe846962d9b3efc31e9d82db456d9f3203eaed0103",
+  "po_authorization": "Xử lý B17 trước để closeout, B13-15 closeout để merge nó vào main. Tiến hành sửa/hậu kiểm, action cần thiết.",
+  "finding": "C1 actual native still contains simplified 讨 and 产 on CTA.",
+  "observation": "Actual native C1 inspected: copy otherwise correct, CTA replacement incomplete. Same approved copy/anchor and user repair mandate. Second targeted correction only.",
+  "edit_instructions": "ERASE ALL WHITE LETTERS inside bottom blue CTA pill completely, then redraw ONLY exact Traditional Chinese characters: 探討委外生產管理問題 . Specifically character2 must be 討 (言 radical on left, not 讠); character6 must be 產 (full traditional form, not 产). Text must read 探討委外生產管理問題. DO NOT repeat original simplified CTA. Keep chevron separate. Everything outside CTA lettering remains exactly as supplied target: all headline/body/source, logo/category5/6, scene/layout/colors untouched. No new text or data."
+}

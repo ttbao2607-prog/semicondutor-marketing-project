@@ -1,0 +1,145 @@
+{
+  "revision": "b13-local-draft-checkpoint-review-v1",
+  "record_type": "PRE_COMMIT_REVIEW_SNAPSHOT",
+  "date": "2026-10-07",
+  "authorization": {
+    "user_instruction": "commit đi codex. Theo hậu kiểm là không cần sửa gì nhỉ ?",
+    "authorized": "LOCAL_COMMIT_ON_OWNED_BRANCH",
+    "branch": "slice/linkedin-safe-fabless-parallel",
+    "parent": "f2883d1c9db7c4abb72afa8998d2bde0cc192b74",
+    "checkpoint_identifier": "commit containing this record"
+  },
+  "contract": {
+    "goal": "Persist all owned B13 draft artifacts, attempts and evidence in one local commit; leave owned checkout clean.",
+    "write_scope": [
+      "operations/linkedin-safe-batches/parallel-fabless-2026-10-07",
+      "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07"
+    ],
+    "plan": [
+      "Reconcile current audit and documentation impact",
+      "Check owned-file sanitation, current artifact bindings and frozen bytes",
+      "Stage only owned roots, inspect staged scope and diff check",
+      "Commit, then independently compare committed blobs with disk and verify clean checkout"
+    ],
+    "success_criteria": [
+      "Commit parent is the owned source checkpoint",
+      "Every newly committed path is inside the two owned roots",
+      "All 11 selected native PNGs and current receipts are byte-identical to reviewed files",
+      "24 frozen pins and shared canonical files remain unchanged",
+      "Working tree and index are clean after commit"
+    ],
+    "audit_target": "Actual committed Git blobs, commit path list, parent and post-commit status; compare with disk rather than relying on command success."
+  },
+  "artifact_state": {
+    "batch": "B13-en-f1-v5",
+    "status": "REVIEW_DRAFT_RENDER_GATE_PENDING",
+    "execution": "PARTIAL",
+    "audit": "INSUFFICIENT_EVIDENCE",
+    "selected_artwork": 11,
+    "explanation_cards": 6,
+    "cumulative_imagegen_calls": 20,
+    "no_new_mandatory_content_or_artwork_correction_recorded": true,
+    "remaining_gaps": [
+      "Full mobile visual evidence for other ten cards and reader",
+      "Verified CSS-to-raster dimension mapping for new Vietnam team card"
+    ],
+    "qualification": "Existing generic unlabelled report rule-lines retained under PO visual-preservation interpretation; literal blank-paper compliance not certified. No whole-set PASS, independent/native-market certification or accepted handoff."
+  },
+  "bindings": {
+    "current_postgen": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/postgen-review-capture-reconciled.json",
+      "sha256": "d3470caac2a47eff23e5b4def0546760de86bdfd960181e7640a7b3419c774b4"
+    },
+    "current_verification": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/verification-capture-reconciled.json",
+      "sha256": "76722581c48d9bb6d0b3c137d6724b1ab5f02a6904c7277b1643a170087f843f"
+    },
+    "docs_impact": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/docs-impact.md",
+      "sha256": "6fe036ebdff245c197f014acb7955ad34a4b28a29ebbfa6bc710f67242ed5922"
+    },
+    "canonical_reviewed": [
+      {
+        "path": "CURRENT_STATE.md",
+        "sha256": "5b74e1836a9b16bb82952fa9db409ec0ee381d2af76873bb12fdc9dc82dcb4b4"
+      },
+      {
+        "path": "DOCS_IMPACT_MAP.md",
+        "sha256": "ec571e7dc2eb6576c3d8ee79a3eac145548b355bc44989220ce31e6d562438b9"
+      },
+      {
+        "path": "operations/Vy_Email_Content_Anchor.md",
+        "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+      },
+      {
+        "path": "operations/Ad_Artifact_Editorial_QA_Gate.md",
+        "sha256": "194f1eadbd0614f40ae6749074018a783515c4afa58a9efb2d39bd360e6965a6"
+      },
+      {
+        "path": "ads/linkedin/LinkedIn_Build_Pack.md",
+        "sha256": "b2cec25512b271eab4237ac82aafcb8198171b8cf5440470579b5e49f14aa188"
+      },
+      {
+        "path": "operations/Pre_Ad_Readiness_Plan.md",
+        "sha256": "0df0f9a70745c56c8984f21a34814c1cb7ad3eac102e56ea187baf2e58e30c36"
+      },
+      {
+        "path": "operations/Public_Source_Register.md",
+        "sha256": "ea9cd2def0d708c5f701d6b31a2e80f2c1d8a162f3bf1b61f12142abba8e613c"
+      },
+      {
+        "path": "operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md",
+        "sha256": "9ce0a047eed68fef2a684dd66cdf11a477263e9fe04479262f5193aa3e407b3e"
+      },
+      {
+        "path": "operations/LinkedIn_Safe_Batch_Execution_Plan_2026-10-06.md",
+        "sha256": "0e99e3c1632072a20f7409c6ef49b71913d954eb5e318c69fe1b95c5b2d23878"
+      }
+    ],
+    "owned_byte_preservation_rules": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/.gitattributes",
+        "sha256": "a9e0c5d80af4a71497cfe627cfb03e4ea42cc3bae2ce88c8d6c7fec56edf4271"
+      },
+      {
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/.gitattributes",
+        "sha256": "9dad62225d99796962772c469b402c43a3d4c9789abe087efd0b52bc04dfc524"
+      }
+    ]
+  },
+  "precommit_checks": {
+    "git_eligible_files_before_checkpoint_record": 426,
+    "all_paths_owned": true,
+    "initial_index_empty": true,
+    "initial_tracked_diff_empty": true,
+    "current_receipt_binding_hashes_checked": 82,
+    "selected_native_1254_square_source_matches": 11,
+    "frozen_pin_matches": 24,
+    "fresh_v5_dispatch_receipts_bound": 6,
+    "sanitation": "No detected credential/private-key/JWT/email PII patterns or forbidden credential/session-state file paths; URLs restricted to localhost and official Digiwin Vietnam source. These checks do not certify a new visual surface.",
+    "historical_receipts": "UNCHANGED; earlier findings remain scoped to their original revisions",
+    "final_expected_git_eligible_files": 429,
+    "staging_reconciliation": {
+      "initial_line_ending_normalizations_detected": 259,
+      "resolution": "Owned-folder attributes disable text conversion; restage and verify exact staged blob bytes. Shared attributes and Git configuration unchanged.",
+      "raw_bytes_modified": false
+    },
+    "helper_whitespace_cleanup": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/prepare_v5.py",
+      "change": "Removed one extra final blank line from unbound preparation helper; no executable statement, generated artifact, release, receipt or historical finding changed."
+    }
+  },
+  "docs_decision": {
+    "statement": "Docs impact reviewed: no canonical update required.",
+    "scope": "ISOLATED_LOCAL_DRAFT_CHECKPOINT",
+    "reconciliation": "Baseline canonical files have no B13-specific accepted/deployed assertion to correct. Business decisions/lifecycle are unchanged. Earlier before-commit recommendation is qualified for this draft-only user mandate; shared canonical writes remain outside ownership. Coordinator source/status proposals are retained for future adoption/accepted handoff."
+  },
+  "boundaries": {
+    "main_integration_authorized": false,
+    "push_authorized": false,
+    "live_action_authorized": false,
+    "generation_in_this_commit_turn": 0,
+    "next_batches": "B14-B21 NOT_RUN"
+  },
+  "transaction_note": "This is the pre-commit review snapshot. The containing commit establishes persistence; actual commit hash and clean-state outcome are verified after the transaction and reported to Bảo. No success is inferred before Git readback."
+}

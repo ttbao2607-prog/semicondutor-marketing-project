@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "revision": "b18-f2-a2-spec-v1",
+  "release": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a2/release.json",
+    "sha256": "412b116cec479ec78a95a3ec24b99a3514d2247c4321992bbec798f2198d050d",
+    "revision": "b18-f2-a2-release-v1"
+  },
+  "contract": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a2/contract.json",
+    "sha256": "b5c935dfe5413314de95d8b0313386b7479d44eaca18b541b5069dc2d1274523",
+    "revision": "b18-f2-a2-contract-v1"
+  },
+  "copy": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/explanation/public-copy.json",
+    "sha256": "9c343f9ca40b3b447a5f1cd3f433beb461719f9c3636098648c4f3edd799d1e2",
+    "revision": "b18-f2-explanation-copy-v1"
+  },
+  "review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a2/review.json",
+    "sha256": "89f970bbf17f608e4d9af8c8098fee109d55095bfc0544d15366412d7e6375dc",
+    "revision": "b18-f2-a2-source-review-v1"
+  },
+  "calls": [
+    {
+      "call_id": "B18_F2_A2_V1",
+      "targets": [
+        "F2-A2"
+      ],
+      "references": [
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v3/assets/03-f1-a2.png",
+          "sha256": "ce540e9cb594c1733622a3892cd63a3c1ed394ce77c0e73b96293f1f657d5ed8",
+          "revision": "b13-v5-selected-visual-family-reference",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "revision": "official-logo-pinned",
+          "role": "brand_asset",
+          "attributes": [
+            "brand_mark"
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "card_id": "F2-A2",
+          "concept_id": "b18-f2-a2-f2-scene-v1",
+          "description": "A neutral packaged chip and small lot trays beside blank report sheets; product and lot scope are illustrative, no printed identifiers or technical layouts. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+          "props": [
+            "neutral chip sample",
+            "blank correspondence records"
+          ],
+          "reader_question": "先核對產品與計畫期間。",
+          "artwork_labels": [
+            "ERP · 晶片營運",
+            "2/6"
+          ]
+        }
+      ],
+      "artwork_text": {
+        "F2-A2": {
+          "headline": "先核對產品與計畫期間。",
+          "body": "釐清需求變化涉及的產品、計畫期間與委外批次範圍。",
+          "source_text": "",
+          "cta": "",
+          "artwork_labels": [
+            "ERP · 晶片營運",
+            "2/6"
+          ]
+        }
+      },
+      "output_id": "f2-a2-zh-Hant-v1",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a2/native/f2-a2-zh-Hant-v1.png",
+      "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"Print only supplied Traditional Chinese artwork text for Taiwan. Professional operational wording: explicit reconciliation objects, responsibility and practical next step. Use separately reviewed Taiwan terms; never convert mainland copy mechanically or assume national personality. No audit, vendor qualification or commercial guarantees. Keep original scene and narrative order. Preserve Traditional Chinese glyphs and exact supplied punctuation. Never mix scripts or use pseudo-Chinese. Use ASCII parentheses for approved acronym definitions to remain compatible with the frozen gate; do not normalize other punctuation. Review Taiwan punctuation placement, Chinese line starts/ends and mixed Latin terms at 333px; reduce scene area before shrinking type. B13v5 bright white/blue photographic campaign family. Reference wording is not approved copy. Official supplied logo once; no extra DIGIWIN header. Exact category/sequence near logo. Body comfortably readable at333CSSpx. Source normal full-width main paragraph on white, at least body-sized. All paper blank; no bars/rules/charts/ticks/data glyphs/UI/customer geography/seal/badge. Only approved artwork words. Demand-change questions are not forecast accuracy or automatic replanning claims. Reduce scene before type.\",\"revision\":\"campaign-r2-hybrid-full-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v3/assets/03-f1-a2.png\",\"revision\":\"b13-v5-selected-visual-family-reference\",\"role\":\"campaign_visual\",\"sha256\":\"ce540e9cb594c1733622a3892cd63a3c1ed394ce77c0e73b96293f1f657d5ed8\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"official-logo-pinned\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"ERP · 晶片營運\",\"2/6\"],\"card_id\":\"F2-A2\",\"concept_id\":\"b18-f2-a2-f2-scene-v1\",\"description\":\"A neutral packaged chip and small lot trays beside blank report sheets; product and lot scope are illustrative, no printed identifiers or technical layouts. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.\",\"props\":[\"neutral chip sample\",\"blank correspondence records\"],\"reader_question\":\"先核對產品與計畫期間。\"}]\nAPPROVED ARTWORK TEXT\n{\"F2-A2\":{\"artwork_labels\":[\"ERP · 晶片營運\",\"2/6\"],\"body\":\"釐清需求變化涉及的產品、計畫期間與委外批次範圍。\",\"cta\":\"\",\"headline\":\"先核對產品與計畫期間。\",\"source_text\":\"\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/f2-a2/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+      "prompt_sha256": "33bdffe37526883e28596adadb9a523e1e282adb101a23b1ac49b3ab4cb1ac1f"
+    }
+  ]
+}

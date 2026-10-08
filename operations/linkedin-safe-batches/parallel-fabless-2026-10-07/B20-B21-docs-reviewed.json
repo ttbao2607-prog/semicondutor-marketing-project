@@ -1,0 +1,290 @@
+{
+  "main_local_sha": "e0c84d30e9653560817d8ed8249e84436c8cd611",
+  "reviewer": "/root",
+  "review_scope": "Current state headers and relevant Fabless/creative/anchor/documentation rows; historical records retained. Prior full source/anchor readings retained.",
+  "files": [
+    {
+      "path": "CURRENT_STATE.md",
+      "sha256": "ed8ad733babd9c162b4ad09e63476ded116bf6fc8a63e11cc579e64035fbdbfc",
+      "relevant_lines": [
+        {
+          "line": 7,
+          "text": "> **Tiến độ toàn repo tại lúc nhập — mốc `c5e71913` (08/10/2026 10:18 +07:00):** PartnerB22–B30 **COMPLETE,9batch/90PNG**; FablessB13–B17 đã nhập **5batch/55PNG**, B18–B21 **NOT_RUN**. Tiến độ/asset/evidence mới trên main được giữ nguyên. Tệp chính/backup giữ ngày quan sát riêng; không có live readback mới. Package giữ cap **11,7triệu chưa thuế** (5,6triệu đầu +6,1triệu giữ lại trong tổng); Bảo quản lý số dashboard, kế toán xử lý thuế/thanh toán; tuần1→review→tuần2 theo [quyết định Bảo](operations/manager-package-v2/phase1/PO_Dashboard_Weekly_Decision_2026-10-07.md). PO approval áp dụng package offline, không nâng source technical/live verdict; adapter DEVELOPING/NOT_FROZEN và frozen scopes giữ nguyên. Chỉ local, chưa push."
+        },
+        {
+          "line": 9,
+          "text": "> **Fabless closeout / local main · 2026-10-08:** B13 English F1 v5, B14 zh-Hans F1 v1, B15 zh-Hant F1 v3 và B17 zh-Hans F2 v2 đã sửa/hậu kiểm đủ, nhập chọn lọc **44PNG final +4viewer/reader**. Cùng B16 trước đó: **B13–B17 đủ5batch/55PNG; còn4batch B18–B21 NOT_RUN**. Mỗi bộ mới có11native +33card captures (desktop640/feed333/mobileCSS390), reader desktop/mobile và return; root PASS_SELF_REVIEW, MESSAGE_ANCHOR_PASS, EDITORIAL_QA_PASS. B17 A5 bỏ document glyph; B15 A5 sửa CTA phồn thể ở C3. Supersede riêng Fabless pending/HOLD ở snapshot trước cho exact selected revisions này; historical failed/insufficient receipts giữ nguyên, không PASS hồi tố. [Danh mục/nguồn/bằng chứng](operations/linkedin-safe-batches/fabless-closeout-main-2026-10-08/README.md). Frozen24pins nguyên; adapter DEVELOPING/NOT_FROZEN. Không independent/native-market/live certification. Chỉ main local, chưa push."
+        },
+        {
+          "line": 13,
+          "text": "> **Fabless approved offline selection / local main - 2026-10-08:** B16 English F2 v2 only: 11 selected PNGs + viewer/reader/copy/prompts and current evidence. Technical PASS_SELF_REVIEW; no independent/live certification. [Viewer](deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/index.html) / [Selection and provenance](operations/linkedin-safe-batches/fabless-main-integration-2026-10-08/README.md). B13-B15 remain render-gate INSUFFICIENT_EVIDENCE; B17 CHANGES_REQUIRED/HOLD; excluded from this integration and retained on source d622287. This supersedes only Fabless current production/Git/adoption status in earlier snapshots below. Other lanes unchanged; frozen harness/anchor/process unchanged, locale adapter DEVELOPING / NOT_FROZEN. Local only, no push."
+        },
+        {
+          "line": 17,
+          "text": "> **CURRENT LinkedIn progress reconciliation · 2026-10-07:** [Tiến độ đã đối chiếu main/worktrees và baseline package mới](operations/LinkedIn_Current_Progress_2026-10-07.md). Cold Single image → new-ad member audience → Carousel RMK; media cap11,7triệu. Tệp công ty gốc424 đã nghiên cứu/sửa định danh và submit existing Discovery1lần, last Updating06/10; chờ mapping/reach readback, không restart cleanup. Contingency backup R5-52 là luồng riêng: Ready/>90% nhưng Details0, đề xuất recheck24h chưa schedule. VN creative và OSATB6–B12 selected offline đã trên main; Fabless/Partner đang sản xuất ở source, chưa creative-main;10FDI redesigned readers checkpoint5b99984 chưa-main. Package v6 là lịch sử ở source, chưa rebuild. Harness/anchor/process frozen, adapter DEVELOPING/NOT_FROZEN. Các banner/số liệu trước bên dưới chỉ là snapshot đúng revision, không current whole-project status. Chỉ docs sync, không live/push hay acceptance mới."
+        },
+        {
+          "line": 121,
+          "text": "**Dogfood benchmark closeout (2026-10-03, newest):** Hai trial F2-A2 local đã hoàn tất với cấu hình được skill gates xác minh `gpt-6-luna/max` và `gpt-6.1-sol/low`, cùng source/copy/style/harness. Parent operator thực hiện 2 base calls / 0 corrections theo authority giới hạn; native bytes giữ nguyên. Lifecycle vẫn `testing_dogfood`; run `PARTIAL`, benchmark measurement `COMPLETE`, candidate contract audit `FAIL`: cả hai native 1254×1254 khác yêu cầu đã pin 1024×1024, cả hai `CHANGES_REQUIRED`. Đây là gap size-control của operator/tool, không quy thành lỗi chuẩn bị của child. Parent đã kiểm tra wording/mark/alt, không thấy internal caveats trong native/HTML/metadata/export, và xem desktop 1280/mobile 390; Luna còn finding về đường cong đi lên làm mơ hồ story fit, chưa là buyer verdict hay fabricated numerical claim. Bảo content acceptance `NOT_GRANTED`. Implementation checkpoint `SUCCESS` / `AUDIT_PASS` và 35 tests giữ giá trị riêng; parent freshly rerun 35 tests và normalized 18 negative cases mỗi candidate đều đạt expected rejection (child Sol18/Luna17 riêng). Next: review sizing policy tương lai theo native output quan sát được hoặc chứng minh exact-size route; không sửa contract cũ để biến FAIL thành PASS, không retry/resize/correction được cấp thêm. Báo cáo evidence: `operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md`; status CANONICAL: `operations/LinkedIn_ImageGen_Harness_Status.json`. Các đoạn status cũ bên dưới là snapshot lịch sử, superseded về generation/candidate hiện tại. Baseline `7e95a44dc5a3e5c25c07cda7c0f905822b8ba864`; artifact/doc/status mới chỉ local, uncommitted, không staging/push/merge. Không whole-carousel/set-diversity/Taiwan-closing/buyer/live readiness hay general model ranking."
+        },
+        {
+          "line": 130,
+          "text": "**Current awareness override (2026-10-02):** This plan branch is based on the pre-harness commit `052b88bc`. The later local-only freeze `slice/linkedin-awareness-f1-progress@1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f` records 40 selected native assets for F2/F3/P1/P2/P3 and `CREATIVE_QUALITY_FAIL_USER_AUDIT_CONFIRMED`, superseding the unproduced-count/current-status snapshot below. Prior mechanical and rendered checks remain scoped; they do not establish creative acceptance, and raster wordmark fidelity remains open. The freeze remains on a separate local branch, unmerged and unpushed; its image assets are not part of this plan branch. Current first-mention direction: explain OSAT/Fabless/WIP where applicable; ERP/MES need no parenthetical, with meanings kept distinct. See the freeze audit at that commit and `operations/LinkedIn_Awareness_ImageGen_Harness_Redesign_Plan.md`."
+        },
+        {
+          "line": 150,
+          "text": "**LinkedIn RMK proof research delivered (2026-10-02):** Bảo released local/public research R1–R6 from plan checkpoint `0d621de`. [Research pack](operations/linkedin-rmk-proof/README.md) supplies proof ledger/rights matrix, official LinkedIn route memo, persona/trigger shortlist, measurement proposal and pinned source-map. Bounded research execution `SUCCESS`; overall readiness `PARTIAL / READY_FOR_PO_RESEARCH_REVIEW`, independent audit pending. Existing VI case/claim approvals remain valid within scope. Research surfaced Bright Power baseline divergence (official PDF p16 1 day→2 hours versus company casebook 2 days→2 hours), uncorroborated detailed Wafer Works deployment claims at its cited source, and no verified direct carousel-image retargeting source in consulted docs. Athena Red Dot/MUSE recognition has issuer evidence but no new paid-use scope/mark authorization. OSAT Operations/CAS IC and qualitative Fabless/Bright Power are pilot shortlist proposals, not PO selection. Account audience state remains unverified; strategy/production/live not released. No awareness/source asset, landing/tracking/account mutation, commit/merge/push in this research turn. This supersedes earlier research-not-started statements only; earlier checkpoint notes remain historical."
+        },
+        {
+          "line": 158,
+          "text": "**First-mention clarity rule (2026-10-02):** Bảo directs future ad-copy revisions across formats/cohorts to explain the first customer-visible occurrence of each abbreviation/acronym and OSAT/Fabless with a brief source-checked, locale-matched parenthetical phrase in each independently encountered ad. Reword within channel character limits; do not imply product capability. See `operations/linkedin-awareness-execution/first-touch-anchor.md`. Existing P1/Quality/Operations copy, PNG, demo, manifests and receipts remain frozen historical revisions; anchor `PO_ACCEPTED_TESTING_NON_CANONICAL`, visual freeze and render/human/live gates unchanged."
+        },
+        {
+          "line": 164,
+          "text": "**Progress và next pair (2026-10-01):** Local checkpoint `681a237fabcf9635f9a867b76fb5939604a5155a` lưu Quality O1/O4-Q full offline R2 A/B5card theo Bảo acceptance bảo toàn checkpoint, không fullcontent/buyer/live approval hoặc canonical promotion. Anchor `PO_ACCEPTED_TESTING_NON_CANONICAL`; receipts/manifests lịch sử giữ nguyên. V1 SVG→PNG và V2 genuineImageGen đều carousel, không clean2×2 do copy evolution. Library10baseIDs O1–O4/F1–F3/P1–P3,11role treatments do O4-Q/O4-O;2Qualitytreatments produced, còn8baseIDs+O4-O=9treatments lựa chọn, không mandatoryproduction. Operations O2/O4-O plan-only: `operations/LinkedIn_Awareness_Operations_Next_Pair_Plan.md`, awaitingPOexecution; VI/noC proposed, chưa copy/ImageGen/account/spend. Current notes supersede prior wave/pair/production pending statements; dated history remains evidence. Parent đã fetch và tạo/chuyển sang branch local `slice/linkedin-awareness-operations-plan` từ681a237 trong cùng worktree. Bảo đã yêu cầu commit local plan và progress docs trong checkpoint chứa cập nhật này; commit không phải push. Checkpoint nền681a237 và branch này chưa merge main/push GitHub."
+        },
+        {
+          "line": 166,
+          "text": "**R2 local checkpoint (2026-10-01):** Bảo review “Ổn r, commit đi codex.” và yêu cầu lưu checkpoint bản offline đủ A/B5card tại `operations/linkedin-awareness-execution/r2-complete-carousel/`. Containing commit là checkpoint local của full pack, pilots/audit/demo history và current docs; không merge main/push/live. Receipt ngoài pack: `operations/linkedin-awareness-execution/r2-complete-local-checkpoint.md`, pin HTML/manifest đã audit. Anchor vẫn `PO_ACCEPTED_TESTING_NON_CANONICAL`, chưa test thật; lời chốt này không chuyển logic thành canonical hoặc cấp account/spend authority. Historical human receipts/manifests giữ nguyên; checkpoint receipt ghi quyết định mới."
+        },
+        {
+          "line": 168,
+          "text": "**R2 complete offline carousel (2026-10-01):** Bảo authorized completion; `operations/linkedin-awareness-execution/r2-complete-carousel/index.html` now10actualrecords/A/B5card/8uniquePNG. New A4/B3/B4 built-in3base and targetedA5readabilityedit1call,0criticalcorrections; A5=B5, exactsource/main/invitation with enlargedTaiwanpanel. Accepted r2opening/caption149/reusedA2/B2/criticalA3 unchanged, historicalpacks/manifests preserved. Anchor `PO_ACCEPTED_TESTING_NON_CANONICAL`; wholecontent/buyer/live acceptance unknown. Fullcurrentdemo/humanreceipt delivered `READY_FOR_HUMAN_REVIEW`; execution SUCCESS full-offlinecomplete after parent desktop/navigation and mobile390 A5source readable observation; oldsmallsource finding closed onlycurrentfixture. Genericbodydensity/fonts/buyerunderstanding humanpending. Nativeintegrity scopedobserved, not allplatformPASS. Currentfullpack supersedes prior missingcard/currentproductionpending notes only; history retained."
+        },
+        {
+          "line": 170,
+          "text": "**R2 critical pilot actual (2026-10-01):** Accepted first-touch anchor remains `PO_ACCEPTED_TESTING_NON_CANONICAL`. `operations/linkedin-awareness-execution/r2-critical-pilot/index.html` delivers A1/2/3/5 and B1/2/5, missing A4/B3/B4 explicit. Two genuine built-in ImageGen basecalls A3/A5,0corrections; A5=B5 reuse; exact r1laterdraft with r2caption149, old r2/V2 bytes unchanged. Parent native copy/labels integrity và desktop/mobile selected demo/navigation scoped observed; `PARTIAL / READY_FOR_HUMAN_REVIEW`. A5 Taiwan ERP/MES sourceblock rất nhỏ/khó đọc ở normal mobile fixture scale: OPEN/minor visual issue, không readability PASS; governance bridge buyer understanding/fullcontinuity/content acceptance unknown. Taiwan skyline is editorial variation, not facility proof/newstyle approval. No fullbatch/live/Git; current actual scope supersedes earlier proposed/generation-pending notes, historical evidence preserved."
+        },
+        {
+          "line": 172,
+          "text": "**First-touch anchor acceptance (2026-10-01):** Bảo accepted anchor/hướng mở đầu r2, `PO_ACCEPTED_TESTING_NON_CANONICAL`, chưa test thật/buyer/fullchain/live approval. Receipt `operations/linkedin-awareness-execution/first-touch-po-acceptance-2026-10-01.json` pin anchor trước/sau và r2 historical hashes; r2 artifacts/manifests giữ nguyên, old external anchor hash là lịch sử. Next `r2-critical-pilot/`: A3/A5 exact copy proposal, commoncaption149, parent preflight trước hai unique ImageGen images tối đa; A5=B5, chưa gọi tool, không fullbatch. Visual freeze/proof scope giữ nguyên."
+        },
+        {
+          "line": 174,
+          "text": "**First-touch r2 pilot (2026-10-01):** Bảo yêu cầu mở đầu rõ ai nói/đối tượng/tình huống/lý do đọc tiếp; r1 `NEEDS_CHANGES` về first touch, giữ nguyên lịch sử. R2 tại `operations/linkedin-awareness-execution/cold-feed-opening-pilot-r2/index.html`: caption149 giới thiệu Digiwin tư vấn ERP, cover46/body145 hướng nhóm chất lượng OSAT, native37; một built-in ImageGen cover chung + A2/B2 exact reuse, chỉ2/5card mỗi nhánh. Parent desktop/mobile/navigation đã observed, không thấy clipping; `PARTIAL_PILOT / READY_FOR_HUMAN_REVIEW`, chưa PO content/buyer acceptance. [Anchor](operations/linkedin-awareness-execution/first-touch-anchor.md) `TESTING_NON_CANONICAL`; source-map/manifest/receipt trong folder r2. Visual freeze và baseline/r1 bytes giữ nguyên; không fullbatch/live/account/Git. Latest r2 scope supersedes historical r1 current-review status only; proof/region limits vẫn giữ."
+        }
+      ]
+    },
+    {
+      "path": "DOCS_IMPACT_MAP.md",
+      "sha256": "c95867593c63776c055b7c31eec86d5440d4972c08ccb0629e0ec400b4a00cc5",
+      "relevant_lines": [
+        {
+          "line": 5,
+          "text": "> **Tiến độ toàn repo tại lúc nhập — mốc `c5e71913` (08/10/2026 10:18 +07:00):** PartnerB22–B30 **COMPLETE,9batch/90PNG**; FablessB13–B17 đã nhập **5batch/55PNG**, B18–B21 **NOT_RUN**. Tiến độ/asset/evidence mới trên main được giữ nguyên. Tệp chính/backup giữ ngày quan sát riêng; không có live readback mới. Package giữ cap **11,7triệu chưa thuế** (5,6triệu đầu +6,1triệu giữ lại trong tổng); Bảo quản lý số dashboard, kế toán xử lý thuế/thanh toán; tuần1→review→tuần2 theo [quyết định Bảo](operations/manager-package-v2/phase1/PO_Dashboard_Weekly_Decision_2026-10-07.md). PO approval áp dụng package offline, không nâng source technical/live verdict; adapter DEVELOPING/NOT_FROZEN và frozen scopes giữ nguyên. Chỉ local, chưa push."
+        },
+        {
+          "line": 11,
+          "text": "> **CURRENT LinkedIn progress reconciliation · 2026-10-07:** [Tiến độ đã đối chiếu main/worktrees và baseline package mới](operations/LinkedIn_Current_Progress_2026-10-07.md). Cold Single image → new-ad member audience → Carousel RMK; media cap11,7triệu. Tệp công ty gốc424 đã nghiên cứu/sửa định danh và submit existing Discovery1lần, last Updating06/10; chờ mapping/reach readback, không restart cleanup. Contingency backup R5-52 là luồng riêng: Ready/>90% nhưng Details0, đề xuất recheck24h chưa schedule. VN creative và OSATB6–B12 selected offline đã trên main; Fabless/Partner đang sản xuất ở source, chưa creative-main;10FDI redesigned readers checkpoint5b99984 chưa-main. Package v6 là lịch sử ở source, chưa rebuild. Harness/anchor/process frozen, adapter DEVELOPING/NOT_FROZEN. Các banner/số liệu trước bên dưới chỉ là snapshot đúng revision, không current whole-project status. Chỉ docs sync, không live/push hay acceptance mới."
+        },
+        {
+          "line": 37,
+          "text": "For a material change, review the listed CANONICAL files and update only those whose current truth changed. If none change, record: **Docs impact reviewed: no canonical update required.**"
+        }
+      ]
+    },
+    {
+      "path": "operations/LinkedIn_Current_Progress_2026-10-07.md",
+      "sha256": "c2df83c1f006ecc539b7c585299739972f1168d88f7e9c88efa499dea1ea9c4b",
+      "relevant_lines": [
+        {
+          "line": 3,
+          "text": "> **Tiến độ toàn repo tại lúc nhập — mốc `c5e71913` (08/10/2026 10:18 +07:00):** PartnerB22–B30 **COMPLETE,9batch/90PNG**; FablessB13–B17 đã nhập **5batch/55PNG**, B18–B21 **NOT_RUN**. Tiến độ/asset/evidence mới trên main được giữ nguyên. Tệp chính/backup giữ ngày quan sát riêng; không có live readback mới. Package giữ cap **11,7triệu chưa thuế** (5,6triệu đầu +6,1triệu giữ lại trong tổng); Bảo quản lý số dashboard, kế toán xử lý thuế/thanh toán; tuần1→review→tuần2 theo [quyết định Bảo](manager-package-v2/phase1/PO_Dashboard_Weekly_Decision_2026-10-07.md). PO approval áp dụng package offline, không nâng source technical/live verdict; adapter DEVELOPING/NOT_FROZEN và frozen scopes giữ nguyên. Chỉ local, chưa push."
+        },
+        {
+          "line": 5,
+          "text": "> **Fabless closeout / local main · 2026-10-08:** B13 English F1 v5, B14 zh-Hans F1 v1, B15 zh-Hant F1 v3 và B17 zh-Hans F2 v2 đã sửa/hậu kiểm đủ, nhập chọn lọc **44PNG final +4viewer/reader**. Cùng B16 trước đó: **B13–B17 đủ5batch/55PNG; còn4batch B18–B21 NOT_RUN**. Mỗi bộ mới có11native +33card captures (desktop640/feed333/mobileCSS390), reader desktop/mobile và return; root PASS_SELF_REVIEW, MESSAGE_ANCHOR_PASS, EDITORIAL_QA_PASS. B17 A5 bỏ document glyph; B15 A5 sửa CTA phồn thể ở C3. Supersede riêng Fabless pending/HOLD ở snapshot trước cho exact selected revisions này; historical failed/insufficient receipts giữ nguyên, không PASS hồi tố. [Danh mục/nguồn/bằng chứng](linkedin-safe-batches/fabless-closeout-main-2026-10-08/README.md). Frozen24pins nguyên; adapter DEVELOPING/NOT_FROZEN. Không independent/native-market/live certification. Chỉ main local, chưa push."
+        },
+        {
+          "line": 9,
+          "text": "> **Fabless approved offline selection / local main - 2026-10-08:** B16 English F2 v2 only: 11 selected PNGs + viewer/reader/copy/prompts and current evidence. Technical PASS_SELF_REVIEW; no independent/live certification. [Viewer](../deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/index.html) / [Selection and provenance](linkedin-safe-batches/fabless-main-integration-2026-10-08/README.md). B13-B15 remain render-gate INSUFFICIENT_EVIDENCE; B17 CHANGES_REQUIRED/HOLD; excluded from this integration and retained on source d622287. This supersedes only Fabless current production/Git/adoption status in earlier snapshots below. Other lanes unchanged; frozen harness/anchor/process unchanged, locale adapter DEVELOPING / NOT_FROZEN. Local only, no push."
+        },
+        {
+          "line": 39,
+          "text": "| Fabless FDI | B13–B17 đủ5batch/55PNG final: B13 EN F1v5, B14 Hans F1v1, B15 Hant F1v3, B16 EN F2v2, B17 Hans F2v2; actual complete postgen PASS_SELF_REVIEW. Còn4batch B18–B21 NOT_RUN. | Selected finals/evidence đã nhập main local theo mandate; failed/raw/history ở source. Không push/live/independent certification. |"
+        },
+        {
+          "line": 41,
+          "text": "| FDI destination HTML redesign | **10concrete readers** (B1–B7 +3O3) đã implement và PO-approved offline checkpoint `5b99984`; mỗi HTML4toggles vi/en/zh-Hans/zh-Hant, authentic same-case photo, source/return/localized default. | Chỉ nhánh `slice/linkedin-fdi-destination-html`, sạch tại snapshot; **chưa nhập redesign vào main**. Main còn reader revision trước. Các reader mới cho B8+ và Fabless/Partner cần mapping/intake riêng;25conditional coverage rows không phải25HTML bắt buộc hay completed. |"
+        },
+        {
+          "line": 67,
+          "text": "> **Fabless approved offline selection / local main - 2026-10-08:** B16 English F2 v2 only: 11 selected PNGs + viewer/reader/copy/prompts and current evidence. Technical PASS_SELF_REVIEW; no independent/live certification. [Viewer](../deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/index.html) / [Selection and provenance](linkedin-safe-batches/fabless-main-integration-2026-10-08/README.md). B13-B15 remain render-gate INSUFFICIENT_EVIDENCE; B17 CHANGES_REQUIRED/HOLD; excluded from this integration and retained on source d622287. This supersedes only Fabless current production/Git/adoption status in earlier snapshots below. Other lanes unchanged; frozen harness/anchor/process unchanged, locale adapter DEVELOPING / NOT_FROZEN. Local only, no push."
+        },
+        {
+          "line": 97,
+          "text": "| Fabless FDI | B13–B17 đủ5batch/55PNG final: B13 EN F1v5, B14 Hans F1v1, B15 Hant F1v3, B16 EN F2v2, B17 Hans F2v2; actual complete postgen PASS_SELF_REVIEW. Còn4batch B18–B21 NOT_RUN. | Selected finals/evidence đã nhập main local theo mandate; failed/raw/history ở source. Không push/live/independent certification. |"
+        },
+        {
+          "line": 99,
+          "text": "| FDI destination HTML redesign | **10concrete readers** (B1–B7 +3O3) đã implement và PO-approved offline checkpoint `5b99984`; mỗi HTML4toggles vi/en/zh-Hans/zh-Hant, authentic same-case photo, source/return/localized default. | Chỉ nhánh `slice/linkedin-fdi-destination-html`, sạch tại snapshot; **chưa nhập redesign vào main**. Main còn reader revision trước. Các reader mới cho B8+ và Fabless/Partner cần mapping/intake riêng;25conditional coverage rows không phải25HTML bắt buộc hay completed. |"
+        }
+      ]
+    },
+    {
+      "path": "ads/linkedin/LinkedIn_Build_Pack.md",
+      "sha256": "fa8bffc3f26b222d76f28064cdf962a00688a696e3976c9f136d4ef07655b5a8",
+      "relevant_lines": [
+        {
+          "line": 3,
+          "text": "> **Tiến độ toàn repo tại lúc nhập — mốc `c5e71913` (08/10/2026 10:18 +07:00):** PartnerB22–B30 **COMPLETE,9batch/90PNG**; FablessB13–B17 đã nhập **5batch/55PNG**, B18–B21 **NOT_RUN**. Tiến độ/asset/evidence mới trên main được giữ nguyên. Tệp chính/backup giữ ngày quan sát riêng; không có live readback mới. Package giữ cap **11,7triệu chưa thuế** (5,6triệu đầu +6,1triệu giữ lại trong tổng); Bảo quản lý số dashboard, kế toán xử lý thuế/thanh toán; tuần1→review→tuần2 theo [quyết định Bảo](../../operations/manager-package-v2/phase1/PO_Dashboard_Weekly_Decision_2026-10-07.md). PO approval áp dụng package offline, không nâng source technical/live verdict; adapter DEVELOPING/NOT_FROZEN và frozen scopes giữ nguyên. Chỉ local, chưa push."
+        },
+        {
+          "line": 5,
+          "text": "> **Fabless closeout / local main · 2026-10-08:** B13 English F1 v5, B14 zh-Hans F1 v1, B15 zh-Hant F1 v3 và B17 zh-Hans F2 v2 đã sửa/hậu kiểm đủ, nhập chọn lọc **44PNG final +4viewer/reader**. Cùng B16 trước đó: **B13–B17 đủ5batch/55PNG; còn4batch B18–B21 NOT_RUN**. Mỗi bộ mới có11native +33card captures (desktop640/feed333/mobileCSS390), reader desktop/mobile và return; root PASS_SELF_REVIEW, MESSAGE_ANCHOR_PASS, EDITORIAL_QA_PASS. B17 A5 bỏ document glyph; B15 A5 sửa CTA phồn thể ở C3. Supersede riêng Fabless pending/HOLD ở snapshot trước cho exact selected revisions này; historical failed/insufficient receipts giữ nguyên, không PASS hồi tố. [Danh mục/nguồn/bằng chứng](../../operations/linkedin-safe-batches/fabless-closeout-main-2026-10-08/README.md). Frozen24pins nguyên; adapter DEVELOPING/NOT_FROZEN. Không independent/native-market/live certification. Chỉ main local, chưa push."
+        },
+        {
+          "line": 9,
+          "text": "> **Fabless approved offline selection / local main - 2026-10-08:** B16 English F2 v2 only: 11 selected PNGs + viewer/reader/copy/prompts and current evidence. Technical PASS_SELF_REVIEW; no independent/live certification. [Viewer](../../deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/index.html) / [Selection and provenance](../../operations/linkedin-safe-batches/fabless-main-integration-2026-10-08/README.md). B13-B15 remain render-gate INSUFFICIENT_EVIDENCE; B17 CHANGES_REQUIRED/HOLD; excluded from this integration and retained on source d622287. This supersedes only Fabless current production/Git/adoption status in earlier snapshots below. Other lanes unchanged; frozen harness/anchor/process unchanged, locale adapter DEVELOPING / NOT_FROZEN. Local only, no push."
+        },
+        {
+          "line": 13,
+          "text": "> **CURRENT LinkedIn progress reconciliation · 2026-10-07:** [Tiến độ đã đối chiếu main/worktrees và baseline package mới](../../operations/LinkedIn_Current_Progress_2026-10-07.md). Cold Single image → new-ad member audience → Carousel RMK; media cap11,7triệu. Tệp công ty gốc424 đã nghiên cứu/sửa định danh và submit existing Discovery1lần, last Updating06/10; chờ mapping/reach readback, không restart cleanup. Contingency backup R5-52 là luồng riêng: Ready/>90% nhưng Details0, đề xuất recheck24h chưa schedule. VN creative và OSATB6–B12 selected offline đã trên main; Fabless/Partner đang sản xuất ở source, chưa creative-main;10FDI redesigned readers checkpoint5b99984 chưa-main. Package v6 là lịch sử ở source, chưa rebuild. Harness/anchor/process frozen, adapter DEVELOPING/NOT_FROZEN. Các banner/số liệu trước bên dưới chỉ là snapshot đúng revision, không current whole-project status. Chỉ docs sync, không live/push hay acceptance mới."
+        },
+        {
+          "line": 107,
+          "text": "**Dogfood benchmark closeout (2026-10-03, newest):** Hai trial F2-A2 local đã hoàn tất với cấu hình được skill gates xác minh `gpt-6-luna/max` và `gpt-6.1-sol/low`, cùng source/copy/style/harness. Parent operator thực hiện 2 base calls / 0 corrections theo authority giới hạn; native bytes giữ nguyên. Lifecycle vẫn `testing_dogfood`; run `PARTIAL`, benchmark measurement `COMPLETE`, candidate contract audit `FAIL`: cả hai native 1254×1254 khác yêu cầu đã pin 1024×1024, cả hai `CHANGES_REQUIRED`. Đây là gap size-control của operator/tool, không quy thành lỗi chuẩn bị của child. Parent đã kiểm tra wording/mark/alt, không thấy internal caveats trong native/HTML/metadata/export, và xem desktop 1280/mobile 390; Luna còn finding về đường cong đi lên làm mơ hồ story fit, chưa là buyer verdict hay fabricated numerical claim. Bảo content acceptance `NOT_GRANTED`. Implementation checkpoint `SUCCESS` / `AUDIT_PASS` và 35 tests giữ giá trị riêng; parent freshly rerun 35 tests và normalized 18 negative cases mỗi candidate đều đạt expected rejection (child Sol18/Luna17 riêng). Next: review sizing policy tương lai theo native output quan sát được hoặc chứng minh exact-size route; không sửa contract cũ để biến FAIL thành PASS, không retry/resize/correction được cấp thêm. Báo cáo evidence: `operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md`; status CANONICAL: `operations/LinkedIn_ImageGen_Harness_Status.json`. Các đoạn status cũ bên dưới là snapshot lịch sử, superseded về generation/candidate hiện tại. Baseline `7e95a44dc5a3e5c25c07cda7c0f905822b8ba864`; artifact/doc/status mới chỉ local, uncommitted, không staging/push/merge. Không whole-carousel/set-diversity/Taiwan-closing/buyer/live readiness hay general model ranking."
+        },
+        {
+          "line": 116,
+          "text": "**Current awareness override (2026-10-02):** This plan branch is based on the pre-harness commit `052b88bc`. The later local-only freeze `slice/linkedin-awareness-f1-progress@1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f` records 40 selected native assets for F2/F3/P1/P2/P3 and `CREATIVE_QUALITY_FAIL_USER_AUDIT_CONFIRMED`, superseding the unproduced-count/current-status snapshot below. Prior mechanical and rendered checks remain scoped; they do not establish creative acceptance, and raster wordmark fidelity remains open. The freeze remains on a separate local branch, unmerged and unpushed; its image assets are not part of this plan branch. Current first-mention direction: explain OSAT/Fabless/WIP where applicable; ERP/MES need no parenthetical, with meanings kept distinct. See the freeze audit at that commit and `operations/LinkedIn_Awareness_ImageGen_Harness_Redesign_Plan.md`."
+        },
+        {
+          "line": 138,
+          "text": "**First-mention clarity rule (2026-10-02):** Bảo directs future ad-copy revisions across formats/cohorts to explain the first customer-visible occurrence of each abbreviation/acronym and OSAT/Fabless with a brief source-checked, locale-matched parenthetical phrase in each independently encountered ad. Reword within channel character limits; do not imply product capability. See `operations/linkedin-awareness-execution/first-touch-anchor.md`. Existing P1/Quality/Operations copy, PNG, demo, manifests and receipts remain frozen historical revisions; anchor `PO_ACCEPTED_TESTING_NON_CANONICAL`, visual freeze and render/human/live gates unchanged."
+        },
+        {
+          "line": 144,
+          "text": "**Progress và next pair (2026-10-01):** Local checkpoint `681a237fabcf9635f9a867b76fb5939604a5155a` lưu Quality O1/O4-Q full offline R2 A/B5card theo Bảo acceptance bảo toàn checkpoint, không fullcontent/buyer/live approval hoặc canonical promotion. Anchor `PO_ACCEPTED_TESTING_NON_CANONICAL`; receipts/manifests lịch sử giữ nguyên. V1 SVG→PNG và V2 genuineImageGen đều carousel, không clean2×2 do copy evolution. Library10baseIDs O1–O4/F1–F3/P1–P3,11role treatments do O4-Q/O4-O;2Qualitytreatments produced, còn8baseIDs+O4-O=9treatments lựa chọn, không mandatoryproduction. Operations O2/O4-O plan-only: `operations/LinkedIn_Awareness_Operations_Next_Pair_Plan.md`, awaitingPOexecution; VI/noC proposed, chưa copy/ImageGen/account/spend. Current notes supersede prior wave/pair/production pending statements; dated history remains evidence. Parent đã fetch và tạo/chuyển sang branch local `slice/linkedin-awareness-operations-plan` từ681a237 trong cùng worktree. Bảo đã yêu cầu commit local plan và progress docs trong checkpoint chứa cập nhật này; commit không phải push. Checkpoint nền681a237 và branch này chưa merge main/push GitHub."
+        },
+        {
+          "line": 146,
+          "text": "**R2 local checkpoint (2026-10-01):** Bảo review “Ổn r, commit đi codex.” và yêu cầu lưu checkpoint bản offline đủ A/B5card tại `operations/linkedin-awareness-execution/r2-complete-carousel/`. Containing commit là checkpoint local của full pack, pilots/audit/demo history và current docs; không merge main/push/live. Receipt ngoài pack: `operations/linkedin-awareness-execution/r2-complete-local-checkpoint.md`, pin HTML/manifest đã audit. Anchor vẫn `PO_ACCEPTED_TESTING_NON_CANONICAL`, chưa test thật; lời chốt này không chuyển logic thành canonical hoặc cấp account/spend authority. Historical human receipts/manifests giữ nguyên; checkpoint receipt ghi quyết định mới."
+        },
+        {
+          "line": 148,
+          "text": "**R2 complete offline carousel (2026-10-01):** Bảo authorized completion; `operations/linkedin-awareness-execution/r2-complete-carousel/index.html` now10actualrecords/A/B5card/8uniquePNG. New A4/B3/B4 built-in3base and targetedA5readabilityedit1call,0criticalcorrections; A5=B5, exactsource/main/invitation with enlargedTaiwanpanel. Accepted r2opening/caption149/reusedA2/B2/criticalA3 unchanged, historicalpacks/manifests preserved. Anchor `PO_ACCEPTED_TESTING_NON_CANONICAL`; wholecontent/buyer/live acceptance unknown. Fullcurrentdemo/humanreceipt delivered `READY_FOR_HUMAN_REVIEW`; execution SUCCESS full-offlinecomplete after parent desktop/navigation and mobile390 A5source readable observation; oldsmallsource finding closed onlycurrentfixture. Genericbodydensity/fonts/buyerunderstanding humanpending. Nativeintegrity scopedobserved, not allplatformPASS. Currentfullpack supersedes prior missingcard/currentproductionpending notes only; history retained."
+        },
+        {
+          "line": 150,
+          "text": "**R2 critical pilot actual (2026-10-01):** Accepted first-touch anchor remains `PO_ACCEPTED_TESTING_NON_CANONICAL`. `operations/linkedin-awareness-execution/r2-critical-pilot/index.html` delivers A1/2/3/5 and B1/2/5, missing A4/B3/B4 explicit. Two genuine built-in ImageGen basecalls A3/A5,0corrections; A5=B5 reuse; exact r1laterdraft with r2caption149, old r2/V2 bytes unchanged. Parent native copy/labels integrity và desktop/mobile selected demo/navigation scoped observed; `PARTIAL / READY_FOR_HUMAN_REVIEW`. A5 Taiwan ERP/MES sourceblock rất nhỏ/khó đọc ở normal mobile fixture scale: OPEN/minor visual issue, không readability PASS; governance bridge buyer understanding/fullcontinuity/content acceptance unknown. Taiwan skyline is editorial variation, not facility proof/newstyle approval. No fullbatch/live/Git; current actual scope supersedes earlier proposed/generation-pending notes, historical evidence preserved."
+        },
+        {
+          "line": 152,
+          "text": "**First-touch anchor acceptance (2026-10-01):** Bảo accepted anchor/hướng mở đầu r2, `PO_ACCEPTED_TESTING_NON_CANONICAL`, chưa test thật/buyer/fullchain/live approval. Receipt `operations/linkedin-awareness-execution/first-touch-po-acceptance-2026-10-01.json` pin anchor trước/sau và r2 historical hashes; r2 artifacts/manifests giữ nguyên, old external anchor hash là lịch sử. Next `r2-critical-pilot/`: A3/A5 exact copy proposal, commoncaption149, parent preflight trước hai unique ImageGen images tối đa; A5=B5, chưa gọi tool, không fullbatch. Visual freeze/proof scope giữ nguyên."
+        },
+        {
+          "line": 154,
+          "text": "**First-touch r2 pilot (2026-10-01):** Bảo yêu cầu mở đầu rõ ai nói/đối tượng/tình huống/lý do đọc tiếp; r1 `NEEDS_CHANGES` về first touch, giữ nguyên lịch sử. R2 tại `operations/linkedin-awareness-execution/cold-feed-opening-pilot-r2/index.html`: caption149 giới thiệu Digiwin tư vấn ERP, cover46/body145 hướng nhóm chất lượng OSAT, native37; một built-in ImageGen cover chung + A2/B2 exact reuse, chỉ2/5card mỗi nhánh. Parent desktop/mobile/navigation đã observed, không thấy clipping; `PARTIAL_PILOT / READY_FOR_HUMAN_REVIEW`, chưa PO content/buyer acceptance. [Anchor](operations/linkedin-awareness-execution/first-touch-anchor.md) `TESTING_NON_CANONICAL`; source-map/manifest/receipt trong folder r2. Visual freeze và baseline/r1 bytes giữ nguyên; không fullbatch/live/account/Git. Latest r2 scope supersedes historical r1 current-review status only; proof/region limits vẫn giữ."
+        },
+        {
+          "line": 173,
+          "text": "**ImageGen critical A3/A5 pilot (2026-10-01):** Bảo continued only the critical pilot phase after A1, with brand-frequency QA at `operations/linkedin-awareness-execution/production-imagegen-v2/critical-pilot/brand-frequency-qa.md` (`TESTING_NON_CANONICAL`). Actual native A3/A5 PNGs and copy/prompts/manifest/handoff linked by critical-pilot README: two new built-in initial calls, cumulative3 including A1, zero corrections. Each1254×1254; A3 1,683,205bytes, A5 1,712,047bytes. `PARTIAL / AWAITING_PO_CRITICAL_REVIEW`; brandcounts A3=1/A5=3 are explained, not mechanical QA acceptance. Separate uppercase DIGIWIN header omitted in new cards as disclosed furniture delta; exact R3 main copy retained. A1 observed4 unchanged/OPEN, A3 checkmark semantic polish and feed312 readability remain open. Independent STRUCTURAL/CONTRACT review passed; parent viewed both native images. Closeout: operations/linkedin-awareness-execution/imagegen-critical-coordinator-audit.md. No fullbatch/account/live/Git mutation; sources/V1 unchanged; prior notes historical."
+        }
+      ]
+    },
+    {
+      "path": "operations/Pre_Ad_Readiness_Plan.md",
+      "sha256": "75c91e534bc31828c252be0c13f3a4792436f2625170dda9b30d60a500b26115",
+      "relevant_lines": [
+        {
+          "line": 3,
+          "text": "> **Tiến độ toàn repo tại lúc nhập — mốc `c5e71913` (08/10/2026 10:18 +07:00):** PartnerB22–B30 **COMPLETE,9batch/90PNG**; FablessB13–B17 đã nhập **5batch/55PNG**, B18–B21 **NOT_RUN**. Tiến độ/asset/evidence mới trên main được giữ nguyên. Tệp chính/backup giữ ngày quan sát riêng; không có live readback mới. Package giữ cap **11,7triệu chưa thuế** (5,6triệu đầu +6,1triệu giữ lại trong tổng); Bảo quản lý số dashboard, kế toán xử lý thuế/thanh toán; tuần1→review→tuần2 theo [quyết định Bảo](manager-package-v2/phase1/PO_Dashboard_Weekly_Decision_2026-10-07.md). PO approval áp dụng package offline, không nâng source technical/live verdict; adapter DEVELOPING/NOT_FROZEN và frozen scopes giữ nguyên. Chỉ local, chưa push."
+        },
+        {
+          "line": 5,
+          "text": "> **Fabless closeout / local main · 2026-10-08:** B13 English F1 v5, B14 zh-Hans F1 v1, B15 zh-Hant F1 v3 và B17 zh-Hans F2 v2 đã sửa/hậu kiểm đủ, nhập chọn lọc **44PNG final +4viewer/reader**. Cùng B16 trước đó: **B13–B17 đủ5batch/55PNG; còn4batch B18–B21 NOT_RUN**. Mỗi bộ mới có11native +33card captures (desktop640/feed333/mobileCSS390), reader desktop/mobile và return; root PASS_SELF_REVIEW, MESSAGE_ANCHOR_PASS, EDITORIAL_QA_PASS. B17 A5 bỏ document glyph; B15 A5 sửa CTA phồn thể ở C3. Supersede riêng Fabless pending/HOLD ở snapshot trước cho exact selected revisions này; historical failed/insufficient receipts giữ nguyên, không PASS hồi tố. [Danh mục/nguồn/bằng chứng](linkedin-safe-batches/fabless-closeout-main-2026-10-08/README.md). Frozen24pins nguyên; adapter DEVELOPING/NOT_FROZEN. Không independent/native-market/live certification. Chỉ main local, chưa push."
+        },
+        {
+          "line": 9,
+          "text": "> **Fabless approved offline selection / local main - 2026-10-08:** B16 English F2 v2 only: 11 selected PNGs + viewer/reader/copy/prompts and current evidence. Technical PASS_SELF_REVIEW; no independent/live certification. [Viewer](../deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/index.html) / [Selection and provenance](linkedin-safe-batches/fabless-main-integration-2026-10-08/README.md). B13-B15 remain render-gate INSUFFICIENT_EVIDENCE; B17 CHANGES_REQUIRED/HOLD; excluded from this integration and retained on source d622287. This supersedes only Fabless current production/Git/adoption status in earlier snapshots below. Other lanes unchanged; frozen harness/anchor/process unchanged, locale adapter DEVELOPING / NOT_FROZEN. Local only, no push."
+        },
+        {
+          "line": 13,
+          "text": "> **CURRENT LinkedIn progress reconciliation · 2026-10-07:** [Tiến độ đã đối chiếu main/worktrees và baseline package mới](LinkedIn_Current_Progress_2026-10-07.md). Cold Single image → new-ad member audience → Carousel RMK; media cap11,7triệu. Tệp công ty gốc424 đã nghiên cứu/sửa định danh và submit existing Discovery1lần, last Updating06/10; chờ mapping/reach readback, không restart cleanup. Contingency backup R5-52 là luồng riêng: Ready/>90% nhưng Details0, đề xuất recheck24h chưa schedule. VN creative và OSATB6–B12 selected offline đã trên main; Fabless/Partner đang sản xuất ở source, chưa creative-main;10FDI redesigned readers checkpoint5b99984 chưa-main. Package v6 là lịch sử ở source, chưa rebuild. Harness/anchor/process frozen, adapter DEVELOPING/NOT_FROZEN. Các banner/số liệu trước bên dưới chỉ là snapshot đúng revision, không current whole-project status. Chỉ docs sync, không live/push hay acceptance mới."
+        },
+        {
+          "line": 105,
+          "text": "**Dogfood benchmark closeout (2026-10-03, newest):** Hai trial F2-A2 local đã hoàn tất với cấu hình được skill gates xác minh `gpt-6-luna/max` và `gpt-6.1-sol/low`, cùng source/copy/style/harness. Parent operator thực hiện 2 base calls / 0 corrections theo authority giới hạn; native bytes giữ nguyên. Lifecycle vẫn `testing_dogfood`; run `PARTIAL`, benchmark measurement `COMPLETE`, candidate contract audit `FAIL`: cả hai native 1254×1254 khác yêu cầu đã pin 1024×1024, cả hai `CHANGES_REQUIRED`. Đây là gap size-control của operator/tool, không quy thành lỗi chuẩn bị của child. Parent đã kiểm tra wording/mark/alt, không thấy internal caveats trong native/HTML/metadata/export, và xem desktop 1280/mobile 390; Luna còn finding về đường cong đi lên làm mơ hồ story fit, chưa là buyer verdict hay fabricated numerical claim. Bảo content acceptance `NOT_GRANTED`. Implementation checkpoint `SUCCESS` / `AUDIT_PASS` và 35 tests giữ giá trị riêng; parent freshly rerun 35 tests và normalized 18 negative cases mỗi candidate đều đạt expected rejection (child Sol18/Luna17 riêng). Next: review sizing policy tương lai theo native output quan sát được hoặc chứng minh exact-size route; không sửa contract cũ để biến FAIL thành PASS, không retry/resize/correction được cấp thêm. Báo cáo evidence: `operations/LinkedIn_ImageGen_Dogfood_Benchmark_2026-10-03.md`; status CANONICAL: `operations/LinkedIn_ImageGen_Harness_Status.json`. Các đoạn status cũ bên dưới là snapshot lịch sử, superseded về generation/candidate hiện tại. Baseline `7e95a44dc5a3e5c25c07cda7c0f905822b8ba864`; artifact/doc/status mới chỉ local, uncommitted, không staging/push/merge. Không whole-carousel/set-diversity/Taiwan-closing/buyer/live readiness hay general model ranking."
+        },
+        {
+          "line": 114,
+          "text": "**Current awareness override (2026-10-02):** This plan branch is based on the pre-harness commit `052b88bc`. The later local-only freeze `slice/linkedin-awareness-f1-progress@1f476c31de4f8a7cfbcf5b5b8842fd35a2e7390f` records 40 selected native assets for F2/F3/P1/P2/P3 and `CREATIVE_QUALITY_FAIL_USER_AUDIT_CONFIRMED`, superseding the unproduced-count/current-status snapshot below. Prior mechanical and rendered checks remain scoped; they do not establish creative acceptance, and raster wordmark fidelity remains open. The freeze remains on a separate local branch, unmerged and unpushed; its image assets are not part of this plan branch. Current first-mention direction: explain OSAT/Fabless/WIP where applicable; ERP/MES need no parenthetical, with meanings kept distinct. See the freeze audit at that commit and `operations/LinkedIn_Awareness_ImageGen_Harness_Redesign_Plan.md`."
+        },
+        {
+          "line": 140,
+          "text": "**Progress và next pair (2026-10-01):** Local checkpoint `681a237fabcf9635f9a867b76fb5939604a5155a` lưu Quality O1/O4-Q full offline R2 A/B5card theo Bảo acceptance bảo toàn checkpoint, không fullcontent/buyer/live approval hoặc canonical promotion. Anchor `PO_ACCEPTED_TESTING_NON_CANONICAL`; receipts/manifests lịch sử giữ nguyên. V1 SVG→PNG và V2 genuineImageGen đều carousel, không clean2×2 do copy evolution. Library10baseIDs O1–O4/F1–F3/P1–P3,11role treatments do O4-Q/O4-O;2Qualitytreatments produced, còn8baseIDs+O4-O=9treatments lựa chọn, không mandatoryproduction. Operations O2/O4-O plan-only: `operations/LinkedIn_Awareness_Operations_Next_Pair_Plan.md`, awaitingPOexecution; VI/noC proposed, chưa copy/ImageGen/account/spend. Current notes supersede prior wave/pair/production pending statements; dated history remains evidence. Parent đã fetch và tạo/chuyển sang branch local `slice/linkedin-awareness-operations-plan` từ681a237 trong cùng worktree. Bảo đã yêu cầu commit local plan và progress docs trong checkpoint chứa cập nhật này; commit không phải push. Checkpoint nền681a237 và branch này chưa merge main/push GitHub."
+        },
+        {
+          "line": 142,
+          "text": "**R2 local checkpoint (2026-10-01):** Bảo review “Ổn r, commit đi codex.” và yêu cầu lưu checkpoint bản offline đủ A/B5card tại `operations/linkedin-awareness-execution/r2-complete-carousel/`. Containing commit là checkpoint local của full pack, pilots/audit/demo history và current docs; không merge main/push/live. Receipt ngoài pack: `operations/linkedin-awareness-execution/r2-complete-local-checkpoint.md`, pin HTML/manifest đã audit. Anchor vẫn `PO_ACCEPTED_TESTING_NON_CANONICAL`, chưa test thật; lời chốt này không chuyển logic thành canonical hoặc cấp account/spend authority. Historical human receipts/manifests giữ nguyên; checkpoint receipt ghi quyết định mới."
+        },
+        {
+          "line": 144,
+          "text": "**R2 complete offline carousel (2026-10-01):** Bảo authorized completion; `operations/linkedin-awareness-execution/r2-complete-carousel/index.html` now10actualrecords/A/B5card/8uniquePNG. New A4/B3/B4 built-in3base and targetedA5readabilityedit1call,0criticalcorrections; A5=B5, exactsource/main/invitation with enlargedTaiwanpanel. Accepted r2opening/caption149/reusedA2/B2/criticalA3 unchanged, historicalpacks/manifests preserved. Anchor `PO_ACCEPTED_TESTING_NON_CANONICAL`; wholecontent/buyer/live acceptance unknown. Fullcurrentdemo/humanreceipt delivered `READY_FOR_HUMAN_REVIEW`; execution SUCCESS full-offlinecomplete after parent desktop/navigation and mobile390 A5source readable observation; oldsmallsource finding closed onlycurrentfixture. Genericbodydensity/fonts/buyerunderstanding humanpending. Nativeintegrity scopedobserved, not allplatformPASS. Currentfullpack supersedes prior missingcard/currentproductionpending notes only; history retained."
+        },
+        {
+          "line": 146,
+          "text": "**R2 critical pilot actual (2026-10-01):** Accepted first-touch anchor remains `PO_ACCEPTED_TESTING_NON_CANONICAL`. `operations/linkedin-awareness-execution/r2-critical-pilot/index.html` delivers A1/2/3/5 and B1/2/5, missing A4/B3/B4 explicit. Two genuine built-in ImageGen basecalls A3/A5,0corrections; A5=B5 reuse; exact r1laterdraft with r2caption149, old r2/V2 bytes unchanged. Parent native copy/labels integrity và desktop/mobile selected demo/navigation scoped observed; `PARTIAL / READY_FOR_HUMAN_REVIEW`. A5 Taiwan ERP/MES sourceblock rất nhỏ/khó đọc ở normal mobile fixture scale: OPEN/minor visual issue, không readability PASS; governance bridge buyer understanding/fullcontinuity/content acceptance unknown. Taiwan skyline is editorial variation, not facility proof/newstyle approval. No fullbatch/live/Git; current actual scope supersedes earlier proposed/generation-pending notes, historical evidence preserved."
+        },
+        {
+          "line": 148,
+          "text": "**First-touch anchor acceptance (2026-10-01):** Bảo accepted anchor/hướng mở đầu r2, `PO_ACCEPTED_TESTING_NON_CANONICAL`, chưa test thật/buyer/fullchain/live approval. Receipt `operations/linkedin-awareness-execution/first-touch-po-acceptance-2026-10-01.json` pin anchor trước/sau và r2 historical hashes; r2 artifacts/manifests giữ nguyên, old external anchor hash là lịch sử. Next `r2-critical-pilot/`: A3/A5 exact copy proposal, commoncaption149, parent preflight trước hai unique ImageGen images tối đa; A5=B5, chưa gọi tool, không fullbatch. Visual freeze/proof scope giữ nguyên."
+        },
+        {
+          "line": 150,
+          "text": "**First-touch r2 pilot (2026-10-01):** Bảo yêu cầu mở đầu rõ ai nói/đối tượng/tình huống/lý do đọc tiếp; r1 `NEEDS_CHANGES` về first touch, giữ nguyên lịch sử. R2 tại `operations/linkedin-awareness-execution/cold-feed-opening-pilot-r2/index.html`: caption149 giới thiệu Digiwin tư vấn ERP, cover46/body145 hướng nhóm chất lượng OSAT, native37; một built-in ImageGen cover chung + A2/B2 exact reuse, chỉ2/5card mỗi nhánh. Parent desktop/mobile/navigation đã observed, không thấy clipping; `PARTIAL_PILOT / READY_FOR_HUMAN_REVIEW`, chưa PO content/buyer acceptance. [Anchor](operations/linkedin-awareness-execution/first-touch-anchor.md) `TESTING_NON_CANONICAL`; source-map/manifest/receipt trong folder r2. Visual freeze và baseline/r1 bytes giữ nguyên; không fullbatch/live/account/Git. Latest r2 scope supersedes historical r1 current-review status only; proof/region limits vẫn giữ."
+        },
+        {
+          "line": 167,
+          "text": "**ImageGen critical A3/A5 pilot (2026-10-01):** Bảo continued only the critical pilot phase after A1, with brand-frequency QA at `operations/linkedin-awareness-execution/production-imagegen-v2/critical-pilot/brand-frequency-qa.md` (`TESTING_NON_CANONICAL`). Actual native A3/A5 PNGs and copy/prompts/manifest/handoff linked by critical-pilot README: two new built-in initial calls, cumulative3 including A1, zero corrections. Each1254×1254; A3 1,683,205bytes, A5 1,712,047bytes. `PARTIAL / AWAITING_PO_CRITICAL_REVIEW`; brandcounts A3=1/A5=3 are explained, not mechanical QA acceptance. Separate uppercase DIGIWIN header omitted in new cards as disclosed furniture delta; exact R3 main copy retained. A1 observed4 unchanged/OPEN, A3 checkmark semantic polish and feed312 readability remain open. Independent STRUCTURAL/CONTRACT review passed; parent viewed both native images. Closeout: operations/linkedin-awareness-execution/imagegen-critical-coordinator-audit.md. No fullbatch/account/live/Git mutation; sources/V1 unchanged; prior notes historical."
+        },
+        {
+          "line": 171,
+          "text": "**Local checkpoint / ImageGen V2 planning (2026-10-01):** The containing local checkpoint is `e27be1496d66cd003b7081efa3cac2c6f6c30cc9` on `slice/optimize-awareness-linkedin-adcopy`; no main merge or GitHub push. Vector V1 at `operations/linkedin-awareness-execution/production-r3/` remains retained by Bảo for testing, `TESTING_OFFLINE_DRAFT`; polish logic stays `TESTING_NON_CANONICAL`. Separate genuine built-in ImageGen V2 plan: `operations/LinkedIn_Awareness_ImageGen_Variance_Plan.md`, `PLAN_ONLY / READY_FOR_PO_STYLE_DECISION`. No ImageGen generation, buyer validation, canonical promotion, account activity or spend occurs in this planning milestone. Prior dated working-tree/checkpoint-pending notes below remain historical and are superseded for current locality/status by this addendum."
+        }
+      ]
+    },
+    {
+      "path": "drafts/S03_LinkedIn_Audience_Research.md",
+      "sha256": "d59c65c20798945e0183796bbe2371cf4cec239ec6158412d799bcfadbfa1ae2",
+      "relevant_lines": [
+        {
+          "line": 1,
+          "text": "> **Fabless closeout / local main · 2026-10-08:** B13 English F1 v5, B14 zh-Hans F1 v1, B15 zh-Hant F1 v3 và B17 zh-Hans F2 v2 đã sửa/hậu kiểm đủ, nhập chọn lọc **44PNG final +4viewer/reader**. Cùng B16 trước đó: **B13–B17 đủ5batch/55PNG; còn4batch B18–B21 NOT_RUN**. Mỗi bộ mới có11native +33card captures (desktop640/feed333/mobileCSS390), reader desktop/mobile và return; root PASS_SELF_REVIEW, MESSAGE_ANCHOR_PASS, EDITORIAL_QA_PASS. B17 A5 bỏ document glyph; B15 A5 sửa CTA phồn thể ở C3. Supersede riêng Fabless pending/HOLD ở snapshot trước cho exact selected revisions này; historical failed/insufficient receipts giữ nguyên, không PASS hồi tố. [Danh mục/nguồn/bằng chứng](../operations/linkedin-safe-batches/fabless-closeout-main-2026-10-08/README.md). Frozen24pins nguyên; adapter DEVELOPING/NOT_FROZEN. Không independent/native-market/live certification. Chỉ main local, chưa push."
+        },
+        {
+          "line": 5,
+          "text": "> **Fabless selection update - 2026-10-08:** Only B16 English F2 v2 is PO-approved offline and integrated locally: 11 selected PNGs, viewer/reader and current PASS_SELF_REVIEW evidence. B13-B15 render-gate INSUFFICIENT_EVIDENCE and B17 CHANGES_REQUIRED/HOLD remain on source. [Selection/provenance](../operations/linkedin-safe-batches/fabless-main-integration-2026-10-08/README.md). Earlier Fabless source-only status is superseded for B16 only; ICP/audience eligibility/live gates unchanged. No push."
+        },
+        {
+          "line": 9,
+          "text": "> **CURRENT LinkedIn progress reconciliation · 2026-10-07:** [Tiến độ đã đối chiếu main/worktrees và baseline package mới](../operations/LinkedIn_Current_Progress_2026-10-07.md). Cold Single image → new-ad member audience → Carousel RMK; media cap11,7triệu. Tệp công ty gốc424 đã nghiên cứu/sửa định danh và submit existing Discovery1lần, last Updating06/10; chờ mapping/reach readback, không restart cleanup. Contingency backup R5-52 là luồng riêng: Ready/>90% nhưng Details0, đề xuất recheck24h chưa schedule. VN creative và OSATB6–B12 selected offline đã trên main; Fabless/Partner đang sản xuất ở source, chưa creative-main;10FDI redesigned readers checkpoint5b99984 chưa-main. Package v6 là lịch sử ở source, chưa rebuild. Harness/anchor/process frozen, adapter DEVELOPING/NOT_FROZEN. Các banner/số liệu trước bên dưới chỉ là snapshot đúng revision, không current whole-project status. Chỉ docs sync, không live/push hay acceptance mới."
+        },
+        {
+          "line": 73,
+          "text": "| Fabless commercialization | Operations, planning, supply chain, R&D/program, finance, product/operations leadership | Manager/director/VP | Avoid broad chip-design audiences unrelated to commercial operations |"
+        }
+      ]
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-handoff-2026-10-07/README.md",
+      "sha256": "4e441d36f5e93c842a157a942d926d0bcfdac8af966dfe8dfc8fb84a55dc8ca6",
+      "relevant_lines": [
+        {
+          "line": 5,
+          "text": "PO yêu cầu chia các biến còn lại thành OSAT / Fabless / Partner để Bảo tự mở session. Đây là phân công thực thi offline theo plan batch hiện hành, không tự spawn. Kết quả handoff mong muốn: ba queue không trùng ID/path/writer, mỗi session có input, dependency, output, acceptance và stop rõ."
+        },
+        {
+          "line": 10,
+          "text": "| Fabless | B13–B21 | F1, F2, F3; mỗi treatment en → zh-Hans → zh-Hant | B13 F1 en |"
+        },
+        {
+          "line": 13,
+          "text": "25 là số batch dự kiến nếu tất cả intake fit. Không phải quota bắt buộc: Fabless/Partner cần recheck buyer/ERP trigger; P3 có thể HOLD nếu nguồn chỉ phục vụ VN hoặc khác persona. Không tự chuyển lane VN. Không chạy lại O1/B1–B3, O2 English/B4 hoặc giản thể/B5; O3 dùng pilot phù hợp, không gent lại mặc định."
+        }
+      ]
+    }
+  ],
+  "outcome": "Owned draft closeout; canonical adopted count remains5/55. Concrete promotion proposal in B20-B21-docs-impact.md."
+}

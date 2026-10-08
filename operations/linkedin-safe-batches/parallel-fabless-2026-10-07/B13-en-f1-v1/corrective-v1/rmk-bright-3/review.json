@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "revision": "rmk-bright-3-b13-corrective-review-v1",
+  "writer": "/root",
+  "reviewer": "/root",
+  "date": "2026-10-07",
+  "scope": "OFFLINE_SOURCE_COPY",
+  "independence": "SELF_REVIEW",
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/corrective-v1/rmk-bright-3/contract.json",
+      "sha256": "94afa971666fa8bbd3331630da18a8a929f4bda5fe8765bb65a533706d7b3c4d",
+      "revision": "rmk-bright-3-b13-corrective-contract-v1"
+    },
+    "copy": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/public-copy.json",
+      "sha256": "58ea1bb1131d18686ad273ef7fa14bb987fd4bdf3892ed266b39597a67b94ddc",
+      "revision": "b13-proof-en-copy-v1"
+    },
+    "sources": [
+      {
+        "path": "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/bright/source.json",
+        "sha256": "5b4a23dcce8174803352a50c9baa552e0cbe5e4bc250f3a7a18f91e7a1ead47a",
+        "revision": "b13-exact-source-v1"
+      },
+      {
+        "path": "operations/linkedin-rmk-postcheck/2026-10-05/regenerated-v4/bright/copy.json",
+        "sha256": "a7d8898b78254d651a5cf86847d860b9940e5eb5433eead3b2d4cf460156545d",
+        "revision": "b13-exact-source-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof-source-mapping.json",
+        "sha256": "dd6b951f876918890693e5b90d64850b67b84c19f9aa6c6ccf25e7c10d544a25",
+        "revision": "b13-exact-source-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/execution-brief.md",
+        "sha256": "ad41950cd773ea6b1ea63f58c90cafe81735eae390ba406ad0aff4fd868345e4",
+        "revision": "b13-execution-brief-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/remaining-layout-review.json",
+        "sha256": "fa08fa88a873b7305e258b10fbee77b0973dda5bbee21c206a20914770c869ce",
+        "revision": "b13-remaining-layout-self-review-v3"
+      }
+    ]
+  },
+  "verdicts": {
+    "source_copy": "PASS",
+    "editorial": "PASS",
+    "first_mention": "PASS"
+  },
+  "reviewed_ads": [
+    "RMK-BRIGHT"
+  ],
+  "reviewed_fields": [
+    "RMK-BRIGHT/caption",
+    "RMK-BRIGHT/RMK-BRIGHT-1.headline",
+    "RMK-BRIGHT/RMK-BRIGHT-1.body",
+    "RMK-BRIGHT/RMK-BRIGHT-1.source_text",
+    "RMK-BRIGHT/RMK-BRIGHT-1.cta",
+    "RMK-BRIGHT/RMK-BRIGHT-1.native_headline",
+    "RMK-BRIGHT/RMK-BRIGHT-1.alt",
+    "RMK-BRIGHT/RMK-BRIGHT-1.artwork_labels",
+    "RMK-BRIGHT/RMK-BRIGHT-2.headline",
+    "RMK-BRIGHT/RMK-BRIGHT-2.body",
+    "RMK-BRIGHT/RMK-BRIGHT-2.source_text",
+    "RMK-BRIGHT/RMK-BRIGHT-2.cta",
+    "RMK-BRIGHT/RMK-BRIGHT-2.native_headline",
+    "RMK-BRIGHT/RMK-BRIGHT-2.alt",
+    "RMK-BRIGHT/RMK-BRIGHT-2.artwork_labels",
+    "RMK-BRIGHT/RMK-BRIGHT-3.headline",
+    "RMK-BRIGHT/RMK-BRIGHT-3.body",
+    "RMK-BRIGHT/RMK-BRIGHT-3.source_text",
+    "RMK-BRIGHT/RMK-BRIGHT-3.cta",
+    "RMK-BRIGHT/RMK-BRIGHT-3.native_headline",
+    "RMK-BRIGHT/RMK-BRIGHT-3.alt",
+    "RMK-BRIGHT/RMK-BRIGHT-3.artwork_labels",
+    "RMK-BRIGHT/RMK-BRIGHT-4.headline",
+    "RMK-BRIGHT/RMK-BRIGHT-4.body",
+    "RMK-BRIGHT/RMK-BRIGHT-4.source_text",
+    "RMK-BRIGHT/RMK-BRIGHT-4.cta",
+    "RMK-BRIGHT/RMK-BRIGHT-4.native_headline",
+    "RMK-BRIGHT/RMK-BRIGHT-4.alt",
+    "RMK-BRIGHT/RMK-BRIGHT-4.artwork_labels"
+  ],
+  "unresolved_findings": []
+}

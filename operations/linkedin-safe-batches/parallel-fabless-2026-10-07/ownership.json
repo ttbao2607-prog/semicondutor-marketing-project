@@ -1,0 +1,13 @@
+{
+  "revision": "fabless-ownership-20261007-v1",
+  "owner": "/root current Fabless session",
+  "mandate": "Tạo worktree riêng, own riêng plan này, chạy fullpipeline batch đầu tiên.",
+  "branch": "slice/linkedin-safe-fabless-parallel",
+  "worktree": "D:/LinkedIn_Safe_Fabless_2026-10-07",
+  "source_commit": "f2883d1c9db7c4abb72afa8998d2bde0cc192b74",
+  "plan_read_from": "D:/optimize-awareness-LinkedIn-adcopy/operations/linkedin-safe-batches/parallel-handoff-2026-10-07/Fabless.md",
+  "queue": ["B13", "B14", "B15", "B16", "B17", "B18", "B19", "B20", "B21"],
+  "active_batch": "B13-en-f1-v1",
+  "write_roots": ["operations/linkedin-safe-batches/parallel-fabless-2026-10-07/", "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/"],
+  "stop": "B13 handoff for Bao review before B14; no commit/merge/push, child delegation or shared canonical writes"
+}

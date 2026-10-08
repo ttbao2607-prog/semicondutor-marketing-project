@@ -1,0 +1,112 @@
+{
+  "revision": "b16-f2-canary-hold-v1",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "artifact_verdict": "CHANGES_REQUIRED",
+  "execution": "PARTIAL_HOLD",
+  "message_anchor": "INSUFFICIENT_EVIDENCE",
+  "anchor_revision": "1.0",
+  "anchor_sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+  "native_findings": [
+    {
+      "id": "B16-F2-A5",
+      "card_id": "F2-A5",
+      "status": "CHANGES_REQUIRED",
+      "scope": "ACTUAL_NATIVE_SELF_REVIEW",
+      "finding": "Source remains smaller than body after C2.",
+      "selected_call": "B16_F2_A5_C2",
+      "next_step": "HOLD. No further call under current per-card authorization."
+    }
+  ],
+  "native_observations": [
+    {
+      "call_id": "B16_F2_A5_V1",
+      "card_id": "F2-A5",
+      "kind": "original",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a5/native/f2-a5-en-v1.png",
+      "sha256": "3fb88fe856b77b7c5d714555148b560e979af93870aca97bcc06fc9754902c71",
+      "width": 1254,
+      "height": 1254,
+      "copy_native_bytes": true,
+      "transformation": false,
+      "observations": "CHANGES_REQUIRED native: exact message/category5/6/body/source/CTA preserved, but publisher/source paragraph visibly smaller than body and CTA has an unapproved arrow. Corrective required: full-width white source at least body-sized and literal CTA only. Paper blank; no forecast/result data.",
+      "reviewer": "/root",
+      "independence": "SELF_REVIEW",
+      "rendered": "PENDING"
+    },
+    {
+      "call_id": "B16_F2_A3_V1",
+      "card_id": "F2-A3",
+      "kind": "original",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/release/f2-a3/native/f2-a3-en-v1.png",
+      "sha256": "0f326c5d7bae63e819802d380a56295c4557c9f247bb71f05397e120ac881ab0",
+      "width": 1254,
+      "height": 1254,
+      "copy_native_bytes": true,
+      "transformation": false,
+      "observations": "Native SELF_REVIEW: exact headline/body/category3/6, logo once, blank paper and neutral physical wafer carrier; no report dates/values or forecast/result data. Native message alignment; rendered pending.",
+      "reviewer": "/root",
+      "independence": "SELF_REVIEW",
+      "rendered": "PENDING"
+    },
+    {
+      "call_id": "B16_F2_A5_C1",
+      "card_id": "F2-A5",
+      "kind": "corrective",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v1/f2-a5/native/f2-a5-en-c1.png",
+      "sha256": "ea34f6eec40f394f7ace9efb984212e52bad8ffbb2b296eed4796365cf0bd3a0",
+      "width": 1254,
+      "height": 1254,
+      "copy_native_bytes": true,
+      "transformation": false,
+      "observations": "CHANGES_REQUIRED: arrow removed, white source background and solid node restored; exact text intact, but source paragraph remains visibly smaller than body after C1. One-corrective-per-card cap reached; B16 remaining originals HOLD pending explicit PO extra-round decision. No whole-set PASS.",
+      "reviewer": "/root",
+      "independence": "SELF_REVIEW",
+      "rendered": "PENDING"
+    },
+    {
+      "call_id": "B16_F2_A5_C2",
+      "card_id": "F2-A5",
+      "kind": "corrective",
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/corrective-v2/f2-a5/native/f2-a5-en-c2.png",
+      "sha256": "1272471f452cc974af776f02476d3db1e17df3c757bf8e4f5f96bb5ae5f779d8",
+      "width": 1254,
+      "height": 1254,
+      "copy_native_bytes": true,
+      "transformation": false,
+      "observations": "CHANGES_REQUIRED: second PO-authorized corrective did not enlarge source; source remains smaller than body. Canary HOLD; corrective cap exhausted.",
+      "reviewer": "/root",
+      "independence": "SELF_REVIEW",
+      "rendered": "PENDING"
+    }
+  ],
+  "counts": {
+    "original": 2,
+    "corrective": 2,
+    "reused_selected": 4,
+    "available_selected": 6,
+    "planned_positions": 11
+  },
+  "render": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "actual_current_captures": 0,
+    "reason": "Browser ownership lock belongs to Partner-B27-B28-a09035d-session-v1; no browser action or takeover attempted.",
+    "desktop640": "NOT_OBSERVED",
+    "feed333": "NOT_OBSERVED",
+    "mobile390": "NOT_OBSERVED",
+    "reader_return": "NOT_OBSERVED"
+  },
+  "journey": {
+    "status": "INCOMPLETE_ACTUAL_ARTWORK",
+    "script_review": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/semantic-review.json",
+    "scope": "Authored current F2 scripts/source mappings, ten planned transitions and Vietnam service nuance reviewed before release; incomplete native set and no current render prevent whole-journey PASS. No inherited artifact PASS."
+  },
+  "po_exception": "One extra B16 F2-A5 corrective explicitly authorized and consumed.",
+  "git": {
+    "prior_checkpoint": "461a752f1aab7add8f21dfb5652d5e1097aa2247",
+    "current_batch": "UNCOMMITTED_LOCAL_WORKING_FILES",
+    "main_merge": false,
+    "push": false
+  },
+  "stop": "Canary native incomplete; remaining original calls not dispatched. B18 not run."
+}

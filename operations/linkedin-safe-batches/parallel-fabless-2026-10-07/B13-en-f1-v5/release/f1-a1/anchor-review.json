@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "revision": "b13-v5-F1-A1-anchor",
+  "gate_id": "MSG-ANCHOR-01",
+  "stage": "PREGEN_SCRIPT",
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "anchor": {
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "revision": "1.0"
+  },
+  "source": {
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "revision": "VY-MAIL-USER-20261006"
+  },
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/release/f1-a1/contract.json",
+      "sha256": "254377d27d3e6f79b7c5e14bb1328eea83a13fbbef9362064546aa1726534a51",
+      "revision": "b13-v5-F1-A1-contract"
+    },
+    "copy": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/explanation-copy.json",
+      "sha256": "71bac9a55ff077af7682a79bf6f136768b62c5aae7c065fe8371cd8394b572dd",
+      "revision": "b13-explanation-en-copy-v5"
+    },
+    "spec": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/release/f1-a1/spec.json",
+      "sha256": "1f6610944d4009e279fb0247f917cf9711a41706ed7977122a3ba141cc95ba45",
+      "revision": "b13-v5-F1-A1-spec"
+    },
+    "script_review": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/release/f1-a1/script-review.json",
+      "sha256": "8546ad60487b0b61fd2694df32b7ce48ff28e9382bf71a3f1becaa8f7db786dd",
+      "revision": "b13-v5-F1-A1-script"
+    }
+  },
+  "scope": {
+    "segment": "FDI",
+    "locale": "en",
+    "persona": "Operations / SCM Manager influencing business-system decisions at an eligible commercial Fabless FDI entity with outsourced production",
+    "route": "offline English cold -> F1 outsourced-lot reporting -> qualitative China Bright Power integrated-solution case -> English case reader"
+  },
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "coverage": {
+    "ads": [
+      "F1-A"
+    ],
+    "cards": [
+      "F1-A1",
+      "F1-A2",
+      "F1-A3",
+      "F1-A4",
+      "F1-A5",
+      "F1-A6"
+    ],
+    "fields": {
+      "F1-A": [
+        "caption",
+        "F1-A1.headline",
+        "F1-A1.body",
+        "F1-A1.source_text",
+        "F1-A1.cta",
+        "F1-A1.native_headline",
+        "F1-A1.alt",
+        "F1-A1.artwork_labels",
+        "F1-A2.headline",
+        "F1-A2.body",
+        "F1-A2.source_text",
+        "F1-A2.cta",
+        "F1-A2.native_headline",
+        "F1-A2.alt",
+        "F1-A2.artwork_labels",
+        "F1-A3.headline",
+        "F1-A3.body",
+        "F1-A3.source_text",
+        "F1-A3.cta",
+        "F1-A3.native_headline",
+        "F1-A3.alt",
+        "F1-A3.artwork_labels",
+        "F1-A4.headline",
+        "F1-A4.body",
+        "F1-A4.source_text",
+        "F1-A4.cta",
+        "F1-A4.native_headline",
+        "F1-A4.alt",
+        "F1-A4.artwork_labels",
+        "F1-A5.headline",
+        "F1-A5.body",
+        "F1-A5.source_text",
+        "F1-A5.cta",
+        "F1-A5.native_headline",
+        "F1-A5.alt",
+        "F1-A5.artwork_labels",
+        "F1-A6.headline",
+        "F1-A6.body",
+        "F1-A6.source_text",
+        "F1-A6.cta",
+        "F1-A6.native_headline",
+        "F1-A6.alt",
+        "F1-A6.artwork_labels"
+      ]
+    },
+    "storyboard_cards": [
+      "F1-A1",
+      "F1-A2",
+      "F1-A3",
+      "F1-A4",
+      "F1-A5",
+      "F1-A6"
+    ]
+  },
+  "rules": {
+    "A1": {
+      "verdict": "MATCH",
+      "observation": "Chip-design entity with commercial outsourced production; narrowly relevant semiconductor chain operating situation. Not every design office or generic manufacturer, and not assumed Vietnam target-account fit."
+    },
+    "A2": {
+      "verdict": "MATCH",
+      "observation": "Operations/SCM influences business-system evaluation at eligible entity; authority and existing group system remain unknown. No assertion a specific China customer or FDI Vietnam company can independently buy local ERP. Internal intake records hypotheses and process/existing-system alternatives."
+    },
+    "A3": {
+      "verdict": "MATCH",
+      "observation": "FDI English commercial Fabless Operations/SCM; international English questions and accountable next steps, not VN supply-chain-entry promise. Fabless definition supplied in explanation caption; no WIP/OSAT acronym used without definition."
+    },
+    "A4": {
+      "verdict": "MATCH",
+      "observation": "Implicit business value is a shared basis for the next production decision and accountable update ownership. Cold pain->report conventions->stage/time/source->ownership->next decision. No ROI%, yield, cost saving, forecast outcome or promised automatic synchronization."
+    },
+    "A5": {
+      "verdict": "N/A",
+      "observation": "N/A: FDI lane only, no domestic supplier-entry claim."
+    },
+    "A6": {
+      "verdict": "MATCH",
+      "observation": "Concrete lot/product reference, production periods/test classifications, stage/time/report source and update owner. Questions/process conventions, not unverified product functionality. Taiwan source states ERP/MES context separately. Illustrative chip/wafer carrier is not a fabricated chip layout or owned fab."
+    },
+    "A7": {
+      "verdict": "MATCH",
+      "observation": "Same Operations/SCM: shared report basis -> local Vietnam consulting/implementation discussion -> named China chip-design case. Prospect discussions of reporting/update responsibilities are separate from published customer implementation. Reader remains original China source summary; no fabricated Vietnam Fabless deployment or ERP-only causality."
+    }
+  },
+  "units": [
+    {
+      "card_id": "F1-A1",
+      "verdict": "MATCH",
+      "observation": "Only sequence denominator changed to6; exact rest of copy and approved visual meaning retained. MATCH: stage described by partner report; no assumption reports wrong or broken ERP. Scene: Separate blank partner reports beside a wafer protective carrier, with open neutral paths expressing the unanswered stage question. Illustrative outsourced-production context, no owned fabrication facility. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning."
+    },
+    {
+      "card_id": "F1-A2",
+      "verdict": "MATCH",
+      "observation": "Only sequence denominator changed to6; exact rest of copy and approved visual meaning retained. MATCH: product/lot references and agreed period/test classification conventions; no fabricated Datecode/BIN algorithm. Scene: Close physical comparison of a neutral chip product sample and two blank partner record surfaces. Restrained physical linking paths show correspondence to be checked; no technical IDs, dates or test values. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning."
+    },
+    {
+      "card_id": "F1-A3",
+      "verdict": "MATCH",
+      "observation": "Only sequence denominator changed to6; exact rest of copy and approved visual meaning retained. MATCH: stage/time/source questions; neutral unlabelled stage nodes and blank report, no asserted progress. Scene: Oblique tabletop with wafer protective carrier, neutral unlabelled stage nodes and a detached blank report surface. Open paths express stage, report time and source questions, not a confirmed production state. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning."
+    },
+    {
+      "card_id": "F1-A4",
+      "verdict": "MATCH",
+      "observation": "Only sequence denominator changed to6; exact rest of copy and approved visual meaning retained. MATCH: format/schedule/update owner; open responsibility, no automatic integration. Scene: Two distinct coordination surfaces connected through a shared blank record surface; an unlabelled neutral owner token suggests responsibility to agree. No completed approval, automatic update or product connector. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only. MANDATORY LAYOUT: NEVER add skyline, pagoda, city, building/factory, map, source icon column, footer divider, seal, badge, extra punctuation or extra glyph. Every source literal is normal full-width text on plain WHITE, source at least body-sized. If long English publisher line, wrap into two lines and keep entire Chinese legal name on its own readable line. Allocate up to bottom35percent for long source, reduce scene height to fit; do not shrink text. No icon before source and no source box subdivisions. Category/sequence must be present exactly near official logo. Every paper surface completely blank, no grey bars, ruled lines, scribbles or chart. No added labelled icons; no screens/technical chip layouts or manufacturing equipment. These are illustrations, not customer facilities. Preserve exact reviewed copy and primary meaning."
+    },
+    {
+      "card_id": "F1-A5",
+      "verdict": "MATCH",
+      "observation": "Only sequence denominator changed to6; exact rest of copy and approved visual meaning retained. MATCH: shared discussion basis, source Taiwan ERP/MES context with separate source and CTA; no implementation result. Scene: Compact low physical platform with blank partner report and neutral chip sample; open relationship path supports a shared discussion. Leave a large dedicated full-width source paragraph beneath scene. All record surfaces are blank: no microglyphs, IDs, dates, statuses, results or extra labels. Official mark once; exact approved text only."
+    },
+    {
+      "card_id": "F1-A6",
+      "verdict": "MATCH",
+      "observation": "MATCH: local consulting/implementation availability and concrete first-discussion workflow/owner/project priorities. No outcome or local Fabless deployment claim. Scene: Bright illustrative consultation tabletop with two distinct blank project folios, a neutral chip sample and open blue physical paths between unlabelled responsibility tokens. Generic discussion material, not a customer facility, staff portrait or software UI. Compact scene leaves a large full-width plain white source block, source at least body-sized. No map/flag/skyline/ticks/labels/data/results or fabricated people."
+    }
+  ],
+  "transitions": [
+    {
+      "cards": [
+        "F1-A1",
+        "F1-A2"
+      ],
+      "verdict": "MATCH",
+      "observation": "Partner reports. A clear view of each lot? -> Start with the product and lot.; same Operations/SCM reporting business question, local service discussion and China case separately attributed"
+    },
+    {
+      "cards": [
+        "F1-A2",
+        "F1-A3"
+      ],
+      "verdict": "MATCH",
+      "observation": "Start with the product and lot. -> Which stage does this report describe?; same Operations/SCM reporting business question, local service discussion and China case separately attributed"
+    },
+    {
+      "cards": [
+        "F1-A3",
+        "F1-A4"
+      ],
+      "verdict": "MATCH",
+      "observation": "Which stage does this report describe? -> Who keeps the shared view current?; same Operations/SCM reporting business question, local service discussion and China case separately attributed"
+    },
+    {
+      "cards": [
+        "F1-A4",
+        "F1-A5"
+      ],
+      "verdict": "MATCH",
+      "observation": "Who keeps the shared view current? -> Give the next decision a shared basis.; same Operations/SCM reporting business question, local service discussion and China case separately attributed"
+    },
+    {
+      "cards": [
+        "F1-A5",
+        "F1-A6"
+      ],
+      "verdict": "MATCH",
+      "observation": "Give the next decision a shared basis. -> Consulting and implementation in Vietnam; same Operations/SCM reporting business question, local service discussion and China case separately attributed"
+    }
+  ],
+  "context": {
+    "scope": "FULL_JOURNEY",
+    "verdict": "MATCH",
+    "observation": "Same Operations/SCM: shared report basis -> local Vietnam consulting/implementation discussion -> named China chip-design case. Prospect discussions of reporting/update responsibilities are separate from published customer implementation. Reader remains original China source summary; no fabricated Vietnam Fabless deployment or ERP-only causality. Reader: Reader unchanged exact content and original Chinese-language source disclosure; Vietnam-team source recorded separately, no claim Bright was served by Vietnam team.",
+    "brief": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/execution-brief.md",
+      "sha256": "2f05fd9f2c96b94f4a0c0ab763825fe4e369fa8a0743a26868115241a4cdcda3",
+      "revision": "b13-v5-brief"
+    },
+    "related_inputs": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/cold/public-copy.json",
+        "sha256": "ad478f3fccc22b36228cdc3511b3930229414fc81afb64ec5849553fed62f13e",
+        "revision": "b13-cold-en-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof/public-copy.json",
+        "sha256": "58ea1bb1131d18686ad273ef7fa14bb987fd4bdf3892ed266b39597a67b94ddc",
+        "revision": "b13-proof-en-copy-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/reader-script.json",
+        "sha256": "ae60dc4386d512a52efa95af02a6b301d7903b3e40af1daf126fee2a2e025715",
+        "revision": "b13-reader-en-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/semantic-review.json",
+        "sha256": "2a2b4793377ed7854357da6403d6b2dc50f0ddcc315aa6e0a794faa18bf45f0a",
+        "revision": "b13-v5-actual-script-review-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v5/vietnam-team-source.json",
+        "sha256": "a7903fe4f0587686697e671da6d7afeca01ad0849d8e969b7d3ae047e36bcdc6",
+        "revision": "b13-v5-vietnam-team-source-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B13-en-f1-v1/proof-source-mapping.json",
+        "sha256": "dd6b951f876918890693e5b90d64850b67b84c19f9aa6c6ccf25e7c10d544a25",
+        "revision": "b13-proof-map-v1"
+      }
+    ]
+  },
+  "unresolved_findings": []
+}

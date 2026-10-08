@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "revision": "b19-f3-a2-spec-v1",
+  "release": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/release/f3-a2/release.json",
+    "sha256": "902f4e478f481e9dad4cc0b31585630a0efb99b085579cc617c0c4ad1fc1520c",
+    "revision": "b19-f3-a2-release-v1"
+  },
+  "contract": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/release/f3-a2/contract.json",
+    "sha256": "ece15904972be3bbcc0bc6fdbf378c764bc9c72959f214cf0cbb441707183715",
+    "revision": "b19-f3-a2-contract-v1"
+  },
+  "copy": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/explanation/public-copy.json",
+    "sha256": "87fef0d89fed09031df4bfafb295352c8e26a2ea6b6166be1ea0ac7fdf410d24",
+    "revision": "b19-f3-explanation-copy-v1"
+  },
+  "review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/release/f3-a2/review.json",
+    "sha256": "0471c4352ef0f018769088a6174f6c28c23565e245e93924326a6b3337598c00",
+    "revision": "b19-f3-a2-source-review-v1"
+  },
+  "calls": [
+    {
+      "call_id": "B19_F3_A2_V1",
+      "targets": [
+        "F3-A2"
+      ],
+      "references": [
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/assets/03-f2-a2.png",
+          "sha256": "1a00d0924f18f68fcc9f884b6c568a416d2e0d576ae85e631e233c70282a2765",
+          "revision": "b13-v5-selected-visual-family-reference",
+          "role": "campaign_visual",
+          "attributes": [
+            "colors",
+            "lighting",
+            "shadows",
+            "material_depth",
+            "typography_hierarchy",
+            "campaign_identity",
+            "scene_diagram_integration"
+          ]
+        },
+        {
+          "path": "operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp",
+          "sha256": "590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f",
+          "revision": "official-logo-pinned",
+          "role": "brand_asset",
+          "attributes": [
+            "brand_mark"
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "card_id": "F3-A2",
+          "concept_id": "b19-f3-a2-f3-scene-v1",
+          "description": "One neutral handoff point between two plain chip trays with blank accompanying sheets. Product and lot scope illustrative; no printed identifiers or technical layout. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.",
+          "props": [
+            "neutral chip sample",
+            "blank correspondence records"
+          ],
+          "reader_question": "Start with one handoff point.",
+          "artwork_labels": [
+            "ERP · CHIP OPERATIONS",
+            "2/6"
+          ]
+        }
+      ],
+      "artwork_text": {
+        "F3-A2": {
+          "headline": "Start with one handoff point.",
+          "body": "Choose one handoff in the flow agreed by the partners. Start with the product under review.",
+          "source_text": "",
+          "cta": "",
+          "artwork_labels": [
+            "ERP · CHIP OPERATIONS",
+            "2/6"
+          ]
+        }
+      },
+      "output_id": "f3-a2-en-v1",
+      "output_path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/release/f3-a2/native/f3-a2-en-v1.png",
+      "prompt": "Create the approved carousel artwork. Use only approved artwork text for printed wording.\nReferences supply only their declared attributes; never copy reference wording, record data or composition.\nCampaign visual references guide only reviewed material depth, typography/header identity and scene-integrated diagrams.\nPalette/lighting references supply only their declared colors, lighting and shadows.\nNever copy reference words, record data, exact composition or mandatory props.\nSTYLE\n{\"avoid\":[\"neon\",\"dark mode\",\"human faces\",\"fabricated metrics identifiers dates statuses or results\",\"customer marks or facility evidence\",\"unreviewed capability or outcome claims\",\"reference wording record values props or exact composition\",\"printed caption native headline alt or internal notes\",\"extra wording beyond approved artwork text and official brand mark\"],\"brand\":\"Digiwin; reproduce official supplied brand mark once, stable header treatment; no invented glyphs\",\"campaign\":{\"instructions\":\"Write only supplied English artwork text. International B2B English: specific operational question, accountable actor, concrete next step. No idioms, slogans, invented ROI or cultural stereotypes. Keep scenes and narrative order. No Vietnamese words from references. Preserve exact English spelling and supplied line breaks. Review longer words at 333px; reflow or reduce illustration space before shrinking type. Do not invent hyphenation. B13v5 bright white/blue photographic campaign family. Reference wording is not approved copy. Official supplied logo once; no extra DIGIWIN header. Exact category/sequence near logo. Body comfortably readable at333CSSpx. Source normal full-width main paragraph on white, at least body-sized. All paper blank; no bars/rules/charts/ticks/data glyphs/UI/customer geography/seal/badge. Only approved artwork words. Partner handoff questions are not forecast accuracy or automatic replanning claims. Reduce scene before type.\",\"revision\":\"campaign-r2-hybrid-full-v1-parent-review-pending\"},\"lighting\":\"bright neutral daylight with soft grounded shadows\",\"palette\":[\"white\",\"#0052FF\",\"#0B132B\",\"#00B4D8\",\"charcoal\"]}\nREFERENCE ROLES\n[{\"attributes\":[\"colors\",\"lighting\",\"shadows\",\"material_depth\",\"typography_hierarchy\",\"campaign_identity\",\"scene_diagram_integration\"],\"path\":\"deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v2/assets/03-f2-a2.png\",\"revision\":\"b13-v5-selected-visual-family-reference\",\"role\":\"campaign_visual\",\"sha256\":\"1a00d0924f18f68fcc9f884b6c568a416d2e0d576ae85e631e233c70282a2765\"},{\"attributes\":[\"brand_mark\"],\"path\":\"operations/linkedin-imagegen-dogfood/hybrid-full-2026-10-03/common/references/digiwin-logo.webp\",\"revision\":\"official-logo-pinned\",\"role\":\"brand_asset\",\"sha256\":\"590fad6849066b20419100dd8e19a87565c378957c861c06189e47bfe2d45e4f\"}]\nCARD CONCEPTS (not printed labels)\n[{\"artwork_labels\":[\"ERP · CHIP OPERATIONS\",\"2/6\"],\"card_id\":\"F3-A2\",\"concept_id\":\"b19-f3-a2-f3-scene-v1\",\"description\":\"One neutral handoff point between two plain chip trays with blank accompanying sheets. Product and lot scope illustrative; no printed identifiers or technical layout. Exact approved words only. Blank paper everywhere; no chart, tick, date, status, forecast curve, metric, technical chip UI, customer facility/marks or geography decoration. Keep full-width source paragraphs on white at least body-sized; shrink scene before type. Official logo once, exact category/sequence, no extra header label.\",\"props\":[\"neutral chip sample\",\"blank correspondence records\"],\"reader_question\":\"Start with one handoff point.\"}]\nAPPROVED ARTWORK TEXT\n{\"F3-A2\":{\"artwork_labels\":[\"ERP · CHIP OPERATIONS\",\"2/6\"],\"body\":\"Choose one handoff in the flow agreed by the partners. Start with the product under review.\",\"cta\":\"\",\"headline\":\"Start with one handoff point.\",\"source_text\":\"\"}}\nOUTPUT REQUIREMENT\n{\"directory\":\"operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/release/f3-a2/native\",\"extension\":\".png\",\"min_edge\":1080,\"policy\":\"native_square_min\"}\nCreate one square native PNG with minimum edge 1080 pixels. Preserve original native bytes; no resizing or compositing to meet this requirement.",
+      "prompt_sha256": "b3b6d097226445d2b730d7ea0793bf436e2cc33001a287373861b375d7aad7c5"
+    }
+  ]
+}

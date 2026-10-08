@@ -1,0 +1,13 @@
+{
+  "revision": "fabless-b16-b17-local-checkpoint-authorization",
+  "user_instruction": "commit đi codex.",
+  "scope": "Local checkpoint of current owned B16 complete v2, B17 held canaries and full provenance/evidence. No main merge/push.",
+  "b16_review": {
+    "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B16-en-f2-v1/postgen-review-repair-v3.json",
+    "sha256": "13c176f941ff89b2dfc0a84c986af698c96277fe41a768fcc2e72ca06d73e6d2"
+  },
+  "b17_status": "PARTIAL_HOLD_CHANGES_REQUIRED",
+  "frozen_pins_unchanged": 24,
+  "docs_impact": "Reviewed; isolated draft checkpoint does not promote/adopt. Existing coordinator canonical refresh proposal retained.",
+  "prior_head": "461a752f1aab7add8f21dfb5652d5e1097aa2247"
+}

@@ -1,0 +1,79 @@
+{
+  "revision": "b17-review-manifest-v1",
+  "locale": "zh-Hans",
+  "status": "PARTIAL_HOLD_CHANGES_REQUIRED",
+  "planned_units": 11,
+  "generated_selected": 7,
+  "imagegen_original": 2,
+  "imagegen_corrective": 1,
+  "reused_pngs": 5,
+  "tool": "built-in image_gen",
+  "artwork": [
+    {
+      "card_id": "F2-A3",
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/assets/04-f2-a3.png",
+      "sha256": "4b91cafb7f57ecad61e9ebe6e2bf5c343f9863059a43de2d84a28ea505f91c1b",
+      "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/release/f2-a3/native/f2-a3-zh-Hans-v1.png",
+      "transformation": false
+    },
+    {
+      "card_id": "F2-A5",
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/assets/06-f2-a5.png",
+      "sha256": "8c91f76d6062a7d6e78816cfc32ced0aa514c0547df7d0ba1d815b62e26e1d76",
+      "source": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/corrective-v1/f2-a5/native/f2-a5-zh-Hans-c1.png",
+      "transformation": false
+    },
+    {
+      "card_id": "F2-A6",
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/assets/07-f2-a6.png",
+      "sha256": "2fbc146203dff422894afd9df1f9c408f25aebef209d1d091486fce705e5b5fa",
+      "source": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/07-f1-a6.png",
+      "transformation": false
+    },
+    {
+      "card_id": "RMK-BRIGHT-1",
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/assets/08-rmk-bright-1.png",
+      "sha256": "221a05b6a1f0f7e64db468215cb7943326da0d2cba13b8e66b682b76b58218ac",
+      "source": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/08-rmk-bright-1.png",
+      "transformation": false
+    },
+    {
+      "card_id": "RMK-BRIGHT-2",
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/assets/09-rmk-bright-2.png",
+      "sha256": "9b61b2bb537c92ace379e8f212ae4725b7e2ad03c9aee479d9b8ff88671089ce",
+      "source": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/09-rmk-bright-2.png",
+      "transformation": false
+    },
+    {
+      "card_id": "RMK-BRIGHT-3",
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/assets/10-rmk-bright-3.png",
+      "sha256": "a72ea727905c78ea1592edc86b85245105bb2bf87b76d86d622cafe662e3286a",
+      "source": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/10-rmk-bright-3.png",
+      "transformation": false
+    },
+    {
+      "card_id": "RMK-BRIGHT-4",
+      "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/assets/11-rmk-bright-4.png",
+      "sha256": "f33c43ada9eabbeb728547fd1d0fa4807a8f0c31cb36d6a6dcedeba80d093e77",
+      "source": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B14-zh-Hans-f1-v1/assets/11-rmk-bright-4.png",
+      "transformation": false
+    }
+  ],
+  "viewer_sha256": "fd5ef543b14b1733dfe667523491dedc62715f8e84ba57182b60c433ad5d6715",
+  "reader_sha256": "8198ac3e6785e96f751bfd85d5f1eb73b2f723f4dd6745036876730d306dc7d6",
+  "raster_transformation": false,
+  "zip": false,
+  "actual_final_render": "INSUFFICIENT_EVIDENCE",
+  "current_findings": [
+    {
+      "id": "B17-F2-A5",
+      "card_id": "F2-A5",
+      "status": "CHANGES_REQUIRED",
+      "scope": "ACTUAL_NATIVE_SELF_REVIEW",
+      "finding": "CTA arrow and source panel closed; requested replacement of ruled document icon with solid node was not applied. Generic icon is not fabricated record data, but corrective execution remains incomplete.",
+      "selected_call": "B17_F2_A5_C1",
+      "next_step": "HOLD. No further call under current per-card authorization."
+    }
+  ],
+  "postgen_review": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B17-zh-Hans-f2-v1/postgen-review.json"
+}

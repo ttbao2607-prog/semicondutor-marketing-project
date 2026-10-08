@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "revision": "b18-rmk-bright-3-source-review-v1",
+  "writer": "/root",
+  "reviewer": "/root",
+  "date": "2026-10-07",
+  "scope": "OFFLINE_SOURCE_COPY",
+  "independence": "SELF_REVIEW",
+  "subjects": {
+    "contract": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/release/rmk-bright-3/contract.json",
+      "sha256": "ae31f412047bbb49e0ace4668704ee7ece662bff0fbadf7b56943be569db8dda",
+      "revision": "b18-rmk-bright-3-contract-v1"
+    },
+    "copy": {
+      "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/proof/public-copy.json",
+      "sha256": "0d4892aa755edf84de773d16a262f49896f65f6bfd2f348bb286bed25a92c3af",
+      "revision": "b18-f2-proof-copy-v1"
+    },
+    "sources": [
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/execution-brief.md",
+        "sha256": "5eba20ec6739dc5e4278a59aa80a6686ee92c7e16451ce16cff5a5ff36d4844c",
+        "revision": "b18-f2-brief-v1"
+      },
+      {
+        "path": "operations/linkedin-imagegen-dogfood/continuous-rollout-2026-10-04/F2/common/f2-copy.json",
+        "sha256": "45b83f7a59323a2c00a0016f6f06472395b7f4a7a079ab5ec15c55c718a2b919",
+        "revision": "f2-source-read-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/b18-b19-authored-input.json",
+        "sha256": "b70a1ec3026f1fa9a61dd5976376e9c6d4d7a784f55757de0ec9918a460621e7",
+        "revision": "b18-b19-root-authored-2026-10-08-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/proof-source-mapping.json",
+        "sha256": "6cd930b39b6da9c831fe4fd0f59767d3c928260219b9a0b8cd26847946d7ac96",
+        "revision": "b18-f2-proof-map-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/vietnam-team-source.json",
+        "sha256": "0e85463a057135d51c232e52ae4ec35f7b6aededf3a18ef84cf9719d904d93fd",
+        "revision": "b18-f2-vietnam-service-v1"
+      },
+      {
+        "path": "deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B15-zh-Hant-f1-v3/selected-copy.json",
+        "sha256": "30b4cbc0310ddd4dbb20d705f0d5a89ce53ea856a88c8d2e6b42560742ca9f39",
+        "revision": "b15-review-copy-zh-Hant-v3"
+      },
+      {
+        "path": "operations/linkedin-locale-adapter/profiles.json",
+        "sha256": "1b0105ed92ef866fb7a5796aefcdfb9d8e9d9683c72f4257295e80a06653a6cd",
+        "revision": "locale-adapter-draft-2026-10-06-v1"
+      },
+      {
+        "path": "operations/linkedin-safe-batches/parallel-fabless-2026-10-07/B18-zh-Hant-f2-v1/semantic-review.json",
+        "sha256": "970fc7459a034626d1efeba818017de16bec91aca75005f9a40810d52d8bed7e",
+        "revision": "b18-actual-root-script-review-v1"
+      }
+    ]
+  },
+  "verdicts": {
+    "source_copy": "PASS",
+    "editorial": "PASS",
+    "first_mention": "PASS"
+  },
+  "reviewed_ads": [
+    "RMK-BRIGHT"
+  ],
+  "reviewed_fields": [
+    "RMK-BRIGHT/caption",
+    "RMK-BRIGHT/RMK-BRIGHT-1.headline",
+    "RMK-BRIGHT/RMK-BRIGHT-1.body",
+    "RMK-BRIGHT/RMK-BRIGHT-1.source_text",
+    "RMK-BRIGHT/RMK-BRIGHT-1.cta",
+    "RMK-BRIGHT/RMK-BRIGHT-1.native_headline",
+    "RMK-BRIGHT/RMK-BRIGHT-1.alt",
+    "RMK-BRIGHT/RMK-BRIGHT-1.artwork_labels",
+    "RMK-BRIGHT/RMK-BRIGHT-2.headline",
+    "RMK-BRIGHT/RMK-BRIGHT-2.body",
+    "RMK-BRIGHT/RMK-BRIGHT-2.source_text",
+    "RMK-BRIGHT/RMK-BRIGHT-2.cta",
+    "RMK-BRIGHT/RMK-BRIGHT-2.native_headline",
+    "RMK-BRIGHT/RMK-BRIGHT-2.alt",
+    "RMK-BRIGHT/RMK-BRIGHT-2.artwork_labels",
+    "RMK-BRIGHT/RMK-BRIGHT-3.headline",
+    "RMK-BRIGHT/RMK-BRIGHT-3.body",
+    "RMK-BRIGHT/RMK-BRIGHT-3.source_text",
+    "RMK-BRIGHT/RMK-BRIGHT-3.cta",
+    "RMK-BRIGHT/RMK-BRIGHT-3.native_headline",
+    "RMK-BRIGHT/RMK-BRIGHT-3.alt",
+    "RMK-BRIGHT/RMK-BRIGHT-3.artwork_labels",
+    "RMK-BRIGHT/RMK-BRIGHT-4.headline",
+    "RMK-BRIGHT/RMK-BRIGHT-4.body",
+    "RMK-BRIGHT/RMK-BRIGHT-4.source_text",
+    "RMK-BRIGHT/RMK-BRIGHT-4.cta",
+    "RMK-BRIGHT/RMK-BRIGHT-4.native_headline",
+    "RMK-BRIGHT/RMK-BRIGHT-4.alt",
+    "RMK-BRIGHT/RMK-BRIGHT-4.artwork_labels"
+  ],
+  "unresolved_findings": []
+}
