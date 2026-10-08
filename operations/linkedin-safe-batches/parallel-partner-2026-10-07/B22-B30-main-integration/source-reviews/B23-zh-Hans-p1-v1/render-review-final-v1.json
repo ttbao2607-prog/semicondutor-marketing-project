@@ -1,0 +1,75 @@
+{
+  "revision": "b23-render-review-final-v1",
+  "reviewed_utc": "2026-10-07T06:50:04.393266+00:00",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "status": "PASS_APPROVED_ACTUAL434_FEED333_DESKTOP_SCOPE",
+  "artifact_pins": [
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/index.html",
+      "sha256": "c37e8b60187bac09cdf13d15a8d3006b38879acd50041904b08ae90463e0a655"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/case-reader.html",
+      "sha256": "47f5c6594e87007edf45f54efe2e9b97705d72aaece4f8d950703d1381b094a3"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B23-zh-Hans-p1-v1/render-review.html",
+      "sha256": "ac63431816ccf75c20ed34035366562b8b333553cc68a25a2d76c0706ed5ab92"
+    }
+  ],
+  "all_ten_cards": [
+    "B23-C1",
+    "B23-E1",
+    "B23-E2",
+    "B23-E3",
+    "B23-E4",
+    "B23-E5",
+    "B23-P1",
+    "B23-P2",
+    "B23-P3",
+    "B23-P4"
+  ],
+  "observed_viewports": {
+    "mobile_actual_css": [
+      434,
+      938
+    ],
+    "feed_art_css_width": 333,
+    "mobile_main_art_css_width": 392,
+    "desktop_css_width": 1707,
+    "desktop_main_art_css_width": 638.222229,
+    "desktop_post_css_width": 640
+  },
+  "coverage": {
+    "native": 10,
+    "feed333": 10,
+    "main_actual434": 10,
+    "desktop_main": 10,
+    "reader_actual434": "Full four sections and source box",
+    "reader_desktop": "Full four sections and source box"
+  },
+  "layout": "Measured scrollWidth == clientWidth, 434 mobile / 1707 desktop; actual images readable without observed text clipping/overflow.",
+  "journey": {
+    "desktop": "Cold -> E1..E5 -> P1..P4; disabled first/last endpoints; reader top and bottom return preserve P4; reload preserves P4; return to cold",
+    "actual434": "Cold -> E1..E5 -> P1..P4; disabled first/last endpoints; reader top and bottom return preserve P4; reload preserves P4; return to cold",
+    "explicit_previous_next_pair": "B23 actual434 P4->P3->P4; B24 desktop P4->P3->P4"
+  },
+  "console_warn_error_readback": [],
+  "viewport_authority": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/b23-b24-execution-authority.json",
+    "sha256": "13d5f7e73841943615980fd66fa4a19c30ffdff1f54fa469330e7ada75004294"
+  },
+  "exact390": "NOT_VERIFIED_PO_ACCEPTED_ACTUAL434_SUBSTITUTE_FOR_B23_B24",
+  "evidence": "Successful screenshots and measured DOM in cua tool transcript, including all ten cards per mode and full reader. No saved screenshot PNGs claimed.",
+  "infrastructure_history": "Several Page.captureScreenshot timeouts; retry captures succeeded. A long call reset the runtime; B23 main434 was fully repeated successfully. Failed attempts are not coverage.",
+  "scope_limits": [
+    "No physical-device or native-market certification",
+    "No independent reviewer/model-effort certification",
+    "No fresh public source/live verification"
+  ],
+  "cleanup": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/b23-b24-browser-cleanup-v1.json",
+    "sha256": "cea9d80179daf1687f4d722e49fd0f4f696e9b7e95309ba957f025c48eed5a78"
+  }
+}

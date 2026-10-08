@@ -1,0 +1,15 @@
+{
+  "revision": "partner-b29-b30-execution-authority-v1",
+  "user_instruction": "commit nhánh, làm tiếp 2 batch kế.",
+  "checkpoint": "e706cdca6134cb130d7ac06cf374a616b92a74bd",
+  "batches": [
+    "B29",
+    "B30"
+  ],
+  "original_cap": 10,
+  "corrective_cap": 2,
+  "per_card_corrective_cap": 1,
+  "scope": "Owned offline full pipeline; fresh script/locale/native/render/reader review",
+  "stop": "End of authorized Partner queue after B30",
+  "limits": "No inherited extra corrections; no new commit/main/push/live/spawn/PO acceptance"
+}

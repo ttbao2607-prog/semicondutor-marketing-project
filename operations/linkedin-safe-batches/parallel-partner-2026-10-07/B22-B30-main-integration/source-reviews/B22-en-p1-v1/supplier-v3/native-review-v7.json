@@ -1,0 +1,85 @@
+{
+  "revision": "b22-selected-native-review-v7",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "reviewed_utc": "2026-10-07T05:34:54.399183+00:00",
+  "method": "Actual native1254 artwork observed in builtin outputs/local image review, then actual rendered text/source/props checked; no automatic semantic assessment",
+  "cards": [
+    {
+      "card_id": "B22-C1",
+      "call_id": "B22-C1_ORIGINAL_V4",
+      "sha256": "d4c55e05cc8e1758241b76d8addff31991e4a0e437c598685084c944f9e0edca",
+      "status": "PASS",
+      "observation": "Exact cold question/body/category/CTA. Industrial component and unmarked record objects; no fabricated record values."
+    },
+    {
+      "card_id": "B22-E1",
+      "call_id": "B22-E1_CORRECTIVE_V8",
+      "sha256": "5aade157eae9e0617df0305b89c4aef4bf52fe68e577309412fdd0d686e31bcf",
+      "status": "PASS",
+      "observation": "V8 exact newly reviewed copy avoids apostrophe ambiguity. Drilled hollow cylindrical flange, upright blank folder and upright empty acrylic frame; failed V7 disc/tray not selected."
+    },
+    {
+      "card_id": "B22-E2",
+      "call_id": "B22-E2_CORRECTIVE_V7",
+      "sha256": "dfb20d6f069f7cb9bc245a0742d6bab021d02a3fbaddf3377fdfc137371d1811",
+      "status": "PASS",
+      "observation": "V7 exact text and 2/5. Only blank paper/acrylic evidence layers, channels and sleeve; extra wafer/disc removed."
+    },
+    {
+      "card_id": "B22-E3",
+      "call_id": "B22-E3_CORRECTIVE_V5",
+      "sha256": "bf14ee84d07cc0e42959ad5a2eb520f8514ad7dbdb09ff9c160ac90733969e42",
+      "status": "PASS",
+      "observation": "Retained V5 corrective: recognizable flange, two empty frames and blank folder. Exact Digiwin Vietnam assessment/process-advice wording."
+    },
+    {
+      "card_id": "B22-E4",
+      "call_id": "B22-E4_CORRECTIVE_V7",
+      "sha256": "e1a0682db93358d7c1ad29faaaf8a8a83009d04ebd0a2e524bd4db954303a800",
+      "status": "PASS",
+      "observation": "V7 blank paper sleeve, paper record tray with thin blank folio and empty frame. Component tray removed. Exact Vietnam on-site transfer/factory acceptance, separately attributed."
+    },
+    {
+      "card_id": "B22-E5",
+      "call_id": "B22-E5_CORRECTIVE_V4",
+      "sha256": "839553931b3325c5b1770ea03e1675e442f288862ddacae46a4c440e6c084a12",
+      "status": "PASS",
+      "observation": "Retained V4 corrective: bare wafer, machined component and blank folio. No pen, binders, ruled records or wafer grid. Exact factory-fit wording/source/CTA; straight apostrophe in factory's observed."
+    },
+    {
+      "card_id": "B22-P1",
+      "call_id": "B22-P1_CORRECTIVE_V7",
+      "sha256": "062e5f3095b591a462912cc8a5cb5fbf975b27303c60ca20f99b52f72ef8eff7",
+      "status": "PASS",
+      "observation": "V7 exact Wafer Works / 合晶科技, Taiwan / Shanghai. Crystal and bare silicon wafer materials on neutral support fixtures, no chip/die grid. Both source lines are a large main paragraph, visually larger than body."
+    },
+    {
+      "card_id": "B22-P2",
+      "call_id": "B22-P2_CORRECTIVE_V7",
+      "sha256": "b43e06a74a5f29198cc684e30cd2904f9705939e7fbeaf90e39c57d7a6dee668",
+      "status": "PASS",
+      "observation": "V7 crystal-to-wafer-lot material illustration; unlabelled sample/tray counts are not case quantities. Both exact source lines visibly larger than body; no small footer."
+    },
+    {
+      "card_id": "B22-P3",
+      "call_id": "B22-P3_ORIGINAL_V6",
+      "sha256": "b2a11e9a9e9604c80558c3ec89ada4cc3c876602dcbec65e119ad81d4e3648af",
+      "status": "PASS",
+      "observation": "Retained V6: exact progress/equipment/epitaxy-history/parameter-limit/early-alert text; bare wafer and blank record props. Main source paragraph visually at least body size and readable at333; raster does not certify a literal numeric font size."
+    },
+    {
+      "card_id": "B22-P4",
+      "call_id": "B22-P4_ORIGINAL_V4",
+      "sha256": "e044420d6293524db3d010c2a9616f8f8c62621d64a04ea624f9fc8d5ba6083b",
+      "status": "PASS",
+      "observation": "Retained V4: exact factory-discussion invitation, source/geography and reader CTA. Bare wafer, neutral material tray and blank folio, no quantified outcome."
+    }
+  ],
+  "status": "PASS",
+  "open_material_findings": 0,
+  "open_minor_findings": 0,
+  "historical_failures": "Original E1/E2/E3/E4/E5/P1/P2 and corrective E1_V7 retained, not retroactively passed",
+  "po_acceptance": "NOT_GRANTED",
+  "native_market_certification": "NOT_CLAIMED"
+}

@@ -1,0 +1,25 @@
+{
+  "execution_contract": {
+    "goal": "Only currently conforming selected Partner journeys on local main",
+    "scope": "B22/B23/B25-B30 selected deliverables and scoped evidence/docs; no push/live or frozen runtime changes",
+    "measurement": "80 exact-byte selected PNG, eight readers, passed final receipt pins, no B24 or rejected variants imported; preserve all main files outside explicit allowlist",
+    "audit_target": "Compare staged/committed blobs independently to pinned source and main baseline; root self-audit, no independent/native-market certification"
+  },
+  "verified_receipt_pins": 302,
+  "selected_batches": [
+    "B22-en-p1-v1",
+    "B23-zh-Hans-p1-v1",
+    "B25-en-p2-v1",
+    "B26-zh-Hans-p2-v1",
+    "B27-zh-Hant-p2-v1",
+    "B28-en-p3-v1",
+    "B29-zh-Hans-p3-v1",
+    "B30-zh-Hant-p3-v1"
+  ],
+  "held_batch": "B24: known proof P3 category/sequence defect, historical PASS contradicted by B27 actual-image finding",
+  "authority": "Bảo 2026-10-08: commit and merge only conforming artifacts",
+  "source_parent": "e706cdca6134cb130d7ac06cf374a616b92a74bd",
+  "main_baseline": "196f26b9f3064fca8fe6b3b50b5707c2b54b65af",
+  "frozen_core": "unchanged",
+  "scope_390": "NOT_VERIFIED; approved actual434 + feed333 + desktop substitutes"
+}

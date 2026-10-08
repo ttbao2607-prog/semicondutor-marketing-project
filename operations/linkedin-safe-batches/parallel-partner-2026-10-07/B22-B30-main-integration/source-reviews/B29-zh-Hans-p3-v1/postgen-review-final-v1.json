@@ -1,0 +1,709 @@
+{
+  "revision": "b29-postgen-final-v1",
+  "stage": "POSTGEN_ARTIFACT",
+  "reviewed_utc": "2026-10-07T10:02:39.405064+00:00",
+  "status": "PASS_ROOT_SCOPED_SELF_REVIEW",
+  "execution_status": "SUCCESS_OFFLINE_SCOPED",
+  "MESSAGE_ANCHOR": "MESSAGE_ANCHOR_PASS",
+  "EDITORIAL_QA": "PASS",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "branch": "slice/linkedin-safe-partner-parallel",
+  "segment": "FDI",
+  "locale": "zh-Hans",
+  "persona": "Quality Manager coordinating customer lot-record responses at a Vietnam FDI PCB supplier for semiconductor and electronics equipment",
+  "route": "offline cold -> Customer lot-question scope and record-review responsibility -> Wafer Works Taiwan/Shanghai production-information case -> zh-Hans factory discussion reader",
+  "anchors": [
+    {
+      "path": "operations/Vy_Email_Content_Anchor.md",
+      "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+    },
+    {
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-worktree-content-anchor-v2.md",
+      "sha256": "221e5a5facce74ae861a3874524b1c2814dac15cacafc580ddb6a34174fc88af"
+    },
+    {
+      "path": "landing/partner-route/supplier-ecosystem-flat.html",
+      "sha256": "d69c06b2a1f78e11b6087e6cd8580cab7d3bcd3c72ea71ce3dc1ec8964538f14"
+    }
+  ],
+  "authority": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/b29-b30-execution-authority-v1.json",
+    "sha256": "c459d799bf6577a6f9292897dcf6f9e134f81211a28e3e2bc8130419805ec024"
+  },
+  "viewport": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/b29-b30-viewport-authority-v1.json",
+    "sha256": "1c2e68b21be6fada24a60549e56b86ddb597cec5441f7ae1e4fc5b8ea31e29f8"
+  },
+  "A1_A7": {
+    "A1": {
+      "native_script": "MATCH",
+      "observation": "Vietnam FDI industrial PCB supplier serving semiconductor and electronics equipment. Wafer Works silicon-materials case separate; not software/SI/channel.",
+      "render": "MATCH"
+    },
+    "A2": {
+      "native_script": "MATCH",
+      "observation": "Quality Manager coordinating customer lot-record response; actual entity and buying authority UNKNOWN.",
+      "render": "MATCH"
+    },
+    "A3": {
+      "native_script": "MATCH",
+      "observation": "Separate mainland Simplified and Taiwan Traditional FDI operating-team wording; no domestic admission promise or nationality inference.",
+      "render": "MATCH"
+    },
+    "A4": {
+      "native_script": "MATCH",
+      "observation": "Customer question, record scope/source, reviewer and unresolved gaps support relevant factory response and process/risk responsibility; no ROI or audit/qualification guarantee.",
+      "render": "MATCH"
+    },
+    "A5": {
+      "native_script": "N/A_FDI",
+      "observation": "N/A FDI. Historical domestic P3 reauthored for customer response.",
+      "render": "MATCH"
+    },
+    "A6": {
+      "native_script": "MATCH",
+      "observation": "ERP enterprise orders/materials/planning/cost separate from manufacturing execution progress/lot/quality. Single silicon-materials production case contextual, not PCB implementation proof or connector certification.",
+      "render": "MATCH"
+    },
+    "A7": {
+      "native_script": "MATCH",
+      "observation": "Cold customer lot question -> question scope/source/reviewer/gaps and separate Vietnam advice -> Wafer Works production context -> own PCB factory record/process scope reader.",
+      "render": "MATCH"
+    }
+  },
+  "cards": [
+    {
+      "card_id": "B29-C1",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/01-b29-c1.png",
+        "sha256": "b7c5070d09e41c96ddefcbb949ac4072744c656f1696ab884a244a1e9ebefad9"
+      },
+      "origin": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/cold/release-v3/campaign/native/b29-c1-original-v3.png",
+        "sha256": "b7c5070d09e41c96ddefcbb949ac4072744c656f1696ab884a244a1e9ebefad9"
+      },
+      "attempt_type": "ORIGINAL",
+      "exact_surfaces": {
+        "caption": "Digiwin 提供 ERP 与制造解决方案。服务半导体及电子设备的 PCB 供应商，在回应客户批次问题前，需要明确记录范围与核对责任。",
+        "card_id": "B29-C1",
+        "headline": "客户询问一个批次。\n哪些记录能回答？",
+        "body": "服务半导体及电子设备的 PCB 供应商，在回应客户前，需要明确问题、记录范围及核对负责人。",
+        "source_text": "",
+        "cta": "了解批次记录核对",
+        "native_headline": "客户询问一个批次。哪些记录能回答？",
+        "alt": "示意图：客户询问一个批次。 哪些记录能回答？",
+        "artwork_labels": [
+          "供应商质量"
+        ]
+      },
+      "native": "PASS_ROOT_SELF_REVIEW",
+      "observation": "FDI PCB supplier quality/customer lot question, clear scope/reviewer before response, not domestic admission promise.",
+      "native_text": "Actual native images read against every supplied headline/body/source/category/sequence/CTA; exact script and declared props, no added fake data.",
+      "brand_role": "One provider mark; textual publisher/source or local delivery role kept where functional, no extra brand category",
+      "brand_mentions_per_surface": {
+        "headline": 0,
+        "body": 0,
+        "source_text": 0,
+        "cta": 0,
+        "native_headline": 0,
+        "alt": 0,
+        "artwork_labels": 0
+      },
+      "artwork_logo_count": 1,
+      "speaker": "Digiwin direct advertiser/provider voice; named customer retains case attribution",
+      "render": "PASS_DESKTOP_MAIN434_FEED333",
+      "render_evidence": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review-final-v1.json",
+        "sha256": "4689dec5532c933e8c2a92d1ecaab2ec6d05146302caea9dc3a03daea61d49e5"
+      }
+    },
+    {
+      "card_id": "B29-E1",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/02-b29-e1.png",
+        "sha256": "e8d1f3bc8aaf28e18e8b11b37dda72dfafd7cdfd1f57733860a2719879d4f074"
+      },
+      "origin": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/explanation/release-v3/campaign/native/b29-e1-original-v3.png",
+        "sha256": "e8d1f3bc8aaf28e18e8b11b37dda72dfafd7cdfd1f57733860a2719879d4f074"
+      },
+      "attempt_type": "ORIGINAL",
+      "exact_surfaces": {
+        "caption": "从客户的问题、相关记录来源和核对责任入手。与 Digiwin 越南团队梳理工厂流程及信息需求，再界定方案范围。",
+        "card_id": "B29-E1",
+        "headline": "先把客户的问题说清楚。",
+        "body": "收集记录前，先明确批次、工序、时间范围及客户需要的信息。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "先把客户的问题说清楚。",
+        "alt": "示意图：先把客户的问题说清楚。",
+        "artwork_labels": [
+          "供应商质量",
+          "1/5"
+        ]
+      },
+      "native": "PASS_ROOT_SELF_REVIEW",
+      "observation": "Specific lot/process/time/information requested before collecting records, blank folio/sleeve/tray only.",
+      "native_text": "Actual native images read against every supplied headline/body/source/category/sequence/CTA; exact script and declared props, no added fake data.",
+      "brand_role": "One provider mark; textual publisher/source or local delivery role kept where functional, no extra brand category",
+      "brand_mentions_per_surface": {
+        "headline": 0,
+        "body": 0,
+        "source_text": 0,
+        "cta": 0,
+        "native_headline": 0,
+        "alt": 0,
+        "artwork_labels": 0
+      },
+      "artwork_logo_count": 1,
+      "speaker": "Digiwin direct advertiser/provider voice; named customer retains case attribution",
+      "render": "PASS_DESKTOP_MAIN434_FEED333",
+      "render_evidence": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review-final-v1.json",
+        "sha256": "4689dec5532c933e8c2a92d1ecaab2ec6d05146302caea9dc3a03daea61d49e5"
+      }
+    },
+    {
+      "card_id": "B29-E2",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/03-b29-e2.png",
+        "sha256": "317dee5d9ef3403040a0b7fe9680cdad5570d6cff8ebf76f39b257dd694beebd"
+      },
+      "origin": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/explanation/release-v3/campaign/native/b29-e2-original-v3.png",
+        "sha256": "317dee5d9ef3403040a0b7fe9680cdad5570d6cff8ebf76f39b257dd694beebd"
+      },
+      "attempt_type": "ORIGINAL",
+      "exact_surfaces": {
+        "caption": "从客户的问题、相关记录来源和核对责任入手。与 Digiwin 越南团队梳理工厂流程及信息需求，再界定方案范围。",
+        "card_id": "B29-E2",
+        "headline": "找到相关记录的来源。",
+        "body": "确定约定范围内的记录，以及维护各来源的团队或系统。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "找到相关记录的来源。",
+        "alt": "示意图：找到相关记录的来源。",
+        "artwork_labels": [
+          "供应商质量",
+          "2/5"
+        ]
+      },
+      "native": "PASS_ROOT_SELF_REVIEW",
+      "observation": "Relevant record sources and maintaining team/system; scoped comparison, no certification or data invented.",
+      "native_text": "Actual native images read against every supplied headline/body/source/category/sequence/CTA; exact script and declared props, no added fake data.",
+      "brand_role": "One provider mark; textual publisher/source or local delivery role kept where functional, no extra brand category",
+      "brand_mentions_per_surface": {
+        "headline": 0,
+        "body": 0,
+        "source_text": 0,
+        "cta": 0,
+        "native_headline": 0,
+        "alt": 0,
+        "artwork_labels": 0
+      },
+      "artwork_logo_count": 1,
+      "speaker": "Digiwin direct advertiser/provider voice; named customer retains case attribution",
+      "render": "PASS_DESKTOP_MAIN434_FEED333",
+      "render_evidence": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review-final-v1.json",
+        "sha256": "4689dec5532c933e8c2a92d1ecaab2ec6d05146302caea9dc3a03daea61d49e5"
+      }
+    },
+    {
+      "card_id": "B29-E3",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/04-b29-e3.png",
+        "sha256": "4a996604527c32f8ab2cc8145506426f319f84425205c526ad4216eef0973574"
+      },
+      "origin": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/explanation/release-v3/campaign/native/b29-e3-original-v3.png",
+        "sha256": "4a996604527c32f8ab2cc8145506426f319f84425205c526ad4216eef0973574"
+      },
+      "attempt_type": "ORIGINAL",
+      "exact_surfaces": {
+        "caption": "从客户的问题、相关记录来源和核对责任入手。与 Digiwin 越南团队梳理工厂流程及信息需求，再界定方案范围。",
+        "card_id": "B29-E3",
+        "headline": "明确谁来核对记录。",
+        "body": "为客户的问题明确核对负责人。Digiwin 越南团队评估工厂流程，并就信息需求提供建议。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "明确谁来核对记录。",
+        "alt": "示意图：明确谁来核对记录。",
+        "artwork_labels": [
+          "供应商质量",
+          "3/5"
+        ]
+      },
+      "native": "PASS_ROOT_SELF_REVIEW",
+      "observation": "Reviewer for customer question, separate Vietnam factory process assessment and information-needs advice; two blank folios/upright empty frame.",
+      "native_text": "Actual native images read against every supplied headline/body/source/category/sequence/CTA; exact script and declared props, no added fake data.",
+      "brand_role": "One provider mark; textual publisher/source or local delivery role kept where functional, no extra brand category",
+      "brand_mentions_per_surface": {
+        "headline": 0,
+        "body": 1,
+        "source_text": 0,
+        "cta": 0,
+        "native_headline": 0,
+        "alt": 0,
+        "artwork_labels": 0
+      },
+      "artwork_logo_count": 1,
+      "speaker": "Digiwin direct advertiser/provider voice; named customer retains case attribution",
+      "render": "PASS_DESKTOP_MAIN434_FEED333",
+      "render_evidence": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review-final-v1.json",
+        "sha256": "4689dec5532c933e8c2a92d1ecaab2ec6d05146302caea9dc3a03daea61d49e5"
+      }
+    },
+    {
+      "card_id": "B29-E4",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/05-b29-e4.png",
+        "sha256": "813c4aeb9ccd7d8ff37896dd1b1b9abf57dce91daf9f7c886258b556dcd381c7"
+      },
+      "origin": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/explanation/release-v3/campaign/native/b29-e4-original-v3.png",
+        "sha256": "813c4aeb9ccd7d8ff37896dd1b1b9abf57dce91daf9f7c886258b556dcd381c7"
+      },
+      "attempt_type": "ORIGINAL",
+      "exact_surfaces": {
+        "caption": "从客户的问题、相关记录来源和核对责任入手。与 Digiwin 越南团队梳理工厂流程及信息需求，再界定方案范围。",
+        "card_id": "B29-E4",
+        "headline": "回应前，先核对缺口。",
+        "body": "厘清缺失记录及确认责任。Digiwin 越南团队支持现场方案移交及工厂验收。",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "回应前，先核对缺口。",
+        "alt": "示意图：回应前，先核对缺口。",
+        "artwork_labels": [
+          "供应商质量",
+          "4/5"
+        ]
+      },
+      "native": "PASS_ROOT_SELF_REVIEW",
+      "observation": "Missing records and confirmation roles; Vietnam on-site transfer/factory acceptance support separately attributed. No promised customer/audit result.",
+      "native_text": "Actual native images read against every supplied headline/body/source/category/sequence/CTA; exact script and declared props, no added fake data.",
+      "brand_role": "One provider mark; textual publisher/source or local delivery role kept where functional, no extra brand category",
+      "brand_mentions_per_surface": {
+        "headline": 0,
+        "body": 1,
+        "source_text": 0,
+        "cta": 0,
+        "native_headline": 0,
+        "alt": 0,
+        "artwork_labels": 0
+      },
+      "artwork_logo_count": 1,
+      "speaker": "Digiwin direct advertiser/provider voice; named customer retains case attribution",
+      "render": "PASS_DESKTOP_MAIN434_FEED333",
+      "render_evidence": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review-final-v1.json",
+        "sha256": "4689dec5532c933e8c2a92d1ecaab2ec6d05146302caea9dc3a03daea61d49e5"
+      }
+    },
+    {
+      "card_id": "B29-E5",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/06-b29-e5.png",
+        "sha256": "bd4b68a0283da546f2bc86a2df1a891f385c60e6a3bae05c97b0ec49b2a3a11b"
+      },
+      "origin": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/explanation/release-v3/closing/native/b29-e5-original-v3.png",
+        "sha256": "bd4b68a0283da546f2bc86a2df1a891f385c60e6a3bae05c97b0ec49b2a3a11b"
+      },
+      "attempt_type": "ORIGINAL",
+      "exact_surfaces": {
+        "caption": "从客户的问题、相关记录来源和核对责任入手。与 Digiwin 越南团队梳理工厂流程及信息需求，再界定方案范围。",
+        "card_id": "B29-E5",
+        "headline": "行业记录。\n本厂的客户问题。",
+        "body": "了解 Wafer Works 的生产追溯。与 Digiwin 越南团队梳理本厂相关的记录及流程需求。",
+        "source_text": "Digiwin 半导体解决方案\nDigiwin 越南本地服务",
+        "cta": "了解 Wafer Works 案例",
+        "native_headline": "行业记录。本厂的客户问题。",
+        "alt": "示意图：行业记录。 本厂的客户问题。",
+        "artwork_labels": [
+          "供应商质量",
+          "5/5"
+        ]
+      },
+      "native": "PASS_ROOT_SELF_REVIEW",
+      "observation": "Case production traceability -> own-factory record/process requirements; both source lines functionally distinct; bare wafer/blank folio/empty tray.",
+      "native_text": "Actual native images read against every supplied headline/body/source/category/sequence/CTA; exact script and declared props, no added fake data.",
+      "brand_role": "One provider mark; textual publisher/source or local delivery role kept where functional, no extra brand category",
+      "brand_mentions_per_surface": {
+        "headline": 0,
+        "body": 1,
+        "source_text": 2,
+        "cta": 0,
+        "native_headline": 0,
+        "alt": 0,
+        "artwork_labels": 0
+      },
+      "artwork_logo_count": 1,
+      "speaker": "Digiwin direct advertiser/provider voice; named customer retains case attribution",
+      "render": "PASS_DESKTOP_MAIN434_FEED333",
+      "render_evidence": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review-final-v1.json",
+        "sha256": "4689dec5532c933e8c2a92d1ecaab2ec6d05146302caea9dc3a03daea61d49e5"
+      }
+    },
+    {
+      "card_id": "B29-P1",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/07-b29-p1.png",
+        "sha256": "42b6153483e913edc7dc71d6a907abd9aec896c774d5810c268d84cbebba194c"
+      },
+      "origin": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/proof/reused-native/b29-p1.png",
+        "sha256": "42b6153483e913edc7dc71d6a907abd9aec896c774d5810c268d84cbebba194c"
+      },
+      "attempt_type": "REUSE",
+      "exact_surfaces": {
+        "caption": "了解 Wafer Works 在台湾 / 上海的半导体材料案例：生产追溯、进度与设备状态，以及外延质量记录。",
+        "headline": "Wafer Works：\n半导体材料",
+        "body": "从晶体生长、晶圆加工到外延，Digiwin 支持生产追溯与运营可视性。",
+        "source_text": "Wafer Works / 合晶科技\n台湾 / 上海",
+        "cta": "",
+        "native_headline": "Wafer Works：半导体材料",
+        "alt": "示意图：Wafer Works：半导体材料",
+        "artwork_labels": [
+          "半导体案例",
+          "1/4"
+        ],
+        "card_id": "B29-P1"
+      },
+      "native": "PASS_ROOT_SELF_REVIEW",
+      "observation": "Single Wafer Works silicon materials case, Taiwan/Shanghai. PCB customer uses context, not PCB-specific proof. Fresh reuse review required.",
+      "native_text": "Actual native images read against every supplied headline/body/source/category/sequence/CTA; exact script and declared props, no added fake data.",
+      "brand_role": "One provider mark; textual publisher/source or local delivery role kept where functional, no extra brand category",
+      "brand_mentions_per_surface": {
+        "headline": 0,
+        "body": 1,
+        "source_text": 0,
+        "cta": 0,
+        "native_headline": 0,
+        "alt": 0,
+        "artwork_labels": 0
+      },
+      "artwork_logo_count": 1,
+      "speaker": "Digiwin direct advertiser/provider voice; named customer retains case attribution",
+      "render": "PASS_DESKTOP_MAIN434_FEED333",
+      "render_evidence": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review-final-v1.json",
+        "sha256": "4689dec5532c933e8c2a92d1ecaab2ec6d05146302caea9dc3a03daea61d49e5"
+      }
+    },
+    {
+      "card_id": "B29-P2",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/08-b29-p2.png",
+        "sha256": "7cd5f969ae237f784d9281e0dccaadcaf80e3d5977203bb56ded50a5a9a75a3f"
+      },
+      "origin": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/proof/reused-native/b29-p2.png",
+        "sha256": "7cd5f969ae237f784d9281e0dccaadcaf80e3d5977203bb56ded50a5a9a75a3f"
+      },
+      "attempt_type": "REUSE",
+      "exact_surfaces": {
+        "caption": "了解 Wafer Works 在台湾 / 上海的半导体材料案例：生产追溯、进度与设备状态，以及外延质量记录。",
+        "headline": "追溯生产批次的来龙去脉。",
+        "body": "在 Wafer Works 案例中，生产履历把硅晶体与各晶圆批次连接起来。",
+        "source_text": "Digiwin 半导体解决方案\nWafer Works / 台湾 / 上海",
+        "cta": "",
+        "native_headline": "追溯生产批次的来龙去脉。",
+        "alt": "示意图：追溯生产批次的来龙去脉。",
+        "artwork_labels": [
+          "半导体案例",
+          "2/4"
+        ],
+        "card_id": "B29-P2"
+      },
+      "native": "PASS_ROOT_SELF_REVIEW",
+      "observation": "Crystal-to-wafer production genealogy highlights production record source/scope questions; no PCB process equivalence or customer qualification.",
+      "native_text": "Actual native images read against every supplied headline/body/source/category/sequence/CTA; exact script and declared props, no added fake data.",
+      "brand_role": "One provider mark; textual publisher/source or local delivery role kept where functional, no extra brand category",
+      "brand_mentions_per_surface": {
+        "headline": 0,
+        "body": 0,
+        "source_text": 1,
+        "cta": 0,
+        "native_headline": 0,
+        "alt": 0,
+        "artwork_labels": 0
+      },
+      "artwork_logo_count": 1,
+      "speaker": "Digiwin direct advertiser/provider voice; named customer retains case attribution",
+      "render": "PASS_DESKTOP_MAIN434_FEED333",
+      "render_evidence": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review-final-v1.json",
+        "sha256": "4689dec5532c933e8c2a92d1ecaab2ec6d05146302caea9dc3a03daea61d49e5"
+      }
+    },
+    {
+      "card_id": "B29-P3",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/09-b29-p3.png",
+        "sha256": "492a0cd34dfaac2dfaa5f432f9ae2d4b677cf21276bfb343fed38585763af3ab"
+      },
+      "origin": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/proof/reused-native/b29-p3.png",
+        "sha256": "492a0cd34dfaac2dfaa5f432f9ae2d4b677cf21276bfb343fed38585763af3ab"
+      },
+      "attempt_type": "REUSE",
+      "exact_surfaces": {
+        "caption": "了解 Wafer Works 在台湾 / 上海的半导体材料案例：生产追溯、进度与设备状态，以及外延质量记录。",
+        "headline": "看清进度与质量。",
+        "body": "案例涵盖生产进度、设备状态与外延履历，包括质量参数限值和质量风险预警。",
+        "source_text": "Digiwin 半导体解决方案\nWafer Works / 台湾 / 上海",
+        "cta": "",
+        "native_headline": "看清进度与质量。",
+        "alt": "示意图：看清进度与质量。",
+        "artwork_labels": [
+          "半导体案例",
+          "3/4"
+        ],
+        "card_id": "B29-P3"
+      },
+      "native": "PASS_ROOT_SELF_REVIEW",
+      "observation": "Progress/equipment/epitaxy history quality limits and alerts remain Wafer Works scoped; no PCB outcome or ROI.",
+      "native_text": "Actual native images read against every supplied headline/body/source/category/sequence/CTA; exact script and declared props, no added fake data.",
+      "brand_role": "One provider mark; textual publisher/source or local delivery role kept where functional, no extra brand category",
+      "brand_mentions_per_surface": {
+        "headline": 0,
+        "body": 0,
+        "source_text": 1,
+        "cta": 0,
+        "native_headline": 0,
+        "alt": 0,
+        "artwork_labels": 0
+      },
+      "artwork_logo_count": 1,
+      "speaker": "Digiwin direct advertiser/provider voice; named customer retains case attribution",
+      "render": "PASS_DESKTOP_MAIN434_FEED333",
+      "render_evidence": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review-final-v1.json",
+        "sha256": "4689dec5532c933e8c2a92d1ecaab2ec6d05146302caea9dc3a03daea61d49e5"
+      }
+    },
+    {
+      "card_id": "B29-P4",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/assets/10-b29-p4.png",
+        "sha256": "64eb6a2c6fedd625462328794fd533a37ab63ee252edc86596845443c81e805e"
+      },
+      "origin": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/proof/reused-native/b29-p4.png",
+        "sha256": "64eb6a2c6fedd625462328794fd533a37ab63ee252edc86596845443c81e805e"
+      },
+      "attempt_type": "REUSE",
+      "exact_surfaces": {
+        "caption": "了解 Wafer Works 在台湾 / 上海的半导体材料案例：生产追溯、进度与设备状态，以及外延质量记录。",
+        "headline": "把问题带回本厂。",
+        "body": "了解 Wafer Works 案例，再梳理本厂需要关注的批次记录、决策责任与流程要求。",
+        "source_text": "Digiwin 半导体解决方案\nWafer Works / 台湾 / 上海",
+        "cta": "阅读工厂讨论指南",
+        "native_headline": "把问题带回本厂。",
+        "alt": "示意图：把问题带回本厂。",
+        "artwork_labels": [
+          "半导体案例",
+          "4/4"
+        ],
+        "card_id": "B29-P4"
+      },
+      "native": "PASS_ROOT_SELF_REVIEW",
+      "observation": "Lot-record/decision/process questions brought to own factory; new Quality Manager reader maintains source/context boundaries.",
+      "native_text": "Actual native images read against every supplied headline/body/source/category/sequence/CTA; exact script and declared props, no added fake data.",
+      "brand_role": "One provider mark; textual publisher/source or local delivery role kept where functional, no extra brand category",
+      "brand_mentions_per_surface": {
+        "headline": 0,
+        "body": 0,
+        "source_text": 1,
+        "cta": 0,
+        "native_headline": 0,
+        "alt": 0,
+        "artwork_labels": 0
+      },
+      "artwork_logo_count": 1,
+      "speaker": "Digiwin direct advertiser/provider voice; named customer retains case attribution",
+      "render": "PASS_DESKTOP_MAIN434_FEED333",
+      "render_evidence": {
+        "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review-final-v1.json",
+        "sha256": "4689dec5532c933e8c2a92d1ecaab2ec6d05146302caea9dc3a03daea61d49e5"
+      }
+    }
+  ],
+  "reader": {
+    "copy": {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/reader-copy.json",
+      "sha256": "76a4fd3b5f56c0a1425317d047f17b25d67d9b2dd450be7008f17d40c981d7ef"
+    },
+    "html": {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/case-reader.html",
+      "sha256": "b5868e0a1b971a322888742a963c3b56714c649ab1c1a5a2b9567e55d2ed4130"
+    },
+    "script_observation": "Actually read all four sections, two public source labels and return UI. Customer question, record sources/reviewer/gaps, enterprise versus execution roles, Taiwan/Shanghai Wafer Works silicon-materials case with no PCB implementation equivalence, separate Vietnam assessment/advice/on-site transfer/factory acceptance support. No metrics or guaranteed result.",
+    "render": "PASS_DESKTOP_MAIN434",
+    "return_reload": "PASS_STAGE2_CARD3"
+  },
+  "transitions": [
+    {
+      "from_card": "B29-C1",
+      "to_card": "B29-E1",
+      "script": "MATCH",
+      "render": "MATCH",
+      "observation": "Cold customer lot question -> question scope/source/reviewer/gaps and separate Vietnam advice -> Wafer Works production context -> own PCB factory record/process scope reader."
+    },
+    {
+      "from_card": "B29-E1",
+      "to_card": "B29-E2",
+      "script": "MATCH",
+      "render": "MATCH",
+      "observation": "Cold customer lot question -> question scope/source/reviewer/gaps and separate Vietnam advice -> Wafer Works production context -> own PCB factory record/process scope reader."
+    },
+    {
+      "from_card": "B29-E2",
+      "to_card": "B29-E3",
+      "script": "MATCH",
+      "render": "MATCH",
+      "observation": "Cold customer lot question -> question scope/source/reviewer/gaps and separate Vietnam advice -> Wafer Works production context -> own PCB factory record/process scope reader."
+    },
+    {
+      "from_card": "B29-E3",
+      "to_card": "B29-E4",
+      "script": "MATCH",
+      "render": "MATCH",
+      "observation": "Cold customer lot question -> question scope/source/reviewer/gaps and separate Vietnam advice -> Wafer Works production context -> own PCB factory record/process scope reader."
+    },
+    {
+      "from_card": "B29-E4",
+      "to_card": "B29-E5",
+      "script": "MATCH",
+      "render": "MATCH",
+      "observation": "Cold customer lot question -> question scope/source/reviewer/gaps and separate Vietnam advice -> Wafer Works production context -> own PCB factory record/process scope reader."
+    },
+    {
+      "from_card": "B29-E5",
+      "to_card": "B29-P1",
+      "script": "MATCH",
+      "render": "MATCH",
+      "observation": "Cold customer lot question -> question scope/source/reviewer/gaps and separate Vietnam advice -> Wafer Works production context -> own PCB factory record/process scope reader."
+    },
+    {
+      "from_card": "B29-P1",
+      "to_card": "B29-P2",
+      "script": "MATCH",
+      "render": "MATCH",
+      "observation": "Cold customer lot question -> question scope/source/reviewer/gaps and separate Vietnam advice -> Wafer Works production context -> own PCB factory record/process scope reader."
+    },
+    {
+      "from_card": "B29-P2",
+      "to_card": "B29-P3",
+      "script": "MATCH",
+      "render": "MATCH",
+      "observation": "Cold customer lot question -> question scope/source/reviewer/gaps and separate Vietnam advice -> Wafer Works production context -> own PCB factory record/process scope reader."
+    },
+    {
+      "from_card": "B29-P3",
+      "to_card": "B29-P4",
+      "script": "MATCH",
+      "render": "MATCH",
+      "observation": "Cold customer lot question -> question scope/source/reviewer/gaps and separate Vietnam advice -> Wafer Works production context -> own PCB factory record/process scope reader."
+    },
+    {
+      "from_card": "B29-P4",
+      "to_card": "reader",
+      "script": "MATCH",
+      "render": "MATCH",
+      "observation": "Cold customer lot question -> question scope/source/reviewer/gaps and separate Vietnam advice -> Wafer Works production context -> own PCB factory record/process scope reader."
+    }
+  ],
+  "counts": {
+    "original_calls": 6,
+    "corrective_calls": 0,
+    "total_calls": 6,
+    "selected": 10,
+    "new_selected": 6,
+    "reused_selected": 4
+  },
+  "open_evidence_gaps": [],
+  "PO_asset_acceptance": "NOT_GRANTED",
+  "exact390": "NOT_VERIFIED_PO_APPROVED434_SUBSTITUTE",
+  "git": "B27/B28 checkpoint e706cdc local only; B29/B30 working files unstaged/uncommitted, not main/pushed",
+  "pins": [
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/cold/copy.json",
+      "sha256": "378851e1f4d71bb59072a25ea4d319d41a70cd115e4c8c2db6746ac1e298cefa"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/explanation/copy.json",
+      "sha256": "84ca335e55fa71bb6713e2db05c464aa5f558be184c789eaecb39d9957f24b6b"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/proof/copy.json",
+      "sha256": "48fffcc2d1b434ac99654769e0b089dcd4a363c01ca18243ecd82d2f6a3c73fc"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/reader-script.json",
+      "sha256": "76a4fd3b5f56c0a1425317d047f17b25d67d9b2dd450be7008f17d40c981d7ef"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/index.html",
+      "sha256": "b49a533bcf12c93794af5f4913c856581077fdd4a5becd74b6898fc0ebaaa4fa"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/case-reader.html",
+      "sha256": "b5868e0a1b971a322888742a963c3b56714c649ab1c1a5a2b9567e55d2ed4130"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review.html",
+      "sha256": "cb6d31f9a1a0b42feb999b35227fe4f81dfc89d2846feca347d2590927d5e934"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/selected-copy.json",
+      "sha256": "6413ffe1dc5be8b07d30bc436ff03454d3495f76856ad912e39a0f6c3edad2d7"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/selected-origin-manifest.json",
+      "sha256": "6e686d644dbfe2bf02b2b51cf203ec840016275e71f12e21254d40153d27e7b3"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/selected-prompts.json",
+      "sha256": "30086b9737099ffa99fafd549315132dc530584f41ebc118b8be8b09a6c9200a"
+    }
+  ],
+  "previous_pending_receipt": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/postgen-review-current-v1.json",
+    "sha256": "574d2bfda66d6301f1f6b98aaaa8f332337a4974b03ea226c6b733d3a3bbb17b"
+  },
+  "whole_journey_observation": "FDI PCB Quality Manager customer lot-question: define scope/time/process, record source, review owner and gaps, then attributed silicon-materials case and own-factory discussion. ERP enterprise records distinguished from production execution. No domestic chain-entry, audit/certification/ROI or Vietnam-executed-WaferWorks promise. E3 local assessment/advice and E4 on-site transfer/acceptance remain separate from international proof.",
+  "historical_discrepancy": "B30 P3 uses corrected B27 selection. Historical B24 category/sequence omission and old PASS discrepancy preserved for coordinator reconciliation; no retroactive acceptance.",
+  "render_evidence": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B29-zh-Hans-p3-v1/render-review-final-v1.json",
+    "sha256": "4689dec5532c933e8c2a92d1ecaab2ec6d05146302caea9dc3a03daea61d49e5"
+  },
+  "anchor_ids": [
+    {
+      "id": "VY-CONTENT-ANCHOR",
+      "revision": "1.0"
+    },
+    {
+      "id": "PARTNER-WORKTREE-CONTENT-ANCHOR",
+      "revision": "2.0"
+    },
+    {
+      "id": "PARTNER-LDP-CONTENT-ANCHOR",
+      "revision": "1.0"
+    }
+  ],
+  "scope_limitations": [
+    "Root self-review only, not independent/native-market audit or PO asset acceptance",
+    "Exact390 unverified, approved434 substitute",
+    "Actual prospect entity/system buying authority unknown",
+    "Offline candidates only; shared canonical integration remains coordinator-owned"
+  ]
+}

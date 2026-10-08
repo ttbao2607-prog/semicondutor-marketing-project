@@ -1,0 +1,16 @@
+{
+  "revision": "b22-viewport-po-substitution-v1",
+  "date": "2026-10-07",
+  "owner": "Bao",
+  "instruction": "Bảo k biêt bỏ ntn, v chấpnhận theo số 2 nhé.",
+  "offered_option_2": "Accept actual434px viewport plus feed333 instead of exact390px for B22 postcheck",
+  "effect": "Scoped replacement of measured390 criterion in corrective-v7/execution-contract.json for current B22 only",
+  "approved_scope": [
+    "Actual innerWidth434 CSS px",
+    "Feed artwork333 CSS px",
+    "Desktop main viewer and reader/navigation"
+  ],
+  "exact390": "NOT_VERIFIED; waived for current B22 measurement only, never certified PASS",
+  "browser_permissions": "Raw CDP remained denied by saved browser permission; no bypass or permission change",
+  "other_batches": "No inherited waiver for B23 or another batch"
+}

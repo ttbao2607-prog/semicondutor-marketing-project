@@ -1,0 +1,56 @@
+{
+  "revision": "b25-render-review-final-v1",
+  "reviewed_utc": "2026-10-07T07:39:25.413326+00:00",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW",
+  "status": "PASS_APPROVED_ACTUAL434_FEED333_DESKTOP_SCOPE",
+  "artifact_pins": [
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html",
+      "sha256": "d9605e6a6838ba9745550455245010c669c9620377ce9e8ab9cbd659202a8f4f"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/case-reader.html",
+      "sha256": "a0032c2f49905ea1151ede63289978d24ab82acb131886a6ee9fe5e598cc6033"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/render-review.html",
+      "sha256": "c14091fe4fc8921b326891ba2739c4607f0e374ca7095e859e2f4dd5863db18d"
+    }
+  ],
+  "coverage": {
+    "desktop_cards": 10,
+    "main434_cards": 10,
+    "feed333_cards": 10,
+    "reader_desktop": "Full four sections/source box",
+    "reader_actual434": "Full four sections/source box"
+  },
+  "layout": "Measured scrollWidth equals clientWidth; no observed horizontal overflow or clipped text. Native/caption/source/CTA readable within reviewed scopes.",
+  "journey": "Actually clicked cold -> E1..E5 -> P1..P4 in desktop and actual434; first/last Previous/Next bounds checked; reader top/bottom returns and reload preserve P4.",
+  "observations": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/browser-observations-final-v1.json",
+    "sha256": "1fa74336658610612d332ada235c66fb2d7733581198b8098495b2d30eeb12c8"
+  },
+  "viewport_requested": [
+    390,
+    844
+  ],
+  "viewport_actual": [
+    434,
+    938
+  ],
+  "viewport_authority": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/b25-b26-viewport-po-decision-v1.json",
+    "sha256": "8bbddf27e25d490086d755334084726f6f985353aba213bbe3ad7be8b83cbad2"
+  },
+  "exact390": "NOT_VERIFIED_PO_ACCEPTED_434_SUBSTITUTE",
+  "evidence": "Successful cua tool screenshots/DOM transcript. No saved screenshot PNGs or independent reviewer certification claimed.",
+  "cleanup": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/b25-b26-browser-cleanup-v1.json",
+    "sha256": "fdc69b6f47ebbf9e68246b788c1c3a17145e4295b8c882cc0fa7ea82571e8ad9"
+  },
+  "scope_limits": [
+    "No physical-device/native-market/independent certification",
+    "No fresh live-source/account verification"
+  ]
+}

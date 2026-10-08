@@ -1,0 +1,859 @@
+{
+  "revision": "b25-postgen-final-v1",
+  "stage": "POSTGEN_ARTIFACT",
+  "reviewed_utc": "2026-10-07T07:39:25.413326+00:00",
+  "writer": "/root",
+  "reviewer": "/root",
+  "independence": "SELF_REVIEW_INDEPENDENT_AUDIT_PENDING",
+  "execution_status": "SUCCESS",
+  "artifact_status": "PASS_APPROVED_SCOPE",
+  "MESSAGE_ANCHOR": "MESSAGE_ANCHOR_PASS",
+  "EDITORIAL_QA": "EDITORIAL_QA_PASS",
+  "anchor": {
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+  },
+  "email": {
+    "id": "VY-MAIL-USER-20261006",
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "partner_anchor": {
+    "id": "PARTNER-WORKTREE-CONTENT-ANCHOR",
+    "revision": "2.0",
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-worktree-content-anchor-v2.md",
+    "sha256": "221e5a5facce74ae861a3874524b1c2814dac15cacafc580ddb6a34174fc88af"
+  },
+  "approved_ldp": {
+    "path": "landing/partner-route/supplier-ecosystem-flat.html",
+    "sha256": "d69c06b2a1f78e11b6087e6cd8580cab7d3bcd3c72ea71ce3dc1ec8964538f14"
+  },
+  "branch": "slice/linkedin-safe-partner-parallel",
+  "batch": "B25",
+  "segment": "FDI",
+  "locale": "en",
+  "persona": "Factory IT Manager responsible for ERP and production-information scope at a Vietnam FDI precision-component supplier for semiconductor equipment",
+  "audience_status": "Content scenario; actual entity/buyer/system decision authority/targeting eligibility UNKNOWN",
+  "route": "Cold system question -> five record ownership explanation cards -> four Wafer Works Taiwan/Shanghai proof cards -> full factory IT discussion reader",
+  "A1_A7": {
+    "A1": {
+      "verdict": "MATCH",
+      "observation": "Industrial precision-component supplier of semiconductor equipment, not original P2 SI. Wafer Works is separate silicon-materials production context."
+    },
+    "A2": {
+      "verdict": "MATCH",
+      "observation": "Factory IT Manager responsible for ERP/production-information scope, content scenario; actual prospect/entity/system-buying authority UNKNOWN."
+    },
+    "A3": {
+      "verdict": "MATCH",
+      "observation": "FDI factory IT/operating-team voice; language not nationality or account validation. Separate English and Simplified Chinese wording."
+    },
+    "A4": {
+      "verdict": "MATCH",
+      "observation": "Record ownership/reconciliation/receiving-decision clarity supports dependable planning/quality decisions and scoped implementation responsibility. No financial ROI, savings or guarantee."
+    },
+    "A5": {
+      "verdict": "N/A_FDI",
+      "observation": "N/A FDI treatment; no domestic admission/qualification/order promise."
+    },
+    "A6": {
+      "verdict": "MATCH",
+      "observation": "ERP enterprise order/material/plan/cost separate from manufacturing execution lot/progress/quality. Case genealogy/equipment/epitaxy records are production-information context, not implemented connector or data ownership architecture certification."
+    },
+    "A7": {
+      "verdict": "MATCH",
+      "observation": "Cold systems question -> record owner/context/reconciliation/handoff/local advice -> specific industry record case -> own-factory reader with owning-team/receiving decision/technical scope. Same factory IT reader; case and local team distinct."
+    }
+  },
+  "proof_ledger": {
+    "entity": "Wafer Works / 合晶科技",
+    "geography": "Taiwan / Shanghai, one case",
+    "activity": "Silicon materials: crystal growth, wafer processing, epitaxy",
+    "capability": "Crystal-to-wafer-lot genealogy; production progress/equipment visibility; epitaxy history with quality limits/early alerts",
+    "metrics": "None asserted",
+    "system_scope": "Enterprise ERP roles separate from manufacturing execution. Production-record context is not a proven ERP/MES connector or architecture.",
+    "local_delivery": "Digiwin Vietnam assesses factory operations, advises process requirements, supports on-site solution transfer and factory acceptance; no attribution of Wafer Works execution to Vietnam team",
+    "rights": "Internal offline candidate; no new live publication rights or PO asset acceptance inferred"
+  },
+  "locale_terminology": "International English: record ownership, maintaining team/system, reconciliation, receiver, confirmation; Simplified: 零部件/记录归属/维护/核对差异/接收方/外延/现场方案移交/工厂验收, Taiwan displayed 台湾. Actual buyer authority not inferred.",
+  "source_copy_and_demo_pins": [
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/cold/copy.json",
+      "sha256": "e7e12ef48179f244aa88f344e16e4a01643ff83afc2a170162d480a3ee460ec6"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/explanation/copy.json",
+      "sha256": "f37118c0c624606ed443d992fa7447ce72ca716b48e8a9868f39c58358017572"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/proof/copy.json",
+      "sha256": "c5f122b8a476ae890f52398be52cef1df09e9f9aa600e4e857bef8044d6be098"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/reader-script.json",
+      "sha256": "50f16c248a962185e584ca10130f68d50432e3bb62683af1a70e836290b438a0"
+    },
+    {
+      "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/proof-reuse-manifest.json",
+      "sha256": "5f8d5c2b67081b266fc664edcbfa9b120154a38d12a7f20ae96bc222e04f0793"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/selected-copy.json",
+      "sha256": "c7b6b42fb669eca72406c8e7e0b465f514ec913d8e8c81a640487674bd334b05"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/selected-origin-manifest.json",
+      "sha256": "a565d553e99f6f09d6ad7f18d975045afa8d9a079aa4a830ec99cdf6da8dcead"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/selected-prompts.json",
+      "sha256": "8a3cc80881cc29da3ee22219a3141548d663e2d51e39fc91aacfeb30f5a01d5d"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/reader-copy.json",
+      "sha256": "50f16c248a962185e584ca10130f68d50432e3bb62683af1a70e836290b438a0"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html",
+      "sha256": "d9605e6a6838ba9745550455245010c669c9620377ce9e8ab9cbd659202a8f4f"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/case-reader.html",
+      "sha256": "a0032c2f49905ea1151ede63289978d24ab82acb131886a6ee9fe5e598cc6033"
+    },
+    {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/render-review.html",
+      "sha256": "c14091fe4fc8921b326891ba2739c4607f0e374ca7095e859e2f4dd5863db18d"
+    }
+  ],
+  "cards": [
+    {
+      "card_id": "B25-C1",
+      "selected_call_or_reuse_id": "B25-C1_CORRECTIVE_V5",
+      "attempt_type": "CORRECTIVE",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/01-b25-c1.png",
+        "sha256": "c7e3ba8b8b90a57cc4368b34d250e2903784c88d70207f89712490cb4d4c1a07"
+      },
+      "exact_surfaces": {
+        "caption": "Digiwin provides ERP and manufacturing solutions. For semiconductor equipment-component suppliers, clear record ownership and reconciliation help teams use production information in business decisions.",
+        "headline": "Two systems.\nWho owns the record?",
+        "body": "Semiconductor equipment-component suppliers need clear responsibility for production records before sharing them between planning and execution.",
+        "source_text": "",
+        "cta": "Explore record ownership",
+        "native_headline": "Two systems. Who owns the record?",
+        "alt": "Illustration: Two systems. Who owns the record?",
+        "artwork_labels": [
+          "SUPPLIER SYSTEMS"
+        ]
+      },
+      "script_semantic_observation": "Industrial semiconductor equipment-component supplier factory systems trigger. Record responsibility before planning/execution sharing; not SI or connector-performance claim.",
+      "native_observation": "Drilled precision flange, blank upright folder and upright empty open-aperture frame. Three declared props; frame is not a tray. Exact category and CTA; no CTA icon.",
+      "text_fidelity": "MATCH_APPROVED_LITERAL_TEXT_AND_LOCALE_ON_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 1,
+        "logo_role": "One provider identity mark",
+        "text_mentions": [
+          {
+            "surface": "caption",
+            "exact_string": "Digiwin provides ERP and manufacturing solutions. For semiconductor equipment-component suppliers, clear record ownership and reconciliation help teams use production information in business decisions.",
+            "count": 1,
+            "role": "provider/local consulting and implementation role",
+            "action": "KEEP",
+            "reason": "Functional attribution/provider voice, no company-introduction repetition"
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works is separate customer case",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_IT_RECORD_RESPONSIBILITY_AND_SCOPED_SOURCE_CONTEXT",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No numerical ROI/technical connector/qualification guarantee or local-executed international-case expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    },
+    {
+      "card_id": "B25-E1",
+      "selected_call_or_reuse_id": "B25-E1_ORIGINAL_V3",
+      "attempt_type": "ORIGINAL",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/02-b25-e1.png",
+        "sha256": "cbebbd4f32a24b44b7d790371d94f943bb5c623f4d7bd8aab842e841bef89e6a"
+      },
+      "exact_surfaces": {
+        "caption": "Start with one record your factory needs to share. With Digiwin Vietnam, review who maintains it, who reconciles differences and what the receiving team needs before defining the solution scope.",
+        "headline": "One record.\nOne responsible owner.",
+        "body": "Choose one production record. Identify the team and system responsible for its meaning, updates and scope.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "One record. One responsible owner.",
+        "alt": "Illustration: One record. One responsible owner.",
+        "artwork_labels": [
+          "SUPPLIER SYSTEMS",
+          "1/5"
+        ]
+      },
+      "script_semantic_observation": "One production record, maintaining team/system and definition/update/scope ownership. Blank folio/sleeve/tray only, no status confirmation marks.",
+      "native_observation": "Blank folio, acrylic sleeve and empty tray. Exact record owner/team/system/meaning/update/scope text, one category and sequence.",
+      "text_fidelity": "MATCH_APPROVED_LITERAL_TEXT_AND_LOCALE_ON_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 1,
+        "logo_role": "One provider identity mark",
+        "text_mentions": [
+          {
+            "surface": "caption",
+            "exact_string": "Start with one record your factory needs to share. With Digiwin Vietnam, review who maintains it, who reconciles differences and what the receiving team needs before defining the solution scope.",
+            "count": 1,
+            "role": "provider/local consulting and implementation role",
+            "action": "KEEP",
+            "reason": "Functional attribution/provider voice, no company-introduction repetition"
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works is separate customer case",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_IT_RECORD_RESPONSIBILITY_AND_SCOPED_SOURCE_CONTEXT",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No numerical ROI/technical connector/qualification guarantee or local-executed international-case expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    },
+    {
+      "card_id": "B25-E2",
+      "selected_call_or_reuse_id": "B25-E2_ORIGINAL_V3",
+      "attempt_type": "ORIGINAL",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/03-b25-e2.png",
+        "sha256": "3cd60c760ae30a52c40d12dfb3ec69053ac0cf3c76418beb76f495b13b1cfb97"
+      },
+      "exact_surfaces": {
+        "caption": "Start with one record your factory needs to share. With Digiwin Vietnam, review who maintains it, who reconciles differences and what the receiving team needs before defining the solution scope.",
+        "headline": "The receiving team needs context.",
+        "body": "Define which record the receiving team needs, when it is updated and how it supports a planning or quality decision.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "The receiving team needs context.",
+        "alt": "Illustration: The receiving team needs context.",
+        "artwork_labels": [
+          "SUPPLIER SYSTEMS",
+          "2/5"
+        ]
+      },
+      "script_semantic_observation": "Receiving-team context tied to planning/quality decision and update timing. Blank source folio/channel/tray, no fabricated data or actual technical topology.",
+      "native_observation": "Blank upright folio, empty acrylic channel and empty neutral tray. Exact receiving record/update/decision-context text, no fake data.",
+      "text_fidelity": "MATCH_APPROVED_LITERAL_TEXT_AND_LOCALE_ON_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 1,
+        "logo_role": "One provider identity mark",
+        "text_mentions": [
+          {
+            "surface": "caption",
+            "exact_string": "Start with one record your factory needs to share. With Digiwin Vietnam, review who maintains it, who reconciles differences and what the receiving team needs before defining the solution scope.",
+            "count": 1,
+            "role": "provider/local consulting and implementation role",
+            "action": "KEEP",
+            "reason": "Functional attribution/provider voice, no company-introduction repetition"
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works is separate customer case",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_IT_RECORD_RESPONSIBILITY_AND_SCOPED_SOURCE_CONTEXT",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No numerical ROI/technical connector/qualification guarantee or local-executed international-case expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    },
+    {
+      "card_id": "B25-E3",
+      "selected_call_or_reuse_id": "B25-E3_CORRECTIVE_V5",
+      "attempt_type": "CORRECTIVE",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/04-b25-e3.png",
+        "sha256": "d2206c62d32358dbec15dfac1834a2017f347acf88638f5dbbf1925f9f962f5e"
+      },
+      "exact_surfaces": {
+        "caption": "Start with one record your factory needs to share. With Digiwin Vietnam, review who maintains it, who reconciles differences and what the receiving team needs before defining the solution scope.",
+        "headline": "Reconcile differences at the source.",
+        "body": "Agree who checks conflicting records. Digiwin Vietnam assesses factory processes and advises teams on responsibilities and information needs.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Reconcile differences at the source.",
+        "alt": "Illustration: Reconcile differences at the source.",
+        "artwork_labels": [
+          "SUPPLIER SYSTEMS",
+          "3/5"
+        ]
+      },
+      "script_semantic_observation": "Conflicting-record reconciliation owner and local Vietnam process assessment/advice. Two blank folios and reconciliation frame; not Vietnam executing Wafer Works.",
+      "native_observation": "Two blank folios/binders and upright empty open-aperture frame. Full first sentence about responsibility for conflicting records plus separate Vietnam assessment/advice sentence. Binder spine holes are physical features, not records.",
+      "text_fidelity": "MATCH_APPROVED_LITERAL_TEXT_AND_LOCALE_ON_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 2,
+        "logo_role": "One provider identity mark",
+        "text_mentions": [
+          {
+            "surface": "caption",
+            "exact_string": "Start with one record your factory needs to share. With Digiwin Vietnam, review who maintains it, who reconciles differences and what the receiving team needs before defining the solution scope.",
+            "count": 1,
+            "role": "provider/local consulting and implementation role",
+            "action": "KEEP",
+            "reason": "Functional attribution/provider voice, no company-introduction repetition"
+          },
+          {
+            "surface": "body",
+            "exact_string": "Agree who checks conflicting records. Digiwin Vietnam assesses factory processes and advises teams on responsibilities and information needs.",
+            "count": 1,
+            "role": "provider/local consulting and implementation role",
+            "action": "KEEP",
+            "reason": "Functional attribution/provider voice, no company-introduction repetition"
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works is separate customer case",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_IT_RECORD_RESPONSIBILITY_AND_SCOPED_SOURCE_CONTEXT",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No numerical ROI/technical connector/qualification guarantee or local-executed international-case expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    },
+    {
+      "card_id": "B25-E4",
+      "selected_call_or_reuse_id": "B25-E4_ORIGINAL_V3",
+      "attempt_type": "ORIGINAL",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/05-b25-e4.png",
+        "sha256": "963ca21112f3e0d4871720d8a7f28aead336021d3adb010ac3f8b153dcc1661d"
+      },
+      "exact_surfaces": {
+        "caption": "Start with one record your factory needs to share. With Digiwin Vietnam, review who maintains it, who reconciles differences and what the receiving team needs before defining the solution scope.",
+        "headline": "Make the handoff explicit.",
+        "body": "Define sender, receiver and confirmation responsibility. Digiwin Vietnam supports on-site solution transfer and factory acceptance.",
+        "source_text": "",
+        "cta": "",
+        "native_headline": "Make the handoff explicit.",
+        "alt": "Illustration: Make the handoff explicit.",
+        "artwork_labels": [
+          "SUPPLIER SYSTEMS",
+          "4/5"
+        ]
+      },
+      "script_semantic_observation": "Sender/receiver/confirmation roles; local on-site transfer/factory acceptance support, not guaranteed outcome. Blank handoff folio/tray/frame.",
+      "native_observation": "Blank folio, empty tray and blank acrylic frame. Full sender/receiver/confirmation text plus separate Vietnam on-site transfer/factory acceptance role.",
+      "text_fidelity": "MATCH_APPROVED_LITERAL_TEXT_AND_LOCALE_ON_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 2,
+        "logo_role": "One provider identity mark",
+        "text_mentions": [
+          {
+            "surface": "caption",
+            "exact_string": "Start with one record your factory needs to share. With Digiwin Vietnam, review who maintains it, who reconciles differences and what the receiving team needs before defining the solution scope.",
+            "count": 1,
+            "role": "provider/local consulting and implementation role",
+            "action": "KEEP",
+            "reason": "Functional attribution/provider voice, no company-introduction repetition"
+          },
+          {
+            "surface": "body",
+            "exact_string": "Define sender, receiver and confirmation responsibility. Digiwin Vietnam supports on-site solution transfer and factory acceptance.",
+            "count": 1,
+            "role": "provider/local consulting and implementation role",
+            "action": "KEEP",
+            "reason": "Functional attribution/provider voice, no company-introduction repetition"
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works is separate customer case",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_IT_RECORD_RESPONSIBILITY_AND_SCOPED_SOURCE_CONTEXT",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No numerical ROI/technical connector/qualification guarantee or local-executed international-case expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    },
+    {
+      "card_id": "B25-E5",
+      "selected_call_or_reuse_id": "B25-E5_CORRECTIVE_V4",
+      "attempt_type": "CORRECTIVE",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/06-b25-e5.png",
+        "sha256": "e1e96d94daa062f94f43c20dfbc0ea82c98a45aa127a0e8acae595e44472ac91"
+      },
+      "exact_surfaces": {
+        "caption": "Start with one record your factory needs to share. With Digiwin Vietnam, review who maintains it, who reconciles differences and what the receiving team needs before defining the solution scope.",
+        "headline": "Industry records.\nYour factory scope.",
+        "body": "Explore production traceability at Wafer Works. With Digiwin Vietnam, review record ownership and process requirements at your factory.",
+        "source_text": "Digiwin semiconductor solutions\nDigiwin Vietnam local services",
+        "cta": "Explore the Wafer Works case",
+        "native_headline": "Industry records. Your factory scope.",
+        "alt": "Illustration: Industry records. Your factory scope.",
+        "artwork_labels": [
+          "SUPPLIER SYSTEMS",
+          "5/5"
+        ]
+      },
+      "script_semantic_observation": "Production-traceability industry context then local factory record/process scope. Two functional publisher/local-delivery source lines. Exact three objects; wafer bare, folio blank, tray empty.",
+      "native_observation": "Bare smooth wafer, blank paper folio and empty tray. Both semiconductor and Vietnam-service source lines present and visually larger than body; exact CTA without icon.",
+      "text_fidelity": "MATCH_APPROVED_LITERAL_TEXT_AND_LOCALE_ON_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 4,
+        "logo_role": "One provider identity mark",
+        "text_mentions": [
+          {
+            "surface": "caption",
+            "exact_string": "Start with one record your factory needs to share. With Digiwin Vietnam, review who maintains it, who reconciles differences and what the receiving team needs before defining the solution scope.",
+            "count": 1,
+            "role": "provider/local consulting and implementation role",
+            "action": "KEEP",
+            "reason": "Functional attribution/provider voice, no company-introduction repetition"
+          },
+          {
+            "surface": "body",
+            "exact_string": "Explore production traceability at Wafer Works. With Digiwin Vietnam, review record ownership and process requirements at your factory.",
+            "count": 1,
+            "role": "provider/local consulting and implementation role",
+            "action": "KEEP",
+            "reason": "Functional attribution/provider voice, no company-introduction repetition"
+          },
+          {
+            "surface": "source_text",
+            "exact_string": "Digiwin semiconductor solutions\nDigiwin Vietnam local services",
+            "count": 2,
+            "role": "source attribution",
+            "action": "KEEP",
+            "reason": "Functional attribution/provider voice, no company-introduction repetition"
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works is separate customer case",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_IT_RECORD_RESPONSIBILITY_AND_SCOPED_SOURCE_CONTEXT",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No numerical ROI/technical connector/qualification guarantee or local-executed international-case expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    },
+    {
+      "card_id": "B25-P1",
+      "selected_call_or_reuse_id": "B25-P1_REUSE_REVIEW_V1",
+      "attempt_type": "REUSE",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/07-b25-p1.png",
+        "sha256": "062e5f3095b591a462912cc8a5cb5fbf975b27303c60ca20f99b52f72ef8eff7"
+      },
+      "exact_surfaces": {
+        "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+        "headline": "Wafer Works:\nsemiconductor materials",
+        "body": "Digiwin supports production genealogy and operating visibility from crystal growth through wafer processing to epitaxy.",
+        "source_text": "Wafer Works / 合晶科技\nTaiwan / Shanghai",
+        "cta": "",
+        "native_headline": "Wafer Works: semiconductor materials",
+        "alt": "Illustration: Wafer Works: semiconductor materials",
+        "artwork_labels": [
+          "SEMICONDUCTOR CASE",
+          "1/4"
+        ]
+      },
+      "script_semantic_observation": "Reuse exact named Wafer Works / 合晶科技 Taiwan/Shanghai silicon-materials production scope, not ERP/MES connection evidence. New audience bridge inspected; no inherited verdict.",
+      "native_observation": "Reused case image freshly inspected: crystal and wafer progression; exact Wafer Works / 合晶科技 and Taiwan/Shanghai source; single silicon-materials case.",
+      "text_fidelity": "MATCH_APPROVED_LITERAL_TEXT_AND_LOCALE_ON_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 2,
+        "logo_role": "One provider identity mark",
+        "text_mentions": [
+          {
+            "surface": "caption",
+            "exact_string": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+            "count": 1,
+            "role": "case solution provider",
+            "action": "KEEP",
+            "reason": "Functional attribution/provider voice, no company-introduction repetition"
+          },
+          {
+            "surface": "body",
+            "exact_string": "Digiwin supports production genealogy and operating visibility from crystal growth through wafer processing to epitaxy.",
+            "count": 1,
+            "role": "case solution provider",
+            "action": "KEEP",
+            "reason": "Functional attribution/provider voice, no company-introduction repetition"
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works is separate customer case",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_IT_RECORD_RESPONSIBILITY_AND_SCOPED_SOURCE_CONTEXT",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No numerical ROI/technical connector/qualification guarantee or local-executed international-case expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    },
+    {
+      "card_id": "B25-P2",
+      "selected_call_or_reuse_id": "B25-P2_REUSE_REVIEW_V1",
+      "attempt_type": "REUSE",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/08-b25-p2.png",
+        "sha256": "b43e06a74a5f29198cc684e30cd2904f9705939e7fbeaf90e39c57d7a6dee668"
+      },
+      "exact_surfaces": {
+        "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+        "headline": "Follow the production genealogy.",
+        "body": "In the Wafer Works case, production history connects the silicon crystal to individual wafer lots.",
+        "source_text": "Digiwin semiconductor solutions\nWafer Works / Taiwan / Shanghai",
+        "cta": "",
+        "native_headline": "Follow the production genealogy.",
+        "alt": "Illustration: Follow the production genealogy.",
+        "artwork_labels": [
+          "SEMICONDUCTOR CASE",
+          "2/4"
+        ]
+      },
+      "script_semantic_observation": "Reuse crystal-to-wafer-lot genealogy within single case; illustrative model not quantities. Helps identify production record families, no proposed interface certified.",
+      "native_observation": "Reused case image freshly inspected: crystal branches to two wafer-lot trays; physical production-genealogy illustration, not an implemented systems connector architecture.",
+      "text_fidelity": "MATCH_APPROVED_LITERAL_TEXT_AND_LOCALE_ON_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 2,
+        "logo_role": "One provider identity mark",
+        "text_mentions": [
+          {
+            "surface": "caption",
+            "exact_string": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+            "count": 1,
+            "role": "case solution provider",
+            "action": "KEEP",
+            "reason": "Functional attribution/provider voice, no company-introduction repetition"
+          },
+          {
+            "surface": "source_text",
+            "exact_string": "Digiwin semiconductor solutions\nWafer Works / Taiwan / Shanghai",
+            "count": 1,
+            "role": "source attribution",
+            "action": "KEEP",
+            "reason": "Functional attribution/provider voice, no company-introduction repetition"
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works is separate customer case",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_IT_RECORD_RESPONSIBILITY_AND_SCOPED_SOURCE_CONTEXT",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No numerical ROI/technical connector/qualification guarantee or local-executed international-case expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    },
+    {
+      "card_id": "B25-P3",
+      "selected_call_or_reuse_id": "B25-P3_REUSE_REVIEW_V1",
+      "attempt_type": "REUSE",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/09-b25-p3.png",
+        "sha256": "b2a11e9a9e9604c80558c3ec89ada4cc3c876602dcbec65e119ad81d4e3648af"
+      },
+      "exact_surfaces": {
+        "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+        "headline": "Make progress and quality visible.",
+        "body": "The case covers production progress, equipment status and epitaxy history, including parameter limits and early quality-risk alerts.",
+        "source_text": "Digiwin semiconductor solutions\nWafer Works / Taiwan / Shanghai",
+        "cta": "",
+        "native_headline": "Make progress and quality visible.",
+        "alt": "Illustration: Make progress and quality visible.",
+        "artwork_labels": [
+          "SEMICONDUCTOR CASE",
+          "3/4"
+        ]
+      },
+      "script_semantic_observation": "Reuse progress/equipment/epitaxy limits/early quality alerts; production information relevant to IT scope. No reduction metric or integration capability inferred.",
+      "native_observation": "Reused bare wafer and blank production-record props; case progress/equipment/epitaxy quality-limit/early-alert scope exact and source readable.",
+      "text_fidelity": "MATCH_APPROVED_LITERAL_TEXT_AND_LOCALE_ON_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 2,
+        "logo_role": "One provider identity mark",
+        "text_mentions": [
+          {
+            "surface": "caption",
+            "exact_string": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+            "count": 1,
+            "role": "case solution provider",
+            "action": "KEEP",
+            "reason": "Functional attribution/provider voice, no company-introduction repetition"
+          },
+          {
+            "surface": "source_text",
+            "exact_string": "Digiwin semiconductor solutions\nWafer Works / Taiwan / Shanghai",
+            "count": 1,
+            "role": "source attribution",
+            "action": "KEEP",
+            "reason": "Functional attribution/provider voice, no company-introduction repetition"
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works is separate customer case",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_IT_RECORD_RESPONSIBILITY_AND_SCOPED_SOURCE_CONTEXT",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No numerical ROI/technical connector/qualification guarantee or local-executed international-case expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    },
+    {
+      "card_id": "B25-P4",
+      "selected_call_or_reuse_id": "B25-P4_REUSE_REVIEW_V1",
+      "attempt_type": "REUSE",
+      "image": {
+        "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/10-b25-p4.png",
+        "sha256": "e044420d6293524db3d010c2a9616f8f8c62621d64a04ea624f9fc8d5ba6083b"
+      },
+      "exact_surfaces": {
+        "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+        "headline": "Bring the questions to your factory.",
+        "body": "Explore the Wafer Works case. Then review which lot records, decision responsibilities and process requirements matter at your plant.",
+        "source_text": "Digiwin semiconductor solutions\nWafer Works / Taiwan / Shanghai",
+        "cta": "Read the factory discussion guide",
+        "native_headline": "Bring the questions to your factory.",
+        "alt": "Illustration: Bring the questions to your factory.",
+        "artwork_labels": [
+          "SEMICONDUCTOR CASE",
+          "4/4"
+        ]
+      },
+      "script_semantic_observation": "Reuse factory lot-record/decision-responsibility/process discussion CTA; new reader expands owning-team, receiving-decision and reconciliation scope, consistent with factory IT reader.",
+      "native_observation": "Reused wafer/paper folio/tray proof closing; existing CTA navigation arrow remains decorative and matches original proof contract. English tray contains case material samples; Chinese tray is empty. New cold/explanation no-icon rule does not retroactively apply to reused proof.",
+      "text_fidelity": "MATCH_APPROVED_LITERAL_TEXT_AND_LOCALE_ON_SELECTED_NATIVE_AND_RENDER",
+      "brand_role": {
+        "artwork_logo_count": 1,
+        "artwork_total_Digiwin_mentions": 2,
+        "logo_role": "One provider identity mark",
+        "text_mentions": [
+          {
+            "surface": "caption",
+            "exact_string": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+            "count": 1,
+            "role": "case solution provider",
+            "action": "KEEP",
+            "reason": "Functional attribution/provider voice, no company-introduction repetition"
+          },
+          {
+            "surface": "source_text",
+            "exact_string": "Digiwin semiconductor solutions\nWafer Works / Taiwan / Shanghai",
+            "count": 1,
+            "role": "source attribution",
+            "action": "KEEP",
+            "reason": "Functional attribution/provider voice, no company-introduction repetition"
+          }
+        ],
+        "verdict": "PASS"
+      },
+      "advertiser_voice": {
+        "speaker": "Digiwin advertiser/provider; Wafer Works is separate customer case",
+        "verdict": "PASS"
+      },
+      "editorial_classification": "CUSTOMER_USEFUL_FACTORY_IT_RECORD_RESPONSIBILITY_AND_SCOPED_SOURCE_CONTEXT",
+      "action": "KEEP_SELECTED",
+      "claim_source_impact": "No numerical ROI/technical connector/qualification guarantee or local-executed international-case expansion",
+      "native": "PASS",
+      "feed333": "PASS",
+      "main_actual434": "PASS",
+      "desktop_main": "PASS",
+      "MSG_ANCHOR_01": "PASS",
+      "AD_ED_01": "PASS",
+      "open_listed_findings": []
+    }
+  ],
+  "transitions": [
+    {
+      "from": "B25-C1",
+      "to": "B25-E1",
+      "verdict": "PASS",
+      "observation": "Factory IT record responsibility/context/reconciliation -> source-scoped case -> own-factory requirements. Same audience, case and local delivery separate; forward journey and reader return actually checked."
+    },
+    {
+      "from": "B25-E1",
+      "to": "B25-E2",
+      "verdict": "PASS",
+      "observation": "Factory IT record responsibility/context/reconciliation -> source-scoped case -> own-factory requirements. Same audience, case and local delivery separate; forward journey and reader return actually checked."
+    },
+    {
+      "from": "B25-E2",
+      "to": "B25-E3",
+      "verdict": "PASS",
+      "observation": "Factory IT record responsibility/context/reconciliation -> source-scoped case -> own-factory requirements. Same audience, case and local delivery separate; forward journey and reader return actually checked."
+    },
+    {
+      "from": "B25-E3",
+      "to": "B25-E4",
+      "verdict": "PASS",
+      "observation": "Factory IT record responsibility/context/reconciliation -> source-scoped case -> own-factory requirements. Same audience, case and local delivery separate; forward journey and reader return actually checked."
+    },
+    {
+      "from": "B25-E4",
+      "to": "B25-E5",
+      "verdict": "PASS",
+      "observation": "Factory IT record responsibility/context/reconciliation -> source-scoped case -> own-factory requirements. Same audience, case and local delivery separate; forward journey and reader return actually checked."
+    },
+    {
+      "from": "B25-E5",
+      "to": "B25-P1",
+      "verdict": "PASS",
+      "observation": "Factory IT record responsibility/context/reconciliation -> source-scoped case -> own-factory requirements. Same audience, case and local delivery separate; forward journey and reader return actually checked."
+    },
+    {
+      "from": "B25-P1",
+      "to": "B25-P2",
+      "verdict": "PASS",
+      "observation": "Factory IT record responsibility/context/reconciliation -> source-scoped case -> own-factory requirements. Same audience, case and local delivery separate; forward journey and reader return actually checked."
+    },
+    {
+      "from": "B25-P2",
+      "to": "B25-P3",
+      "verdict": "PASS",
+      "observation": "Factory IT record responsibility/context/reconciliation -> source-scoped case -> own-factory requirements. Same audience, case and local delivery separate; forward journey and reader return actually checked."
+    },
+    {
+      "from": "B25-P3",
+      "to": "B25-P4",
+      "verdict": "PASS",
+      "observation": "Factory IT record responsibility/context/reconciliation -> source-scoped case -> own-factory requirements. Same audience, case and local delivery separate; forward journey and reader return actually checked."
+    },
+    {
+      "from": "B25-P4",
+      "to": "reader",
+      "verdict": "PASS",
+      "observation": "Factory IT record responsibility/context/reconciliation -> source-scoped case -> own-factory requirements. Same audience, case and local delivery separate; forward journey and reader return actually checked."
+    }
+  ],
+  "reader": {
+    "copy": {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/reader-copy.json",
+      "sha256": "50f16c248a962185e584ca10130f68d50432e3bb62683af1a70e836290b438a0"
+    },
+    "demo": {
+      "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/case-reader.html",
+      "sha256": "a0032c2f49905ea1151ede63289978d24ab82acb131886a6ee9fe5e598cc6033"
+    },
+    "observation": "Full four sections/two public source identities/return read. Factory IT definitions, source ownership, receiving decision and discrepancies; distinct enterprise/execution roles; one Wafer Works case and separate Vietnam assessment/advice/transfer/acceptance. No specific connector or metrics claimed.",
+    "verdict": "PASS"
+  },
+  "native_review": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/native-review-final-v1.json",
+    "sha256": "e9e9e2e85368fe9e5b8c61e5e8ec9a9a89f26510a75564138420f262fe4ca028"
+  },
+  "render_review": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/render-review-final-v1.json",
+    "sha256": "a735efc5913bb6ab2c5109d5a5df20061fc6b07c81995a35d5f52bd4ca1a591c"
+  },
+  "canary_review": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/canary-review-final-v1.json",
+    "sha256": "2f5e9ae91f9117c0f84f0d8dab616bc5bb862bbc36406160fe9f5a6e2b77509d"
+  },
+  "finding_closure": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/b25-b26-finding-closure-v1.json",
+    "sha256": "f2f8ba8652fb74260d75ea8a54b3d83df8f6e2d3300dfc9d355d992c223d703c"
+  },
+  "counts": {
+    "original_calls": 6,
+    "corrective_calls": 3,
+    "total_calls": 9,
+    "selected_assets": 10,
+    "new_selected_assets": 6,
+    "reused_selected_assets": 4,
+    "PO_accepted_assets": 0
+  },
+  "execution_authority": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/b25-b26-execution-authority-v1.json",
+    "sha256": "cf338b4c062ccafd1bfb59c24153b6e44fa38a9180b4a4ab0122b1e5143e85ea"
+  },
+  "corrective_authority": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/b25-additional-corrections-authority.json",
+    "sha256": "dbd570372234918dbda27c6e10208fcb803e31242fa61602734fabd223c48f1a"
+  },
+  "open_listed_findings": [],
+  "exact390": "NOT_VERIFIED_PO_SCOPE_SUBSTITUTION",
+  "PO_acceptance": "NOT_GRANTED",
+  "git": "B23/B24 checkpoint local committed 4a17968; B25/B26 working files only, not staged/committed/main/pushed",
+  "next_batch": "B27_NOT_AUTHORIZED_NOT_STARTED",
+  "supersedes": "Current selected artifact status only, not failed originals or immutable pregen receipts. Old B22-only queue statements are dated authority snapshots superseded by current B25/B26 user mandate."
+}
