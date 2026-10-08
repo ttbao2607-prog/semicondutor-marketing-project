@@ -1,0 +1,27 @@
+{
+  "base_checkpoint": "0ee82f569e3010adcde1514714e66490b0d8c9b4",
+  "base_reader": "B7-en-o4-o-v1/case-reader.html",
+  "base_reader_sha256": "be632f6c69e77588f21230591af4585ccd6f2491e5ae053e80d6199639ec72ff",
+  "targets": [
+    {
+      "batch": "B8",
+      "locale": "zh-Hans",
+      "directory": "deliverables/linkedin-safe-batches/parallel-osat-2026-10-07/B8-zh-Hans-o4-o-v1",
+      "reader_before_sha256": "4d22a3fc958f13f7d0b2e43d4cb767d725fccfc8466ac8b8003081e9049cca13",
+      "index_before_sha256": "c16db52aa9fb9cb0bae76e24e957a20618d48025fd78adf052a4a86a5e4646cf",
+      "selected_copy_sha256": "f15db4c8e087cc9856955e755d68386dc35fb8f03606b09385167c8bb3e8d3d8",
+      "reader_after_sha256": "012a347c4421f62f8e5724a06a5a2c5ff0c29e52af1d84a4954b45e1c3b33a41",
+      "index_after_sha256": "6d9f0ca25ffd21a3ec4744bcf8d4bacbc7045ca69573e4e3493d6cadf4e8a33b"
+    },
+    {
+      "batch": "B9",
+      "locale": "zh-Hant",
+      "directory": "deliverables/linkedin-safe-batches/parallel-osat-2026-10-07/B9-zh-Hant-o4-o-v1",
+      "reader_before_sha256": "9102224c10b45c4d4238947ad492527b7a59cbc402d4eb470c05f2412342901e",
+      "index_before_sha256": "c533e72415277c60af733c48ba6e166cef846f3fb4432de34040b7e96c10b9f5",
+      "selected_copy_sha256": "605d6fae8c014516d853af17740053ad3bd94a944444c49cc151b64cd7304fdc",
+      "reader_after_sha256": "2ed47b65a03781fea0247ecd43be3d013c01c837d3afddc01b6de8d4f78bb477",
+      "index_after_sha256": "c3f60c53e16f9647a74e44e7db64b5e5c3657b673520ee0345a50eb1c0f0bd15"
+    }
+  ]
+}
