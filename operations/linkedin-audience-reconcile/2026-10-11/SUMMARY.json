@@ -1,0 +1,71 @@
+{
+  "revision": "2026-10-11-v1",
+  "observed_mapping_date": "2026-10-10",
+  "analysis_date": "2026-10-11",
+  "source_hashes": {
+    "Discovery409": "ca12a1c8a7a0439b5fd9f755f8400814910c90e4f92b78041dea27a150c40985",
+    "R5_52": "fe730e1bff87c0295d820ebbf8763f5e42e64c48d0d1dc72c07409083c4bbb34"
+  },
+  "discovery": {
+    "uploaded_source_records": 409,
+    "original_master_records": 424,
+    "quarantine_records": 15,
+    "observed_matched_entries": 199,
+    "observed_unmatched_entries": 93,
+    "matched_projection_join": {
+      "UNIQUE_EXACT": 199
+    },
+    "identity_verdict_counts": {
+      "INSUFFICIENT_EVIDENCE": 180,
+      "CORRECT_ENTITY_WITH_EVIDENCE": 17,
+      "WRONG_ENTITY_WITH_EVIDENCE": 2
+    },
+    "unmatched_projection_join": {
+      "EXACT_PROJECTION": 64,
+      "SAME_NAME_DIFFERENT_PROJECTION": 28,
+      "DUPLICATE_EXACT_PROJECTION": 1
+    },
+    "source409_capture_dispositions": {
+      "NOT_OBSERVED_EXACT": 164,
+      "MATCHED_ONLY": 179,
+      "MATCHED_AND_UNMATCHED": 20,
+      "UNMATCHED_ONLY": 46
+    },
+    "preserved_identifier_changes": {
+      "cells": 12,
+      "inputs": 11,
+      "current_matched": 11,
+      "verified_identity": 11
+    },
+    "historical_verified_correct_pairs_preserved": 11,
+    "additional_verified_correct_pairs": 6,
+    "wrong_pair_disposition": {
+      "retained_duplicate_records": 2,
+      "proposal_keep_records": 407,
+      "proposal_quarantine_total": 17,
+      "approved": false
+    },
+    "audience_quality": "CHANGES_REQUIRED",
+    "denominator": "Not established by summary >90% or mixed matched/unmatched UI. Do not calculate199/409 as LinkedIn match rate."
+  },
+  "r5": {
+    "source_records": 52,
+    "matched_entries": 52,
+    "unmatched_entries": 0,
+    "unique_exact_source_projection": 52,
+    "output_name_exact": 51,
+    "fresh_alias_verified": 1,
+    "per_row_full_identity_reaudit": "NOT_RUN; prior accepted R5 selection preserved",
+    "mapping_display_recovery": "OBSERVED_RECOVERED_NO_SUPPORT_NEEDED_FOR_OLD_ZERO_DETAILS",
+    "fresh_filtered_reach": {
+      "R5_AND_VN_EN": 8200,
+      "plus_functions_EN": 5000,
+      "plus_functions_and_seniority_EN": 460,
+      "same_full_configuration_VI": "<300"
+    },
+    "locale_persona": "UNASSIGNED",
+    "release": "HOLD"
+  },
+  "scope": "Consolidated bounded preparation; successful coverage is not complete semantic acceptance.",
+  "privacy": "Sanitized aggregate only. Private row ledgers and account evidence are excluded from Git."
+}
