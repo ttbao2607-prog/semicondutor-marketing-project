@@ -35,3 +35,5 @@ Nhánh `slice/linkedin-prepublish-adsheet-review` được merge vào main local
 Phạm vi MSG-ANCHOR-01: các gói này **tập hợp chuỗi có sẵn** từ journey/reader đã có trên main, không viết hay chỉnh copy mới. Gói không tự mang verdict `MESSAGE_ANCHOR_PASS`, `SCRIPT_REVIEW_PASS` hay native-market review; chưa có phản hồi reviewer nào (`04_Review_Responses.csv` rỗng). `objective_proposal` và `audience_proposal` trong bảng build là đề xuất, không phải quyết định. D1–D6 vẫn chờ Bảo; trạng thái audience hiện hành ở [CURRENT_STATE](../../../CURRENT_STATE.md), không lấy từ bảng này.
 
 Docs impact reviewed: CURRENT_STATE có notice tham chiếu gói này; không đổi ngân sách, asset, verdict hay quyết định.
+
+[Decision pack D1–D6 (12/10/2026)](../2026-10-12/Decision_Pack_D1_D6_VI.md): lựa chọn, đề xuất và phần chưa kiểm cho Bảo.
