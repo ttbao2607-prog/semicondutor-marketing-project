@@ -1,0 +1,87 @@
+{
+  "revision": "2026-10-11-v1",
+  "reviewed_at_utc": "2026-10-11T00:49:58.743008+00:00",
+  "reviewer": "Root Codex",
+  "independence": "SELF_REVIEW_NOT_INDEPENDENT",
+  "execution": "SUCCESS_BOUNDED_PREPARATION",
+  "self_review_verdict": "PASS_FOR_DOCUMENTATION_AND_EVIDENCE_PREPARATION_ONLY",
+  "criteria": {
+    "saved_inventory_equal_5": true,
+    "source_csvs_hash_preserved": true,
+    "master424_partition_409_plus15_exact": true,
+    "live_configuration_and_forecasts_bound": true,
+    "matched199_unmatched93_source409_r5_52_coverage": true,
+    "all11_identifier_successes_retained": true,
+    "proposal_exact_two_additional_rows_not_exported": true,
+    "canonical7_bodies_preserved": [
+      {
+        "path": "CURRENT_STATE.md",
+        "body_preserved_against_git_baseline": true,
+        "sha256": "c84df1b399984f3bb50054d39a813c48efd01ccab2668bead7df2016e5a236d9"
+      },
+      {
+        "path": "README.md",
+        "body_preserved_against_git_baseline": true,
+        "sha256": "e6c9866e730b93a461d6dcc76ed7c8292bfc0cea05ee6b1d99178efc64509106"
+      },
+      {
+        "path": "DOCS_IMPACT_MAP.md",
+        "body_preserved_against_git_baseline": true,
+        "sha256": "29ccd364c4e3ae0e72e509f0004d837bae15a5f4d440fb6a7f86335bda58a172"
+      },
+      {
+        "path": "ads/linkedin/LinkedIn_Build_Pack.md",
+        "body_preserved_against_git_baseline": true,
+        "sha256": "bad588a35ff1ef367c65d95ef4a1fa636874341d97179239337cc03d34dbcbb6"
+      },
+      {
+        "path": "drafts/S03_LinkedIn_Audience_Research.md",
+        "body_preserved_against_git_baseline": true,
+        "sha256": "0da5db48a8c12c2da5e1168ab052109f97253bb6881d793d8e22de5e9f979ae6"
+      },
+      {
+        "path": "operations/Pre_Ad_Readiness_Plan.md",
+        "body_preserved_against_git_baseline": true,
+        "sha256": "7e36d33fe526f6a825d25c35432921671afb442ef8760c70f43c0aa9eabcd08b"
+      },
+      {
+        "path": "operations/LinkedIn_Current_Progress_2026-10-07.md",
+        "body_preserved_against_git_baseline": true,
+        "sha256": "2d0c023dfc2750037fbf3780eba099e76b64d9249a35403861a4d4398dbef0ad"
+      }
+    ],
+    "no_csv_in_new_outputs": true,
+    "no_staged_files": true,
+    "main_clean": true,
+    "baseline_live_remote_unchanged": true,
+    "new_public_json_parseable": true,
+    "new_relative_links_resolve": true,
+    "bounded_public_privacy_scan": true,
+    "diff_check_pass": true,
+    "anchor_actual_unit_review": "Root nonindependent semantic review; internal scope only"
+  },
+  "protected_sources": {
+    "master424": "hash preserved against historical manifest",
+    "quarantine15": "exact bytes preserved",
+    "uploaded409": "exact bytes preserved",
+    "R5_52": "exact bytes preserved",
+    "new407_csv": "NOT_CREATED"
+  },
+  "meaningful_identity_review": "17 evidence-backed identities, two independently supported wrong pairs,180 insufficient. Prior11 useful successes retained; fresh6 numeric/Page/primary bridges inspected.",
+  "observed_capture_discrepancies": "Discovery generic screenshots retained R5 summary; base R5 DOM initially retained13M. Both rejected; fresh direct-tab Discovery counts and stable8200 DOM/image replace them.",
+  "audience": {
+    "Discovery": "CHANGES_REQUIRED",
+    "R5_release": "HOLD",
+    "407_17_proposal": "NOT_APPROVED",
+    "full_fresh_R5_identity_reaudit": "NOT_RUN"
+  },
+  "remaining_gaps": [
+    "180 exact output Page identity bridges",
+    "409 denominator/backend version/coverage",
+    "two exact replacement employer Pages",
+    "ICP/customer decision unit/persona/locale/eligibility"
+  ],
+  "anchor_receipt_sha256": "a68a3284c8ed652a97048d6ce06a49db27c6fe3fab0774d3cb63cb0554312361",
+  "no_authorized_scope_remaining": "Bounded report/sync/reconciliation/alias/reach/cancel complete. Remaining business/identity decisions are explicitly unapproved proposals, not omitted authorized uploads.",
+  "git": "Owned branch working files only, no staged files or new commit/push/merge; local main clean and actual remote main at baseline."
+}

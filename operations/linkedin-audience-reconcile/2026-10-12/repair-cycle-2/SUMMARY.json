@@ -1,0 +1,73 @@
+{
+ "date": "2026-10-12",
+ "scope": "Week1 Discovery only; P1-P6 executed, P7 NOT_STARTED; AUDIT_MODE=SELF",
+ "execution_status": "PARTIAL",
+ "audit_verdict": "INSUFFICIENT_EVIDENCE",
+ "audience_status_after_upload": "Updating (readback pending)",
+ "p1_roster": {
+  "matched_read": 199,
+  "identical_to_pin_10_10": 196,
+  "input_label_changed_same_page": 3,
+  "unmatched_93_reread": false
+ },
+ "p2_wrong36": {
+  "replacement_page_candidates": 4,
+  "parent_only": 3,
+  "no_correct_page_found": 29
+ },
+ "p3_gap133_labels": {
+  "domain_bridge_match": 6,
+  "plausible_name_location_unproven": 17,
+  "related_vn_unit_page": 4,
+  "parent_or_global_page": 22,
+  "name_mismatch_likely_wrong": 69,
+  "strong_mismatch_likely_wrong": 15
+ },
+ "input_side_verification": {
+  "rows_checked": 84,
+  "source": "public tax-registry mirror, lookup by exact legal name",
+  "independent_legal_entity_found": 62,
+  "not_exactly_matched": 22,
+  "additional_correct_pages_found": 2
+ },
+ "candidate_v3": {
+  "rows": 310,
+  "retained_byte_identical": 289,
+  "retained_unresolved_name_mismatch": 15,
+  "page_url_repaired": 6,
+  "excluded_known_wrong": 32,
+  "excluded_strong_mismatch": 14,
+  "excluded_verified_distinct_entity": 53,
+  "sha256": "06a7baec26a3c704825567230e6c0f625cce42646e603e4a4f9b84eb085a3e24"
+ },
+ "alternatives_not_uploaded": {
+  "v2a_rows_362_sha256": "c0d1a69400f97f4198302f053628e33ddb4407a171cefdcdea7b78c7325bb39c",
+  "v2b_rows_293_sha256": "a539ab00b3243318bbdb0071c45dec1273a4a2cfbc21b075515ef45228c91c03"
+ },
+ "upload": {
+  "performed": true,
+  "date": "2026-10-12",
+  "count": 1,
+  "method": "Edit existing Discovery audience; old file removed, v3 file attached, Agree & Update once",
+  "file_name": "linkedin_discovery310_v3_20261012.csv",
+  "sha256": "06a7baec26a3c704825567230e6c0f625cce42646e603e4a4f9b84eb085a3e24",
+  "preflight": "Processing complete. Company list ready for upload.",
+  "toast": "Your audience has been successfully updated.",
+  "status_after_reload": "Updating",
+  "saved_filename_readback": "NOT_DONE (row menu disabled while Updating)",
+  "authorized_by": "Bao in chat"
+ },
+ "private_sha256": {
+  "changelog_v3_v2a_plus_inputside.csv": "e2f079f2cfa1f129fe12b968b9e809a664fc900340e7039cf6761eead7c9d2a5",
+  "p3_gap133_pageabout_labels.csv": "10f650bd6156e074e66240370bf5e08d9d8131a030ebfa1d5f3af22ec8ea0b0f",
+  "registry_lookup_masothue_20261012.txt": "904ea448aac83a7fcfee0ada6c0f128bb25aaa6c16bcdd3a6150d2930b2014b2",
+  "p2_replacement_candidates.json": "28f9ebf47af888c93081eb4a16eb44e3884ebd6b7133e73a377f53662162d7a7",
+  "DECISION_PACK_P5_V2_VI.md": "fdbc2b76e001f022091f78c0287fc7ae2424456feee9d5e0f7b67cdf43e79fbb",
+  "UPLOAD_RECEIPT_P6_20261012.md": "467ca29f3532e5c17ca8cfec823e1a26d53f18354055e637b3fd4ccce8d047ae"
+ },
+ "source_approved409_sha256_unchanged": "ca12a1c8a7a0439b5fd9f755f8400814910c90e4f92b78041dea27a150c40985",
+ "other_audiences_modified": false,
+ "po_decision": "v3 selected and uploaded",
+ "p7_output_audit": "NOT_STARTED",
+ "pushed": false
+}

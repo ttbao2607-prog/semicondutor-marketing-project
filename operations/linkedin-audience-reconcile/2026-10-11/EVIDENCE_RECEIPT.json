@@ -1,0 +1,414 @@
+{
+  "revision": "2026-10-11-v1",
+  "as_of_utc": "2026-10-11T00:49:54.421079+00:00",
+  "mapping_extract_as_of": "2026-10-10 approximately12:07-12:14 Asia/Saigon; before Discovery T+48h",
+  "fresh_count_and_reach_reads": "2026-10-11 Asia/Saigon; per-row mapping not freshly re-extracted",
+  "source_hashes": {
+    "Discovery409": "ca12a1c8a7a0439b5fd9f755f8400814910c90e4f92b78041dea27a150c40985",
+    "quarantine15": "ed4cfc21374bff8a0c7529b860b703f7cc152c98c0b6ce7aa495e443f9afd399",
+    "master424": "cf8cef65cc3e84f69cdd551798182fbd1bc7834c4311037bb1c4774460cee83c",
+    "R5_52": "fe730e1bff87c0295d820ebbf8763f5e42e64c48d0d1dc72c07409083c4bbb34"
+  },
+  "private_artifact_pins": [
+    {
+      "id": "PRIVATE-001",
+      "kind": "png",
+      "sha256": "d1abfcc53b129dc4d4481d840718a30c66f983ae8cc07dea7c9d9eb2ab230f85",
+      "bytes": 86446
+    },
+    {
+      "id": "PRIVATE-002",
+      "kind": "txt",
+      "sha256": "54424805c9658dc8ead5401eb059a5b2e33cc012f9b1c8302f567184547e642b",
+      "bytes": 10747
+    },
+    {
+      "id": "PRIVATE-003",
+      "kind": "json",
+      "sha256": "960b9cd7debad0dff7f0b43a49d03e2029b8400fb978e8115631f961c5bba9c9",
+      "bytes": 2156
+    },
+    {
+      "id": "PRIVATE-004",
+      "kind": "txt",
+      "sha256": "3c2bed8de8579e0bac164f2586b376c0b3a3b33d97271ba63ab3aa093bc00c13",
+      "bytes": 7565
+    },
+    {
+      "id": "PRIVATE-005",
+      "kind": "png",
+      "sha256": "1a5638831391c06753da6233e03619e7daa4b349964832045926225d3ee480ab",
+      "bytes": 90083
+    },
+    {
+      "id": "PRIVATE-006",
+      "kind": "txt",
+      "sha256": "99ce9eea6ecdcac31672dffab28e49726c875b70d03c1a22e46e719c67131431",
+      "bytes": 7943
+    },
+    {
+      "id": "PRIVATE-007",
+      "kind": "png",
+      "sha256": "35fc24c6479d4e1d1dd834cf08556a1331adbf7c3d6fbd8de0d21624822cedd3",
+      "bytes": 85137
+    },
+    {
+      "id": "PRIVATE-008",
+      "kind": "txt",
+      "sha256": "0c4fbdf411c59a13d744d59a6907335ae09f78db501cdf7c95bbfda2032d21f4",
+      "bytes": 15153
+    },
+    {
+      "id": "PRIVATE-009",
+      "kind": "png",
+      "sha256": "88dc1c0fa9ec8ac2d794fac6bb31e8638134a39df0f6d14d0ca2fbb965c90843",
+      "bytes": 80438
+    },
+    {
+      "id": "PRIVATE-010",
+      "kind": "txt",
+      "sha256": "0d50b9cdaaa17fc3d7c02374326a3b2e526d39604752b0b7b9551a895acf179b",
+      "bytes": 8173
+    },
+    {
+      "id": "PRIVATE-011",
+      "kind": "png",
+      "sha256": "88dc1c0fa9ec8ac2d794fac6bb31e8638134a39df0f6d14d0ca2fbb965c90843",
+      "bytes": 80438
+    },
+    {
+      "id": "PRIVATE-012",
+      "kind": "txt",
+      "sha256": "ba550aabcc15babc04cb21abfe2850f04c1b0da6cd877b474f556d020270a015",
+      "bytes": 8177
+    },
+    {
+      "id": "PRIVATE-013",
+      "kind": "json",
+      "sha256": "960b9cd7debad0dff7f0b43a49d03e2029b8400fb978e8115631f961c5bba9c9",
+      "bytes": 2156
+    },
+    {
+      "id": "PRIVATE-014",
+      "kind": "png",
+      "sha256": "c5bceeb26335da7e5fadd405dd5e372ae34703c2af1b65c93bc3051ee3093c30",
+      "bytes": 95299
+    },
+    {
+      "id": "PRIVATE-015",
+      "kind": "txt",
+      "sha256": "1591b7db9e0a98fbf14823fce62fbba589db81af321f46696e0f2dc4538f02e7",
+      "bytes": 10846
+    },
+    {
+      "id": "PRIVATE-016",
+      "kind": "png",
+      "sha256": "ef841fe6c4ab643640e27aa31a78cbb23a36564270ea40d82657c65fbdf4b638",
+      "bytes": 86424
+    },
+    {
+      "id": "PRIVATE-017",
+      "kind": "txt",
+      "sha256": "01092ac7b697956c0cefbdf973d701875b96cea0152b94aa50bec19bf0889c45",
+      "bytes": 7673
+    },
+    {
+      "id": "PRIVATE-018",
+      "kind": "png",
+      "sha256": "6adbfb04bbb6f6d26f90f3a1ab072299cf461b7d6c1148b6a4be54000739c3e9",
+      "bytes": 77294
+    },
+    {
+      "id": "PRIVATE-019",
+      "kind": "txt",
+      "sha256": "6ea9fbb5d2b26363e93a5d9eff6ab4992909d18f44c975f9352f546ff6f91e18",
+      "bytes": 4634
+    },
+    {
+      "id": "PRIVATE-020",
+      "kind": "png",
+      "sha256": "ac088e4fa42f59be8984b4fb264163188ad1d541c9955a5b1f7fd4b4318c38b5",
+      "bytes": 77767
+    },
+    {
+      "id": "PRIVATE-021",
+      "kind": "txt",
+      "sha256": "ede6e18249b434f756b5551ef434e7707dbf8f6ddd20188ea6b707ac63badb09",
+      "bytes": 4639
+    },
+    {
+      "id": "PRIVATE-022",
+      "kind": "png",
+      "sha256": "a36e9c3f6ba0e914b69efe45c431af4dd26a8fa00270715ca08ff0903b6d1229",
+      "bytes": 38996
+    },
+    {
+      "id": "PRIVATE-023",
+      "kind": "txt",
+      "sha256": "5a0bb3a35d9365cd068e155be435a8661fc7aa37b4b2df7e20a85563453e004c",
+      "bytes": 10176
+    },
+    {
+      "id": "PRIVATE-024",
+      "kind": "png",
+      "sha256": "ac088e4fa42f59be8984b4fb264163188ad1d541c9955a5b1f7fd4b4318c38b5",
+      "bytes": 77767
+    },
+    {
+      "id": "PRIVATE-025",
+      "kind": "txt",
+      "sha256": "ede6e18249b434f756b5551ef434e7707dbf8f6ddd20188ea6b707ac63badb09",
+      "bytes": 4639
+    },
+    {
+      "id": "PRIVATE-026",
+      "kind": "png",
+      "sha256": "ac088e4fa42f59be8984b4fb264163188ad1d541c9955a5b1f7fd4b4318c38b5",
+      "bytes": 77767
+    },
+    {
+      "id": "PRIVATE-027",
+      "kind": "txt",
+      "sha256": "72b30b289d021a47d1ebdf117a3d022fa46b1067d2919037ed13e8d6b7f2e3b9",
+      "bytes": 10262
+    },
+    {
+      "id": "PRIVATE-028",
+      "kind": "png",
+      "sha256": "3ca7a640ce23fbd2691da6961bca330cf25e3293f97e72fda96e0b51ae475838",
+      "bytes": 86354
+    },
+    {
+      "id": "PRIVATE-029",
+      "kind": "png",
+      "sha256": "623610feb306bd48c3716153825d2a5e261420beeb2115144e2edbb73179cc24",
+      "bytes": 89650
+    },
+    {
+      "id": "PRIVATE-030",
+      "kind": "png",
+      "sha256": "59e275a09491e11137ba1bdee519349d912ebebefbf095f975f8d6eae055df39",
+      "bytes": 80291
+    },
+    {
+      "id": "PRIVATE-031",
+      "kind": "png",
+      "sha256": "c3f9dfb772381c37b4d50fa2f36c69171c53ccc7d9aa16870fe62a7add1a077a",
+      "bytes": 89946
+    },
+    {
+      "id": "PRIVATE-032",
+      "kind": "txt",
+      "sha256": "4f9f0384550669b8d2dd7e619910f27ffd05ea2cd1c11d0871b1f7ef9ebaf2bf",
+      "bytes": 7927
+    },
+    {
+      "id": "PRIVATE-033",
+      "kind": "txt",
+      "sha256": "582a69c8a66e6fc8ec5c379ed1ce5d83a02d11edc0c0c3c87d2861dabe4fe502",
+      "bytes": 6218
+    },
+    {
+      "id": "PRIVATE-034",
+      "kind": "json",
+      "sha256": "960b9cd7debad0dff7f0b43a49d03e2029b8400fb978e8115631f961c5bba9c9",
+      "bytes": 2156
+    },
+    {
+      "id": "PRIVATE-035",
+      "kind": "txt",
+      "sha256": "1f5fdfce1461061bfd2f602d7a5d6fc60234327a470b80fd1807549d29f972f6",
+      "bytes": 10262
+    },
+    {
+      "id": "PRIVATE-036",
+      "kind": "png",
+      "sha256": "dc6f7b99998b6b65aa47cec0ffef9ff6d5062ae965fdb6381143224b5e2c6b49",
+      "bytes": 74497
+    },
+    {
+      "id": "PRIVATE-037",
+      "kind": "txt",
+      "sha256": "c31381038d875632e9e9a85e3c09ae205279f42016dfbd8e369593a558896807",
+      "bytes": 13441
+    },
+    {
+      "id": "PRIVATE-040",
+      "kind": "md",
+      "sha256": "e06f92fe02f4b5dc37f863ede866ca2d792ad1fedc3f164d52e96b6505344a21",
+      "bytes": 7456
+    },
+    {
+      "id": "PRIVATE-041",
+      "kind": "txt",
+      "sha256": "8088b23bc70f29e7b9b0ef306d320c405c3de999ec81b5f71dad0b87a6459057",
+      "bytes": 4520
+    },
+    {
+      "id": "PRIVATE-042",
+      "kind": "txt",
+      "sha256": "2eacec8738df91dd460723fd743cb15333ce3d2e7d7416bdb577c9d6a4ad657f",
+      "bytes": 7043
+    },
+    {
+      "id": "PRIVATE-043",
+      "kind": "txt",
+      "sha256": "f4077a355602408a837a90110f5a5126e781297dc7e44b8b19969aa3dedb0dcb",
+      "bytes": 5860
+    },
+    {
+      "id": "PRIVATE-044",
+      "kind": "txt",
+      "sha256": "6ce36443ea86eab92075e4a9736f2b943ba99c61bdb897704b73f92e205518dc",
+      "bytes": 236
+    },
+    {
+      "id": "PRIVATE-045",
+      "kind": "txt",
+      "sha256": "0e64158c53937a62f70c46edf1a172aada0c81c79f81ebe468dfed66f893ceec",
+      "bytes": 7176
+    },
+    {
+      "id": "PRIVATE-046",
+      "kind": "txt",
+      "sha256": "6dfd1890a2dabfb5cab67cd1fb7349661fa66e121a246374661cf4af6c552418",
+      "bytes": 4574
+    },
+    {
+      "id": "PRIVATE-047",
+      "kind": "json",
+      "sha256": "bada6111e25be31c8c5612f36443065d8ab6dfc11b3f2cf8b1e6c92619b2856d",
+      "bytes": 20856
+    },
+    {
+      "id": "PRIVATE-048",
+      "kind": "json",
+      "sha256": "237e3ef495cda2bd1c56222380e59289a8af053110311c235543f82120789b42",
+      "bytes": 290013
+    },
+    {
+      "id": "PRIVATE-049",
+      "kind": "json",
+      "sha256": "1754c49d74c875e09158397a720e1ec5bac2bf3ef50bfa5bf070db6bd107d18a",
+      "bytes": 649538
+    },
+    {
+      "id": "PRIVATE-050",
+      "kind": "json",
+      "sha256": "e6791eca2eefabe6cd6552ad852fba788dc451c6ae9f221d791dcc863980f1aa",
+      "bytes": 179440
+    },
+    {
+      "id": "PRIVATE-053",
+      "kind": "txt",
+      "sha256": "64ffb50b4845d1fd586a377fc55538ec8991d0178242a024b0585958017bbee0",
+      "bytes": 33476
+    },
+    {
+      "id": "PRIVATE-054",
+      "kind": "txt",
+      "sha256": "64ffb50b4845d1fd586a377fc55538ec8991d0178242a024b0585958017bbee0",
+      "bytes": 33476
+    },
+    {
+      "id": "PRIVATE-055",
+      "kind": "png",
+      "sha256": "daeff699d2a662055fbbe8174b65a885d887b9f02f350b04358824cf0c000693",
+      "bytes": 9683
+    },
+    {
+      "id": "PRIVATE-056",
+      "kind": "txt",
+      "sha256": "afa9edbaa2d8129561529ac012fe54249461d7039d8e4d378c2db7c667101335",
+      "bytes": 8590
+    },
+    {
+      "id": "PRIVATE-057",
+      "kind": "json",
+      "sha256": "599c8c39dfa962e913c792d943fb37c304e4e1d18a0e60c7e4ea12a34fb430cc",
+      "bytes": 7968
+    },
+    {
+      "id": "PRIVATE-058",
+      "kind": "png",
+      "sha256": "9776653132225fbfc824443137c3307b1e713a43fe2595dee2ba3f9831361b68",
+      "bytes": 123652
+    },
+    {
+      "id": "PRIVATE-059",
+      "kind": "txt",
+      "sha256": "12e5ef0507fe6826688a3fe2bcddd6c4e875725e7f760ef2de602fd4daba2cd8",
+      "bytes": 16663
+    },
+    {
+      "id": "PRIVATE-060",
+      "kind": "json",
+      "sha256": "e7715108e56111c1ca4392ba9907486fa8b92c5a669254cd76046d202f547bdb",
+      "bytes": 1088
+    },
+    {
+      "id": "PRIVATE-063",
+      "kind": "json",
+      "sha256": "095c9ace42943f1051f9430d1e6c8d2def5c57bb691d879b930d38f893c266db",
+      "bytes": 3051
+    },
+    {
+      "id": "PRIVATE-064",
+      "kind": "json",
+      "sha256": "4e82e02155002cf2ed79b26d5ca9bac76eb3bdb672f0708c3644cba57bcc965b",
+      "bytes": 23465
+    },
+    {
+      "id": "PRIVATE-065",
+      "kind": "json",
+      "sha256": "6675f2ca61bfd7f2f19527eac0ba12b2292233169d2d2d3195c1aedda8cc48d7",
+      "bytes": 73325
+    },
+    {
+      "id": "PRIVATE-067",
+      "kind": "json",
+      "sha256": "7270ce1de815086b200803d3d8cadc744281a12477acf87b5f7a8054ca1c7d8a",
+      "bytes": 2439
+    }
+  ],
+  "private_paths_or_account_urls": "EXCLUDED",
+  "coverage": {
+    "Discovery_matched": 199,
+    "Discovery_unmatched": 93,
+    "Discovery_source": 409,
+    "R5_readbacks": 52
+  },
+  "fresh_details": {
+    "Discovery": {
+      "matched": 199,
+      "unmatched": 93,
+      "companies": 199,
+      "members": 794946
+    },
+    "R5": {
+      "matched": 52,
+      "unmatched": 0,
+      "companies": 52,
+      "members": 444625
+    }
+  },
+  "cleanup": {
+    "saved_before_after_count": 5,
+    "saved_rows_exact_equal": true,
+    "matched_count_after": 4,
+    "save_or_apply": false,
+    "new_upload": false
+  },
+  "screenshot_discrepancy": {
+    "status": "RESOLVED_FOR_DISCOVERY_COUNTS",
+    "stale_generic_screenshot": "Rejected: native/generic capture retained R5 numbers under Discovery title. Preserved privately for diagnosis.",
+    "accepted_capture": "Direct tab screenshot13 with Discovery794946/199 and tabs199/93; actual image manually inspected by root.",
+    "reach_images": "Generic viewport screenshots do not prove all filters/reach together. Configuration and forecasts are bound to actual DOM snapshots; no complete visual reach-proof claim."
+  },
+  "authority": "Internal proposal/docs and read-only unsaved check only. No PO407 acceptance, full identity audit52, audience/campaign release or Git publish.",
+  "initial_reach_snapshot": {
+    "rejected": "Initial base snapshot13M preceded forecast update; not evidence for8200.",
+    "accepted": "Fresh stable DOM15 and direct tab visible screenshot15 confirm8200 with R5/Vietnam/English.",
+    "additional_editor_cleanup": "Do not save16; final Saved5 rows exactly equal before/after; Matched4."
+  }
+}

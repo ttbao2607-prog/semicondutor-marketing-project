@@ -1,0 +1,39 @@
+{
+  "created_at_utc": "2026-10-11T02:20:06.928376+00:00",
+  "child_A": {
+    "requested_effective_model": "gpt-6-luna",
+    "requested_effective_effort": "high",
+    "native_first_generation_leaf": true,
+    "admission": "OBSERVED_ADMITTED",
+    "paired_acceptance": "OBSERVED_ACCEPTED_EXIT0",
+    "page_observation_execution": "SUCCESS_199_ACTUAL_PAGES",
+    "current_roster_readback": "NOT_AVAILABLE_AFTER_TWO_BINDS",
+    "parent_limit": "Current mapping equality unproven"
+  },
+  "child_B": {
+    "requested_effective_model": "gpt-6-luna",
+    "requested_effective_effort": "high",
+    "native_first_generation_leaf": true,
+    "admission": "OBSERVED_ADMITTED",
+    "paired_acceptance": "OBSERVED_ACCEPTED_EXIT0",
+    "source_research_execution": "PARTIAL_IDENTITY_CLOSURE_199_RESEARCH_RECORDS",
+    "source_worker_report": {
+      "supported": 85,
+      "candidate": 26,
+      "unresolved": 88
+    },
+    "parent_limit": "Worker source-support labels are not pair verdicts; snippets/access/historical/entity scope reconciled separately"
+  },
+  "coordinator": {
+    "audit_mode": "SELF",
+    "pair_counts": {
+      "correct": 30,
+      "wrong": 36,
+      "gaps": 133
+    },
+    "execution": "PARTIAL",
+    "audit": "BLOCKED",
+    "raw_evidence": "Private outside repository",
+    "native_close": "Both completed; close API not exposed, no simulated close"
+  }
+}

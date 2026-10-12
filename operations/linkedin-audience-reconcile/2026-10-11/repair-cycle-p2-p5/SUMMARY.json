@@ -1,0 +1,39 @@
+{
+ "date": "2026-10-11",
+ "scope": "P2-P5 offline, Claude solo, AUDIT_MODE=SELF; P1,P6,P7 NOT_STARTED",
+ "execution_status": "PARTIAL",
+ "audit_verdict": "INSUFFICIENT_EVIDENCE",
+ "p2_wrong36": {
+  "replacement_pages_proven": 0,
+  "web_search_attempts": 6,
+  "disposition": "NO_REPLACEMENT_PAGE_PROVEN_OFFLINE",
+  "blocker": "WebSearch does not index LinkedIn Pages; needs authenticated browser mandate"
+ },
+ "p3_gaps133": {
+  "unresolved_input_identity": 112,
+  "structural_group_page_vs_local_unit": 15,
+  "page_corroboration": 6,
+  "new_proof_added": 0
+ },
+ "p4_candidate": {
+  "rows": 373,
+  "source": "approved409",
+  "excluded_proposed_known_wrong": 36,
+  "retained_verified_correct": 30,
+  "retained_unresolved": 133,
+  "retained_not_audited": 210,
+  "retained_rows_byte_preserved": true,
+  "serializer_roundtrip_source_byte_identical": true,
+  "status": "PROPOSED_NOT_UPLOADED"
+ },
+ "private_sha256": {
+  "linkedin_discovery_candidate373_20261011_PROPOSED_NOT_UPLOADED.csv": "ceb449b97e2af6afcd2a6e53c27b9ee35a0e7626c84c51266364f4009bac9e47",
+  "row_level_changelog.csv": "da866e3cd84160aaefa4fdbd242c5bba66d1881d39aa3092bf14d0e01eb3debd",
+  "p2_p3_ledger199.json": "0485aece44aadb955d4cc7cdbcfc2a774f381b7e22fc57f11030594719b3d6f4",
+  "DECISION_PACK_P5_VI.md": "70615d2f59cc98ebed4f591d9d6d63b47386afb6da6fac2b94b51065ba4c86da"
+ },
+ "source_approved409_sha256_unchanged": "ca12a1c8a7a0439b5fd9f755f8400814910c90e4f92b78041dea27a150c40985",
+ "po_decision": "PENDING",
+ "live_actions": false,
+ "pushed": false
+}
