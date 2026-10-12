@@ -259,6 +259,8 @@ Follow `operations/LinkedIn_Awareness_Demo_and_Human_Audit_Runbook.md`: artifact
 
 ## Cấu trúc Chiến dịch LinkedIn Ads (Proposed 2 Parallel Campaigns Architecture — Chờ Bảo duyệt)
 
+> **Superseded section · 08/10/2026 (lịch sử, không dùng làm spec hiện hành):** Phần “Cấu trúc Chiến dịch LinkedIn Ads (Proposed 2 Parallel Campaigns)” bên dưới, gồm ngân sách 2 × 300.000 VND/ngày = 600.000 VND/ngày, thiết lập 2 campaign FDI/Nội địa, **ad copy tiếng Việt “Đủ chuẩn tham gia chuỗi cung ứng bán dẫn / Vượt qua audit…”** và tài nguyên “Static Cards + PDF Document Ad”, là đề xuất trước pivot. Hiện hành: (1) route **Cold Brand awareness + Single image → audience từ chính quảng cáo mới → Carousel RMK**, Bảo không chọn Document; (2) thông điệp VN theo PO pivot: ERP là cầu nối chuẩn bị năng lực quản trị, **không hứa mua ERP là đạt chuẩn, vượt audit hay có đơn hàng**; (3) trần media 11,7 triệu VND chưa thuế. Xem [Current_Progress](../../operations/LinkedIn_Current_Progress_2026-10-07.md), [VI/EN pivot](../../operations/LinkedIn_VI_EN_Message_Pivot_2026-10-06.md), [anchor nội dung](../../operations/Vy_Email_Content_Anchor.md) và [pack RMK readiness](../../operations/linkedin-rmk-source-readiness/2026-10-08/README.md). Mục “Offline OSAT document-ad revision” cũng là lịch sử. Docs impact reviewed: chỉ ghi chú thay thế; nội dung cũ giữ làm lịch sử.
+
 Phương án đề xuất tái cấu trúc tài khoản dựa trên gợi ý của Sếp Vy nhằm cân đối với mức ngân sách thử nghiệm 600.000 VNĐ/ngày (~23 USD/ngày) và điều kiện ngân sách tối thiểu của LinkedIn (~$10/ngày/campaign). Cấu trúc dưới đây là **phương án dự thảo (draft proposal)** chờ Bảo phê duyệt chính thức trước khi triển khai:
 
 ### 1. Bảng phân bổ ngân sách ngày đề xuất (Proposed Daily Budget Allocation)
@@ -365,6 +367,8 @@ The generated working size is `1254×1254` for each card; final export dimension
 - This verifies offline creative assets only. It does not verify LinkedIn account/Page permissions, placements, audience availability, or any remote ad object; those remain pending the explicitly authorized UI review.
 
 ### Offline OSAT document-ad revision
+
+> **Lịch sử · 08/10/2026:** Document ad không thuộc route hiện hành (Bảo không chọn Document); mục này giữ làm bản ghi lịch sử.
 
 - Rebuilt the six-page A4 OSAT document with customer-facing copy and the verified public Digiwin contact block. The page-by-page copy source is `assets/linkedin/source/osat-document-ad-6p-copy.md`.
 - QA: six A4 portrait pages; all six pages rendered with bundled Poppler at 120 dpi and visually reviewed for legibility, margins, tables, diagram, page sequence, clipping and overlap. Extracted page text was checked against the copy source, and the extracted copy contains none of the prohibited internal/governance terms.
