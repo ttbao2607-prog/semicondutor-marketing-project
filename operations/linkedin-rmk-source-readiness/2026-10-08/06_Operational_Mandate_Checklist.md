@@ -19,3 +19,5 @@ Status: DRAFT_FOR_PO_DECISION. Phase A allows research and internal drafts only.
 | 13 | Search probe (optional 0.5 million) | Three landing pages and keyword sets prepared in the package; no live activity | Separate mandate | L2 |
 
 How to use: Bảo marks each row Approve / Change / Hold. A mandate should name the scope (which items), the owner, the limits and the stop condition, per the working agreement in the kickoff document. Until then, preparation stays offline.
+
+**Cập nhật 12/10/2026 (ghi chú thêm, bảng trên là snapshot 08/10):** hàng 1 đã cũ. Discovery được cập nhật **một lần** bằng v3 **310 dòng** vào 12/10 (thay file 409 dòng), sau reload ở trạng thái **Updating**; saved filename và kết quả matching chưa đọc lại (P7 NOT_STARTED), audience vẫn CHANGES_REQUIRED. Xem [hồ sơ repair-cycle-2](../../linkedin-audience-reconcile/2026-10-12/repair-cycle-2/README.md). Các hàng khác không đổi theo evidence này.
