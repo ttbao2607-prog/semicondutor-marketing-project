@@ -154,8 +154,9 @@ for r in rows:
             'card_artwork_headlines': ' | '.join(norm(c.get('headline', '')) for c in cs),
             'card_alt_texts': ' | '.join(norm(c.get('alt', '')) for c in cs),
             'closing_card_cta_label': last.get('cta', ''),
-            'destination_proposal': 'READER ' + route + ' (?lang=' + loc + ') on hosted URL: UNKNOWN' if stage == 'proof' else 'DECISION_NEEDED',
-            'destination_note': 'Journey ends at the reader after the proof carousel (inventory + journey viewer).' if stage == 'proof' else 'The journey viewer shows no link at this step; options: reader, Digiwin Vietnam contact page, or the proof carousel. Not decided in the repository.',
+            'destination_proposal': 'READER ' + route + ' (?lang=' + loc + ') on hosted URL: UNKNOWN' + ('' if stage == 'proof' else ' [D1=A, PROVISIONAL until manager approval]'),
+            'destination_note': 'Journey ends at the reader after the proof carousel (inventory + journey viewer).' if stage == 'proof' else 'PO decision D1=A (12/10/2026): sends to the same reader as the proof ad of this journey. PROVISIONAL: final only after the manager approves the package. Hosting route and return link are still open.',
+            'platform_cta_button': 'Learn more (PO decision D2, 12/10/2026; availability for this objective/format not verified in the platform UI)',
             'utm_campaign_pattern': 'fdi_%s_%s_%s_<wave>' % (t.lower().replace('-', ''), loc.lower().replace('-', ''), cohort),
             'utm_content_pattern': '%s_<creative_id>' % jid.lower(),
             'status': 'DRAFT_PROPOSAL', 'source_ref': src})
