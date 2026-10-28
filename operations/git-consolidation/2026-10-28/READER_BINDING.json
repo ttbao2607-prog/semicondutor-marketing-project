@@ -1,0 +1,69 @@
+{
+  "stage": "GIT_INTEGRATION_RETENTION",
+  "source": "eaf805a1205ae9d21d86959ae2b7ce69d2c18946",
+  "corrected_checkpoint": "c8e9d00ce8c05a970053e76e6aab82e6d4ef6b2d",
+  "anchor": {
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+  },
+  "email": {
+    "id": "VY-MAIL-USER-20261006",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "scope": "FDI destination retention, 11 treatments, 33 entry sources, four display locales; no new copy or generation; O2 B4/B5/B6 retained.",
+  "files": [
+    {
+      "path": "deliverables/unified-case-reader/README.md",
+      "source_git_blob": "b0567d3ad3e654f3169e203d74908bf7e8509462",
+      "integrated_git_blob": "b0567d3ad3e654f3169e203d74908bf7e8509462",
+      "worktree_sha256": "48cd91a0904cfc435735c78c99930b8d56cbe2c2c4594cdbd306443d80c8c402",
+      "source_blob_sha256": "1f91f9e890f6a5c1e42f95a47d1ac9dec3d042671a5d9b4dbbc277f6303d95f4"
+    },
+    {
+      "path": "deliverables/unified-case-reader/unified-case-reader.html",
+      "source_git_blob": "76d84e139447eb35d21db892867fa2b89db72ff4",
+      "integrated_git_blob": "76d84e139447eb35d21db892867fa2b89db72ff4",
+      "worktree_sha256": "1ac14a1bc4e58c69a3e3d7cd4175a2cc8c65e65ae291ef2d24fb8f71a2ae6302",
+      "source_blob_sha256": "b83cd70d8008be26b195541593298042698aa163adf7583db2af7d7a2d65f0c4"
+    },
+    {
+      "path": "operations/unified-case-reader/2026-10-28/PLAN.md",
+      "source_git_blob": "d3df9daca98c8e87fa3ee733e8935a74be057390",
+      "integrated_git_blob": "d3df9daca98c8e87fa3ee733e8935a74be057390",
+      "worktree_sha256": "de1ac4d1c13c4ec677789ecab0dcb6983261c920d4a241e2910b2de351188553",
+      "source_blob_sha256": "9d5d3ad07644e2a2026dc1b465a800f495743bac47150a4e0bc3a6ca246175ac"
+    },
+    {
+      "path": "operations/unified-case-reader/2026-10-28/REVIEW.md",
+      "source_git_blob": "845cf4768690f83b9b7aed4c580c11d1f3759415",
+      "integrated_git_blob": "845cf4768690f83b9b7aed4c580c11d1f3759415",
+      "worktree_sha256": "71b4954c82b047e527031a7221ac57f17c9f565cc7a66f7ec0e14f9db4965daf",
+      "source_blob_sha256": "fa1fd93cedf179abcd55aafb654506224441a6c74d672866ae61aad4841bbed0"
+    },
+    {
+      "path": "operations/unified-case-reader/2026-10-28/SOURCE_CHECKS.json",
+      "source_git_blob": "474f07d03bbf3292010f6044015d3fbee2cb1743",
+      "integrated_git_blob": "474f07d03bbf3292010f6044015d3fbee2cb1743",
+      "worktree_sha256": "b617bf227ce6361ffad266975e12b577bc3b181b409756bfe7f7c3cb5c28fd91",
+      "source_blob_sha256": "22af06d58975df0b94a025a9d37601dd08d4378da242e4d21fd3c1c074fab656"
+    },
+    {
+      "path": "operations/unified-case-reader/2026-10-28/verify_package.py",
+      "source_git_blob": "f63fb88d5e63566f55f0af471b03ea21da0088ec",
+      "integrated_git_blob": "f63fb88d5e63566f55f0af471b03ea21da0088ec",
+      "worktree_sha256": "a606d03af0420be1d6b91ef300f9ef4f0817480dfb2561ca6196b894aeebf7db",
+      "source_blob_sha256": "51a0675f73b6bc1914749e321ccd4d8b0dd29d6ab7c93d472a3f35c02d394582"
+    }
+  ],
+  "source_locale_comparisons": 132,
+  "original_readers_unchanged": 33,
+  "external_automatic_resources": [],
+  "forms": [],
+  "offline_return_links": [],
+  "excluded_approval_ancestor": false,
+  "line_endings": "Git checkout applies CRLF; exact normalized Git blob identity is verified for every imported file. Worktree and source-blob SHA256 are both recorded rather than rewriting historical receipt hashes.",
+  "boundary": "No additional semantic/native/render/rights/host/tracking/whole-journey/release acceptance. Existing review remains historical SELF_REVIEW; overall marketing/release INSUFFICIENT_EVIDENCE.",
+  "retained_value": "Source treatment/persona questions, operating value, scoped case proof and O2 source-specific questions; no original ad or reader changes.",
+  "reviewer": "Codex root SELF_REVIEW; independent audit NOT_RUN"
+}

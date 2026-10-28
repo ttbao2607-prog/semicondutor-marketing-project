@@ -1,3 +1,5 @@
+> **28/10/2026 — selective Git integration:** Unified reader candidate from `eaf805a1` is retained on main with original source content, including O2 entry variants. This does not select a production destination, change existing routes/UTMs, close host/return/CTA/tracking gates or certify release. [Integration and active handoff](../../git-consolidation/2026-10-28/README.md).
+
 # 04 · Reader entry mapping — draft
 
 Status: DRAFT_PROPOSAL. Full table: [04_Reader_Entry_Mapping_Draft.csv](04_Reader_Entry_Mapping_Draft.csv), 33 rows generated from `operations/fdi-destination-html/2026-10-07/inventory.csv` (11 treatments × 3 locales). No URL is hosted, no tag or tracking is changed, nothing is published.

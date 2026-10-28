@@ -1,3 +1,5 @@
+> **Git consolidation / active handoff — 28/10/2026:** Main tích hợp hồ sơ điều hành/audience đã commit tại `c8e9d00c` và unified reader candidate từ `eaf805a1`. R5 draft eligibility, readiness index và shortlist mới hơn đang được phiên khác hoàn thiện trên `slice/executive-approval-corrected-2026-10-28`; Bảo yêu cầu giữ nguyên worktree đó. Các nhận định eligibility trong checkpoint bên dưới là snapshot, không đại diện kết quả mới nhất của phiên đang làm. Chưa nhập phần working docs đó hoặc chốt journey/D6/release. [Trạng thái Git, nguồn và bước bàn giao](../../git-consolidation/2026-10-28/README.md).
+
 # Package v2 · final review, remote backup and ZIP · 08/10/2026
 
 > **Cập nhật 28/10/2026:** Daphne chỉ đạo bắt đầu xúc tiến ngành bán dẫn từ tháng 11; Bảo xác nhận chạy đúng plan Package v2. Đợt đầu là một nhóm phù hợp, vài journey đại diện; lựa chọn cụ thể và audience blocker còn mở. Ngày 01/11 là dự kiến chưa xác nhận riêng. [Hồ sơ](../../source-evidence/Daphne_Tsai_Executive_Approval_2026-10-28.md).

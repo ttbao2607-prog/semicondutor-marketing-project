@@ -1,3 +1,5 @@
+> **Git consolidation / active handoff — 28/10/2026:** Main tích hợp hồ sơ điều hành/audience đã commit tại `c8e9d00c` và unified reader candidate từ `eaf805a1`. R5 draft eligibility, readiness index và shortlist mới hơn đang được phiên khác hoàn thiện trên `slice/executive-approval-corrected-2026-10-28`; Bảo yêu cầu giữ nguyên worktree đó. Các nhận định eligibility trong checkpoint bên dưới là snapshot, không đại diện kết quả mới nhất của phiên đang làm. Chưa nhập phần working docs đó hoặc chốt journey/D6/release. [Trạng thái Git, nguồn và bước bàn giao](../../git-consolidation/2026-10-28/README.md).
+
 # Decision pack D1–D6 — bảng build 99 ad (gửi Bảo)
 
 

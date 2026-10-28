@@ -1,3 +1,5 @@
+> **Git consolidation / active handoff — 28/10/2026:** Main tích hợp hồ sơ điều hành/audience đã commit tại `c8e9d00c` và unified reader candidate từ `eaf805a1`. R5 draft eligibility, readiness index và shortlist mới hơn đang được phiên khác hoàn thiện trên `slice/executive-approval-corrected-2026-10-28`; Bảo yêu cầu giữ nguyên worktree đó. Các nhận định eligibility trong checkpoint bên dưới là snapshot, không đại diện kết quả mới nhất của phiên đang làm. Chưa nhập phần working docs đó hoặc chốt journey/D6/release. [Trạng thái Git, nguồn và bước bàn giao](../../git-consolidation/2026-10-28/README.md).
+
 # PO decision record — D1–D6, bảng build 99 ad (12/10/2026)
 
 > **Cập nhật 28/10/2026:** Bảo xác nhận chạy đúng Package v2 sau chỉ đạo khởi động từ tháng 11. D1=A FINAL theo xác nhận của Bảo; D3 chốt nguyên tắc một nhóm và vài journey đại diện, Bảo còn chọn nhóm/journey/locale tuần 1. Thư viện 33 journey / 99 ad / 339 card không đồng nghĩa chạy toàn bộ. Audience là blocker trước chạy. [Hồ sơ](../../source-evidence/Daphne_Tsai_Executive_Approval_2026-10-28.md).
