@@ -1,5 +1,7 @@
 # Decision pack D1–D6 — bảng build 99 ad (gửi Bảo)
 
+
+> **Cập nhật 28/10/2026:** Bảo xác nhận chạy đúng plan. D1=A FINAL; D3 chốt nguyên tắc một nhóm, vài journey đại diện, còn Bảo chọn nhóm/journey/locale tuần 1. Audience là blocker trước khi chạy. Nội dung đề xuất dưới đây giữ theo thời điểm lập pack. [Hồ sơ quyết định](PO_Decision_Record_D1_D6_2026-10-12.md).
 12/10/2026 · Trạng thái **DRAFT_FOR_PO_DECISION**, chuẩn bị offline (Phase A). Không tạo ad, không đăng, không thao tác tài khoản. Nguồn: [bảng build](../2026-10-08/03_LinkedIn_Ad_Build_Sheet.md), [gói RMK](../../linkedin-rmk-source-readiness/2026-10-08/README.md), [map reader → URL](../../linkedin-rmk-source-readiness/2026-10-08/04_Reader_Entry_Mapping_Draft.md), [quyết định tuần/ngân sách của Bảo 07/10](../../manager-package-v2/phase1/PO_Dashboard_Weekly_Decision_2026-10-07.md).
 
 > **Cập nhật sau quyết định của Bảo (12/10/2026):** D1 chốt A (**provisional**, final khi sếp duyệt), D2 "Learn more", D4 giữ 2 carousel, D5 dùng quy ước tên. **D3 chưa chốt** (chờ sếp xem library), D6 chưa trả lời. [Biên bản](PO_Decision_Record_D1_D6_2026-10-12.md). Nội dung dưới là bản đề xuất gốc trước quyết định.
