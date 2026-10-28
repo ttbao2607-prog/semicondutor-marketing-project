@@ -1,3 +1,9 @@
+> **Current checkpoint theo Bảo:** [CTA+tracking bridge đã deploy](tracking-bridge/REPORT_VI.md), source/data đồng bộ; technical transport và identity QA scoped verified. Containing commit lưu trên corrected local, chưa push/merge. Next: exact paused-build pack theo approved plan, final URL/ad-ID mapping và processed reporting; không chờ cài tracking reader nữa. Các câu pending bên dưới là history.
+
+> **Hiện hành:** [CTA P1/P2 English đã public](cta-revision/REPORT_VI.md) theo Bảo duyệt. Next action: inventory tracking/UTM đúng reader→contact và hoàn thiện D6/selected-set release; không còn chờ CTA English.
+
+> **Cập nhật sau checkpoint:** [Bảo đã duyệt contact-vn và lời báo tiếng Việt](CTA_PO_DECISION.md). Không còn chờ quyết định đích đến; vị trí/nội dung nút là đề xuất, chưa sửa public. Phần đề nghị bên dưới giữ bối cảnh trước quyết định.
+
 # Checkpoint và next action cho Bảo — 28/10/2026
 
 Containing commit ghi hồ sơ trên `slice/executive-approval-corrected-2026-10-28`, base `c8e9d00c`. Bảo đã yêu cầu cập nhật và commit; commit là lưu trên máy, không push/merge. Source unified đã trên main/GitHub `568321fb`; các hồ sơ mới này chỉ có trên nhánh corrected cho tới khi được tích hợp. Không đổi source HTML, creative hoặc frozen harness trong checkpoint.

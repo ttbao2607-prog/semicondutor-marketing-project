@@ -1,0 +1,180 @@
+{
+  "schema": "ladipage-operator/existing-page-revision/v1",
+  "status": "COMPLETED",
+  "target": {
+    "page_identity": "Digiwin Semiconductor - Unified Case Reader - 20261028",
+    "public_url": "https://solutions.digiwin.com.vn/semiconductor-case-reader",
+    "environment": "production",
+    "operation": "revise_existing_page",
+    "upload_or_new_page": false,
+    "form_rebind": false
+  },
+  "canonical_source": {
+    "project_ref": "D:\\Digiwin_Executive_Approval_Corrected_2026-10-28",
+    "path": "deliverables/unified-case-reader/unified-case-reader.html",
+    "baseline_sha256": "1ac14a1bc4e58c69a3e3d7cd4175a2cc8c65e65ae291ef2d24fb8f71a2ae6302"
+  },
+  "authority": {
+    "approved": true,
+    "scope_ref": "Bao approved contact-vn + Vietnamese warning, English label and placement; okie chot lam codex",
+    "page_identity": "Digiwin Semiconductor - Unified Case Reader - 20261028",
+    "public_url": "https://solutions.digiwin.com.vn/semiconductor-case-reader",
+    "production_authorized": true
+  },
+  "revision": {
+    "intent": "Add approved P1/P2 English CTA in existing consultation section",
+    "allowed_paths": [
+      "deliverables/unified-case-reader/unified-case-reader.html"
+    ],
+    "protected_invariants": [
+      "other_treatments_locales",
+      "copy_proof_images",
+      "router_utm_entry",
+      "no_form_tracking_change"
+    ],
+    "semantic_delta": [
+      {
+        "path": "deliverables/unified-case-reader/unified-case-reader.html",
+        "scope_start": "  // 3. Render function",
+        "scope_end": "  // 4. Initial route resolution",
+        "before": "    document.documentElement.lang = locale;",
+        "after": "    // Approved P1/P2 English consultation handoff.\n    if ((treatment === 'P1' || treatment === 'P2') && locale === 'en') {\n      const consult = container.querySelector('.consult-inner');\n      if (consult) {\n        const notice = document.createElement('p');\n        notice.id = 'partner-contact-language';\n        notice.textContent = 'Opens Digiwin Vietnam’s consultation page in Vietnamese.';\n        const contact = document.createElement('a');\n        contact.id = 'partner-contact-cta';\n        contact.className = 'cta';\n        contact.href = 'https://www.digiwin.com.vn/contact-vn/';\n        contact.setAttribute('aria-describedby', notice.id);\n        contact.textContent = 'Discuss your factory workflow';\n        consult.append(notice, contact);\n      }\n    }\n\n    document.documentElement.lang = locale;"
+      }
+    ]
+  },
+  "lifecycle": {
+    "pre_edit_normalized_anchor": true,
+    "bounded_semantic_patch": true,
+    "blind_full_source_replacement": false,
+    "save_reopen_verified": true,
+    "same_page_verified": true,
+    "public_verification": {
+      "published": true,
+      "same_public_url": true,
+      "desktop": true,
+      "mobile": true,
+      "expected_marker": "Discuss your factory workflow",
+      "observed_desktop_marker": "Discuss your factory workflow",
+      "observed_mobile_marker": "Discuss your factory workflow",
+      "desktop_delta_sha256": "6bce5761eb496e35c318de2d26cb6a367a8bb8aa8b779c6b267c071ff2bc0f59",
+      "mobile_delta_sha256": "6bce5761eb496e35c318de2d26cb6a367a8bb8aa8b779c6b267c071ff2bc0f59",
+      "desktop_ref": "P1-desktop.png; P2-desktop.png; BROWSER_EVIDENCE.json",
+      "mobile_ref": "P1-mobile.png; P2-mobile.png; BROWSER_EVIDENCE.json"
+    },
+    "protected_invariants_preserved": true,
+    "protected_witnesses": {
+      "other_treatments_locales": {
+        "before_sha256": "d9b814569b3a5f133ecbb7a789cf4cc3a929282fcb1cd461b45631cd85d00f70",
+        "after_sha256": "d9b814569b3a5f133ecbb7a789cf4cc3a929282fcb1cd461b45631cd85d00f70"
+      },
+      "copy_proof_images": {
+        "before_sha256": "8f28c10ce4b680cbf3b616ae3c20900a4971b45ee9f25e36f9d99598a01eae1c",
+        "after_sha256": "8f28c10ce4b680cbf3b616ae3c20900a4971b45ee9f25e36f9d99598a01eae1c"
+      },
+      "router_utm_entry": {
+        "before_sha256": "4f28c034df3a7cd67e249a50f327b4f28adcddfc3a0b6a59ce500e507f9abcf3",
+        "after_sha256": "4f28c034df3a7cd67e249a50f327b4f28adcddfc3a0b6a59ce500e507f9abcf3"
+      },
+      "no_form_tracking_change": {
+        "before_sha256": "ac659e2cdf5fb90daf4468abff5ae3c129e94942c4fa291070b80d47d555e1ea",
+        "after_sha256": "ac659e2cdf5fb90daf4468abff5ae3c129e94942c4fa291070b80d47d555e1ea"
+      }
+    },
+    "revision_binding": {
+      "baseline_sha256": "1ac14a1bc4e58c69a3e3d7cd4175a2cc8c65e65ae291ef2d24fb8f71a2ae6302",
+      "canonical_candidate_sha256": "4059a1ea22158b801cab1ffabb9ac570b27805c2fd79614a48ecd8e95ccc2715",
+      "page_revision_sha256": "8e695a9a29cf3e4f7df67a17fc10729c008ceb183c63d7131b034a9ef11c5ab8",
+      "published_revision_sha256": "ccd49c47ca12e44adba2244d2736d8518883461999729c621aae8aad0c535883",
+      "canonical_delta_sha256": "6bce5761eb496e35c318de2d26cb6a367a8bb8aa8b779c6b267c071ff2bc0f59",
+      "page_delta_sha256": "6bce5761eb496e35c318de2d26cb6a367a8bb8aa8b779c6b267c071ff2bc0f59",
+      "published_delta_sha256": "6bce5761eb496e35c318de2d26cb6a367a8bb8aa8b779c6b267c071ff2bc0f59",
+      "page_revision_witness_ref": "BROWSER_EVIDENCE.json full-source readback; only approved patch plus fingerprinted 52-byte identity removal",
+      "published_revision_witness_ref": "BROWSER_EVIDENCE.json + public screenshots; published hash binds rendered P1 main DOM",
+      "canonical_git_state": "working_tree",
+      "commit_required": false
+    },
+    "automatic_lead_or_retry": false,
+    "optional_checks": [
+      {
+        "name": "target-specific identity normalization",
+        "passed": true,
+        "expected": "Only known store_id/time_zone pair may differ; exact-page authority, pair fingerprint, whole-source diff, stable images and public checks required",
+        "actual": "Exactly 52 bytes removed, pair SHA256 84d2594af90b7d628dd1c85cc8e267e5595da0f02dc432b9f6efb5334004d410; no other drift; second read stable; same authorized production target and public functional/render checks observed"
+      }
+    ],
+    "evidence": [
+      {
+        "observation": "pre_edit_normalized_anchor",
+        "source_ref": "BROWSER_EVIDENCE.json; REPORT_VI.md",
+        "observed_at": "2026-10-28 Asia/Saigon",
+        "expected_effect": "Approved P1/P2 English CTA, same page, retained copy/router/images/other routes/locales",
+        "actual_effect": "Verified source and public observations; canonical derived with exact declared delta; no form submission",
+        "artifact_sha256": "7788936019b506c3431c304f0a50dc4413c6da0eced09238ac3604cb7d83a426"
+      },
+      {
+        "observation": "save_reopen",
+        "source_ref": "BROWSER_EVIDENCE.json; REPORT_VI.md",
+        "observed_at": "2026-10-28 Asia/Saigon",
+        "expected_effect": "Approved P1/P2 English CTA, same page, retained copy/router/images/other routes/locales",
+        "actual_effect": "Verified source and public observations; canonical derived with exact declared delta; no form submission",
+        "artifact_sha256": "7788936019b506c3431c304f0a50dc4413c6da0eced09238ac3604cb7d83a426"
+      },
+      {
+        "observation": "same_page_identity",
+        "source_ref": "BROWSER_EVIDENCE.json; REPORT_VI.md",
+        "observed_at": "2026-10-28 Asia/Saigon",
+        "expected_effect": "Approved P1/P2 English CTA, same page, retained copy/router/images/other routes/locales",
+        "actual_effect": "Verified source and public observations; canonical derived with exact declared delta; no form submission",
+        "artifact_sha256": "7788936019b506c3431c304f0a50dc4413c6da0eced09238ac3604cb7d83a426"
+      },
+      {
+        "observation": "page_revision",
+        "source_ref": "BROWSER_EVIDENCE.json; REPORT_VI.md",
+        "observed_at": "2026-10-28 Asia/Saigon",
+        "expected_effect": "Approved P1/P2 English CTA, same page, retained copy/router/images/other routes/locales",
+        "actual_effect": "Verified source and public observations; canonical derived with exact declared delta; no form submission",
+        "artifact_sha256": "7788936019b506c3431c304f0a50dc4413c6da0eced09238ac3604cb7d83a426"
+      },
+      {
+        "observation": "published_revision",
+        "source_ref": "BROWSER_EVIDENCE.json; REPORT_VI.md",
+        "observed_at": "2026-10-28 Asia/Saigon",
+        "expected_effect": "Approved P1/P2 English CTA, same page, retained copy/router/images/other routes/locales",
+        "actual_effect": "Verified source and public observations; canonical derived with exact declared delta; no form submission",
+        "artifact_sha256": "7788936019b506c3431c304f0a50dc4413c6da0eced09238ac3604cb7d83a426"
+      },
+      {
+        "observation": "public_desktop",
+        "source_ref": "BROWSER_EVIDENCE.json; REPORT_VI.md",
+        "observed_at": "2026-10-28 Asia/Saigon",
+        "expected_effect": "Approved P1/P2 English CTA, same page, retained copy/router/images/other routes/locales",
+        "actual_effect": "Verified source and public observations; canonical derived with exact declared delta; no form submission",
+        "artifact_sha256": "7788936019b506c3431c304f0a50dc4413c6da0eced09238ac3604cb7d83a426"
+      },
+      {
+        "observation": "public_mobile",
+        "source_ref": "BROWSER_EVIDENCE.json; REPORT_VI.md",
+        "observed_at": "2026-10-28 Asia/Saigon",
+        "expected_effect": "Approved P1/P2 English CTA, same page, retained copy/router/images/other routes/locales",
+        "actual_effect": "Verified source and public observations; canonical derived with exact declared delta; no form submission",
+        "artifact_sha256": "7788936019b506c3431c304f0a50dc4413c6da0eced09238ac3604cb7d83a426"
+      },
+      {
+        "observation": "protected_invariants",
+        "source_ref": "BROWSER_EVIDENCE.json; REPORT_VI.md",
+        "observed_at": "2026-10-28 Asia/Saigon",
+        "expected_effect": "Approved P1/P2 English CTA, same page, retained copy/router/images/other routes/locales",
+        "actual_effect": "Verified source and public observations; canonical derived with exact declared delta; no form submission",
+        "artifact_sha256": "7788936019b506c3431c304f0a50dc4413c6da0eced09238ac3604cb7d83a426"
+      },
+      {
+        "observation": "canonical_reconciliation",
+        "source_ref": "BROWSER_EVIDENCE.json; REPORT_VI.md",
+        "observed_at": "2026-10-28 Asia/Saigon",
+        "expected_effect": "Approved P1/P2 English CTA, same page, retained copy/router/images/other routes/locales",
+        "actual_effect": "Verified source and public observations; canonical derived with exact declared delta; no form submission",
+        "artifact_sha256": "4059a1ea22158b801cab1ffabb9ac570b27805c2fd79614a48ecd8e95ccc2715"
+      }
+    ]
+  }
+}

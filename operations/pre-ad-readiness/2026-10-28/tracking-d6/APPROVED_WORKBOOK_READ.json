@@ -1,0 +1,104 @@
+{
+  "source": "deliverables\\manager-package-v2\\2026-10-07\\04_Theo_doi\\Theo_doi_paid_ads.xlsx",
+  "sha256": "eb8de3fff09f8acf6e5b2ef22dc94a42f2cde2c669854e6c6deba9fd4e319aa7",
+  "sheetNames": [
+    "Review tuan",
+    "Nhat ky"
+  ],
+  "hits": [
+    {
+      "sheet": "Review tuan",
+      "row": "6",
+      "cells": [
+        {
+          "cell": "A6",
+          "value": "Trần toàn phương án",
+          "formula": null
+        },
+        {
+          "cell": "B6",
+          "value": "11700000",
+          "formula": null
+        },
+        {
+          "cell": "D6",
+          "value": "Chi đã nhập",
+          "formula": null
+        },
+        {
+          "cell": "E6",
+          "value": "",
+          "formula": "IF(COUNT('Nhat ky'!H8:H37)=0,\"\",SUM('Nhat ky'!H8:H37))"
+        }
+      ]
+    },
+    {
+      "sheet": "Review tuan",
+      "row": "7",
+      "cells": [
+        {
+          "cell": "A7",
+          "value": "Đợt LinkedIn đầu",
+          "formula": null
+        },
+        {
+          "cell": "B7",
+          "value": "5600000",
+          "formula": null
+        },
+        {
+          "cell": "D7",
+          "value": "Còn lại so với trần",
+          "formula": null
+        },
+        {
+          "cell": "E7",
+          "value": "",
+          "formula": "IF(ISNUMBER(E6),B6-E6,\"\")"
+        }
+      ]
+    },
+    {
+      "sheet": "Review tuan",
+      "row": "9",
+      "cells": [
+        {
+          "cell": "A9",
+          "value": "LinkedIn tiếp theo tối đa",
+          "formula": null
+        },
+        {
+          "cell": "B9",
+          "value": "5600000",
+          "formula": null
+        },
+        {
+          "cell": "D9",
+          "value": "Tuần 1 chạy đúng plan. Review cuối tuần để chọn hướng tuần 2.",
+          "formula": null
+        }
+      ]
+    },
+    {
+      "sheet": "Review tuan",
+      "row": "11",
+      "cells": [
+        {
+          "cell": "A11",
+          "value": "Tổng theo cơ cấu",
+          "formula": null
+        },
+        {
+          "cell": "B11",
+          "value": "11700000",
+          "formula": "SUM(B7,B9:B10)"
+        },
+        {
+          "cell": "D11",
+          "value": "Lead đã xác minh là tín hiệu bổ sung khi đánh giá đầu tư.",
+          "formula": null
+        }
+      ]
+    }
+  ]
+}

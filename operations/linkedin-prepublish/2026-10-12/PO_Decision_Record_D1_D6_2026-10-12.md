@@ -27,7 +27,7 @@ Record ID: **PREPUBLISH-D1D6-PO-20261012**. Nguồn: chỉ đạo trực tiếp 
 | D3 | **P1/B22 + P2/B25 English chọn để review sâu; final release PENDING** | Bảo duyệt đề xuất shortlist 28/10; exact revisions và giới hạn tại PO_CHOICE được dẫn ở notice hiện hành. R5/Việt Nam/English có scoped eligibility; không chứng minh FDI hoặc customer-fit mọi entity. P3/B28 PCB dự phòng có điều kiện. Không asset acceptance/launch, không chạy toàn bộ thư viện. |
 | D4 | **Chốt** | Giữ 2 carousel (giải thích và proof riêng), như viewer đã review. |
 | D5 | **Chốt** | Dùng quy ước `LI-<wave>-<treatment>-<locale>-<role>-v1`. Phần `<wave>` vẫn là placeholder đến khi đợt chạy được định nghĩa. Nhãn UTM không thuộc quyết định này, vẫn là đề xuất cần kiểm kê tag/event trước. |
-| D6 | **Chưa được nêu** | Bảo chưa trả lời mục này; giữ chờ quyết định và mandate tạo campaign. |
+| D6 | **Theo plan đã duyệt; execution fields open** | Bảo nhắc 28/10 chạy theo plan sếp duyệt: ngân sách/cơ cấu/weekly review không hỏi lại. Exact delivered proposal/workbook được đối chiếu trong tracking-d6 report; actual dates/dailyUSD/production placement/bidding chưa có saved build. Chuẩn bị phương án dashboard cụ thể trong cap, không tự dùng probe hoặc launch. |
 
 ## Hệ quả đã áp dụng
 
