@@ -1,0 +1,16 @@
+{
+  "phase": "Post-checkpoint readback",
+  "code_commit": "a31ea233fe817407fe2deb110649396f67a58941",
+  "canonicalGitBlobExactBytes": true,
+  "canonicalSHA256": "04429f539c394f0506679725740a2a52dd81af37ff36b70d8e4dc5c1a103f1d8",
+  "windowsAwareWhitespaceExceptions": {
+    "count": 4,
+    "paths": [
+      "deliverables/unified-case-reader/unified-case-reader.html",
+      "operations/pre-ad-readiness/2026-10-28/tracking-d6/APPROVED_DELIVERY_PROPOSAL.md"
+    ],
+    "reason": "Preserved baseline HTML body whitespace and source-document Markdown hard breaks. Entire source body before/after is exact; other authored changes pass whitespace checks."
+  },
+  "otherAuthoredDiffWhitespaceCheck": true,
+  "verification_note": "An initial terminal check failed decoding UTF-8 output before commit while shell continued to the authorized code checkpoint. This post-check completed validation; no test or safety gate was bypassed."
+}

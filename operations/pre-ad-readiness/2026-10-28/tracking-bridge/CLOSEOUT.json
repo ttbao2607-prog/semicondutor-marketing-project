@@ -90,8 +90,13 @@
       "published_delta_sha256": "379d6edf82ac2f7c6ade64a74fe717a307021ba43895a710cbfaf62cb1a50dc9",
       "page_revision_witness_ref": "BROWSER_EVIDENCE.json exact full-source Save/reopen hash",
       "published_revision_witness_ref": "BROWSER_EVIDENCE.json exact core hash + rendered main DOM snapshot hash + public request/CTA markers",
-      "canonical_git_state": "working_tree",
-      "commit_required": false
+      "canonical_git_state": "committed",
+      "commit_required": true,
+      "canonical_git_commit_sha": "a31ea233fe817407fe2deb110649396f67a58941",
+      "canonical_git_tree_sha": "ada9ea9aab1378a10cfb21fc7d8528a319e4b9e5",
+      "canonical_git_blob_sha1": "a606e1842bd59e331b7ff8359a65f3bfd14ba13c",
+      "canonical_git_path": "deliverables/unified-case-reader/unified-case-reader.html",
+      "canonical_git_evidence_ref": "GIT_CHECKPOINT.json"
     },
     "automatic_lead_or_retry": false,
     "optional_checks": [],
