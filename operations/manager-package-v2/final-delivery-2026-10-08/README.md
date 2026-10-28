@@ -1,5 +1,7 @@
 # Package v2 · final review, remote backup and ZIP · 08/10/2026
 
+> **Cập nhật 28/10/2026:** Daphne chỉ đạo bắt đầu xúc tiến ngành bán dẫn từ tháng 11; Bảo xác nhận chạy đúng plan Package v2. Đợt đầu là một nhóm phù hợp, vài journey đại diện; lựa chọn cụ thể và audience blocker còn mở. Ngày 01/11 là dự kiến chưa xác nhận riêng. [Hồ sơ](../../source-evidence/Daphne_Tsai_Executive_Approval_2026-10-28.md).
+
 Bảo requested main backup, a final review for internal language/AI claims that conflict with the approved POV, then a ZIP if clear. Main was pushed normally from2cf29d63 to **c91633dd** (38 commits); actual remote main was read back at the exact SHA. No history rewrite.
 
 **Outcome: SUCCESS · root SELF_REVIEW.** No material editorial finding requiring package changes. All48HTML surfaces,4text downloads,170dynamic-card records and both workbook sheets were inspected. Proposal, logic, mail, demo, library and evidence retain the approved three investment questions,11.7millionVND before tax, Bảo's operating autonomy, the VN readiness bridge and FDI operating-value nuance. Case scope statements and dated audience/Planner uncertainty remain business-relevant explanations; they are not agent integrity claims. The only keyword hit, “audit pass” in the original English Aplus reader, explicitly says the source does not report that outcome and was retained.
