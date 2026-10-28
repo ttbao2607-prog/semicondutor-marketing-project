@@ -1,4 +1,8 @@
+> **R5 draft probe completed · 28/10/2026 ~14:46 +07:** Đã lưu và mở lại đúng một draft R5 riêng, Draft/Off trong campaign VALIDATION_ONLY đang Paused; cấu hình Việt Nam/English + 4 Job Functions + Manager–CXO, Expansion/LAN off, hiển thị 470+. **Eligibility cấu hình draft VERIFIED_SCOPED**, thay NOT_VERIFIED trước đó; không chứng minh actual delivery hoặc toàn bộ audience/release PASS. Probe-only USD10/ngày, 29–30/10 (UI tối đa USD20); tab forecast nhãn 30-day hiển thị USD0–4 / reach19–76, không ngoại suy. Journey cụ thể và D6 production/native/proof/host/tracking còn mở; V4 CHANGES_REQUIRED. Không launch/spend. [Receipt và giới hạn](../../linkedin-audience-reconcile/2026-10-28/R5_DRAFT_ELIGIBILITY.md). Các notice cũ bên dưới là snapshot trước phép thử này; quyền tạo draft đã có và không phải launch mandate. Tài liệu mới chỉ local chưa commit/push; draft đã tồn tại trên LinkedIn.
+
 # Package v2 · final review, remote backup and ZIP · 08/10/2026
+
+> **Bổ sung theo chỉ đạo Bảo · 28/10/2026:** Codex chọn R5 / Việt Nam / English, nhóm Operations, Engineering, IT, Quality và cấp Manager–CXO làm cấu hình tham chiếu có điều kiện. Journey cụ thể và eligibility trong ad set còn mở; English không chứng minh FDI. [Readback R5](../../linkedin-audience-reconcile/2026-10-28/READBACK.md).
 
 > **Cập nhật 28/10/2026:** Daphne chỉ đạo bắt đầu xúc tiến ngành bán dẫn từ tháng 11; Bảo xác nhận chạy đúng plan Package v2. Đợt đầu là một nhóm phù hợp, vài journey đại diện; lựa chọn cụ thể và audience blocker còn mở. Ngày 01/11 là dự kiến chưa xác nhận riêng. [Hồ sơ](../../source-evidence/Daphne_Tsai_Executive_Approval_2026-10-28.md).
 

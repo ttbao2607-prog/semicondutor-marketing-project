@@ -1,0 +1,1316 @@
+{
+  "result": {
+    "date": "2026-10-28",
+    "execution": "SUCCESS",
+    "audit": "SELF_REVIEW; independent audit NOT_RUN",
+    "publicUrl": "https://solutions.digiwin.com.vn/semiconductor-case-reader",
+    "sourceRevision": "568321fb8c951928fcb3867df4de75e9f43685e5",
+    "basicImport": true,
+    "agentUploadCreateUserOverride": true,
+    "persistedSourceExactIgnoringOuterWhitespace": true,
+    "sourceCopyJSONEqual": true,
+    "routerOnlyImagesAndLineEndings": true,
+    "savedSourceSHA256": "a3109a905c9fb3671483e558619f12e5d2ce3de9c9e7d055786e3bb5fde63f8c",
+    "publicVisibleCopyRetention": [
+      {
+        "t": "P1",
+        "publicVisibleCopyEqualsLocal": true
+      },
+      {
+        "t": "P2",
+        "publicVisibleCopyEqualsLocal": true
+      }
+    ],
+    "smoke": [
+      {
+        "t": "O1",
+        "titleMatches": true,
+        "imagesLoaded": true,
+        "noOverflow": true
+      },
+      {
+        "t": "O2",
+        "titleMatches": true,
+        "imagesLoaded": true,
+        "noOverflow": true
+      },
+      {
+        "t": "O3",
+        "titleMatches": true,
+        "imagesLoaded": true,
+        "noOverflow": true
+      },
+      {
+        "t": "O4-O",
+        "titleMatches": true,
+        "imagesLoaded": true,
+        "noOverflow": true
+      },
+      {
+        "t": "O4-Q",
+        "titleMatches": true,
+        "imagesLoaded": true,
+        "noOverflow": true
+      },
+      {
+        "t": "F1",
+        "titleMatches": true,
+        "imagesLoaded": true,
+        "noOverflow": true
+      },
+      {
+        "t": "F2",
+        "titleMatches": true,
+        "imagesLoaded": true,
+        "noOverflow": true
+      },
+      {
+        "t": "F3",
+        "titleMatches": true,
+        "imagesLoaded": true,
+        "noOverflow": true
+      },
+      {
+        "t": "P1",
+        "titleMatches": true,
+        "imagesLoaded": true,
+        "noOverflow": true
+      },
+      {
+        "t": "P2",
+        "titleMatches": true,
+        "imagesLoaded": true,
+        "noOverflow": true
+      },
+      {
+        "t": "P3",
+        "titleMatches": true,
+        "imagesLoaded": true,
+        "noOverflow": true
+      }
+    ],
+    "routeCases": [
+      {
+        "name": "public-alias",
+        "pass": true
+      },
+      {
+        "name": "public-utm-only",
+        "pass": true
+      },
+      {
+        "name": "public-explicit-precedence",
+        "pass": true
+      },
+      {
+        "name": "public-bare-fallback",
+        "pass": true
+      },
+      {
+        "name": "public-invalid-fallback",
+        "pass": true
+      },
+      {
+        "name": "public-O2-B6",
+        "pass": true
+      }
+    ],
+    "o2EntryRetainedOnToggleReload": true,
+    "p2ToggleUtmsRetained": true,
+    "publicRuntimeInventory": {
+      "externalScriptHosts": [
+        "w.ladicdn.com"
+      ],
+      "forms": 0,
+      "horizontalOverflow": false,
+      "iframes": 0
+    },
+    "observations": 32,
+    "boundary": "Technical deployment complete; contact CTA/current-R5 fit/native/proof rights/tracking measurement and ads release gates not certified; no creative edit or ads launch"
+  },
+  "observations": [
+    {
+      "clientWidth": 1521,
+      "h1": "From lot records to the next operating decision",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Illustration of a silicon crystal, a stack of wafers and an epitaxy chamber linked by data lines to a stack of record sheets and a range indicator.",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Digiwin semiconductor solutions: Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin Vietnam: supplier solutions and local delivery"
+        }
+      ],
+      "scrollWidth": 1521,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nSUPPLIER OPERATIONS\nIndustry context · Taiwan / Shanghai\nFrom lot records to the next operating decision\n\nFor semiconductor equipment-component suppliers, progress and quality information becomes useful when the source, scope and decision owner are clear.\n\nIllustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.\n\n01\nWhere to start\n\nStart with one handoff\n\nChoose one production lot and the planning decision that needs its progress or quality status. Identify the source record, when it was updated, and what it covers.\n\nAgree who checks a mismatch, who receives the confirmed information and what evidence they need before the next step.\n\n02\nRoles and responsibilities\n\nKeep planning and production evidence in their roles\n\nERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.\n\nMap the information each team needs before defining the solution scope and data handoff.\n\n03\nIndustry context\n\nSemiconductor industry context: Wafer Works\n\nWafer Works / 合晶科技, Taiwan / Shanghai, produces silicon wafer materials. The case covers crystal growth, wafer processing and epitaxy.\n\nDigiwin describes production genealogy from silicon crystals to wafer lots, visibility into production progress and equipment status, and epitaxy history with quality parameter limits.\n\nFor an equipment-component supplier, these are useful questions about traceability and execution visibility to bring into its own process discussion.\n\nWafer Works / 合晶科技\n\nTALK WITH DIGIWIN VIETNAM\n\nDefine the fit with the team in Vietnam\n\nDigiwin Vietnam specialists assess factory operations, advise on business processes and support on-site solution transfer and factory acceptance.\n\nBring a current production-to-planning handoff to the discussion: its records, the people involved, the receiving decision and the gaps to resolve. This helps define the processes and implementation scope for your factory.\n\nReference source\n\nDigiwin semiconductor solutions: Wafer Works\n\nDigiwin Vietnam: supplier solutions and local delivery",
+      "title": "From lot records to the next operating decision | Digiwin",
+      "width": 1536,
+      "name": "preview-P1-en"
+    },
+    {
+      "clientWidth": 1521,
+      "h1": "Define record ownership before a system handoff",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Illustration of a silicon crystal, a stack of wafers and an epitaxy chamber linked by data lines to a stack of record sheets and a range indicator.",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Digiwin semiconductor solutions: Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin Vietnam: supplier solutions and local services"
+        }
+      ],
+      "scrollWidth": 1521,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nSUPPLIER SYSTEMS\nIndustry context · Taiwan / Shanghai\nDefine record ownership before a system handoff\n\nFor semiconductor equipment-component suppliers, factory IT and operating teams need shared definitions, record responsibility and clear receiving decisions.\n\nIllustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.\n\n01\nWhere to start\n\nStart with one production record\n\nChoose one record that planning or quality teams need. Identify its meaning, update timing and production scope.\n\nRecord which team and system maintains it, who checks differences and who confirms the handoff.\n\n02\nRoles and responsibilities\n\nSeparate enterprise and production responsibilities\n\nERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.\n\nUse these roles to discuss record responsibility and process needs. Define the technical scope with the factory teams before selecting a handoff approach.\n\n03\nIndustry context\n\nIndustry context: Wafer Works\n\nWafer Works / 合晶科技 in Taiwan / Shanghai produces silicon wafer materials through crystal growth, wafer processing and epitaxy.\n\nThe case connects silicon crystals to wafer-lot production history and provides visibility into progress, equipment status and epitaxy records with quality parameter limits.\n\nThese production-information topics help factory teams identify the records and responsibilities to discuss in their own processes.\n\nWafer Works / 合晶科技\n\nTALK WITH DIGIWIN VIETNAM\n\nDefine the local factory scope\n\nDigiwin Vietnam assesses factory operations, advises on business processes and supports on-site solution transfer and factory acceptance.\n\nBring one current information handoff, its record owner, receiving decision and unresolved differences to a discussion of your process and implementation scope.\n\nReference source\n\nDigiwin semiconductor solutions: Wafer Works\n\nDigiwin Vietnam: supplier solutions and local services",
+      "title": "Define record ownership before a system handoff | Digiwin",
+      "width": 1536,
+      "name": "preview-P2-en"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "From lot records to the next operating decision",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Illustration of a silicon crystal, a stack of wafers and an epitaxy chamber linked by data lines to a stack of record sheets and a range indicator.",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Digiwin semiconductor solutions: Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin Vietnam: supplier solutions and local delivery"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nSUPPLIER OPERATIONS\nIndustry context · Taiwan / Shanghai\nFrom lot records to the next operating decision\n\nFor semiconductor equipment-component suppliers, progress and quality information becomes useful when the source, scope and decision owner are clear.\n\nIllustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.\n\n01\nWhere to start\n\nStart with one handoff\n\nChoose one production lot and the planning decision that needs its progress or quality status. Identify the source record, when it was updated, and what it covers.\n\nAgree who checks a mismatch, who receives the confirmed information and what evidence they need before the next step.\n\n02\nRoles and responsibilities\n\nKeep planning and production evidence in their roles\n\nERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.\n\nMap the information each team needs before defining the solution scope and data handoff.\n\n03\nIndustry context\n\nSemiconductor industry context: Wafer Works\n\nWafer Works / 合晶科技, Taiwan / Shanghai, produces silicon wafer materials. The case covers crystal growth, wafer processing and epitaxy.\n\nDigiwin describes production genealogy from silicon crystals to wafer lots, visibility into production progress and equipment status, and epitaxy history with quality parameter limits.\n\nFor an equipment-component supplier, these are useful questions about traceability and execution visibility to bring into its own process discussion.\n\nWafer Works / 合晶科技\n\nTALK WITH DIGIWIN VIETNAM\n\nDefine the fit with the team in Vietnam\n\nDigiwin Vietnam specialists assess factory operations, advise on business processes and support on-site solution transfer and factory acceptance.\n\nBring a current production-to-planning handoff to the discussion: its records, the people involved, the receiving decision and the gaps to resolve. This helps define the processes and implementation scope for your factory.\n\nReference source\n\nDigiwin semiconductor solutions: Wafer Works\n\nDigiwin Vietnam: supplier solutions and local delivery",
+      "title": "From lot records to the next operating decision | Digiwin",
+      "width": 1280,
+      "name": "public-P1-en-desktop"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "Define record ownership before a system handoff",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Illustration of a silicon crystal, a stack of wafers and an epitaxy chamber linked by data lines to a stack of record sheets and a range indicator.",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Digiwin semiconductor solutions: Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin Vietnam: supplier solutions and local services"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nSUPPLIER SYSTEMS\nIndustry context · Taiwan / Shanghai\nDefine record ownership before a system handoff\n\nFor semiconductor equipment-component suppliers, factory IT and operating teams need shared definitions, record responsibility and clear receiving decisions.\n\nIllustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.\n\n01\nWhere to start\n\nStart with one production record\n\nChoose one record that planning or quality teams need. Identify its meaning, update timing and production scope.\n\nRecord which team and system maintains it, who checks differences and who confirms the handoff.\n\n02\nRoles and responsibilities\n\nSeparate enterprise and production responsibilities\n\nERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.\n\nUse these roles to discuss record responsibility and process needs. Define the technical scope with the factory teams before selecting a handoff approach.\n\n03\nIndustry context\n\nIndustry context: Wafer Works\n\nWafer Works / 合晶科技 in Taiwan / Shanghai produces silicon wafer materials through crystal growth, wafer processing and epitaxy.\n\nThe case connects silicon crystals to wafer-lot production history and provides visibility into progress, equipment status and epitaxy records with quality parameter limits.\n\nThese production-information topics help factory teams identify the records and responsibilities to discuss in their own processes.\n\nWafer Works / 合晶科技\n\nTALK WITH DIGIWIN VIETNAM\n\nDefine the local factory scope\n\nDigiwin Vietnam assesses factory operations, advises on business processes and supports on-site solution transfer and factory acceptance.\n\nBring one current information handoff, its record owner, receiving decision and unresolved differences to a discussion of your process and implementation scope.\n\nReference source\n\nDigiwin semiconductor solutions: Wafer Works\n\nDigiwin Vietnam: supplier solutions and local services",
+      "title": "Define record ownership before a system handoff | Digiwin",
+      "width": 1280,
+      "name": "public-P2-en-desktop"
+    },
+    {
+      "clientWidth": 375,
+      "h1": "Define record ownership before a system handoff",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Illustration of a silicon crystal, a stack of wafers and an epitaxy chamber linked by data lines to a stack of record sheets and a range indicator.",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Digiwin semiconductor solutions: Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin Vietnam: supplier solutions and local services"
+        }
+      ],
+      "scrollWidth": 375,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nSUPPLIER SYSTEMS\nIndustry context · Taiwan / Shanghai\nDefine record ownership before a system handoff\n\nFor semiconductor equipment-component suppliers, factory IT and operating teams need shared definitions, record responsibility and clear receiving decisions.\n\nIllustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.\n\n01\nWhere to start\n\nStart with one production record\n\nChoose one record that planning or quality teams need. Identify its meaning, update timing and production scope.\n\nRecord which team and system maintains it, who checks differences and who confirms the handoff.\n\n02\nRoles and responsibilities\n\nSeparate enterprise and production responsibilities\n\nERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.\n\nUse these roles to discuss record responsibility and process needs. Define the technical scope with the factory teams before selecting a handoff approach.\n\n03\nIndustry context\n\nIndustry context: Wafer Works\n\nWafer Works / 合晶科技 in Taiwan / Shanghai produces silicon wafer materials through crystal growth, wafer processing and epitaxy.\n\nThe case connects silicon crystals to wafer-lot production history and provides visibility into progress, equipment status and epitaxy records with quality parameter limits.\n\nThese production-information topics help factory teams identify the records and responsibilities to discuss in their own processes.\n\nWafer Works / 合晶科技\n\nTALK WITH DIGIWIN VIETNAM\n\nDefine the local factory scope\n\nDigiwin Vietnam assesses factory operations, advises on business processes and supports on-site solution transfer and factory acceptance.\n\nBring one current information handoff, its record owner, receiving decision and unresolved differences to a discussion of your process and implementation scope.\n\nReference source\n\nDigiwin semiconductor solutions: Wafer Works\n\nDigiwin Vietnam: supplier solutions and local services",
+      "title": "Define record ownership before a system handoff | Digiwin",
+      "width": 390,
+      "name": "public-P2-en-mobile"
+    },
+    {
+      "clientWidth": 375,
+      "h1": "系統交接前，先釐清紀錄歸屬",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "示意圖：矽晶體、一疊晶圓與磊晶腔體，透過資料線連接一疊紀錄單與一條範圍指示條。",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "zh-Hant",
+      "links": [
+        {
+          "href": "#main",
+          "label": "跳至案例正文"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Digiwin 半導體解決方案：Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin 越南：供應商解決方案與在地服務"
+        }
+      ],
+      "scrollWidth": 375,
+      "text": "跳至案例正文\n製造業數位化方案\nTiếng Việt\nEnglish\n简体中文\n繁體中文\n供應商系統\n產業脈絡 · 台灣 / 上海\n系統交接前，先釐清紀錄歸屬\n\n半導體設備零組件供應商的工廠 IT 與營運團隊，需要共同釐清紀錄定義、維護責任及接收方決策。\n\n本頁專用示意圖：矽晶體、晶圓、磊晶與生產紀錄。並非Wafer Works或其設備的照片。\n\n01\n從何開始\n\n從一筆生產紀錄開始\n\n選定排程或品質團隊需要的一筆紀錄，釐清其定義、更新時間及生產範圍。\n\n確認由哪個團隊與系統維護、誰核對差異，以及誰確認交接。\n\n02\n角色與權責\n\n區分企業與生產的責任\n\nERP 支援企業訂單、物料、規劃與成本管理。製造執行解決方案支援生產進度、批次紀錄及品質資訊。\n\n用這些角色梳理紀錄責任與流程需求。先與工廠團隊界定技術範圍，再選擇資訊交接方式。\n\n03\n產業脈絡\n\n產業脈絡：Wafer Works\n\nWafer Works / 合晶科技在台灣 / 上海生產矽晶圓材料，涵蓋晶體生長、晶圓加工及磊晶。\n\n案例將矽晶體連結到各晶圓批次的生產履歷，並呈現進度、設備狀態及設有品質參數限值的磊晶紀錄。\n\n工廠團隊可據此釐清自身流程討論需要關注的生產紀錄及責任。\n\nWafer Works / 合晶科技\n\n與DIGIWIN越南交流\n\n與越南團隊界定本廠範圍\n\nDigiwin 越南團隊評估工廠營運、提供業務流程建議，並支援現場方案移交及工廠驗收。\n\n帶上一項現有資訊交接、紀錄維護方、接收方決策及待核對差異，共同梳理流程與實施範圍。\n\n參考來源\n\nDigiwin 半導體解決方案：Wafer Works\n\nDigiwin 越南：供應商解決方案與在地服務",
+      "title": "系統交接前，先釐清紀錄歸屬 | Digiwin",
+      "width": 390,
+      "name": "public-P2-toggle-zhHant"
+    },
+    {
+      "clientWidth": 375,
+      "h1": "系統交接前，先釐清紀錄歸屬",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "示意圖：矽晶體、一疊晶圓與磊晶腔體，透過資料線連接一疊紀錄單與一條範圍指示條。",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "zh-Hant",
+      "links": [
+        {
+          "href": "#main",
+          "label": "跳至案例正文"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Digiwin 半導體解決方案：Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin 越南：供應商解決方案與在地服務"
+        }
+      ],
+      "scrollWidth": 375,
+      "text": "跳至案例正文\n製造業數位化方案\nTiếng Việt\nEnglish\n简体中文\n繁體中文\n供應商系統\n產業脈絡 · 台灣 / 上海\n系統交接前，先釐清紀錄歸屬\n\n半導體設備零組件供應商的工廠 IT 與營運團隊，需要共同釐清紀錄定義、維護責任及接收方決策。\n\n本頁專用示意圖：矽晶體、晶圓、磊晶與生產紀錄。並非Wafer Works或其設備的照片。\n\n01\n從何開始\n\n從一筆生產紀錄開始\n\n選定排程或品質團隊需要的一筆紀錄，釐清其定義、更新時間及生產範圍。\n\n確認由哪個團隊與系統維護、誰核對差異，以及誰確認交接。\n\n02\n角色與權責\n\n區分企業與生產的責任\n\nERP 支援企業訂單、物料、規劃與成本管理。製造執行解決方案支援生產進度、批次紀錄及品質資訊。\n\n用這些角色梳理紀錄責任與流程需求。先與工廠團隊界定技術範圍，再選擇資訊交接方式。\n\n03\n產業脈絡\n\n產業脈絡：Wafer Works\n\nWafer Works / 合晶科技在台灣 / 上海生產矽晶圓材料，涵蓋晶體生長、晶圓加工及磊晶。\n\n案例將矽晶體連結到各晶圓批次的生產履歷，並呈現進度、設備狀態及設有品質參數限值的磊晶紀錄。\n\n工廠團隊可據此釐清自身流程討論需要關注的生產紀錄及責任。\n\nWafer Works / 合晶科技\n\n與DIGIWIN越南交流\n\n與越南團隊界定本廠範圍\n\nDigiwin 越南團隊評估工廠營運、提供業務流程建議，並支援現場方案移交及工廠驗收。\n\n帶上一項現有資訊交接、紀錄維護方、接收方決策及待核對差異，共同梳理流程與實施範圍。\n\n參考來源\n\nDigiwin 半導體解決方案：Wafer Works\n\nDigiwin 越南：供應商解決方案與在地服務",
+      "title": "系統交接前，先釐清紀錄歸屬 | Digiwin",
+      "width": 390,
+      "name": "public-P2-zhHant-reload"
+    },
+    {
+      "clientWidth": 375,
+      "h1": "From lot records to the next operating decision",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Illustration of a silicon crystal, a stack of wafers and an epitaxy chamber linked by data lines to a stack of record sheets and a range indicator.",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Digiwin semiconductor solutions: Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin Vietnam: supplier solutions and local delivery"
+        }
+      ],
+      "scrollWidth": 375,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nSUPPLIER OPERATIONS\nIndustry context · Taiwan / Shanghai\nFrom lot records to the next operating decision\n\nFor semiconductor equipment-component suppliers, progress and quality information becomes useful when the source, scope and decision owner are clear.\n\nIllustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.\n\n01\nWhere to start\n\nStart with one handoff\n\nChoose one production lot and the planning decision that needs its progress or quality status. Identify the source record, when it was updated, and what it covers.\n\nAgree who checks a mismatch, who receives the confirmed information and what evidence they need before the next step.\n\n02\nRoles and responsibilities\n\nKeep planning and production evidence in their roles\n\nERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.\n\nMap the information each team needs before defining the solution scope and data handoff.\n\n03\nIndustry context\n\nSemiconductor industry context: Wafer Works\n\nWafer Works / 合晶科技, Taiwan / Shanghai, produces silicon wafer materials. The case covers crystal growth, wafer processing and epitaxy.\n\nDigiwin describes production genealogy from silicon crystals to wafer lots, visibility into production progress and equipment status, and epitaxy history with quality parameter limits.\n\nFor an equipment-component supplier, these are useful questions about traceability and execution visibility to bring into its own process discussion.\n\nWafer Works / 合晶科技\n\nTALK WITH DIGIWIN VIETNAM\n\nDefine the fit with the team in Vietnam\n\nDigiwin Vietnam specialists assess factory operations, advise on business processes and support on-site solution transfer and factory acceptance.\n\nBring a current production-to-planning handoff to the discussion: its records, the people involved, the receiving decision and the gaps to resolve. This helps define the processes and implementation scope for your factory.\n\nReference source\n\nDigiwin semiconductor solutions: Wafer Works\n\nDigiwin Vietnam: supplier solutions and local delivery",
+      "title": "From lot records to the next operating decision | Digiwin",
+      "width": 390,
+      "name": "public-P1-en-mobile"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "A shared starting point for quality review",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Group outside the customer building holding a banner bearing Digiwin branding and the name 江苏中科智芯集成科技有限公司.",
+          "complete": true,
+          "naturalWidth": 1080
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.sohu.com/a/420465147_722372",
+          "label": "Source: 鼎捷智造___new on Sohu · original photo contains Chinese text"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/contact-vn/",
+          "label": "Discuss records and review ownership"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+          "label": "Read the Chinese case collection"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nPACKAGING & TESTING\nReference case · China\nA shared starting point for quality review\n\nAn unexpected test result calls for a clear starting point: the lot, the production context and the person who checks the record next. Explore how a named packaging and testing business connects production records with Digiwin ERP + iMES.\n\nDigiwin’s visit to 江苏中科智芯集成科技有限公司 · September 2020.\nSource: 鼎捷智造___new on Sohu · original photo contains Chinese text\n\n01\nThe business context\n\nRecords and processes need to work together\n\nAccording to the case published by Digiwin Vietnam, 江苏中科智芯集成科技有限公司 in China implemented an integrated ERP + iMES solution. The published problems include disorganized records, nonstandard processes and low outsourcing and production efficiency.\n\nERP + iMES\n江苏中科智芯集成科技有限公司\n\n02\nInside the case\n\nHow the implementation connects information\n\nThe published mechanisms span shopfloor data, production records, parameter changes and exception handling within the integrated solution.\n\nShopfloor information · SPC\n\nSPC (statistical process control) collects and analyzes shopfloor information in real time.\n\nParameter changes · ECN\n\nECN (engineering change notice) distributes process parameter changes in real time.\n\nLinked records\n\nMES links batches, workstations, operators and products/materials for tracing from different perspectives.\n\nException recording & escalation\n\nThe system automatically opens exception records and escalates them through successive levels.\n\n03\nReview your current setup\n\nGive Quality and Operations a shared basis for the next check\n\nUse the case as a reference for these questions about your own review workflow.\n\nStart from the same lot and context\n\nWhen a result needs review, can both teams locate the lot, test time and related production record?\n\nINFORMATION TO PREPARE\nPrepare one example of a lot record and how it reaches the review team.\n\nMake the next check and owner clear\n\nWho confirms the information source, checks missing records and follows up an exception?\n\nINFORMATION TO PREPARE\nPrepare your current handoff steps and the roles responsible for each check.\n\nKeep changes visible during review\n\nWhere do teams find the applicable parameter revision and the record of an exception?\n\nINFORMATION TO PREPARE\nPrepare one parameter-change record and an example of exception follow-up.\n\nA clear view of records and responsibilities can help your teams identify where coordination needs attention. Start the discussion with one actual review workflow at your company.\n\nTALK WITH DIGIWIN VIETNAM\n\nBring one quality-review workflow to the discussion\n\nDescribe how Quality and Operations share lot records, confirm changes and assign the next check. We provide digital solutions for manufacturing, from ERP to smart manufacturing.\n\nThe next step opens Digiwin Vietnam’s consultation request page in Vietnamese.\n\nDiscuss records and review ownership\nReference source\nRead the Chinese case collection\n\nIn the source, select 封装测试, then 案例 06 江苏中科智芯集成科技有限公司.\n\nSource: Simplified Chinese · this page summarizes the named case.",
+      "title": "A shared starting point for quality review | Digiwin",
+      "width": 1280,
+      "name": "public-smoke-O1"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "A shared basis for the next lot handoff",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Group outside the customer building holding a banner bearing Digiwin branding and the name 江苏中科智芯集成科技有限公司.",
+          "complete": true,
+          "naturalWidth": 1080
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.sohu.com/a/420465147_722372",
+          "label": "Source: 鼎捷智造___new on Sohu · original photo contains Chinese text"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/contact-vn/",
+          "label": "Discuss lot records and handoff responsibilities"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+          "label": "Read the Chinese case collection"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nPACKAGING & TESTING\nReference case · China\nA shared basis for the next lot handoff\n\nTwo status reports for the same lot may describe different stages or recording times. Before the next handoff, align the context, source record and confirmation owner. Explore how a named packaging and testing business connects production records with Digiwin ERP + iMES.\n\nDigiwin’s visit to 江苏中科智芯集成科技有限公司 · September 2020.\nSource: 鼎捷智造___new on Sohu · original photo contains Chinese text\n\n01\nThe business context\n\nRecords and processes need to work together\n\nAccording to the case published by Digiwin Vietnam, 江苏中科智芯集成科技有限公司 in China implemented an integrated ERP + iMES solution. The published problems include disorganized records, nonstandard processes and low outsourcing and production efficiency.\n\nERP + iMES\n江苏中科智芯集成科技有限公司\n\n02\nInside the case\n\nHow the implementation connects information\n\nThe published mechanisms span shopfloor data, production records, parameter changes and exception handling within the integrated solution.\n\nShopfloor information · SPC\n\nSPC (statistical process control) collects and analyzes shopfloor information in real time.\n\nParameter changes · ECN\n\nECN (engineering change notice) distributes process parameter changes in real time.\n\nLinked records\n\nMES links batches, workstations, operators and products/materials for tracing from different perspectives.\n\nException recording & escalation\n\nThe system automatically opens exception records and escalates them through successive levels.\n\n03\nReview your current setup\n\nGive Operations and Quality a shared basis for the next handoff\n\nUse the case as a reference for these questions about your current lot-handoff workflow.\n\nCompare the same lot, stage and recording time\n\nDo the reports describe the same process stage and recording time? Different status reports may both be correct when their context differs.\n\nINFORMATION TO PREPARE\nPrepare two status reports for one lot, with the stage and recording time of each.\n\nIdentify the record that supports the handoff\n\nWhich source record supports the next step, and what information does the receiving team need?\n\nINFORMATION TO PREPARE\nPrepare the source record for one handoff and the receiving team’s information requirements.\n\nMake the confirmation owner and next check clear\n\nWho checks missing information, confirms the applicable parameter revision and follows up exceptions before a status update?\n\nINFORMATION TO PREPARE\nPrepare the confirmation roles and one example of a missing record, parameter change or exception.\n\nA shared view of lot context, source records and responsibilities can help teams identify where a handoff needs attention. Start the discussion with one actual handoff at your company.\n\nTALK WITH DIGIWIN VIETNAM\n\nBring one lot-handoff workflow to the discussion\n\nDescribe how Operations and Quality compare status reports, confirm the source record and assign the next check. We provide digital solutions for manufacturing, from ERP to smart manufacturing.\n\nThe next step opens Digiwin Vietnam’s consultation request page in Vietnamese.\n\nDiscuss lot records and handoff responsibilities\nReference source\nRead the Chinese case collection\n\nIn the source, select 封装测试, then 案例 06 江苏中科智芯集成科技有限公司.\n\nSource: Simplified Chinese · this page summarizes the named case.",
+      "title": "A shared basis for the next lot handoff | Digiwin",
+      "width": 1280,
+      "name": "public-smoke-O2"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "Bring factory records into the month-end discussion",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Group outside the customer building holding a banner bearing Digiwin branding and the name 江苏中科智芯集成科技有限公司.",
+          "complete": true,
+          "naturalWidth": 1080
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.sohu.com/a/420465147_722372",
+          "label": "Source: 鼎捷智造___new on Sohu · original photo contains Chinese text"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/contact-vn/",
+          "label": "Discuss month-end records and handoff ownership"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+          "label": "Read the Chinese case collection"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nPACKAGING & TESTING\nReference case · China\nBring factory records into the month-end discussion\n\nBefore the cut-off, which lot records does Finance still need from Operations? Align unfinished work, completed output and losses for the same period, then clarify who confirms the handoff. Explore a named packaging and testing case using integrated Digiwin ERP + iMES.\n\nDigiwin’s visit to 江苏中科智芯集成科技有限公司 · September 2020.\nSource: 鼎捷智造___new on Sohu · original photo contains Chinese text\n\n01\nThe business context\n\nRecords and processes need to work together\n\nAccording to the case published by Digiwin Vietnam, 江苏中科智芯集成科技有限公司 in China implemented an integrated ERP + iMES solution. The published problems include disorganized records, nonstandard processes and low outsourcing and production efficiency.\n\nReported month-close duration\n\n15 days → 5 days\n\nDigiwin Vietnam reports this change for 江苏中科智芯集成科技有限公司 in China, using integrated ERP + iMES. This is a case result, not a promised close time or a calculation of financial ROI.\n\nERP + iMES\n江苏中科智芯集成科技有限公司\n\n02\nInside the case\n\nHow the implementation connects information\n\nThe published mechanisms span shopfloor data, production records, parameter changes and exception handling within the integrated solution.\n\nShopfloor information · SPC\n\nSPC (statistical process control) collects and analyzes shopfloor information in real time.\n\nParameter changes · ECN\n\nECN (engineering change notice) distributes process parameter changes in real time.\n\nLinked records\n\nMES links batches, workstations, operators and products/materials for tracing from different perspectives.\n\nException recording & escalation\n\nThe system automatically opens exception records and escalates them through successive levels.\n\n03\nReview your current setup\n\nGive Operations and Finance a shared basis before the cut-off\n\nUse the case as a reference for these questions about your current month-end records and handoff.\n\nLocate unfinished work by lot at cut-off\n\nFor each lot, which production stage and source record support the unfinished quantity, and who can verify it?\n\nINFORMATION TO PREPARE\nPrepare one lot’s unfinished-work record, its cut-off time and the role that confirms it.\n\nReconcile output and losses for the same period\n\nWhich records explain completed output, scrap and losses for the period under review with Finance?\n\nINFORMATION TO PREPARE\nPrepare output and loss records for one period, including the source and unresolved differences.\n\nAgree who confirms the handoff to Finance\n\nWho checks the factory records, confirms the figures and resolves missing information before the handoff?\n\nINFORMATION TO PREPARE\nPrepare the confirmation roles, handoff time and one example of a record waiting for review.\n\nClearer record sources and confirmation responsibilities can help teams identify where month-end coordination needs attention. The reported close-time result is a reference for discussion, not a forecast for another factory.\n\nTALK WITH DIGIWIN VIETNAM\n\nBring one month-end record handoff to the discussion\n\nDescribe how Operations prepares unfinished-work, output and loss records, and how the handoff to Finance is confirmed. We provide digital solutions for manufacturing, from ERP to smart manufacturing.\n\nThe next step opens Digiwin Vietnam’s consultation request page in Vietnamese.\n\nDiscuss month-end records and handoff ownership\nReference source\nRead the Chinese case collection\n\nIn the source, select 封装测试, then 案例 06 江苏中科智芯集成科技有限公司.\n\nSource: Simplified Chinese · this page summarizes the named case.",
+      "title": "Bring factory records into the month-end discussion | Digiwin",
+      "width": 1280,
+      "name": "public-smoke-O3"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "Three questions before the next lot handoff",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Group outside the customer building holding a banner bearing Digiwin branding and the name 江苏中科智芯集成科技有限公司.",
+          "complete": true,
+          "naturalWidth": 1080
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.sohu.com/a/420465147_722372",
+          "label": "Source: 鼎捷智造___new on Sohu · original photo contains Chinese text"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/contact-vn/",
+          "label": "Discuss lot records and handoff responsibilities"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+          "label": "Read the Chinese case collection"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nPACKAGING & TESTING\nReference case · China\nThree questions before the next lot handoff\n\nAre the reports describing the same lot, stage and recording time? Which source record supports the handoff? Who confirms missing information before the next step? Use these three questions to review your workflow, then explore linked production records in a named China case using integrated Digiwin ERP + iMES.\n\nDigiwin’s visit to 江苏中科智芯集成科技有限公司 · September 2020.\nSource: 鼎捷智造___new on Sohu · original photo contains Chinese text\n\n01\nThe business context\n\nRecords and processes need to work together\n\nAccording to the case published by Digiwin Vietnam, 江苏中科智芯集成科技有限公司 in China implemented an integrated ERP + iMES solution. The published problems include disorganized records, nonstandard processes and low outsourcing and production efficiency.\n\nERP + iMES\n江苏中科智芯集成科技有限公司\n\n02\nInside the case\n\nHow the implementation connects information\n\nThe published mechanisms span shopfloor data, production records, parameter changes and exception handling within the integrated solution.\n\nShopfloor information · SPC\n\nSPC (statistical process control) collects and analyzes shopfloor information in real time.\n\nParameter changes · ECN\n\nECN (engineering change notice) distributes process parameter changes in real time.\n\nLinked records\n\nMES links batches, workstations, operators and products/materials for tracing from different perspectives.\n\nException recording & escalation\n\nThe system automatically opens exception records and escalates them through successive levels.\n\n03\nReview your current setup\n\nUse three questions to prepare the next handoff\n\nBring Operations and Quality into the same discussion about comparison scope, source records and confirmation responsibilities.\n\nCompare the same lot, stage and recording time\n\nDo the reports describe the same process stage and recording time? Different status reports may both be correct when their context differs.\n\nINFORMATION TO PREPARE\nPrepare two status reports for one lot, with the stage and recording time of each.\n\nIdentify the record that supports the handoff\n\nWhich source record supports the next step, and what information does the receiving team need?\n\nINFORMATION TO PREPARE\nPrepare the source record for one handoff and the receiving team’s information requirements.\n\nMake the confirmation owner and next check clear\n\nWho checks missing information and its source, and who confirms the next step before the receiving team updates lot status?\n\nINFORMATION TO PREPARE\nPrepare the confirmation roles and one example of missing information in a lot handoff.\n\nA shared view of lot context, source records and responsibilities can help teams identify where a handoff needs attention. Start the discussion with one actual handoff at your company.\n\nTALK WITH DIGIWIN VIETNAM\n\nBring one lot-handoff workflow to the discussion\n\nDescribe how Operations and Quality compare status reports, confirm the source record and assign the next check. We provide digital solutions for manufacturing, from ERP to smart manufacturing.\n\nThe next step opens Digiwin Vietnam’s consultation request page in Vietnamese.\n\nDiscuss lot records and handoff responsibilities\nReference source\nRead the Chinese case collection\n\nIn the source, select 封装测试, then 案例 06 江苏中科智芯集成科技有限公司.\n\nSource: Simplified Chinese · this page summarizes the named case.",
+      "title": "Three questions before the next lot handoff | Digiwin",
+      "width": 1280,
+      "name": "public-smoke-O4-O"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "Three questions before reviewing unusual test results",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Group outside the customer building holding a banner bearing Digiwin branding and the name 江苏中科智芯集成科技有限公司.",
+          "complete": true,
+          "naturalWidth": 1080
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.sohu.com/a/420465147_722372",
+          "label": "Source: 鼎捷智造___new on Sohu · original photo contains Chinese text"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/contact-vn/",
+          "label": "Discuss quality-review records and owners"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+          "label": "Read the Chinese case collection"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nPACKAGING & TESTING\nReference case · China\nThree questions before reviewing unusual test results\n\nWhich lot are we reviewing? What context needs checking? Who checks what is missing? Use these three questions to align a quality review of unusual test results, then explore how linked production records work in a named China case using integrated Digiwin ERP + iMES.\n\nDigiwin’s visit to 江苏中科智芯集成科技有限公司 · September 2020.\nSource: 鼎捷智造___new on Sohu · original photo contains Chinese text\n\n01\nThe business context\n\nRecords and processes need to work together\n\nAccording to the case published by Digiwin Vietnam, 江苏中科智芯集成科技有限公司 in China implemented an integrated ERP + iMES solution. The published problems include disorganized records, nonstandard processes and low outsourcing and production efficiency.\n\nERP + iMES\n江苏中科智芯集成科技有限公司\n\n02\nInside the case\n\nHow the implementation connects information\n\nThe published mechanisms span shopfloor data, production records, parameter changes and exception handling within the integrated solution.\n\nShopfloor information · SPC\n\nSPC (statistical process control) collects and analyzes shopfloor information in real time.\n\nParameter changes · ECN\n\nECN (engineering change notice) distributes process parameter changes in real time.\n\nLinked records\n\nMES links batches, workstations, operators and products/materials for tracing from different perspectives.\n\nException recording & escalation\n\nThe system automatically opens exception records and escalates them through successive levels.\n\n03\nReview your current setup\n\nGive the review a shared basis before discussing causes\n\nBring Quality, Operations and test colleagues into one discussion about the lot, the surrounding records and who checks what is missing. This is an information-management view that complements the technical evaluation.\n\nConfirm which lot is under review\n\nDo the lot ID, process stage and test time match the record? If lots were split or merged, are the relationships between records clear?\n\nINFORMATION TO PREPARE\nPrepare the records for one unusual test result, with lot ID, process stage and test time.\n\nCheck the surrounding context\n\nWhat do the records show about people, machines, materials, methods and environment? What else needs checking before discussing causes?\n\nINFORMATION TO PREPARE\nPrepare the records you have for people, machines, materials, methods and environment around that lot.\n\nName who checks what is missing\n\nWhich source needs confirming, who checks it and what information is missing? Who is the next reviewer, and what should be added to the shared basis?\n\nINFORMATION TO PREPARE\nPrepare the source to confirm, the person checking it and one example of missing information.\n\nA shared view of the lot, its records and the review owners helps teams decide the next check without assuming a cause. Start the discussion with one actual unusual result at your company.\n\nTALK WITH DIGIWIN VIETNAM\n\nBring one unusual test result to the discussion\n\nDescribe how Quality and Operations align on the lot, check context and assign the next reviewer. We provide digital solutions for manufacturing, from ERP to smart manufacturing.\n\nThe next step opens Digiwin Vietnam’s consultation request page in Vietnamese.\n\nDiscuss quality-review records and owners\nReference source\nRead the Chinese case collection\n\nIn the source, select 封装测试, then 案例 06 江苏中科智芯集成科技有限公司.\n\nSource: Simplified Chinese · this page summarizes the named case.",
+      "title": "Three questions before reviewing unusual test results | Digiwin",
+      "width": 1280,
+      "name": "public-smoke-O4-Q"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "Three questions before the next partner production update",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/contact-vn/",
+          "label": "Discuss partner reports and update responsibilities"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+          "label": "Read the Chinese case collection"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nCHIP DESIGN\nReference case · China\nThree questions before the next partner production update\n\nWhich lot and process stage does each partner report describe? When was it recorded? Who confirms a production update? Use these questions to review how you coordinate outsourced production, then read a named China chip-design case.\n\nIllustration made for this page: a design team, outsourced production lots and record sheets. Not a photo of the customer or its sites.\n\n01\nThe business context\n\nOutsourcing coordination and information responsibilities\n\nThe Digiwin Vietnam case collection presents Bright Power, 上海晶丰明源半导体股份有限公司, as a chip-design company in China. The source lists a long engineering response cycle, slow order response and low outsourcing-management efficiency, and describes an integrated digital solution.\n\n上海晶丰明源半导体股份有限公司\n\n02\nWhat the source reports\n\nThree challenges named in the case\n\nThe source states the challenges and describes the solution only as integrated; it gives no detail on specific modules, so this page does not describe how the implementation works. The source notes that order handling and outsourcing coordination can also become a bottleneck for fabless companies.\n\nEngineering response\n\nThe source lists a long engineering response cycle.\n\nOrder response\n\nThe source lists slow order response.\n\nOutsourcing management\n\nThe source lists low outsourcing-management efficiency.\n\n03\nReview your current setup\n\nUse three questions to prepare the next production update\n\nBring operations and supply-chain colleagues into one discussion about what each partner report covers and who confirms it.\n\nMatch each report to a lot and stage\n\nWhich lot and process stage does each partner report describe, and when was it recorded?\n\nINFORMATION TO PREPARE\nPrepare two partner reports for one lot, with the stage and recording time of each.\n\nName who confirms the update\n\nWho confirms a production update before it informs the next decision?\n\nINFORMATION TO PREPARE\nPrepare the people or roles who confirm updates on both sides.\n\nAgree shared reporting conventions\n\nWhich shared reporting conventions support the next decision?\n\nINFORMATION TO PREPARE\nPrepare the identifiers, status terms and timing rules each partner uses.\n\nAligning lot, stage, timing and confirmation across partner reports helps teams see where coordination needs attention. Start with one actual partner update at your company.\n\nTALK WITH DIGIWIN VIETNAM\n\nBring one outsourced-production update to the discussion\n\nDescribe how your team reads partner reports, confirms updates and decides the next step. We provide digital solutions for manufacturing, from ERP to smart manufacturing.\n\nThe next step opens Digiwin Vietnam’s consultation request page in Vietnamese.\n\nDiscuss partner reports and update responsibilities\nReference source\nRead the Chinese case collection\n\nIn the source, select IC设计, then 案例 04 上海晶丰明源半导体股份有限公司.\n\nSource: Simplified Chinese · this page summarizes the named case.",
+      "title": "Three questions before the next partner production update | Digiwin",
+      "width": 1280,
+      "name": "public-smoke-F1"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "Three questions before the next outsourcing plan",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Illustration of a chip-design desk linked by data lines to three separate production sites and a stack of record sheets with a tag.",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/contact-vn/",
+          "label": "Discuss demand changes and partner information"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+          "label": "Read the Chinese case collection"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nCHIP DESIGN\nReference case · China\nThree questions before the next outsourcing plan\n\nWhich product and planning period does the demand change concern? Which outsourced lots need review? Who confirms missing partner information before the next plan? Use these questions to review your planning discussion, then read a named China chip-design case.\n\nIllustration made for this page: a design team, outsourced production lots and record sheets. Not a photo of the customer or its sites.\n\n01\nThe business context\n\nOutsourcing coordination and information responsibilities\n\nThe Digiwin Vietnam case collection presents Bright Power, 上海晶丰明源半导体股份有限公司, as a chip-design company in China. The source lists a long engineering response cycle, slow order response and low outsourcing-management efficiency, and describes an integrated digital solution.\n\n上海晶丰明源半导体股份有限公司\n\n02\nWhat the source reports\n\nThree challenges named in the case\n\nThe source states the challenges and describes the solution only as integrated; it gives no detail on specific modules, so this page does not describe how the implementation works. The source notes that order handling and outsourcing coordination can also become a bottleneck for fabless companies.\n\nEngineering response\n\nThe source lists a long engineering response cycle.\n\nOrder response\n\nThe source lists slow order response.\n\nOutsourcing management\n\nThe source lists low outsourcing-management efficiency.\n\n03\nReview your current setup\n\nUse three questions to prepare the next planning discussion\n\nBring planning and operations colleagues into one discussion about the demand change, the lots it affects and the partner information behind them.\n\nScope the demand change\n\nWhich product and planning period does the demand change concern?\n\nINFORMATION TO PREPARE\nPrepare the demand change, the product and the planning period it affects.\n\nIdentify the outsourced lots to review\n\nWhich outsourced lots need review because of the change?\n\nINFORMATION TO PREPARE\nPrepare the lots in process at partners that the change may touch.\n\nConfirm partner information before planning\n\nWhen were partner reports recorded, what is their source, and who will confirm missing information before the next plan is discussed?\n\nINFORMATION TO PREPARE\nPrepare the recording time and source of each partner report, and who confirms gaps.\n\nClarifying the demand change, the affected lots and the source of partner information helps teams see where planning needs attention. Start with one actual demand change at your company.\n\nTALK WITH DIGIWIN VIETNAM\n\nBring one demand change to the discussion\n\nDescribe how your team reviews outsourced lots and partner reports when demand changes. We provide digital solutions for manufacturing, from ERP to smart manufacturing.\n\nThe next step opens Digiwin Vietnam’s consultation request page in Vietnamese.\n\nDiscuss demand changes and partner information\nReference source\nRead the Chinese case collection\n\nIn the source, select IC设计, then 案例 04 上海晶丰明源半导体股份有限公司.\n\nSource: Simplified Chinese · this page summarizes the named case.",
+      "title": "Three questions before the next outsourcing plan | Digiwin",
+      "width": 1280,
+      "name": "public-smoke-F2"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "Three questions before the next partner handoff",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Illustration of a chip-design desk linked by data lines to three separate production sites and a stack of record sheets with a tag.",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/contact-vn/",
+          "label": "Discuss handoff records and confirmation"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+          "label": "Read the Chinese case collection"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nCHIP DESIGN\nReference case · China\nThree questions before the next partner handoff\n\nWhich handoff point and product are under review? Which lot and record sources accompany the handoff? If identifiers differ or information is missing, who confirms it on each side? Use these questions to review your handoff, then read a named China chip-design case.\n\nIllustration made for this page: a design team, outsourced production lots and record sheets. Not a photo of the customer or its sites.\n\n01\nThe business context\n\nOutsourcing coordination and information responsibilities\n\nThe Digiwin Vietnam case collection presents Bright Power, 上海晶丰明源半导体股份有限公司, as a chip-design company in China. The source lists a long engineering response cycle, slow order response and low outsourcing-management efficiency, and describes an integrated digital solution.\n\n上海晶丰明源半导体股份有限公司\n\n02\nWhat the source reports\n\nThree challenges named in the case\n\nThe source states the challenges and describes the solution only as integrated; it gives no detail on specific modules, so this page does not describe how the implementation works. The source notes that order handling and outsourcing coordination can also become a bottleneck for fabless companies.\n\nEngineering response\n\nThe source lists a long engineering response cycle.\n\nOrder response\n\nThe source lists slow order response.\n\nOutsourcing management\n\nThe source lists low outsourcing-management efficiency.\n\n03\nReview your current setup\n\nUse three questions to prepare the next handoff\n\nBring both sides of the handoff into one discussion about its scope, the records that travel with it and who confirms differences.\n\nDefine the handoff point and product\n\nWhich handoff point and product are under review?\n\nINFORMATION TO PREPARE\nPrepare one handoff point and the product it concerns.\n\nList the lot and record sources\n\nWhich lots and record sources accompany the handoff?\n\nINFORMATION TO PREPARE\nPrepare the lots and the records or sources that travel with the handoff.\n\nAgree who confirms differences\n\nIf identifiers differ or information is missing, who confirms it on each side before the partners agree the next step?\n\nINFORMATION TO PREPARE\nPrepare an example of mismatched or missing information and the confirming roles on each side.\n\nDefining the handoff point, its records and the people who confirm differences helps both sides see where the handoff needs attention. Start with one actual handoff at your company.\n\nTALK WITH DIGIWIN VIETNAM\n\nBring one partner handoff to the discussion\n\nDescribe how your team and the partner agree the lots, records and confirmations at a handoff. We provide digital solutions for manufacturing, from ERP to smart manufacturing.\n\nThe next step opens Digiwin Vietnam’s consultation request page in Vietnamese.\n\nDiscuss handoff records and confirmation\nReference source\nRead the Chinese case collection\n\nIn the source, select IC设计, then 案例 04 上海晶丰明源半导体股份有限公司.\n\nSource: Simplified Chinese · this page summarizes the named case.",
+      "title": "Three questions before the next partner handoff | Digiwin",
+      "width": 1280,
+      "name": "public-smoke-F3"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "From lot records to the next operating decision",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Illustration of a silicon crystal, a stack of wafers and an epitaxy chamber linked by data lines to a stack of record sheets and a range indicator.",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Digiwin semiconductor solutions: Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin Vietnam: supplier solutions and local delivery"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nSUPPLIER OPERATIONS\nIndustry context · Taiwan / Shanghai\nFrom lot records to the next operating decision\n\nFor semiconductor equipment-component suppliers, progress and quality information becomes useful when the source, scope and decision owner are clear.\n\nIllustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.\n\n01\nWhere to start\n\nStart with one handoff\n\nChoose one production lot and the planning decision that needs its progress or quality status. Identify the source record, when it was updated, and what it covers.\n\nAgree who checks a mismatch, who receives the confirmed information and what evidence they need before the next step.\n\n02\nRoles and responsibilities\n\nKeep planning and production evidence in their roles\n\nERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.\n\nMap the information each team needs before defining the solution scope and data handoff.\n\n03\nIndustry context\n\nSemiconductor industry context: Wafer Works\n\nWafer Works / 合晶科技, Taiwan / Shanghai, produces silicon wafer materials. The case covers crystal growth, wafer processing and epitaxy.\n\nDigiwin describes production genealogy from silicon crystals to wafer lots, visibility into production progress and equipment status, and epitaxy history with quality parameter limits.\n\nFor an equipment-component supplier, these are useful questions about traceability and execution visibility to bring into its own process discussion.\n\nWafer Works / 合晶科技\n\nTALK WITH DIGIWIN VIETNAM\n\nDefine the fit with the team in Vietnam\n\nDigiwin Vietnam specialists assess factory operations, advise on business processes and support on-site solution transfer and factory acceptance.\n\nBring a current production-to-planning handoff to the discussion: its records, the people involved, the receiving decision and the gaps to resolve. This helps define the processes and implementation scope for your factory.\n\nReference source\n\nDigiwin semiconductor solutions: Wafer Works\n\nDigiwin Vietnam: supplier solutions and local delivery",
+      "title": "From lot records to the next operating decision | Digiwin",
+      "width": 1280,
+      "name": "public-smoke-P1"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "Define record ownership before a system handoff",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Illustration of a silicon crystal, a stack of wafers and an epitaxy chamber linked by data lines to a stack of record sheets and a range indicator.",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Digiwin semiconductor solutions: Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin Vietnam: supplier solutions and local services"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nSUPPLIER SYSTEMS\nIndustry context · Taiwan / Shanghai\nDefine record ownership before a system handoff\n\nFor semiconductor equipment-component suppliers, factory IT and operating teams need shared definitions, record responsibility and clear receiving decisions.\n\nIllustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.\n\n01\nWhere to start\n\nStart with one production record\n\nChoose one record that planning or quality teams need. Identify its meaning, update timing and production scope.\n\nRecord which team and system maintains it, who checks differences and who confirms the handoff.\n\n02\nRoles and responsibilities\n\nSeparate enterprise and production responsibilities\n\nERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.\n\nUse these roles to discuss record responsibility and process needs. Define the technical scope with the factory teams before selecting a handoff approach.\n\n03\nIndustry context\n\nIndustry context: Wafer Works\n\nWafer Works / 合晶科技 in Taiwan / Shanghai produces silicon wafer materials through crystal growth, wafer processing and epitaxy.\n\nThe case connects silicon crystals to wafer-lot production history and provides visibility into progress, equipment status and epitaxy records with quality parameter limits.\n\nThese production-information topics help factory teams identify the records and responsibilities to discuss in their own processes.\n\nWafer Works / 合晶科技\n\nTALK WITH DIGIWIN VIETNAM\n\nDefine the local factory scope\n\nDigiwin Vietnam assesses factory operations, advises on business processes and supports on-site solution transfer and factory acceptance.\n\nBring one current information handoff, its record owner, receiving decision and unresolved differences to a discussion of your process and implementation scope.\n\nReference source\n\nDigiwin semiconductor solutions: Wafer Works\n\nDigiwin Vietnam: supplier solutions and local services",
+      "title": "Define record ownership before a system handoff | Digiwin",
+      "width": 1280,
+      "name": "public-smoke-P2"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "Scope the customer question before collecting records",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Illustration of a silicon crystal, a stack of wafers and an epitaxy chamber linked by data lines to a stack of record sheets and a range indicator.",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Digiwin semiconductor solutions: Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin Vietnam: supplier solutions and local services"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nSUPPLIER QUALITY\nIndustry context · Taiwan / Shanghai\nScope the customer question before collecting records\n\nFor PCB suppliers serving semiconductor and electronics equipment, quality and operating teams need clear record scope, sources and review responsibility.\n\nIllustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.\n\n01\nWhere to start\n\nDefine the customer question\n\nIdentify the lot, process step, time period and information requested. Use this scope to decide which records matter to the response.\n\nName who compares those records with the request, who resolves differences and who confirms the response.\n\n02\nRoles and responsibilities\n\nSeparate enterprise and production records\n\nERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.\n\nIdentify the team or system maintaining each relevant source. Agree review responsibilities and unresolved gaps with factory teams before defining the solution scope.\n\n03\nIndustry context\n\nIndustry context: Wafer Works\n\nWafer Works / 合晶科技 in Taiwan / Shanghai produces silicon wafer materials through crystal growth, wafer processing and epitaxy.\n\nThe case connects silicon crystals to wafer-lot production history and provides visibility into progress, equipment status and epitaxy records with quality parameter limits.\n\nThis silicon-materials context helps quality teams discuss production record sources and scope. A PCB factory must define the records relevant to its own customer question.\n\nWafer Works / 合晶科技\n\nTALK WITH DIGIWIN VIETNAM\n\nDiscuss your factory scope with the Vietnam team\n\nDigiwin Vietnam assesses factory operations, advises on business processes and supports on-site solution transfer and factory acceptance.\n\nBring one customer lot question, the relevant record sources, a review owner and unresolved gaps to a discussion of your process and implementation scope.\n\nReference source\n\nDigiwin semiconductor solutions: Wafer Works\n\nDigiwin Vietnam: supplier solutions and local services",
+      "title": "Scope the customer question before collecting records | Digiwin",
+      "width": 1280,
+      "name": "public-smoke-P3"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "Từ hồ sơ lô đến quyết định vận hành tiếp theo",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Hình minh họa tinh thể silicon, chồng wafer và buồng epitaxy nối bằng đường dữ liệu với một chồng hồ sơ và thanh chỉ báo khoảng giới hạn.",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "vi",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Đến nội dung case"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Giải pháp bán dẫn Digiwin: Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin Việt Nam: giải pháp cho nhà cung ứng và triển khai tại địa phương"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Đến nội dung case\nGIẢI PHÁP CHO SẢN XUẤT\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nVẬN HÀNH NHÀ CUNG ỨNG\nBối cảnh ngành · Đài Loan / Thượng Hải\nTừ hồ sơ lô đến quyết định vận hành tiếp theo\n\nVới nhà cung ứng linh kiện thiết bị bán dẫn, thông tin tiến độ và chất lượng chỉ hữu ích khi nguồn, phạm vi và người ra quyết định đã rõ.\n\nHình minh họa dựng riêng cho trang này: tinh thể silicon, wafer, epitaxy và hồ sơ sản xuất. Không phải ảnh chụp Wafer Works hay thiết bị của họ.\n\n01\nĐiểm bắt đầu\n\nBắt đầu từ một lần bàn giao\n\nChọn một lô sản xuất và quyết định kế hoạch cần thông tin tiến độ hoặc chất lượng của lô đó. Xác định hồ sơ nguồn, thời điểm cập nhật và phạm vi hồ sơ bao phủ.\n\nThống nhất ai kiểm tra khi có sai lệch, ai nhận thông tin đã xác nhận và cần bằng chứng gì trước bước tiếp theo.\n\n02\nVai trò và trách nhiệm\n\nGiữ đúng vai trò của dữ liệu kế hoạch và sản xuất\n\nERP hỗ trợ đơn hàng, vật tư, kế hoạch và chi phí doanh nghiệp. Giải pháp thực thi sản xuất hỗ trợ tiến độ sản xuất, hồ sơ lô và thông tin chất lượng.\n\nXác định thông tin mỗi nhóm cần trước khi định nghĩa phạm vi giải pháp và cách bàn giao dữ liệu.\n\n03\nBối cảnh ngành\n\nBối cảnh ngành bán dẫn: Wafer Works\n\nWafer Works / 合晶科技 tại Đài Loan / Thượng Hải sản xuất vật liệu wafer silicon. Case bao gồm tăng trưởng tinh thể, gia công wafer và epitaxy.\n\nDigiwin mô tả phả hệ sản xuất từ tinh thể silicon đến từng lô wafer, khả năng quan sát tiến độ sản xuất và trạng thái thiết bị, cùng lịch sử epitaxy với giới hạn thông số chất lượng.\n\nVới nhà cung ứng linh kiện thiết bị, đây là những câu hỏi hữu ích về truy xuất và khả năng quan sát thực thi để đưa vào thảo luận về quy trình của chính mình.\n\nWafer Works / 合晶科技\n\nTRAO ĐỔI CÙNG DIGIWIN VIỆT NAM\n\nXác định mức phù hợp với đội ngũ tại Việt Nam\n\nChuyên gia Digiwin Việt Nam đánh giá vận hành nhà máy, tư vấn quy trình nghiệp vụ, hỗ trợ chuyển giao giải pháp tại hiện trường và nghiệm thu nhà máy.\n\nMang đến buổi trao đổi một lần bàn giao hiện tại từ sản xuất sang kế hoạch: hồ sơ, những người liên quan, quyết định tiếp nhận và các khoảng trống cần giải quyết. Điều này giúp xác định quy trình và phạm vi triển khai cho nhà máy của Quý Doanh Nghiệp.\n\nNguồn tham khảo\n\nGiải pháp bán dẫn Digiwin: Wafer Works\n\nDigiwin Việt Nam: giải pháp cho nhà cung ứng và triển khai tại địa phương",
+      "title": "Từ hồ sơ lô đến quyết định vận hành tiếp theo | Digiwin",
+      "width": 1280,
+      "name": "public-P1-vi"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "从批次记录到下一步运营决策",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "示意图：硅晶体、一叠晶圆和外延腔体，通过数据线连接一叠记录单和一个范围指示条。",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "zh-Hans",
+      "links": [
+        {
+          "href": "#main",
+          "label": "跳至案例正文"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Digiwin 半导体解决方案：Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin 越南：供应商解决方案与本地服务"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "跳至案例正文\n制造业数字化方案\nTiếng Việt\nEnglish\n简体中文\n繁體中文\n供应商运营\n行业情境 · 台湾 / 上海\n从批次记录到下一步运营决策\n\n对半导体设备零部件供应商而言，进度与质量信息的来源、范围和决策责任清楚，信息才能支持行动。\n\n本页专用示意图：硅晶体、晶圆、外延与生产记录。并非Wafer Works或其设备的照片。\n\n01\n从哪里开始\n\n从一次信息交接开始\n\n选择一个生产批次，确定需要其进度或质量状态的排产决策。明确记录来源、更新时间和覆盖范围。\n\n约定谁核对差异、谁接收确认后的信息，以及下一步需要什么证据。\n\n02\n角色与责任\n\n分清排产与生产记录的角色\n\nERP 支持企业订单、物料、计划与成本管理。制造执行解决方案支持生产进度、批次记录与质量信息。\n\n先梳理各团队所需的信息，再界定方案范围和数据交接。\n\n03\n行业情境\n\n半导体行业场景：Wafer Works\n\nWafer Works / 合晶科技在台湾 / 上海生产硅晶圆材料。案例涵盖晶体生长、晶圆加工与外延。\n\nDigiwin 方案支持从硅晶体到晶圆批次的生产追溯、生产进度与设备状态可视性，以及带有质量参数限值的外延履历。\n\n设备零部件供应商可以把这些追溯与执行信息问题带入本厂的流程讨论。\n\nWafer Works / 合晶科技\n\n与DIGIWIN越南交流\n\n与越南团队明确本厂需求\n\nDigiwin 越南团队评估工厂运营、提供业务流程建议，并支持现场方案移交与工厂验收。\n\n带上一次现有的生产到排产信息交接：相关记录、参与人员、接收方决策和待解决的差距，以便界定本厂流程与实施范围。\n\n参考来源\n\nDigiwin 半导体解决方案：Wafer Works\n\nDigiwin 越南：供应商解决方案与本地服务",
+      "title": "从批次记录到下一步运营决策 | Digiwin",
+      "width": 1280,
+      "name": "public-P1-zh-Hans"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "從批次紀錄到下一步營運決策",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "示意圖：矽晶體、一疊晶圓與磊晶腔體，透過資料線連接一疊紀錄單與一條範圍指示條。",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "zh-Hant",
+      "links": [
+        {
+          "href": "#main",
+          "label": "跳至案例正文"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Digiwin 半導體解決方案：Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin 越南：供應商解決方案與在地服務"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "跳至案例正文\n製造業數位化方案\nTiếng Việt\nEnglish\n简体中文\n繁體中文\n供應商營運\n產業脈絡 · 台灣 / 上海\n從批次紀錄到下一步營運決策\n\n對半導體設備零組件供應商而言，進度與品質資訊的來源、範圍及決策責任清楚，資料才能支持後續行動。\n\n本頁專用示意圖：矽晶體、晶圓、磊晶與生產紀錄。並非Wafer Works或其設備的照片。\n\n01\n從何開始\n\n從一次資料交接開始\n\n選定一個生產批次，確認需要其進度或品質狀態的排程決策。釐清紀錄來源、更新時間及涵蓋範圍。\n\n約定誰核對差異、誰接收確認後的資訊，以及下一步需要哪些佐證。\n\n02\n角色與權責\n\n分清排程與生產紀錄的角色\n\nERP 支援企業訂單、物料、計畫及成本管理。製造執行解決方案支援生產進度、批次紀錄及品質資訊。\n\n先盤點各團隊需要的資訊，再界定方案範圍與資料交接。\n\n03\n產業脈絡\n\n半導體產業情境：Wafer Works\n\nWafer Works / 合晶科技在台灣 / 上海生產矽晶圓材料。案例涵蓋晶體生長、晶圓加工及磊晶。\n\nDigiwin 方案支援從矽晶體至晶圓批次的生產追溯、掌握生產進度與設備狀態，以及設有品質參數界限的磊晶履歷。\n\n設備零組件供應商可將這些追溯與執行資訊問題，帶入廠內的流程討論。\n\nWafer Works / 合晶科技\n\n與DIGIWIN越南交流\n\n與越南團隊釐清廠內需求\n\nDigiwin 越南團隊盤點工廠營運、提供業務流程建議，並支援現場方案移轉及廠內驗收。\n\n帶入一次現有的生產到排程資料交接：相關紀錄、參與人員、接收方決策及待補足之處，以界定廠內流程與導入範圍。\n\n參考來源\n\nDigiwin 半導體解決方案：Wafer Works\n\nDigiwin 越南：供應商解決方案與在地服務",
+      "title": "從批次紀錄到下一步營運決策 | Digiwin",
+      "width": 1280,
+      "name": "public-P1-zh-Hant"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "Xác định người sở hữu hồ sơ trước khi bàn giao hệ thống",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Hình minh họa tinh thể silicon, chồng wafer và buồng epitaxy nối bằng đường dữ liệu với một chồng hồ sơ và thanh chỉ báo khoảng giới hạn.",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "vi",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Đến nội dung case"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Giải pháp bán dẫn Digiwin: Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin Việt Nam: giải pháp cho nhà cung ứng và dịch vụ tại địa phương"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Đến nội dung case\nGIẢI PHÁP CHO SẢN XUẤT\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nHỆ THỐNG NHÀ CUNG ỨNG\nBối cảnh ngành · Đài Loan / Thượng Hải\nXác định người sở hữu hồ sơ trước khi bàn giao hệ thống\n\nVới nhà cung ứng linh kiện thiết bị bán dẫn, đội IT nhà máy và đội vận hành cần định nghĩa chung, trách nhiệm đối với hồ sơ và quyết định tiếp nhận rõ ràng.\n\nHình minh họa dựng riêng cho trang này: tinh thể silicon, wafer, epitaxy và hồ sơ sản xuất. Không phải ảnh chụp Wafer Works hay thiết bị của họ.\n\n01\nĐiểm bắt đầu\n\nBắt đầu từ một hồ sơ sản xuất\n\nChọn một hồ sơ mà đội kế hoạch hoặc chất lượng cần. Xác định ý nghĩa, thời điểm cập nhật và phạm vi sản xuất của hồ sơ đó.\n\nGhi nhận đội và hệ thống nào duy trì hồ sơ, ai kiểm tra khác biệt và ai xác nhận bàn giao.\n\n02\nVai trò và trách nhiệm\n\nTách trách nhiệm doanh nghiệp và sản xuất\n\nERP hỗ trợ đơn hàng, vật tư, kế hoạch và chi phí doanh nghiệp. Giải pháp thực thi sản xuất hỗ trợ tiến độ sản xuất, hồ sơ lô và thông tin chất lượng.\n\nDùng các vai trò này để bàn về trách nhiệm hồ sơ và nhu cầu quy trình. Cùng đội nhà máy xác định phạm vi kỹ thuật trước khi chọn cách bàn giao thông tin.\n\n03\nBối cảnh ngành\n\nBối cảnh ngành: Wafer Works\n\nWafer Works / 合晶科技 tại Đài Loan / Thượng Hải sản xuất vật liệu wafer silicon qua các bước tăng trưởng tinh thể, gia công wafer và epitaxy.\n\nCase kết nối tinh thể silicon với lịch sử sản xuất của từng lô wafer, đồng thời cho thấy tiến độ, trạng thái thiết bị và hồ sơ epitaxy kèm giới hạn thông số chất lượng.\n\nNhững chủ đề thông tin sản xuất này giúp đội nhà máy xác định hồ sơ và trách nhiệm cần bàn trong quy trình của chính mình.\n\nWafer Works / 合晶科技\n\nTRAO ĐỔI CÙNG DIGIWIN VIỆT NAM\n\nXác định phạm vi nhà máy tại địa phương\n\nDigiwin Việt Nam đánh giá vận hành nhà máy, tư vấn quy trình nghiệp vụ, hỗ trợ chuyển giao giải pháp tại hiện trường và nghiệm thu nhà máy.\n\nMang đến buổi trao đổi một lần bàn giao thông tin hiện tại, người sở hữu hồ sơ, quyết định tiếp nhận và các khác biệt chưa giải quyết để bàn về quy trình và phạm vi triển khai của Quý Doanh Nghiệp.\n\nNguồn tham khảo\n\nGiải pháp bán dẫn Digiwin: Wafer Works\n\nDigiwin Việt Nam: giải pháp cho nhà cung ứng và dịch vụ tại địa phương",
+      "title": "Xác định người sở hữu hồ sơ trước khi bàn giao hệ thống | Digiwin",
+      "width": 1280,
+      "name": "public-P2-vi"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "系统交接前，先明确记录归属",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "示意图：硅晶体、一叠晶圆和外延腔体，通过数据线连接一叠记录单和一个范围指示条。",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "zh-Hans",
+      "links": [
+        {
+          "href": "#main",
+          "label": "跳至案例正文"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Digiwin 半导体解决方案：Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin 越南：供应商解决方案与本地服务"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "跳至案例正文\n制造业数字化方案\nTiếng Việt\nEnglish\n简体中文\n繁體中文\n供应商系统\n行业情境 · 台湾 / 上海\n系统交接前，先明确记录归属\n\n半导体设备零部件供应商的工厂 IT 与运营团队，需要共同明确记录含义、维护责任及接收方决策。\n\n本页专用示意图：硅晶体、晶圆、外延与生产记录。并非Wafer Works或其设备的照片。\n\n01\n从哪里开始\n\n从一条生产记录开始\n\n选择排产或质量团队需要的一条记录，明确其含义、更新时间与生产范围。\n\n记录由哪个团队及系统维护、谁核对差异，以及谁确认交接。\n\n02\n角色与责任\n\n分清企业与生产的责任\n\nERP 支持企业订单、物料、计划与成本管理。制造执行解决方案支持生产进度、批次记录与质量信息。\n\n用这些角色梳理记录责任与流程需求。先与工厂团队界定技术范围，再选择信息交接方式。\n\n03\n行业情境\n\n行业情境：Wafer Works\n\nWafer Works / 合晶科技在台湾 / 上海生产硅晶圆材料，涵盖晶体生长、晶圆加工与外延。\n\n案例将硅晶体连接到各晶圆批次的生产履历，并呈现进度、设备状态及设有质量参数限值的外延记录。\n\n工厂团队可以据此明确本厂流程讨论需要关注的生产记录与责任。\n\nWafer Works / 合晶科技\n\n与DIGIWIN越南交流\n\n与越南团队界定本厂范围\n\nDigiwin 越南团队评估工厂运营、提供业务流程建议，并支持现场方案移交与工厂验收。\n\n带上一次现有的信息交接、记录维护方、接收方决策与待核对差异，共同梳理流程及实施范围。\n\n参考来源\n\nDigiwin 半导体解决方案：Wafer Works\n\nDigiwin 越南：供应商解决方案与本地服务",
+      "title": "系统交接前，先明确记录归属 | Digiwin",
+      "width": 1280,
+      "name": "public-P2-zh-Hans"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "系統交接前，先釐清紀錄歸屬",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "示意圖：矽晶體、一疊晶圓與磊晶腔體，透過資料線連接一疊紀錄單與一條範圍指示條。",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "zh-Hant",
+      "links": [
+        {
+          "href": "#main",
+          "label": "跳至案例正文"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Digiwin 半導體解決方案：Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin 越南：供應商解決方案與在地服務"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "跳至案例正文\n製造業數位化方案\nTiếng Việt\nEnglish\n简体中文\n繁體中文\n供應商系統\n產業脈絡 · 台灣 / 上海\n系統交接前，先釐清紀錄歸屬\n\n半導體設備零組件供應商的工廠 IT 與營運團隊，需要共同釐清紀錄定義、維護責任及接收方決策。\n\n本頁專用示意圖：矽晶體、晶圓、磊晶與生產紀錄。並非Wafer Works或其設備的照片。\n\n01\n從何開始\n\n從一筆生產紀錄開始\n\n選定排程或品質團隊需要的一筆紀錄，釐清其定義、更新時間及生產範圍。\n\n確認由哪個團隊與系統維護、誰核對差異，以及誰確認交接。\n\n02\n角色與權責\n\n區分企業與生產的責任\n\nERP 支援企業訂單、物料、規劃與成本管理。製造執行解決方案支援生產進度、批次紀錄及品質資訊。\n\n用這些角色梳理紀錄責任與流程需求。先與工廠團隊界定技術範圍，再選擇資訊交接方式。\n\n03\n產業脈絡\n\n產業脈絡：Wafer Works\n\nWafer Works / 合晶科技在台灣 / 上海生產矽晶圓材料，涵蓋晶體生長、晶圓加工及磊晶。\n\n案例將矽晶體連結到各晶圓批次的生產履歷，並呈現進度、設備狀態及設有品質參數限值的磊晶紀錄。\n\n工廠團隊可據此釐清自身流程討論需要關注的生產紀錄及責任。\n\nWafer Works / 合晶科技\n\n與DIGIWIN越南交流\n\n與越南團隊界定本廠範圍\n\nDigiwin 越南團隊評估工廠營運、提供業務流程建議，並支援現場方案移交及工廠驗收。\n\n帶上一項現有資訊交接、紀錄維護方、接收方決策及待核對差異，共同梳理流程與實施範圍。\n\n參考來源\n\nDigiwin 半導體解決方案：Wafer Works\n\nDigiwin 越南：供應商解決方案與在地服務",
+      "title": "系統交接前，先釐清紀錄歸屬 | Digiwin",
+      "width": 1280,
+      "name": "public-P2-zh-Hant"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "Define record ownership before a system handoff",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Illustration of a silicon crystal, a stack of wafers and an epitaxy chamber linked by data lines to a stack of record sheets and a range indicator.",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Digiwin semiconductor solutions: Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin Vietnam: supplier solutions and local services"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nSUPPLIER SYSTEMS\nIndustry context · Taiwan / Shanghai\nDefine record ownership before a system handoff\n\nFor semiconductor equipment-component suppliers, factory IT and operating teams need shared definitions, record responsibility and clear receiving decisions.\n\nIllustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.\n\n01\nWhere to start\n\nStart with one production record\n\nChoose one record that planning or quality teams need. Identify its meaning, update timing and production scope.\n\nRecord which team and system maintains it, who checks differences and who confirms the handoff.\n\n02\nRoles and responsibilities\n\nSeparate enterprise and production responsibilities\n\nERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.\n\nUse these roles to discuss record responsibility and process needs. Define the technical scope with the factory teams before selecting a handoff approach.\n\n03\nIndustry context\n\nIndustry context: Wafer Works\n\nWafer Works / 合晶科技 in Taiwan / Shanghai produces silicon wafer materials through crystal growth, wafer processing and epitaxy.\n\nThe case connects silicon crystals to wafer-lot production history and provides visibility into progress, equipment status and epitaxy records with quality parameter limits.\n\nThese production-information topics help factory teams identify the records and responsibilities to discuss in their own processes.\n\nWafer Works / 合晶科技\n\nTALK WITH DIGIWIN VIETNAM\n\nDefine the local factory scope\n\nDigiwin Vietnam assesses factory operations, advises on business processes and supports on-site solution transfer and factory acceptance.\n\nBring one current information handoff, its record owner, receiving decision and unresolved differences to a discussion of your process and implementation scope.\n\nReference source\n\nDigiwin semiconductor solutions: Wafer Works\n\nDigiwin Vietnam: supplier solutions and local services",
+      "title": "Define record ownership before a system handoff | Digiwin",
+      "width": 1280,
+      "name": "public-alias"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "From lot records to the next operating decision",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Illustration of a silicon crystal, a stack of wafers and an epitaxy chamber linked by data lines to a stack of record sheets and a range indicator.",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Digiwin semiconductor solutions: Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin Vietnam: supplier solutions and local delivery"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nSUPPLIER OPERATIONS\nIndustry context · Taiwan / Shanghai\nFrom lot records to the next operating decision\n\nFor semiconductor equipment-component suppliers, progress and quality information becomes useful when the source, scope and decision owner are clear.\n\nIllustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.\n\n01\nWhere to start\n\nStart with one handoff\n\nChoose one production lot and the planning decision that needs its progress or quality status. Identify the source record, when it was updated, and what it covers.\n\nAgree who checks a mismatch, who receives the confirmed information and what evidence they need before the next step.\n\n02\nRoles and responsibilities\n\nKeep planning and production evidence in their roles\n\nERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.\n\nMap the information each team needs before defining the solution scope and data handoff.\n\n03\nIndustry context\n\nSemiconductor industry context: Wafer Works\n\nWafer Works / 合晶科技, Taiwan / Shanghai, produces silicon wafer materials. The case covers crystal growth, wafer processing and epitaxy.\n\nDigiwin describes production genealogy from silicon crystals to wafer lots, visibility into production progress and equipment status, and epitaxy history with quality parameter limits.\n\nFor an equipment-component supplier, these are useful questions about traceability and execution visibility to bring into its own process discussion.\n\nWafer Works / 合晶科技\n\nTALK WITH DIGIWIN VIETNAM\n\nDefine the fit with the team in Vietnam\n\nDigiwin Vietnam specialists assess factory operations, advise on business processes and support on-site solution transfer and factory acceptance.\n\nBring a current production-to-planning handoff to the discussion: its records, the people involved, the receiving decision and the gaps to resolve. This helps define the processes and implementation scope for your factory.\n\nReference source\n\nDigiwin semiconductor solutions: Wafer Works\n\nDigiwin Vietnam: supplier solutions and local delivery",
+      "title": "From lot records to the next operating decision | Digiwin",
+      "width": 1280,
+      "name": "public-utm-only"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "Define record ownership before a system handoff",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Illustration of a silicon crystal, a stack of wafers and an epitaxy chamber linked by data lines to a stack of record sheets and a range indicator.",
+          "complete": true,
+          "naturalWidth": 1536
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+          "label": "Digiwin semiconductor solutions: Wafer Works"
+        },
+        {
+          "href": "https://solutions.digiwin.com.vn/supplierecosystem",
+          "label": "Digiwin Vietnam: supplier solutions and local services"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nSUPPLIER SYSTEMS\nIndustry context · Taiwan / Shanghai\nDefine record ownership before a system handoff\n\nFor semiconductor equipment-component suppliers, factory IT and operating teams need shared definitions, record responsibility and clear receiving decisions.\n\nIllustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.\n\n01\nWhere to start\n\nStart with one production record\n\nChoose one record that planning or quality teams need. Identify its meaning, update timing and production scope.\n\nRecord which team and system maintains it, who checks differences and who confirms the handoff.\n\n02\nRoles and responsibilities\n\nSeparate enterprise and production responsibilities\n\nERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.\n\nUse these roles to discuss record responsibility and process needs. Define the technical scope with the factory teams before selecting a handoff approach.\n\n03\nIndustry context\n\nIndustry context: Wafer Works\n\nWafer Works / 合晶科技 in Taiwan / Shanghai produces silicon wafer materials through crystal growth, wafer processing and epitaxy.\n\nThe case connects silicon crystals to wafer-lot production history and provides visibility into progress, equipment status and epitaxy records with quality parameter limits.\n\nThese production-information topics help factory teams identify the records and responsibilities to discuss in their own processes.\n\nWafer Works / 合晶科技\n\nTALK WITH DIGIWIN VIETNAM\n\nDefine the local factory scope\n\nDigiwin Vietnam assesses factory operations, advises on business processes and supports on-site solution transfer and factory acceptance.\n\nBring one current information handoff, its record owner, receiving decision and unresolved differences to a discussion of your process and implementation scope.\n\nReference source\n\nDigiwin semiconductor solutions: Wafer Works\n\nDigiwin Vietnam: supplier solutions and local services",
+      "title": "Define record ownership before a system handoff | Digiwin",
+      "width": 1280,
+      "name": "public-explicit-precedence"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "A shared starting point for quality review",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Group outside the customer building holding a banner bearing Digiwin branding and the name 江苏中科智芯集成科技有限公司.",
+          "complete": true,
+          "naturalWidth": 1080
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.sohu.com/a/420465147_722372",
+          "label": "Source: 鼎捷智造___new on Sohu · original photo contains Chinese text"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/contact-vn/",
+          "label": "Discuss records and review ownership"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+          "label": "Read the Chinese case collection"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nPACKAGING & TESTING\nReference case · China\nA shared starting point for quality review\n\nAn unexpected test result calls for a clear starting point: the lot, the production context and the person who checks the record next. Explore how a named packaging and testing business connects production records with Digiwin ERP + iMES.\n\nDigiwin’s visit to 江苏中科智芯集成科技有限公司 · September 2020.\nSource: 鼎捷智造___new on Sohu · original photo contains Chinese text\n\n01\nThe business context\n\nRecords and processes need to work together\n\nAccording to the case published by Digiwin Vietnam, 江苏中科智芯集成科技有限公司 in China implemented an integrated ERP + iMES solution. The published problems include disorganized records, nonstandard processes and low outsourcing and production efficiency.\n\nERP + iMES\n江苏中科智芯集成科技有限公司\n\n02\nInside the case\n\nHow the implementation connects information\n\nThe published mechanisms span shopfloor data, production records, parameter changes and exception handling within the integrated solution.\n\nShopfloor information · SPC\n\nSPC (statistical process control) collects and analyzes shopfloor information in real time.\n\nParameter changes · ECN\n\nECN (engineering change notice) distributes process parameter changes in real time.\n\nLinked records\n\nMES links batches, workstations, operators and products/materials for tracing from different perspectives.\n\nException recording & escalation\n\nThe system automatically opens exception records and escalates them through successive levels.\n\n03\nReview your current setup\n\nGive Quality and Operations a shared basis for the next check\n\nUse the case as a reference for these questions about your own review workflow.\n\nStart from the same lot and context\n\nWhen a result needs review, can both teams locate the lot, test time and related production record?\n\nINFORMATION TO PREPARE\nPrepare one example of a lot record and how it reaches the review team.\n\nMake the next check and owner clear\n\nWho confirms the information source, checks missing records and follows up an exception?\n\nINFORMATION TO PREPARE\nPrepare your current handoff steps and the roles responsible for each check.\n\nKeep changes visible during review\n\nWhere do teams find the applicable parameter revision and the record of an exception?\n\nINFORMATION TO PREPARE\nPrepare one parameter-change record and an example of exception follow-up.\n\nA clear view of records and responsibilities can help your teams identify where coordination needs attention. Start the discussion with one actual review workflow at your company.\n\nTALK WITH DIGIWIN VIETNAM\n\nBring one quality-review workflow to the discussion\n\nDescribe how Quality and Operations share lot records, confirm changes and assign the next check. We provide digital solutions for manufacturing, from ERP to smart manufacturing.\n\nThe next step opens Digiwin Vietnam’s consultation request page in Vietnamese.\n\nDiscuss records and review ownership\nReference source\nRead the Chinese case collection\n\nIn the source, select 封装测试, then 案例 06 江苏中科智芯集成科技有限公司.\n\nSource: Simplified Chinese · this page summarizes the named case.",
+      "title": "A shared starting point for quality review | Digiwin",
+      "width": 1280,
+      "name": "public-bare-fallback"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "A shared starting point for quality review",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Group outside the customer building holding a banner bearing Digiwin branding and the name 江苏中科智芯集成科技有限公司.",
+          "complete": true,
+          "naturalWidth": 1080
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.sohu.com/a/420465147_722372",
+          "label": "Source: 鼎捷智造___new on Sohu · original photo contains Chinese text"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/contact-vn/",
+          "label": "Discuss records and review ownership"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+          "label": "Read the Chinese case collection"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nPACKAGING & TESTING\nReference case · China\nA shared starting point for quality review\n\nAn unexpected test result calls for a clear starting point: the lot, the production context and the person who checks the record next. Explore how a named packaging and testing business connects production records with Digiwin ERP + iMES.\n\nDigiwin’s visit to 江苏中科智芯集成科技有限公司 · September 2020.\nSource: 鼎捷智造___new on Sohu · original photo contains Chinese text\n\n01\nThe business context\n\nRecords and processes need to work together\n\nAccording to the case published by Digiwin Vietnam, 江苏中科智芯集成科技有限公司 in China implemented an integrated ERP + iMES solution. The published problems include disorganized records, nonstandard processes and low outsourcing and production efficiency.\n\nERP + iMES\n江苏中科智芯集成科技有限公司\n\n02\nInside the case\n\nHow the implementation connects information\n\nThe published mechanisms span shopfloor data, production records, parameter changes and exception handling within the integrated solution.\n\nShopfloor information · SPC\n\nSPC (statistical process control) collects and analyzes shopfloor information in real time.\n\nParameter changes · ECN\n\nECN (engineering change notice) distributes process parameter changes in real time.\n\nLinked records\n\nMES links batches, workstations, operators and products/materials for tracing from different perspectives.\n\nException recording & escalation\n\nThe system automatically opens exception records and escalates them through successive levels.\n\n03\nReview your current setup\n\nGive Quality and Operations a shared basis for the next check\n\nUse the case as a reference for these questions about your own review workflow.\n\nStart from the same lot and context\n\nWhen a result needs review, can both teams locate the lot, test time and related production record?\n\nINFORMATION TO PREPARE\nPrepare one example of a lot record and how it reaches the review team.\n\nMake the next check and owner clear\n\nWho confirms the information source, checks missing records and follows up an exception?\n\nINFORMATION TO PREPARE\nPrepare your current handoff steps and the roles responsible for each check.\n\nKeep changes visible during review\n\nWhere do teams find the applicable parameter revision and the record of an exception?\n\nINFORMATION TO PREPARE\nPrepare one parameter-change record and an example of exception follow-up.\n\nA clear view of records and responsibilities can help your teams identify where coordination needs attention. Start the discussion with one actual review workflow at your company.\n\nTALK WITH DIGIWIN VIETNAM\n\nBring one quality-review workflow to the discussion\n\nDescribe how Quality and Operations share lot records, confirm changes and assign the next check. We provide digital solutions for manufacturing, from ERP to smart manufacturing.\n\nThe next step opens Digiwin Vietnam’s consultation request page in Vietnamese.\n\nDiscuss records and review ownership\nReference source\nRead the Chinese case collection\n\nIn the source, select 封装测试, then 案例 06 江苏中科智芯集成科技有限公司.\n\nSource: Simplified Chinese · this page summarizes the named case.",
+      "title": "A shared starting point for quality review | Digiwin",
+      "width": 1280,
+      "name": "public-invalid-fallback"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "A shared basis for the next lot handoff",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "Group outside the customer building holding a banner bearing Digiwin branding and the name 江苏中科智芯集成科技有限公司.",
+          "complete": true,
+          "naturalWidth": 1080
+        }
+      ],
+      "lang": "en",
+      "links": [
+        {
+          "href": "#main",
+          "label": "Skip to case content"
+        },
+        {
+          "href": "https://www.sohu.com/a/420465147_722372",
+          "label": "Source: 鼎捷智造___new on Sohu · original photo contains Chinese text"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/contact-vn/",
+          "label": "Discuss lot records and handoff responsibilities"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+          "label": "Read the Chinese case collection"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nPACKAGING & TESTING\nReference case · China\nA shared basis for the next lot handoff\n\nTwo status reports for the same lot may describe different stages or recording times. Before the next handoff, align the context, source record and confirmation owner. Explore how a named packaging and testing business connects production records with Digiwin ERP + iMES.\n\nDigiwin’s visit to 江苏中科智芯集成科技有限公司 · September 2020.\nSource: 鼎捷智造___new on Sohu · original photo contains Chinese text\n\n01\nThe business context\n\nRecords and processes need to work together\n\nAccording to the case published by Digiwin Vietnam, 江苏中科智芯集成科技有限公司 in China implemented an integrated ERP + iMES solution. The published problems include disorganized records, nonstandard processes and low outsourcing and production efficiency.\n\nERP + iMES\n江苏中科智芯集成科技有限公司\n\n02\nInside the case\n\nHow the implementation connects information\n\nThe published mechanisms span shopfloor data, production records, parameter changes and exception handling within the integrated solution.\n\nShopfloor information · SPC\n\nSPC (statistical process control) collects and analyzes shopfloor information in real time.\n\nParameter changes · ECN\n\nECN (engineering change notice) distributes process parameter changes in real time.\n\nLinked records\n\nMES links batches, workstations, operators and products/materials for tracing from different perspectives.\n\nException recording & escalation\n\nThe system automatically opens exception records and escalates them through successive levels.\n\n03\nReview your current setup\n\nGive Operations and Quality a shared basis for the next handoff\n\nUse the case as a reference for these questions about your current lot-handoff workflow.\n\nCompare the same lot, stage and recording time\n\nDo the reports describe the same process stage and recording time? Different status reports may both be correct when their context differs.\n\nINFORMATION TO PREPARE\nPrepare two status reports for one lot, with the stage and recording time of each.\n\nIdentify the record that supports the handoff\n\nWhich source record supports the next step, and what information does the receiving team need?\n\nINFORMATION TO PREPARE\nPrepare the source record for one handoff and the receiving team’s information requirements.\n\nMake the confirmation owner and next check clear\n\nWho checks missing information and its source, and who confirms the next step before the receiving team updates lot status?\n\nINFORMATION TO PREPARE\nPrepare the confirmation roles and one example of missing information in a lot handoff.\n\nA shared view of lot context, source records and responsibilities can help teams identify where a handoff needs attention. Start the discussion with one actual handoff at your company.\n\nTALK WITH DIGIWIN VIETNAM\n\nBring one lot-handoff workflow to the discussion\n\nDescribe how Operations and Quality compare status reports, confirm the source record and assign the next check. We provide digital solutions for manufacturing, from ERP to smart manufacturing.\n\nThe next step opens Digiwin Vietnam’s consultation request page in Vietnamese.\n\nDiscuss lot records and handoff responsibilities\nReference source\nRead the Chinese case collection\n\nIn the source, select 封装测试, then 案例 06 江苏中科智芯集成科技有限公司.\n\nSource: Simplified Chinese · this page summarizes the named case.",
+      "title": "A shared basis for the next lot handoff | Digiwin",
+      "width": 1280,
+      "name": "public-O2-B6"
+    },
+    {
+      "clientWidth": 1265,
+      "h1": "為下一次批次交接建立共同依據",
+      "images": [
+        {
+          "alt": "Digiwin",
+          "complete": true,
+          "naturalWidth": 150
+        },
+        {
+          "alt": "參訪團在客戶建築前合影，橫幅帶有鼎捷品牌及江苏中科智芯集成科技有限公司名稱。",
+          "complete": true,
+          "naturalWidth": 1080
+        }
+      ],
+      "lang": "zh-Hant",
+      "links": [
+        {
+          "href": "#main",
+          "label": "跳至案例正文"
+        },
+        {
+          "href": "https://www.sohu.com/a/420465147_722372",
+          "label": "圖片來源：搜狐「鼎捷智造___new」· 原圖含中文文字"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/contact-vn/",
+          "label": "交流批次紀錄與交接職責"
+        },
+        {
+          "href": "https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/",
+          "label": "閱讀中文案例集"
+        }
+      ],
+      "scrollWidth": 1265,
+      "text": "跳至案例正文\n製造業數位化方案\nTiếng Việt\nEnglish\n简体中文\n繁體中文\n封裝測試\n參考案例 · 中國\n為下一次批次交接建立共同依據\n\n同一批次的兩份狀態報告，可能對應不同製程階段或紀錄時間。下一次交接前，先對齊背景、來源紀錄與確認負責人。了解一家封裝測試企業如何透過Digiwin ERP + iMES關聯生產紀錄。\n\n鼎捷走進江苏中科智芯集成科技有限公司 · 2020年9月。\n圖片來源：搜狐「鼎捷智造___new」· 原圖含中文文字\n\n01\n企業背景\n\n讓紀錄與業務流程相互銜接\n\n根據Digiwin越南發布的案例，中國江苏中科智芯集成科技有限公司導入ERP + iMES整合方案。案例揭露的問題包括紀錄管理紊亂、業務流程不規範，以及委外與生產效率偏低。\n\nERP + iMES\n江苏中科智芯集成科技有限公司\n\n02\n案例中的管理機制\n\n整合方案如何串聯資訊\n\n案例揭露的機制涵蓋現場資料、生產紀錄、參數變更與異常處理，屬於該企業採用的整合方案。\n\n現場資訊 · SPC\n\nSPC（統計製程管制）即時蒐集與分析現場資訊。\n\n參數變更 · ECN\n\nECN（工程變更通知）即時下發製程參數變更。\n\n關聯紀錄\n\nMES 關聯批次、工站、操作人員及產品/物料，支援不同視角的追溯。\n\n異常紀錄與上報\n\n系統自動開立異常單，並逐層上報。\n\n03\n對照現行管理方式\n\n讓營運與品質團隊依共同依據交接批次\n\n參考該案例，透過以下問題梳理現行批次交接流程。\n\n對齊批次、製程階段與紀錄時間\n\n報告是否對應相同製程階段與紀錄時間？背景不同，兩份狀態報告可能都正確。\n\n可準備的資訊\n同一批次的兩份狀態報告，以及各自的製程階段與紀錄時間。\n\n釐清交接依據的來源紀錄\n\n下一步依據哪份來源紀錄？接收團隊需要哪些資訊？\n\n可準備的資訊\n一次交接的來源紀錄，以及接收團隊所需的資訊。\n\n釐清確認負責人與下一步核查\n\n接收團隊更新批次狀態前，由誰核查缺漏資訊及其來源，由誰確認下一步？\n\n可準備的資訊\n各項確認的負責角色，以及一次批次交接中缺漏資訊的實例。\n\n對齊批次背景、來源紀錄與職責，有助於找出交接中需要關注的環節。歡迎從貴企業的一次實際交接開始交流。\n\n與DIGIWIN越南交流\n\n從一項具體的批次交接流程開始\n\n貴企業可說明營運與品質團隊如何比較狀態報告、確認來源紀錄並安排下一步核查。我們提供製造業數位化方案，從ERP到智慧製造。\n\n下一步將開啟Digiwin越南的諮詢申請頁面（越南語）。\n\n交流批次紀錄與交接職責\n參考來源\n閱讀中文案例集\n\n在來源頁選擇「封装测试」，再選擇「案例 06 江苏中科智芯集成科技有限公司」。\n\n來源：簡體中文 · 此頁為該企業案例的摘要。",
+      "title": "為下一次批次交接建立共同依據 | Digiwin",
+      "width": 1280,
+      "name": "public-O2-B6-zhHant-reload"
+    }
+  ]
+}

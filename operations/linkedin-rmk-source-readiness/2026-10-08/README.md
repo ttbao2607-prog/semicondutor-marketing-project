@@ -1,3 +1,5 @@
+> **Readiness index · 28/10/2026:** [Chỉ mục gate trước chạy ads](../../Pre_Ad_Readiness_Index_2026-10-28.md) đối chiếu nhánh approval-corrected, R5 mapping/eligibility đã kiểm theo scope, và phần còn mở về journey/content/proof/reader/tracking/D6/release. LAUNCH HOLD; gate RMK và Search tách riêng. Các trạng thái 08–12/10 bên dưới là snapshot lịch sử ở phần được cập nhật bởi evidence 28/10. Không có live action mới trong lượt lập chỉ mục; chỉ mục và tài liệu vẫn chưa commit/push.
+
 # RMK source readiness pack · 08/10/2026
 
 **Status: DRAFT_FOR_PO_DECISION / offline preparation.** Owner: root, one writer, no delegation during authoring. Branch `slice/linkedin-rmk-source-readiness` from main `a97895b8` in `D:/LinkedIn_RMK_Source_Readiness_2026-10-08`. Not merged, not pushed. No live-account activity, no campaign, audience, URL, tag or tracking change, no spend.

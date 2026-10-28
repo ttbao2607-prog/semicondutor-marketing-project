@@ -1,4 +1,8 @@
+> **R5 draft probe completed · 28/10/2026 ~14:46 +07:** Đã lưu và mở lại đúng một draft R5 riêng, Draft/Off trong campaign VALIDATION_ONLY đang Paused; cấu hình Việt Nam/English + 4 Job Functions + Manager–CXO, Expansion/LAN off, hiển thị 470+. **Eligibility cấu hình draft VERIFIED_SCOPED**, thay NOT_VERIFIED trước đó; không chứng minh actual delivery hoặc toàn bộ audience/release PASS. Probe-only USD10/ngày, 29–30/10 (UI tối đa USD20); tab forecast nhãn 30-day hiển thị USD0–4 / reach19–76, không ngoại suy. Journey cụ thể và D6 production/native/proof/host/tracking còn mở; V4 CHANGES_REQUIRED. Không launch/spend. [Receipt và giới hạn](../../linkedin-audience-reconcile/2026-10-28/R5_DRAFT_ELIGIBILITY.md). Các notice cũ bên dưới là snapshot trước phép thử này; quyền tạo draft đã có và không phải launch mandate. Tài liệu mới chỉ local chưa commit/push; draft đã tồn tại trên LinkedIn.
+
 # Decision pack D1–D6 — bảng build 99 ad (gửi Bảo)
+
+> **Bổ sung theo chỉ đạo Bảo · 28/10/2026:** Codex chọn R5 / Việt Nam / English, nhóm Operations, Engineering, IT, Quality và cấp Manager–CXO làm cấu hình tham chiếu có điều kiện. Journey cụ thể và eligibility trong ad set còn mở; English không chứng minh FDI. [Readback R5](../../source-evidence/../linkedin-audience-reconcile/2026-10-28/READBACK.md).
 
 
 > **Cập nhật 28/10/2026:** Bảo xác nhận chạy đúng plan. D1=A FINAL; D3 chốt nguyên tắc một nhóm, vài journey đại diện, còn Bảo chọn nhóm/journey/locale tuần 1. Audience là blocker trước khi chạy. Nội dung đề xuất dưới đây giữ theo thời điểm lập pack. [Hồ sơ quyết định](PO_Decision_Record_D1_D6_2026-10-12.md).

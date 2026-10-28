@@ -1,0 +1,58 @@
+- link "Skip to case content":
+  - /url: "#main"
+- banner:
+  - img "Digiwin"
+  - generic: Manufacturing solutions
+- navigation "Language":
+  - button "Tiếng Việt"
+  - button "English" [pressed]
+  - button "简体中文"
+  - button "繁體中文"
+- main:
+  - link "Return to the journey":
+    - /url: index.html
+    - generic: Return to the journey
+  - strong: Supplier Systems
+  - generic: Industry context · Taiwan / Shanghai
+  - heading "Define record ownership before a system handoff" [level=1]
+  - paragraph: For semiconductor equipment-component suppliers, factory IT and operating teams need shared definitions, record responsibility and clear receiving decisions.
+  - 'figure "Illustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment."':
+    - img "Illustration of a silicon crystal, a stack of wafers and an epitaxy chamber linked by data lines to a stack of record sheets and a range indicator."
+    - generic: "Illustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment."
+  - article "Define record ownership before a system handoff":
+    - paragraph:
+      - generic: "01"
+      - generic: Where to start
+    - heading "Start with one production record" [level=2]
+    - paragraph: Choose one record that planning or quality teams need. Identify its meaning, update timing and production scope.
+    - paragraph: Record which team and system maintains it, who checks differences and who confirms the handoff.
+    - paragraph:
+      - generic: "02"
+      - generic: Roles and responsibilities
+    - heading "Separate enterprise and production responsibilities" [level=2]
+    - paragraph: ERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.
+    - paragraph: Use these roles to discuss record responsibility and process needs. Define the technical scope with the factory teams before selecting a handoff approach.
+    - paragraph:
+      - generic: "03"
+      - generic: Industry context
+    - 'heading "Industry context: Wafer Works" [level=2]'
+    - paragraph: Wafer Works / 合晶科技 in Taiwan / Shanghai produces silicon wafer materials through crystal growth, wafer processing and epitaxy.
+    - paragraph: The case connects silicon crystals to wafer-lot production history and provides visibility into progress, equipment status and epitaxy records with quality parameter limits.
+    - paragraph: These production-information topics help factory teams identify the records and responsibilities to discuss in their own processes.
+    - generic: Wafer Works / 合晶科技
+  - paragraph: Talk with Digiwin Vietnam
+  - heading "Define the local factory scope" [level=2]
+  - paragraph: Digiwin Vietnam assesses factory operations, advises on business processes and supports on-site solution transfer and factory acceptance.
+  - paragraph: Bring one current information handoff, its record owner, receiving decision and unresolved differences to a discussion of your process and implementation scope.
+  - strong: Reference source
+  - paragraph:
+    - 'link "Digiwin semiconductor solutions: Wafer Works"':
+      - /url: https://www.digiwin.com.tw/dsc/solution/semiconductor/index
+  - paragraph:
+    - 'link "Digiwin Vietnam: supplier solutions and local services"':
+      - /url: https://solutions.digiwin.com.vn/supplierecosystem
+- contentinfo:
+  - generic: Digiwin Vietnam · Enterprise management solutions
+  - link "Return to the journey":
+    - /url: index.html
+    - generic: Return to the journey

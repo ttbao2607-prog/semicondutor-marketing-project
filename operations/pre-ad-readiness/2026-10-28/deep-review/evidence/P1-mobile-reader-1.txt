@@ -1,0 +1,58 @@
+- link "Skip to case content":
+  - /url: "#main"
+- banner:
+  - img "Digiwin"
+  - generic: Manufacturing solutions
+- navigation "Language":
+  - button "Tiếng Việt"
+  - button "English" [pressed]
+  - button "简体中文"
+  - button "繁體中文"
+- main:
+  - link "Return to the journey":
+    - /url: index.html
+    - generic: Return to the journey
+  - strong: Supplier Operations
+  - generic: Industry context · Taiwan / Shanghai
+  - heading "From lot records to the next operating decision" [level=1]
+  - paragraph: For semiconductor equipment-component suppliers, progress and quality information becomes useful when the source, scope and decision owner are clear.
+  - 'figure "Illustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment."':
+    - img "Illustration of a silicon crystal, a stack of wafers and an epitaxy chamber linked by data lines to a stack of record sheets and a range indicator."
+    - generic: "Illustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment."
+  - article "From lot records to the next operating decision":
+    - paragraph:
+      - generic: "01"
+      - generic: Where to start
+    - heading "Start with one handoff" [level=2]
+    - paragraph: Choose one production lot and the planning decision that needs its progress or quality status. Identify the source record, when it was updated, and what it covers.
+    - paragraph: Agree who checks a mismatch, who receives the confirmed information and what evidence they need before the next step.
+    - paragraph:
+      - generic: "02"
+      - generic: Roles and responsibilities
+    - heading "Keep planning and production evidence in their roles" [level=2]
+    - paragraph: ERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.
+    - paragraph: Map the information each team needs before defining the solution scope and data handoff.
+    - paragraph:
+      - generic: "03"
+      - generic: Industry context
+    - 'heading "Semiconductor industry context: Wafer Works" [level=2]'
+    - paragraph: Wafer Works / 合晶科技, Taiwan / Shanghai, produces silicon wafer materials. The case covers crystal growth, wafer processing and epitaxy.
+    - paragraph: Digiwin describes production genealogy from silicon crystals to wafer lots, visibility into production progress and equipment status, and epitaxy history with quality parameter limits.
+    - paragraph: For an equipment-component supplier, these are useful questions about traceability and execution visibility to bring into its own process discussion.
+    - generic: Wafer Works / 合晶科技
+  - paragraph: Talk with Digiwin Vietnam
+  - heading "Define the fit with the team in Vietnam" [level=2]
+  - paragraph: Digiwin Vietnam specialists assess factory operations, advise on business processes and support on-site solution transfer and factory acceptance.
+  - paragraph: "Bring a current production-to-planning handoff to the discussion: its records, the people involved, the receiving decision and the gaps to resolve. This helps define the processes and implementation scope for your factory."
+  - strong: Reference source
+  - paragraph:
+    - 'link "Digiwin semiconductor solutions: Wafer Works"':
+      - /url: https://www.digiwin.com.tw/dsc/solution/semiconductor/index
+  - paragraph:
+    - 'link "Digiwin Vietnam: supplier solutions and local delivery"':
+      - /url: https://solutions.digiwin.com.vn/supplierecosystem
+- contentinfo:
+  - generic: Digiwin Vietnam · Enterprise management solutions
+  - link "Return to the journey":
+    - /url: index.html
+    - generic: Return to the journey

@@ -1,0 +1,50 @@
+- link "跳至案例正文":
+  - /url: "#main"
+- banner:
+  - img "Digiwin"
+  - generic: 製造業數位化方案
+- navigation "語言":
+  - button "Tiếng Việt"
+  - button "English"
+  - button "简体中文"
+  - button "繁體中文" [pressed]
+- main:
+  - strong: 供應商系統
+  - generic: 產業脈絡 · 台灣 / 上海
+  - heading "系統交接前，先釐清紀錄歸屬" [level=1]
+  - paragraph: 半導體設備零組件供應商的工廠 IT 與營運團隊，需要共同釐清紀錄定義、維護責任及接收方決策。
+  - figure "本頁專用示意圖：矽晶體、晶圓、磊晶與生產紀錄。並非Wafer Works或其設備的照片。":
+    - img "示意圖：矽晶體、一疊晶圓與磊晶腔體，透過資料線連接一疊紀錄單與一條範圍指示條。"
+    - generic: 本頁專用示意圖：矽晶體、晶圓、磊晶與生產紀錄。並非Wafer Works或其設備的照片。
+  - article "系統交接前，先釐清紀錄歸屬":
+    - paragraph:
+      - generic: "01"
+      - generic: 從何開始
+    - heading "從一筆生產紀錄開始" [level=2]
+    - paragraph: 選定排程或品質團隊需要的一筆紀錄，釐清其定義、更新時間及生產範圍。
+    - paragraph: 確認由哪個團隊與系統維護、誰核對差異，以及誰確認交接。
+    - paragraph:
+      - generic: "02"
+      - generic: 角色與權責
+    - heading "區分企業與生產的責任" [level=2]
+    - paragraph: ERP 支援企業訂單、物料、規劃與成本管理。製造執行解決方案支援生產進度、批次紀錄及品質資訊。
+    - paragraph: 用這些角色梳理紀錄責任與流程需求。先與工廠團隊界定技術範圍，再選擇資訊交接方式。
+    - paragraph:
+      - generic: "03"
+      - generic: 產業脈絡
+    - heading "產業脈絡：Wafer Works" [level=2]
+    - paragraph: Wafer Works / 合晶科技在台灣 / 上海生產矽晶圓材料，涵蓋晶體生長、晶圓加工及磊晶。
+    - paragraph: 案例將矽晶體連結到各晶圓批次的生產履歷，並呈現進度、設備狀態及設有品質參數限值的磊晶紀錄。
+    - paragraph: 工廠團隊可據此釐清自身流程討論需要關注的生產紀錄及責任。
+    - generic: Wafer Works / 合晶科技
+  - paragraph: 與Digiwin越南交流
+  - heading "與越南團隊界定本廠範圍" [level=2]
+  - paragraph: Digiwin 越南團隊評估工廠營運、提供業務流程建議，並支援現場方案移交及工廠驗收。
+  - paragraph: 帶上一項現有資訊交接、紀錄維護方、接收方決策及待核對差異，共同梳理流程與實施範圍。
+  - strong: 參考來源
+  - paragraph:
+    - link "Digiwin 半導體解決方案：Wafer Works":
+      - /url: https://www.digiwin.com.tw/dsc/solution/semiconductor/index
+  - paragraph:
+    - link "Digiwin 越南：供應商解決方案與在地服務":
+      - /url: https://solutions.digiwin.com.vn/supplierecosystem

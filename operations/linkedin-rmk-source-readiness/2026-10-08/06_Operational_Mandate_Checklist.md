@@ -1,3 +1,5 @@
+> **Readiness index · 28/10/2026:** [Chỉ mục gate trước chạy ads](../../Pre_Ad_Readiness_Index_2026-10-28.md) đối chiếu nhánh approval-corrected, R5 mapping/eligibility đã kiểm theo scope, và phần còn mở về journey/content/proof/reader/tracking/D6/release. LAUNCH HOLD; gate RMK và Search tách riêng. Các trạng thái 08–12/10 bên dưới là snapshot lịch sử ở phần được cập nhật bởi evidence 28/10. Không có live action mới trong lượt lập chỉ mục; chỉ mục và tài liệu vẫn chưa commit/push.
+
 # 06 · Operational mandate checklist
 
 Status: DRAFT_FOR_PO_DECISION. Phase A allows research and internal drafts only. Everything in this list is **blocked until Bảo gives a specific operational mandate**: browser login, account activity, creating or enabling a campaign or audience, publishing or hosting, form/tag/tracking changes, audience upload, spend. "UNKNOWN" = no direct evidence in the repository. Decisions marked L2 are Bảo's (budget envelope, platform, publication/permission, business scope).

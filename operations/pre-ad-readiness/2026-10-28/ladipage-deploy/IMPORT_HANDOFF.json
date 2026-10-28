@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-28",
+  "status": "COMPLETED",
+  "user_authority": "Okie, v tiến hành deploy nó lên ladipage thui codex, dùng chuc năng html-to-ladipage.",
+  "scope": "Deploy exact existing full unified reader via HTML-to-LadiPage Basic; no creative change, form/provider/tracking installation or ads launch",
+  "artifact": "D:\\Digiwin_Semiconducter_Workspace\\deliverables\\unified-case-reader\\unified-case-reader.html",
+  "basename": "unified-case-reader.html",
+  "bytes": 905439,
+  "sha256": "1ac14a1bc4e58c69a3e3d7cd4175a2cc8c65e65ae291ef2d24fb8f71a2ae6302",
+  "git_blob_sha256": "b83cd70d8008be26b195541593298042698aa163adf7583db2af7d7a2d65f0c4",
+  "source_main_commit": "568321fb8c951928fcb3867df4de75e9f43685e5",
+  "logical_target": "Digiwin Semiconductor - Unified Case Reader - 20261028",
+  "import_mode": "Basic / Cơ bản",
+  "existing_page_search": {
+    "query": "reader",
+    "workspace": "DIGIWIN SOFTWARE",
+    "result": "Không tìm thấy Landing Page phù hợp",
+    "limitation": "Name search only; not an exhaustive identity proof of every page"
+  },
+  "lifecycle": "Fresh Basic import, then same created page verification/save/reopen/deploy under current request",
+  "operator_skill_integrity": "VERIFIED snapshot bf60661f1beac6511325688724e86471bb7182db280fe05bc17779d880c77323",
+  "handoff_rule": "Explicit current user override: agent selects file and creates via supported file chooser; no legacy manual handoff required.",
+  "protected": [
+    "Exact source copy/11 treatments/4 display locales/O2 entry variants",
+    "No change to three existing semiconductor pages",
+    "No new PopupX/form/lead receiver/tag/container",
+    "No ads creation/launch/spend"
+  ],
+  "verify_after_import": [
+    "Confirm exact page identity and Basic mode",
+    "P1/P2 en titles and content, desktop/mobile, image load",
+    "t/lang query, conflict precedence, locale toggle/reload and UTM retention",
+    "Record actual public URL and same-path behavior; no public-success claim from editor alone"
+  ],
+  "anchor": {
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+    "email_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b",
+    "disposition": "Existing semantic/rights/native/current-R5 gaps retained; current user instruction authorizes deployment scope, not proof/native acceptance"
+  },
+  "execution": "SUCCESS",
+  "audit": "SELF_REVIEW; independent audit NOT_RUN",
+  "completed": [
+    "Source/hash bound",
+    "Installed skill integrity verified",
+    "Authenticated workspace and import UI observed",
+    "Agent upload/create under current PO override",
+    "Save/reopen source retained",
+    "Public URL and desktop/mobile/router checks"
+  ],
+  "remaining": [],
+  "ui_prepared": {
+    "Basic_pressed": true,
+    "page_name_entered": "Digiwin Semiconductor - Unified Case Reader - 20261028",
+    "file_selected": true,
+    "create_clicked": true,
+    "public_verified": true
+  },
+  "evidence": {
+    "screenshot": "Basic-import-ready.png",
+    "sha256": "e88462e08ed9f89a6451b5cc3094442945c7e2fbddaeb8c0fc0cdc864e1497e1"
+  },
+  "user_override": "Cái workflow Bảo tự bấm do giới hạn legacy computer-use của codex trc đây á, giờ bấm luôn cho Bảo codex.",
+  "public_url": "https://solutions.digiwin.com.vn/semiconductor-case-reader",
+  "closeout": "DEPLOYED_VI.md"
+}
