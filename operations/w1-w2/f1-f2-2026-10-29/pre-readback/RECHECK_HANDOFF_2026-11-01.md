@@ -28,6 +28,6 @@ Một browser controller; không spawn; đánh dấu rõ observed_at (giờ + ti
 
 ## Việc khác đang chờ Bảo
 
-R6 (tạo source audience RMK) — xem [Q3](FOLLOWUP_Q3_RMK_OPTIONS.md) và [closeout](FOLLOWUP_CLOSEOUT.md); trạng thái hiện tại: **chưa tạo** (nguồn NOT_VERIFIED_CREATED, danh sách Matched 5 mục, không có retargeting audience).
+Source audience RMK **đã tạo** (xem [receipt](RMK_SOURCE_AUDIENCE_CREATED.md)): `RMK-SRC-F1F2-R5-EN-WAVE01-ANY-30D`, status Building lúc 13:42 29/10. Khi recheck, thêm mục 6: đọc lại Status (Building/Processing/Ready), kích thước/reachable thực (nếu UI hiển thị), ghi observed_at; không suy từ 470+. Chỉ gán Ready/S2 sau readback thực; không tạo ad RMK hay gắn targeting nếu chưa có mandate. R1–R3, R6 đã quyết theo mặc định; R4 (objective) và nguồn tiền W2 vẫn để sau.
 
 Docs impact reviewed: chỉ thêm handoff; không đổi scope, lịch, budget, creative, tracking hay anchor; canonical pointer cập nhật ở `CURRENT_STATE.md`.

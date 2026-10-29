@@ -45,4 +45,8 @@ Source `NOT_VERIFIED_CREATED` (quan sát bổ sung: không có retargeting audie
 
 Gate 300 trong UI; reachable sau lọc; backfill; hiển thị đúng ad F1/F2 trong thống kê ad set; tương thích tạo carousel RMK với nguồn Single image (chỉ thấy nguồn, chưa dựng ad).
 
+## Cập nhật sau Q3 (29/10, Bảo cấp mandate)
+
+Bảo chọn R1=Any interactions, R2=30 ngày, R3=pool chung theo ad set, R6=tạo ngay, và đã cho Claude tạo audience. Đã tạo `RMK-SRC-F1F2-R5-EN-WAVE01-ANY-30D` (Building); xem [receipt](RMK_SOURCE_AUDIENCE_CREATED.md). Các dòng "Hiện trạng", "Giữ nguyên" và "không có retargeting audience" ở trên mô tả thời điểm đọc Q3 (12:xx), nay được receipt thay thế cho phần source; gate 300, reachable và backfill vẫn UNVERIFIED.
+
 Docs impact reviewed: xem [FOLLOWUP_CLOSEOUT](FOLLOWUP_CLOSEOUT.md).
