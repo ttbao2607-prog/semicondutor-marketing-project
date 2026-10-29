@@ -1,3 +1,5 @@
+> **Library shortlist29/10:** [Rà11 English journeys](pre-ad-readiness/2026-10-29/library-reselection/REPORT_VI.md): F1/B13 +F2/B16 conditional ưu tiên, F3/B19 dự phòng cho nhánh outsourced chip-production; không direct replacement cho toànR5. Chưa đổi D3, audience, creative hoặc ad. Exact source33card positions/3readers reviewed; fresh native/render/reach/decision-unit/rights gaps còn mở.
+
 > **Native subgroup29/10:** [Full5-company AND R5 probe](pre-ad-readiness/2026-10-29/r5-native-probe/REPORT_VI.md) cho phép expression nhưng báo audience too small (INSUFFICIENT_REACH); unsaved changes đã bỏ, originalR5 vẫn470+/Draft-Off. Không có ad/upload/spend. Không dùng nhóm5 để dựng production; chuẩn bị phương án nội dung phù hợp nhóm supplier rộng hơn trước đổi targeting/creative.
 
 > **R5 subgroup29/10:** [52-row research](pre-ad-readiness/2026-10-29/r5-subcohort/REPORT_VI.md) hoàn tất:5 direct/14adjacent/33other theo exact P1/P2 category, không buyer-fit PASS. Reach của nhóm direct chưa đo; native probe brief NOT_RUN. Không đổi targeting, creative hoặc tạo ad.
@@ -59,7 +61,7 @@ Discovery V4 giữ **CHANGES_REQUIRED**: 111 matched/12 unmatched, 140 dòng ngu
 ## 4. Thứ tự xử lý đề xuất — cập nhật29/10
 
 1. Dùng [selected pack](pre-ad-readiness/2026-10-29/selected-build-pack/REPORT_VI.md), không lấy bảng99ad còn UNKNOWN/provisional để dựng P1/P2. Exact6ad/20slots đã có; chỉ2cold cho đợt đầu.
-2. Activity subgroup đã rà52/52 (5direct/14adjacent/33other); native full5 AND R5 đã báo too small, không thu hẹp production theo nhóm5. Chuẩn bị phương án content/persona cho nhóm supplier rộng hơn hoặc candidate thư viện để Bảo chọn, không chỉ đổi nhãn để che mismatch. Decision unit, paid-use disposition đúng asset set và human/domain review còn riêng; không hỏi lại case/translation hoặc CTA/host đã duyệt. Nếu subcohort quá mỏng, trình phương án adapt copy rộng hơn thay vì âm thầm đổi audience/art.
+2. Activity subgroup đã rà52/52 (5direct/14adjacent/33other); native full5 AND R5 đã báo too small, không thu hẹp production theo nhóm5. Library đã rà11 English: F1/B13 +F2/B16 conditional, F3/B19 reserve cho outsourced chip-production, không toànR5. Bảo chọn hướng rồi bind actual cohort/decision role trước deep review/reach; không chỉ đổi nhãn để che mismatch. Decision unit, paid-use disposition đúng asset set và human/domain review còn riêng; không hỏi lại case/translation hoặc CTA/host đã duyệt. Nếu subcohort quá mỏng, trình phương án adapt copy rộng hơn thay vì âm thầm đổi audience/art.
 3. Bảo review operating proposal cụ thể; xác minh currency/VND media basis và reporting, sau đó mới authorized paused build/saved UI readback. Chưa có ad production; không suy proposal là lịch live đã chốt.
 4. Bảo quyết định release exact saved build khi evidence đủ. RMK chờ nguồn cold mới; Search optional, không chặn cold preparation.
 
