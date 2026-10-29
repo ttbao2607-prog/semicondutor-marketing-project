@@ -1,7 +1,7 @@
 id,task,target,dependency,planned_output,scenarios,owner,status,execution_evidence,bao_decision
-P1,Prelaunch status,before actual first delivery,exact saved identities,PRELAUNCH_READBACK.md,C1 C2 C3,agent prepares; Bao decides actions,PLANNED,NOT_STARTED,NOT_REQUESTED_AT_PLAN_STAGE
-P2,Report access map,before nearest readback,source registry / read access,REPORT_ACCESS_MAP.md,C1 C2 C3 C4 C5,agent prepares; Bao decides actions,PLANNED,NOT_STARTED,NOT_REQUESTED_AT_PLAN_STAGE
-P3,Baseline,window before actual first delivery,existing sources / P2 where needed,BASELINE.md/CSV,C7,agent prepares; Bao decides actions,PLANNED,NOT_STARTED,NOT_REQUESTED_AT_PLAN_STAGE
+P1,Prelaunch status,before actual first delivery,exact saved identities,PRELAUNCH_READBACK.md,C1 C2 C3,agent prepares; Bao decides actions,COMPLETE_WITH_GAPS,"executed 2026-10-29 read-only; gaps: profile language selection and ad review detail UNVERIFIED",NOT_REQUESTED_AT_PLAN_STAGE
+P2,Report access map,before nearest readback,source registry / read access,REPORT_ACCESS_MAP.md,C1 C2 C3 C4 C5,agent prepares; Bao decides actions,COMPLETE_WITH_GAPS,"executed 2026-10-29 read-only; gaps: LinkedIn Reach/click columns and timezone and GA4 treatment dimension UNVERIFIED",NOT_REQUESTED_AT_PLAN_STAGE
+P3,Baseline,window before actual first delivery,existing sources / P2 where needed,BASELINE.md/CSV,C7,agent prepares; Bao decides actions,COMPLETE_WITH_GAPS,"executed 2026-10-29 PREFLIGHT window 22-28Oct; brand search and followers NOT_COLLECTED; reader data contaminated by single-user QA",NOT_REQUESTED_AT_PLAN_STAGE
 P4,Cold options,before nearest readback; no metrics required to draft,B13 B16 anchor,COLD_OPTIONS.md,C4,agent prepares; Bao decides actions,PLANNED,NOT_STARTED,NOT_REQUESTED_AT_PLAN_STAGE
 P5,Four-carousel QA,before RMK decision,exact cards / accepted assets / reader,CAROUSEL_QA.md,C5 C6,agent prepares; Bao decides actions,PLANNED,NOT_STARTED,NOT_REQUESTED_AT_PLAN_STAGE
 P6,RMK options,early before W1 close,new-cold source keys / current UI support,RMK_DECISION_PACK.md,C6 S0-S4,agent prepares; Bao decides actions,PLANNED,NOT_STARTED,NOT_REQUESTED_AT_PLAN_STAGE

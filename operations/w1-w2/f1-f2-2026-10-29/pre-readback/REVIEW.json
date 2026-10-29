@@ -3,7 +3,7 @@
   "stage": "INTERNAL_CONTENT_REVIEW",
   "reviewer": "root SELF_REVIEW",
   "independent_audit": "NOT_RUN",
-  "scope": "New planning artifact only; not artwork/native/live release",
+  "scope": "Plan plus read-only execution records for P1-P3 (LinkedIn Campaign Manager and GA4 read-only observation); no customer-facing copy, no artwork/native/live release, no account change",
   "anchor_id": "VY-CONTENT-ANCHOR",
   "anchor_revision": "1.0",
   "source_id": "VY-MAIL-USER-20261006",
@@ -17,27 +17,43 @@
       "sha256_read": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
     }
   ],
-  "artifact_revision": 1,
+  "artifact_revision": 2,
   "artifact_hash_basis": "sha256 UTF8 LF-normalized",
   "artifacts": [
     {
       "path": "PLAN.md",
-      "sha256_lf": "39c4d7d665503e07b5d926e54d57f55aa7c618c0970e35a4f9b16bf368a8228c"
+      "sha256_lf": "fe47295347173ad5f408b9e9fec298d7e2e11426b32e9341d0c08478d3ea8bea"
     },
     {
       "path": "TASKS.csv",
-      "sha256_lf": "6832f1b4e1b0dc454fe6e414809dd677ebc75c59077d1e96d79a1e76e0072dad"
+      "sha256_lf": "223c2896ea14a5293c5e523bb2ab48c1a81f21f570a43777d91081699b20ffe6"
+    },
+    {
+      "path": "PRELAUNCH_READBACK.md",
+      "sha256_lf": "ffe73b89ac0b82f2e21a2c4d9a3fcdcb987a39e7d4a9b0cd2d9f40fe479688b4"
+    },
+    {
+      "path": "REPORT_ACCESS_MAP.md",
+      "sha256_lf": "efbce6ce25fef5a358debc8d88864d982de88b30096835a578b96757302b5299"
+    },
+    {
+      "path": "BASELINE.md",
+      "sha256_lf": "84972d3c75e3b9373f9ce4ed8c4cc0660994ee118d0a285d832c44cc1a53c565"
+    },
+    {
+      "path": "BASELINE.csv",
+      "sha256_lf": "287e05afbb077f7196041aca4cbd67ecf15943a27904130d77971d6f6160f92b"
     }
   ],
   "verdict": "MESSAGE_ANCHOR_PASS",
   "observations": {
-    "A1_A2": "P1/P2 read actual R5 delivery; mixed-cohort remains hypothesis; no new buyer qualification or blanket broadening.",
-    "A3": "P4 English F1/F2; no VN/Chinese segment switch in plan.",
-    "A4": "P4/P5 retain business decisions, no invented ROI/metrics; P7 criteria UNSET until chosen.",
+    "A1_A2": "P1/P2 read actual R5 audience and delivery state; mixed-cohort remains hypothesis; no new buyer qualification or blanket broadening.",
+    "A3": "English F1/F2 only; no VN/Chinese segment switch.",
+    "A4": "No invented ROI/metrics; unread fields marked UNVERIFIED/NOT_COLLECTED/UNKNOWN; numeric criteria remain UNSET.",
     "A5": "No VN domestic message generated; N/A active scope.",
-    "A6": "P5 Bright challenges/case scope preserved; proof rights accepted for exact existing set; no new outcome claims.",
-    "A7": "P4/P5 preserve persona/cold/explanation/proof/reader/contact-vn notice and return.",
-    "units_surfaces": "Reviewed PLAN P1-P7, sequence, authority section and TASKS seven PLANNED rows; canonical notices plan-only. No customer-facing copy generated.",
-    "findings": "Baseline capture vs retrospective window distinguished; no historical backfill guarantee for RMK; metrics/review unavailable not zero; no automatic W2, pause or reserve release."
+    "A6": "No new Bright proof or outcome claim introduced.",
+    "A7": "Persona/journey continuity unchanged; no customer-facing surface produced in P1-P3.",
+    "units_surfaces": "Reviewed PLAN P1-P7, TASKS rows, PRELAUNCH_READBACK, REPORT_ACCESS_MAP, BASELINE.md/csv as internal operating records. No customer-facing copy generated.",
+    "findings": "Expected-no-paid-data kept distinct from zero; GA4 Paid Social channel and single-user reader views flagged as contamination; unverified language selection, review detail, Reach/click columns, timezone and GA4 treatment dimension recorded as gaps; no pause/enable/budget action taken."
   }
 }
