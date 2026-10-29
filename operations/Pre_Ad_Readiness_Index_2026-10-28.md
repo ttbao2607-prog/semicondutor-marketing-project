@@ -1,4 +1,6 @@
-> **Selected pack 29/10:** [6 ad/20 card slots/16 ảnh, gap và D6 proposal](pre-ad-readiness/2026-10-29/selected-build-pack/REPORT_VI.md) hoàn tất chuẩn bị nội bộ. Hai cold P1/P2; bốn carousel chờ RMK. Host/CTA đã đóng; tracking transport đạt scoped. A1/A2 fit, exact paid asset release, human/domain acceptance và actual production readback còn mở; LAUNCH HOLD. Không tạo ad hoặc đổi ngân sách/targeting.
+> **R5 subgroup29/10:** [52-row research](pre-ad-readiness/2026-10-29/r5-subcohort/REPORT_VI.md) hoàn tất:5 direct/14adjacent/33other theo exact P1/P2 category, không buyer-fit PASS. Reach của nhóm direct chưa đo; native probe brief NOT_RUN. Không đổi targeting, creative hoặc tạo ad.
+
+> **Selected pack 29/10:** [6 ad/20 card slots/16 ảnh, gap và D6 proposal](pre-ad-readiness/2026-10-29/selected-build-pack/REPORT_VI.md) hoàn tất chuẩn bị nội bộ. Hai cold P1/P2; bốn carousel chờ RMK. Host/CTA đã đóng; tracking transport đạt scoped. A1 activity đã phân loại52/52 nhưng recipient binding/A2 vẫn thiếu; exact paid asset release, human/domain acceptance và actual production readback còn mở; LAUNCH HOLD. Không tạo ad hoặc đổi ngân sách/targeting.
 
 # Chỉ mục readiness trước chạy ads — 28/10/2026
 
@@ -55,7 +57,7 @@ Discovery V4 giữ **CHANGES_REQUIRED**: 111 matched/12 unmatched, 140 dòng ngu
 ## 4. Thứ tự xử lý đề xuất — cập nhật29/10
 
 1. Dùng [selected pack](pre-ad-readiness/2026-10-29/selected-build-pack/REPORT_VI.md), không lấy bảng99ad còn UNKNOWN/provisional để dựng P1/P2. Exact6ad/20slots đã có; chỉ2cold cho đợt đầu.
-2. Đóng relevance của equipment/process-component subcohort và decision unit, paid-use disposition đúng asset set và human/domain review; không hỏi lại case/translation hoặc CTA/host đã duyệt. Nếu subcohort quá mỏng, trình phương án adapt copy rộng hơn thay vì âm thầm đổi audience/art.
+2. Activity subgroup đã rà52/52 (5direct/14adjacent/33other); kiểm feasibility/reach native của nhóm direct theo brief trước khi thu hẹp targeting. Decision unit, paid-use disposition đúng asset set và human/domain review còn riêng; không hỏi lại case/translation hoặc CTA/host đã duyệt. Nếu subcohort quá mỏng, trình phương án adapt copy rộng hơn thay vì âm thầm đổi audience/art.
 3. Bảo review operating proposal cụ thể; xác minh currency/VND media basis và reporting, sau đó mới authorized paused build/saved UI readback. Chưa có ad production; không suy proposal là lịch live đã chốt.
 4. Bảo quyết định release exact saved build khi evidence đủ. RMK chờ nguồn cold mới; Search optional, không chặn cold preparation.
 

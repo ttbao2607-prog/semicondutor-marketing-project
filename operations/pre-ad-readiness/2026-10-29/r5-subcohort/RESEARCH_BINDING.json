@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-29",
+  "source_commit": "910923c17561ccad1a30eb78aa910cc7a4489a5b",
+  "source_path": "operations/contingency-audience/revisions/r5-true-only/result/FULL_ROW_REVIEW.json",
+  "source_sha256": "8efd1089712251569912ccce13d323afcb0dc10ec5ef98704354fbf20c31d9ab",
+  "review_coverage": 52,
+  "retained_rows": 52,
+  "unique_private_row_ids": 52,
+  "classification_counts": {
+    "OTHER_CHIP_DESIGN_IP_EDA": 11,
+    "OTHER_SEMICONDUCTOR_DEVICE_MAKER": 1,
+    "ADJACENT_EQUIPMENT_OEM": 5,
+    "OTHER_ELECTRONICS_PRODUCTS_COMPONENTS_PCB_EMS": 18,
+    "OTHER_MATERIALS_GASES": 3,
+    "ADJACENT_PLANT_SYSTEMS": 3,
+    "DIRECT_COMPONENT_ACTIVITY": 5,
+    "ADJACENT_GENERAL_AUTOMATION_OR_ELECTRONICS_COMPONENTS": 6
+  },
+  "direct_activity": 5,
+  "adjacent_activity": 14,
+  "not_established_for_exact_copy": 33,
+  "all_local_system_purchasing_authority": "UNVERIFIED_52_OF_52",
+  "private_ledger_sha256": "696c41a818c46d1596e7dd989fd6298af575e242046060f2011de943715e4251",
+  "private_ledger_rows": 52,
+  "private_storage": "Existing LinkedIn private evidence store; no raw roster copied to Git",
+  "native_subcohort_reach": "NOT_MEASURED",
+  "whole_R5_reference_reach": "470+ from prior28Oct scoped draft; not subgroup size",
+  "new_targeting_or_upload": "NONE",
+  "anchor": {
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+  },
+  "email_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+}

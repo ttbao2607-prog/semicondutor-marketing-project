@@ -1,0 +1,19 @@
+# MSG-ANCHOR-01 — R5 subgroup research29Oct
+
+Stage INTERNAL_CONTENT_REVIEW. Branch slice/executive-approval-corrected-2026-10-28; input checkpoint2321671f. Writer/reviewer Codex root, SELF_REVIEW; independent/native-market/human acceptance NOT_RUN. New artifacts are research report, primary evidence register, aggregate binding and probe brief; no artwork or new ad script. Native/render N/A for new text-only research; original P1/P2 pixels/render and reader remain unchanged, no fresh POSTGEN or generation PASS.
+
+Anchor: operations/Vy_Email_Content_Anchor.md, VY-CONTENT-ANCHOR1.0 SHA2566621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5. Original email: operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md / VY-MAIL-USER-20261006 SHA256c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b, reread this cycle. SOURCE_BINDING in selected-build-pack pins unchanged b22-selected-copy-v8 / b25-en-p2-v1-selected-copy-v1, English and current public reader. RESEARCH_BINDING pins archived52-row source, all-row private ledger hash and counts.
+
+| Rule | Actual finding / disposition |
+|---|---|
+| A1 | Report quotes both cold captions' equipment-component category. Direct5/adjacent14/other33 distinguishes specific activity from broad supply-chain relevance; no assumption semiconductor equals OSAT or all manufacturers. Group-level activity evidence partially resolved; actual native recipient binding still insufficient |
+| A2 | Report distinguishes local factory, local sales/support, product-line manufacture and system decision authority. All52 purchase-authority fields unverified; one source verifies a direct candidate's VN manufacturing-site existence only. No blanket exclusion of large groups or claimed ERP fit |
+| A3 | FDI English remains message hypothesis, not proven company/reader ownership. VN and Chinese not added; persona remains supplier Operations/P1 and factory IT+Operations/P2. Probe explicitly retains existing functions/seniority if feasible |
+| A4 | Useful value remains next planning decision, source/time/scope/ownership and receiving business decision. No new ROI, financial/yield/time-saving claim or product-vendor performance metric adopted |
+| A5 | Domestic readiness/ERP-to-chain promise N/A to this selected English research. No ERP→vendor admission claim |
+| A6 | Technical product examples identify audience activity, not Digiwin capabilities or implementations. Product/control components distinguished from full OEM/facility systems and design/IP firms |
+| A7 | Cold captions→ten P1/P2 stage units each→same reader→approved contact-vn retained as in source-bound selected-pack receipt; no scene/copy/order/URL change. Research does not substitute a broad cohort without adapting/reviewing whole journey |
+
+Per-surface review: REPORT opening and category table separate relevance from readiness; gap section states local-site/purchasing limitations and reach NOT_MEASURED; PRIMARY_EVIDENCE summarizes eleven public source pages with group/local boundaries and original dates; RESEARCH_BINDING contains counts/hashes only; probe brief preserves actual R5 AND Company Pages semantics and requires observed native evidence, not a theoretical reach calculation. Source provider claims are not reused as Digiwin proof. No raw roster/PII/contact data in public outputs.
+
+For unchanged source card-by-card, caption/headline/alt and transitions, see ../selected-build-pack/MESSAGE_ANCHOR_RECEIPT.md. Each remains retained only at the same hash/revision; no new acceptance inherited. Full handoff verdict remains **INSUFFICIENT_EVIDENCE**, A1 recipient binding/A2 decision unit and prior release gaps open. No MESSAGE_ANCHOR_FAIL newly asserted merely because evidence is missing; no SCRIPT_REVIEW_PASS/generation/paid-ready handoff.
