@@ -15,13 +15,13 @@ Nguồn đối chiếu: [activation receipt](../../../pre-ad-readiness/2026-10-2
 | Lịch | 01–07/11/2026 | Start 11/1/2026, End 11/7/2026, “for 7 days”; giờ VN 07:00→06:45 không đọc lại ở lượt này (chỉ có trong receipt) | MATCH ngày; giờ UNVERIFIED lượt này |
 | Location | Vietnam | Vietnam, recent/permanent | MATCH |
 | Job functions / seniority | Engineering, IT, Operations, QA AND CXO/Director/Manager/VP | đúng như vậy | MATCH |
-| Company list | R5 matched list (receipt chỉ ghi “R5”) | một company list tên bắt đầu TEST-AUD-CONTINGENCY-TRUE-ONLY-R5 nằm trong audience; chưa dùng tên này làm bằng chứng nội dung list | OBSERVED, cần Bảo xác nhận đây là R5 |
+| Company list | R5 matched list (receipt chỉ ghi “R5”) | một company list tên bắt đầu TEST-AUD-CONTINGENCY-TRUE-ONLY-R5 nằm trong audience; chưa dùng tên này làm bằng chứng nội dung list | OBSERVED prefix; expected full identity đã có trong receipt R5, cần agent đối chiếu đủ tên khi recheck, không hỏi Bảo duyệt lại |
 | Audience size | 470+ | forecast 470+; 30-day forecast spend $0.00–$14.00, reach 71–170 (ước tính định hướng, không phải kết quả) | MATCH |
 | Audience expansion | off | tắt (checkbox bỏ chọn) | MATCH |
 | Placement | Feed only; RightRail/LAN/Expansion off | LinkedIn feed bật; Right Rail tắt; LinkedIn Audience Network tắt | MATCH |
 | Profile language | English | KHÔNG đọc được lựa chọn đã chọn (DOM chỉ liệt kê danh sách ngôn ngữ) | UNVERIFIED |
 | Hai probe ad set | Draft/Off | VALIDATION_ONLY_VN_…_AUDIENCE_TEST: Draft. VALIDATION_ONLY_R5_EN_ELIGIBILITY_20261028_DO_NOT_LAUNCH: Draft. Không bị bật | MATCH |
-| Delivery 30 ngày | chưa có | Spent $0.00, impressions 0, clicks 0 trên danh sách ad/ad set | EXPECTED_NO_PAID_DATA, không phải số 0 đã đo |
+| Delivery 30 ngày | chưa có | Spent $0.00, impressions 0, clicks 0 trên danh sách ad/ad set | OBSERVED_ZERO trong cửa sổ30ngày đã đọc, phù hợp prelaunch; không là kết quả hiệu suất W1 và không gán0 cho trường chưa đo |
 
 Review/rejection/hold: bảng ads chỉ hiện “Active”; không thấy nhãn rejected/hold trong hàng. Đây không chứng minh policy approval hoặc đủ điều kiện delivery; receipt đã ghi modal “Your ads are being reviewed”. Không đọc được trang chi tiết xét duyệt từng ad ở lượt này.
 
@@ -37,7 +37,7 @@ Review/rejection/hold: bảng ads chỉ hiện “Active”; không thấy nhãn
 ## Việc còn lại / recheck
 
 - Đọc lại ngay trước 01/11 07:00 VN: trạng thái ad/ad set, nhãn review và chọn ngôn ngữ trong audience (trong UI, không qua DOM danh sách).
-- Bảo xác nhận company list đã chọn đúng R5 mong muốn.
+- Agent đối chiếu tên đầy đủ với `TEST-AUD-CONTINGENCY-TRUE-ONLY-R5-52` trong R5_DRAFT_ELIGIBILITY.md ngày28/10; lượt này chỉ đọc prefix nên chưa claim full identity MATCH. Không yêu cầu Bảo xác nhận lại quyết định audience.
 - Sau 01/11: ghi actual first delivery và các khoảng reject/pause; không suy từ lịch.
 
-Docs impact reviewed: no canonical update required. Đây là artifact thực thi trong gói pre-readback; không đổi audience/message, cap, lịch, creative hay tracking implementation.
+Docs impact reviewed: current canonical pointers updated for P1–P7 execution/corrections. See [audit closeout](AUDIT_FIX_CLOSEOUT.md). Đây là artifact thực thi trong gói pre-readback; không đổi audience/message, cap, lịch, creative hay tracking implementation.

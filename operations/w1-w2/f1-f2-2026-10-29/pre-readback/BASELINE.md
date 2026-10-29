@@ -41,4 +41,6 @@ Tham chiếu 01–28/10: page views 7,118, active users 3,727 (báo cáo Pages a
 
 Không đòi mua công cụ hay sửa tracking để điền đủ. Số nhập tay từ bảng GA4 hiển thị, không từ export. Một số dòng channel group bị cắt khi đọc (chỉ lấy 7 kênh đầu). Baseline brand/site rộng chỉ là context.
 
-Docs impact reviewed: no canonical update required.
+Docs impact reviewed: current canonical pointers updated for P1–P7 execution/corrections. See [audit closeout](AUDIT_FIX_CLOSEOUT.md).
+
+Audit limitation29Oct: các số trên là recorded observation của executor; không có snapshot/export reference đủ để auditor tái xác nhận độc lập. Giữ OBSERVED theo provenance đã khai, nhưng INSUFFICIENT_EVIDENCE cho independent numeric verification. Không tự sửa số hay biến chúng thành performance baseline PASS.

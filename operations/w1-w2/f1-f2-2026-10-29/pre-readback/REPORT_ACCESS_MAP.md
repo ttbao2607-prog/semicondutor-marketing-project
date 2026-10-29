@@ -19,7 +19,7 @@ Revision 1 · observed 29/10/2026 · COMPLETE_WITH_GAPS. Authority: mandate đ�
 | Demographics (company/function/seniority) | LinkedIn → Professional demographics | theo ad set/ad, đúng date range | ad set/ad | counts + unknown/suppressed; không dựng % đúng khi thiếu mẫu số | chỉ có sau delivery; có ngưỡng ẩn dữ liệu nhỏ | mở sau delivery; UNAVAILABLE nếu bị ẩn |
 | Reader sessions/engagement | GA4 → Reports → Acquisition → Traffic acquisition, chiều Session campaign | search term `fdi_` hoặc tên campaign | utm_campaign `fdi_f1_en_cold_wave01`, `fdi_f2_en_cold_wave01`; utm_content `f1_cold_v1`, `f2_cold_v1` ([registry](../SOURCE_REGISTRY.csv)) | Sessions, Engaged sessions, Avg engagement time theo GA4 | báo cáo đã xử lý thường trễ; số ngày gần nhất có thể chưa đủ (dữ liệu mới nhất đọc được là 28/10 vào 29/10) | cùng window, ghi processed hay không |
 | Reader page views | GA4 → Pages and screens | search `semiconductor-case-reader` | page path `/semiconductor-case-reader` | Views, Active users, Avg engagement time | như trên | như trên |
-| Treatment F1 vs F2 | GA4 | **UNVERIFIED:** URL có `t=F1/F2&lang=en` nhưng chưa kiểm GA4 có hiển thị query/param `t` thành chiều lọc hay không | utm_content `f1_cold_v1` / `f2_cold_v1` là khoá thay thế đã đọc được | — | — | nếu không có chiều `t`, dùng utm_content/campaign để tách |
+| Treatment F1 vs F2 | GA4 | **UNVERIFIED:** URL có `t=F1/F2&lang=en` nhưng chưa kiểm GA4 có hiển thị query/param `t` thành chiều lọc hay không | utm_content `f1_cold_v1` / `f2_cold_v1` là khoá dự kiến từ registry, đường lọc dimension chưa xác minh; Session campaign đã mở được nhưng chưa có paid rows | — | — | nếu không có chiều `t`, dùng utm_content/campaign để tách |
 
 ## Phân biệt cần giữ
 
@@ -43,4 +43,4 @@ Revision 1 · observed 29/10/2026 · COMPLETE_WITH_GAPS. Authority: mandate đ�
 
 Chụp ảnh màn hình trong editor LinkedIn và trang GA4 bị treo nhiều lần; các giá trị đọc qua accessibility tree/DOM, báo cáo GA4 qua text của bảng. Không có export, nên số liệu chép tay từ bảng hiển thị; khi readback thật cần ghi extracted_at.
 
-Docs impact reviewed: no canonical update required. Không đổi tracking contract, tag hay audience/message.
+Docs impact reviewed: current canonical pointers updated for P1–P7 execution/corrections. See [audit closeout](AUDIT_FIX_CLOSEOUT.md). Không đổi tracking contract, tag hay audience/message.

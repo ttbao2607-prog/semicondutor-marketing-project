@@ -70,4 +70,4 @@ Tất cả headline ≤ 45 ký tự; alt đều dạng “Illustration: <headlin
 
 Bright Power China/challenges giữ đúng scope; không KPI hay outcome module mới. Không phát hiện lỗi chặn trong phạm vi đọc được; dispositions ở trên chỉ chứng minh review nội bộ.
 
-Docs impact reviewed: no canonical update required.
+Docs impact reviewed: current canonical pointers updated for P1–P7 execution/corrections. See [audit closeout](AUDIT_FIX_CLOSEOUT.md).

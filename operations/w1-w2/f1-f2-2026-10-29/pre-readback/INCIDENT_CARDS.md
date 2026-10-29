@@ -12,7 +12,7 @@ Revision 1 · 29/10/2026 · REVIEW_ONLY_NO_AUTONOMOUS_ACTION. Authority: Bảo g
 
 ## I2 — Targeting drift
 
-- **Bằng chứng:** audience đã lưu khác expected: Vietnam recent/permanent; Job Functions (Engineering, IT, Operations, QA) AND Seniority (CXO, Director, Manager, VP) AND company list R5; audience expansion tắt; Feed only (Right Rail, LAN tắt); English; forecast khác 470+ một cách đáng kể.
+- **Bằng chứng:** audience đã lưu khác expected: Vietnam recent/permanent; Job Functions (Engineering, IT, Operations, QA) AND Seniority (CXO, Director, Manager, VP) AND company list R5; audience expansion tắt; Feed only (Right Rail, LAN tắt); English. Forecast thay đổi chỉ là observation cần điều tra; không chứng minh targeting drift khi saved settings không đổi.
 - **Phạm vi:** ad set (một ad set chung).
 - **Đề xuất:** báo Bảo; nếu drift đang làm chi sai, đề xuất pause ad set; sửa đúng mệnh đề lệch; mọi đổi scope là quyết định của Bảo.
 - **Kiểm phục hồi:** mở lại settings đã lưu, đối chiếu từng trường ở bảng READBACK; demographics report khi có.
@@ -26,10 +26,11 @@ Revision 1 · 29/10/2026 · REVIEW_ONLY_NO_AUTONOMOUS_ACTION. Authority: Bảo g
 - **Kiểm phục hồi:** readback trạng thái sau xử lý, ghi actual first delivery.
 - **Rollback:** nếu sửa creative, giữ bản gốc.
 
-## I4 — Measurement lỗi thật
+## I4 — Điều tra measurement và xác nhận lỗi
 
-- **Bằng chứng:** click LinkedIn có nhưng GA4 `fdi_*` không có session sau thời gian trễ hợp lý và reader hoạt động; sai `utm_content`; số bị nhiễm QA; chiều treatment không đọc được.
-- **Phạm vi:** đọc F1/F2 trong GA4; không ảnh hưởng delivery.
+- **Tín hiệu cần điều tra:** click LinkedIn có nhưng GA4 `fdi_*` chưa có session, query treatment không đọc được hoặc QA contamination. Riêng các dấu hiệu này chưa chứng minh tracking hỏng: kiểm click definition, đúng property/campaign/window/timezone, processing/consent và scope. Có thể dùng campaign/content thay chiều `t` nếu đã xác minh đường lọc.
+- **Bằng chứng lỗi xác nhận:** saved destination/UTM sai so contract, dispatch sai stream hoặc failure tái hiện trên route bằng paired QA có đánh dấu; ghi expected/actual, evidence và scope. Không đề xuất pause chỉ vì report thiếu hoặc hai hệ đếm khác nhau.
+- **Phạm vi:** có thể là report-only hoặc route/measurement thật; phải xác minh, không mặc định không ảnh hưởng delivery/entry.
 - **Đề xuất:** đối soát route/UTM/stream; nếu lỗi entry/đo lường thật, trình Bảo pause phần ảnh hưởng và sửa kỹ thuật bounded (không sửa hook để chữa tracking); tách synthetic QA khỏi paid.
 - **Kiểm phục hồi:** recheck cùng window, processing status rõ; không coi HTTP 204 là processed.
 - **Rollback:** không thay đổi creative; nếu sửa tracking thì theo contract.
@@ -48,4 +49,4 @@ Revision 1 · 29/10/2026 · REVIEW_ONLY_NO_AUTONOMOUS_ACTION. Authority: Bảo g
 - Ghi vào [DECISION_LOG.csv](../DECISION_LOG.csv) khi Bảo quyết (ở lượt này chưa sửa).
 - Không đưa raw account/lead/member data hay numeric ID vào Git.
 
-Docs impact reviewed: no canonical update required.
+Docs impact reviewed: current canonical pointers updated for P1–P7 execution/corrections. See [audit closeout](AUDIT_FIX_CLOSEOUT.md).

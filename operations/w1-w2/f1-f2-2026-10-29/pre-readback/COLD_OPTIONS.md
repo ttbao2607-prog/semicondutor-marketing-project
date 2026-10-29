@@ -8,11 +8,11 @@ Revision 1 · 29/10/2026 · INTERNAL_PREPARATION_COMPLETE / BRIEF_ONLY. Authorit
 
 | Phạm vi | Ứng viên đã rà | Disposition | Lý do |
 |---|---|---|---|
-| F1 cold hiện hành | B13 v5, card `COLD-FABLESS-B13` (sha256 `b89e0ec2…`, 1254×1254, reused byte-identical từ v4) | ĐANG CHẠY | không có phiên bản cold khác cùng hook trong `deliverables/`; thư mục B13 chỉ có v5 |
-| F2 cold hiện hành | B16 v2, card `COLD-FABLESS-B16` (sha256 `829bdd6e…`) | ĐANG CHẠY | như trên; `operations/` có B16 v1 nhưng không phải alternate đã chọn |
+| F1 cold hiện hành | B13 v5, card `COLD-FABLESS-B13` (sha256 `b89e0ec2…`, 1254×1254, reused byte-identical từ v4) | ON / SCHEDULED theo receipt29Oct; chưa delivery | không có phiên bản cold khác cùng hook trong `deliverables/`; thư mục B13 chỉ có v5 |
+| F2 cold hiện hành | B16 v2, card `COLD-FABLESS-B16` (sha256 `829bdd6e…`) | ON / SCHEDULED theo receipt29Oct; chưa delivery | như trên; `operations/` có B16 v1 nhưng không phải alternate đã chọn |
 | F3 / B19 EN “A lot changes partners. What goes with it?” | [B19](../../../../deliverables/linkedin-safe-batches/parallel-fabless-2026-10-07/B19-en-f3-v1/README.md) | KHÔNG PHẢI hook/visual swap | đổi tình huống (partner-to-partner handoff); review hiện là INSUFFICIENT_EVIDENCE/PARTIAL, mobile chưa đủ; cần scope review riêng ([ASSET_OPTIONS](../ASSET_OPTIONS.md)) |
 | B14/B15/B17/B18 (zh-Hans/zh-Hant) | cùng thư mục batch | NGOÀI SCOPE | đổi locale/segment (A3); không phải thử hook |
-| OSAT O1–O4, Supplier P1–P3 | [SCREENING](../../../pre-ad-readiness/2026-10-29/library-reselection/SCREENING.csv) | KHÔNG DÙNG | `NOT_A_WHOLE_R5_REPLACEMENT`; P-group fail native eligibility |
+| OSAT O1–O4, Supplier P1–P3 | [SCREENING](../../../pre-ad-readiness/2026-10-29/library-reselection/SCREENING.csv) | KHÔNG DÙNG | `NOT_A_WHOLE_R5_REPLACEMENT`; subgroup5 công ty với R5 quá nhỏ ở probe trước; không phải mọi P-journey hoặc toàn R5 đã fail native eligibility |
 
 ## Brief F1 — giữ Operations/partner reports
 
@@ -43,4 +43,4 @@ Revision 1 · 29/10/2026 · INTERNAL_PREPARATION_COMPLETE / BRIEF_ONLY. Authorit
 
 Chỉ cân nhắc thay khi C1–C3 đủ cơ sở (đúng link/audience/delivery) và có raw clicks/impressions với định nghĩa click đã khóa; criteria UNSET ([CRITERIA_DECISIONS](CRITERIA_DECISIONS.md)). Hai ad dùng chung ngân sách/thuật toán nên không declare loser khi một ad ít phân phối.
 
-Docs impact reviewed: no canonical update required.
+Docs impact reviewed: current canonical pointers updated for P1–P7 execution/corrections. See [audit closeout](AUDIT_FIX_CLOSEOUT.md).

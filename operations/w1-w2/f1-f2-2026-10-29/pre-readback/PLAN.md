@@ -79,7 +79,7 @@ Chuẩn bị incident cards cho wrong URL/locale/claim, targeting drift, review/
 
 ## Evidence, trạng thái và quyền thực thi
 
-[Tracker](TASKS.csv) là sổ kế hoạch; ở lúc lập plan toàn bộ task PLANNED, sau 29/10 cả bảy task đã có output nội bộ (P1–P3 và P5 COMPLETE_WITH_GAPS; P4 COMPLETE_BRIEF_ONLY; P6–P7 COMPLETE_AWAITING_BAO_INPUT). Khi làm, ghi started/observed/completed, artifact path, gap và evidence. Output P1–P7 đã tạo ngày 29/10 (nội bộ, chưa có quyết định của Bảo). Hoàn tất plan khi cả7task có owner/dependency/output/acceptance/authority/recheck rõ; chưa hoàn tất execution.
+[Tracker](TASKS.csv) là sổ kế hoạch; ở lúc lập plan toàn bộ task PLANNED, sau 29/10 cả bảy task đã có output nội bộ (P1–P3 và P5 COMPLETE_WITH_GAPS; P4 COMPLETE_BRIEF_ONLY; P6–P7 COMPLETE_AWAITING_BAO_INPUT). Khi làm, ghi started/observed/completed, artifact path, gap và evidence. Output P1–P7 đã tạo ngày 29/10 (nội bộ, chưa có quyết định của Bảo). Các output nội bộ đã có, nhưng không đồng nghĩa mọi acceptance về live/data/native đã đóng; xem AUDIT_FIX_CLOSEOUT.md cho gaps hiện hành.
 
 Read-only live/browser/report checks theo mandate thực thi được giao; không suy mandate viết plan cấp quyền thay settings. Tạo audience/draft, sửa/generate creative, publish, pause/enable, đổi ngày/budget và giải ngân phải đúng quyết định tương ứng; các điều khoản action-time nếu xuất hiện được xử lý tại bước đó. User acceptance cũ về exact paid assets/budget envelope không hỏi lại.
 

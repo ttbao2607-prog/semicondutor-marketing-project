@@ -4,7 +4,7 @@ Revision 1 · 29/10/2026 · DRAFT_FOR_BAO / NOT_DECIDED. Authority: Bảo giao P
 
 ## Khung chung
 
-- **Cap:** 11,7 triệu VND trước thuế; đợt đầu 5,6 triệu; giữ lại 6,1 triệu (tối đa 5,6 triệu cho đợt LinkedIn kế và 0,5 triệu cho Search tùy chọn). Mọi chi cho W2 lấy từ phần giữ lại và chỉ khi Bảo ghi quyết định cụ thể; actual accounting basis và số còn lại điền khi có, không dùng FX tự suy. W1 là daily pacing USD10 chia sẻ, danh nghĩa USD70, không phải lifetime cap.
+- **Cap:** 11,7 triệu VND trước thuế; đợt đầu 5,6 triệu; giữ lại 6,1 triệu (tối đa 5,6 triệu cho đợt LinkedIn kế và 0,5 triệu cho Search tùy chọn). Tuần lịch W2 không đồng nghĩa đợt ngân sách kế. Trước quyết định phải đọc chi thực và phần còn lại của đợt đầu5,6triệu; đề xuất dùng phần còn lại hoặc nguồn khác đúng quyết định của Bảo. Reserve6,1triệu không tự được giải ngân khi hếtW1; actual accounting basis và số còn lại điền khi có, không dùng FX tự suy. W1 là daily pacing USD10 chia sẻ, danh nghĩa USD70, không phải lifetime cap.
 - **Lịch:** W1 kết thúc 08/11 06:45 giờ VN và không tự nối. Không có quyết định thì để lịch kết thúc, giữ tiền.
 - **Đề xuất cho mọi phương án có chạy tiếp:** cửa sổ mới cùng độ dài 7 ngày để so equal-length; ngày bắt đầu do Bảo chốt, không nối tự động.
 
@@ -19,7 +19,7 @@ Revision 1 · 29/10/2026 · DRAFT_FOR_BAO / NOT_DECIDED. Authority: Bảo giao P
 | C6 (RMK) với S4 đạt đủ gate | **D** |
 | Lỗi tích hợp thật (C1, URL/locale/claim, targeting, budget) | không phải card; dùng [INCIDENT_CARDS](INCIDENT_CARDS.md) ngay, không chờ hết W1 |
 
-Lưu ý từ P1/P6: forecast native của ad set là spend 30 ngày $0–14 và reach 71–170 (định hướng), nên khả năng cao W1 thiếu dữ liệu (C7) và RMK dưới cổng. Nới audience hay ngân sách là quyết định L2 riêng, không nằm trong bốn card.
+Lưu ý từ P1/P6: forecast native của ad set là spend 30 ngày $0–14 và reach 71–170 (định hướng), chỉ gợi ý rủi ro delivery/pool nhỏ, chưa đủ để dự báo kết quả W1 hoặc trạng thái RMK. Nới audience hay ngân sách là quyết định L2 riêng, không nằm trong bốn card.
 
 ## Card A — Giữ hết lịch, giữ tiền
 
@@ -40,7 +40,7 @@ Lưu ý từ P1/P6: forecast native của ad set là spend 30 ngày $0–14 và 
 - **Đổi:** chỉ ngày/ngân sách (mới). Không sửa creative.
 - **Source/asset:** như W1.
 - **Prerequisite:** ad set vẫn không bị reject/hold (readback); ngày bắt đầu mới do Bảo chốt; lịch cũ đã kết thúc hoặc đã được đặt lại bằng thao tác được ủy quyền.
-- **Budget/date đề xuất (chưa chốt):** 7 ngày, USD10/ngày chia sẻ như W1, chi từ phần giữ lại; số VND thực theo accounting basis khi có.
+- **Budget/date đề xuất (chưa chốt):** 7 ngày, USD10/ngày chia sẻ như W1; nguồn tiền NOT_DECIDED. Đối soát phần còn lại đợt đầu trước khi đề xuất, reserve chỉ dùng khi Bảo quyết định cụ thể; số VND thực theo accounting basis khi có.
 - **Owner:** Bảo quyết; operator thực hiện khi có mandate.
 - **Rollback / exit:** pause ad set; giữ lịch hết hạn; tiền chưa chi vẫn giữ.
 - **Recheck:** checkpoint ngày delivery 3 và 7 (đề xuất, không tự động); so equal-length với W1.
@@ -64,14 +64,14 @@ Lưu ý từ P1/P6: forecast native của ad set là spend 30 ngày $0–14 và 
 - **Đổi:** thêm carousel RMK (explanation 6 / proof 4) cho pool; không đổi format cold.
 - **Source/asset:** `LI-wave01-F1/F2-en-EXPL-v1`, `-PROOF-v1` (đã được Bảo chấp nhận paid asset), QA nội bộ ở [CAROUSEL_QA](CAROUSEL_QA.md) (chưa native).
 - **Prerequisite:** source Ready/eligible; ≥ 300 reachable sau lọc trong UI hiện hành; dựng và native preview; URL/tracking/pacing/budget đã kiểm; Bảo chọn R1–R5 và objective.
-- **Budget/date đề xuất (chưa chốt):** trong cap 5,6 triệu của đợt kế; ngày Bảo chốt.
+- **Budget/date đề xuất (chưa chốt):** nguồn tiền NOT_DECIDED sau đối soát phần còn lại đợt đầu; nếu đề xuất dùng phần LinkedIn trong reserve phải có quyết định cụ thể của Bảo, giữ cap đã duyệt; ngày Bảo chốt.
 - **Owner:** Bảo; operator dựng khi có mandate.
 - **Rollback / exit:** pause ad RMK; giữ pool; quay lại cold hoặc giữ tiền.
 - **Recheck:** delivery/eligibility readback; không enable chỉ vì đã hết tuần hay thư viện có ảnh.
-- **Dự báo:** nhiều khả năng HOLD vì dưới cổng; ghi S-state thực tế.
+- **Trạng thái:** source NOT_VERIFIED_CREATED, reachable UNKNOWN; HOLD tới khi có đủ gate và quyết định. Không dự báo S2 trước readback.
 
 ## Mẫu điền decision log (đề xuất, chưa điền)
 
 `decision_id=W1_CLOSE_01`, `primary_scenario`/`secondary_scenarios` theo đọc thật, `keep`/`change` theo card, `bao_decision=NOT_DECIDED` cho tới khi Bảo ghi, `execution_state=NOT_EXECUTED`. Không sửa DECISION_LOG.csv ở lượt này.
 
-Docs impact reviewed: no canonical update required.
+Docs impact reviewed: current canonical pointers updated for P1–P7 execution/corrections. See [audit closeout](AUDIT_FIX_CLOSEOUT.md).
