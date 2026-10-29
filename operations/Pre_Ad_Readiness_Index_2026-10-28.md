@@ -1,3 +1,5 @@
+> **Bảo accepted F1/F2 paid assets29Oct:** [Exact current creative set accepted](pre-ad-readiness/2026-10-29/f1-f2-cycle/PO_PAID_ASSET_ACCEPTANCE.md); paid-use acceptance CLOSED for B13ENv5/B16ENv2 and labelled Bright reader illustration. Không hỏi lại existing case/translation; audience/execution/native QA và launch giữ scope riêng. Local checkpoint, chưa push/merge.
+
 > **F1/F2 review continuation29Oct:** [Reader/contact/back and concrete build candidates](pre-ad-readiness/2026-10-29/f1-f2-cycle/CLOSEOUT.md) checked; viewport390/1280 DOM no overflow/images loaded. Readiness NOT_READY: audience hypothesis/paid asset disposition and native preview/full-resolution checks remain. No creative/account/ad mutation; downstream not a blocker.
 
 > **Scope theo Bảo29/10:** [Paid vs downstream](paid-scope/PO_Paid_Downstream_Boundary_2026-10-29.md) là current authority: commercial ERP qualification từng account, CRM/full-funnel/sales/receiver operations không là pre-ad blockers. Giữ relevance, native eligibility, exact creative/proof/link, budget/schedule, metric theo plan và Bảo release. Human/domain review không là một external approver mới do agent tự thêm.

@@ -1,3 +1,5 @@
+> **Current decision addendum:** [Bao accepted existing F1/F2 creative for paid](PO_PAID_ASSET_ACCEPTANCE.md). Paid-use acceptance is CLOSED for the pinned set; the earlier pending-rights item below is historical. Other readiness fields are unchanged.
+
 # F1/F2 review closeout — 29/10
 
 Execution PARTIAL against the original contract; final readiness decision NOT_READY_FOR_PAUSED_BUILD as an approved production set. Review work completed for source/story and public reader entry/contact/back; native-feed preview, full-resolution per-card inspection and eligible selected audience remain unverified. No independent audit or AUDIT_PASS is claimed. Original partial report is retained as history.
