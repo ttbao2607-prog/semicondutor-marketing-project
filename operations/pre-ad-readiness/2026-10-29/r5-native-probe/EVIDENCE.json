@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-29",
+  "source_checkpoint": "61f74bd3",
+  "result": "INSUFFICIENT_REACH",
+  "route_support": "R5_AND_COMPANY_NAMES_AVAILABLE",
+  "expression": "Vietnam recent/permanent AND English setting AND functions(4 OR) AND seniorities(4 OR) AND R5 list AND exact Company Names(5 OR, current jobs)",
+  "selected_count": 5,
+  "numeric_company_ids_checked_against_private_R5_binding": 5,
+  "matched_exact_ids": 5,
+  "displayed_alert": "Oops! Your audience is too small. Please expand your audience.",
+  "forecast_display": "0+ observed under full five-company editor state; not an exact zero count",
+  "exact_subcohort_member_count": "NOT_DISCLOSED",
+  "persisted_configuration_changed": false,
+  "save_actions": 0,
+  "new_adset_create_actions": 0,
+  "new_audience_upload_actions": 0,
+  "ad_create_actions": 0,
+  "enable_launch_spend_actions": 0,
+  "cleanup": {
+    "back_to_account": true,
+    "save_confirmation_dialog": false,
+    "last_saved_banner": "October28",
+    "reopened_original_R5_without_five_company_clause": true,
+    "original_reference_estimate": "470+",
+    "original_Draft_Off": true,
+    "original_budget_dates_retained": true,
+    "owned_tab_closed": true,
+    "user_tabs_preserved": true
+  },
+  "private_witnesses": [
+    {
+      "name": "01-five-company-too-small.png",
+      "sha256": "631c466cb6a39ca971888864686fdd9d6355a265c2262c2237de6bac92ea81c8"
+    },
+    {
+      "name": "01-five-company-summary.txt",
+      "sha256": "20933ecd9b136ad413ad4a3b076de8fd04039c53a6dbd587633e728af00c6181"
+    },
+    {
+      "name": "02-reopened-original.txt",
+      "sha256": "b1c9c8df334a1b18e25801c2cd3f0a292aef99ee7bf22c1a6691a5e546c6f72f"
+    },
+    {
+      "name": "02-reopened-original.png",
+      "sha256": "f512dd7c91d947704a86f2ddda7daee5a923c7f112f24e274a3df5eccc69caca"
+    }
+  ],
+  "privacy": "No raw account IDs, Company Page roster or screenshots in public Git; private proof retained",
+  "anchor_sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5",
+  "email_sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+}
