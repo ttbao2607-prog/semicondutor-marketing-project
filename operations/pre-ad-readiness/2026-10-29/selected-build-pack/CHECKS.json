@@ -1,0 +1,68 @@
+{
+  "status": "PASS_INTERNAL_PACK",
+  "execution": "SUCCESS",
+  "paid_readiness": "INSUFFICIENT_EVIDENCE_LAUNCH_HOLD",
+  "independent_audit": "NOT_RUN_ROOT_SELF_REVIEW",
+  "ads": 6,
+  "card_slots": 20,
+  "unique_images": 16,
+  "unchanged_source_pins": 27,
+  "local_links_checked": 34,
+  "source_copy_and_order": "EXACT",
+  "destination_and_utm": "PASS_OFFLINE",
+  "native_ui": "NOT_RUN",
+  "live_mutations": 0,
+  "git_actions_during_verifier": "READ_ONLY; local checkpoint authorized separately, no push/merge",
+  "protected_creative_reader_tracking_diff": "NONE",
+  "whitespace_diff": "PASS",
+  "outputs": [
+    {
+      "path": "AD_FIELDS.md",
+      "sha256": "e2be0b0c679985e750e882d3b3739891eb228f80a6e15ec50063ec7261482e90"
+    },
+    {
+      "path": "BUILD_ADS.csv",
+      "sha256": "356b9ed9782912bee16ddf367a939669da694da33f2a50f1987f8219e31eb577"
+    },
+    {
+      "path": "BUILD_CARDS.csv",
+      "sha256": "e2abc2a76cb38ae7b3192c56aa6f5b7b537ccdeaab99d35147f6ce6ec8e953fe"
+    },
+    {
+      "path": "build_pack.py",
+      "sha256": "c2206090e212d61fb494cc34f86aa54b500a719695950c9db2ac76089e3f944c"
+    },
+    {
+      "path": "FIT_RECONCILIATION.json",
+      "sha256": "58ea2ed27ac09523a7c371e6ea846b893ed34071bb5b515bfcd82bdf6d14b5ed"
+    },
+    {
+      "path": "GAP_DECISIONS.md",
+      "sha256": "e32a2841eae46f55b83d9be3647ce38bdfe84120c10ec0209589c4c5c7026371"
+    },
+    {
+      "path": "MESSAGE_ANCHOR_RECEIPT.md",
+      "sha256": "c3a66f5d85a22bf19006b2db3285beabcba930e692fc77a0a654f8e0ea69b6aa"
+    },
+    {
+      "path": "OPERATING_PROPOSAL.md",
+      "sha256": "399317256efa3bd86c1073d5b0d31cdb5225c4192c6d1b3733d9b72b0193de9a"
+    },
+    {
+      "path": "PLAN.md",
+      "sha256": "fa192856d5f5668c48c1f0adfc42f8bafd38cde4eb96b7095011140918906f30"
+    },
+    {
+      "path": "REPORT_VI.md",
+      "sha256": "e043668bf74f7fe0be1014a84aa3e17fbe6e89370f9e58220aa5f2fe82347e1c"
+    },
+    {
+      "path": "SOURCE_BINDING.json",
+      "sha256": "66772e1643608a5a87628d6b8ab4f80300ea68ef5dd2bc0cad6865de07e9933d"
+    },
+    {
+      "path": "verify_pack.py",
+      "sha256": "c6928a21be2a70b285bfe53085a803a3be0ef5dea5ec4811de96543234fab4ce"
+    }
+  ]
+}
