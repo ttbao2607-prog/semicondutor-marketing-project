@@ -18,6 +18,10 @@
 - **Đề xuất (chưa quyết):** mặc định R1=A, R2=30 ngày, R3 giữ pool chung theo ad set, R6 cần mandate hẹp.
 - **Không đổi:** metric/threshold; W2 funding vẫn NOT_DECIDED; forecast không là RMK size hay KPI; không có winner/ROI.
 
+## Sửa theo audit nội bộ (29/10 ~14:10 +07)
+
+Auditor nêu ba điểm; đã xử lý: (1) evidence — mở lại audience 14:01 và ghi readback có private reference/hash trong [receipt](RMK_SOURCE_AUDIENCE_CREATED.md); giới hạn: rule/lookback/ad set nguồn không hiển thị sau khi lưu nên chưa reopen-verify được, và Q1–Q4 vẫn chỉ là observation của executor (không bundle); (2) [SOURCE_REGISTRY](../SOURCE_REGISTRY.csv) và pin manifest đã cập nhật, reachable vẫn UNKNOWN, Building không nâng thành Ready; (3) mô tả bridge/UTM ở [Q4](FOLLOWUP_Q4_VISUAL_QA.md) đã sửa theo mã nguồn; việc chưa kiểm public journey vẫn PARTIAL, không coi là lỗi tracking. Audit độc lập của phần sửa này: NOT_RUN.
+
 ## Cập nhật sau closeout (29/10 ~13:42 +07)
 
 Bảo trả lời trong chat: R6 tạo ngay (Claude tạo), recheck làm ngày 01/11 nên chỉ để handoff. Source audience `RMK-SRC-F1F2-R5-EN-WAVE01-ANY-30D` **đã tạo**, status Building ([receipt](RMK_SOURCE_AUDIENCE_CREATED.md)); handoff ở [RECHECK_HANDOFF_2026-11-01](RECHECK_HANDOFF_2026-11-01.md). Đây là thay đổi tài khoản duy nhất trong phiên, nằm ngoài Q1–Q4 chỉ-đọc; các câu "không thay đổi tài khoản" và "Audience: danh sách Matched trước/sau 5 mục" bên dưới chỉ mô tả giai đoạn Q1–Q4. Overall của Q1–Q4 vẫn PARTIAL. Trong danh sách bên dưới, Bảo đã trả lời R6 (mục 2) và recheck (mục 3), và lệnh tạo audience dùng R1=Any, R2=30 ngày, R3=pool chung (mục 1); R5 chưa được nêu riêng. Viewer desktop cho B16 (mục 4) chưa được trả lời.

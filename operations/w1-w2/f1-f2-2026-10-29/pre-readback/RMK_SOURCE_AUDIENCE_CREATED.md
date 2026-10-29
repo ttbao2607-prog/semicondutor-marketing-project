@@ -17,6 +17,18 @@
 
 Toast "Your audience has been successfully created". Danh sách Matched tăng 5 → 6; dòng mới: Status **Building**, Source Single Image, Active ad sets "-", Last audience count "-", Ownership Owned, Last modified 10/29/2026. Năm audience còn lại không đổi.
 
+## Reopen / readback sau khi tạo (14:01 +07)
+
+Mở lại audience từ danh sách Matched (trang chi tiết, chỉ đọc; không bấm "Create ad set" hay "View insights"). Đọc được: tên `RMK-SRC-F1F2-R5-EN-WAVE01-ANY-30D`; Status **Building**; Source **Single image ad**; Ownership Owned; Active ad sets không có (bảng "No records to show"); danh sách Matched 6 mục. Trang chi tiết **cũng hiển thị "Last audience count" là "<300"** khi đang Building: đây là nhãn hiển thị của LinkedIn lúc chưa xử lý xong, **không phải reachable sau xử lý** và không chứng minh dưới/trên cổng 300; reachable giữ UNKNOWN, không nâng Building thành Ready, đọc lại sau khi xử lý xong.
+
+**Giới hạn:** trang chi tiết không in rule, lookback hay ad set nguồn đã chọn, nên ba trường này **không thể reopen-verify** trong UI. Evidence cho chúng là readback ngay trước khi tạo (option `selected` của rule và lookback, một hàng ad set được chọn, giá trị ô tên) và toast "successfully created", cùng Source = Single image ad ở trang chi tiết; chưa có xác nhận độc lập sau lưu. Nếu Bảo cần chứng minh ad set nguồn, cần nguồn khác (ví dụ khi audience Ready có thể xem insights hoặc khi gắn vào ad set) và phải có mandate riêng.
+
+**Evidence private:** bản đọc thô lưu ngoài repo tại thư mục scratchpad của phiên (`private_readback_RMK_SRC_2026-10-29_1401.txt`), SHA256 `896d77d74c9e1d087ff69d2cc1133e777ffc9f2d84e078b4ce2894987dd73956`, observed_at 29/10/2026 14:01 +07. File này chỉ có text đọc từ DOM (không ảnh, numeric ID đã thay bằng `<id>`); thư mục phiên có thể bị xóa nên nó không phải kho lưu lâu dài. Evidence của Q1–Q4 (đọc trước đó) vẫn **không** có bundle riêng; chỉ audience readback này có private reference/hash.
+
+## Registry
+
+[SOURCE_REGISTRY.csv](../SOURCE_REGISTRY.csv) và pin trong [ARTIFACT_MANIFEST.json](../ARTIFACT_MANIFEST.json) đã cập nhật: rule `ANY_INTERACTIONS_SELECTED`, lookback `30_DAYS_SELECTED`, audience `RMK-SRC-F1F2-R5-EN-WAVE01-ANY-30D`, status `BUILDING_OBSERVED_2026-10-29T14:01+07`, reachable `UNKNOWN`. Các câu "NOT_VERIFIED_CREATED / NOT_SELECTED" trong [RMK_DECISION_PACK](RMK_DECISION_PACK.md) và [W2_ACTION_CARDS](W2_ACTION_CARDS.md) là snapshot lịch sử của P6/P7 (không sửa để giữ pin REVIEW.json); trạng thái source hiện hành lấy từ registry và receipt này.
+
 ## Không làm
 
 Không tạo ad RMK, không gắn audience vào ad set/targeting, không bật gì, không đổi budget/lịch/creative của F1/F2. Readback ad set F1/F2 lúc 13:42: vẫn On / Not delivering – Scheduled.
