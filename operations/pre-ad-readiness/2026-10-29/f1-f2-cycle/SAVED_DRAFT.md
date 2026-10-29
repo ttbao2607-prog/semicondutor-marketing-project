@@ -1,0 +1,13 @@
+# F1/F2 — saved inactive draft complete29Oct
+
+**Execution SUCCESS** for two saved cold ads in a separate inactive ad set. Existing R5 validation draft and historical draft retained. Duplicate flow explicitly showed destination campaign Paused. New ad set named DRAFT_REVIEW_R5_EN_F1_F2_WAVE01_DO_NOT_LAUNCH; contains LI-wave01-F1-en-COLD-v1 and LI-wave01-F2-en-COLD-v1. Native saved list and reopened settings show Draft/Off and2ads. Saved ad IDs and raw screenshots retained private.
+
+Saved fields: R5 Vietnam recent/permanent, English, Engineering/IT/Operations/Quality Assurance AND Manager/Director/VP/CXO;470+. Feed only, RightRail/LAN/Expansion off. DailyUSD10,02–08Nov2026; Reach/Maximum delivery retained. These are inactive review settings, not permission to spend or a verified VND accounting conversion. Broad R5 is used as the authorized draft hypothesis, retaining the disclosed mixed-relevance limitation; not a certified narrowed Fabless group.
+
+Both ads uploaded original1254-square PNG cold artwork from pinned B13v5/B16v2; no crop/edit/generation. Source caption/native headline and matching F1/F2 public reader UTM URLs, Learn more and source alt text saved. F1 and F2 reopened in native editor, matching source fields/images observed. Native mobile F2 preview loaded; F1 mobile screenshot captured during switch may be transitional, so no exhaustive visual/native-device PASS. CTA availability Learn more confirmed in actual format. A C2PA/source-information label is retained by platform; no attempt to remove metadata. Platform suggestion to draft more ads with AI declined each time.
+
+Save and exit followed by account-list readback shows original two drafts plus the new third draft, allOff. Reopened new settings retain2ads, dates,USD10,470+ and disabled delivery state. No Review & Launch, enable, audience upload, carousel creation, form/lead submission or spend action. Existing user tabs preserved; new draft editor marked deliverable.
+
+SAVED_DRAFT_RECEIPT.json pins private evidence. Root SELF_REVIEW, independent audit NOT_RUN; no launch-readiness/ROI/delivery claim. This supersedes historical “no F1/F2 ads created” only for saved draft status. Remaining before release: Bảo review exact draft and broad-audience hypothesis, actual financial pacing/schedule and native preview acceptance; no CRM/commercial qualification gate. Budget envelope/cadence and paid asset acceptance already recorded, do not ask again.
+
+Docs impact reviewed: current/readiness/build entrypoints updated; source creative, frozen core/adapter, landing/tracking unchanged. Local commit on approval-corrected; no push/merge. The branch can hand off this draft-building milestone, not represent ads as published or serving.

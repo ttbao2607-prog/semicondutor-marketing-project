@@ -1,0 +1,19 @@
+# Primary-source recheck — 29/10/2026
+
+Public product evidence only; no raw R5 roster, Company Page IDs, audience export or contact details. Classifications in the private ledger use these observations alongside the complete archived52-row source; website facts are not paid-use grants or buyer-qualification evidence. Summaries below are paraphrases, not verbatim marketing copy.
+
+| Evidence | Primary page read / what it supports | Boundary |
+|---|---|---|
+| S01 | [CKD Fine System Components](https://www.ckd.co.jp/semiconductor/en/): liquid/gas/vacuum/pneumatic controls for semiconductor processes | Group product relevance; not proof of local manufacturing or local ERP purchase authority |
+| S02 | [THK component application article](https://www.thk.com/jp/en/journal/products/article-04122024-1.html), published04Dec2024: linear-motion parts used in wafer inspection, chip mounting and bonding equipment | Group application relevance; article is dated, reread29Oct2026. No product performance figures reused in ads |
+| S03 | [HORIBA flow-control products](https://www.horiba.com/sgp/semiconductor/products/mass-flow-controller-and-module/): gas/liquid measurement and control modules used in semiconductor manufacturing | Group product relevance, not a local factory or installed ERP case |
+| S04 | [Festo semiconductor release](https://press.festo.com/en/node/5136), published02Oct2025: handling/pneumatic/electromechanical components for semiconductor wafer processes | Stronger exact-sector evidence than the Vietnam electronics page alone. Do not import yield/cost claims from supplier promotional text |
+| S05 | [Camfil semiconductor applications](https://www.camfil.com/en/industries/electronics-optics/semiconductor?selected=Make+up+air+unit): process-tool filters alongside cleanroom filtration | Exact tool-component activity supported, not generic HVAC inference. Initial en-nz fetch timed out; alternate official en route read successfully, not a source deletion |
+| S06 | [THK overseas production directory](https://www.thk.com/us/en/company/overseas_production_base/): Vietnam manufacturing facility is listed in Bac Ninh | Local manufacturing-site existence; not proof that the specific semiconductor component line is produced there or that the site can choose ERP |
+| S07 | [CKD group directory](https://www.ckd.co.jp/glblinfo/): Vietnam Engineering company/Hanoi location listed | Corporate presence, not demonstrated factory workflow |
+| S08 | [HORIBA Vietnam directory](https://www.horiba.com/deu/company/group-companies/asia/vietnam/): named Vietnam company and HCMC branch | Office presence, not demonstrated manufacturing/purchase authority |
+| S09 | [Camfil Vietnam](https://www.camfil.com/vi-vn): local presence/support stated | Does not establish a separate Vietnam factory or corporate system ownership |
+| S10 | [Organo Vietnam project](https://organovietnam.vn/organo-vietnam-exports-the-first-ultrapure-water-treatment-system-for-semiconductor-manufacturing-to-the-united-states/), published27Oct2025: UPW skids fabricated at Hung Yen factory for a US semiconductor plant | Important adjacent case: strong local production evidence, but a facility-system project is not automatically the exact equipment-component role in current P1/P2 wording |
+| S11 | [Beckhoff Vietnam company page](https://www.beckhoff.com/vi-vn/company/): representative office and PC/I/O/control product range | Current excerpt supports office and general automation role; does not alone establish exact semiconductor-component manufacturing in Vietnam |
+
+All eleven substantive pages were read through public web retrieval in this research cycle. The52-row ledger's other source observations retain their original06–07Oct dates; no claim that all52 companies were freshly reverified live. No emails, phone numbers, form contents or personal names from page footers are copied into the evidence pack.

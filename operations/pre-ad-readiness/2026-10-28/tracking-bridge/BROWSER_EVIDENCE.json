@@ -1,0 +1,260 @@
+{
+  "date": "2026-10-28",
+  "execution": "SUCCESS_SCOPED_TRANSPORT",
+  "pageIdentity": "Digiwin Semiconductor - Unified Case Reader - 20261028",
+  "publicURL": "https://solutions.digiwin.com.vn/semiconductor-case-reader",
+  "samePage": true,
+  "sameURL": true,
+  "wholeUnsavedSourceMatched": true,
+  "saveReopenExact": true,
+  "baselineBuilderHash": "8e695a9a29cf3e4f7df67a17fc10729c008ceb183c63d7131b034a9ef11c5ab8",
+  "savedBuilderHash": "876ff1a207b5e3dd686140d52e247c5879cebae6f7ce7827af66f7e848977c29",
+  "publishedRevisionHash": "95598564fdc4c8fbbd016cf26d4f55d99a56b286de95240d65474b7042b0d267",
+  "publishedScriptHash": "e1033f2f15374adf09056d189ba73cb0076941d1d60e883c04a825162ad6afc5",
+  "publishedCoreMatches": true,
+  "protectedWitnesses": {
+    "core_content_images": {
+      "before_sha256": "8de6f2bf4c315b078ae4b8db06878ca72f2ae5154d4e3ce07fbddf2eefda5d99",
+      "after_sha256": "8de6f2bf4c315b078ae4b8db06878ca72f2ae5154d4e3ce07fbddf2eefda5d99"
+    },
+    "router_and_visible_cta": {
+      "before_sha256": "8de6f2bf4c315b078ae4b8db06878ca72f2ae5154d4e3ce07fbddf2eefda5d99",
+      "after_sha256": "8de6f2bf4c315b078ae4b8db06878ca72f2ae5154d4e3ce07fbddf2eefda5d99"
+    },
+    "no_form_or_conversion_code": {
+      "before_sha256": "a52a5dad9e54bddfb9e20367a23de396f0c029546bec552368a9d7f45260a53e",
+      "after_sha256": "a52a5dad9e54bddfb9e20367a23de396f0c029546bec552368a9d7f45260a53e"
+    },
+    "blogspot_and_legacy_systems_unchanged": {
+      "before_sha256": "a52a5dad9e54bddfb9e20367a23de396f0c029546bec552368a9d7f45260a53e",
+      "after_sha256": "a52a5dad9e54bddfb9e20367a23de396f0c029546bec552368a9d7f45260a53e"
+    }
+  },
+  "boundarySame": true,
+  "bodySame": true,
+  "ga4Events": [
+    {
+      "host": "analytics.google.com",
+      "path": "/g/collect",
+      "event": "page_view",
+      "measurement": "G-MV5QWN0XVM",
+      "location": "https://solutions.digiwin.com.vn/semiconductor-case-reader?t=P1&lang=en&utm_source=qa&utm_medium=qa&utm_campaign=fdi_p1_en_cold_qa_tracking_20261028&utm_content=b22_qa_v1",
+      "bridge_campaign": "fdi_p1_en_cold_qa_tracking_20261028",
+      "bridge_source": "qa",
+      "bridge_lane": "cold",
+      "bridge_card": "b22_qa_v1",
+      "engagement_ms": null,
+      "status": 204,
+      "timestamp": 202803.807274
+    },
+    {
+      "host": "analytics.google.com",
+      "path": "/g/collect",
+      "event": "scroll",
+      "measurement": "G-MV5QWN0XVM",
+      "location": "https://solutions.digiwin.com.vn/semiconductor-case-reader?t=P1&lang=en&utm_source=qa&utm_medium=qa&utm_campaign=fdi_p1_en_cold_qa_tracking_20261028&utm_content=b22_qa_v1",
+      "bridge_campaign": "fdi_p1_en_cold_qa_tracking_20261028",
+      "bridge_source": "qa",
+      "bridge_lane": "cold",
+      "bridge_card": "b22_qa_v1",
+      "engagement_ms": "58098",
+      "status": 204,
+      "timestamp": 202856.955652
+    },
+    {
+      "host": "analytics.google.com",
+      "path": "/g/collect",
+      "event": "page_view",
+      "measurement": "G-MV5QWN0XVM",
+      "location": "https://www.digiwin.com.vn/contact-vn/?bridge_origin=semiconductor_reader&bridge_ts=1793180516669&bridge_source=qa&bridge_medium=qa&bridge_campaign=fdi_p1_en_cold_qa_tracking_20261028&bridge_card=b22_qa_v1&bridge_lane=cold&bridge_treatment=P1&bridge_locale=en",
+      "bridge_campaign": null,
+      "bridge_source": null,
+      "bridge_lane": null,
+      "bridge_card": null,
+      "engagement_ms": null,
+      "status": 204,
+      "timestamp": 203009.083263
+    }
+  ],
+  "identity": {
+    "clientPresent": true,
+    "sessionPresent": true,
+    "sameClient": true,
+    "sameSession": true
+  },
+  "readerControlledReloadPageViews": 1,
+  "contactMeasuredReloadPageViews": 1,
+  "nativePositiveEngagementMS": [
+    {
+      "event": "scroll",
+      "engagement_ms": 58098
+    }
+  ],
+  "networkCapture": {
+    "readerTruncated": false,
+    "contactInitialTruncated": true,
+    "contactMeasuredReloadTruncated": false,
+    "contactReloadsAfterClick": 2,
+    "originNetworkReenableRequired": true
+  },
+  "procedure": "QA-labelled initial reader open, then controlled reader reload with Network enabled. Actual CTA click retained bridge context. First contact capture unavailable/truncated across origin; two contact reloads followed, only final reload after re-enabling Network on contact origin is measured. cid/sid compared in memory only. No form interaction or submit. Counts apply measured windows, not entire QA session.",
+  "controls": [
+    {
+      "cta": [
+        {
+          "href": "https://www.digiwin.com.vn/contact-vn/?bridge_origin=semiconductor_reader&bridge_ts=1793180741125&bridge_source=qa&bridge_medium=qa&bridge_campaign=fdi_p2_en_cold_qa_tracking_20261028&bridge_card=b25_qa_v1&bridge_lane=cold&bridge_treatment=P2&bridge_locale=en",
+          "text": "Discuss your factory workflow"
+        }
+      ],
+      "height": 854,
+      "imagesLoaded": true,
+      "lang": "en",
+      "overflow": false,
+      "scripts": [
+        {
+          "id": "G-MV5QWN0XVM",
+          "path": "/gtag/js"
+        }
+      ],
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nSUPPLIER SYSTEMS\nIndustry context · Taiwan / Shanghai\nDefine record ownership before a system handoff\n\nFor semiconductor equipment-component suppliers, factory IT and operating teams need shared definitions, record responsibility and clear receiving decisions.\n\nIllustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.\n\n01\nWhere to start\n\nStart with one production record\n\nChoose one record that planning or quality teams need. Identify its meaning, update timing and production scope.\n\nRecord which team and system maintains it, who checks differences and who confirms the handoff.\n\n02\nRoles and responsibilities\n\nSeparate enterprise and production responsibilities\n\nERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.\n\nUse these roles to discuss record responsibility and process needs. Define the technical scope with the factory teams before selecting a handoff approach.\n\n03\nIndustry context\n\nIndustry context: Wafer Works\n\nWafer Works / 合晶科技 in Taiwan / Shanghai produces silicon wafer materials through crystal growth, wafer processing and epitaxy.\n\nThe case connects silicon crystals to wafer-lot production history and provides visibility into progress, equipment status and epitaxy records with quality parameter limits.\n\nThese production-information topics help factory teams identify the records and responsibilities to discuss in their own processes.\n\nWafer Works / 合晶科技\n\nTALK WITH DIGIWIN VIETNAM\n\nDefine the local factory scope\n\nDigiwin Vietnam assesses factory operations, advises on business processes and supports on-site solution transfer and factory acceptance.\n\nBring one current information handoff, its record owner, receiving decision and unresolved differences to a discussion of your process and implementation scope.\n\nOpens Digiwin Vietnam’s consultation page in Vietnamese.\n\nDiscuss your factory workflow\nReference source\n\nDigiwin semiconductor solutions: Wafer Works\n\nDigiwin Vietnam: supplier solutions and local services",
+      "title": "Define record ownership before a system handoff | Digiwin",
+      "width": 1278,
+      "name": "P2-English"
+    },
+    {
+      "cta": [],
+      "height": 854,
+      "imagesLoaded": true,
+      "lang": "zh-Hant",
+      "overflow": false,
+      "scripts": [
+        {
+          "id": "G-MV5QWN0XVM",
+          "path": "/gtag/js"
+        }
+      ],
+      "text": "跳至案例正文\n製造業數位化方案\nTiếng Việt\nEnglish\n简体中文\n繁體中文\n供應商系統\n產業脈絡 · 台灣 / 上海\n系統交接前，先釐清紀錄歸屬\n\n半導體設備零組件供應商的工廠 IT 與營運團隊，需要共同釐清紀錄定義、維護責任及接收方決策。\n\n本頁專用示意圖：矽晶體、晶圓、磊晶與生產紀錄。並非Wafer Works或其設備的照片。\n\n01\n從何開始\n\n從一筆生產紀錄開始\n\n選定排程或品質團隊需要的一筆紀錄，釐清其定義、更新時間及生產範圍。\n\n確認由哪個團隊與系統維護、誰核對差異，以及誰確認交接。\n\n02\n角色與權責\n\n區分企業與生產的責任\n\nERP 支援企業訂單、物料、規劃與成本管理。製造執行解決方案支援生產進度、批次紀錄及品質資訊。\n\n用這些角色梳理紀錄責任與流程需求。先與工廠團隊界定技術範圍，再選擇資訊交接方式。\n\n03\n產業脈絡\n\n產業脈絡：Wafer Works\n\nWafer Works / 合晶科技在台灣 / 上海生產矽晶圓材料，涵蓋晶體生長、晶圓加工及磊晶。\n\n案例將矽晶體連結到各晶圓批次的生產履歷，並呈現進度、設備狀態及設有品質參數限值的磊晶紀錄。\n\n工廠團隊可據此釐清自身流程討論需要關注的生產紀錄及責任。\n\nWafer Works / 合晶科技\n\n與DIGIWIN越南交流\n\n與越南團隊界定本廠範圍\n\nDigiwin 越南團隊評估工廠營運、提供業務流程建議，並支援現場方案移交及工廠驗收。\n\n帶上一項現有資訊交接、紀錄維護方、接收方決策及待核對差異，共同梳理流程與實施範圍。\n\n參考來源\n\nDigiwin 半導體解決方案：Wafer Works\n\nDigiwin 越南：供應商解決方案與在地服務",
+      "title": "系統交接前，先釐清紀錄歸屬 | Digiwin",
+      "width": 1278,
+      "name": "P2-zhHant"
+    },
+    {
+      "cta": [
+        {
+          "href": "https://www.digiwin.com.vn/contact-vn/?bridge_origin=semiconductor_reader&bridge_ts=1793180743205&bridge_source=qa&bridge_medium=qa&bridge_campaign=fdi_p2_en_cold_qa_tracking_20261028&bridge_card=b25_qa_v1&bridge_lane=cold&bridge_treatment=P2&bridge_locale=en",
+          "text": "Discuss your factory workflow"
+        }
+      ],
+      "height": 854,
+      "imagesLoaded": true,
+      "lang": "en",
+      "overflow": false,
+      "scripts": [
+        {
+          "id": "G-MV5QWN0XVM",
+          "path": "/gtag/js"
+        }
+      ],
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nSUPPLIER SYSTEMS\nIndustry context · Taiwan / Shanghai\nDefine record ownership before a system handoff\n\nFor semiconductor equipment-component suppliers, factory IT and operating teams need shared definitions, record responsibility and clear receiving decisions.\n\nIllustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.\n\n01\nWhere to start\n\nStart with one production record\n\nChoose one record that planning or quality teams need. Identify its meaning, update timing and production scope.\n\nRecord which team and system maintains it, who checks differences and who confirms the handoff.\n\n02\nRoles and responsibilities\n\nSeparate enterprise and production responsibilities\n\nERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.\n\nUse these roles to discuss record responsibility and process needs. Define the technical scope with the factory teams before selecting a handoff approach.\n\n03\nIndustry context\n\nIndustry context: Wafer Works\n\nWafer Works / 合晶科技 in Taiwan / Shanghai produces silicon wafer materials through crystal growth, wafer processing and epitaxy.\n\nThe case connects silicon crystals to wafer-lot production history and provides visibility into progress, equipment status and epitaxy records with quality parameter limits.\n\nThese production-information topics help factory teams identify the records and responsibilities to discuss in their own processes.\n\nWafer Works / 合晶科技\n\nTALK WITH DIGIWIN VIETNAM\n\nDefine the local factory scope\n\nDigiwin Vietnam assesses factory operations, advises on business processes and supports on-site solution transfer and factory acceptance.\n\nBring one current information handoff, its record owner, receiving decision and unresolved differences to a discussion of your process and implementation scope.\n\nOpens Digiwin Vietnam’s consultation page in Vietnamese.\n\nDiscuss your factory workflow\nReference source\n\nDigiwin semiconductor solutions: Wafer Works\n\nDigiwin Vietnam: supplier solutions and local services",
+      "title": "Define record ownership before a system handoff | Digiwin",
+      "width": 1278,
+      "name": "P2-back-English"
+    },
+    {
+      "cta": [
+        {
+          "href": "https://www.digiwin.com.vn/contact-vn/?bridge_origin=semiconductor_reader&bridge_ts=1793180743383&bridge_treatment=P1&bridge_locale=en",
+          "text": "Discuss your factory workflow"
+        }
+      ],
+      "height": 854,
+      "imagesLoaded": true,
+      "lang": "en",
+      "overflow": false,
+      "scripts": [
+        {
+          "id": "G-MV5QWN0XVM",
+          "path": "/gtag/js"
+        }
+      ],
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nSUPPLIER OPERATIONS\nIndustry context · Taiwan / Shanghai\nFrom lot records to the next operating decision\n\nFor semiconductor equipment-component suppliers, progress and quality information becomes useful when the source, scope and decision owner are clear.\n\nIllustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.\n\n01\nWhere to start\n\nStart with one handoff\n\nChoose one production lot and the planning decision that needs its progress or quality status. Identify the source record, when it was updated, and what it covers.\n\nAgree who checks a mismatch, who receives the confirmed information and what evidence they need before the next step.\n\n02\nRoles and responsibilities\n\nKeep planning and production evidence in their roles\n\nERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.\n\nMap the information each team needs before defining the solution scope and data handoff.\n\n03\nIndustry context\n\nSemiconductor industry context: Wafer Works\n\nWafer Works / 合晶科技, Taiwan / Shanghai, produces silicon wafer materials. The case covers crystal growth, wafer processing and epitaxy.\n\nDigiwin describes production genealogy from silicon crystals to wafer lots, visibility into production progress and equipment status, and epitaxy history with quality parameter limits.\n\nFor an equipment-component supplier, these are useful questions about traceability and execution visibility to bring into its own process discussion.\n\nWafer Works / 合晶科技\n\nTALK WITH DIGIWIN VIETNAM\n\nDefine the fit with the team in Vietnam\n\nDigiwin Vietnam specialists assess factory operations, advise on business processes and support on-site solution transfer and factory acceptance.\n\nBring a current production-to-planning handoff to the discussion: its records, the people involved, the receiving decision and the gaps to resolve. This helps define the processes and implementation scope for your factory.\n\nOpens Digiwin Vietnam’s consultation page in Vietnamese.\n\nDiscuss your factory workflow\nReference source\n\nDigiwin semiconductor solutions: Wafer Works\n\nDigiwin Vietnam: supplier solutions and local delivery",
+      "title": "From lot records to the next operating decision | Digiwin",
+      "width": 1278,
+      "name": "P1-direct"
+    },
+    {
+      "cta": [
+        {
+          "href": "https://www.digiwin.com.vn/contact-vn/?bridge_origin=semiconductor_reader&bridge_ts=1793180743383&bridge_treatment=P1&bridge_locale=en",
+          "text": "Discuss your factory workflow"
+        }
+      ],
+      "height": 1000,
+      "imagesLoaded": true,
+      "lang": "en",
+      "overflow": false,
+      "scripts": [
+        {
+          "id": "G-MV5QWN0XVM",
+          "path": "/gtag/js"
+        }
+      ],
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nSUPPLIER OPERATIONS\nIndustry context · Taiwan / Shanghai\nFrom lot records to the next operating decision\n\nFor semiconductor equipment-component suppliers, progress and quality information becomes useful when the source, scope and decision owner are clear.\n\nIllustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.\n\n01\nWhere to start\n\nStart with one handoff\n\nChoose one production lot and the planning decision that needs its progress or quality status. Identify the source record, when it was updated, and what it covers.\n\nAgree who checks a mismatch, who receives the confirmed information and what evidence they need before the next step.\n\n02\nRoles and responsibilities\n\nKeep planning and production evidence in their roles\n\nERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.\n\nMap the information each team needs before defining the solution scope and data handoff.\n\n03\nIndustry context\n\nSemiconductor industry context: Wafer Works\n\nWafer Works / 合晶科技, Taiwan / Shanghai, produces silicon wafer materials. The case covers crystal growth, wafer processing and epitaxy.\n\nDigiwin describes production genealogy from silicon crystals to wafer lots, visibility into production progress and equipment status, and epitaxy history with quality parameter limits.\n\nFor an equipment-component supplier, these are useful questions about traceability and execution visibility to bring into its own process discussion.\n\nWafer Works / 合晶科技\n\nTALK WITH DIGIWIN VIETNAM\n\nDefine the fit with the team in Vietnam\n\nDigiwin Vietnam specialists assess factory operations, advise on business processes and support on-site solution transfer and factory acceptance.\n\nBring a current production-to-planning handoff to the discussion: its records, the people involved, the receiving decision and the gaps to resolve. This helps define the processes and implementation scope for your factory.\n\nOpens Digiwin Vietnam’s consultation page in Vietnamese.\n\nDiscuss your factory workflow\nReference source\n\nDigiwin semiconductor solutions: Wafer Works\n\nDigiwin Vietnam: supplier solutions and local delivery",
+      "title": "From lot records to the next operating decision | Digiwin",
+      "width": 1280,
+      "name": "P1-desktop-final"
+    },
+    {
+      "cta": [
+        {
+          "href": "https://www.digiwin.com.vn/contact-vn/?bridge_origin=semiconductor_reader&bridge_ts=1793180743383&bridge_treatment=P1&bridge_locale=en",
+          "text": "Discuss your factory workflow"
+        }
+      ],
+      "height": 1000,
+      "imagesLoaded": true,
+      "lang": "en",
+      "overflow": false,
+      "scripts": [
+        {
+          "id": "G-MV5QWN0XVM",
+          "path": "/gtag/js"
+        }
+      ],
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nSUPPLIER OPERATIONS\nIndustry context · Taiwan / Shanghai\nFrom lot records to the next operating decision\n\nFor semiconductor equipment-component suppliers, progress and quality information becomes useful when the source, scope and decision owner are clear.\n\nIllustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.\n\n01\nWhere to start\n\nStart with one handoff\n\nChoose one production lot and the planning decision that needs its progress or quality status. Identify the source record, when it was updated, and what it covers.\n\nAgree who checks a mismatch, who receives the confirmed information and what evidence they need before the next step.\n\n02\nRoles and responsibilities\n\nKeep planning and production evidence in their roles\n\nERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.\n\nMap the information each team needs before defining the solution scope and data handoff.\n\n03\nIndustry context\n\nSemiconductor industry context: Wafer Works\n\nWafer Works / 合晶科技, Taiwan / Shanghai, produces silicon wafer materials. The case covers crystal growth, wafer processing and epitaxy.\n\nDigiwin describes production genealogy from silicon crystals to wafer lots, visibility into production progress and equipment status, and epitaxy history with quality parameter limits.\n\nFor an equipment-component supplier, these are useful questions about traceability and execution visibility to bring into its own process discussion.\n\nWafer Works / 合晶科技\n\nTALK WITH DIGIWIN VIETNAM\n\nDefine the fit with the team in Vietnam\n\nDigiwin Vietnam specialists assess factory operations, advise on business processes and support on-site solution transfer and factory acceptance.\n\nBring a current production-to-planning handoff to the discussion: its records, the people involved, the receiving decision and the gaps to resolve. This helps define the processes and implementation scope for your factory.\n\nOpens Digiwin Vietnam’s consultation page in Vietnamese.\n\nDiscuss your factory workflow\nReference source\n\nDigiwin semiconductor solutions: Wafer Works\n\nDigiwin Vietnam: supplier solutions and local delivery",
+      "title": "From lot records to the next operating decision | Digiwin",
+      "width": 390,
+      "name": "P1-mobile"
+    },
+    {
+      "cta": [
+        {
+          "href": "https://www.digiwin.com.vn/contact-vn/?bridge_origin=semiconductor_reader&bridge_ts=1793180833349&bridge_source=qa&bridge_medium=qa&bridge_campaign=fdi_p2_en_cold_qa_tracking_20261028&bridge_card=b25_qa_v1&bridge_lane=cold&bridge_treatment=P2&bridge_locale=en",
+          "text": "Discuss your factory workflow"
+        }
+      ],
+      "height": 1000,
+      "imagesLoaded": true,
+      "lang": "en",
+      "overflow": false,
+      "scripts": [
+        {
+          "id": "G-MV5QWN0XVM",
+          "path": "/gtag/js"
+        }
+      ],
+      "text": "Skip to case content\nMANUFACTURING SOLUTIONS\nTiếng Việt\nEnglish\n简体中文\n繁體中文\nSUPPLIER SYSTEMS\nIndustry context · Taiwan / Shanghai\nDefine record ownership before a system handoff\n\nFor semiconductor equipment-component suppliers, factory IT and operating teams need shared definitions, record responsibility and clear receiving decisions.\n\nIllustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.\n\n01\nWhere to start\n\nStart with one production record\n\nChoose one record that planning or quality teams need. Identify its meaning, update timing and production scope.\n\nRecord which team and system maintains it, who checks differences and who confirms the handoff.\n\n02\nRoles and responsibilities\n\nSeparate enterprise and production responsibilities\n\nERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.\n\nUse these roles to discuss record responsibility and process needs. Define the technical scope with the factory teams before selecting a handoff approach.\n\n03\nIndustry context\n\nIndustry context: Wafer Works\n\nWafer Works / 合晶科技 in Taiwan / Shanghai produces silicon wafer materials through crystal growth, wafer processing and epitaxy.\n\nThe case connects silicon crystals to wafer-lot production history and provides visibility into progress, equipment status and epitaxy records with quality parameter limits.\n\nThese production-information topics help factory teams identify the records and responsibilities to discuss in their own processes.\n\nWafer Works / 合晶科技\n\nTALK WITH DIGIWIN VIETNAM\n\nDefine the local factory scope\n\nDigiwin Vietnam assesses factory operations, advises on business processes and supports on-site solution transfer and factory acceptance.\n\nBring one current information handoff, its record owner, receiving decision and unresolved differences to a discussion of your process and implementation scope.\n\nOpens Digiwin Vietnam’s consultation page in Vietnamese.\n\nDiscuss your factory workflow\nReference source\n\nDigiwin semiconductor solutions: Wafer Works\n\nDigiwin Vietnam: supplier solutions and local services",
+      "title": "Define record ownership before a system handoff | Digiwin",
+      "width": 390,
+      "name": "P2-mobile"
+    }
+  ],
+  "limits": [
+    "No processed GA4 attribution/funnel report verification",
+    "Native contact page_view carries bridge_* in page_location, not ep.bridge_* event fields; anchor cohort at reader entrance and use ordered session/path analysis",
+    "No new blog/lead/conversion/custom CTA event; no website GTM or legacy LadiPage change",
+    "QA desktop Chrome continuity does not prove real paid, cross-device, in-app or human comprehension",
+    "Direct controls verify no assumed paid bridge context, not native session attribution reset"
+  ],
+  "formSubmitted": false
+}

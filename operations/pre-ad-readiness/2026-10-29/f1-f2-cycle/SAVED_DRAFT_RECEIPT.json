@@ -1,0 +1,55 @@
+{
+  "result": "SUCCESS_SAVED_TWO_INACTIVE_ADS",
+  "adset_name": "DRAFT_REVIEW_R5_EN_F1_F2_WAVE01_DO_NOT_LAUNCH",
+  "ad_names": [
+    "LI-wave01-F1-en-COLD-v1",
+    "LI-wave01-F2-en-COLD-v1"
+  ],
+  "parent": "Existing VALIDATION_ONLY campaign observed Paused",
+  "adset_state": "Draft/Off",
+  "count": 2,
+  "audience": "R5 VN English, four functions AND Manager/Director/VP/CXO; mixed-cohort draft hypothesis",
+  "estimate": "470+",
+  "daily_usd": 10,
+  "start": "2026-11-02",
+  "end": "2026-11-08",
+  "placement": "Feed only; Right Rail/LAN off; Expansion off",
+  "optimization": "Reach/Maximum delivery retained from validation",
+  "authority": "User authorized draft creation/save/reopen only; no launch/spend",
+  "source_fields": "Captions/headlines/URLs/Learn more/PNG checked after save; source alt confirmed via DOM values",
+  "private_witnesses": [
+    {
+      "name": "F1-mobile.png",
+      "sha256": "4ed35042d7f37ed39807d4a44abef6aa35fdb79677997ca605038901477ba128"
+    },
+    {
+      "name": "F1-reopened.txt",
+      "sha256": "a70d019c1a4caf52cbe94c3e742f98a08f2549bcc0174b7dc091bb06b98a30fd"
+    },
+    {
+      "name": "F2-mobile.png",
+      "sha256": "048dedcaab24198935ae920b1647c38bc577953844ac5782988606b3564add3c"
+    },
+    {
+      "name": "F2-reopened.txt",
+      "sha256": "a4b63dd7f98ab1a92d5f666630817ef21c76a87b2a99385e64f9a81b3686f134"
+    },
+    {
+      "name": "reopened-settings.png",
+      "sha256": "8b306f25c953834d065192e1adb79e769dbd853f619e784e7f02311b988cadbc"
+    },
+    {
+      "name": "reopened-settings.txt",
+      "sha256": "e288c712304e08e0ef483d05a06092cfe074e256e9d5cdec578deb2c120dbfd1"
+    },
+    {
+      "name": "saved-list.png",
+      "sha256": "8b67862765d0355a59a0e30752b43d336bd7bc772cb0a5761411b19223602cc4"
+    },
+    {
+      "name": "saved-list.txt",
+      "sha256": "267f860d1dce37248593e5022e3c0558eb0a9f5a6980b665d2473a571f4f2f74"
+    }
+  ],
+  "independence": "ROOT_SELF_REVIEW_NOT_INDEPENDENT_AUDIT"
+}

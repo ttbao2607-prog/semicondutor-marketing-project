@@ -1,0 +1,28 @@
+{
+  "execution": "SUCCESS_INTERNAL_COMPARISON",
+  "independent_audit": "NOT_RUN; ROOT_SELF_REVIEW",
+  "handoff": "INSUFFICIENT_EVIDENCE_FOR_FULL_R5",
+  "screening_journeys": 11,
+  "conditional_shortlist": [
+    "F1",
+    "F2",
+    "F3"
+  ],
+  "source_pins_checked": 48,
+  "ordered_card_slots": 33,
+  "unique_image_hashes": 24,
+  "source_copy_reader_unified_match": true,
+  "local_links_checked": 6,
+  "new_native_pixel_or_render_acceptance": false,
+  "account_actions": 0,
+  "protected_creative_tracking_reader_diff": "NONE",
+  "whitespace": "PASS",
+  "output_sha256": {
+    "MESSAGE_ANCHOR_RECEIPT.md": "3b4937c6cb77d445c341a7a348e35bb37f6a057ae270105242658914760eedee",
+    "PLAN.md": "a54053db3fb8a841511cb4885bead00b05b37705bfb33e3b22af2e40c34f1da4",
+    "REPORT_VI.md": "ced36fb8bddef522cb6c425b1e9766eabe0d0700d2e5fdef45fe2d9de9d68ee0",
+    "SCREENING.csv": "334f9b8489230792263ea798cb5a9713a85b925ce8cf8696a1f2612deb131c7f",
+    "SELECTED_COPY_REVIEW.json": "251b1b26555d4d45ecefc1bd93e76a282d2b149df587526de541a577e83530a3",
+    "SOURCE_BINDING.json": "16c78ccddac25ba8abb87ea9ceea7d655127aba7d59866de40ad74a0176fefd9"
+  }
+}

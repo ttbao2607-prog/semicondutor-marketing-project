@@ -1,0 +1,1587 @@
+{
+  "date": "2026-10-28",
+  "scope": "Read-only public DOM/network and authenticated GTM version list; no form/tag/ad/account mutation",
+  "reader": {
+    "url": "https://solutions.digiwin.com.vn/semiconductor-case-reader?t=P1&lang=en&utm_source=qa&utm_medium=reader_tracking_check&utm_campaign=fdi_p1_en_cold_qa&utm_content=b22_cold_qa",
+    "scriptHosts": [
+      "w.ladicdn.com"
+    ],
+    "scriptPath": "/v6/source/ladihtml.sdk.min.js",
+    "forms": 0,
+    "analyticsRequestsObserved": 0,
+    "platformEventRequestObserved": true,
+    "eventsTruncated": false,
+    "requests": [
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Document",
+        "host": "solutions.digiwin.com.vn",
+        "path": "/semiconductor-case-reader",
+        "queryKeys": [
+          "lang",
+          "t",
+          "utm_campaign",
+          "utm_content",
+          "utm_medium",
+          "utm_source"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Document",
+        "host": "solutions.digiwin.com.vn",
+        "path": "/semiconductor-case-reader",
+        "queryKeys": [
+          "lang",
+          "t",
+          "utm_campaign",
+          "utm_content",
+          "utm_medium",
+          "utm_source"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Image",
+        "host": "w.ladicdn.com",
+        "path": "/6954c5dab371fb00129422d1/import-1-20261028083942-ckbf_.webp",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Image",
+        "host": "w.ladicdn.com",
+        "path": "/6954c5dab371fb00129422d1/import-1-20261028083942-ckbf_.webp",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Image",
+        "host": "w.ladicdn.com",
+        "path": "/6954c5dab371fb00129422d1/import-4-20261028083942-yor7m.jpg",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Script",
+        "host": "w.ladicdn.com",
+        "path": "/v6/source/ladihtml.sdk.min.js",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Image",
+        "host": "w.ladicdn.com",
+        "path": "/6954c5dab371fb00129422d1/import-4-20261028083942-yor7m.jpg",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Script",
+        "host": "w.ladicdn.com",
+        "path": "/v6/source/ladihtml.sdk.min.js",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Fetch",
+        "host": "a.ladipage.com",
+        "path": "/event",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": true
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Fetch",
+        "host": "a.ladipage.com",
+        "path": "/event",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      }
+    ]
+  },
+  "contact": {
+    "dom": {
+      "host": "www.digiwin.com.vn",
+      "path": "/contact-vn/",
+      "queryKeys": [],
+      "referrerOrigin": "https://solutions.digiwin.com.vn",
+      "scripts": [
+        {
+          "host": "snap.licdn.com",
+          "path": "/li.lms-analytics/insight.min.js",
+          "queryKeys": [],
+          "tagId": null
+        },
+        {
+          "host": "connect.facebook.net",
+          "path": "/signals/config/1196022574446817",
+          "queryKeys": [
+            "v",
+            "r",
+            "domain",
+            "hme",
+            "ex_m"
+          ],
+          "tagId": null
+        },
+        {
+          "host": "connect.facebook.net",
+          "path": "/en_US/fbevents.js",
+          "queryKeys": [],
+          "tagId": null
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "queryKeys": [
+            "id",
+            "cx",
+            "gtm"
+          ],
+          "tagId": "G-MV5QWN0XVM"
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "queryKeys": [
+            "id"
+          ],
+          "tagId": "GTM-PC6FVTMZ"
+        },
+        {
+          "host": "www.digiwin.com.vn",
+          "path": "/wp-includes/js/jquery/jquery.min.js",
+          "queryKeys": [
+            "ver"
+          ],
+          "tagId": null
+        },
+        {
+          "host": "s.zzcdn.me",
+          "path": "/ztr/ztracker.js",
+          "queryKeys": [
+            "id"
+          ],
+          "tagId": null
+        },
+        {
+          "host": "challenges.cloudflare.com",
+          "path": "/turnstile/v0/api.js",
+          "queryKeys": [],
+          "tagId": null
+        },
+        {
+          "host": "www.digiwin.com.vn",
+          "path": "/wp-content/litespeed/js/7d93dac9b3f9785a2909d118de2ef6c4.js",
+          "queryKeys": [
+            "ver"
+          ],
+          "tagId": null
+        }
+      ],
+      "title": "Contact-vn | Digiwin Vietnam"
+    },
+    "requests": [
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Stylesheet",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/litespeed/css/16ec63fc78292d2ae908062f2f1f63bc.css",
+        "queryKeys": [
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Stylesheet",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/et-cache/1039/et-divi-builder-dynamic-1039-late.css",
+        "queryKeys": [
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Stylesheet",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/et-cache/1039/et-divi-builder-dynamic-1039.css",
+        "queryKeys": [
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Script",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "queryKeys": [
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Stylesheet",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/et-cache/1039/et-core-unified-deferred-1039.min.css",
+        "queryKeys": [
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Script",
+        "host": "s.zzcdn.me",
+        "path": "/ztr/ztracker.js",
+        "queryKeys": [
+          "id"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Image",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/themes/dgw/images/logo.webp",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Image",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/themes/dgw/images/logo-mobile.webp",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Script",
+        "host": "challenges.cloudflare.com",
+        "path": "/turnstile/v0/api.js",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Script",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/litespeed/js/7d93dac9b3f9785a2909d118de2ef6c4.js",
+        "queryKeys": [
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Stylesheet",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/litespeed/css/16ec63fc78292d2ae908062f2f1f63bc.css",
+        "queryKeys": [
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Stylesheet",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/et-cache/1039/et-divi-builder-dynamic-1039-late.css",
+        "queryKeys": [
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Stylesheet",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/et-cache/1039/et-divi-builder-dynamic-1039.css",
+        "queryKeys": [
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Stylesheet",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/et-cache/1039/et-core-unified-deferred-1039.min.css",
+        "queryKeys": [
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Script",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-includes/js/jquery/jquery.min.js",
+        "queryKeys": [
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Script",
+        "host": "www.googletagmanager.com",
+        "path": "/gtm.js",
+        "queryKeys": [
+          "id"
+        ],
+        "eventName": null,
+        "measurementId": "GTM-PC6FVTMZ",
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Image",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/uploads/2023/07/D-Logo.png",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Image",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/themes/dgw/images/logo.webp",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Image",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/themes/dgw/images/logo-mobile.webp",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Image",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/uploads/2023/07/D-Logo.png",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Stylesheet",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/et-cache/1039/et-divi-builder-dynamic-1039-late.css",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Script",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/litespeed/js/7d93dac9b3f9785a2909d118de2ef6c4.js",
+        "queryKeys": [
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Script",
+        "host": "www.googletagmanager.com",
+        "path": "/gtm.js",
+        "queryKeys": [
+          "id"
+        ],
+        "eventName": null,
+        "measurementId": "GTM-PC6FVTMZ",
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Script",
+        "host": "challenges.cloudflare.com",
+        "path": "/turnstile/v0/g/c787ce48cf6b/api.js",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Script",
+        "host": "s.zzcdn.me",
+        "path": "/ztr/ztracker.js",
+        "queryKeys": [
+          "id"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Image",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/uploads/2026/03/Digital-Ocean-1280x895-1.webp",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Stylesheet",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/et-cache/1039/et-divi-builder-dynamic-1039-late.css",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Image",
+        "host": "www.digiwin.com.vn",
+        "path": "/wp-content/uploads/2026/03/Digital-Ocean-1280x895-1.webp",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Fetch",
+        "host": "log.adtimaserver.vn",
+        "path": "/ptrck/events",
+        "queryKeys": [
+          "pixelId",
+          "url"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Image",
+        "host": "log.adtimaserver.vn",
+        "path": "/tracklp",
+        "queryKeys": [
+          "atmrk",
+          "curl",
+          "data",
+          "dur",
+          "pId",
+          "ref",
+          "type",
+          "uid",
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Script",
+        "host": "challenges.cloudflare.com",
+        "path": "/turnstile/v0/g/c787ce48cf6b/api.js",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Image",
+        "host": "log.adtimaserver.vn",
+        "path": "/tracklp",
+        "queryKeys": [
+          "atmrk",
+          "curl",
+          "data",
+          "dur",
+          "pId",
+          "ref",
+          "type",
+          "uid",
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Fetch",
+        "host": "log.adtimaserver.vn",
+        "path": "/ptrck/events",
+        "queryKeys": [
+          "pixelId",
+          "url"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Script",
+        "host": "www.googletagmanager.com",
+        "path": "/gtag/js",
+        "queryKeys": [
+          "cx",
+          "gtm",
+          "id"
+        ],
+        "eventName": null,
+        "measurementId": "G-MV5QWN0XVM",
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Script",
+        "host": "connect.facebook.net",
+        "path": "/en_US/fbevents.js",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Script",
+        "host": "snap.licdn.com",
+        "path": "/li.lms-analytics/insight.min.js",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Fetch",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "queryKeys": [
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dr",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "eventName": "page_view",
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Fetch",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "queryKeys": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Script",
+        "host": "snap.licdn.com",
+        "path": "/li.lms-analytics/insight.min.js",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Document",
+        "host": "challenges.cloudflare.com",
+        "path": "/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/tc5x9/0x4AAAAAAEe5ghYmyH3wpgix/light/fbE/new/normal",
+        "queryKeys": [
+          "lang"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Fetch",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "queryKeys": [
+          "fmt",
+          "medium"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": true
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Image",
+        "host": "px.ads.linkedin.com",
+        "path": "/collect",
+        "queryKeys": [
+          "fmt",
+          "li_adsId",
+          "pageLoadId",
+          "pid",
+          "time",
+          "tm",
+          "url",
+          "v"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Script",
+        "host": "connect.facebook.net",
+        "path": "/en_US/fbevents.js",
+        "queryKeys": [],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Script",
+        "host": "connect.facebook.net",
+        "path": "/signals/config/1196022574446817",
+        "queryKeys": [
+          "domain",
+          "ex_m",
+          "hme",
+          "r",
+          "v"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Script",
+        "host": "www.googletagmanager.com",
+        "path": "/gtag/js",
+        "queryKeys": [
+          "cx",
+          "gtm",
+          "id"
+        ],
+        "eventName": null,
+        "measurementId": "G-MV5QWN0XVM",
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Fetch",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "queryKeys": [
+          "_eu",
+          "_gaz",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dr",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ibt",
+          "ir",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "eventName": "page_view",
+        "measurementId": "G-MV5QWN0XVM",
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Image",
+        "host": "www.google.com.vn",
+        "path": "/ads/ga-audiences",
+        "queryKeys": [
+          "_r",
+          "aip",
+          "cid",
+          "dma",
+          "frm",
+          "gcd",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "rcb",
+          "slf_rd",
+          "t",
+          "tag_exp",
+          "tid",
+          "v",
+          "z"
+        ],
+        "eventName": null,
+        "measurementId": "G-MV5QWN0XVM",
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Fetch",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "queryKeys": [
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dr",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "eventName": "page_view",
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Script",
+        "host": "connect.facebook.net",
+        "path": "/signals/config/1196022574446817",
+        "queryKeys": [
+          "domain",
+          "ex_m",
+          "hme",
+          "r",
+          "v"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Fetch",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "queryKeys": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 204,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Image",
+        "host": "www.facebook.com",
+        "path": "/tr/",
+        "queryKeys": [
+          "a",
+          "aems",
+          "cdl",
+          "coo",
+          "cs_est",
+          "dl",
+          "ec",
+          "ev",
+          "expv2[0]",
+          "expv2[10]",
+          "expv2[11]",
+          "expv2[12]",
+          "expv2[13]",
+          "expv2[14]",
+          "expv2[15]",
+          "expv2[16]",
+          "expv2[17]",
+          "expv2[18]",
+          "expv2[19]",
+          "expv2[1]",
+          "expv2[20]",
+          "expv2[21]",
+          "expv2[22]",
+          "expv2[23]",
+          "expv2[24]",
+          "expv2[25]",
+          "expv2[26]",
+          "expv2[27]",
+          "expv2[28]",
+          "expv2[29]",
+          "expv2[2]",
+          "expv2[30]",
+          "expv2[31]",
+          "expv2[32]",
+          "expv2[33]",
+          "expv2[34]",
+          "expv2[35]",
+          "expv2[36]",
+          "expv2[37]",
+          "expv2[38]",
+          "expv2[39]",
+          "expv2[3]",
+          "expv2[40]",
+          "expv2[41]",
+          "expv2[42]",
+          "expv2[43]",
+          "expv2[44]",
+          "expv2[45]",
+          "expv2[46]",
+          "expv2[47]",
+          "expv2[48]",
+          "expv2[49]",
+          "expv2[4]",
+          "expv2[50]",
+          "expv2[51]",
+          "expv2[52]",
+          "expv2[5]",
+          "expv2[6]",
+          "expv2[7]",
+          "expv2[8]",
+          "expv2[9]",
+          "fbp",
+          "id",
+          "if",
+          "imft",
+          "iss",
+          "it",
+          "iw",
+          "ler",
+          "o",
+          "plt",
+          "pmd[description]",
+          "pmd[locale]",
+          "pmd[title]",
+          "r",
+          "rl",
+          "rqm",
+          "sh",
+          "ss",
+          "sw",
+          "tm",
+          "ts",
+          "tz",
+          "v"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Image",
+        "host": "px.ads.linkedin.com",
+        "path": "/collect",
+        "queryKeys": [
+          "fmt",
+          "li_adsId",
+          "pageLoadId",
+          "pid",
+          "time",
+          "tm",
+          "url",
+          "v"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Image",
+        "host": "www.google.com.vn",
+        "path": "/ads/ga-audiences",
+        "queryKeys": [
+          "_r",
+          "aip",
+          "cid",
+          "dma",
+          "frm",
+          "gcd",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "rcb",
+          "slf_rd",
+          "t",
+          "tag_exp",
+          "tid",
+          "v",
+          "z"
+        ],
+        "eventName": null,
+        "measurementId": "G-MV5QWN0XVM",
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Fetch",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "queryKeys": [
+          "fmt",
+          "medium"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 204,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Fetch",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "queryKeys": [
+          "_eu",
+          "_gaz",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dr",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ibt",
+          "ir",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "eventName": "page_view",
+        "measurementId": "G-MV5QWN0XVM",
+        "status": 204,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Image",
+        "host": "www.facebook.com",
+        "path": "/tr/",
+        "queryKeys": [
+          "a",
+          "aems",
+          "cdl",
+          "coo",
+          "cs_est",
+          "dl",
+          "ec",
+          "ev",
+          "expv2[0]",
+          "expv2[10]",
+          "expv2[11]",
+          "expv2[12]",
+          "expv2[13]",
+          "expv2[14]",
+          "expv2[15]",
+          "expv2[16]",
+          "expv2[17]",
+          "expv2[18]",
+          "expv2[19]",
+          "expv2[1]",
+          "expv2[20]",
+          "expv2[21]",
+          "expv2[22]",
+          "expv2[23]",
+          "expv2[24]",
+          "expv2[25]",
+          "expv2[26]",
+          "expv2[27]",
+          "expv2[28]",
+          "expv2[29]",
+          "expv2[2]",
+          "expv2[30]",
+          "expv2[31]",
+          "expv2[32]",
+          "expv2[33]",
+          "expv2[34]",
+          "expv2[35]",
+          "expv2[36]",
+          "expv2[37]",
+          "expv2[38]",
+          "expv2[39]",
+          "expv2[3]",
+          "expv2[40]",
+          "expv2[41]",
+          "expv2[42]",
+          "expv2[43]",
+          "expv2[44]",
+          "expv2[45]",
+          "expv2[46]",
+          "expv2[47]",
+          "expv2[48]",
+          "expv2[49]",
+          "expv2[4]",
+          "expv2[50]",
+          "expv2[51]",
+          "expv2[52]",
+          "expv2[5]",
+          "expv2[6]",
+          "expv2[7]",
+          "expv2[8]",
+          "expv2[9]",
+          "fbp",
+          "id",
+          "if",
+          "imft",
+          "iss",
+          "it",
+          "iw",
+          "ler",
+          "o",
+          "plt",
+          "pmd[description]",
+          "pmd[locale]",
+          "pmd[title]",
+          "r",
+          "rl",
+          "rqm",
+          "sh",
+          "ss",
+          "sw",
+          "tm",
+          "ts",
+          "tz",
+          "v"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Image",
+        "host": "log.adtimaserver.vn",
+        "path": "/tracklp",
+        "queryKeys": [
+          "atmrk",
+          "curl",
+          "data",
+          "pId",
+          "ref",
+          "type",
+          "uid",
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Image",
+        "host": "log.adtimaserver.vn",
+        "path": "/tracklp",
+        "queryKeys": [
+          "atmrk",
+          "curl",
+          "data",
+          "pId",
+          "ref",
+          "type",
+          "uid",
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Image",
+        "host": "log.adtimaserver.vn",
+        "path": "/tracklp",
+        "queryKeys": [
+          "atmrk",
+          "curl",
+          "data",
+          "pId",
+          "ref",
+          "type",
+          "uid",
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Image",
+        "host": "log.adtimaserver.vn",
+        "path": "/tracklp",
+        "queryKeys": [
+          "atmrk",
+          "curl",
+          "data",
+          "pId",
+          "ref",
+          "type",
+          "uid",
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Image",
+        "host": "log.adtimaserver.vn",
+        "path": "/tracklp",
+        "queryKeys": [
+          "atmrk",
+          "curl",
+          "data",
+          "pId",
+          "ref",
+          "type",
+          "uid",
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Image",
+        "host": "log.adtimaserver.vn",
+        "path": "/tracklp",
+        "queryKeys": [
+          "atmrk",
+          "curl",
+          "data",
+          "pId",
+          "ref",
+          "type",
+          "uid",
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Image",
+        "host": "log.adtimaserver.vn",
+        "path": "/tracklp",
+        "queryKeys": [
+          "atmrk",
+          "curl",
+          "data",
+          "pId",
+          "ref",
+          "type",
+          "uid",
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Image",
+        "host": "log.adtimaserver.vn",
+        "path": "/tracklp",
+        "queryKeys": [
+          "atmrk",
+          "curl",
+          "data",
+          "pId",
+          "ref",
+          "type",
+          "uid",
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Image",
+        "host": "log.adtimaserver.vn",
+        "path": "/tracklp",
+        "queryKeys": [
+          "atmrk",
+          "curl",
+          "data",
+          "pId",
+          "ref",
+          "type",
+          "uid",
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Image",
+        "host": "log.adtimaserver.vn",
+        "path": "/tracklp",
+        "queryKeys": [
+          "atmrk",
+          "curl",
+          "data",
+          "pId",
+          "ref",
+          "type",
+          "uid",
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Image",
+        "host": "log.adtimaserver.vn",
+        "path": "/tracklp",
+        "queryKeys": [
+          "atmrk",
+          "curl",
+          "data",
+          "pId",
+          "ref",
+          "type",
+          "uid",
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Image",
+        "host": "log.adtimaserver.vn",
+        "path": "/tracklp",
+        "queryKeys": [
+          "atmrk",
+          "curl",
+          "data",
+          "pId",
+          "ref",
+          "type",
+          "uid",
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Image",
+        "host": "log.adtimaserver.vn",
+        "path": "/tracklp",
+        "queryKeys": [
+          "atmrk",
+          "curl",
+          "data",
+          "pId",
+          "ref",
+          "type",
+          "uid",
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Image",
+        "host": "log.adtimaserver.vn",
+        "path": "/tracklp",
+        "queryKeys": [
+          "atmrk",
+          "curl",
+          "data",
+          "pId",
+          "ref",
+          "type",
+          "uid",
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.requestWillBeSent",
+        "type": "Image",
+        "host": "log.adtimaserver.vn",
+        "path": "/tracklp",
+        "queryKeys": [
+          "atmrk",
+          "curl",
+          "data",
+          "pId",
+          "ref",
+          "type",
+          "uid",
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "postDataPresent": false
+      },
+      {
+        "method": "Network.responseReceived",
+        "type": "Image",
+        "host": "log.adtimaserver.vn",
+        "path": "/tracklp",
+        "queryKeys": [
+          "atmrk",
+          "curl",
+          "data",
+          "pId",
+          "ref",
+          "type",
+          "uid",
+          "ver"
+        ],
+        "eventName": null,
+        "measurementId": null,
+        "status": 200,
+        "postDataPresent": false
+      }
+    ],
+    "eventsTruncated": true,
+    "hasMore": false,
+    "pageViewObserved": true,
+    "handoffUTMQueryKeys": [],
+    "formSubmitted": false
+  },
+  "gtm": {
+    "paidVN": {
+      "container": "GTM-NGT54TM9",
+      "liveVersion": 51,
+      "latest": true,
+      "publishedDate": "2026-09-25",
+      "tags": 71,
+      "triggers": 63,
+      "variables": 37,
+      "workspaceChanges": 0,
+      "observation": "Versions UI confirmed Live, Latest; tag/trigger internals not freshly audited"
+    },
+    "contactWebsite": {
+      "container": "GTM-PC6FVTMZ",
+      "ga4": "G-MV5QWN0XVM",
+      "observation": "Observed public loaded scripts and page_view request; GA4 UI attribution not checked"
+    },
+    "unrelatedThailandWorkspace": "Excluded; user-owned GTM tab left unchanged"
+  },
+  "limitations": [
+    "Reader negative request finding applies observed reload/window only; not all users/times",
+    "Contact buffered events truncated, so no completeness or deduplication claim",
+    "URL drops UTM; existing cookies/cross-domain attribution/CRM source fields not proven",
+    "Historical three-route paid tracking acceptance does not cover new reader",
+    "No consent/lead-success/analytics report acceptance"
+  ]
+}

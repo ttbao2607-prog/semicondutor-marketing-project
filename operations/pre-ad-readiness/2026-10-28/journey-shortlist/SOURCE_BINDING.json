@@ -1,0 +1,971 @@
+{
+  "stage": "INTERNAL_CONTENT_REVIEW",
+  "branch": "slice/executive-approval-corrected-2026-10-28",
+  "base_commit": "c8e9d00ce8c05a970053e76e6aab82e6d4ef6b2d",
+  "anchor": {
+    "id": "VY-CONTENT-ANCHOR",
+    "revision": "1.0",
+    "path": "operations/Vy_Email_Content_Anchor.md",
+    "sha256": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+  },
+  "email": {
+    "record_id": "VY-MAIL-USER-20261006",
+    "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+    "sha256": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+  },
+  "partner_anchor": {
+    "path": "operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-ldp-content-anchor-v1.md",
+    "sha256": "2bacf71e70eebcb440ddce85b131eb9c426d6b3d2a0fccc5e14d916cad7d8f3d"
+  },
+  "screened_en_journeys": [
+    {
+      "treatment": "O1",
+      "persona": "OSAT Quality + Operations",
+      "journey_batch": "B1",
+      "intro_text": "We provide manufacturing ERP solutions. Quality teams in packaging and testing: establish the lot and record owner before the next test-result review.",
+      "source_ref": "Case 06 江苏中科智芯集成科技有限公司 (Digiwin Vietnam case collection, ERP + iMES); O3 adds the attributed month-close case; anchor operations/Vy_Email_Content_Anchor.md"
+    },
+    {
+      "treatment": "O2",
+      "persona": "OSAT Operations + Quality (lot handoff)",
+      "journey_batch": "B4",
+      "intro_text": "We provide manufacturing ERP solutions. Packaging and testing operations teams: align the lot context and record owner before the next handoff.",
+      "source_ref": "Case 06 江苏中科智芯集成科技有限公司 (Digiwin Vietnam case collection, ERP + iMES); O3 adds the attributed month-close case; anchor operations/Vy_Email_Content_Anchor.md"
+    },
+    {
+      "treatment": "O3",
+      "persona": "OSAT Operations + Finance (month-end)",
+      "journey_batch": "en-osat-candidate1-v4",
+      "intro_text": "Digiwin provides manufacturing ERP solutions. For packaging and testing plant managers: which lot records are still holding up the month-end discussion with finance?",
+      "source_ref": "Case 06 江苏中科智芯集成科技有限公司 (Digiwin Vietnam case collection, ERP + iMES); O3 adds the attributed month-close case; anchor operations/Vy_Email_Content_Anchor.md"
+    },
+    {
+      "treatment": "O4-O",
+      "persona": "OSAT Operations (three handoff questions)",
+      "journey_batch": "B7",
+      "intro_text": "We provide manufacturing ERP solutions. Packaging and testing operations teams: align the lot context and record owner before the next handoff.",
+      "source_ref": "Case 06 江苏中科智芯集成科技有限公司 (Digiwin Vietnam case collection, ERP + iMES); O3 adds the attributed month-close case; anchor operations/Vy_Email_Content_Anchor.md"
+    },
+    {
+      "treatment": "O4-Q",
+      "persona": "OSAT Quality (unusual test results)",
+      "journey_batch": "B10",
+      "intro_text": "We provide manufacturing ERP solutions. Packaging and testing quality teams: align records and review responsibilities when test results look unusual.",
+      "source_ref": "Case 06 江苏中科智芯集成科技有限公司 (Digiwin Vietnam case collection, ERP + iMES); O3 adds the attributed month-close case; anchor operations/Vy_Email_Content_Anchor.md"
+    },
+    {
+      "treatment": "F1",
+      "persona": "Fabless partner production update",
+      "journey_batch": "B13",
+      "intro_text": "We provide manufacturing ERP solutions. Chip-design operations teams using outsourced production: align partner reports before the next decision.",
+      "source_ref": "Case 04 上海晶丰明源半导体股份有限公司 (Digiwin Vietnam case collection; source-stated challenges only, no outcome figures); anchor operations/Vy_Email_Content_Anchor.md"
+    },
+    {
+      "treatment": "F2",
+      "persona": "Fabless demand change / planning",
+      "journey_batch": "B16",
+      "intro_text": "We provide manufacturing ERP (enterprise resource planning). Fabless (chip design without owning a fabrication plant) planning teams: demand changed. Which partner lot reports need review before replanning?",
+      "source_ref": "Case 04 上海晶丰明源半导体股份有限公司 (Digiwin Vietnam case collection; source-stated challenges only, no outcome figures); anchor operations/Vy_Email_Content_Anchor.md"
+    },
+    {
+      "treatment": "F3",
+      "persona": "Fabless partner handoff",
+      "journey_batch": "B19",
+      "intro_text": "We provide manufacturing ERP (enterprise resource planning). Chip-design operations teams using outsourced production: when a lot changes partners, which records accompany it and who confirms the information?",
+      "source_ref": "Case 04 上海晶丰明源半导体股份有限公司 (Digiwin Vietnam case collection; source-stated challenges only, no outcome figures); anchor operations/Vy_Email_Content_Anchor.md"
+    },
+    {
+      "treatment": "P1",
+      "persona": "Supplier operations",
+      "journey_batch": "B22",
+      "intro_text": "Digiwin provides ERP and manufacturing solutions. For semiconductor equipment-component suppliers: align lot progress, quality records and decision ownership before the next planning step.",
+      "source_ref": "Wafer Works / 合晶科技 (Digiwin Vietnam supplier LDP and Digiwin Taiwan semiconductor page; claims as stated, not PCB proof); anchor operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-ldp-content-anchor-v1.md"
+    },
+    {
+      "treatment": "P2",
+      "persona": "Supplier systems / factory IT",
+      "journey_batch": "B25",
+      "intro_text": "Digiwin provides ERP and manufacturing solutions. For semiconductor equipment-component suppliers, clear record ownership and reconciliation help teams use production information in business decisions.",
+      "source_ref": "Wafer Works / 合晶科技 (Digiwin Vietnam supplier LDP and Digiwin Taiwan semiconductor page; claims as stated, not PCB proof); anchor operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-ldp-content-anchor-v1.md"
+    },
+    {
+      "treatment": "P3",
+      "persona": "Supplier quality (PCB)",
+      "journey_batch": "B28",
+      "intro_text": "Digiwin provides ERP and manufacturing solutions. For PCB suppliers serving semiconductor and electronics equipment, a customer lot question needs a clear record scope and review responsibility.",
+      "source_ref": "Wafer Works / 合晶科技 (Digiwin Vietnam supplier LDP and Digiwin Taiwan semiconductor page; claims as stated, not PCB proof); anchor operations/linkedin-safe-batches/parallel-partner-2026-10-07/partner-ldp-content-anchor-v1.md"
+    }
+  ],
+  "selected": [
+    {
+      "treatment": "P1",
+      "directory": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7",
+      "revision": "b22-selected-copy-v8",
+      "stages": [
+        {
+          "id": "cold",
+          "caption": "Digiwin provides ERP and manufacturing solutions. For semiconductor equipment-component suppliers: align lot progress, quality records and decision ownership before the next planning step.",
+          "cards": [
+            {
+              "card_id": "B22-C1",
+              "headline": "Lot status is shared.\nCan planning act on it?",
+              "body": "For semiconductor equipment-component suppliers, progress and quality records need a clear source, scope and owner before planning takes the next step.",
+              "source_text": "",
+              "cta": "Explore the handoff",
+              "native_headline": "Can planning act on the lot status?",
+              "alt": "Illustration: Can planning act on the lot status?",
+              "artwork_labels": [
+                "SUPPLIER OPERATIONS"
+              ],
+              "stage": "cold",
+              "caption": "Digiwin provides ERP and manufacturing solutions. For semiconductor equipment-component suppliers: align lot progress, quality records and decision ownership before the next planning step.",
+              "image": "assets/01-b22-c1.png",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "explanation",
+          "caption": "Digiwin helps industrial suppliers connect operating evidence with business decisions. Start with sources and owners, then define your factory processes with our team in Vietnam.",
+          "cards": [
+            {
+              "card_id": "B22-E1",
+              "headline": "One lot. One decision.",
+              "body": "Identify the production lot and the next planning decision. A status update is useful when its scope and the next action for the receiving team are clear.",
+              "source_text": "",
+              "cta": "",
+              "native_headline": "One lot. One planning decision.",
+              "alt": "Illustration: One lot. One planning decision.",
+              "artwork_labels": [
+                "SUPPLIER OPERATIONS",
+                "1/5"
+              ],
+              "stage": "explanation",
+              "caption": "Digiwin helps industrial suppliers connect operating evidence with business decisions. Start with sources and owners, then define your factory processes with our team in Vietnam.",
+              "image": "assets/02-b22-e1.png",
+              "available": true
+            },
+            {
+              "card_id": "B22-E2",
+              "headline": "Check the source and the time.",
+              "body": "Identify where progress and quality records come from, when they were updated, and which decision they support.",
+              "source_text": "",
+              "cta": "",
+              "native_headline": "Check the source and the time.",
+              "alt": "Illustration: Check the source and the time.",
+              "artwork_labels": [
+                "SUPPLIER OPERATIONS",
+                "2/5"
+              ],
+              "stage": "explanation",
+              "caption": "Digiwin helps industrial suppliers connect operating evidence with business decisions. Start with sources and owners, then define your factory processes with our team in Vietnam.",
+              "image": "assets/03-b22-e2.png",
+              "available": true
+            },
+            {
+              "card_id": "B22-E3",
+              "headline": "Map the handoff at your factory.",
+              "body": "Who checks a mismatch? Who receives the confirmed status? Digiwin Vietnam specialists assess factory operations and advise on business processes.",
+              "source_text": "",
+              "cta": "",
+              "native_headline": "Map the handoff at your factory.",
+              "alt": "Illustration: Map the handoff at your factory.",
+              "artwork_labels": [
+                "SUPPLIER OPERATIONS",
+                "3/5"
+              ],
+              "stage": "explanation",
+              "caption": "Digiwin helps industrial suppliers connect operating evidence with business decisions. Start with sources and owners, then define your factory processes with our team in Vietnam.",
+              "image": "assets/04-b22-e3.png",
+              "available": true
+            },
+            {
+              "card_id": "B22-E4",
+              "headline": "Define the process before implementation.",
+              "body": "Agree the evidence and responsibilities for the next step. Digiwin Vietnam supports on-site solution transfer and factory acceptance.",
+              "source_text": "",
+              "cta": "",
+              "native_headline": "Define the process before implementation.",
+              "alt": "Illustration: Define the process before implementation.",
+              "artwork_labels": [
+                "SUPPLIER OPERATIONS",
+                "4/5"
+              ],
+              "stage": "explanation",
+              "caption": "Digiwin helps industrial suppliers connect operating evidence with business decisions. Start with sources and owners, then define your factory processes with our team in Vietnam.",
+              "image": "assets/05-b22-e4.png",
+              "available": true
+            },
+            {
+              "card_id": "B22-E5",
+              "headline": "Industry experience.\nLocal process fit.",
+              "body": "Explore Wafer Works for semiconductor genealogy and execution visibility. Discuss your factory's processes with Digiwin Vietnam.",
+              "source_text": "Digiwin semiconductor solutions\nDigiwin Vietnam local delivery",
+              "cta": "Explore the Wafer Works case",
+              "native_headline": "Industry experience. Local process fit.",
+              "alt": "Illustration: Industry experience. Local process fit.",
+              "artwork_labels": [
+                "SUPPLIER OPERATIONS",
+                "5/5"
+              ],
+              "stage": "explanation",
+              "caption": "Digiwin helps industrial suppliers connect operating evidence with business decisions. Start with sources and owners, then define your factory processes with our team in Vietnam.",
+              "image": "assets/06-b22-e5.png",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "proof",
+          "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+          "cards": [
+            {
+              "card_id": "B22-P1",
+              "headline": "Wafer Works:\nsemiconductor materials",
+              "body": "Digiwin supports production genealogy and operating visibility from crystal growth through wafer processing to epitaxy.",
+              "source_text": "Wafer Works / 合晶科技\nTaiwan / Shanghai",
+              "cta": "",
+              "native_headline": "Wafer Works: semiconductor materials",
+              "alt": "Illustration: Wafer Works: semiconductor materials",
+              "artwork_labels": [
+                "SEMICONDUCTOR CASE",
+                "1/4"
+              ],
+              "stage": "proof",
+              "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+              "image": "assets/07-b22-p1.png",
+              "available": true
+            },
+            {
+              "card_id": "B22-P2",
+              "headline": "Follow the production genealogy.",
+              "body": "In the Wafer Works case, production history connects the silicon crystal to individual wafer lots.",
+              "source_text": "Digiwin semiconductor solutions\nWafer Works / Taiwan / Shanghai",
+              "cta": "",
+              "native_headline": "Follow the production genealogy.",
+              "alt": "Illustration: Follow the production genealogy.",
+              "artwork_labels": [
+                "SEMICONDUCTOR CASE",
+                "2/4"
+              ],
+              "stage": "proof",
+              "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+              "image": "assets/08-b22-p2.png",
+              "available": true
+            },
+            {
+              "card_id": "B22-P3",
+              "headline": "Make progress and quality visible.",
+              "body": "The case covers production progress, equipment status and epitaxy history, including parameter limits and early quality-risk alerts.",
+              "source_text": "Digiwin semiconductor solutions\nWafer Works / Taiwan / Shanghai",
+              "cta": "",
+              "native_headline": "Make progress and quality visible.",
+              "alt": "Illustration: Make progress and quality visible.",
+              "artwork_labels": [
+                "SEMICONDUCTOR CASE",
+                "3/4"
+              ],
+              "stage": "proof",
+              "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+              "image": "assets/09-b22-p3.png",
+              "available": true
+            },
+            {
+              "card_id": "B22-P4",
+              "headline": "Bring the questions to your factory.",
+              "body": "Explore the Wafer Works case. Then review which lot records, decision responsibilities and process requirements matter at your plant.",
+              "source_text": "Digiwin semiconductor solutions\nWafer Works / Taiwan / Shanghai",
+              "cta": "Read the factory discussion guide",
+              "native_headline": "Bring the questions to your factory.",
+              "alt": "Illustration: Bring the questions to your factory.",
+              "artwork_labels": [
+                "SEMICONDUCTOR CASE",
+                "4/4"
+              ],
+              "stage": "proof",
+              "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+              "image": "assets/10-b22-p4.png",
+              "available": true
+            }
+          ]
+        }
+      ],
+      "reader_active_english": {
+        "skip": "Skip to case content",
+        "edition": "Manufacturing solutions",
+        "back": "Return to the journey",
+        "caseLabel": "Supplier Operations",
+        "market": "Industry context · Taiwan / Shanghai",
+        "title": "From lot records to the next operating decision",
+        "lead": "For semiconductor equipment-component suppliers, progress and quality information becomes useful when the source, scope and decision owner are clear.",
+        "figure": "Illustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.",
+        "s1Index": "Where to start",
+        "s1h": "Start with one handoff",
+        "s1p1": "Choose one production lot and the planning decision that needs its progress or quality status. Identify the source record, when it was updated, and what it covers.",
+        "s1p2": "Agree who checks a mismatch, who receives the confirmed information and what evidence they need before the next step.",
+        "s2Index": "Roles and responsibilities",
+        "s2h": "Keep planning and production evidence in their roles",
+        "s2p1": "ERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.",
+        "s2p2": "Map the information each team needs before defining the solution scope and data handoff.",
+        "s3Index": "Industry context",
+        "s3h": "Semiconductor industry context: Wafer Works",
+        "s3p1": "Wafer Works / 合晶科技, Taiwan / Shanghai, produces silicon wafer materials. The case covers crystal growth, wafer processing and epitaxy.",
+        "s3p2": "Digiwin describes production genealogy from silicon crystals to wafer lots, visibility into production progress and equipment status, and epitaxy history with quality parameter limits.",
+        "s3p3": "For an equipment-component supplier, these are useful questions about traceability and execution visibility to bring into its own process discussion.",
+        "consultLabel": "Talk with Digiwin Vietnam",
+        "s4h": "Define the fit with the team in Vietnam",
+        "s4p1": "Digiwin Vietnam specialists assess factory operations, advise on business processes and support on-site solution transfer and factory acceptance.",
+        "s4p2": "Bring a current production-to-planning handoff to the discussion: its records, the people involved, the receiving decision and the gaps to resolve. This helps define the processes and implementation scope for your factory.",
+        "sourceLabel": "Reference source",
+        "src1": "Digiwin semiconductor solutions: Wafer Works",
+        "src2": "Digiwin Vietnam: supplier solutions and local delivery",
+        "footer": "Digiwin Vietnam · Enterprise management solutions"
+      },
+      "reader_links": [
+        "#main",
+        "index.html",
+        "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+        "https://solutions.digiwin.com.vn/supplierecosystem",
+        "index.html"
+      ],
+      "pins": [
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/selected-copy.json",
+          "sha256": "ca958deabb5d3e04009192c2f2d5f59efe087b5fd963ea27b5be993aa5b34658"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/index.html",
+          "sha256": "5b61256fcbd9ad40c36ac49fbe38130797fc652bbfd120916c0ba7375b90712f"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/case-reader.html",
+          "sha256": "167b09a8eb77a55bfb1c3200ac254c89143727b64c29cce337884ddbba9206c4"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/selected-origin-manifest.json",
+          "sha256": "68fe17dee7212456dc111cca3b5e8c1ef21e8177faec4caef98299aa0867309e"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/01-b22-c1.png",
+          "sha256": "d4c55e05cc8e1758241b76d8addff31991e4a0e437c598685084c944f9e0edca"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/02-b22-e1.png",
+          "sha256": "5aade157eae9e0617df0305b89c4aef4bf52fe68e577309412fdd0d686e31bcf"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/03-b22-e2.png",
+          "sha256": "dfb20d6f069f7cb9bc245a0742d6bab021d02a3fbaddf3377fdfc137371d1811"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/04-b22-e3.png",
+          "sha256": "bf14ee84d07cc0e42959ad5a2eb520f8514ad7dbdb09ff9c160ac90733969e42"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/05-b22-e4.png",
+          "sha256": "e1a0682db93358d7c1ad29faaaf8a8a83009d04ebd0a2e524bd4db954303a800"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/06-b22-e5.png",
+          "sha256": "839553931b3325c5b1770ea03e1675e442f288862ddacae46a4c440e6c084a12"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/07-b22-p1.png",
+          "sha256": "062e5f3095b591a462912cc8a5cb5fbf975b27303c60ca20f99b52f72ef8eff7"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/08-b22-p2.png",
+          "sha256": "b43e06a74a5f29198cc684e30cd2904f9705939e7fbeaf90e39c57d7a6dee668"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/09-b22-p3.png",
+          "sha256": "b2a11e9a9e9604c80558c3ec89ada4cc3c876602dcbec65e119ad81d4e3648af"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B22-en-p1-v1/supplier-v7/assets/10-b22-p4.png",
+          "sha256": "e044420d6293524db3d010c2a9616f8f8c62621d64a04ea624f9fc8d5ba6083b"
+        }
+      ]
+    },
+    {
+      "treatment": "P2",
+      "directory": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1",
+      "revision": "b25-en-p2-v1-selected-copy-v1",
+      "stages": [
+        {
+          "id": "cold",
+          "caption": "Digiwin provides ERP and manufacturing solutions. For semiconductor equipment-component suppliers, clear record ownership and reconciliation help teams use production information in business decisions.",
+          "cards": [
+            {
+              "card_id": "B25-C1",
+              "headline": "Two systems.\nWho owns the record?",
+              "body": "Semiconductor equipment-component suppliers need clear responsibility for production records before sharing them between planning and execution.",
+              "source_text": "",
+              "cta": "Explore record ownership",
+              "native_headline": "Two systems. Who owns the record?",
+              "alt": "Illustration: Two systems. Who owns the record?",
+              "artwork_labels": [
+                "SUPPLIER SYSTEMS"
+              ],
+              "stage": "cold",
+              "caption": "Digiwin provides ERP and manufacturing solutions. For semiconductor equipment-component suppliers, clear record ownership and reconciliation help teams use production information in business decisions.",
+              "image": "assets/01-b25-c1.png",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "explanation",
+          "caption": "Start with one record your factory needs to share. With Digiwin Vietnam, review who maintains it, who reconciles differences and what the receiving team needs before defining the solution scope.",
+          "cards": [
+            {
+              "card_id": "B25-E1",
+              "headline": "One record.\nOne responsible owner.",
+              "body": "Choose one production record. Identify the team and system responsible for its meaning, updates and scope.",
+              "source_text": "",
+              "cta": "",
+              "native_headline": "One record. One responsible owner.",
+              "alt": "Illustration: One record. One responsible owner.",
+              "artwork_labels": [
+                "SUPPLIER SYSTEMS",
+                "1/5"
+              ],
+              "stage": "explanation",
+              "caption": "Start with one record your factory needs to share. With Digiwin Vietnam, review who maintains it, who reconciles differences and what the receiving team needs before defining the solution scope.",
+              "image": "assets/02-b25-e1.png",
+              "available": true
+            },
+            {
+              "card_id": "B25-E2",
+              "headline": "The receiving team needs context.",
+              "body": "Define which record the receiving team needs, when it is updated and how it supports a planning or quality decision.",
+              "source_text": "",
+              "cta": "",
+              "native_headline": "The receiving team needs context.",
+              "alt": "Illustration: The receiving team needs context.",
+              "artwork_labels": [
+                "SUPPLIER SYSTEMS",
+                "2/5"
+              ],
+              "stage": "explanation",
+              "caption": "Start with one record your factory needs to share. With Digiwin Vietnam, review who maintains it, who reconciles differences and what the receiving team needs before defining the solution scope.",
+              "image": "assets/03-b25-e2.png",
+              "available": true
+            },
+            {
+              "card_id": "B25-E3",
+              "headline": "Reconcile differences at the source.",
+              "body": "Agree who checks conflicting records. Digiwin Vietnam assesses factory processes and advises teams on responsibilities and information needs.",
+              "source_text": "",
+              "cta": "",
+              "native_headline": "Reconcile differences at the source.",
+              "alt": "Illustration: Reconcile differences at the source.",
+              "artwork_labels": [
+                "SUPPLIER SYSTEMS",
+                "3/5"
+              ],
+              "stage": "explanation",
+              "caption": "Start with one record your factory needs to share. With Digiwin Vietnam, review who maintains it, who reconciles differences and what the receiving team needs before defining the solution scope.",
+              "image": "assets/04-b25-e3.png",
+              "available": true
+            },
+            {
+              "card_id": "B25-E4",
+              "headline": "Make the handoff explicit.",
+              "body": "Define sender, receiver and confirmation responsibility. Digiwin Vietnam supports on-site solution transfer and factory acceptance.",
+              "source_text": "",
+              "cta": "",
+              "native_headline": "Make the handoff explicit.",
+              "alt": "Illustration: Make the handoff explicit.",
+              "artwork_labels": [
+                "SUPPLIER SYSTEMS",
+                "4/5"
+              ],
+              "stage": "explanation",
+              "caption": "Start with one record your factory needs to share. With Digiwin Vietnam, review who maintains it, who reconciles differences and what the receiving team needs before defining the solution scope.",
+              "image": "assets/05-b25-e4.png",
+              "available": true
+            },
+            {
+              "card_id": "B25-E5",
+              "headline": "Industry records.\nYour factory scope.",
+              "body": "Explore production traceability at Wafer Works. With Digiwin Vietnam, review record ownership and process requirements at your factory.",
+              "source_text": "Digiwin semiconductor solutions\nDigiwin Vietnam local services",
+              "cta": "Explore the Wafer Works case",
+              "native_headline": "Industry records. Your factory scope.",
+              "alt": "Illustration: Industry records. Your factory scope.",
+              "artwork_labels": [
+                "SUPPLIER SYSTEMS",
+                "5/5"
+              ],
+              "stage": "explanation",
+              "caption": "Start with one record your factory needs to share. With Digiwin Vietnam, review who maintains it, who reconciles differences and what the receiving team needs before defining the solution scope.",
+              "image": "assets/06-b25-e5.png",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "proof",
+          "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+          "cards": [
+            {
+              "headline": "Wafer Works:\nsemiconductor materials",
+              "body": "Digiwin supports production genealogy and operating visibility from crystal growth through wafer processing to epitaxy.",
+              "source_text": "Wafer Works / 合晶科技\nTaiwan / Shanghai",
+              "cta": "",
+              "native_headline": "Wafer Works: semiconductor materials",
+              "alt": "Illustration: Wafer Works: semiconductor materials",
+              "artwork_labels": [
+                "SEMICONDUCTOR CASE",
+                "1/4"
+              ],
+              "card_id": "B25-P1",
+              "stage": "proof",
+              "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+              "image": "assets/07-b25-p1.png",
+              "available": true
+            },
+            {
+              "headline": "Follow the production genealogy.",
+              "body": "In the Wafer Works case, production history connects the silicon crystal to individual wafer lots.",
+              "source_text": "Digiwin semiconductor solutions\nWafer Works / Taiwan / Shanghai",
+              "cta": "",
+              "native_headline": "Follow the production genealogy.",
+              "alt": "Illustration: Follow the production genealogy.",
+              "artwork_labels": [
+                "SEMICONDUCTOR CASE",
+                "2/4"
+              ],
+              "card_id": "B25-P2",
+              "stage": "proof",
+              "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+              "image": "assets/08-b25-p2.png",
+              "available": true
+            },
+            {
+              "headline": "Make progress and quality visible.",
+              "body": "The case covers production progress, equipment status and epitaxy history, including parameter limits and early quality-risk alerts.",
+              "source_text": "Digiwin semiconductor solutions\nWafer Works / Taiwan / Shanghai",
+              "cta": "",
+              "native_headline": "Make progress and quality visible.",
+              "alt": "Illustration: Make progress and quality visible.",
+              "artwork_labels": [
+                "SEMICONDUCTOR CASE",
+                "3/4"
+              ],
+              "card_id": "B25-P3",
+              "stage": "proof",
+              "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+              "image": "assets/09-b25-p3.png",
+              "available": true
+            },
+            {
+              "headline": "Bring the questions to your factory.",
+              "body": "Explore the Wafer Works case. Then review which lot records, decision responsibilities and process requirements matter at your plant.",
+              "source_text": "Digiwin semiconductor solutions\nWafer Works / Taiwan / Shanghai",
+              "cta": "Read the factory discussion guide",
+              "native_headline": "Bring the questions to your factory.",
+              "alt": "Illustration: Bring the questions to your factory.",
+              "artwork_labels": [
+                "SEMICONDUCTOR CASE",
+                "4/4"
+              ],
+              "card_id": "B25-P4",
+              "stage": "proof",
+              "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+              "image": "assets/10-b25-p4.png",
+              "available": true
+            }
+          ]
+        }
+      ],
+      "reader_active_english": {
+        "skip": "Skip to case content",
+        "edition": "Manufacturing solutions",
+        "back": "Return to the journey",
+        "caseLabel": "Supplier Systems",
+        "market": "Industry context · Taiwan / Shanghai",
+        "title": "Define record ownership before a system handoff",
+        "lead": "For semiconductor equipment-component suppliers, factory IT and operating teams need shared definitions, record responsibility and clear receiving decisions.",
+        "figure": "Illustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.",
+        "s1Index": "Where to start",
+        "s1h": "Start with one production record",
+        "s1p1": "Choose one record that planning or quality teams need. Identify its meaning, update timing and production scope.",
+        "s1p2": "Record which team and system maintains it, who checks differences and who confirms the handoff.",
+        "s2Index": "Roles and responsibilities",
+        "s2h": "Separate enterprise and production responsibilities",
+        "s2p1": "ERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.",
+        "s2p2": "Use these roles to discuss record responsibility and process needs. Define the technical scope with the factory teams before selecting a handoff approach.",
+        "s3Index": "Industry context",
+        "s3h": "Industry context: Wafer Works",
+        "s3p1": "Wafer Works / 合晶科技 in Taiwan / Shanghai produces silicon wafer materials through crystal growth, wafer processing and epitaxy.",
+        "s3p2": "The case connects silicon crystals to wafer-lot production history and provides visibility into progress, equipment status and epitaxy records with quality parameter limits.",
+        "s3p3": "These production-information topics help factory teams identify the records and responsibilities to discuss in their own processes.",
+        "consultLabel": "Talk with Digiwin Vietnam",
+        "s4h": "Define the local factory scope",
+        "s4p1": "Digiwin Vietnam assesses factory operations, advises on business processes and supports on-site solution transfer and factory acceptance.",
+        "s4p2": "Bring one current information handoff, its record owner, receiving decision and unresolved differences to a discussion of your process and implementation scope.",
+        "sourceLabel": "Reference source",
+        "src1": "Digiwin semiconductor solutions: Wafer Works",
+        "src2": "Digiwin Vietnam: supplier solutions and local services",
+        "footer": "Digiwin Vietnam · Enterprise management solutions"
+      },
+      "reader_links": [
+        "#main",
+        "index.html",
+        "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+        "https://solutions.digiwin.com.vn/supplierecosystem",
+        "index.html"
+      ],
+      "pins": [
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/selected-copy.json",
+          "sha256": "c7b6b42fb669eca72406c8e7e0b465f514ec913d8e8c81a640487674bd334b05"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/index.html",
+          "sha256": "06f4a8fe8b3acf2b4fca3223a57238064b6c52e24a6fae56568fe9d534cd6f7d"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/case-reader.html",
+          "sha256": "650bd1358f39e0882b61960d3fc85568d4b9fd50140b7761bc7277e04ef91db9"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/selected-origin-manifest.json",
+          "sha256": "a565d553e99f6f09d6ad7f18d975045afa8d9a079aa4a830ec99cdf6da8dcead"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/01-b25-c1.png",
+          "sha256": "c7e3ba8b8b90a57cc4368b34d250e2903784c88d70207f89712490cb4d4c1a07"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/02-b25-e1.png",
+          "sha256": "cbebbd4f32a24b44b7d790371d94f943bb5c623f4d7bd8aab842e841bef89e6a"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/03-b25-e2.png",
+          "sha256": "3cd60c760ae30a52c40d12dfb3ec69053ac0cf3c76418beb76f495b13b1cfb97"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/04-b25-e3.png",
+          "sha256": "d2206c62d32358dbec15dfac1834a2017f347acf88638f5dbbf1925f9f962f5e"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/05-b25-e4.png",
+          "sha256": "963ca21112f3e0d4871720d8a7f28aead336021d3adb010ac3f8b153dcc1661d"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/06-b25-e5.png",
+          "sha256": "e1e96d94daa062f94f43c20dfbc0ea82c98a45aa127a0e8acae595e44472ac91"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/07-b25-p1.png",
+          "sha256": "062e5f3095b591a462912cc8a5cb5fbf975b27303c60ca20f99b52f72ef8eff7"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/08-b25-p2.png",
+          "sha256": "b43e06a74a5f29198cc684e30cd2904f9705939e7fbeaf90e39c57d7a6dee668"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/09-b25-p3.png",
+          "sha256": "b2a11e9a9e9604c80558c3ec89ada4cc3c876602dcbec65e119ad81d4e3648af"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B25-en-p2-v1/assets/10-b25-p4.png",
+          "sha256": "e044420d6293524db3d010c2a9616f8f8c62621d64a04ea624f9fc8d5ba6083b"
+        }
+      ]
+    },
+    {
+      "treatment": "P3",
+      "directory": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1",
+      "revision": "b28-en-p3-v1-selected-copy-v1",
+      "stages": [
+        {
+          "id": "cold",
+          "caption": "Digiwin provides ERP and manufacturing solutions. For PCB suppliers serving semiconductor and electronics equipment, a customer lot question needs a clear record scope and review responsibility.",
+          "cards": [
+            {
+              "card_id": "B28-C1",
+              "headline": "A customer asks about a lot.\nWhich records answer?",
+              "body": "PCB suppliers serving semiconductor and electronics equipment need a clear question, record scope and review owner before responding.",
+              "source_text": "",
+              "cta": "Explore lot-record review",
+              "native_headline": "Customer lot question: which records?",
+              "alt": "Illustration: A customer asks about a lot. Which records answer?",
+              "artwork_labels": [
+                "SUPPLIER QUALITY"
+              ],
+              "stage": "cold",
+              "caption": "Digiwin provides ERP and manufacturing solutions. For PCB suppliers serving semiconductor and electronics equipment, a customer lot question needs a clear record scope and review responsibility.",
+              "image": "assets/01-b28-c1.png",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "explanation",
+          "caption": "Start with the customer question, the relevant record sources and who checks them. With Digiwin Vietnam, review factory processes and information needs before defining the solution scope.",
+          "cards": [
+            {
+              "card_id": "B28-E1",
+              "headline": "Start with the exact question.",
+              "body": "Define the lot, process step, time period and information the customer needs before collecting records.",
+              "source_text": "",
+              "cta": "",
+              "native_headline": "Start with the exact question.",
+              "alt": "Illustration: Start with the exact question.",
+              "artwork_labels": [
+                "SUPPLIER QUALITY",
+                "1/5"
+              ],
+              "stage": "explanation",
+              "caption": "Start with the customer question, the relevant record sources and who checks them. With Digiwin Vietnam, review factory processes and information needs before defining the solution scope.",
+              "image": "assets/02-b28-e1.png",
+              "available": true
+            },
+            {
+              "card_id": "B28-E2",
+              "headline": "Find the relevant record sources.",
+              "body": "Identify the records within the agreed scope and the team or system maintaining each source.",
+              "source_text": "",
+              "cta": "",
+              "native_headline": "Find the relevant record sources.",
+              "alt": "Illustration: Find the relevant record sources.",
+              "artwork_labels": [
+                "SUPPLIER QUALITY",
+                "2/5"
+              ],
+              "stage": "explanation",
+              "caption": "Start with the customer question, the relevant record sources and who checks them. With Digiwin Vietnam, review factory processes and information needs before defining the solution scope.",
+              "image": "assets/03-b28-e2.png",
+              "available": true
+            },
+            {
+              "card_id": "B28-E3",
+              "headline": "Name who checks the records.",
+              "body": "Assign a reviewer for the customer question. Digiwin Vietnam assesses factory processes and advises on information needs.",
+              "source_text": "",
+              "cta": "",
+              "native_headline": "Name who checks the records.",
+              "alt": "Illustration: Name who checks the records.",
+              "artwork_labels": [
+                "SUPPLIER QUALITY",
+                "3/5"
+              ],
+              "stage": "explanation",
+              "caption": "Start with the customer question, the relevant record sources and who checks them. With Digiwin Vietnam, review factory processes and information needs before defining the solution scope.",
+              "image": "assets/04-b28-e3.png",
+              "available": true
+            },
+            {
+              "card_id": "B28-E4",
+              "headline": "Review gaps before responding.",
+              "body": "Clarify missing records and confirmation responsibility. Digiwin Vietnam supports on-site solution transfer and factory acceptance.",
+              "source_text": "",
+              "cta": "",
+              "native_headline": "Review gaps before responding.",
+              "alt": "Illustration: Review gaps before responding.",
+              "artwork_labels": [
+                "SUPPLIER QUALITY",
+                "4/5"
+              ],
+              "stage": "explanation",
+              "caption": "Start with the customer question, the relevant record sources and who checks them. With Digiwin Vietnam, review factory processes and information needs before defining the solution scope.",
+              "image": "assets/05-b28-e4.png",
+              "available": true
+            },
+            {
+              "card_id": "B28-E5",
+              "headline": "Industry records.\nYour customer question.",
+              "body": "Explore production traceability at Wafer Works. With Digiwin Vietnam, review the records and process needs relevant to your factory.",
+              "source_text": "Digiwin semiconductor solutions\nDigiwin Vietnam local services",
+              "cta": "Explore the Wafer Works case",
+              "native_headline": "Industry records. Your customer question.",
+              "alt": "Illustration: Industry records. Your customer question.",
+              "artwork_labels": [
+                "SUPPLIER QUALITY",
+                "5/5"
+              ],
+              "stage": "explanation",
+              "caption": "Start with the customer question, the relevant record sources and who checks them. With Digiwin Vietnam, review factory processes and information needs before defining the solution scope.",
+              "image": "assets/06-b28-e5.png",
+              "available": true
+            }
+          ]
+        },
+        {
+          "id": "proof",
+          "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+          "cards": [
+            {
+              "headline": "Wafer Works:\nsemiconductor materials",
+              "body": "Digiwin supports production genealogy and operating visibility from crystal growth through wafer processing to epitaxy.",
+              "source_text": "Wafer Works / 合晶科技\nTaiwan / Shanghai",
+              "cta": "",
+              "native_headline": "Wafer Works: semiconductor materials",
+              "alt": "Illustration: Wafer Works: semiconductor materials",
+              "artwork_labels": [
+                "SEMICONDUCTOR CASE",
+                "1/4"
+              ],
+              "card_id": "B28-P1",
+              "stage": "proof",
+              "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+              "image": "assets/07-b28-p1.png",
+              "available": true
+            },
+            {
+              "headline": "Follow the production genealogy.",
+              "body": "In the Wafer Works case, production history connects the silicon crystal to individual wafer lots.",
+              "source_text": "Digiwin semiconductor solutions\nWafer Works / Taiwan / Shanghai",
+              "cta": "",
+              "native_headline": "Follow the production genealogy.",
+              "alt": "Illustration: Follow the production genealogy.",
+              "artwork_labels": [
+                "SEMICONDUCTOR CASE",
+                "2/4"
+              ],
+              "card_id": "B28-P2",
+              "stage": "proof",
+              "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+              "image": "assets/08-b28-p2.png",
+              "available": true
+            },
+            {
+              "headline": "Make progress and quality visible.",
+              "body": "The case covers production progress, equipment status and epitaxy history, including parameter limits and early quality-risk alerts.",
+              "source_text": "Digiwin semiconductor solutions\nWafer Works / Taiwan / Shanghai",
+              "cta": "",
+              "native_headline": "Make progress and quality visible.",
+              "alt": "Illustration: Make progress and quality visible.",
+              "artwork_labels": [
+                "SEMICONDUCTOR CASE",
+                "3/4"
+              ],
+              "card_id": "B28-P3",
+              "stage": "proof",
+              "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+              "image": "assets/09-b28-p3.png",
+              "available": true
+            },
+            {
+              "headline": "Bring the questions to your factory.",
+              "body": "Explore the Wafer Works case. Then review which lot records, decision responsibilities and process requirements matter at your plant.",
+              "source_text": "Digiwin semiconductor solutions\nWafer Works / Taiwan / Shanghai",
+              "cta": "Read the factory discussion guide",
+              "native_headline": "Bring the questions to your factory.",
+              "alt": "Illustration: Bring the questions to your factory.",
+              "artwork_labels": [
+                "SEMICONDUCTOR CASE",
+                "4/4"
+              ],
+              "card_id": "B28-P4",
+              "stage": "proof",
+              "caption": "Digiwin works with semiconductor manufacturers. Explore Wafer Works in Taiwan / Shanghai: production genealogy, operating visibility and epitaxy quality context.",
+              "image": "assets/10-b28-p4.png",
+              "available": true
+            }
+          ]
+        }
+      ],
+      "reader_active_english": {
+        "skip": "Skip to case content",
+        "edition": "Manufacturing solutions",
+        "back": "Return to the journey",
+        "caseLabel": "Supplier Quality",
+        "market": "Industry context · Taiwan / Shanghai",
+        "title": "Scope the customer question before collecting records",
+        "lead": "For PCB suppliers serving semiconductor and electronics equipment, quality and operating teams need clear record scope, sources and review responsibility.",
+        "figure": "Illustration made for this page: silicon crystal, wafers, epitaxy and production records. Not a photo of Wafer Works or its equipment.",
+        "s1Index": "Where to start",
+        "s1h": "Define the customer question",
+        "s1p1": "Identify the lot, process step, time period and information requested. Use this scope to decide which records matter to the response.",
+        "s1p2": "Name who compares those records with the request, who resolves differences and who confirms the response.",
+        "s2Index": "Roles and responsibilities",
+        "s2h": "Separate enterprise and production records",
+        "s2p1": "ERP supports enterprise orders, materials, planning and costs. Manufacturing execution solutions support production progress, lot records and quality information.",
+        "s2p2": "Identify the team or system maintaining each relevant source. Agree review responsibilities and unresolved gaps with factory teams before defining the solution scope.",
+        "s3Index": "Industry context",
+        "s3h": "Industry context: Wafer Works",
+        "s3p1": "Wafer Works / 合晶科技 in Taiwan / Shanghai produces silicon wafer materials through crystal growth, wafer processing and epitaxy.",
+        "s3p2": "The case connects silicon crystals to wafer-lot production history and provides visibility into progress, equipment status and epitaxy records with quality parameter limits.",
+        "s3p3": "This silicon-materials context helps quality teams discuss production record sources and scope. A PCB factory must define the records relevant to its own customer question.",
+        "consultLabel": "Talk with Digiwin Vietnam",
+        "s4h": "Discuss your factory scope with the Vietnam team",
+        "s4p1": "Digiwin Vietnam assesses factory operations, advises on business processes and supports on-site solution transfer and factory acceptance.",
+        "s4p2": "Bring one customer lot question, the relevant record sources, a review owner and unresolved gaps to a discussion of your process and implementation scope.",
+        "sourceLabel": "Reference source",
+        "src1": "Digiwin semiconductor solutions: Wafer Works",
+        "src2": "Digiwin Vietnam: supplier solutions and local services",
+        "footer": "Digiwin Vietnam · Enterprise management solutions"
+      },
+      "reader_links": [
+        "#main",
+        "index.html",
+        "https://www.digiwin.com.tw/dsc/solution/semiconductor/index",
+        "https://solutions.digiwin.com.vn/supplierecosystem",
+        "index.html"
+      ],
+      "pins": [
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/selected-copy.json",
+          "sha256": "cb1faa41829b75e14d873debdc69bd40285e3629b1fa4fd4273d0eb3bbad696b"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/index.html",
+          "sha256": "5623c2722e16e727c5378d9e72862aacd7aff4f28117620f335132aa0dd13059"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/case-reader.html",
+          "sha256": "5a12144e40d7042f1ae6e2d18c3175a00243ac646baa7c794a192439c2ae0726"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/selected-origin-manifest.json",
+          "sha256": "a16482c42642d7e3d9041d14a4c5b8cb295244d9f760b1bc9239afea95ea5dc7"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/01-b28-c1.png",
+          "sha256": "ca771aee3cb77d9cc974aa6cf69289ec84af3fb56dc91758c3e65cd43462ca9f"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/02-b28-e1.png",
+          "sha256": "a330feb94d9af058a91c6cc07c442c3900765f1da2282c66c3ec30fa3676db99"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/03-b28-e2.png",
+          "sha256": "0c478e866f3bf6b74a2ab83e5ec29cb7bd86d588929c18e2182e866ccf87807e"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/04-b28-e3.png",
+          "sha256": "13e9ca111de4ef04fe32b47adc3049ad4381928083f1428a0ddb05ffa87e7322"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/05-b28-e4.png",
+          "sha256": "0aed0581c1ae2a85ca0b93d63ff6c49bd58a74d670bfcfd5442511eeb7afcaf2"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/06-b28-e5.png",
+          "sha256": "bdc37ddc0ff2b5b690641976a72380d1315e163375768227d1ee753ff313074d"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/07-b28-p1.png",
+          "sha256": "062e5f3095b591a462912cc8a5cb5fbf975b27303c60ca20f99b52f72ef8eff7"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/08-b28-p2.png",
+          "sha256": "b43e06a74a5f29198cc684e30cd2904f9705939e7fbeaf90e39c57d7a6dee668"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/09-b28-p3.png",
+          "sha256": "b2a11e9a9e9604c80558c3ec89ada4cc3c876602dcbec65e119ad81d4e3648af"
+        },
+        {
+          "path": "deliverables/linkedin-safe-batches/parallel-partner-2026-10-07/B28-en-p3-v1/assets/10-b28-p4.png",
+          "sha256": "e044420d6293524db3d010c2a9616f8f8c62621d64a04ea624f9fc8d5ba6083b"
+        }
+      ]
+    }
+  ]
+}

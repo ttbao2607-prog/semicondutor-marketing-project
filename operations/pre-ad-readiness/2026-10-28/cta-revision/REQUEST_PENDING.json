@@ -1,0 +1,46 @@
+{
+  "schema": "ladipage-operator/existing-page-revision/v1",
+  "status": "PENDING",
+  "target": {
+    "page_identity": "Digiwin Semiconductor - Unified Case Reader - 20261028",
+    "public_url": "https://solutions.digiwin.com.vn/semiconductor-case-reader",
+    "environment": "production",
+    "operation": "revise_existing_page",
+    "upload_or_new_page": false,
+    "form_rebind": false
+  },
+  "canonical_source": {
+    "project_ref": "D:\\Digiwin_Executive_Approval_Corrected_2026-10-28",
+    "path": "deliverables/unified-case-reader/unified-case-reader.html",
+    "baseline_sha256": "1ac14a1bc4e58c69a3e3d7cd4175a2cc8c65e65ae291ef2d24fb8f71a2ae6302"
+  },
+  "authority": {
+    "approved": true,
+    "scope_ref": "Bao approved contact-vn + Vietnamese warning, English label and placement; okie chot lam codex",
+    "page_identity": "Digiwin Semiconductor - Unified Case Reader - 20261028",
+    "public_url": "https://solutions.digiwin.com.vn/semiconductor-case-reader",
+    "production_authorized": true
+  },
+  "revision": {
+    "intent": "Add approved P1/P2 English CTA in existing consultation section",
+    "allowed_paths": [
+      "deliverables/unified-case-reader/unified-case-reader.html"
+    ],
+    "protected_invariants": [
+      "other_treatments_locales",
+      "copy_proof_images",
+      "router_utm_entry",
+      "no_form_tracking_change"
+    ],
+    "semantic_delta": [
+      {
+        "path": "deliverables/unified-case-reader/unified-case-reader.html",
+        "scope_start": "  // 3. Render function",
+        "scope_end": "  // 4. Initial route resolution",
+        "before": "    document.documentElement.lang = locale;",
+        "after": "    // Approved P1/P2 English consultation handoff.\n    if ((treatment === 'P1' || treatment === 'P2') && locale === 'en') {\n      const consult = container.querySelector('.consult-inner');\n      if (consult) {\n        const notice = document.createElement('p');\n        notice.id = 'partner-contact-language';\n        notice.textContent = 'Opens Digiwin Vietnam’s consultation page in Vietnamese.';\n        const contact = document.createElement('a');\n        contact.id = 'partner-contact-cta';\n        contact.className = 'cta';\n        contact.href = 'https://www.digiwin.com.vn/contact-vn/';\n        contact.setAttribute('aria-describedby', notice.id);\n        contact.textContent = 'Discuss your factory workflow';\n        consult.append(notice, contact);\n      }\n    }\n\n    document.documentElement.lang = locale;"
+      }
+    ]
+  },
+  "lifecycle": {}
+}

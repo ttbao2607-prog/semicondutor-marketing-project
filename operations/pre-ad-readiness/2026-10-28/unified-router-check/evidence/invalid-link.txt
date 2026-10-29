@@ -1,0 +1,76 @@
+- link "Skip to case content":
+  - /url: "#main"
+- banner:
+  - img "Digiwin"
+  - generic: Manufacturing solutions
+- navigation "Language":
+  - button "Tiếng Việt"
+  - button "English" [pressed]
+  - button "简体中文"
+  - button "繁體中文"
+- main:
+  - strong: Packaging & testing
+  - generic: Reference case · China
+  - heading "A shared starting point for quality review" [level=1]
+  - paragraph: "An unexpected test result calls for a clear starting point: the lot, the production context and the person who checks the record next. Explore how a named packaging and testing business connects production records with Digiwin ERP + iMES."
+  - 'figure "Digiwin’s visit to 江苏中科智芯集成科技有限公司 · September 2020. Source: 鼎捷智造___new on Sohu · original photo contains Chinese text"':
+    - img "Group outside the customer building holding a banner bearing Digiwin branding and the name 江苏中科智芯集成科技有限公司."
+    - generic: Digiwin’s visit to 江苏中科智芯集成科技有限公司 · September 2020.
+    - 'link "Source: 鼎捷智造___new on Sohu · original photo contains Chinese text"':
+      - /url: https://www.sohu.com/a/420465147_722372
+  - article "Production records and quality review":
+    - paragraph:
+      - generic: "01"
+      - generic: The business context
+    - heading "Records and processes need to work together" [level=2]
+    - paragraph: According to the case published by Digiwin Vietnam, 江苏中科智芯集成科技有限公司 in China implemented an integrated ERP + iMES solution. The published problems include disorganized records, nonstandard processes and low outsourcing and production efficiency.
+    - generic: ERP + iMES
+    - generic: 江苏中科智芯集成科技有限公司
+    - paragraph:
+      - generic: "02"
+      - generic: Inside the case
+    - heading "How the implementation connects information" [level=2]
+    - paragraph: The published mechanisms span shopfloor data, production records, parameter changes and exception handling within the integrated solution.
+    - list:
+      - heading "Shopfloor information · SPC" [level=3]
+      - paragraph: SPC (statistical process control) collects and analyzes shopfloor information in real time.
+      - heading "Parameter changes · ECN" [level=3]
+      - paragraph: ECN (engineering change notice) distributes process parameter changes in real time.
+      - heading "Linked records" [level=3]
+      - paragraph: MES links batches, workstations, operators and products/materials for tracing from different perspectives.
+      - heading "Exception recording & escalation" [level=3]
+      - paragraph: The system automatically opens exception records and escalates them through successive levels.
+    - paragraph:
+      - generic: "03"
+      - generic: Review your current setup
+    - heading "Give Quality and Operations a shared basis for the next check" [level=2]
+    - paragraph: Use the case as a reference for these questions about your own review workflow.
+    - list:
+      - heading "Start from the same lot and context" [level=3]
+      - paragraph: When a result needs review, can both teams locate the lot, test time and related production record?
+      - paragraph:
+        - strong: Information to prepare
+        - text: Prepare one example of a lot record and how it reaches the review team.
+      - heading "Make the next check and owner clear" [level=3]
+      - paragraph: Who confirms the information source, checks missing records and follows up an exception?
+      - paragraph:
+        - strong: Information to prepare
+        - text: Prepare your current handoff steps and the roles responsible for each check.
+      - heading "Keep changes visible during review" [level=3]
+      - paragraph: Where do teams find the applicable parameter revision and the record of an exception?
+      - paragraph:
+        - strong: Information to prepare
+        - text: Prepare one parameter-change record and an example of exception follow-up.
+    - paragraph: A clear view of records and responsibilities can help your teams identify where coordination needs attention. Start the discussion with one actual review workflow at your company.
+  - paragraph: Talk with Digiwin Vietnam
+  - heading "Bring one quality-review workflow to the discussion" [level=2]
+  - paragraph: Describe how Quality and Operations share lot records, confirm changes and assign the next check. We provide digital solutions for manufacturing, from ERP to smart manufacturing.
+  - paragraph: The next step opens Digiwin Vietnam’s consultation request page in Vietnamese.
+  - link "Discuss records and review ownership":
+    - /url: https://www.digiwin.com.vn/contact-vn/
+    - generic: Discuss records and review ownership
+  - strong: Reference source
+  - link "Read the Chinese case collection":
+    - /url: https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/
+  - paragraph: In the source, select 封装测试, then 案例 06 江苏中科智芯集成科技有限公司.
+  - paragraph: "Source: Simplified Chinese · this page summarizes the named case."

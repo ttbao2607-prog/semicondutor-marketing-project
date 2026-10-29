@@ -1,0 +1,178 @@
+{
+  "schema": "ladipage-operator/existing-page-revision/v1",
+  "status": "COMPLETED",
+  "target": {
+    "page_identity": "Digiwin Semiconductor - Unified Case Reader - 20261028",
+    "public_url": "https://solutions.digiwin.com.vn/semiconductor-case-reader",
+    "environment": "production",
+    "operation": "revise_existing_page",
+    "upload_or_new_page": false,
+    "form_rebind": false
+  },
+  "canonical_source": {
+    "project_ref": "D:\\Digiwin_Executive_Approval_Corrected_2026-10-28",
+    "path": "deliverables/unified-case-reader/unified-case-reader.html",
+    "baseline_sha256": "4059a1ea22158b801cab1ffabb9ac570b27805c2fd79614a48ecd8e95ccc2715"
+  },
+  "authority": {
+    "approved": true,
+    "scope_ref": "Bao: Lam luon next action codex; refer to Blogspot-Digiwin bridge between paid and organic hosts; authorized same reader tracking deploy",
+    "page_identity": "Digiwin Semiconductor - Unified Case Reader - 20261028",
+    "public_url": "https://solutions.digiwin.com.vn/semiconductor-case-reader",
+    "production_authorized": true
+  },
+  "revision": {
+    "intent": "Reuse Blogspot shared website stream and bridge metadata on reader-to-contact; native page_view/engagement only",
+    "allowed_paths": [
+      "deliverables/unified-case-reader/unified-case-reader.html"
+    ],
+    "protected_invariants": [
+      "core_content_images",
+      "router_and_visible_cta",
+      "no_form_or_conversion_code",
+      "blogspot_and_legacy_systems_unchanged"
+    ],
+    "semantic_delta": [
+      {
+        "path": "deliverables/unified-case-reader/unified-case-reader.html",
+        "scope_start": "<head>",
+        "scope_end": "<style>",
+        "before": "<meta name=\"color-scheme\" content=\"light\">",
+        "after": "<meta name=\"color-scheme\" content=\"light\">\n<script id=\"semiconductor-reader-bridge-v1\">\n/* Reader adapter: Blogspot-Digiwin 6802942 bridge contract, website stream only. */\n(function (w, d) {\n  'use strict';\n  if (w.DWSemiconductorBridge) return;\n  var VERSION = 'semiconductor_bridge_v1_20261028';\n  var MID = 'G-MV5QWN0XVM';\n  var fields = ['bridge_source', 'bridge_medium', 'bridge_campaign', 'bridge_campaign_id',\n    'bridge_ad_id', 'bridge_adset_id', 'bridge_card', 'bridge_lane', 'creative_version'];\n  function safe(value) {\n    return typeof value === 'string' && /^[a-zA-Z0-9_-]{1,100}$/.test(value) ? value : '';\n  }\n  function context(search) {\n    var p = new URLSearchParams(search), out = {};\n    fields.forEach(function (key) { out[key] = safe(p.get(key) || ''); });\n    out.bridge_source = safe(p.get('utm_source') || '');\n    out.bridge_medium = safe(p.get('utm_medium') || '');\n    out.bridge_campaign = safe(p.get('utm_campaign') || '');\n    out.bridge_campaign_id = safe(p.get('utm_id') || '');\n    // No assumed paid source/lane for a direct or unlabelled visit.\n    if (!out.bridge_lane && out.bridge_source && /_rmk_/.test(out.bridge_campaign)) out.bridge_lane = 'rmk';\n    if (!out.bridge_lane && out.bridge_source && /_cold_/.test(out.bridge_campaign)) out.bridge_lane = 'cold';\n    if (!out.bridge_card) out.bridge_card = safe(p.get('utm_content') || '');\n    return out;\n  }\n  function decorate(raw, ctx, now, treatment, locale) {\n    try {\n      var u = new URL(raw, w.location.href);\n      if (u.protocol !== 'https:' || u.hostname !== 'www.digiwin.com.vn' || u.pathname !== '/contact-vn/') return raw;\n      // Acquisition belongs to ad -> reader, not an internal UTM campaign.\n      ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'utm_id'].forEach(function (key) { u.searchParams.delete(key); });\n      u.searchParams.set('bridge_origin', 'semiconductor_reader');\n      u.searchParams.set('bridge_ts', String(now));\n      fields.forEach(function (key) {\n        var value = safe(ctx[key] || '');\n        if (value) u.searchParams.set(key, value); else u.searchParams.delete(key);\n      });\n      u.searchParams.set('bridge_treatment', safe(treatment));\n      u.searchParams.set('bridge_locale', safe(locale));\n      return u.href;\n    } catch (_) { return raw; }\n  }\n  function acquisitionURL() {\n    var original = new URL(w.location.href), clean = new URL(original.origin + original.pathname);\n    ['t', 'treatment', 'lang', 'locale', 'entry', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'utm_id'].forEach(function (key) {\n      var value = safe(original.searchParams.get(key) || '');\n      if (value) clean.searchParams.set(key, value);\n    });\n    return clean.href;\n  }\n  function route() {\n    var reader = w.unifiedReader;\n    return reader ? {t: reader.getTreatment(), lang: reader.getLocale()} : {t: '', lang: d.documentElement.lang};\n  }\n  function refreshLink() {\n    var a = d.getElementById('partner-contact-cta');\n    if (!a) return;\n    var r = route();\n    a.href = decorate('https://www.digiwin.com.vn/contact-vn/', context(w.location.search), Date.now(), r.t, r.lang);\n  }\n  function start() {\n    if (w.location.hostname !== 'solutions.digiwin.com.vn' || w.location.pathname !== '/semiconductor-case-reader') return;\n    if (w.DWSemiconductorBridge.started) return;\n    w.DWSemiconductorBridge.started = true;\n    // One Google tag config owns automatic page_view and native engagement.\n    // No manual page_view, GTM container, second event receiver, or consent override.\n    w.dataLayer = w.dataLayer || [];\n    w.gtag = w.gtag || function () { w.dataLayer.push(arguments); };\n    var config = context(w.location.search);\n    config.cookie_domain = 'digiwin.com.vn';\n    config.page_location = acquisitionURL();\n    w.gtag('js', new Date());\n    w.gtag('config', MID, config);\n    var loader = d.createElement('script');\n    loader.async = true;\n    loader.src = 'https://www.googletagmanager.com/gtag/js?id=' + MID;\n    d.head.appendChild(loader);\n    refreshLink();\n    var root = d.getElementById('app-main');\n    if (root) new MutationObserver(refreshLink).observe(root, {childList: true});\n    function activate(e) {\n      if (e.type === 'keydown' && e.key !== 'Enter') return;\n      var el = e.target && e.target.closest && e.target.closest('#partner-contact-cta');\n      if (el) refreshLink();\n    }\n    ['pointerdown', 'click', 'auxclick', 'contextmenu', 'keydown'].forEach(function (name) {\n      d.addEventListener(name, activate, true);\n    });\n  }\n  w.DWSemiconductorBridge = {version: VERSION, context: context, decorate: decorate, start: start};\n  if (d.readyState === 'loading') d.addEventListener('DOMContentLoaded', start, {once: true});\n  else start();\n})(window, document);\n\n</script>"
+      }
+    ]
+  },
+  "lifecycle": {
+    "pre_edit_normalized_anchor": true,
+    "bounded_semantic_patch": true,
+    "blind_full_source_replacement": false,
+    "save_reopen_verified": true,
+    "same_page_verified": true,
+    "public_verification": {
+      "published": true,
+      "same_public_url": true,
+      "desktop": true,
+      "mobile": true,
+      "expected_marker": "bridge_origin=semiconductor_reader",
+      "observed_desktop_marker": "bridge_origin=semiconductor_reader",
+      "observed_mobile_marker": "bridge_origin=semiconductor_reader",
+      "desktop_delta_sha256": "379d6edf82ac2f7c6ade64a74fe717a307021ba43895a710cbfaf62cb1a50dc9",
+      "mobile_delta_sha256": "379d6edf82ac2f7c6ade64a74fe717a307021ba43895a710cbfaf62cb1a50dc9",
+      "desktop_ref": "BROWSER_EVIDENCE.json controls + P1-desktop.png",
+      "mobile_ref": "BROWSER_EVIDENCE.json controls + P1-mobile.png/P2-mobile.png"
+    },
+    "protected_invariants_preserved": true,
+    "protected_witnesses": {
+      "core_content_images": {
+        "before_sha256": "8de6f2bf4c315b078ae4b8db06878ca72f2ae5154d4e3ce07fbddf2eefda5d99",
+        "after_sha256": "8de6f2bf4c315b078ae4b8db06878ca72f2ae5154d4e3ce07fbddf2eefda5d99"
+      },
+      "router_and_visible_cta": {
+        "before_sha256": "8de6f2bf4c315b078ae4b8db06878ca72f2ae5154d4e3ce07fbddf2eefda5d99",
+        "after_sha256": "8de6f2bf4c315b078ae4b8db06878ca72f2ae5154d4e3ce07fbddf2eefda5d99"
+      },
+      "no_form_or_conversion_code": {
+        "before_sha256": "a52a5dad9e54bddfb9e20367a23de396f0c029546bec552368a9d7f45260a53e",
+        "after_sha256": "a52a5dad9e54bddfb9e20367a23de396f0c029546bec552368a9d7f45260a53e"
+      },
+      "blogspot_and_legacy_systems_unchanged": {
+        "before_sha256": "a52a5dad9e54bddfb9e20367a23de396f0c029546bec552368a9d7f45260a53e",
+        "after_sha256": "a52a5dad9e54bddfb9e20367a23de396f0c029546bec552368a9d7f45260a53e"
+      }
+    },
+    "revision_binding": {
+      "baseline_sha256": "4059a1ea22158b801cab1ffabb9ac570b27805c2fd79614a48ecd8e95ccc2715",
+      "canonical_candidate_sha256": "04429f539c394f0506679725740a2a52dd81af37ff36b70d8e4dc5c1a103f1d8",
+      "page_revision_sha256": "876ff1a207b5e3dd686140d52e247c5879cebae6f7ce7827af66f7e848977c29",
+      "published_revision_sha256": "95598564fdc4c8fbbd016cf26d4f55d99a56b286de95240d65474b7042b0d267",
+      "canonical_delta_sha256": "379d6edf82ac2f7c6ade64a74fe717a307021ba43895a710cbfaf62cb1a50dc9",
+      "page_delta_sha256": "379d6edf82ac2f7c6ade64a74fe717a307021ba43895a710cbfaf62cb1a50dc9",
+      "published_delta_sha256": "379d6edf82ac2f7c6ade64a74fe717a307021ba43895a710cbfaf62cb1a50dc9",
+      "page_revision_witness_ref": "BROWSER_EVIDENCE.json exact full-source Save/reopen hash",
+      "published_revision_witness_ref": "BROWSER_EVIDENCE.json exact core hash + rendered main DOM snapshot hash + public request/CTA markers",
+      "canonical_git_state": "committed",
+      "commit_required": true,
+      "canonical_git_commit_sha": "a31ea233fe817407fe2deb110649396f67a58941",
+      "canonical_git_tree_sha": "ada9ea9aab1378a10cfb21fc7d8528a319e4b9e5",
+      "canonical_git_blob_sha1": "a606e1842bd59e331b7ff8359a65f3bfd14ba13c",
+      "canonical_git_path": "deliverables/unified-case-reader/unified-case-reader.html",
+      "canonical_git_evidence_ref": "GIT_CHECKPOINT.json"
+    },
+    "automatic_lead_or_retry": false,
+    "optional_checks": [],
+    "evidence": [
+      {
+        "observation": "pre_edit_normalized_anchor",
+        "source_ref": "BROWSER_EVIDENCE.json; REPORT_VI.md; PREPARED.json",
+        "observed_at": "2026-10-28 Asia/Saigon",
+        "expected_effect": "Bounded reader tracking bridge; same URL/content, shared website stream and safe contact context",
+        "actual_effect": "Exact inserted source retained; public core matches; marked QA request HTTP204 at both hosts, same identity booleans; no form submission",
+        "artifact_sha256": "cdbd656dbc3d3d2cd808495f93462695460664d7226376d9d5d1120dfab9d858"
+      },
+      {
+        "observation": "save_reopen",
+        "source_ref": "BROWSER_EVIDENCE.json; REPORT_VI.md; PREPARED.json",
+        "observed_at": "2026-10-28 Asia/Saigon",
+        "expected_effect": "Bounded reader tracking bridge; same URL/content, shared website stream and safe contact context",
+        "actual_effect": "Exact inserted source retained; public core matches; marked QA request HTTP204 at both hosts, same identity booleans; no form submission",
+        "artifact_sha256": "cdbd656dbc3d3d2cd808495f93462695460664d7226376d9d5d1120dfab9d858"
+      },
+      {
+        "observation": "same_page_identity",
+        "source_ref": "BROWSER_EVIDENCE.json; REPORT_VI.md; PREPARED.json",
+        "observed_at": "2026-10-28 Asia/Saigon",
+        "expected_effect": "Bounded reader tracking bridge; same URL/content, shared website stream and safe contact context",
+        "actual_effect": "Exact inserted source retained; public core matches; marked QA request HTTP204 at both hosts, same identity booleans; no form submission",
+        "artifact_sha256": "cdbd656dbc3d3d2cd808495f93462695460664d7226376d9d5d1120dfab9d858"
+      },
+      {
+        "observation": "page_revision",
+        "source_ref": "BROWSER_EVIDENCE.json; REPORT_VI.md; PREPARED.json",
+        "observed_at": "2026-10-28 Asia/Saigon",
+        "expected_effect": "Bounded reader tracking bridge; same URL/content, shared website stream and safe contact context",
+        "actual_effect": "Exact inserted source retained; public core matches; marked QA request HTTP204 at both hosts, same identity booleans; no form submission",
+        "artifact_sha256": "cdbd656dbc3d3d2cd808495f93462695460664d7226376d9d5d1120dfab9d858"
+      },
+      {
+        "observation": "published_revision",
+        "source_ref": "BROWSER_EVIDENCE.json; REPORT_VI.md; PREPARED.json",
+        "observed_at": "2026-10-28 Asia/Saigon",
+        "expected_effect": "Bounded reader tracking bridge; same URL/content, shared website stream and safe contact context",
+        "actual_effect": "Exact inserted source retained; public core matches; marked QA request HTTP204 at both hosts, same identity booleans; no form submission",
+        "artifact_sha256": "cdbd656dbc3d3d2cd808495f93462695460664d7226376d9d5d1120dfab9d858"
+      },
+      {
+        "observation": "public_desktop",
+        "source_ref": "BROWSER_EVIDENCE.json; REPORT_VI.md; PREPARED.json",
+        "observed_at": "2026-10-28 Asia/Saigon",
+        "expected_effect": "Bounded reader tracking bridge; same URL/content, shared website stream and safe contact context",
+        "actual_effect": "Exact inserted source retained; public core matches; marked QA request HTTP204 at both hosts, same identity booleans; no form submission",
+        "artifact_sha256": "cdbd656dbc3d3d2cd808495f93462695460664d7226376d9d5d1120dfab9d858"
+      },
+      {
+        "observation": "public_mobile",
+        "source_ref": "BROWSER_EVIDENCE.json; REPORT_VI.md; PREPARED.json",
+        "observed_at": "2026-10-28 Asia/Saigon",
+        "expected_effect": "Bounded reader tracking bridge; same URL/content, shared website stream and safe contact context",
+        "actual_effect": "Exact inserted source retained; public core matches; marked QA request HTTP204 at both hosts, same identity booleans; no form submission",
+        "artifact_sha256": "cdbd656dbc3d3d2cd808495f93462695460664d7226376d9d5d1120dfab9d858"
+      },
+      {
+        "observation": "protected_invariants",
+        "source_ref": "BROWSER_EVIDENCE.json; REPORT_VI.md; PREPARED.json",
+        "observed_at": "2026-10-28 Asia/Saigon",
+        "expected_effect": "Bounded reader tracking bridge; same URL/content, shared website stream and safe contact context",
+        "actual_effect": "Exact inserted source retained; public core matches; marked QA request HTTP204 at both hosts, same identity booleans; no form submission",
+        "artifact_sha256": "cdbd656dbc3d3d2cd808495f93462695460664d7226376d9d5d1120dfab9d858"
+      },
+      {
+        "observation": "canonical_reconciliation",
+        "source_ref": "BROWSER_EVIDENCE.json; REPORT_VI.md; PREPARED.json",
+        "observed_at": "2026-10-28 Asia/Saigon",
+        "expected_effect": "Bounded reader tracking bridge; same URL/content, shared website stream and safe contact context",
+        "actual_effect": "Exact inserted source retained; public core matches; marked QA request HTTP204 at both hosts, same identity booleans; no form submission",
+        "artifact_sha256": "04429f539c394f0506679725740a2a52dd81af37ff36b70d8e4dc5c1a103f1d8"
+      }
+    ]
+  }
+}
