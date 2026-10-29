@@ -68,5 +68,6 @@
       "sha256_git_blob": "788eeef954d1d7de90cc8bca58bf49c2c1b5afd0b3675fd567449f707784e8af",
       "sha256_read": "8fa09dc84455a1c5bbbc9e6fc9a1724be087886b405dfcdcd2899c522b5e8fc9"
     }
-  ]
+  ],
+  "hash_field_note": "sha256_git_blob = SHA256 of the committed (LF) bytes and is the authoritative pin. sha256_read = SHA256 of the file as read in a Windows working tree with CRLF checkout (autocrlf); a difference between the two is line-ending only, not content drift."
 }

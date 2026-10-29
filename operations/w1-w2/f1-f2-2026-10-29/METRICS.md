@@ -8,13 +8,13 @@ Dùng lại cấu trúc [Week1 readback](../../linkedin-rmk-source-readiness/202
 | Reach / impressions / frequency | Native fields cùng scope/kỳ; nếu tự tính frequency=impressions/reach phải ghi DERIVED và reach>0 | Reach unique không cộng các ad để ra cohort; không trung bình các CTR/frequency để ra tổng |
 | Clicks / CTR | Giữ định nghĩa dashboard: clicks loại gì, CTR dashboard hay derived100×clicks/impressions; denominator>0 | Brand awareness/Reach không là traffic experiment; click-all khác link click; không đổi definition giữa kỳ |
 | Engagement | Counts và rate theo definition native, ghi numerator/denominator nếu nguồn có | Không gọi mọi engagement là reader hoặc awareness lift |
-| Spend / CPM / CPC | Dashboard currency/timezone/before-tax basis; derived CPM=1000×spend/impressions, CPC=spend/clicks khi mẫu số>0 | SharedUSD10/day; cohort total không cộng lại ad+cumulative; VND dùng basis kế toán thực có ngày, không bịa FX |
+| Spend / CPM / CPC | Dashboard currency/timezone/before-tax basis; derived CPM=1000×spend/impressions, CPC=spend/clicks khi mẫu số>0 | Shared USD10/day; cohort total không cộng lại ad+cumulative; VND dùng basis kế toán thực có ngày, không bịa FX |
 | Reader engagement | Processed source UTM + treatment F1/F2, real paid sessions/engaged sessions theo nguồn có | HTTP204 không đủ; sessions không bằng clicks1:1; không thấy cohort report ghi UNAVAILABLE/PROCESSING, không số0 |
 | RMK eligibility | Exact source ads/rule/lookback/objective, native status, filtered reachable và thời điểm | Registry dự kiến không chứng minh audience tạo/Ready; kiểm gate theo source contract và UI hiện hành |
 
 ## Kỳ đo, dữ liệu và độ tin cậy
 
-Chọn daily hoặc cumulative, ghi report_period_start/end/account_timezone/extracted_at trong notes. Không cộng daily với cumulative, không cộng cumulative nhiều ngày. So sánh F1/F2 trong cùng kỳ với exposure thực; thay đổi sau đó so equal-length windows và targeting/creative revision. Không tự quy causal lift từ hai tuần khác thời điểm. Nếu7ngày lịch chỉ có ít giờ delivery, ghi actual eligibility days; không gọi đủ learning.
+Chọn daily hoặc cumulative, ghi report_period_start/end/account_timezone/extracted_at trong notes. Không cộng daily với cumulative, không cộng cumulative nhiều ngày. So sánh F1/F2 trong cùng kỳ với exposure thực; thay đổi sau đó so equal-length windows và targeting/creative revision. Không tự quy causal lift từ hai tuần khác thời điểm. Nếu 7 ngày lịch chỉ có ít giờ delivery, ghi actual eligibility days; không gọi đủ learning.
 
 Threshold register: sample minimum=UNSET; CTR target=UNSET; CPM/CPC ceiling=UNSET; frequency warning=UNSET; acceptable demographic coverage=UNSET. Đây là khoảng trống quyết định, không mặc định PASS/FAIL. Bảo chọn criteria cho phép thử tiếp theo trước khi áp dụng; nếu chưa có, báo số thô/chi/limitations và C7 thay vì gán nhãn winner. Các lỗi đúng-sai như URL sai, targeting drift, unauthorized claim hoặc vượt budget envelope có thể nhận diện ngay mà không cần ngưỡng CTR.
 

@@ -6,11 +6,11 @@ Trạng thái: INTERNAL_PREPARATION_COMPLETE / W2_NOT_AUTHORIZED. Gói này cụ
 
 Theo [activation receipt](../../pre-ad-readiness/2026-10-29/f1-f2-cycle/SCHEDULE_ACTIVATED.md), last observed29Oct: parent Active, ad set On/Scheduled; F1/F2 On/Active. Chỉ một cold ad set R5/English ở Việt Nam, USD10/ngày chung; Reach/Maximum delivery, Feed only, Expansion/LAN/RightRail off. Tên còn DRAFT_REVIEW không còn nghĩa là đang draft. Không làm live readback mới trong lượt chuẩn bị này.
 
-W1 đã schedule từ **01/11/2026 07:00 → 08/11/2026 06:45 giờ Việt Nam**; saved platform dates01–07Nov. Đây là cửa sổ lịch, không chứng minh đủ7ngày delivery. Ghi actual first delivery và các khoảng pause/reject; eligible-delivery-day3/day7 phụ thuộc lúc thực sự phân phối. Không tự kéo dài lịch nếu xét duyệt chậm.
+W1 đã schedule từ **01/11/2026 07:00 → 08/11/2026 06:45 giờ Việt Nam**; saved platform dates01–07Nov. Đây là cửa sổ lịch, không chứng minh đủ 7 ngày delivery. Ghi actual first delivery và các khoảng pause/reject; eligible-delivery-day3/day7 phụ thuộc lúc thực sự phân phối. Không tự kéo dài lịch nếu xét duyệt chậm.
 
 - Trước/đầu chạy: đọc xét duyệt, delivery, targeting, link và pacing khi Bảo giao readback.
 - Trong kỳ: note integrity/pacing hằng ngày và kiểm ở ngày delivery3/7 là cadence đề xuất theo data plan; chưa tạo tác vụ tự chạy.
-- Cuối kỳ: snapshot từ08/11 sau06:45 VN; ghi timezone báo cáo và đúng timestamp/cửa sổ nền tảng. Kết quả ban đầu có thể provisional vì report/GA4 chậm; recheck khi nguồn đã xử lý, ghi thời điểm thực tế. Mốc09/11 trong operating proposal cũ không còn là ngày kết thúc lịch này.
+- Cuối kỳ: snapshot từ 08/11 sau 06:45 VN; ghi timezone báo cáo và đúng timestamp/cửa sổ nền tảng. Kết quả ban đầu có thể provisional vì report/GA4 chậm; recheck khi nguồn đã xử lý, ghi thời điểm thực tế. Mốc09/11 trong operating proposal cũ không còn là ngày kết thúc lịch này.
 - Lịch W1 tự kết thúc; W2 không tự nối tiếp. Không phê duyệt kịp thì giữ hết lịch, không mặc định gia hạn.
 
 ## Thứ tự ra quyết định
@@ -21,7 +21,7 @@ W1 đã schedule từ **01/11/2026 07:00 → 08/11/2026 06:45 giờ Việt Nam**
 
 ## Bảo chốt gì ở cuối W1?
 
-Chọn action cụ thể: giữ hết lịch/giữ ngân sách; tiếp tục cold với ngày và ngân sách mới; sửa đúng một đoạn; hoặc dựng RMK sau gate. Mỗi quyết định ghi kỳ đo/raw counts/độ tin cậy, phần giữ/phần đổi, owner, ngân sách/ngày bắt đầu-kết thúc, recheck và rollback. Không cần xin duyệt lại tổng plan11,7triệu/đợt đầu5,6triệu/giữ lại6,1triệu; chỉ ghi việc dùng phần còn lại cho hành động cụ thể, không mặc định giải ngân reserve hoặc Search. USD10 là daily pacing shared, nominal W1USD70, không lifetime hard cap; không tự dùng tỷ giá để suy spend VND.
+Chọn action cụ thể: giữ hết lịch/giữ ngân sách; tiếp tục cold với ngày và ngân sách mới; sửa đúng một đoạn; hoặc dựng RMK sau gate. Mỗi quyết định ghi kỳ đo/raw counts/độ tin cậy, phần giữ/phần đổi, owner, ngân sách/ngày bắt đầu-kết thúc, recheck và rollback. Không cần xin duyệt lại tổng plan 11,7 triệu/đợt đầu 5,6 triệu/giữ lại 6,1 triệu; chỉ ghi việc dùng phần còn lại cho hành động cụ thể, không mặc định giải ngân reserve hoặc Search. USD10 là daily pacing shared, nominal W1 USD70, không lifetime hard cap; không tự dùng tỷ giá để suy spend VND.
 
 CTR cao không tự chứng minh đúng khách hoặc liên tưởng thương hiệu; thiếu lead không tự là W1 fail. Phản hồi downstream là bổ sung khi Bảo nhận, không chặn paid review. Không phát sinh rep tin nhắn/CRM/form-success workflow trong gói này.
 
