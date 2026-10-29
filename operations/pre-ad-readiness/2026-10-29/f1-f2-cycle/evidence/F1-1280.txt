@@ -1,0 +1,71 @@
+- link "Skip to case content":
+  - /url: "#main"
+- banner:
+  - img "Digiwin"
+  - generic: Manufacturing solutions
+- navigation "Language":
+  - button "Tiếng Việt"
+  - button "English" [pressed]
+  - button "简体中文"
+  - button "繁體中文"
+- main:
+  - strong: Chip design
+  - generic: Reference case · China
+  - heading "Three questions before the next partner production update" [level=1]
+  - paragraph: Which lot and process stage does each partner report describe? When was it recorded? Who confirms a production update? Use these questions to review how you coordinate outsourced production, then read a named China chip-design case.
+  - 'figure "Illustration made for this page: a design team, outsourced production lots and record sheets. Not a photo of the customer or its sites."':
+    - img "Illustration of a chip-design desk linked by data lines to three separate production sites and a stack of record sheets with a tag."
+    - generic: "Illustration made for this page: a design team, outsourced production lots and record sheets. Not a photo of the customer or its sites."
+  - article "Questions for outsourced production updates":
+    - paragraph:
+      - generic: "01"
+      - generic: The business context
+    - heading "Outsourcing coordination and information responsibilities" [level=2]
+    - paragraph: The Digiwin Vietnam case collection presents Bright Power, 上海晶丰明源半导体股份有限公司, as a chip-design company in China. The source lists a long engineering response cycle, slow order response and low outsourcing-management efficiency, and describes an integrated digital solution.
+    - generic: 上海晶丰明源半导体股份有限公司
+    - paragraph:
+      - generic: "02"
+      - generic: What the source reports
+    - heading "Three challenges named in the case" [level=2]
+    - paragraph: The source states the challenges and describes the solution only as integrated; it gives no detail on specific modules, so this page does not describe how the implementation works. The source notes that order handling and outsourcing coordination can also become a bottleneck for fabless companies.
+    - list:
+      - heading "Engineering response" [level=3]
+      - paragraph: The source lists a long engineering response cycle.
+      - heading "Order response" [level=3]
+      - paragraph: The source lists slow order response.
+      - heading "Outsourcing management" [level=3]
+      - paragraph: The source lists low outsourcing-management efficiency.
+    - paragraph:
+      - generic: "03"
+      - generic: Review your current setup
+    - heading "Use three questions to prepare the next production update" [level=2]
+    - paragraph: Bring operations and supply-chain colleagues into one discussion about what each partner report covers and who confirms it.
+    - list:
+      - heading "Match each report to a lot and stage" [level=3]
+      - paragraph: Which lot and process stage does each partner report describe, and when was it recorded?
+      - paragraph:
+        - strong: Information to prepare
+        - text: Prepare two partner reports for one lot, with the stage and recording time of each.
+      - heading "Name who confirms the update" [level=3]
+      - paragraph: Who confirms a production update before it informs the next decision?
+      - paragraph:
+        - strong: Information to prepare
+        - text: Prepare the people or roles who confirm updates on both sides.
+      - heading "Agree shared reporting conventions" [level=3]
+      - paragraph: Which shared reporting conventions support the next decision?
+      - paragraph:
+        - strong: Information to prepare
+        - text: Prepare the identifiers, status terms and timing rules each partner uses.
+    - paragraph: Aligning lot, stage, timing and confirmation across partner reports helps teams see where coordination needs attention. Start with one actual partner update at your company.
+  - paragraph: Talk with Digiwin Vietnam
+  - heading "Bring one outsourced-production update to the discussion" [level=2]
+  - paragraph: Describe how your team reads partner reports, confirms updates and decides the next step. We provide digital solutions for manufacturing, from ERP to smart manufacturing.
+  - paragraph: The next step opens Digiwin Vietnam’s consultation request page in Vietnamese.
+  - link "Discuss partner reports and update responsibilities":
+    - /url: https://www.digiwin.com.vn/contact-vn/
+    - generic: Discuss partner reports and update responsibilities
+  - strong: Reference source
+  - link "Read the Chinese case collection":
+    - /url: https://www.digiwin.com.vn/resources/digiwin-semiconductor-8-case-studies-cn/
+  - paragraph: In the source, select IC设计, then 案例 04 上海晶丰明源半导体股份有限公司.
+  - paragraph: "Source: Simplified Chinese · this page summarizes the named case."
