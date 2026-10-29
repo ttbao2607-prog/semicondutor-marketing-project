@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-29",
+  "stage": "INTERNAL_CONTENT_REVIEW",
+  "reviewer": "root SELF_REVIEW",
+  "independent_audit": "NOT_RUN",
+  "scope": "P1-P7 internal records corrected after audit; current task docs-only, no new live observation, generation or release; existing live observations remain independently unverified.",
+  "anchor_id": "VY-CONTENT-ANCHOR",
+  "anchor_revision": "1.0",
+  "source_id": "VY-MAIL-USER-20261006",
+  "pins": [
+    {
+      "path": "operations/Vy_Email_Content_Anchor.md",
+      "sha256_read": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+    },
+    {
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "sha256_read": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+    }
+  ],
+  "artifact_revision": 4,
+  "artifact_hash_basis": "sha256 UTF8 LF-normalized",
+  "artifacts": [
+    {
+      "path": "PLAN.md",
+      "sha256_lf": "d2042b5a5c5250396e8a0bb7325b3550ee36638229672c5c31255204a764f92f"
+    },
+    {
+      "path": "TASKS.csv",
+      "sha256_lf": "66c3b7c449c4b73b7a2ca6b6d68cd4d6ab1402b09da88fe0d79d2a13c2e9e963"
+    },
+    {
+      "path": "PRELAUNCH_READBACK.md",
+      "sha256_lf": "b20b7338aad38ab76836029d56ff5558ada05acb630b9f7d9761f6fdf59529bc"
+    },
+    {
+      "path": "REPORT_ACCESS_MAP.md",
+      "sha256_lf": "62581348560c45a3518932cdbf47f81bd7b218e5d38740105971b7c35088c943"
+    },
+    {
+      "path": "BASELINE.md",
+      "sha256_lf": "b1c936a5b42e1e920b6d471a8be450db31203afda456e57d523a45e82b9e3872"
+    },
+    {
+      "path": "BASELINE.csv",
+      "sha256_lf": "287e05afbb077f7196041aca4cbd67ecf15943a27904130d77971d6f6160f92b"
+    },
+    {
+      "path": "COLD_OPTIONS.md",
+      "sha256_lf": "326de2333e6db831cd8cde0fee6c59c71f75c0f21de901f2eadcee1c12b90377"
+    },
+    {
+      "path": "CAROUSEL_QA.md",
+      "sha256_lf": "e373e641c9bc858690af72cf14bdcd5d77f5e86bbbcdf87ee000c5e46d542956"
+    },
+    {
+      "path": "RMK_DECISION_PACK.md",
+      "sha256_lf": "515b6215c75913bcac67c4aab45f64ebd45b12c120ab824e9cf6c6e5c9987f29"
+    },
+    {
+      "path": "W2_ACTION_CARDS.md",
+      "sha256_lf": "bbcd9d21f5b89cd74f76ab1e66f090f4e794b02307e96099b87debbc9d329780"
+    },
+    {
+      "path": "CRITERIA_DECISIONS.md",
+      "sha256_lf": "eb02da28de4a3c61600bc971408ecc7dd04b48aab5e190afeda7bf96dad81193"
+    },
+    {
+      "path": "INCIDENT_CARDS.md",
+      "sha256_lf": "318ba0484faf04a50b2761619b2d11cf6aeb7f73152d268b3ff8ed49c8ded8dd"
+    },
+    {
+      "path": "AUDIT_FIX_CLOSEOUT.md",
+      "sha256_lf": "e31f051415ee47692f44fcb0593bc0499a70636bcfbd82d94e97146ed1ee4dca"
+    }
+  ],
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "observations": {
+    "A1_A2": "P1/P2 read actual R5 audience and delivery state; mixed-cohort remains hypothesis; no new buyer qualification or blanket broadening.",
+    "A3": "English F1/F2 only; no VN/Chinese segment switch.",
+    "A4": "W2 is not a budget wave: first-envelope remainder must be reconciled and funding chosen; no auto reserve release. Forecast is not actual delivery/pool size. Checkpoints and click counts do not establish sufficient sample; criteria UNSET.",
+    "A5": "No VN domestic message generated; N/A active scope.",
+    "A6": "Bright Power China proof reviewed as challenge-only; no new outcome claim; Taiwan-sourced ERP/MES wording on F1-A5/F2-A5 kept attributed, not extended to Vietnam capability.",
+    "A7": "P5 reviewed per card and per transition: cold->explanation->Bright proof->reader->contact-vn; reader transitions FROM_EXISTING_EVIDENCE, not re-observed; brief hooks in COLD_OPTIONS are unapproved ideas and need PREGEN_SCRIPT before use.",
+    "units_surfaces": "Reviewed corrected PLAN, TASKS, P1/P2/P3/P4/P5/P6/P7 outputs, canonical current notices and AUDIT_FIX_CLOSEOUT. No new artwork review or new live observation this corrective cycle.",
+    "findings": "F1-F5 documentation corrections closed with source reconciliation; P1/P2 live gaps and independent numeric verification remain open. No RMK size/state inference from470+, no false measurement incident from missing dimensions, no reserve allocation decision invented."
+  },
+  "correction_source_pins": [
+    {
+      "path": "operations/pre-ad-readiness/2026-10-28/tracking-d6/APPROVED_DELIVERY_PROPOSAL.md",
+      "sha256_read": "3dc44c2a9b1372fbaf632fe00c84a4f70f3fa6c023c70a2607e80dad4cb77fa3"
+    },
+    {
+      "path": "operations/pre-ad-readiness/2026-10-29/selected-build-pack/OPERATING_PROPOSAL.md",
+      "sha256_read": "399317256efa3bd86c1073d5b0d31cdb5225c4192c6d1b3733d9b72b0193de9a"
+    },
+    {
+      "path": "operations/linkedin-audience-reconcile/2026-10-28/R5_DRAFT_ELIGIBILITY.md",
+      "sha256_read": "6528e3042f9b705248ae62cd61c8131e81519b775e1c8cfecf2c7b42452c364f"
+    },
+    {
+      "path": "operations/paid-scope/PO_Paid_Downstream_Boundary_2026-10-29.md",
+      "sha256_read": "3540b4866968ffdf4d3191259caca2086d239ea6fb664b85d652358595adc3f6"
+    }
+  ]
+}

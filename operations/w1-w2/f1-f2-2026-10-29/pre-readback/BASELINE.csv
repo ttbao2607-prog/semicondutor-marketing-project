@@ -1,0 +1,12 @@
+metric,window_start,window_end,extracted_at,source,definition,value,coverage,status,contamination
+sessions_property,2026-10-22,2026-10-28,2026-10-29,GA4 Traffic acquisition,sessions all channels,1382,complete 7d,OBSERVED,includes other pilots
+engaged_sessions_property,2026-10-22,2026-10-28,2026-10-29,GA4 Traffic acquisition,engaged sessions,865,complete 7d,OBSERVED,includes other pilots
+engagement_rate_property,2026-10-22,2026-10-28,2026-10-29,GA4 Traffic acquisition,engaged/sessions,62.59%,complete 7d,OBSERVED,includes other pilots
+channel_direct_sessions,2026-10-22,2026-10-28,2026-10-29,GA4 default channel group,sessions,590,complete 7d,OBSERVED,whole property not reader-only
+channel_paid_social_sessions,2026-10-22,2026-10-28,2026-10-29,GA4 default channel group,sessions,325,complete 7d,OBSERVED,other pilots (blogspot_pilot_*); not F1/F2
+channel_organic_search_sessions,2026-10-22,2026-10-28,2026-10-29,GA4 default channel group,sessions,318,complete 7d,OBSERVED,organic; not paid
+reader_page_views,2026-10-22,2026-10-28,2026-10-29,GA4 Pages and screens,views path /semiconductor-case-reader,6,complete 7d,OBSERVED,single user; likely internal QA; not excluded
+reader_active_users,2026-10-22,2026-10-28,2026-10-29,GA4 Pages and screens,active users,1,complete 7d,OBSERVED,single user; likely internal QA; not excluded
+fdi_campaign_sessions,2026-10-01,2026-10-28,2026-10-29,GA4 Session campaign search fdi_,sessions,0 rows,not applicable pre-delivery,EXPECTED_NO_PAID_DATA,none
+brand_search,,,,Search Console,,UNKNOWN,,NOT_COLLECTED,
+linkedin_followers,,,,LinkedIn Page analytics,,UNKNOWN,,NOT_COLLECTED,
