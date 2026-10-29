@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-29",
+  "stage": "INTERNAL_CONTENT_REVIEW",
+  "reviewer": "root SELF_REVIEW",
+  "independent_audit": "NOT_RUN",
+  "scope": "New planning artifact only; not artwork/native/live release",
+  "anchor_id": "VY-CONTENT-ANCHOR",
+  "anchor_revision": "1.0",
+  "source_id": "VY-MAIL-USER-20261006",
+  "pins": [
+    {
+      "path": "operations/Vy_Email_Content_Anchor.md",
+      "sha256_read": "6621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5"
+    },
+    {
+      "path": "operations/source-evidence/Vy_Email_User_Provided_2026-10-06.md",
+      "sha256_read": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
+    }
+  ],
+  "artifact_revision": 1,
+  "artifact_hash_basis": "sha256 UTF8 LF-normalized",
+  "artifacts": [
+    {
+      "path": "PLAN.md",
+      "sha256_lf": "39c4d7d665503e07b5d926e54d57f55aa7c618c0970e35a4f9b16bf368a8228c"
+    },
+    {
+      "path": "TASKS.csv",
+      "sha256_lf": "6832f1b4e1b0dc454fe6e414809dd677ebc75c59077d1e96d79a1e76e0072dad"
+    }
+  ],
+  "verdict": "MESSAGE_ANCHOR_PASS",
+  "observations": {
+    "A1_A2": "P1/P2 read actual R5 delivery; mixed-cohort remains hypothesis; no new buyer qualification or blanket broadening.",
+    "A3": "P4 English F1/F2; no VN/Chinese segment switch in plan.",
+    "A4": "P4/P5 retain business decisions, no invented ROI/metrics; P7 criteria UNSET until chosen.",
+    "A5": "No VN domestic message generated; N/A active scope.",
+    "A6": "P5 Bright challenges/case scope preserved; proof rights accepted for exact existing set; no new outcome claims.",
+    "A7": "P4/P5 preserve persona/cold/explanation/proof/reader/contact-vn notice and return.",
+    "units_surfaces": "Reviewed PLAN P1-P7, sequence, authority section and TASKS seven PLANNED rows; canonical notices plan-only. No customer-facing copy generated.",
+    "findings": "Baseline capture vs retrospective window distinguished; no historical backfill guarantee for RMK; metrics/review unavailable not zero; no automatic W2, pause or reserve release."
+  }
+}
