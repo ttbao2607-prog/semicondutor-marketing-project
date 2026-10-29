@@ -3,7 +3,7 @@
   "stage": "INTERNAL_CONTENT_REVIEW",
   "reviewer": "root SELF_REVIEW",
   "independent_audit": "NOT_RUN",
-  "scope": "Plan plus read-only execution records for P1-P3 (LinkedIn Campaign Manager and GA4 read-only observation); no customer-facing copy, no artwork/native/live release, no account change",
+  "scope": "Plan plus internal execution records for P1-P7: P1-P3 read-only LinkedIn Campaign Manager and GA4 observation; P4-P7 internal preparation documents (cold-option briefs, carousel QA, RMK decision pack, W2 action/criteria/incident cards); no customer-facing copy generated, no artwork/native/live release, no account change",
   "anchor_id": "VY-CONTENT-ANCHOR",
   "anchor_revision": "1.0",
   "source_id": "VY-MAIL-USER-20261006",
@@ -17,20 +17,20 @@
       "sha256_read": "c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b"
     }
   ],
-  "artifact_revision": 2,
+  "artifact_revision": 3,
   "artifact_hash_basis": "sha256 UTF8 LF-normalized",
   "artifacts": [
     {
       "path": "PLAN.md",
-      "sha256_lf": "fe47295347173ad5f408b9e9fec298d7e2e11426b32e9341d0c08478d3ea8bea"
+      "sha256_lf": "df46b85bdad570ae50cacb02052060d0b39ff870e373b927fbd53b2176b02edc"
     },
     {
       "path": "TASKS.csv",
-      "sha256_lf": "223c2896ea14a5293c5e523bb2ab48c1a81f21f570a43777d91081699b20ffe6"
+      "sha256_lf": "66c3b7c449c4b73b7a2ca6b6d68cd4d6ab1402b09da88fe0d79d2a13c2e9e963"
     },
     {
       "path": "PRELAUNCH_READBACK.md",
-      "sha256_lf": "ffe73b89ac0b82f2e21a2c4d9a3fcdcb987a39e7d4a9b0cd2d9f40fe479688b4"
+      "sha256_lf": "0bd5ab869066eea04386de81ae169f61dbca6f288ead3964c5cfaa88347f5612"
     },
     {
       "path": "REPORT_ACCESS_MAP.md",
@@ -43,17 +43,41 @@
     {
       "path": "BASELINE.csv",
       "sha256_lf": "287e05afbb077f7196041aca4cbd67ecf15943a27904130d77971d6f6160f92b"
+    },
+    {
+      "path": "COLD_OPTIONS.md",
+      "sha256_lf": "90f2379baaccfa1d4f6761f9c1ceadf521811b16b5225c38e6fe73e3de841353"
+    },
+    {
+      "path": "CAROUSEL_QA.md",
+      "sha256_lf": "20a714f96ac6a44f203cdd28b10cf0d82b879c03e19be757d7fb6c0455747207"
+    },
+    {
+      "path": "RMK_DECISION_PACK.md",
+      "sha256_lf": "b8ab7c8fbf7c57fa787ff34cdcb704e8879338ee3820250b5d7f4c7382aa3f46"
+    },
+    {
+      "path": "W2_ACTION_CARDS.md",
+      "sha256_lf": "47bcd22889dd5ab3eb331f978d6629f8dfc132ea4330e73e1f51c48e2671761f"
+    },
+    {
+      "path": "CRITERIA_DECISIONS.md",
+      "sha256_lf": "c13505ef49ad3e974855dca8b9a5710d3d5eb2e0354d176572812aa52444f585"
+    },
+    {
+      "path": "INCIDENT_CARDS.md",
+      "sha256_lf": "d2cc3768e57544cd76917838711c8ea5b31564d07f870a9875b4cffa3c054153"
     }
   ],
   "verdict": "MESSAGE_ANCHOR_PASS",
   "observations": {
     "A1_A2": "P1/P2 read actual R5 audience and delivery state; mixed-cohort remains hypothesis; no new buyer qualification or blanket broadening.",
     "A3": "English F1/F2 only; no VN/Chinese segment switch.",
-    "A4": "No invented ROI/metrics; unread fields marked UNVERIFIED/NOT_COLLECTED/UNKNOWN; numeric criteria remain UNSET.",
+    "A4": "No invented ROI/metrics; unread fields marked UNVERIFIED/NOT_COLLECTED/UNKNOWN; numeric criteria remain UNSET; K2 options carry stated rationale, not benchmarks.",
     "A5": "No VN domestic message generated; N/A active scope.",
-    "A6": "No new Bright proof or outcome claim introduced.",
-    "A7": "Persona/journey continuity unchanged; no customer-facing surface produced in P1-P3.",
-    "units_surfaces": "Reviewed PLAN P1-P7, TASKS rows, PRELAUNCH_READBACK, REPORT_ACCESS_MAP, BASELINE.md/csv as internal operating records. No customer-facing copy generated.",
-    "findings": "Expected-no-paid-data kept distinct from zero; GA4 Paid Social channel and single-user reader views flagged as contamination; unverified language selection, review detail, Reach/click columns, timezone and GA4 treatment dimension recorded as gaps; no pause/enable/budget action taken."
+    "A6": "Bright Power China proof reviewed as challenge-only; no new outcome claim; Taiwan-sourced ERP/MES wording on F1-A5/F2-A5 kept attributed, not extended to Vietnam capability.",
+    "A7": "P5 reviewed per card and per transition: cold->explanation->Bright proof->reader->contact-vn; reader transitions FROM_EXISTING_EVIDENCE, not re-observed; brief hooks in COLD_OPTIONS are unapproved ideas and need PREGEN_SCRIPT before use.",
+    "units_surfaces": "Reviewed PLAN P1-P7, TASKS rows, PRELAUNCH_READBACK, REPORT_ACCESS_MAP, BASELINE, COLD_OPTIONS, CAROUSEL_QA (16 unique card images viewed at phone size), RMK_DECISION_PACK, W2_ACTION_CARDS, CRITERIA_DECISIONS, INCIDENT_CARDS as internal operating records. No customer-facing copy generated.",
+    "findings": "Expected-no-paid-data kept distinct from zero; GA4 Paid Social and single-user reader views flagged as contamination; unverified items recorded as gaps; no REUSE_CANDIDATE for cold so BRIEF_ONLY; 16 unique images not 20; RMK 300 gate likely unreachable at 470+ audience (inference, 470+ is a floor); no pause/enable/budget action taken."
   }
 }

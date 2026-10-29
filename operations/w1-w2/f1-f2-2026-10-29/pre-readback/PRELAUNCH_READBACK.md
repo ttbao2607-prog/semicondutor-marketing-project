@@ -28,7 +28,7 @@ Review/rejection/hold: bảng ads chỉ hiện “Active”; không thấy nhãn
 ## Incident / observation list
 
 1. **Chưa có lỗi nào làm hỏng F1/F2** trong các trường đọc được. Không có hành động đề xuất cho F1/F2.
-2. **OBS-1 (ngoài phạm vi F1/F2, cần Bảo xem):** campaign “Test” (Brand Awareness) đang On/Active, bidding Maximum delivery, chứa ad “Images Carousale Test” On/Active. Spend/impressions 30 ngày = $0. Chưa đọc budget/lịch của campaign này nên chưa biết có thể tiêu tiền hay không. Đề xuất: Bảo quyết có đọc tiếp hoặc dừng; tôi không dừng.
+2. **OBS-1 (ngoài phạm vi F1/F2, cần Bảo xem):** campaign “Test” (Brand Awareness) đang On/Active, bidding Maximum delivery; riêng ad “Images Carousale Test” (ad set “Images Carousel initiate Testing”) cũng On/Active — chưa đối chiếu ad/ad set đó có thuộc campaign “Test” hay không. Spend/impressions 30 ngày = $0. Chưa đọc budget/lịch của campaign này nên chưa biết có thể tiêu tiền hay không. Đề xuất: Bảo quyết có đọc tiếp hoặc dừng; tôi không dừng.
 3. **OBS-2:** campaign RSCH-TH-WEBINAR-FORECAST-1027 (draft, research only) đang On, “Campaign scheduled”. Ngoài scope F1/F2; ghi để Bảo biết.
 4. **OBS-3:** có một banner “Pick up where you left off” cho VALIDATION_ONLY_R5_EN_ELIGIBILITY_20261028 (Draft). Không bấm Edit & launch.
 5. **Task nhắc trên Overview:** ad set F1/F2 chỉ có 2 creatives, LinkedIn gợi ý ≥3. Chỉ là gợi ý tối ưu, không phải blocker; không thêm creative.

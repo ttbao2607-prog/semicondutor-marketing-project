@@ -1,6 +1,6 @@
 # Plan chuẩn bị trước readback W1 — F1/F2
 
-Revision1 · 29/10/2026 · PLAN_READY. Authority ban đầu: Bảo yêu cầu “Dựng plan 7 điều trên, commit lên nhánh.” Plan không là lệnh thực hiện bảy hạng mục live. **Cập nhật 29/10/2026:** Bảo cấp mandate chỉ-đọc cho P1–P3; P1–P3 đã chạy (COMPLETE_WITH_GAPS, xem [PRELAUNCH_READBACK](PRELAUNCH_READBACK.md), [REPORT_ACCESS_MAP](REPORT_ACCESS_MAP.md), [BASELINE](BASELINE.md)); P4–P7 vẫn NOT_STARTED.
+Revision1 · 29/10/2026 · PLAN_READY. Authority ban đầu: Bảo yêu cầu “Dựng plan 7 điều trên, commit lên nhánh.” Plan không là lệnh thực hiện bảy hạng mục live. **Cập nhật 29/10/2026:** Bảo cấp mandate chỉ-đọc cho P1–P3; P1–P3 đã chạy (COMPLETE_WITH_GAPS, xem [PRELAUNCH_READBACK](PRELAUNCH_READBACK.md), [REPORT_ACCESS_MAP](REPORT_ACCESS_MAP.md), [BASELINE](BASELINE.md)). Cùng ngày Bảo giao tiếp P4–P7: đã soạn nội bộ [COLD_OPTIONS](COLD_OPTIONS.md), [CAROUSEL_QA](CAROUSEL_QA.md), [RMK_DECISION_PACK](RMK_DECISION_PACK.md), [W2_ACTION_CARDS](W2_ACTION_CARDS.md), [CRITERIA_DECISIONS](CRITERIA_DECISIONS.md), [INCIDENT_CARDS](INCIDENT_CARDS.md); các quyết định của Bảo vẫn NOT_DECIDED.
 
 ## Kết quả cần đạt và phạm vi
 
@@ -79,7 +79,7 @@ Chuẩn bị incident cards cho wrong URL/locale/claim, targeting drift, review/
 
 ## Evidence, trạng thái và quyền thực thi
 
-[Tracker](TASKS.csv) là sổ kế hoạch; ở lúc lập plan toàn bộ task PLANNED, sau mandate 29/10 P1–P3 là COMPLETE_WITH_GAPS, P4–P7 vẫn PLANNED. Khi làm, ghi started/observed/completed, artifact path, gap và evidence. Output P1–P3 đã tạo ngày 29/10; output P4–P7 vẫn là đầu ra dự kiến chưa tạo, không là missing-output lỗi ở bước lập plan. Hoàn tất plan khi cả7task có owner/dependency/output/acceptance/authority/recheck rõ; chưa hoàn tất execution.
+[Tracker](TASKS.csv) là sổ kế hoạch; ở lúc lập plan toàn bộ task PLANNED, sau 29/10 cả bảy task đã có output nội bộ (P1–P3 và P5 COMPLETE_WITH_GAPS; P4 COMPLETE_BRIEF_ONLY; P6–P7 COMPLETE_AWAITING_BAO_INPUT). Khi làm, ghi started/observed/completed, artifact path, gap và evidence. Output P1–P7 đã tạo ngày 29/10 (nội bộ, chưa có quyết định của Bảo). Hoàn tất plan khi cả7task có owner/dependency/output/acceptance/authority/recheck rõ; chưa hoàn tất execution.
 
 Read-only live/browser/report checks theo mandate thực thi được giao; không suy mandate viết plan cấp quyền thay settings. Tạo audience/draft, sửa/generate creative, publish, pause/enable, đổi ngày/budget và giải ngân phải đúng quyết định tương ứng; các điều khoản action-time nếu xuất hiện được xử lý tại bước đó. User acceptance cũ về exact paid assets/budget envelope không hỏi lại.
 
