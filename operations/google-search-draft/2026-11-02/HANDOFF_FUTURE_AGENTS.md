@@ -22,4 +22,4 @@
 4. After any change: read back saved values after reload, then sync docs (README, CURRENT_STATE, `ads/google/Google_Search_Build_Sheet.md`, `drafts/S04_Measurement_and_Budget.md`, `operations/Pre_Ad_Readiness_Plan.md`, Index S01, `RECEIPT.md`) or state: **Docs impact reviewed: no canonical update required.**
 
 ## Git
-Docs are on local branch `slice/google-search-post-audit-plan-2026-11-02`; not merged to `main`, not pushed.
+Docs were merged into local `main` (merge `3549f1c9`, from branch `slice/google-search-post-audit-plan-2026-11-02`). **Not pushed to GitHub** — a push needs Bảo's instruction.

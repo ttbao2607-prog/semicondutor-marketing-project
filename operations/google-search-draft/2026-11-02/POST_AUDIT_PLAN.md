@@ -1,3 +1,5 @@
+> **Status note (02/11/2026, later):** this plan is kept as the dated record. Remediation was then executed in part on Bảo's mandate (CPC applied; new total-budget campaign built; old campaign paused; copy removed). See `RECEIPT.md` follow-ups, `HANDOFF_FUTURE_AGENTS.md` and the `CURRENT_STATE.md` top banner. The "REMEDIATION_NOT_STARTED" label below describes the state when the plan was written.
+
 # Google Search — plan bàn giao sau hậu kiểm Codex
 
 Ngày: 02/11/2026. Owner quyết định: Bảo. Planner/auditor của execution Claude: Codex/root; không spawn reviewer. Base main `5f1ffa150e6f93a17d19a783c113d79c0e646929`; execution `d1e5193c`; integration `26b7584a`.
