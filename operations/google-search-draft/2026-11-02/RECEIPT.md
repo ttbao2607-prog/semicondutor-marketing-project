@@ -74,8 +74,14 @@ Mandate: Bảo (new campaign with total budget; start 03/11; pause the old campa
 | Counts (UI pagination) | 16 ad groups, 28 keywords, 16 ads, 96 sitelink associations; ads show Pending/under review — not an approval claim |
 | Negatives | Not carried by ad-group paste (0 after paste). Added 25 phrase-match negatives at campaign level = full distinct union of `06_Google/Loai_tru` (7 vi + 5 en + 7 zh-Hans + 6 zh-Hant after removing the shared 股票). The old campaign shows 24; one source term is missing there (not identified) |
 | Old campaign | `…[20261102]_50.000d-ngay_10d_end20261111` set **Paused** after the new one was published; cost ₫0 (no delivery 01–02/11) |
-| Paused copy `#2` | `…_end20261111 #2` still exists, Paused; remove or reuse = Bảo's decision |
+| Paused copy `#2` | `…_end20261111 #2` — Paused at capture time; **later removed** at Bảo's instruction (see the last follow-up) |
 
 Incidents: the wizard showed "Changes failed to save" after the passkey prompt and the Review step showed reverted settings (all countries, AI Max on, no ad); the draft was reloaded, inspected, the missing keywords/ad re-entered, and settings re-verified before Publish. Publishing opened a "Set up with a Google Tag" page — not used (no tag/conversion change). A saved "Keyword text contains AI" view filter was removed from the keywords view for reading only. Chrome screenshot timeouts occurred several times; text/element reads were used instead.
 
-Not done / unknown: delivery and actual spend (campaign starts 03/11; check cumulative spend against ₫500,000 and the Budget report after the first day); item-by-item diff of ad copy, sitelink URLs and UTM suffix versus the old campaign; re-check of Google's current total-budget guidance (source from the plan's 02/11 check, not re-verified by me); brand-overlap check; MSG-ANCHOR-01 / native review (NOT_RUN, copy copied verbatim). Checkpoints for the new run have not been scheduled — Bảo to set them (day labels relative to 03/11). Execution: PARTIAL; independent audit NOT_RUN; this does not close the earlier CHANGES_REQUIRED.
+Not done / unknown: delivery and actual spend (campaign starts 03/11; check cumulative spend against ₫500,000 and the Budget report after the first day); item-by-item diff of ad copy, sitelink URLs and UTM suffix versus the old campaign; re-check of Google's current total-budget guidance (source from the plan's 02/11 check, not re-verified by me); brand-overlap check; MSG-ANCHOR-01 / native review (NOT_RUN, copy copied verbatim). No checkpoints were scheduled (see the last follow-up). Execution: PARTIAL; independent audit NOT_RUN; this does not close the earlier CHANGES_REQUIRED.
+
+## Follow-up 02/11/2026 (last) — decisions by Bảo
+1. Copy `#2` **removed** (permanent). Done via that campaign's own settings page (status → Removed → Confirm), after the list-selection route could not be verified visually.
+2. No scheduled checks, reminders or automation. Bảo opens Google Ads manually; this repo only keeps a handoff for future agents: `HANDOFF_FUTURE_AGENTS.md` in this folder.
+3. Goal `Page views` kept on the new campaign: awareness / Maximize-clicks run, not optimizing for lead conversions. It does not steer bidding under Maximize clicks; treat it as reporting only (not a lead conversion; the form/`accepted_form` success event is not verified).
+
