@@ -1,0 +1,24 @@
+{
+  "schema": "semi-linkedin-account-preflight-expectations-v1",
+  "note": "Fingerprint theo TEN hien thi, khong chua ID/URL tai khoan. Bao xac nhan 03/11/2026: tai khoan dung thuoc Business Manager DigiwinSoft ASEAN BM.",
+  "expected": {
+    "business_manager_label": "DigiwinSoft ASEAN BM",
+    "ad_account_label": "DigiwinSoft_SEA_Performance_Bao",
+    "ad_account_status": "Active",
+    "ad_set_label": "DRAFT_REVIEW_R5_EN_F1_F2_WAVE01_DO_NOT_LAUNCH",
+    "ad_labels": {
+      "f1": "LI-wave01-F1-en-COLD-v1",
+      "f2": "LI-wave01-F2-en-COLD-v1"
+    }
+  },
+  "hard_stop_labels": [
+    "Digiwin ASEAN",
+    "On hold",
+    "Payment method required"
+  ],
+  "hard_stop_context": [
+    "businessId=personal trong URL Campaign Manager",
+    "Tai khoan ca nhan 'Digiwin ASEAN' khong chua F1/F2 va khong phai nguon cua record"
+  ],
+  "allowed_scope": "read-only: dieu huong, doi tab, doi time range hien thi; khong Save/Launch/pause/enable"
+}

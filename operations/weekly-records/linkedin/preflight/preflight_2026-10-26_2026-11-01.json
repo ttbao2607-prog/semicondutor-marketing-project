@@ -1,0 +1,17 @@
+{
+  "schema": "semi-linkedin-account-preflight-v1",
+  "observed_at": "2026-11-03T09:10:00+07:00",
+  "observer": "claude (repo Semi)",
+  "method": "linkedin_campaign_manager_ui_read",
+  "observed": {
+    "business_manager_label": "DigiwinSoft ASEAN BM",
+    "ad_account_label": "DigiwinSoft_SEA_Performance_Bao",
+    "ad_account_status": "Active",
+    "business_context": "business_manager",
+    "ad_set_label": "DRAFT_REVIEW_R5_EN_F1_F2_WAVE01_DO_NOT_LAUNCH",
+    "ad_labels": {"f1": "LI-wave01-F1-en-COLD-v1", "f2": "LI-wave01-F2-en-COLD-v1"},
+    "time_range_label_in_ui": "Time in UTC"
+  },
+  "rejected_account_seen_during_navigation": "Tai khoan ca nhan (Digiwin ASEAN, On hold) hien o danh sach dau tien; khong dung, khong doc so lieu.",
+  "result": "PASS"
+}
