@@ -23,6 +23,12 @@ Cập nhật contract: Bảo chuyển SHA mới; lưu bản mới kèm hash và 
 - Commit local trên nhánh Bảo chỉ định, không push; báo Bảo đường dẫn + SHA 40 ký tự + SHA-256 file; chạy documentation sync gate.
 - Nội dung nội bộ (spend, receipt) vẫn ở `operations/w1-w2/f1-f2-2026-10-29/pre-readback/`, không chép vào record.
 
+## Preflight tài khoản
+
+Trước mỗi record phải qua [PREFLIGHT.md](PREFLIGHT.md): đúng BM `DigiwinSoft ASEAN BM` / ad account `DigiwinSoft_SEA_Performance_Bao`, không phải tài khoản cá nhân `Digiwin ASEAN` (On hold). Validator: `scripts/check_linkedin_weekly_record.py`, test: `tests/test_linkedin_weekly_record.py`.
+
 ## Record đã có
 
-Chưa có record nào (2026-11-03).
+| Kỳ | File | Trạng thái |
+|---|---|---|
+| 26/10–01/11 | `linkedin_2026-10-26_2026-11-01.json` | DRAFT local, đọc 03/11/2026, validator PASS; `range_matches_period=false` vì UI dùng ngày UTC (xem `limits`); chờ Bảo xem trước khi báo SHA cho bên Report. |
