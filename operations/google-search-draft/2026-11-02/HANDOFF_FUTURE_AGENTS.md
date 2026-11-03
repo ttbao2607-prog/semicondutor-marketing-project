@@ -2,14 +2,15 @@
 
 **HANDOFF_ONLY.** Authority: Bảo (PO). No scheduled checks, reminders or automation exist or are authorised; Bảo opens Google Ads manually and tells an agent when to read. Findings below are claims to re-verify live; nothing here grants permission to change the account.
 
-## Current state (as recorded 02/11/2026, DIGIWIN SOFTWARE VIETNAM account)
-- **Live campaign:** `SEMI_[SEARCH]_vn_semiconductor_search_p1_[20261103]_500.000d-tong_10d_end20261112` — Enabled, starts 03/11/2026, ends 12/11/2026; **campaign total budget ₫500,000**; Maximize clicks, max CPC ₫25,000; Search Network only; Vietnam (presence); vi/en/zh-Hans/zh-Hant; AI Max and final URL expansion off; goal = campaign-specific `Page views` (Bảo: keep; awareness run, not lead-conversion optimisation; reporting only).
-- **Content (UI counts):** 16 ad groups, 28 keywords, 16 ads (Pending/under review at capture), 96 sitelink associations, 25 campaign-level phrase negatives.
+## Current state (as recorded 03/11/2026 ~10:30 +07:00, DIGIWIN SOFTWARE VIETNAM account)
+- **Live campaign:** `SEMI_[SEARCH]_vn_semiconductor_search_p1_[20261103]_500.000d-tong_10d_end20261112` — Enabled · Eligible (Limited) (sub-label: *Limited by bid strategy*), running 03/11/2026–12/11/2026; **campaign total budget ₫500,000**; Maximize clicks, max CPC limit checked = ₫25,000 (verified in UI); Search Network only; Vietnam (presence); vi/en/zh-Hans/zh-Hant; AI Max and final URL expansion off; goal = campaign-specific `Page views` (Bảo: keep; awareness run, not lead-conversion optimisation; reporting only).
+- **Content (UI counts):** 16 ad groups, 28 keywords (4 Eligible, 24 Low search volume), 16 ads (all 16 approved Eligible as of 03/11), 115 asset associations (sitelinks Eligible), 25 campaign-level phrase negatives.
+- **Delivery as of morning 03/11:** 0 impressions, 0 clicks, ₫0 cost (start date lag; not a performance verdict).
 - **Old campaign** `…[20261102]_50.000d-ngay_10d_end20261111`: Paused (cost ₫0). **Copy `#2`: removed.** Do not re-enable the old campaign: it would run in parallel and break the ₫500,000 envelope.
 - Origin of the change: the earlier campaign only had a daily budget (monthly limit ₫1.45M, daily up to 2×) and no max CPC; the ₫500,000 PO cap was not a platform-enforced cap. Details: `POST_AUDIT_PLAN.md`, `RECEIPT.md` (follow-ups), `CURRENT_STATE.md` top banner.
 
 ## Still unknown / open
-- No delivery or spend yet (campaign starts 03/11). Whether the total budget behaves as a hard ₫500,000 cap in practice is **not observed**; check the Budget report and cumulative cost after delivery starts.
+- Delivery and spend pacing across the 10-day run (03/11–12/11). Delivery just started morning 03/11 (0/0/₫0); whether the total budget behaves as a hard ₫500,000 cap in practice is **not yet fully observed**; check the Budget report and cumulative cost as delivery accumulates.
 - Not diffed item-by-item vs the old campaign: ad copy, sitelink URLs, UTM suffix (`utm_source=google&utm_medium=cpc&utm_campaign=vn_semiconductor_search_p1&utm_content=<seg>_<lang>_{rsa_v1|sitelink}&utm_term={keyword}` at ad/sitelink level); the negatives (25 vs old 24: one term differs, unidentified).
 - Google's current total-budget guidance was taken from the post-audit plan's 02/11 source check, not re-verified.
 - MSG-ANCHOR-01 and native review (EN/zh) NOT_RUN; brand-overlap check with other account campaigns NOT_RUN; 车规级/車規級 and other flagged claims kept verbatim; 24/28 keywords had Low search volume (not zero demand); attribution/gclid/form success not verified.

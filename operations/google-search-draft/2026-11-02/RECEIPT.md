@@ -85,3 +85,27 @@ Not done / unknown: delivery and actual spend (campaign starts 03/11; check cumu
 2. No scheduled checks, reminders or automation. Bảo opens Google Ads manually; this repo only keeps a handoff for future agents: `HANDOFF_FUTURE_AGENTS.md` in this folder.
 3. Goal `Page views` kept on the new campaign: awareness / Maximize-clicks run, not optimizing for lead conversions. It does not steer bidding under Maximize clicks; treat it as reporting only (not a lead conversion; the form/`accepted_form` success event is not verified).
 
+## Follow-up 03/11/2026 — start-date live readback (Gemini via Chrome CDP, read-only)
+Mandate: Bảo (check daily to-do / readback Google Search status on campaign start date 03/11/2026 ~10:30 +07:00).
+Inspected live via Chrome CDP on port 9340 (read-only; no UI changes saved or submitted).
+
+| Item | Result |
+|---|---|
+| Live campaign | `SEMI_[SEARCH]_vn_semiconductor_search_p1_[20261103]_500.000d-tong_10d_end20261112` |
+| Platform status | **Enabled** · **Eligible (Limited)** with sub-label *Limited by bid strategy* (Google recommends target ROAS / value bidding; normal and expected under Maximize clicks with CPC cap) |
+| Budget & dates | **Campaign total: ₫500,000**; start Nov 3, 2026, end Nov 12, 2026 |
+| Bidding settings | **Maximize clicks**; "Set a maximum cost per click bid limit" is **checked**, value = **₫25,000** |
+| Ads approval | **16/16 RSAs are Eligible (Approved)** (0 Disapproved, 0 Pending/under review). Ad strengths: 1 Excellent, 1 Good, 8 Average, 6 Poor |
+| Keywords (28 total) | Exactly **4 Eligible**: `"PCB manufacturing ERP"`, `"PCB制造ERP"`, `"半导体封装测试 MES"`, `[semiconductor test data management]`; **24 Not eligible / Low search volume** (F3 unchanged; low search volume is not zero demand) |
+| Negatives | Exactly **25 phrase-match negatives** active at campaign level (full union of `06_Google/Loai_tru`) |
+| Assets / Sitelinks | **115 total asset associations** active; sitelinks are **Eligible** |
+| Day-1 morning delivery | **0 impressions, 0 clicks, ₫0 cost** (expected morning reporting lag on start date; not a performance conclusion) |
+| Old campaign | `SEMI_[SEARCH]_vn_semiconductor_search_p1_[20261102]_50.000d-ngay_10d_end20261111` confirmed **Paused** (16 ad groups, cost ₫0) |
+| Paused copy `#2` | Confirmed **Removed** |
+
+Notes & deviations:
+- Playwright MCP directly failed on large DOM responses (>1MB frame size); direct Node.js CDP WebSocket script via port 9340 was used to inspect settings safely and read-only.
+- All 16 RSAs have cleared Google editorial review on start date.
+- The ₫25,000 max CPC checkbox is confirmed active in live bidding configuration.
+- Still open / unobserved: practical delivery pacing and budget cap behavior over the 10-day run; MSG-ANCHOR-01 and native review (NOT_RUN, copy retained from build sheet); independent audit NOT_RUN.
+
