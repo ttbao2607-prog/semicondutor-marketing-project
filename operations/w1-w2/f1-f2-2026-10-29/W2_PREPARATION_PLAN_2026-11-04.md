@@ -2,7 +2,8 @@
 
 # Plan chuẩn bị W2 — R5 EN, một hook cold mới
 
-Revision1 ·04/11/2026 · **CANDIDATE_PREPARED / RELEASE_PENDING**.
+Revision2 ·04/11/2026 · **OFFLINE_OPS_PREPARED / RELEASE_PENDING**.
+Follow-up authority: Bảo accepted the five remaining offline items and instructed local commit/report. [Operator pack](w2-offline-ops-2026-11-04/README.md) contains the reconciled UTM proposal, exact build checklist, provisional/future measurement rows, release decision and manual readback template. P1/final-W1 and live gates remain pending; preparation completion is not release approval.
 Authority: [quyết định Bảo](PO_W2_DECISION_2026-11-04.md). Goal: có một gói hook-only cụ thể, có nguồn/QA, phép đo và đề xuất budget/date để Bảo quyết release sau cuối W1; không chỉ “chạy thêm để chờ kết quả”.
 Codex là owner chuẩn bị/self-review; Bảo chốt quyết định kinh doanh và release. Independent audit NOT_RUN, không tự spawn.
 
@@ -19,7 +20,7 @@ Không tạo new campaign như một “biện pháp chữa”; phương án obj
 | P1 —05/11 khi Bảo mở tài khoản/giao đọc | Codex, W1 Day4 + saved config | Same-window report: spend/impressions/Clicks/Reach/frequency; daily spend; saved budget/schedule/hierarchy; targeting; company/function/seniority nếu có, kèm suppression | Tách observed/derived/lag; C1–C3 unresolved phải trình Bảo, không tự nới tệp; first Clicks>0 kiểm GA4/UTM |
 | P2 — chọn target ad nội bộ | Codex, P1 + exact F1/B13v5, F2/B16v2 + COLD_OPTIONS | Bảng F1 vs F2: persona/pain/hook hiện hành, lý do chọn một ad và một giả thuyết thay hook; exact source revision/hash | Không gọi F2 winner từ122:18; không giả F1 đủ exposure. F1/F2 selection để Bảo review trước chốt copy |
 | P3 — brief và PREGEN_SCRIPT | Codex, ad được chọn, anchor/email/paid-scope và sources | Candidate hook có literal copy + Vietnamese rationale; protected-text diff; continuity map tới unchanged explanation/Bright proof/reader; MSG/brand/advertiser/editorial receipt | Chỉ hook khác; không ROI/outcome/capability mới. Chưa PASS gate thì không generation/artwork production |
-| P4 — chuẩn bị artifact sau script review | Codex, hook qua gate và visual nguồn | Candidate artwork nếu hook nằm trên ảnh; giữ scene/layout/visual khác, exact filenames/hashes và alt/headline mapping; native/desktop/mobile QA theo format hiện hành | Không sửa PNG gốc; bản mới có revision riêng. Nếu cần ImageGen route/harness phải tuân scope được phép, không tự dispatch từ plan này. Asset hiện chưa tồn tại/swap-ready |
+| P4 — chuẩn bị artifact sau script review | Codex, hook qua gate và visual nguồn | Candidate artwork nếu hook nằm trên ảnh; giữ scene/layout/visual khác, exact filenames/hashes và alt/headline mapping; native/desktop/mobile QA theo format hiện hành | Không sửa PNG gốc; bản mới có revision riêng. Candidate F2 hiện đã có theo mandate execution riêng; nguồn giữ nguyên, khác pixel ngoài hook đã khai rõ. Exact PO acceptance và paid-native QA vẫn pending; không dispatch thêm từ plan này |
 | P5 — phép đo và build proposal | Codex, exact candidate + W1 baseline | Một treatment/revision mới, UTM content riêng được đối soát first-click; bảng old/new ad states, object reuse/new rationale; KPI definitions, budget/date/source/rollback đề xuất | Không tự pause/save/create/upload. Mọi trạng thái old/new cụ thể cần release mandate; không vô tình chạy song song thêm budget |
 | P6 — close W1 / review08/11 06:45 VN và lag | Codex đọc khi được giao; Bảo quyết | W1 final-window snapshot + limitations; readiness checklist; decision pack GO/HOLD/REVISE và exact release scope | Không đợi “đủ significance” mới báo; nếu gap material chưa đóng, HOLD. Funding NOT_DECIDED không được launch |
 | P7 — live riêng sau release | Operator theo mandate mới | Save/reopen exact settings/creative/URL, actual start/stop and first-delivery receipt | Plan này không cấp quyền thực hiện P7; giữ rollback và cap đã chốt |
@@ -47,12 +48,12 @@ Nếu phát hiện budget/config drift thật: xử lý theo INCIDENT_CARDS ngay
 
 Anchor VY-CONTENT-ANCHOR r1.0, SHA2566621d53c845939730ebcb1f59bbf85fb8a0d9acb156e5236e7387c0e69867ac5.
 Email VY-MAIL-USER-20261006, SHA256c5a6f35533e7a8b3b439ec4d9a260611fcdd2f67ddb0f046a3e33d28c6316d2b.
-Branch FDI-message hypothesis / English; F1 Operations/outsourced partner reports hoặc F2 Planning/Operations/demand change, chưa chọn một.
+Branch FDI-message hypothesis / English; Codex đã chọn candidate F2 Planning/Operations/demand change, exact PO acceptance pending. Không suy toàn tệp R5 là FDI/Fabless.
 R5 mixed cohort không tự đồng nghĩa toàn bộ là Fabless/FDI. Áp paid-scope29/10: không bắt chứng minh purchasing authority52/52, nhưng vẫn cần persona/pain fit có căn cứ.
-[A1–A7 receipt](W2_MESSAGE_ANCHOR_PREP_2026-11-04.md) hiện INSUFFICIENT_EVIDENCE cho candidate chưa có. Không SCRIPT_REVIEW_PASS, generation/ad/artwork/native acceptance từ plan.
+[Preparation-stage receipt](W2_MESSAGE_ANCHOR_PREP_2026-11-04.md) giữ nguyên INSUFFICIENT_EVIDENCE tại lúc chưa có candidate; [fresh candidate pregen](w2-hook-candidate-2026-11-04/PREGEN_REVIEW.md) và [candidate closeout](w2-hook-candidate-2026-11-04/CLOSEOUT.md) ghi phạm vi self-review thực tế. [Internal operator-pack review](w2-offline-ops-2026-11-04/CONTRACT_AND_REVIEW.md) là stage riêng, không nâng artwork/native/live acceptance. Plan không tự cấp generation/release.
 Sources: COLD_OPTIONS, W2_ACTION_CARDS Card C, SCENARIOS C3/C4/C7, METRICS, CRITERIA_DECISIONS revision2, PO paid-scope29/10, exact paid-asset acceptance29/10.
 
-## 6. Closeout của bước lập plan
+## 6. Historical closeout của bước lập plan Revision1
 
 Hoàn tất khi PO decision được ghi, decision log không biến thành W1 close/release, canonical pointers phản ánh PREPARATION_APPROVED nhưng funding/release pending, link/hash/source kiểm được. Content production chưa bắt đầu. Docs-only SUCCESS khi checks đạt; không nâng live-readiness verdict.
 

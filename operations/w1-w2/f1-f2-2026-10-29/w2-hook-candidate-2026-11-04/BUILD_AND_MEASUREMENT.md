@@ -1,3 +1,5 @@
+> **Offline completion04/11:** [Operator checklist, measurement table, release decision and readback templates](../w2-offline-ops-2026-11-04/README.md) now prepared. BUILD_PROPOSAL UTM metadata reconciled to its exact URL; saved live parameter conflict remains open. Earlier budget/date options below remain unapproved. No creative or live-state changes.
+
 # W2 build / measurement proposal — F2 hookv2
 
 OFFLINE_ONLY / NOT_CREATED / FUNDING_AND_RELEASE_PENDING. This is a concrete proposal for Bảo, not saved account values.
