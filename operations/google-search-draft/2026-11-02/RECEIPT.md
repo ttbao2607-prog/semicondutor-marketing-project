@@ -109,3 +109,8 @@ Notes & deviations:
 - The ₫25,000 max CPC checkbox is confirmed active in live bidding configuration.
 - Still open / unobserved: practical delivery pacing and budget cap behavior over the 10-day run; MSG-ANCHOR-01 and native review (NOT_RUN, copy retained from build sheet); independent audit NOT_RUN.
 
+
+
+## Follow-up04/11/2026 — Day2, Codex read-only
+
+[Full receipt](READBACK_2026-11-04.md): 03/11 and run-to-date0/0/VND0; campaign total500K, cost0, remaining500K; saved max CPC25K checked. Keyword delta3 Eligible/25 Low search volume. Expanded bid-strategy warning is a target-ROAS recommendation, not proof of CPC-cap restriction; earlier causal wording is not adopted. No settings saved. Execution PARTIAL, audit NOT_RUN. [Advisor](ADVISOR_2026-11-04.md) PROPOSAL_ONLY, no PO decision.

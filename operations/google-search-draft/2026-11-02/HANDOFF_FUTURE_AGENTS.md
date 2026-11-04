@@ -1,3 +1,5 @@
+> **Current observation04/11 supersedes03/11 status below:** [Day2 receipt](READBACK_2026-11-04.md): no displayed delivery,500K remaining, CPC25K checked;3 Eligible/25 Low search volume. Bid-strategy message is not evidence of CPC-cap restriction. [Advisor](ADVISOR_2026-11-04.md) proposal only. Broader content/attribution gaps unchanged. No mutations; PARTIAL/audit NOT_RUN.
+
 # Google Search — handoff for future agents (02/11/2026)
 
 **HANDOFF_ONLY.** Authority: Bảo (PO). No scheduled checks, reminders or automation exist or are authorised; Bảo opens Google Ads manually and tells an agent when to read. Findings below are claims to re-verify live; nothing here grants permission to change the account.
