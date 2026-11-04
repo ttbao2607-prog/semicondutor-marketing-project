@@ -1,3 +1,5 @@
+> **Bảo04/11 — W2 PREPARATION_APPROVED / RELEASE_PENDING:** [PO decision](../PO_W2_DECISION_2026-11-04.md) chọn giữ R5/VN/English và journey, chuẩn bị đổi một hook cold cho một ad; F1/F2 và literal hook chưa chọn. [Preparation plan](../W2_PREPARATION_PLAN_2026-11-04.md). Đây là phép thử trong uncertainty, không xác nhận C4/hook cũ fail. Funding, amount/source, exact dates, native object/states và live release NOT_DECIDED; W1 schedule unchanged, RMK HOLD, không quay về Discovery chưa đạt. Card A vẫn là fallback khi chưa release; không còn coi toàn bộ hướng chuẩn bị W2 là NOT_DECIDED. Older dated proposals below retain historical scope.
+
 # P4 — Phương án thay cold F1/F2
 
 Revision 1 · 29/10/2026 · INTERNAL_PREPARATION_COMPLETE / BRIEF_ONLY. Authority: Bảo giao P4–P7 (chat 29/10/2026). Chỉ chuẩn bị nội bộ: không generate, adapt, upload asset hay tạo ad; chưa chọn winner, chưa có metric. Root tự review; independent audit NOT_RUN. Anchor: VY-CONTENT-ANCHOR r1.0 (SHA256 trong [REVIEW.json](REVIEW.json)); nhánh FDI · English · Fabless Operations (F1) và Planning (F2).
