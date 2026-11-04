@@ -1,6 +1,8 @@
+> **Execution04/11 after Bảo “Triển khai codex”:** [F2 candidate + offline build](w2-hook-candidate-2026-11-04/CLOSEOUT.md) prepared and locally self-reviewed. P2–P5 implemented within internal candidate scope; P1day5/P6final-W1 still pending. F2/exact hook is Codex candidate, not final PO acceptance. No live/account action. Earlier “plan alone grants no generation” boundary does not describe the later execution mandate.
+
 # Plan chuẩn bị W2 — R5 EN, một hook cold mới
 
-Revision1 ·04/11/2026 · **PLAN_PREPARED / CONTENT_NOT_STARTED / RELEASE_PENDING**.
+Revision1 ·04/11/2026 · **CANDIDATE_PREPARED / RELEASE_PENDING**.
 Authority: [quyết định Bảo](PO_W2_DECISION_2026-11-04.md). Goal: có một gói hook-only cụ thể, có nguồn/QA, phép đo và đề xuất budget/date để Bảo quyết release sau cuối W1; không chỉ “chạy thêm để chờ kết quả”.
 Codex là owner chuẩn bị/self-review; Bảo chốt quyết định kinh doanh và release. Independent audit NOT_RUN, không tự spawn.
 

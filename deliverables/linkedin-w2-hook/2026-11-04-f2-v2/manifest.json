@@ -1,0 +1,88 @@
+{
+  "revision": "w2-f2-hook-v2-candidate-20261104",
+  "status": "CANDIDATE_FOR_BAO_REVIEW_NOT_LIVE_READY",
+  "source_revision": "b16-review-copy-en-v2",
+  "tool": "built-in image_gen edit",
+  "generation_count": 1,
+  "corrective_count": 0,
+  "new_asset": {
+    "path": "assets/f2-cold-hook-v2-candidate.png",
+    "sha256": "41fd350c889bc2d253155d364d98e70079403b460df0b52ce143b9686cc3ca3b",
+    "dimensions": [
+      1254,
+      1254
+    ]
+  },
+  "candidate_copy_sha256": "9d30c232acc4606c3e168e3639321ba41108460eb98705837d17fa449045213a",
+  "reader_sha256": "01f93d383b5fe96648ec74ec7d6ed17b0f331ea6b5ee3740c8047df3410445db",
+  "reader_exact_source": true,
+  "reused_artworks": [
+    {
+      "path": "assets/02-f2-a1.png",
+      "sha256": "286a58fb0cfab9b901aaf408c6748aec38effb42a2b6cec4fa5b0e7671b064b2",
+      "source_exact": true
+    },
+    {
+      "path": "assets/03-f2-a2.png",
+      "sha256": "1a00d0924f18f68fcc9f884b6c568a416d2e0d576ae85e631e233c70282a2765",
+      "source_exact": true
+    },
+    {
+      "path": "assets/04-f2-a3.png",
+      "sha256": "0f326c5d7bae63e819802d380a56295c4557c9f247bb71f05397e120ac881ab0",
+      "source_exact": true
+    },
+    {
+      "path": "assets/05-f2-a4.png",
+      "sha256": "b27ee9f83885ac7d7508add7f46db519cbc831caf1edbd0d793f7a4112d109c5",
+      "source_exact": true
+    },
+    {
+      "path": "assets/06-f2-a5.png",
+      "sha256": "19229ce74360a126c1fb8405ec45b6d0f25283cd452527a9dafa3ccc184c721b",
+      "source_exact": true
+    },
+    {
+      "path": "assets/07-f2-a6.png",
+      "sha256": "8d2d935bfe766b8e127ad27a249ff1e9796a043c11dc5d448f213ae67ef35c5c",
+      "source_exact": true
+    },
+    {
+      "path": "assets/08-rmk-bright-1.png",
+      "sha256": "07d462c49809ad50480cea660aaca802df9492290ec5aec5092c9e2796c6e61b",
+      "source_exact": true
+    },
+    {
+      "path": "assets/09-rmk-bright-2.png",
+      "sha256": "a8f0a88c9b15676f846ce87a07f0f4554c6b764d6a13232839459cdd569bda83",
+      "source_exact": true
+    },
+    {
+      "path": "assets/10-rmk-bright-3.png",
+      "sha256": "76cc1590a43671027c909684c86263c4fbb8f3fbb95b057cd0cbba102fa52366",
+      "source_exact": true
+    },
+    {
+      "path": "assets/11-rmk-bright-4.png",
+      "sha256": "0d045bd1f76534832e9fb8b376a737cb208a29a0106c2aa87d75ac83a9bb1fe9",
+      "source_exact": true
+    }
+  ],
+  "protected_fields": [
+    "body",
+    "source_text",
+    "cta",
+    "artwork_labels",
+    "caption",
+    "stage"
+  ],
+  "changed_customer_fields": [
+    "headline",
+    "native_headline",
+    "alt"
+  ],
+  "po_candidate_acceptance": "PENDING",
+  "live_release": "NOT_AUTHORIZED",
+  "independent_audit": "NOT_RUN",
+  "pixel_identity_outside_headline": "NOT_CLAIMED; generative edit re-encodes/redraws pixels; semantic scene preservation reviewed separately"
+}

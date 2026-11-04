@@ -1,3 +1,5 @@
+> **Later execution04/11:** concrete F2 candidate now exists; [fresh PREGEN script receipt](w2-hook-candidate-2026-11-04/PREGEN_REVIEW.md) and [actual candidate/native+local QA](w2-hook-candidate-2026-11-04/CLOSEOUT.md). This older preparation-only receipt remains its original stage, not a retroactive PASS.
+
 # W2 — MSG-ANCHOR-01 preparation binding,04/11/2026
 
 Stage INTERNAL_CONTENT_REVIEW / PREGEN_SCRIPT_NOT_STARTED. Writer/reviewer Codex, SELF, independent audit NOT_RUN.
