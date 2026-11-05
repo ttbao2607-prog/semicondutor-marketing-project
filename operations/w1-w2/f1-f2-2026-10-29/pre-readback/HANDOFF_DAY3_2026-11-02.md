@@ -42,3 +42,7 @@ K1, K5, K6, K9, K10 và W2 funding vẫn NOT_DECIDED. Hiện tại: **C7 INCONCL
 Không chọn K2–K8 thay Bảo ngoài những gì đã ghi; không quyết W2; không bật RMK; không đổi `utm_source`; không pause/enable; independent audit NOT_RUN.
 
 Docs impact reviewed: thêm handoff; canonical pointer cập nhật ở `CURRENT_STATE.md` và README W1/W2; không đổi ngân sách, creative, tracking, lịch hay anchor.
+
+## Update 03/11/2026 — checkpoint Day-3 đã đọc
+
+Bước 1–2 đã thực hiện (read-only) và ghi tại [STATUS_2026-11-03](STATUS_2026-11-03.md): K4 áp dụng, K7 không chạm, K8 chỉ là candidate (Reach lag); bước 3 (GA4) chưa làm vì Clicks = 0; bước 4 vẫn mở. Nhãn HANDOFF_ONLY / NOT_STARTED ở đầu file là snapshot ngày 02/11.

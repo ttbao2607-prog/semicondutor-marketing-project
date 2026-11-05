@@ -1,0 +1,48 @@
+{
+  "protected_copy_fields": "PASS",
+  "changed_fields": [
+    "headline",
+    "native_headline",
+    "alt",
+    "image"
+  ],
+  "unchanged_downstream_copy": "10of10 exact",
+  "unchanged_downstream_images": "10of10 SHA256 exact",
+  "caption_chars": 206,
+  "candidate_headline_chars": 45,
+  "native_dimensions": [
+    1254,
+    1254
+  ],
+  "reader_exact": "PASS",
+  "live_actions": 0,
+  "screenshots": {
+    "desktop-artwork640.png": "63d0f84eccb0ab396d91444632939d2ca64f0be99722330153b363deb207db2c",
+    "desktop-review.png": "84ec1b3ba20ce48c1fca9a624fe98e4742ac2223bd7075368624172e5d9503eb",
+    "mobile-review.png": "59048b2e8d34bd661fd64608619db1454deec8d4f823d38247cc98c2d461ed2d",
+    "reader-mobile.png": "1cd31a0144cd8c5c45d61737f8a82cb2f7e8d8ffb202ff96c37acd61bd747a87"
+  },
+  "independent_audit": "NOT_RUN",
+  "browser": {
+    "desktop_feed": {
+      "viewport": [
+        1920,
+        911
+      ],
+      "overflow": false,
+      "images_loaded": 13,
+      "feed_container_width": 333,
+      "image_width": 331
+    },
+    "mobile": [
+      390,
+      844
+    ],
+    "mobile_overflow": false,
+    "desktop640_whole_visible": true,
+    "reader_en_local_back": "PASS",
+    "external_contact_submitted": false,
+    "fullpage_screenshot": "TIMEOUT",
+    "server_stopped": true
+  }
+}

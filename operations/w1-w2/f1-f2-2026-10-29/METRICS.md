@@ -1,3 +1,5 @@
+> **Current criteria pointer04/11/2026:** The UNSET threshold paragraph below describes the original preparation baseline. [CRITERIA_DECISIONS revision2](pre-readback/CRITERIA_DECISIONS.md) records Bảo's02/11 K2/K3/K4/K7/K8 choices (K7/K8 warning-only); apply those choices for current readbacks. No new criteria chosen04/11.
+
 # Định nghĩa đo và cách điền
 
 Dùng lại cấu trúc [Week1 readback](../../linkedin-rmk-source-readiness/2026-10-08/05_Week1_Readback_Template.md). READBACK.csv mở rộng thêm check_state, planned_check, window_status, raw clicks/click definition, reader engagement definition, metric origin, extraction timestamp và VND accounting basis. Cohort key F1F2-R5-EN-WAVE01 là local key, không audience ID đã tạo. ad_id/creative_id trong bản public dùng stable key; numeric IDs resolve private tại lần đọc, không copy raw data vào Git. Trường UNKNOWN không bằng0; PLANNED_NOT_OBSERVED không phải baseline.

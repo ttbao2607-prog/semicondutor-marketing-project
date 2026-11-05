@@ -21,6 +21,10 @@ Workspace marketing paid (LinkedIn + Google Search) cho Digiwin Vietnam trong ng
 - `operations/` — plan, receipt, evidence, runbook; thư mục lớn nhất (hàng nghìn file), phần lớn là lịch sử. Không rewrite lịch sử để khớp trạng thái hiện tại.
 - `landing/`, `ads/`, `tracking/`, `design-system/` — HTML landing, nội dung ads, tracking contract, design system canonical.
 
+## Cầu nối sang repo Report (record tuần LinkedIn)
+
+Repo Report (`Review_Ga4_GooglAd_Weekly`) lấy số LinkedIn của Semi qua file record, không gọi agent này. Contract đã ghim (SHA-256 `871b1bc6…9a66`, commit nguồn `89f485f9`) và hướng dẫn: `operations/weekly-records/linkedin/README.md`. Record lưu tại cùng thư mục `linkedin_<start>_<end>.json`; không chứa tiền/audience/creative/ID/PII; `null` ≠ `0`; không viết vào repo Report. Trước khi đọc LinkedIn phải chạy preflight chọn đúng tài khoản (`operations/weekly-records/linkedin/PREFLIGHT.md`): đúng là BM `DigiwinSoft ASEAN BM` / ad account `DigiwinSoft_SEA_Performance_Bao`, KHÔNG phải tài khoản cá nhân `Digiwin ASEAN` (On hold). Validator: `scripts/check_linkedin_weekly_record.py`. Đây là yêu cầu định dạng, không phải mandate live.
+
 ## Lưu ý khi làm việc
 
 - Repository nặng (`.git` ≈ 1,7 GB, ~4.900 file tracked): dùng Grep/Glob có phạm vi, tránh quét toàn repo và tránh đọc cả `CURRENT_STATE.md`/`README.md` (>80 KB mỗi file) khi chỉ cần banner đầu.

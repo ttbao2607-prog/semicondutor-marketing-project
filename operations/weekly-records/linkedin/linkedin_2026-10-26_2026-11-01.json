@@ -1,0 +1,60 @@
+{
+  "schema": "semi-awareness-weekly-record-v1",
+  "channel": "linkedin",
+  "period": {"start": "2026-10-26", "end": "2026-11-01", "timezone": "Asia/Ho_Chi_Minh"},
+  "observed_at": "2026-11-03T09:10:00+07:00",
+  "observer": "claude (repo Semi)",
+  "collection": {
+    "method": "linkedin_campaign_manager_ui_read",
+    "date_range_applied": "2026-11-01..2026-11-01 (UI hien 'Time in UTC': ngay UTC 01/11 = 07:00 gio VN 01/11 den 07:00 gio VN 02/11)",
+    "range_matches_period": false,
+    "clicks_definition": "Clicks (tat ca luot bam, cot hien thi mac dinh; Bao chon 02/11 — khong doi sang landing-page clicks)",
+    "ctr_definition": "total clicks / total impressions, tinh lai, khong lay trung binh CTR dong"
+  },
+  "delivery": {
+    "state": "active",
+    "first_delivery_at": null,
+    "days_with_delivery_in_period": ["2026-11-01"],
+    "days_eligible_in_period": ["2026-11-01"]
+  },
+  "units": [
+    {
+      "key": "f1",
+      "label": "F1 (treatment cold EN, wave 1)",
+      "impressions": 8, "clicks": 0, "ctr": 0, "reach": 8, "frequency": 1,
+      "read_status": "read",
+      "unavailable": {}
+    },
+    {
+      "key": "f2",
+      "label": "F2 (treatment cold EN, wave 1)",
+      "impressions": 27, "clicks": 0, "ctr": 0, "reach": 27, "frequency": 1,
+      "read_status": "read",
+      "unavailable": {}
+    }
+  ],
+  "totals": {
+    "impressions": 35, "clicks": 0, "ctr": 0,
+    "reach": 32, "frequency": 1.09,
+    "reach_note": "reach 32 la reach cap ad set do platform tra; khong cong reach cua F1+F2 (8+27=35 vi co nguoi thay ca hai ad)"
+  },
+  "internal_flags": {
+    "impression_ratio_over_3_to_1": true,
+    "delivery_below_expected": false,
+    "frequency_ge_2_with_reach": false
+  },
+  "limits": [
+    "So lieu doc theo ngay UTC 01/11 (UI ghi 'Time in UTC'), lech khoi tuan Mon-Sun gio Viet Nam: phan 00:00-07:00 gio VN 02/11 nam ngoai ky va phan 00:00-07:00 gio VN 01/11 khong co delivery. Ben Report quyet dinh co dung duoc khong.",
+    "Thoi diem impression dau tien khong hien tren UI; lich da duyet bat dau 07:00 01/11 gio VN.",
+    "Ads 'Active' khong phai da duyet.",
+    "Khac biet utm_source linkedin vs LinkedIn chua xac minh (C1).",
+    "Impressions F1:F2 lech hon 3:1 (K4): khong so sanh CTR giua F1 va F2.",
+    "GA4 chua doc; khong suy sessions tu clicks.",
+    "Khong phai lead, khong phai so sanh hieu qua."
+  ],
+  "evidence": {
+    "internal_receipt": "operations/weekly-records/linkedin/preflight/preflight_2026-10-26_2026-11-01.json",
+    "note": "receipt chi chua nhan hien thi tai khoan da doi chieu, khong co ID/URL; ben Report CHI ghim file record nay, khong chep receipt"
+  },
+  "supersedes": null
+}
